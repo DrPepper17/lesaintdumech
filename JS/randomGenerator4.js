@@ -220,7 +220,7 @@ const projects = [
     ['Blue Monday',['Sisquiede'],'SD',false,false,false,'UC','D',1,2022,6.76,false],
     ['Rocket Man',['Xi Gundam'],'SD',false,false,false,'UC','D',1,2022,6.5,false],
     ['MK Ultra',['Zaku II'],'RG',false,false,false,'UC','B'],
-    ['Zeong [RG',['Zeong'],'RG',true,false,false,'UC','E',8,2021,8.25,false],
+    ['Zeong [RG]',['Zeong'],'RG',true,false,false,'UC','E',8,2021,8.25,false],
     ['Starrider',['Zeta Gundam'],'SD',false,false,false,'UC','E',9,2021,6.83,false],
     ['Zeta [MG]',['Zeta Gundam'],'MG',true,false,false,'UC','C',4,2023,8,false],
 
@@ -322,4 +322,354 @@ const projects = [
     ['Akele',['Konig Wolf Heavy Arms'],'Zoid',false,false,false,'','A'],
     ['Kipling',['Liger Zero X'],'Zoid',false,false,false,'','B']
 ]
+
+//Initialize Arrays
+let outOfStockArray = [];
+let backlogArray = [];
+let inProgressArray = [];
+let constructedArray = [];
+let postedArray = [];
+let finishedArray = [];
+let pgBacklogArray = [];
+let mgBacklogArray = [];
+let fmBacklogArray = [];
+let rgBacklogArray = [];
+let hgBacklogArray = [];
+let mgsdBacklogArray = [];
+let sdBacklogArray = [];
+let pbBacklogArray = [];
+let sbBacklogArray = [];
+let carBacklogArray = [];
+let digiBacklogArray = [];
+let dispBacklogArray = [];
+let haroBacklogArray = [];
+let pokeBacklogArray = [];
+let shipBacklogArray = [];
+let transBacklogArray = [];
+let zoidBacklogArray = [];
+let backlogListArray = [pgBacklogArray,mgBacklogArray,fmBacklogArray,rgBacklogArray,hgBacklogArray,mgsdBacklogArray,sdBacklogArray,pbBacklogArray,sbBacklogArray,carBacklogArray,digiBacklogArray,dispBacklogArray,haroBacklogArray,pokeBacklogArray,shipBacklogArray,transBacklogArray,zoidBacklogArray];
+
+//Initialize Counts
+let init = 0;
+let outOfStockCount = 0;
+let backlogCount = 0;
+let inProgressCount = 0;
+let constructedCount = 0;
+let postedCount = 0;
+let finishedCount = 0;
+
+//Functions
+function insertLine (text,ID) {
+    const listNode = document.getElementById(ID);
+    const lineItemNode = document.createElement('li');
+    const textNode = document.createTextNode(text);
+    listNode.appendChild(lineItemNode);
+    lineItemNode.appendChild(textNode);
+}
+
+function cleanupArrays(array) {
+    if(array.length<1) {
+        array=['.....Out of Stock.....'];
+    }
+    return array;
+}
+
+function addTable () {
+    const table = document.querySelector(".table2");
+    table.style.display = "block";
+
+    let tempArray=0;
+    for (i=0;i<finishedArray.length;i++) {
+        tempArray=finishedArray[i];
+        insertLine(tempArray[0],'FP');
+    }
+    for (i=0;i<pgBacklogArray.length;i++) {
+        tempArray=pgBacklogArray[i];
+        insertLine(tempArray[0],'pgBL');
+    }
+    for (i=0;i<mgBacklogArray.length;i++) {
+        tempArray=mgBacklogArray[i]
+        insertLine(tempArray[0],'mgBL');
+    }
+    for (i=0;i<fmBacklogArray.length;i++) {
+        tempArray=fmBacklogArray[i];
+        insertLine(tempArray,'fmBL');
+    }
+    for (i=0;i<rgBacklogArray.length;i++) {
+        tempArray=rgBacklogArray[i];
+        insertLine(tempArray,'rgBL');
+    }
+    for (i=0;i<hgBacklogArray.length;i++) {
+        tempArray=hgBacklogArray[i];
+        insertLine(tempArray,'hgBL');
+    }
+    for (i=0;i<mgsdBacklogArray.length;i++) {
+        tempArray=mgsdBacklogArray[i];
+        insertLine(tempArray,'mgsdBL');
+    }
+    for (i=0;i<sdBacklogArray.length;i++) {
+        tempArray=sdBacklogArray[i];
+        insertLine(tempArray,'sdBL');
+    }
+    for (i=0;i<pbBacklogArray.length;i++) {
+        tempArray=pbBacklogArray[i];
+        insertLine(tempArray,'pbBL');
+    }
+    for (i=0;i<sbBacklogArray.length;i++) {
+        tempArray=sbBacklogArray[i];
+        insertLine(tempArray,'sbBL');
+    }
+    for (i=0;i<carBacklogArray.length;i++) {
+        tempArray=carBacklogArray[i];
+        insertLine(tempArray,'carBL');
+    }
+    for (i=0;i<digiBacklogArray.length;i++) {
+        tempArray=digiBacklogArray[i];
+        insertLine(tempArray,'dgBL');
+    }
+    for (i=0;i<dispBacklogArray.length;i++) {
+        tempArray=dispBacklogArray[i];
+        insertLine(tempArray,'dspBL');
+    }
+    for (i=0;i<haroBacklogArray.length;i++) {
+        tempArray=haroBacklogArray[i];
+        insertLine(tempArray,'haroBL');
+    }
+    for (i=0;i<pokeBacklogArray.length;i++) {
+        tempArray=pokeBacklogArray[i];
+        insertLine(tempArray,'pokeBL');
+    }
+    for (i=0;i<shipBacklogArray.length;i++) {
+        tempArray=shipBacklogArray[i];
+        insertLine(tempArray,'shipBL');
+    }
+    for (i=0;i<transBacklogArray.length;i++) {
+        tempArray=transBacklogArray[i];
+        insertLine(tempArray,'transBL');
+    }
+    for (i=0;i<zoidBacklogArray.length;i++) {
+        tempArray=zoidBacklogArray[i];
+        insertLine(tempArray,'zoidBL');
+    }
+    for (i=0;i<outOfStockArray.length;i++) {
+        tempArray=outOfStockArray[i];
+        insertLine(tempArray[0],'OOS');
+    }
+    
+    const finishNode = document.getElementById('FP').parentNode;
+    const totalFinishedNode = document.createTextNode(finishedCount); 
+    finishNode.appendChild(totalFinishedNode); 
+}
+
+function generateLists() {
+    let tempArray = [];
+    
+    //Out of Stock
+    for (let i=0;i<projects.length;i++) {
+        tempArray = projects[i];
+        if (tempArray[7] === 'A') {
+            outOfStockArray.push(tempArray);
+        }
+    }
+    outOfStockCount = outOfStockArray.length;
+
+    //Backlog
+    for (let i=0;i<projects.length;i++) {
+        tempArray = projects[i];
+        if (tempArray[7] === 'B') {
+            backlogArray.push(tempArray);
+        }
+    }
+    backlogCount = backlogArray.length;
+
+    //In Progress
+    for (let i=0;i<projects.length;i++) {
+        tempArray = projects[i];
+        if (tempArray[7] === 'C') {
+            inProgressArray.push(tempArray);
+        }
+    }
+    inProgressCount = inProgressArray.length;
+
+    //Constructed 
+    for (let i=0;i<projects.length;i++) {
+        tempArray = projects[i];
+        if (tempArray[7] === 'D') {
+            constructedArray.push(tempArray);
+        }
+    }
+    constructedCount = constructedArray.length;
+
+    //Posted
+    for (let i=0;i<projects.length;i++) {
+        tempArray = projects[i];
+        if (tempArray[7] === 'E') {
+            postedArray.push(tempArray);
+        }
+    }
+    postedCount = postedArray.length;
+
+    //Finished
+    finishedArray = constructedArray.concat(postedArray);
+    finishedCount = constructedCount + postedCount;
+
+    //In Progress by Grade
+    for (let i=0;i<inProgressArray.length;i++) {
+        tempArray = inProgressArray[i];
+        if (tempArray[3]) {
+            sbBacklogArray.push(tempArray[0]);
+        }
+        else if (tempArray[4]) {
+            pbBacklogArray.push(tempArray[0]);
+        }
+        else if (tempArray[2]==='MG') {
+            mgBacklogArray.push(tempArray[0]);
+        }
+        else if (tempArray[2]==='FM') {
+            fmBacklogArray.push(tempArray[0]);
+        }
+        else if (tempArray[2]==='RG') {
+            rgBacklogArray.push(tempArray[0]);
+        }
+        else if (tempArray[2]==='HG') {
+            hgBacklogArray.push(tempArray[0]);
+        }
+        else if (tempArray[2]==='MGSD') {
+            mgsdBacklogArray.push(tempArray[0]);
+        }
+        else if (tempArray[2]==='SD') {
+            sdBacklogArray.push(tempArray[0]);
+        }
+        else if (tempArray[2]==='Car') {
+            carBacklogArray.push(tempArray[0]);
+        }
+        else if (tempArray[2]==='Digimon') {
+            digiBacklogArray.push(tempArray[0]);
+        }
+        else if (tempArray[2]==='Display') {
+            dispBacklogArray.push(tempArray[0]);
+        }
+        else if (tempArray[2]==='Haro') {
+            haroBacklogArray.push(tempArray[0]);
+        }
+        else if (tempArray[2]==='Pokemon') {
+            pokeBacklogArray.push(tempArray[0]);
+        }
+        else if (tempArray[2]==='Ship') {
+            shipBacklogArray.push(tempArray[0]);
+        }
+        else if (tempArray[2]==='Transformer') {
+            transBacklogArray.push(tempArray[0]);
+        }
+        else if (tempArray[2]==='Zoid') {
+            zoidBacklogArray.push(tempArray[0]);
+        }
+    }
+
+    //Sort Alphabetically
+    outOfStockArray.sort();
+    backlogArray.sort();
+    inProgressArray.sort();
+    constructedArray.sort();
+    postedArray.sort();
+    finishedArray.sort();
+    pgBacklogArray.sort();
+    mgBacklogArray.sort();
+    fmBacklogArray.sort();
+    rgBacklogArray.sort();
+    hgBacklogArray.sort();
+    mgsdBacklogArray.sort();
+    sdBacklogArray.sort();
+    pbBacklogArray.sort();
+    sbBacklogArray.sort();
+    carBacklogArray.sort();
+    digiBacklogArray.sort();
+    dispBacklogArray.sort();
+    haroBacklogArray.sort();
+    pokeBacklogArray.sort();
+    shipBacklogArray.sort();
+    transBacklogArray.sort();
+    zoidBacklogArray.sort();
+
+    //Clean up in progress lists
+    pgBacklogArray = cleanupArrays(pgBacklogArray);
+    mgBacklogArray = cleanupArrays(mgBacklogArray);
+    fmBacklogArray = cleanupArrays(fmBacklogArray);
+    rgBacklogArray = cleanupArrays(rgBacklogArray);
+    hgBacklogArray = cleanupArrays(hgBacklogArray);
+    mgsdBacklogArray = cleanupArrays(mgsdBacklogArray);
+    sdBacklogArray = cleanupArrays(sdBacklogArray);
+    pbBacklogArray = cleanupArrays(pbBacklogArray);
+    sbBacklogArray = cleanupArrays(sbBacklogArray);
+    carBacklogArray = cleanupArrays(carBacklogArray);
+    digiBacklogArray = cleanupArrays(digiBacklogArray);
+    dispBacklogArray = cleanupArrays(dispBacklogArray);
+    haroBacklogArray = cleanupArrays(haroBacklogArray);
+    pokeBacklogArray = cleanupArrays(pokeBacklogArray);
+    shipBacklogArray = cleanupArrays(shipBacklogArray);
+    transBacklogArray = cleanupArrays(transBacklogArray);
+    zoidBacklogArray = cleanupArrays(zoidBacklogArray);
+}
+
+function gradeEdifier(array) {
+    let grade = array[2];
+    
+    if (grade === 'PG') {
+        grade = 'Perfect Grade';
+    }
+   if (grade === 'MG') {
+        grade = 'Master Grade';
+    }
+    if (grade === 'FM') {
+        grade = 'Full Mechanics';
+    }
+    if (grade === 'RG') {
+        grade = 'Real Grade';
+    }
+    if (grade === 'HG') {
+        grade = 'High Grade';
+    }
+    if (grade === 'SD') {
+        grade = 'Super Deformed';
+    }
+    if (array[3]) {
+        grade = 'Straight Build';
+    }
+    if (array[4]) {
+        grade = 'P-Bandai';
+    }
+    if (array[5]) {
+        grade = 'MGEX';
+    }
+
+    return grade;
+}
+
+function generateRandomBuild() {
+    if (init<1) {
+        generateLists();
+        addTable();
+        init++;
+    }
+
+    const nextGradeNode = document.getElementById('nextGradeID');
+    const nextBuildNode = document.getElementById('nextBuildID');
+    const nextBacklogNode = document.getElementById('backlogID');
+    nextGradeNode.removeChild(nextGradeNode.firstChild);
+    nextBuildNode.removeChild(nextBuildNode.firstChild);
+    nextBacklogNode.removeChild(nextBacklogNode.firstChild);
+
+    let randomNum = Math.floor(Math.random()*backlogArray.length);
+    let randomSelection = backlogArray[randomNum];
+    let selectedBuild = randomSelection[0];
+    let selectedGrade = gradeEdifier(randomSelection);
+
+    const buildNode = document.createTextNode(selectedBuild);
+    const gradeNode = document.createTextNode(selectedGrade);
+    const backlogNode = document.createTextNode(backlogCount);
+    nextBuildNode.appendChild(buildNode);
+    nextGradeNode.appendChild(gradeNode);
+    nextBacklogNode.appendChild(backlogNode);
+
+}
 

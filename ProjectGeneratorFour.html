@@ -1,11 +1,11 @@
 <html lang="en-us">
     <head>
         <meta charset="utf-8" />
-        <title>Project Generator 2</title>
+        <title>Project Generator 4</title>
         <link rel="stylesheet" href="css/home.css" />
     </head>
     <body>
-        <h1 >Project Selector 3</h1> 
+        <h1 >Project Selector 4</h1> 
         <div style="text-align: right; padding-right: 100px"><a href="index.html">Home Page</a></div>
         <table class="table1">
             <thead>
@@ -15,8 +15,8 @@
                 </tr>
             </thead>
             <tr>
-                <th id="nextGrade" class="first">...</th>
-                <th id="nextBuild" class="project">...</th>
+                <th id="nextGradeID" class="first">...</th>
+                <th id="nextBuildID" class="project">...</th>
             </tr>
             <tr class="third">
                 <th>Backlog: </th>
@@ -25,7 +25,7 @@
         </table>
 
         <p>
-            <button type="button" onclick="ascentOfMan()">What should I build?</button>
+            <button type="button" onclick="generateRandomBuild()">What should I build?</button>
         </p>
         
         <table class="table2">
@@ -40,6 +40,8 @@
                     Total Completed: 
                 </th>
                 <th class="project">
+                    <h3>PG</h3>
+                    <ul id="pgBL"></ul>
                     <h3>MG</h3>
                     <ul id="mgBL"></ul>
                     <h3>FM</h3>
@@ -56,6 +58,8 @@
                     <ul id="pbBL"></ul>
                     <h3>Straight Build</h3>
                     <ul id="sbBL"></ul>
+                    <h3>Car</h3>
+                    <ul id="carBL"></ul>
                     <h3>Digimon</h3>
                     <ul id="dgBL"></ul>
                     <h3>Display</h3>
@@ -66,6 +70,8 @@
                     <ul id="pokeBL"></ul>
                     <h3>Ship</h3>
                     <ul id="shipBL"></ul>
+                    <h3>Transformers</h3>
+                    <ul id="transBL"></ul>
                     <h3>Zoid</h3>
                     <ul id="zoidBL"></ul>
                 </th>
