@@ -22,7 +22,7 @@
 //Pojects
 const projects = [
     //Ad Stella (Mercury)
-    ['Aerial Permet Six',['Aerial'],'HG',false,false,false,'Mercury','A'],
+    ['Aerial Permet Six',['Aerial'],'HG',false,true,false,'Mercury','A'],
     ['Ariel',['Aerial','Mirasoul Flight Pack'],'HG',false,false,false,'Mercury','B'],
     ['Cherub',['Aerial'],'SD',false,false,false,'Mercury','D',1,2023,4.91,false],
     ['Azrael',['Dilanza, Guel\'s'],'HG',false,false,false,'Mercury','E',1,2023,12.14,false],
@@ -171,7 +171,7 @@ const projects = [
     ['Beleth',['Dark Gundam'],'SD',false,false,false,'G','B'],
     ['Belial',['Dark Gundam'],'HG',false,false,false,'G','B'],
     ['Dark Gundam [SD]',['Dark Gundam'],'SD',true,false,false,'G','D',8,2022,1.75,false],
-    ['Paimon',['Dark Gundam'],'HG',false,false,false,'G','B'],
+    ['Paimon',['Dark Gundam'],'SD',false,false,false,'G','B'],
     ['Gundam Rose [HG]',['Rose Gundam'],'HG',true,true,false,'G','A'],
     ['Le Roi Soleil',['Rose Gundam'],'HG',false,false,false,'G','E',8,2022,4.17,false],
     ['Gabriel',['Shining Gundam'],'SD',false,false,false,'G','B'],
@@ -189,7 +189,7 @@ const projects = [
     ['\u00dcbermensch',['Vidar'],'FM',false,false,false,'IBO','B'],
 
     //Universal Century
-    ['DewDrop',['Acguy'],'SD',false,false,false,'UC','B'],
+    ['DewDrop',['Acguy'],'HG',false,false,false,'UC','B'],
     ['Fantomas',['Banshee Norn'],'SD',false,false,false,'UC','E',6,2021,15.02,true],
     ['King Uranus',['Banshee Norn'],'RG',false,false,false,'UC','B'],
     ['Gundam ARRRgent',['Crossbone X-1'],'SD',false,false,false,'UC','E',6,2021,14.09,false],
@@ -230,7 +230,7 @@ const projects = [
     //Build Divers (BD)
     ['Trans-Am Clear 00 Diver [HG]',['00 Gundam Diver'],'HG',true,true,false,'BD','E',1,2022,2.75,false],
     ['King Milky Way',['Astray Rebake'],'HG',false,false,false,'BD','B'],
-    ['Four Horsemen',['Barbataurus'],'HG',false,false,false,,'BD','B'],
+    ['Four Horsemen',['Barbataurus'],'HG',false,false,false,'BD','B'],
     ['King Sol',['Helios'],'HG',false,false,false,'BD','B'],
     ['King Jupiter',['Livelance'],'HG',false,false,false,'BD','B'],
     ['King Pluto',['QAN[T], Command'],'HG',false,false,false,'BD','B'],
@@ -347,6 +347,7 @@ let pokeBacklogArray = [];
 let shipBacklogArray = [];
 let transBacklogArray = [];
 let zoidBacklogArray = [];
+let pbUndeliveredArray = [];
 let backlogListArray = [pgBacklogArray,mgBacklogArray,fmBacklogArray,rgBacklogArray,hgBacklogArray,mgsdBacklogArray,sdBacklogArray,pbBacklogArray,sbBacklogArray,carBacklogArray,digiBacklogArray,dispBacklogArray,haroBacklogArray,pokeBacklogArray,shipBacklogArray,transBacklogArray,zoidBacklogArray];
 
 //Initialize Counts
@@ -379,27 +380,27 @@ function addTable () {
     table.style.display = "block";
 
     let tempArray=0;
-    for (i=0;i<finishedArray.length;i++) {
-        tempArray=finishedArray[i];
+    for (let i=0;i<postedArray.length;i++) {
+        tempArray=postedArray[i];
         insertLine(tempArray[0],'FP');
     }
-    for (i=0;i<pgBacklogArray.length;i++) {
+    for (let i=0;i<pgBacklogArray.length;i++) {
         tempArray=pgBacklogArray[i];
-        insertLine(tempArray[0],'pgBL');
+        insertLine(tempArray,'pgBL');
     }
-    for (i=0;i<mgBacklogArray.length;i++) {
+    for (let i=0;i<mgBacklogArray.length;i++) {
         tempArray=mgBacklogArray[i]
-        insertLine(tempArray[0],'mgBL');
+        insertLine(tempArray,'mgBL');
     }
-    for (i=0;i<fmBacklogArray.length;i++) {
+    for (let i=0;i<fmBacklogArray.length;i++) {
         tempArray=fmBacklogArray[i];
         insertLine(tempArray,'fmBL');
     }
-    for (i=0;i<rgBacklogArray.length;i++) {
+    for (let i=0;i<rgBacklogArray.length;i++) {
         tempArray=rgBacklogArray[i];
         insertLine(tempArray,'rgBL');
     }
-    for (i=0;i<hgBacklogArray.length;i++) {
+    for (let i=0;i<hgBacklogArray.length;i++) {
         tempArray=hgBacklogArray[i];
         insertLine(tempArray,'hgBL');
     }
@@ -407,120 +408,102 @@ function addTable () {
         tempArray=mgsdBacklogArray[i];
         insertLine(tempArray,'mgsdBL');
     }
-    for (i=0;i<sdBacklogArray.length;i++) {
+    for (let i=0;i<sdBacklogArray.length;i++) {
         tempArray=sdBacklogArray[i];
         insertLine(tempArray,'sdBL');
     }
-    for (i=0;i<pbBacklogArray.length;i++) {
+    for (let i=0;i<pbBacklogArray.length;i++) {
         tempArray=pbBacklogArray[i];
         insertLine(tempArray,'pbBL');
     }
-    for (i=0;i<sbBacklogArray.length;i++) {
+    for (let i=0;i<sbBacklogArray.length;i++) {
         tempArray=sbBacklogArray[i];
         insertLine(tempArray,'sbBL');
     }
-    for (i=0;i<carBacklogArray.length;i++) {
+    for (let i=0;i<carBacklogArray.length;i++) {
         tempArray=carBacklogArray[i];
         insertLine(tempArray,'carBL');
     }
-    for (i=0;i<digiBacklogArray.length;i++) {
+    for (let i=0;i<digiBacklogArray.length;i++) {
         tempArray=digiBacklogArray[i];
         insertLine(tempArray,'dgBL');
     }
-    for (i=0;i<dispBacklogArray.length;i++) {
+    for (let i=0;i<dispBacklogArray.length;i++) {
         tempArray=dispBacklogArray[i];
         insertLine(tempArray,'dspBL');
     }
-    for (i=0;i<haroBacklogArray.length;i++) {
+    for (let i=0;i<haroBacklogArray.length;i++) {
         tempArray=haroBacklogArray[i];
         insertLine(tempArray,'haroBL');
     }
-    for (i=0;i<pokeBacklogArray.length;i++) {
+    for (let i=0;i<pokeBacklogArray.length;i++) {
         tempArray=pokeBacklogArray[i];
         insertLine(tempArray,'pokeBL');
     }
-    for (i=0;i<shipBacklogArray.length;i++) {
+    for (let i=0;i<shipBacklogArray.length;i++) {
         tempArray=shipBacklogArray[i];
         insertLine(tempArray,'shipBL');
     }
-    for (i=0;i<transBacklogArray.length;i++) {
+    for (let i=0;i<transBacklogArray.length;i++) {
         tempArray=transBacklogArray[i];
         insertLine(tempArray,'transBL');
     }
-    for (i=0;i<zoidBacklogArray.length;i++) {
+    for (let i=0;i<zoidBacklogArray.length;i++) {
         tempArray=zoidBacklogArray[i];
         insertLine(tempArray,'zoidBL');
     }
-    for (i=0;i<outOfStockArray.length;i++) {
+    for (let i=0;i<outOfStockArray.length;i++) {
         tempArray=outOfStockArray[i];
         insertLine(tempArray[0],'OOS');
     }
+    for (let i=0;i<pbUndeliveredArray.length;i++) {
+        tempArray=pbUndeliveredArray[i];
+        insertLine(tempArray,'OOSPB');
+    }
     
     const finishNode = document.getElementById('FP').parentNode;
-    const totalFinishedNode = document.createTextNode(finishedCount); 
+    const totalFinishedNode = document.createTextNode(postedCount); 
     finishNode.appendChild(totalFinishedNode); 
 }
 
 function generateLists() {
     let tempArray = [];
     
-    //Out of Stock
     for (let i=0;i<projects.length;i++) {
         tempArray = projects[i];
-        if (tempArray[7] === 'A') {
+        if (tempArray[7] === 'A' && tempArray[4]) {
+            pbUndeliveredArray.push(tempArray[0]);
+        }
+        else if (tempArray[7] === 'A') {
             outOfStockArray.push(tempArray);
         }
-    }
-    outOfStockCount = outOfStockArray.length;
-
-    //Backlog
-    for (let i=0;i<projects.length;i++) {
-        tempArray = projects[i];
-        if (tempArray[7] === 'B') {
+        else if (tempArray[7] === 'B') {
             backlogArray.push(tempArray);
         }
-    }
-    backlogCount = backlogArray.length;
-
-    //In Progress
-    for (let i=0;i<projects.length;i++) {
-        tempArray = projects[i];
-        if (tempArray[7] === 'C') {
+        else if (tempArray[7] === 'C') {
             inProgressArray.push(tempArray);
         }
-    }
-    inProgressCount = inProgressArray.length;
-
-    //Constructed 
-    for (let i=0;i<projects.length;i++) {
-        tempArray = projects[i];
-        if (tempArray[7] === 'D') {
+        else if (tempArray[7] === 'D') {
             constructedArray.push(tempArray);
         }
-    }
-    constructedCount = constructedArray.length;
-
-    //Posted
-    for (let i=0;i<projects.length;i++) {
-        tempArray = projects[i];
-        if (tempArray[7] === 'E') {
+        else if (tempArray[7] === 'E') {
             postedArray.push(tempArray);
         }
     }
+    outOfStockCount = outOfStockArray.length;
+    backlogCount = backlogArray.length;
+    inProgressCount = inProgressArray.length;
+    constructedCount = constructedArray.length;
     postedCount = postedArray.length;
 
-    //Finished
-    finishedArray = constructedArray.concat(postedArray);
-    finishedCount = constructedCount + postedCount;
-
-    //In Progress by Grade
-    for (let i=0;i<inProgressArray.length;i++) {
-        tempArray = inProgressArray[i];
-        if (tempArray[3]) {
-            sbBacklogArray.push(tempArray[0]);
-        }
-        else if (tempArray[4]) {
+    //Backlog by Grade
+    for (let i=0;i<backlogArray.length;i++) {
+        tempArray = backlogArray[i];
+        if (tempArray[4]) {
             pbBacklogArray.push(tempArray[0]);
+        }
+        else if (tempArray[3]) {
+            sbBacklogArray.push(tempArray[0]);
         }
         else if (tempArray[2]==='MG') {
             mgBacklogArray.push(tempArray[0]);
@@ -590,6 +573,7 @@ function generateLists() {
     shipBacklogArray.sort();
     transBacklogArray.sort();
     zoidBacklogArray.sort();
+    pbUndeliveredArray.sort();
 
     //Clean up in progress lists
     pgBacklogArray = cleanupArrays(pgBacklogArray);
@@ -609,6 +593,7 @@ function generateLists() {
     shipBacklogArray = cleanupArrays(shipBacklogArray);
     transBacklogArray = cleanupArrays(transBacklogArray);
     zoidBacklogArray = cleanupArrays(zoidBacklogArray);
+    pbUndeliveredArray = cleanupArrays(pbUndeliveredArray);
 }
 
 function gradeEdifier(array) {
