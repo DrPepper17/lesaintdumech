@@ -1,0 +1,28 @@
+export let cellsList = ['mgID','fmID','rgID','hgID','mgsdID','sdID','pbID','strID','digiID','dispID','haroID','pokeID','shipID','zoidID','prefID','backlogID'];
+
+export let pgList = ['Strike [PG]'];
+export let mgList = ['Bald Eagle','Battra','Billy Blue Jay','Charizard','Dark Zero EW','Dynamo','Eclipse','Fiery Mothra','Golden Ghidorah','Napoleon','Oppression','Red Baron 2','Servitude','Snow White','Thin Blue Line','Thorn','Union Jack','Urban Commando','Zero EW Traditional','Zero EW ???'];
+export let fmList = ['Calmitous Godzilla','Rodan','Ubermensch','Zoroaster'];
+export let rgList = ['Dark Zero EW [RG]','Fiery Mothra [RG]','Golden Ghidorah [RG]','King Neptune','King Uranus','LunchTime Solutions','MK Ultra','Silver n Gold','Snow White [RG]','Umbrella Corp','Zero EW Traditional [RG]','Zero EW ??? [RG]'];
+export let hgList = ['Adriel','Ariel','Baal','Balam','Belial','DewDrop','Four Horsemen','Furcas','Gamma Draconis','King Earth','King Jupiter','King Mercury','King Milky Way','King Pluto','King Saturn','King Sol','Queen Luna','Queen Venus','Samus'];
+export let mgsdList = ['Old Glory']
+export let sdList = ['AntiFreedom','AntiJustice','Artemis','Asmodeus','Astraeus','Beleth','Clymene','Coeus','Crius','Cronus','Dark Zero EW [SD]','Dei Lucrii','Eos','Eurybia','Fiery Mothra [SD]','Gabriel','Hyperion','Iapetus','Metallic Strike','Metatron','Michael','Milos','Mnemosyne','Nachtigall','Paimon','Pallas','Perses','Pharaoh','Pontus','Prometheus','Quetzalcoatl','Raphael','Rhea','Selene','Snow White [SD]','Tiamat','Themis','Uriel','Zero EW Traditional [SD]','Zero EW ??? [SD]'];
+export let pokeList = ['Asterix','Boudica','Cacafonix','Getafix','Obelix','Vercingetorix'];
+export let digiList = ['Heimdall','Jormungandr','Loki','Nidhogg','Revelation'];
+export let dispList = ['Battlefield Earth'];
+export let shipList = ['Gregale','Levante','Mistral','Ponente','Sirocco','Tramontane'];
+export let zoidList = ['Akela','Dash Hound','Kipling','Shere Khan'];
+export let haroList = ['Haro Blue','Haro Cloud','Haro Green','Haro Lime','Haro Orange','Haro Pink','Haro Purple','Haro Red'];
+export let strList = ['Epyon [RG]','LFrith [HG]','Raider [FM]','Zeta [MG]'];
+export let PBList = ['PB Deathscythe Hell [TV-version]','PB Destiny Impulse Regenes [MG]','PB Destiny Impulse [RG]','PB Flugel Sparkel','PB Lightning Strike','PB Meteors'];
+
+export let builds = ['Master Grade','Full Mechanics','Real Grade','High Grade','Master Grade SD','Super Deformed','P-Bandai','Straight Build','Digimon','Display','Haropla','Pokemon','Ship','Zoid'];
+
+export let gradeList = [mgList,fmList,rgList,hgList,mgsdList,sdList,PBList,strList,digiList,dispList,haroList,pokeList,shipList,zoidList];
+export let newgradeList = [];
+
+export let inProgressList = ['Leos','Nena','Deep Purple','Stardust','Starman','Strike Verde','S.A.T.O.','Blue Monday','Rocket Man','Ziggy','Helios','Tethys','Oceanus','Corona Austraulis','Corona Borealis','Phoebe','King Mars','CrossBone [RG]','PB Tallgeese Flugel [MG]','Wing Zero EW KA [MG','God Gundam [RG] + PB Expansion Kit','Theia','Raider [FM]','Vine','Jericho','Sealiah','Freedom [MGSD]','PB Strike Freedom Deactive [RG]','PB Strike Daggers','Strike Freedom [MGEX]','Vercingetorix','Boudica','Asterix','PB Yzak Jule Phantom Zaku [MG]','Haro Red','Haro Blue','Haro Green','Haro Pink','Haro Purple','Haro Orange','Zeta [MG]','Haro Lime','Haro Cloud','LFrith [HG]','PB Destiny Impulse Regenes [MG]','Old Glory','Strike [PG]'];
+
+export let finishedList = ['GuerillaArms','Red Baron','Hud-Air','South Park','Gundam \u03C0','Gundam Umlaut \xD6\xD6','Fluorescent','ARRRRgent Gundam','King Leir','Nephilim','Fantomas','ThunderQAN[T]','Eternal','Archangel','Dominion','Gemini','Gold Dust Woman','Wing Gundam [RG]','Gundam Wild Wings','Moonage Daydream','letellation','Guapo','Zeong [RG]','Diurnum','Gaebora','Kataluma','Stratle','PB Clear Wing Zero [RG]','Oowashi Akatsuki [HG]','Rising Sun','PB Clear Infinite Justice [RG]','Oberon','Charizard X','Armageddon','PB Trans-Am Clear Exia [RG]','St Dominic','PB Trans-Am Clear 00 Raiser [RG]','Azalea','Liberty','Anthem','Jackie-O','Ostro','PB Trans-Am Clear 00 QAN[T] [RG]','Charlie Daniels','PB Trans-Am Clear 00 Diver [HG]','Granfrog','Bastiat','Pacifist','Don\'\t Tread On Ye','PB Perfect Strike [RG]','Fenrir','Double X [HG]','Fafnir','Double X [MG]','Ragnarok','Biohazard','Corona Virus','PB Zabanya [Final Battle][HG]','Interstellar','PB Harute [Final Battle][HG]','Thor','PB Shin Musha [MG]','Le Roi Soleil','Skygrasper [RG]','Skygrasper [PG]','Blue Angels','Wilbur','Wilbee','Virtue & Nadlee [MG]','Malphas','Eclipe & PB Maneuver Striker [MG]','Libeccio','John Wayne','Mighty Morphin Power Rangers','Azrael','Starrider','Titan','Sovereign','Bella Donna','Iron Maiden','PB Geminass 01 [HG] + PB Geminass Assault Booster & High Mobility Exanpsion Set','Der Kommissar','Major Tom','War Pig','PB BB Senshi RX-93ff \u03BD [SD]','PB RX-93ff \u03BD [RG]','Zero Metal','Isaac','King David'];
+
+export let notInInventory = ['Akela','Artemis','Astraeus','Battlefield Earth','Clymene','Coeus','Cronus','Dark Zero EW [RG]','Dark Zero EW [SD]','Dash Hound','PB Deathscythe Hell [TV-version]','Dei Lucrii','Eos','Epyon [RG]','Fiery Mothra [RG]','Fiery Mothra [SD]','Golden Ghidorah [RG]','Gregale','Heimdall','Jormungandr','Levante','Loki','Mistral','Nidhogg','Perses','Pharaoh','Red Baron 2','Revelation','Rodan','Sirocco','Snow White [RG]','Snow White [SD]','Themis','Tiamat','Tramontane','Union Jack','Zero EW Traditional [RG]','Zero EW Traditional [SD]','Zero EW ??? [RG]','Zero EW ??? [SD]'];

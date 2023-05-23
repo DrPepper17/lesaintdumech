@@ -1,0 +1,97 @@
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8" />
+        <title>Project Generator 2</title>
+        <link rel="stylesheet" href="css/home.css" />
+    </head>
+    <body>
+        <h1 >Project Selector 3</h1> 
+        <div style="text-align: right; padding-right: 100px"><a href="index.html">Home Page</a></div>
+        <table class="table1">
+            <thead>
+                <tr>
+                    <th>Category</th>
+                    <th class="project">Project</th>
+                </tr>
+            </thead>
+            <tr>
+                <th id="nextGrade" class="first">...</th>
+                <th id="nextBuild" class="project">...</th>
+            </tr>
+            <tr class="third">
+                <th>Backlog: </th>
+                <th id="backlogID">&lt;Projects&gt;</th>
+            </tr>
+        </table>
+
+        <p>
+            <button type="button" onclick="ascentOfMan()">What should I build?</button>
+        </p>
+        
+        <table class="table2">
+            <thead>
+                <th>Finished Projects</th>
+                <th>Backlog</th>
+                <th>Out of Inventory</th>
+            </thead>
+            <tr>
+                <th class="project">
+                    <ul id="FP"></ul>
+                    Total Completed: 
+                </th>
+                <th class="project">
+                    <h3>MG</h3>
+                    <ul id="mgBL"></ul>
+                    <h3>FM</h3>
+                    <ul id="fmBL"></ul>
+                    <h3>RG</h3>
+                    <ul id="rgBL"></ul>
+                    <h3>HG</h3>
+                    <ul id="hgBL"></ul>
+                    <h3>MGSD</h3>
+                    <ul id="mgsdBL"></ul>
+                    <h3>SD</h3>
+                    <ul id="sdBL"></ul>
+                    <h3>P-Bandai</h3>
+                    <ul id="pbBL"></ul>
+                    <h3>Straight Build</h3>
+                    <ul id="sbBL"></ul>
+                    <h3>Digimon</h3>
+                    <ul id="dgBL"></ul>
+                    <h3>Display</h3>
+                    <ul id="dspBL"></ul>
+                    <h3>Haropla</h3>
+                    <ul id="haroBL"></ul>
+                    <h3>Pokemon</h3>
+                    <ul id="pokeBL"></ul>
+                    <h3>Ship</h3>
+                    <ul id="shipBL"></ul>
+                    <h3>Zoid</h3>
+                    <ul id="zoidBL"></ul>
+                </th>
+                <th class="project">
+                    <ul id="OOS"></ul>
+                </th>
+            </tr>
+        </table>
+
+        <table class="table3">
+            <thead><th class="hiddenBorder">In Progress:</th></thead>
+            <tr>
+                <th class="hiddenBorder"><ul id="progOne"></ul></th>
+                <th class="hiddenBorder"><ul id="progTwo"></ul></th>
+                <th class="hiddenBorder"><ul id="progThree"></ul></th>
+            </tr>
+            <tr>
+                <th class="hiddenBorder"></th>
+                <th class="hiddenBorder" style="text-align: right"><button type="button" onclick="randomPost()">What should I post?: </button></th>
+                <th class="hiddenBorder" id="toPost"> </th>
+            </tr>
+        </table>
+
+        <p>
+            <a href="index.html">Home Page</a>
+        </p>
+        <script src="js/randomGenerator3.js"></script>
+    </body>
+</html>
