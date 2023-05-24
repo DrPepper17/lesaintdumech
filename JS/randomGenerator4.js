@@ -47,7 +47,7 @@ const projects = [
     ['Guerilla Arms',['Heavy Arms'],'MG',false,false,false,'Wing','E',4,2021,60.07,false],
     ['Phoebe',['Maganac Corps'],'SD',false,false,false,'Wing','D',4,2022,8.42,false],
     ['Isaac'['Proto-Zero'],'SD',false,false,false,'Wing','E',2,2023,14.14,false],
-    ['Jericho',['Proto-Zero'],'HG',false,false,false,'Wing','D',1,2023,12.79,false],
+    ['Jericho',['Proto-Zero'],'HG',false,false,false,'Wing','E',1,2023,12.79,false],
     ['King David',['Proto-Zero'],'MG',false,false,false,'Wing','E',3,2023,52.11,true],
     ['Metal Zero',['Proto-Zero'],'SD',false,false,false,'Wing','E',1,2023,14.19,false],
     ['Proto-Zero [SD]',['Proto-Zero'],'SD',true,false,false,'Wing','E',12,2021,1.67,false],
