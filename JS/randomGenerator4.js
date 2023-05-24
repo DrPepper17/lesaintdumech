@@ -375,7 +375,7 @@ function cleanupArrays(array) {
     return array;
 }
 
-function addTable () {
+function addTable() {
     const table = document.querySelector(".table2");
     table.style.display = "block";
 
@@ -464,6 +464,94 @@ function addTable () {
     const finishNode = document.getElementById('FP').parentNode;
     const totalFinishedNode = document.createTextNode(postedCount); 
     finishNode.appendChild(totalFinishedNode); 
+}
+
+function addInProgress() {
+    const table = document.querySelector(".table3");
+    table.style.display = "block";
+    
+    let progressOne = [];
+    let progressTwo = [];
+    let progressThree = [];
+    let tempArray = [];
+    let loop = 1;
+
+    for (let i=0;i<inProgressArray.length;i++) {
+        if (loop === 1) {
+            tempArray = inProgressArray[i]
+            progressOne.push(tempArray[0]);
+            loop++;
+        }
+        else if (loop === 2) {
+            tempArray = inProgressArray[i]
+            progressTwo.push(tempArray[0]);
+            loop++;
+        }
+        else {
+            tempArray = inProgressArray[i]
+            progressThree.push(tempArray[0]);
+            loop = 1;
+        }
+    }
+
+    for (let i=0;i<progressOne.length;i++) {
+        insertLine(progressOne[i],'progOne');
+    }
+    for (let i=0;i<progressTwo.length;i++) {
+        insertLine(progressTwo[i],'progTwo');
+    }
+    for (let i=0;i<progressThree.length;i++) {
+        insertLine(progressThree[i],'progThree');
+    }
+}
+
+function addConstructed() {
+    const table = document.querySelector(".table4");
+    table.style.display = "block";
+    
+    let constructOne = [];
+    let constructTwo = [];
+    let constructThree = [];
+    let tempArray = [];
+    let loop = 1;
+
+    for (let i=0;i<constructedArray.length;i++) {
+        if (loop === 1) {
+            tempArray = constructedArray[i]
+            constructOne.push(tempArray[0]);
+            loop++;
+        }
+        else if (loop === 2) {
+            tempArray = constructedArray[i]
+            constructTwo.push(tempArray[0]);
+            loop++;
+        }
+        else {
+            tempArray = constructedArray[i]
+            constructThree.push(tempArray[0]);
+            loop = 1;
+        }
+    }
+
+    for (let i=0;i<constructOne.length;i++) {
+        insertLine(constructOne[i],'constOne');
+    }
+    for (let i=0;i<constructTwo.length;i++) {
+        insertLine(constructTwo[i],'constTwo');
+    }
+    for (let i=0;i<constructThree.length;i++) {
+        insertLine(constructThree[i],'constThree');
+    }
+}
+
+function suggestNextPost () {
+    const suggestPostNode = document.getElementById('toPost');
+    suggestPostNode.removeChild(suggestPostNode.firstChild);
+    
+    let decisionNumber = Math.floor(Math.random()*constructedCount)+1;
+    let tempArray = constructedArray[decisionNumber];
+    const suggestTextNode = document.createTextNode(tempArray[0]);
+    suggestPostNode.appendChild(suggestTextNode);
 }
 
 function generateLists() {
@@ -634,6 +722,8 @@ function generateRandomBuild() {
     if (init<1) {
         generateLists();
         addTable();
+        addInProgress();
+        addConstructed();
         init++;
     }
 
@@ -657,4 +747,3 @@ function generateRandomBuild() {
     nextBacklogNode.appendChild(backlogNode);
 
 }
-
