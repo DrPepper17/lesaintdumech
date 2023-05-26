@@ -1,32 +1,50 @@
 <html lang="en-us">
     <head>
         <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />  
         <link rel="stylesheet" href="css/home.css" />
         <title>Project Generator 4</title>
     </head>
     <body>
-        <h1 >Project Selector 4</h1> 
-        <div style="text-align: right; padding-right: 100px"><a href="index.html">Home Page</a></div>
-        <table class="table1">
-            <thead>
-                <tr>
-                    <th>Category</th>
-                    <th class="project">Project</th>
-                </tr>
-            </thead>
-            <tr>
-                <th id="nextGradeID" class="first">...</th>
-                <th id="nextBuildID" class="project">...</th>
-            </tr>
-            <tr class="third">
-                <th>Backlog: </th>
-                <th id="backlogID">&lt;Projects&gt;</th>
-            </tr>
-        </table>
+        <header class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-9">
+                        <h1 >Project Selector 4 w/ Bootstrap</h1> 
+                    </div>
+                    <div class="col align-self-center">
+                        <a href="index.html">Home Page</a>
+                    </div>
+                </div>
+            </div>
+        </header>
 
-        <p>
-            <button type="button" onclick="generateRandomBuild()">What should I build?</button>
-        </p>
+        <div class="container">
+            <table class="table table1">
+                <thead>
+                    <tr scope="row">
+                        <th scope="col-sm-4 col-md-3"><h5>Category</h5></th>
+                        <th scope="col" class=""><h5>Project</h5></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr scope="row">
+                        <td id="nextGradeID" scope="col-sm-4 col-md-3" class="first">...</td>
+                        <td id="nextBuildID" scope="col">...</td>
+                    </tr>
+                    <tr scope="row" class="third">
+                        <td scope="col-sm-4 col-md-3">Backlog: </td>
+                        <td scope="col" id="backlogID">&lt;Projects&gt;</td>
+                    </tr>
+            </tbody>
+            </table>
+
+                <p>
+                    <button type="button" onclick="generateRandomBuild()">What should I build?</button>
+                </p>
+            
+        </div>
         
         <table class="table2">
             <thead>
@@ -110,5 +128,10 @@
             <a href="index.html">Home Page</a>
         </p>
         <script src="js/randomGenerator4.js"></script>
+
+        <!-- jQuery, Popper.js, Bootstrap JavaScript plugins.-->
+        <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+        <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     </body>
 </html>

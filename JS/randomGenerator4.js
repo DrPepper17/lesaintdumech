@@ -126,7 +126,7 @@ const projects = [
     ['Anthem',['Freedom'],'MG',false,false,false,'Seed','E',5,2022,73.16,true],
     ['Freedom [MGSD]',['Freedom'],'MGSD',false,false,false,'Seed','C',3,2023,8.5,false],
     ['Liberty',['Freedom'],'SD',false,false,false,'Seed','E',4,2022,18,false],
-    ['Old Glory',['Freedom'],'MGSD',false,false,false,'Seed','C',5,2023,12.92,false],
+    ['Old Glory',['Freedom'],'MGSD',false,false,false,'Seed','C',5,2023,13.75,false],
     ['Billy Blue Jay',['Ginn'],'MG',false,false,false,'Seed','B'],
     ['Destiny Impulse (Regenes) [MG]',['Impulse, Destiny'],'Seed','MG',true,true,false,'C',5,2023,6.5,false],
     ['Destiny Impulse [RG]',['Impulse, Destiny'],'RG',true,true,false,'Seed','B'],
