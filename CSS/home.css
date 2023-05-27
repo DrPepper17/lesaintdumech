@@ -2,6 +2,7 @@ body {
     font-family: Verdana, Arial, sans-serif;
     background-image: url("../img/zerobg.jpeg");
     background-size: contain;
+    background-attachment: fixed;
 }
 a, a:visited {
     color:blueviolet
@@ -52,4 +53,7 @@ thead {
     padding: 30px;
     background-image: linear-gradient(to right bottom, blue, teal, lightskyblue);
     color: orangered;
+}
+.twitter-tweet {
+    width: fit-content;
 }

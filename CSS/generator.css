@@ -2,6 +2,7 @@ body {
     font-family: Verdana, Arial, sans-serif;
     background-image: url("../img/zerobg.jpeg");
     background-size: contain;
+    background-attachment: fixed;
 }
 a, a:visited {
     color:blueviolet
