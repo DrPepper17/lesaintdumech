@@ -347,6 +347,23 @@ let pokeBacklogArray = [];
 let shipBacklogArray = [];
 let transBacklogArray = [];
 let zoidBacklogArray = [];
+let pgFinishedArray = [];
+let mgFinishedArray = [];
+let fmFinishedArray = [];
+let rgFinishedArray = [];
+let hgFinishedArray = [];
+let mgsdFinishedArray = [];
+let sdFinishedArray = [];
+let pbFinishedArray = [];
+let sbFinishedArray = [];
+let carFinishedArray = [];
+let digiFinishedArray = [];
+let dispFinishedArray = [];
+let haroFinishedArray = [];
+let pokeFinishedArray = [];
+let shipFinishedArray = [];
+let transFinishedArray = [];
+let zoidFinishedArray = [];
 let pbUndeliveredArray = [];
 let backlogListArray = [pgBacklogArray,mgBacklogArray,fmBacklogArray,rgBacklogArray,hgBacklogArray,mgsdBacklogArray,sdBacklogArray,pbBacklogArray,sbBacklogArray,carBacklogArray,digiBacklogArray,dispBacklogArray,haroBacklogArray,pokeBacklogArray,shipBacklogArray,transBacklogArray,zoidBacklogArray];
 
@@ -443,10 +460,78 @@ function addTable() {
     table.style.display = "block";
 
     let tempArray=0;
-    for (let i=0;i<postedArray.length;i++) {
-        tempArray=postedArray[i];
-        insertLine(tempArray[0],'FP');
+
+    //Post Finished
+    for (let i=0;i<pgFinishedArray.length;i++) {
+        tempArray=pgFinishedArray[i];
+        insertLine(tempArray,'pgF');
     }
+    for (let i=0;i<mgFinishedArray.length;i++) {
+        tempArray=mgFinishedArray[i]
+        insertLine(tempArray,'mgF');
+    }
+    for (let i=0;i<fmFinishedArray.length;i++) {
+        tempArray=fmFinishedArray[i];
+        insertLine(tempArray,'fmF');
+    }
+    for (let i=0;i<rgFinishedArray.length;i++) {
+        tempArray=rgFinishedArray[i];
+        insertLine(tempArray,'rgF');
+    }
+    for (let i=0;i<hgFinishedArray.length;i++) {
+        tempArray=hgFinishedArray[i];
+        insertLine(tempArray,'hgF');
+    }
+    for (i=0;i<mgsdFinishedArray.length;i++) {
+        tempArray=mgsdFinishedArray[i];
+        insertLine(tempArray,'mgsdF');
+    }
+    for (let i=0;i<sdFinishedArray.length;i++) {
+        tempArray=sdFinishedArray[i];
+        insertLine(tempArray,'sdF');
+    }
+    for (let i=0;i<pbFinishedArray.length;i++) {
+        tempArray=pbFinishedArray[i];
+        insertLine(tempArray,'pbF');
+    }
+    for (let i=0;i<sbFinishedArray.length;i++) {
+        tempArray=sbFinishedArray[i];
+        insertLine(tempArray,'sbF');
+    }
+    for (let i=0;i<carFinishedArray.length;i++) {
+        tempArray=carFinishedArray[i];
+        insertLine(tempArray,'carF');
+    }
+    for (let i=0;i<digiFinishedArray.length;i++) {
+        tempArray=digiFinishedArray[i];
+        insertLine(tempArray,'dgF');
+    }
+    for (let i=0;i<dispFinishedArray.length;i++) {
+        tempArray=dispFinishedArray[i];
+        insertLine(tempArray,'dspF');
+    }
+    for (let i=0;i<haroFinishedArray.length;i++) {
+        tempArray=haroFinishedArray[i];
+        insertLine(tempArray,'haroF');
+    }
+    for (let i=0;i<pokeFinishedArray.length;i++) {
+        tempArray=pokeFinishedArray[i];
+        insertLine(tempArray,'pokeF');
+    }
+    for (let i=0;i<shipFinishedArray.length;i++) {
+        tempArray=shipFinishedArray[i];
+        insertLine(tempArray,'shipF');
+    }
+    for (let i=0;i<transFinishedArray.length;i++) {
+        tempArray=transFinishedArray[i];
+        insertLine(tempArray,'transF');
+    }
+    for (let i=0;i<zoidFinishedArray.length;i++) {
+        tempArray=zoidFinishedArray[i];
+        insertLine(tempArray,'zoidF');
+    }
+
+    //Post Backlog
     for (let i=0;i<pgBacklogArray.length;i++) {
         tempArray=pgBacklogArray[i];
         insertLine(tempArray,'pgBL');
@@ -515,6 +600,8 @@ function addTable() {
         tempArray=zoidBacklogArray[i];
         insertLine(tempArray,'zoidBL');
     }
+
+    //Post Out of Stock
     for (let i=0;i<outOfStockArray.length;i++) {
         tempArray=outOfStockArray[i];
         insertLine(tempArray[0],'OOS');
@@ -529,9 +616,14 @@ function addTable() {
     finishNode.appendChild(totalFinishedNode); 
 }
 
-function cleanupArrays(array) {
+function cleanupArrays(array,context) {
     if(array.length<1) {
-        array=['.....Out of Stock.....'];
+        if (context==='fin') {
+            array=['...Pending...'];
+        }
+        if (context==='out') {
+            array=['.....Out of Stock.....'];
+        }
     }
     return array;
 }
@@ -545,6 +637,9 @@ function insertLine (text,ID) {
 }
 
 function generateLists() {
+    //Alphabetize everything
+    projects.sort();
+    
     let tempArray = [];
     
     for (let i=0;i<projects.length;i++) {
@@ -627,51 +722,99 @@ function generateLists() {
         }
     }
 
-    //Sort Alphabetically
-    outOfStockArray.sort();
-    backlogArray.sort();
-    inProgressArray.sort();
-    constructedArray.sort();
-    postedArray.sort();
-    finishedArray.sort();
-    pgBacklogArray.sort();
-    mgBacklogArray.sort();
-    fmBacklogArray.sort();
-    rgBacklogArray.sort();
-    hgBacklogArray.sort();
-    mgsdBacklogArray.sort();
-    sdBacklogArray.sort();
-    pbBacklogArray.sort();
-    sbBacklogArray.sort();
-    carBacklogArray.sort();
-    digiBacklogArray.sort();
-    dispBacklogArray.sort();
-    haroBacklogArray.sort();
-    pokeBacklogArray.sort();
-    shipBacklogArray.sort();
-    transBacklogArray.sort();
-    zoidBacklogArray.sort();
-    pbUndeliveredArray.sort();
+    //Finished by Grade
+    for (let i=0;i<postedArray.length;i++) {
+        tempArray = postedArray[i];
+        if (tempArray[4]) {
+            pbFinishedArray.push(tempArray[0]);
+        }
+        else if (tempArray[3]) {
+            sbFinishedArray.push(tempArray[0]);
+        }
+        else if (tempArray[2]==='MG') {
+            mgFinishedArray.push(tempArray[0]);
+        }
+        else if (tempArray[2]==='FM') {
+            fmFinishedArray.push(tempArray[0]);
+        }
+        else if (tempArray[2]==='RG') {
+            rgFinishedArray.push(tempArray[0]);
+        }
+        else if (tempArray[2]==='HG') {
+            hgFinishedArray.push(tempArray[0]);
+        }
+        else if (tempArray[2]==='MGSD') {
+            mgsdFinishedArray.push(tempArray[0]);
+        }
+        else if (tempArray[2]==='SD') {
+            sdFinishedArray.push(tempArray[0]);
+        }
+        else if (tempArray[2]==='Car') {
+            carFinishedArray.push(tempArray[0]);
+        }
+        else if (tempArray[2]==='Digimon') {
+            digiFinishedArray.push(tempArray[0]);
+        }
+        else if (tempArray[2]==='Display') {
+            dispFinishedArray.push(tempArray[0]);
+        }
+        else if (tempArray[2]==='Haro') {
+            haroFinishedArray.push(tempArray[0]);
+        }
+        else if (tempArray[2]==='Pokemon') {
+            pokeFinishedArray.push(tempArray[0]);
+        }
+        else if (tempArray[2]==='Ship') {
+            shipFinishedArray.push(tempArray[0]);
+        }
+        else if (tempArray[2]==='Transformer') {
+            transFinishedArray.push(tempArray[0]);
+        }
+        else if (tempArray[2]==='Zoid') {
+            zoidFinishedArray.push(tempArray[0]);
+        }
+    }
 
-    //Clean up in progress lists
-    pgBacklogArray = cleanupArrays(pgBacklogArray);
-    mgBacklogArray = cleanupArrays(mgBacklogArray);
-    fmBacklogArray = cleanupArrays(fmBacklogArray);
-    rgBacklogArray = cleanupArrays(rgBacklogArray);
-    hgBacklogArray = cleanupArrays(hgBacklogArray);
-    mgsdBacklogArray = cleanupArrays(mgsdBacklogArray);
-    sdBacklogArray = cleanupArrays(sdBacklogArray);
-    pbBacklogArray = cleanupArrays(pbBacklogArray);
-    sbBacklogArray = cleanupArrays(sbBacklogArray);
-    carBacklogArray = cleanupArrays(carBacklogArray);
-    digiBacklogArray = cleanupArrays(digiBacklogArray);
-    dispBacklogArray = cleanupArrays(dispBacklogArray);
-    haroBacklogArray = cleanupArrays(haroBacklogArray);
-    pokeBacklogArray = cleanupArrays(pokeBacklogArray);
-    shipBacklogArray = cleanupArrays(shipBacklogArray);
-    transBacklogArray = cleanupArrays(transBacklogArray);
-    zoidBacklogArray = cleanupArrays(zoidBacklogArray);
-    pbUndeliveredArray = cleanupArrays(pbUndeliveredArray);
+    //Clean up in backlog lists
+    pgBacklogArray = cleanupArrays(pgBacklogArray,'out');
+    mgBacklogArray = cleanupArrays(mgBacklogArray,'out');
+    fmBacklogArray = cleanupArrays(fmBacklogArray,'out');
+    rgBacklogArray = cleanupArrays(rgBacklogArray,'out');
+    hgBacklogArray = cleanupArrays(hgBacklogArray,'out');
+    mgsdBacklogArray = cleanupArrays(mgsdBacklogArray,'out');
+    sdBacklogArray = cleanupArrays(sdBacklogArray,'out');
+    pbBacklogArray = cleanupArrays(pbBacklogArray,'out');
+    sbBacklogArray = cleanupArrays(sbBacklogArray,'out');
+    carBacklogArray = cleanupArrays(carBacklogArray,'out');
+    digiBacklogArray = cleanupArrays(digiBacklogArray,'out');
+    dispBacklogArray = cleanupArrays(dispBacklogArray,'out');
+    haroBacklogArray = cleanupArrays(haroBacklogArray,'out');
+    pokeBacklogArray = cleanupArrays(pokeBacklogArray,'out');
+    shipBacklogArray = cleanupArrays(shipBacklogArray,'out');
+    transBacklogArray = cleanupArrays(transBacklogArray,'out');
+    zoidBacklogArray = cleanupArrays(zoidBacklogArray,'out');
+
+    //Clean up in finish lists
+    pgFinishedArray = cleanupArrays(pgFinishedArray,'fin');
+    mgFinishedArray = cleanupArrays(mgFinishedArray,'fin');
+    fmFinishedArray = cleanupArrays(fmFinishedArray,'fin');
+    rgFinishedArray = cleanupArrays(rgFinishedArray,'fin');
+    hgFinishedArray = cleanupArrays(hgFinishedArray,'fin');
+    mgsdFinishedArray = cleanupArrays(mgsdFinishedArray,'fin');
+    sdFinishedArray = cleanupArrays(sdFinishedArray,'fin');
+    pbFinishedArray = cleanupArrays(pbFinishedArray,'fin');
+    sbFinishedArray = cleanupArrays(sbFinishedArray,'fin');
+    carFinishedArray = cleanupArrays(carFinishedArray,'fin');
+    digiFinishedArray = cleanupArrays(digiFinishedArray,'fin');
+    dispFinishedArray = cleanupArrays(dispFinishedArray,'fin');
+    haroFinishedArray = cleanupArrays(haroFinishedArray,'fin');
+    pokeFinishedArray = cleanupArrays(pokeFinishedArray,'fin');
+    shipFinishedArray = cleanupArrays(shipFinishedArray,'fin');
+    transFinishedArray = cleanupArrays(transFinishedArray,'fin');
+    zoidFinishedArray = cleanupArrays(zoidFinishedArray,'fin');
+
+    //Clean UP PB Undelivered
+    pbUndeliveredArray = cleanupArrays(pbUndeliveredArray,'fin');
 }
 
 function generateRandomBuild() {
