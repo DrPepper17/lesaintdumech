@@ -1,14 +1,17 @@
+a, a:visited {
+    color: violet;
+}
+a:hover {
+    color: maroon;
+}
 body {
     font-family: Verdana, Arial, sans-serif;
     background-image: url("../img/zerobg.jpeg");
     background-size: contain;
     background-attachment: fixed;
 }
-a, a:visited {
-    color:blueviolet
-}
-a:hover {
-    color: maroon;
+li {
+    font-weight: bold;
 }
 table {
     text-align: left;
@@ -20,21 +23,8 @@ th {
 tr {
     border-style: hidden;
 }
-.project {
-    width: 400px;
-}
-.table1 {
-    width: 600px; 
-}
-.table2, .table3, .table4 {
+.hide, .table2, .table3, .table4 {
     display: none;
-}
-
-.hide {
-    display: none;
-}
-li {
-    font-weight: bold;
 }
 .jumbotron {
     margin: 0;
@@ -42,6 +32,9 @@ li {
     background-image: linear-gradient(to right bottom, blue, teal, lightskyblue);
     color: orangered;
 }
-.container {
-    border: none;
+.project {
+    width: 400px;
+}
+.table1 {
+    width: 600px; 
 }

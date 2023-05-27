@@ -1,14 +1,14 @@
+a, a:visited {
+    color:blue;
+}
+a:hover {
+    color: maroon;
+}
 body {
     font-family: Verdana, Arial, sans-serif;
     background-image: url("../img/zerobg.jpeg");
     background-size: contain;
     background-attachment: fixed;
-}
-a, a:visited {
-    color:blueviolet
-}
-a:hover {
-    color: maroon;
 }
 table {
     text-align: left;
@@ -26,22 +26,6 @@ thead {
 .first {
     background: lightseagreen;
 }
-.second {
-    background: blueviolet;
-}
-.third {
-    background: lightcyan;
-}
-.project {
-    width: 400px;
-}
-.table1 {
-    width: 600px; 
-}
-.table2, .table3, .table4 {
-    width: 1200px;
-    display: none;
-}
 .hide {
     display: none;
 }
@@ -54,6 +38,23 @@ thead {
     background-image: linear-gradient(to right bottom, blue, teal, lightskyblue);
     color: orangered;
 }
-.twitter-tweet {
-    width: fit-content;
+.project {
+    width: 400px;
 }
+.second {
+    background: blueviolet;
+}
+.table1 {
+    width: 600px; 
+}
+.table2, .table3, .table4 {
+    width: 1200px;
+    display: none;
+}
+.third {
+    background: lightcyan;
+}
+
+
+
+
