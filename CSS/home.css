@@ -3,9 +3,6 @@ body {
     background-image: url("../img/zerobg.jpeg");
     background-size: contain;
 }
-h1 {
-    color: blue;
-}
 a, a:visited {
     color:blueviolet
 }
@@ -49,4 +46,10 @@ thead {
 }
 .hiddenBorder {
     border-style: hidden;
+}
+.jumbotron {
+    margin: 0;
+    padding: 30px;
+    background-image: linear-gradient(to right bottom, blue, teal, lightskyblue);
+    color: orangered;
 }
