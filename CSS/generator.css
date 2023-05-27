@@ -1,7 +1,7 @@
 body {
     font-family: Verdana, Arial, sans-serif;
-    background: lightskyblue;
-
+    background-image: url("../img/zerobg.jpeg");
+    background-size: contain;
 }
 a, a:visited {
     color:blueviolet
@@ -11,13 +11,13 @@ a:hover {
 }
 table {
     text-align: left;
-    border-style: solid;
-    margin-top: 5px;
-    border-color: black;
+    margin-top: 25px;
 }
 th {
-
     vertical-align: top;
+}
+tr {
+    border-style: hidden;
 }
 .project {
     width: 400px;
@@ -26,16 +26,14 @@ th {
     width: 600px; 
 }
 .table2, .table3, .table4 {
-   
     display: none;
 }
 
 .hide {
     display: none;
 }
-.hiddenBorder {
-    border-style: hidden;
-    background-color: lightskyblue;
+li {
+    font-weight: bold;
 }
 .jumbotron {
     margin: 0;

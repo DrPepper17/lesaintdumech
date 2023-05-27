@@ -1,0 +1,259 @@
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />  
+        <link rel="stylesheet" href="css/generator.css" />
+        <title>Project Generator 5</title>
+    </head>
+    <body>
+        <header class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-9">
+                        <h1 >Project Selector 5</h1> 
+                    </div>
+                    <div class="col align-self-center">
+                        <h3><a href="index.html">Home Page</a></h3>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="container">
+            <div class="row row-content">
+                <div class="col">
+                    <table class="table table1">
+                        <thead class="bg-warning">
+                            <tr>
+                                <th>Category</th>
+                                <th class="project">Project</th>
+                            </tr>
+                        </thead>
+                        <tbody class="table-primary">
+                            <tr>
+                                <td id="nextGradeID"  class="bg-info">...</td>
+                                <td id="nextBuildID" class="">...</td>
+                            </tr>
+                            <tr class="bg-primary">
+                                <td>Backlog: </td>
+                                <td id="backlogID">&lt;Projects&gt;</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <p><button type="button" class="btn btn-secondary" onclick="generateRandomBuild()">What should I build?</button></p>
+                </div>
+            </div>
+
+            <div class="table2">
+                <div class="row">
+                    <div class="col-md">
+                        <div class="row">
+                            <div class="col">
+                                <h2 class="bg-warning">Finished Projects</h2>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <ul id="FP"></ul>
+                                Total Completed:
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="col-md">
+                        <div class="row">
+                            <div class="col">
+                                <h2 class="bg-warning">Backlog</h2>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <h3>Perfect Grade</h3>
+                                <ul id="pgBL"></ul>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <h3>Master Grade</h3>
+                                <ul id="mgBL"></ul>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <h3>Full Mechanics</h3>
+                                <ul id="fmBL"></ul>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <h3>Real Grade</h3>
+                                <ul id="rgBL"></ul>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <h3>High Grade</h3>
+                                <ul id="hgBL"></ul>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <h3>Master Grade SD</h3>
+                                <ul id="mgsdBL"></ul>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <h3>Super Deformed</h3>
+                                <ul id="sdBL"></ul>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <h3>P-Bandai</h3>
+                                <ul id="pbBL"></ul>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <h3>Straight Build</h3>
+                                <ul id="sbBL"></ul>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <h3>Cars</h3>
+                                <ul id="carBL"></ul>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <h3>Digimon</h3>
+                                <ul id="dgBL"></ul>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <h3>Display</h3>
+                                <ul id="dspBL"></ul>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <h3>Haropla</h3>
+                                <ul id="haroBL"></ul>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <h3>Pokemon</h3>
+                                <ul id="pokeBL"></ul>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <h3>Ships</h3>
+                                <ul id="shipBL"></ul>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <h3>Transformers</h3>
+                                <ul id="transBL"></ul>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <h3>Zoids</h3>
+                                <ul id="zoidBL"></ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md">
+                        <div class="row">
+                            <div class="col">
+                                <h2 class="bg-warning">Out of Inventory</h2>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <ul id="OOS"></ul>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <h3>P-Bandai</h3>
+                                <ul id="OOSPB"></ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row row-content">
+                    <div class="col">
+                        <table class="table">
+                            <thead class="bg-warning">
+                                <tr>
+                                    <th>In Progress:</th>
+                                    <th></th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody class="table-primary">
+                                <tr>
+                                    <td><ul id="progOne"></ul></td>
+                                    <td><ul id="progTwo"></ul></td>
+                                    <td><ul id="progThree"></ul></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="row row-content">
+                    <div class="col">
+                        <table class="table">
+                            <thead class="bg-warning">
+                                <tr>
+                                    <th >Ready to Post:</th>
+                                    <th></th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody class="table-primary">
+                                <tr>
+                                    <td><ul id="constOne"></ul></td>
+                                    <td><ul id="constTwo"></ul></td>
+                                    <td><ul id="constThree"></ul></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td style="text-align: right"><button type="button" class="btn btn-secondary" onclick="suggestNextPost()">What should I post?: </button></td>
+                                    <td><h3 id="toPost"> </h3></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <p><a href="index.html">Home Page</a></p>
+                </div>
+            </div>
+        </div>
+
+        <span class="table3"></span>
+        <span class="table4"></span>
+        <script src="js/gundamDataSet.js"></script>
+
+        <!-- jQuery, Popper.js, Bootstrap JavaScript plugins.-->
+        <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+        <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    </body>
+</html>
