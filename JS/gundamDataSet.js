@@ -56,7 +56,7 @@ const projects = [
     ['Fl\u00FCgel Sparkel',['Tallgeese Fl\u00FCgel'],'MG',false,true,false,'Wing','B'],
     ['Tallgeese Fl\u00FCgel [MG]',['Tallgeese Fl\u00FCgel'],'MG',true,true,false,'Wing','D',5,2022,20.17,false],
     ['Wild Wing',['Wing Gundam'],'MG',false,false,false,'Wing','E',7,2021,60.48,true],
-    ['Wing Gundam [RG]',['Wing Gundam'],'RG',true,false,false,'Wing','E',false,7,2021,12.59,false],
+    ['Wing Gundam [RG]',['Wing Gundam'],'RG',true,false,false,'Wing','E',7,2021,12.59,false],
     ['Clear Wing Zero [RG]',['Wing Zero'],'RG',true,true,false,'Wing','E',11,2021,6.15,false],
     ['Dark Zero',['Wing Zero'],'MG',false,false,false,'Wings','B'],
     ['Dark Zero',['Wing Zero'],'RG',false,false,false,'Wings','A'],
@@ -151,7 +151,7 @@ const projects = [
     ['PB Strike Daggers [HG]',['Strike Dagger','Strike Dagger','Strike Dagger'],'HG',false,true,false,'Seed','D',3,2023,22,false],
     ['AntiFreedom',['Strike-Freedom'],'SD',false,false,false,'Seed','B'],
     ['Servitude',['Strike-Freedom'],'MG',false,false,false,'Seed','B'],
-    ['Strike-Freedom Full Burst',['Strike-Freedom'],'MG',true,false,false,'Seed','E',7,2021,18.42,false],
+    ['Strike-Freedom Full Burst [MG]',['Strike-Freedom'],'MG',true,false,false,'Seed','E',7,2021,18.42,false],
     ['Strike-Freedom MGEX',['Strike-Freedom'],'MG',true,false,true,'Seed','C',3,2023,14.25,false],
     ['Strike-Freedom (Deactive) [RG]',['Strike-Freedom'],'RG',true,true,false,'Seed','D',3,2023,4.75,false],
     ['Battra',['Strike Noir'],'MG',false,false,false,'Seed','B'],
@@ -263,7 +263,7 @@ const projects = [
     ['Corona Borealis',['Tallgeese III, Xiahou Dun'],'SD',false,false,false,'Heroes','D',4,2022,8.67,false],
     ['Coeus',['Unicorn, Long Zun Liu Vei'],'SD',false,false,false,'Heroes','A'],
     ['Bastiat',['Verde Buster, Sergeante'],'SD',false,false,false,'Heroes','E',10,2021,8.3,false],
-    ['Mighty Morphin Power Rangers',['Verde Buster, Sergeant DX','Verde Buster, Sergeant DX','Verde Buster Team Member','Verde Buster Team Member','Verde Buster Team Member','Verde Buster Team Member'],'SD',false,false,false,'Heroes','E',12,2022,39.63,false],
+    ['Mighty Morphin Power Rangers',['Trinity Bike','Verde Buster, Sergeant DX','Verde Buster, Sergeant DX','Verde Buster Team Member','Verde Buster Team Member','Verde Buster Team Member','Verde Buster Team Member'],'SD',false,false,false,'Heroes','E',12,2022,39.63,false],
     ['Eos',['Wing, Cao Cao'],'SD',false,false,false,'Heroes','A'],
     ['Tethys',['Wing Isei, Cao Cao'],'SD',false,false,false,'Heroes','D',4,2022,8.67,false],
     ['Hyperion',['Wing Zero, Tian Ba Cao Cao'],'SD',false,false,false,'Heroes','B'],
@@ -375,6 +375,133 @@ let inProgressCount = 0;
 let constructedCount = 0;
 let postedCount = 0;
 let finishedCount = 0;
+
+//data
+    //average hours
+    let mgAve = 0;
+    let mgStrAve = 0;
+    let pgAve = 0;
+    let pgStrAve = 0;
+    let fmAve = 0;
+    let fmStrAve = 0;
+    let rgAve = 0;
+    let rgStrAve = 0;
+    let hgAve = 0;
+    let hgStrAve = 0;
+    let mgsdAve = 0;
+    let mgsdStrAve = 0;
+    let sdAve = 0;
+    let sdStrAve = 0;
+    let haroAve = 0;
+    let haroStrAve = 0;
+    let carAve = 0;
+    let carStrAve = 0;
+    let digiAve = 0;
+    let digiStrAve = 0;
+    let dispAve = 0;
+    let dispStrAve = 0;
+    let pokeAve = 0;
+    let pokeStrAve = 0;
+    let shipAve = 0;
+    let shipStrAve = 0;
+    let transAve = 0;
+    let transStrAve = 0;
+    let zoidAve = 0;
+    let zoidStrAve = 0;
+
+    //weights
+    let pgWt = 0;
+    let fmWt = 0;
+    let rgWt = 0;
+    let hgWt = 0;
+    let mgsdWt = 0;
+    let sdWt = 0;
+    let haroWt = 0;
+    let carWt = 0;
+    let digiWt = 0;
+    let dispWt = 0;
+    let pokeWt = 0;
+    let shipWt = 0;
+    let transWt = 0;
+    let zoidWt = 0;
+    let straightWeight = 0;
+
+    //counts
+    let mgCount = 0;
+    let mgStrCount = 0;
+    let pgCount = 0;
+    let pgStrCount = 0;
+    let fmCount = 0;
+    let fmStrCount = 0;
+    let rgCount = 0;
+    let rgStrCount = 0;
+    let hgCount = 0;
+    let hgStrCount = 0;
+    let mgsdCount = 0;
+    let mgsdStrCount = 0;
+    let sdCount = 0;
+    let sdStrCount = 0;
+    let haroCount = 0;
+    let haroStrCount = 0;
+    let carCount = 0;
+    let carStrCount = 0;
+    let digiCount = 0;
+    let digiStrCount = 0;
+    let dispCount = 0;
+    let dispStr = 0;
+    let pokeCount = 0;
+    let pokeStrCount = 0;
+    let shipCount = 0;
+    let shipStrCount = 0;
+    let transCount = 0;
+    let transStrCount = 0;
+    let zoidCount = 0;
+    let zoidStrCount = 0;
+
+    //PBandai Count
+    let mgCountPB = 0;
+    let pgCountPB = 0;
+    let fmCountPB = 0;
+    let rgCountPB = 0;
+    let hgCountPB = 0;
+    let mgsdCountPB = 0;
+    let sdCountPB = 0;
+    let haroCountPB = 0;
+    let shipCountPB = 0;
+
+    //Remaining Count
+    let mgRemain = 0;
+    let pgRemain = 0;
+    let fmRemain = 0;
+    let rgRemain = 0;
+    let hgRemain = 0;
+    let mgsdRemain = 0;
+    let sdRemain = 0;
+    let haroRemain = 0;
+    let carRemain = 0;
+    let digiRemain = 0;
+    let dispRemain = 0;
+    let pokeRemain = 0;
+    let shipRemain = 0;
+    let transRemain = 0;
+    let zoidRemain = 0;
+
+    //hours
+    let mgHours = 0;
+    let pgHours = 0;
+    let fmHours = 0;
+    let rgHours = 0;
+    let hgHours = 0;
+    let mgsdHours = 0;
+    let sdHours = 0;
+    let haroHours = 0;
+    let carHours = 0;
+    let digiHours = 0;
+    let dispHours = 0;
+    let pokeHours = 0;
+    let shipHours = 0;
+    let transHours = 0;
+    let zoidHours = 0;
 
 //Functions
 function addConstructed() {
@@ -616,6 +743,154 @@ function addTable() {
     finishNode.appendChild(totalFinishedNode); 
 }
 
+function arrayAverage(array) {
+    let tempArray = [];
+    let hours = 0;
+    let count = 0;
+    for (let i=0;i<array.length;i++) {
+        tempArray=array[i];
+        if (tempArray>0) {
+            hours = hours + tempArray[i];
+            count++;
+        }
+    }
+
+    let averageHr = count / hours;
+    return averageHr;
+}
+
+function calculateStats() {
+    //average hours
+    mgAve = projectAverage('MG',false);
+    mgStrAve = projectAverage('MG',true);
+    pgAve = projectAverage('PG',false);
+    pgStrAve = projectAverage('PG',true);
+    fmAve = projectAverage('FM',false);
+    fmStrAve = projectAverage('FM',true);
+    rgAve = projectAverage('RG',false);
+    rgStrAve = projectAverage('RG',true);
+    hgAve = projectAverage('HG',false);
+    hgStrAve = projectAverage('HG',true);
+    mgsdAve = projectAverage('MGSD',false);
+    mgsdStrAve = projectAverage('MGSD',true);
+    sdAve = projectAverage('SD',false);
+    sdStrAve = projectAverage('SD',true);
+    haroAve = projectAverage('Haro',false);
+    haroStrAve = projectAverage('Haro',true);
+    carAve = projectAverage('Car',false);
+    carStrAve = projectAverage('Car',true);
+    pokeAve = projectAverage('Pokemon',false);
+    pokeStrAve = projectAverage('Pokemon',true);
+    digiAve = projectAverage('Digimon',false);
+    digiStrAve = projectAverage('Digimon',true);
+    dispAve = projectAverage('Display',false);
+    dispStrAve = projectAverage('Display',true);
+    shipAve = projectAverage('Ship',false);
+    shipStrAve = projectAverage('Ship',true);
+    transAve = projectAverage('Transformer',false);
+    transStrAve = projectAverage('Transformer',true);
+    zoidAve = projectAverage('Zoid',false);
+    zoidStrAve = projectAverage('Zoid',true);
+
+    //weights
+    pgWt = pgAve / mgAve;
+    mgWt = 1;
+    fmWt = fmAve / mgAve;
+    rgWt = rgAve / mgAve;
+    hgWt = hgAve / mgAve;
+    mgsdWt = mgsdAve / mgAve;
+    sdWt = sdAve / mgAve;
+    haroWt = haroAve / mgAve;
+    carWt = carAve / mgAve;
+    pokeWt = pokeAve / mgAve;
+    digiWt = digiAve / mgAve;
+    dispWt = dispAve / mgAve;
+    shipWt = shipAve / mgAve;
+    transWt = transAve / mgAve;
+    zoidWt = zoidAve / mgAve;
+
+    let paintedAverage = arrayAverage([mgAve,pgAve,fmAve,rgAve,hgAve,mgsdAve,sdAve,haroAve,carAve,pokeAve,digiAve,dispAve,shipAve,transAve,zoidAve]);
+    let straightAverage = arrayAverage([mgStrAve,pgStrAve,fmStrAve,rgStrAve,hgStrAve,mgsdStrAve,sdStrAve,haroStrAve,carStrAve,pokeStrAve,digiStrAve,dispStrAve,shipStrAve,transStrAve,zoidStrAve]);
+    straightWeight = straightAverage / paintedAverage;
+
+    //counts
+    mgCount = projectCount('MG',false);
+    mgStrCount = projectCount('MG',true);
+    pgCount = projectCount('PG',false);
+    pgStrCount = projectCount('PG',true);
+    fmCount = projectCount('FM',false);
+    fmStrCount = projectCount('FM',true);
+    rgCount = projectCount('RG',false);
+    rgStrCount = projectCount('RG',true);
+    hgCount = projectCount('HG',false);
+    hgStrCount = projectCount('HG',true);
+    mgsdCount = projectCount('MGSD',false);
+    mgsdStrCount = projectCount('MGSD',true);
+    sdCount = projectCount('SD',false);
+    sdStrCount = projectCount('SD',true);
+    haroCount = projectCount('Haro',false);
+    haroStrCount = projectCount('Haro',true);
+    carCount = projectCount('Car',false);
+    carStrCount = projectCount('Car',true);
+    pokeCount = projectCount('Pokemon',false);
+    pokeStrCount = projectCount('Pokemon',true);
+    digiCount = projectCount('Digimon',false);
+    digiStrCount = projectCount('Digimon',true);
+    dispCount = projectCount('Display',false);
+    dispStr = projectCount('Display',true);
+    shipCount = projectCount('Ship',false);
+    shipStrCount = projectCount('Ship',true);
+    transCount = projectCount('Transformer',false);
+    transStrCount = projectCount('Transformer',true);
+    zoidCount = projectCount('Zoid',false);
+    zoidStrCount = projectCount('Zoid',true);
+
+    //PBandai Count
+    mgCountPB = projectCountPB('MG');
+    pgCountPB = projectCountPB('PG');
+    fmCountPB = projectCountPB('FM');
+    rgCountPB = projectCountPB('RG');
+    hgCountPB = projectCountPB('HG');
+    mgsdCountPB = projectCountPB('MGSD');
+    sdCountPB = projectCountPB('SD');
+    haroCountPB = projectCountPB('Haro');
+    shipCountPB = projectCountPB('Ship');
+
+    //Remaining Count
+    mgRemain = projectRemaining('MG');
+    pgRemain = projectRemaining('PG');
+    fmRemain = projectRemaining('FM');
+    rgRemain = projectRemaining('RG');
+    hgRemain = projectRemaining('HG');
+    mgsdRemain = projectRemaining('MGSD');
+    sdRemain = projectRemaining('SD');
+    haroRemain = projectRemaining('HARO');
+    carRemain = projectRemaining('Car');
+    digiRemain = projectRemaining('Digimon');
+    dispRemain = projectRemaining('Display');
+    pokeRemain = projectRemaining('Pokemon');
+    shipRemain = projectRemaining('Ship');
+    transRemain = projectRemaining('Transformer');
+    zoidRemain = projectRemaining('Zoid');
+
+    //hours
+    mgHours = projectHours('MG');
+    pgHours = projectHours('PG');
+    fmHours = projectHours('FM');
+    rgHours = projectHours('RG');
+    hgHours = projectHours('HG');
+    mgsdHours = projectHours('MGSD');
+    sdHours = projectHours('SD');
+    haroHours = projectHours('Haro');
+    carHours = projectHours('Car');
+    pokeHours = projectHours('Pokemon');
+    digiHours = projectHours('Digimon');
+    dispHours = projectHours('Display');
+    shipHours = projectHours('Ship');
+    transHours = projectHours('Transformer');
+    zoidHours = projectHours('Zoid');
+}
+
 function cleanupArrays(array,context) {
     if(array.length<1) {
         if (context==='fin') {
@@ -826,11 +1101,11 @@ function generateRandomBuild() {
         init++;
     }
 
-    const nextGradeNode = document.getElementById('nextGradeID');
     const nextBuildNode = document.getElementById('nextBuildID');
+    const nextGradeNode = document.getElementById('nextGradeID');
     const nextBacklogNode = document.getElementById('backlogID');
-    nextGradeNode.removeChild(nextGradeNode.firstChild);
     nextBuildNode.removeChild(nextBuildNode.firstChild);
+    nextGradeNode.removeChild(nextGradeNode.firstChild);
     nextBacklogNode.removeChild(nextBacklogNode.firstChild);
 
     let randomNum = Math.floor(Math.random()*backlogArray.length);
@@ -879,6 +1154,153 @@ function gradeEdifier(array) {
     }
 
     return grade;
+}
+
+function populateStat(stat,id,cap) {
+    const locationNode = document.getElementById(id);
+    const statNode = document.createTextNode(stat.toFixed(cap));
+    locationNode.appendChild(statNode);
+}
+
+function poststats() {
+    //Load stats
+    calculateStats();
+
+    //Populate 
+    populateStat(pgCount,'pgPrj',0);
+    populateStat(pgStrCount,'pgStrPrj',0);
+    populateStat(pgCountPB,'pgPB',0);
+    populateStat(pgRemain,'pgRM',0);
+    populateStat(pgHours,'pgHR',2);
+    populateStat(pgAve,'pgAHR',2);
+    populateStat(pgStrAve,'pgSHR',2);
+    populateStat(pgWt,'pgWT',2);
+
+    populateStat(mgCount,'mgPrj',0);
+    populateStat(mgStrCount,'mgStrPrj',0);
+    populateStat(mgCountPB,'mgPB',0);
+    populateStat(mgRemain,'mgRM',0);
+    populateStat(mgHours,'mgHR',2);
+    populateStat(mgAve,'mgAHR',2);
+    populateStat(mgStrAve,'mgSHR',2);
+    populateStat(mgWt,'mgWT',2);
+
+    populateStat(fmCount,'fmPrj',0);
+    populateStat(fmStrCount,'fmStrPrj',0);
+    populateStat(fmCountPB,'fmPB',0);
+    populateStat(fmRemain,'fmRM',0);
+    populateStat(fmHours,'fmHR',2);
+    populateStat(fmAve,'fmAHR',2);
+    populateStat(fmStrAve,'fmSHR',2);
+    populateStat(fmWt,'fmWT',2);
+
+    populateStat(rgCount,'rgPrj',0);
+    populateStat(rgStrCount,'rgStrPrj',0);
+    populateStat(rgCountPB,'rgPB',0);
+    populateStat(rgRemain,'rgRM',0);
+    populateStat(rgHours,'rgHR',2);
+    populateStat(rgAve,'rgAHR',2);
+    populateStat(rgStrAve,'rgSHR',2);
+    populateStat(rgWt,'rgWT',2);
+
+    populateStat(hgCount,'hgPrj',0);
+    populateStat(hgStrCount,'hgStrPrj',0);
+    populateStat(hgCountPB,'hgPB',0);
+    populateStat(hgRemain,'hgRM',0);
+    populateStat(hgHours,'hgHR',2);
+    populateStat(hgAve,'hgAHR',2);
+    populateStat(hgStrAve,'hgSHR',2);
+    populateStat(hgWt,'hgWT',2);
+
+}
+
+function projectAverage(grade,straight) {
+    let hour = 0;
+    let count = 0;
+    let tempArray = [];
+
+    for (let i=0;i<projects.length;i++) {
+        tempArray=projects[i];
+        if (tempArray[7] === 'C' || tempArray[7] === 'D' || tempArray[7] === 'E') {
+            if (tempArray[3] === straight) {
+                if (tempArray[2] === grade) {
+                    hour = hour + tempArray[10];
+                    count = count + tempArray[1].length;
+                }
+            }
+        }
+    }
+
+    let averageHr = hour / count;
+    return averageHr;
+}
+
+function projectCount(grade,straight) {
+    let count = 0;
+    let tempArray = [];
+
+    for (let i=0;i<projects.length;i++) {
+        tempArray=projects[i];
+        if (tempArray[7] === 'C' || tempArray[7] === 'D' || tempArray[7] === 'E') {
+            if (tempArray[3] === straight) {
+                if (tempArray[2] === grade) {
+                    count++;
+                }
+            }
+        }
+    }
+
+    return count;
+}
+
+function projectCountPB(grade) {
+    let count = 0;
+    let tempArray = [];
+
+    for (let i=0;i<projects.length;i++) {
+        tempArray=projects[i];
+        if (tempArray[7] === 'C' || tempArray[7] === 'D' || tempArray[7] === 'E') {
+            if (tempArray[4]) {
+                if (tempArray[2] === grade) {
+                    count++;
+                }
+            }
+        }
+    }
+
+    return count;
+}
+
+function projectHours(grade) {
+    let hours = 0;
+    let tempArray = [];
+
+    for (let i=0;i<projects.length;i++) {
+        tempArray=projects[i];
+        if (tempArray[7] === 'C' || tempArray[7] === 'D' || tempArray[7] === 'E') {
+            if (tempArray[2] === grade) {
+                hours = hours + tempArray[10];
+            }
+        }
+    }
+
+    return hours;
+}
+
+function projectRemaining(grade) {
+    let count = 0;
+    let tempArray = [];
+
+    for (let i=0;i<projects.length;i++) {
+        tempArray=projects[i];
+        if (tempArray[7] === 'A' || tempArray[7] === 'B') {
+            if (tempArray[2] === grade) {
+                count++;
+            }
+        }
+    }
+
+    return count;
 }
 
 function suggestNextPost () {

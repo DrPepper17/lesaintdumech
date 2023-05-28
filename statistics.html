@@ -1,0 +1,209 @@
+<script src="js/gundamDataSet.js"></script>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />  
+        <link rel="stylesheet" href="css/generator.css" />
+        <title>Build Statistics</title>
+    </head>
+    <body style="color: blue" onload="poststats()">
+        <style>
+            h1, h3 {
+                margin-top: 15px;
+            }
+            h1, h3, h4 {
+                font-weight: bold;
+            }
+        </style>
+        <header class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-9">
+                        <h1>Build Statistics</h1> 
+                    </div>
+                    <div class="col align-self-center">
+                        <h3><a href="index.html">Home Page</a></h3>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1>Gundams</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <h3>1/60</h3>
+                    <div class="row justify-content-md-center">
+                        <div class="col-md-6">
+                            <div class="card">
+                                <h4 class="card-header bg-primary text-white">Perfect Grade</h4>
+                                <div class="card-body">
+                                    <dl class="row">
+                                        <dt class="col-6">Projects:</dt>
+                                        <dd class="col-6"><span id="pgPrj"> </span> builds</dd>
+                                        <dt class="col-6"></dt>
+                                        <dd class="col-6"><span id="pgStrPrj"> </span> straight builds</dd>
+                                        <dt class="col-6"></dt>
+                                        <dd class="col-6"><span id="pgPB"> </span> P-Bandai's</dd>
+                                        <dt class="col-6">Left to build:</dt>
+                                        <dd class="col-6"><span id="pgRM"> </span> projects</dd>
+                                        <dt class="col-6">Hours:</dt>
+                                        <dd class="col-6"><span id="pgHR"> </span> hr</dd>
+                                        <dt class="col-6">Average Hours:</dt>
+                                        <dd class="col-6"><span id="pgAHR"> </span> hr</dd>
+                                        <dt class="col-6"></dt>
+                                        <dd class="col-6"><span id="pgSHR"> </span> hr straight build</dd>
+                                        <dt class="col-6">Weight:</dt>
+                                        <dd class="col-6"><span id="pgWT"> </span> hr/mg</dd>
+                                    </dl>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <h3>1/100</h3>
+                    <div class="row">
+                        <div class="col-md">
+                            <div class="card">
+                                <h4 class="card-header bg-primary text-white">Master Grade</h4>
+                                <div class="card-body">
+                                    <dl class="row">
+                                        <dt class="col-6">Projects:</dt>
+                                        <dd class="col-6"><span id="mgPrj"> </span> builds</dd>
+                                        <dt class="col-6"></dt>
+                                        <dd class="col-6"><span id="mgStrPrj"> </span> straight builds</dd>
+                                        <dt class="col-6"></dt>
+                                        <dd class="col-6"><span id="mgPB"> </span> P-Bandai's</dd>
+                                        <dt class="col-6">Left to build:</dt>
+                                        <dd class="col-6"><span id="mgRM"> </span> projects</dd>
+                                        <dt class="col-6">Hours:</dt>
+                                        <dd class="col-6"><span id="mgHR"> </span> hr</dd>
+                                        <dt class="col-6">Average Hours:</dt>
+                                        <dd class="col-6"><span id="mgAHR"> </span> hr</dd>
+                                        <dt class="col-6"></dt>
+                                        <dd class="col-6"><span id="mgSHR"> </span> hr straight build</dd>
+                                        <dt class="col-6">Weight:</dt>
+                                        <dd class="col-6"><span id="mgWT"> </span> hr/mg</dd>
+                                    </dl>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <h4 class="card-header bg-primary text-white">Full Mechanics</h4>
+                                <div class="card-body">
+                                    <dl class="row">
+                                        <dt class="col-6">Projects:</dt>
+                                        <dd class="col-6"><span id="fmPrj"> </span> builds</dd>
+                                        <dt class="col-6"></dt>
+                                        <dd class="col-6"><span id="fmStrPrj"> </span> straight builds</dd>
+                                        <dt class="col-6"></dt>
+                                        <dd class="col-6"><span id="fmPB"> </span> P-Bandai's</dd>
+                                        <dt class="col-6">Left to build:</dt>
+                                        <dd class="col-6"><span id="fmRM"> </span> projects</dd>
+                                        <dt class="col-6">Hours:</dt>
+                                        <dd class="col-6"><span id="fmHR"> </span> hr</dd>
+                                        <dt class="col-6">Average Hours:</dt>
+                                        <dd class="col-6"><span id="fmAHR"> </span> hr</dd>
+                                        <dt class="col-6"></dt>
+                                        <dd class="col-6"><span id="fmSHR"> </span> hr straight build</dd>
+                                        <dt class="col-6">Weight:</dt>
+                                        <dd class="col-6"><span id="fmWT"> </span> hr/mg</dd>
+                                    </dl>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <h3>1/144</h3>
+                    <div class="row">
+                        <div class="col-md">
+                            <div class="card">
+                                <h4 class="card-header bg-primary text-white">Real Grade</h4>
+                                <div class="card-body">
+                                    <dl class="row">
+                                        <dt class="col-6">Projects:</dt>
+                                        <dd class="col-6"><span id="rgPrj"> </span> builds</dd>
+                                        <dt class="col-6"></dt>
+                                        <dd class="col-6"><span id="rgStrPrj"> </span> straight builds</dd>
+                                        <dt class="col-6"></dt>
+                                        <dd class="col-6"><span id="rgPB"> </span> P-Bandai's</dd>
+                                        <dt class="col-6">Left to build:</dt>
+                                        <dd class="col-6"><span id="rgRM"> </span> projects</dd>
+                                        <dt class="col-6">Hours:</dt>
+                                        <dd class="col-6"><span id="rgHR"> </span> hr</dd>
+                                        <dt class="col-6">Average Hours:</dt>
+                                        <dd class="col-6"><span id="rgAHR"> </span> hr</dd>
+                                        <dt class="col-6"></dt>
+                                        <dd class="col-6"><span id="rgSHR"> </span> hr straight build</dd>
+                                        <dt class="col-6">Weight:</dt>
+                                        <dd class="col-6"><span id="rgWT"> </span> hr/mg</dd>
+                                    </dl>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <h4 class="card-header bg-primary text-white">High Grade</h4>
+                                <div class="card-body">
+                                    <dl class="row">
+                                        <dt class="col-6">Projects:</dt>
+                                        <dd class="col-6"><span id="hgPrj"> </span> builds</dd>
+                                        <dt class="col-6"></dt>
+                                        <dd class="col-6"><span id="hgStrPrj"> </span> straight builds</dd>
+                                        <dt class="col-6"></dt>
+                                        <dd class="col-6"><span id="hgPB"> </span> P-Bandai's</dd>
+                                        <dt class="col-6">Left to build:</dt>
+                                        <dd class="col-6"><span id="hgRM"> </span> projects</dd>
+                                        <dt class="col-6">Hours:</dt>
+                                        <dd class="col-6"><span id="hgHR"> </span> hr</dd>
+                                        <dt class="col-6">Average Hours:</dt>
+                                        <dd class="col-6"><span id="hgAHR"> </span> hr</dd>
+                                        <dt class="col-6"></dt>
+                                        <dd class="col-6"><span id="hgSHR"> </span> hr straight build</dd>
+                                        <dt class="col-6">Weight:</dt>
+                                        <dd class="col-6"><span id="hgWT"> </span> hr/mg</dd>
+                                    </dl>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <h3>SD</h3>
+                    <div class="row">
+                        <div class="col-md">
+                            <h4>Master Grade SD</h4>
+                        </div>
+                        <div class="col">
+                            <h4>Super Deformed</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <p><a href="index.html"><h4>Home Page</h4></a></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- jQuery, Popper.js, Bootstrap JavaScript plugins.-->
+        <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+        <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    </body>
+</html>
