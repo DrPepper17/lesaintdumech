@@ -21,7 +21,7 @@
 //Pojects
 const projects = [
     //Ad Stella (Mercury)
-    ['Aerial [HG]',['Aerial'],'HG',true,false,false,'Mercury','B',"2023-05-30",0,false],
+    ['Aerial [HG]',['Aerial'],'HG',true,false,false,'Mercury','C',"2023-05-30",0,false],
     ['PB Aerial Permet Six [HG]',['Aerial'],'HG',true,true,false,'Mercury','A'],
     ['Ariel',['Aerial','Mirasoul Flight Pack'],'HG',false,false,false,'Mercury','B'],
     ['Cherub',['Aerial'],'SD',false,false,false,'Mercury','D',"2023-01",4.91,false],
@@ -1335,11 +1335,17 @@ function projectRemaining(grade) {
     return count;
 }
 
+function removeAllChildNodes(parent) {
+    while (parent.firstChild) {
+        parent.removeChild(parent.firstChild);
+    }
+}
+
 function suggestNextPost () {
     const suggestPostNode = document.getElementById('toPost');
-    suggestPostNode.removeChild(suggestPostNode.firstChild);
+    removeAllChildNodes(suggestPostNode);
     
-    let decisionNumber = Math.floor(Math.random()*constructedCount)+1;
+    let decisionNumber = Math.floor(Math.random()*constructedCount)
     let tempArray = constructedArray[decisionNumber];
     const suggestTextNode = document.createTextNode(tempArray[0]);
     suggestPostNode.appendChild(suggestTextNode);
