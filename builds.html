@@ -1,0 +1,57 @@
+<script src="js/gundamDataSet.js"></script>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />  
+        <link rel="stylesheet" href="css/generator.css" />
+        <title>Le Saint du Mech: Builds</title>
+    </head>
+    <body style="color: blue" onload="populateBuildsPage()">
+        <style>
+            h1, h3 {
+                margin-top: 15px;
+            }
+            h1, h3, h4 {
+                font-weight: bold;
+            }
+        </style>
+        <header class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-9">
+                        <h1>Build Statistics</h1> 
+                    </div>
+                    <div class="col align-self-center">
+                        <h3><a href="index.html">Home Page</a></h3>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1>Builds</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <ul id="buildsLinksID">
+
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <p><a href="index.html"><h4>Home Page</h4></a></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- jQuery, Popper.js, Bootstrap JavaScript plugins.-->
+        <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+        <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    </body>
+</html>

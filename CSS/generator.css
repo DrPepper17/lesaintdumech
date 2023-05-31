@@ -4,6 +4,9 @@ a, a:visited {
 a:hover {
     color: maroon;
 }
+li a, li a:visited {
+    color: red;
+}
 body {
     font-family: Verdana, Arial, sans-serif;
     background-image: url("../img/zerobg.jpeg");

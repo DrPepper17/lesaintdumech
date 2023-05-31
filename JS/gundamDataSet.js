@@ -46,7 +46,7 @@ const projects = [
     ['Golden Ghidorah',[1,'Epyon'],'RG',false,false,false,'Wing','A'],
     ['PB Geminass 01 [HG]',[1.5,'Geminass 01','Geminass Assault Mobility Booster Expansion Pack'],'HG',true,true,false,'Wing','E',"2022-12",6.5,false],
     ['Major Tom',[1,'Geminass 01'],'SD',false,false,false,'Wing','E',"2021-12",5.15,false],
-    ['Guerilla Arms',[1,'Heavy Arms'],'MG',false,false,false,'Wing','E',"2021-04",60.07,false],
+    ['Guerilla Arms',[1,'Heavy Arms'],'MG',false,false,false,'Wing','E',"2021-04",60.07,false,'Builds/GuerillaArms.html'],
     ['Phoebe',[1,'Maganac Corps'],'SD',false,false,false,'Wing','D',"2022-04",8.42,false],
     ['Isaac',[1,'Proto-Zero'],'SD',false,false,false,'Wing','E',"2023-02",14.14,false],
     ['Jericho',[1,'Proto-Zero'],'HG',false,false,false,'Wing','E',"2023-01",12.79,false],
@@ -913,6 +913,26 @@ function cleanupArrays(array,context) {
     return array;
 }
 
+function createBuildAnchor(array) {
+    let buildsPageListNode = document.getElementById('buildsLinksID');
+    let liItemNode = document.createElement('li');
+    let anchorNode = document.createElement('a');
+    let textNode = document.createTextNode(array[0]);
+    let hrefAttribute = document.createAttribute('href');
+    
+    if (array[11]) {
+        hrefAttribute.value = array[11];
+        anchorNode.setAttributeNode(hrefAttribute);
+        anchorNode.appendChild(textNode);
+        liItemNode.appendChild(anchorNode);
+    }
+    else {
+        liItemNode.appendChild(textNode);
+    }
+    
+    buildsPageListNode.appendChild(liItemNode);
+}
+
 function convertDate() {
     let tempDate = '';
     for (let i=0;i<projects.length;i++) {
@@ -1181,6 +1201,15 @@ function gradeEdifier(array) {
     }
 
     return grade;
+}
+
+function populateBuildsPage() {
+    convertDate();
+    generateLists();
+
+    for (let i=0;i<postedArray.length;i++) {
+        createBuildAnchor(postedArray[i]);
+    }
 }
 
 function populateStat(stat,id,cap) {
