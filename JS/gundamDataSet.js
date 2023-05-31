@@ -1,7 +1,8 @@
 /*
     Project Array:
     0. Name
-    1. Model (inside an array) (position 0 is weight)
+    1. Model (inside an array) (position 0 is weight).      
+                When project includes both a straight and a painted model, straight build counts as 0.5
     2. Grade
     3. Straight Build (true/false)
     4. P-Bandai (true/false)
@@ -9,9 +10,9 @@
     6. Series (Age,G,IBO,Mercury,Recon,Seed,TurnA,UC,X,Wing,00)
     7. Stage:
          A: Out Of Inventory
-         B: Not Started
+         B: Not Started (Backlog)
          C: In Progress
-         D: Constructed
+         D: Constructed (Ready to Post)
          E: Posted
     8. Date started; Date ISO Format (YYYY-MM-DD, or YYYY-MM)
     9. Hours
@@ -149,7 +150,7 @@ const projects = [
     ['Strike Gundam [PG]',[1,'Strike'],'PG',true,false,false,'Seed','C',"2023-05",11.67,true],
     ['PB Perfect Strike [RG]',[1,'Strike, Perfect'],'RG',true,true,false,'Seed','E',"2022-03",12.33,false],
     ['S.A.T.O.',[1,'Strike, Perfect'],'SD',false,false,false,'Seed','D',"2022-01",14.85,false],
-    ['PB PB Strike Daggers [HG]',[2.5,'Strike Dagger','Strike Dagger','Strike Dagger'],'HG',false,true,false,'Seed','D',"2023-03",22,false],
+    ['PB Strike Daggers [HG]',[2.5,'Strike Dagger','Strike Dagger','Strike Dagger'],'HG',false,true,false,'Seed','D',"2023-03",22,false],
     ['AntiFreedom',[1,'Strike-Freedom'],'SD',false,false,false,'Seed','B'],
     ['Servitude',[1,'Strike-Freedom'],'MG',false,false,false,'Seed','B'],
     ['Strike-Freedom Full Burst [MG]',[1,'Strike-Freedom'],'MG',true,false,false,'Seed','E',"2021-07",18.42,false],
@@ -325,7 +326,7 @@ const projects = [
 ]
 
 //Initialize Arrays
-let outOfStockArray = [];
+let outOfInventoryArray = [];
 let backlogArray = [];
 let inProgressArray = [];
 let constructedArray = [];
@@ -370,7 +371,7 @@ let backlogListArray = [pgBacklogArray,mgBacklogArray,fmBacklogArray,rgBacklogAr
 
 //Initialize Counts
 let init = 0;
-let outOfStockCount = 0;
+let outOfInventoryCount = 0;
 let backlogCount = 0;
 let inProgressCount = 0;
 let constructedCount = 0;
@@ -542,6 +543,10 @@ function addConstructed() {
     for (let i=0;i<constructThree.length;i++) {
         insertLine(constructThree[i],'constThree');
     }
+
+    const readyCountNode = document.getElementById('readyCountID');
+    const readyCountTextNode = document.createTextNode(constructedCount);
+    readyCountNode.appendChild(readyCountTextNode);
 }
 
 function addInProgress() {
@@ -581,6 +586,10 @@ function addInProgress() {
     for (let i=0;i<progressThree.length;i++) {
         insertLine(progressThree[i],'progThree');
     }
+
+    const progCountNode = document.getElementById('progCountID');
+    const progCountTextNode = document.createTextNode(inProgressCount);
+    progCountNode.appendChild(progCountTextNode);
 }
 
 function addTable() {
@@ -730,8 +739,8 @@ function addTable() {
     }
 
     //Post Out of Stock
-    for (let i=0;i<outOfStockArray.length;i++) {
-        tempArray=outOfStockArray[i];
+    for (let i=0;i<outOfInventoryArray.length;i++) {
+        tempArray=outOfInventoryArray[i];
         insertLine(tempArray[0],'OOS');
     }
     for (let i=0;i<pbUndeliveredArray.length;i++) {
@@ -937,7 +946,7 @@ function generateLists() {
             pbUndeliveredArray.push(tempArray[0]);
         }
         else if (tempArray[7] === 'A') {
-            outOfStockArray.push(tempArray);
+            outOfInventoryArray.push(tempArray);
         }
         else if (tempArray[7] === 'B') {
             backlogArray.push(tempArray);
@@ -952,7 +961,7 @@ function generateLists() {
             postedArray.push(tempArray);
         }
     }
-    outOfStockCount = outOfStockArray.length;
+    outOfInventoryCount = outOfInventoryArray.length;
     backlogCount = backlogArray.length;
     inProgressCount = inProgressArray.length;
     constructedCount = constructedArray.length;
@@ -1348,6 +1357,16 @@ function removeAllChildNodes(parent) {
 function sortByDate(array) {
     array.sort((a,b) => a[8] - b[8]);
     return array;
+}
+
+function stageCount(array,stage) {
+    let count = 0;
+    for (let i=0;i<array.length;i++) {
+        if (array[i][7]===stage) {
+            count++;
+        }
+    }
+    return count;
 }
 
 function suggestNextPost () {
