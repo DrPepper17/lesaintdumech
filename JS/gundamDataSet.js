@@ -956,6 +956,9 @@ function generateLists() {
     inProgressCount = inProgressArray.length;
     constructedCount = constructedArray.length;
     postedCount = postedArray.length;
+    postedArray = sortByDate(postedArray);
+    inProgressArray = sortByDate(inProgressArray);
+    constructedArray = sortByDate(constructedArray);
 
     //Backlog by Grade
     for (let i=0;i<backlogArray.length;i++) {
@@ -1339,6 +1342,11 @@ function removeAllChildNodes(parent) {
     while (parent.firstChild) {
         parent.removeChild(parent.firstChild);
     }
+}
+
+function sortByDate(array) {
+    array.sort((a,b) => a[8] - b[8]);
+    return array;
 }
 
 function suggestNextPost () {
