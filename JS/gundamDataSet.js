@@ -21,7 +21,7 @@
 //Pojects
 const projects = [
     //Ad Stella (Mercury)
-    ['Aerial [HG]',['Aerial'],'HG',true,false,false,'Mercury','C',"2023-05-30",0,false],
+    ['Aerial [HG]',['Aerial'],'HG',true,false,false,'Mercury','D',"2023-05-30",2.25,false],
     ['PB Aerial Permet Six [HG]',['Aerial'],'HG',true,true,false,'Mercury','A'],
     ['Ariel',['Aerial','Mirasoul Flight Pack'],'HG',false,false,false,'Mercury','B'],
     ['Cherub',['Aerial'],'SD',false,false,false,'Mercury','D',"2023-01",4.91,false],
@@ -126,7 +126,7 @@ const projects = [
     ['Anthem',['Freedom'],'MG',false,false,false,'Seed','E',"2022-05",73.16,true],
     ['Freedom [MGSD]',['Freedom'],'MGSD',true,false,false,'Seed','C',"2023-03",8.5,false],
     ['Liberty',['Freedom'],'SD',false,false,false,'Seed','E',"2022-04",18,false],
-    ['Old Glory',['Freedom'],'MGSD',false,false,false,'Seed','C',"2023-05",15.08,false],
+    ['Old Glory',['Freedom'],'MGSD',false,false,false,'Seed','C',"2023-05",15.25,false],
     ['Billy Blue Jay',['Ginn'],'MG',false,false,false,'Seed','B'],
     ['PB Destiny Impulse (Regenes) [MG]',['Impulse, Destiny'],'Seed','MG',true,true,false,'C',"2023-05",6.5,false],
     ['PB Destiny Impulse [RG]',['Impulse, Destiny'],'RG',true,true,false,'Seed','B'],
@@ -189,7 +189,7 @@ const projects = [
     ['\u00dcbermensch',['Vidar'],'FM',false,false,false,'IBO','B'],
 
     //Universal Century
-    ['DewDrop',['Acguy'],'HG',false,false,false,'UC','C',"2023-05-29",1.58,false],
+    ['DewDrop',['Acguy'],'HG',false,false,false,'UC','C',"2023-05-29",2.75,false],
     ['Fantomas',['Banshee Norn'],'SD',false,false,false,'UC','E',"2021-06",15.02,true],
     ['King Uranus',['Banshee Norn'],'RG',false,false,false,'UC','B'],
     ['Gundam ARRRgent',['Crossbone X-1'],'SD',false,false,false,'UC','E',"2021-06",14.09,false],
@@ -956,9 +956,9 @@ function generateLists() {
     inProgressCount = inProgressArray.length;
     constructedCount = constructedArray.length;
     postedCount = postedArray.length;
-    postedArray = sortByDate(postedArray);
     inProgressArray = sortByDate(inProgressArray);
     constructedArray = sortByDate(constructedArray);
+    postedArray = sortByDate(postedArray);
 
     //Backlog by Grade
     for (let i=0;i<backlogArray.length;i++) {
