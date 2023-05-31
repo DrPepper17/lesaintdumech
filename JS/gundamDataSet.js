@@ -1259,7 +1259,7 @@ function projectAverage(grade,straight) {
         if (tempArray[7] === 'C' || tempArray[7] === 'D' || tempArray[7] === 'E') {
             if (tempArray[3] === straight) {
                 if (tempArray[2] === grade) {
-                    hour = hour + tempArray[10];
+                    hour = hour + tempArray[9];
                     count = count + tempArray[1].length;
                 }
             }
@@ -1314,7 +1314,7 @@ function projectHours(grade) {
         tempArray=projects[i];
         if (tempArray[7] === 'C' || tempArray[7] === 'D' || tempArray[7] === 'E') {
             if (tempArray[2] === grade) {
-                hours = hours + tempArray[10];
+                hours = hours + tempArray[9];
             }
         }
     }
