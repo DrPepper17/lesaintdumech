@@ -34,7 +34,7 @@ const projects = [
     ['Gamma Draconis',['Danazine'],'HG',false,false,false,'Age','B'],
 
     //After Colony (Wing)
-    ['Leo Army',['Leo'],'HG',false,false,false,'Wing','C','Date',37.42,false],
+    ['Leo Army',['Leo'],'HG',false,false,false,'Wing','C',"2021-10",37.42,false],
     ['South Park',['Tallgeese','Epyon','Heavy Arms','Wing Gundam','Nataku','Deathscythe','Sandrock'],'SD',false,false,false,'Wing','E',"2021-06",54.42,true],
     ['Gemini',['Aquarius','Aquarius'],'SD',false,false,false,'Wing','E',"2021-07",22.28,false],
     ['Pontus',['Aquarius'],'SD',false,false,false,'Wing','B'],
