@@ -16,6 +16,7 @@
     8. Date started; Date ISO Format (YYYY-MM-DD, or YYYY-MM)
     9. Hours
     10. LEDS (true/false)
+    11. URL
 */
 
 //Pojects
@@ -206,7 +207,7 @@ const projects = [
     ['PB BB Senshi RX-93ff \u03bd Gundam [SD]',['Nu Gundam, ff'],'SD',true,true,false,'UC','E',"2023-03",2.83,false],
     ['PB RX-93ff \u03bd Gundam [RG]',['Nu Gundam, ff'],'RG',true,true,false,'UC','E',"2023-03",14.5,false],
     ['Milos',['Nu Gundam, Hi'],'SD',false,false,false,'UC','B'],
-    ['PB Umbrella Corp',['Nu Gundam, Hi','Hi Nu Expansion Pack','Hi Nu Hyper Bazooka'],'RG',false,true,false,'UC','B'],
+    ['PB Umbrella Corp',['Nu Gundam, Hi','Hi Nu Expansion Pack','Hi Nu Hyper Bazooka'],'RG',false,true,false,'UC','A'],
     ['Bella Donna',['Phenex','Phenex'],'SD',false,false,false,'UC','E',"2021-12",14.37,false],
     ['Phenex [SD]',['Phenex'],'SD',true,false,false,'UC','E',"2021-10",4.17,false],
     ['Sovereign',['Phenex'],'SD',false,false,false,'UC','E',"2021-11",5.93,false],
