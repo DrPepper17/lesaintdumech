@@ -2,7 +2,7 @@
     Project Array:
     0. Name
     1. Model (inside an array) (position 0 is weight).      
-                When project includes both a straight and a painted model, straight build counts as 0.5
+                When project includes both a straight and a painted model, omit the straight build
     2. Grade
     3. Straight Build (true/false)
     4. P-Bandai (true/false)
@@ -15,7 +15,8 @@
          D: Constructed (Ready to Post)
          E: Posted
     8. Date started; Date ISO Format (YYYY-MM-DD, or YYYY-MM)
-    9. Hours
+    9. Hours 
+            when both straight and painted included on same project, omit straight build hours
     10. LEDS (true/false)
     11. URL
 */
@@ -37,10 +38,10 @@ const projects = [
 
     //After Colony (Wing)
     ['Leo Army',[6,'Leo'],'LEO',false,false,false,'Wing','C',"2021-10",37.42,false],
-    ['South Park',[7,'Tallgeese','Epyon','Heavy Arms','Wing Gundam','Nataku','Deathscythe','Sandrock'],'SD',false,false,false,'Wing','E',"2021-06",54.42,true],
+    ['South Park',[6,'Tallgeese','Epyon','Heavy Arms','Nataku','Deathscythe','Sandrock'],'SD',false,false,false,'Wing','E',"2021-06",54.42,true],
     ['Gemini',[2,'Aquarius','Aquarius'],'SD',false,false,false,'Wing','E',"2021-07",22.28,false],
     ['Pontus',[1,'Aquarius'],'SD',false,false,false,'Wing','B'],
-    ['PB Deathscythe Hell (TV Version',[1.5,'Deathscythe Hell'],'HG',false,true,false,'Wing','A'],
+    ['PB Deathscythe Hell (TV Version',[1,'Deathscythe Hell'],'HG',false,true,false,'Wing','A'],
     ['Epyon [RG]',[1,'Epyon'],'RG',true,false,false,'Wing','A'],
     ['Golden Ghidorah',[1,'Epyon'],'MG',false,false,false,'Wing','B'],
     ['Golden Ghidorah',[1,'Epyon'],'RG',false,false,false,'Wing','A'],
@@ -138,19 +139,19 @@ const projects = [
     ['PB Clear \u221e Justice [RG]',[1,'Infinite Justice'],'RG',true,true,false,'Seed','E',"2021-11",4.93,false],
     ['Oppression',[1,'Infinite Justice'],'MG',false,false,false,'Seed','B'],
     ['Zoroaster',[1,'Legend'],'FM',false,false,false,'Seed','B'],
-    ['PB Meteors',[3,'Meteor','Meteor I','Meteor II','Freedom','Infinite Justice'],'HG',false,true,false,'Seed','B'],
+    ['PB Meteors',[1,'Meteor','Meteor I','Meteor II','Freedom','Infinite Justice'],'HG',false,true,false,'Seed','B'],
     ['Union Jack',[1,'Providence'],'MG',false,false,false,'Seed','A'],
     ['Raider [FM]',[1,'Raider'],'FM',true,false,false,'Seed','D',"2023-01",9.75,false],
     ['Rodan',[1,'Raider'],'FM',false,false,false,'Seed','A'],
     ['Blue Angels',[3,'Skygrasper','Skygrasper','Skygrasper'],'RG',false,false,false,'Seed','E',"2022-12",22,true],
     ['Skygrasper [PG]',[1,'Skygrasper'],'PG',true,false,false,'Seed','E',"2022-10",6,false],
-    ['Skygrasper [RG]',[2,'Skygrasper','Skygrasper','Skygrasper'],'RG',false,false,false,'Seed','E',"2022-09",10,false],
+    ['Skygrasper [RG]',[2,'Skygrasper','Skygrasper','Skygrasper'],'RG',true,false,false,'Seed','E',"2022-09",10,false],
     ['PB Lightning Strike',[2,'Strike','Lightning Striker','Sword Launcher Striker Pack'],'MG',false,true,false,'Seed','B'],
     ['Metal Strike',[1,'Strike'],'SD',false,false,false,'Seed','B'],
     ['Strike Gundam [PG]',[1,'Strike'],'PG',true,false,false,'Seed','C',"2023-05",11.67,true],
     ['PB Perfect Strike [RG]',[1,'Strike, Perfect'],'RG',true,true,false,'Seed','E',"2022-03",12.33,false],
     ['S.A.T.O.',[1,'Strike, Perfect'],'SD',false,false,false,'Seed','D',"2022-01",14.85,false],
-    ['PB Strike Daggers [HG]',[2.5,'Strike Dagger','Strike Dagger','Strike Dagger'],'HG',false,true,false,'Seed','D',"2023-03",22,false],
+    ['PB Strike Daggers [HG]',[2,'Strike Dagger','Strike Dagger','Strike Dagger'],'HG',false,true,false,'Seed','D',"2023-03",20.41,false],
     ['AntiFreedom',[1,'Strike-Freedom'],'SD',false,false,false,'Seed','B'],
     ['Servitude',[1,'Strike-Freedom'],'MG',false,false,false,'Seed','B'],
     ['Strike-Freedom Full Burst [MG]',[1,'Strike-Freedom'],'MG',true,false,false,'Seed','E',"2021-07",18.42,false],
@@ -191,7 +192,7 @@ const projects = [
     ['\u00dcbermensch',[1,'Vidar'],'FM',false,false,false,'IBO','B'],
 
     //Universal Century
-    ['DewDrop',[1,'Acguy'],'HG',false,false,false,'UC','C',"2023-05-29",3.75,false],
+    ['DewDrop',[1,'Acguy'],'HG',false,false,false,'UC','C',"2023-05-29",5.17,false],
     ['Fantomas',[1,'Banshee Norn'],'SD',false,false,false,'UC','E',"2021-06",15.02,true],
     ['King Uranus',[1,'Banshee Norn'],'RG',false,false,false,'UC','B'],
     ['Gundam ARRRgent',[1,'Crossbone X-1'],'SD',false,false,false,'UC','E',"2021-06",14.09,false],
@@ -265,7 +266,7 @@ const projects = [
     ['Corona Borealis',[1,'Tallgeese III, Xiahou Dun'],'SD',false,false,false,'Heroes','D',"2022-04",8.67,false],
     ['Coeus',[1,'Unicorn, Long Zun Liu Vei'],'SD',false,false,false,'Heroes','A'],
     ['Bastiat',[1,'Verde Buster, Sergeante'],'SD',false,false,false,'Heroes','E',"2021-10",8.3,false],
-    ['Mighty Morphin Power Rangers',[7,'Trinity Bike','Verde Buster, Sergeant DX','Verde Buster, Sergeant DX','Verde Buster Team Member','Verde Buster Team Member','Verde Buster Team Member','Verde Buster Team Member'],'SD',false,false,false,'Heroes','E',"2022-12",39.63,false],
+    ['Mighty Morphin Power Rangers',[7.5,'Trinity Bike','Verde Buster, Sergeant DX','Verde Buster, Sergeant DX','Verde Buster Team Member','Verde Buster Team Member','Verde Buster Team Member','Verde Buster Team Member'],'SD',false,false,false,'Heroes','E',"2022-12",39.63,false],
     ['Eos',[1,'Wing, Cao Cao'],'SD',false,false,false,'Heroes','A'],
     ['Tethys',[1,'Wing Isei, Cao Cao'],'SD',false,false,false,'Heroes','D',"2022-04",8.67,false],
     ['Hyperion',[1,'Wing Zero, Tian Ba Cao Cao'],'SD',false,false,false,'Heroes','B'],
