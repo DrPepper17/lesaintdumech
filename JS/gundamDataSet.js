@@ -38,7 +38,7 @@ const projects = [
 
     //After Colony (Wing)
     ['Leo Army',[6,'Leo'],'LEO',false,false,false,'Wing','C',"2021-10",37.42,false],
-    ['South Park',[6,'Tallgeese','Epyon','Heavy Arms','Nataku','Deathscythe','Sandrock'],'SD',false,false,false,'Wing','E',"2021-06",54.42,true],
+    ['South Park',[6,'Tallgeese','Epyon','Heavy Arms','Shenlong','Deathscythe','Sandrock'],'SD',false,false,false,'Wing','E',"2021-06",54.42,true],
     ['Gemini',[2,'Aquarius','Aquarius'],'SD',false,false,false,'Wing','E',"2021-07",22.28,false],
     ['Pontus',[1,'Aquarius'],'SD',false,false,false,'Wing','B'],
     ['PB Deathscythe Hell (TV Version',[1,'Deathscythe Hell'],'HG',false,true,false,'Wing','A'],
