@@ -38,15 +38,15 @@
             <div class="row">
                 <div class="col">
                     <h3>1/60</h3>
-                    <div class="row justify-content-md-center">
-                        <div class="col-md-6">
+                    <div class="row justify-content-lg-center">
+                        <div class="col-lg-6">
                             <div class="card">
                                 <h4 class="card-header bg-primary text-white">Perfect Grade</h4>
                                 <div class="card-body">
                                     <dl class="row">
                                         <dt class="col-6">Projects:</dt>
-                                        <dd class="col-6"><span id="pgPrj"> </span> build(s)</dd>
-                                        <dt class="col-6"></dt>
+                                        <dd class="col-6 hide"><span id="pgPrj"> </span> build(s)</dd>
+                                        <dt class="col-6 hide"></dt>
                                         <dd class="col-6"><span id="pgStrPrj"> </span> straight build(s)</dd>
                                         <dt class="col-6"></dt>
                                         <dd class="col-6"><span id="pgPB"> </span> P-Bandai</dd>
@@ -55,11 +55,11 @@
                                         <dt class="col-6">Hours:</dt>
                                         <dd class="col-6"><span id="pgHR"> </span> hr</dd>
                                         <dt class="col-6">Average Hours:</dt>
-                                        <dd class="col-6"><span id="pgAHR"> </span> hr/project</dd>
-                                        <dt class="col-6"></dt>
+                                        <dd class="col-6 hide"><span id="pgAHR"> </span> hr/project</dd>
+                                        <dt class="col-6 hide"></dt>
                                         <dd class="col-6"><span id="pgSHR"> </span> hr/straight build</dd>
-                                        <dt class="col-6">Weight:</dt>
-                                        <dd class="col-6"><span id="pgWT"> </span> hr/mg</dd>
+                                        <dt class="col-6 hide">Weight:</dt>
+                                        <dd class="col-6 hide"><span id="pgWT"> </span> hr/mg</dd>
                                     </dl>
                                 </div>
                             </div>
@@ -96,7 +96,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col">
+                        <div class="col mt-5 mt-md-0">
                             <div class="card">
                                 <h4 class="card-header bg-primary text-white">Full Mechanics</h4>
                                 <div class="card-body">
@@ -153,7 +153,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col">
+                        <div class="col mt-5 mt-md-0">
                             <div class="card">
                                 <h4 class="card-header bg-primary text-white">High Grade</h4>
                                 <div class="card-body">
@@ -210,7 +210,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col">
+                        <div class="col mt-5 mt-md-0">
                             <div class="card">
                                 <h4 class="card-header bg-primary text-white">Super Deformed</h4>
                                 <div class="card-body">
@@ -231,6 +231,236 @@
                                         <dd class="col-6"><span id="sdSHR"> </span> hr/straight build</dd>
                                         <dt class="col-6">Weight:</dt>
                                         <dd class="col-6"><span id="sdWT"> </span> hr/mg</dd>
+                                    </dl>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <h3>Other</h3>
+                    <div class="row">
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card">
+                                <h4 class="card-header bg-primary text-white">Ships</h4>
+                                <div class="card-body">
+                                    <dl class="row">
+                                        <dt class="col-6">Projects:</dt>
+                                        <dd class="col-6"><span id="shipPrj"> </span> build(s)</dd>
+                                        <dt class="col-6 hide"></dt>
+                                        <dd class="col-6 hide"><span id="shipStrPrj"> </span> straight build(s)</dd>
+                                        <dt class="col-6 hide"></dt>
+                                        <dd class="col-6 hide"><span id="shipPB"> </span> P-Bandai</dd>
+                                        <dt class="col-6">Left to build:</dt>
+                                        <dd class="col-6"><span id="shipRM"> </span> projects</dd>
+                                        <dt class="col-6">Hours:</dt>
+                                        <dd class="col-6"><span id="shipHR"> </span> hr</dd>
+                                        <dt class="col-6">Average:</dt>
+                                        <dd class="col-6"><span id="shipAHR"> </span> hr/project</dd>
+                                        <dt class="col-6 hide"></dt>
+                                        <dd class="col-6 hide"><span id="shipSHR"> </span> hr/straight build</dd>
+                                        <dt class="col-6">Weight:</dt>
+                                        <dd class="col-6"><span id="shipWT"> </span> hr/mg</dd>
+                                    </dl>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 mt-5 mt-md-0">
+                            <div class="card">
+                                <h4 class="card-header bg-primary text-white">Haropla</h4>
+                                <div class="card-body">
+                                    <dl class="row">
+                                        <dt class="col-6">Projects:</dt>
+                                        <dd class="col-6"><span id="haroPrj"> </span> build(s)</dd>
+                                        <dt class="col-6 hide"></dt>
+                                        <dd class="col-6 hide"><span id="haroStrPrj"> </span> straight build(s)</dd>
+                                        <dt class="col-6 hide"></dt>
+                                        <dd class="col-6 hide"><span id="haroPB"> </span> P-Bandai</dd>
+                                        <dt class="col-6">Left to build:</dt>
+                                        <dd class="col-6"><span id="haroRM"> </span> projects</dd>
+                                        <dt class="col-6">Hours:</dt>
+                                        <dd class="col-6"><span id="haroHR"> </span> hr</dd>
+                                        <dt class="col-6">Average:</dt>
+                                        <dd class="col-6"><span id="haroAHR"> </span> hr/project</dd>
+                                        <dt class="col-6 hide"></dt>
+                                        <dd class="col-6 hide"><span id="haroSHR"> </span> hr/straight build</dd>
+                                        <dt class="col-6">Weight:</dt>
+                                        <dd class="col-6"><span id="haroWT"> </span> hr/mg</dd>
+                                    </dl>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col mt-5 mt-lg-0">
+                            <div class="card">
+                                <h4 class="card-header bg-primary text-white">Displays</h4>
+                                <div class="card-body">
+                                    <dl class="row">
+                                        <dt class="col-6">Projects:</dt>
+                                        <dd class="col-6"><span id="dispPrj"> </span> build(s)</dd>
+                                        <dt class="col-6 hide"></dt>
+                                        <dd class="col-6 hide"><span id="dispStrPrj"> </span> straight build(s)</dd>
+                                        <dt class="col-6 hide"></dt>
+                                        <dd class="col-6 hide"><span id="dispPB"> </span> P-Bandai</dd>
+                                        <dt class="col-6">Left to build:</dt>
+                                        <dd class="col-6"><span id="dispRM"> </span> projects</dd>
+                                        <dt class="col-6">Hours:</dt>
+                                        <dd class="col-6"><span id="dispHR"> </span> hr</dd>
+                                        <dt class="col-6">Average:</dt>
+                                        <dd class="col-6"><span id="dispAHR"> </span> hr/project</dd>
+                                        <dt class="col-6 hide"></dt>
+                                        <dd class="col-6 hide"><span id="dispSHR"> </span> hr/straight build</dd>
+                                        <dt class="col-6">Weight:</dt>
+                                        <dd class="col-6"><span id="dispWT"> </span> hr/mg</dd>
+                                    </dl>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <h3>Beyond Gundam</h3>
+                    <div class="row">
+                        <div class="col-md">
+                            <div class="card">
+                                <h4 class="card-header bg-primary text-white">Pokemon</h4>
+                                <div class="card-body">
+                                    <dl class="row">
+                                        <dt class="col-6">Projects:</dt>
+                                        <dd class="col-6"><span id="pokePrj"> </span> build(s)</dd>
+                                        <dt class="col-6 hide"></dt>
+                                        <dd class="col-6 hide"><span id="pokeStrPrj"> </span> straight build(s)</dd>
+                                        <dt class="col-6">Left to build:</dt>
+                                        <dd class="col-6"><span id="pokeRM"> </span> projects</dd>
+                                        <dt class="col-6">Hours:</dt>
+                                        <dd class="col-6"><span id="pokeHR"> </span> hr</dd>
+                                        <dt class="col-6">Average Hours:</dt>
+                                        <dd class="col-6"><span id="pokeAHR"> </span> hr/project</dd>
+                                        <dt class="col-6 hide"></dt>
+                                        <dd class="col-6 hide"><span id="pokeSHR"> </span> hr/straight build</dd>
+                                        <dt class="col-6">Weight:</dt>
+                                        <dd class="col-6"><span id="pokeWT"> </span> hr/mg</dd>
+                                    </dl>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col mt-5 mt-md-0">
+                            <div class="card">
+                                <h4 class="card-header bg-primary text-white">Digimon</h4>
+                                <div class="card-body">
+                                    <dl class="row">
+                                        <dt class="col-6">Projects:</dt>
+                                        <dd class="col-6"><span id="digiPrj"> </span> build(s)</dd>
+                                        <dt class="col-6 hide"></dt>
+                                        <dd class="col-6 hide"><span id="digiStrPrj"> </span> straight build(s)</dd>
+                                        <dt class="col-6">Left to build:</dt>
+                                        <dd class="col-6"><span id="digiRM"> </span> projects</dd>
+                                        <dt class="col-6">Hours:</dt>
+                                        <dd class="col-6"><span id="digiHR"> </span> hr</dd>
+                                        <dt class="col-6">Average Hours:</dt>
+                                        <dd class="col-6"><span id="digiAHR"> </span> hr/project</dd>
+                                        <dt class="col-6 hide"></dt>
+                                        <dd class="col-6 hide"><span id="digiSHR"> </span> hr/straight build</dd>
+                                        <dt class="col-6">Weight:</dt>
+                                        <dd class="col-6"><span id="digiWT"> </span> hr/mg</dd>
+                                    </dl>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-5">
+                        <div class="col-md">
+                            <div class="card">
+                                <h4 class="card-header bg-primary text-white">Car</h4>
+                                <div class="card-body">
+                                    <dl class="row">
+                                        <dt class="col-6">Projects:</dt>
+                                        <dd class="col-6"><span id="carPrj"> </span> build(s)</dd>
+                                        <dt class="col-6 hide"></dt>
+                                        <dd class="col-6 hide"><span id="carStrPrj"> </span> straight build(s)</dd>
+                                        <dt class="col-6">Left to build:</dt>
+                                        <dd class="col-6"><span id="carRM"> </span> projects</dd>
+                                        <dt class="col-6">Hours:</dt>
+                                        <dd class="col-6"><span id="carHR"> </span> hr</dd>
+                                        <dt class="col-6">Average Hours:</dt>
+                                        <dd class="col-6"><span id="carAHR"> </span> hr/project</dd>
+                                        <dt class="col-6 hide"></dt>
+                                        <dd class="col-6 hide"><span id="carSHR"> </span> hr/straight build</dd>
+                                        <dt class="col-6">Weight:</dt>
+                                        <dd class="col-6"><span id="carWT"> </span> hr/mg</dd>
+                                    </dl>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col mt-5 mt-md-0">
+                            <div class="card">
+                                <h4 class="card-header bg-primary text-white">Transformer</h4>
+                                <div class="card-body">
+                                    <dl class="row">
+                                        <dt class="col-6">Projects:</dt>
+                                        <dd class="col-6"><span id="transPrj"> </span> build(s)</dd>
+                                        <dt class="col-6 hide"></dt>
+                                        <dd class="col-6 hide"><span id="transStrPrj"> </span> straight build(s)</dd>
+                                        <dt class="col-6">Left to build:</dt>
+                                        <dd class="col-6"><span id="transRM"> </span> projects</dd>
+                                        <dt class="col-6">Hours:</dt>
+                                        <dd class="col-6"><span id="transHR"> </span> hr</dd>
+                                        <dt class="col-6">Average Hours:</dt>
+                                        <dd class="col-6"><span id="transAHR"> </span> hr/project</dd>
+                                        <dt class="col-6 hide"></dt>
+                                        <dd class="col-6 hide"><span id="transSHR"> </span> hr/straight build</dd>
+                                        <dt class="col-6">Weight:</dt>
+                                        <dd class="col-6"><span id="transWT"> </span> hr/mg</dd>
+                                    </dl>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-5 justify-content-lg-center">
+                        <div class="col-lg-6">
+                            <div class="card">
+                                <h4 class="card-header bg-primary text-white">Zoids</h4>
+                                <div class="card-body">
+                                    <dl class="row">
+                                        <dt class="col-6">Projects:</dt>
+                                        <dd class="col-6"><span id="zoidPrj"> </span> build(s)</dd>
+                                        <dt class="col-6 hide"></dt>
+                                        <dd class="col-6 hide"><span id="zoidStrPrj"> </span> straight build(s)</dd>
+                                        <dt class="col-6">Left to build:</dt>
+                                        <dd class="col-6"><span id="zoidRM"> </span> projects</dd>
+                                        <dt class="col-6">Hours:</dt>
+                                        <dd class="col-6"><span id="zoidHR"> </span> hr</dd>
+                                        <dt class="col-6">Average Hours:</dt>
+                                        <dd class="col-6"><span id="zoidAHR"> </span> hr/project</dd>
+                                        <dt class="col-6 hide"></dt>
+                                        <dd class="col-6 hide"><span id="zoidSHR"> </span> hr/straight build</dd>
+                                        <dt class="col-6">Weight:</dt>
+                                        <dd class="col-6"><span id="zoidWT"> </span> hr/mg</dd>
+                                    </dl>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row hide">
+                <div class="col">
+                    <h3>Performance Stats</h3>
+                    <div class="row mt-5 justify-content-lg-center">
+                        <div class="col-lg-6">
+                            <div class="card">
+                                <h4 class="card-header bg-primary text-white">Paint Stats</h4>
+                                <div class="card-body">
+                                    <dl class="row">
+                                        <dt class="col-6">Painted Average:</dt>
+                                        <dd class="col-6"><span id="paintAve"> </span> hr/project</dd>
+                                        <dt class="col-6 ">Straight Average</dt>
+                                        <dd class="col-6 "><span id="straightAve"> </span> hr/straight build</dd>
+                                        <dt class="col-6">Straight Weight:</dt>
+                                        <dd class="col-6"><span id="straightWeight"> </span> straight build / paint build</dd>
                                     </dl>
                                 </div>
                             </div>

@@ -129,7 +129,7 @@ const projects = [
     ['Anthem',[1,'Freedom'],'MG',false,false,false,'Seed','E',"2022-05",73.16,true],
     ['Freedom [MGSD]',[1,'Freedom'],'MGSD',true,false,false,'Seed','C',"2023-03",8.5,false],
     ['Liberty',[1,'Freedom'],'SD',false,false,false,'Seed','E',"2022-04",18,false],
-    ['Old Glory',[1,'Freedom'],'MGSD',false,false,false,'Seed','C',"2023-05",19.50,false],
+    ['Old Glory',[1,'Freedom'],'MGSD',false,false,false,'Seed','C',"2023-05",20.83,false],
     ['Billy Blue Jay',[1,'Ginn'],'MG',false,false,false,'Seed','B'],
     ['PB Destiny Impulse (Regenes) [MG]',[1,'Impulse, Destiny'],'Seed','MG',true,true,false,'C',"2023-05",6.5,false],
     ['PB Destiny Impulse [RG]',[1,'Impulse, Destiny'],'RG',true,true,false,'Seed','B'],
@@ -411,6 +411,8 @@ let finishedCount = 0;
     let transStrAve = 0;
     let zoidAve = 0;
     let zoidStrAve = 0;
+    let paintedAverage = 0;
+    let straightAverage = 0;
 
     //weights
     let pgWt = 0;
@@ -451,7 +453,7 @@ let finishedCount = 0;
     let digiCount = 0;
     let digiStrCount = 0;
     let dispCount = 0;
-    let dispStr = 0;
+    let dispStrCount = 0;
     let pokeCount = 0;
     let pokeStrCount = 0;
     let shipCount = 0;
@@ -471,6 +473,7 @@ let finishedCount = 0;
     let sdCountPB = 0;
     let haroCountPB = 0;
     let shipCountPB = 0;
+    let dispCountPB = 0;
 
     //Remaining Count
     let mgRemain = 0;
@@ -755,13 +758,11 @@ function addTable() {
 }
 
 function arrayAverage(array) {
-    let tempArray = [];
     let hours = 0;
     let count = 0;
     for (let i=0;i<array.length;i++) {
-        tempArray=array[i];
-        if (tempArray>0) {
-            hours = hours + tempArray[i];
+        if (array[i]>0) {
+            hours = hours + array[i];
             count++;
         }
     }
@@ -820,8 +821,8 @@ function calculateStats() {
     transWt = transAve / mgAve;
     zoidWt = zoidAve / mgAve;
 
-    let paintedAverage = arrayAverage([mgAve,pgAve,fmAve,rgAve,hgAve,mgsdAve,sdAve,haroAve,carAve,pokeAve,digiAve,dispAve,shipAve,transAve,zoidAve]);
-    let straightAverage = arrayAverage([mgStrAve,pgStrAve,fmStrAve,rgStrAve,hgStrAve,mgsdStrAve,sdStrAve,haroStrAve,carStrAve,pokeStrAve,digiStrAve,dispStrAve,shipStrAve,transStrAve,zoidStrAve]);
+    paintedAverage = arrayAverage([mgAve,pgAve,fmAve,rgAve,hgAve,mgsdAve,sdAve,haroAve,carAve,pokeAve,digiAve,dispAve,shipAve,transAve,zoidAve]);
+    straightAverage = arrayAverage([mgStrAve,pgStrAve,fmStrAve,rgStrAve,hgStrAve,mgsdStrAve,sdStrAve,haroStrAve,carStrAve,pokeStrAve,digiStrAve,dispStrAve,shipStrAve,transStrAve,zoidStrAve]);
     straightWeight = straightAverage / paintedAverage;
 
     //counts
@@ -866,6 +867,7 @@ function calculateStats() {
     sdCountPB = projectCountPB('SD');
     haroCountPB = projectCountPB('Haro');
     shipCountPB = projectCountPB('Ship');
+    dispCountPB = projectCountPB('Display');
 
     //Remaining Count
     mgRemain = projectRemaining('MG');
@@ -1287,6 +1289,76 @@ function poststats() {
     populateStat(sdStrAve,'sdSHR',2);
     populateStat(sdWt,'sdWT',2);
 
+    populateStat(shipCount,'shipPrj',0);
+    populateStat(shipStrCount,'shipStrPrj',0);
+    populateStat(shipCountPB,'shipPB',0);
+    populateStat(shipRemain,'shipRM',0);
+    populateStat(shipHours,'shipHR',2);
+    populateStat(shipAve,'shipAHR',2);
+    populateStat(shipStrAve,'shipSHR',2);
+    populateStat(shipWt,'shipWT',2);
+
+    populateStat(haroCount,'haroPrj',0);
+    populateStat(haroStrCount,'haroStrPrj',0);
+    populateStat(haroCountPB,'haroPB',0);
+    populateStat(haroRemain,'haroRM',0);
+    populateStat(haroHours,'haroHR',2);
+    populateStat(haroAve,'haroAHR',2);
+    populateStat(haroStrAve,'haroSHR',2);
+    populateStat(haroWt,'haroWT',2);
+
+    populateStat(dispCount,'dispPrj',0);
+    populateStat(dispStrCount,'dispStrPrj',0);
+    populateStat(dispCountPB,'dispPB',0);
+    populateStat(dispRemain,'dispRM',0);
+    populateStat(dispHours,'dispHR',2);
+    populateStat(dispAve,'dispAHR',2);
+    populateStat(dispStrAve,'dispSHR',2);
+    populateStat(dispWt,'dispWT',2);
+
+    populateStat(pokeCount,'pokePrj',0);
+    populateStat(pokeStrCount,'pokeStrPrj',0);
+    populateStat(pokeRemain,'pokeRM',0);
+    populateStat(pokeHours,'pokeHR',2);
+    populateStat(pokeAve,'pokeAHR',2);
+    populateStat(pokeStrAve,'pokeSHR',2);
+    populateStat(pokeWt,'pokeWT',2);
+
+    populateStat(digiCount,'digiPrj',0);
+    populateStat(digiStrCount,'digiStrPrj',0);
+    populateStat(digiRemain,'digiRM',0);
+    populateStat(digiHours,'digiHR',2);
+    populateStat(digiAve,'digiAHR',2);
+    populateStat(digiStrAve,'digiSHR',2);
+    populateStat(digiWt,'digiWT',2);
+
+    populateStat(carCount,'carPrj',0);
+    populateStat(carStrCount,'carStrPrj',0);
+    populateStat(carRemain,'carRM',0);
+    populateStat(carHours,'carHR',2);
+    populateStat(carAve,'carAHR',2);
+    populateStat(carStrAve,'carSHR',2);
+    populateStat(carWt,'carWT',2);
+
+    populateStat(transCount,'transPrj',0);
+    populateStat(transCount,'transStrPrj',0);
+    populateStat(transRemain,'transRM',0);
+    populateStat(transHours,'transHR',2);
+    populateStat(transAve,'transAHR',2);
+    populateStat(transStrAve,'transSHR',2);
+    populateStat(transWt,'transWT',2);
+
+    populateStat(zoidCount,'zoidPrj',0);
+    populateStat(zoidCount,'zoidStrPrj',0);
+    populateStat(zoidRemain,'zoidRM',0);
+    populateStat(zoidHours,'zoidHR',2);
+    populateStat(zoidAve,'zoidAHR',2);
+    populateStat(zoidStrAve,'zoidSHR',2);
+    populateStat(zoidWt,'zoidWT',2);
+
+    populateStat(paintedAverage,'paintAve',2);
+    populateStat(straightAverage,'straightAve',2);
+    populateStat(straightWeight,'straightWeight',2);
 }
 
 function projectAverage(grade,straight) {
