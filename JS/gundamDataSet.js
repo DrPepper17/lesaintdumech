@@ -127,7 +127,7 @@ const projects = [
     ['PB Eclipse [MG]',[1.5,'Eclipse','Eclipse Maneuver Striker'],'MG',true,true,false,'Seed','E',"2022-02",17.75,false],
     ['Eternal',[1,'Eternal'],'Ship',false,false,false,'Seed','E',"2021-08",24.1,false],
     ['Anthem',[1,'Freedom'],'MG',false,false,false,'Seed','E',"2022-05",73.16,true],
-    ['Freedom [MGSD]',[1,'Freedom'],'MGSD',true,false,false,'Seed','C',"2023-03",8.5,false],
+    ['Freedom [MGSD]',[1,'Freedom'],'MGSD',true,false,false,'Seed','D',"2023-03",8.5,false],
     ['Liberty',[1,'Freedom'],'SD',false,false,false,'Seed','E',"2022-04",18,false],
     ['Old Glory',[1,'Freedom'],'MGSD',false,false,false,'Seed','C',"2023-05",20.83,false],
     ['Billy Blue Jay',[1,'Ginn'],'MG',false,false,false,'Seed','B'],
@@ -148,7 +148,7 @@ const projects = [
     ['Skygrasper [RG]',[2,'Skygrasper','Skygrasper','Skygrasper'],'RG',true,false,false,'Seed','E',"2022-09",10,false],
     ['PB Lightning Strike',[2,'Strike','Lightning Striker','Sword Launcher Striker Pack'],'MG',false,true,false,'Seed','B'],
     ['Metal Strike',[1,'Strike'],'SD',false,false,false,'Seed','B'],
-    ['Strike Gundam [PG]',[1,'Strike'],'PG',true,false,false,'Seed','C',"2023-05",11.67,true],
+    ['Strike Gundam [PG]',[1,'Strike'],'PG',true,false,false,'Seed','D',"2023-05",14.58,true],
     ['PB Perfect Strike [RG]',[1,'Strike, Perfect'],'RG',true,true,false,'Seed','E',"2022-03",12.33,false],
     ['S.A.T.O.',[1,'Strike, Perfect'],'SD',false,false,false,'Seed','D',"2022-01",14.85,false],
     ['PB Strike Daggers [HG]',[2,'Strike Dagger','Strike Dagger','Strike Dagger'],'HG',false,true,false,'Seed','D',"2023-03",20.41,false],
@@ -161,7 +161,7 @@ const projects = [
     ['Strike Noir [SD]',[1,'Strike Noir'],'SD',true,false,false,'Seed','D',"2021-09",2.233,false],
     ['Strike Verde',[1,'Strike Noir'],'SD',false,false,false,'Seed','D',"2021-12",8,false],
     ['Oberon',[1,'Windam'],'HG',false,false,false,'Seed','E',"2022-03",20.25,false],
-    ['PB Slash Zaku Phantom (Yzak Jule Custom) [MG]',[1,'Zaku Phantom, Slash'],'MG',true,true,false,'Seed','C',"2023-04",3.33,false],
+    ['PB Slash Zaku Phantom (Yzak Jule Custom) [MG]',[1,'Zaku Phantom, Slash'],'MG',true,true,false,'Seed','D',"2023-04",11.83,false],
     
     //Future Century (G Gundam)
     ['PB Burning Gundam [RG]',[2,'Burning Gundam','Burning Gundam Expansion Pass','Burning Gundam LED lights'],'RG',true,true,false,'G','C',"2022-09",15.5,true],
