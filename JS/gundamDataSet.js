@@ -188,7 +188,7 @@ const projects = [
     ['Sealiah',[1,'Barbatos Lupus'],'HG',false,false,false,'IBO','D',"2023-02",12.51,false],
     ['Nephilim',[1,'Barbatos Lupus Rex'],'HG',false,false,false,'IBO','E',"2021-06",23.11,false],
     ['Queen Venus',[1,'Gremory'],'HG',false,false,false,'IBO','B'],
-    ['Vine',[1,'Hashmal'],'HG',false,false,false,'IBO','D',"2023-01",19.64,false],
+    ['Vine',[1,'Hashmal'],'HG',false,false,false,'IBO','E',"2023-01",19.64,false],
     ['\u00dcbermensch',[1,'Vidar'],'FM',false,false,false,'IBO','B'],
 
     //Universal Century
