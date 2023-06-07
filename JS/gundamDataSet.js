@@ -320,9 +320,9 @@ const projects = [
     ['Wilbee',[1,'Bumblebee'],'Transformer',false,false,false,'','E',"2022-11",9.33,false],
     
     //Zoid
-    ['Dash Hound',[1,'Shadow Fox'],'Zoid',false,false,false,'','B',"2023-06",0,false],
+    ['Dash Hound',[1,'Shadow Fox'],'Zoid',false,false,false,'','B',"2023-06",0,false,'Builds/DashHound.html'],
     ['Shere Khan',[1,'Blade Liger'],'Zoid',false,false,false,'','B'],
-    ['Akele',[1,'Konig Wolf Heavy Arms'],'Zoid',false,false,false,'','A'],
+    ['Akela',[1,'Konig Wolf Heavy Arms'],'Zoid',false,false,false,'','A'],
     ['Kipling',[1,'Liger Zero X'],'Zoid',false,false,false,'','B']
 ]
 
@@ -332,7 +332,7 @@ let backlogArray = [];
 let inProgressArray = [];
 let constructedArray = [];
 let postedArray = [];
-let finishedArray = [];ß
+let finishedArray = [];
 let pgBacklogArray = [];
 let mgBacklogArray = [];
 let fmBacklogArray = [];
