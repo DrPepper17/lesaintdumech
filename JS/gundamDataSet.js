@@ -129,7 +129,7 @@ const projects = [
     ['Anthem',[1,'Freedom'],'MG',false,false,false,'Seed','E',"2022-05",73.16,true],
     ['Freedom [MGSD]',[1,'Freedom'],'MGSD',true,false,false,'Seed','D',"2023-03",8.5,false],
     ['Liberty',[1,'Freedom'],'SD',false,false,false,'Seed','E',"2022-04",18,false],
-    ['Old Glory',[1,'Freedom'],'MGSD',false,false,false,'Seed','C',"2023-05",20.83,false],
+    ['Old Glory',[1,'Freedom'],'MGSD',false,false,false,'Seed','C',"2023-05",22.58,false],
     ['Billy Blue Jay',[1,'Ginn'],'MG',false,false,false,'Seed','B'],
     ['PB Destiny Impulse (Regenes) [MG]',[1,'Impulse, Destiny'],'Seed','MG',true,true,false,'C',"2023-05",6.5,false],
     ['PB Destiny Impulse [RG]',[1,'Impulse, Destiny'],'RG',true,true,false,'Seed','B'],
@@ -155,7 +155,7 @@ const projects = [
     ['AntiFreedom',[1,'Strike-Freedom'],'SD',false,false,false,'Seed','B'],
     ['Servitude',[1,'Strike-Freedom'],'MG',false,false,false,'Seed','B'],
     ['Strike-Freedom Full Burst [MG]',[1,'Strike-Freedom'],'MG',true,false,false,'Seed','E',"2021-07",18.42,false],
-    ['Strike-Freedom MGEX',[1,'Strike-Freedom'],'MG',true,false,true,'Seed','C',"2023-03",14.25,false],
+    ['Strike-Freedom MGEX',[1,'Strike-Freedom'],'MG',true,false,true,'Seed','C',"2023-03",15.92,false],
     ['PB Strike-Freedom (Deactive) [RG]',[1,'Strike-Freedom'],'RG',true,true,false,'Seed','D',"2023-03",4.75,false],
     ['Battra',[1,'Strike Noir'],'MG',false,false,false,'Seed','B'],
     ['Strike Noir [SD]',[1,'Strike Noir'],'SD',true,false,false,'Seed','D',"2021-09",2.233,false],
@@ -320,7 +320,7 @@ const projects = [
     ['Wilbee',[1,'Bumblebee'],'Transformer',false,false,false,'','E',"2022-11",9.33,false],
     
     //Zoid
-    ['Dash Hound',[1,'Shadow Fox'],'Zoid',false,false,false,'','A'],
+    ['Dash Hound',[1,'Shadow Fox'],'Zoid',false,false,false,'','B',"2023-06",0,false],
     ['Shere Khan',[1,'Blade Liger'],'Zoid',false,false,false,'','B'],
     ['Akele',[1,'Konig Wolf Heavy Arms'],'Zoid',false,false,false,'','A'],
     ['Kipling',[1,'Liger Zero X'],'Zoid',false,false,false,'','B']
@@ -332,7 +332,7 @@ let backlogArray = [];
 let inProgressArray = [];
 let constructedArray = [];
 let postedArray = [];
-let finishedArray = [];
+let finishedArray = [];ß
 let pgBacklogArray = [];
 let mgBacklogArray = [];
 let fmBacklogArray = [];
