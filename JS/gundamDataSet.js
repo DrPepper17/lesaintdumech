@@ -1001,7 +1001,7 @@ function generateLists() {
     postedCount = postedArray.length;
     inProgressArray = sortByDate(inProgressArray,'start');
     constructedArray = sortByDate(constructedArray,'start');
-    postedArray = sortByDate(postedArray,'post');
+    postedArray = sortByDate(postedArray,'start');
 
     //Backlog by Grade
     for (let i=0;i<backlogArray.length;i++) {
@@ -1219,6 +1219,7 @@ function gradeEdifier(array) {
 function populateBuildsPage() {
     convertDate();
     generateLists();
+    postedArray = sortByDate(postedArray,'post');
 
     for (let i=0;i<postedArray.length;i++) {
         if(postedArray[i][11])
