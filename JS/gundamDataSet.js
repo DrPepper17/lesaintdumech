@@ -93,7 +93,7 @@ const projects = [
     ['Gundam Umlaut \xD6\xD6',[1,'00 Gundam'],'SD',false,false,false,'00','E',"2021-06",10.83,false],
     ['Metatron',[1,'00 Raiser'],'SD',false,false,false,'00','B'],
     ['PB Trans-Am Clear 00 Raiser [RG]',[1,'00 Gundam Raiser'],'RG',true,true,false,'00','E',"2021-12",12.67,false],
-    ['Silver n GOld',[1,'00 Gundam QAN[T]'],'RG',false,false,false,'00','B'],
+    ['Silver n Gold',[1,'00 Gundam QAN[T]'],'RG',false,false,false,'00','B'],
     ['Thunder QAN[T]',[1,'00 Gundam QAN[T]'],'SD',false,false,false,'00','E',"2021-06",11.68,true],
     ['PB Trans-Am Clear 00 QAN[T] [RG]',[1,'00 Gundam QAN[T]'],'RG',true,true,false,'00','E',"2022-01",8.33,false],
     ['Nena',[1,'Exia'],'SD',false,false,false,'00','D',"2021-12",4.95,false],
@@ -129,7 +129,7 @@ const projects = [
     ['Anthem',[1,'Freedom'],'MG',false,false,false,'Seed','E',"2022-05",73.16,true],
     ['Freedom [MGSD]',[1,'Freedom'],'MGSD',true,false,false,'Seed','D',"2023-03",8.5,false],
     ['Liberty',[1,'Freedom'],'SD',false,false,false,'Seed','E',"2022-04",18,false],
-    ['Old Glory',[1,'Freedom'],'MGSD',false,false,false,'Seed','C',"2023-05",22.58,false],
+    ['Old Glory',[1,'Freedom'],'MGSD',false,false,false,'Seed','C',"2023-05",28.83,false],
     ['Billy Blue Jay',[1,'Ginn'],'MG',false,false,false,'Seed','B'],
     ['PB Destiny Impulse (Regenes) [MG]',[1,'Impulse, Destiny'],'Seed','MG',true,true,false,'C',"2023-05",6.5,false],
     ['PB Destiny Impulse [RG]',[1,'Impulse, Destiny'],'RG',true,true,false,'Seed','B'],
@@ -151,7 +151,7 @@ const projects = [
     ['Strike Gundam [PG]',[1,'Strike'],'PG',true,false,false,'Seed','D',"2023-05",14.58,true],
     ['PB Perfect Strike [RG]',[1,'Strike, Perfect'],'RG',true,true,false,'Seed','E',"2022-03",12.33,false],
     ['S.A.T.O.',[1,'Strike, Perfect'],'SD',false,false,false,'Seed','D',"2022-01",14.85,false],
-    ['PB Strike Daggers [HG]',[2,'Strike Dagger','Strike Dagger','Strike Dagger'],'HG',false,true,false,'Seed','D',"2023-03",20.41,false],
+    ['PB Strike Daggers',[2,'Strike Dagger','Strike Dagger','Strike Dagger'],'HG',false,true,false,'Seed','D',"2023-03",20.41,false],
     ['AntiFreedom',[1,'Strike-Freedom'],'SD',false,false,false,'Seed','B'],
     ['Servitude',[1,'Strike-Freedom'],'MG',false,false,false,'Seed','B'],
     ['Strike-Freedom Full Burst [MG]',[1,'Strike-Freedom'],'MG',true,false,false,'Seed','E',"2021-07",18.42,false],
@@ -192,7 +192,7 @@ const projects = [
     ['\u00dcbermensch',[1,'Vidar'],'FM',false,false,false,'IBO','B'],
 
     //Universal Century
-    ['DewDrop',[1,'Acguy'],'HG',false,false,false,'UC','C',"2023-05-29",5.17,false],
+    ['DewDrop',[1,'Acguy'],'HG',false,false,false,'UC','D',"2023-05-29",5.75,false],
     ['Fantomas',[1,'Banshee Norn'],'SD',false,false,false,'UC','E',"2021-06",15.02,true],
     ['King Uranus',[1,'Banshee Norn'],'RG',false,false,false,'UC','B'],
     ['Gundam ARRRgent',[1,'Crossbone X-1'],'SD',false,false,false,'UC','E',"2021-06",14.09,false],
@@ -320,11 +320,11 @@ const projects = [
     ['Wilbee',[1,'Bumblebee'],'Transformer',false,false,false,'','E',"2022-11",9.33,false],
     
     //Zoid
-    ['Dash Hound',[1,'Shadow Fox'],'Zoid',false,false,false,'','B',"2023-06",0,false,'Builds/DashHound.html'],
+    ['Dash Hound',[1,'Shadow Fox'],'Zoid',false,false,false,'','C',"2023-06-12",1.25,false,'Builds/DashHound.html'],
     ['Shere Khan',[1,'Blade Liger'],'Zoid',false,false,false,'','B'],
     ['Akela',[1,'Konig Wolf Heavy Arms'],'Zoid',false,false,false,'','A'],
     ['Kipling',[1,'Liger Zero X'],'Zoid',false,false,false,'','B']
-]
+];
 
 //Initialize Arrays
 let outOfInventoryArray = [];
