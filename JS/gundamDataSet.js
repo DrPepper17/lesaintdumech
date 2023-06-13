@@ -187,7 +187,7 @@ const projects = [
     ['Thorn',[1,'Barbatos'],'MG',false,false,false,'IBO','B'],
     ['War Pig',[1,'Barbatos'],'SD',false,false,false,'IBO','E',"2021-12",4.15,false,'Builds/WarPig.html',[''],"2023-04-18"],
     ['Deep Purple',[1,'Barbatos Lupus'],'SD',false,false,false,'IBO','D',"2021-12",4.36,false,'Builds/DeepPurple.html',['']],
-    ['Sealiah',[1,'Barbatos Lupus'],'HG',false,false,false,'IBO','D',"2023-02",12.51,false,'Builds/Sealiah.html',['']],
+    ['Sealiah',[1,'Barbatos Lupus'],'HG',false,false,false,'IBO','E',"2023-02",12.51,false,'Builds/Sealiah.html',[''],"2023-06-13"],
     ['Nephilim',[1,'Barbatos Lupus Rex'],'HG',false,false,false,'IBO','E',"2021-06",23.11,false,'Builds/Nephilim.html',[''],"2021-07-26"],
     ['Queen Venus',[1,'Gremory'],'HG',false,false,false,'IBO','B'],
     ['Vine',[1,'Hashmal'],'HG',false,false,false,'IBO','E',"2023-01",19.64,false,'Builds/Vine.html',[''],"2023-06-05"],
