@@ -371,6 +371,7 @@ let transFinishedArray = [];
 let zoidFinishedArray = [];
 let pbUndeliveredArray = [];
 let backlogListArray = [pgBacklogArray,mgBacklogArray,fmBacklogArray,rgBacklogArray,hgBacklogArray,mgsdBacklogArray,sdBacklogArray,pbBacklogArray,sbBacklogArray,carBacklogArray,digiBacklogArray,dispBacklogArray,haroBacklogArray,pokeBacklogArray,shipBacklogArray,transBacklogArray,zoidBacklogArray];
+let statsArray = [];
 
 //Initialize Counts
 let init = 0;
@@ -510,6 +511,8 @@ let finishedCount = 0;
     let shipHours = 0;
     let transHours = 0;
     let zoidHours = 0;
+    let totalProjectCDEHours = 0;
+    let totalProjectCDEWeights = 0;
 
 //Functions
 function addConstructed() {
@@ -918,6 +921,70 @@ function cleanupArrays(array,context) {
     return array;
 }
 
+function composeStatsArray () {
+    let wt=0;
+    let statData = [];
+
+    for (let i=0;i<projects.length;i++) {
+        if (projects[i][3]===false && (projects[i][7]=='C' || projects[i][7]=='D' || projects[i][7]=='E')) {
+            if (projects[i][2]=='MG') {
+                wt=1;
+            } 
+            else if (projects[i][2]=='FM') {
+                wt=fmWt;
+            } 
+            else if (projects[i][2]=='RG') {
+                wt=rgWt;
+            } 
+            else if (projects[i][2]=='HG') {
+                wt=hgWt;
+            } 
+            else if (projects[i][2]=='MGSD') {
+                wt=mgsdWt;
+            } 
+            else if (projects[i][2]=='SD') {
+                wt=sdWt;
+            } 
+            else if (projects[i][2]=='Haro') {
+                wt=haroWt;
+            } 
+            else if (projects[i][2]=='Car') {
+                wt=carWt;
+            } 
+            else if (projects[i][2]=='Pokemon') {
+                wt=pokeWt;
+            } 
+            else if (projects[i][2]=='Digimon') {
+                wt=digiWt;
+            } 
+            else if (projects[i][2]=='Display') {
+                wt=dispWt;
+            } 
+            else if (projects[i][2]=='Ship') {
+                wt=shipWt;
+            } 
+            else if (projects[i][2]=='Transformer') {
+                wt=transWt;
+            } 
+            else if (projects[i][2]=='Zoid') {
+                wt=zoidWt;
+            } 
+
+            let weightedHours = projects[i][9]*wt;
+            statData=[projects[i][0],projects[i][2],projects[i][9],wt,weightedHours,projects[i][7]];
+            statsArray.push(statData);
+
+            totalProjectCDEHours = totalProjectCDEHours + projects[i][9];
+            totalProjectCDEWeights = totalProjectCDEWeights + weightedHours;
+        }
+    }
+
+    for (let j=0;j<statsArray.length;j++) {
+        statsArray[j].push(statsArray[j][3]/totalProjectCDEHours*100);
+        statsArray[j].push(statsArray[j][4]/totalProjectCDEWeights*100);
+    }
+}
+
 function createBuildAnchor(array) {
     let buildsPageListNode = document.getElementById('buildsLinksID');
     let liItemNode = document.createElement('li');
@@ -1238,6 +1305,7 @@ function populateStat(stat,id,cap) {
 function poststats() {
     //Load stats
     calculateStats();
+    composeStatsArray();
 
     //Populate 
     populateStat(pgCount,'pgPrj',0);
