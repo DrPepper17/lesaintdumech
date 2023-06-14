@@ -1378,17 +1378,11 @@ function poststats() {
 function projectAverage(grade,straight) {
     let hour = 0;
     let count = 0;
-    let tempArray = [];
 
     for (let i=0;i<projects.length;i++) {
-        tempArray=projects[i];
-        if (tempArray[7] === 'C' || tempArray[7] === 'D' || tempArray[7] === 'E') {
-            if (tempArray[3] === straight) {
-                if (tempArray[2] === grade) {
-                    hour = hour + tempArray[9];
-                    count = count + tempArray[1][0];
-                }
-            }
+        if (projects[i][2]==grade && projects[i][3]===straight && (projects[i][7]=='C' || projects[i][7]=='D' || projects[i][7]=='E')) {
+            hour = hour + projects[i][9];
+            count = count + projects[i][1][0];
         }
     }
 
@@ -1434,14 +1428,10 @@ function projectCountPB(grade) {
 
 function projectHours(grade) {
     let hours = 0;
-    let tempArray = [];
 
     for (let i=0;i<projects.length;i++) {
-        tempArray=projects[i];
-        if (tempArray[7] === 'C' || tempArray[7] === 'D' || tempArray[7] === 'E') {
-            if (tempArray[2] === grade) {
-                hours = hours + tempArray[9];
-            }
+        if ((projects[i][7]=='C' || projects[i][7]=='D' || projects[i][7]=='E') && projects[i][2]==grade) {
+            hours = hours + projects[i][9];
         }
     }
 
@@ -1450,14 +1440,10 @@ function projectHours(grade) {
 
 function projectRemaining(grade) {
     let count = 0;
-    let tempArray = [];
 
     for (let i=0;i<projects.length;i++) {
-        tempArray=projects[i];
-        if (tempArray[7] === 'A' || tempArray[7] === 'B') {
-            if (tempArray[2] === grade) {
-                count++;
-            }
+        if ((projects[i][7]=='A' || projects[i][7]=='B') && projects[i][2]==grade) {
+            count++;
         }
     }
 
