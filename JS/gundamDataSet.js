@@ -32,7 +32,7 @@ const projects = [
     ['Cherub',[1,'Aerial'],'SD',false,false,false,'Mercury','D',"2023-01",4.91,false,'Builds/Cherub.html',['']],
     ['Azrael',[1,'Dilanza, Guel\'s'],'HG',false,false,false,'Mercury','E',"2023-01",12.14,false,'Builds/Azrael.html',[''],"2023-02-27"],
     ['Adriel',[1,'LFrith'],'HG',false,false,false,'Mercury','B'],
-    ['LFrith [HG]',[1,'LFrith'],'HG',false,false,false,'Mercury','D',"2023-04",2.33,false,false,false],
+    ['LFrith [HG]',[1,'LFrith'],'HG',true,false,false,'Mercury','D',"2023-04",2.33,false,false,false],
 
     //Advanced Generation (Age)
     ['Uriel',[1,'Age-FX'],'SD',false,false,false,'Age','B'],
@@ -41,7 +41,7 @@ const projects = [
     //After Colony (Wing)
     ['Leo Army',[6,'Leo'],'LEO',false,false,false,'Wing','C',"2021-10",37.42,false,'Builds/LeoArmy.html',['Tested every paint']],
     ['South Park',[6,'Tallgeese','Epyon','Heavy Arms','Shenlong','Deathscythe','Sandrock'],'SD',false,false,false,'Wing','E',"2021-06",54.42,true,'Builds/SouthPark.html',[''],"2021-06-21"],
-    ['Gemini',[2,'Aquarius','Aquarius'],'SD',false,false,false,'Wing','E',"2021-07",22.28,false,'Builds/Gemini.html',[''],"2022-01-24"],
+    ['Gemini',[2,'Aquarius','Aquarius'],'SD',false,false,false,'Wing','E',"2021-07",20.61,false,'Builds/Gemini.html',[''],"2022-01-24"],
     ['Pontus',[1,'Aquarius'],'SD',false,false,false,'Wing','B'],
     ['PB Deathscythe Hell (TV Version',[1,'Deathscythe Hell'],'HG',false,true,false,'Wing','A'],
     ['Epyon [RG]',[1,'Epyon'],'RG',true,false,false,'Wing','A'],
@@ -83,7 +83,7 @@ const projects = [
 
     //After War (X)
     ['Gaebora',[1,'Airmaster'],'SD',false,false,false,'X','E',"2021-10",5.51,false,'Builds/Gaebora.html',[''],"2022-03-28"],
-    ['Biohazard',[1,'Double X'],'SD',false,false,false,'X','E',"2022-08",10,false,'Builds/Biohazard.html',[''],"2022-10-24"],
+    ['Biohazard',[1,'Double X'],'SD',false,false,false,'X','E',"2022-08",5.83,false,'Builds/Biohazard.html',[''],"2022-10-24"],
     ['Charlie Daniels',[1,'Double X'],'SD',false,false,false,'X','E',"2021-10",4.51,false,'Builds/CharlieDaniels.html',[''],"2022-08-01"],
     ['Corona Virus',[1,'Double X'],'MG',false,false,false,'X','E',"2022-09",36.08,false,'Builds/Corona.html',[''],"2022-10-31"],
     ['Double X [MG]',[1,'Double X'],'MG',true,false,false,'X','E',"2022-09",7.58,false,false,false,"2022-10-10"],
@@ -119,8 +119,8 @@ const projects = [
     ['Urban Commando',[1,'Buster'],'MG',false,false,false,'Seed','B'],
     ['Calamitous Godzilla',[1,'Calamity'],'FM',false,false,false,'Seed','B'],
     ['PB Armageddon',[2.5,'Dagger L','Dagger L','Dagger Expansion Pack'],'HG',false,true,false,'Seed','E',"2022-03",28.5,false,'Builds/Armageddon.html',[''],"2022-05-23"],
-    ['King Leir',[1,'Dagger L'],'HG',false,false,false,'Seed','E',"2021-06",14.91,false,'Builds/KingLeir.html',[''],"2021-06-26"],
-    ['Samus: Varia Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','C',"2023-06-13",0.5,false,'Builds/VariaSuit.html',['Tamiya: Gold TS-21 Can']],
+    ['King Leir',[1,'Dagger L'],'HG',false,false,false,'Seed','E',"2021-06",14.09,false,'Builds/KingLeir.html',[''],"2021-06-26"],
+    ['Samus: Varia Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','C',"2023-06-13",2.5,false,'Builds/VariaSuit.html',['Tamiya: Gold TS-21 Can']],
     ['Charizard',[1,'Destiny'],'MG',false,false,false,'Seed','B'],
     ['Charizard X',[1,'Destiny'],'SD',false,false,false,'Seed','E',"2021-10",8.13,false,'Builds/CharizardX.html',[''],"2022-05-16"],
     ['Iapetus',[1,'Destiny'],'SD',false,false,false,'Seed','B'],
@@ -322,7 +322,7 @@ const projects = [
     ['Wilbee',[1,'Bumblebee'],'Transformer',false,false,false,'','E',"2022-11",9.33,false,'Builds/Wilbee.html',[''],"2023-01-09"],
     
     //Zoid
-    ['Dash Hound',[1,'Shadow Fox'],'Zoid',false,false,false,'','C',"2023-06-12",1.25,false,'Builds/DashHound.html',['']],
+    ['Dash Hound',[1,'Shadow Fox'],'Zoid',false,false,false,'','C',"2023-06-12",1.5,false,'Builds/DashHound.html',['']],
     ['Shere Khan',[1,'Blade Liger'],'Zoid',false,false,false,'','B'],
     ['Akela',[1,'Konig Wolf Heavy Arms'],'Zoid',false,false,false,'','A'],
     ['Kipling',[1,'Liger Zero X'],'Zoid',false,false,false,'','B']
@@ -980,9 +980,11 @@ function composeStatsArray () {
     }
 
     for (let j=0;j<statsArray.length;j++) {
-        statsArray[j].push(statsArray[j][3]/totalProjectCDEHours*100);
+        statsArray[j].push(statsArray[j][2]/totalProjectCDEHours*100);
         statsArray[j].push(statsArray[j][4]/totalProjectCDEWeights*100);
     }
+
+    statsArray.sort((a,b) => b[6] - a[6]);
 }
 
 function createBuildAnchor(array) {
