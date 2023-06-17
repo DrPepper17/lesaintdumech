@@ -522,23 +522,19 @@ function addConstructed() {
     let constructOne = [];
     let constructTwo = [];
     let constructThree = [];
-    let tempArray = [];
     let loop = 1;
 
     for (let i=0;i<constructedArray.length;i++) {
         if (loop === 1) {
-            tempArray = constructedArray[i]
-            constructOne.push(tempArray[0]);
+            constructOne.push(constructedArray[i][0]);
             loop++;
         }
         else if (loop === 2) {
-            tempArray = constructedArray[i]
-            constructTwo.push(tempArray[0]);
+            constructTwo.push(constructedArray[i][0]);
             loop++;
         }
         else {
-            tempArray = constructedArray[i]
-            constructThree.push(tempArray[0]);
+            constructThree.push(constructedArray[i][0]);
             loop = 1;
         }
     }
@@ -565,23 +561,19 @@ function addInProgress() {
     let progressOne = [];
     let progressTwo = [];
     let progressThree = [];
-    let tempArray = [];
     let loop = 1;
 
     for (let i=0;i<inProgressArray.length;i++) {
         if (loop === 1) {
-            tempArray = inProgressArray[i]
-            progressOne.push(tempArray[0]);
+            progressOne.push(inProgressArray[i][0]);
             loop++;
         }
         else if (loop === 2) {
-            tempArray = inProgressArray[i]
-            progressTwo.push(tempArray[0]);
+            progressTwo.push(inProgressArray[i][0]);
             loop++;
         }
         else {
-            tempArray = inProgressArray[i]
-            progressThree.push(tempArray[0]);
+            progressThree.push(inProgressArray[i][0]);
             loop = 1;
         }
     }
@@ -605,156 +597,118 @@ function addTable() {
     const table = document.querySelector(".table2");
     table.style.display = "block";
 
-    let tempArray=0;
-
     //Post Finished
     for (let i=0;i<pgFinishedArray.length;i++) {
-        tempArray=pgFinishedArray[i];
-        insertLine(tempArray,'pgF');
+        insertLine(pgFinishedArray[i],'pgF');
     }
     for (let i=0;i<mgFinishedArray.length;i++) {
-        tempArray=mgFinishedArray[i]
-        insertLine(tempArray,'mgF');
+        insertLine(mgFinishedArray[i],'mgF');
     }
     for (let i=0;i<fmFinishedArray.length;i++) {
-        tempArray=fmFinishedArray[i];
-        insertLine(tempArray,'fmF');
+        insertLine(fmFinishedArray[i],'fmF');
     }
     for (let i=0;i<rgFinishedArray.length;i++) {
-        tempArray=rgFinishedArray[i];
-        insertLine(tempArray,'rgF');
+        insertLine(rgFinishedArray[i],'rgF');
     }
     for (let i=0;i<hgFinishedArray.length;i++) {
-        tempArray=hgFinishedArray[i];
-        insertLine(tempArray,'hgF');
+        insertLine(hgFinishedArray[i],'hgF');
     }
     for (i=0;i<mgsdFinishedArray.length;i++) {
-        tempArray=mgsdFinishedArray[i];
-        insertLine(tempArray,'mgsdF');
+        insertLine(mgsdFinishedArray[i],'mgsdF');
     }
     for (let i=0;i<sdFinishedArray.length;i++) {
-        tempArray=sdFinishedArray[i];
-        insertLine(tempArray,'sdF');
+        insertLine(sdFinishedArray[i],'sdF');
     }
     for (let i=0;i<pbFinishedArray.length;i++) {
-        tempArray=pbFinishedArray[i];
-        insertLine(tempArray,'pbF');
+        insertLine(pbFinishedArray[i],'pbF');
     }
     for (let i=0;i<sbFinishedArray.length;i++) {
-        tempArray=sbFinishedArray[i];
-        insertLine(tempArray,'sbF');
+        insertLine(sbFinishedArray[i],'sbF');
     }
     for (let i=0;i<carFinishedArray.length;i++) {
-        tempArray=carFinishedArray[i];
-        insertLine(tempArray,'carF');
+        insertLine(carFinishedArray[i],'carF');
     }
     for (let i=0;i<digiFinishedArray.length;i++) {
-        tempArray=digiFinishedArray[i];
-        insertLine(tempArray,'dgF');
+        insertLine(digiFinishedArray[i],'dgF');
     }
     for (let i=0;i<dispFinishedArray.length;i++) {
-        tempArray=dispFinishedArray[i];
-        insertLine(tempArray,'dspF');
+        insertLine(dispFinishedArray[i],'dspF');
     }
     for (let i=0;i<haroFinishedArray.length;i++) {
-        tempArray=haroFinishedArray[i];
-        insertLine(tempArray,'haroF');
+        insertLine(haroFinishedArray[i],'haroF');
     }
     for (let i=0;i<pokeFinishedArray.length;i++) {
-        tempArray=pokeFinishedArray[i];
-        insertLine(tempArray,'pokeF');
+        insertLine(pokeFinishedArray[i],'pokeF');
     }
     for (let i=0;i<shipFinishedArray.length;i++) {
-        tempArray=shipFinishedArray[i];
-        insertLine(tempArray,'shipF');
+        insertLine(shipFinishedArray[i],'shipF');
     }
     for (let i=0;i<transFinishedArray.length;i++) {
-        tempArray=transFinishedArray[i];
-        insertLine(tempArray,'transF');
+        insertLine(transFinishedArray[i],'transF');
     }
     for (let i=0;i<zoidFinishedArray.length;i++) {
-        tempArray=zoidFinishedArray[i];
-        insertLine(tempArray,'zoidF');
+        insertLine(zoidFinishedArray[i],'zoidF');
     }
 
     //Post Backlog
     for (let i=0;i<pgBacklogArray.length;i++) {
-        tempArray=pgBacklogArray[i];
-        insertLine(tempArray,'pgBL');
+        insertLine(pgBacklogArray[i],'pgBL');
     }
     for (let i=0;i<mgBacklogArray.length;i++) {
-        tempArray=mgBacklogArray[i]
-        insertLine(tempArray,'mgBL');
+        insertLine(mgBacklogArray[i],'mgBL');
     }
     for (let i=0;i<fmBacklogArray.length;i++) {
-        tempArray=fmBacklogArray[i];
-        insertLine(tempArray,'fmBL');
+        insertLine(fmBacklogArray[i],'fmBL');
     }
     for (let i=0;i<rgBacklogArray.length;i++) {
-        tempArray=rgBacklogArray[i];
-        insertLine(tempArray,'rgBL');
+        insertLine(rgBacklogArray[i],'rgBL');
     }
     for (let i=0;i<hgBacklogArray.length;i++) {
-        tempArray=hgBacklogArray[i];
-        insertLine(tempArray,'hgBL');
+        insertLine(hgBacklogArray[i],'hgBL');
     }
     for (i=0;i<mgsdBacklogArray.length;i++) {
-        tempArray=mgsdBacklogArray[i];
-        insertLine(tempArray,'mgsdBL');
+        insertLine(mgsdBacklogArray[i],'mgsdBL');
     }
     for (let i=0;i<sdBacklogArray.length;i++) {
-        tempArray=sdBacklogArray[i];
-        insertLine(tempArray,'sdBL');
+        insertLine(sdBacklogArray[i],'sdBL');
     }
     for (let i=0;i<pbBacklogArray.length;i++) {
-        tempArray=pbBacklogArray[i];
-        insertLine(tempArray,'pbBL');
+        insertLine(pbBacklogArray[i],'pbBL');
     }
     for (let i=0;i<sbBacklogArray.length;i++) {
-        tempArray=sbBacklogArray[i];
-        insertLine(tempArray,'sbBL');
+        insertLine(sbBacklogArray[i],'sbBL');
     }
     for (let i=0;i<carBacklogArray.length;i++) {
-        tempArray=carBacklogArray[i];
-        insertLine(tempArray,'carBL');
+        insertLine(carBacklogArray[i],'carBL');
     }
     for (let i=0;i<digiBacklogArray.length;i++) {
-        tempArray=digiBacklogArray[i];
-        insertLine(tempArray,'dgBL');
+        insertLine(digiBacklogArray[i],'dgBL');
     }
     for (let i=0;i<dispBacklogArray.length;i++) {
-        tempArray=dispBacklogArray[i];
-        insertLine(tempArray,'dspBL');
+        insertLine(dispBacklogArray[i],'dspBL');
     }
     for (let i=0;i<haroBacklogArray.length;i++) {
-        tempArray=haroBacklogArray[i];
-        insertLine(tempArray,'haroBL');
+        insertLine(haroBacklogArray[i],'haroBL');
     }
     for (let i=0;i<pokeBacklogArray.length;i++) {
-        tempArray=pokeBacklogArray[i];
-        insertLine(tempArray,'pokeBL');
+        insertLine(pokeBacklogArray[i],'pokeBL');
     }
     for (let i=0;i<shipBacklogArray.length;i++) {
-        tempArray=shipBacklogArray[i];
-        insertLine(tempArray,'shipBL');
+        insertLine(shipBacklogArray[i],'shipBL');
     }
     for (let i=0;i<transBacklogArray.length;i++) {
-        tempArray=transBacklogArray[i];
-        insertLine(tempArray,'transBL');
+        insertLine(transBacklogArray[i],'transBL');
     }
     for (let i=0;i<zoidBacklogArray.length;i++) {
-        tempArray=zoidBacklogArray[i];
-        insertLine(tempArray,'zoidBL');
+        insertLine(zoidBacklogArray[i],'zoidBL');
     }
 
     //Post Out of Stock
     for (let i=0;i<outOfInventoryArray.length;i++) {
-        tempArray=outOfInventoryArray[i];
-        insertLine(tempArray[0],'OOS');
+        insertLine(outOfInventoryArray[i][0],'OOS');
     }
     for (let i=0;i<pbUndeliveredArray.length;i++) {
-        tempArray=pbUndeliveredArray[i];
-        insertLine(tempArray,'OOSPB');
+        insertLine(pbUndeliveredArray[i],'OOSPB');
     }
     
     const finishNode = document.getElementById('FP').parentNode;
@@ -1008,23 +962,20 @@ function createBuildAnchor(array) {
 }
 
 function convertDate() {
-    let tempDate = '';
     for (let i=0;i<projects.length;i++) {
         if (!projects[i][8]) {
-            tempDate = new Date("2099-12-25");
+            projects[i][8] = new Date("2099-12-25");
         } 
         else {
-            tempDate = new Date(projects[i][8]);
+            projects[i][8] = new Date(projects[i][8]);
         }
-        projects[i][8] = tempDate;
 
         if (!projects[i][13]) {
-            tempDate = new Date("2099-12-25");
+            projects[i][13] = new Date("2099-12-25");
         } 
         else {
-            tempDate = new Date(projects[i][13]);
+            projects[i][13] = new Date(projects[i][13]);
         }
-        projects[i][13] = tempDate;
     }
 } 
 
@@ -1040,27 +991,24 @@ function generateLists() {
     //Alphabetize everything
     projects.sort();
     
-    let tempArray = [];
-    
     for (let i=0;i<projects.length;i++) {
-        tempArray = projects[i];
-        if (tempArray[7] === 'A' && tempArray[4]) {
-            pbUndeliveredArray.push(tempArray[0]);
+        if (projects[i][7] == 'A' && projects[i][4]) {
+            pbUndeliveredArray.push(projects[i][0]);
         }
-        else if (tempArray[7] === 'A') {
-            outOfInventoryArray.push(tempArray);
+        else if (projects[i][7] == 'A') {
+            outOfInventoryArray.push(projects[i]);
         }
-        else if (tempArray[7] === 'B') {
-            backlogArray.push(tempArray);
+        else if (projects[i][7] == 'B') {
+            backlogArray.push(projects[i]);
         }
-        else if (tempArray[7] === 'C') {
-            inProgressArray.push(tempArray);
+        else if (projects[i][7] == 'C') {
+            inProgressArray.push(projects[i]);
         }
-        else if (tempArray[7] === 'D') {
-            constructedArray.push(tempArray);
+        else if (projects[i][7] == 'D') {
+            constructedArray.push(projects[i]);
         }
-        else if (tempArray[7] === 'E') {
-            postedArray.push(tempArray);
+        else if (projects[i][7] == 'E') {
+            postedArray.push(projects[i]);
         }
     }
     outOfInventoryCount = outOfInventoryArray.length;
@@ -1074,107 +1022,111 @@ function generateLists() {
 
     //Backlog by Grade
     for (let i=0;i<backlogArray.length;i++) {
-        tempArray = backlogArray[i];
-        if (tempArray[4]) {
-            pbBacklogArray.push(tempArray[0]);
+        if (backlogArray[i][4]) {
+            pbBacklogArray.push(backlogArray[i][0]);
         }
-        else if (tempArray[3]) {
-            sbBacklogArray.push(tempArray[0]);
+        else if (backlogArray[i][2]=='PG') {
+            pgBacklogArray.push(backlogArray[i][0]);
         }
-        else if (tempArray[2]==='MG') {
-            mgBacklogArray.push(tempArray[0]);
+        else if (backlogArray[i][3]) {
+            sbBacklogArray.push(backlogArray[i][0]);
         }
-        else if (tempArray[2]==='FM') {
-            fmBacklogArray.push(tempArray[0]);
+        else if (backlogArray[i][2]=='MG') {
+            mgBacklogArray.push(backlogArray[i][0]);
         }
-        else if (tempArray[2]==='RG') {
-            rgBacklogArray.push(tempArray[0]);
+        else if (backlogArray[i][2]=='FM') {
+            fmBacklogArray.push(backlogArray[i][0]);
         }
-        else if (tempArray[2]==='HG') {
-            hgBacklogArray.push(tempArray[0]);
+        else if (backlogArray[i][2]=='RG') {
+            rgBacklogArray.push(backlogArray[i][0]);
         }
-        else if (tempArray[2]==='MGSD') {
-            mgsdBacklogArray.push(tempArray[0]);
+        else if (backlogArray[i][2]=='HG') {
+            hgBacklogArray.push(backlogArray[i][0]);
         }
-        else if (tempArray[2]==='SD') {
-            sdBacklogArray.push(tempArray[0]);
+        else if (backlogArray[i][2]=='MGSD') {
+            mgsdBacklogArray.push(backlogArray[i][0]);
         }
-        else if (tempArray[2]==='Car') {
-            carBacklogArray.push(tempArray[0]);
+        else if (backlogArray[i][2]=='SD') {
+            sdBacklogArray.push(backlogArray[i][0]);
         }
-        else if (tempArray[2]==='Digimon') {
-            digiBacklogArray.push(tempArray[0]);
+        else if (backlogArray[i][2]=='Car') {
+            carBacklogArray.push(backlogArray[i][0]);
         }
-        else if (tempArray[2]==='Display') {
-            dispBacklogArray.push(tempArray[0]);
+        else if (backlogArray[i][2]=='Digimon') {
+            digiBacklogArray.push(backlogArray[i][0]);
         }
-        else if (tempArray[2]==='Haro') {
-            haroBacklogArray.push(tempArray[0]);
+        else if (backlogArray[i][2]=='Display') {
+            dispBacklogArray.push(backlogArray[i][0]);
         }
-        else if (tempArray[2]==='Pokemon') {
-            pokeBacklogArray.push(tempArray[0]);
+        else if (backlogArray[i][2]=='Haro') {
+            haroBacklogArray.push(backlogArray[i][0]);
         }
-        else if (tempArray[2]==='Ship') {
-            shipBacklogArray.push(tempArray[0]);
+        else if (backlogArray[i][2]=='Pokemon') {
+            pokeBacklogArray.push(backlogArray[i][0]);
         }
-        else if (tempArray[2]==='Transformer') {
-            transBacklogArray.push(tempArray[0]);
+        else if (backlogArray[i][2]=='Ship') {
+            shipBacklogArray.push(backlogArray[i][0]);
         }
-        else if (tempArray[2]==='Zoid') {
-            zoidBacklogArray.push(tempArray[0]);
+        else if (backlogArray[i][2]=='Transformer') {
+            transBacklogArray.push(backlogArray[i][0]);
+        }
+        else if (backlogArray[i][2]=='Zoid') {
+            zoidBacklogArray.push(backlogArray[i][0]);
         }
     }
 
     //Finished by Grade
     for (let i=0;i<postedArray.length;i++) {
-        tempArray = postedArray[i];
-        if (tempArray[4]) {
-            pbFinishedArray.push(tempArray[0]);
+        if (postedArray[i][4]) {
+            pbFinishedArray.push(postedArray[i][0]);
         }
-        else if (tempArray[3]) {
-            sbFinishedArray.push(tempArray[0]);
+        else if (postedArray[i][2]=='PG') {
+            pgFinishedArray.push(postedArray[i][0]);
         }
-        else if (tempArray[2]==='MG') {
-            mgFinishedArray.push(tempArray[0]);
+        else if (postedArray[i][3]) {
+            sbFinishedArray.push(postedArray[i][0]);
         }
-        else if (tempArray[2]==='FM') {
-            fmFinishedArray.push(tempArray[0]);
+        else if (postedArray[i][2]=='MG') {
+            mgFinishedArray.push(postedArray[i][0]);
         }
-        else if (tempArray[2]==='RG') {
-            rgFinishedArray.push(tempArray[0]);
+        else if (postedArray[i][2]=='FM') {
+            fmFinishedArray.push(postedArray[i][0]);
         }
-        else if (tempArray[2]==='HG') {
-            hgFinishedArray.push(tempArray[0]);
+        else if (postedArray[i][2]=='RG') {
+            rgFinishedArray.push(postedArray[i][0]);
         }
-        else if (tempArray[2]==='MGSD') {
-            mgsdFinishedArray.push(tempArray[0]);
+        else if (postedArray[i][2]=='HG') {
+            hgFinishedArray.push(postedArray[i][0]);
         }
-        else if (tempArray[2]==='SD') {
-            sdFinishedArray.push(tempArray[0]);
+        else if (postedArray[i][2]=='MGSD') {
+            mgsdFinishedArray.push(postedArray[i][0]);
         }
-        else if (tempArray[2]==='Car') {
-            carFinishedArray.push(tempArray[0]);
+        else if (postedArray[i][2]=='SD') {
+            sdFinishedArray.push(postedArray[i][0]);
         }
-        else if (tempArray[2]==='Digimon') {
-            digiFinishedArray.push(tempArray[0]);
+        else if (postedArray[i][2]=='Car') {
+            carFinishedArray.push(postedArray[i][0]);
         }
-        else if (tempArray[2]==='Display') {
-            dispFinishedArray.push(tempArray[0]);
+        else if (postedArray[i][2]=='Digimon') {
+            digiFinishedArray.push(postedArray[i][0]);
         }
-        else if (tempArray[2]==='Haro') {
-            haroFinishedArray.push(tempArray[0]);
+        else if (postedArray[i][2]=='Display') {
+            dispFinishedArray.push(postedArray[i][0]);
         }
-        else if (tempArray[2]==='Pokemon') {
-            pokeFinishedArray.push(tempArray[0]);
+        else if (postedArray[i][2]=='Haro') {
+            haroFinishedArray.push(postedArray[i][0]);
         }
-        else if (tempArray[2]==='Ship') {
-            shipFinishedArray.push(tempArray[0]);
+        else if (postedArray[i][2]=='Pokemon') {
+            pokeFinishedArray.push(postedArray[i][0]);
         }
-        else if (tempArray[2]==='Transformer') {
-            transFinishedArray.push(tempArray[0]);
+        else if (postedArray[i][2]=='Ship') {
+            shipFinishedArray.push(postedArray[i][0]);
         }
-        else if (tempArray[2]==='Zoid') {
-            zoidFinishedArray.push(tempArray[0]);
+        else if (postedArray[i][2]=='Transformer') {
+            transFinishedArray.push(postedArray[i][0]);
+        }
+        else if (postedArray[i][2]=='Zoid') {
+            zoidFinishedArray.push(postedArray[i][0]);
         }
     }
 
@@ -1252,24 +1204,24 @@ function generateRandomBuild() {
 }
 
 function gradeEdifier(array) {
-    let grade = array[2];
+    let grade = '';
     
-    if (grade === 'PG') {
+    if (array[2] == 'PG') {
         grade = 'Perfect Grade';
     }
-   if (grade === 'MG') {
+   if (array[2] == 'MG') {
         grade = 'Master Grade';
     }
-    if (grade === 'FM') {
+    if (array[2] == 'FM') {
         grade = 'Full Mechanics';
     }
-    if (grade === 'RG') {
+    if (array[2] == 'RG') {
         grade = 'Real Grade';
     }
-    if (grade === 'HG') {
+    if (array[2] == 'HG') {
         grade = 'High Grade';
     }
-    if (grade === 'SD') {
+    if (array[2] == 'SD') {
         grade = 'Super Deformed';
     }
     if (array[3]) {
@@ -1462,16 +1414,10 @@ function projectAverage(grade,straight) {
 
 function projectCount(grade,straight) {
     let count = 0;
-    let tempArray = [];
 
     for (let i=0;i<projects.length;i++) {
-        tempArray=projects[i];
-        if (tempArray[7] === 'C' || tempArray[7] === 'D' || tempArray[7] === 'E') {
-            if (tempArray[3] === straight) {
-                if (tempArray[2] === grade) {
-                    count++;
-                }
-            }
+        if (projects[i][2] == grade && projects[i][3] === straight && (projects[i][7] === 'C' || projects[i][7] === 'D' || projects[i][7] === 'E')) {
+            count++;
         }
     }
 
@@ -1480,16 +1426,10 @@ function projectCount(grade,straight) {
 
 function projectCountPB(grade) {
     let count = 0;
-    let tempArray = [];
 
     for (let i=0;i<projects.length;i++) {
-        tempArray=projects[i];
-        if (tempArray[7] === 'C' || tempArray[7] === 'D' || tempArray[7] === 'E') {
-            if (tempArray[4]) {
-                if (tempArray[2] === grade) {
-                    count++;
-                }
-            }
+        if (projects[i][2] == grade && projects[i][4] && (projects[i][7] == 'C' || projects[i][7] == 'D' || projects[i][7] == 'E')) {
+            count++;
         }
     }
 
