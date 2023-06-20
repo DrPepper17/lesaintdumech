@@ -120,7 +120,7 @@ const projects = [
     ['Calamitous Godzilla',[1,'Calamity'],'FM',false,false,false,'Seed','B'],
     ['PB Armageddon',[2.5,'Dagger L','Dagger L','Dagger Expansion Pack'],'HG',false,true,false,'Seed','E',"2022-03",28.5,false,'Builds/Armageddon.html',[''],"2022-05-23"],
     ['King Leir',[1,'Dagger L'],'HG',false,false,false,'Seed','E',"2021-06",14.09,false,'Builds/KingLeir.html',[''],"2021-06-26"],
-    ['Samus: Varia Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','C',"2023-06-13",3.42,false,'Builds/VariaSuit.html',['Tamiya: Gold TS-21 Can','Testors: Sunflower 1191','Tamiya: Matt Black TS-6 Can','Vallejo: Game Color Fluorescent Green 72.104']],
+    ['Samus: Varia Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','C',"2023-06-13",3.42,false,'Builds/VariaSuit.html',['Tamiya: Gold TS-21 Can','Testors: Sunflower 1191','Tamiya: Matt Black TS-6 Can','Vallejo: Game Color Fluorescent Green 72.104','Tamiya: Gun Metal TS-38 Can']],
     ['Charizard',[1,'Destiny'],'MG',false,false,false,'Seed','B'],
     ['Charizard X',[1,'Destiny'],'SD',false,false,false,'Seed','E',"2021-10",8.13,false,'Builds/CharizardX.html',[''],"2022-05-16"],
     ['Iapetus',[1,'Destiny'],'SD',false,false,false,'Seed','B'],
