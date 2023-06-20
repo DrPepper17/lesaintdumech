@@ -71,11 +71,11 @@ const projects = [
     ['Fiery Mothra',[1,'Wing Zero'],'SD',false,false,false,'Wings','A'],
     ['Gold Dust Woman',[1,'Wing Zero'],'SD',false,false,false,'Wing','E',"2021-09",8.37,false,'Builds/GoldDustWoman.html',[''],"2022-02-01"],
     ['Snow White',[1,'Wing Zero'],'MG',false,false,false,'Wings','B'],
-    ['Snow White',[1,'Wing Zero'],'RG',false,false,false,'Wings','A'],
+    ['Snow White',[1,'Wing Zero'],'RG',false,false,false,'Wings','B'],
     ['Snow White',[1,'Wing Zero'],'SD',false,false,false,'Wings','A'],
     ['Wing Zero EW KA [MG]',[1,'Wing Zero','GFFMC Wings For MG Wing Zero'],'MG',true,false,false,'Wing','C',"2022-06",10.83,false,false,false],
     ['Zero Traditional',[1,'Wing Zero'],'MG',false,false,false,'Wings','B'],
-    ['Zero Traditional',[1,'Wing Zero'],'RG',false,false,false,'Wings','A'],
+    ['Zero Traditional',[1,'Wing Zero'],'RG',false,false,false,'Wings','B'],
     ['Zero Traditional',[1,'Wing Zero'],'SD',false,false,false,'Wings','A'],
     ['Zero EW',[1,'Wing Zero'],'MG',false,false,false,'Wings','B'],
     ['Zero EW',[1,'Wing Zero'],'RG',false,false,false,'Wings','A'],
@@ -194,7 +194,7 @@ const projects = [
     ['\u00dcbermensch',[1,'Vidar'],'FM',false,false,false,'IBO','B'],
 
     //Universal Century
-    ['DewDrop',[1,'Acguy'],'HG',false,false,false,'UC','D',"2023-05-29",5.75,false,'Builds/DewDrop.html',['Vallejo: Model Air Underside Blue 71.332','Vallejo: Model Air French Blue 71.088','Vallejo: Model Air Steel Blue 71.087','Vallejo: Mecha Color Metallic Blue 69.067','Tamiya: Gold TS-21 Can','Tamiya: Metallic Red PS-15 Can']],
+    ['DewDrop',[1,'Acguy'],'HG',false,false,false,'UC','E',"2023-05-29",5.75,false,'Builds/DewDrop.html',['Vallejo: Model Air Underside Blue 71.332','Vallejo: Model Air French Blue 71.088','Vallejo: Model Air Steel Blue 71.087','Vallejo: Mecha Color Metallic Blue 69.067','Tamiya: Gold TS-21 Can','Tamiya: Metallic Red PS-15 Can'],"2023-06-19"],
     ['Fantomas',[1,'Banshee Norn'],'SD',false,false,false,'UC','E',"2021-06",15.02,true,'Builds/Fantomas.html',[''],"2021-08-03"],
     ['King Uranus',[1,'Banshee Norn'],'RG',false,false,false,'UC','B'],
     ['Gundam ARRRgent',[1,'Crossbone X-1'],'SD',false,false,false,'UC','E',"2021-06",14.09,false,'Builds/arrrgent.html',[''],"2021-06-25"],
