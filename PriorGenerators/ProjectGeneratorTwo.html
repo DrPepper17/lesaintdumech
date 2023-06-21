@@ -1,11 +1,11 @@
 <html lang="en-us">
     <head>
         <meta charset="utf-8" />
+        <title>Le Saint du Mech: Project Generator 2</title>
         <link rel="stylesheet" href="css/home.css" />
-        <title>Le Saint du Mech: Project Generator 4</title>
     </head>
-    <body>
-        <h1>Project Selector 4</h1> 
+    <body> 
+        <h1 >Project Selector 2</h1> 
         <div style="text-align: right; padding-right: 100px"><a href="index.html">Home Page</a></div>
         <table class="table1">
             <thead>
@@ -15,8 +15,8 @@
                 </tr>
             </thead>
             <tr>
-                <th id="nextGradeID" class="first">...</th>
-                <th id="nextBuildID" class="project">...</th>
+                <th id="gradeClass" class="first">...</th>
+                <th id="buildClass" class="project">...</th>
             </tr>
             <tr class="third">
                 <th>Backlog: </th>
@@ -25,7 +25,7 @@
         </table>
 
         <p>
-            <button type="button" onclick="generateRandomBuild()">What should I build?</button>
+            <button type="button" onclick="ascentOfMan()">What should I build?</button>
         </p>
         
         <table class="table2">
@@ -36,46 +36,10 @@
             </thead>
             <tr>
                 <th class="project">
-                    <h3>PG</h3>
-                    <ul id="pgF"></ul>
-                    <h3>MG</h3>
-                    <ul id="mgF"></ul>
-                    <h3>FM</h3>
-                    <ul id="fmF"></ul>
-                    <h3>RG</h3>
-                    <ul id="rgF"></ul>
-                    <h3>HG</h3>
-                    <ul id="hgF"></ul>
-                    <h3>MGSD</h3>
-                    <ul id="mgsdF"></ul>
-                    <h3>SD</h3>
-                    <ul id="sdF"></ul>
-                    <h3>P-Bandai</h3>
-                    <ul id="pbF"></ul>
-                    <h3>Straight Build</h3>
-                    <ul id="sbF"></ul>
-                    <h3>Car</h3>
-                    <ul id="carF"></ul>
-                    <h3>Digimon</h3>
-                    <ul id="dgF"></ul>
-                    <h3>Display</h3>
-                    <ul id="dspF"></ul>
-                    <h3>Haropla</h3>
-                    <ul id="haroF"></ul>
-                    <h3>Pokemon</h3>
-                    <ul id="pokeF"></ul>
-                    <h3>Ship</h3>
-                    <ul id="shipF"></ul>
-                    <h3>Transformers</h3>
-                    <ul id="transF"></ul>
-                    <h3>Zoid</h3>
-                    <ul id="zoidF"></ul>
                     <ul id="FP"></ul>
                     Total Completed: 
                 </th>
                 <th class="project">
-                    <h3>PG</h3>
-                    <ul id="pgBL"></ul>
                     <h3>MG</h3>
                     <ul id="mgBL"></ul>
                     <h3>FM</h3>
@@ -92,8 +56,6 @@
                     <ul id="pbBL"></ul>
                     <h3>Straight Build</h3>
                     <ul id="sbBL"></ul>
-                    <h3>Car</h3>
-                    <ul id="carBL"></ul>
                     <h3>Digimon</h3>
                     <ul id="dgBL"></ul>
                     <h3>Display</h3>
@@ -104,15 +66,11 @@
                     <ul id="pokeBL"></ul>
                     <h3>Ship</h3>
                     <ul id="shipBL"></ul>
-                    <h3>Transformers</h3>
-                    <ul id="transBL"></ul>
                     <h3>Zoid</h3>
                     <ul id="zoidBL"></ul>
                 </th>
                 <th class="project">
                     <ul id="OOS"></ul>
-                    <h3>P-Bandai</h3>
-                    <ul id="OOSPB"></ul>
                 </th>
             </tr>
         </table>
@@ -126,20 +84,9 @@
                 <th class="hiddenBorder"><ul id="progTwo"></ul></th>
                 <th class="hiddenBorder"><ul id="progThree"></ul></th>
             </tr>
-        </table>
-
-        <table class="table4">
-            <thead>
-                <th class="hiddenBorder">Ready to Post:</th>
-            </thead>
-            <tr>
-                <th class="hiddenBorder"><ul id="constOne"></ul></th>
-                <th class="hiddenBorder"><ul id="constTwo"></ul></th>
-                <th class="hiddenBorder"><ul id="constThree"></ul></th>
-            </tr>
             <tr>
                 <th class="hiddenBorder"></th>
-                <th class="hiddenBorder" style="text-align: right"><button type="button" onclick="suggestNextPost()">What should I post?: </button></th>
+                <th class="hiddenBorder" style="text-align: right"><button type="button" onclick="randomPost()">What should I post?: </button></th>
                 <th class="hiddenBorder" id="toPost"> </th>
             </tr>
         </table>
@@ -147,9 +94,6 @@
         <p>
             <a href="index.html">Home Page</a>
         </p>
-
-        <span id="progCountID" class="hide"></span>
-        <span id="readyCountID" class="hide"></span>
-        <script src="js/gundamDataSet.js"></script>
+        <script src="randomGenerator2.js"></script>
     </body>
 </html>
