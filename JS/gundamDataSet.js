@@ -63,7 +63,8 @@
 
     // Display 5) //
     2. Name
-    3.  
+    3. Set
+    4.
 
     // Digimon (6) //
     2. Name 
