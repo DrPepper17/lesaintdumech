@@ -414,7 +414,13 @@ const projects = [
         'Builds/Gundams/RedBaron.html',
         [false],
         "2021-05-29",
-        models[2]
+        models[2],
+        [
+            []
+        ],
+        [],
+        'Old Prussia. Red Baron. World War One. Pizza. Nietzche book titles. Nose ring helmet spike. First attempt at custom decals. Hand Brushed, First attempt with LEDs.',
+        false
     ],
     ['Red Baron 2',[1,'Spiegel, Gundam'],'MG',false,false,false,'G','A',"",0,false,'Builds/RedBaron2.html',[''],"",models[2]],
 
@@ -534,6 +540,12 @@ const projects = [
         [''],
         "2021-06-09",
         models[3]
+        [
+            []
+        ],
+        [],
+        'First attempt at an air brush. Testors paints. Jennifer Hudson. The nanny.',
+        'Nick'
     ],
     ['Wilbur',[1,'Volkswagen Beetle, 68'],'Car',false,false,false,'Volkswagen','E',"2022-11",27.08,true,'Builds/Wilbur.html',[''],"2023-01-02"],
     
