@@ -10,11 +10,12 @@
         7. Pokemon
         8. Transformer
         9. Zoid
+    
+
+    // Gundams (1) //
     2. Short Name
     3. Full Name
     4. Serial Number
-
-    // Gundams (1) //
     5. Series
     6. EW Version (wing only) true/false
     7. Developed from
@@ -39,29 +40,50 @@
     26. 
     27. 
 
-    // Ship: Gundam (2) //
-    5. 
+    // Ship (fictional): Gundam (2) //
+    2. Short Name
+    3. Full Name
+    4. Serial Number
 
-    // Ship: Other (3) //
+    // Ship (fictional): Other (3) //
+    2. Short Name
+    3. Full Name
+    4. Serial Number. 
     5. 
 
     // Car (4) //
-    5. 
+    2. Short Name
+    3. Full Name
+    4. Manufacturer
+    5. Model
+    6. Year
+    7. Type of Vehicle (Category List: Car, Truck, Van, Plane, ship, spaceship_
+    8. Sedan (boolean) (ignore if not a car)
+    9. 
 
     // Display 5) //
-    5. 
+    2. Name
+    3.  
 
     // Digimon (6) //
-    5. 
+    2. Name 
+    3. Form (if applicable)
 
     // Pokemon (7) //
-    5. 
+    2. Name
+    3. Form (if applicable)
+    4. Universal Dex no.
 
     // Transformer (8) //
-    5. 
+    2. Name
+    3. Version 
+    4. Vehicle form
+    5. Faction
 
     // Zoid (9) //
-    5. 
+    2. Name
+    3. Serial No.
+    4. Animal / Type
 */
 
 //Models Array
@@ -135,6 +157,16 @@ const models = [
         'Kunio Okawara',
         'Shadow Gundam'
     ],
+    [3,
+        4,
+        'Bel-Air',
+        'Chevy 1957 Bel-Air',
+        'Chevy',
+        'Bel-Air',
+        1957,
+        'Car',
+        true
+    ]
 ];
 
 /*
@@ -166,8 +198,9 @@ const models = [
             ['file path','photo name'],
             ['file path','photo name']
         ]
-    15.Theme
-    16. Description
+    15. Profile photo (array) ['file path','photo name']
+    16.Theme / Description
+    17. Gifted? If yes, string of to whom; If no, false
 */
 
 //Pojects
@@ -231,7 +264,10 @@ const projects = [
             ['../../img/projects/gundams/guerilla_arms/gahamg16.JPG','Gundam Guerilla Arms'],
             ['../../img/projects/gundams/guerilla_arms/gahamg17.JPG','Gundam Guerilla Arms'],
             ['../../img/projects/gundams/guerilla_arms/gahamg18.JPG','Gundam Guerilla Arms']
-        ]
+        ],
+        ['../../img/projects/gundams/guerilla_arms/gahamg08.JPG','Gundam Guerilla Arms'],
+        'Camouflage. Commando. Jungle Warfare. Entirely hand brushed. First attempt at custom painting. Entirely Testors paints. Huge learning experience.',
+        false
     ],
     ['Phoebe',[1,'Maganac Corps'],'SD',false,false,false,'Wing','D',"2022-04",8.42,false,'Builds/Phoebe.html',['']],
     ['Isaac',[1,'Proto-Zero'],'SD',false,false,false,'Wing','E',"2023-02",14.14,false,'Builds/Isaac.html',[''],"2023-05-10"],
@@ -483,7 +519,22 @@ const projects = [
     ['Haro Red',[1,'Haropla #02 Diva Red'],'Haro',false,false,false,'','E',"2023-04",2.78,false,'Builds/hred.html',[''],"2023-05-30"],
     
     //Car
-    ['Hud Air',[1,'Chevy Bel Air, 57'],'Car',false,false,false,'Chevy','E',"2021-05",23.05,true,'Builds/Automobiles/HudAir.html',[''],"2021-06-09"],
+    ['Hud Air',
+        [1,'Chevy Bel Air, 57'],
+        'Car',
+        false,
+        false,
+        false,
+        'Chevy',
+        'E',
+        "2021-05",
+        23.05,
+        true,
+        'Builds/Automobiles/HudAir.html',
+        [''],
+        "2021-06-09",
+        models[3]
+    ],
     ['Wilbur',[1,'Volkswagen Beetle, 68'],'Car',false,false,false,'Volkswagen','E',"2022-11",27.08,true,'Builds/Wilbur.html',[''],"2023-01-02"],
     
     //Pokemon
