@@ -1,11 +1,20 @@
 /*
     0. ID
-    1. Project Type
-
-    Gundams//
+    1. Project Type: (category list)
+        1. Gundam
+        2. Ship: Gundam
+        3. Ship: Other Franchise
+        4. Car / Automobiles
+        5. Display
+        6. Digimon
+        7. Pokemon
+        8. Transformer
+        9. Zoid
     2. Short Name
     3. Full Name
     4. Serial Number
+
+    // Gundams (1) //
     5. Series
     6. EW Version (wing only) true/false
     7. Developed from
@@ -26,13 +35,40 @@
     22. Designed by
     23. SDW Hero (true/false)
     24. Alternate Name
+    25. Mobile Armor: true/false
+    26. Description (string)
+    27. Theme
+
+    // Ship: Gundam (2) //
+    5. 
+
+    // Ship: Other (3) //
+    5. 
+
+    // Car (4) //
+    5. 
+
+    // Display 5) //
+    5. 
+
+    // Digimon (6) //
+    5. 
+
+    // Pokemon (7) //
+    5. 
+
+    // Transformer (8) //
+    5. 
+
+    // Zoid (9) //
+    5. 
 */
 
 //Models Array
 const models = [
     [0],
     [1,
-        'Gundam',
+        1,
         'Gundam Heavyarms',
         'XXXG-01H Gundam Heavarms EW',
         'XXXG-01H',
@@ -72,7 +108,7 @@ const models = [
         false
     ],
     [2,
-        'Gundam',
+        1,
         'Gundam Spiegel',
         'GF13-021NG Gundam Spiegel',
         'GF13-021NG',
@@ -160,7 +196,7 @@ const projects = [
     ['Golden Ghidorah',[1,'Epyon'],'RG',false,false,false,'Wing','A'],
     ['PB Geminass 01 [HG]',[1.5,'Geminass 01','Geminass Assault Mobility Booster Expansion Pack'],'HG',true,true,false,'Wing','E',"2022-12",6.5,false,'Builds/PBGeminassHG.html',false,"2023-04-27"],
     ['Major Tom',[1,'Geminass 01'],'SD',false,false,false,'Wing','E',"2021-12",5.15,false,'Builds/MajorTom.html',[''],"2023-04-10"],
-    ['Guerilla Arms',[1,'Heavy Arms'],'MG',false,false,false,'Wing','E',"2021-04",60.07,false,'Builds/GuerillaArms.html',[''],"2021-05-22",models[1]],
+    ['Guerilla Arms',[1,'Heavy Arms'],'MG',false,false,false,'Wing','E',"2021-04",60.07,false,'Builds/Gundams/GuerillaArms.html',[''],"2021-05-22",models[1]],
     ['Phoebe',[1,'Maganac Corps'],'SD',false,false,false,'Wing','D',"2022-04",8.42,false,'Builds/Phoebe.html',['']],
     ['Isaac',[1,'Proto-Zero'],'SD',false,false,false,'Wing','E',"2023-02",14.14,false,'Builds/Isaac.html',[''],"2023-05-10"],
     ['Jericho',[1,'Proto-Zero'],'HG',false,false,false,'Wing','E',"2023-01",12.79,false,'Builds/Jericho.html',[''],"2023-05-24"],
@@ -231,7 +267,7 @@ const projects = [
     ['Calamitous Godzilla',[1,'Calamity'],'FM',false,false,false,'Seed','B'],
     ['PB Armageddon',[2.5,'Dagger L','Dagger L','Dagger Expansion Pack'],'HG',false,true,false,'Seed','E',"2022-03",28.5,false,'Builds/Armageddon.html',[''],"2022-05-23"],
     ['King Leir',[1,'Dagger L'],'HG',false,false,false,'Seed','E',"2021-06",14.09,false,'Builds/KingLeir.html',[''],"2021-06-26"],
-    ['Samus: Varia Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','C',"2023-06-13",3.58,false,'Builds/VariaSuit.html',['Tamiya: Gold TS-21 Can','Testors: Sunflower 1191','Tamiya: Matt Black TS-6 Can','Vallejo: Game Color Fluorescent Green 72.104','Tamiya: Gun Metal TS-38 Can']],
+    ['Samus: Varia Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','C',"2023-06-13",3.58,false,'Builds/Gundams/VariaSuit.html',['Tamiya: Gold TS-21 Can','Testors: Sunflower 1191','Tamiya: Matt Black TS-6 Can','Vallejo: Game Color Fluorescent Green 72.104','Tamiya: Gun Metal TS-38 Can']],
     ['Charizard',[1,'Destiny'],'MG',false,false,false,'Seed','B'],
     ['Charizard X',[1,'Destiny'],'SD',false,false,false,'Seed','E',"2021-10",8.13,false,'Builds/CharizardX.html',[''],"2022-05-16"],
     ['Iapetus',[1,'Destiny'],'SD',false,false,false,'Seed','B'],
@@ -243,7 +279,7 @@ const projects = [
     ['Anthem',[1,'Freedom'],'MG',false,false,false,'Seed','E',"2022-05",73.16,true,'Builds/Anthem.html',[''],"2022-07-04"],
     ['Freedom [MGSD]',[1,'Freedom'],'MGSD',true,false,false,'Seed','D',"2023-03",8.5,false,false,false],
     ['Liberty',[1,'Freedom'],'SD',false,false,false,'Seed','E',"2022-04",18,false,'Builds/Liberty.html',[''],"2022-06-27"],
-    ['Old Glory',[1,'Freedom'],'MGSD',false,false,false,'Seed','C',"2023-05",28.83,false,'Builds/OldGlory.html',['Mission Models: MMP-001 White','Testors: Red Grapefruit 1196','Testors: Cherry Red 1197','Vallejo: Mecha Color Gold 69.059','Vallejo: Mecha Color Electric Blue 60.020','Vallejo: Model Air Black 71.057','Vallejo: Mecha Color Metallic Blue 69.067','Vallejo: Model Air Metallic Signal Red 71.070','Vallejo: Mecha Color Sky Blue 69.017','Tamiya: Metallic BLue TS-19 Can','Tamiya: Gold TS-21 Can','Tamiya: Matt White TS-27 Can','Tamiya: Metallic Red PS-15 Can','Tamiya: Clear Red X-27']],
+    ['Old Glory',[1,'Freedom'],'MGSD',false,false,false,'Seed','C',"2023-05",28.83,false,'Builds/Gundams/OldGlory.html',['Mission Models: MMP-001 White','Testors: Red Grapefruit 1196','Testors: Cherry Red 1197','Vallejo: Mecha Color Gold 69.059','Vallejo: Mecha Color Electric Blue 60.020','Vallejo: Model Air Black 71.057','Vallejo: Mecha Color Metallic Blue 69.067','Vallejo: Model Air Metallic Signal Red 71.070','Vallejo: Mecha Color Sky Blue 69.017','Tamiya: Metallic BLue TS-19 Can','Tamiya: Gold TS-21 Can','Tamiya: Matt White TS-27 Can','Tamiya: Metallic Red PS-15 Can','Tamiya: Clear Red X-27']],
     ['Billy Blue Jay',[1,'Ginn'],'MG',false,false,false,'Seed','B'],
     ['PB Destiny Impulse (Regenes) [MG]',[1,'Impulse, Destiny'],'Seed','MG',true,true,false,'C',"2023-05",6.5,false,'Builds/PBDesintyImpulseREgenesMG.html',false],
     ['PB Destiny Impulse [RG]',[1,'Impulse, Destiny'],'RG',true,true,false,'Seed','B'],
@@ -292,21 +328,21 @@ const projects = [
     ['PB Gundam Rose [HG]',[1,'Rose Gundam'],'HG',true,true,false,'G','A'],
     ['Le Roi Soleil',[1,'Rose Gundam'],'HG',false,false,false,'G','E',"2022-08",4.17,false,'Builds/RoiSoleil.html',[''],"2022-12-12"],
     ['Gabriel',[1,'Shining Gundam'],'SD',false,false,false,'G','B'],
-    ['Red Baron',[1,'Spiegel, Gundam'],'MG',false,false,false,'G','E',"2021-05",72.07,true,'Builds/RedBaron.html',[''],"2021-05-29",models[2]],
+    ['Red Baron',[1,'Spiegel, Gundam'],'MG',false,false,false,'G','E',"2021-05",72.07,true,'Builds/Gundams/RedBaron.html',[''],"2021-05-29",models[2]],
     ['Red Baron 2',[1,'Spiegel, Gundam'],'MG',false,false,false,'G','A',"",0,false,'Builds/RedBaron2.html',[''],"",models[2]],
 
     //Post Disaster (IBO)
     ['Thorn',[1,'Barbatos'],'MG',false,false,false,'IBO','B'],
     ['War Pig',[1,'Barbatos'],'SD',false,false,false,'IBO','E',"2021-12",4.15,false,'Builds/WarPig.html',[''],"2023-04-18"],
     ['Deep Purple',[1,'Barbatos Lupus'],'SD',false,false,false,'IBO','D',"2021-12",4.36,false,'Builds/DeepPurple.html',['']],
-    ['Sealiah',[1,'Barbatos Lupus'],'HG',false,false,false,'IBO','E',"2023-02",12.51,false,'Builds/Sealiah.html',[''],"2023-06-13"],
+    ['Sealiah',[1,'Barbatos Lupus'],'HG',false,false,false,'IBO','E',"2023-02",12.51,false,'Builds/Gundams/Sealiah.html',[''],"2023-06-13"],
     ['Nephilim',[1,'Barbatos Lupus Rex'],'HG',false,false,false,'IBO','E',"2021-06",23.11,false,'Builds/Nephilim.html',[''],"2021-07-26"],
     ['Queen Venus',[1,'Gremory'],'HG',false,false,false,'IBO','B'],
-    ['Vine',[1,'Hashmal'],'HG',false,false,false,'IBO','E',"2023-01",19.64,false,'Builds/Vine.html',[''],"2023-06-05"],
+    ['Vine',[1,'Hashmal'],'HG',false,false,false,'IBO','E',"2023-01",19.64,false,'Builds/Gundams/Vine.html',[''],"2023-06-05"],
     ['\u00dcbermensch',[1,'Vidar'],'FM',false,false,false,'IBO','B'],
 
     //Universal Century
-    ['DewDrop',[1,'Acguy'],'HG',false,false,false,'UC','E',"2023-05-29",5.75,false,'Builds/DewDrop.html',['Vallejo: Model Air Underside Blue 71.332','Vallejo: Model Air French Blue 71.088','Vallejo: Model Air Steel Blue 71.087','Vallejo: Mecha Color Metallic Blue 69.067','Tamiya: Gold TS-21 Can','Tamiya: Metallic Red PS-15 Can'],"2023-06-19"],
+    ['Dew Drop',[1,'Acguy'],'HG',false,false,false,'UC','E',"2023-05-29",5.75,false,'Builds/Gundams/DewDrop.html',['Vallejo: Model Air Underside Blue 71.332','Vallejo: Model Air French Blue 71.088','Vallejo: Model Air Steel Blue 71.087','Vallejo: Mecha Color Metallic Blue 69.067','Tamiya: Gold TS-21 Can','Tamiya: Metallic Red PS-15 Can'],"2023-06-19"],
     ['Fantomas',[1,'Banshee Norn'],'SD',false,false,false,'UC','E',"2021-06",15.02,true,'Builds/Fantomas.html',[''],"2021-08-03"],
     ['King Uranus',[1,'Banshee Norn'],'RG',false,false,false,'UC','B'],
     ['Gundam ARRRgent',[1,'Crossbone X-1'],'SD',false,false,false,'UC','E',"2021-06",14.09,false,'Builds/arrrgent.html',[''],"2021-06-25"],
@@ -396,7 +432,7 @@ const projects = [
     ['Haro Red',[1,'Haropla #02 Diva Red'],'Haro',false,false,false,'','E',"2023-04",2.78,false,'Builds/hred.html',[''],"2023-05-30"],
     
     //Car
-    ['Hud Air',[1,'Chevy Bel Air, 57'],'Car',false,false,false,'Chevy','E',"2021-05",23.05,true,'Builds/HudAir.html',[''],"2021-06-09"],
+    ['Hud Air',[1,'Chevy Bel Air, 57'],'Car',false,false,false,'Chevy','E',"2021-05",23.05,true,'Builds/Automobiles/HudAir.html',[''],"2021-06-09"],
     ['Wilbur',[1,'Volkswagen Beetle, 68'],'Car',false,false,false,'Volkswagen','E',"2022-11",27.08,true,'Builds/Wilbur.html',[''],"2023-01-02"],
     
     //Pokemon
@@ -443,7 +479,7 @@ const projects = [
     ['Wilbee',[1,'Bumblebee'],'Transformer',false,false,false,'','E',"2022-11",9.33,false,'Builds/Wilbee.html',[''],"2023-01-09"],
     
     //Zoid
-    ['Dash Hound',[1,'Shadow Fox'],'Zoid',false,false,false,'','C',"2023-06-12",11.67,false,'Builds/DashHound.html',['Tamiya: Gold TS-21 Can','Tamiya: Matt Black TS-6 Can','Tamiya: Copper PS-14 Can','Vallejo: Model Air US Earth Red 71.293','Vallejo: Model Air USAF Brown 71.125','Vallejo: Model Air Rust 71.069','Vallejo: Model Air Armor Brown 71.041','Vallejo: Mecha Color Dark Steel 69.065','Vallejo: Model Air Silver 71.063','Vallejo: Model Air Ivory 71.075','Testors: Brass 1182','Vallejo: Model Air Wood 71.077','Vallejo: Model Air US Desert Sand 71.140','Vallejo: Mecha Color Gun Metal 69.058','Vallejo: Model Air Camouflage Gray 71.280']],
+    ['Dash Hound',[1,'Shadow Fox'],'Zoid',false,false,false,'','C',"2023-06-12",11.67,false,'Builds/Zoids/DashHound.html',['Tamiya: Gold TS-21 Can','Tamiya: Matt Black TS-6 Can','Tamiya: Copper PS-14 Can','Vallejo: Model Air US Earth Red 71.293','Vallejo: Model Air USAF Brown 71.125','Vallejo: Model Air Rust 71.069','Vallejo: Model Air Armor Brown 71.041','Vallejo: Mecha Color Dark Steel 69.065','Vallejo: Model Air Silver 71.063','Vallejo: Model Air Ivory 71.075','Testors: Brass 1182','Vallejo: Model Air Wood 71.077','Vallejo: Model Air US Desert Sand 71.140','Vallejo: Mecha Color Gun Metal 69.058','Vallejo: Model Air Camouflage Gray 71.280']],
     ['Shere Khan',[1,'Blade Liger'],'Zoid',false,false,false,'','B'],
     ['Akela',[1,'Konig Wolf Heavy Arms'],'Zoid',false,false,false,'','A'],
     ['Kipling',[1,'Liger Zero X'],'Zoid',false,false,false,'','B']
