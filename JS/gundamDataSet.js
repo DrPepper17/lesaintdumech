@@ -1,4 +1,107 @@
 /*
+    0. ID
+    1. Project Type
+
+    Gundams//
+    2. Short Name
+    3. Full Name
+    4. Serial Number
+    5. Series
+    6. EW Version (wing only) true/false
+    7. Developed from
+    8. Delovoped into
+    9. Era
+    10. Timeline (array) [integer,string,last year seen]
+    11. Pilot
+    12. Secondary Pilots (array)
+    13. Manufacturer
+    14. Affiliation  (array)
+    15. Height [integer,string]
+    16. Weight [integer,string]
+    17. Material
+    18. Power Source
+    19. Armaments (Array)
+    20. Optional Equipment (array)
+    21. Systems
+    22. Designed by
+    23. SDW Hero (true/false)
+    24. Alternate Name
+*/
+
+//Models Array
+const models = [
+    [0],
+    [1,
+        'Gundam',
+        'Gundam Heavyarms',
+        'XXXG-01H Gundam Heavarms EW',
+        'XXXG-01H',
+        'Mobile Suit Gundam Wing',
+        true,
+        'XXXG-00W0 Wing Gundam Proto Zero',
+        'XXXG-01H2 Gundam Heavarms Custom',
+        'After Colony',
+        [195,'195 A.C.',195],
+        'Trowa Barton',
+        ['Heero Yuy'],
+        'Barton Foundation',
+        ['Colony Liberation Organization','Operation Meteor','Peacemillion'],
+        [16.7,'16.7 Meters'],
+        [7.7,'7.7 Metric Tons'],
+        'Gundanium Alloy',
+        'Ultracompact Fusion Reactor',
+        ['Vulcan Guns (x2)',
+            'Machine Cannons (x2)',
+            'Chest Gatling Guns (x2)',
+            'Homing Missiles (x44)',
+            'Micro Missiles (x52)',
+            'Beam Gatling Gun',
+            'Shield',
+            'Army Knife',
+            'Beam Saber'],
+        [
+            'Igel Unit',
+            'Damselfly'
+        ],
+        [
+            'Standard Gundam Operating System',
+            'Self-Destruct System'
+        ],
+        'Hajime Katoki',
+        false,
+        false
+    ],
+    [2,
+        'Gundam',
+        'Gundam Spiegel',
+        'GF13-021NG Gundam Spiegel',
+        'GF13-021NG',
+        'Mobile Fighter G Gundam',
+        false,
+        false,
+        false,
+        'Future Century',
+        [60,'60 F.C.',60],
+        'Schwartz Bruder',
+        ['Kyoji Kasshu'],
+        'Neo Germany',
+        ['Neo Germany'],
+        [16.3,'16.3 Meters'],
+        [7.3,'7.3 Metric Tons'],
+        'Gundanium Alloy super ceramic composite',
+        'Ultracompact Fusion Reactor',
+        ['Spiegel Blades (x2)',
+            'Iron Net',
+            'Messergranz'
+        ],
+        false,
+        false,
+        'Kunio Okawara',
+        'Shadow Gundam'
+    ],
+];
+
+/*
     Project Array:
     0. Name
     1. Model (inside an array) (position 0 is weight).      
@@ -21,6 +124,13 @@
     11. URL // don't do invidivual pages for straightbuilds unless it's a p-bandai
     12. Paint List array. / Straight builds false
     13. Date Posted
+    14. Model (link array)
+    14. Photos (array of arrays)
+        [
+            ['file path','photo name'],
+            ['file path','photo name']
+        ]
+    15.
 */
 
 //Pojects
@@ -50,7 +160,7 @@ const projects = [
     ['Golden Ghidorah',[1,'Epyon'],'RG',false,false,false,'Wing','A'],
     ['PB Geminass 01 [HG]',[1.5,'Geminass 01','Geminass Assault Mobility Booster Expansion Pack'],'HG',true,true,false,'Wing','E',"2022-12",6.5,false,'Builds/PBGeminassHG.html',false,"2023-04-27"],
     ['Major Tom',[1,'Geminass 01'],'SD',false,false,false,'Wing','E',"2021-12",5.15,false,'Builds/MajorTom.html',[''],"2023-04-10"],
-    ['Guerilla Arms',[1,'Heavy Arms'],'MG',false,false,false,'Wing','E',"2021-04",60.07,false,'Builds/GuerillaArms.html',[''],"2021-05-22"],
+    ['Guerilla Arms',[1,'Heavy Arms'],'MG',false,false,false,'Wing','E',"2021-04",60.07,false,'Builds/GuerillaArms.html',[''],"2021-05-22",models[1]],
     ['Phoebe',[1,'Maganac Corps'],'SD',false,false,false,'Wing','D',"2022-04",8.42,false,'Builds/Phoebe.html',['']],
     ['Isaac',[1,'Proto-Zero'],'SD',false,false,false,'Wing','E',"2023-02",14.14,false,'Builds/Isaac.html',[''],"2023-05-10"],
     ['Jericho',[1,'Proto-Zero'],'HG',false,false,false,'Wing','E',"2023-01",12.79,false,'Builds/Jericho.html',[''],"2023-05-24"],
@@ -333,7 +443,7 @@ const projects = [
     ['Wilbee',[1,'Bumblebee'],'Transformer',false,false,false,'','E',"2022-11",9.33,false,'Builds/Wilbee.html',[''],"2023-01-09"],
     
     //Zoid
-    ['Dash Hound',[1,'Shadow Fox'],'Zoid',false,false,false,'','C',"2023-06-12",11.67,false,'Builds/DashHound.html',['Tamiya: Gold TS-21 Can','Tamiya: Matt Black TS-6 Can','Tamiya: Gun Metal TS-38 Can','Tamiya: Copper PS-14 Can','Vallejo: Model Air US Earth Red 71.293','Vallejo: Model Air USAF Brown 71.125','Vallejo: Model Air Rust 71.069','Vallejo: Model Air Armor Brown 71.041','Vallejo: Mecha Color Dark Steel 69.065','Vallejo: Model Air Silver 71.063','Vallejo: Model Air Ivory 71.075','Testors: Brass 1182','Vallejo: Model Air Wood 71.077','Vallejo: Model Air US Desert Sand 71.140','Vallejo: Mecha Color Gun Metal 69.058','Vallejo: Model Air Camouflage Gray 71.280']],
+    ['Dash Hound',[1,'Shadow Fox'],'Zoid',false,false,false,'','C',"2023-06-12",11.67,false,'Builds/DashHound.html',['Tamiya: Gold TS-21 Can','Tamiya: Matt Black TS-6 Can','Tamiya: Copper PS-14 Can','Vallejo: Model Air US Earth Red 71.293','Vallejo: Model Air USAF Brown 71.125','Vallejo: Model Air Rust 71.069','Vallejo: Model Air Armor Brown 71.041','Vallejo: Mecha Color Dark Steel 69.065','Vallejo: Model Air Silver 71.063','Vallejo: Model Air Ivory 71.075','Testors: Brass 1182','Vallejo: Model Air Wood 71.077','Vallejo: Model Air US Desert Sand 71.140','Vallejo: Mecha Color Gun Metal 69.058','Vallejo: Model Air Camouflage Gray 71.280']],
     ['Shere Khan',[1,'Blade Liger'],'Zoid',false,false,false,'','B'],
     ['Akela',[1,'Konig Wolf Heavy Arms'],'Zoid',false,false,false,'','A'],
     ['Kipling',[1,'Liger Zero X'],'Zoid',false,false,false,'','B']
