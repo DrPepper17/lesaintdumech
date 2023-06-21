@@ -69,6 +69,10 @@
     // Digimon (6) //
     2. Name 
     3. Form (if applicable)
+    4. Level
+    5. Digivolve From
+    6. Type
+    7. Element
 
     // Pokemon (7) //
     2. Name
