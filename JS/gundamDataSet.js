@@ -292,8 +292,8 @@ const projects = [
     ['PB Gundam Rose [HG]',[1,'Rose Gundam'],'HG',true,true,false,'G','A'],
     ['Le Roi Soleil',[1,'Rose Gundam'],'HG',false,false,false,'G','E',"2022-08",4.17,false,'Builds/RoiSoleil.html',[''],"2022-12-12"],
     ['Gabriel',[1,'Shining Gundam'],'SD',false,false,false,'G','B'],
-    ['Red Baron',[1,'Spiegel, Gundam'],'MG',false,false,false,'G','E',"2021-05",72.07,true,'Builds/RedBaron.html',[''],"2021-05-29"],
-    ['Red Baron 2',[1,'Spiegel, Gundam'],'MG',false,false,false,'G','A'],
+    ['Red Baron',[1,'Spiegel, Gundam'],'MG',false,false,false,'G','E',"2021-05",72.07,true,'Builds/RedBaron.html',[''],"2021-05-29",models[2]],
+    ['Red Baron 2',[1,'Spiegel, Gundam'],'MG',false,false,false,'G','A',"",0,false,'Builds/RedBaron2.html',[''],"",models[2]],
 
     //Post Disaster (IBO)
     ['Thorn',[1,'Barbatos'],'MG',false,false,false,'IBO','B'],
