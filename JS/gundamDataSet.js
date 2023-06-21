@@ -37,7 +37,7 @@
     23. SDW Hero (true/false)
     24. Alternate Name
     25. Mobile Armor: true/false
-    26. 
+    26. original photo (array): ['file path','photo name']
     27. 
 
     // Ship (fictional): Gundam (2) //
@@ -132,7 +132,9 @@ const models = [
         ],
         'Hajime Katoki',
         false,
-        false
+        false,
+        false,
+        ['../../img/models/heavyarmsew.jpeg','Gundam Heavyarms EW'],
     ],
     [2,
         1,
