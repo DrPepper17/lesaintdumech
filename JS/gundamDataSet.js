@@ -63,8 +63,8 @@
 
     // Display 5) //
     2. Name
-    3. Set
-    4.
+    3. Kit
+    4. Brand / Manufacturer
 
     // Digimon (6) //
     2. Name 
