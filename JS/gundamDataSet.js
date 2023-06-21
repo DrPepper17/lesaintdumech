@@ -26,6 +26,7 @@
 //Pojects
 const projects = [
     //Ad Stella (Mercury)
+    ['Aerial (?)',[1,'Aerial'],'FM',false,false,false,'Mercury','A'],
     ['Aerial [HG]',[1,'Aerial'],'HG',true,false,false,'Mercury','D',"2023-05-30",2.25,false,false,false],
     ['PB Aerial Permet Six [HG]',[1,'Aerial'],'HG',true,true,false,'Mercury','A'],
     ['Ariel',[1.5,'Aerial','Mirasoul Flight Pack'],'HG',false,false,false,'Mercury','B'],
@@ -128,6 +129,7 @@ const projects = [
     ['Eclipse ???',[1,'Eclipse'],'MG',false,false,false,'Seed','B'],
     ['PB Eclipse [MG]',[1.5,'Eclipse','Eclipse Maneuver Striker'],'MG',true,true,false,'Seed','E',"2022-02",17.75,false,'Builds/PBEclipseMG.html',false,"2023-01-30"],
     ['Eternal',[1,'Eternal'],'Ship',false,false,false,'Seed','E',"2021-08",24.1,false,'Builds/Eternal.html',[''],"2022-01-03"],
+    ['Orga',[1,'Forbidden'],'FM',false,false,false,'Seed','A'],
     ['Anthem',[1,'Freedom'],'MG',false,false,false,'Seed','E',"2022-05",73.16,true,'Builds/Anthem.html',[''],"2022-07-04"],
     ['Freedom [MGSD]',[1,'Freedom'],'MGSD',true,false,false,'Seed','D',"2023-03",8.5,false,false,false],
     ['Liberty',[1,'Freedom'],'SD',false,false,false,'Seed','E',"2022-04",18,false,'Builds/Liberty.html',[''],"2022-06-27"],
@@ -293,8 +295,14 @@ const projects = [
     ['Vercingetorix',[1,'Charizard'],'Pokemon',false,false,false,'','D',"2023-03",5.99,false,'Builds/vercingetorix.html',['']],
     ['Boudica',[1,'Dragonite'],'Pokemon',false,false,false,'','D',"2023-03",3.47,false,'Builds/boudica.html',['']],
     ['Granfrog',[1,'Greninja'],'Pokemon',false,false,false,'','E',"2021-11",5.68,false,'Builds/granfrog.html',[''],"2022-08-17"],
+    ['Brennus',[1,'Groudon'],'Pokemon',false,false,false,'','A'],
+    ['Unhygienix',[1,'Magikarp'],'Pokemon',false,false,false,'','A'],
+    ['Lutetia',[1,'Lucario'],'Pokemon',false,false,false,'','A'],
+    ['Chanticleerix',[1,'Lugia'],'Pokemon',false,false,false,'','A'],
     ['Cacofonix',[1,'Metagross'],'Pokemon',false,false,false,'','B'],
     ['Getafix',[1,'Rayquaza'],'Pokemon',false,false,false,'','B'],
+    ['Dogmatix',[1,'Riolu'],'Pokemon',false,false,false,'','A'],
+    ['Cassivellaunus',[1,'Gyrados'],'Pokemon',false,false,false,'','A'],
     
     //Digimon
     ['Heimdall',[1,'Alphamon'],'Digimon',false,false,false,'','A'],
@@ -303,6 +311,8 @@ const projects = [
     ['Jormungandr',[1,'Imperialdramom'],'Digimon',false,false,false,'','A'],
     ['Nidhogg',[1,'Machinedramon'],'Digimon',false,false,false,'','A'],
     ['Fenrir',[1,'Metal Garurumon'],'Digimon',false,false,false,'','E',"2022-07",20.58,false,'Builds/fenrir.html',[''],"2022-09-21"],
+    ['T\u00FDr',[1,'Metal Greymon'],'Digimon',false,false,false,'','A'],
+    ['Odin',[1,'Shine Greymon',],'Digimon',false,false,false,'','A'],
     ['Ragnarok',[1,'Omnimon'],'Digimon',false,false,false,'','E',"2022-07",19.65,false,'Builds/ragnorok.html',[''],"2022-10-17"],
     ['Revelation',[1,'Omnimon X'],'Digimon',false,false,false,'','A'],
     ['Fafnir',[1,'War Greymon'],'Digimon',false,false,false,'','E',"2022-07",20.7,false,'Builds/fafnir.html',[''],"2022-10-04"],
