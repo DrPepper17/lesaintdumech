@@ -36,8 +36,8 @@
     23. SDW Hero (true/false)
     24. Alternate Name
     25. Mobile Armor: true/false
-    26. Description (string)
-    27. Theme
+    26. 
+    27. 
 
     // Ship: Gundam (2) //
     5. 
@@ -166,7 +166,8 @@ const models = [
             ['file path','photo name'],
             ['file path','photo name']
         ]
-    15.
+    15.Theme
+    16. Description
 */
 
 //Pojects
@@ -196,7 +197,41 @@ const projects = [
     ['Golden Ghidorah',[1,'Epyon'],'RG',false,false,false,'Wing','A'],
     ['PB Geminass 01 [HG]',[1.5,'Geminass 01','Geminass Assault Mobility Booster Expansion Pack'],'HG',true,true,false,'Wing','E',"2022-12",6.5,false,'Builds/PBGeminassHG.html',false,"2023-04-27"],
     ['Major Tom',[1,'Geminass 01'],'SD',false,false,false,'Wing','E',"2021-12",5.15,false,'Builds/MajorTom.html',[''],"2023-04-10"],
-    ['Guerilla Arms',[1,'Heavy Arms'],'MG',false,false,false,'Wing','E',"2021-04",60.07,false,'Builds/Gundams/GuerillaArms.html',[''],"2021-05-22",models[1]],
+    ['Guerilla Arms',
+        [1,'Heavy Arms'],
+        'MG',
+        false,
+        false,
+        false,
+        'Wing',
+        'E',
+        "2021-04",
+        60.07,
+        false,
+        'Builds/Gundams/GuerillaArms.html',
+        [false],
+        "2021-05-22",
+        models[1],
+        [['img/projects/gundams/guerilla_arms/gahamg01.JPG','Gundam Guerilla Arms'],
+            ['img/projects/gundams/guerilla_arms/gahamg02.JPG','Gundam Guerilla Arms'],
+            ['img/projects/gundams/guerilla_arms/gahamg03.JPG','Gundam Guerilla Arms'],
+            ['img/projects/gundams/guerilla_arms/gahamg04.JPG','Gundam Guerilla Arms'],
+            ['img/projects/gundams/guerilla_arms/gahamg05.JPG','Gundam Guerilla Arms'],
+            ['img/projects/gundams/guerilla_arms/gahamg06.JPG','Gundam Guerilla Arms'],
+            ['img/projects/gundams/guerilla_arms/gahamg07.JPG','Gundam Guerilla Arms'],
+            ['img/projects/gundams/guerilla_arms/gahamg08.JPG','Gundam Guerilla Arms'],
+            ['img/projects/gundams/guerilla_arms/gahamg09.JPG','Gundam Guerilla Arms'],
+            ['img/projects/gundams/guerilla_arms/gahamg10.JPG','Gundam Guerilla Arms'],
+            ['img/projects/gundams/guerilla_arms/gahamg11.JPG','Gundam Guerilla Arms'],
+            ['img/projects/gundams/guerilla_arms/gahamg12.JPG','Gundam Guerilla Arms'],
+            ['img/projects/gundams/guerilla_arms/gahamg13.JPG','Gundam Guerilla Arms'],
+            ['img/projects/gundams/guerilla_arms/gahamg14.JPG','Gundam Guerilla Arms'],
+            ['img/projects/gundams/guerilla_arms/gahamg15.JPG','Gundam Guerilla Arms'],
+            ['img/projects/gundams/guerilla_arms/gahamg16.JPG','Gundam Guerilla Arms'],
+            ['img/projects/gundams/guerilla_arms/gahamg17.JPG','Gundam Guerilla Arms'],
+            ['img/projects/gundams/guerilla_arms/gahamg18.JPG','Gundam Guerilla Arms']
+        ]
+    ],
     ['Phoebe',[1,'Maganac Corps'],'SD',false,false,false,'Wing','D',"2022-04",8.42,false,'Builds/Phoebe.html',['']],
     ['Isaac',[1,'Proto-Zero'],'SD',false,false,false,'Wing','E',"2023-02",14.14,false,'Builds/Isaac.html',[''],"2023-05-10"],
     ['Jericho',[1,'Proto-Zero'],'HG',false,false,false,'Wing','E',"2023-01",12.79,false,'Builds/Jericho.html',[''],"2023-05-24"],
@@ -328,7 +363,22 @@ const projects = [
     ['PB Gundam Rose [HG]',[1,'Rose Gundam'],'HG',true,true,false,'G','A'],
     ['Le Roi Soleil',[1,'Rose Gundam'],'HG',false,false,false,'G','E',"2022-08",4.17,false,'Builds/RoiSoleil.html',[''],"2022-12-12"],
     ['Gabriel',[1,'Shining Gundam'],'SD',false,false,false,'G','B'],
-    ['Red Baron',[1,'Spiegel, Gundam'],'MG',false,false,false,'G','E',"2021-05",72.07,true,'Builds/Gundams/RedBaron.html',[''],"2021-05-29",models[2]],
+    ['Red Baron',
+        [1,'Spiegel, Gundam'],
+        'MG',
+        false,
+        false,
+        false,
+        'G',
+        'E',
+        "2021-05",
+        72.07,
+        true,
+        'Builds/Gundams/RedBaron.html',
+        [false],
+        "2021-05-29",
+        models[2]
+    ],
     ['Red Baron 2',[1,'Spiegel, Gundam'],'MG',false,false,false,'G','A',"",0,false,'Builds/RedBaron2.html',[''],"",models[2]],
 
     //Post Disaster (IBO)
