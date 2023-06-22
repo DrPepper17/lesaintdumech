@@ -202,8 +202,8 @@ const models = [
     14. Model (link array)
     15. Photos (array of arrays)
         [
-            ['file path','alt text','id','modal-img name'],
-            ['file path','alt text','id','modal-img name']
+            ['file path','alt text',ID: 'img1'],
+            ['file path','alt text',ID: 'img2']
         ]
     16. Profile photo (array) ['file path','photo name']
     17.Theme / Description
@@ -258,24 +258,24 @@ const projects = [
         "2021-05-22",
         models[1],
         [
-            ['../../img/projects/gundams/guerilla_arms/gahamg01.JPG','Gundam Guerilla Arms','img1','modal-img1'],
-            ['../../img/projects/gundams/guerilla_arms/gahamg02.JPG','Gundam Guerilla Arms','img2','modal-img2'],
-            ['../../img/projects/gundams/guerilla_arms/gahamg03.JPG','Gundam Guerilla Arms','img3','modal-img3'],
-            ['../../img/projects/gundams/guerilla_arms/gahamg04.JPG','Gundam Guerilla Arms','img4','modal-img4'],
-            ['../../img/projects/gundams/guerilla_arms/gahamg05.JPG','Gundam Guerilla Arms','img5','modal-img5'],
-            ['../../img/projects/gundams/guerilla_arms/gahamg06.JPG','Gundam Guerilla Arms','img6','modal-img6'],
-            ['../../img/projects/gundams/guerilla_arms/gahamg07.JPG','Gundam Guerilla Arms','img7','modal-img7'],
-            ['../../img/projects/gundams/guerilla_arms/gahamg08.JPG','Gundam Guerilla Arms','img8','modal-img8'],
-            ['../../img/projects/gundams/guerilla_arms/gahamg09.JPG','Gundam Guerilla Arms','img9','modal-img9'],
-            ['../../img/projects/gundams/guerilla_arms/gahamg10.JPG','Gundam Guerilla Arms','img10','modal-img10'],
-            ['../../img/projects/gundams/guerilla_arms/gahamg11.JPG','Gundam Guerilla Arms','img11','modal-img11'],
-            ['../../img/projects/gundams/guerilla_arms/gahamg12.JPG','Gundam Guerilla Arms','img12','modal-img12'],
-            ['../../img/projects/gundams/guerilla_arms/gahamg13.JPG','Gundam Guerilla Arms','img13','modal-img13'],
-            ['../../img/projects/gundams/guerilla_arms/gahamg14.JPG','Gundam Guerilla Arms','img14','modal-img14'],
-            ['../../img/projects/gundams/guerilla_arms/gahamg15.JPG','Gundam Guerilla Arms','img15','modal-img15'],
-            ['../../img/projects/gundams/guerilla_arms/gahamg16.JPG','Gundam Guerilla Arms','img16','modal-img16'],
-            ['../../img/projects/gundams/guerilla_arms/gahamg17.JPG','Gundam Guerilla Arms','img17','modal-img17'],
-            ['../../img/projects/gundams/guerilla_arms/gahamg18.JPG','Gundam Guerilla Arms','img18','modal-img18']
+            ['../../img/projects/gundams/guerilla_arms/gahamg01.JPG','Gundam Guerilla Arms','img1'],
+            ['../../img/projects/gundams/guerilla_arms/gahamg02.JPG','Gundam Guerilla Arms','img2'],
+            ['../../img/projects/gundams/guerilla_arms/gahamg03.JPG','Gundam Guerilla Arms','img3'],
+            ['../../img/projects/gundams/guerilla_arms/gahamg04.JPG','Gundam Guerilla Arms','img4'],
+            ['../../img/projects/gundams/guerilla_arms/gahamg05.JPG','Gundam Guerilla Arms','img5'],
+            ['../../img/projects/gundams/guerilla_arms/gahamg06.JPG','Gundam Guerilla Arms','img6'],
+            ['../../img/projects/gundams/guerilla_arms/gahamg07.JPG','Gundam Guerilla Arms','img7'],
+            ['../../img/projects/gundams/guerilla_arms/gahamg08.JPG','Gundam Guerilla Arms','img8'],
+            ['../../img/projects/gundams/guerilla_arms/gahamg09.JPG','Gundam Guerilla Arms','img9'],
+            ['../../img/projects/gundams/guerilla_arms/gahamg10.JPG','Gundam Guerilla Arms','img10'],
+            ['../../img/projects/gundams/guerilla_arms/gahamg11.JPG','Gundam Guerilla Arms','img11'],
+            ['../../img/projects/gundams/guerilla_arms/gahamg12.JPG','Gundam Guerilla Arms','img12'],
+            ['../../img/projects/gundams/guerilla_arms/gahamg13.JPG','Gundam Guerilla Arms','img13'],
+            ['../../img/projects/gundams/guerilla_arms/gahamg14.JPG','Gundam Guerilla Arms','img14'],
+            ['../../img/projects/gundams/guerilla_arms/gahamg15.JPG','Gundam Guerilla Arms','img15'],
+            ['../../img/projects/gundams/guerilla_arms/gahamg16.JPG','Gundam Guerilla Arms','img16'],
+            ['../../img/projects/gundams/guerilla_arms/gahamg17.JPG','Gundam Guerilla Arms','img17'],
+            ['../../img/projects/gundams/guerilla_arms/gahamg18.JPG','Gundam Guerilla Arms','img18']
         ],
         ['img/projects/gundams/guerilla_arms/gahamg08.JPG','Profile Photo: Gundam Guerilla Arms'],
         'Camouflage. Commando. Jungle Warfare. Entirely hand brushed. First attempt at custom painting. Entirely Testors paints. Huge learning experience.',
@@ -1941,7 +1941,7 @@ function photoModalPopup(i) {
         modalImage.src = this.src;
         captionText.innerHTML = this.alt;
     }
-    let span = document.getElementsByClassName('close')[0];
+    let span = document.getElementById('close'+count);
     span.onclick = function() {
         modal.style.display = 'none';
     }
@@ -1965,7 +1965,10 @@ function generateModalFrame() {
         let spanClassAttribute = document.createAttribute('class');
         spanClassAttribute.value = 'close';
         spanNode.setAttributeNode(spanClassAttribute);
-        let spanTextNode = document.createTextNode('&times;');
+        let spanIdAttribute = document.createAttribute('id');
+        spanIdAttribute.value = 'close'+count;
+        spanNode.setAttributeNode(spanIdAttribute);
+        let spanTextNode = document.createTextNode('X');
         spanNode.appendChild(spanTextNode);
         divNode.appendChild(spanNode);
 
@@ -1979,11 +1982,16 @@ function generateModalFrame() {
         divNode.appendChild(divImgNode);
 
         let divDivNode = document.createElement('div');
+        let divDivClassAttribute = document.createAttribute('class');
+        divDivClassAttribute.value = 'caption-class'
+        divDivNode.setAttributeNode(divDivClassAttribute);
         let divDivIdAttribute = document.createAttribute('id');
         divDivIdAttribute.value = 'caption'+count;
         divDivNode.setAttributeNode(divDivIdAttribute);
         divNode.appendChild(divDivNode);
 
-        anchorNode.appendChild(divNode);
+        let bodyNode = document.body;
+        //anchorNode.appendChild(divNode);
+        bodyNode.insertBefore(divNode,anchorNode);
     }
 }
