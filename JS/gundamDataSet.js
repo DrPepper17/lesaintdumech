@@ -208,6 +208,11 @@ const models = [
     15. Profile photo (array) ['file path','photo name']
     16.Theme / Description
     17. Gifted? If yes, string of to whom; If no, false
+    18. Links (array of arrays)
+        [
+            ['site name','url']
+        ]
+    19
 */
 
 //Pojects
@@ -249,7 +254,7 @@ const projects = [
         60.07,
         false,
         'Builds/Gundams/GuerillaArms.html',
-        [false],
+        false,
         "2021-05-22",
         models[1],
         [
@@ -274,7 +279,12 @@ const projects = [
         ],
         ['../../img/projects/gundams/guerilla_arms/gahamg08.JPG','Gundam Guerilla Arms'],
         'Camouflage. Commando. Jungle Warfare. Entirely hand brushed. First attempt at custom painting. Entirely Testors paints. Huge learning experience.',
-        false
+        false,
+        [
+            ['USA Gundam Store','https://www.usagundamstore.com/products/mg-1-100-gundam-heavyarms-ew-ver'],
+            ['NewType','https://newtype.us/p/xyX3s81UEQTYgD2wfA49/h/mg-gundam-heavyarms-ew'],
+            ['Amazon','https://a.co/d/03pIAks']
+        ]
     ],
     ['Phoebe',[1,'Maganac Corps'],'SD',false,false,false,'Wing','D',"2022-04",8.42,false,'Builds/Phoebe.html',['']],
     ['Isaac',[1,'Proto-Zero'],'SD',false,false,false,'Wing','E',"2023-02",14.14,false,'Builds/Isaac.html',[''],"2023-05-10"],
@@ -419,7 +429,7 @@ const projects = [
         72.07,
         true,
         'Builds/Gundams/RedBaron.html',
-        [false],
+        false,
         "2021-05-29",
         models[2],
         [
@@ -544,7 +554,7 @@ const projects = [
         23.05,
         true,
         'Builds/Automobiles/HudAir.html',
-        [''],
+        false,
         "2021-06-09",
         models[3]
         [

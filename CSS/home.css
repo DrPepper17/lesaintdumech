@@ -1,36 +1,37 @@
-a, a:visited {
-    color:blue;
-}
+
 a:hover {
     color: maroon;
 }
+
 body {
     font-family: Verdana, Arial, sans-serif;
     background-image: url("../img/zerobg.jpeg");
     background-size: contain;
     background-attachment: fixed;
 }
+li {
+    font-weight: bold;
+}
+header h1 {
+    font-size: 4em;
+    font-family: 'IM Fell French Canon', "Apple Chancery", Times, sans-serif;
+}
+header h2 {
+    font-size: 2.8em;
+    font-family: 'IM Fell French Canon', "Apple Chancery", Times, sans-serif;
+}
 table {
     text-align: left;
-    border-style: solid;
-    margin-top: 5px;
-    border-color: black;
+    margin-top: 25px;
 }
 th {
-    border-style: solid;
     vertical-align: top;
 }
-thead {
-    background:magenta;
-}
-.first {
-    background: lightseagreen;
-}
-.hide {
-    display: none;
-}
-.hiddenBorder {
+tr {
     border-style: hidden;
+}
+.hide, .table2, .table3, .table4 {
+    display: none;
 }
 .jumbotron {
     margin: 0;
@@ -38,23 +39,12 @@ thead {
     background-image: linear-gradient(to right bottom, blue, teal, lightskyblue);
     color: orangered;
 }
+.navbar {
+    background-color: lightsteelblue;
+}
 .project {
     width: 400px;
-}
-.second {
-    background: blueviolet;
 }
 .table1 {
     width: 600px; 
 }
-.table2, .table3, .table4 {
-    width: 1200px;
-    display: none;
-}
-.third {
-    background: lightcyan;
-}
-
-
-
-
