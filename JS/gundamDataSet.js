@@ -1811,12 +1811,12 @@ function projectPage(string) {
         popGundamPage();
     }
 
-    let modal = document.getElementById('photoModal')
+    generateModalFrame();
+    populateImages();
 
     for (let i=0;i<projectArray[15].length;i++) {
-        previewModalPopup(modal,i);
-    }
-    
+        photoModalPopup(i);
+    }  
 }
 
 function popGundamPage () {
@@ -1835,7 +1835,7 @@ function popGundamPage () {
     insertPhoto(modelArray[26],'modelPhoto','../../');
     insertPhoto(projectArray[16],'profilePhoto','../../');
 
-    populateImages();
+
 }
 
 function populateImages() {
@@ -1881,7 +1881,7 @@ function populateImages() {
 function insertPhotoColumn (array,id) {
     let divRowNode = document.createElement('div');
     let classRowAttribute = document.createAttribute('class');
-    classRowAttribute.value = 'row mt-3 modImage';
+    classRowAttribute.value = 'row mt-3';
     divRowNode.setAttributeNode(classRowAttribute);
     
     let divColNode = document.createElement('div');
@@ -1895,11 +1895,11 @@ function insertPhotoColumn (array,id) {
     let altAttribute = document.createAttribute('alt');
     altAttribute.value = array[1];
     let imgClassAttribute = document.createAttribute('class');
-    imgClassAttribute.value = 'img-fluid';
+    imgClassAttribute.value = 'img-fluid modImage';
     let idAttribute = document.createAttribute('id');
     idAttribute.value = array[2];
     let styleAttribute = document.createAttribute('style');
-    styleAttribute.value = 'width:100%;max-width:400px'
+    styleAttribute.value = 'width:100%;max-width:300px'
     imgNode.setAttributeNode(srcAttribute);
     imgNode.setAttributeNode(altAttribute);
     imgNode.setAttributeNode(imgClassAttribute);
@@ -1929,20 +1929,61 @@ function insertPhoto (array,id,dots) {
     locationNode.appendChild(imgNode);
 }
 
-function previewModalPopup(modal,i) {
-    let img = document.getElementById(projectArray[15][i][2])
-    let captionText = document.getElementById('caption');
-    img.onclick = function() {
-        modal.style.display = "block";
-        modalImg.src = this.src;
+function photoModalPopup(i) {
+    count=i+1;
+
+    let modal = document.getElementById('photoModal'+count);
+    let image = document.getElementById('img'+count);
+    let modalImage = document.getElementById('modImg'+count);
+    let captionText = document.getElementById('caption'+count);
+    image.onclick = function() {
+        modal.style.display = 'block';
+        modalImage.src = this.src;
         captionText.innerHTML = this.alt;
     }
+    let span = document.getElementsByClassName('close')[0];
+    span.onclick = function() {
+        modal.style.display = 'none';
+    }
+}
 
-    // Get the <span> element that closes the modal
-    let span = document.getElementsByClassName("close")[0];
+function generateModalFrame() {
+    let anchorNode = document.getElementById('modalAnchor');
 
-    // When the user clicks on <span> (x), close the modal
-    span.onclick = function() { 
-        modal.style.display = "none";
+    for (let i=0;i<projectArray[15].length;i++) {
+        let count=i+1;
+
+        let divNode = document.createElement('div');
+        let divIDAttribute = document.createAttribute('id');
+        divIDAttribute.value = 'photoModal'+count;
+        let divClassAttribute = document.createAttribute('class');
+        divClassAttribute.value = 'modal';
+        divNode.setAttributeNode(divClassAttribute);
+        divNode.setAttributeNode(divIDAttribute);
+
+        let spanNode = document.createElement('span');
+        let spanClassAttribute = document.createAttribute('class');
+        spanClassAttribute.value = 'close';
+        spanNode.setAttributeNode(spanClassAttribute);
+        let spanTextNode = document.createTextNode('&times;');
+        spanNode.appendChild(spanTextNode);
+        divNode.appendChild(spanNode);
+
+        let divImgNode = document.createElement('img');
+        let divImgClassAttribute = document.createAttribute('class');
+        divImgClassAttribute.value = 'modal-content';
+        divImgNode.setAttributeNode(divImgClassAttribute);
+        let divImgIdAttribute = document.createAttribute('id');
+        divImgIdAttribute.value = 'modImg'+count;
+        divImgNode.setAttributeNode(divImgIdAttribute);
+        divNode.appendChild(divImgNode);
+
+        let divDivNode = document.createElement('div');
+        let divDivIdAttribute = document.createAttribute('id');
+        divDivIdAttribute.value = 'caption'+count;
+        divDivNode.setAttributeNode(divDivIdAttribute);
+        divNode.appendChild(divDivNode);
+
+        anchorNode.appendChild(divNode);
     }
 }
