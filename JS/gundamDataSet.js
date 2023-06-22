@@ -200,19 +200,19 @@ const models = [
     12. Paint List array. / Straight builds false
     13. Date Posted
     14. Model (link array)
-    14. Photos (array of arrays)
+    15. Photos (array of arrays)
         [
             ['file path','photo name'],
             ['file path','photo name']
         ]
-    15. Profile photo (array) ['file path','photo name']
-    16.Theme / Description
-    17. Gifted? If yes, string of to whom; If no, false
-    18. Links (array of arrays)
+    16. Profile photo (array) ['file path','photo name']
+    17.Theme / Description
+    18. Gifted? If yes, string of to whom; If no, false
+    19. Links (array of arrays)
         [
             ['site name','url']
         ]
-    19
+    20
 */
 
 //Pojects
@@ -660,6 +660,8 @@ let zoidFinishedArray = [];
 let pbUndeliveredArray = [];
 let backlogListArray = [pgBacklogArray,mgBacklogArray,fmBacklogArray,rgBacklogArray,hgBacklogArray,mgsdBacklogArray,sdBacklogArray,pbBacklogArray,sbBacklogArray,carBacklogArray,digiBacklogArray,dispBacklogArray,haroBacklogArray,pokeBacklogArray,shipBacklogArray,transBacklogArray,zoidBacklogArray];
 let statsArray = [];
+let projectArray = [];
+let modelArray = [];
 
 //Initialize Counts
 let init = 0;
@@ -1787,4 +1789,123 @@ function suggestNextPost () {
     let tempArray = constructedArray[decisionNumber];
     const suggestTextNode = document.createTextNode(tempArray[0]);
     suggestPostNode.appendChild(suggestTextNode);
+}
+
+//Project Functions
+function projectPage(string) {
+    convertDate();
+
+    for (let i=0;i<projects.length;i++) {
+        if (projects[i][0] === string) {
+            projectArray = projects[i];
+        }
+    }
+    modelArray = projectArray[14];
+
+    if (modelArray[1] === 1) {
+        popGundamPage();
+    }
+}
+
+function popGundamPage () {
+    let breadcrumbNode = document.getElementById('localBreadcrumb');
+    let breadcrumbText = document.createTextNode(projectArray[0]);
+    breadcrumbNode.appendChild(breadcrumbText);
+
+    let projectTitleNode = document.getElementById('projectTitle');
+    let projectTitleText = document.createTextNode(projectArray[0]);
+    projectTitleNode.appendChild(projectTitleText);
+
+    let modelNameNode = document.getElementById('modelFullName');
+    let modelNameText = document.createTextNode(modelArray[3]);
+    modelNameNode.appendChild(modelNameText);
+
+    insertPhoto(modelArray[26],'modelPhoto');
+
+    populateImages();
+}
+
+function populateImages() {
+    let photoColumnOne = [];
+    let photoColumnTwo = [];
+    let photoColumnThree = [];
+    let photoColumnFour = [];
+    let loop = 1;
+
+    for (let i=0;i<projectArray[15].length;i++) {
+        if (loop === 1) {
+            photoColumnOne.push(projectArray[15][i]);
+            loop++;
+        }
+        else if (loop === 2) {
+            photoColumnTwo.push(projectArray[15][i]);
+            loop++;
+        }
+        else if (loop === 3) {
+            photoColumnThree.push(projectArray[15][i]);
+            loop++;
+        }
+        else {
+            photoColumnFour.push(projectArray[15][i]);
+            loop = 1;
+        }
+    }
+
+    for (let i=0;i<photoColumnOne.length;i++) {
+        insertPhotoColumn(photoColumnOne[i],'photoCol1');
+    }
+    for (let i=0;i<photoColumnTwo.length;i++) {
+        insertPhotoColumn(photoColumnTwo[i],'photoCol2');
+    }
+    for (let i=0;i<photoColumnThree.length;i++) {
+        insertPhotoColumn(photoColumnThree[i],'photoCol3');
+    }
+    for (let i=0;i<photoColumnFour.length;i++) {
+        insertPhotoColumn(photoColumnFour[i],'photoCol4');
+    }
+}
+
+function insertPhotoColumn (array,id) {
+    let divRowNode = document.createElement('div');
+    let classRowAttribute = document.createAttribute('class');
+    classRowAttribute.value = 'row mt-3';
+    divRowNode.setAttributeNode(classRowAttribute);
+    
+    let divColNode = document.createElement('div');
+    let classColAttribute = document.createAttribute('class');
+    classColAttribute.value = 'col';
+    divColNode.setAttributeNode(classColAttribute);
+    
+    let imgNode = document.createElement('img');
+    let srcAttribute = document.createAttribute('src');
+    srcAttribute.value = array[0];
+    let altAttribute = document.createAttribute('alt');
+    altAttribute.value = array[1];
+    let imgClassAttribute = document.createAttribute('class');
+    imgClassAttribute.value = 'img-fluid';
+    imgNode.setAttributeNode(srcAttribute);
+    imgNode.setAttributeNode(altAttribute);
+    imgNode.setAttributeNode(imgClassAttribute);
+
+    divColNode.appendChild(imgNode);
+    divRowNode.appendChild(divColNode);
+
+    let locationNode = document.getElementById(id);
+    locationNode.appendChild(divRowNode);
+}
+
+function insertPhoto (array,id) {
+    let imgNode = document.createElement('img');
+    let srcAttribute = document.createAttribute('src');
+    srcAttribute.value = array[0];
+    let altAttribute = document.createAttribute('alt');
+    altAttribute.value = array[1];
+    let imgClassAttribute = document.createAttribute('class');
+    imgClassAttribute.value = 'img-fluid img-thumbnail';
+    imgNode.setAttributeNode(srcAttribute);
+    imgNode.setAttributeNode(altAttribute);
+    imgNode.setAttributeNode(imgClassAttribute);
+
+    let locationNode = document.getElementById(id);
+    locationNode.appendChild(imgNode);
 }
