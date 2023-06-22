@@ -202,8 +202,8 @@ const models = [
     14. Model (link array)
     15. Photos (array of arrays)
         [
-            ['file path','photo name'],
-            ['file path','photo name']
+            ['file path','alt text','id','modal-img name'],
+            ['file path','alt text','id','modal-img name']
         ]
     16. Profile photo (array) ['file path','photo name']
     17.Theme / Description
@@ -258,24 +258,24 @@ const projects = [
         "2021-05-22",
         models[1],
         [
-            ['../../img/projects/gundams/guerilla_arms/gahamg01.JPG','Gundam Guerilla Arms'],
-            ['../../img/projects/gundams/guerilla_arms/gahamg02.JPG','Gundam Guerilla Arms'],
-            ['../../img/projects/gundams/guerilla_arms/gahamg03.JPG','Gundam Guerilla Arms'],
-            ['../../img/projects/gundams/guerilla_arms/gahamg04.JPG','Gundam Guerilla Arms'],
-            ['../../img/projects/gundams/guerilla_arms/gahamg05.JPG','Gundam Guerilla Arms'],
-            ['../../img/projects/gundams/guerilla_arms/gahamg06.JPG','Gundam Guerilla Arms'],
-            ['../../img/projects/gundams/guerilla_arms/gahamg07.JPG','Gundam Guerilla Arms'],
-            ['../../img/projects/gundams/guerilla_arms/gahamg08.JPG','Gundam Guerilla Arms'],
-            ['../../img/projects/gundams/guerilla_arms/gahamg09.JPG','Gundam Guerilla Arms'],
-            ['../../img/projects/gundams/guerilla_arms/gahamg10.JPG','Gundam Guerilla Arms'],
-            ['../../img/projects/gundams/guerilla_arms/gahamg11.JPG','Gundam Guerilla Arms'],
-            ['../../img/projects/gundams/guerilla_arms/gahamg12.JPG','Gundam Guerilla Arms'],
-            ['../../img/projects/gundams/guerilla_arms/gahamg13.JPG','Gundam Guerilla Arms'],
-            ['../../img/projects/gundams/guerilla_arms/gahamg14.JPG','Gundam Guerilla Arms'],
-            ['../../img/projects/gundams/guerilla_arms/gahamg15.JPG','Gundam Guerilla Arms'],
-            ['../../img/projects/gundams/guerilla_arms/gahamg16.JPG','Gundam Guerilla Arms'],
-            ['../../img/projects/gundams/guerilla_arms/gahamg17.JPG','Gundam Guerilla Arms'],
-            ['../../img/projects/gundams/guerilla_arms/gahamg18.JPG','Gundam Guerilla Arms']
+            ['../../img/projects/gundams/guerilla_arms/gahamg01.JPG','Gundam Guerilla Arms','gahamg01','modal-img1'],
+            ['../../img/projects/gundams/guerilla_arms/gahamg02.JPG','Gundam Guerilla Arms','gahamg02','modal-img2'],
+            ['../../img/projects/gundams/guerilla_arms/gahamg03.JPG','Gundam Guerilla Arms','gahamg03','modal-img3'],
+            ['../../img/projects/gundams/guerilla_arms/gahamg04.JPG','Gundam Guerilla Arms','gahamg04','modal-img4'],
+            ['../../img/projects/gundams/guerilla_arms/gahamg05.JPG','Gundam Guerilla Arms','gahamg05','modal-img5'],
+            ['../../img/projects/gundams/guerilla_arms/gahamg06.JPG','Gundam Guerilla Arms','gahamg06','modal-img6'],
+            ['../../img/projects/gundams/guerilla_arms/gahamg07.JPG','Gundam Guerilla Arms','gahamg07','modal-img7'],
+            ['../../img/projects/gundams/guerilla_arms/gahamg08.JPG','Gundam Guerilla Arms','gahamg08','modal-img8'],
+            ['../../img/projects/gundams/guerilla_arms/gahamg09.JPG','Gundam Guerilla Arms','gahamg09','modal-img9'],
+            ['../../img/projects/gundams/guerilla_arms/gahamg10.JPG','Gundam Guerilla Arms','gahamg10','modal-img10'],
+            ['../../img/projects/gundams/guerilla_arms/gahamg11.JPG','Gundam Guerilla Arms','gahamg11','modal-img11'],
+            ['../../img/projects/gundams/guerilla_arms/gahamg12.JPG','Gundam Guerilla Arms','gahamg12','modal-img12'],
+            ['../../img/projects/gundams/guerilla_arms/gahamg13.JPG','Gundam Guerilla Arms','gahamg13','modal-img13'],
+            ['../../img/projects/gundams/guerilla_arms/gahamg14.JPG','Gundam Guerilla Arms','gahamg14','modal-img14'],
+            ['../../img/projects/gundams/guerilla_arms/gahamg15.JPG','Gundam Guerilla Arms','gahamg15','modal-img15'],
+            ['../../img/projects/gundams/guerilla_arms/gahamg16.JPG','Gundam Guerilla Arms','gahamg16','modal-img16'],
+            ['../../img/projects/gundams/guerilla_arms/gahamg17.JPG','Gundam Guerilla Arms','gahamg17','modal-img17'],
+            ['../../img/projects/gundams/guerilla_arms/gahamg18.JPG','Gundam Guerilla Arms','gahamg18','modal-img18']
         ],
         ['../../img/projects/gundams/guerilla_arms/gahamg08.JPG','Gundam Guerilla Arms'],
         'Camouflage. Commando. Jungle Warfare. Entirely hand brushed. First attempt at custom painting. Entirely Testors paints. Huge learning experience.',
@@ -1798,6 +1798,7 @@ function projectPage(string) {
     for (let i=0;i<projects.length;i++) {
         if (projects[i][0] === string) {
             projectArray = projects[i];
+            break;
         }
     }
     modelArray = projectArray[14];
@@ -1883,9 +1884,15 @@ function insertPhotoColumn (array,id) {
     altAttribute.value = array[1];
     let imgClassAttribute = document.createAttribute('class');
     imgClassAttribute.value = 'img-fluid';
+    let idAttribute = document.createAttribute('id');
+    idAttribute.value = array[2];
+    let styleAttribute = document.createAttribute('style');
+    styleAttribute.value = 'width:100%;max-width:400px'
     imgNode.setAttributeNode(srcAttribute);
     imgNode.setAttributeNode(altAttribute);
     imgNode.setAttributeNode(imgClassAttribute);
+    imgNode.setAttributeNode(idAttribute);
+    imgNode.setAttributeNode(styleAttribute);
 
     divColNode.appendChild(imgNode);
     divRowNode.appendChild(divColNode);
