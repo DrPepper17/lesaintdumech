@@ -1802,10 +1802,17 @@ function projectPage(string) {
         }
     }
     modelArray = projectArray[14];
+    let titleNode = document.getElementById('title');
+    let titleNodeText = document.createTextNode(projectArray[0]);
+    titleNode.appendChild(titleNodeText);
 
     let jumboNode = document.getElementById('jumboNode');
     let jumboNodeText = document.createTextNode(projectArray[0]);
     jumboNode.appendChild(jumboNodeText);
+
+    let breadcrumbNode = document.getElementById('breadcrumbNode');
+    let breadcrumbText = document.createTextNode(projectArray[0]);
+    breadcrumbNode.appendChild(breadcrumbText);
 
     if (modelArray[1] === 1) {
         popGundamPage();
@@ -1820,10 +1827,6 @@ function projectPage(string) {
 }
 
 function popGundamPage () {
-    let breadcrumbNode = document.getElementById('localBreadcrumb');
-    let breadcrumbText = document.createTextNode(projectArray[0]);
-    breadcrumbNode.appendChild(breadcrumbText);
-
     let projectTitleNode = document.getElementById('projectTitle');
     let projectTitleText = document.createTextNode(projectArray[0]);
     projectTitleNode.appendChild(projectTitleText);
@@ -1953,45 +1956,85 @@ function generateModalFrame() {
     for (let i=0;i<projectArray[15].length;i++) {
         let count=i+1;
 
-        let divNode = document.createElement('div');
-        let divIDAttribute = document.createAttribute('id');
-        divIDAttribute.value = 'photoModal'+count;
-        let divClassAttribute = document.createAttribute('class');
-        divClassAttribute.value = 'modal';
-        divNode.setAttributeNode(divClassAttribute);
-        divNode.setAttributeNode(divIDAttribute);
+        let div1Node = document.createElement('div');
+        let div1ID = document.createAttribute('id');
+        div1ID.value = 'photoModal'+count;
+        let div1Class = document.createAttribute('class');
+        div1Class.value = 'modal';
+        let div1Role = document.createAttribute('role');
+        div1Role.value = ('dialog');
+        div1Node.setAttributeNode(div1Class);
+        div1Node.setAttributeNode(div1Role);
+        div1Node.setAttributeNode(div1ID);
 
-        let spanNode = document.createElement('span');
-        let spanClassAttribute = document.createAttribute('class');
-        spanClassAttribute.value = 'close';
-        spanNode.setAttributeNode(spanClassAttribute);
-        let spanIdAttribute = document.createAttribute('id');
-        spanIdAttribute.value = 'close'+count;
-        spanNode.setAttributeNode(spanIdAttribute);
-        let spanTextNode = document.createTextNode('X');
-        spanNode.appendChild(spanTextNode);
-        divNode.appendChild(spanNode);
+        let div2Node = document.createElement('div');
+        let div2Class = document.createAttribute('class');
+        div2Class.value = 'modal-dialog modal-lg';
+        let div2Role = document.createAttribute('role');
+        div2Role.value = ('document');
+        div2Node.setAttributeNode(div2Class);
+        div2Node.setAttributeNode(div2Role);
+        div1Node.appendChild(div2Node);
 
-        let divImgNode = document.createElement('img');
-        let divImgClassAttribute = document.createAttribute('class');
-        divImgClassAttribute.value = 'modal-content';
-        divImgNode.setAttributeNode(divImgClassAttribute);
-        let divImgIdAttribute = document.createAttribute('id');
-        divImgIdAttribute.value = 'modImg'+count;
-        divImgNode.setAttributeNode(divImgIdAttribute);
-        divNode.appendChild(divImgNode);
+        let div3Node = document.createElement('div');
+        let div3Class = document.createAttribute('class');
+        div3Class.value = 'modal-content';
+        div3Node.setAttributeNode(div3Class);
+        div2Node.appendChild(div3Node);
 
-        let divDivNode = document.createElement('div');
-        let divDivClassAttribute = document.createAttribute('class');
-        divDivClassAttribute.value = 'caption-class'
-        divDivNode.setAttributeNode(divDivClassAttribute);
-        let divDivIdAttribute = document.createAttribute('id');
-        divDivIdAttribute.value = 'caption'+count;
-        divDivNode.setAttributeNode(divDivIdAttribute);
-        divNode.appendChild(divDivNode);
+        let div4Node = document.createElement('div');
+        let div4Class = document.createAttribute('class');
+        div4Class.value = 'modal-header bg-secondary text-white';
+        div4Node.setAttributeNode(div4Class);
+        div3Node.appendChild(div4Node);
 
-        let bodyNode = document.body;
-        //anchorNode.appendChild(divNode);
-        bodyNode.insertBefore(divNode,anchorNode);
+        let h3_1Node = document.createElement('h3');
+        let h3_1Class = document.createAttribute('class');
+        h3_1Class.value = 'modal-title';
+        let h3_1ID = document.createAttribute('id');
+        h3_1ID.value = 'caption'+count;
+        h3_1Node.setAttributeNode(h3_1Class);
+        h3_1Node.setAttributeNode(h3_1ID);
+        div4Node.appendChild(h3_1Node);
+
+        let button1Node = document.createElement('button');
+        let button1Type = document.createAttribute('type');
+        button1Type.value = 'button';
+        let button1Class = document.createAttribute('class');
+        button1Class.value = 'close';
+        let button1DataDismiss = document.createAttribute('data-dismiss');
+        button1DataDismiss.value = 'modal';
+        let button1ID = document.createAttribute('id');
+        button1ID.value = 'close'+count;
+        let button1Text = document.createTextNode('X');
+        button1Node.setAttributeNode(button1Type);
+        button1Node.setAttributeNode(button1Class);
+        button1Node.setAttributeNode(button1DataDismiss);
+        button1Node.setAttributeNode(button1ID);
+        button1Node.appendChild(button1Text);
+        div4Node.appendChild(button1Node);
+
+        let div5Node = document.createElement('div');
+        let div5Class = document.createAttribute('class');
+        div5Class.value = 'modal-body';
+        div5Node.setAttributeNode(div5Class);
+        div3Node.appendChild(div5Node);
+
+        let div6Node = document.createElement('div');
+        let div6Class = document.createAttribute('class');
+        div6Class.value = 'container-fluid';
+        div6Node.setAttributeNode(div6Class);
+        div5Node.appendChild(div6Node);
+
+        let img1Node = document.createElement('img');
+        let img1Class = document.createAttribute('class');
+        img1Class.value = 'img-fluid';
+        let img1ID = document.createAttribute('id');
+        img1ID.value = 'modImg'+count;
+        img1Node.setAttributeNode(img1Class);
+        img1Node.setAttributeNode(img1ID);
+        div6Node.appendChild(img1Node);
+
+        anchorNode.appendChild(div1Node);
     }
 }
