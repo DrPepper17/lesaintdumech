@@ -57,9 +57,11 @@ tr {
     padding: 20px 0;
 }
 .table1 {
-    width: 600px; 
+    width: 500px; 
 }
-  
+.th1 {
+    width: 200px;
+} 
 #content-wrap {
     padding-bottom: 2.5rem;    
 }

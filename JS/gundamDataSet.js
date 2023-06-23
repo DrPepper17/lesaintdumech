@@ -1803,7 +1803,7 @@ function projectPage(string) {
     }
     modelArray = projectArray[14];
     let titleNode = document.getElementById('title');
-    let titleNodeText = document.createTextNode(projectArray[0]);
+    let titleNodeText = document.createTextNode(projectArray[0]+' \u269C');
     titleNode.appendChild(titleNodeText);
 
     let jumboNode = document.getElementById('jumboNode');
