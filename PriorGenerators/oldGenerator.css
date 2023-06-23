@@ -1,0 +1,53 @@
+body {
+    font-family: Verdana, Arial, sans-serif;
+    background: lightskyblue;
+
+}
+h1 {
+    color: blue;
+}
+a, a:visited {
+    color:blueviolet
+}
+a:hover {
+    color: maroon;
+}
+table {
+    text-align: left;
+    border-style: solid;
+    margin-top: 5px;
+    border-color: black;
+}
+th {
+    border-style: solid;
+    vertical-align: top;
+}
+thead {
+    background:magenta;
+}
+.first {
+    background: lightseagreen;
+}
+.second {
+    background: blueviolet;
+}
+.third {
+    background: lightcyan;
+}
+.project {
+    width: 400px;
+}
+.table1 {
+    width: 600px; 
+}
+.table2, .table3, .table4 {
+    width: 1200px;
+    display: none;
+}
+.hide {
+    display: none;
+}
+.hiddenBorder {
+    border-style: hidden;
+    background-color: lightskyblue;
+}
