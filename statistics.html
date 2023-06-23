@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <script src="js/gundamDataSet.js"></script>
+<script src="js/frenchMetrics.js"></script>
 <html lang="en-us">
     <head>
         <meta charset="utf-8" />
@@ -12,9 +13,15 @@
 
         <title>Le Saint du Mech: Statistics</title>
     </head>
-    <body style="color: blue" onload="poststats()">
+    <body onload="poststats(), convertDateToday()">
         <header class="jumbotron jumbotron-fluid">
             <div class="container">
+                <div class="row text-right">
+                    <div class="col text-warning" id="dateFR"></div>
+                </div>
+                <div class="row text-right">
+                    <div class="col text-warning" id="dateFR"></div>
+                </div>
                 <div class="row">
                     <div class="col-3 col-lg-2">
                         <a href="index.html"><img src="img/m_fleur.png" class="img-fluid" /></a>

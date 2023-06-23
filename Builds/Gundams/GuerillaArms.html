@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <script src="../../js/gundamDataSet.js"></script>
+<script src="../../js/frenchMetrics.js"></script>
 <html lang="en-us">
     <head>
         <meta charset="utf-8" />
@@ -13,14 +14,17 @@
 
         <title id="title">Le Saint du Mech: </title>
     </head>
-    <body onload="projectPage('Guerilla Arms')">
+    <body onload="projectPage('Guerilla Arms'),convertDateToday()">
         <header class="jumbotron jumbotron-fluid">
             <div class="container">
+                <div class="row text-right">
+                    <div class="col text-warning" id="dateFR"></div>
+                </div>
                 <div class="row">
                     <div class="col-3 col-lg-2">
                         <a href="../../index.html"><img src="../../img/m_fleur.png" class="img-fluid" /></a>
                     </div>
-                    <div class="col align-self-center ">
+                    <div class="col align-self-center">
                         <h1 class="d-none d-md-block">Le Saint du Mech</h1>
                         <h2 class="d-md-none">Le Saint du Mech</h2>
                         <h3 id="jumboNode"></h3>
@@ -62,6 +66,10 @@
                 <div class="col-md-7 mt-4">
                     <h1 id="projectTitle">Gundam </h1>
                     <h5 id="modelFullName"></h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-8 mt-4">
 
                 </div>
                 <div class="col mt-4" id="profilePhoto">
@@ -76,22 +84,22 @@
                     
                 </div>
             </div>
-            <div class="row">
+            <div class="row mt-3">
                 <div class="col">
-
+                    <h1>Gallery:</h1>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-sm-6 col-lg-3 mt-4" id="photoCol1">
+            <div class="row text-center mt-0">
+                <div class="col-sm-6 col-lg-3 mt-0" id="photoCol1">
 
                 </div>
-                <div class="col-sm-6 col-lg-3 mt-4" id="photoCol2">
+                <div class="col-sm-6 col-lg-3 mt-3 mt-sm-0" id="photoCol2">
 
                 </div>
-                <div class="col-sm-6 col-lg-3 mt-4" id="photoCol3">
+                <div class="col-sm-6 col-lg-3 mt-3 mt-lg-0" id="photoCol3">
 
                 </div>
-                <div class="col-sm-6 col-lg-3 mt-4" id="photoCol4">
+                <div class="col-sm-6 col-lg-3 mt-3 mt-lg-0" id="photoCol4">
 
                 </div>
             </div>
