@@ -212,7 +212,10 @@ const models = [
         [
             ['site name','url']
         ]
-    20
+    20. Affiliated Projects (array: listing them by their name in Projects[0])
+    21. Links 
+    22. available
+    23.
 */
 
 //Pojects
@@ -258,6 +261,19 @@ const projects = [
         "2021-05-22",
         models[1],
         [
+            ['../../img/projects/gundams/guerilla_arms/gahamg19.JPG','Gundam Guerilla Arms','img19'],
+            ['../../img/projects/gundams/guerilla_arms/gahamg20.JPG','Gundam Guerilla Arms','img20'],
+            ['../../img/projects/gundams/guerilla_arms/gahamg21.JPG','Gundam Guerilla Arms','img21'],
+            ['../../img/projects/gundams/guerilla_arms/gahamg22.JPG','Gundam Guerilla Arms','img22'],
+            ['../../img/projects/gundams/guerilla_arms/gahamg23.JPG','Gundam Guerilla Arms','img23'],
+            ['../../img/projects/gundams/guerilla_arms/gahamg24.JPG','Gundam Guerilla Arms','img24'],
+            ['../../img/projects/gundams/guerilla_arms/gahamg25.JPG','Gundam Guerilla Arms','img25'],
+            ['../../img/projects/gundams/guerilla_arms/gahamg26.JPG','Gundam Guerilla Arms','img26'],
+            ['../../img/projects/gundams/guerilla_arms/gahamg27.JPG','Gundam Guerilla Arms','img27'],
+            ['../../img/projects/gundams/guerilla_arms/gahamg28.JPG','Gundam Guerilla Arms','img28'],
+            ['../../img/projects/gundams/guerilla_arms/gahamg29.JPG','Gundam Guerilla Arms','img29'],
+            ['../../img/projects/gundams/guerilla_arms/gahamg30.JPG','Gundam Guerilla Arms','img30'],
+            ['../../img/projects/gundams/guerilla_arms/gahamg31.JPG','Gundam Guerilla Arms','img31'],
             ['../../img/projects/gundams/guerilla_arms/gahamg01.JPG','Gundam Guerilla Arms','img1'],
             ['../../img/projects/gundams/guerilla_arms/gahamg02.JPG','Gundam Guerilla Arms','img2'],
             ['../../img/projects/gundams/guerilla_arms/gahamg03.JPG','Gundam Guerilla Arms','img3'],
@@ -275,9 +291,10 @@ const projects = [
             ['../../img/projects/gundams/guerilla_arms/gahamg15.JPG','Gundam Guerilla Arms','img15'],
             ['../../img/projects/gundams/guerilla_arms/gahamg16.JPG','Gundam Guerilla Arms','img16'],
             ['../../img/projects/gundams/guerilla_arms/gahamg17.JPG','Gundam Guerilla Arms','img17'],
-            ['../../img/projects/gundams/guerilla_arms/gahamg18.JPG','Gundam Guerilla Arms','img18']
+            ['../../img/projects/gundams/guerilla_arms/gahamg18.JPG','Gundam Guerilla Arms','img18'],
+            ['../../img/projects/gundams/guerilla_arms/gahamg32.JPG','Gundam Guerilla Arms','img32']
         ],
-        ['img/projects/gundams/guerilla_arms/gahamg08.JPG','Profile Photo: Gundam Guerilla Arms'],
+        ['img/projects/gundams/guerilla_arms/gahamg32.JPG','Profile Photo: Gundam Guerilla Arms'],
         'Camouflage. Commando. Jungle Warfare. Entirely hand brushed. First attempt at custom painting. Entirely Testors paints. Huge learning experience.',
         false,
         [
