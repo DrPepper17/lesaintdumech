@@ -822,10 +822,7 @@ let finishedCount = 0;
     let totalProjectCDEWeights = 0;
 
 //Functions
-function addConstructed() {
-    const table = document.querySelector(".table4");
-    table.style.display = "block";
-    
+function addConstructed() {   
     let constructOne = [];
     let constructTwo = [];
     let constructThree = [];
@@ -862,9 +859,6 @@ function addConstructed() {
 }
 
 function addInProgress() {
-    const table = document.querySelector(".table3");
-    table.style.display = "block";
-    
     let progressOne = [];
     let progressTwo = [];
     let progressThree = [];
@@ -1555,7 +1549,6 @@ function populateGeneratorPage() {
     addInProgress();
     addConstructed();
     
-    console.log('Test');
 }
 
 function populateStat(stat,id,cap) {
