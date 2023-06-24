@@ -1,5 +1,4 @@
-function convertDateToday()                      	
-	{
+function convertDateToday() {
 	var d, dateString, day, month, year;
 	var answer, calStartDate, date1, date2, dateDiff, inputDate1, inputDate2, totalDays;
 	    	
