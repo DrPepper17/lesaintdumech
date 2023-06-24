@@ -1,10 +1,12 @@
+<!DOCTYPE html>
+<script src="../JS/gundamDataSet.js"></script>
 <html lang="en-us">
     <head>
         <meta charset="utf-8" />
         <link rel="stylesheet" href="oldGenerator.css" />
         <title>Le Saint du Mech: Project Generator 4</title>
     </head>
-    <body>
+    <body onload="populateGeneratorPage()">
         <h1>Project Selector 4</h1> 
         <div style="text-align: right; padding-right: 100px"><a href="../index.html">Home Page</a></div>
         <table class="table1">
@@ -28,7 +30,7 @@
             <button type="button" onclick="generateRandomBuild()">What should I build?</button>
         </p>
         
-        <table class="table2">
+        <table>
             <thead>
                 <th>Finished Projects</th>
                 <th>Backlog</th>
@@ -158,6 +160,5 @@
 
         <span id="progCountID" class="hide"></span>
         <span id="readyCountID" class="hide"></span>
-        <script src="../js/gundamDataSet.js"></script>
     </body>
 </html>

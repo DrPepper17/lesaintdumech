@@ -901,9 +901,6 @@ function addInProgress() {
 }
 
 function addTable() {
-    const table = document.querySelector(".table2");
-    table.style.display = "block";
-
     //Post Finished
     for (let i=0;i<pgFinishedArray.length;i++) {
         insertLine(pgFinishedArray[i],'pgF');
@@ -1480,15 +1477,6 @@ function generateLists() {
 }
 
 function generateRandomBuild() {
-    if (init<1) {
-        convertDate();
-        generateLists();
-        addTable();
-        addInProgress();
-        addConstructed();
-        init++;
-    }
-
     const nextBuildNode = document.getElementById('nextBuildID');
     const nextGradeNode = document.getElementById('nextGradeID');
     const nextBacklogNode = document.getElementById('backlogID');
@@ -1558,6 +1546,15 @@ function populateBuildsPage() {
             createBuildAnchor(postedArray[i]);
         }
     }
+}
+
+function populateGeneratorPage() {
+    convertDate();
+    generateLists();
+    addTable();
+    addInProgress();
+    addConstructed();
+    
 }
 
 function populateStat(stat,id,cap) {
