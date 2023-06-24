@@ -1555,6 +1555,7 @@ function populateGeneratorPage() {
     addInProgress();
     addConstructed();
     
+    console.log('Test');
 }
 
 function populateStat(stat,id,cap) {
