@@ -1277,6 +1277,15 @@ function convertDate() {
     }
 } 
 
+function initialize() {
+    convertDate();
+    generateLists();
+    addTable();
+    addInProgress();
+    addConstructed();
+    
+}
+
 function insertLine (text,ID) {
     const listNode = document.getElementById(ID);
     const lineItemNode = document.createElement("li");
@@ -1540,15 +1549,6 @@ function populateBuildsPage() {
             createBuildAnchor(postedArray[i]);
         }
     }
-}
-
-function populateGeneratorPage() {
-    convertDate();
-    generateLists();
-    addTable();
-    addInProgress();
-    addConstructed();
-    
 }
 
 function populateStat(stat,id,cap) {
@@ -1834,130 +1834,6 @@ function projectPage(string) {
     }  
 }
 
-function popGundamPage () {
-    let projectTitleNode = document.getElementById("projectTitle");
-    let projectTitleText = document.createTextNode(projectArray[0]);
-    projectTitleNode.appendChild(projectTitleText);
-
-    let modelNameNode = document.getElementById("modelFullName");
-    let modelNameText = document.createTextNode(modelArray[3]);
-    modelNameNode.appendChild(modelNameText);
-
-    insertPhoto(modelArray[26],"modelPhoto","../../");
-    insertPhoto(projectArray[16],"profilePhoto","../../");
-
-
-}
-
-function populateImages() {
-    let photoColumnOne = [];
-    let photoColumnTwo = [];
-    let photoColumnThree = [];
-    let photoColumnFour = [];
-    let loop = 1;
-
-    for (let i=0;i<projectArray[15].length;i++) {
-        if (loop === 1) {
-            photoColumnOne.push(projectArray[15][i]);
-            loop++;
-        }
-        else if (loop === 2) {
-            photoColumnTwo.push(projectArray[15][i]);
-            loop++;
-        }
-        else if (loop === 3) {
-            photoColumnThree.push(projectArray[15][i]);
-            loop++;
-        }
-        else {
-            photoColumnFour.push(projectArray[15][i]);
-            loop = 1;
-        }
-    }
-
-    for (let i=0;i<photoColumnOne.length;i++) {
-        insertPhotoColumn(photoColumnOne[i],"photoCol1");
-    }
-    for (let i=0;i<photoColumnTwo.length;i++) {
-        insertPhotoColumn(photoColumnTwo[i],"photoCol2");
-    }
-    for (let i=0;i<photoColumnThree.length;i++) {
-        insertPhotoColumn(photoColumnThree[i],"photoCol3");
-    }
-    for (let i=0;i<photoColumnFour.length;i++) {
-        insertPhotoColumn(photoColumnFour[i],"photoCol4");
-    }
-}
-
-function insertPhotoColumn (array,id) {
-    let divRowNode = document.createElement("div");
-    let classRowAttribute = document.createAttribute("class");
-    classRowAttribute.value = "row mt-3";
-    divRowNode.setAttributeNode(classRowAttribute);
-    
-    let divColNode = document.createElement("div");
-    let classColAttribute = document.createAttribute("class");
-    classColAttribute.value = "col";
-    divColNode.setAttributeNode(classColAttribute);
-    
-    let imgNode = document.createElement("img");
-    let srcAttribute = document.createAttribute("src");
-    srcAttribute.value = array[0];
-    let altAttribute = document.createAttribute("alt");
-    altAttribute.value = array[1];
-    let imgClassAttribute = document.createAttribute("class");
-    imgClassAttribute.value = "img-fluid modImage";
-    let idAttribute = document.createAttribute("id");
-    idAttribute.value = array[2];
-    let styleAttribute = document.createAttribute("style");
-    styleAttribute.value = "width:100%;max-width:300px"
-    imgNode.setAttributeNode(srcAttribute);
-    imgNode.setAttributeNode(altAttribute);
-    imgNode.setAttributeNode(imgClassAttribute);
-    imgNode.setAttributeNode(idAttribute);
-    imgNode.setAttributeNode(styleAttribute);
-
-    divColNode.appendChild(imgNode);
-    divRowNode.appendChild(divColNode);
-
-    let locationNode = document.getElementById(id);
-    locationNode.appendChild(divRowNode);
-}
-
-function insertPhoto (array,id,dots) {
-    let imgNode = document.createElement("img");
-    let srcAttribute = document.createAttribute("src");
-    srcAttribute.value = dots+array[0];
-    let altAttribute = document.createAttribute("alt");
-    altAttribute.value = array[1];
-    let imgClassAttribute = document.createAttribute("class");
-    imgClassAttribute.value = "img-fluid img-thumbnail";
-    imgNode.setAttributeNode(srcAttribute);
-    imgNode.setAttributeNode(altAttribute);
-    imgNode.setAttributeNode(imgClassAttribute);
-
-    let locationNode = document.getElementById(id);
-    locationNode.appendChild(imgNode);
-}
-
-function photoModalPopup(i) {
-    count=i+1;
-
-    let modal = document.getElementById("photoModal"+count);
-    let image = document.getElementById("img"+count);
-    let modalImage = document.getElementById("modImg"+count);
-    let captionText = document.getElementById("caption"+count);
-    image.onclick = function() {
-        modal.style.display = "block";
-        modalImage.src = this.src;
-        captionText.innerHTML = this.alt;
-    }
-    let span = document.getElementById("close"+count);
-    span.onclick = function() {
-        modal.style.display = "none";
-    }
-}
-
 function generateModalFrame() {
     let anchorNode = document.getElementById("modalAnchor");
 
@@ -2045,4 +1921,128 @@ function generateModalFrame() {
 
         anchorNode.appendChild(div1Node);
     }
+}
+
+function insertPhoto (array,id,dots) {
+    let imgNode = document.createElement("img");
+    let srcAttribute = document.createAttribute("src");
+    srcAttribute.value = dots+array[0];
+    let altAttribute = document.createAttribute("alt");
+    altAttribute.value = array[1];
+    let imgClassAttribute = document.createAttribute("class");
+    imgClassAttribute.value = "img-fluid img-thumbnail";
+    imgNode.setAttributeNode(srcAttribute);
+    imgNode.setAttributeNode(altAttribute);
+    imgNode.setAttributeNode(imgClassAttribute);
+
+    let locationNode = document.getElementById(id);
+    locationNode.appendChild(imgNode);
+}
+
+function insertPhotoColumn (array,id) {
+    let divRowNode = document.createElement("div");
+    let classRowAttribute = document.createAttribute("class");
+    classRowAttribute.value = "row mt-3";
+    divRowNode.setAttributeNode(classRowAttribute);
+    
+    let divColNode = document.createElement("div");
+    let classColAttribute = document.createAttribute("class");
+    classColAttribute.value = "col";
+    divColNode.setAttributeNode(classColAttribute);
+    
+    let imgNode = document.createElement("img");
+    let srcAttribute = document.createAttribute("src");
+    srcAttribute.value = array[0];
+    let altAttribute = document.createAttribute("alt");
+    altAttribute.value = array[1];
+    let imgClassAttribute = document.createAttribute("class");
+    imgClassAttribute.value = "img-fluid modImage";
+    let idAttribute = document.createAttribute("id");
+    idAttribute.value = array[2];
+    let styleAttribute = document.createAttribute("style");
+    styleAttribute.value = "width:100%;max-width:300px"
+    imgNode.setAttributeNode(srcAttribute);
+    imgNode.setAttributeNode(altAttribute);
+    imgNode.setAttributeNode(imgClassAttribute);
+    imgNode.setAttributeNode(idAttribute);
+    imgNode.setAttributeNode(styleAttribute);
+
+    divColNode.appendChild(imgNode);
+    divRowNode.appendChild(divColNode);
+
+    let locationNode = document.getElementById(id);
+    locationNode.appendChild(divRowNode);
+}
+
+function photoModalPopup(i) {
+    count=i+1;
+
+    let modal = document.getElementById("photoModal"+count);
+    let image = document.getElementById("img"+count);
+    let modalImage = document.getElementById("modImg"+count);
+    let captionText = document.getElementById("caption"+count);
+    image.onclick = function() {
+        modal.style.display = "block";
+        modalImage.src = this.src;
+        captionText.innerHTML = this.alt;
+    }
+    let span = document.getElementById("close"+count);
+    span.onclick = function() {
+        modal.style.display = "none";
+    }
+}
+
+function populateImages() {
+    let photoColumnOne = [];
+    let photoColumnTwo = [];
+    let photoColumnThree = [];
+    let photoColumnFour = [];
+    let loop = 1;
+
+    for (let i=0;i<projectArray[15].length;i++) {
+        if (loop === 1) {
+            photoColumnOne.push(projectArray[15][i]);
+            loop++;
+        }
+        else if (loop === 2) {
+            photoColumnTwo.push(projectArray[15][i]);
+            loop++;
+        }
+        else if (loop === 3) {
+            photoColumnThree.push(projectArray[15][i]);
+            loop++;
+        }
+        else {
+            photoColumnFour.push(projectArray[15][i]);
+            loop = 1;
+        }
+    }
+
+    for (let i=0;i<photoColumnOne.length;i++) {
+        insertPhotoColumn(photoColumnOne[i],"photoCol1");
+    }
+    for (let i=0;i<photoColumnTwo.length;i++) {
+        insertPhotoColumn(photoColumnTwo[i],"photoCol2");
+    }
+    for (let i=0;i<photoColumnThree.length;i++) {
+        insertPhotoColumn(photoColumnThree[i],"photoCol3");
+    }
+    for (let i=0;i<photoColumnFour.length;i++) {
+        insertPhotoColumn(photoColumnFour[i],"photoCol4");
+    }
+}
+
+function popGundamPage () {
+    let projectTitleNode = document.getElementById("projectTitle");
+    let projectTitleText = document.createTextNode(projectArray[0]);
+    projectTitleNode.appendChild(projectTitleText);
+
+    let modelNameNode = document.getElementById("modelFullName");
+    let modelNameText = document.createTextNode(modelArray[3]);
+    modelNameNode.appendChild(modelNameText);
+
+    insertPhoto(modelArray[26],"modelPhoto","../../");
+    insertPhoto(projectArray[16],"profilePhoto","../../");
+
+
 }
