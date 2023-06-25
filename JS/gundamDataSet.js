@@ -1277,23 +1277,6 @@ function convertDate() {
     }
 } 
 
-function initialize() {
-    convertDate();
-    generateLists();
-    addTable();
-    addInProgress();
-    addConstructed();
-    
-}
-
-function insertLine (text,ID) {
-    const listNode = document.getElementById(ID);
-    const lineItemNode = document.createElement("li");
-    const textNode = document.createTextNode(text);
-    listNode.appendChild(lineItemNode);
-    lineItemNode.appendChild(textNode);
-}
-
 function generateLists() {
     //Alphabetize everything
     projects.sort();
@@ -1536,6 +1519,23 @@ function gradeEdifier(array) {
     }
 
     return grade;
+}
+
+function initialize() {
+    convertDate();
+    generateLists();
+    addTable();
+    addInProgress();
+    addConstructed();
+    
+}
+
+function insertLine (text,ID) {
+    const listNode = document.getElementById(ID);
+    const lineItemNode = document.createElement("li");
+    const textNode = document.createTextNode(text);
+    listNode.appendChild(lineItemNode);
+    lineItemNode.appendChild(textNode);
 }
 
 function populateBuildsPage() {
