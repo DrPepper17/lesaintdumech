@@ -501,7 +501,7 @@ const projects = [
             ["../../img/projects/gundams/red_baron/rbaron41.jpg","Gundam Red Baron","img41"],
             ["../../img/projects/gundams/red_baron/rbaron42.jpg","Gundam Red Baron","img42"]
         ],
-        ["img/projects/gundams/red_baron/rbaron42.JPG","Profile Photo: Gundam Red Baron"],
+        ["img/projects/gundams/red_baron/rbaron42.jpg","Profile Photo: Gundam Red Baron"],
         "Old Prussia. Red Baron. World War One. Pizza. Nietzche book titles. Nose ring helmet spike. First attempt at custom decals. Hand Brushed, First attempt with LEDs.",
         false,
         [
