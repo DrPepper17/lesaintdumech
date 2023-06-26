@@ -505,8 +505,8 @@ const projects = [
         "Old Prussia. Red Baron. World War One. Pizza. Nietzche book titles. Nose ring helmet spike. First attempt at custom decals. Hand Brushed, First attempt with LEDs.",
         false,
         [
-            ["USA Gundam Store","https://newtype.us/p/RQuAYgB4XXkOwgZaWLOi/h/mg-gf13-021ng-gundam-spiegel"],
-            ["NewType","https://newtype.us/p/xyX3s81UEQTYgD2wfA49/h/mg-gundam-heavyarms-ew"],
+            ["USA Gundam Store","https://www.usagundamstore.com/products/mg-gf13_021ng-gundam-spiegel?variant=33023432527"],
+            ["NewType","https://newtype.us/p/RQuAYgB4XXkOwgZaWLOi/h/mg-gf13-021ng-gundam-spiegel"],
             ["Amazon","https://a.co/d/1tZmaYO"]
         ],
         false,
@@ -2047,9 +2047,12 @@ function projectPage(string) {
         for (let i=0;i<projectArray[19].length;i++) {
             let liNode = document.createElement("li");
             let aNode = document.createElement("a");
-            let aSrc = document.createAttribute("href");
-            aSrc.value = projectArray[19][i][1];
-            aNode.setAttributeNode(aSrc);
+            let aHref = document.createAttribute("href");
+            let aTarget = document.createAttribute("target");
+            aTarget.value = "_blank";
+            aHref.value = projectArray[19][i][1];
+            aNode.setAttributeNode(aHref);
+            aNode.setAttributeNode(aTarget);
             let aTextNode = document.createTextNode(projectArray[19][i][0]);
             aNode.appendChild(aTextNode);
             liNode.appendChild(aNode);
