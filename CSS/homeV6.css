@@ -36,18 +36,6 @@ th {
 tr {
     border-style: hidden;
 }
-.card {
-    margin: 35px 15px;
-}
-.card-body {
-    background-color: rgb(226, 255, 95);
-    color: salmon;
-}
-.card-header {
-    font-family: 'Caprasimo', "Apple Chancery", Times, sans-serif;
-    background-color: cadetblue;
-    color: papayawhip;
-}
 .hide, .table2, .table3, .table4 {
     display: none;
 }

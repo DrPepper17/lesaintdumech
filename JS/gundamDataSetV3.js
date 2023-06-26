@@ -1860,17 +1860,16 @@ function projectPage(string) {
     }
 
     
-    if (projectArray[1]>1) {
+    if (projectArray[1].length>2) {
         const otherModelsClass = document.querySelector(".otherModelsClass");
         otherModelsClass.style.display = "block";
         
         let otherModelsNode = document.getElementById("otherModels");
-        let otherModelText = document.createTextNode(projectArray[2]);
-        let thirdModelText = '';
+        let otherModelText = document.createTextNode(projectArray[1][2]);
         otherModelsNode.appendChild(otherModelText);
-        if (projectArray>2) {
-            for (let i=3;i<projectArray[2].length;i++) {
-                thirdModelText = document.createTextNode(', '+projectArray[i]);
+        if (projectArray[1].length>3) {
+            for (let i=3;i<projectArray[1].length;i++) {
+                let thirdModelText = document.createTextNode(', '+projectArray[1][i]);
                 otherModelsNode.appendChild(thirdModelText);
             }
         }
@@ -1945,13 +1944,55 @@ function projectPage(string) {
                 paintsNodeMobile.appendChild(paintsTextMobile2);
             }
         }
-        
+    }
+
+    if (projectArray[20]) {
+        const affiliates = document.querySelector("affiliates");
+        affiliates.style.display = "block";
+
+        let affilatesArray = [];
+        for (let i=0;i<projectArray[20].length;i++) {
+            for (let j=0;j<projects.length;j++) {
+                if (projectArray[20][i] === projects[j][0]) {
+                    affilatesArray.push(projects[j]);
+                }
+            }
+        }
+
+        projectLinks(affilatesArray,'gAffiliates');
     }
 
 
+    let otherArray = [];
+    for (let i=0;i<projects.length;i++) {
+        if ((projectArray[14] === projects[i][14]) && (!projectArray[0] === projects[i][0])) {
+            otherArray.push(projects[i])
+        }
+    }
 
-    if (modelArray[1] === 1) {
-        popGundamPage();
+    if (otherArray.length>0) {
+        const otherBuilds = document.querySelector("affiliates");
+        otherBuilds.style.display = "block";
+
+        projectLinks(otherArray,'otherBuilds');
+    }
+
+    if (projectArray[19]) {
+        const outsideLinks = document.querySelector(".links");
+        outsideLinks.style.display = "block";
+
+        let destinationNode = document.getElementById('outsideLinks')
+        for (let i=0;i<projectArray[19].length;i++) {
+            let liNode = document.createElement('li');
+            let aNode = document.createElement('a');
+            let aSrc = document.createAttribute('href');
+            aSrc.value = projectArray[19][i][1];
+            aNode.setAttributeNode(aSrc);
+            let aTextNode = document.createTextNode(projectArray[19][i][0]);
+            aNode.appendChild(aTextNode);
+            liNode.appendChild(aNode);
+            destinationNode.appendChild(liNode);
+        }
     }
 
     generateModalFrame();
@@ -1960,6 +2001,13 @@ function projectPage(string) {
     for (let i=0;i<projectArray[15].length;i++) {
         photoModalPopup(i);
     }  
+
+    if (modelArray[23]) {
+        popSDWHero();
+    }
+    else if (modelArray[1] === 1) {
+        popGundamPage();
+    }
 }
 
 function generateModalFrame() {
@@ -2192,8 +2240,179 @@ function popGundamPage () {
         const EWclass = document.querySelector(".EWclass");
         EWclass.style.display = "block";
 
-        let 
+        let EWNode = document.getElementById('EW');
+        let EWSpan = document.createElement('span');
+        let EWClass = document.createAttribute('class');
+        EWClass.value = 'text-danger';
+        EWSpan.setAttributeNode(EWClass);
+        let EWText = document.createTextNode('EW Version');
+        EWNode.appendChild(EWSpan);
+        EWSpan.appendChild(EWText);
     }
+
+    let serialNode = document.getElementById('gserial');
+    let serialText = document.createTextNode(modelArray[4]);
+    serialNode.appendChild(serialText);
+
+    if (modelArray[25]) {
+        const altName = document.querySelector(".mobileArmorClass");
+        altName.style.display = "block"; 
+
+        let mobileArmorNode = document.getElementById('mobileArmor');
+        let mobileArmorText = document.createTextNode('Mobile Armr');
+        mobileArmorNode.appendChild(mobileArmorText);
+    }
+ 
+    if (modelArray[24]) {
+        const altName = document.querySelector(".altNameClass");
+        altName.style.display = "block";
+
+        let altNameNode = document.getElementById("altName");
+        let altNameText = document.createTextNode(modelArray[24]);
+        altNameNode.appendChild(altNameText);
+    }
+
+    let pilotNode = document.getElementById("gpilot");
+    let pilotText = document.createTextNode(modelArray[11]);
+    pilotNode.appendChild(pilotText);
+
+    if (modelArray[12]) {
+        const g2pilot = document.querySelector(".g2pilot");
+        g2pilot.style.display = "block";
+
+        let g2ndPilotsNode = document.getElementById("g2ndPilots");
+        let g2ndPilotsText = document.createTextNode(modelArray[12][0]);
+        g2ndPilotsNode.appendChild(g2ndPilotsText);
+
+        if (modelArray[12].length>1) {
+            for (let i=1;i<modelArray[12].length;i++) {
+                let otherPilotsText = document.createTextNode(', '+modelArray[12][i]);
+                g2ndPilotsNode.appendChild(otherPilotsText);
+            }
+        }
+    }
+
+    let gSeriesNode = document.getElementById('gSeries');
+    let gSeriesText = document.createTextNode(modelArray[5]);
+    gSeriesNode.appendChild(gSeriesText);
+
+    let gEraNode = document.getElementById('gEra');
+    let gEraText = document.createTextNode(modelArray[9]);
+    gEraNode.appendChild(gEraText);
+
+    let gCreateDateNode = document.getElementById('gCreateDate');
+    let gCreateDateText = document.createTextNode(modelArray[10][1]);
+    gCreateDateNode.appendChild(gCreateDateText);
+
+    let fYear = modelArray[10][0];
+    let lYear = modelArray[10][2];
+    let timespan = lYear-fYear;
+    if (fYear===lYear) {
+        timespan = 1;
+    }
+
+    let gTimelineNode = document.getElementById('gTimeline');
+    let gTimelineText = document.createTextNode(fYear+'-'+lYear+'; '+timespan+' year(s)');
+    gTimelineNode.appendChild(gTimelineText);
+
+    let gManufacNode = document.getElementById('gManufac');
+    let gManufacText = document.createTextNode(modelArray[13]);
+    gManufacNode.appendChild(gManufacText);
+
+    let gManufacNodeMobile = document.getElementById('gManufacMobile');
+    let gManufacTextMobile = document.createTextNode(modelArray[13]);
+    gManufacNodeMobile.appendChild(gManufacTextMobile);
+
+    let gAffiliateNode = document.getElementById('gAffiliate');
+    let gAffiliateNodeMobile = document.getElementById('gAffiliateMobile');
+    for (let i=0;i<modelArray[14].length;i++) {
+        let gAffiliate_LI = document.createElement('li');
+        let gAffiliate_LIMobile = document.createElement('li');
+        let gAffiliate_LIClass = document.createAttribute('Class');
+        gAffiliate_LIClass.value = 'font-weight-normal';
+        gAffiliate_LI.setAttributeNode(gAffiliate_LIClass);
+        let gAffiliate_LIMobileClass = document.createAttribute('Class');
+        gAffiliate_LIMobileClass.value = 'font-weight-normal';
+        gAffiliate_LIMobile.setAttributeNode(gAffiliate_LIMobileClass);
+        let gAffilateText = document.createTextNode(modelArray[14][i]);
+        let gAffilateTextMobile = document.createTextNode(modelArray[14][i]);
+        gAffiliateNode.appendChild(gAffiliate_LI);
+        gAffiliate_LI.appendChild(gAffilateText);
+        gAffiliateNodeMobile.appendChild(gAffiliate_LIMobile);
+        gAffiliate_LIMobile.appendChild(gAffilateTextMobile);
+    }
+    
+    let gFromNode = document.getElementById('gFrom');
+    let gFromText = document.createTextNode(modelArray[7]);
+    gFromNode.appendChild(gFromText);
+
+    let gFromNodeMobile = document.getElementById('gFromMobile');
+    let gFromTextMobile = document.createTextNode(modelArray[7]);
+    gFromNodeMobile.appendChild(gFromTextMobile);
+
+    let gToNode = document.getElementById('gTo');
+    let gToText = document.createTextNode(modelArray[8]);
+    gToNode.appendChild(gToText);
+
+    let gToNodeMobile = document.getElementById('gToMobile');
+    let gToTextMobile = document.createTextNode(modelArray[8]);
+    gToNodeMobile.appendChild(gToTextMobile);
+
+    let gHeightNode = document.getElementById('gHeight');
+    let gHeightText = document.createTextNode(modelArray[15][1]);
+    gHeightNode.appendChild(gHeightText);
+
+    let gWeightNode = document.getElementById('gWeight');
+    let gWeightText = document.createTextNode(modelArray[16][1]);
+    gWeightNode.appendChild(gWeightText);
+
+    let gMaterialNode = document.getElementById('gMaterial');
+    let gMaterialText = document.createTextNode(modelArray[17]);
+    gMaterialNode.appendChild(gMaterialText);
+
+    let gPowerNode = document.getElementById('gPower');
+    let gPowerText = document.createTextNode(modelArray[18]);
+    gPowerNode.appendChild(gPowerText);
+
+    for (let i=0;i<modelArray[21].length;i++) {
+        let gSystemNode = document.getElementById('gSystem');
+        let gSystemLI = document.createElement('li');
+        let gSystemLIClass = document.createAttribute('Class');
+        gSystemLIClass.value = 'font-weight-normal';
+        gSystemLI.setAttributeNode(gSystemLIClass);
+        let gSystemText = document.createTextNode(modelArray[21][i]);
+        gSystemLI.appendChild(gSystemText);
+        gSystemNode.appendChild(gSystemLI);
+    }
+
+    for (let i=0;i<modelArray[19].length;i++) {
+        let gArmamentsNode = document.getElementById('gArmaments');
+        let gArmamentsLI = document.createElement('li');
+        let gArmamentsLIClass = document.createAttribute('Class');
+        gArmamentsLIClass.value = 'font-weight-normal';
+        gArmamentsLI.setAttributeNode(gArmamentsLIClass);
+        let gArmamentsText = document.createTextNode(modelArray[19][i]);
+        gArmamentsLI.appendChild(gArmamentsText);
+        gArmamentsNode.appendChild(gArmamentsLI);
+    }
+
+    for (let i=0;i<modelArray[20].length;i++) {
+        let gOptArmNode = document.getElementById('gOptArm');
+        let gOptArmLI = document.createElement('li');
+        let gOptArmLIClass = document.createAttribute('Class');
+        gOptArmLIClass.value = 'font-weight-normal';
+        gOptArmLI.setAttributeNode(gOptArmLIClass);
+        let gOptArmText = document.createTextNode(modelArray[20][i]);
+        gOptArmLI.appendChild(gOptArmText);
+        gOptArmNode.appendChild(gOptArmLI);
+    }
+
+    let gDesignNode = document.getElementById('gDesign');
+    let gDesignText = document.createTextNode(modelArray[22]);
+    gDesignNode.appendChild(gDesignText);
+}
+
+function popSDWHero() {
 
 }
 
@@ -2238,20 +2457,17 @@ function convertMonth(n) {
     return month;
 }
 
-function computeDate(array,when) {
-    if (when == 'Start') {
-        let start = new Date(array[8]);
-        let sMonth = convertMonth(start.getMonth());
-        let sYear = start.getFullYear();
-        let startDate = sMonth+" "+sYear;
-        return startDate;
-    }
-    else if (when == 'post') {
-        let post = new Date(array[13]);
-        let pMonth = convertMonth(post.getMonth());
-        let pYear = post.getFullYear();
-        let pDay = post.getDate();
-        let postDate = pMonth+" "+pDay+" "+pYear;
-        return postDate;
+function projectLinks(prArray,ID) {
+    let destinationNode = document.getElementById(ID);
+    for (let i=0;i<prArray.length;i++) {
+        let liNode = document.createElement('li');
+        let aNode = document.createElement('a');
+        let aSrc = document.createAttribute('href');
+        aSrc.value = '../'+prArray[i][11];
+        aNode.setAttributeNode(aSrc);
+        let aTextNode = document.createTextNode(prArray[i][0]);
+        aNode.appendChild(aTextNode);
+        liNode.appendChild(aNode);
+        destinationNode.appendChild(liNode);
     }
 }

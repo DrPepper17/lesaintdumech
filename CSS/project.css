@@ -1,6 +1,9 @@
 .affiliates {
     display: none;
 }
+.altNameClass {
+    display: none;
+}
 .EWclass {
     display: none;
 }
@@ -19,7 +22,7 @@
 .links {
     display: none;
 }
-.mobileArmor {
+.mobileArmorClass {
     display: none;
 }
 .otherBuilds {
@@ -34,3 +37,4 @@
 .pBandaiClass {
     display: none;
 }
+
