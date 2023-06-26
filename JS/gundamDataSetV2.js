@@ -225,26 +225,26 @@ const projects = [
     ["Aerial [HG]",[1,"Aerial"],"HG",true,false,false,"Mercury","D","2023-05-30",2.25,false,false,false],
     ["PB Aerial Permet Six [HG]",[1,"Aerial"],"HG",true,true,false,"Mercury","A"],
     ["Ariel",[1.5,"Aerial","Mirasoul Flight Pack"],"HG",false,false,false,"Mercury","B"],
-    ["Cherub",[1,"Aerial"],"SD",false,false,false,"Mercury","D","2023-01",4.91,false,"Builds/Cherub.html",[""]],
-    ["Azrael",[1,"Dilanza, Guel\"s"],"HG",false,false,false,"Mercury","E","2023-01",12.14,false,"Builds/Azrael.html",[""],"2023-02-27"],
+    ["Cherub",[1,"Aerial"],"SD",false,false,false,"Mercury","D","2023-01-03",4.91,false,"Builds/Cherub.html",[""]],
+    ["Azrael",[1,"Dilanza, Guel\"s"],"HG",false,false,false,"Mercury","E","2023-01-03",12.14,false,"Builds/Azrael.html",[""],"2023-02-27"],
     ["Adriel",[1,"LFrith"],"HG",false,false,false,"Mercury","B"],
-    ["LFrith [HG]",[1,"LFrith"],"HG",true,false,false,"Mercury","D","2023-04",2.33,false,false,false],
+    ["LFrith [HG]",[1,"LFrith"],"HG",true,false,false,"Mercury","D","2023-04-03",2.33,false,false,false],
 
     //Advanced Generation (Age)
     ["Uriel",[1,"Age-FX"],"SD",false,false,false,"Age","B"],
     ["Gamma Draconis",[1,"Danazine"],"HG",false,false,false,"Age","B"],
 
     //After Colony (Wing)
-    ["Leo Army",[6,"Leo"],"LEO",false,false,false,"Wing","C","2021-10",37.42,false,"Builds/LeoArmy.html",["Tested every paint"]],
+    ["Leo Army",[6,"Leo"],"LEO",false,false,false,"Wing","C","2021-10-03",37.42,false,"Builds/LeoArmy.html",["Tested every paint"]],
     ["South Park",[6,"Tallgeese","Epyon","Heavy Arms","Shenlong","Deathscythe","Sandrock"],"SD",false,false,false,"Wing","E","2021-06",54.42,true,"Builds/SouthPark.html",[""],"2021-06-21"],
-    ["Gemini",[2,"Aquarius","Aquarius"],"SD",false,false,false,"Wing","E","2021-07",20.61,false,"Builds/Gemini.html",[""],"2022-01-24"],
+    ["Gemini",[2,"Aquarius","Aquarius"],"SD",false,false,false,"Wing","E","2021-07-03",20.61,false,"Builds/Gemini.html",[""],"2022-01-24"],
     ["Pontus",[1,"Aquarius"],"SD",false,false,false,"Wing","B"],
     ["PB Deathscythe Hell (TV Version",[1,"Deathscythe Hell"],"HG",false,true,false,"Wing","A"],
     ["Epyon [RG]",[1,"Epyon"],"RG",true,false,false,"Wing","A"],
     ["Golden Ghidorah",[1,"Epyon"],"MG",false,false,false,"Wing","B"],
     ["Golden Ghidorah",[1,"Epyon"],"RG",false,false,false,"Wing","A"],
     ["PB Geminass 01 [HG]",[1.5,"Geminass 01","Geminass Assault Mobility Booster Expansion Pack"],"HG",true,true,false,"Wing","E","2022-12",6.5,false,"Builds/PBGeminassHG.html",false,"2023-04-27"],
-    ["Major Tom",[1,"Geminass 01"],"SD",false,false,false,"Wing","E","2021-12",5.15,false,"Builds/MajorTom.html",[""],"2023-04-10"],
+    ["Major Tom",[1,"Geminass 01"],"SD",false,false,false,"Wing","E","2021-12-03",5.15,false,"Builds/MajorTom.html",[""],"2023-04-10"],
     ["Guerilla Arms",
         [1,"Heavy Arms"],
         "MG",
@@ -253,7 +253,7 @@ const projects = [
         false,
         "Wing",
         "E",
-        "2021-04",
+        "2021-04-03",
         60.07,
         false,
         "Builds/Gundams/GuerillaArms.html",
@@ -316,23 +316,23 @@ const projects = [
     ["Wild Wing",[1,"Wing Gundam"],"MG",false,false,false,"Wing","E","2021-07",60.48,true,"Builds/WildWing.html",[""],"2022-02-14"],
     ["Wing Gundam [RG]",[1,"Wing Gundam"],"RG",true,false,false,"Wing","E","2021-07",12.59,false,false,false,"2022-02-07"],
     ["PB Clear Wing Zero [RG]",[1,"Wing Zero"],"RG",true,true,false,"Wing","E","2021-11",6.15,false,"Builds/PBZeroRG",false,"2022-04-19"],
-    ["Dark Zero",[1,"Wing Zero"],"MG",false,false,false,"Wings","B"],
-    ["Dark Zero",[1,"Wing Zero"],"RG",false,false,false,"Wings","A"],
-    ["Dark Zero",[1,"Wing Zero"],"SD",false,false,false,"Wings","A"],
-    ["Fiery Mothra",[1,"Wing Zero"],"MG",false,false,false,"Wings","B"],
-    ["Fiery Mothra",[1,"Wing Zero"],"RG",false,false,false,"Wings","A"],
-    ["Fiery Mothra",[1,"Wing Zero"],"SD",false,false,false,"Wings","A"],
+    ["Dark Zero",[1,"Wing Zero"],"MG",false,false,false,"Wing","B"],
+    ["Dark Zero",[1,"Wing Zero"],"RG",false,false,false,"Wing","A"],
+    ["Dark Zero",[1,"Wing Zero"],"SD",false,false,false,"Wing","A"],
+    ["Fiery Mothra",[1,"Wing Zero"],"MG",false,false,false,"Wing","B"],
+    ["Fiery Mothra",[1,"Wing Zero"],"RG",false,false,false,"Wing","A"],
+    ["Fiery Mothra",[1,"Wing Zero"],"SD",false,false,false,"Wing","A"],
     ["Gold Dust Woman",[1,"Wing Zero"],"SD",false,false,false,"Wing","E","2021-09",8.37,false,"Builds/GoldDustWoman.html",[""],"2022-02-01"],
-    ["Snow White",[1,"Wing Zero"],"MG",false,false,false,"Wings","B"],
-    ["Snow White",[1,"Wing Zero"],"RG",false,false,false,"Wings","B"],
-    ["Snow White",[1,"Wing Zero"],"SD",false,false,false,"Wings","A"],
+    ["Snow White",[1,"Wing Zero"],"MG",false,false,false,"Wing","B"],
+    ["Snow White",[1,"Wing Zero"],"RG",false,false,false,"Wing","B"],
+    ["Snow White",[1,"Wing Zero"],"SD",false,false,false,"Wing","A"],
     ["Wing Zero EW KA [MG]",[1,"Wing Zero","GFFMC Wings For MG Wing Zero"],"MG",true,false,false,"Wing","C","2022-06",10.83,false,false,false],
-    ["Zero Traditional",[1,"Wing Zero"],"MG",false,false,false,"Wings","B"],
-    ["Zero Traditional",[1,"Wing Zero"],"RG",false,false,false,"Wings","B"],
-    ["Zero Traditional",[1,"Wing Zero"],"SD",false,false,false,"Wings","A"],
-    ["Zero EW",[1,"Wing Zero"],"MG",false,false,false,"Wings","B"],
-    ["Zero EW",[1,"Wing Zero"],"RG",false,false,false,"Wings","A"],
-    ["Zero EW",[1,"Wing Zero"],"SD",false,false,false,"Wings","A"],
+    ["Zero Traditional",[1,"Wing Zero"],"MG",false,false,false,"Wing","B"],
+    ["Zero Traditional",[1,"Wing Zero"],"RG",false,false,false,"Wing","B"],
+    ["Zero Traditional",[1,"Wing Zero"],"SD",false,false,false,"Wing","A"],
+    ["Zero EW",[1,"Wing Zero"],"MG",false,false,false,"Wing","B"],
+    ["Zero EW",[1,"Wing Zero"],"RG",false,false,false,"Wing","A"],
+    ["Zero EW",[1,"Wing Zero"],"SD",false,false,false,"Wing","A"],
 
     //After War (X)
     ["Gaebora",[1,"Airmaster"],"SD",false,false,false,"X","E","2021-10",5.51,false,"Builds/Gaebora.html",[""],"2022-03-28"],
@@ -1801,14 +1801,13 @@ function suggestNextPost () {
 
 //Project Functions
 function projectPage(string) {
-    convertDate();
-
     for (let i=0;i<projects.length;i++) {
         if (projects[i][0] === string) {
             projectArray = projects[i];
             break;
         }
     }
+
     modelArray = projectArray[14];
     let titleNode = document.getElementById("title");
     let titleNodeText = document.createTextNode(projectArray[0]+" \u269C");
@@ -2033,9 +2032,16 @@ function populateImages() {
 }
 
 function popGundamPage () {
+    const gundamModelClass = document.querySelector(".gundamModel");
+    gundamModelClass.style.display = "block";
+    
     let projectTitleNode = document.getElementById("projectTitle");
     let projectTitleText = document.createTextNode(projectArray[0]);
     projectTitleNode.appendChild(projectTitleText);
+
+    let projectTitleNode_Mobile = document.getElementById("projectTitle_Mobile");
+    let projectTitleText_Mobile = document.createTextNode(projectArray[0]);
+    projectTitleNode_Mobile.appendChild(projectTitleText_Mobile);
 
     let modelNameNode = document.getElementById("modelFullName");
     let modelNameText = document.createTextNode(modelArray[3]);
@@ -2044,5 +2050,187 @@ function popGundamPage () {
     insertPhoto(modelArray[26],"modelPhoto","../../");
     insertPhoto(projectArray[16],"profilePhoto","../../");
 
+    let projectNameNode = document.getElementById("projectName");
+    let projectNameText = document.createTextNode(projectArray[0]);
+    projectNameNode.appendChild(projectNameText);
 
+    let modelName_ShortNode = document.getElementById("modelName_Short");
+    let modelName_ShortText = document.createTextNode(modelArray[2]);
+    modelName_ShortNode.appendChild(modelName_ShortText);
+
+    if (projectArray[4]) {
+        const pBandaiClass = document.querySelector(".pBandaiClass");
+        pBandaiClass.style.display = "block";
+        
+        let pBandaiNode = document.getElementById("pBandai");
+        let pBandaiSpan = document.createElement("span");
+        let pBandaiSpanClass = document.createAttribute("class");
+        pBandaiSpanClass.value = 'text-danger font-weight-bold';
+        pBandaiSpan.setAttributeNode(pBandaiSpanClass);
+        let pBandaiText = document.createTextNode("P-BANDAI Edition")
+        let straightBuildText = document.createTextNode(" Straight");
+        let buildText = document.createTextNode(" Build");
+        pBandaiSpan.appendChild(pBandaiText);
+        if (projectArray[3]) {
+            pBandaiSpan.appendChild(straightBuildText);
+        }
+        pBandaiSpan.appendChild(buildText);
+        pBandaiNode.appendChild(pBandaiSpan);
+    }
+
+    let gGradeNode = document.getElementById("gGrade")
+    if (projectArray[5]) {
+        let gGradeSpan = document.createElement("span");
+        let gGradeSpanAttr = document.createAttribute("class");
+        gGradeSpanAttr.value = "text-danger font-weight-bold";
+        gGradeSpan.setAttributeNode(gGradeSpanAttr);
+        let MGEXtext = document.createTextNode("Master Grade Extreme (MGEX)");
+        gGradeSpan.appendChild(MGEXtext);
+        gGradeNode.appendChild(gGradeSpan);
+    }
+    else {
+        let gGradeText = document.createTextNode(gradeEdifier(projectArray));
+        gGradeNode.appendChild(gGradeText);
+    }
+
+    
+    if (projectArray[1]>1) {
+        const otherModelsClass = document.querySelector(".otherModelsClass");
+        otherModelsClass.style.display = "block";
+        
+        let otherModelsNode = document.getElementById("otherModels");
+        let otherModelText = document.createTextNode(projectArray[2]);
+        let thirdModelText = '';
+        otherModelsNode.appendChild(otherModelText);
+        if (projectArray>2) {
+            for (let i=3;i<projectArray[2].length;i++) {
+                thirdModelText = document.createTextNode(', '+projectArray[i]);
+                otherModelsNode.appendChild(thirdModelText);
+            }
+        }
+    }        
+
+    let startStamp = new Date(projectArray[8]);
+    let startMonth = convertMonth(startStamp.getMonth());
+    let startYear = startStamp.getFullYear();
+    
+    let postStamp = new Date(projectArray[13]);
+    let postMonth = convertMonth(postStamp.getMonth());
+    let postDay = postStamp.getDate();
+    let postYear = postStamp.getFullYear();
+
+    let dateStartNode = document.getElementById('dateStart');
+    let dateStartText = document.createTextNode(startMonth+' '+startYear);
+    dateStartNode.appendChild(dateStartText);
+
+    let datePostNode = document.getElementById('datePost');
+    let datePostText = document.createTextNode(postMonth+' '+postDay+' '+postYear);
+    datePostNode.appendChild(datePostText);
+
+    let dateStartNode_Mobile = document.getElementById('dateStart_Mobile');
+    let dateStartText_Mobile = document.createTextNode(startMonth+' '+startYear);
+    dateStartNode_Mobile.appendChild(dateStartText_Mobile);
+
+    let datePostNode_Mobile = document.getElementById('datePost_Mobile');
+    let datePostText_Mobile = document.createTextNode(postMonth+' '+postDay+' '+postYear);
+    datePostNode_Mobile.appendChild(datePostText_Mobile);
+       
+    let tHoursNode = document.getElementById("tHours");
+    let tHoursText = document.createTextNode(projectArray[9]+' hrs');
+    tHoursNode.appendChild(tHoursText);
+
+    let ledQ = 'No';
+    if (projectArray[10]) {
+        ledQ = 'Yes';
+    }
+
+    let LEDS_Node = document.getElementById("LEDS");
+    let LEDS_Text = document.createTextNode(ledQ);
+    LEDS_Node.appendChild(LEDS_Text);
+
+    if (projectArray[12]) {
+        const gPaintClass = document.querySelector(".gPaint");
+        gPaintClass.style.display = "block";
+        const gPaintMobileClass = document.querySelector(".gPaintMobile");
+        gPaintMobileClass.style.display = "block";
+
+        let paintsNode = document.getElementById('paints');
+        let paintsNodeMobile = document.getElementById('paintsMobile');
+
+        let gPaintText = projectArray[12][0];
+        let paintsTextNode = document.createTextNode(gPaintText);
+        let paintsTextMobileNode = document.createTextNode(gPaintText);
+        paintsNode.appendChild(paintsTextNode);
+        paintsNodeMobile.appendChild(paintsTextMobileNode);
+        if (projectArray[12].length>1) {
+            for (let i=1;i<projectArray[12].length;i++) {
+                gPaintText = ', '+projectArray[12][i];
+                let paintsText2 = document.createTextNode(gPaintText);
+                let paintsTextMobile2 = document.createTextNode(gPaintText);
+                paintsNode.appendChild(paintsText2);
+                paintsNodeMobile.appendChild(paintsTextMobile2);
+            }
+        }
+        
+    }
+
+}
+
+function convertMonth(n) {
+    let month = 'Month';
+    if (n==0) {
+        month = 'January'
+    }
+    else  if (n==1) {
+        month = 'February'
+    }
+    else  if (n==2) {
+        month = 'March'
+    }
+    else  if (n==3) {
+        month = 'April'
+    }
+    else  if (n==4) {
+        month = 'May'
+    }
+    else  if (n==5) {
+        month = 'June'
+    }
+    else  if (n==6) {
+        month = 'July'
+    }
+    else  if (n==7) {
+        month = 'August'
+    }
+    else  if (n==8) {
+        month = 'September'
+    }
+    else  if (n==9) {
+        month = 'Otober'
+    }
+    else  if (n==10) {
+        month = 'November'
+    }
+    else {
+        month = 'December'
+    }
+    return month;
+}
+
+function computeDate(array,when) {
+    if (when == 'Start') {
+        let start = new Date(array[8]);
+        let sMonth = convertMonth(start.getMonth());
+        let sYear = start.getFullYear();
+        let startDate = sMonth+" "+sYear;
+        return startDate;
+    }
+    else if (when == 'post') {
+        let post = new Date(array[13]);
+        let pMonth = convertMonth(post.getMonth());
+        let pYear = post.getFullYear();
+        let pDay = post.getDate();
+        let postDate = pMonth+" "+pDay+" "+pYear;
+        return postDate;
+    }
 }

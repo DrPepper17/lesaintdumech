@@ -8,7 +8,7 @@ body {
     background-image: url("../img/zerobg.jpeg");
     background-size: contain;
     background-attachment: fixed;
-    color: blue;
+    color: maroon;
 }
 header h1 {
     font-size: 4em;

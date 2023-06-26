@@ -11,6 +11,7 @@
         <script src="../../JS/frenchMetrics.js"></script>
         <link rel="stylesheet" href="../../CSS/homeV5.css"/>
         <link rel="stylesheet" href="../../CSS/modal.css"/>
+        <link rel="stylesheet" href="../..//CSS/project.css">
 
         <title id="title">&#9884; Le Saint du Mech: </title>
     </head>
@@ -65,24 +66,100 @@
 
             <div class="row">
                 <div class="col-md-7 mt-4">
-                    <h1 id="projectTitle">Gundam </h1>
+                    <h1 class="d-none d-md-block" id="projectTitle">Gundam </h1>
+                    <h3 class="d-md-none mt-3" id="projectTitle_Mobile">Gundam </h>
                     <h5 id="modelFullName"></h5>
                 </div>
             </div>
             <div class="row">
                 <div class="col-8 mt-4">
-
+                    <span id="projectName"><span class="font-weight-bold">Project: </span></span><br/>
+                    <span id="modelName_Short"><span class="font-weight-bold">Model: </span></span><br/>
+                    <span class="pBandaiClass"><span id="pBandai" class="font-weight-bold"></span><br/></span>
+                    <span id="gGrade"><span class="font-weight-bold">Grade/Scale:</span> </span><br/>
+                    <span class="otherModelsClass"><span id="otherModels"><span class="font-weight-bold">Additional Models: </span></span><br/></span>
+                    <span class="d-none d-md-block">
+                        <span id="dateStart"><span class="font-weight-bold">Date Started: </span></span>
+                        <span id="datePost"><span class="font-weight-bold">Date Posted: </span></span><br/>
+                    </span>
+                    <span class="d-md-none">
+                        <span id="dateStart_Mobile"><span class="font-weight-bold">Date Started: </span> </span><br/>
+                        <span id="datePost_Mobile"><span class="font-weight-bold">Date Posted: </span> </span><br/>
+                    </span>
+                    <span id="tHours"><span class="font-weight-bold">Total Hours</span> </span><br/>  
+                    <span id="LEDS"><span class="font-weight-bold">LEDs Used: </span></span><br/>
+                    <span id="descrip" class="d-none d-md-block"><span class="font-weight-bold">Theme/Description:</span></span><br/>
+                    <span class="d-none d-md-block"><span id="paints" class="gPaint"><span class="font-weight-bold">Paints Used:</span> </span></span>
                 </div>
-                <div class="col mt-4" id="profilePhoto">
-                    
+                <div class="col mt-4" id="profilePhoto"></div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <p>
+                        <span id="descripMobile" class="d-md-none"><span class="font-weight-bold">Theme/Description:</span></span><br/>
+                        <span class="d-md-none"><span id="paintsMobile" class="gPaintMobile"><span class="font-weight-bold">Paints Used:</span></span></span>
+                    </p>
+                    <p>
+                        <span id="cOwner" class="owner"><span class="font-weight-bold">Current Owner: </span> </span><br/>
+                    </p>
                 </div>
             </div>
             <div class="row">
-                <div class="col-5 mt-4" id="modelPhoto">
-
+                <div class="col-5 mt-4" id="modelPhoto"></div>
+                <div class="col mt-4 gundamModel">
+                    <span id="gmodelNameFull"><span class="font-weight-bold">Model:</span> </span><br/>
+                    <span class="EW"><span id="EW" class="font-weight-bold"></span><br/></span>
+                    <span id="gserial"><span class="font-weight-bold">Serial Number: </span> </span><br/>
+                    <span class="mobileArmor"><span id="mobileArmor" class="font-weight-bold"></span><br/></span>
+                    <span class="altName"><span id="gAltName"><span class="font-weight-bold">Alternate Name: </span> </span><br/></span>
+                    <span id="gpilot"><span class="font-weight-bold">Pilot: </span> </span><br/>
+                    <span class="g2pilot"><span id="g2ndPilots"><span class="font-weight-bold">Secondary Pilots: </span> </span><br/></span>
+                    <span id="gSeries"><span class="font-weight-bold">Series: </span> </span><br/>
+                    <span id="gEra"><span class="font-weight-bold">Era: </span> </span><br/>
+                    <span id="gTimeline"><span class="font-weight-bold">Timeline: </span> </span><br/>
+                    <span class="d-none d-lg-block">
+                        <span id="gManufac"><span class="font-weight-bold">Manufacturer: </span> </span><br/>
+                        <span id="gAffiliate"><span class="font-weight-bold">Affiliation:</span> </span><br/>
+                        <span id="gFrom"><span class="font-weight-bold">Developed From: </span> </span><br/>
+                        <span id="gTo"><span class="font-weight-bold">Developed Into</span> </span><br/>
+                        <span id="gHeight"><span class="font-weight-bold">Height: </span> </span><br/>
+                        <span id="gWeight"><span class="font-weight-bold">Weight: </span> </span><br/>
+                        <span id="gMaterial"><span class="font-weight-bold">Material: </span> </span>
+                    </span>
                 </div>
-                <div class="col mt-4">
-                    
+            </div>
+            <div class="row mb-3">
+                <div class="col">
+                    <span class="d-lg-none">
+                        <span id="gManufacMobile"><span class="font-weight-bold">Manufacturer: </span> </span><br/>
+                        <span id="gAffiliateMobile"><span class="font-weight-bold">Affiliation:</span> </span><br/>
+                        <span id="gFromMobile"><span class="font-weight-bold">Developed From: </span> </span><br/>
+                        <span id="gToMobile"><span class="font-weight-bold">Developed Into</span> </span><br/>
+                        <span id="gHeightMobile"><span class="font-weight-bold">Height: </span> </span>
+                        <span id="gWeightMobile"><span class="font-weight-bold">Weight: </span> </span><br/>
+                        <span id="gMaterialMobile"><span class="font-weight-bold">Material: </span> </span><br/>
+                    </span>
+                    <span id="gPower"><span class="font-weight-bold">Power Source: </span> </span><br/>
+                    <span id="gSystem"><span class="font-weight-bold">Systems: </span> </span><br/>
+                    <span id="gArmaments"><span class="font-weight-bold">Armaments: </span> </span><br/>
+                    <span id="gOptArm"><span class="font-weight-bold">Optional Armaments:  </span> </span><br/>
+                    <span id="gDesign"><span class="font-weight-bold">Designed by:  </span> </span><br/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 affiliates">
+                    <h4 class="font-weight-bold">Affiliated Projects</h4>
+                    <ul id="gAffiliates"></ul>
+                </div>
+                <div class="col otherBuilds">
+                    <h4 class="font-weight-bold" id="otherModelName">Other </h4>
+                    <ul id="otherBuilds"> </ul>
+                </div>
+            </div>
+            <div class="row mb-3 links">
+                <div class="col">
+                    <h4 class="font-weight-bold">Outside Links</h4>
+                    <ul id="purchase"> </ul>
                 </div>
             </div>
             <div class="row mt-3">
