@@ -10,6 +10,7 @@
         7. Pokemon
         8. Transformer
         9. Zoid
+        10. 
     
 
     // Gundams (1) //
@@ -2096,6 +2097,9 @@ function projectPage(string) {
     }
     else if (modelArray[1] === 9) {
         popZoid();
+    } 
+    else if (modelArray[1] === 10) {
+        popHaro();
     }
 }
 
@@ -2567,6 +2571,10 @@ function popGundamPage () {
     let gDesignNode = document.getElementById("gDesign");
     let gDesignText = document.createTextNode(modelArray[22]);
     gDesignNode.appendChild(gDesignText);
+}
+
+function popHaro () {
+    
 }
 
 function popPokemon () {
