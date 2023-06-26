@@ -10,10 +10,16 @@
 .g2pilot {
     display: none;
 }
+.gFromClass, .gFromClass_Mobile {
+    display: none;
+}
 .gPaint {
     display: none;
 }
 .gPaintMobile {
+    display: none;
+}
+.gToClass, .gToClass_Mobile {
     display: none;
 }
 .gundamModel {

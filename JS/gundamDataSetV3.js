@@ -99,7 +99,7 @@ const models = [
         "Gundam Heavyarms",
         "XXXG-01H Gundam Heavarms EW",
         "XXXG-01H",
-        "Mobile Suit Gundam Wing",
+        "Mobile Suit Gundam Wing Endless Waltz: Glory of the Losers",
         true,
         "XXXG-00W0 Wing Gundam Proto Zero",
         "XXXG-01H2 Gundam Heavarms Custom",
@@ -150,7 +150,7 @@ const models = [
         "Schwartz Bruder",
         ["Kyoji Kasshu"],
         "Neo Germany",
-        ["Neo Germany"],
+        ["Neo Germany","Shuffle Alliance","Dark Gundam","Kasshu Family","13th Gundam Fight"],
         [16.3,"16.3 Meters"],
         [7.3,"7.3 Metric Tons"],
         "Gundanium Alloy super ceramic composite",
@@ -159,10 +159,13 @@ const models = [
             "Iron Net",
             "Messergranz"
         ],
-        false,
-        false,
+        ['Shiguru Blade','Corelander'],
+        ['Mobile Trace System','Stealth Mode'],
         "Kunio Okawara",
-        "Shadow Gundam"
+        false,
+        "Shadow Gundam",
+        false,
+        ["img/models/spiegel.jpeg","Spiegel Gundam"]
     ],
     [3,
         4,
@@ -222,13 +225,13 @@ const models = [
 const projects = [
     //Ad Stella (Mercury)
     ["Aerial (?)",[1,"Aerial"],"FM",false,false,false,"Mercury","A"],
-    ["Aerial [HG]",[1,"Aerial"],"HG",true,false,false,"Mercury","D","2023-05-30",2.25,false,false,false],
+    ["Aerial [HG]",[1,"Aerial"],"HG",true,false,false,"Mercury","D","2023-05-30-09",2.25,false,false,false],
     ["PB Aerial Permet Six [HG]",[1,"Aerial"],"HG",true,true,false,"Mercury","A"],
     ["Ariel",[1.5,"Aerial","Mirasoul Flight Pack"],"HG",false,false,false,"Mercury","B"],
-    ["Cherub",[1,"Aerial"],"SD",false,false,false,"Mercury","D","2023-01-03",4.91,false,"Builds/Cherub.html",[""]],
-    ["Azrael",[1,"Dilanza, Guel\"s"],"HG",false,false,false,"Mercury","E","2023-01-03",12.14,false,"Builds/Azrael.html",[""],"2023-02-27"],
+    ["Cherub",[1,"Aerial"],"SD",false,false,false,"Mercury","D","2023-01-03-10",4.91,false,"Builds/Cherub.html",[""]],
+    ["Azrael",[1,"Dilanza, Guel\"s"],"HG",false,false,false,"Mercury","E","2023-01-05",12.14,false,"Builds/Azrael.html",[""],"2023-02-27"],
     ["Adriel",[1,"LFrith"],"HG",false,false,false,"Mercury","B"],
-    ["LFrith [HG]",[1,"LFrith"],"HG",true,false,false,"Mercury","D","2023-04-03",2.33,false,false,false],
+    ["LFrith [HG]",[1,"LFrith"],"HG",true,false,false,"Mercury","D","2023-04-03-15",2.33,false,false,false],
 
     //Advanced Generation (Age)
     ["Uriel",[1,"Age-FX"],"SD",false,false,false,"Age","B"],
@@ -236,15 +239,15 @@ const projects = [
 
     //After Colony (Wing)
     ["Leo Army",[6,"Leo"],"LEO",false,false,false,"Wing","C","2021-10-03",37.42,false,"Builds/LeoArmy.html",["Tested every paint"]],
-    ["South Park",[6,"Tallgeese","Epyon","Heavy Arms","Shenlong","Deathscythe","Sandrock"],"SD",false,false,false,"Wing","E","2021-06",54.42,true,"Builds/SouthPark.html",[""],"2021-06-21"],
-    ["Gemini",[2,"Aquarius","Aquarius"],"SD",false,false,false,"Wing","E","2021-07-03",20.61,false,"Builds/Gemini.html",[""],"2022-01-24"],
+    ["South Park",[6,"Tallgeese","Epyon","Heavy Arms","Shenlong","Deathscythe","Sandrock"],"SD",false,false,false,"Wing","E","2021-06-05",54.42,true,"Builds/SouthPark.html",[""],"2021-06-21"],
+    ["Gemini",[2,"Aquarius","Aquarius"],"SD",false,false,false,"Wing","E","2021-07-03-05",20.61,false,"Builds/Gemini.html",[""],"2022-01-24"],
     ["Pontus",[1,"Aquarius"],"SD",false,false,false,"Wing","B"],
     ["PB Deathscythe Hell (TV Version",[1,"Deathscythe Hell"],"HG",false,true,false,"Wing","A"],
     ["Epyon [RG]",[1,"Epyon"],"RG",true,false,false,"Wing","A"],
     ["Golden Ghidorah",[1,"Epyon"],"MG",false,false,false,"Wing","B"],
     ["Golden Ghidorah",[1,"Epyon"],"RG",false,false,false,"Wing","A"],
-    ["PB Geminass 01 [HG]",[1.5,"Geminass 01","Geminass Assault Mobility Booster Expansion Pack"],"HG",true,true,false,"Wing","E","2022-12",6.5,false,"Builds/PBGeminassHG.html",false,"2023-04-27"],
-    ["Major Tom",[1,"Geminass 01"],"SD",false,false,false,"Wing","E","2021-12-03",5.15,false,"Builds/MajorTom.html",[""],"2023-04-10"],
+    ["PB Geminass 01 [HG]",[1.5,"Geminass 01","Geminass Assault Mobility Booster Expansion Pack"],"HG",true,true,false,"Wing","E","2022-12-07",6.5,false,"Builds/PBGeminassHG.html",false,"2023-04-27"],
+    ["Major Tom",[1,"Geminass 01"],"SD",false,false,false,"Wing","E","2021-12-12",5.15,false,"Builds/MajorTom.html",[""],"2023-04-10"],
     ["Guerilla Arms",
         [1,"Heavy Arms"],
         "MG",
@@ -301,32 +304,34 @@ const projects = [
             ["USA Gundam Store","https://www.usagundamstore.com/products/mg-1-100-gundam-heavyarms-ew-ver"],
             ["NewType","https://newtype.us/p/xyX3s81UEQTYgD2wfA49/h/mg-gundam-heavyarms-ew"],
             ["Amazon","https://a.co/d/03pIAks"]
-        ]
+        ],
+        false
     ],
-    ["Phoebe",[1,"Maganac Corps"],"SD",false,false,false,"Wing","D","2022-04",8.42,false,"Builds/Phoebe.html",[""]],
-    ["Isaac",[1,"Proto-Zero"],"SD",false,false,false,"Wing","E","2023-02",14.14,false,"Builds/Isaac.html",[""],"2023-05-10"],
-    ["Jericho",[1,"Proto-Zero"],"HG",false,false,false,"Wing","E","2023-01",12.79,false,"Builds/Jericho.html",[""],"2023-05-24"],
-    ["King David",[1,"Proto-Zero"],"MG",false,false,false,"Wing","E","2023-03",52.11,true,"Builds/KingDavid.html",[""],"2023-05-15"],
-    ["Metal Zero",[1,"Proto-Zero"],"SD",false,false,false,"Wing","E","2023-01",14.19,false,"Builds/MetalZero.html",[""],"2023-05-04"],
-    ["Proto-Zero [SD]",[1,"Proto-Zero"],"SD",true,false,false,"Wing","E","2021-12",1.67,false,false,false,"2023-05-01"],
+    ["Phoebe",[1,"Maganac Corps"],"SD",false,false,false,"Wing","D","2022-04-11",8.42,false,"Builds/Phoebe.html",[""]],
+    ["Isaac",[1,"Proto-Zero"],"SD",false,false,false,"Wing","E","2023-02-06",14.14,false,"Builds/Isaac.html",[""],"2023-05-10"],
+    ["Jericho",[1,"Proto-Zero"],"HG",false,false,false,"Wing","E","2023-01-09",12.79,false,"Builds/Jericho.html",[""],"2023-05-24"],
+    ["King David",[1,"Proto-Zero"],"MG",false,false,false,"Wing","E","2023-03-08",52.11,true,"Builds/KingDavid.html",[""],"2023-05-15"],
+    ["Metal Zero",[1,"Proto-Zero"],"SD",false,false,false,"Wing","E","2023-01-08",14.19,false,"Builds/MetalZero.html",[""],"2023-05-04"],
+    ["Proto-Zero [SD]",[1,"Proto-Zero"],"SD",true,false,false,"Wing","E","2021-12-14",1.67,false,false,false,"2023-05-01"],
     ["Napoleon",[2,"Tallgeese","Ceramic Horse"],"MG",false,false,false,"Wing","B"],
-    ["St Dominic",[1,"Tallgeese"],"RG",false,false,false,"Wing","E","2021-12",19,false,"Builds/StDominic.html",[""],"2022-06-08"],
+    ["St Dominic",[1,"Tallgeese"],"RG",false,false,false,"Wing","E","2021-12-10",19,false,"Builds/StDominic.html",[""],"2022-06-08"],
     ["PB Fl\u00FCgel Sparkel",[1,"Tallgeese Fl\u00FCgel"],"MG",false,true,false,"Wing","B"],
-    ["PB Tallgeese Fl\u00FCgel [MG]",[1,"Tallgeese Fl\u00FCgel"],"MG",true,true,false,"Wing","D","2022-05",20.17,false,"Builds/PBTallgeeseFlugelMG.html",false],
-    ["Wild Wing",[1,"Wing Gundam"],"MG",false,false,false,"Wing","E","2021-07",60.48,true,"Builds/WildWing.html",[""],"2022-02-14"],
+    ["PB Tallgeese Fl\u00FCgel [MG]",[1,"Tallgeese Fl\u00FCgel"],"MG",true,true,false,"Wing","D","2022-05-08",20.17,false,"Builds/PBTallgeeseFlugelMG.html",false],
+    ["Wild Wing",[1,"Wing Gundam"],"MG",false,false,false,"Wing","E","2021-07-06",60.48,true,"Builds/WildWing.html",[""],"2022-02-14"],
+    ["Wing Gundam [PG]",[1,"Wing GUndam"],"PG",true,false,false,"Wing","E"],
     ["Wing Gundam [RG]",[1,"Wing Gundam"],"RG",true,false,false,"Wing","E","2021-07",12.59,false,false,false,"2022-02-07"],
-    ["PB Clear Wing Zero [RG]",[1,"Wing Zero"],"RG",true,true,false,"Wing","E","2021-11",6.15,false,"Builds/PBZeroRG",false,"2022-04-19"],
+    ["PB Clear Wing Zero [RG]",[1,"Wing Zero"],"RG",true,true,false,"Wing","E","2021-11-10",6.15,false,"Builds/PBZeroRG",false,"2022-04-19"],
     ["Dark Zero",[1,"Wing Zero"],"MG",false,false,false,"Wing","B"],
     ["Dark Zero",[1,"Wing Zero"],"RG",false,false,false,"Wing","A"],
     ["Dark Zero",[1,"Wing Zero"],"SD",false,false,false,"Wing","A"],
     ["Fiery Mothra",[1,"Wing Zero"],"MG",false,false,false,"Wing","B"],
     ["Fiery Mothra",[1,"Wing Zero"],"RG",false,false,false,"Wing","A"],
     ["Fiery Mothra",[1,"Wing Zero"],"SD",false,false,false,"Wing","A"],
-    ["Gold Dust Woman",[1,"Wing Zero"],"SD",false,false,false,"Wing","E","2021-09",8.37,false,"Builds/GoldDustWoman.html",[""],"2022-02-01"],
+    ["Gold Dust Woman",[1,"Wing Zero"],"SD",false,false,false,"Wing","E","2021-09-09",8.37,false,"Builds/GoldDustWoman.html",[""],"2022-02-01"],
     ["Snow White",[1,"Wing Zero"],"MG",false,false,false,"Wing","B"],
     ["Snow White",[1,"Wing Zero"],"RG",false,false,false,"Wing","B"],
     ["Snow White",[1,"Wing Zero"],"SD",false,false,false,"Wing","A"],
-    ["Wing Zero EW KA [MG]",[1,"Wing Zero","GFFMC Wings For MG Wing Zero"],"MG",true,false,false,"Wing","C","2022-06",10.83,false,false,false],
+    ["Wing Zero EW KA [MG]",[1,"Wing Zero","GFFMC Wings For MG Wing Zero"],"MG",true,false,false,"Wing","C","2022-06-05",10.83,false,false,false],
     ["Zero Traditional",[1,"Wing Zero"],"MG",false,false,false,"Wing","B"],
     ["Zero Traditional",[1,"Wing Zero"],"RG",false,false,false,"Wing","B"],
     ["Zero Traditional",[1,"Wing Zero"],"SD",false,false,false,"Wing","A"],
@@ -335,104 +340,105 @@ const projects = [
     ["Zero EW",[1,"Wing Zero"],"SD",false,false,false,"Wing","A"],
 
     //After War (X)
-    ["Gaebora",[1,"Airmaster"],"SD",false,false,false,"X","E","2021-10",5.51,false,"Builds/Gaebora.html",[""],"2022-03-28"],
-    ["Biohazard",[1,"Double X"],"SD",false,false,false,"X","E","2022-08",5.83,false,"Builds/Biohazard.html",[""],"2022-10-24"],
-    ["Charlie Daniels",[1,"Double X"],"SD",false,false,false,"X","E","2021-10",4.51,false,"Builds/CharlieDaniels.html",[""],"2022-08-01"],
-    ["Corona Virus",[1,"Double X"],"MG",false,false,false,"X","E","2022-09",36.08,false,"Builds/Corona.html",[""],"2022-10-31"],
-    ["Double X [MG]",[1,"Double X"],"MG",true,false,false,"X","E","2022-09",7.58,false,false,false,"2022-10-10"],
-    ["Double X [HG]",[1,"Double X"],"HG",true,false,false,"X","E","2022-08",2,false,false,false,"2022-09-26"],
-    ["Guapo",[1,"Leopard"],"SD",false,false,false,"X","E","2021-10",6.2,false,"Builds/Guapo.html",[""],"2022-03-07"],
-    ["Iron Maiden",[1,"X Gundam"],"SD",false,false,false,"X","E","2021-10",4.83,false,"Builds/IronMaiden.html",[""],"2023-03-20"],
+    ["Gaebora",[1,"Airmaster"],"SD",false,false,false,"X","E","2021-10-06",5.51,false,"Builds/Gaebora.html",[""],"2022-03-28"],
+    ["Biohazard",[1,"Double X"],"SD",false,false,false,"X","E","2022-08-08",5.83,false,"Builds/Biohazard.html",[""],"2022-10-24"],
+    ["Charlie Daniels",[1,"Double X"],"SD",false,false,false,"X","E","2021-10-08",4.51,false,"Builds/CharlieDaniels.html",[""],"2022-08-01"],
+    ["Corona Virus",[1,"Double X"],"MG",false,false,false,"X","E","2022-09-05",36.08,false,"Builds/Corona.html",[""],"2022-10-31"],
+    ["Double X [MG]",[1,"Double X"],"MG",true,false,false,"X","E","2022-09-10",7.58,false,false,false,"2022-10-10"],
+    ["Double X [HG]",[1,"Double X"],"HG",true,false,false,"X","E","2022-08-10",2,false,false,false,"2022-09-26"],
+    ["Guapo",[1,"Leopard"],"SD",false,false,false,"X","E","2021-10-05",6.2,false,"Builds/Guapo.html",[""],"2022-03-07"],
+    ["Iron Maiden",[1,"X Gundam"],"SD",false,false,false,"X","E","2021-10-07",4.83,false,"Builds/IronMaiden.html",[""],"2023-03-20"],
 
     //Anno Domini (00)
-    ["Gundam Umlaut \xD6\xD6",[1,"00 Gundam"],"SD",false,false,false,"00","E","2021-06",10.83,false,"Builds/Umlaut.html",[""],"2021-06-23"],
+    ["Gundam Umlaut \xD6\xD6",[1,"00 Gundam"],"SD",false,false,false,"00","E","2021-06-07",10.83,false,"Builds/Umlaut.html",[""],"2021-06-23"],
     ["Metatron",[1,"00 Raiser"],"SD",false,false,false,"00","B"],
-    ["PB Trans-Am Clear 00 Raiser [RG]",[1,"00 Gundam Raiser"],"RG",true,true,false,"00","E","2021-12",12.67,false,"Builds/PBooraiserRG.html",false,"2022-06-15"],
+    ["PB Trans-Am Clear 00 Raiser [RG]",[1,"00 Gundam Raiser"],"RG",true,true,false,"00","E","2021-12-09",12.67,false,"Builds/PBooraiserRG.html",false,"2022-06-15"],
     ["Silver \"n\" Gold",[1,"00 Gundam QAN[T]"],"RG",false,false,false,"00","B"],
-    ["Thunder QAN[T]",[1,"00 Gundam QAN[T]"],"SD",false,false,false,"00","E","2021-06",11.68,true,"Builds/ThunderQ.html",[""],"2021-08-09"],
-    ["PB Trans-Am Clear 00 QAN[T] [RG]",[1,"00 Gundam QAN[T]"],"RG",true,true,false,"00","E","2022-01",8.33,false,"Builds/PBOOQRG.html",false,"2022-07-28"],
-    ["Nena",[1,"Exia"],"SD",false,false,false,"00","D","2021-12",4.95,false,"Builds/Nena.html",[""]],
-    ["PB Trans-Am Clear Exia [RG]",[1,"Exia"],"RG",true,true,false,"00","E","2021-12",6.58,false,"Builds/PBExiaRG.html",false,"2022-05-31"],
-    ["PB Harute (Final Battle Version) [HG]",[1,"Harute"],"HG",true,true,false,"00","E","2022-03",5.75,false,"Builds/PBHaruteFinalHG.html",false,"2022-11-21"],
+    ["Thunder QAN[T]",[1,"00 Gundam QAN[T]"],"SD",false,false,false,"00","E","2021-06-12",11.68,true,"Builds/ThunderQ.html",[""],"2021-08-09"],
+    ["PB Trans-Am Clear 00 QAN[T] [RG]",[1,"00 Gundam QAN[T]"],"RG",true,true,false,"00","E","2022-01-09",8.33,false,"Builds/PBOOQRG.html",false,"2022-07-28"],
+    ["Nena",[1,"Exia"],"SD",false,false,false,"00","D","2021-12-07",4.95,false,"Builds/Nena.html",[""]],
+    ["PB Trans-Am Clear Exia [RG]",[1,"Exia"],"RG",true,true,false,"00","E","2021-12-08",6.58,false,"Builds/PBExiaRG.html",false,"2022-05-31"],
+    ["PB Harute (Final Battle Version) [HG]",[1,"Harute"],"HG",true,true,false,"00","E","2022-03-08",5.75,false,"Builds/PBHaruteFinalHG.html",false,"2022-11-21"],
     ["Virtue/Nadlee [MG]",[3,"Virtue","Nadlee","VirtueStand"],"MG",true,false,false,"00","E","2022-02",20.08,true,"Builds/VirtueNadleeStand.html",false,"2023-01-16"],
-    ["PB Zabanya (Final Battle Version) [HG]",[1,"Zabanya"],"HG",true,true,false,"00","E","2022-03",3,false,"Builds/PBZabanyaFinalHG.html",false,"2022-11-07"],
+    ["PB Zabanya (Final Battle Version) [HG]",[1,"Zabanya"],"HG",true,true,false,"00","E","2022-03-09",3,false,"Builds/PBZabanyaFinalHG.html",false,"2022-11-07"],
 
     //Correct Century (Turn A)
-    ["John Wayne",[1,"Turn-A"],"SD",false,false,false,"TurnA","E","2021-09",6.62,false,"Builds/JohnWayne.html",[""],"2023-02-13"],
+    ["John Wayne",[1,"Turn-A"],"SD",false,false,false,"TurnA","E","2021-09-10",6.62,false,"Builds/JohnWayne.html",[""],"2023-02-13"],
 
-    //Cosmic Century (Seed)
-    ["Gundam Fluorescent",[1,"Aegis"],"SD",false,false,false,"Seed","E","2021-06",9.94,false,"Builds/Fluorescent.html",[""],"2021-06-24"],
+    //Cosmic Century (Seed) 
+    ["Gundam Fluorescent",[1,"Aegis"],"SD",false,false,false,"Seed","E","2021-06-08",9.94,false,"Builds/Fluorescent.html",[""],"2021-06-24"],
     ["Bald Eagle",[1,"Astray Blue Frame"],"MG",false,false,false,"Seed","B"],
     ["Raphael",[1,"Astray Gold Frame"],"SD",false,false,false,"Seed","B"],
-    ["Oowashi Akatsuki [HG]",[1,"Akatsuki, Oowsahi"],"HG",true,false,false,"Seed","E","2021-12",2.67,false,false,false,"2022-04-26"],
-    ["Rising Sun",[1,"Akatsuki, Oowashi"],"HG",false,false,false,"Seed","E","2021-11",17.28,false,"Builds/RisingSun.html",[""],"2022-04-28"],
-    ["King Mars",[1,"Akatsuki, Shiranui"],"HG",false,false,false,"Seed","D","2022-05",13.67,false,"Builds/KingMars.html",[""]],
-    ["Archangel",[2,"Archangel","Archangel"],"Ship",false,false,false,"Seed","E","2021-08",76.63,false,"Builds/ArchAngel.html",[""],"2022-01-10"],
-    ["Dominion",[1,"Archangel"],"Ship",false,false,false,"Seed","E","2021-09",21.87,false,,"Builds/Dominion.html",[""],"2022-01-17"],
+    ["Oowashi Akatsuki [HG]",[1,"Akatsuki, Oowsahi"],"HG",true,false,false,"Seed","E","2021-12-18",2.67,false,false,false,"2022-04-26"],
+    ["Rising Sun",[1,"Akatsuki, Oowashi"],"HG",false,false,false,"Seed","E","2021-11-05",17.28,false,"Builds/RisingSun.html",[""],"2022-04-28"],
+    ["King Mars",[1,"Akatsuki, Shiranui"],"HG",false,false,false,"Seed","D","2022-05-06",13.67,false,"Builds/KingMars.html",[""]],
+    ["Archangel",[2,"Archangel","Archangel"],"Ship",false,false,false,"Seed","E","2021-08-06",76.63,false,"Builds/ArchAngel.html",[""],"2022-01-10"],
+    ["Dominion",[1,"Archangel"],"Ship",false,false,false,"Seed","E","2021-09-07",21.87,false,,"Builds/Dominion.html",[""],"2022-01-17"],
     ["Urban Commando",[1,"Buster"],"MG",false,false,false,"Seed","B"],
     ["Calamitous Godzilla",[1,"Calamity"],"FM",false,false,false,"Seed","B"],
-    ["PB Armageddon",[2.5,"Dagger L","Dagger L","Dagger Expansion Pack"],"HG",false,true,false,"Seed","E","2022-03",28.5,false,"Builds/Armageddon.html",[""],"2022-05-23"],
-    ["King Leir",[1,"Dagger L"],"HG",false,false,false,"Seed","E","2021-06",14.09,false,"Builds/KingLeir.html",[""],"2021-06-26"],
+    ["PB Armageddon",[2.5,"Dagger L","Dagger L","Dagger Expansion Pack"],"HG",false,true,false,"Seed","E","2022-03-06",28.5,false,"Builds/Armageddon.html",[""],"2022-05-23"],
+    ["King Leir",[1,"Dagger L"],"HG",false,false,false,"Seed","E","2021-06-10",14.09,false,"Builds/KingLeir.html",[""],"2021-06-26"],
     ["Samus: Varia Suit",[1,"Dagger L"],"HG",false,false,false,"Seed","C","2023-06-13",3.58,false,"Builds/Gundams/VariaSuit.html",["Tamiya: Gold TS-21 Can","Testors: Sunflower 1191","Tamiya: Matt Black TS-6 Can","Vallejo: Game Color Fluorescent Green 72.104","Tamiya: Gun Metal TS-38 Can"]],
     ["Charizard",[1,"Destiny"],"MG",false,false,false,"Seed","B"],
-    ["Charizard X",[1,"Destiny"],"SD",false,false,false,"Seed","E","2021-10",8.13,false,"Builds/CharizardX.html",[""],"2022-05-16"],
+    ["Charizard X",[1,"Destiny"],"SD",false,false,false,"Seed","E","2021-10-10",8.13,false,"Builds/CharizardX.html",[""],"2022-05-16"],
     ["Iapetus",[1,"Destiny"],"SD",false,false,false,"Seed","B"],
     ["Thin Blue Line",[2,"Duel Gundam","Duel Gundam Assault Shroud"],"MG",false,false,false,"Seed","B"],
     ["Eclipse ???",[1,"Eclipse"],"MG",false,false,false,"Seed","B"],
     ["PB Eclipse [MG]",[1.5,"Eclipse","Eclipse Maneuver Striker"],"MG",true,true,false,"Seed","E","2022-02",17.75,false,"Builds/PBEclipseMG.html",false,"2023-01-30"],
-    ["Eternal",[1,"Eternal"],"Ship",false,false,false,"Seed","E","2021-08",24.1,false,"Builds/Eternal.html",[""],"2022-01-03"],
+    ["Eternal",[1,"Eternal"],"Ship",false,false,false,"Seed","E","2021-08-05",24.1,false,"Builds/Eternal.html",[""],"2022-01-03"],
     ["Orga",[1,"Forbidden"],"FM",false,false,false,"Seed","A"],
-    ["Anthem",[1,"Freedom"],"MG",false,false,false,"Seed","E","2022-05",73.16,true,"Builds/Anthem.html",[""],"2022-07-04"],
-    ["Freedom [MGSD]",[1,"Freedom"],"MGSD",true,false,false,"Seed","D","2023-03",8.5,false,false,false],
-    ["Liberty",[1,"Freedom"],"SD",false,false,false,"Seed","E","2022-04",18,false,"Builds/Liberty.html",[""],"2022-06-27"],
-    ["Old Glory",[1,"Freedom"],"MGSD",false,false,false,"Seed","C","2023-05",28.83,false,"Builds/Gundams/OldGlory.html",["Mission Models: MMP-001 White","Testors: Red Grapefruit 1196","Testors: Cherry Red 1197","Vallejo: Mecha Color Gold 69.059","Vallejo: Mecha Color Electric Blue 60.020","Vallejo: Model Air Black 71.057","Vallejo: Mecha Color Metallic Blue 69.067","Vallejo: Model Air Metallic Signal Red 71.070","Vallejo: Mecha Color Sky Blue 69.017","Tamiya: Metallic BLue TS-19 Can","Tamiya: Gold TS-21 Can","Tamiya: Matt White TS-27 Can","Tamiya: Metallic Red PS-15 Can","Tamiya: Clear Red X-27"]],
+    ["Anthem",[1,"Freedom"],"MG",false,false,false,"Seed","E","2022-05-05",73.16,true,"Builds/Anthem.html",[""],"2022-07-04"],
+    ["Freedom [MGSD]",[1,"Freedom"],"MGSD",true,false,false,"Seed","D","2023-03-05",8.5,false,false,false],
+    ["Liberty",[1,"Freedom"],"SD",false,false,false,"Seed","E","2022-04-09",18,false,"Builds/Liberty.html",[""],"2022-06-27"],
+    ["Old Glory",[1,"Freedom"],"MGSD",false,false,false,"Seed","C","2023-05-06",28.83,false,"Builds/Gundams/OldGlory.html",["Mission Models: MMP-001 White","Testors: Red Grapefruit 1196","Testors: Cherry Red 1197","Vallejo: Mecha Color Gold 69.059","Vallejo: Mecha Color Electric Blue 60.020","Vallejo: Model Air Black 71.057","Vallejo: Mecha Color Metallic Blue 69.067","Vallejo: Model Air Metallic Signal Red 71.070","Vallejo: Mecha Color Sky Blue 69.017","Tamiya: Metallic BLue TS-19 Can","Tamiya: Gold TS-21 Can","Tamiya: Matt White TS-27 Can","Tamiya: Metallic Red PS-15 Can","Tamiya: Clear Red X-27"]],
     ["Billy Blue Jay",[1,"Ginn"],"MG",false,false,false,"Seed","B"],
-    ["PB Destiny Impulse (Regenes) [MG]",[1,"Impulse, Destiny"],"Seed","MG",true,true,false,"C","2023-05",6.5,false,"Builds/PBDesintyImpulseREgenesMG.html",false],
+    ["PB Destiny Impulse (Regenes) [MG]",[1,"Impulse, Destiny"],"Seed","MG",true,true,false,"C","2023-05-05",6.5,false,"Builds/PBDesintyImpulseREgenesMG.html",false],
     ["PB Destiny Impulse [RG]",[1,"Impulse, Destiny"],"RG",true,true,false,"Seed","B"],
-    ["Don\"t Tread On Ye",[1,"Justice"],"MG",false,false,false,"Seed","E","2022-06",51.75,true,"Builds/Ye.html",[""],"2022-09-06"],
+    ["Don\"t Tread On Ye",[1,"Justice"],"MG",false,false,false,"Seed","E","2022-06-06",51.75,true,"Builds/Ye.html",[""],"2022-09-06"],
     ["AntiJustice",[1,"Justice"],"SD",false,false,false,"Seed","B"],
-    ["Pacifist",[1,"Justice"],"SD",false,false,false,"Seed","E","2022-04",14.58,false,"Builds/Pacifist.html",[""],"2022-08-29"],
-    ["PB Clear \u221e Justice [RG]",[1,"Infinite Justice"],"RG",true,true,false,"Seed","E","2021-11",4.93,false,"Builds/PBInfiniJusticeRG.html",false,"2022-05-03"],
+    ["Pacifist",[1,"Justice"],"SD",false,false,false,"Seed","E","2022-04-10",14.58,false,"Builds/Pacifist.html",[""],"2022-08-29"],
+    ["PB Clear \u221e Justice [RG]",[1,"Infinite Justice"],"RG",true,true,false,"Seed","E","2021-11-09",4.93,false,"Builds/PBInfiniJusticeRG.html",false,"2022-05-03"],
     ["Oppression",[1,"Infinite Justice"],"MG",false,false,false,"Seed","B"],
     ["Zoroaster",[1,"Legend"],"FM",false,false,false,"Seed","B"],
     ["PB Meteors",[1,"Meteor","Meteor I","Meteor II","Freedom","Infinite Justice"],"HG",false,true,false,"Seed","B"],
     ["Union Jack",[1,"Providence"],"MG",false,false,false,"Seed","A"],
-    ["Raider [FM]",[1,"Raider"],"FM",true,false,false,"Seed","D","2023-01",9.75,false,false,false],
+    ["Raider [FM]",[1,"Raider"],"FM",true,false,false,"Seed","D","2023-01-06",9.75,false,false,false],
     ["Rodan",[1,"Raider"],"FM",false,false,false,"Seed","A"],
-    ["Blue Angels",[3,"Skygrasper","Skygrasper","Skygrasper"],"RG",false,false,false,"Seed","E","2022-12",22,true,"Builds/BlueAngels.html",[""],"2022-12-26"],
-    ["Skygrasper [PG]",[1,"Skygrasper"],"PG",true,false,false,"Seed","E","2022-10",6,false,"Builds/PGSkygasper.html",false,"2022-12-22"],
-    ["Skygrasper [RG]",[2,"Skygrasper","Skygrasper","Skygrasper"],"RG",true,false,false,"Seed","E","2022-09",10,false,false,false,"2022-12-19"],
+    ["Blue Angels",[3,"Skygrasper","Skygrasper","Skygrasper"],"RG",false,false,false,"Seed","E","2022-12-05",22,true,"Builds/BlueAngels.html",[""],"2022-12-26"],
+    ["Skygrasper [PG]",[1,"Skygrasper"],"PG",true,false,false,"Seed","E","2022-10-06",6,false,"Builds/PGSkygasper.html",false,"2022-12-22"],
+    ["Skygrasper [RG]",[2,"Skygrasper","Skygrasper","Skygrasper"],"RG",true,false,false,"Seed","E","2022-09-06",10,false,false,false,"2022-12-19"],
     ["PB Lightning Strike",[2,"Strike","Lightning Striker","Sword Launcher Striker Pack"],"MG",false,true,false,"Seed","B"],
     ["Metal Strike",[1,"Strike"],"SD",false,false,false,"Seed","B"],
-    ["Strike Gundam [PG]",[1,"Strike"],"PG",true,false,false,"Seed","D","2023-05",14.58,true,"Builds/PGStrike.html",false],
-    ["PB Perfect Strike [RG]",[1,"Strike, Perfect"],"RG",true,true,false,"Seed","E","2022-03",12.33,false,"Builds/PBPerfectStrikeRG.html",false,"2022-09-13"],
-    ["S.A.T.O.",[1,"Strike, Perfect"],"SD",false,false,false,"Seed","D","2022-01",14.85,false,"Builds/SATO.html",[""]],
-    ["PB Strike Daggers",[2,"Strike Dagger","Strike Dagger","Strike Dagger"],"HG",false,true,false,"Seed","D","2023-03",20.41,false,"Builds/PBStrikeDagger.html",[""]],
+    ["Strike Gundam [PG]",[1,"Strike"],"PG",true,false,false,"Seed","D","2023-05-07",14.58,true,"Builds/PGStrike.html",false],
+    ["Perfect Strike [PG]",[1,"Strike, Perfect"],"PG",true,false,false,"Seed","A"],
+    ["PB Perfect Strike [RG]",[1,"Strike, Perfect"],"RG",true,true,false,"Seed","E","2022-03-07",12.33,false,"Builds/PBPerfectStrikeRG.html",false,"2022-09-13"],
+    ["S.A.T.O.",[1,"Strike, Perfect"],"SD",false,false,false,"Seed","D","2022-01-05",14.85,false,"Builds/SATO.html",[""]],
+    ["PB Strike Daggers",[2,"Strike Dagger","Strike Dagger","Strike Dagger"],"HG",false,true,false,"Seed","D","2023-03-07",20.41,false,"Builds/PBStrikeDagger.html",[""]],
     ["AntiFreedom",[1,"Strike-Freedom"],"SD",false,false,false,"Seed","B"],
     ["Servitude",[1,"Strike-Freedom"],"MG",false,false,false,"Seed","B"],
-    ["Strike-Freedom Full Burst [MG]",[1,"Strike-Freedom"],"MG",true,false,false,"Seed","E","2021-07",18.42,false,false,false,"2021-08-17"],
-    ["Strike-Freedom MGEX",[1,"Strike-Freedom"],"MG",true,false,true,"Seed","C","2023-03",15.92,false,"Builds/MGEXStrikeFreedom.html",false],
-    ["PB Strike-Freedom (Deactive) [RG]",[1,"Strike-Freedom"],"RG",true,true,false,"Seed","D","2023-03",4.75,false,"Builds/PBStrikeFreedomDeactiveRG.html",false],
+    ["Strike-Freedom Full Burst [MG]",[1,"Strike-Freedom"],"MG",true,false,false,"Seed","E","2021-07-07",18.42,false,false,false,"2021-08-17"],
+    ["Strike-Freedom MGEX",[1,"Strike-Freedom"],"MG",true,false,true,"Seed","C","2023-03-09",15.92,false,"Builds/MGEXStrikeFreedom.html",false],
+    ["PB Strike-Freedom (Deactive) [RG]",[1,"Strike-Freedom"],"RG",true,true,false,"Seed","D","2023-03-06",4.75,false,"Builds/PBStrikeFreedomDeactiveRG.html",false],
     ["Battra",[1,"Strike Noir"],"MG",false,false,false,"Seed","B"],
-    ["Strike Noir [SD]",[1,"Strike Noir"],"SD",true,false,false,"Seed","D","2021-09",2.233,false,false,false],
+    ["Strike Noir [SD]",[1,"Strike Noir"],"SD",true,false,false,"Seed","D","2021-09-06",2.233,false,false,false],
     ["Strike Verde",[1,"Strike Noir"],"SD",false,false,false,"Seed","D","2021-12",8,false,"Builds/StrikeVerde.html",[""]],
-    ["Oberon",[1,"Windam"],"HG",false,false,false,"Seed","E","2022-03",20.25,false,"Builds/Oberon.html",[""],"2022-05-09"],
-    ["PB Slash Zaku Phantom (Yzak Jule Custom) [MG]",[1,"Zaku Phantom, Slash"],"MG",true,true,false,"Seed","D","2023-04",11.83,false,"Builds/PBPhantomZakuMG.html",false],
+    ["Oberon",[1,"Windam"],"HG",false,false,false,"Seed","E","2022-03-05",20.25,false,"Builds/Oberon.html",[""],"2022-05-09"],
+    ["PB Slash Zaku Phantom (Yzak Jule Custom) [MG]",[1,"Zaku Phantom, Slash"],"MG",true,true,false,"Seed","D","2023-04-05",11.83,false,"Builds/PBPhantomZakuMG.html",false],
     
     //Future Century (G Gundam)
-    ["PB Burning Gundam [RG]",[2,"Burning Gundam","Burning Gundam Expansion Pass","Burning Gundam LED lights"],"RG",true,true,false,"G","C","2022-09",15.5,true,"Builds/PBBurningGUndamRG.html",false],
+    ["PB Burning Gundam [RG]",[2,"Burning Gundam","Burning Gundam Expansion Pass","Burning Gundam LED lights"],"RG",true,true,false,"G","C","2022-09-07",15.5,true,"Builds/PBBurningGUndamRG.html",false],
     ["Michael",[1,"Burning Gundam"],"SD",false,false,false,"G","B"],
     ["Furcas",[1,"Dark Army"],"HG",false,false,false,"G","B"],
-    ["Malphas",[1,"Dark Army"],"HG",false,false,false,"G","E","2022-09",5.83,false,"Builds/Malphas.html",[""],"2023-01-23"],
+    ["Malphas",[1,"Dark Army"],"HG",false,false,false,"G","E","2022-09-08",5.83,false,"Builds/Malphas.html",[""],"2023-01-23"],
     ["Asmodeus",[1,"Dark Gundam"],"SD",false,false,false,"G","B"],
     ["Baal",[1,"Dark Gundam"],"HG",false,false,false,"G","B"],
     ["Balam",[1,"Dark Gundam"],"HG",false,false,false,"G","B"],
     ["Beleth",[1,"Dark Gundam"],"SD",false,false,false,"G","B"],
     ["Belial",[1,"Dark Gundam"],"HG",false,false,false,"G","B"],
-    ["Dark Gundam [SD]",[1,"Dark Gundam"],"SD",true,false,false,"G","D","2022-08",1.75,false,false,false],
+    ["Dark Gundam [SD]",[1,"Dark Gundam"],"SD",true,false,false,"G","D","2022-08-07",1.75,false,false,false],
     ["Paimon",[1,"Dark Gundam"],"SD",false,false,false,"G","B"],
     ["PB Gundam Rose [HG]",[1,"Rose Gundam"],"HG",true,true,false,"G","A"],
-    ["Le Roi Soleil",[1,"Rose Gundam"],"HG",false,false,false,"G","E","2022-08",4.17,false,"Builds/RoiSoleil.html",[""],"2022-12-12"],
+    ["Le Roi Soleil",[1,"Rose Gundam"],"HG",false,false,false,"G","E","2022-08-09",4.17,false,"Builds/RoiSoleil.html",[""],"2022-12-12"],
     ["Gabriel",[1,"Shining Gundam"],"SD",false,false,false,"G","B"],
     ["Red Baron",
         [1,"Spiegel, Gundam"],
@@ -442,7 +448,7 @@ const projects = [
         false,
         "G",
         "E",
-        "2021-05",
+        "2021-05-05",
         72.07,
         true,
         "Builds/Gundams/RedBaron.html",
@@ -450,59 +456,106 @@ const projects = [
         "2021-05-29",
         models[2],
         [
-            []
+            ["../../img/projects/gundams/red_baron/rbaron03.jpg","Gundam Red Baron","img3"],
+            ["../../img/projects/gundams/red_baron/rbaron01.JPG","Gundam Red Baron","img1"],
+            ["../../img/projects/gundams/red_baron/rbaron02.jpg","Gundam Red Baron","img2"],
+            ["../../img/projects/gundams/red_baron/rbaron04.jpg","Gundam Red Baron","img4"],
+            ["../../img/projects/gundams/red_baron/rbaron05.jpg","Gundam Red Baron","img5"],
+            ["../../img/projects/gundams/red_baron/rbaron06.jpg","Gundam Red Baron","img6"],
+            ["../../img/projects/gundams/red_baron/rbaron07.jpg","Gundam Red Baron","img7"],
+            ["../../img/projects/gundams/red_baron/rbaron08.jpg","Gundam Red Baron","img8"],
+            ["../../img/projects/gundams/red_baron/rbaron09.jpg","Gundam Red Baron","img9"],
+            ["../../img/projects/gundams/red_baron/rbaron10.jpg","Gundam Red Baron","img10"],
+            ["../../img/projects/gundams/red_baron/rbaron11.jpg","Gundam Red Baron","img11"],
+            ["../../img/projects/gundams/red_baron/rbaron12.jpg","Gundam Red Baron","img12"],
+            ["../../img/projects/gundams/red_baron/rbaron13.jpg","Gundam Red Baron","img13"],
+            ["../../img/projects/gundams/red_baron/rbaron14.jpg","Gundam Red Baron","img14"],
+            ["../../img/projects/gundams/red_baron/rbaron15.jpg","Gundam Red Baron","img15"],
+            ["../../img/projects/gundams/red_baron/rbaron16.jpg","Gundam Red Baron","img16"],
+            ["../../img/projects/gundams/red_baron/rbaron17.jpg","Gundam Red Baron","img17"],
+            ["../../img/projects/gundams/red_baron/rbaron18.jpg","Gundam Red Baron","img18"],
+            ["../../img/projects/gundams/red_baron/rbaron19.jpg","Gundam Red Baron","img19"],
+            ["../../img/projects/gundams/red_baron/rbaron20.jpg","Gundam Red Baron","img20"],
+            ["../../img/projects/gundams/red_baron/rbaron21.jpg","Gundam Red Baron","img21"],
+            ["../../img/projects/gundams/red_baron/rbaron22.jpg","Gundam Red Baron","img22"],
+            ["../../img/projects/gundams/red_baron/rbaron23.jpg","Gundam Red Baron","img23"],
+            ["../../img/projects/gundams/red_baron/rbaron24.jpg","Gundam Red Baron","img24"],
+            ["../../img/projects/gundams/red_baron/rbaron25.jpg","Gundam Red Baron","img25"],
+            ["../../img/projects/gundams/red_baron/rbaron26.jpg","Gundam Red Baron","img26"],
+            ["../../img/projects/gundams/red_baron/rbaron27.jpg","Gundam Red Baron","img27"],
+            ["../../img/projects/gundams/red_baron/rbaron28.jpg","Gundam Red Baron","img28"],
+            ["../../img/projects/gundams/red_baron/rbaron29.jpg","Gundam Red Baron","img29"],
+            ["../../img/projects/gundams/red_baron/rbaron30.jpg","Gundam Red Baron","img30"],
+            ["../../img/projects/gundams/red_baron/rbaron31.jpg","Gundam Red Baron","img31"],
+            ["../../img/projects/gundams/red_baron/rbaron32.jpg","Gundam Red Baron","img32"],
+            ["../../img/projects/gundams/red_baron/rbaron33.jpg","Gundam Red Baron","img33"],
+            ["../../img/projects/gundams/red_baron/rbaron34.jpg","Gundam Red Baron","img34"],
+            ["../../img/projects/gundams/red_baron/rbaron35.jpg","Gundam Red Baron","img35"],
+            ["../../img/projects/gundams/red_baron/rbaron36.jpg","Gundam Red Baron","img36"],
+            ["../../img/projects/gundams/red_baron/rbaron37.jpg","Gundam Red Baron","img37"],
+            ["../../img/projects/gundams/red_baron/rbaron38.jpg","Gundam Red Baron","img38"],
+            ["../../img/projects/gundams/red_baron/rbaron39.jpg","Gundam Red Baron","img39"],
+            ["../../img/projects/gundams/red_baron/rbaron40.jpg","Gundam Red Baron","img40"],
+            ["../../img/projects/gundams/red_baron/rbaron41.jpg","Gundam Red Baron","img41"],
+            ["../../img/projects/gundams/red_baron/rbaron42.jpg","Gundam Red Baron","img42"]
         ],
-        [],
+        ["img/projects/gundams/red_baron/rbaron42.JPG","Profile Photo: Gundam Red Baron"],
         "Old Prussia. Red Baron. World War One. Pizza. Nietzche book titles. Nose ring helmet spike. First attempt at custom decals. Hand Brushed, First attempt with LEDs.",
+        false,
+        [
+            ["USA Gundam Store","https://newtype.us/p/RQuAYgB4XXkOwgZaWLOi/h/mg-gf13-021ng-gundam-spiegel"],
+            ["NewType","https://newtype.us/p/xyX3s81UEQTYgD2wfA49/h/mg-gundam-heavyarms-ew"],
+            ["Amazon","https://a.co/d/1tZmaYO"]
+        ],
         false
     ],
     ["Red Baron 2",[1,"Spiegel, Gundam"],"MG",false,false,false,"G","A","",0,false,"Builds/RedBaron2.html",[""],"",models[2]],
 
     //Post Disaster (IBO)
     ["Thorn",[1,"Barbatos"],"MG",false,false,false,"IBO","B"],
-    ["War Pig",[1,"Barbatos"],"SD",false,false,false,"IBO","E","2021-12",4.15,false,"Builds/WarPig.html",[""],"2023-04-18"],
-    ["Deep Purple",[1,"Barbatos Lupus"],"SD",false,false,false,"IBO","D","2021-12",4.36,false,"Builds/DeepPurple.html",[""]],
-    ["Sealiah",[1,"Barbatos Lupus"],"HG",false,false,false,"IBO","E","2023-02",12.51,false,"Builds/Gundams/Sealiah.html",[""],"2023-06-13"],
-    ["Nephilim",[1,"Barbatos Lupus Rex"],"HG",false,false,false,"IBO","E","2021-06",23.11,false,"Builds/Nephilim.html",[""],"2021-07-26"],
+    ["War Pig",[1,"Barbatos"],"SD",false,false,false,"IBO","E","2021-12-13",4.15,false,"Builds/WarPig.html",[""],"2023-04-18"],
+    ["Deep Purple",[1,"Barbatos Lupus"],"SD",false,false,false,"IBO","D","2021-12-14",4.36,false,"Builds/DeepPurple.html",[""]],
+    ["Sealiah",[1,"Barbatos Lupus"],"HG",false,false,false,"IBO","E","2023-02-05",12.51,false,"Builds/Gundams/Sealiah.html",[""],"2023-06-13"],
+    ["Nephilim",[1,"Barbatos Lupus Rex"],"HG",false,false,false,"IBO","E","2021-06-11",23.11,false,"Builds/Nephilim.html",[""],"2021-07-26"],
     ["Queen Venus",[1,"Gremory"],"HG",false,false,false,"IBO","B"],
-    ["Vine",[1,"Hashmal"],"HG",false,false,false,"IBO","E","2023-01",19.64,false,"Builds/Gundams/Vine.html",[""],"2023-06-05"],
+    ["Vine",[1,"Hashmal"],"HG",false,false,false,"IBO","E","2023-01-07",19.64,false,"Builds/Gundams/Vine.html",[""],"2023-06-05"],
     ["\u00dcbermensch",[1,"Vidar"],"FM",false,false,false,"IBO","B"],
 
     //Universal Century
-    ["Dew Drop",[1,"Acguy"],"HG",false,false,false,"UC","E","2023-05-29",5.75,false,"Builds/Gundams/DewDrop.html",["Vallejo: Model Air Underside Blue 71.332","Vallejo: Model Air French Blue 71.088","Vallejo: Model Air Steel Blue 71.087","Vallejo: Mecha Color Metallic Blue 69.067","Tamiya: Gold TS-21 Can","Tamiya: Metallic Red PS-15 Can"],"2023-06-19"],
-    ["Fantomas",[1,"Banshee Norn"],"SD",false,false,false,"UC","E","2021-06",15.02,true,"Builds/Fantomas.html",[""],"2021-08-03"],
+    ["Dew Drop",[1,"Acguy"],"HG",false,false,false,"UC","E","2023-05-29-08",5.75,false,"Builds/Gundams/DewDrop.html",["Vallejo: Model Air Underside Blue 71.332","Vallejo: Model Air French Blue 71.088","Vallejo: Model Air Steel Blue 71.087","Vallejo: Mecha Color Metallic Blue 69.067","Tamiya: Gold TS-21 Can","Tamiya: Metallic Red PS-15 Can"],"2023-06-19"],
+    ["Fantomas",[1,"Banshee Norn"],"SD",false,false,false,"UC","E","2021-06-12",15.02,true,"Builds/Fantomas.html",[""],"2021-08-03"],
     ["King Uranus",[1,"Banshee Norn"],"RG",false,false,false,"UC","B"],
-    ["Gundam ARRRgent",[1,"Crossbone X-1"],"SD",false,false,false,"UC","E","2021-06",14.09,false,"Builds/arrrgent.html",[""],"2021-06-25"],
-    ["Crossbone [RG]",[1,"Crossbone X-1"],"RG",true,false,false,"UC","D","2022-05",9.08,false,false,false],
+    ["Gundam ARRRgent",[1,"Crossbone X-1"],"SD",false,false,false,"UC","E","2021-06-09",14.09,false,"Builds/arrrgent.html",[""],"2021-06-25"],
+    ["Crossbone [RG]",[1,"Crossbone X-1"],"RG",true,false,false,"UC","D","2022-05-07",9.08,false,false,false],
     ["King Neptune",[1,"Crossbone X-1"],"RG",false,false,false,"UC","B"],
-    ["Jackie-O",[1,"Delta Plus"],"SD",false,false,false,"UC","E","2022-01",11.17,false,"Builds/JackieO.html",[""],"2022-07-11"],
-    ["Interstellar",[1,"Dom Test Type"],"HG",false,false,false,"UC","E","2022-08",14.07,false,"Builds/Interstellar.html",[""],"2022-11-14"],
+    ["Jackie-O",[1,"Delta Plus"],"SD",false,false,false,"UC","E","2022-01-07",11.17,false,"Builds/JackieO.html",[""],"2022-07-11"],
+    ["Interstellar",[1,"Dom Test Type"],"HG",false,false,false,"UC","E","2022-08-06",14.07,false,"Builds/Interstellar.html",[""],"2022-11-14"],
     ["Rhea",[1,"RX-75 Guntank"],"SD",false,false,false,"UC","B"],
-    ["Theia",[1,"Kshatriya"],"SD",false,false,false,"UC","D","2022-12",12.03,false,"Builds/Theia.html",[""]],
-    ["Der Kommissar",[1,"Lightning Gundam"],"SD",false,false,false,"UC","E","2021-12",4.05,false,"Builds/DerKommissar.html",[""],"2023-04-03"],
+    ["Theia",[1,"Kshatriya"],"SD",false,false,false,"UC","D","2022-12-08",12.03,false,"Builds/Theia.html",[""]],
+    ["Der Kommissar",[1,"Lightning Gundam"],"SD",false,false,false,"UC","E","2021-12-11",4.05,false,"Builds/DerKommissar.html",[""],"2023-04-03"],
     ["Nachtigall",[1,"Nightingale"],"SD",false,false,false,"UC","B"],
     ["Mnemosyne",[1,"Neue Ziuel"],"SD",false,false,false,"UC","B"],
-    ["Gundam \u03C0",[1,"Nu Gundam"],"SD",false,false,false,"UC","E","2021-06",15.66,false,"Builds/pi.html",[""],"2021-06-22"],   //pi gundam
-    ["PB BB Senshi RX-93ff \u03bd Gundam [SD]",[1,"Nu Gundam, ff"],"SD",true,true,false,"UC","E","2023-03",2.83,false,"Builds/PBRX93ff.html",false,"2023-04-24"],
-    ["PB RX-93ff \u03bd Gundam [RG]",[1,"Nu Gundam, ff"],"RG",true,true,false,"UC","E","2023-03",14.5,false,"Builds/PBRX93ff.html",false,"2023-04-25"],
+    ["Gundam \u03C0",[1,"Nu Gundam"],"SD",false,false,false,"UC","E","2021-06-06",15.66,false,"Builds/pi.html",[""],"2021-06-22"],   //pi gundam
+    ["PB BB Senshi RX-93ff \u03bd Gundam [SD]",[1,"Nu Gundam, ff"],"SD",true,true,false,"UC","E","2023-03-13",2.83,false,"Builds/PBRX93ff.html",false,"2023-04-24"],
+    ["PB RX-93ff \u03bd Gundam [RG]",[1,"Nu Gundam, ff"],"RG",true,true,false,"UC","E","2023-03-14",14.5,false,"Builds/PBRX93ff.html",false,"2023-04-25"],
     ["Milos",[1,"Nu Gundam, Hi"],"SD",false,false,false,"UC","B"],
     ["PB Umbrella Corp",[2,"Nu Gundam, Hi","Hi Nu Expansion Pack","Hi Nu Hyper Bazooka"],"RG",false,true,false,"UC","A"],
-    ["Bella Donna",[2,"Phenex","Phenex"],"SD",false,false,false,"UC","E","2021-12",14.37,false,"Builds/BellaDonna.html",[""],"2023-04-16"],
-    ["Phenex [SD]",[1,"Phenex"],"SD",true,false,false,"UC","E","2021-10",4.17,false,false,false,"2023-03-13"],
-    ["Sovereign",[1,"Phenex"],"SD",false,false,false,"UC","E","2021-11",5.93,false,"Builds/Sovereign.html",[""],"2023-04-15"],
-    ["Titan",[1,"Phenex"],"SD",false,false,false,"UC","E","2021-11",6.63,false,"Builds/Titan.html",[""],"2023-03-14"],
+    ["Bella Donna",[2,"Phenex","Phenex"],"SD",false,false,false,"UC","E","2021-12-06",14.37,false,"Builds/BellaDonna.html",[""],"2023-04-16"],
+    ["Phenex [SD]",[1,"Phenex"],"SD",true,false,false,"UC","E","2021-10-11",4.17,false,false,false,"2023-03-13"],
+    ["Sovereign",[1,"Phenex"],"SD",false,false,false,"UC","E","2021-11-08",5.93,false,"Builds/Sovereign.html",[""],"2023-04-15"],
+    ["Titan",[1,"Phenex"],"SD",false,false,false,"UC","E","2021-11-07",6.63,false,"Builds/Titan.html",[""],"2023-03-14"],
     ["LunchTime Solutions",[1,"RX-78-2"],"RG",false,false,false,"UC","B"],
-    ["Starman",[1,"Sazabi"],"SD",false,false,false,"UC","D","2021-12",5.03,false,"Builds/Starman.html",[""]],
-    ["Ziggy",[1,"Sazabi"],"SD",false,false,false,"UC","D","2022-03",5.75,false,"Builds/Ziggy.html",[""]],
+    ["Starman",[1,"Sazabi"],"SD",false,false,false,"UC","D","2021-12-16",5.03,false,"Builds/Starman.html",[""]],
+    ["Ziggy",[1,"Sazabi"],"SD",false,false,false,"UC","D","2022-03-10",5.75,false,"Builds/Ziggy.html",[""]],
     ["Dynamo",[1,"Sinanju"],"MG",false,false,false,"UC","B"],
-    ["Stardust",[1,"Sinanju"],"SD",false,false,false,"UC","D","2021-12",4.56,false,"Builds/Stardust.html",[""]],
-    ["PB Shin Musha [MG]",[1,"Shin Musha Gundam"],"MG",true,true,false,"UC","E","2022-08",10.58,false,"Builds/PBShinMushaMG.html",false,"2022-12-05"],
-    ["Blue Monday",[1,"Sisquiede"],"SD",false,false,false,"UC","D","2022-01",6.76,false,"Builds/BlueMonday.html",[""]],
-    ["Rocket Man",[1,"Xi Gundam"],"SD",false,false,false,"UC","D","2022-01",6.5,false,"Builds/RocketMan.html",[""]],
+    ["Stardust",[1,"Sinanju"],"SD",false,false,false,"UC","D","2021-12-15",4.56,false,"Builds/Stardust.html",[""]],
+    ["PB Shin Musha [MG]",[1,"Shin Musha Gundam"],"MG",true,true,false,"UC","E","2022-08-05",10.58,false,"Builds/PBShinMushaMG.html",false,"2022-12-05"],
+    ["Blue Monday",[1,"Sisquiede"],"SD",false,false,false,"UC","D","2022-01-06",6.76,false,"Builds/BlueMonday.html",[""]],
+    ["Rocket Man",[1,"Xi Gundam"],"SD",false,false,false,"UC","D","2022-01-08",6.5,false,"Builds/RocketMan.html",[""]],
     ["MK Ultra",[1,"Zaku II"],"RG",false,false,false,"UC","B"],
-    ["Zeong [RG]",[1,"Zeong"],"RG",true,false,false,"UC","E","2021-08",8.25,false,false,false,"2022-03-14"],
-    ["Starrider",[1,"Zeta Gundam"],"SD",false,false,false,"UC","E","2021-09",6.83,false,"Builds/Starrider.html",[""],"2023-03-08"],
-    ["Zeta [MG]",[1,"Zeta Gundam"],"MG",true,false,false,"UC","C","2023-04",8,false,false,false],
+    ["Zeong [RG]",[1,"Zeong"],"RG",true,false,false,"UC","E","2021-08-07",8.25,false,false,false,"2022-03-14"],
+    ["Starrider",[1,"Zeta Gundam"],"SD",false,false,false,"UC","E","2021-09-08",6.83,false,"Builds/Starrider.html",[""],"2023-03-08"],
+    ["Zeta [MG]",[1,"Zeta Gundam"],"MG",true,false,false,"UC","C","2023-04-12",8,false,false,false],
 
     //Regild Century (Reconguista)
 
@@ -516,47 +569,47 @@ const projects = [
     ["King Pluto",[1,"QAN[T], Command"],"HG",false,false,false,"BD","B"],
     ["Queen Luna",[1,"QAN[T], Shia"],"HG",false,false,false,"BD","B"],
     ["King Earth",[1,"Strike Freedom, Perfect"],"HG",false,false,false,"BD","B"],
-    ["Constellation",[1,"Strike Full Package"],"RG",false,false,false,"BD","E","2021-11",37.52,true,"Builds/Constellation.html",[""],"2022-02-28"],
-    ["Moonage Daydream",[1,"Strike Full Package"],"SD",false,false,false,"BD","E","2021-11",7.27,false,"Builds/MoonageDaydream.html",[""],"2022-02-21"],
+    ["Constellation",[1,"Strike Full Package"],"RG",false,false,false,"BD","E","2021-11-05",37.52,true,"Builds/Constellation.html",[""],"2022-02-28"],
+    ["Moonage Daydream",[1,"Strike Full Package"],"SD",false,false,false,"BD","E","2021-11-06",7.27,false,"Builds/MoonageDaydream.html",[""],"2022-02-21"],
     ["King Saturn",[1,"Transient"],"HG",false,false,false,"BD","B"],
     ["King Mercury",[1,"Try Age Magnum"],"HG",false,false,false,"BD","B"],
     
     //SD Heroes 
     ["Artemis",[1,"00, Zhao Yun"],"SD",false,false,false,"Heroes","A"],
-    ["Oceanus",[1,"Altron, Zhang He"],"SD",false,false,false,"Heroes","D","2022-04",5.42,false,"Builds/Oceanus.html",[""]],
+    ["Oceanus",[1,"Altron, Zhang He"],"SD",false,false,false,"Heroes","D","2022-04-06",5.42,false,"Builds/Oceanus.html",[""]],
     ["Eurybia",[1,"Akatsuki, Zhou Yu"],"SD",false,false,false,"Heroes","B"],
     ["Pallas",[1,"Burning Gundam, Huang Zhang Fei"],"SD",false,false,false,"Heroes","B"],
     ["Perses",[1,"Deathscythe, Xu Huang"],"SD",false,false,false,"Heroes","A"],
-    ["Azalea",[1,"Delta, Sasuki"],"SD",false,false,false,"Heroes","E","2021-10",6.5,false,"Builds/Azalea.html",[""],"2022-06-22"],
-    ["Sasuki Delta [SD]",[1,"Delta, Saskui"],"SD",true,false,false,"Heroes","E","2021-09",1.5,false,false,false,"2022-06-20"],
+    ["Azalea",[1,"Delta, Sasuki"],"SD",false,false,false,"Heroes","E","2021-10-09",6.5,false,"Builds/Azalea.html",[""],"2022-06-22"],
+    ["Sasuki Delta [SD]",[1,"Delta, Saskui"],"SD",true,false,false,"Heroes","E","2021-09-05",1.5,false,false,false,"2022-06-20"],
     ["Quetzalcaotl",[1,"Dragon, Dark Grasper"],"SD",false,false,false,"Heroes","B"],
     ["Pharaoh",[1,"Dragon, Shining Grasper"],"SD",false,false,false,"Heroes","A"],
     ["Tiamat",[1,"Dragon, Shining Grasper"],"SD",false,false,false,"Heroes","A"],
     ["Cronus",[1,"Epyon, Nobunaga"],"SD",false,false,false,"Heroes","A"],
-    ["Helios",[1,"Freedom, Zhuge Liang"],"SD",false,false,false,"Heroes","D","2022-03",9.25,false,"Builds/Helios.html",[""]],
+    ["Helios",[1,"Freedom, Zhuge Liang"],"SD",false,false,false,"Heroes","D","2022-03-11",9.25,false,"Builds/Helios.html",[""]],
     ["Themis",[1,"Legend, Caesar"],"SD",false,false,false,"Heroes","A"],
     ["Crius",[1,"Sazabi, Zhang Liao"],"SD",false,false,false,"Heroes","B"],
     ["Clymene",[1,"Strike, Knight"],"SD",false,false,false,"Heroes","A"],
     ["Prometheus",[1,"Strike Noir, Xun Yu"],"SD",false,false,false,"Heroes","B"],
     ["Selene",[1,"Strike-Freedom, Qiongqi"],"SD",false,false,false,"Heroes","B"],
-    ["Corona Australis",[1,"Tallgeese, Xiahou Yuan"],"SD",false,false,false,"Heroes","D","2022-04",7.75,false,"Builds/CoronaAustralis.html",[""]],
-    ["Corona Borealis",[1,"Tallgeese III, Xiahou Dun"],"SD",false,false,false,"Heroes","D","2022-04",8.67,false,"Builds/CoronaBorealis.html",[""]],
+    ["Corona Australis",[1,"Tallgeese, Xiahou Yuan"],"SD",false,false,false,"Heroes","D","2022-04-07",7.75,false,"Builds/CoronaAustralis.html",[""]],
+    ["Corona Borealis",[1,"Tallgeese III, Xiahou Dun"],"SD",false,false,false,"Heroes","D","2022-04-08",8.67,false,"Builds/CoronaBorealis.html",[""]],
     ["Coeus",[1,"Unicorn, Long Zun Liu Vei"],"SD",false,false,false,"Heroes","A"],
-    ["Bastiat",[1,"Verde Buster, Sergeante"],"SD",false,false,false,"Heroes","E","2021-10",8.3,false,"Builds/Bastiat.html",[""],"2022-08-22"],
-    ["Mighty Morphin Power Rangers",[7.5,"Trinity Bike","Verde Buster, Sergeant DX","Verde Buster, Sergeant DX","Verde Buster Team Member","Verde Buster Team Member","Verde Buster Team Member","Verde Buster Team Member"],"SD",false,false,false,"Heroes","E","2022-12",39.63,false,"Builds/mmpr.html",[""],"2023-02-20"],
+    ["Bastiat",[1,"Verde Buster, Sergeante"],"SD",false,false,false,"Heroes","E","2021-10-17",8.3,false,"Builds/Bastiat.html",[""],"2022-08-22"],
+    ["Mighty Morphin Power Rangers",[7.5,"Trinity Bike","Verde Buster, Sergeant DX","Verde Buster, Sergeant DX","Verde Buster Team Member","Verde Buster Team Member","Verde Buster Team Member","Verde Buster Team Member"],"SD",false,false,false,"Heroes","E","2022-12-06",39.63,false,"Builds/mmpr.html",[""],"2023-02-20"],
     ["Eos",[1,"Wing, Cao Cao"],"SD",false,false,false,"Heroes","A"],
-    ["Tethys",[1,"Wing Isei, Cao Cao"],"SD",false,false,false,"Heroes","D","2022-04",8.67,false,"Builds/tethys.html",[""]],
+    ["Tethys",[1,"Wing Isei, Cao Cao"],"SD",false,false,false,"Heroes","D","2022-04-05",8.67,false,"Builds/tethys.html",[""]],
     ["Hyperion",[1,"Wing Zero, Tian Ba Cao Cao"],"SD",false,false,false,"Heroes","B"],
 
     //Haro
-    ["Haro Blue",[1,"Haropla #05 Control Blue"],"Haro",false,false,false,"","D","2023-04",2.55,false,"Builds/hblue.html",[""]],
-    ["Haro Cloud",[1,"Haropla #12 Basic Green"],"Haro",false,false,false,"","D","2023-04",3.27,false,"Builds/hcloud.html",[""]],
-    ["Haro Green",[1,"Haropla #12 Basic Green"],"Haro",false,false,false,"","D","2023-04",2.75,false,"Builds/hgreen.html",[""]],
-    ["Haro Lime",[1,"Haropla #12 Basic Green"],"Haro",false,false,false,"","D","2023-04",3.34,false,"Builds/hlime.html",[""]],
-    ["Haro Orange",[1,"Haropla #11 Zakrello"],"Haro",false,false,false,"","D","2023-04",4.08,false,"Builds/horange.html",[""]],
-    ["Haro Pink",[1,"Haropla #04 Momo Pink"],"Haro",false,false,false,"","D","2023-04",2.68,false,"Builds/hpink.html",[""]],
-    ["Haro Purple",[1,"Haropla #07 Ball Haro"],"Haro",false,false,false,"","D","2023-04",2.65,false,"Builds/hpurple.html",[""]],
-    ["Haro Red",[1,"Haropla #02 Diva Red"],"Haro",false,false,false,"","E","2023-04",2.78,false,"Builds/hred.html",[""],"2023-05-30"],
+    ["Haro Blue",[1,"Haropla #05 Control Blue"],"Haro",false,false,false,"","D","2023-04-07",2.55,false,"Builds/hblue.html",[""]],
+    ["Haro Cloud",[1,"Haropla #12 Basic Green"],"Haro",false,false,false,"","D","2023-04-14",3.27,false,"Builds/hcloud.html",[""]],
+    ["Haro Green",[1,"Haropla #12 Basic Green"],"Haro",false,false,false,"","D","2023-04-08",2.75,false,"Builds/hgreen.html",[""]],
+    ["Haro Lime",[1,"Haropla #12 Basic Green"],"Haro",false,false,false,"","D","2023-04-13",3.34,false,"Builds/hlime.html",[""]],
+    ["Haro Orange",[1,"Haropla #11 Zakrello"],"Haro",false,false,false,"","D","2023-04-11",4.08,false,"Builds/horange.html",[""]],
+    ["Haro Pink",[1,"Haropla #04 Momo Pink"],"Haro",false,false,false,"","D","2023-04-09",2.68,false,"Builds/hpink.html",[""]],
+    ["Haro Purple",[1,"Haropla #07 Ball Haro"],"Haro",false,false,false,"","D","2023-04-10",2.65,false,"Builds/hpurple.html",[""]],
+    ["Haro Red",[1,"Haropla #02 Diva Red"],"Haro",false,false,false,"","E","2023-04-06",2.78,false,"Builds/hred.html",[""],"2023-05-30"],
     
     //Car
     ["Hud Air",
@@ -567,7 +620,7 @@ const projects = [
         false,
         "Chevy",
         "E",
-        "2021-05",
+        "2021-05-06",
         23.05,
         true,
         "Builds/Automobiles/HudAir.html",
@@ -581,14 +634,14 @@ const projects = [
         "First attempt at an air brush. Testors paints. Jennifer Hudson. The nanny.",
         "Nick"
     ],
-    ["Wilbur",[1,"Volkswagen Beetle, 68"],"Car",false,false,false,"Volkswagen","E","2022-11",27.08,true,"Builds/Wilbur.html",[""],"2023-01-02"],
+    ["Wilbur",[1,"Volkswagen Beetle, 68"],"Car",false,false,false,"Volkswagen","E","2022-11-05",27.08,true,"Builds/Wilbur.html",[""],"2023-01-02"],
     
     //Pokemon
     ["Obelix",[1,"Bulbasaur"],"Pokemon",false,false,false,"","B"],
-    ["Asterix",[1,"Charmander"],"Pokemon",false,false,false,"","D","2023-03",3.85,false,"Builds/asterix.html",[""]],
-    ["Vercingetorix",[1,"Charizard"],"Pokemon",false,false,false,"","D","2023-03",5.99,false,"Builds/vercingetorix.html",[""]],
-    ["Boudica",[1,"Dragonite"],"Pokemon",false,false,false,"","D","2023-03",3.47,false,"Builds/boudica.html",[""]],
-    ["Granfrog",[1,"Greninja"],"Pokemon",false,false,false,"","E","2021-11",5.68,false,"Builds/granfrog.html",[""],"2022-08-17"],
+    ["Asterix",[1,"Charmander"],"Pokemon",false,false,false,"","D","2023-03-12",3.85,false,"Builds/asterix.html",[""]],
+    ["Vercingetorix",[1,"Charizard"],"Pokemon",false,false,false,"","D","2023-03-10",5.99,false,"Builds/vercingetorix.html",[""]],
+    ["Boudica",[1,"Dragonite"],"Pokemon",false,false,false,"","D","2023-03-11",3.47,false,"Builds/boudica.html",[""]],
+    ["Granfrog",[1,"Greninja"],"Pokemon",false,false,false,"","E","2021-11-11",5.68,false,"Builds/granfrog.html",[""],"2022-08-17"],
     ["Brennus",[1,"Groudon"],"Pokemon",false,false,false,"","A"],
     ["Unhygienix",[1,"Magikarp"],"Pokemon",false,false,false,"","A"],
     ["Lutetia",[1,"Lucario"],"Pokemon",false,false,false,"","A"],
@@ -601,30 +654,30 @@ const projects = [
     //Digimon
     ["Heimdall",[1,"Alphamon"],"Digimon",false,false,false,"","A"],
     ["Loki",[1,"Beelzemon"],"Digimon",false,false,false,"","A"],
-    ["Thor",[1,"Gallantmon"],"Digimon",false,false,false,"","E","2022-10",22.5,false,"Builds/thor.html",[""],"2022-11-28"],
+    ["Thor",[1,"Gallantmon"],"Digimon",false,false,false,"","E","2022-10-05",22.5,false,"Builds/thor.html",[""],"2022-11-28"],
     ["Jormungandr",[1,"Imperialdramom"],"Digimon",false,false,false,"","A"],
     ["Nidhogg",[1,"Machinedramon"],"Digimon",false,false,false,"","A"],
-    ["Fenrir",[1,"Metal Garurumon"],"Digimon",false,false,false,"","E","2022-07",20.58,false,"Builds/fenrir.html",[""],"2022-09-21"],
+    ["Fenrir",[1,"Metal Garurumon"],"Digimon",false,false,false,"","E","2022-07-07",20.58,false,"Builds/fenrir.html",[""],"2022-09-21"],
     ["T\u00FDr",[1,"Metal Greymon"],"Digimon",false,false,false,"","A"],
     ["Odin",[1,"Shine Greymon",],"Digimon",false,false,false,"","A"],
-    ["Ragnarok",[1,"Omnimon"],"Digimon",false,false,false,"","E","2022-07",19.65,false,"Builds/ragnorok.html",[""],"2022-10-17"],
+    ["Ragnarok",[1,"Omnimon"],"Digimon",false,false,false,"","E","2022-07-05",19.65,false,"Builds/ragnorok.html",[""],"2022-10-17"],
     ["Revelation",[1,"Omnimon X"],"Digimon",false,false,false,"","A"],
-    ["Fafnir",[1,"War Greymon"],"Digimon",false,false,false,"","E","2022-07",20.7,false,"Builds/fafnir.html",[""],"2022-10-04"],
+    ["Fafnir",[1,"War Greymon"],"Digimon",false,false,false,"","E","2022-07-08",20.7,false,"Builds/fafnir.html",[""],"2022-10-04"],
 
     //Display
-    ["Diurnum",[1,"City Area, 30 Minute Mission"],"Display",false,false,false,"","E","2022-01",9.67,false,"Builds/diurnum.html",[""],"2022-03-21"],
+    ["Diurnum",[1,"City Area, 30 Minute Mission"],"Display",false,false,false,"","E","2022-01-10",9.67,false,"Builds/diurnum.html",[""],"2022-03-21"],
     ["Battlefield Earth",[2,"Energy Ring Emitter"],"Display",false,false,false,"","A"],
     ["Kataluma",[1,"Hangar Bay"],"Display",false,false,false,"","E","2022-02",16.96,true,"Builds/kataluma.html",[""],"2022-04-04"],
-    ["Stratle",[1,"Maintenance Bay"],"Display",false,false,false,"","E","2022-02",27.12,true,"Builds/stratle.html",[""],"2022-04-11"],
+    ["Stratle",[1,"Maintenance Bay"],"Display",false,false,false,"","E","2022-02-11",27.12,true,"Builds/stratle.html",[""],"2022-04-11"],
 
     //Ship
-    ["Libeccio",[0.2,"Andromeda Black"],"Ship",false,false,false,"StarBlazer","E","2022-09",4.42,false,"Builds/libeccio.html",[""],"2023-02-06"],
-    ["Ostro",[0.2,"Cosmo Falcon"],"Ship",false,false,false,"StarBlazer","E","2022-07",6.33,false,"Builds/ostro.html",[""],"2022-07-18"],
+    ["Libeccio",[0.2,"Andromeda Black"],"Ship",false,false,false,"StarBlazer","E","2022-09-09",4.42,false,"Builds/libeccio.html",[""],"2023-02-06"],
+    ["Ostro",[0.2,"Cosmo Falcon"],"Ship",false,false,false,"StarBlazer","E","2022-07-06",6.33,false,"Builds/ostro.html",[""],"2022-07-18"],
     ["Ponente",[1,"Cosmo Zero"],"Ship",false,false,false,"StarBlazer","B"],
     ["Levante",[1,"Nagato"],"Ship",false,false,false,"Space Rengo Kantai","B"],
 
     //Transformer
-    ["Wilbee",[1,"Bumblebee"],"Transformer",false,false,false,"","E","2022-11",9.33,false,"Builds/Wilbee.html",[""],"2023-01-09"],
+    ["Wilbee",[1,"Bumblebee"],"Transformer",false,false,false,"","E","2022-11-06",9.33,false,"Builds/Wilbee.html",[""],"2023-01-09"],
     
     //Zoid
     ["Dash Hound",[1,"Shadow Fox"],"Zoid",false,false,false,"","C","2023-06-12",11.67,false,"Builds/Zoids/DashHound.html",["Tamiya: Gold TS-21 Can","Tamiya: Matt Black TS-6 Can","Tamiya: Copper PS-14 Can","Vallejo: Model Air US Earth Red 71.293","Vallejo: Model Air USAF Brown 71.125","Vallejo: Model Air Rust 71.069","Vallejo: Model Air Armor Brown 71.041","Vallejo: Mecha Color Dark Steel 69.065","Vallejo: Model Air Silver 71.063","Vallejo: Model Air Ivory 71.075","Testors: Brass 1182","Vallejo: Model Air Wood 71.077","Vallejo: Model Air US Desert Sand 71.140","Vallejo: Mecha Color Gun Metal 69.058","Vallejo: Model Air Camouflage Gray 71.280"]],
@@ -1965,7 +2018,7 @@ function projectPage(string) {
 
     let otherArray = [];
     for (let i=0;i<projects.length;i++) {
-        if ((projectArray[14] === projects[i][14]) && (!projectArray[0] === projects[i][0])) {
+        if ((projectArray[14] === projects[i][14]) && (!projectArray[0] === projects[i][0]) && projects[i][7]=='E') {
             otherArray.push(projects[i])
         }
     }
@@ -2255,8 +2308,8 @@ function popGundamPage () {
     serialNode.appendChild(serialText);
 
     if (modelArray[25]) {
-        const altName = document.querySelector(".mobileArmorClass");
-        altName.style.display = "block"; 
+        const mobileArmorClass = document.querySelector(".mobileArmorClass");
+        mobileArmorClass.style.display = "block"; 
 
         let mobileArmorNode = document.getElementById('mobileArmor');
         let mobileArmorText = document.createTextNode('Mobile Armr');
@@ -2264,10 +2317,10 @@ function popGundamPage () {
     }
  
     if (modelArray[24]) {
-        const altName = document.querySelector(".altNameClass");
-        altName.style.display = "block";
+        const altNameClass = document.querySelector(".altNameClass");
+        altNameClass.style.display = "block";
 
-        let altNameNode = document.getElementById("altName");
+        let altNameNode = document.getElementById("gAltName");
         let altNameText = document.createTextNode(modelArray[24]);
         altNameNode.appendChild(altNameText);
     }
@@ -2342,21 +2395,36 @@ function popGundamPage () {
         gAffiliate_LIMobile.appendChild(gAffilateTextMobile);
     }
     
-    let gFromNode = document.getElementById('gFrom');
-    let gFromText = document.createTextNode(modelArray[7]);
-    gFromNode.appendChild(gFromText);
+    if (modelArray[7]) {
+        const gFromClass = document.querySelector(".gFromClass");
+        gFromClass.style.display = "block";
 
-    let gFromNodeMobile = document.getElementById('gFromMobile');
-    let gFromTextMobile = document.createTextNode(modelArray[7]);
-    gFromNodeMobile.appendChild(gFromTextMobile);
+        const gFromClass_Mobile = document.querySelector(".gFromClass_Mobile");
+        gFromClass_Mobile.style.display = "block";
 
-    let gToNode = document.getElementById('gTo');
-    let gToText = document.createTextNode(modelArray[8]);
-    gToNode.appendChild(gToText);
+        let gFromNode = document.getElementById('gFrom');
+        let gFromText = document.createTextNode(modelArray[7]);
+        gFromNode.appendChild(gFromText);
 
-    let gToNodeMobile = document.getElementById('gToMobile');
-    let gToTextMobile = document.createTextNode(modelArray[8]);
-    gToNodeMobile.appendChild(gToTextMobile);
+        let gFromNodeMobile = document.getElementById('gFromMobile');
+        let gFromTextMobile = document.createTextNode(modelArray[7]);
+        gFromNodeMobile.appendChild(gFromTextMobile);
+    }
+
+    if (modelArray[8]) {
+        const gToClass = document.querySelector(".gToClass");
+        gToClass.style.display = "block";
+        const gToClass_Mobile = document.querySelector(".gToClass_Mobile");
+        gToClass_Mobile.style.display = "block";
+
+        let gToNode = document.getElementById('gTo');
+        let gToText = document.createTextNode(modelArray[8]);
+        gToNode.appendChild(gToText);
+
+        let gToNodeMobile = document.getElementById('gToMobile');
+        let gToTextMobile = document.createTextNode(modelArray[8]);
+        gToNodeMobile.appendChild(gToTextMobile);
+    }
 
     let gHeightNode = document.getElementById('gHeight');
     let gHeightText = document.createTextNode(modelArray[15][1]);
