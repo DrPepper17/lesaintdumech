@@ -60,6 +60,8 @@
     7. Type of Vehicle (Category List: Car, Truck, Van, Plane, ship, spaceship_
     8. Sedan (boolean) (ignore if not a car)
     9. timespan
+    24. Nickname
+    26. Photo
 
     // Display 5) //
     2. Name
@@ -193,7 +195,35 @@ const models = [
         false,
         false,
         false,
-        ["img/models/chevybelair57.jpeg"]
+        ["img/models/57belair.jpeg"]
+    ],
+    [4,
+        4,
+        "Volkswagen Beetle",
+        "Volkswagen 1968 Beetle",
+        "Volkswagen",
+        "Beetle Type I",
+        1968,
+        "Car",
+        false,
+        "1938-2003",
+        "Ferdinand Porsche",
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        "Slug Bug",
+        false,
+        ["img/models/68beetle.jpeg"]
     ]
 ];
 
@@ -638,57 +668,12 @@ const projects = [
     
     //Car
     ["Hud Air",
-        [1,"Chevy Bel Air, 57"],
-        "Car",
-        false,
-        false,
-        false,
-        "Chevy",
-        "E",
-        "2021-05-06",
-        23.05,
-        true,
-        "Builds/Automobiles/HudAir.html",
-        false,
-        "2021-06-09",
-        models[3],
-        [
-            ["../../img/projects/automobiles/hud_air/hudair01.jpg","Hudson Bel-Air","img1"],
-            ["../../img/projects/automobiles/hud_air/hudair02.jpg","Hudson Bel-Air","img2"],
-            ["../../img/projects/automobiles/hud_air/hudair03.jpg","Hudson Bel-Air","img3"],
-            ["../../img/projects/automobiles/hud_air/hudair04.jpg","Hudson Bel-Air","img4"],
-            ["../../img/projects/automobiles/hud_air/hudair05.jpg","Hudson Bel-Air","img5"],
-            ["../../img/projects/automobiles/hud_air/hudair06.jpg","Hudson Bel-Air","img6"],
-            ["../../img/projects/automobiles/hud_air/hudair07.jpg","Hudson Bel-Air","img7"],
-            ["../../img/projects/automobiles/hud_air/hudair08.jpg","Hudson Bel-Air","img8"],
-            ["../../img/projects/automobiles/hud_air/hudair09.jpg","Hudson Bel-Air","img9"],
-            ["../../img/projects/automobiles/hud_air/hudair10.jpg","Hudson Bel-Air","img10"],
-            ["../../img/projects/automobiles/hud_air/hudair11.jpg","Hudson Bel-Air","img11"],
-            ["../../img/projects/automobiles/hud_air/hudair12.jpg","Hudson Bel-Air","img12"],
-            ["../../img/projects/automobiles/hud_air/hudair13.jpg","Hudson Bel-Air","img13"],
-            ["../../img/projects/automobiles/hud_air/hudair14.jpg","Hudson Bel-Air","img14"],
-            ["../../img/projects/automobiles/hud_air/hudair15.jpg","Hudson Bel-Air","img15"],
-            ["../../img/projects/automobiles/hud_air/hudair16.jpg","Hudson Bel-Air","img16"],
-            ["../../img/projects/automobiles/hud_air/hudair17.jpg","Hudson Bel-Air","img17"],
-            ["../../img/projects/automobiles/hud_air/hudair18.jpg","Hudson Bel-Air","img18"],
-            ["../../img/projects/automobiles/hud_air/hudair19.jpg","Hudson Bel-Air","img19"],
-            ["../../img/projects/automobiles/hud_air/hudair20.jpg","Hudson Bel-Air","img20"],
-            ["../../img/projects/automobiles/hud_air/hudair21.jpg","Hudson Bel-Air","img21"]
-        ],
-        ["img/projects/automobiles/hud_air/hudair16.jpg","Profile Photo: Hud-Air"],
-        "First attempt at an air brush. Testors paints. Jennifer Hudson. The Nanny. Feeling very purple with this one.",
-        "Nick, Utah",
-        [
-            ['Wikipedia',"https://en.wikipedia.org/wiki/Chevrolet_Bel_Air"],
-            ['Hobby Town',"https://www.hobbytown.com/amt-1-24-57-bel-air-model-kit-amt638/p39219"],
-            ['Hobby Lobby',"https://www.hobbylobby.com/Crafts-Hobbies/Model-Kits/Cars-Trucks-Motorcycles/1957-Chevy-Bel-Air-Model-Kit/p/26172"]
-        ],
-        false,
-        false,
-        true,
-        "1/25"
+        [1,"Chevy Bel Air, 57"],"Car",false,false,false,"Chevy","E","2021-05-06",23.05,true,"Builds/Automobiles/HudAir.html",false,"2021-06-09",models[3],[["../../img/projects/automobiles/hud_air/hudair01.jpg","Hudson Bel-Air","img1"],["../../img/projects/automobiles/hud_air/hudair02.jpg","Hudson Bel-Air","img2"],["../../img/projects/automobiles/hud_air/hudair03.jpg","Hudson Bel-Air","img3"],["../../img/projects/automobiles/hud_air/hudair04.jpg","Hudson Bel-Air","img4"],["../../img/projects/automobiles/hud_air/hudair05.jpg","Hudson Bel-Air","img5"],["../../img/projects/automobiles/hud_air/hudair06.jpg","Hudson Bel-Air","img6"],["../../img/projects/automobiles/hud_air/hudair07.jpg","Hudson Bel-Air","img7"],["../../img/projects/automobiles/hud_air/hudair08.jpg","Hudson Bel-Air","img8"],["../../img/projects/automobiles/hud_air/hudair09.jpg","Hudson Bel-Air","img9"],["../../img/projects/automobiles/hud_air/hudair10.jpg","Hudson Bel-Air","img10"],["../../img/projects/automobiles/hud_air/hudair11.jpg","Hudson Bel-Air","img11"],["../../img/projects/automobiles/hud_air/hudair12.jpg","Hudson Bel-Air","img12"],["../../img/projects/automobiles/hud_air/hudair13.jpg","Hudson Bel-Air","img13"],["../../img/projects/automobiles/hud_air/hudair14.jpg","Hudson Bel-Air","img14"],["../../img/projects/automobiles/hud_air/hudair15.jpg","Hudson Bel-Air","img15"],["../../img/projects/automobiles/hud_air/hudair16.jpg","Hudson Bel-Air","img16"],["../../img/projects/automobiles/hud_air/hudair17.jpg","Hudson Bel-Air","img17"],["../../img/projects/automobiles/hud_air/hudair18.jpg","Hudson Bel-Air","img18"],["../../img/projects/automobiles/hud_air/hudair19.jpg","Hudson Bel-Air","img19"],["../../img/projects/automobiles/hud_air/hudair20.jpg","Hudson Bel-Air","img20"],["../../img/projects/automobiles/hud_air/hudair21.jpg","Hudson Bel-Air","img21"]],["img/projects/automobiles/hud_air/hudair16.jpg","Profile Photo: Hud-Air"],"First attempt at an air brush. Testors paints. Jennifer Hudson. The Nanny. Feeling very purple with this one.","Nick, Nevada",[['Wikipedia',"https://en.wikipedia.org/wiki/Chevrolet_Bel_Air"],['Hobby Town',"https://www.hobbytown.com/amt-1-24-57-bel-air-model-kit-amt638/p39219"],['Hobby Lobby',"https://www.hobbylobby.com/Crafts-Hobbies/Model-Kits/Cars-Trucks-Motorcycles/1957-Chevy-Bel-Air-Model-Kit/p/26172"]],false,false,true,"1:25"
     ],
-    ["Wilbur",[1,"Volkswagen Beetle, 68"],"Car",false,false,false,"Volkswagen","E","2022-11-05",27.08,true,"Builds/Wilbur.html",[""],"2023-01-02"],
+    ["Wilbur",
+        [1,"Volkswagen Beetle, 68"],"Car",false,false,false,"Volkswagen","E","2022-11-05",27.08,true,"Builds/Automobiles/Wilbur.html",false,"2023-01-02",models[4],[["../../img/projects/automobiles//wilbur/wilbur01.jpeg","Wilbur the Beetle","img1"],["../../img/projects/automobiles//wilbur/wilbur02.jpeg","Wilbur the Beetle","img2"],["../../img/projects/automobiles//wilbur/wilbur03.jpeg","Wilbur the Beetle","img3"],["../../img/projects/automobiles//wilbur/wilbur04.jpeg","Wilbur the Beetle","img4"],["../../img/projects/automobiles//wilbur/wilbur05.jpeg","Wilbur the Beetle","img5"],["../../img/projects/automobiles//wilbur/wilbur06.jpeg","Wilbur the Beetle","img6"],["../../img/projects/automobiles//wilbur/wilbur07.jpeg","Wilbur the Beetle","img7"],["../../img/projects/automobiles//wilbur/wilbur08.jpeg","Wilbur the Beetle","img8"],["../../img/projects/automobiles//wilbur/wilbur09.jpeg","Wilbur the Beetle","img9"],["../../img/projects/automobiles//wilbur/wilbur10.jpeg","Wilbur the Beetle","img10"],["../../img/projects/automobiles//wilbur/wilbur11.jpeg","Wilbur the Beetle","img11"],["../../img/projects/automobiles//wilbur/wilbur12.jpeg","Wilbur the Beetle","img12"],["../../img/projects/automobiles//wilbur/wilbur13.jpeg","Wilbur the Beetle","img13"],["../../img/projects/automobiles//wilbur/wilbur14.jpeg","Wilbur the Beetle","img14"],["../../img/projects/automobiles//wilbur/wilbur15.jpeg","Wilbur the Beetle","img15"],["../../img/projects/automobiles//wilbur/wilbur16.jpeg","Wilbur the Beetle","img16"],["../../img/projects/automobiles//wilbur/wilbur17.jpeg","Wilbur the Beetle","img17"],["../../img/projects/automobiles//wilbur/wilbur18.jpeg","Wilbur the Beetle","img18"],["../../img/projects/automobiles//wilbur/wilbur19.jpeg","Wilbur the Beetle","img19"],["../../img/projects/automobiles//wilbur/wilbur20.jpeg","Wilbur the Beetle","img20"],["../../img/projects/automobiles//wilbur/wilbur21.jpeg","Wilbur the Beetle","img21"],["../../img/projects/automobiles//wilbur/wilbur24.jpeg","Wilbur the Beetle","img24"],["../../img/projects/automobiles//wilbur/wilbur25.jpeg","Wilbur the Beetle","img25"],["../../img/projects/automobiles//wilbur/wilbur26.jpeg","Wilbur the Beetle","img26"],["../../img/projects/automobiles//wilbur/wilbur27.jpeg","Wilbur the Beetle","img27"],["../../img/projects/automobiles//wilbur/wilbur28.jpeg","Wilbur the Beetle","img28"],["../../img/projects/automobiles//wilbur/wilbur29.jpeg","Wilbur the Beetle","img29"],
+        ["../../img/projects/automobiles//wilbur/wilbur30.jpeg","Wilbur the Beetle","img30"],["../../img/projects/automobiles//wilbur/wilbur31.jpeg","Wilbur the Beetle","img31"],["../../img/projects/automobiles//wilbur/wilbur32.jpeg","Wilbur the Beetle","img32"],["../../img/projects/automobiles//wilbur/wilbur33.jpeg","Wilbur the Beetle","img33"],["../../img/projects/automobiles//wilbur/wilbur34.jpeg","Wilbur the Beetle","img34"],["../../img/projects/automobiles//wilbur/wilbur35.jpeg","Wilbur the Beetle","img35"],["../../img/projects/automobiles//wilbur/wilbur36.jpeg","Wilbur the Beetle","img36"],["../../img/projects/automobiles//wilbur/wilbur37.jpeg","Wilbur the Beetle","img37"],["../../img/projects/automobiles//wilbur/wilbur38.jpeg","Wilbur the Beetle","img38"],["../../img/projects/automobiles//wilbur/wilbur39.jpeg","Wilbur the Beetle","img39"],["../../img/projects/automobiles//wilbur/wilbur40.jpeg","Wilbur the Beetle","img40"],["../../img/projects/automobiles//wilbur/wilbur41.jpeg","Wilbur the Beetle","img41"],["../../img/projects/automobiles//wilbur/wilbur42.jpeg","Wilbur the Beetle","img42"],["../../img/projects/automobiles//wilbur/wilbur43.jpeg","Wilbur the Beetle","img43"],["../../img/projects/automobiles//wilbur/wilbur44.jpeg","Wilbur the Beetle","img44"],["../../img/projects/automobiles//wilbur/wilbur45.jpeg","Wilbur the Beetle","img45"],["../../img/projects/automobiles//wilbur/wilbur46.jpeg","Wilbur the Beetle","img46"],["../../img/projects/automobiles//wilbur/wilbur47.jpeg","Wilbur the Beetle","img47"],["../../img/projects/automobiles//wilbur/wilbur22.jpeg","Wilbur the Beetle","img22"],["../../img/projects/automobiles//wilbur/wilbur23.jpeg","Wilbur the Beetle","img23"]],["img/projects/automobiles//wilbur/wilbur45.jpeg","Profile Photo: Wilbur"],"Was an attempt at a recreation for an actual old 68 beetle we're in the middle of trying to restore. Incorporating our love of Germany and all things German, most particularly the cute little Dachshund. Made this as a christmas present","Zack #TheLunchDude, Iowa",[["Video","https://www.instagram.com/p/Cm64DaTI43G/"],["Wiki","https://en.wikipedia.org/wiki/Volkswagen_Beetle"],["Volkswagen","https://www.vw.com/en.html"],["Hobby Town","https://www.hobbytown.com/revell-germany-1-24-60s-beetle-type-1-rmx854192/p609173"]],["Wilbee"],false,true,"1:24"
+    ],
     
     //Pokemon
     ["Obelix",[1,"Bulbasaur"],"Pokemon",false,false,false,"","B"],
@@ -1957,9 +1942,6 @@ function projectPage(string) {
     let modelName_ShortNode = document.getElementById("modelName_Short");
     let modelName_ShortText = document.createTextNode(modelArray[3]);
     modelName_ShortNode.appendChild(modelName_ShortText);
-
-    
-
     
     if (projectArray[1].length>2) {
         const otherModelsClass = document.querySelector(".otherModelsClass");
@@ -2022,7 +2004,7 @@ function projectPage(string) {
     let descripMobileText = document.createTextNode(projectArray[17]);
     descripMobileNode.appendChild(descripMobileText);
 
-    if (projectArray[12]) {
+    if (projectArray[12] == true) {
         const gPaintClass = document.querySelector(".gPaint");
         gPaintClass.style.display = "block";
         const gPaintMobileClass = document.querySelector(".gPaintMobile");
@@ -2048,7 +2030,7 @@ function projectPage(string) {
     }
 
     if (projectArray[20]) {
-        const affiliates = document.querySelector("affiliates");
+        const affiliates = document.querySelector(".affiliates");
         affiliates.style.display = "block";
 
         let affilatesArray = [];
@@ -2139,6 +2121,16 @@ function projectPage(string) {
     else if (modelArray[1] === 10) {
         popHaro();
     }
+
+    if (projectArray[18]) {
+        const ownerClass = document.querySelector(".owner");
+        ownerClass.style.display = "block";
+
+        let ownerNode = document.getElementById('cOwner');
+        let ownerText = document.createTextNode(projectArray[18]);
+        ownerNode.appendChild(ownerText);
+    }
+
 }
 
 function convertMonth(n) {
@@ -2365,7 +2357,7 @@ function popAuto () {
     cYearNode.appendChild(cYearText);
 
     let cLifespanNode = document.getElementById("cLifespan")
-    let cLifespanText = document.createTextNode(modelArray[6]);
+    let cLifespanText = document.createTextNode(modelArray[9]);
     cLifespanNode.appendChild(cLifespanText);
 
     let cDesignNode = document.getElementById("cDesign")
