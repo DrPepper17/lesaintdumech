@@ -4,6 +4,9 @@
 .altNameClass {
     display: none;
 }
+.autoModel1 {
+    display: none;
+}
 .EWclass {
     display: none;
 }
@@ -22,7 +25,7 @@
 .gToClass, .gToClass_Mobile {
     display: none;
 }
-.gundamModel {
+.gundamModel1, .gundamModel2 {
     display: none;
 }
 .links {
@@ -44,3 +47,12 @@
     display: none;
 }
 
+#projectTitle, #projectTitle_Mobile {
+    font-family: "Apple Chancery", Times, sans-serif;
+}
+#projectTitle {
+    font-size: 3em;
+}
+#projectTitle, #projectTitle_Mobile, #modelFullName {
+    color: rgb(250, 69, 129);
+}

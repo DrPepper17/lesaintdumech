@@ -11,7 +11,6 @@
         8. Transformer
         9. Zoid
         10. 
-    
 
     // Gundams (1) //
     2. Short Name
@@ -60,7 +59,7 @@
     6. Year
     7. Type of Vehicle (Category List: Car, Truck, Van, Plane, ship, spaceship_
     8. Sedan (boolean) (ignore if not a car)
-    9. 
+    9. timespan
 
     // Display 5) //
     2. Name
@@ -170,13 +169,31 @@ const models = [
     ],
     [3,
         4,
-        "Bel-Air",
-        "Chevy 1957 Bel-Air",
-        "Chevy",
+        "Chevy Bel-Air",
+        "Chevrolet 1957 Bel-Air",
+        "Chevrolet",
         "Bel-Air",
         1957,
         "Car",
-        true
+        true,
+        "1950-1957",
+        "Harley Earl",
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        ["img/models/chevybelair57.jpeg"]
     ]
 ];
 
@@ -219,7 +236,8 @@ const models = [
     20. Affiliated Projects (array: listing them by their name in Projects[0])
     21. available
     22. Ready to post to site (boolean)
-    23. 
+    23. scale
+    24.
 */
 
 //Pojects
@@ -308,7 +326,8 @@ const projects = [
         ],
         false,
         false,
-        true
+        true,
+        "1/100"
     ],
     ["Phoebe",[1,"Maganac Corps"],"SD",false,false,false,"Wing","D","2022-04-11",8.42,false,"Builds/Phoebe.html",[""]],
     ["Isaac",[1,"Proto-Zero"],"SD",false,false,false,"Wing","E","2023-02-06",14.14,false,"Builds/Isaac.html",[""],"2023-05-10"],
@@ -512,7 +531,8 @@ const projects = [
         ],
         false,
         false,
-        true
+        true,
+        "1/100"
     ],
     ["Red Baron 2",[1,"Spiegel, Gundam"],"MG",false,false,false,"G","A","",0,false,"Builds/RedBaron2.html",[""],"",models[2]],
 
@@ -631,18 +651,42 @@ const projects = [
         "Builds/Automobiles/HudAir.html",
         false,
         "2021-06-09",
-        models[3]
+        models[3],
         [
-            []
+            ["../../img/projects/automobiles/hud_air/hudair01.jpg","Hudson Bel-Air","img1"],
+            ["../../img/projects/automobiles/hud_air/hudair02.jpg","Hudson Bel-Air","img2"],
+            ["../../img/projects/automobiles/hud_air/hudair03.jpg","Hudson Bel-Air","img3"],
+            ["../../img/projects/automobiles/hud_air/hudair04.jpg","Hudson Bel-Air","img4"],
+            ["../../img/projects/automobiles/hud_air/hudair05.jpg","Hudson Bel-Air","img5"],
+            ["../../img/projects/automobiles/hud_air/hudair06.jpg","Hudson Bel-Air","img6"],
+            ["../../img/projects/automobiles/hud_air/hudair07.jpg","Hudson Bel-Air","img7"],
+            ["../../img/projects/automobiles/hud_air/hudair08.jpg","Hudson Bel-Air","img8"],
+            ["../../img/projects/automobiles/hud_air/hudair09.jpg","Hudson Bel-Air","img9"],
+            ["../../img/projects/automobiles/hud_air/hudair10.jpg","Hudson Bel-Air","img10"],
+            ["../../img/projects/automobiles/hud_air/hudair11.jpg","Hudson Bel-Air","img11"],
+            ["../../img/projects/automobiles/hud_air/hudair12.jpg","Hudson Bel-Air","img12"],
+            ["../../img/projects/automobiles/hud_air/hudair13.jpg","Hudson Bel-Air","img13"],
+            ["../../img/projects/automobiles/hud_air/hudair14.jpg","Hudson Bel-Air","img14"],
+            ["../../img/projects/automobiles/hud_air/hudair15.jpg","Hudson Bel-Air","img15"],
+            ["../../img/projects/automobiles/hud_air/hudair16.jpg","Hudson Bel-Air","img16"],
+            ["../../img/projects/automobiles/hud_air/hudair17.jpg","Hudson Bel-Air","img17"],
+            ["../../img/projects/automobiles/hud_air/hudair18.jpg","Hudson Bel-Air","img18"],
+            ["../../img/projects/automobiles/hud_air/hudair19.jpg","Hudson Bel-Air","img19"],
+            ["../../img/projects/automobiles/hud_air/hudair20.jpg","Hudson Bel-Air","img20"],
+            ["../../img/projects/automobiles/hud_air/hudair21.jpg","Hudson Bel-Air","img21"]
         ],
-        [],
-        [],
-        "First attempt at an air brush. Testors paints. Jennifer Hudson. The nanny.",
+        ["img/projects/automobiles/hud_air/hudair16.jpg","Profile Photo: Hud-Air"],
+        "First attempt at an air brush. Testors paints. Jennifer Hudson. The Nanny. Feeling very purple with this one.",
         "Nick, Utah",
-        [],
+        [
+            ['Wikipedia',"https://en.wikipedia.org/wiki/Chevrolet_Bel_Air"],
+            ['Hobby Town',"https://www.hobbytown.com/amt-1-24-57-bel-air-model-kit-amt638/p39219"],
+            ['Hobby Lobby',"https://www.hobbylobby.com/Crafts-Hobbies/Model-Kits/Cars-Trucks-Motorcycles/1957-Chevy-Bel-Air-Model-Kit/p/26172"]
+        ],
         false,
         false,
-        true
+        true,
+        "1/25"
     ],
     ["Wilbur",[1,"Volkswagen Beetle, 68"],"Car",false,false,false,"Volkswagen","E","2022-11-05",27.08,true,"Builds/Wilbur.html",[""],"2023-01-02"],
     
@@ -1885,10 +1929,17 @@ function projectPage(string) {
     breadcrumbNode.appendChild(breadcrumbText);
 
     let projectTitleNode = document.getElementById("projectTitle");
+    let projectTitleNode_Mobile = document.getElementById("projectTitle_Mobile");
+    if (modelArray[1] === 1) {
+        let gundamStringNode = document.createTextNode('Gundam ');
+        let gundamStringNodeMobile = document.createTextNode('Gundam ');
+        projectTitleNode.appendChild(gundamStringNode);
+        projectTitleNode_Mobile.appendChild(gundamStringNodeMobile);
+    }
     let projectTitleText = document.createTextNode(projectArray[0]);
     projectTitleNode.appendChild(projectTitleText);
 
-    let projectTitleNode_Mobile = document.getElementById("projectTitle_Mobile");
+    
     let projectTitleText_Mobile = document.createTextNode(projectArray[0]);
     projectTitleNode_Mobile.appendChild(projectTitleText_Mobile);
 
@@ -1907,20 +1958,7 @@ function projectPage(string) {
     let modelName_ShortText = document.createTextNode(modelArray[3]);
     modelName_ShortNode.appendChild(modelName_ShortText);
 
-    let gGradeNode = document.getElementById("gGrade")
-    if (projectArray[5]) {
-        let gGradeSpan = document.createElement("span");
-        let gGradeSpanAttr = document.createAttribute("class");
-        gGradeSpanAttr.value = "text-danger font-weight-bold";
-        gGradeSpan.setAttributeNode(gGradeSpanAttr);
-        let MGEXtext = document.createTextNode("Master Grade Extreme (MGEX)");
-        gGradeSpan.appendChild(MGEXtext);
-        gGradeNode.appendChild(gGradeSpan);
-    }
-    else {
-        let gGradeText = document.createTextNode(gradeEdifier(projectArray));
-        gGradeNode.appendChild(gGradeText);
-    }
+    
 
     
     if (projectArray[1].length>2) {
@@ -2303,7 +2341,36 @@ function photoModalPopup(i) {
 }
 
 function popAuto () {
+    const autoModelClass1 = document.querySelector(".autoModel1");
+    autoModelClass1.style.display = "block";
+    
+    let gGradeNode = document.getElementById("gGrade")
+    let gGradeText = document.createTextNode(projectArray[23]);
+    gGradeNode.appendChild(gGradeText);
 
+    let cNameNode = document.getElementById("cName")
+    let cNameText = document.createTextNode(modelArray[2]);
+    cNameNode.appendChild(cNameText);
+
+    let cModelNode = document.getElementById("cModel")
+    let cModelText = document.createTextNode(modelArray[5]);
+    cModelNode.appendChild(cModelText);
+
+    let cManuNode = document.getElementById("cManu")
+    let cManuText = document.createTextNode(modelArray[4]);
+    cManuNode.appendChild(cManuText);
+
+    let cYearNode = document.getElementById("cYear")
+    let cYearText = document.createTextNode(modelArray[6]);
+    cYearNode.appendChild(cYearText);
+
+    let cLifespanNode = document.getElementById("cLifespan")
+    let cLifespanText = document.createTextNode(modelArray[6]);
+    cLifespanNode.appendChild(cLifespanText);
+
+    let cDesignNode = document.getElementById("cDesign")
+    let cDesignText = document.createTextNode(modelArray[10]);
+    cDesignNode.appendChild(cDesignText);
 }
 
 function popDigimon () {
@@ -2355,8 +2422,11 @@ function populateImages() {
 }
 
 function popGundamPage () {
-    const gundamModelClass = document.querySelector(".gundamModel");
-    gundamModelClass.style.display = "block";
+    const gundamModelClass1 = document.querySelector(".gundamModel1");
+    gundamModelClass1.style.display = "block";
+
+    const gundamModelClass2 = document.querySelector(".gundamModel2");
+    gundamModelClass2.style.display = "block";
     
     if (projectArray[4]) {
         const pBandaiClass = document.querySelector(".pBandaiClass");
@@ -2376,6 +2446,21 @@ function popGundamPage () {
         }
         pBandaiSpan.appendChild(buildText);
         pBandaiNode.appendChild(pBandaiSpan);
+    }
+
+    let gGradeNode = document.getElementById("gGrade")
+    if (projectArray[5]) {
+        let gGradeSpan = document.createElement("span");
+        let gGradeSpanAttr = document.createAttribute("class");
+        gGradeSpanAttr.value = "text-danger font-weight-bold";
+        gGradeSpan.setAttributeNode(gGradeSpanAttr);
+        let MGEXtext = document.createTextNode("Master Grade Extreme (MGEX)");
+        gGradeSpan.appendChild(MGEXtext);
+        gGradeNode.appendChild(gGradeSpan);
+    }
+    else {
+        let gGradeText = document.createTextNode(gradeEdifier(projectArray));
+        gGradeNode.appendChild(gGradeText);
     }
     
     let gmodelNameFullNode = document.getElementById("gmodelNameFull");
@@ -2574,7 +2659,7 @@ function popGundamPage () {
 }
 
 function popHaro () {
-    
+
 }
 
 function popPokemon () {
