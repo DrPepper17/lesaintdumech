@@ -1821,6 +1821,135 @@ function projectPage(string) {
     let breadcrumbText = document.createTextNode(projectArray[0]);
     breadcrumbNode.appendChild(breadcrumbText);
 
+    let projectTitleNode = document.getElementById("projectTitle");
+    let projectTitleText = document.createTextNode(projectArray[0]);
+    projectTitleNode.appendChild(projectTitleText);
+
+    let projectTitleNode_Mobile = document.getElementById("projectTitle_Mobile");
+    let projectTitleText_Mobile = document.createTextNode(projectArray[0]);
+    projectTitleNode_Mobile.appendChild(projectTitleText_Mobile);
+
+    let modelNameNode = document.getElementById("modelFullName");
+    let modelNameText = document.createTextNode(modelArray[3]);
+    modelNameNode.appendChild(modelNameText);
+
+    insertPhoto(modelArray[26],"modelPhoto","../../");
+    insertPhoto(projectArray[16],"profilePhoto","../../");
+
+    let projectNameNode = document.getElementById("projectName");
+    let projectNameText = document.createTextNode(projectArray[0]);
+    projectNameNode.appendChild(projectNameText);
+
+    let modelName_ShortNode = document.getElementById("modelName_Short");
+    let modelName_ShortText = document.createTextNode(modelArray[3]);
+    modelName_ShortNode.appendChild(modelName_ShortText);
+
+    let gGradeNode = document.getElementById("gGrade")
+    if (projectArray[5]) {
+        let gGradeSpan = document.createElement("span");
+        let gGradeSpanAttr = document.createAttribute("class");
+        gGradeSpanAttr.value = "text-danger font-weight-bold";
+        gGradeSpan.setAttributeNode(gGradeSpanAttr);
+        let MGEXtext = document.createTextNode("Master Grade Extreme (MGEX)");
+        gGradeSpan.appendChild(MGEXtext);
+        gGradeNode.appendChild(gGradeSpan);
+    }
+    else {
+        let gGradeText = document.createTextNode(gradeEdifier(projectArray));
+        gGradeNode.appendChild(gGradeText);
+    }
+
+    
+    if (projectArray[1]>1) {
+        const otherModelsClass = document.querySelector(".otherModelsClass");
+        otherModelsClass.style.display = "block";
+        
+        let otherModelsNode = document.getElementById("otherModels");
+        let otherModelText = document.createTextNode(projectArray[2]);
+        let thirdModelText = '';
+        otherModelsNode.appendChild(otherModelText);
+        if (projectArray>2) {
+            for (let i=3;i<projectArray[2].length;i++) {
+                thirdModelText = document.createTextNode(', '+projectArray[i]);
+                otherModelsNode.appendChild(thirdModelText);
+            }
+        }
+    }        
+
+    let startStamp = new Date(projectArray[8]);
+    let startMonth = convertMonth(startStamp.getMonth());
+    let startYear = startStamp.getFullYear();
+    
+    let postStamp = new Date(projectArray[13]);
+    let postMonth = convertMonth(postStamp.getMonth());
+    let postDay = postStamp.getDate();
+    let postYear = postStamp.getFullYear();
+
+    let dateStartNode = document.getElementById('dateStart');
+    let dateStartText = document.createTextNode(startMonth+' '+startYear);
+    dateStartNode.appendChild(dateStartText);
+
+    let datePostNode = document.getElementById('datePost');
+    let datePostText = document.createTextNode(postMonth+' '+postDay+' '+postYear);
+    datePostNode.appendChild(datePostText);
+
+    let dateStartNode_Mobile = document.getElementById('dateStart_Mobile');
+    let dateStartText_Mobile = document.createTextNode(startMonth+' '+startYear);
+    dateStartNode_Mobile.appendChild(dateStartText_Mobile);
+
+    let datePostNode_Mobile = document.getElementById('datePost_Mobile');
+    let datePostText_Mobile = document.createTextNode(postMonth+' '+postDay+' '+postYear);
+    datePostNode_Mobile.appendChild(datePostText_Mobile);
+       
+    let tHoursNode = document.getElementById("tHours");
+    let tHoursText = document.createTextNode(projectArray[9]+' hrs');
+    tHoursNode.appendChild(tHoursText);
+
+    let ledQ = 'No';
+    if (projectArray[10]) {
+        ledQ = 'Yes';
+    }
+
+    let LEDS_Node = document.getElementById("LEDS");
+    let LEDS_Text = document.createTextNode(ledQ);
+    LEDS_Node.appendChild(LEDS_Text);
+
+    let descripNode = document.getElementById("descrip");
+    let descripText = document.createTextNode(projectArray[17]);
+    descripNode.appendChild(descripText);
+
+    let descripMobileNode = document.getElementById("descripMobile");
+    let descripMobileText = document.createTextNode(projectArray[17]);
+    descripMobileNode.appendChild(descripMobileText);
+
+    if (projectArray[12]) {
+        const gPaintClass = document.querySelector(".gPaint");
+        gPaintClass.style.display = "block";
+        const gPaintMobileClass = document.querySelector(".gPaintMobile");
+        gPaintMobileClass.style.display = "block";
+
+        let paintsNode = document.getElementById('paints');
+        let paintsNodeMobile = document.getElementById('paintsMobile');
+
+        let gPaintText = projectArray[12][0];
+        let paintsTextNode = document.createTextNode(gPaintText);
+        let paintsTextMobileNode = document.createTextNode(gPaintText);
+        paintsNode.appendChild(paintsTextNode);
+        paintsNodeMobile.appendChild(paintsTextMobileNode);
+        if (projectArray[12].length>1) {
+            for (let i=1;i<projectArray[12].length;i++) {
+                gPaintText = ', '+projectArray[12][i];
+                let paintsText2 = document.createTextNode(gPaintText);
+                let paintsTextMobile2 = document.createTextNode(gPaintText);
+                paintsNode.appendChild(paintsText2);
+                paintsNodeMobile.appendChild(paintsTextMobile2);
+            }
+        }
+        
+    }
+
+
+
     if (modelArray[1] === 1) {
         popGundamPage();
     }
@@ -2035,29 +2164,6 @@ function popGundamPage () {
     const gundamModelClass = document.querySelector(".gundamModel");
     gundamModelClass.style.display = "block";
     
-    let projectTitleNode = document.getElementById("projectTitle");
-    let projectTitleText = document.createTextNode(projectArray[0]);
-    projectTitleNode.appendChild(projectTitleText);
-
-    let projectTitleNode_Mobile = document.getElementById("projectTitle_Mobile");
-    let projectTitleText_Mobile = document.createTextNode(projectArray[0]);
-    projectTitleNode_Mobile.appendChild(projectTitleText_Mobile);
-
-    let modelNameNode = document.getElementById("modelFullName");
-    let modelNameText = document.createTextNode(modelArray[3]);
-    modelNameNode.appendChild(modelNameText);
-
-    insertPhoto(modelArray[26],"modelPhoto","../../");
-    insertPhoto(projectArray[16],"profilePhoto","../../");
-
-    let projectNameNode = document.getElementById("projectName");
-    let projectNameText = document.createTextNode(projectArray[0]);
-    projectNameNode.appendChild(projectNameText);
-
-    let modelName_ShortNode = document.getElementById("modelName_Short");
-    let modelName_ShortText = document.createTextNode(modelArray[2]);
-    modelName_ShortNode.appendChild(modelName_ShortText);
-
     if (projectArray[4]) {
         const pBandaiClass = document.querySelector(".pBandaiClass");
         pBandaiClass.style.display = "block";
@@ -2077,101 +2183,16 @@ function popGundamPage () {
         pBandaiSpan.appendChild(buildText);
         pBandaiNode.appendChild(pBandaiSpan);
     }
-
-    let gGradeNode = document.getElementById("gGrade")
-    if (projectArray[5]) {
-        let gGradeSpan = document.createElement("span");
-        let gGradeSpanAttr = document.createAttribute("class");
-        gGradeSpanAttr.value = "text-danger font-weight-bold";
-        gGradeSpan.setAttributeNode(gGradeSpanAttr);
-        let MGEXtext = document.createTextNode("Master Grade Extreme (MGEX)");
-        gGradeSpan.appendChild(MGEXtext);
-        gGradeNode.appendChild(gGradeSpan);
-    }
-    else {
-        let gGradeText = document.createTextNode(gradeEdifier(projectArray));
-        gGradeNode.appendChild(gGradeText);
-    }
-
     
-    if (projectArray[1]>1) {
-        const otherModelsClass = document.querySelector(".otherModelsClass");
-        otherModelsClass.style.display = "block";
-        
-        let otherModelsNode = document.getElementById("otherModels");
-        let otherModelText = document.createTextNode(projectArray[2]);
-        let thirdModelText = '';
-        otherModelsNode.appendChild(otherModelText);
-        if (projectArray>2) {
-            for (let i=3;i<projectArray[2].length;i++) {
-                thirdModelText = document.createTextNode(', '+projectArray[i]);
-                otherModelsNode.appendChild(thirdModelText);
-            }
-        }
-    }        
+    let gmodelNameFullNode = document.getElementById("gmodelNameFull");
+    let gmodelNameFullText = document.createTextNode(modelArray[2]);
+    gmodelNameFullNode.appendChild(gmodelNameFullText);
 
-    let startStamp = new Date(projectArray[8]);
-    let startMonth = convertMonth(startStamp.getMonth());
-    let startYear = startStamp.getFullYear();
-    
-    let postStamp = new Date(projectArray[13]);
-    let postMonth = convertMonth(postStamp.getMonth());
-    let postDay = postStamp.getDate();
-    let postYear = postStamp.getFullYear();
+    if (modelArray[6]) {
+        const EWclass = document.querySelector(".EWclass");
+        EWclass.style.display = "block";
 
-    let dateStartNode = document.getElementById('dateStart');
-    let dateStartText = document.createTextNode(startMonth+' '+startYear);
-    dateStartNode.appendChild(dateStartText);
-
-    let datePostNode = document.getElementById('datePost');
-    let datePostText = document.createTextNode(postMonth+' '+postDay+' '+postYear);
-    datePostNode.appendChild(datePostText);
-
-    let dateStartNode_Mobile = document.getElementById('dateStart_Mobile');
-    let dateStartText_Mobile = document.createTextNode(startMonth+' '+startYear);
-    dateStartNode_Mobile.appendChild(dateStartText_Mobile);
-
-    let datePostNode_Mobile = document.getElementById('datePost_Mobile');
-    let datePostText_Mobile = document.createTextNode(postMonth+' '+postDay+' '+postYear);
-    datePostNode_Mobile.appendChild(datePostText_Mobile);
-       
-    let tHoursNode = document.getElementById("tHours");
-    let tHoursText = document.createTextNode(projectArray[9]+' hrs');
-    tHoursNode.appendChild(tHoursText);
-
-    let ledQ = 'No';
-    if (projectArray[10]) {
-        ledQ = 'Yes';
-    }
-
-    let LEDS_Node = document.getElementById("LEDS");
-    let LEDS_Text = document.createTextNode(ledQ);
-    LEDS_Node.appendChild(LEDS_Text);
-
-    if (projectArray[12]) {
-        const gPaintClass = document.querySelector(".gPaint");
-        gPaintClass.style.display = "block";
-        const gPaintMobileClass = document.querySelector(".gPaintMobile");
-        gPaintMobileClass.style.display = "block";
-
-        let paintsNode = document.getElementById('paints');
-        let paintsNodeMobile = document.getElementById('paintsMobile');
-
-        let gPaintText = projectArray[12][0];
-        let paintsTextNode = document.createTextNode(gPaintText);
-        let paintsTextMobileNode = document.createTextNode(gPaintText);
-        paintsNode.appendChild(paintsTextNode);
-        paintsNodeMobile.appendChild(paintsTextMobileNode);
-        if (projectArray[12].length>1) {
-            for (let i=1;i<projectArray[12].length;i++) {
-                gPaintText = ', '+projectArray[12][i];
-                let paintsText2 = document.createTextNode(gPaintText);
-                let paintsTextMobile2 = document.createTextNode(gPaintText);
-                paintsNode.appendChild(paintsText2);
-                paintsNodeMobile.appendChild(paintsTextMobile2);
-            }
-        }
-        
+        let 
     }
 
 }
