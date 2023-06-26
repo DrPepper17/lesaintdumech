@@ -216,9 +216,9 @@ const models = [
             ["site name","url"]
         ]
     20. Affiliated Projects (array: listing them by their name in Projects[0])
-    21. Links 
-    22. available
-    23.
+    21. available
+    22. Ready to post to site (boolean)
+    23. 
 */
 
 //Pojects
@@ -305,7 +305,8 @@ const projects = [
             ["NewType","https://newtype.us/p/xyX3s81UEQTYgD2wfA49/h/mg-gundam-heavyarms-ew"],
             ["Amazon","https://a.co/d/03pIAks"]
         ],
-        false
+        false,
+        true
     ],
     ["Phoebe",[1,"Maganac Corps"],"SD",false,false,false,"Wing","D","2022-04-11",8.42,false,"Builds/Phoebe.html",[""]],
     ["Isaac",[1,"Proto-Zero"],"SD",false,false,false,"Wing","E","2023-02-06",14.14,false,"Builds/Isaac.html",[""],"2023-05-10"],
@@ -507,7 +508,8 @@ const projects = [
             ["NewType","https://newtype.us/p/xyX3s81UEQTYgD2wfA49/h/mg-gundam-heavyarms-ew"],
             ["Amazon","https://a.co/d/1tZmaYO"]
         ],
-        false
+        false,
+        true
     ],
     ["Red Baron 2",[1,"Spiegel, Gundam"],"MG",false,false,false,"G","A","",0,false,"Builds/RedBaron2.html",[""],"",models[2]],
 
@@ -632,7 +634,11 @@ const projects = [
         ],
         [],
         "First attempt at an air brush. Testors paints. Jennifer Hudson. The nanny.",
-        "Nick"
+        "Nick, Utah",
+        [],
+        false,
+        false,
+        true
     ],
     ["Wilbur",[1,"Volkswagen Beetle, 68"],"Car",false,false,false,"Volkswagen","E","2022-11-05",27.08,true,"Builds/Wilbur.html",[""],"2023-01-02"],
     
@@ -1597,7 +1603,7 @@ function populateBuildsPage() {
     postedArray = sortByDate(postedArray,"post");
 
     for (let i=0;i<postedArray.length;i++) {
-        if(postedArray[i][11])
+        if(postedArray[i][22])
         {
             createBuildAnchor(postedArray[i]);
         }
