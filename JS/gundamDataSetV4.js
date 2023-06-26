@@ -320,7 +320,6 @@ const projects = [
     ["PB Fl\u00FCgel Sparkel",[1,"Tallgeese Fl\u00FCgel"],"MG",false,true,false,"Wing","B"],
     ["PB Tallgeese Fl\u00FCgel [MG]",[1,"Tallgeese Fl\u00FCgel"],"MG",true,true,false,"Wing","D","2022-05-08",20.17,false,"Builds/PBTallgeeseFlugelMG.html",false],
     ["Wild Wing",[1,"Wing Gundam"],"MG",false,false,false,"Wing","E","2021-07-06",60.48,true,"Builds/WildWing.html",[""],"2022-02-14"],
-    ["Wing Gundam [PG]",[1,"Wing GUndam"],"PG",true,false,false,"Wing","A"],
     ["Wing Gundam [RG]",[1,"Wing Gundam"],"RG",true,false,false,"Wing","E","2021-07",12.59,false,false,false,"2022-02-07"],
     ["PB Clear Wing Zero [RG]",[1,"Wing Zero"],"RG",true,true,false,"Wing","E","2021-11-10",6.15,false,"Builds/PBZeroRG",false,"2022-04-19"],
     ["Dark Zero",[1,"Wing Zero"],"MG",false,false,false,"Wing","B"],
@@ -333,13 +332,14 @@ const projects = [
     ["Snow White",[1,"Wing Zero"],"MG",false,false,false,"Wing","B"],
     ["Snow White",[1,"Wing Zero"],"RG",false,false,false,"Wing","B"],
     ["Snow White",[1,"Wing Zero"],"SD",false,false,false,"Wing","A"],
-    ["Wing Zero EW KA [MG]",[1,"Wing Zero","GFFMC Wings For MG Wing Zero"],"MG",true,false,false,"Wing","C","2022-06-05",10.83,false,false,false],
+    ["Wing Zero KA [MG]",[1,"Wing Zero","GFFMC Wings For MG Wing Zero"],"MG",true,false,false,"Wing","C","2022-06-05",10.83,false,false,false],
+    ["Wing Zero [PG]",[1,"Wing GUndam"],"PG",true,false,false,"Wing","A"],
     ["Zero Traditional",[1,"Wing Zero"],"MG",false,false,false,"Wing","B"],
     ["Zero Traditional",[1,"Wing Zero"],"RG",false,false,false,"Wing","B"],
     ["Zero Traditional",[1,"Wing Zero"],"SD",false,false,false,"Wing","A"],
-    ["Zero EW",[1,"Wing Zero"],"MG",false,false,false,"Wing","B"],
-    ["Zero EW",[1,"Wing Zero"],"RG",false,false,false,"Wing","A"],
-    ["Zero EW",[1,"Wing Zero"],"SD",false,false,false,"Wing","A"],
+    ["Zero EW (mg)",[1,"Wing Zero"],"MG",false,false,false,"Wing","B"],
+    ["Zero EW (rg)",[1,"Wing Zero"],"RG",false,false,false,"Wing","A"],
+    ["Zero EW (sd)",[1,"Wing Zero"],"SD",false,false,false,"Wing","A"],
 
     //After War (X)
     ["Gaebora",[1,"Airmaster"],"SD",false,false,false,"X","E","2021-10-06",5.51,false,"Builds/Gaebora.html",[""],"2022-03-28"],
@@ -2027,7 +2027,7 @@ function projectPage(string) {
 
     let otherArray = [];
     for (let i=0;i<projects.length;i++) {
-        if ((projectArray[14] === projects[i][14]) && (!projectArray[0] === projects[i][0]) && projects[i][7]=="E") {
+        if ((projectArray[14] === projects[i][14]) && (!projectArray[0] === projects[i][0]) && projects[i][22]===true) {
             otherArray.push(projects[i])
         }
     }
