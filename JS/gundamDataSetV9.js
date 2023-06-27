@@ -1523,26 +1523,6 @@ function composeStatsArray () {
     statsArray.sort((a,b) => b[6] - a[6]);
 }
 
-function createBuildAnchor(array) {
-    let buildsPageListNode = document.getElementById("buildsLinksID");
-    let liItemNode = document.createElement("li");
-    let anchorNode = document.createElement("a");
-    let textNode = document.createTextNode(array[0]);
-    let hrefAttribute = document.createAttribute("href");
-    
-    if (array[11]) {
-        hrefAttribute.value = array[11];
-        anchorNode.setAttributeNode(hrefAttribute);
-        anchorNode.appendChild(textNode);
-        liItemNode.appendChild(anchorNode);
-    }
-    else {
-        liItemNode.appendChild(textNode);
-    }
-    
-    buildsPageListNode.appendChild(liItemNode);
-}
-
 function convertDate() {
     for (let i=0;i<projects.length;i++) {
         if (!projects[i][8]) {
@@ -1827,10 +1807,48 @@ function populateBuildsPage() {
     generateLists();
     postedArray = sortByDate(postedArray,"post");
 
+    let buildColumnsNode = document.getElementById('buildColumns');
     for (let i=0;i<postedArray.length;i++) {
         if(postedArray[i][22])
         {
-            createBuildAnchor(postedArray[i]);
+            let divNode = document.createElement('div');
+            let divClass = document.createAttribute('class');
+            divClass.value = 'col-7 col-mx-5 col-sm-mx-0 col-sm-6 col-md-4 col-xl-3 text-center';
+            divNode.setAttributeNode(divClass);
+
+            let aNode = document.createElement('a');
+            let hrefNode = document.createAttribute('href');
+            hrefNode.value = postedArray[i][11];
+            aNode.setAttributeNode(hrefNode);
+            let aClass = document.createAttribute('class');
+            aClass.value = 'mx-2';
+            aNode.setAttributeNode(aClass);
+
+            divNode.appendChild(aNode);
+
+            let profilePhotoNode = document.createElement('img');
+            let imgSRC = document.createAttribute('src');
+            imgSRC.value = postedArray[i][16][0];
+            profilePhotoNode.setAttributeNode(imgSRC);
+            let imgClass = document.createAttribute('class');
+            imgClass.value = 'img-thumbnail m-3';
+            profilePhotoNode.setAttributeNode(imgClass);
+
+            aNode.appendChild(profilePhotoNode);
+
+            /*let breakNode = document.createElement('br');
+            aNode.appendChild(breakNode);*/
+
+            let pNode = document.createElement('h4');
+            let pClass = document.createAttribute('class');
+            pClass.value = 'font-weight-bold text-danger';
+            pNode.setAttributeNode(pClass);
+            let pTextNode = document.createTextNode(postedArray[i][0]);
+            pNode.appendChild(pTextNode);
+
+            aNode.appendChild(pNode);
+
+            buildColumnsNode.appendChild(divNode);
         }
     }
 }
