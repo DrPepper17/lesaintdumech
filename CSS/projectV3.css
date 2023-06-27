@@ -46,6 +46,9 @@
 .pBandaiClass {
     display: none;
 }
+.transformerModel {
+    display: none;
+}
 
 #projectTitle, #projectTitle_Mobile {
     font-family: "Apple Chancery", Times, sans-serif;

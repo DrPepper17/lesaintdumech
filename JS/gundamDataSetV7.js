@@ -83,9 +83,15 @@
 
     // Transformer (8) //
     2. Name
-    3. Version 
-    4. Vehicle form
-    5. Faction
+    3.
+    4. Canon 
+    5. Vehicle forms
+    6. Faction
+    7. Rank
+    8. Cybertron Name
+    24. Nickname
+    25. Other Canon
+    26. Photo
 
     // Zoid (9) //
     2. Name
@@ -224,6 +230,38 @@ const models = [
         "Slug Bug",
         false,
         ["img/models/68beetle.jpeg"]
+    ],
+    [5,
+        8,
+        "Bumblebee",
+        'Warrior of Cybertron',
+        "Live Action Film Franchise",
+        [
+            ['Volkswagen Beetle'],
+            ['Jeep Wrangler'],
+            ['Chevrolet Camaro']
+        ],
+        'Autobots',
+        'Lieutenant, Second in Commond',
+        'N.B.E.-02; B-127',
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        "Bee",
+        false,
+        ["img/models/bumblebee.jpeg"]
     ]
 ];
 
@@ -716,7 +754,74 @@ const projects = [
     ["Levante",[1,"Nagato"],"Ship",false,false,false,"Space Rengo Kantai","B"],
 
     //Transformer
-    ["Wilbee",[1,"Bumblebee"],"Transformer",false,false,false,"","E","2022-11-06",9.33,false,"Builds/Wilbee.html",[""],"2023-01-09"],
+    ["Wilbee",
+        [1,"Bumblebee"],
+        "Transformer",
+        false,
+        false,
+        false,
+        false,
+        "E",
+        "2022-11-06",
+        9.33,
+        false,
+        "Builds/Transformers/Wilbee.html",
+        false,
+        "2023-01-09",
+        models[5],
+        [
+            ['../../img/projects/transformers/wilbee/wilbee01.jpeg','Wilbee','img1'],
+            ['../../img/projects/transformers/wilbee/wilbee02.jpeg','Wilbee','img2'],
+            ['../../img/projects/transformers/wilbee/wilbee03.jpeg','Wilbee','img3'],
+            ['../../img/projects/transformers/wilbee/wilbee04.jpeg','Wilbee','img4'],
+            ['../../img/projects/transformers/wilbee/wilbee05.jpeg','Wilbee','img5'],
+            ['../../img/projects/transformers/wilbee/wilbee06.jpeg','Wilbee','img6'],
+            ['../../img/projects/transformers/wilbee/wilbee07.jpeg','Wilbee','img7'],
+            ['../../img/projects/transformers/wilbee/wilbee08.jpeg','Wilbee','img8'],
+            ['../../img/projects/transformers/wilbee/wilbee09.jpeg','Wilbee','img9'],
+            ['../../img/projects/transformers/wilbee/wilbee10.jpeg','Wilbee','img10'],
+            ['../../img/projects/transformers/wilbee/wilbee11.jpeg','Wilbee','img11'],
+            ['../../img/projects/transformers/wilbee/wilbee12.jpeg','Wilbee','img12'],
+            ['../../img/projects/transformers/wilbee/wilbee13.jpeg','Wilbee','img13'],
+            ['../../img/projects/transformers/wilbee/wilbee14.jpeg','Wilbee','img14'],
+            ['../../img/projects/transformers/wilbee/wilbee15.jpeg','Wilbee','img15'],
+            ['../../img/projects/transformers/wilbee/wilbee16.jpeg','Wilbee','img16'],
+            ['../../img/projects/transformers/wilbee/wilbee17.jpeg','Wilbee','img17'],
+            ['../../img/projects/transformers/wilbee/wilbee18.jpeg','Wilbee','img18'],
+            ['../../img/projects/transformers/wilbee/wilbee19.jpeg','Wilbee','img19'],
+            ['../../img/projects/transformers/wilbee/wilbee20.jpeg','Wilbee','img20'],
+            ['../../img/projects/transformers/wilbee/wilbee21.jpeg','Wilbee','img21'],
+            ['../../img/projects/transformers/wilbee/wilbee22.jpeg','Wilbee','img22'],
+            ['../../img/projects/transformers/wilbee/wilbee23.jpeg','Wilbee','img23'],
+            ['../../img/projects/transformers/wilbee/wilbee24.jpeg','Wilbee','img24'],
+            ['../../img/projects/transformers/wilbee/wilbee25.jpeg','Wilbee','img25'],
+            ['../../img/projects/transformers/wilbee/wilbee26.jpeg','Wilbee','img26'],
+            ['../../img/projects/transformers/wilbee/wilbee27.jpeg','Wilbee','img27'],
+            ['../../img/projects/transformers/wilbee/wilbee28.jpeg','Wilbee','img28'],
+            ['../../img/projects/transformers/wilbee/wilbee29.jpeg','Wilbee','img29'],
+            ['../../img/projects/transformers/wilbee/wilbee30.jpeg','Wilbee','img30'],
+            ['../../img/projects/transformers/wilbee/wilbee31.jpeg','Wilbee','img31'],
+            ['../../img/projects/transformers/wilbee/wilbee32.jpeg','Wilbee','img32'],
+            ['../../img/projects/transformers/wilbee/wilbee33.jpeg','Wilbee','img33'],
+            ['../../img/projects/transformers/wilbee/wilbee34.jpeg','Wilbee','img34'],
+            ['../../img/projects/transformers/wilbee/wilbee35.jpeg','Wilbee','img35'],
+            ['../../img/projects/transformers/wilbee/wilbee36.jpeg','Wilbee','img36'],
+            ['../../img/projects/transformers/wilbee/wilbee37.jpeg','Wilbee','img37']
+        ],
+        ['img/projects/transformers/wilbee/wilbee37.jpeg','Profile Photo: Wilbee'],
+        'Was working on the Volkswagen Beetle model Wilbur and train of thought on this led me to considering the Transformer\'s 2018 Bumblebee film Volkswagen bug version of the eponymous \'Bumblebee\'. So this lead me to immediately buying the eqivalent Trumpeter brand model Bumblebee kit and painting him the same colors as Wilbur... thus \u00E0 la Wil-Beeeee!!!! I like to imagine him being my Wilbur transformed into robot mode. Oh and unlike Captain Bumble, Wilbee is a total Predacon.',
+        false,
+        [
+            ['Video','https://www.instagram.com/p/CnM23e9IV7k/'],
+            ['USA Gundam','https://www.usagundamstore.com/products/transformers-bumblebee-smart-model-kit?variant=41383099105477'],
+            ['NewType','https://newtype.us/p/TgNnMiuDbvcowmHCougQ/h/trumpeter-bumblebee-smart-kit'],
+            ['Amazon','https://a.co/d/a6lagxe']
+        ],
+        ['Wilbur'],
+        false,
+        true,
+        false
+    ],
     
     //Zoid
     ["Dash Hound",[1,"Shadow Fox"],"Zoid",false,false,false,"","C","2023-06-12",11.67,false,"Builds/Zoids/DashHound.html",["Tamiya: Gold TS-21 Can","Tamiya: Matt Black TS-6 Can","Tamiya: Copper PS-14 Can","Vallejo: Model Air US Earth Red 71.293","Vallejo: Model Air USAF Brown 71.125","Vallejo: Model Air Rust 71.069","Vallejo: Model Air Armor Brown 71.041","Vallejo: Mecha Color Dark Steel 69.065","Vallejo: Model Air Silver 71.063","Vallejo: Model Air Ivory 71.075","Testors: Brass 1182","Vallejo: Model Air Wood 71.077","Vallejo: Model Air US Desert Sand 71.140","Vallejo: Mecha Color Gun Metal 69.058","Vallejo: Model Air Camouflage Gray 71.280"]],
@@ -2659,7 +2764,43 @@ function popPokemon () {
 }
 
 function popTransformer () {
+    const transformerModel = document.querySelector(".transformerModel");
+    transformerModel.style.display = "block";
 
+    let tNameNode = document.getElementById('tName');
+    let tNameText = document.createTextNode(modelArray[2]);
+    tNameNode.appendChild(tNameText);
+
+    let tCyberNode = document.getElementById('tCyber');
+    let tCyberText = document.createTextNode(modelArray[8]);
+    tCyberNode.appendChild(tCyberText);
+
+    let tNicknameNode = document.getElementById('tNickname');
+    let tNicknameText = document.createTextNode(modelArray[24]);
+    tNicknameNode.appendChild(tNicknameText);
+
+    let tRankNode = document.getElementById('tRank');
+    let tRankText = document.createTextNode(modelArray[7]);
+    tRankNode.appendChild(tRankText);
+
+    let tFactionNode = document.getElementById('tFaction');
+    let tFactionText = document.createTextNode(modelArray[6]);
+    tFactionNode.appendChild(tFactionText);
+
+    let tCanonNode = document.getElementById('tCanon');
+    let tCanonText = document.createTextNode(modelArray[4]);
+    tCanonNode.appendChild(tCanonText);
+
+    let tFormNode = document.getElementById('tForm');
+    for (let i=0;i<modelArray[5].length;i++) {
+        let formLI = document.createElement('li');
+        let liClass = document.createAttribute('class');
+        liClass.value = 'font-weight-normal';
+        formLI.setAttributeNode(liClass);
+        let liText = document.createTextNode(modelArray[5][i]);
+        formLI.appendChild(liText);
+        tFormNode.appendChild(formLI);
+    }
 }
 
 function popSDWHero() {
@@ -2684,7 +2825,7 @@ function projectLinks(prArray,ID) {
         let liNode = document.createElement("li");
         let aNode = document.createElement("a");
         let aSrc = document.createAttribute("href");
-        aSrc.value = "../"+prArray[i][11];
+        aSrc.value = "../../"+prArray[i][11];
         aNode.setAttributeNode(aSrc);
         let aTextNode = document.createTextNode(prArray[i][0]);
         aNode.appendChild(aTextNode);
