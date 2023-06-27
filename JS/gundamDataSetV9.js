@@ -852,7 +852,7 @@ const projects = [
         "2022-11-06",
         9.33,
         false,
-        "Builds/Transformers/Wilbee.html",
+        "Builds/Transformers/wilbee.html",
         false,
         "2023-01-09",
         models[5],
