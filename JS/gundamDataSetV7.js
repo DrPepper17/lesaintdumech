@@ -1,6 +1,7 @@
 /*
     0. ID
     1. Project Type: (category list)
+        0. Doesn't meet categories
         1. Gundam
         2. Ship: Gundam
         3. Ship: Other Franchise
@@ -11,6 +12,7 @@
         8. Transformer
         9. Zoid
         10. 
+        11. 
 
     // Gundams (1) //
     2. Short Name
@@ -262,7 +264,35 @@ const models = [
         "Bee",
         false,
         ["img/models/bumblebee.jpeg"]
-    ]
+    ],
+    [6,
+        0,
+        false,
+        "Come on down to South Park and meet some friends of mine",
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        ["img/models/southpark.jpg","The South Park Gang"],
+    ],
 ];
 
 /*
@@ -326,7 +356,64 @@ const projects = [
 
     //After Colony (Wing)
     ["Leo Army",[6,"Leo"],"LEO",false,false,false,"Wing","C","2021-10-03",37.42,false,"Builds/LeoArmy.html",["Tested every paint"]],
-    ["South Park",[6,"Tallgeese","Epyon","Heavy Arms","Shenlong","Deathscythe","Sandrock"],"SD",false,false,false,"Wing","E","2021-06-05",54.42,true,"Builds/SouthPark.html",[""],"2021-06-21"],
+    ["South Park",
+        [6,"Tallgeese","Epyon","Heavy Arms","Shenlong","Deathscythe","Sandrock"],
+        "SD",
+        false,
+        false,
+        false,
+        "Wing",
+        "E",
+        "2021-06-05",
+        54.42,
+        true,
+        "Builds/Gundams/SouthPark.html",
+        false,
+        "2021-06-21",
+        models[6],
+        [
+            ["../../img/projects/gundams/southpark/sparkStan.jpeg","South Park: Stan","img1"],
+            ["../../img/projects/gundams/southpark/sparkKyle.jpeg","South Park: Kyle","img2"],
+            ["../../img/projects/gundams/southpark/sparkCartman.jpeg","South Park: Cartman","img3"],
+            ["../../img/projects/gundams/southpark/sparkKenny.jpeg","South Park: Kenny","img4"],
+            ["../../img/projects/gundams/southpark/sparkButters.jpeg","South Park: Butters","img5"],
+            ["../../img/projects/gundams/southpark/sparkWendy.jpeg","South Park: Wendy","img6"],
+            ["../../img/projects/gundams/southpark/spark02.jpeg","South Park","img7"],
+            ["../../img/projects/gundams/southpark/spark03.jpeg","South Park","img8"],
+            ["../../img/projects/gundams/southpark/spark05.jpeg","South Park","img9"],
+            ["../../img/projects/gundams/southpark/spark06.jpeg","South Park","img10"],
+            ["../../img/projects/gundams/southpark/spark07.jpeg","South Park","img11"],
+            ["../../img/projects/gundams/southpark/spark10.jpeg","South Park","img12"],
+            ["../../img/projects/gundams/southpark/spark11.jpeg","South Park","img13"],
+            ["../../img/projects/gundams/southpark/spark12.jpeg","South Park","img14"],
+            ["../../img/projects/gundams/southpark/spark13.jpeg","South Park","img15"],
+            ["../../img/projects/gundams/southpark/spark14.jpeg","South Park","img16"],
+            ["../../img/projects/gundams/southpark/spark15.jpeg","South Park","img17"],
+            ["../../img/projects/gundams/southpark/spark16.jpeg","South Park","img18"],
+            ["../../img/projects/gundams/southpark/spark17.jpeg","South Park","img19"],
+            ["../../img/projects/gundams/southpark/spark18.jpeg","South Park","img20"],
+            ["../../img/projects/gundams/southpark/spark19.jpeg","South Park","img21"],
+            ["../../img/projects/gundams/southpark/spark20.jpeg","South Park","img22"],
+            ["../../img/projects/gundams/southpark/spark21.jpeg","South Park","img23"],
+            ["../../img/projects/gundams/southpark/spark22.jpeg","South Park","img24"],
+            ["../../img/projects/gundams/southpark/spark23.jpeg","South Park","img25"],
+            ["../../img/projects/gundams/southpark/spark24.jpeg","South Park","img26"],
+            ["../../img/projects/gundams/southpark/spark25.jpeg","South Park","img27"],
+            ["../../img/projects/gundams/southpark/spark26.jpeg","South Park","img28"],
+            ["../../img/projects/gundams/southpark/spark01.jpeg","South Park","img29"],
+            ["../../img/projects/gundams/southpark/spark04.jpeg","South Park","img30"],
+            ["../../img/projects/gundams/southpark/spark08.jpeg","South Park","img31"],
+            ["../../img/projects/gundams/southpark/spark09.jpeg","South Park","img32"]
+        ],
+        ["img/projects/gundams/southpark/spark01.jpeg","Profile Photo: South Park"],
+        "After finishing the Bel-Air, I realized there was still a lot I had to learn about air brush painting. So before moving on to the larger projects I decided to do something fun on a much more small scale in order to get a little more practice. Looking for a theme I was inspired by the boys of South Park, plus the Operation Meteor lineup.",
+        false,
+        false,
+        false,
+        false,
+        true,
+        false
+    ],
     ["Gemini",[2,"Aquarius","Aquarius"],"SD",false,false,false,"Wing","E","2021-07-03-05",20.61,false,"Builds/Gemini.html",[""],"2022-01-24"],
     ["Pontus",[1,"Aquarius"],"SD",false,false,false,"Wing","B"],
     ["PB Deathscythe Hell (TV Version",[1,"Deathscythe Hell"],"HG",false,true,false,"Wing","A"],
@@ -820,7 +907,7 @@ const projects = [
         ['Wilbur'],
         false,
         true,
-        false
+        "Not Available"
     ],
     
     //Zoid
@@ -2766,6 +2853,10 @@ function popPokemon () {
 function popTransformer () {
     const transformerModel = document.querySelector(".transformerModel");
     transformerModel.style.display = "block";
+
+    let gGradeNode = document.getElementById("gGrade")
+    let gGradeText = document.createTextNode(projectArray[23]);
+    gGradeNode.appendChild(gGradeText);
 
     let tNameNode = document.getElementById('tName');
     let tNameText = document.createTextNode(modelArray[2]);

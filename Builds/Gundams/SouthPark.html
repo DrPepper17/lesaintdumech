@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.min.css" />  
+        <link rel="stylesheet" href="../../node_modules/font-awesome/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="../../node_modules/bootstrap-social/bootstrap-social.css" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&display=swap" />
+        <script src="../../JS/gundamDataSetV7.js"></script>
+        <script src="../../JS/frenchMetrics.js"></script>
+        <link rel="stylesheet" href="../../CSS/homeV6.css"/>
+        <link rel="stylesheet" href="../../CSS/modal.css"/>
+        <link rel="stylesheet" href="../../CSS/projectV3.css">
+
+        <title id="title">&#9884; Le Saint du Mech: </title>
+    </head>
+    <body onload="projectPage('South Park'),convertDateToday()">
+        <header class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <div class="row text-right">
+                    <div class="col text-warning mr-0 pr-1 h6" id="dateFR"></div><img src="../../img/french.png" height="20px"/>
+                </div>
+                <div class="row">
+                    <div class="col-3 col-lg-2">
+                        <a href="../../index.html"><img src="../../img/m_fleur.png" class="img-fluid" /></a>
+                    </div>
+                    <div class="col align-self-center ">
+                        <h1 class="d-none d-md-block">Le Saint du Mech</h1>
+                        <h2 class="d-md-none mt-3">Le Saint du Mech</h2>
+                        <h3 id="jumboNode"></h3>
+                    </div>
+                </div> 
+            </div>
+        </header>
+
+        <nav class="navbar navbar-expand-md navbar-dark sticky-top">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#siteNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="siteNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="../../index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../../blog.html">Blog</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../../builds.html">Builds</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../../statistics.html">Statistics</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../../ProjectGeneratorFive.html">Project Generator</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../../links.html">Links</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <span id="modalAnchor"></span>
+
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="../../builds.html">Build</a></li>
+                        <li class="breadcrumb-item active" id="breadcrumbNode"></li>
+                    </ol>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col mt-4">
+                    <h1 class="d-none d-sm-block" id="projectTitle"> </h1>
+                    <h3 class="d-sm-none mt-3" id="projectTitle_Mobile"></h>
+                    <h5 id="modelFullName"></h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-8 mt-4">
+                    <span id="projectName"><span class="font-weight-bold">Project: </span></span><br/>
+                    <span class="hide"><span id="modelName_Short"><span class="font-weight-bold">Model: </span></span><br/></span>
+                    <span class="pBandaiClass"><span id="pBandai" class="font-weight-bold"></span><br/></span>
+                    <span id="gGrade"><span class="font-weight-bold">Grade/Scale: </span>Super Deformed</span><br/>
+                    <span class="hide"><span class="otherModelsClass"><span id="otherModels"><span class="font-weight-bold">Additional Models: </span></span><br/></span></span>
+                    <span class="d-none d-md-block">
+                        <span id="dateStart"><span class="font-weight-bold">Date Started: </span></span>
+                        <span id="datePost"><span class="font-weight-bold">Date Posted: </span></span><br/>
+                    </span>
+                    <span class="d-md-none">
+                        <span id="dateStart_Mobile"><span class="font-weight-bold">Date Started: </span> </span><br/>
+                        <span id="datePost_Mobile"><span class="font-weight-bold">Date Posted: </span> </span><br/>
+                    </span>
+                    <span id="tHours"><span class="font-weight-bold">Total Hours</span> </span><br/>  
+                    <span id="LEDS"><span class="font-weight-bold">LEDs Used: </span></span><br/>
+                    <span id="cOwner" class="owner"><span class="font-weight-bold">Current Owner: </span> </span>
+                    <span id="descrip" class="d-none d-md-block"><span class="font-weight-bold">Theme/Description:</span></span><br/>
+                    <span class="d-none d-md-block"><span id="paints" class="gPaint"><span class="font-weight-bold">Paints Used:</span> </span></span>
+                </div>
+                <div class="col my-4" id="profilePhoto"></div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <p>
+                        <span id="descripMobile" class="d-md-none"><span class="font-weight-bold">Theme/Description:</span></span><br/>
+                        <span class="d-md-none"><span id="paintsMobile" class="gPaintMobile"><span class="font-weight-bold">Paints Used:</span></span></span>
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col mb-4" id="modelPhoto"></div>
+                <div class="col-md-6 mb-4">
+                    <span class="font-weight-bold text-danger h3">Operation Meteor </span><br/>
+                    <span class="font-weight-bold">Stan: </span>XXXG-01S Gundam<br/>
+                    <span class="font-weight-bold">Kyle: </span>XXXG-0SR Sandrock<br/>
+                    <span class="font-weight-bold">Cartman: </span>XXXG-01H Heavyarms<br/>
+                    <span class="font-weight-bold">Kenny: </span>XXXG-01D2 Deathscythe Hell<br/>
+                    <span class="font-weight-bold">Butters: </span>OZ-00MS Tallgeese<br/>
+                    <span class="font-weight-bold">Wendy: </span>OZ-13MS Epyon<br/>
+                </div>
+            </div>
+            <div class="row mb-3 gundamModel2">
+                <div class="col">
+                    <span class="d-lg-none">
+                        <span id="gManufacMobile"><span class="font-weight-bold">Manufacturer: </span> </span><br/>
+                        <span class="font-weight-bold">Affiliation:</span><br/>
+                        <ul class="mb-0" id="gAffiliateMobile" ></ul> 
+                        <span class="gFromClass_Mobile"><span id="gFromMobile"><span class="font-weight-bold">Developed From: </span> </span><br/></span>
+                        <span class="gToClass_Mobile"><span id="gToMobile"><span class="font-weight-bold">Developed Into</span> </span><br/></span>
+                    </span>
+                    <span id="gHeight"><span class="font-weight-bold">Height: </span> </span><br/>
+                    <span id="gWeight"><span class="font-weight-bold">Weight: </span> </span><br/>
+                    <span id="gMaterial"><span class="font-weight-bold">Material: </span> </span> <br/>
+                    <span id="gPower"><span class="font-weight-bold">Power Source: </span> </span><br/>
+                    <span class="font-weight-bold">Systems: </span><br/>
+                    <ul class="mb-0" id="gSystem"></ul>
+                    <span class="font-weight-bold">Armaments: </span><br/>
+                    <ul class="mb-0" id="gArmaments"></ul>
+                    <span class="font-weight-bold">Optional Armaments:  </span> <br/>
+                    <ul class="mb-0" id="gOptArm"></ul>
+                    <span id="gDesign"><span class="font-weight-bold">Designed by:  </span> </span><br/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 affiliates">
+                    <h4 class="font-weight-bold">Affiliated Projects</h4>
+                    <ul id="gAffiliates"></ul>
+                </div>
+                <div class="col otherBuilds">
+                    <h4 class="font-weight-bold" id="otherModelName">Other </h4>
+                    <ul id="otherBuilds"> </ul>
+                </div>
+            </div>
+            <div class="row mb-3 links">
+                <div class="col">
+                    <h4 class="font-weight-bold">Outside Links</h4>
+                    <ul id="outsideLinks"> </ul>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col">
+                    <h1>Gallery:</h1>
+                </div>
+            </div>
+            <div class="row text-center mt-0 mb-5">
+                <div class="col-sm-6 col-lg-3 mt-0" id="photoCol1">
+
+                </div>
+                <div class="col-sm-6 col-lg-3 mt-3 mt-sm-0" id="photoCol2">
+
+                </div>
+                <div class="col-sm-6 col-lg-3 mt-3 mt-lg-0" id="photoCol3">
+
+                </div>
+                <div class="col-sm-6 col-lg-3 mt-3 mt-lg-0 mb-5" id="photoCol4">
+
+                </div>
+            </div>
+        </div>
+
+        <footer class="site-footer">
+            <div class="container">
+                <div class="row mb-2">
+                    <div class="col text-center">
+                        <a href="../../index.html"><img src="../../img/m_fleur.png"  width="30px" class="img-fluid" /></a>
+                        <a class="btn btn-social-icon btn-instagram" href="https://www.instagram.com/lesaintdumech/" target="_blank"><i class="fa fa-instagram"></i></a>
+                        <a class="btn btn-social-icon btn-twitter" href="https://twitter.com/LeSaintDuMech" target="_blank"><i class="fa fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- jQuery, Popper.js, Bootstrap JavaScript plugins.-->
+        <script src="../../node_modules/jquery/dist/jquery.slim.min.js"></script>
+        <script src="../../node_modules/popper.js/dist/umd/popper.min.js"></script>
+        <script src="../../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    </body>
+</html>
