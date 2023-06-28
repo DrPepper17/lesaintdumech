@@ -5,7 +5,7 @@
 .affiliates {
     display: none;
 }
-.altNameClass {
+.altNameClass, .altNameClassShip {
     display: none;
 }
 .autoModel1 {
@@ -14,7 +14,7 @@
 .EWclass {
     display: none;
 }
-.g2pilot {
+.g2pilot, .g2pilotShip {
     display: none;
 }
 .gFromClass, .gFromClass_Mobile {
@@ -30,6 +30,9 @@
     display: none;
 }
 .gundamModel1, .gundamModel2 {
+    display: none;
+}
+.gundamShipModel1, .gundamShipModel2 {
     display: none;
 }
 .links {

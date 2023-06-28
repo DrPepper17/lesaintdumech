@@ -293,6 +293,44 @@ const models = [
         false,
         ["img/models/southpark.jpg","The South Park Gang"],
     ],
+    [7,
+        2,
+        "Eternal",
+        "ZAFT FFMH-Y101 Eternal",
+        "FFMH-Y101",
+        "Mobile Suit Gundam Seed",
+        false,
+        false,
+        false,
+        "Cosmic Era",
+        [71,"71 C.E.",'Present'],
+        "Andrew Watfeld",
+        ["Lacus Clyne"],
+        "ZAFT",
+        ["Clyne Faction","Three Ship Alliance","Terminal"],
+        [300,"300 Meters"],
+        false,
+        false,
+        false,
+        ["Main Cannon",
+            "Twin Rail Gun",
+            "Missile Launcher",
+            "Small Beam Cannon",
+            "Micro Missiles (x52)"],
+        ["METEOR Unit 01","METEOR Unit 02"],
+        ['ZGMF-X09A Justice Gundam',
+            'ZGMF-X19A \u221e Justice Gundam',
+            'ZGMF-X10A Freedom Gundam',
+            'ZGMF-X20A Strike Freedom Gundam',
+            'ZGMF-X88S Gaia Gundam',
+            'ZGMF-XX09T DOM Trooper'
+        ],
+        false,
+        false,
+        false,
+        false,
+        ["img/models/eternal.jpeg","Warship Eternal"]
+    ]
 ];
 
 /*
@@ -562,7 +600,49 @@ const projects = [
     ["Thin Blue Line",[2,"Duel Gundam","Duel Gundam Assault Shroud"],"MG",false,false,false,"Seed","B"],
     ["Eclipse ???",[1,"Eclipse"],"MG",false,false,false,"Seed","B"],
     ["PB Eclipse [MG]",[1.5,"Eclipse","Eclipse Maneuver Striker"],"MG",true,true,false,"Seed","E","2022-02",17.75,false,"Builds/PBEclipseMG.html",false,"2023-01-30"],
-    ["Eternal",[1,"Eternal"],"Ship",false,false,false,"Seed","E","2021-08-05",24.1,false,"Builds/Eternal.html",[""],"2022-01-03"],
+    ["Eternal",[1,"Eternal"],"Ship",false,false,false,"Seed","E","2021-08-05",24.1,false,
+        "Builds/Ships/eternal.html",false,"2022-01-03",models[7],
+        [
+            ['../../img/projects/ships/eternal/eternal01.jpeg','Warship Eternal','img1'],
+            ['../../img/projects/ships/eternal/eternal02.jpeg','Warship Eternal','img2'],
+            ['../../img/projects/ships/eternal/eternal03.jpeg','Warship Eternal','img3'],
+            ['../../img/projects/ships/eternal/eternal04.jpeg','Warship Eternal','img4'],
+            ['../../img/projects/ships/eternal/eternal05.jpeg','Warship Eternal','img5'],
+            ['../../img/projects/ships/eternal/eternal06.jpeg','Warship Eternal','img6'],
+            ['../../img/projects/ships/eternal/eternal07.jpeg','Warship Eternal','img7'],
+            ['../../img/projects/ships/eternal/eternal08.jpeg','Warship Eternal','img8'],
+            ['../../img/projects/ships/eternal/eternal09.jpeg','Warship Eternal','img9'],
+            ['../../img/projects/ships/eternal/eternal10.jpeg','Warship Eternal','img10'],
+            ['../../img/projects/ships/eternal/eternal11.jpeg','Warship Eternal','img11'],
+            ['../../img/projects/ships/eternal/eternal12.jpeg','Warship Eternal','img12'],
+            ['../../img/projects/ships/eternal/eternal13.jpeg','Warship Eternal','img13'],
+            ['../../img/projects/ships/eternal/eternal14.jpeg','Warship Eternal','img14'],
+            ['../../img/projects/ships/eternal/eternal15.jpeg','Warship Eternal','img15'],
+            ['../../img/projects/ships/eternal/eternal16.jpeg','Warship Eternal','img16'],
+            ['../../img/projects/ships/eternal/eternal17.jpeg','Warship Eternal','img17'],
+            ['../../img/projects/ships/eternal/eternal18.jpeg','Warship Eternal','img18'],
+            ['../../img/projects/ships/eternal/eternal19.jpeg','Warship Eternal','img19'],
+            ['../../img/projects/ships/eternal/eternal20.jpeg','Warship Eternal','img20'],
+            ['../../img/projects/ships/eternal/eternal21.jpeg','Warship Eternal','img21'],
+            ['../../img/projects/ships/eternal/eternal22.jpeg','Warship Eternal','img22'],
+            ['../../img/projects/ships/eternal/eternal23.jpeg','Warship Eternal','img23'],
+            ['../../img/projects/ships/eternal/eternal24.jpeg','Warship Eternal','img24'],
+            ['../../img/projects/ships/eternal/eternal25.jpeg','Warship Eternal','img25'],
+            ['../../img/projects/ships/eternal/eternal26.jpeg','Warship Eternal','img26'],
+            ['../../img/projects/ships/eternal/eternal27.jpeg','Warship Eternal','img27'],
+            ['../../img/projects/ships/eternal/eternal28.jpeg','Warship Eternal','img28'],
+            ['../../img/projects/ships/eternal/eternal29.jpeg','Warship Eternal','img29'],
+            ['../../img/projects/ships/eternal/eternal30.jpeg','Warship Eternal','img30']
+        ],
+        ['img/projects/ships/eternal/eternal28.jpeg','Profile Photo: Eternal'],
+        'My first ship buid.',
+        false,
+        false,
+        ['Archangel'],
+        false,
+        true,
+        '1:1700'
+    ],
     ["Orga",[1,"Forbidden"],"FM",false,false,false,"Seed","A"],
     ["Anthem",[1,"Freedom"],"MG",false,false,false,"Seed","E","2022-05-05",73.16,true,"Builds/Anthem.html",[""],"2022-07-04"],
     ["Freedom [MGSD]",[1,"Freedom"],"MGSD",true,false,false,"Seed","D","2023-03-05",8.5,false,false,false],
@@ -2739,9 +2819,11 @@ function popGundamPage () {
 
     let fYear = modelArray[10][0];
     let lYear = modelArray[10][2];
-    let timespan = lYear-fYear;
+    let timespan = '';
     if (fYear===lYear) {
         timespan = 1;
+    } else if (!lYear == 'Present') {
+        timespan = lYear-fYear;
     }
 
     let gTimelineNode = document.getElementById("gTimeline");
@@ -2917,7 +2999,162 @@ function popSDWHero() {
 }
 
 function popShipGundam () {
+    const gundamModelClass1 = document.querySelector(".gundamShipModel1");
+    gundamModelClass1.style.display = "block";
 
+    const gundamModelClass2 = document.querySelector(".gundamShipModel2");
+    gundamModelClass2.style.display = "block";
+    
+    if (projectArray[4]) {
+        const pBandaiClass = document.querySelector(".pBandaiClass");
+        pBandaiClass.style.display = "block";
+        
+        let pBandaiNode = document.getElementById("pBandai");
+        let pBandaiSpan = document.createElement("span");
+        let pBandaiSpanClass = document.createAttribute("class");
+        pBandaiSpanClass.value = "text-danger font-weight-bold";
+        pBandaiSpan.setAttributeNode(pBandaiSpanClass);
+        let pBandaiText = document.createTextNode("P-BANDAI Edition")
+        let straightBuildText = document.createTextNode(" Straight");
+        let buildText = document.createTextNode(" Build");
+        pBandaiSpan.appendChild(pBandaiText);
+        if (projectArray[3]) {
+            pBandaiSpan.appendChild(straightBuildText);
+        }
+        pBandaiSpan.appendChild(buildText);
+        pBandaiNode.appendChild(pBandaiSpan);
+    }
+
+    let gGradeNode = document.getElementById("gGrade");
+    let gGradeText = document.createTextNode(projectArray[23]);
+    gGradeNode.appendChild(gGradeText);
+    
+    let gmodelNameFullNode = document.getElementById("sgmodelNameFull");
+    let gmodelNameFullText = document.createTextNode(modelArray[2]);
+    gmodelNameFullNode.appendChild(gmodelNameFullText);
+
+    let serialNode = document.getElementById("sgserial");
+    let serialText = document.createTextNode(modelArray[4]);
+    serialNode.appendChild(serialText);
+ 
+    if (modelArray[24]) {
+        const altNameClass = document.querySelector(".altNameClassShip");
+        altNameClass.style.display = "block";
+
+        let altNameNode = document.getElementById("sgAltName");
+        let altNameText = document.createTextNode(modelArray[24]);
+        altNameNode.appendChild(altNameText);
+    }
+
+    let pilotNode = document.getElementById("sgpilot");
+    let pilotText = document.createTextNode(modelArray[11]);
+    pilotNode.appendChild(pilotText);
+
+    if (modelArray[12]) {
+        const g2pilot = document.querySelector(".g2pilotShip");
+        g2pilot.style.display = "block";
+
+        let g2ndPilotsNode = document.getElementById("sg2ndPilots");
+        let g2ndPilotsText = document.createTextNode(modelArray[12][0]);
+        g2ndPilotsNode.appendChild(g2ndPilotsText);
+
+        if (modelArray[12].length>1) {
+            for (let i=1;i<modelArray[12].length;i++) {
+                let otherPilotsText = document.createTextNode(", "+modelArray[12][i]);
+                g2ndPilotsNode.appendChild(otherPilotsText);
+            }
+        }
+    }
+
+    let gSeriesNode = document.getElementById("sgSeries");
+    let gSeriesText = document.createTextNode(modelArray[5]);
+    gSeriesNode.appendChild(gSeriesText);
+
+    let gEraNode = document.getElementById("sgEra");
+    let gEraText = document.createTextNode(modelArray[9]);
+    gEraNode.appendChild(gEraText);
+
+    let gCreateDateNode = document.getElementById("sgCreateDate");
+    let gCreateDateText = document.createTextNode(modelArray[10][1]);
+    gCreateDateNode.appendChild(gCreateDateText);
+
+    let fYear = modelArray[10][0];
+    let lYear = modelArray[10][2];
+    let timespan = '';
+    if (fYear===lYear) {
+        timespan = 1;
+    } else if (!lYear == 'Present') {
+        timespan = lYear-fYear;
+    }
+
+    let gTimelineNode = document.getElementById("sgTimeline");
+    let gTimelineText = document.createTextNode(fYear+"-"+lYear+"; "+timespan+" year(s)");
+    gTimelineNode.appendChild(gTimelineText);
+
+    let gManufacNode = document.getElementById("sgManufac");
+    let gManufacText = document.createTextNode(modelArray[13]);
+    gManufacNode.appendChild(gManufacText);
+
+    let gManufacNodeMobile = document.getElementById("sgManufacMobile");
+    let gManufacTextMobile = document.createTextNode(modelArray[13]);
+    gManufacNodeMobile.appendChild(gManufacTextMobile);
+
+    let gAffiliateNode = document.getElementById("sgAffiliate");
+    let gAffiliateNodeMobile = document.getElementById("sgAffiliateMobile");
+    for (let i=0;i<modelArray[14].length;i++) {
+        let gAffiliate_LI = document.createElement("li");
+        let gAffiliate_LIMobile = document.createElement("li");
+        let gAffiliate_LIClass = document.createAttribute("Class");
+        gAffiliate_LIClass.value = "font-weight-normal";
+        gAffiliate_LI.setAttributeNode(gAffiliate_LIClass);
+        let gAffiliate_LIMobileClass = document.createAttribute("Class");
+        gAffiliate_LIMobileClass.value = "font-weight-normal";
+        gAffiliate_LIMobile.setAttributeNode(gAffiliate_LIMobileClass);
+        let gAffilateText = document.createTextNode(modelArray[14][i]);
+        let gAffilateTextMobile = document.createTextNode(modelArray[14][i]);
+        gAffiliateNode.appendChild(gAffiliate_LI);
+        gAffiliate_LI.appendChild(gAffilateText);
+        gAffiliateNodeMobile.appendChild(gAffiliate_LIMobile);
+        gAffiliate_LIMobile.appendChild(gAffilateTextMobile);
+    }
+
+    let gHeightNode = document.getElementById("sgHeight");
+    let gHeightText = document.createTextNode(modelArray[15][1]);
+    gHeightNode.appendChild(gHeightText);
+
+
+    for (let i=0;i<modelArray[21].length;i++) {
+        let gSystemNode = document.getElementById("sgSystem");
+        let gSystemLI = document.createElement("li");
+        let gSystemLIClass = document.createAttribute("Class");
+        gSystemLIClass.value = "font-weight-normal";
+        gSystemLI.setAttributeNode(gSystemLIClass);
+        let gSystemText = document.createTextNode(modelArray[21][i]);
+        gSystemLI.appendChild(gSystemText);
+        gSystemNode.appendChild(gSystemLI);
+    }
+
+    for (let i=0;i<modelArray[19].length;i++) {
+        let gArmamentsNode = document.getElementById("sgArmaments");
+        let gArmamentsLI = document.createElement("li");
+        let gArmamentsLIClass = document.createAttribute("Class");
+        gArmamentsLIClass.value = "font-weight-normal";
+        gArmamentsLI.setAttributeNode(gArmamentsLIClass);
+        let gArmamentsText = document.createTextNode(modelArray[19][i]);
+        gArmamentsLI.appendChild(gArmamentsText);
+        gArmamentsNode.appendChild(gArmamentsLI);
+    }
+
+    for (let i=0;i<modelArray[20].length;i++) {
+        let gOptArmNode = document.getElementById("sgOptArm");
+        let gOptArmLI = document.createElement("li");
+        let gOptArmLIClass = document.createAttribute("Class");
+        gOptArmLIClass.value = "font-weight-normal";
+        gOptArmLI.setAttributeNode(gOptArmLIClass);
+        let gOptArmText = document.createTextNode(modelArray[20][i]);
+        gOptArmLI.appendChild(gOptArmText);
+        gOptArmNode.appendChild(gOptArmLI);
+    }
 }
 
 function popShipOther () {
