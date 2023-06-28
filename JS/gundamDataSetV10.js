@@ -594,7 +594,7 @@ const projects = [
     ["Calamitous Godzilla",[1,"Calamity"],"FM",false,false,false,"Seed","B"],
     ["PB Armageddon",[2.5,"Dagger L","Dagger L","Dagger Expansion Pack"],"HG",false,true,false,"Seed","E","2022-03-06",28.5,false,"Builds/Armageddon.html",[""],"2022-05-23"],
     ["King Leir",[1,"Dagger L"],"HG",false,false,false,"Seed","E","2021-06-10",14.09,false,"Builds/KingLeir.html",[""],"2021-06-26"],
-    ["Samus: Varia Suit",[1,"Dagger L"],"HG",false,false,false,"Seed","C","2023-06-13",3.58,false,"Builds/Gundams/VariaSuit.html",["Tamiya: Gold TS-21 Can","Testors: Sunflower 1191","Tamiya: Matt Black TS-6 Can","Vallejo: Game Color Fluorescent Green 72.104","Tamiya: Gun Metal TS-38 Can"]],
+    ["Samus: Varia Suit",[1,"Dagger L"],"HG",false,false,false,"Seed","C","2023-06-13",3.58,false,"Builds/Gundams/VariaSuit.html",["Tamiya: Gold TS-21 Can","Testors: Sunflower 1191","Tamiya: Matt Black TS-6 Can","Vallejo Game Color: Fluorescent Green 72.104","Tamiya: Gun Metal TS-38 Can"]],
     ["Charizard",[1,"Destiny"],"MG",false,false,false,"Seed","B"],
     ["Charizard X",[1,"Destiny"],"SD",false,false,false,"Seed","E","2021-10-10",8.13,false,"Builds/CharizardX.html",[""],"2022-05-16"],
     ["Iapetus",[1,"Destiny"],"SD",false,false,false,"Seed","B"],
@@ -602,7 +602,7 @@ const projects = [
     ["Eclipse ???",[1,"Eclipse"],"MG",false,false,false,"Seed","B"],
     ["PB Eclipse [MG]",[1.5,"Eclipse","Eclipse Maneuver Striker"],"MG",true,true,false,"Seed","E","2022-02",17.75,false,"Builds/PBEclipseMG.html",false,"2023-01-30"],
     ["Eternal",[1,"Eternal"],"Ship",false,false,false,"Seed","E","2021-08-05",24.1,false,
-        "Builds/Ships/eternal.html",false,"2022-01-03",models[7],
+        "Builds/Ships/eternal.html",['Vallejo Model Color: Sunset Red 70.802'],"2022-01-03",models[7],
         [
             ['../../img/projects/ships/eternal/eternal01.jpeg','Warship Eternal','img1'],
             ['../../img/projects/ships/eternal/eternal02.jpeg','Warship Eternal','img2'],
@@ -636,7 +636,7 @@ const projects = [
             ['../../img/projects/ships/eternal/eternal30.jpeg','Warship Eternal','img30']
         ],
         ['img/projects/ships/eternal/eternal28.jpeg','Profile Photo: Eternal'],
-        'My first ship buid.',
+        'This was my first ship buid. And I am awfully quite attached to it. At the time I was in a Gundam Seed kick and rewatching that series so the ships and machines from that saga was on my mind. Seed is probably home to all my favorite vessels throughout the entire Gundam saga. Whether it be Eternal or Archangel they\'re all so cool. And Eternal is by my far the coolest one. For this I was trying to be as realistic and close to the source material as possible. So rather than do a custom design I painted it exactly as how it appears in the anime. So expect lots of pink and purples.',
         false,
         false,
         ['Archangel'],
@@ -648,7 +648,7 @@ const projects = [
     ["Anthem",[1,"Freedom"],"MG",false,false,false,"Seed","E","2022-05-05",73.16,true,"Builds/Anthem.html",[""],"2022-07-04"],
     ["Freedom [MGSD]",[1,"Freedom"],"MGSD",true,false,false,"Seed","D","2023-03-05",8.5,false,false,false],
     ["Liberty",[1,"Freedom"],"SD",false,false,false,"Seed","E","2022-04-09",18,false,"Builds/Liberty.html",[""],"2022-06-27"],
-    ["Old Glory",[1,"Freedom"],"MGSD",false,false,false,"Seed","C","2023-05-06",28.83,false,"Builds/Gundams/OldGlory.html",["Mission Models: MMP-001 White","Testors: Red Grapefruit 1196","Testors: Cherry Red 1197","Vallejo: Mecha Color Gold 69.059","Vallejo: Mecha Color Electric Blue 60.020","Vallejo: Model Air Black 71.057","Vallejo: Mecha Color Metallic Blue 69.067","Vallejo: Model Air Metallic Signal Red 71.070","Vallejo: Mecha Color Sky Blue 69.017","Tamiya: Metallic BLue TS-19 Can","Tamiya: Gold TS-21 Can","Tamiya: Matt White TS-27 Can","Tamiya: Metallic Red PS-15 Can","Tamiya: Clear Red X-27"]],
+    ["Old Glory",[1,"Freedom"],"MGSD",false,false,false,"Seed","C","2023-05-06",28.83,false,"Builds/Gundams/OldGlory.html",["Mission Models: MMP-001 White","Testors: Red Grapefruit 1196","Testors: Cherry Red 1197","Vallejo Mecha Color: Gold 69.059","Vallejo Mecha Color: Electric Blue 60.020","Vallejo Model Air: Black 71.057","Vallejo Mecha Color: Metallic Blue 69.067","Vallejo Model Air: Metallic Signal Red 71.070","Vallejo Mecha Color: Sky Blue 69.017","Tamiya: Metallic BLue TS-19 Can","Tamiya: Gold TS-21 Can","Tamiya: Matt White TS-27 Can","Tamiya: Metallic Red PS-15 Can","Tamiya: Clear Red X-27"]],
     ["Billy Blue Jay",[1,"Ginn"],"MG",false,false,false,"Seed","B"],
     ["PB Destiny Impulse (Regenes) [MG]",[1,"Impulse, Destiny"],"Seed","MG",true,true,false,"C","2023-05-05",6.5,false,"Builds/PBDesintyImpulseREgenesMG.html",false],
     ["PB Destiny Impulse [RG]",[1,"Impulse, Destiny"],"RG",true,true,false,"Seed","B"],
@@ -783,7 +783,7 @@ const projects = [
     ["\u00dcbermensch",[1,"Vidar"],"FM",false,false,false,"IBO","B"],
 
     //Universal Century
-    ["Dew Drop",[1,"Acguy"],"HG",false,false,false,"UC","E","2023-05-29-08",5.75,false,"Builds/Gundams/DewDrop.html",["Vallejo: Model Air Underside Blue 71.332","Vallejo: Model Air French Blue 71.088","Vallejo: Model Air Steel Blue 71.087","Vallejo: Mecha Color Metallic Blue 69.067","Tamiya: Gold TS-21 Can","Tamiya: Metallic Red PS-15 Can"],"2023-06-19"],
+    ["Dew Drop",[1,"Acguy"],"HG",false,false,false,"UC","E","2023-05-29-08",5.75,false,"Builds/Gundams/DewDrop.html",["Vallejo Model Air: Underside Blue 71.332","Vallejo Model Air: French Blue 71.088","Vallejo Model Air: Steel Blue 71.087","Vallejo Mecha Color: Metallic Blue 69.067","Tamiya: Gold TS-21 Can","Tamiya: Metallic Red PS-15 Can"],"2023-06-19"],
     ["Fantomas",[1,"Banshee Norn"],"SD",false,false,false,"UC","E","2021-06-12",15.02,true,"Builds/Fantomas.html",[""],"2021-08-03"],
     ["King Uranus",[1,"Banshee Norn"],"RG",false,false,false,"UC","B"],
     ["Gundam ARRRgent",[1,"Crossbone X-1"],"SD",false,false,false,"UC","E","2021-06-09",14.09,false,"Builds/arrrgent.html",[""],"2021-06-25"],
@@ -992,7 +992,7 @@ const projects = [
     ],
     
     //Zoid
-    ["Dash Hound",[1,"Shadow Fox"],"Zoid",false,false,false,"","C","2023-06-12",11.67,false,"Builds/Zoids/DashHound.html",["Tamiya: Gold TS-21 Can","Tamiya: Matt Black TS-6 Can","Tamiya: Copper PS-14 Can","Vallejo: Model Air US Earth Red 71.293","Vallejo: Model Air USAF Brown 71.125","Vallejo: Model Air Rust 71.069","Vallejo: Model Air Armor Brown 71.041","Vallejo: Mecha Color Dark Steel 69.065","Vallejo: Model Air Silver 71.063","Vallejo: Model Air Ivory 71.075","Testors: Brass 1182","Vallejo: Model Air Wood 71.077","Vallejo: Model Air US Desert Sand 71.140","Vallejo: Mecha Color Gun Metal 69.058","Vallejo: Model Air Camouflage Gray 71.280"]],
+    ["Dash Hound",[1,"Shadow Fox"],"Zoid",false,false,false,"","C","2023-06-12",11.67,false,"Builds/Zoids/DashHound.html",["Tamiya: Gold TS-21 Can","Tamiya: Matt Black TS-6 Can","Tamiya: Copper PS-14 Can","Vallejo Model Air: US Earth Red 71.293","Vallejo Model Air: USAF Brown 71.125","Vallejo Model Air: Rust 71.069","Vallejo Model Air: Armor Brown 71.041","Vallejo Mecha Color: Dark Steel 69.065","Vallejo Model Air: Silver 71.063","Vallejo Model Air: Ivory 71.075","Testors: Brass 1182","Vallejo Model Air: Wood 71.077","Vallejo Model Air: US Desert Sand 71.140","Vallejo Mecha Color: Gun Metal 69.058","Vallejo Model Air: Camouflage Gray 71.280"]],
     ["Shere Khan",[1,"Blade Liger"],"Zoid",false,false,false,"","B"],
     ["Akela",[1,"Konig Wolf Heavy Arms"],"Zoid",false,false,false,"","A"],
     ["Kipling",[1,"Liger Zero X"],"Zoid",false,false,false,"","B"]
@@ -1917,12 +1917,9 @@ function populateBuildsPage() {
 
             aNode.appendChild(profilePhotoNode);
 
-            /*let breakNode = document.createElement('br');
-            aNode.appendChild(breakNode);*/
-
             let pNode = document.createElement('h4');
             let pClass = document.createAttribute('class');
-            pClass.value = 'font-weight-bold text-danger';
+            pClass.value = 'font-weight-bold text-danger ml-5';
             pNode.setAttributeNode(pClass);
             let pTextNode = document.createTextNode(postedArray[i][0]);
             pNode.appendChild(pTextNode);
@@ -2301,28 +2298,19 @@ function projectPage(string) {
     let descripMobileText = document.createTextNode(projectArray[17]);
     descripMobileNode.appendChild(descripMobileText);
 
-    if (projectArray[12] == true) {
+    if (projectArray[12]) {
         const gPaintClass = document.querySelector(".gPaint");
         gPaintClass.style.display = "block";
-        const gPaintMobileClass = document.querySelector(".gPaintMobile");
-        gPaintMobileClass.style.display = "block";
 
-        let paintsNode = document.getElementById("paints");
-        let paintsNodeMobile = document.getElementById("paintsMobile");
-
-        let gPaintText = projectArray[12][0];
-        let paintsTextNode = document.createTextNode(gPaintText);
-        let paintsTextMobileNode = document.createTextNode(gPaintText);
-        paintsNode.appendChild(paintsTextNode);
-        paintsNodeMobile.appendChild(paintsTextMobileNode);
-        if (projectArray[12].length>1) {
-            for (let i=1;i<projectArray[12].length;i++) {
-                gPaintText = ", "+projectArray[12][i];
-                let paintsText2 = document.createTextNode(gPaintText);
-                let paintsTextMobile2 = document.createTextNode(gPaintText);
-                paintsNode.appendChild(paintsText2);
-                paintsNodeMobile.appendChild(paintsTextMobile2);
-            }
+        let paintUL = document.getElementById('paints');
+        for (let i=0;i<projectArray[12].length;i++) {
+            let liNode = document.createElement('li');
+            let liNodeClass = document.createAttribute('class');
+            liNodeClass.value = 'font-weight-normal list-unstyled';
+            liNode.setAttributeNode(liNodeClass);
+            let paintColor = document.createTextNode(projectArray[12][i]);
+            liNode.appendChild(paintColor);
+            paintUL.appendChild(liNode);
         }
     }
 
@@ -2829,13 +2817,18 @@ function popGundamPage () {
     let timespan = '';
     if (fYear===lYear) {
         timespan = 1;
-    } else if (!lYear == 'Present') {
+    } else if (!lYear != 'Present') {
         timespan = lYear-fYear;
     }
 
     let gTimelineNode = document.getElementById("gTimeline");
-    let gTimelineText = document.createTextNode(fYear+"-"+lYear+"; "+timespan+" year(s)");
+    let gTimelineText = document.createTextNode(fYear+" - "+lYear);
     gTimelineNode.appendChild(gTimelineText);
+
+    if (lYear != 'Present') {
+        let yearsTimelineText = document.createTextNode("; "+timespan+" year(s)");
+        gTimelineNode.appendChild(yearsTimelineText);
+    }
 
     let gManufacNode = document.getElementById("gManufac");
     let gManufacText = document.createTextNode(modelArray[13]);
@@ -3090,13 +3083,18 @@ function popShipGundam () {
     let timespan = '';
     if (fYear===lYear) {
         timespan = 1;
-    } else if (!lYear == 'Present') {
+    } else if (lYear != 'Present') {
         timespan = lYear-fYear;
     }
 
     let gTimelineNode = document.getElementById("sgTimeline");
-    let gTimelineText = document.createTextNode(fYear+"-"+lYear+"; "+timespan+" year(s)");
+    let gTimelineText = document.createTextNode(fYear+"-"+lYear);
     gTimelineNode.appendChild(gTimelineText);
+
+    if (lYear != 'Present') {
+        let yearsTimelineText = document.createTextNode("; "+timespan+" year(s)");
+        gTimelineNode.appendChild(yearsTimelineText);
+    }
 
     let gManufacNode = document.getElementById("sgManufac");
     let gManufacText = document.createTextNode(modelArray[13]);

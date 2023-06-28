@@ -23,9 +23,6 @@
 .gPaint {
     display: none;
 }
-.gPaintMobile {
-    display: none;
-}
 .gToClass, .gToClass_Mobile {
     display: none;
 }
