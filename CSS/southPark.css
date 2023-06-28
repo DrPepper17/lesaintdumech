@@ -1,0 +1,100 @@
+.hide {
+    display: none;
+}
+
+.affiliates {
+    display: none;
+}
+.altNameClass, .altNameClassShip {
+    display: none;
+}
+.autoModel1 {
+    display: none;
+}
+.EWclass {
+    display: none;
+}
+.g2pilot, .g2pilotShip {
+    display: none;
+}
+.gFromClass, .gFromClass_Mobile {
+    display: none;
+}
+.gPaint {
+    display: none;
+}
+.gToClass, .gToClass_Mobile {
+    display: none;
+}
+.gundamModel1, .gundamModel2 {
+    display: none;
+}
+.gundamShipModel1, .gundamShipModel2 {
+    display: none;
+}
+.links {
+    display: none;
+}
+.mobileArmorClass {
+    display: none;
+}
+.otherBuilds {
+    display: none;
+}
+.otherModelsClass {
+    display: none;
+}
+.owner { 
+    display: none;
+}
+.pBandaiClass {
+    display: none;
+}
+.shipModel1, .shipModel2 {
+    display: none;
+}
+.transformerModel {
+    display: none;
+}
+
+#projectTitle, #projectTitle_Mobile {
+    font-family: "Apple Chancery", Times, sans-serif;
+}
+#projectTitle {
+    font-size: 3em;
+}
+#projectTitle, #projectTitle_Mobile, #modelFullName {
+    color: rgb(250, 69, 129);
+}
+
+/* SHIP: OTHER */
+.osSeriesCl {
+    display: none;
+}
+.osFranCl {
+    display: none;
+}
+.osCreateCl {
+    display: none;
+}
+.osAffilCl {
+    display: none;
+}
+.osHeightCl, .osHeightClMb {
+    display: none;
+}
+.osLengthCl, .osLengthClMb {
+    display: none;
+}
+.osWidthCl, .osWidthClMb {
+    display: none;
+}
+.osPropulsionCl {
+    display: none;
+}
+.osDefensesCl {
+    display: none;
+}
+.osArmCl {
+    display: none;
+}
