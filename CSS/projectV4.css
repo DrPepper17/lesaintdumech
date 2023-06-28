@@ -50,6 +50,9 @@
 .pBandaiClass {
     display: none;
 }
+.shipModel1, .shipModel2 {
+    display: none;
+}
 .transformerModel {
     display: none;
 }
@@ -62,4 +65,36 @@
 }
 #projectTitle, #projectTitle_Mobile, #modelFullName {
     color: rgb(250, 69, 129);
+}
+
+/* SHIP: OTHER */
+.osSeriesCl {
+    display: none;
+}
+.osFranCl {
+    display: none;
+}
+.osCreateCl {
+    display: none;
+}
+.osAffilCl {
+    display: none;
+}
+.osHeightCl, .osHeightClMb {
+    display: none;
+}
+.osLengthCl, .osLengthClMb {
+    display: none;
+}
+.osWidthCl, .osWidthClMb {
+    display: none;
+}
+.osPropulsionCl {
+    display: none;
+}
+.osDefensesCl {
+    display: none;
+}
+.osArmCl {
+    display: none;
 }

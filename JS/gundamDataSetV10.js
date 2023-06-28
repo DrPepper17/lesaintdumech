@@ -46,12 +46,60 @@
     2. Short Name
     3. Full Name
     4. Serial Number
+    5. Series
+    6. ...
+    7. ...
+    8. ...
+    9. Era
+    10. Timeline (array) [integer,string,last year seen]
+    11. Pilot
+    12. Secondary Pilots (array)
+    13. Manufacturer
+    14. Affiliation  (array)
+    15. length [integer,string]
+    16. ...
+    17. ...
+    18. ...
+    19. Armaments (Array)
+    20. Equipment (array)
+    21. Units Onboard
+    22. ...
+    23. ...
+    24. ...
+    25. ...
+    26. original photo (array): ["file path","photo name"]
+    27. title/classification
+    28. 
+
 
     // Ship (fictional): Other (3) //
     2. Short Name
     3. Full Name
-    4. Serial Number. 
-    5. 
+    4. Serial Number / series
+    5. Franchise
+    6. ...
+    7. ...
+    8. ...
+    9. Era
+    10. Creations (array) [integer,string]
+    11. ...
+    12. ...
+    13. ...
+    14. Affiliation  (array)
+    15. Height [integer,string]
+    16. Length [integer,string]
+    17. Width [integer,string]
+    18. Propulsion
+    19. Armaments (Array)
+    20. ...
+    21. Defenses (array)
+    22. ...
+    23. ...
+    24. ...
+    25. ...
+    26. original photo (array): ["file path","photo name"]
+    27. title/classification
+    28. 
 
     // Car (4) //
     2. Short Name
@@ -331,6 +379,35 @@ const models = [
         false,
         ["img/models/eternal.jpeg","Warship Eternal"],
         'Warship'
+    ],
+    [8,
+        3,
+        "Andromed Black",
+        "StarBlazers Andromeda Black",
+        "Andromeda Class",
+        "StarBlazers",
+        false,
+        false,
+        false,
+        "Anno Domini",
+        [2203,"May 2203 A.D."],
+        false,
+        false,
+        false,
+        ['Earth Federation Cosmo Navy'],
+        [142,'142 Meters'],
+        [444,"444 Meters"],
+        [103,'103 Meters'],
+        'Wave Motion Energy',
+        ['Wave-motion gun','4 triple-barreled 40.6 cm positron shock cannon turrets','4 Quick firing torpedo launch tubes','4 Graviton launchers','2 Four barrel anti-battleship grenade launchers','4 Sub-space torpedo launchers','3 shock field cannons around conning tower','2 six-barrel multi-launch lateral beam cannons'],
+        false,
+        ['Wave Motion Shield'],
+        false,
+        false,
+        false,
+        false,
+        ["img/models/andromedablack.jpeg","Andromeda Black Model"],
+        'Battleship'
     ]
 ];
 
@@ -636,7 +713,7 @@ const projects = [
             ['../../img/projects/ships/eternal/eternal30.jpeg','Warship Eternal','img30']
         ],
         ['img/projects/ships/eternal/eternal28.jpeg','Profile Photo: Eternal'],
-        'This was my first ship buid. And I am awfully quite attached to it. At the time I was in a Gundam Seed kick and rewatching that series so the ships and machines from that saga was on my mind. Seed is probably home to all my favorite vessels throughout the entire Gundam saga. Whether it be Eternal or Archangel they\'re all so cool. And Eternal is by my far the coolest one. For this I was trying to be as realistic and close to the source material as possible. So rather than do a custom design I painted it exactly as how it appears in the anime. So expect lots of pink and purples. \n\n Also, it has got to be pointed out how cool and cute teh METEOR units in this kit are. By far out of the whole ship, the METEORs I\'m most proud of. Inspired by these, I am going to be doing a much larger scale P-Bandai meteor kit paint real soon.',
+        'This was my first ship buid. And I am awfully quite attached to it. At the time I was in a Gundam Seed kick and rewatching that series so the ships and machines from that saga was on my mind. Seed is probably home to all my favorite vessels throughout the entire Gundam saga. Whether it be Eternal or Archangel they\'re all so cool. And Eternal is by my far the coolest one. For this I was trying to be as realistic and close to the source material as possible. So rather than do a custom design I painted it exactly as how it appears in the anime. So expect lots of pink and purples... Also..., it has got to be pointed out how cool and cute the METEOR units in this kit are. By far out of the whole ship, the METEORs I\'m most proud of. Inspired by these, I am going to be doing a much larger scale P-Bandai meteor kit paint real soon.',
         false,
         false,
         ['Archangel'],
@@ -916,7 +993,31 @@ const projects = [
     ["Stratle",[1,"Maintenance Bay"],"Display",false,false,false,"","E","2022-02-11",27.12,true,"Builds/stratle.html",[""],"2022-04-11"],
 
     //Ship
-    ["Libeccio",[0.2,"Andromeda Black"],"Ship",false,false,false,"StarBlazer","E","2022-09-09",4.42,false,"Builds/libeccio.html",[""],"2023-02-06"],
+    ["Libeccio",[0.2,"Andromeda Black"],"Ship",false,false,false,"StarBlazer","E","2022-09-09",4.42,false,
+        "Builds/Ships/libeccio.html",false,"2023-02-06",models[8],
+        [
+            ['../../img/projects/ships/libeccio/libeccio01.jpeg','Libeccio Andromeda Class Battleship','img1'],
+            ['../../img/projects/ships/libeccio/libeccio02.jpeg','Libeccio Andromeda Class Battleship','img2'],
+            ['../../img/projects/ships/libeccio/libeccio03.jpeg','Libeccio Andromeda Class Battleship','img3'],
+            ['../../img/projects/ships/libeccio/libeccio04.jpeg','Libeccio Andromeda Class Battleship','img4'],
+            ['../../img/projects/ships/libeccio/libeccio05.jpeg','Libeccio Andromeda Class Battleship','img5'],
+            ['../../img/projects/ships/libeccio/libeccio06.jpeg','Libeccio Andromeda Class Battleship','img6'],
+            ['../../img/projects/ships/libeccio/libeccio07.jpeg','Libeccio Andromeda Class Battleship','img7'],
+            ['../../img/projects/ships/libeccio/libeccio08.jpeg','Libeccio Andromeda Class Battleship','img8'],
+            ['../../img/projects/ships/libeccio/libeccio09.jpeg','Libeccio Andromeda Class Battleship','img9'],
+            ['../../img/projects/ships/libeccio/libeccio10.jpeg','Libeccio Andromeda Class Battleship','img10']
+        ],
+        ['img/projects/ships/libeccio/libeccio10.jpeg','Profile Photo: Libbeccio'],
+        'Named after the Mediterranean SouthWest wind, I present to you the Libeccio. I had, had way too much fun building the Eternal, Archangel and Dominion, that I ached to build another ship model again. Granted there are not many other ships in the Gundam lineup to build, and also that Bandai is currently not manufacturing new ones, I had no choice but to branch out and try another franchise. And luckly enough at the time, there were lots of StarBlazers kits floating around in rotation to take advantavge of. I know nothing about the StarBlazer though of course. But the kits were cool enough that they seemed worth giving them a try.',
+        false,
+        [
+            ['StarBlazer Wiki','https://yamato.fandom.com/wiki/Andromeda_Black']
+        ],
+        ['Ostro'],
+        false,
+        true,
+        '1:1000'
+    ],
     ["Ostro",[0.2,"Cosmo Falcon"],"Ship",false,false,false,"StarBlazer","E","2022-07-06",6.33,false,"Builds/ostro.html",[""],"2022-07-18"],
     ["Ponente",[1,"Cosmo Zero"],"Ship",false,false,false,"StarBlazer","B"],
     ["Levante",[1,"Nagato"],"Ship",false,false,false,"Space Rengo Kantai","B"],
@@ -2209,7 +2310,7 @@ function projectPage(string) {
         projectTitleNode.appendChild(gundamStringNode);
         projectTitleNode_Mobile.appendChild(gundamStringNodeMobile);
     }
-    if (modelArray[1] === 2) {
+    if (modelArray[1] === 2 || 3) {
         let shipTitleStringNode = document.createTextNode(modelArray[27]+' ');
         let shipTitleStringNodeMobile = document.createTextNode(modelArray[27]+' ');
         projectTitleNode.appendChild(shipTitleStringNode);
@@ -3163,7 +3264,134 @@ function popShipGundam () {
 }
 
 function popShipOther () {
+    const gundamModelClass1 = document.querySelector(".shipModel1");
+    gundamModelClass1.style.display = "block";
 
+    const gundamModelClass2 = document.querySelector(".shipModel2");
+    gundamModelClass2.style.display = "block";
+
+    let gGradeNode = document.getElementById("gGrade");
+    let gGradeText = document.createTextNode(projectArray[23]);
+    gGradeNode.appendChild(gGradeText);
+
+    let oShipNameNode = document.getElementById('oShipName');
+    let oShipNameText = document.createTextNode(modelArray[2]);
+    oShipNameNode.appendChild(oShipNameText);
+    
+    if (modelArray[4]) {
+        const osSeriesCl = document.querySelector(".osSeriesCl");
+        osSeriesCl.style.display = "block";
+
+        let osSeriesN = document.getElementById('osSeries');
+        let osSeriesT = document.createTextNode(modelArray[4]);
+        osSeriesN.appendChild(osSeriesT);
+    }
+
+    if (modelArray[5]) {
+        const osFranCl = document.querySelector(".osFranCl");
+        osFranCl.style.display = "block";
+
+        let osFranN = document.getElementById('osFran');
+        let osFranT = document.createTextNode(modelArray[5]);
+        osFranN.appendChild(osFranT);
+    }
+
+    if (modelArray[10]) {
+        const osCreateCl = document.querySelector(".osCreateCl");
+        osCreateCl.style.display = "block";
+
+        let osCreateN = document.getElementById('osCreate');
+        let osCreateT = document.createTextNode(modelArray[10][1]);
+        osCreateN.appendChild(osCreateT);
+    }
+
+    if (modelArray[14]) {
+        const osAffilCl = document.querySelector(".osAffilCl");
+        osAffilCl.style.display = "block";
+
+        let osAffilN = document.getElementById('osAffil');
+        let osAffilT = document.createTextNode(modelArray[14]);
+        osAffilN.appendChild(osAffilT);
+    }
+
+    if (modelArray[15]) {
+        const osHeightCl = document.querySelector(".osHeightCl");
+        const osHeightClMb = document.querySelector(".osHeightClMb");
+        osHeightCl.style.display = "block";
+        osHeightClMb.style.display = "block";
+
+        let osHeightN = document.getElementById('osHeight');
+        let osHeightT = document.createTextNode(modelArray[15][1]);
+        osHeightN.appendChild(osHeightT);
+
+        let osHeightMbN = document.getElementById('osHeightMb');
+        let osHeightMbT = document.createTextNode(modelArray[15][1]);
+        osHeightMbN.appendChild(osHeightMbT);
+    }
+
+    if (modelArray[16]) {
+        const osLengthCl = document.querySelector(".osLengthCl");
+        const osLengthClMb = document.querySelector(".osLengthClMb");
+        osLengthCl.style.display = "block";
+        osLengthClMb.style.display = "block";
+
+        let osLengthN = document.getElementById('osLength');
+        let osLengthT = document.createTextNode(modelArray[16][1]);
+        osLengthN.appendChild(osLengthT);
+
+        let osLengthMbN = document.getElementById('osLengthMb');
+        let osLengthMbT = document.createTextNode(modelArray[16][1]);
+        osLengthMbN.appendChild(osLengthMbT);
+    }
+
+    if (modelArray[17]) {
+        const osWidthCl = document.querySelector(".osWidthCl");
+        const osWidthClMb = document.querySelector(".osWidthClMb");
+        osWidthCl.style.display = "block";
+        osWidthClMb.style.display = "block";
+
+        let osWidthN = document.getElementById('osWidth');
+        let osWidthT = document.createTextNode(modelArray[17][1]);
+        osWidthN.appendChild(osWidthT);
+
+        let osWidthMbN = document.getElementById('osWidthMb');
+        let osWidthMbT = document.createTextNode(modelArray[17][1]);
+        osWidthMbN.appendChild(osWidthMbT);
+    }
+
+    if (modelArray[18]) {
+        const osPropulsionCl = document.querySelector(".osPropulsionCl");
+        osPropulsionCl.style.display = "block";
+
+        let osPropulsionN = document.getElementById('osPropulsion');
+        let osPropulsionT = document.createTextNode(modelArray[18]);
+        osPropulsionN.appendChild(osPropulsionT);
+    }
+
+    if (modelArray[21]) {
+        const osDefensesCl = document.querySelector(".osDefensesCl");
+        osDefensesCl.style.display = "block";
+
+        let osDefensesN = document.getElementById('osDefenses');
+        let osDefensesT = document.createTextNode(modelArray[21]);
+        osDefensesN.appendChild(osDefensesT);
+    }
+
+    if (modelArray[19]) {
+        const osArmCl = document.querySelector(".osArmCl");
+        osArmCl.style.display = "block";
+
+        let osArmN = document.getElementById('osArm')
+        for (let i=0;i<modelArray[19].length;i++) {
+            let osArmLi = document.createElement('li');
+            let osArmLiCl = document.createAttribute('class');
+            osArmLiCl.value = 'font-weight-normal';
+            osArmLi.setAttributeNode(osArmLiCl);
+            let osArmT = document.createTextNode(modelArray[19][i]);
+            osArmLi.appendChild(osArmT);
+            osArmN.appendChild(osArmLi);
+        }
+    }
 }
 
 function popZoid () {
