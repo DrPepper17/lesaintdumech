@@ -329,7 +329,8 @@ const models = [
         false,
         false,
         false,
-        ["img/models/eternal.jpeg","Warship Eternal"]
+        ["img/models/eternal.jpeg","Warship Eternal"],
+        'Warship'
     ]
 ];
 
@@ -2210,6 +2211,12 @@ function projectPage(string) {
         let gundamStringNodeMobile = document.createTextNode('Gundam ');
         projectTitleNode.appendChild(gundamStringNode);
         projectTitleNode_Mobile.appendChild(gundamStringNodeMobile);
+    }
+    if (modelArray[1] === 2) {
+        let shipTitleStringNode = document.createTextNode(modelArray[27]+' ');
+        let shipTitleStringNodeMobile = document.createTextNode(modelArray[27]+' ');
+        projectTitleNode.appendChild(shipTitleStringNode);
+        projectTitleNode_Mobile.appendChild(shipTitleStringNodeMobile);
     }
     let projectTitleText = document.createTextNode(projectArray[0]);
     projectTitleNode.appendChild(projectTitleText);
