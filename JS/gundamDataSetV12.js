@@ -2620,7 +2620,7 @@ function buildProjectPage(string) {
             }
         }
 
-        projectLinks(affilatesArray,'projectAffProjects');
+        projectLinks(affilatesArray.sort(),'projectAffProjects');
     }
 
     let otherArray = [];
@@ -2632,7 +2632,7 @@ function buildProjectPage(string) {
     if (otherArray.length>0) {
         unhide('.modelOtherSameModelHD');
 
-        projectLinks(otherArray,'modelOtherSameModel');
+        projectLinks(otherArray.sort(),'modelOtherSameModel');
     }
 
     if (projectArray[19]) {
