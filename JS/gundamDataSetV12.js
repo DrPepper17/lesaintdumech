@@ -2614,7 +2614,7 @@ function buildProjectPage(string) {
         let affilatesArray = [];
         for (let i=0;i<projectArray[20].length;i++) {
             for (let j=0;j<projects.length;j++) {
-                if (projectArray[20][i] === projects[j][0]) {
+                if (projectArray[20][i] === projects[j][0] && projects[j][22]===true) {
                     affilatesArray.push(projects[j]);
                 }
             }
