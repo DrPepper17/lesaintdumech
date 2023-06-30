@@ -963,10 +963,38 @@ const projects = [
             ['USA Gundam Store','https://www.usagundamstore.com/products/mg-1-100-freedom-gundam-ver-2-0'],
             ['NewType','https://newtype.us/p/uMb67BdrKhMnFDOYzJVF/h/mg-zgmf-x10a-freedom-gundam-ver-20'],
             ['Amazon','https://a.co/d/69DPX3z']
-        ],['Liberty','Old Glory'],false,true,'1:100'
+        ],['Liberty','Old Glory','Don\'t Tread On Ye'],false,true,'1:100'
     ],
     ['Freedom [MGSD]',[1,'Freedom'],'MGSD',true,false,false,'Seed','E','2023-03-05',8.5,false,false,false,'2023-06-28',false],
-    ['Liberty',[1,'Freedom'],'SD',false,false,false,'Seed','E','2022-04-09',18,false,'Builds/Gundams/Liberty.html',false,'2022-06-27',models[14]],
+    ['Liberty',[1,'Freedom'],'SD',false,false,false,'Seed','E','2022-04-09',18,false,'Builds/Gundams/Liberty.html',false,'2022-06-27',models[14],
+        [
+            ['../../img/projects/gundams/liberty/liberty01.jpeg','Gundam Liberty','img1'],
+            ['../../img/projects/gundams/liberty/liberty02.jpeg','Gundam Liberty','img2'],
+            ['../../img/projects/gundams/liberty/liberty03.jpeg','Gundam Liberty','img3'],
+            ['../../img/projects/gundams/liberty/liberty04.jpeg','Gundam Liberty','img4'],
+            ['../../img/projects/gundams/liberty/liberty05.jpeg','Gundam Liberty','img5'],
+            ['../../img/projects/gundams/liberty/liberty06.jpeg','Gundam Liberty','img6'],
+            ['../../img/projects/gundams/liberty/liberty07.jpeg','Gundam Liberty','img7'],
+            ['../../img/projects/gundams/liberty/liberty08.jpeg','Gundam Liberty','img8'],
+            ['../../img/projects/gundams/liberty/liberty09.jpeg','Gundam Liberty','img9'],
+            ['../../img/projects/gundams/liberty/liberty10.jpeg','Gundam Liberty','img10'],
+            ['../../img/projects/gundams/liberty/liberty11.jpeg','Gundam Liberty','img11'],
+            ['../../img/projects/gundams/liberty/liberty12.jpeg','Gundam Liberty','img12'],
+            ['../../img/projects/gundams/liberty/liberty13.jpeg','Gundam Liberty','img13'],
+            ['../../img/projects/gundams/liberty/liberty14.jpeg','Gundam Liberty','img14'],
+            ['../../img/projects/gundams/liberty/liberty15.jpeg','Gundam Liberty','img15'],
+            ['../../img/projects/gundams/liberty/liberty16.jpeg','Gundam Liberty','img16'],
+            ['../../img/projects/gundams/liberty/liberty17.jpeg','Gundam Liberty','img17'],
+            ['../../img/projects/gundams/liberty/liberty18.jpeg','Gundam Liberty','img18'],
+            ['../../img/projects/gundams/liberty/liberty19.jpeg','Gundam Liberty','img19']
+        ],
+        ['img/projects/gundams/liberty/liberty19.jpeg','Profile Photo: Gundam Liberty'],
+        'For the theme/description here, just read the post for Gundam Anthem. Same inspiration behind this as well. With as complciated of a design as I was pursuing on the Anthem I wanted to try the same design but on somethings smaller. A la the Liberty. This project was basically a prototype for the Anthem just to test myself to see if I could pull it off.',false,
+        [
+            ['USA Gundam Store','https://www.usagundamstore.com/products/pre-order-sd-gundam-cross-silhouette-freedom-gundam?variant=9558574923812'],
+            ['NewType','https://newtype.us/p/vKxUpq1pJg9sDiFkRFZ1/h/sdcs-08-freedom-gundam']
+        ],['Anthem','Old GLory'],false,true,false
+    ],
     ['Old Glory',[1,'Freedom'],'MGSD',false,false,false,'Seed','D','2023-05-06',30.33,false,'Builds/Gundams/OldGlory.html',['Mission Models: MMP-001 White','Testors: Red Grapefruit 1196','Testors: Cherry Red 1197','Vallejo Mecha Color: Gold 69.059','Vallejo Mecha Color: Electric Blue 60.020','Vallejo Model Air: Black 71.057','Vallejo Mecha Color: Metallic Blue 69.067','Vallejo Model Air: Metallic Signal Red 71.070','Vallejo Mecha Color: Sky Blue 69.017','Tamiya: Metallic BLue TS-19 Can','Tamiya: Gold TS-21 Can','Tamiya: Matt White TS-27 Can','Tamiya: Metallic Red PS-15 Can','Tamiya: Clear Red X-27'],false,models[14]],
     ['Billy Blue Jay',[1,'Ginn'],'MG',false,false,false,'Seed','B'],
     ['PB Destiny Impulse (Regenes) [MG]',[1,'Impulse, Destiny'],'Seed','MG',true,true,false,'C','2023-05-05',6.5,false,'Builds/PBDesintyImpulseREgenesMG.html',false],
@@ -2769,7 +2797,7 @@ function buildProjectPage(string) {
             }
         }
     }
-    if (affilatesArray>0) {
+    if (affilatesArray.length>0) {
         unhide('.projectAffProjectsHD');
         projectLinks(affilatesArray.sort(),'projectAffProjects');
     }
