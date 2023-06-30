@@ -2261,7 +2261,7 @@ function populateBuildsPage() {
 
             let pNode = document.createElement('h4');
             let pClass = document.createAttribute('class');
-            pClass.value = 'font-weight-bold text-danger';
+            pClass.value = 'font-weight-bold text-danger buildH4';
             pNode.setAttributeNode(pClass);
             let pTextNode = document.createTextNode(postedArray[i][0]);
             pNode.appendChild(pTextNode);
