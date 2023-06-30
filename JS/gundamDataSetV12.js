@@ -32,8 +32,8 @@
     16. Weight [integer,string]
     17. Material
     18. Power Source
-    19. Armaments (Array)
-    20. Optional Equipment (array)
+    19. Armaments (Array) (armaments are components integrated into the unit, that cannot be dropped in battle)
+    20. Equipment (array)v(equipment are components separate from the suit, i.e. a beam saver or shield)
     21. Systems
     22. Designed by
     23. SDW Hero (true/false)
@@ -160,7 +160,7 @@ const models = [
         'XXXG-00W0 Wing Gundam Proto Zero',
         'XXXG-01H2 Gundam Heavarms Custom',
         'After Colony',
-        [195,'195 A.C.',195],
+        [195,'April 195 A.C.',195],
         'Trowa Barton',
         ['Heero Yuy'],
         'Barton Foundation',
@@ -173,12 +173,13 @@ const models = [
             'Machine Cannons (x2)',
             'Chest Gatling Guns (x2)',
             'Homing Missiles (x44)',
-            'Micro Missiles (x52)',
+            'Micro Missiles (x52)'
+        ],
+        [
             'Beam Gatling Gun',
             'Shield',
             'Army Knife',
-            'Beam Saber'],
-        [
+            'Beam Saber',
             'Igel Unit',
             'Damselfly'
         ],
@@ -497,6 +498,44 @@ const models = [
         false,
         false,
         ['img/models/redharo.jpeg','Red Haro']
+    ],
+    [13,1,'Nu Gundam',
+        'RX-93 \u03BD Gundam',
+        'RX-93',
+        'Mobile Suit Gundam: Char\'s Counterattack',
+        false,
+        'RX-78-2 Gundam',
+        'RX-93ff \u03BD Gundam',
+        'Universal Century',
+        [93,'March 12, 0093 U.C.',93],
+        'Amuro Ray',
+        false,
+        'Anaheim Electronics',
+        ['Earth Federation','Londo Bell'],
+        [23,'23 Meters'],
+        [27.9,'27.9 Metric Tons'],
+        'Luna Titanium (Gundarium Alloy',
+        'Minovsky Ultracompact Fusion Reactor',
+        ['60mm Vulcan Gun (x2)',
+            'Fin Funnels (x6)',
+            'Birdlime Launchers',
+            'Dummy Launchers'
+        ],
+        [
+            'Beam Saber',
+            'Spare Beam Saber',
+            'Beam Rifle',
+            'New Hyper Bazooka',
+            'Shield (w/ integrated 7.8 MW beam cannont and missile launchers)'
+        ],
+        [
+            'Psycho-Frame Cockpit'
+        ],
+        'Yutaki Izubuchi',
+        false,
+        'NewType-Use Prototype Gundam',
+        false,
+        ['img/models/nugundam.jpeg','Nu Gundam']
     ]
 ];
 
@@ -942,7 +981,35 @@ const projects = [
     ['Der Kommissar',[1,'Lightning Gundam'],'SD',false,false,false,'UC','E','2021-12-11',4.05,false,'Builds/DerKommissar.html',[''],'2023-04-03'],
     ['Nachtigall',[1,'Nightingale'],'SD',false,false,false,'UC','B'],
     ['Mnemosyne',[1,'Neue Ziuel'],'SD',false,false,false,'UC','B'],
-    ['\u03C0',[1,'Nu Gundam'],'SD',false,false,false,'UC','E','2021-06-06',15.66,false,'Builds/Gundams/pi.html',[''],'2021-06-22'],   //pi gundam
+    ['\u03C0 (pi)',[1,'Nu Gundam'],'SD',false,false,false,'UC','E','2021-06-06',15.66,false,'Builds/Gundams/pi.html',false,'2021-06-22',models[13],
+        [
+            ['../../img/projects/gundams/pi/pi01.jpeg','Pi Gundam','img1'],
+            ['../../img/projects/gundams/pi/pi02.jpeg','Pi Gundam','img2'],
+            ['../../img/projects/gundams/pi/pi03.jpeg','Pi Gundam','img3'],
+            ['../../img/projects/gundams/pi/pi04.jpeg','Pi Gundam','img4'],
+            ['../../img/projects/gundams/pi/pi05.jpeg','Pi Gundam','img5'],
+            ['../../img/projects/gundams/pi/pi06.jpeg','Pi Gundam','img6'],
+            ['../../img/projects/gundams/pi/pi07.jpeg','Pi Gundam','img7'],
+            ['../../img/projects/gundams/pi/pi08.jpeg','Pi Gundam','img8'],
+            ['../../img/projects/gundams/pi/pi09.jpeg','Pi Gundam','img9'],
+            ['../../img/projects/gundams/pi/pi10.jpeg','Pi Gundam','img10'],
+            ['../../img/projects/gundams/pi/pi11.jpeg','Pi Gundam','img11'],
+            ['../../img/projects/gundams/pi/pi12.jpeg','Pi Gundam','img12'],
+            ['../../img/projects/gundams/pi/pi13.jpeg','Pi Gundam','img13'],
+            ['../../img/projects/gundams/pi/pi14.jpeg','Pi Gundam','img14'],
+            ['../../img/projects/gundams/pi/pi15.jpeg','Pi Gundam','img15'],
+            ['../../img/projects/gundams/pi/pi16.jpeg','Pi Gundam','img16'],
+            ['../../img/projects/gundams/pi/pi17.jpeg','Pi Gundam','img17']
+        ],
+        ['img/projects/gundams/pi/pi06.jpeg','Profile Photo: Pi Gundam'],
+        'No particular theme here for this one. Well... initially. This I was still in the practicing phase with the airbrush so this started out as purely experimental. Since the original Gundam\'s name is \u039D, that\'s the Greek letter Nu, I was like well what is the next letter in the Greek Alphabet that I can name this after. Well the next few letters sequentially were already claimed by other main canon Gundams so I could not use those. Anyhow the next avaible letter turned out to be \u03C0 (pi). And if I\'m wrong, well so help me God. Anyhow, pi lead to pie and it all went downhill from there. So introducing my pi, pie, tasty dessert themed Gundam.',
+        false,
+        [
+            ['USA Gundam Store','https://www.usagundamstore.com/products/sd-gundam-ex-standard-16-nu-gundam?variant=32162603204644'],
+            ['NewType','https://newtype.us/p/e7WxX8kuxy5xRyggnSXC/h/sdex-standard-16-nu-gundam']
+        ],
+        false,true,true,false
+    ],   //pi gundam
     ['PB BB Senshi RX-93ff \u03bd Gundam [SD]',[1,'Nu Gundam, ff'],'SD',true,true,false,'UC','E','2023-03-13',2.83,false,'Builds/PBRX93ff.html',false,'2023-04-24'],
     ['PB RX-93ff \u03bd Gundam [RG]',[1,'Nu Gundam, ff'],'RG',true,true,false,'UC','E','2023-03-14',14.5,false,'Builds/PBRX93ff.html',false,'2023-04-25'],
     ['Milos',[1,'Nu Gundam, Hi'],'SD',false,false,false,'UC','B'],
