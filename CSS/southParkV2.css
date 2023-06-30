@@ -1,7 +1,9 @@
 .hide {
     display: none;
 }
-
+.projectAvailableHD {
+    display: none;
+}
 .affiliates {
     display: none;
 }

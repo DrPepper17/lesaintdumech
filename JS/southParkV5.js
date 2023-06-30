@@ -301,6 +301,11 @@ function projectPage(string) {
         }
     }
 
+    if (projectArray[21]) {
+        const projectAvailableHD = document.querySelector('.projectAvailableHD');
+        projectAvailableHD.style.display = 'block';
+    }
+
     modelArray = projectArray[14];
     let titleNode = document.getElementById('title');
     let titleNodeText = document.createTextNode(projectArray[0]+' \u269C');

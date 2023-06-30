@@ -993,7 +993,7 @@ const projects = [
         [
             ['USA Gundam Store','https://www.usagundamstore.com/products/pre-order-sd-gundam-cross-silhouette-freedom-gundam?variant=9558574923812'],
             ['NewType','https://newtype.us/p/vKxUpq1pJg9sDiFkRFZ1/h/sdcs-08-freedom-gundam']
-        ],['Anthem','Old GLory'],false,true,false
+        ],['Anthem','Old GLory'],true,true,false
     ],
     ['Old Glory',[1,'Freedom'],'MGSD',false,false,false,'Seed','D','2023-05-06',30.33,false,'Builds/Gundams/OldGlory.html',['Mission Models: MMP-001 White','Testors: Red Grapefruit 1196','Testors: Cherry Red 1197','Vallejo Mecha Color: Gold 69.059','Vallejo Mecha Color: Electric Blue 60.020','Vallejo Model Air: Black 71.057','Vallejo Mecha Color: Metallic Blue 69.067','Vallejo Model Air: Metallic Signal Red 71.070','Vallejo Mecha Color: Sky Blue 69.017','Tamiya: Metallic BLue TS-19 Can','Tamiya: Gold TS-21 Can','Tamiya: Matt White TS-27 Can','Tamiya: Metallic Red PS-15 Can','Tamiya: Clear Red X-27'],false,models[14]],
     ['Billy Blue Jay',[1,'Ginn'],'MG',false,false,false,'Seed','B'],
