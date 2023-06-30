@@ -157,8 +157,8 @@ const models = [
         'XXXG-01H',
         'Mobile Suit Gundam Wing Endless Waltz: Glory of the Losers',
         true,
-        'XXXG-00W0 Wing Gundam Proto Zero',
-        'XXXG-01H2 Gundam Heavarms Custom',
+        ['XXXG-00W0 Wing Gundam Proto Zero'],
+        ['XXXG-01H2 Gundam Heavarms Custom'],
         'After Colony',
         [195,'April 195 A.C.',195],
         'Trowa Barton',
@@ -504,8 +504,8 @@ const models = [
         'RX-93',
         'Mobile Suit Gundam: Char\'s Counterattack',
         false,
-        'RX-78-2 Gundam',
-        'RX-93ff \u03BD Gundam',
+        ['RX-78-2 Gundam'],
+        ['RX-93ff \u03BD Gundam','RX-0 Unicorn Gundam'],
         'Universal Century',
         [93,'March 12, 0093 U.C.',93],
         'Amuro Ray',
@@ -536,6 +536,48 @@ const models = [
         'NewType-Use Prototype Gundam',
         false,
         ['img/models/nugundam.jpeg','Nu Gundam']
+    ],
+    [14,1,'Freedom Gundam',
+        'ZGMF-X10A Freedom Gundam',
+        'ZGMF-X10A',
+        'Mobile Suit Gundam SEED',
+        false,
+        ['YMF-X000A Dreadnought Gundam'],
+        ['ZGMF-X20A Strike Freedom Gundam'],
+        'Cosmic Era',
+        [71,'May 71 C.E.',74],
+        'Kira Yamato',
+        false,
+        'Integrated Design Bureau',
+        ['Three Ships Alliance','Archangel Corps','Clyne Faction','Orb Union'],
+        [18.03,'18.03 Meters'],
+        [71.5,'71.5 Metric Tons'],
+        false,
+        'Ultracompact Nuclear Fission Reactor',
+        [
+            'MMI-GAU2 "Picus" 76mm CIWS (x2)',
+            'M100 "Balaena" Plasma Beam Cannon (x2)',
+            'MMI-M15 "Xiphias" Railgun (x2)'
+        ],
+        [
+            'MA-M01 "Lacerta" Beam Saber (x2)',
+            'MA-M20 "Lupus" High-energy Beam Rifle',
+            'Laminated Anti-beam Shield',
+            'METEOR Unit'
+        ],
+        [
+            'OS: Generation Unsubdued Nuclear Drive Assault Module Comple',
+            'Phase Shift Armor',
+            'High Mobility Aerial Tactics (HiMAT) Mode',
+            'Multi Lock-on System',
+            'Full Burst Mode',
+            'Neutron Jammer Canceller'
+        ],
+        'Kunio Okawara',
+        false,
+        false,
+        false,
+        ['img/models/freedom.jpeg','Freedom Gundam']
     ]
 ];
 
@@ -830,10 +872,102 @@ const projects = [
         '1:1700'
     ],
     ['Orga',[1,'Forbidden'],'FM',false,false,false,'Seed','A'],
-    ['Anthem',[1,'Freedom'],'MG',false,false,false,'Seed','E','2022-05-05',73.16,true,'Builds/Anthem.html',[''],'2022-07-04'],
-    ['Freedom [MGSD]',[1,'Freedom'],'MGSD',true,false,false,'Seed','E','2023-03-05',8.5,false,false,false,'2023-06-28'],
-    ['Liberty',[1,'Freedom'],'SD',false,false,false,'Seed','E','2022-04-09',18,false,'Builds/Liberty.html',[''],'2022-06-27'],
-    ['Old Glory',[1,'Freedom'],'MGSD',false,false,false,'Seed','D','2023-05-06',30.33,false,'Builds/Gundams/OldGlory.html',['Mission Models: MMP-001 White','Testors: Red Grapefruit 1196','Testors: Cherry Red 1197','Vallejo Mecha Color: Gold 69.059','Vallejo Mecha Color: Electric Blue 60.020','Vallejo Model Air: Black 71.057','Vallejo Mecha Color: Metallic Blue 69.067','Vallejo Model Air: Metallic Signal Red 71.070','Vallejo Mecha Color: Sky Blue 69.017','Tamiya: Metallic BLue TS-19 Can','Tamiya: Gold TS-21 Can','Tamiya: Matt White TS-27 Can','Tamiya: Metallic Red PS-15 Can','Tamiya: Clear Red X-27']],
+    ['Anthem',[1,'Freedom'],'MG',false,false,false,'Seed','E','2022-05-05',73.16,true,'Builds/Gundams/Anthem.html',false,'2022-07-04',models[14],[
+            ['../../img/projects/gundams/anthem/anthem01.jpeg','Anthem Gundam','img1'],
+            ['../../img/projects/gundams/anthem/anthem02.jpeg','Anthem Gundam','img2'],
+            ['../../img/projects/gundams/anthem/anthem03.jpeg','Anthem Gundam','img3'],
+            ['../../img/projects/gundams/anthem/anthem04.jpeg','Anthem Gundam','img4'],
+            ['../../img/projects/gundams/anthem/anthem05.jpeg','Anthem Gundam','img5'],
+            ['../../img/projects/gundams/anthem/anthem06.jpeg','Anthem Gundam','img6'],
+            ['../../img/projects/gundams/anthem/anthem07.jpeg','Anthem Gundam','img7'],
+            ['../../img/projects/gundams/anthem/anthem08.jpeg','Anthem Gundam','img8'],
+            ['../../img/projects/gundams/anthem/anthem09.jpeg','Anthem Gundam','img9'],
+            ['../../img/projects/gundams/anthem/anthem10.jpeg','Anthem Gundam','img10'],
+            ['../../img/projects/gundams/anthem/anthem11.jpeg','Anthem Gundam','img11'],
+            ['../../img/projects/gundams/anthem/anthem12.jpeg','Anthem Gundam','img12'],
+            ['../../img/projects/gundams/anthem/anthem13.jpeg','Anthem Gundam','img13'],
+            ['../../img/projects/gundams/anthem/anthem14.jpeg','Anthem Gundam','img14'],
+            ['../../img/projects/gundams/anthem/anthem15.jpeg','Anthem Gundam','img15'],
+            ['../../img/projects/gundams/anthem/anthem16.jpeg','Anthem Gundam','img16'],
+            ['../../img/projects/gundams/anthem/anthem17.jpeg','Anthem Gundam','img17'],
+            ['../../img/projects/gundams/anthem/anthem18.jpeg','Anthem Gundam','img18'],
+            ['../../img/projects/gundams/anthem/anthem19.jpeg','Anthem Gundam','img19'],
+            ['../../img/projects/gundams/anthem/anthem20.jpeg','Anthem Gundam','img20'],
+            ['../../img/projects/gundams/anthem/anthem21.jpeg','Anthem Gundam','img21'],
+            ['../../img/projects/gundams/anthem/anthem22.jpeg','Anthem Gundam','img22'],
+            ['../../img/projects/gundams/anthem/anthem23.jpeg','Anthem Gundam','img23'],
+            ['../../img/projects/gundams/anthem/anthem24.jpeg','Anthem Gundam','img24'],
+            ['../../img/projects/gundams/anthem/anthem25.jpeg','Anthem Gundam','img25'],
+            ['../../img/projects/gundams/anthem/anthem26.jpeg','Anthem Gundam','img26'],
+            ['../../img/projects/gundams/anthem/anthem27.jpeg','Anthem Gundam','img27'],
+            ['../../img/projects/gundams/anthem/anthem28.jpeg','Anthem Gundam','img28'],
+            ['../../img/projects/gundams/anthem/anthem29.jpeg','Anthem Gundam','img29'],
+            ['../../img/projects/gundams/anthem/anthem30.jpeg','Anthem Gundam','img30'],
+            ['../../img/projects/gundams/anthem/anthem31.jpeg','Anthem Gundam','img31'],
+            ['../../img/projects/gundams/anthem/anthem32.jpeg','Anthem Gundam','img32'],
+            ['../../img/projects/gundams/anthem/anthem33.jpeg','Anthem Gundam','img33'],
+            ['../../img/projects/gundams/anthem/anthem34.jpeg','Anthem Gundam','img34'],
+            ['../../img/projects/gundams/anthem/anthem35.jpeg','Anthem Gundam','img35'],
+            ['../../img/projects/gundams/anthem/anthem36.jpeg','Anthem Gundam','img36'],
+            ['../../img/projects/gundams/anthem/anthem37.jpeg','Anthem Gundam','img37'],
+            ['../../img/projects/gundams/anthem/anthem38.jpeg','Anthem Gundam','img38'],
+            ['../../img/projects/gundams/anthem/anthem39.jpeg','Anthem Gundam','img39'],
+            ['../../img/projects/gundams/anthem/anthem40.jpeg','Anthem Gundam','img40'],
+            ['../../img/projects/gundams/anthem/anthem41.jpeg','Anthem Gundam','img41'],
+            ['../../img/projects/gundams/anthem/anthem42.jpeg','Anthem Gundam','img42'],
+            ['../../img/projects/gundams/anthem/anthem43.jpeg','Anthem Gundam','img43'],
+            ['../../img/projects/gundams/anthem/anthem44.jpeg','Anthem Gundam','img44'],
+            ['../../img/projects/gundams/anthem/anthem45.jpeg','Anthem Gundam','img45'],
+            ['../../img/projects/gundams/anthem/anthem46.jpeg','Anthem Gundam','img46'],
+            ['../../img/projects/gundams/anthem/anthem47.jpeg','Anthem Gundam','img47'],
+            ['../../img/projects/gundams/anthem/anthem48.jpeg','Anthem Gundam','img48'],
+            ['../../img/projects/gundams/anthem/anthem49.jpeg','Anthem Gundam','img49'],
+            ['../../img/projects/gundams/anthem/anthem50.jpeg','Anthem Gundam','img50'],
+            ['../../img/projects/gundams/anthem/anthem51.jpeg','Anthem Gundam','img51'],
+            ['../../img/projects/gundams/anthem/anthem52.jpeg','Anthem Gundam','img52'],
+            ['../../img/projects/gundams/anthem/anthem53.jpeg','Anthem Gundam','img53'],
+            ['../../img/projects/gundams/anthem/anthem54.jpeg','Anthem Gundam','img54'],
+            ['../../img/projects/gundams/anthem/anthem55.jpeg','Anthem Gundam','img55'],
+            ['../../img/projects/gundams/anthem/anthem56.jpeg','Anthem Gundam','img56'],
+            ['../../img/projects/gundams/anthem/anthem57.jpeg','Anthem Gundam','img57'],
+            ['../../img/projects/gundams/anthem/anthem58.jpeg','Anthem Gundam','img58'],
+            ['../../img/projects/gundams/anthem/anthem59.jpeg','Anthem Gundam','img59'],
+            ['../../img/projects/gundams/anthem/anthem60.jpeg','Anthem Gundam','img60'],
+            ['../../img/projects/gundams/anthem/anthem61.jpeg','Anthem Gundam','img61'],
+            ['../../img/projects/gundams/anthem/anthem62.jpeg','Anthem Gundam','img62'],
+            ['../../img/projects/gundams/anthem/anthem63.jpeg','Anthem Gundam','img63'],
+            ['../../img/projects/gundams/anthem/anthem64.jpeg','Anthem Gundam','img64'],
+            ['../../img/projects/gundams/anthem/anthem65.jpeg','Anthem Gundam','img65'],
+            ['../../img/projects/gundams/anthem/anthem66.jpeg','Anthem Gundam','img66'],
+            ['../../img/projects/gundams/anthem/anthem67.jpeg','Anthem Gundam','img67'],
+            ['../../img/projects/gundams/anthem/anthem68.jpeg','Anthem Gundam','img68'],
+            ['../../img/projects/gundams/anthem/anthem69.jpeg','Anthem Gundam','img69'],
+            ['../../img/projects/gundams/anthem/anthem70.jpeg','Anthem Gundam','img70'],
+            ['../../img/projects/gundams/anthem/anthem71.jpeg','Anthem Gundam','img71'],
+            ['../../img/projects/gundams/anthem/anthem72.jpeg','Anthem Gundam','img72'],
+            ['../../img/projects/gundams/anthem/anthem73.jpeg','Anthem Gundam','img73'],
+            ['../../img/projects/gundams/anthem/anthem74.jpeg','Anthem Gundam','img74'],
+            ['../../img/projects/gundams/anthem/anthem75.jpeg','Anthem Gundam','img75'],
+            ['../../img/projects/gundams/anthem/anthem76.jpeg','Anthem Gundam','img76'],
+            ['../../img/projects/gundams/anthem/anthem77.jpeg','Anthem Gundam','img77'],
+            ['../../img/projects/gundams/anthem/anthem78.jpeg','Anthem Gundam','img78'],
+            ['../../img/projects/gundams/anthem/anthem79.jpeg','Anthem Gundam','img79'],
+            ['../../img/projects/gundams/anthem/anthem80.jpeg','Anthem Gundam','img80'],
+            ['../../img/projects/gundams/anthem/anthem81.jpeg','Anthem Gundam','img81'],
+            ['../../img/projects/gundams/anthem/anthem82.jpeg','Anthem Gundam','img82'],
+            ['../../img/projects/gundams/anthem/anthem83.jpeg','Anthem Gundam','img83']
+        ],
+        ['img/projects/gundams/anthem/anthem76.jpeg','Profile Photo: Anthem Gundam'],
+        'The theme for this one obviously is the American Flag. Since the name of the Gundam is the Freedom Gundam, one day it spawned on me, what\'s not more representative of Freedom than the American Flag, After all we\'re the "Home of the Free and Land of the Brave. Therefore I decided the Freedom needed a much deserved Red White and Blue makeover. So without further ado, and in honor of the pursuit and preservation of freedom everywhere, I present to you the new Freedom Gundam... Gudam Anthem.',false,
+        [
+            ['USA Gundam Store','https://www.usagundamstore.com/products/mg-1-100-freedom-gundam-ver-2-0'],
+            ['NewType','https://newtype.us/p/uMb67BdrKhMnFDOYzJVF/h/mg-zgmf-x10a-freedom-gundam-ver-20'],
+            ['Amazon','https://a.co/d/69DPX3z']
+        ],['Liberty','Old Glory'],false,true,'1:100'
+    ],
+    ['Freedom [MGSD]',[1,'Freedom'],'MGSD',true,false,false,'Seed','E','2023-03-05',8.5,false,false,false,'2023-06-28',false],
+    ['Liberty',[1,'Freedom'],'SD',false,false,false,'Seed','E','2022-04-09',18,false,'Builds/Gundams/Liberty.html',false,'2022-06-27',models[14]],
+    ['Old Glory',[1,'Freedom'],'MGSD',false,false,false,'Seed','D','2023-05-06',30.33,false,'Builds/Gundams/OldGlory.html',['Mission Models: MMP-001 White','Testors: Red Grapefruit 1196','Testors: Cherry Red 1197','Vallejo Mecha Color: Gold 69.059','Vallejo Mecha Color: Electric Blue 60.020','Vallejo Model Air: Black 71.057','Vallejo Mecha Color: Metallic Blue 69.067','Vallejo Model Air: Metallic Signal Red 71.070','Vallejo Mecha Color: Sky Blue 69.017','Tamiya: Metallic BLue TS-19 Can','Tamiya: Gold TS-21 Can','Tamiya: Matt White TS-27 Can','Tamiya: Metallic Red PS-15 Can','Tamiya: Clear Red X-27'],false,models[14]],
     ['Billy Blue Jay',[1,'Ginn'],'MG',false,false,false,'Seed','B'],
     ['PB Destiny Impulse (Regenes) [MG]',[1,'Impulse, Destiny'],'Seed','MG',true,true,false,'C','2023-05-05',6.5,false,'Builds/PBDesintyImpulseREgenesMG.html',false],
     ['PB Destiny Impulse [RG]',[1,'Impulse, Destiny'],'RG',true,true,false,'Seed','B'],
@@ -2825,12 +2959,12 @@ function buildGundam() {
 
     if (modelArray[7]) {
         unhide('.gFromHD');
-        popNode(modelArray[7],'gFrom');
+        createList(modelArray[7],'gFrom');
     }
 
     if (modelArray[8]) {
         unhide('.gToHD');
-        popNode(modelArray[8],'gTo');
+        createList(modelArray[8],'gTo');
     }
 
     if (modelArray[15]) {
@@ -3507,7 +3641,7 @@ function insertPhoto(array,id,dots,maxWidth) {
 function insertPhotoColumn(array,id) {
     let divColNode = document.createElement('div');
     let classColAttribute = document.createAttribute('class');
-    classColAttribute.value = 'col-6 col-sm-6 col-md-4 col-xl-3 mx-0 mb-3 text-center';
+    classColAttribute.value = 'col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2 mx-0 mb-3 text-center';
     divColNode.setAttributeNode(classColAttribute);
     
     let imgNode = document.createElement('img');
