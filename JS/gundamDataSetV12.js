@@ -638,7 +638,7 @@ const projects = [
         ['img/projects/gundams/southpark/spark01.jpeg','Profile Photo: South Park'],
         'After finishing the Bel-Air, I realized there was still a lot I had to learn about air brush painting. So before moving on to the larger projects I decided to do something fun on a much more small scale in order to get a little more practice. Looking for a theme I was inspired by the boys of South Park, plus the Operation Meteor lineup.',
         false,false,false,false,true,false],
-    ['Gemini',[2,'Aquarius','Aquarius'],'SD',false,false,false,'Wing','E','2021-07-03-05',20.61,false,'Builds/Gemini.html',[''],'2022-01-24'],
+    ['Gemini',[2,'Aquarius','Aquarius'],'SD',false,false,false,'Wing','E','2021-07-05',20.61,false,'Builds/Gundams/Gemini.html',false,'2022-01-24'],
     ['Pontus',[1,'Aquarius'],'SD',false,false,false,'Wing','B'],
     ['PB Deathscythe Hell (TV Version',[1,'Deathscythe Hell'],'HG',false,true,false,'Wing','A'],
     ['Epyon [RG]',[1,'Epyon'],'RG',true,false,false,'Wing','A'],
@@ -2608,8 +2608,8 @@ function buildProjectPage(string) {
         unhide('.projectAvailableHD');
     }
 
+    let affilatesArray = [];
     if (projectArray[20]) {
-        let affilatesArray = [];
         for (let i=0;i<projectArray[20].length;i++) {
             for (let j=0;j<projects.length;j++) {
                 if (projectArray[20][i] === projects[j][0] && projects[j][22]===true) {
@@ -2617,11 +2617,9 @@ function buildProjectPage(string) {
                 }
             }
         }
-
-        if (affilatesArray>0) {
-            unhide('.projectAffProjectsHD');
-        }
-
+    }
+    if (affilatesArray>0) {
+        unhide('.projectAffProjectsHD');
         projectLinks(affilatesArray.sort(),'projectAffProjects');
     }
 
@@ -2631,9 +2629,13 @@ function buildProjectPage(string) {
             otherArray.push(projects[i])
         }
     }
+    for (let i=0;i<otherArray.length;i++) {
+        if (affilatesArray.includes(otherArray[i])) {
+            otherArray.splice(i,1);
+        }
+    }
     if (otherArray.length>0) {
         unhide('.modelOtherSameModelHD');
-
         projectLinks(otherArray.sort(),'modelOtherSameModel');
     }
 
