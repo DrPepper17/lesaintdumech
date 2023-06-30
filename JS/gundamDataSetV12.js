@@ -11,7 +11,7 @@
         7. Pokemon
         8. Transformer
         9. Zoid
-        10. 
+        10. Haropla
         11. 
 
     // Gundams (1) //
@@ -23,7 +23,7 @@
     7. Developed from
     8. Delovoped into
     9. Era
-    10. Timeline (array) [integer,string,last year seen]
+    10. Timeline (array) [integer,string,last year seen] 
     11. Pilot
     12. Secondary Pilots (array)
     13. Manufacturer
@@ -152,9 +152,7 @@
 //Models Array
 const models = [
     [0],
-    [1,
-        1,
-        'Gundam Heavyarms',
+    [1,1,'Gundam Heavyarms',
         'XXXG-01H Gundam Heavarms EW',
         'XXXG-01H',
         'Mobile Suit Gundam Wing Endless Waltz: Glory of the Losers',
@@ -192,11 +190,9 @@ const models = [
         false,
         false,
         false,
-        ['img/models/heavyarmsew.jpeg','Gundam Heavyarms EW'],
+        ['img/models/heavyarmsew.jpeg','Gundam Heavyarms EW']
     ],
-    [2,
-        1,
-        'Gundam Spiegel',
+    [2,1,'Gundam Spiegel',
         'GF13-021NG Gundam Spiegel',
         'GF13-021NG',
         'Mobile Fighter G Gundam',
@@ -225,9 +221,7 @@ const models = [
         false,
         ['img/models/spiegel.jpeg','Spiegel Gundam']
     ],
-    [3,
-        4,
-        'Chevy Bel-Air',
+    [3,4,'Chevy Bel-Air',
         'Chevrolet 1957 Bel-Air',
         'Chevrolet',
         'Bel-Air',
@@ -253,9 +247,7 @@ const models = [
         false,
         ['img/models/57belair.jpeg']
     ],
-    [4,
-        4,
-        'Volkswagen Beetle',
+    [4,4,'Volkswagen Beetle',
         'Volkswagen 1968 Beetle',
         'Volkswagen',
         'Beetle Type I',
@@ -281,9 +273,7 @@ const models = [
         false,
         ['img/models/68beetle.jpeg']
     ],
-    [5,
-        8,
-        'Bumblebee',
+    [5,8,'Bumblebee',
         'Warrior of Cybertron',
         'Live Action Film Franchise',
         [
@@ -313,9 +303,7 @@ const models = [
         false,
         ['img/models/bumblebee.jpeg']
     ],
-    [6,
-        0,
-        false,
+    [6,0,'South Park',
         'Come on down to South Park and meet some friends of mine',
         false,
         false,
@@ -341,9 +329,7 @@ const models = [
         false,
         ['img/models/southpark.jpg','The South Park Gang'],
     ],
-    [7,
-        2,
-        'Eternal',
+    [7,2,'Eternal',
         'ZAFT FFMH-Y101 Eternal',
         'FFMH-Y101',
         'Mobile Suit Gundam Seed',
@@ -354,7 +340,7 @@ const models = [
         [71,'71 C.E.','Present'],
         'Andrew Watfeld',
         ['Lacus Clyne'],
-        'ZAFT',
+        'Zodiac Alliance of Freedom Treaty',
         ['Clyne Faction','Three Ship Alliance','Terminal'],
         [300,'300 Meters'],
         false,
@@ -380,9 +366,7 @@ const models = [
         ['img/models/eternal.jpeg','Warship Eternal'],
         'Warship'
     ],
-    [8,
-        3,
-        'Andromed Black',
+    [8,3,'Andromeda Black',
         'StarBlazers Andromeda Black',
         'Andromeda Class',
         'StarBlazers',
@@ -390,7 +374,7 @@ const models = [
         false,
         false,
         'Anno Domini',
-        [2203,'May 2203 A.D.'],
+        [2203,'May 2203 A.D.','Present'],
         false,
         false,
         false,
@@ -408,6 +392,111 @@ const models = [
         false,
         ['img/models/andromedablack.jpeg','Andromeda Black Model'],
         'Battleship'
+    ],
+    [9,5,'City Area',
+        '30 Minutes Missions #06 Customize Scene Base (City Area) Accessory Set',
+        'Bandai',
+        '30 Minute Missions',
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        ['img/models/30minutecity.jpeg','30 Minute Mission City Display Kit'],
+        false
+    ],
+    [10,6,'WarGreymon',
+        'Figure-rise Standard Amplified WarGreymon',
+        'Mega',
+        ['Metal Greymon'],
+        ['Omnimon'],
+        'Dragon Man Warrior',
+        'Vaccine',
+        'Fire',
+        'Greymon Family',
+        false,
+        'Tai Kamiya',
+        [20,'20 GB'],
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        ['img/models/wargreymon.jpeg','Wargreymon']
+    ],
+    [11,7,'Greninja',
+        'Pokemon #47 Greninja Model Kit',
+        '0658',
+        'Water / Dark',
+        '3rd Stage',
+        ['Frogadier','lvl 36'],
+        false,
+        'Ninja Frog',
+        'It appears and vanishes with a ninja\'s grace. It toys with its enemies using swift movements, while slicing them with throwing stars of sharpest water. When it spins these stars and throws them at high speed, these stars can split metal in two.',
+        '4\'11\"',
+        [88.2,'88.2 lbs'],
+        'VII',
+        'Pokemon X and Y',
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        ['img/models/greninja.jpeg','Greninja']
+    ],
+    [12,10,'Red Haro',
+        'HaroPla #02 Haro Diva Red Model Kit',
+        'Red',
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        ['img/models/redharo.jpeg','Red Haro']
     ]
 ];
 
@@ -458,7 +547,7 @@ const models = [
 const projects = [
     //Ad Stella (Mercury)
     ['Aerial (?)',[1,'Aerial'],'FM',false,false,false,'Mercury','A'],
-    ['Aerial [HG]',[1,'Aerial'],'HG',true,false,false,'Mercury','D','2023-05-30-09',2.25,false,false,false],
+    ['Aerial [HG]',[1,'Aerial'],'HG',true,false,false,'Mercury','D','2023-05-30-09',2.75,false,false,false],
     ['PB Aerial Permet Six [HG]',[1,'Aerial'],'HG',true,true,false,'Mercury','A'],
     ['Ariel',[1.5,'Aerial','Mirasoul Flight Pack'],'HG',false,false,false,'Mercury','B'],
     ['Cherub',[1,'Aerial'],'SD',false,false,false,'Mercury','D','2023-01-03-10',4.91,false,'Builds/Cherub.html',['']],
@@ -472,21 +561,7 @@ const projects = [
 
     //After Colony (Wing)
     ['Leo Army',[6,'Leo'],'LEO',false,false,false,'Wing','C','2021-10-03',37.42,false,'Builds/LeoArmy.html',['Tested every paint']],
-    ['South Park',
-        [6,'Tallgeese','Epyon','Heavy Arms','Shenlong','Deathscythe','Sandrock'],
-        'SD',
-        false,
-        false,
-        false,
-        'Wing',
-        'E',
-        '2021-06-05',
-        54.42,
-        true,
-        'Builds/uniqueTemplates/SouthPark.html',
-        false,
-        '2021-06-21',
-        models[6],
+    ['South Park',[6,'Tallgeese','Epyon','Heavy Arms','Shenlong','Deathscythe','Sandrock'],'SD',false,false,false,'Wing','E','2021-06-05',54.42,true,'Builds/uniqueTemplates/SouthPark.html',false,'2021-06-21',models[6],
         [
             ['../../img/projects/gundams/southpark/sparkStan.jpeg','South Park: Stan','img1'],
             ['../../img/projects/gundams/southpark/sparkKyle.jpeg','South Park: Kyle','img2'],
@@ -523,13 +598,7 @@ const projects = [
         ],
         ['img/projects/gundams/southpark/spark01.jpeg','Profile Photo: South Park'],
         'After finishing the Bel-Air, I realized there was still a lot I had to learn about air brush painting. So before moving on to the larger projects I decided to do something fun on a much more small scale in order to get a little more practice. Looking for a theme I was inspired by the boys of South Park, plus the Operation Meteor lineup.',
-        false,
-        false,
-        false,
-        false,
-        true,
-        false
-    ],
+        false,false,false,false,true,false],
     ['Gemini',[2,'Aquarius','Aquarius'],'SD',false,false,false,'Wing','E','2021-07-03-05',20.61,false,'Builds/Gemini.html',[''],'2022-01-24'],
     ['Pontus',[1,'Aquarius'],'SD',false,false,false,'Wing','B'],
     ['PB Deathscythe Hell (TV Version',[1,'Deathscythe Hell'],'HG',false,true,false,'Wing','A'],
@@ -723,9 +792,9 @@ const projects = [
     ],
     ['Orga',[1,'Forbidden'],'FM',false,false,false,'Seed','A'],
     ['Anthem',[1,'Freedom'],'MG',false,false,false,'Seed','E','2022-05-05',73.16,true,'Builds/Anthem.html',[''],'2022-07-04'],
-    ['Freedom [MGSD]',[1,'Freedom'],'MGSD',true,false,false,'Seed','D','2023-03-05',8.5,false,false,false],
+    ['Freedom [MGSD]',[1,'Freedom'],'MGSD',true,false,false,'Seed','E','2023-03-05',8.5,false,false,false,'2023-06-28'],
     ['Liberty',[1,'Freedom'],'SD',false,false,false,'Seed','E','2022-04-09',18,false,'Builds/Liberty.html',[''],'2022-06-27'],
-    ['Old Glory',[1,'Freedom'],'MGSD',false,false,false,'Seed','C','2023-05-06',28.83,false,'Builds/Gundams/OldGlory.html',['Mission Models: MMP-001 White','Testors: Red Grapefruit 1196','Testors: Cherry Red 1197','Vallejo Mecha Color: Gold 69.059','Vallejo Mecha Color: Electric Blue 60.020','Vallejo Model Air: Black 71.057','Vallejo Mecha Color: Metallic Blue 69.067','Vallejo Model Air: Metallic Signal Red 71.070','Vallejo Mecha Color: Sky Blue 69.017','Tamiya: Metallic BLue TS-19 Can','Tamiya: Gold TS-21 Can','Tamiya: Matt White TS-27 Can','Tamiya: Metallic Red PS-15 Can','Tamiya: Clear Red X-27']],
+    ['Old Glory',[1,'Freedom'],'MGSD',false,false,false,'Seed','D','2023-05-06',30.33,false,'Builds/Gundams/OldGlory.html',['Mission Models: MMP-001 White','Testors: Red Grapefruit 1196','Testors: Cherry Red 1197','Vallejo Mecha Color: Gold 69.059','Vallejo Mecha Color: Electric Blue 60.020','Vallejo Model Air: Black 71.057','Vallejo Mecha Color: Metallic Blue 69.067','Vallejo Model Air: Metallic Signal Red 71.070','Vallejo Mecha Color: Sky Blue 69.017','Tamiya: Metallic BLue TS-19 Can','Tamiya: Gold TS-21 Can','Tamiya: Matt White TS-27 Can','Tamiya: Metallic Red PS-15 Can','Tamiya: Clear Red X-27']],
     ['Billy Blue Jay',[1,'Ginn'],'MG',false,false,false,'Seed','B'],
     ['PB Destiny Impulse (Regenes) [MG]',[1,'Impulse, Destiny'],'Seed','MG',true,true,false,'C','2023-05-05',6.5,false,'Builds/PBDesintyImpulseREgenesMG.html',false],
     ['PB Destiny Impulse [RG]',[1,'Impulse, Destiny'],'RG',true,true,false,'Seed','B'],
@@ -947,7 +1016,31 @@ const projects = [
     ['Haro Orange',[1,'Haropla #11 Zakrello'],'Haro',false,false,false,'','D','2023-04-11',4.08,false,'Builds/horange.html',['']],
     ['Haro Pink',[1,'Haropla #04 Momo Pink'],'Haro',false,false,false,'','D','2023-04-09',2.68,false,'Builds/hpink.html',['']],
     ['Haro Purple',[1,'Haropla #07 Ball Haro'],'Haro',false,false,false,'','D','2023-04-10',2.65,false,'Builds/hpurple.html',['']],
-    ['Haro Red',[1,'Haropla #02 Diva Red'],'Haro',false,false,false,'','E','2023-04-06',2.78,false,'Builds/hred.html',[''],'2023-05-30'],
+    ['Haro Red',[1,'Haropla #02 Diva Red'],'Haro',false,false,false,false,'E','2023-04-06',2.78,false,'Builds/Haro/hred.html',['Vallejo Model Air, Metallic: Signal Red 71.070'],'2023-05-30',models[12],
+        [
+            ['../../img/projects/haro/redharo/redharo01.jpeg','Red Haro','img1'],
+            ['../../img/projects/haro/redharo/redharo02.jpeg','Red Haro','img2'],
+            ['../../img/projects/haro/redharo/redharo03.jpeg','Red Haro','img3'],
+            ['../../img/projects/haro/redharo/redharo04.jpeg','Red Haro','img4'],
+            ['../../img/projects/haro/redharo/redharo05.jpeg','Red Haro','img5'],
+            ['../../img/projects/haro/redharo/redharo06.jpeg','Red Haro','img6'],
+            ['../../img/projects/haro/redharo/redharo07.jpeg','Red Haro','img7'],
+            ['../../img/projects/haro/redharo/redharo08.jpeg','Red Haro','img8'],
+            ['../../img/projects/haro/redharo/redharo09.jpeg','Red Haro','img9'],
+            ['../../img/projects/haro/redharo/redharo10.jpeg','Red Haro','img10'],
+            ['../../img/projects/haro/redharo/redharo11.jpeg','Red Haro','img11'],
+            ['../../img/projects/haro/redharo/redharo12.jpeg','Red Haro','img12']
+        ],
+        ['img/projects/haro/redharo/redharo10.jpeg','Profile Photo: Red Haro'],
+        'Easter was coming up and I wanted to do something different than those annoying damn eggs again. So I thought about it and I realized you know what, those Haros sure are pretty round like eggs. So to celebrate the holiday I made a whole basket of them, each a different color, to spread the Easter Joy. Theme for this one was a metallic red color.',
+        'Zack #TheLunchDude, Iowa',
+        [
+            ['USA Gundam Store','https://www.usagundamstore.com/products/gundam-build-divers-haropla-02-haro-diva-red-model-kit?variant=5411672064036'],
+            ['NewType','https://newtype.us/p/oMxTGi7TfGH9P6EGgPxH/h/haropla-haro-diva-red']
+        ],
+        ['Haro Blue','Haro Cloud','Haro Green','Haro Lime','Haro Orange','Haro Pink','Haro Purple'],
+        false,true,false
+    ],
     
     //Car
     ['Hud Air',
@@ -955,7 +1048,7 @@ const projects = [
     ],
     ['Wilbur',
         [1,'Volkswagen Beetle, 68'],'Car',false,false,false,'Volkswagen','E','2022-11-05',27.08,true,'Builds/Automobiles/wilbur.html',false,'2023-01-02',models[4],[['../../img/projects/automobiles//wilbur/wilbur01.jpeg','Wilbur the Beetle','img1'],['../../img/projects/automobiles//wilbur/wilbur02.jpeg','Wilbur the Beetle','img2'],['../../img/projects/automobiles//wilbur/wilbur03.jpeg','Wilbur the Beetle','img3'],['../../img/projects/automobiles//wilbur/wilbur04.jpeg','Wilbur the Beetle','img4'],['../../img/projects/automobiles//wilbur/wilbur05.jpeg','Wilbur the Beetle','img5'],['../../img/projects/automobiles//wilbur/wilbur06.jpeg','Wilbur the Beetle','img6'],['../../img/projects/automobiles//wilbur/wilbur07.jpeg','Wilbur the Beetle','img7'],['../../img/projects/automobiles//wilbur/wilbur08.jpeg','Wilbur the Beetle','img8'],['../../img/projects/automobiles//wilbur/wilbur09.jpeg','Wilbur the Beetle','img9'],['../../img/projects/automobiles//wilbur/wilbur10.jpeg','Wilbur the Beetle','img10'],['../../img/projects/automobiles//wilbur/wilbur11.jpeg','Wilbur the Beetle','img11'],['../../img/projects/automobiles//wilbur/wilbur12.jpeg','Wilbur the Beetle','img12'],['../../img/projects/automobiles//wilbur/wilbur13.jpeg','Wilbur the Beetle','img13'],['../../img/projects/automobiles//wilbur/wilbur14.jpeg','Wilbur the Beetle','img14'],['../../img/projects/automobiles//wilbur/wilbur15.jpeg','Wilbur the Beetle','img15'],['../../img/projects/automobiles//wilbur/wilbur16.jpeg','Wilbur the Beetle','img16'],['../../img/projects/automobiles//wilbur/wilbur17.jpeg','Wilbur the Beetle','img17'],['../../img/projects/automobiles//wilbur/wilbur18.jpeg','Wilbur the Beetle','img18'],['../../img/projects/automobiles//wilbur/wilbur19.jpeg','Wilbur the Beetle','img19'],['../../img/projects/automobiles//wilbur/wilbur20.jpeg','Wilbur the Beetle','img20'],['../../img/projects/automobiles//wilbur/wilbur21.jpeg','Wilbur the Beetle','img21'],['../../img/projects/automobiles//wilbur/wilbur24.jpeg','Wilbur the Beetle','img24'],['../../img/projects/automobiles//wilbur/wilbur25.jpeg','Wilbur the Beetle','img25'],['../../img/projects/automobiles//wilbur/wilbur26.jpeg','Wilbur the Beetle','img26'],['../../img/projects/automobiles//wilbur/wilbur27.jpeg','Wilbur the Beetle','img27'],['../../img/projects/automobiles//wilbur/wilbur28.jpeg','Wilbur the Beetle','img28'],['../../img/projects/automobiles//wilbur/wilbur29.jpeg','Wilbur the Beetle','img29'],
-        ['../../img/projects/automobiles//wilbur/wilbur30.jpeg','Wilbur the Beetle','img30'],['../../img/projects/automobiles//wilbur/wilbur31.jpeg','Wilbur the Beetle','img31'],['../../img/projects/automobiles//wilbur/wilbur32.jpeg','Wilbur the Beetle','img32'],['../../img/projects/automobiles//wilbur/wilbur33.jpeg','Wilbur the Beetle','img33'],['../../img/projects/automobiles//wilbur/wilbur34.jpeg','Wilbur the Beetle','img34'],['../../img/projects/automobiles//wilbur/wilbur35.jpeg','Wilbur the Beetle','img35'],['../../img/projects/automobiles//wilbur/wilbur36.jpeg','Wilbur the Beetle','img36'],['../../img/projects/automobiles//wilbur/wilbur37.jpeg','Wilbur the Beetle','img37'],['../../img/projects/automobiles//wilbur/wilbur38.jpeg','Wilbur the Beetle','img38'],['../../img/projects/automobiles//wilbur/wilbur39.jpeg','Wilbur the Beetle','img39'],['../../img/projects/automobiles//wilbur/wilbur40.jpeg','Wilbur the Beetle','img40'],['../../img/projects/automobiles//wilbur/wilbur41.jpeg','Wilbur the Beetle','img41'],['../../img/projects/automobiles//wilbur/wilbur42.jpeg','Wilbur the Beetle','img42'],['../../img/projects/automobiles//wilbur/wilbur43.jpeg','Wilbur the Beetle','img43'],['../../img/projects/automobiles//wilbur/wilbur44.jpeg','Wilbur the Beetle','img44'],['../../img/projects/automobiles//wilbur/wilbur45.jpeg','Wilbur the Beetle','img45'],['../../img/projects/automobiles//wilbur/wilbur46.jpeg','Wilbur the Beetle','img46'],['../../img/projects/automobiles//wilbur/wilbur47.jpeg','Wilbur the Beetle','img47'],['../../img/projects/automobiles//wilbur/wilbur22.jpeg','Wilbur the Beetle','img22'],['../../img/projects/automobiles//wilbur/wilbur23.jpeg','Wilbur the Beetle','img23']],['img/projects/automobiles//wilbur/wilbur46.jpeg','Profile Photo: Wilbur'],'Was an attempt at a recreation for an actual old 68 beetle we\'re in the middle of trying to restore. Incorporating our love of Germany and all things German, most particularly the cute little Dachshund. Made this as a christmas present','Zack #TheLunchDude, Iowa',[['Video','https://www.instagram.com/p/Cm64DaTI43G/'],['Wiki','https://en.wikipedia.org/wiki/Volkswagen_Beetle'],['Volkswagen','https://www.vw.com/en.html'],['Hobby Town','https://www.hobbytown.com/revell-germany-1-24-60s-beetle-type-1-rmx854192/p609173']],['Wilbee'],false,true,'1:24'
+        ['../../img/projects/automobiles//wilbur/wilbur30.jpeg','Wilbur the Beetle','img30'],['../../img/projects/automobiles//wilbur/wilbur31.jpeg','Wilbur the Beetle','img31'],['../../img/projects/automobiles//wilbur/wilbur32.jpeg','Wilbur the Beetle','img32'],['../../img/projects/automobiles//wilbur/wilbur33.jpeg','Wilbur the Beetle','img33'],['../../img/projects/automobiles//wilbur/wilbur34.jpeg','Wilbur the Beetle','img34'],['../../img/projects/automobiles//wilbur/wilbur35.jpeg','Wilbur the Beetle','img35'],['../../img/projects/automobiles//wilbur/wilbur36.jpeg','Wilbur the Beetle','img36'],['../../img/projects/automobiles//wilbur/wilbur37.jpeg','Wilbur the Beetle','img37'],['../../img/projects/automobiles//wilbur/wilbur38.jpeg','Wilbur the Beetle','img38'],['../../img/projects/automobiles//wilbur/wilbur39.jpeg','Wilbur the Beetle','img39'],['../../img/projects/automobiles//wilbur/wilbur40.jpeg','Wilbur the Beetle','img40'],['../../img/projects/automobiles//wilbur/wilbur41.jpeg','Wilbur the Beetle','img41'],['../../img/projects/automobiles//wilbur/wilbur42.jpeg','Wilbur the Beetle','img42'],['../../img/projects/automobiles//wilbur/wilbur43.jpeg','Wilbur the Beetle','img43'],['../../img/projects/automobiles//wilbur/wilbur44.jpeg','Wilbur the Beetle','img44'],['../../img/projects/automobiles//wilbur/wilbur45.jpeg','Wilbur the Beetle','img45'],['../../img/projects/automobiles//wilbur/wilbur46.jpeg','Wilbur the Beetle','img46'],['../../img/projects/automobiles//wilbur/wilbur47.jpeg','Wilbur the Beetle','img47'],['../../img/projects/automobiles//wilbur/wilbur22.jpeg','Wilbur the Beetle','img22'],['../../img/projects/automobiles//wilbur/wilbur23.jpeg','Wilbur the Beetle','img23']],['img/projects/automobiles//wilbur/wilbur46.jpeg','Profile Photo: Wilbur'],'Was an attempt at a recreation for an actual old 68 beetle we\'re in the middle of trying to restore. Incorporating our love of Germany and all things German, most particularly the cute little Dachshund. Made this as a christmas present',[['Video','https://www.instagram.com/p/Cm64DaTI43G/'],['Wiki','https://en.wikipedia.org/wiki/Volkswagen_Beetle'],['Volkswagen','https://www.vw.com/en.html'],['Hobby Town','https://www.hobbytown.com/revell-germany-1-24-60s-beetle-type-1-rmx854192/p609173']],['Wilbee'],false,true,'1:24'
     ],
     
     //Pokemon
@@ -963,7 +1056,27 @@ const projects = [
     ['Asterix',[1,'Charmander'],'Pokemon',false,false,false,'','D','2023-03-12',3.85,false,'Builds/asterix.html',['']],
     ['Vercingetorix',[1,'Charizard'],'Pokemon',false,false,false,'','D','2023-03-10',5.99,false,'Builds/vercingetorix.html',['']],
     ['Boudica',[1,'Dragonite'],'Pokemon',false,false,false,'','D','2023-03-11',3.47,false,'Builds/boudica.html',['']],
-    ['Granfrog',[1,'Greninja'],'Pokemon',false,false,false,'','E','2021-11-11',5.68,false,'Builds/granfrog.html',[''],'2022-08-17'],
+    ['Granfrog',[1,'Greninja'],'Pokemon',false,false,false,false,'E','2021-11-11',5.68,false,'Builds/Pokemon/granfrog.html',false,'2022-08-17',models[11],
+        [
+            ['../../img/projects/pokemon/granfrog/granfrog01.jpeg','Granfrog the Greninja','img1'],
+            ['../../img/projects/pokemon/granfrog/granfrog02.jpeg','Granfrog the Greninja','img2'],
+            ['../../img/projects/pokemon/granfrog/granfrog03.jpeg','Granfrog the Greninja','img3'],
+            ['../../img/projects/pokemon/granfrog/granfrog04.jpeg','Granfrog the Greninja','img4'],
+            ['../../img/projects/pokemon/granfrog/granfrog05.jpeg','Granfrog the Greninja','img5'],
+            ['../../img/projects/pokemon/granfrog/granfrog06.jpeg','Granfrog the Greninja','img6'],
+            ['../../img/projects/pokemon/granfrog/granfrog07.jpeg','Granfrog the Greninja','img7'],
+            ['../../img/projects/pokemon/granfrog/granfrog08.jpeg','Granfrog the Greninja','img8'],
+            ['../../img/projects/pokemon/granfrog/granfrog09.jpeg','Granfrog the Greninja','img9'],
+            ['../../img/projects/pokemon/granfrog/granfrog10.jpeg','Granfrog the Greninja','img10'],
+            ['../../img/projects/pokemon/granfrog/granfrog11.jpeg','Granfrog the Greninja','img11']
+        ],
+        ['img/projects/pokemon/granfrog/granfrog10.jpeg'],
+        'So inspiration for this piece is I was looking for a Christmas present idea for a particularly grandmother of mine who is aboslutely obsessed with frogs. I knew I wanted to make her something from scratch, but the hobby stores don\'t just have generic model kits of plain regular animals lying around that creating her a custom painted model frog was a no go. So after much consideration I realized the closest I could do was a pokemon frog. So anyhow, for the color scheme on this one, I didn\'t want to go with the traditional blue that Greninja is known for, but instead respecting my grandmother\'s love for the animal, wanted to keep it as close to the traditional frog colors as possible. Particularly the tropical rainforest frogs you see from South America with the bright colors on their backs.','Mary, Nebraska',
+        [
+            ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Greninja_(Pokémon)'],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-47-greninja-model-kit?variant=40332069765317'],
+            ['NewType','https://newtype.us/p/dwk8jzQtdPBUWYb5VxT3/h/pokemon-greninja']
+        ],false,false,true,false],
     ['Brennus',[1,'Groudon'],'Pokemon',false,false,false,'','A'],
     ['Unhygienix',[1,'Magikarp'],'Pokemon',false,false,false,'','A'],
     ['Lutetia',[1,'Lucario'],'Pokemon',false,false,false,'','A'],
@@ -984,17 +1097,75 @@ const projects = [
     ['Odin',[1,'Shine Greymon',],'Digimon',false,false,false,'','A'],
     ['Ragnarok',[1,'Omnimon'],'Digimon',false,false,false,'','E','2022-07-05',19.65,false,'Builds/ragnorok.html',[''],'2022-10-17'],
     ['Revelation',[1,'Omnimon X'],'Digimon',false,false,false,'','A'],
-    ['Fafnir',[1,'War Greymon'],'Digimon',false,false,false,'','E','2022-07-08',20.7,false,'Builds/fafnir.html',[''],'2022-10-04'],
+    ['Fafnir',[1,'War Greymon'],'Digimon',false,false,false,'','E','2022-07-08',20.7,false,'Builds/Digimon/fafnir.html',false,'2022-10-04',models[10],
+        [['../../img/projects/digimon/fafnir/fafnir01.jpeg','Fafnir','img1'],
+            ['../../img/projects/digimon/fafnir/fafnir02.jpeg','Fafnir','img2'],
+            ['../../img/projects/digimon/fafnir/fafnir03.jpeg','Fafnir','img3'],
+            ['../../img/projects/digimon/fafnir/fafnir04.jpeg','Fafnir','img4'],
+            ['../../img/projects/digimon/fafnir/fafnir05.jpeg','Fafnir','img5'],
+            ['../../img/projects/digimon/fafnir/fafnir06.jpeg','Fafnir','img6'],
+            ['../../img/projects/digimon/fafnir/fafnir07.jpeg','Fafnir','img7'],
+            ['../../img/projects/digimon/fafnir/fafnir08.jpeg','Fafnir','img8'],
+            ['../../img/projects/digimon/fafnir/fafnir09.jpeg','Fafnir','img9'],
+            ['../../img/projects/digimon/fafnir/fafnir10.jpeg','Fafnir','img10'],
+            ['../../img/projects/digimon/fafnir/fafnir11.jpeg','Fafnir','img11'],
+            ['../../img/projects/digimon/fafnir/fafnir12.jpeg','Fafnir','img12'],
+            ['../../img/projects/digimon/fafnir/fafnir13.jpeg','Fafnir','img13'],
+            ['../../img/projects/digimon/fafnir/fafnir14.jpeg','Fafnir','img14'],
+            ['../../img/projects/digimon/fafnir/fafnir15.jpeg','Fafnir','img15'],
+            ['../../img/projects/digimon/fafnir/fafnir16.jpeg','Fafnir','img16'],
+            ['../../img/projects/digimon/fafnir/fafnir17.jpeg','Fafnir','img17'],
+            ['../../img/projects/digimon/fafnir/fafnir18.jpeg','Fafnir','img18'],
+            ['../../img/projects/digimon/fafnir/fafnir19.jpeg','Fafnir','img19'],
+            ['../../img/projects/digimon/fafnir/fafnir20.jpeg','Fafnir','img20'],
+            ['../../img/projects/digimon/fafnir/fafnir21.jpeg','Fafnir','img21'],
+            ['../../img/projects/digimon/fafnir/fafnir22.jpeg','Fafnir','img22']
+        ],
+        ['img/projects/digimon/fafnir/fafnir16.jpeg','Profile Photo: Fafnir'],
+        'So I loved the show Digimon as a kid growing up, and WarGreymon plus his evolution Omnimon I always thought they were just the coolest. When I saw the amplified kit of him and all its extra details, I was just completedly sold. It came out great. My use of the Vallejo Ferarri Red looked better than the typical yellow-orange of the original plastic. This was just rad as ever.',false,[
+            ['Video','https://www.instagram.com/reel/CjUMt3eP1lk/'],
+            ['Fandom','https://digimon.fandom.com/wiki/WarGreymon'],
+            ['Digmon Cybersleuth','https://www.grindosaur.com/en/games/digimon/digimon-story-cyber-sleuth/digimon/228-wargreymon'],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/digimon-adventure-figure-rise-standard-amplified-wargreymon-model-kit'],
+            ['NewType','https://newtype.us/p/dGkX8wc4OgATMVVeqW5A/h/figure-rise-wargreymon-amplified']
+        ],['Fenrir','Ragnarok'],false,true,false],
 
     //Display
-    ['Diurnum',[1,'City Area, 30 Minute Mission'],'Display',false,false,false,'','E','2022-01-10',9.67,false,'Builds/diurnum.html',[''],'2022-03-21'],
+    ['Diurnum',
+        [1,'City Area, 30 Minute Missions'],'Display',false,false,false,false,'E','2022-01-10',9.67,false,'Builds/Displays/diurnum.html',false,'2022-03-21',models[9],
+        [
+            ['../../img/projects/displays/diurnum/diurnum01.jpeg','City of Diurnum','img1'],
+            ['../../img/projects/displays/diurnum/diurnum02.jpeg','City of Diurnum','img2'],
+            ['../../img/projects/displays/diurnum/diurnum03.jpeg','City of Diurnum','img3'],
+            ['../../img/projects/displays/diurnum/diurnum04.jpeg','City of Diurnum','img4'],
+            ['../../img/projects/displays/diurnum/diurnum05.jpeg','City of Diurnum','img5'],
+            ['../../img/projects/displays/diurnum/diurnum06.jpeg','City of Diurnum','img6'],
+            ['../../img/projects/displays/diurnum/diurnum07.jpeg','City of Diurnum','img7'],
+            ['../../img/projects/displays/diurnum/diurnum08.jpeg','City of Diurnum','img8'],
+            ['../../img/projects/displays/diurnum/diurnum09.jpeg','City of Diurnum','img9'],
+            ['../../img/projects/displays/diurnum/diurnum11.jpeg','City of Diurnum','img10'],
+            ['../../img/projects/displays/diurnum/diurnum11.jpeg','City of Diurnum','img11'],
+            ['../../img/projects/displays/diurnum/diurnum12.jpeg','City of Diurnum','img12'],
+            ['../../img/projects/displays/diurnum/diurnum13.jpeg','City of Diurnum','img13'],
+            ['../../img/projects/displays/diurnum/diurnum14.jpeg','City of Diurnum','img14'],
+            ['../../img/projects/displays/diurnum/diurnum15.jpeg','City of Diurnum','img15'],
+            ['../../img/projects/displays/diurnum/diurnum16.jpeg','City of Diurnum','img16'],
+            ['../../img/projects/displays/diurnum/diurnum17.jpeg','City of Diurnum','img17'],
+            ['../../img/projects/displays/diurnum/diurnum18.jpeg','City of Diurnum','img18']
+        ],
+        ['img/projects/displays/diurnum/diurnum07.jpeg','Profile Photo: Diurnum'],
+        'Diurnum; Latin for the City of Light. Now though just relics in the dust bowl of the desert. I had went to a plastic modeling convention recently and I was fascinated by all the people who built dioramas. They were so realistic and looked so cool. It had me inspired to want to create my own scenery pieces to show off my own models in. This was my first dabble and attemp. I\'m real proud of how this turned out and not going to lie this little building came out so cute.',
+        false,
+        [
+            ['USA Gundam Store','https://www.usagundamstore.com/products/1-144-customized-scene-base-city-area-ver?variant=37444255678661'],
+            ['NewType','https://newtype.us/p/CB9RI7xIzfUuV7wIFaYw/h/30mm-customize-scene-base-06-city-area-ver']
+        ],false,false,true,false],
     ['Battlefield Earth',[2,'Energy Ring Emitter'],'Display',false,false,false,'','A'],
     ['Kataluma',[1,'Hangar Bay'],'Display',false,false,false,'','E','2022-02',16.96,true,'Builds/kataluma.html',[''],'2022-04-04'],
     ['Stratle',[1,'Maintenance Bay'],'Display',false,false,false,'','E','2022-02-11',27.12,true,'Builds/stratle.html',[''],'2022-04-11'],
 
     //Ship
-    ['Libeccio',[0.2,'Andromeda Black'],'Ship',false,false,false,'StarBlazer','E','2022-09-09',4.42,false,
-        'Builds/Ships/libeccio.html',false,'2023-02-06',models[8],
+    ['Libeccio',[0.2,'Andromeda Black'],'Ship',false,false,false,'StarBlazer','E','2022-09-09',4.42,false,'Builds/Ships/libeccio.html',false,'2023-02-06',models[8],
         [
             ['../../img/projects/ships/libeccio/libeccio01.jpeg','Libeccio Andromeda Class Battleship','img1'],
             ['../../img/projects/ships/libeccio/libeccio02.jpeg','Libeccio Andromeda Class Battleship','img2'],
@@ -1011,33 +1182,15 @@ const projects = [
         'Named after the Mediterranean SouthWest wind, I present to you the Libeccio. I had, had way too much fun building the Eternal, Archangel and Dominion, that I ached to build another ship model again. Granted there are not many other ships in the Gundam lineup to build, and also that Bandai is currently not manufacturing new ones, I had no choice but to branch out and try another franchise. And luckly enough at the time, there were lots of StarBlazers kits floating around in rotation to take advantavge of. I know nothing about the StarBlazer though of course. But the kits were cool enough that they seemed worth giving them a try.',
         false,
         [
+            ['Video','https://www.instagram.com/reel/CoVMgaLMyp5/?igshid=YzcxN2Q2NzY0OA=='],
             ['StarBlazer Wiki','https://yamato.fandom.com/wiki/Andromeda_Black']
-        ],
-        ['Ostro'],
-        false,
-        true,
-        '1:1000'
-    ],
+        ],['Ostro'],false,true,'1:1000'],
     ['Ostro',[0.2,'Cosmo Falcon'],'Ship',false,false,false,'StarBlazer','E','2022-07-06',6.33,false,'Builds/ostro.html',[''],'2022-07-18'],
     ['Ponente',[1,'Cosmo Zero'],'Ship',false,false,false,'StarBlazer','B'],
     ['Levante',[1,'Nagato'],'Ship',false,false,false,'Space Rengo Kantai','B'],
 
     //Transformer
-    ['Wilbee',
-        [1,'Bumblebee'],
-        'Transformer',
-        false,
-        false,
-        false,
-        false,
-        'E',
-        '2022-11-06',
-        9.33,
-        false,
-        'Builds/Transformers/wilbee.html',
-        false,
-        '2023-01-09',
-        models[5],
+    ['Wilbee',[1,'Bumblebee'],'Transformer',false,false,false,false,'E','2022-11-06',9.33,false,'Builds/Transformers/wilbee.html',false,'2023-01-09',models[5],
         [
             ['../../img/projects/transformers/wilbee/wilbee01.jpeg','Wilbee','img1'],
             ['../../img/projects/transformers/wilbee/wilbee02.jpeg','Wilbee','img2'],
@@ -1085,12 +1238,7 @@ const projects = [
             ['USA Gundam','https://www.usagundamstore.com/products/transformers-bumblebee-smart-model-kit?variant=41383099105477'],
             ['NewType','https://newtype.us/p/TgNnMiuDbvcowmHCougQ/h/trumpeter-bumblebee-smart-kit'],
             ['Amazon','https://a.co/d/a6lagxe']
-        ],
-        ['Wilbur'],
-        false,
-        true,
-        'Not Available'
-    ],
+        ],['Wilbur'],false,true,false],
     
     //Zoid
     ['Dash Hound',[1,'Shadow Fox'],'Zoid',false,false,false,'','C','2023-06-12',11.67,false,'Builds/Zoids/DashHound.html',['Tamiya: Gold TS-21 Can','Tamiya: Matt Black TS-6 Can','Tamiya: Copper PS-14 Can','Vallejo Model Air: US Earth Red 71.293','Vallejo Model Air: USAF Brown 71.125','Vallejo Model Air: Rust 71.069','Vallejo Model Air: Armor Brown 71.041','Vallejo Mecha Color: Dark Steel 69.065','Vallejo Model Air: Silver 71.063','Vallejo Model Air: Ivory 71.075','Testors: Brass 1182','Vallejo Model Air: Wood 71.077','Vallejo Model Air: US Desert Sand 71.140','Vallejo Mecha Color: Gun Metal 69.058','Vallejo Model Air: Camouflage Gray 71.280']],
@@ -1995,7 +2143,7 @@ function populateBuildsPage() {
         {
             let divNode = document.createElement('div');
             let divClass = document.createAttribute('class');
-            divClass.value = 'col-7 col-mx-5 col-sm-mx-0 col-sm-6 col-md-4 col-xl-3 text-center';
+            divClass.value = 'col-6 col-sm-6 col-md-4 col-xl-3 mx-0 text-center';
             divNode.setAttributeNode(divClass);
 
             let aNode = document.createElement('a');
@@ -2003,7 +2151,7 @@ function populateBuildsPage() {
             hrefNode.value = postedArray[i][11];
             aNode.setAttributeNode(hrefNode);
             let aClass = document.createAttribute('class');
-            aClass.value = 'mx-2';
+            aClass.value = 'mx-0';
             aNode.setAttributeNode(aClass);
 
             divNode.appendChild(aNode);
@@ -2013,7 +2161,7 @@ function populateBuildsPage() {
             imgSRC.value = postedArray[i][16][0];
             profilePhotoNode.setAttributeNode(imgSRC);
             let imgClass = document.createAttribute('class');
-            imgClass.value = 'img-thumbnail m-3';
+            imgClass.value = 'img-fluid img-thumbnail';
             profilePhotoNode.setAttributeNode(imgClass);
 
             aNode.appendChild(profilePhotoNode);
@@ -2281,65 +2429,57 @@ function suggestNextPost () {
 }
 
 //Project Functions
-function projectPage(string) {
+function buildProjectPage(string) {
     for (let i=0;i<projects.length;i++) {
         if (projects[i][0] === string) {
             projectArray = projects[i];
             break;
         }
     }
-
     modelArray = projectArray[14];
-    let titleNode = document.getElementById('title');
-    let titleNodeText = document.createTextNode(projectArray[0]+' \u269C');
-    titleNode.appendChild(titleNodeText);
 
-    let jumboNode = document.getElementById('jumboNode');
-    let jumboNodeText = document.createTextNode(projectArray[0]);
-    jumboNode.appendChild(jumboNodeText);
+    generateModalFrame();
+    for (let i=0;i<projectArray[15].length;i++) {
+        insertPhotoColumn(projectArray[15][i],'photoGallery');
+    }
+    for (let i=0;i<projectArray[15].length;i++) {
+        photoModalPopup(i);
+    }  
 
-    let breadcrumbNode = document.getElementById('breadcrumbNode');
-    let breadcrumbText = document.createTextNode(projectArray[0]);
-    breadcrumbNode.appendChild(breadcrumbText);
+    popNode(projectArray[0]+' \u269C','title');
+    popNode(projectArray[0],'jumboNode');
+    popNode(projectArray[0],'breadcrumbNode');
 
-    let projectTitleNode = document.getElementById('projectTitle');
-    let projectTitleNode_Mobile = document.getElementById('projectTitle_Mobile');
-    let projectTitleText = document.createTextNode(projectArray[0]);
-    projectTitleNode.appendChild(projectTitleText);
+    if (modelArray[1] === 1) {
+        popNode('Gundam ','projectTitle');
+        popNode('Gundam ','projectTitleMb');
+    }
+    if (modelArray[1] === 2 || modelArray[1] === 3) {
+        popNode(modelArray[27]+' ','projectTitle');
+        popNode(modelArray[27]+' ','projectTitleMb');
+    }
+    popNode(projectArray[0],'projectTitle');
+    popNode(projectArray[0],'projectTitleMb');
 
-    
-    let projectTitleText_Mobile = document.createTextNode(projectArray[0]);
-    projectTitleNode_Mobile.appendChild(projectTitleText_Mobile);
+    popNode(modelArray[3],'modelFullName');
+    popNode(projectArray[0],'projectName');
+    popNode(modelArray[3],'modelName');
 
-    let modelNameNode = document.getElementById('modelFullName');
-    let modelNameText = document.createTextNode(modelArray[3]);
-    modelNameNode.appendChild(modelNameText);
+    if (projectArray[1][0]>1) {
+        unhide('.projectOtherModelsHD');
 
-    insertPhoto(modelArray[26],'modelPhoto','../../');
-    insertPhoto(projectArray[16],'profilePhoto','../../');
-
-    let projectNameNode = document.getElementById('projectName');
-    let projectNameText = document.createTextNode(projectArray[0]);
-    projectNameNode.appendChild(projectNameText);
-
-    let modelName_ShortNode = document.getElementById('modelName_Short');
-    let modelName_ShortText = document.createTextNode(modelArray[3]);
-    modelName_ShortNode.appendChild(modelName_ShortText);
-    
-    if (projectArray[1].length>2) {
-        const otherModelsClass = document.querySelector('.otherModelsClass');
-        otherModelsClass.style.display = 'block';
-        
-        let otherModelsNode = document.getElementById('otherModels');
-        let otherModelText = document.createTextNode(projectArray[1][2]);
-        otherModelsNode.appendChild(otherModelText);
-        if (projectArray[1].length>3) {
-            for (let i=3;i<projectArray[1].length;i++) {
-                let thirdModelText = document.createTextNode(', '+projectArray[1][i]);
-                otherModelsNode.appendChild(thirdModelText);
-            }
+        let projectOtherModelsN = document.getElementById('projectOtherModels');
+        let textGrade = projectArray[2];
+        for (let i=1;i<projectArray[1].length;i++) {
+            let projectOtherModelsLi = document.createElement('li');
+            let projectOtherModelsLiCl = document.createAttribute('class');
+            projectOtherModelsLiCl.value = 'font-weight-normal';
+            projectOtherModelsLi.setAttributeNode(projectOtherModelsLiCl);
+            let projectOtherModelsT = document.createTextNode(textGrade+' '+projectArray[1][i]);
+            projectOtherModelsLi.appendChild(projectOtherModelsT);
+            projectOtherModelsN.appendChild(projectOtherModelsLi);
         }
-    }        
+    }
 
     let startStamp = new Date(projectArray[8]);
     let startMonth = convertMonth(startStamp.getMonth());
@@ -2350,62 +2490,50 @@ function projectPage(string) {
     let postDay = postStamp.getDate();
     let postYear = postStamp.getFullYear();
 
-    let dateStartNode = document.getElementById('dateStart');
-    let dateStartText = document.createTextNode(startMonth+' '+startYear);
-    dateStartNode.appendChild(dateStartText);
+    if (projectArray[8]) {
+        unhide('.projectStartDateHD');
+        popNode(startMonth+' '+startYear,'projectStartDate');
+    }
 
-    let datePostNode = document.getElementById('datePost');
-    let datePostText = document.createTextNode(postMonth+' '+postDay+' '+postYear);
-    datePostNode.appendChild(datePostText);
+    if (projectArray[13]) {
+        unhide('.projectPostDateHD');
+        popNode(postMonth+' '+postDay+' '+postYear,'projectPostDate');
+    }
 
-    let dateStartNode_Mobile = document.getElementById('dateStart_Mobile');
-    let dateStartText_Mobile = document.createTextNode(startMonth+' '+startYear);
-    dateStartNode_Mobile.appendChild(dateStartText_Mobile);
-
-    let datePostNode_Mobile = document.getElementById('datePost_Mobile');
-    let datePostText_Mobile = document.createTextNode(postMonth+' '+postDay+' '+postYear);
-    datePostNode_Mobile.appendChild(datePostText_Mobile);
-       
-    let tHoursNode = document.getElementById('tHours');
-    let tHoursText = document.createTextNode(projectArray[9]+' hrs');
-    tHoursNode.appendChild(tHoursText);
+    if (projectArray[9]) {
+        unhide('.projectHoursHD');
+        popNode(projectArray[9]+' hrs','projectHours');
+    }
 
     let ledQ = 'No';
     if (projectArray[10]) {
         ledQ = 'Yes';
     }
+    popNode(ledQ,'projectLED');
 
-    let LEDS_Node = document.getElementById('LEDS');
-    let LEDS_Text = document.createTextNode(ledQ);
-    LEDS_Node.appendChild(LEDS_Text);
+    insertPhoto(projectArray[16],'projectProfilePhoto','../../',325);
 
-    let descripNode = document.getElementById('descrip');
-    let descripText = document.createTextNode(projectArray[17]);
-    descripNode.appendChild(descripText);
-
-    let descripMobileNode = document.getElementById('descripMobile');
-    let descripMobileText = document.createTextNode(projectArray[17]);
-    descripMobileNode.appendChild(descripMobileText);
+    if (projectArray[17]) {
+        unhide('.projectDescriptionHD');
+        popNode(projectArray[17],'projectDescription');
+    }
 
     if (projectArray[12]) {
-        const gPaintClass = document.querySelector('.gPaint');
-        gPaintClass.style.display = 'block';
+        unhide('.projectPaintsHD');
+        createList(projectArray[12],'projectPaints');
+    }
 
-        let paintUL = document.getElementById('paints');
-        for (let i=0;i<projectArray[12].length;i++) {
-            let liNode = document.createElement('li');
-            let liNodeClass = document.createAttribute('class');
-            liNodeClass.value = 'font-weight-normal list-unstyled';
-            liNode.setAttributeNode(liNodeClass);
-            let paintColor = document.createTextNode(projectArray[12][i]);
-            liNode.appendChild(paintColor);
-            paintUL.appendChild(liNode);
-        }
+    if (projectArray[18]) {
+        unhide('.projectCurrentOwnerHD');
+        popNode(projectArray[18],'projectCurrentOwner');
+    }
+
+    if (projectArray[21]) {
+        unhide('.projectAvailableHD');
     }
 
     if (projectArray[20]) {
-        const affiliates = document.querySelector('.affiliates');
-        affiliates.style.display = 'block';
+        unhide('.projectAffProjectsHD');
 
         let affilatesArray = [];
         for (let i=0;i<projectArray[20].length;i++) {
@@ -2416,9 +2544,8 @@ function projectPage(string) {
             }
         }
 
-        projectLinks(affilatesArray,'gAffiliates');
+        projectLinks(affilatesArray,'projectAffProjects');
     }
-
 
     let otherArray = [];
     for (let i=0;i<projects.length;i++) {
@@ -2426,19 +2553,16 @@ function projectPage(string) {
             otherArray.push(projects[i])
         }
     }
-
     if (otherArray.length>0) {
-        const otherBuilds = document.querySelector('affiliates');
-        otherBuilds.style.display = 'block';
+        unhide('.modelOtherSameModelHD');
 
-        projectLinks(otherArray,'otherBuilds');
+        projectLinks(otherArray,'modelOtherSameModel');
     }
 
     if (projectArray[19]) {
-        const outsideLinks = document.querySelector('.links');
-        outsideLinks.style.display = 'block';
+        unhide('.projectOutsideLinksHD');
 
-        let destinationNode = document.getElementById('outsideLinks')
+        let destinationNode = document.getElementById('projectOutsideLinks')
         for (let i=0;i<projectArray[19].length;i++) {
             let liNode = document.createElement('li');
             let aNode = document.createElement('a');
@@ -2455,56 +2579,663 @@ function projectPage(string) {
         }
     }
 
-    generateModalFrame();
-    populateImages();
-
-    for (let i=0;i<projectArray[15].length;i++) {
-        photoModalPopup(i);
-    }  
-
     if (modelArray[23]) {
-        popSDWHero();
+        buildSDWHero();
     }
     else if (modelArray[1] === 1) {
-        popGundamPage();
-    }
+        buildGundam();
+    } 
     else if (modelArray[1] === 2) {
-        popShipGundam();
+        buildShipGundam();
     }
     else if (modelArray[1] === 3) {
-        popShipOther();
+        buildShipOther();
     }
     else if (modelArray[1] === 4) {
-        popAuto();
+        buildCarAuto();
     }
     else if (modelArray[1] === 5) {
-        popDisplay();
+        buildDisplay();
     }
     else if (modelArray[1] === 6) {
-        popDigimon();
+        buildDigimon();
     }
     else if (modelArray[1] === 7) {
-        popPokemon();
+        buildPokemon();
     }
     else if (modelArray[1] === 8) {
-        popTransformer();
+        buildTransformer();
     }
     else if (modelArray[1] === 9) {
-        popZoid();
+        buildZoid();
     } 
     else if (modelArray[1] === 10) {
-        popHaro();
+        buildHaro();
+    }
+}
+
+function buildGundam() {
+    unhide('.GundamPage');
+    insertPhoto(modelArray[26],'gModelPhoto','../../',300);
+
+    if (projectArray[4]) {
+        unhide('.projectPBandaiHD');
+
+        let projectPBandaiN = document.getElementById('projectPBandai');
+        let text = 'Build';
+        if (projectArray[3]) {
+            text = 'Straight Build';
+        }
+        popNode(text,'projectPBandai');
     }
 
-    if (projectArray[18]) {
-        const ownerClass = document.querySelector('.owner');
-        ownerClass.style.display = 'block';
+    if (projectArray[2]) {
+        unhide('.projectGradeHD');
 
-        let ownerNode = document.getElementById('cOwner');
-        let ownerText = document.createTextNode(projectArray[18]);
-        ownerNode.appendChild(ownerText);
+        let projectGradeN = document.getElementById('projectGrade');
+        let projectGradeT = document.createTextNode(gradeEdifier(projectArray));
+        if (projectArray[5]) {
+            let projectGradeSpan = document.createElement('span');
+            let projectGradeSpanCl = document.createAttribute('class');
+            projectGradeSpanCl.value = 'font-weight-bold text-danger ';
+            projectGradeSpan.setAttributeNode(projectGradeSpanCl);
+            projectGradeT = document.createTextNode('Master Grade Extreme (MGEX)');
+            projectGradeSpan.appendChild(projectGradeT);
+            projectGradeN.appendChild(projectGradeSpan);
+        }
+        else {
+            projectGradeN.appendChild(projectGradeT);
+        }
     }
 
+    if (modelArray[2]) {
+        unhide('.gShortNameHD');
+        popNode(modelArray[2],'gShortName');
+    }
+
+    if (modelArray[4]) {
+        unhide('.gSerialHD');
+        popNode(modelArray[4],'gSerial');
+    }
+
+    if (modelArray[6]) {
+        unhide('.gEWHD');
+    }
+
+    if (modelArray[25]) {
+        unhide('.gMobileArmorHD');
+    }
+
+    if (modelArray[24]) {
+        unhide('.gAltNameHD');
+        popNode(modelArray[24],'gAltName');
+    }
+
+    if (modelArray[11]) {
+        unhide('.gPilotHD');
+        popNode(modelArray[11],'gPilot');
+    }
+
+    if (modelArray[12]) {
+        unhide('.gPilot2HD');
+        popNode(modelArray[12][0],'gPilot2');
+
+        if (modelArray[12].length>1) {
+            for (let i=1;i<modelArray[12].length;i++) {
+                popNode(', '+modelArray[12][i],'gPilot2');
+            }
+        }
+    }
+
+    if (modelArray[5]) {
+        unhide('.gSeriesHD');
+        popNode(modelArray[5],'gSeries');
+    }
+
+    if (modelArray[9]) {
+        unhide('.gEraHD');
+        popNode(modelArray[9],'gEra');
+    }
+
+    if (modelArray[10]) {
+        unhide('.gCreatedHD');
+        popNode(modelArray[10][1],'gCreated');
+        
+        let fYear = modelArray[10][0];
+        let lYear = modelArray[10][2];
+        let timespan = '';
+        if (fYear===lYear) {
+            timespan = 1;
+        } else if (lYear != 'Present') {
+            timespan = lYear-fYear;
+        }
+
+        popNode(fYear+'-'+lYear,'gTimeline');
+        if (lYear != 'Present') {
+            popNode('; '+timespan+' year(s)','gTimeline');
+        }
+    }
+
+    if (modelArray[13]) {
+        unhide('.gManufacturerHD');
+        popNode(modelArray[13],'gManufacturer');
+    }
+
+    if (modelArray[14]) {
+        unhide('.gAffiliationHD');
+        createList(modelArray[14],'gAffiliation');
+    }
+
+    if (modelArray[7]) {
+        unhide('.gFromHD');
+        popNode(modelArray[7],'gFrom');
+    }
+
+    if (modelArray[8]) {
+        unhide('.gToHD');
+        popNode(modelArray[8],'gTo');
+    }
+
+    if (modelArray[15]) {
+        unhide('.gHeightHD');
+        popNode(modelArray[15][1],'gHeight');
+    }
+
+    if (modelArray[16]) {
+        unhide('.gWeightHD');
+        popNode(modelArray[16][1],'gWeight');
+    }
+
+    if (modelArray[17]) {
+        unhide('.gMaterialHD');
+        popNode(modelArray[17],'gMaterial');
+    }
+
+    if (modelArray[22]) {
+        unhide('.gDesignedHD');
+        popNode(modelArray[22],'gDesigned');
+    }
+
+    if (modelArray[18]) {
+        unhide('.gPowerHD');
+        popNode(modelArray[18],'gPower');
+    }
+
+    if (modelArray[21]) {
+        unhide('.gSystemsHD');
+        createList(modelArray[21],'gSystems');
+    }
+
+    if (modelArray[19]) {
+        unhide('.gArmamentsHD');
+        createList(modelArray[19],'gArmaments');
+    }
+
+    if (modelArray[20]) {
+        unhide('.gEquipmentHD');
+        createList(modelArray[20],'gEquipment');
+    }
+}
+
+function buildShipGundam() {
+    unhide('.GundamShipPage');
+    insertPhoto(modelArray[26],'gsModelPhoto','../../',450);
+
+    if (modelArray[2]) {
+        unhide('.gsShortNameHD');
+        popNode(modelArray[2],'gsShortName');
+    }
+
+    if (modelArray[24]) {
+        unhide('.gsAltNameHD');
+        popNode(modelArray[24],'gsAltName');
+    }
+
+    if (modelArray[4]) {
+        unhide('.gsSerialHD');
+        popNode(modelArray[4],'gsSerial');
+    }
+
+    if (modelArray[11]) {
+        unhide('.gsCaptainHD');
+        popNode(modelArray[11],'gsCaptain');
+    }
+
+    if (modelArray[12]) {
+        unhide('.gsCaptain2HD');
+        popNode(modelArray[12],'gsCaptain2');
+
+        if (modelArray[12].length>1) {
+            for (let i=1;i<modelArray[12].length;i++) {
+                popNode(', '+modelArray[12][i],'gsCaptain2');
+            }
+        }
+    }
+
+    if (modelArray[5]) {
+        unhide('.gsSeriesHD');
+        popNode(modelArray[5],'gsSeries');
+    }
+
+    if (modelArray[9]) {
+        unhide('.gsEraHD');
+        popNode(modelArray[9],'gsEra');
+    }
+
+    if (modelArray[10]) {
+        unhide('.gsCreatedHD');
+        popNode(modelArray[10][1],'gsCreated');
+        
+        let fYear = modelArray[10][0];
+        let lYear = modelArray[10][2];
+        let timespan = '';
+        if (fYear===lYear) {
+            timespan = 1;
+        } else if (lYear != 'Present') {
+            timespan = lYear-fYear;
+        }
+
+        popNode(fYear+'-'+lYear,'gsTimeline');
+
+        if (lYear != 'Present') {
+            popNode('; '+timespan+' year(s)','gsTimeline');
+        }
+    }
+
+    if (modelArray[15]) {
+        unhide('.gsLengthHD');
+        popNode(modelArray[15][1],'gsLength');
+    }
+
+    if (modelArray[13]) {
+        unhide('.gsManufacturerHD');
+        popNode(modelArray[13],'gsManufacturer');
+    }
+
+    if (modelArray[14]) {
+        unhide('.gsAffiliationHD');
+        createList(modelArray[14],'gsAffiliation');
+    }
+
+    if (modelArray[19]) {
+        unhide('.gsArmamentsHD');
+        createList(modelArray[19],'gsArmaments');
+    }
+
+    if (modelArray[20]) {
+        unhide('.gsEquipmentHD');
+        createList(modelArray[20],'gsEquipment');
+    }
+
+    if (modelArray[21]) {
+        unhide('.gsOnboardHD');
+        createList(modelArray[21],'gsOnboard');
+        const gsOnboardHD = document.querySelector('.gsOnboardHD');
+        gsOnboardHD.style.display = 'block';
+    }
+}
+
+function buildShipOther() {
+    unhide('.OtherShipPage');
+    insertPhoto(modelArray[26],'osModelPhoto','../../',450);
+
+    if (modelArray[2]) {
+        unhide('.osShortNameHD');
+        popNode(modelArray[2],'osShortName');
+    }
+
+    if (modelArray[24]) {
+        unhide('.osAltNameHD');
+        popNode(modelArray[24],'osAltName'); 
+    }
+
+    if (modelArray[4]) {
+        unhide('.osSerialHD');
+        popNode(modelArray[4],'osSerial'); 
+    }
+
+    if (modelArray[11]) {
+        unhide('.osCaptainHD');
+        popNode(modelArray[11],'osCaptain'); 
+    }
+
+    if (modelArray[12]) {
+        unhide('.osCaptain2HD');
+        popNode(modelArray[12][0],'osCaptain2'); 
+
+        if (modelArray[12].length>1) {
+            for (let i=1;i<modelArray[12].length;i++) {
+                popNode(modelArray[12][i],'osCaptain2'); 
+            }
+        }
+    }
+
+    if (modelArray[5]) {
+        unhide('.osFranchiseHD');
+        popNode(modelArray[5],'osFranchise'); 
+    }
+
+    if (modelArray[9]) {
+        unhide('.osEraHD');
+        popNode(modelArray[9],'osEra'); 
+    }
+
+    if (modelArray[10]) {
+        unhide('.osCreatedHD');
+        popNode(modelArray[10][1],'osCreated'); 
+        
+        let fYear = modelArray[10][0];
+        let lYear = modelArray[10][2];
+        let timespan = '';
+        if (fYear===lYear) {
+            timespan = 1;
+        } else if (lYear != 'Present') {
+            timespan = lYear-fYear;
+        }
+        popNode(fYear+'-'+lYear,'osTimeline');
+        if (lYear != 'Present') {
+            popNode('; '+timespan+' year(s)','osTimeline');
+        }
+    }
+
+    if (modelArray[15]) {
+        unhide('.osHeightHD');
+        popNode(modelArray[15][1],'osHeight'); 
+    }
+
+    if (modelArray[16]) {
+        unhide('.osLengthHD');
+        popNode(modelArray[16][1],'osLength'); 
+    }
+
+    if (modelArray[17]) {
+        unhide('.osWidthHD');
+        popNode(modelArray[17][1],'osWidth'); 
+    }
+
+    if (modelArray[13]) {
+        unhide('.osManufacturerHD');
+        popNode(modelArray[13],'osManufacturer'); 
+    }
+
+    if (modelArray[14]) {
+        unhide('.osAffiliationHD');
+        createList(modelArray[14],'osAffiliation'); 
+    }
+
+    if (modelArray[18]) {
+        unhide('.osPropulsionHD');
+        popNode(modelArray[18],'osPropulsion'); 
+    }
+
+    if (modelArray[19]) {
+        unhide('.osArmamentsHD');
+        createList(modelArray[19],'osArmaments'); 
+    }
+
+    if (modelArray[20]) {
+        unhide('.osEquipmentHD');
+        createList(modelArray[20],'osEquipment'); 
+    }
+
+    if (modelArray[21]) {
+        unhide('.osDefensesHD');
+        popNode(modelArray[21],'osDefenses'); 
+    }
+
+    if (modelArray[22]) {
+        unhide('.osOnboardHD');
+        createList(modelArray[22],'osOnboard'); 
+    }
+}
+
+function buildCarAuto() {
+    unhide('.AutomobilePage');
+    insertPhoto(modelArray[26],'caModelPhoto','../../',450);
+
+    popNode(modelArray[2],'caShortName');
+
+    if (modelArray[24]) {
+        unhide('.caNicknameHD');
+        popNode(modelArray[24],'caNickname');
+    }
+
+    if (modelArray[4]) {
+        unhide('.caManufacturerHD');
+        popNode(modelArray[4],'caManufacturer');
+    }
+
+    if (modelArray[5]) {
+        unhide('.caModelHD');
+        popNode(modelArray[5],'caModel');
+    }
+
+    if (modelArray[6]) {
+        unhide('.caYearHD');
+        popNode(modelArray[6],'caYear');
+    }
+
+    if (modelArray[10]) {
+        unhide('.caDesignerHD');
+        popNode(modelArray[10],'caDesigner');
+    }
+
+    if (modelArray[9]) {
+        unhide('.caProductionHD');
+        popNode(modelArray[9],'caProduction');
+    }
+}
+
+function buildDisplay() {
+    unhide('.DisplayPage');
+    insertPhoto(modelArray[26],'dpModelPhoto','../../',350);
+
+    if (modelArray[2]) {
+        unhide('.dpShortNameHD');
+        popNode(modelArray[2],'dpShortName');
+    }
+
+    if (modelArray[4]) {
+        unhide('.dpBrandHD');
+        popNode(modelArray[4],'dpBrand');
+    }
+
+    if (modelArray[5]) {
+        unhide('.dpSeriesHD');
+        popNode(modelArray[5],'dpSeries');
+    }
+}
+
+function buildDigimon() {
+    unhide('.DigimonPage');
+    insertPhoto(modelArray[26],'dgModelPhoto','../../',400);
+    popNode(modelArray[2],'dgShortName');
+
+    if (modelArray[4]) {
+        unhide('.dgLevelHD');
+        popNode(modelArray[4],'dgLevel');
+    }
+    if (modelArray[5]) {
+        unhide('.dgFromHD');
+        popNode(modelArray[5],'dgFrom');
+    }
+    if (modelArray[6]) {
+        unhide('.dgToHD');
+        createList(modelArray[6],'dgTo');
+    }
+    if (modelArray[7]) {
+        unhide('.dgTypeHD');
+        popNode(modelArray[7],'dgType');
+    }
+    if (modelArray[8]) {
+        unhide('.dgAttributeHD');
+        popNode(modelArray[8],'dgAttribute');
+    }
+    if (modelArray[9]) {
+        unhide('.dgElementHD');
+        popNode(modelArray[9],'dgElement');
+    }
+    if (modelArray[10]) {
+        unhide('.dgSpeciesHD');
+        popNode(modelArray[10],'dgSpecies');
+    }
+    if (modelArray[11]) {
+        unhide('.dgSizeHD');
+        popNode(modelArray[11][1],'dgSize');
+    }
+    if (modelArray[12]) {
+        unhide('.dgPartnerHD');
+        popNode(modelArray[12],'dgPartner');
+    }
+    if (modelArray[13]) {
+        unhide('.dgMemoryHD');
+        popNode(modelArray[13][1],'dgMemory');
+    }
+    if (modelArray[14]) {
+        unhide('.dgFormHD');
+        popNode(modelArray[14],'dgForm');
+    }
+}
+
+function buildPokemon() {
+    unhide('.PokemonPage');
+    insertPhoto(modelArray[26],'pkModelPhoto','../../',300);
+    popNode(modelArray[2],'pkShortName');
+
+    if (modelArray[4]) {
+        unhide('.pkDexNoHD');
+        popNode(modelArray[4],'pkDexNo');
+    }
+    if (modelArray[5]) {
+        unhide('.pkTypeHD');
+        popNode(modelArray[5],'pkType');
+    }
+    if (modelArray[6]) {
+        unhide('.pkStageHD');
+        popNode(modelArray[6],'pkStage');
+    }
+    if (modelArray[7]) {
+        unhide('.pkFromHD');
+        let pkFromN = document.getElementById('pkFrom');
+        let pkFromLi = document.createElement('li');
+        let pkFromLiCl = document.createAttribute('class');
+        pkFromLiCl.value = 'font-weight-normal';
+        pkFromLi.setAttributeNode(pkFromLiCl);
+        let pkFromT = document.createTextNode(modelArray[7][0]+', '+modelArray[7][1]);
+        pkFromLi.appendChild(pkFromT);
+        pkFromN.appendChild(pkFromLi);
+    }
+    if (modelArray[8]) {
+        unhide('.pkToHD');
+        let pkToN = document.getElementById('pkTo');
+        for (let i=0;i<modelArray[8].length;i++) {
+            let pkToLi = document.createElement('li');
+            let pkToLiCl = document.createAttribute('class');
+            pkToLiCl.value = 'font-weight-normal';
+            pkToLi.setAttributeNode(pkToLiCl);
+            let pkToT = document.createTextNode(modelArray[8][i][0]+', '+modelArray[8][i][1]);
+            pkToLi.appendChild(pkToT);
+            pkToN.appendChild(pkToLi);
+        }
+    }
+    if (modelArray[9]) {
+        unhide('.pkCategoryHD');
+        popNode(modelArray[9],'pkCategory');
+    }
+    if (modelArray[10]) {
+        unhide('.pkDexHD');
+        popNode(modelArray[10],'pkDex');
+    }
+    if (modelArray[11]) {
+        unhide('.pkHeightHD');
+        popNode(modelArray[11],'pkHeight');
+    }
+    if (modelArray[12]) {
+        unhide('.pkWeightHD');
+        popNode(modelArray[12][1],'pkWeight');
+    }
+    if (modelArray[13]) {
+        unhide('.pkGenerationHD');
+        popNode(modelArray[13],'pkGeneration');
+    }
+    if (modelArray[14]) {
+        unhide('.pkFirstGameHD');
+        popNode(modelArray[14],'pkFirstGame');
+    }
+    if (modelArray[15]) {
+        unhide('.pkFormHD');
+        popNode(modelArray[15],'pkForm');
+    }
+    if (modelArray[24]) {
+        unhide('.pkNicknameHD');
+        popNode(modelArray[15],'pkNickname');
+    }
+}
+
+function buildTransformer() {
+    unhide('.TransformerPage');
+    insertPhoto(modelArray[26],'tsModelPhoto','../../',300);
+
+    if (modelArray[2]) {
+        unhide('.tsEarthHD');
+        popNode(modelArray[2],'tsEarth');
+    }
+    if (modelArray[4]) {
+        unhide('.tsCanonHD');
+        popNode(modelArray[4],'tsCanon');
+    }
+    if (modelArray[5]) {
+        unhide('.tsVehicleHD');
+        createList(modelArray[5],'tsVehicle');
+    }
+    if (modelArray[6]) {
+        unhide('.tsFactionHD');
+        popNode(modelArray[6],'tsFaction');
+    }
+    if (modelArray[7]) {
+        unhide('.tsRankHD');
+        popNode(modelArray[7],'tsRank');
+    }
+    if (modelArray[8]) {
+        unhide('.tsCybertronHD');
+        popNode(modelArray[8],'tsCybertron');
+    }
+    if (modelArray[24]) {
+        unhide('.tsNicknameHD');
+        popNode(modelArray[24],'tsNickname');
+    }
+
+}
+
+function buildHaro() {
+    unhide('.HaroPage');
+    insertPhoto(modelArray[26],'hpModelPhoto','../../',300);
+
+    if (modelArray[2]) {
+        unhide('.hpShortNameHD');
+        let hpShortNameN = document.getElementById('hpShortName');
+        let hpShortNameStyle = document.createAttribute('style');
+        hpShortNameStyle.value = 'color:'+modelArray[4];
+        let lethpShortNameT = document.createTextNode(modelArray[2]);
+        hpShortNameN.setAttributeNode(hpShortNameStyle);
+        hpShortNameN.appendChild(lethpShortNameT);
+    }
+    if (modelArray[3]) {
+        unhide('.hpKitHD');
+        popNode(modelArray[3],'hpKit');
+    }
+    if (modelArray[4]) {
+        unhide('.hpColorHD');
+        popNode(modelArray[4],'hpColor');
+    }
+    if (modelArray[5]) {
+        unhide('.hpEquipmentHD');
+        createList(modelArray[5],'hpEquipment');
+    }
+    if (modelArray[6]) {
+        unhide('.hpSpecialFeaturesHD');
+        createList(modelArray[6],'hpSpecialFeatures');
+    }
 }
 
 function convertMonth(n) {
@@ -2546,6 +3277,25 @@ function convertMonth(n) {
         month = 'December'
     }
     return month;
+}
+
+function createList(array,ID,extraText,BorE) {
+    let node = document.getElementById(ID);
+    for (let i=0;i<array.length;i++) {
+        let nodeLI = document.createElement('li');
+        let liCLASS = document.createAttribute('class');
+        liCLASS.value = 'font-weight-normal';
+        nodeLI.setAttributeNode(liCLASS);
+        let text = document.createTextNode(array[i]);
+        if (extraText && BorE === 'before') {
+            text = document.createTextNode(extraText+array[i]);
+        }
+        if (extraText && BorE === 'after') {
+            text = document.createTextNode(array[i]+extraText);
+        }
+        nodeLI.appendChild(text);
+        node.appendChild(nodeLI);
+    }
 }
 
 function generateModalFrame() {
@@ -2637,7 +3387,7 @@ function generateModalFrame() {
     }
 }
 
-function insertPhoto (array,id,dots) {
+function insertPhoto(array,id,dots,maxWidth) {
     let imgNode = document.createElement('img');
     let srcAttribute = document.createAttribute('src');
     srcAttribute.value = dots+array[0];
@@ -2645,6 +3395,10 @@ function insertPhoto (array,id,dots) {
     altAttribute.value = array[1];
     let imgClassAttribute = document.createAttribute('class');
     imgClassAttribute.value = 'img-fluid img-thumbnail';
+    let styleAttribute = document.createAttribute('style');
+    let maxWidthText = 'width:100%;max-width:'+maxWidth+'px';
+    styleAttribute.value = maxWidthText;
+    imgNode.setAttributeNode(styleAttribute);
     imgNode.setAttributeNode(srcAttribute);
     imgNode.setAttributeNode(altAttribute);
     imgNode.setAttributeNode(imgClassAttribute);
@@ -2653,15 +3407,10 @@ function insertPhoto (array,id,dots) {
     locationNode.appendChild(imgNode);
 }
 
-function insertPhotoColumn (array,id) {
-    let divRowNode = document.createElement('div');
-    let classRowAttribute = document.createAttribute('class');
-    classRowAttribute.value = 'row mt-3';
-    divRowNode.setAttributeNode(classRowAttribute);
-    
+function insertPhotoColumn(array,id) {
     let divColNode = document.createElement('div');
     let classColAttribute = document.createAttribute('class');
-    classColAttribute.value = 'col';
+    classColAttribute.value = 'col-6 col-sm-6 col-md-4 col-xl-3 mx-0 mb-3 text-center';
     divColNode.setAttributeNode(classColAttribute);
     
     let imgNode = document.createElement('img');
@@ -2682,10 +3431,9 @@ function insertPhotoColumn (array,id) {
     imgNode.setAttributeNode(styleAttribute);
 
     divColNode.appendChild(imgNode);
-    divRowNode.appendChild(divColNode);
 
     let locationNode = document.getElementById(id);
-    locationNode.appendChild(divRowNode);
+    locationNode.appendChild(divColNode);
 }
 
 function photoModalPopup(i) {
@@ -2706,288 +3454,10 @@ function photoModalPopup(i) {
     }
 }
 
-function populateImages() {
-    let photoColumnOne = [];
-    let photoColumnTwo = [];
-    let photoColumnThree = [];
-    let photoColumnFour = [];
-    let loop = 1;
-
-    for (let i=0;i<projectArray[15].length;i++) {
-        if (loop === 1) {
-            photoColumnOne.push(projectArray[15][i]);
-            loop++;
-        }
-        else if (loop === 2) {
-            photoColumnTwo.push(projectArray[15][i]);
-            loop++;
-        }
-        else if (loop === 3) {
-            photoColumnThree.push(projectArray[15][i]);
-            loop++;
-        }
-        else {
-            photoColumnFour.push(projectArray[15][i]);
-            loop = 1;
-        }
-    }
-
-    for (let i=0;i<photoColumnOne.length;i++) {
-        insertPhotoColumn(photoColumnOne[i],'photoCol1');
-    }
-    for (let i=0;i<photoColumnTwo.length;i++) {
-        insertPhotoColumn(photoColumnTwo[i],'photoCol2');
-    }
-    for (let i=0;i<photoColumnThree.length;i++) {
-        insertPhotoColumn(photoColumnThree[i],'photoCol3');
-    }
-    for (let i=0;i<photoColumnFour.length;i++) {
-        insertPhotoColumn(photoColumnFour[i],'photoCol4');
-    }
-}
-
-function popGundamPage () {
-    const gundamModelClass1 = document.querySelector('.gundamModel1');
-    gundamModelClass1.style.display = 'block';
-
-    const gundamModelClass2 = document.querySelector('.gundamModel2');
-    gundamModelClass2.style.display = 'block';
-    
-    if (projectArray[4]) {
-        const pBandaiClass = document.querySelector('.pBandaiClass');
-        pBandaiClass.style.display = 'block';
-        
-        let pBandaiNode = document.getElementById('pBandai');
-        let pBandaiSpan = document.createElement('span');
-        let pBandaiSpanClass = document.createAttribute('class');
-        pBandaiSpanClass.value = 'text-danger font-weight-bold';
-        pBandaiSpan.setAttributeNode(pBandaiSpanClass);
-        let pBandaiText = document.createTextNode('P-BANDAI Edition')
-        let straightBuildText = document.createTextNode(' Straight');
-        let buildText = document.createTextNode(' Build');
-        pBandaiSpan.appendChild(pBandaiText);
-        if (projectArray[3]) {
-            pBandaiSpan.appendChild(straightBuildText);
-        }
-        pBandaiSpan.appendChild(buildText);
-        pBandaiNode.appendChild(pBandaiSpan);
-    }
-
-    let gGradeNode = document.getElementById('gGrade')
-    if (projectArray[5]) {
-        let gGradeSpan = document.createElement('span');
-        let gGradeSpanAttr = document.createAttribute('class');
-        gGradeSpanAttr.value = 'text-danger font-weight-bold';
-        gGradeSpan.setAttributeNode(gGradeSpanAttr);
-        let MGEXtext = document.createTextNode('Master Grade Extreme (MGEX)');
-        gGradeSpan.appendChild(MGEXtext);
-        gGradeNode.appendChild(gGradeSpan);
-    }
-    else {
-        let gGradeText = document.createTextNode(gradeEdifier(projectArray));
-        gGradeNode.appendChild(gGradeText);
-    }
-    
-    let gmodelNameFullNode = document.getElementById('gmodelNameFull');
-    let gmodelNameFullText = document.createTextNode(modelArray[2]);
-    gmodelNameFullNode.appendChild(gmodelNameFullText);
-
-    if (modelArray[6]) {
-        const EWclass = document.querySelector('.EWclass');
-        EWclass.style.display = 'block';
-
-        let EWNode = document.getElementById('EW');
-        let EWSpan = document.createElement('span');
-        let EWClass = document.createAttribute('class');
-        EWClass.value = 'text-danger';
-        EWSpan.setAttributeNode(EWClass);
-        let EWText = document.createTextNode('EW Version');
-        EWNode.appendChild(EWSpan);
-        EWSpan.appendChild(EWText);
-    }
-
-    let serialNode = document.getElementById('gserial');
-    let serialText = document.createTextNode(modelArray[4]);
-    serialNode.appendChild(serialText);
-
-    if (modelArray[25]) {
-        const mobileArmorClass = document.querySelector('.mobileArmorClass');
-        mobileArmorClass.style.display = 'block'; 
-
-        let mobileArmorNode = document.getElementById('mobileArmor');
-        let mobileArmorText = document.createTextNode('Mobile Armr');
-        mobileArmorNode.appendChild(mobileArmorText);
-    }
- 
-    if (modelArray[24]) {
-        const altNameClass = document.querySelector('.altNameClass');
-        altNameClass.style.display = 'block';
-
-        let altNameNode = document.getElementById('gAltName');
-        let altNameText = document.createTextNode(modelArray[24]);
-        altNameNode.appendChild(altNameText);
-    }
-
-    let pilotNode = document.getElementById('gpilot');
-    let pilotText = document.createTextNode(modelArray[11]);
-    pilotNode.appendChild(pilotText);
-
-    if (modelArray[12]) {
-        const g2pilot = document.querySelector('.g2pilot');
-        g2pilot.style.display = 'block';
-
-        let g2ndPilotsNode = document.getElementById('g2ndPilots');
-        let g2ndPilotsText = document.createTextNode(modelArray[12][0]);
-        g2ndPilotsNode.appendChild(g2ndPilotsText);
-
-        if (modelArray[12].length>1) {
-            for (let i=1;i<modelArray[12].length;i++) {
-                let otherPilotsText = document.createTextNode(', '+modelArray[12][i]);
-                g2ndPilotsNode.appendChild(otherPilotsText);
-            }
-        }
-    }
-
-    let gSeriesNode = document.getElementById('gSeries');
-    let gSeriesText = document.createTextNode(modelArray[5]);
-    gSeriesNode.appendChild(gSeriesText);
-
-    let gEraNode = document.getElementById('gEra');
-    let gEraText = document.createTextNode(modelArray[9]);
-    gEraNode.appendChild(gEraText);
-
-    let gCreateDateNode = document.getElementById('gCreateDate');
-    let gCreateDateText = document.createTextNode(modelArray[10][1]);
-    gCreateDateNode.appendChild(gCreateDateText);
-
-    let fYear = modelArray[10][0];
-    let lYear = modelArray[10][2];
-    let timespan = '';
-    if (fYear===lYear) {
-        timespan = 1;
-    } else if (!lYear != 'Present') {
-        timespan = lYear-fYear;
-    }
-
-    let gTimelineNode = document.getElementById('gTimeline');
-    let gTimelineText = document.createTextNode(fYear+' - '+lYear);
-    gTimelineNode.appendChild(gTimelineText);
-
-    if (lYear != 'Present') {
-        let yearsTimelineText = document.createTextNode('; '+timespan+' year(s)');
-        gTimelineNode.appendChild(yearsTimelineText);
-    }
-
-    let gManufacNode = document.getElementById('gManufac');
-    let gManufacText = document.createTextNode(modelArray[13]);
-    gManufacNode.appendChild(gManufacText);
-
-    let gManufacNodeMobile = document.getElementById('gManufacMobile');
-    let gManufacTextMobile = document.createTextNode(modelArray[13]);
-    gManufacNodeMobile.appendChild(gManufacTextMobile);
-
-    let gAffiliateNode = document.getElementById('gAffiliate');
-    let gAffiliateNodeMobile = document.getElementById('gAffiliateMobile');
-    for (let i=0;i<modelArray[14].length;i++) {
-        let gAffiliate_LI = document.createElement('li');
-        let gAffiliate_LIMobile = document.createElement('li');
-        let gAffiliate_LIClass = document.createAttribute('Class');
-        gAffiliate_LIClass.value = 'font-weight-normal';
-        gAffiliate_LI.setAttributeNode(gAffiliate_LIClass);
-        let gAffiliate_LIMobileClass = document.createAttribute('Class');
-        gAffiliate_LIMobileClass.value = 'font-weight-normal';
-        gAffiliate_LIMobile.setAttributeNode(gAffiliate_LIMobileClass);
-        let gAffilateText = document.createTextNode(modelArray[14][i]);
-        let gAffilateTextMobile = document.createTextNode(modelArray[14][i]);
-        gAffiliateNode.appendChild(gAffiliate_LI);
-        gAffiliate_LI.appendChild(gAffilateText);
-        gAffiliateNodeMobile.appendChild(gAffiliate_LIMobile);
-        gAffiliate_LIMobile.appendChild(gAffilateTextMobile);
-    }
-    
-    if (modelArray[7]) {
-        const gFromClass = document.querySelector('.gFromClass');
-        gFromClass.style.display = 'block';
-
-        const gFromClass_Mobile = document.querySelector('.gFromClass_Mobile');
-        gFromClass_Mobile.style.display = 'block';
-
-        let gFromNode = document.getElementById('gFrom');
-        let gFromText = document.createTextNode(modelArray[7]);
-        gFromNode.appendChild(gFromText);
-
-        let gFromNodeMobile = document.getElementById('gFromMobile');
-        let gFromTextMobile = document.createTextNode(modelArray[7]);
-        gFromNodeMobile.appendChild(gFromTextMobile);
-    }
-
-    if (modelArray[8]) {
-        const gToClass = document.querySelector('.gToClass');
-        gToClass.style.display = 'block';
-        const gToClass_Mobile = document.querySelector('.gToClass_Mobile');
-        gToClass_Mobile.style.display = 'block';
-
-        let gToNode = document.getElementById('gTo');
-        let gToText = document.createTextNode(modelArray[8]);
-        gToNode.appendChild(gToText);
-
-        let gToNodeMobile = document.getElementById('gToMobile');
-        let gToTextMobile = document.createTextNode(modelArray[8]);
-        gToNodeMobile.appendChild(gToTextMobile);
-    }
-
-    let gHeightNode = document.getElementById('gHeight');
-    let gHeightText = document.createTextNode(modelArray[15][1]);
-    gHeightNode.appendChild(gHeightText);
-
-    let gWeightNode = document.getElementById('gWeight');
-    let gWeightText = document.createTextNode(modelArray[16][1]);
-    gWeightNode.appendChild(gWeightText);
-
-    let gMaterialNode = document.getElementById('gMaterial');
-    let gMaterialText = document.createTextNode(modelArray[17]);
-    gMaterialNode.appendChild(gMaterialText);
-
-    let gPowerNode = document.getElementById('gPower');
-    let gPowerText = document.createTextNode(modelArray[18]);
-    gPowerNode.appendChild(gPowerText);
-
-    for (let i=0;i<modelArray[21].length;i++) {
-        let gSystemNode = document.getElementById('gSystem');
-        let gSystemLI = document.createElement('li');
-        let gSystemLIClass = document.createAttribute('Class');
-        gSystemLIClass.value = 'font-weight-normal';
-        gSystemLI.setAttributeNode(gSystemLIClass);
-        let gSystemText = document.createTextNode(modelArray[21][i]);
-        gSystemLI.appendChild(gSystemText);
-        gSystemNode.appendChild(gSystemLI);
-    }
-
-    for (let i=0;i<modelArray[19].length;i++) {
-        let gArmamentsNode = document.getElementById('gArmaments');
-        let gArmamentsLI = document.createElement('li');
-        let gArmamentsLIClass = document.createAttribute('Class');
-        gArmamentsLIClass.value = 'font-weight-normal';
-        gArmamentsLI.setAttributeNode(gArmamentsLIClass);
-        let gArmamentsText = document.createTextNode(modelArray[19][i]);
-        gArmamentsLI.appendChild(gArmamentsText);
-        gArmamentsNode.appendChild(gArmamentsLI);
-    }
-
-    for (let i=0;i<modelArray[20].length;i++) {
-        let gOptArmNode = document.getElementById('gOptArm');
-        let gOptArmLI = document.createElement('li');
-        let gOptArmLIClass = document.createAttribute('Class');
-        gOptArmLIClass.value = 'font-weight-normal';
-        gOptArmLI.setAttributeNode(gOptArmLIClass);
-        let gOptArmText = document.createTextNode(modelArray[20][i]);
-        gOptArmLI.appendChild(gOptArmText);
-        gOptArmNode.appendChild(gOptArmLI);
-    }
-
-    let gDesignNode = document.getElementById('gDesign');
-    let gDesignText = document.createTextNode(modelArray[22]);
-    gDesignNode.appendChild(gDesignText);
+function popNode(insert,ID) {
+    let node = document.getElementById(ID);
+    let text = document.createTextNode(insert);
+    node.appendChild(text);
 }
 
 function projectLinks(prArray,ID) {
@@ -3003,4 +3473,9 @@ function projectLinks(prArray,ID) {
         liNode.appendChild(aNode);
         destinationNode.appendChild(liNode);
     }
+}
+
+function unhide(ID) {
+    const section = document.querySelector(ID);
+    section.style.display = 'block';
 }

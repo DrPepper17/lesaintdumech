@@ -11,7 +11,7 @@
         7. Pokemon
         8. Transformer
         9. Zoid
-        10. Haropla
+        10. 
         11. 
 
     // Gundams (1) //
@@ -723,7 +723,7 @@ const projects = [
     ],
     ['Orga',[1,'Forbidden'],'FM',false,false,false,'Seed','A'],
     ['Anthem',[1,'Freedom'],'MG',false,false,false,'Seed','E','2022-05-05',73.16,true,'Builds/Anthem.html',[''],'2022-07-04'],
-    ['Freedom [MGSD]',[1,'Freedom'],'MGSD',true,false,false,'Seed','E','2023-03-05',8.5,false,false,false],
+    ['Freedom [MGSD]',[1,'Freedom'],'MGSD',true,false,false,'Seed','D','2023-03-05',8.5,false,false,false],
     ['Liberty',[1,'Freedom'],'SD',false,false,false,'Seed','E','2022-04-09',18,false,'Builds/Liberty.html',[''],'2022-06-27'],
     ['Old Glory',[1,'Freedom'],'MGSD',false,false,false,'Seed','C','2023-05-06',28.83,false,'Builds/Gundams/OldGlory.html',['Mission Models: MMP-001 White','Testors: Red Grapefruit 1196','Testors: Cherry Red 1197','Vallejo Mecha Color: Gold 69.059','Vallejo Mecha Color: Electric Blue 60.020','Vallejo Model Air: Black 71.057','Vallejo Mecha Color: Metallic Blue 69.067','Vallejo Model Air: Metallic Signal Red 71.070','Vallejo Mecha Color: Sky Blue 69.017','Tamiya: Metallic BLue TS-19 Can','Tamiya: Gold TS-21 Can','Tamiya: Matt White TS-27 Can','Tamiya: Metallic Red PS-15 Can','Tamiya: Clear Red X-27']],
     ['Billy Blue Jay',[1,'Ginn'],'MG',false,false,false,'Seed','B'],
@@ -2304,18 +2304,6 @@ function projectPage(string) {
 
     let projectTitleNode = document.getElementById('projectTitle');
     let projectTitleNode_Mobile = document.getElementById('projectTitle_Mobile');
-    if (modelArray[1] === 1) {
-        let gundamStringNode = document.createTextNode('Gundam ');
-        let gundamStringNodeMobile = document.createTextNode('Gundam ');
-        projectTitleNode.appendChild(gundamStringNode);
-        projectTitleNode_Mobile.appendChild(gundamStringNodeMobile);
-    }
-    if (modelArray[1] === 2 || modelArray[1] === 3) {
-        let shipTitleStringNode = document.createTextNode(modelArray[27]+' ');
-        let shipTitleStringNodeMobile = document.createTextNode(modelArray[27]+' ');
-        projectTitleNode.appendChild(shipTitleStringNode);
-        projectTitleNode_Mobile.appendChild(shipTitleStringNodeMobile);
-    }
     let projectTitleText = document.createTextNode(projectArray[0]);
     projectTitleNode.appendChild(projectTitleText);
 
@@ -2468,8 +2456,9 @@ function projectPage(string) {
     }
 
     generateModalFrame();
-    populateImages();
-
+    for (let i=0;i<projectArray[15].length;i++) {
+        insertPhotoColumn(projectArray[15][i],'photoGallery');
+    }
     for (let i=0;i<projectArray[15].length;i++) {
         photoModalPopup(i);
     }  
@@ -2666,14 +2655,9 @@ function insertPhoto (array,id,dots) {
 }
 
 function insertPhotoColumn (array,id) {
-    let divRowNode = document.createElement('div');
-    let classRowAttribute = document.createAttribute('class');
-    classRowAttribute.value = 'row mt-3';
-    divRowNode.setAttributeNode(classRowAttribute);
-    
     let divColNode = document.createElement('div');
     let classColAttribute = document.createAttribute('class');
-    classColAttribute.value = 'col';
+    classColAttribute.value = 'col-6 col-sm-6 col-md-4 col-xl-3 mx-0 mb-3 text-center';
     divColNode.setAttributeNode(classColAttribute);
     
     let imgNode = document.createElement('img');
@@ -2694,10 +2678,9 @@ function insertPhotoColumn (array,id) {
     imgNode.setAttributeNode(styleAttribute);
 
     divColNode.appendChild(imgNode);
-    divRowNode.appendChild(divColNode);
 
     let locationNode = document.getElementById(id);
-    locationNode.appendChild(divRowNode);
+    locationNode.appendChild(divColNode);
 }
 
 function photoModalPopup(i) {
@@ -2715,87 +2698,6 @@ function photoModalPopup(i) {
     let span = document.getElementById('close'+count);
     span.onclick = function() {
         modal.style.display = 'none';
-    }
-}
-
-function popAuto () {
-    const autoModelClass1 = document.querySelector('.autoModel1');
-    autoModelClass1.style.display = 'block';
-    
-    let gGradeNode = document.getElementById('gGrade')
-    let gGradeText = document.createTextNode(projectArray[23]);
-    gGradeNode.appendChild(gGradeText);
-
-    let cNameNode = document.getElementById('cName')
-    let cNameText = document.createTextNode(modelArray[2]);
-    cNameNode.appendChild(cNameText);
-
-    let cModelNode = document.getElementById('cModel')
-    let cModelText = document.createTextNode(modelArray[5]);
-    cModelNode.appendChild(cModelText);
-
-    let cManuNode = document.getElementById('cManu')
-    let cManuText = document.createTextNode(modelArray[4]);
-    cManuNode.appendChild(cManuText);
-
-    let cYearNode = document.getElementById('cYear')
-    let cYearText = document.createTextNode(modelArray[6]);
-    cYearNode.appendChild(cYearText);
-
-    let cLifespanNode = document.getElementById('cLifespan')
-    let cLifespanText = document.createTextNode(modelArray[9]);
-    cLifespanNode.appendChild(cLifespanText);
-
-    let cDesignNode = document.getElementById('cDesign')
-    let cDesignText = document.createTextNode(modelArray[10]);
-    cDesignNode.appendChild(cDesignText);
-}
-
-function popDigimon () {
-
-}
-
-function popDisplay () {
-
-}
-
-function populateImages() {
-    let photoColumnOne = [];
-    let photoColumnTwo = [];
-    let photoColumnThree = [];
-    let photoColumnFour = [];
-    let loop = 1;
-
-    for (let i=0;i<projectArray[15].length;i++) {
-        if (loop === 1) {
-            photoColumnOne.push(projectArray[15][i]);
-            loop++;
-        }
-        else if (loop === 2) {
-            photoColumnTwo.push(projectArray[15][i]);
-            loop++;
-        }
-        else if (loop === 3) {
-            photoColumnThree.push(projectArray[15][i]);
-            loop++;
-        }
-        else {
-            photoColumnFour.push(projectArray[15][i]);
-            loop = 1;
-        }
-    }
-
-    for (let i=0;i<photoColumnOne.length;i++) {
-        insertPhotoColumn(photoColumnOne[i],'photoCol1');
-    }
-    for (let i=0;i<photoColumnTwo.length;i++) {
-        insertPhotoColumn(photoColumnTwo[i],'photoCol2');
-    }
-    for (let i=0;i<photoColumnThree.length;i++) {
-        insertPhotoColumn(photoColumnThree[i],'photoCol3');
-    }
-    for (let i=0;i<photoColumnFour.length;i++) {
-        insertPhotoColumn(photoColumnFour[i],'photoCol4');
     }
 }
 
@@ -3041,361 +2943,6 @@ function popGundamPage () {
     let gDesignNode = document.getElementById('gDesign');
     let gDesignText = document.createTextNode(modelArray[22]);
     gDesignNode.appendChild(gDesignText);
-}
-
-function popHaro () {
-
-}
-
-function popPokemon () {
-
-}
-
-function popTransformer () {
-    const transformerModel = document.querySelector('.transformerModel');
-    transformerModel.style.display = 'block';
-
-    let gGradeNode = document.getElementById('gGrade')
-    let gGradeText = document.createTextNode(projectArray[23]);
-    gGradeNode.appendChild(gGradeText);
-
-    let tNameNode = document.getElementById('tName');
-    let tNameText = document.createTextNode(modelArray[2]);
-    tNameNode.appendChild(tNameText);
-
-    let tCyberNode = document.getElementById('tCyber');
-    let tCyberText = document.createTextNode(modelArray[8]);
-    tCyberNode.appendChild(tCyberText);
-
-    let tNicknameNode = document.getElementById('tNickname');
-    let tNicknameText = document.createTextNode(modelArray[24]);
-    tNicknameNode.appendChild(tNicknameText);
-
-    let tRankNode = document.getElementById('tRank');
-    let tRankText = document.createTextNode(modelArray[7]);
-    tRankNode.appendChild(tRankText);
-
-    let tFactionNode = document.getElementById('tFaction');
-    let tFactionText = document.createTextNode(modelArray[6]);
-    tFactionNode.appendChild(tFactionText);
-
-    let tCanonNode = document.getElementById('tCanon');
-    let tCanonText = document.createTextNode(modelArray[4]);
-    tCanonNode.appendChild(tCanonText);
-
-    let tFormNode = document.getElementById('tForm');
-    for (let i=0;i<modelArray[5].length;i++) {
-        let formLI = document.createElement('li');
-        let liClass = document.createAttribute('class');
-        liClass.value = 'font-weight-normal';
-        formLI.setAttributeNode(liClass);
-        let liText = document.createTextNode(modelArray[5][i]);
-        formLI.appendChild(liText);
-        tFormNode.appendChild(formLI);
-    }
-}
-
-function popSDWHero() {
-
-}
-
-function popShipGundam () {
-    const gundamModelClass1 = document.querySelector('.gundamShipModel1');
-    gundamModelClass1.style.display = 'block';
-
-    const gundamModelClass2 = document.querySelector('.gundamShipModel2');
-    gundamModelClass2.style.display = 'block';
-    
-    if (projectArray[4]) {
-        const pBandaiClass = document.querySelector('.pBandaiClass');
-        pBandaiClass.style.display = 'block';
-        
-        let pBandaiNode = document.getElementById('pBandai');
-        let pBandaiSpan = document.createElement('span');
-        let pBandaiSpanClass = document.createAttribute('class');
-        pBandaiSpanClass.value = 'text-danger font-weight-bold';
-        pBandaiSpan.setAttributeNode(pBandaiSpanClass);
-        let pBandaiText = document.createTextNode('P-BANDAI Edition')
-        let straightBuildText = document.createTextNode(' Straight');
-        let buildText = document.createTextNode(' Build');
-        pBandaiSpan.appendChild(pBandaiText);
-        if (projectArray[3]) {
-            pBandaiSpan.appendChild(straightBuildText);
-        }
-        pBandaiSpan.appendChild(buildText);
-        pBandaiNode.appendChild(pBandaiSpan);
-    }
-
-    let gGradeNode = document.getElementById('gGrade');
-    let gGradeText = document.createTextNode(projectArray[23]);
-    gGradeNode.appendChild(gGradeText);
-    
-    let gmodelNameFullNode = document.getElementById('sgmodelNameFull');
-    let gmodelNameFullText = document.createTextNode(modelArray[2]);
-    gmodelNameFullNode.appendChild(gmodelNameFullText);
-
-    let serialNode = document.getElementById('sgserial');
-    let serialText = document.createTextNode(modelArray[4]);
-    serialNode.appendChild(serialText);
- 
-    if (modelArray[24]) {
-        const altNameClass = document.querySelector('.altNameClassShip');
-        altNameClass.style.display = 'block';
-
-        let altNameNode = document.getElementById('sgAltName');
-        let altNameText = document.createTextNode(modelArray[24]);
-        altNameNode.appendChild(altNameText);
-    }
-
-    let pilotNode = document.getElementById('sgpilot');
-    let pilotText = document.createTextNode(modelArray[11]);
-    pilotNode.appendChild(pilotText);
-
-    if (modelArray[12]) {
-        const g2pilot = document.querySelector('.g2pilotShip');
-        g2pilot.style.display = 'block';
-
-        let g2ndPilotsNode = document.getElementById('sg2ndPilots');
-        let g2ndPilotsText = document.createTextNode(modelArray[12][0]);
-        g2ndPilotsNode.appendChild(g2ndPilotsText);
-
-        if (modelArray[12].length>1) {
-            for (let i=1;i<modelArray[12].length;i++) {
-                let otherPilotsText = document.createTextNode(', '+modelArray[12][i]);
-                g2ndPilotsNode.appendChild(otherPilotsText);
-            }
-        }
-    }
-
-    let gSeriesNode = document.getElementById('sgSeries');
-    let gSeriesText = document.createTextNode(modelArray[5]);
-    gSeriesNode.appendChild(gSeriesText);
-
-    let gEraNode = document.getElementById('sgEra');
-    let gEraText = document.createTextNode(modelArray[9]);
-    gEraNode.appendChild(gEraText);
-
-    let gCreateDateNode = document.getElementById('sgCreateDate');
-    let gCreateDateText = document.createTextNode(modelArray[10][1]);
-    gCreateDateNode.appendChild(gCreateDateText);
-
-    let fYear = modelArray[10][0];
-    let lYear = modelArray[10][2];
-    let timespan = '';
-    if (fYear===lYear) {
-        timespan = 1;
-    } else if (lYear != 'Present') {
-        timespan = lYear-fYear;
-    }
-
-    let gTimelineNode = document.getElementById('sgTimeline');
-    let gTimelineText = document.createTextNode(fYear+'-'+lYear);
-    gTimelineNode.appendChild(gTimelineText);
-
-    if (lYear != 'Present') {
-        let yearsTimelineText = document.createTextNode('; '+timespan+' year(s)');
-        gTimelineNode.appendChild(yearsTimelineText);
-    }
-
-    let gManufacNode = document.getElementById('sgManufac');
-    let gManufacText = document.createTextNode(modelArray[13]);
-    gManufacNode.appendChild(gManufacText);
-
-    let gManufacNodeMobile = document.getElementById('sgManufacMobile');
-    let gManufacTextMobile = document.createTextNode(modelArray[13]);
-    gManufacNodeMobile.appendChild(gManufacTextMobile);
-
-    let gAffiliateNode = document.getElementById('sgAffiliate');
-    let gAffiliateNodeMobile = document.getElementById('sgAffiliateMobile');
-    for (let i=0;i<modelArray[14].length;i++) {
-        let gAffiliate_LI = document.createElement('li');
-        let gAffiliate_LIMobile = document.createElement('li');
-        let gAffiliate_LIClass = document.createAttribute('Class');
-        gAffiliate_LIClass.value = 'font-weight-normal';
-        gAffiliate_LI.setAttributeNode(gAffiliate_LIClass);
-        let gAffiliate_LIMobileClass = document.createAttribute('Class');
-        gAffiliate_LIMobileClass.value = 'font-weight-normal';
-        gAffiliate_LIMobile.setAttributeNode(gAffiliate_LIMobileClass);
-        let gAffilateText = document.createTextNode(modelArray[14][i]);
-        let gAffilateTextMobile = document.createTextNode(modelArray[14][i]);
-        gAffiliateNode.appendChild(gAffiliate_LI);
-        gAffiliate_LI.appendChild(gAffilateText);
-        gAffiliateNodeMobile.appendChild(gAffiliate_LIMobile);
-        gAffiliate_LIMobile.appendChild(gAffilateTextMobile);
-    }
-
-    let gHeightNode = document.getElementById('sgHeight');
-    let gHeightText = document.createTextNode(modelArray[15][1]);
-    gHeightNode.appendChild(gHeightText);
-
-
-    for (let i=0;i<modelArray[21].length;i++) {
-        let gSystemNode = document.getElementById('sgSystem');
-        let gSystemLI = document.createElement('li');
-        let gSystemLIClass = document.createAttribute('Class');
-        gSystemLIClass.value = 'font-weight-normal';
-        gSystemLI.setAttributeNode(gSystemLIClass);
-        let gSystemText = document.createTextNode(modelArray[21][i]);
-        gSystemLI.appendChild(gSystemText);
-        gSystemNode.appendChild(gSystemLI);
-    }
-
-    for (let i=0;i<modelArray[19].length;i++) {
-        let gArmamentsNode = document.getElementById('sgArmaments');
-        let gArmamentsLI = document.createElement('li');
-        let gArmamentsLIClass = document.createAttribute('Class');
-        gArmamentsLIClass.value = 'font-weight-normal';
-        gArmamentsLI.setAttributeNode(gArmamentsLIClass);
-        let gArmamentsText = document.createTextNode(modelArray[19][i]);
-        gArmamentsLI.appendChild(gArmamentsText);
-        gArmamentsNode.appendChild(gArmamentsLI);
-    }
-
-    for (let i=0;i<modelArray[20].length;i++) {
-        let gOptArmNode = document.getElementById('sgOptArm');
-        let gOptArmLI = document.createElement('li');
-        let gOptArmLIClass = document.createAttribute('Class');
-        gOptArmLIClass.value = 'font-weight-normal';
-        gOptArmLI.setAttributeNode(gOptArmLIClass);
-        let gOptArmText = document.createTextNode(modelArray[20][i]);
-        gOptArmLI.appendChild(gOptArmText);
-        gOptArmNode.appendChild(gOptArmLI);
-    }
-}
-
-function popShipOther () {
-    const gundamModelClass1 = document.querySelector('.shipModel1');
-    gundamModelClass1.style.display = 'block';
-
-    const gundamModelClass2 = document.querySelector('.shipModel2');
-    gundamModelClass2.style.display = 'block';
-
-    let gGradeNode = document.getElementById('gGrade');
-    let gGradeText = document.createTextNode(projectArray[23]);
-    gGradeNode.appendChild(gGradeText);
-
-    let oShipNameNode = document.getElementById('oShipName');
-    let oShipNameText = document.createTextNode(modelArray[2]);
-    oShipNameNode.appendChild(oShipNameText);
-    
-    if (modelArray[4]) {
-        const osSeriesCl = document.querySelector('.osSeriesCl');
-        osSeriesCl.style.display = 'block';
-
-        let osSeriesN = document.getElementById('osSeries');
-        let osSeriesT = document.createTextNode(modelArray[4]);
-        osSeriesN.appendChild(osSeriesT);
-    }
-
-    if (modelArray[5]) {
-        const osFranCl = document.querySelector('.osFranCl');
-        osFranCl.style.display = 'block';
-
-        let osFranN = document.getElementById('osFran');
-        let osFranT = document.createTextNode(modelArray[5]);
-        osFranN.appendChild(osFranT);
-    }
-
-    if (modelArray[10]) {
-        const osCreateCl = document.querySelector('.osCreateCl');
-        osCreateCl.style.display = 'block';
-
-        let osCreateN = document.getElementById('osCreate');
-        let osCreateT = document.createTextNode(modelArray[10][1]);
-        osCreateN.appendChild(osCreateT);
-    }
-
-    if (modelArray[14]) {
-        const osAffilCl = document.querySelector('.osAffilCl');
-        osAffilCl.style.display = 'block';
-
-        let osAffilN = document.getElementById('osAffil');
-        let osAffilT = document.createTextNode(modelArray[14]);
-        osAffilN.appendChild(osAffilT);
-    }
-
-    if (modelArray[15]) {
-        const osHeightCl = document.querySelector('.osHeightCl');
-        const osHeightClMb = document.querySelector('.osHeightClMb');
-        osHeightCl.style.display = 'block';
-        osHeightClMb.style.display = 'block';
-
-        let osHeightN = document.getElementById('osHeight');
-        let osHeightT = document.createTextNode(modelArray[15][1]);
-        osHeightN.appendChild(osHeightT);
-
-        let osHeightMbN = document.getElementById('osHeightMb');
-        let osHeightMbT = document.createTextNode(modelArray[15][1]);
-        osHeightMbN.appendChild(osHeightMbT);
-    }
-
-    if (modelArray[16]) {
-        const osLengthCl = document.querySelector('.osLengthCl');
-        const osLengthClMb = document.querySelector('.osLengthClMb');
-        osLengthCl.style.display = 'block';
-        osLengthClMb.style.display = 'block';
-
-        let osLengthN = document.getElementById('osLength');
-        let osLengthT = document.createTextNode(modelArray[16][1]);
-        osLengthN.appendChild(osLengthT);
-
-        let osLengthMbN = document.getElementById('osLengthMb');
-        let osLengthMbT = document.createTextNode(modelArray[16][1]);
-        osLengthMbN.appendChild(osLengthMbT);
-    }
-
-    if (modelArray[17]) {
-        const osWidthCl = document.querySelector('.osWidthCl');
-        const osWidthClMb = document.querySelector('.osWidthClMb');
-        osWidthCl.style.display = 'block';
-        osWidthClMb.style.display = 'block';
-
-        let osWidthN = document.getElementById('osWidth');
-        let osWidthT = document.createTextNode(modelArray[17][1]);
-        osWidthN.appendChild(osWidthT);
-
-        let osWidthMbN = document.getElementById('osWidthMb');
-        let osWidthMbT = document.createTextNode(modelArray[17][1]);
-        osWidthMbN.appendChild(osWidthMbT);
-    }
-
-    if (modelArray[18]) {
-        const osPropulsionCl = document.querySelector('.osPropulsionCl');
-        osPropulsionCl.style.display = 'block';
-
-        let osPropulsionN = document.getElementById('osPropulsion');
-        let osPropulsionT = document.createTextNode(modelArray[18]);
-        osPropulsionN.appendChild(osPropulsionT);
-    }
-
-    if (modelArray[21]) {
-        const osDefensesCl = document.querySelector('.osDefensesCl');
-        osDefensesCl.style.display = 'block';
-
-        let osDefensesN = document.getElementById('osDefenses');
-        let osDefensesT = document.createTextNode(modelArray[21]);
-        osDefensesN.appendChild(osDefensesT);
-    }
-
-    if (modelArray[19]) {
-        const osArmCl = document.querySelector('.osArmCl');
-        osArmCl.style.display = 'block';
-
-        let osArmN = document.getElementById('osArm')
-        for (let i=0;i<modelArray[19].length;i++) {
-            let osArmLi = document.createElement('li');
-            let osArmLiCl = document.createAttribute('class');
-            osArmLiCl.value = 'font-weight-normal';
-            osArmLi.setAttributeNode(osArmLiCl);
-            let osArmT = document.createTextNode(modelArray[19][i]);
-            osArmLi.appendChild(osArmT);
-            osArmN.appendChild(osArmLi);
-        }
-    }
-}
-
-function popZoid () {
-
 }
 
 function projectLinks(prArray,ID) {
