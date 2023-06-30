@@ -2609,8 +2609,6 @@ function buildProjectPage(string) {
     }
 
     if (projectArray[20]) {
-        unhide('.projectAffProjectsHD');
-
         let affilatesArray = [];
         for (let i=0;i<projectArray[20].length;i++) {
             for (let j=0;j<projects.length;j++) {
@@ -2618,6 +2616,10 @@ function buildProjectPage(string) {
                     affilatesArray.push(projects[j]);
                 }
             }
+        }
+
+        if (affilatesArray>0) {
+            unhide('.projectAffProjectsHD');
         }
 
         projectLinks(affilatesArray.sort(),'projectAffProjects');
