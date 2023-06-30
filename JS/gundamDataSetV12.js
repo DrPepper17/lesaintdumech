@@ -2211,7 +2211,7 @@ function insertLine (text,ID) {
 function populateBuildsPage() {
     convertDate();
     generateLists();
-    postedArray = sortByDate(postedArray,'post');
+    postedArray = sortByDate(postedArray,'post').reverse();
 
     let buildColumnsNode = document.getElementById('buildColumns');
     for (let i=0;i<postedArray.length;i++) {
@@ -2219,7 +2219,7 @@ function populateBuildsPage() {
         {
             let divNode = document.createElement('div');
             let divClass = document.createAttribute('class');
-            divClass.value = 'col-6 col-sm-6 col-md-4 col-xl-3 mx-0 text-center';
+            divClass.value = 'col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2 mx-0 text-center';
             divNode.setAttributeNode(divClass);
 
             let aNode = document.createElement('a');
@@ -2242,14 +2242,31 @@ function populateBuildsPage() {
 
             aNode.appendChild(profilePhotoNode);
 
+            let spanNode = document.createElement('span');
+            let spanClass = document.createAttribute('class');
+            spanClass.value = 'align-self-center';
+            spanNode.setAttributeNode(spanClass);
+
+            divNode.appendChild(spanNode);
+
+            let aNode2 = document.createElement('a');
+            let hrefNode2 = document.createAttribute('href');
+            hrefNode2.value = postedArray[i][11];
+            aNode2.setAttributeNode(hrefNode2);
+            let aClass2 = document.createAttribute('class');
+            aClass2.value = 'mx-0';
+            aNode2.setAttributeNode(aClass2);
+
+            spanNode.appendChild(aNode2);
+
             let pNode = document.createElement('h4');
             let pClass = document.createAttribute('class');
-            pClass.value = 'font-weight-bold text-danger ml-5';
+            pClass.value = 'font-weight-bold text-danger';
             pNode.setAttributeNode(pClass);
             let pTextNode = document.createTextNode(postedArray[i][0]);
             pNode.appendChild(pTextNode);
 
-            aNode.appendChild(pNode);
+            aNode2.appendChild(pNode);
 
             buildColumnsNode.appendChild(divNode);
         }
