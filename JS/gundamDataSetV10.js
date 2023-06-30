@@ -11,7 +11,7 @@
         7. Pokemon
         8. Transformer
         9. Zoid
-        10. 
+        10. Haropla
         11. 
 
     // Gundams (1) //
@@ -39,7 +39,7 @@
     23. SDW Hero (true/false)
     24. Alternate Name
     25. Mobile Armor: true/false
-    26. original photo (array): ["file path","photo name"]
+    26. original photo (array): ['file path','photo name']
     27. 
 
     // Ship (fictional): Gundam (2) //
@@ -67,7 +67,7 @@
     23. ...
     24. ...
     25. ...
-    26. original photo (array): ["file path","photo name"]
+    26. original photo (array): ['file path','photo name']
     27. title/classification
     28. 
 
@@ -97,7 +97,7 @@
     23. ...
     24. ...
     25. ...
-    26. original photo (array): ["file path","photo name"]
+    26. original photo (array): ['file path','photo name']
     27. title/classification
     28. 
 
@@ -154,88 +154,88 @@ const models = [
     [0],
     [1,
         1,
-        "Gundam Heavyarms",
-        "XXXG-01H Gundam Heavarms EW",
-        "XXXG-01H",
-        "Mobile Suit Gundam Wing Endless Waltz: Glory of the Losers",
+        'Gundam Heavyarms',
+        'XXXG-01H Gundam Heavarms EW',
+        'XXXG-01H',
+        'Mobile Suit Gundam Wing Endless Waltz: Glory of the Losers',
         true,
-        "XXXG-00W0 Wing Gundam Proto Zero",
-        "XXXG-01H2 Gundam Heavarms Custom",
-        "After Colony",
-        [195,"195 A.C.",195],
-        "Trowa Barton",
-        ["Heero Yuy"],
-        "Barton Foundation",
-        ["Colony Liberation Organization","Operation Meteor","Peacemillion"],
-        [16.7,"16.7 Meters"],
-        [7.7,"7.7 Metric Tons"],
-        "Gundanium Alloy",
-        "Ultracompact Fusion Reactor",
-        ["Vulcan Guns (x2)",
-            "Machine Cannons (x2)",
-            "Chest Gatling Guns (x2)",
-            "Homing Missiles (x44)",
-            "Micro Missiles (x52)",
-            "Beam Gatling Gun",
-            "Shield",
-            "Army Knife",
-            "Beam Saber"],
+        'XXXG-00W0 Wing Gundam Proto Zero',
+        'XXXG-01H2 Gundam Heavarms Custom',
+        'After Colony',
+        [195,'195 A.C.',195],
+        'Trowa Barton',
+        ['Heero Yuy'],
+        'Barton Foundation',
+        ['Colony Liberation Organization','Operation Meteor','Peacemillion'],
+        [16.7,'16.7 Meters'],
+        [7.7,'7.7 Metric Tons'],
+        'Gundanium Alloy',
+        'Ultracompact Fusion Reactor',
+        ['Vulcan Guns (x2)',
+            'Machine Cannons (x2)',
+            'Chest Gatling Guns (x2)',
+            'Homing Missiles (x44)',
+            'Micro Missiles (x52)',
+            'Beam Gatling Gun',
+            'Shield',
+            'Army Knife',
+            'Beam Saber'],
         [
-            "Igel Unit",
-            "Damselfly"
+            'Igel Unit',
+            'Damselfly'
         ],
         [
-            "Standard Gundam Operating System",
-            "Self-Destruct System"
+            'Standard Gundam Operating System',
+            'Self-Destruct System'
         ],
-        "Hajime Katoki",
+        'Hajime Katoki',
         false,
         false,
         false,
-        ["img/models/heavyarmsew.jpeg","Gundam Heavyarms EW"],
+        ['img/models/heavyarmsew.jpeg','Gundam Heavyarms EW'],
     ],
     [2,
         1,
-        "Gundam Spiegel",
-        "GF13-021NG Gundam Spiegel",
-        "GF13-021NG",
-        "Mobile Fighter G Gundam",
+        'Gundam Spiegel',
+        'GF13-021NG Gundam Spiegel',
+        'GF13-021NG',
+        'Mobile Fighter G Gundam',
         false,
         false,
         false,
-        "Future Century",
-        [60,"60 F.C.",60],
-        "Schwartz Bruder",
-        ["Kyoji Kasshu"],
-        "Neo Germany",
-        ["Neo Germany","Shuffle Alliance","Dark Gundam","Kasshu Family","13th Gundam Fight"],
-        [16.3,"16.3 Meters"],
-        [7.3,"7.3 Metric Tons"],
-        "Gundanium Alloy super ceramic composite",
-        "Ultracompact Fusion Reactor",
-        ["Spiegel Blades (x2)",
-            "Iron Net",
-            "Messergranz"
+        'Future Century',
+        [60,'60 F.C.',60],
+        'Schwartz Bruder',
+        ['Kyoji Kasshu'],
+        'Neo Germany',
+        ['Neo Germany','Shuffle Alliance','Dark Gundam','Kasshu Family','13th Gundam Fight'],
+        [16.3,'16.3 Meters'],
+        [7.3,'7.3 Metric Tons'],
+        'Gundanium Alloy super ceramic composite',
+        'Ultracompact Fusion Reactor',
+        ['Spiegel Blades (x2)',
+            'Iron Net',
+            'Messergranz'
         ],
-        ["Shiguru Blade","Corelander"],
-        ["Mobile Trace System","Stealth Mode"],
-        "Kunio Okawara",
+        ['Shiguru Blade','Corelander'],
+        ['Mobile Trace System','Stealth Mode'],
+        'Kunio Okawara',
         false,
-        "Shadow Gundam",
+        'Shadow Gundam',
         false,
-        ["img/models/spiegel.jpeg","Spiegel Gundam"]
+        ['img/models/spiegel.jpeg','Spiegel Gundam']
     ],
     [3,
         4,
-        "Chevy Bel-Air",
-        "Chevrolet 1957 Bel-Air",
-        "Chevrolet",
-        "Bel-Air",
+        'Chevy Bel-Air',
+        'Chevrolet 1957 Bel-Air',
+        'Chevrolet',
+        'Bel-Air',
         1957,
-        "Car",
+        'Car',
         true,
-        "1950-1957",
-        "Harley Earl",
+        '1950-1957',
+        'Harley Earl',
         false,
         false,
         false,
@@ -251,21 +251,19 @@ const models = [
         false,
         false,
         false,
-        ["img/models/57belair.jpeg"]
+        ['img/models/57belair.jpeg']
     ],
     [4,
         4,
-        "Volkswagen Beetle",
-        "Volkswagen 1968 Beetle",
-        "Volkswagen",
-        "Beetle Type I",
+        'Volkswagen Beetle',
+        'Volkswagen 1968 Beetle',
+        'Volkswagen',
+        'Beetle Type I',
         1968,
-        "Car",
+        'Car',
         false,
-        "1938-2003",
-        "Ferdinand Porsche",
-        false,
-        false,
+        '1938-2003',
+        'Ferdinand Porsche',
         false,
         false,
         false,
@@ -277,15 +275,17 @@ const models = [
         false,
         false,
         false,
-        "Slug Bug",
         false,
-        ["img/models/68beetle.jpeg"]
+        false,
+        'Slug Bug',
+        false,
+        ['img/models/68beetle.jpeg']
     ],
     [5,
         8,
-        "Bumblebee",
+        'Bumblebee',
         'Warrior of Cybertron',
-        "Live Action Film Franchise",
+        'Live Action Film Franchise',
         [
             ['Volkswagen Beetle'],
             ['Jeep Wrangler'],
@@ -309,14 +309,14 @@ const models = [
         false,
         false,
         false,
-        "Bee",
+        'Bee',
         false,
-        ["img/models/bumblebee.jpeg"]
+        ['img/models/bumblebee.jpeg']
     ],
     [6,
         0,
         false,
-        "Come on down to South Park and meet some friends of mine",
+        'Come on down to South Park and meet some friends of mine',
         false,
         false,
         false,
@@ -339,33 +339,33 @@ const models = [
         false,
         false,
         false,
-        ["img/models/southpark.jpg","The South Park Gang"],
+        ['img/models/southpark.jpg','The South Park Gang'],
     ],
     [7,
         2,
-        "Eternal",
-        "ZAFT FFMH-Y101 Eternal",
-        "FFMH-Y101",
-        "Mobile Suit Gundam Seed",
+        'Eternal',
+        'ZAFT FFMH-Y101 Eternal',
+        'FFMH-Y101',
+        'Mobile Suit Gundam Seed',
         false,
         false,
         false,
-        "Cosmic Era",
-        [71,"71 C.E.",'Present'],
-        "Andrew Watfeld",
-        ["Lacus Clyne"],
-        "ZAFT",
-        ["Clyne Faction","Three Ship Alliance","Terminal"],
-        [300,"300 Meters"],
+        'Cosmic Era',
+        [71,'71 C.E.','Present'],
+        'Andrew Watfeld',
+        ['Lacus Clyne'],
+        'ZAFT',
+        ['Clyne Faction','Three Ship Alliance','Terminal'],
+        [300,'300 Meters'],
         false,
         false,
         false,
-        ["Main Cannon",
-            "Twin Rail Gun",
-            "Missile Launcher",
-            "Small Beam Cannon",
-            "Micro Missiles (x52)"],
-        ["METEOR Unit 01","METEOR Unit 02"],
+        ['Main Cannon',
+            'Twin Rail Gun',
+            'Missile Launcher',
+            'Small Beam Cannon',
+            'Micro Missiles (x52)'],
+        ['METEOR Unit 01','METEOR Unit 02'],
         ['ZGMF-X09A Justice Gundam',
             'ZGMF-X19A \u221e Justice Gundam',
             'ZGMF-X10A Freedom Gundam',
@@ -377,26 +377,26 @@ const models = [
         false,
         false,
         false,
-        ["img/models/eternal.jpeg","Warship Eternal"],
+        ['img/models/eternal.jpeg','Warship Eternal'],
         'Warship'
     ],
     [8,
         3,
-        "Andromed Black",
-        "StarBlazers Andromeda Black",
-        "Andromeda Class",
-        "StarBlazers",
+        'Andromed Black',
+        'StarBlazers Andromeda Black',
+        'Andromeda Class',
+        'StarBlazers',
         false,
         false,
         false,
-        "Anno Domini",
-        [2203,"May 2203 A.D."],
+        'Anno Domini',
+        [2203,'May 2203 A.D.'],
         false,
         false,
         false,
         ['Earth Federation Cosmo Navy'],
         [142,'142 Meters'],
-        [444,"444 Meters"],
+        [444,'444 Meters'],
         [103,'103 Meters'],
         'Wave Motion Energy',
         ['Wave-motion gun','4 triple-barreled 40.6 cm positron shock cannon turrets','4 Quick firing torpedo launch tubes','4 Graviton launchers','2 Four barrel anti-battleship grenade launchers','4 Sub-space torpedo launchers','3 shock field cannons around conning tower','2 six-barrel multi-launch lateral beam cannons'],
@@ -406,7 +406,7 @@ const models = [
         false,
         false,
         false,
-        ["img/models/andromedablack.jpeg","Andromeda Black Model"],
+        ['img/models/andromedablack.jpeg','Andromeda Black Model'],
         'Battleship'
     ]
 ];
@@ -431,21 +431,21 @@ const models = [
     9. Hours 
             when both straight and painted included on same project, omit straight build hours
     10. LEDS (true/false)
-    11. URL // don"t do invidivual pages for straightbuilds unless it"s a p-bandai
+    11. URL // don't do invidivual pages for straightbuilds unless it's a p-bandai
     12. Paint List array. / Straight builds false
     13. Date Posted
     14. Model (link array)
     15. Photos (array of arrays)
         [
-            ["file path","alt text",ID: "img1"],
-            ["file path","alt text",ID: "img2"]
+            ['file path','alt text',ID: 'img1'],
+            ['file path','alt text',ID: 'img2']
         ]
-    16. Profile photo (array) ["file path","photo name"]
+    16. Profile photo (array) ['file path','photo name']
     17.Theme / Description
     18. Gifted? If yes, string of to whom; If no, false
     19. Links (array of arrays)
         [
-            ["site name","url"]
+            ['site name','url']
         ]
     20. Affiliated Projects (array: listing them by their name in Projects[0])
     21. available
@@ -457,72 +457,72 @@ const models = [
 //Pojects
 const projects = [
     //Ad Stella (Mercury)
-    ["Aerial (?)",[1,"Aerial"],"FM",false,false,false,"Mercury","A"],
-    ["Aerial [HG]",[1,"Aerial"],"HG",true,false,false,"Mercury","D","2023-05-30-09",2.25,false,false,false],
-    ["PB Aerial Permet Six [HG]",[1,"Aerial"],"HG",true,true,false,"Mercury","A"],
-    ["Ariel",[1.5,"Aerial","Mirasoul Flight Pack"],"HG",false,false,false,"Mercury","B"],
-    ["Cherub",[1,"Aerial"],"SD",false,false,false,"Mercury","D","2023-01-03-10",4.91,false,"Builds/Cherub.html",[""]],
-    ["Azrael",[1,"Dilanza, Guel\"s"],"HG",false,false,false,"Mercury","E","2023-01-05",12.14,false,"Builds/Azrael.html",[""],"2023-02-27"],
-    ["Adriel",[1,"LFrith"],"HG",false,false,false,"Mercury","B"],
-    ["LFrith [HG]",[1,"LFrith"],"HG",true,false,false,"Mercury","D","2023-04-03-15",2.33,false,false,false],
+    ['Aerial (?)',[1,'Aerial'],'FM',false,false,false,'Mercury','A'],
+    ['Aerial [HG]',[1,'Aerial'],'HG',true,false,false,'Mercury','D','2023-05-30-09',2.25,false,false,false],
+    ['PB Aerial Permet Six [HG]',[1,'Aerial'],'HG',true,true,false,'Mercury','A'],
+    ['Ariel',[1.5,'Aerial','Mirasoul Flight Pack'],'HG',false,false,false,'Mercury','B'],
+    ['Cherub',[1,'Aerial'],'SD',false,false,false,'Mercury','D','2023-01-03-10',4.91,false,'Builds/Cherub.html',['']],
+    ['Azrael',[1,'Dilanza, Guel\'s'],'HG',false,false,false,'Mercury','E','2023-01-05',12.14,false,'Builds/Azrael.html',[''],'2023-02-27'],
+    ['Adriel',[1,'LFrith'],'HG',false,false,false,'Mercury','B'],
+    ['LFrith [HG]',[1,'LFrith'],'HG',true,false,false,'Mercury','D','2023-04-03-15',2.33,false,false,false],
 
     //Advanced Generation (Age)
-    ["Uriel",[1,"Age-FX"],"SD",false,false,false,"Age","B"],
-    ["Gamma Draconis",[1,"Danazine"],"HG",false,false,false,"Age","B"],
+    ['Uriel',[1,'Age-FX'],'SD',false,false,false,'Age','B'],
+    ['Gamma Draconis',[1,'Danazine'],'HG',false,false,false,'Age','B'],
 
     //After Colony (Wing)
-    ["Leo Army",[6,"Leo"],"LEO",false,false,false,"Wing","C","2021-10-03",37.42,false,"Builds/LeoArmy.html",["Tested every paint"]],
-    ["South Park",
-        [6,"Tallgeese","Epyon","Heavy Arms","Shenlong","Deathscythe","Sandrock"],
-        "SD",
+    ['Leo Army',[6,'Leo'],'LEO',false,false,false,'Wing','C','2021-10-03',37.42,false,'Builds/LeoArmy.html',['Tested every paint']],
+    ['South Park',
+        [6,'Tallgeese','Epyon','Heavy Arms','Shenlong','Deathscythe','Sandrock'],
+        'SD',
         false,
         false,
         false,
-        "Wing",
-        "E",
-        "2021-06-05",
+        'Wing',
+        'E',
+        '2021-06-05',
         54.42,
         true,
-        "Builds/uniqueTemplates/SouthPark.html",
+        'Builds/uniqueTemplates/SouthPark.html',
         false,
-        "2021-06-21",
+        '2021-06-21',
         models[6],
         [
-            ["../../img/projects/gundams/southpark/sparkStan.jpeg","South Park: Stan","img1"],
-            ["../../img/projects/gundams/southpark/sparkKyle.jpeg","South Park: Kyle","img2"],
-            ["../../img/projects/gundams/southpark/sparkCartman.jpeg","South Park: Cartman","img3"],
-            ["../../img/projects/gundams/southpark/sparkKenny.jpeg","South Park: Kenny","img4"],
-            ["../../img/projects/gundams/southpark/sparkButters.jpeg","South Park: Butters","img5"],
-            ["../../img/projects/gundams/southpark/sparkWendy.jpeg","South Park: Wendy","img6"],
-            ["../../img/projects/gundams/southpark/spark02.jpeg","South Park","img7"],
-            ["../../img/projects/gundams/southpark/spark03.jpeg","South Park","img8"],
-            ["../../img/projects/gundams/southpark/spark05.jpeg","South Park","img9"],
-            ["../../img/projects/gundams/southpark/spark06.jpeg","South Park","img10"],
-            ["../../img/projects/gundams/southpark/spark07.jpeg","South Park","img11"],
-            ["../../img/projects/gundams/southpark/spark10.jpeg","South Park","img12"],
-            ["../../img/projects/gundams/southpark/spark11.jpeg","South Park","img13"],
-            ["../../img/projects/gundams/southpark/spark12.jpeg","South Park","img14"],
-            ["../../img/projects/gundams/southpark/spark13.jpeg","South Park","img15"],
-            ["../../img/projects/gundams/southpark/spark14.jpeg","South Park","img16"],
-            ["../../img/projects/gundams/southpark/spark15.jpeg","South Park","img17"],
-            ["../../img/projects/gundams/southpark/spark16.jpeg","South Park","img18"],
-            ["../../img/projects/gundams/southpark/spark17.jpeg","South Park","img19"],
-            ["../../img/projects/gundams/southpark/spark18.jpeg","South Park","img20"],
-            ["../../img/projects/gundams/southpark/spark19.jpeg","South Park","img21"],
-            ["../../img/projects/gundams/southpark/spark20.jpeg","South Park","img22"],
-            ["../../img/projects/gundams/southpark/spark21.jpeg","South Park","img23"],
-            ["../../img/projects/gundams/southpark/spark22.jpeg","South Park","img24"],
-            ["../../img/projects/gundams/southpark/spark23.jpeg","South Park","img25"],
-            ["../../img/projects/gundams/southpark/spark24.jpeg","South Park","img26"],
-            ["../../img/projects/gundams/southpark/spark25.jpeg","South Park","img27"],
-            ["../../img/projects/gundams/southpark/spark26.jpeg","South Park","img28"],
-            ["../../img/projects/gundams/southpark/spark01.jpeg","South Park","img29"],
-            ["../../img/projects/gundams/southpark/spark04.jpeg","South Park","img30"],
-            ["../../img/projects/gundams/southpark/spark08.jpeg","South Park","img31"],
-            ["../../img/projects/gundams/southpark/spark09.jpeg","South Park","img32"]
+            ['../../img/projects/gundams/southpark/sparkStan.jpeg','South Park: Stan','img1'],
+            ['../../img/projects/gundams/southpark/sparkKyle.jpeg','South Park: Kyle','img2'],
+            ['../../img/projects/gundams/southpark/sparkCartman.jpeg','South Park: Cartman','img3'],
+            ['../../img/projects/gundams/southpark/sparkKenny.jpeg','South Park: Kenny','img4'],
+            ['../../img/projects/gundams/southpark/sparkButters.jpeg','South Park: Butters','img5'],
+            ['../../img/projects/gundams/southpark/sparkWendy.jpeg','South Park: Wendy','img6'],
+            ['../../img/projects/gundams/southpark/spark02.jpeg','South Park','img7'],
+            ['../../img/projects/gundams/southpark/spark03.jpeg','South Park','img8'],
+            ['../../img/projects/gundams/southpark/spark05.jpeg','South Park','img9'],
+            ['../../img/projects/gundams/southpark/spark06.jpeg','South Park','img10'],
+            ['../../img/projects/gundams/southpark/spark07.jpeg','South Park','img11'],
+            ['../../img/projects/gundams/southpark/spark10.jpeg','South Park','img12'],
+            ['../../img/projects/gundams/southpark/spark11.jpeg','South Park','img13'],
+            ['../../img/projects/gundams/southpark/spark12.jpeg','South Park','img14'],
+            ['../../img/projects/gundams/southpark/spark13.jpeg','South Park','img15'],
+            ['../../img/projects/gundams/southpark/spark14.jpeg','South Park','img16'],
+            ['../../img/projects/gundams/southpark/spark15.jpeg','South Park','img17'],
+            ['../../img/projects/gundams/southpark/spark16.jpeg','South Park','img18'],
+            ['../../img/projects/gundams/southpark/spark17.jpeg','South Park','img19'],
+            ['../../img/projects/gundams/southpark/spark18.jpeg','South Park','img20'],
+            ['../../img/projects/gundams/southpark/spark19.jpeg','South Park','img21'],
+            ['../../img/projects/gundams/southpark/spark20.jpeg','South Park','img22'],
+            ['../../img/projects/gundams/southpark/spark21.jpeg','South Park','img23'],
+            ['../../img/projects/gundams/southpark/spark22.jpeg','South Park','img24'],
+            ['../../img/projects/gundams/southpark/spark23.jpeg','South Park','img25'],
+            ['../../img/projects/gundams/southpark/spark24.jpeg','South Park','img26'],
+            ['../../img/projects/gundams/southpark/spark25.jpeg','South Park','img27'],
+            ['../../img/projects/gundams/southpark/spark26.jpeg','South Park','img28'],
+            ['../../img/projects/gundams/southpark/spark01.jpeg','South Park','img29'],
+            ['../../img/projects/gundams/southpark/spark04.jpeg','South Park','img30'],
+            ['../../img/projects/gundams/southpark/spark08.jpeg','South Park','img31'],
+            ['../../img/projects/gundams/southpark/spark09.jpeg','South Park','img32']
         ],
-        ["img/projects/gundams/southpark/spark01.jpeg","Profile Photo: South Park"],
-        "After finishing the Bel-Air, I realized there was still a lot I had to learn about air brush painting. So before moving on to the larger projects I decided to do something fun on a much more small scale in order to get a little more practice. Looking for a theme I was inspired by the boys of South Park, plus the Operation Meteor lineup.",
+        ['img/projects/gundams/southpark/spark01.jpeg','Profile Photo: South Park'],
+        'After finishing the Bel-Air, I realized there was still a lot I had to learn about air brush painting. So before moving on to the larger projects I decided to do something fun on a much more small scale in order to get a little more practice. Looking for a theme I was inspired by the boys of South Park, plus the Operation Meteor lineup.',
         false,
         false,
         false,
@@ -530,156 +530,156 @@ const projects = [
         true,
         false
     ],
-    ["Gemini",[2,"Aquarius","Aquarius"],"SD",false,false,false,"Wing","E","2021-07-03-05",20.61,false,"Builds/Gemini.html",[""],"2022-01-24"],
-    ["Pontus",[1,"Aquarius"],"SD",false,false,false,"Wing","B"],
-    ["PB Deathscythe Hell (TV Version",[1,"Deathscythe Hell"],"HG",false,true,false,"Wing","A"],
-    ["Epyon [RG]",[1,"Epyon"],"RG",true,false,false,"Wing","A"],
-    ["Golden Ghidorah",[1,"Epyon"],"MG",false,false,false,"Wing","B"],
-    ["Golden Ghidorah",[1,"Epyon"],"RG",false,false,false,"Wing","A"],
-    ["PB Geminass 01 [HG]",[1.5,"Geminass 01","Geminass Assault Mobility Booster Expansion Pack"],"HG",true,true,false,"Wing","E","2022-12-07",6.5,false,"Builds/PBGeminassHG.html",false,"2023-04-27"],
-    ["Major Tom",[1,"Geminass 01"],"SD",false,false,false,"Wing","E","2021-12-12",5.15,false,"Builds/MajorTom.html",[""],"2023-04-10"],
-    ["Guerilla Arms",
-        [1,"Heavy Arms"],
-        "MG",
+    ['Gemini',[2,'Aquarius','Aquarius'],'SD',false,false,false,'Wing','E','2021-07-03-05',20.61,false,'Builds/Gemini.html',[''],'2022-01-24'],
+    ['Pontus',[1,'Aquarius'],'SD',false,false,false,'Wing','B'],
+    ['PB Deathscythe Hell (TV Version',[1,'Deathscythe Hell'],'HG',false,true,false,'Wing','A'],
+    ['Epyon [RG]',[1,'Epyon'],'RG',true,false,false,'Wing','A'],
+    ['Golden Ghidorah',[1,'Epyon'],'MG',false,false,false,'Wing','B'],
+    ['Golden Ghidorah',[1,'Epyon'],'RG',false,false,false,'Wing','A'],
+    ['PB Geminass 01 [HG]',[1.5,'Geminass 01','Geminass Assault Mobility Booster Expansion Pack'],'HG',true,true,false,'Wing','E','2022-12-07',6.5,false,'Builds/PBGeminassHG.html',false,'2023-04-27'],
+    ['Major Tom',[1,'Geminass 01'],'SD',false,false,false,'Wing','E','2021-12-12',5.15,false,'Builds/MajorTom.html',[''],'2023-04-10'],
+    ['Guerilla Arms',
+        [1,'Heavy Arms'],
+        'MG',
         false,
         false,
         false,
-        "Wing",
-        "E",
-        "2021-04-03",
+        'Wing',
+        'E',
+        '2021-04-03',
         60.07,
         false,
-        "Builds/Gundams/GuerillaArms.html",
+        'Builds/Gundams/GuerillaArms.html',
         false,
-        "2021-05-22",
+        '2021-05-22',
         models[1],
         [
-            ["../../img/projects/gundams/guerilla_arms/gahamg19.JPG","Gundam Guerilla Arms","img19"],
-            ["../../img/projects/gundams/guerilla_arms/gahamg20.JPG","Gundam Guerilla Arms","img20"],
-            ["../../img/projects/gundams/guerilla_arms/gahamg21.JPG","Gundam Guerilla Arms","img21"],
-            ["../../img/projects/gundams/guerilla_arms/gahamg22.JPG","Gundam Guerilla Arms","img22"],
-            ["../../img/projects/gundams/guerilla_arms/gahamg23.JPG","Gundam Guerilla Arms","img23"],
-            ["../../img/projects/gundams/guerilla_arms/gahamg24.JPG","Gundam Guerilla Arms","img24"],
-            ["../../img/projects/gundams/guerilla_arms/gahamg25.JPG","Gundam Guerilla Arms","img25"],
-            ["../../img/projects/gundams/guerilla_arms/gahamg26.JPG","Gundam Guerilla Arms","img26"],
-            ["../../img/projects/gundams/guerilla_arms/gahamg27.JPG","Gundam Guerilla Arms","img27"],
-            ["../../img/projects/gundams/guerilla_arms/gahamg28.JPG","Gundam Guerilla Arms","img28"],
-            ["../../img/projects/gundams/guerilla_arms/gahamg29.JPG","Gundam Guerilla Arms","img29"],
-            ["../../img/projects/gundams/guerilla_arms/gahamg30.JPG","Gundam Guerilla Arms","img30"],
-            ["../../img/projects/gundams/guerilla_arms/gahamg31.JPG","Gundam Guerilla Arms","img31"],
-            ["../../img/projects/gundams/guerilla_arms/gahamg01.JPG","Gundam Guerilla Arms","img1"],
-            ["../../img/projects/gundams/guerilla_arms/gahamg02.JPG","Gundam Guerilla Arms","img2"],
-            ["../../img/projects/gundams/guerilla_arms/gahamg03.JPG","Gundam Guerilla Arms","img3"],
-            ["../../img/projects/gundams/guerilla_arms/gahamg04.JPG","Gundam Guerilla Arms","img4"],
-            ["../../img/projects/gundams/guerilla_arms/gahamg05.JPG","Gundam Guerilla Arms","img5"],
-            ["../../img/projects/gundams/guerilla_arms/gahamg06.JPG","Gundam Guerilla Arms","img6"],
-            ["../../img/projects/gundams/guerilla_arms/gahamg07.JPG","Gundam Guerilla Arms","img7"],
-            ["../../img/projects/gundams/guerilla_arms/gahamg08.JPG","Gundam Guerilla Arms","img8"],
-            ["../../img/projects/gundams/guerilla_arms/gahamg09.JPG","Gundam Guerilla Arms","img9"],
-            ["../../img/projects/gundams/guerilla_arms/gahamg10.JPG","Gundam Guerilla Arms","img10"],
-            ["../../img/projects/gundams/guerilla_arms/gahamg11.JPG","Gundam Guerilla Arms","img11"],
-            ["../../img/projects/gundams/guerilla_arms/gahamg12.JPG","Gundam Guerilla Arms","img12"],
-            ["../../img/projects/gundams/guerilla_arms/gahamg13.JPG","Gundam Guerilla Arms","img13"],
-            ["../../img/projects/gundams/guerilla_arms/gahamg14.JPG","Gundam Guerilla Arms","img14"],
-            ["../../img/projects/gundams/guerilla_arms/gahamg15.JPG","Gundam Guerilla Arms","img15"],
-            ["../../img/projects/gundams/guerilla_arms/gahamg16.JPG","Gundam Guerilla Arms","img16"],
-            ["../../img/projects/gundams/guerilla_arms/gahamg17.JPG","Gundam Guerilla Arms","img17"],
-            ["../../img/projects/gundams/guerilla_arms/gahamg18.JPG","Gundam Guerilla Arms","img18"],
-            ["../../img/projects/gundams/guerilla_arms/gahamg32.JPG","Gundam Guerilla Arms","img32"]
+            ['../../img/projects/gundams/guerilla_arms/gahamg19.JPG','Gundam Guerilla Arms','img19'],
+            ['../../img/projects/gundams/guerilla_arms/gahamg20.JPG','Gundam Guerilla Arms','img20'],
+            ['../../img/projects/gundams/guerilla_arms/gahamg21.JPG','Gundam Guerilla Arms','img21'],
+            ['../../img/projects/gundams/guerilla_arms/gahamg22.JPG','Gundam Guerilla Arms','img22'],
+            ['../../img/projects/gundams/guerilla_arms/gahamg23.JPG','Gundam Guerilla Arms','img23'],
+            ['../../img/projects/gundams/guerilla_arms/gahamg24.JPG','Gundam Guerilla Arms','img24'],
+            ['../../img/projects/gundams/guerilla_arms/gahamg25.JPG','Gundam Guerilla Arms','img25'],
+            ['../../img/projects/gundams/guerilla_arms/gahamg26.JPG','Gundam Guerilla Arms','img26'],
+            ['../../img/projects/gundams/guerilla_arms/gahamg27.JPG','Gundam Guerilla Arms','img27'],
+            ['../../img/projects/gundams/guerilla_arms/gahamg28.JPG','Gundam Guerilla Arms','img28'],
+            ['../../img/projects/gundams/guerilla_arms/gahamg29.JPG','Gundam Guerilla Arms','img29'],
+            ['../../img/projects/gundams/guerilla_arms/gahamg30.JPG','Gundam Guerilla Arms','img30'],
+            ['../../img/projects/gundams/guerilla_arms/gahamg31.JPG','Gundam Guerilla Arms','img31'],
+            ['../../img/projects/gundams/guerilla_arms/gahamg01.JPG','Gundam Guerilla Arms','img1'],
+            ['../../img/projects/gundams/guerilla_arms/gahamg02.JPG','Gundam Guerilla Arms','img2'],
+            ['../../img/projects/gundams/guerilla_arms/gahamg03.JPG','Gundam Guerilla Arms','img3'],
+            ['../../img/projects/gundams/guerilla_arms/gahamg04.JPG','Gundam Guerilla Arms','img4'],
+            ['../../img/projects/gundams/guerilla_arms/gahamg05.JPG','Gundam Guerilla Arms','img5'],
+            ['../../img/projects/gundams/guerilla_arms/gahamg06.JPG','Gundam Guerilla Arms','img6'],
+            ['../../img/projects/gundams/guerilla_arms/gahamg07.JPG','Gundam Guerilla Arms','img7'],
+            ['../../img/projects/gundams/guerilla_arms/gahamg08.JPG','Gundam Guerilla Arms','img8'],
+            ['../../img/projects/gundams/guerilla_arms/gahamg09.JPG','Gundam Guerilla Arms','img9'],
+            ['../../img/projects/gundams/guerilla_arms/gahamg10.JPG','Gundam Guerilla Arms','img10'],
+            ['../../img/projects/gundams/guerilla_arms/gahamg11.JPG','Gundam Guerilla Arms','img11'],
+            ['../../img/projects/gundams/guerilla_arms/gahamg12.JPG','Gundam Guerilla Arms','img12'],
+            ['../../img/projects/gundams/guerilla_arms/gahamg13.JPG','Gundam Guerilla Arms','img13'],
+            ['../../img/projects/gundams/guerilla_arms/gahamg14.JPG','Gundam Guerilla Arms','img14'],
+            ['../../img/projects/gundams/guerilla_arms/gahamg15.JPG','Gundam Guerilla Arms','img15'],
+            ['../../img/projects/gundams/guerilla_arms/gahamg16.JPG','Gundam Guerilla Arms','img16'],
+            ['../../img/projects/gundams/guerilla_arms/gahamg17.JPG','Gundam Guerilla Arms','img17'],
+            ['../../img/projects/gundams/guerilla_arms/gahamg18.JPG','Gundam Guerilla Arms','img18'],
+            ['../../img/projects/gundams/guerilla_arms/gahamg32.JPG','Gundam Guerilla Arms','img32']
         ],
-        ["img/projects/gundams/guerilla_arms/gahamg32.JPG","Profile Photo: Gundam Guerilla Arms"],
-        "Camouflage. Commando. Jungle Warfare. Entirely hand brushed. First attempt at custom painting. Entirely Testors paints. Huge learning experience.",
+        ['img/projects/gundams/guerilla_arms/gahamg32.JPG','Profile Photo: Gundam Guerilla Arms'],
+        'Camouflage. Commando. Jungle Warfare. Entirely hand brushed. First attempt at custom painting. Entirely Testors paints. Huge learning experience.',
         false,
         [
-            ["USA Gundam Store","https://www.usagundamstore.com/products/mg-1-100-gundam-heavyarms-ew-ver"],
-            ["NewType","https://newtype.us/p/xyX3s81UEQTYgD2wfA49/h/mg-gundam-heavyarms-ew"],
-            ["Amazon","https://a.co/d/03pIAks"]
+            ['USA Gundam Store','https://www.usagundamstore.com/products/mg-1-100-gundam-heavyarms-ew-ver'],
+            ['NewType','https://newtype.us/p/xyX3s81UEQTYgD2wfA49/h/mg-gundam-heavyarms-ew'],
+            ['Amazon','https://a.co/d/03pIAks']
         ],
         false,
         false,
         true,
-        "1/100"
+        '1/100'
     ],
-    ["Phoebe",[1,"Maganac Corps"],"SD",false,false,false,"Wing","D","2022-04-11",8.42,false,"Builds/Phoebe.html",[""]],
-    ["Isaac",[1,"Proto-Zero"],"SD",false,false,false,"Wing","E","2023-02-06",14.14,false,"Builds/Isaac.html",[""],"2023-05-10"],
-    ["Jericho",[1,"Proto-Zero"],"HG",false,false,false,"Wing","E","2023-01-09",12.79,false,"Builds/Jericho.html",[""],"2023-05-24"],
-    ["King David",[1,"Proto-Zero"],"MG",false,false,false,"Wing","E","2023-03-08",52.11,true,"Builds/KingDavid.html",[""],"2023-05-15"],
-    ["Metal Zero",[1,"Proto-Zero"],"SD",false,false,false,"Wing","E","2023-01-08",14.19,false,"Builds/MetalZero.html",[""],"2023-05-04"],
-    ["Proto-Zero [SD]",[1,"Proto-Zero"],"SD",true,false,false,"Wing","E","2021-12-14",1.67,false,false,false,"2023-05-01"],
-    ["Napoleon",[2,"Tallgeese","Ceramic Horse"],"MG",false,false,false,"Wing","B"],
-    ["St Dominic",[1,"Tallgeese"],"RG",false,false,false,"Wing","E","2021-12-10",19,false,"Builds/StDominic.html",[""],"2022-06-08"],
-    ["PB Fl\u00FCgel Sparkel",[1,"Tallgeese Fl\u00FCgel"],"MG",false,true,false,"Wing","B"],
-    ["PB Tallgeese Fl\u00FCgel [MG]",[1,"Tallgeese Fl\u00FCgel"],"MG",true,true,false,"Wing","D","2022-05-08",20.17,false,"Builds/PBTallgeeseFlugelMG.html",false],
-    ["Wild Wing",[1,"Wing Gundam"],"MG",false,false,false,"Wing","E","2021-07-06",60.48,true,"Builds/WildWing.html",[""],"2022-02-14"],
-    ["Wing Gundam [RG]",[1,"Wing Gundam"],"RG",true,false,false,"Wing","E","2021-07",12.59,false,false,false,"2022-02-07"],
-    ["PB Clear Wing Zero [RG]",[1,"Wing Zero"],"RG",true,true,false,"Wing","E","2021-11-10",6.15,false,"Builds/PBZeroRG",false,"2022-04-19"],
-    ["Dark Zero",[1,"Wing Zero"],"MG",false,false,false,"Wing","B"],
-    ["Dark Zero",[1,"Wing Zero"],"RG",false,false,false,"Wing","A"],
-    ["Dark Zero",[1,"Wing Zero"],"SD",false,false,false,"Wing","A"],
-    ["Fiery Mothra",[1,"Wing Zero"],"MG",false,false,false,"Wing","B"],
-    ["Fiery Mothra",[1,"Wing Zero"],"RG",false,false,false,"Wing","A"],
-    ["Fiery Mothra",[1,"Wing Zero"],"SD",false,false,false,"Wing","A"],
-    ["Gold Dust Woman",[1,"Wing Zero"],"SD",false,false,false,"Wing","E","2021-09-09",8.37,false,"Builds/GoldDustWoman.html",[""],"2022-02-01"],
-    ["Snow White",[1,"Wing Zero"],"MG",false,false,false,"Wing","B"],
-    ["Snow White",[1,"Wing Zero"],"RG",false,false,false,"Wing","B"],
-    ["Snow White",[1,"Wing Zero"],"SD",false,false,false,"Wing","A"],
-    ["Wing Zero KA [MG]",[1,"Wing Zero","GFFMC Wings For MG Wing Zero"],"MG",true,false,false,"Wing","C","2022-06-05",10.83,false,false,false],
-    ["Wing Zero [PG]",[1,"Wing GUndam"],"PG",true,false,false,"Wing","A"],
-    ["Zero Traditional",[1,"Wing Zero"],"MG",false,false,false,"Wing","B"],
-    ["Zero Traditional",[1,"Wing Zero"],"RG",false,false,false,"Wing","B"],
-    ["Zero Traditional",[1,"Wing Zero"],"SD",false,false,false,"Wing","A"],
-    ["Zero EW (mg)",[1,"Wing Zero"],"MG",false,false,false,"Wing","B"],
-    ["Zero EW (rg)",[1,"Wing Zero"],"RG",false,false,false,"Wing","A"],
-    ["Zero EW (sd)",[1,"Wing Zero"],"SD",false,false,false,"Wing","A"],
+    ['Phoebe',[1,'Maganac Corps'],'SD',false,false,false,'Wing','D','2022-04-11',8.42,false,'Builds/Phoebe.html',['']],
+    ['Isaac',[1,'Proto-Zero'],'SD',false,false,false,'Wing','E','2023-02-06',14.14,false,'Builds/Isaac.html',[''],'2023-05-10'],
+    ['Jericho',[1,'Proto-Zero'],'HG',false,false,false,'Wing','E','2023-01-09',12.79,false,'Builds/Jericho.html',[''],'2023-05-24'],
+    ['King David',[1,'Proto-Zero'],'MG',false,false,false,'Wing','E','2023-03-08',52.11,true,'Builds/KingDavid.html',[''],'2023-05-15'],
+    ['Metal Zero',[1,'Proto-Zero'],'SD',false,false,false,'Wing','E','2023-01-08',14.19,false,'Builds/MetalZero.html',[''],'2023-05-04'],
+    ['Proto-Zero [SD]',[1,'Proto-Zero'],'SD',true,false,false,'Wing','E','2021-12-14',1.67,false,false,false,'2023-05-01'],
+    ['Napoleon',[2,'Tallgeese','Ceramic Horse'],'MG',false,false,false,'Wing','B'],
+    ['St Dominic',[1,'Tallgeese'],'RG',false,false,false,'Wing','E','2021-12-10',19,false,'Builds/StDominic.html',[''],'2022-06-08'],
+    ['PB Fl\u00FCgel Sparkel',[1,'Tallgeese Fl\u00FCgel'],'MG',false,true,false,'Wing','B'],
+    ['PB Tallgeese Fl\u00FCgel [MG]',[1,'Tallgeese Fl\u00FCgel'],'MG',true,true,false,'Wing','D','2022-05-08',20.17,false,'Builds/PBTallgeeseFlugelMG.html',false],
+    ['Wild Wing',[1,'Wing Gundam'],'MG',false,false,false,'Wing','E','2021-07-06',60.48,true,'Builds/WildWing.html',[''],'2022-02-14'],
+    ['Wing Gundam [RG]',[1,'Wing Gundam'],'RG',true,false,false,'Wing','E','2021-07',12.59,false,false,false,'2022-02-07'],
+    ['PB Clear Wing Zero [RG]',[1,'Wing Zero'],'RG',true,true,false,'Wing','E','2021-11-10',6.15,false,'Builds/PBZeroRG',false,'2022-04-19'],
+    ['Dark Zero',[1,'Wing Zero'],'MG',false,false,false,'Wing','B'],
+    ['Dark Zero',[1,'Wing Zero'],'RG',false,false,false,'Wing','A'],
+    ['Dark Zero',[1,'Wing Zero'],'SD',false,false,false,'Wing','A'],
+    ['Fiery Mothra',[1,'Wing Zero'],'MG',false,false,false,'Wing','B'],
+    ['Fiery Mothra',[1,'Wing Zero'],'RG',false,false,false,'Wing','A'],
+    ['Fiery Mothra',[1,'Wing Zero'],'SD',false,false,false,'Wing','A'],
+    ['Gold Dust Woman',[1,'Wing Zero'],'SD',false,false,false,'Wing','E','2021-09-09',8.37,false,'Builds/GoldDustWoman.html',[''],'2022-02-01'],
+    ['Snow White',[1,'Wing Zero'],'MG',false,false,false,'Wing','B'],
+    ['Snow White',[1,'Wing Zero'],'RG',false,false,false,'Wing','B'],
+    ['Snow White',[1,'Wing Zero'],'SD',false,false,false,'Wing','A'],
+    ['Wing Zero KA [MG]',[1,'Wing Zero','GFFMC Wings For MG Wing Zero'],'MG',true,false,false,'Wing','C','2022-06-05',10.83,false,false,false],
+    ['Wing Zero [PG]',[1,'Wing GUndam'],'PG',true,false,false,'Wing','A'],
+    ['Zero Traditional',[1,'Wing Zero'],'MG',false,false,false,'Wing','B'],
+    ['Zero Traditional',[1,'Wing Zero'],'RG',false,false,false,'Wing','B'],
+    ['Zero Traditional',[1,'Wing Zero'],'SD',false,false,false,'Wing','A'],
+    ['Zero EW (mg)',[1,'Wing Zero'],'MG',false,false,false,'Wing','B'],
+    ['Zero EW (rg)',[1,'Wing Zero'],'RG',false,false,false,'Wing','A'],
+    ['Zero EW (sd)',[1,'Wing Zero'],'SD',false,false,false,'Wing','A'],
 
     //After War (X)
-    ["Gaebora",[1,"Airmaster"],"SD",false,false,false,"X","E","2021-10-06",5.51,false,"Builds/Gaebora.html",[""],"2022-03-28"],
-    ["Biohazard",[1,"Double X"],"SD",false,false,false,"X","E","2022-08-08",5.83,false,"Builds/Biohazard.html",[""],"2022-10-24"],
-    ["Charlie Daniels",[1,"Double X"],"SD",false,false,false,"X","E","2021-10-08",4.51,false,"Builds/CharlieDaniels.html",[""],"2022-08-01"],
-    ["Corona Virus",[1,"Double X"],"MG",false,false,false,"X","E","2022-09-05",36.08,false,"Builds/Corona.html",[""],"2022-10-31"],
-    ["Double X [MG]",[1,"Double X"],"MG",true,false,false,"X","E","2022-09-10",7.58,false,false,false,"2022-10-10"],
-    ["Double X [HG]",[1,"Double X"],"HG",true,false,false,"X","E","2022-08-10",2,false,false,false,"2022-09-26"],
-    ["Guapo",[1,"Leopard"],"SD",false,false,false,"X","E","2021-10-05",6.2,false,"Builds/Guapo.html",[""],"2022-03-07"],
-    ["Iron Maiden",[1,"X Gundam"],"SD",false,false,false,"X","E","2021-10-07",4.83,false,"Builds/IronMaiden.html",[""],"2023-03-20"],
+    ['Gaebora',[1,'Airmaster'],'SD',false,false,false,'X','E','2021-10-06',5.51,false,'Builds/Gaebora.html',[''],'2022-03-28'],
+    ['Biohazard',[1,'Double X'],'SD',false,false,false,'X','E','2022-08-08',5.83,false,'Builds/Biohazard.html',[''],'2022-10-24'],
+    ['Charlie Daniels',[1,'Double X'],'SD',false,false,false,'X','E','2021-10-08',4.51,false,'Builds/CharlieDaniels.html',[''],'2022-08-01'],
+    ['Corona Virus',[1,'Double X'],'MG',false,false,false,'X','E','2022-09-05',36.08,false,'Builds/Corona.html',[''],'2022-10-31'],
+    ['Double X [MG]',[1,'Double X'],'MG',true,false,false,'X','E','2022-09-10',7.58,false,false,false,'2022-10-10'],
+    ['Double X [HG]',[1,'Double X'],'HG',true,false,false,'X','E','2022-08-10',2,false,false,false,'2022-09-26'],
+    ['Guapo',[1,'Leopard'],'SD',false,false,false,'X','E','2021-10-05',6.2,false,'Builds/Guapo.html',[''],'2022-03-07'],
+    ['Iron Maiden',[1,'X Gundam'],'SD',false,false,false,'X','E','2021-10-07',4.83,false,'Builds/IronMaiden.html',[''],'2023-03-20'],
 
     //Anno Domini (00)
-    ["Gundam Umlaut \xD6\xD6",[1,"00 Gundam"],"SD",false,false,false,"00","E","2021-06-07",10.83,false,"Builds/Umlaut.html",[""],"2021-06-23"],
-    ["Metatron",[1,"00 Raiser"],"SD",false,false,false,"00","B"],
-    ["PB Trans-Am Clear 00 Raiser [RG]",[1,"00 Gundam Raiser"],"RG",true,true,false,"00","E","2021-12-09",12.67,false,"Builds/PBooraiserRG.html",false,"2022-06-15"],
-    ["Silver \"n\" Gold",[1,"00 Gundam QAN[T]"],"RG",false,false,false,"00","B"],
-    ["Thunder QAN[T]",[1,"00 Gundam QAN[T]"],"SD",false,false,false,"00","E","2021-06-12",11.68,true,"Builds/ThunderQ.html",[""],"2021-08-09"],
-    ["PB Trans-Am Clear 00 QAN[T] [RG]",[1,"00 Gundam QAN[T]"],"RG",true,true,false,"00","E","2022-01-09",8.33,false,"Builds/PBOOQRG.html",false,"2022-07-28"],
-    ["Nena",[1,"Exia"],"SD",false,false,false,"00","D","2021-12-07",4.95,false,"Builds/Nena.html",[""]],
-    ["PB Trans-Am Clear Exia [RG]",[1,"Exia"],"RG",true,true,false,"00","E","2021-12-08",6.58,false,"Builds/PBExiaRG.html",false,"2022-05-31"],
-    ["PB Harute (Final Battle Version) [HG]",[1,"Harute"],"HG",true,true,false,"00","E","2022-03-08",5.75,false,"Builds/PBHaruteFinalHG.html",false,"2022-11-21"],
-    ["Virtue/Nadlee [MG]",[3,"Virtue","Nadlee","VirtueStand"],"MG",true,false,false,"00","E","2022-02",20.08,true,"Builds/VirtueNadleeStand.html",false,"2023-01-16"],
-    ["PB Zabanya (Final Battle Version) [HG]",[1,"Zabanya"],"HG",true,true,false,"00","E","2022-03-09",3,false,"Builds/PBZabanyaFinalHG.html",false,"2022-11-07"],
+    ['Gundam Umlaut \xD6\xD6',[1,'00 Gundam'],'SD',false,false,false,'00','E','2021-06-07',10.83,false,'Builds/Umlaut.html',[''],'2021-06-23'],
+    ['Metatron',[1,'00 Raiser'],'SD',false,false,false,'00','B'],
+    ['PB Trans-Am Clear 00 Raiser [RG]',[1,'00 Gundam Raiser'],'RG',true,true,false,'00','E','2021-12-09',12.67,false,'Builds/PBooraiserRG.html',false,'2022-06-15'],
+    ['Silver \'n\' Gold',[1,'00 Gundam QAN[T]'],'RG',false,false,false,'00','B'],
+    ['Thunder QAN[T]',[1,'00 Gundam QAN[T]'],'SD',false,false,false,'00','E','2021-06-12',11.68,true,'Builds/ThunderQ.html',[''],'2021-08-09'],
+    ['PB Trans-Am Clear 00 QAN[T] [RG]',[1,'00 Gundam QAN[T]'],'RG',true,true,false,'00','E','2022-01-09',8.33,false,'Builds/PBOOQRG.html',false,'2022-07-28'],
+    ['Nena',[1,'Exia'],'SD',false,false,false,'00','D','2021-12-07',4.95,false,'Builds/Nena.html',['']],
+    ['PB Trans-Am Clear Exia [RG]',[1,'Exia'],'RG',true,true,false,'00','E','2021-12-08',6.58,false,'Builds/PBExiaRG.html',false,'2022-05-31'],
+    ['PB Harute (Final Battle Version) [HG]',[1,'Harute'],'HG',true,true,false,'00','E','2022-03-08',5.75,false,'Builds/PBHaruteFinalHG.html',false,'2022-11-21'],
+    ['Virtue/Nadlee [MG]',[3,'Virtue','Nadlee','VirtueStand'],'MG',true,false,false,'00','E','2022-02',20.08,true,'Builds/VirtueNadleeStand.html',false,'2023-01-16'],
+    ['PB Zabanya (Final Battle Version) [HG]',[1,'Zabanya'],'HG',true,true,false,'00','E','2022-03-09',3,false,'Builds/PBZabanyaFinalHG.html',false,'2022-11-07'],
 
     //Correct Century (Turn A)
-    ["John Wayne",[1,"Turn-A"],"SD",false,false,false,"TurnA","E","2021-09-10",6.62,false,"Builds/JohnWayne.html",[""],"2023-02-13"],
+    ['John Wayne',[1,'Turn-A'],'SD',false,false,false,'TurnA','E','2021-09-10',6.62,false,'Builds/JohnWayne.html',[''],'2023-02-13'],
 
     //Cosmic Century (Seed) 
-    ["Gundam Fluorescent",[1,"Aegis"],"SD",false,false,false,"Seed","E","2021-06-08",9.94,false,"Builds/Fluorescent.html",[""],"2021-06-24"],
-    ["Bald Eagle",[1,"Astray Blue Frame"],"MG",false,false,false,"Seed","B"],
-    ["Raphael",[1,"Astray Gold Frame"],"SD",false,false,false,"Seed","B"],
-    ["Oowashi Akatsuki [HG]",[1,"Akatsuki, Oowsahi"],"HG",true,false,false,"Seed","E","2021-12-18",2.67,false,false,false,"2022-04-26"],
-    ["Rising Sun",[1,"Akatsuki, Oowashi"],"HG",false,false,false,"Seed","E","2021-11-05",17.28,false,"Builds/RisingSun.html",[""],"2022-04-28"],
-    ["King Mars",[1,"Akatsuki, Shiranui"],"HG",false,false,false,"Seed","D","2022-05-06",13.67,false,"Builds/KingMars.html",[""]],
-    ["Archangel",[2,"Archangel","Archangel"],"Ship",false,false,false,"Seed","E","2021-08-06",76.63,false,"Builds/ArchAngel.html",[""],"2022-01-10"],
-    ["Dominion",[1,"Archangel"],"Ship",false,false,false,"Seed","E","2021-09-07",21.87,false,,"Builds/Dominion.html",[""],"2022-01-17"],
-    ["Urban Commando",[1,"Buster"],"MG",false,false,false,"Seed","B"],
-    ["Calamitous Godzilla",[1,"Calamity"],"FM",false,false,false,"Seed","B"],
-    ["PB Armageddon",[2.5,"Dagger L","Dagger L","Dagger Expansion Pack"],"HG",false,true,false,"Seed","E","2022-03-06",28.5,false,"Builds/Armageddon.html",[""],"2022-05-23"],
-    ["King Leir",[1,"Dagger L"],"HG",false,false,false,"Seed","E","2021-06-10",14.09,false,"Builds/KingLeir.html",[""],"2021-06-26"],
-    ["Samus: Varia Suit",[1,"Dagger L"],"HG",false,false,false,"Seed","C","2023-06-13",3.58,false,"Builds/Gundams/VariaSuit.html",["Tamiya: Gold TS-21 Can","Testors: Sunflower 1191","Tamiya: Matt Black TS-6 Can","Vallejo Game Color: Fluorescent Green 72.104","Tamiya: Gun Metal TS-38 Can"]],
-    ["Charizard",[1,"Destiny"],"MG",false,false,false,"Seed","B"],
-    ["Charizard X",[1,"Destiny"],"SD",false,false,false,"Seed","E","2021-10-10",8.13,false,"Builds/CharizardX.html",[""],"2022-05-16"],
-    ["Iapetus",[1,"Destiny"],"SD",false,false,false,"Seed","B"],
-    ["Thin Blue Line",[2,"Duel Gundam","Duel Gundam Assault Shroud"],"MG",false,false,false,"Seed","B"],
-    ["Eclipse ???",[1,"Eclipse"],"MG",false,false,false,"Seed","B"],
-    ["PB Eclipse [MG]",[1.5,"Eclipse","Eclipse Maneuver Striker"],"MG",true,true,false,"Seed","E","2022-02",17.75,false,"Builds/PBEclipseMG.html",false,"2023-01-30"],
-    ["Eternal",[1,"Eternal"],"Ship",false,false,false,"Seed","E","2021-08-05",24.1,false,
-        "Builds/Ships/eternal.html",['Vallejo Model Color: Sunset Red 70.802'],"2022-01-03",models[7],
+    ['Gundam Fluorescent',[1,'Aegis'],'SD',false,false,false,'Seed','E','2021-06-08',9.94,false,'Builds/Fluorescent.html',[''],'2021-06-24'],
+    ['Bald Eagle',[1,'Astray Blue Frame'],'MG',false,false,false,'Seed','B'],
+    ['Raphael',[1,'Astray Gold Frame'],'SD',false,false,false,'Seed','B'],
+    ['Oowashi Akatsuki [HG]',[1,'Akatsuki, Oowsahi'],'HG',true,false,false,'Seed','E','2021-12-18',2.67,false,false,false,'2022-04-26'],
+    ['Rising Sun',[1,'Akatsuki, Oowashi'],'HG',false,false,false,'Seed','E','2021-11-05',17.28,false,'Builds/RisingSun.html',[''],'2022-04-28'],
+    ['King Mars',[1,'Akatsuki, Shiranui'],'HG',false,false,false,'Seed','D','2022-05-06',13.67,false,'Builds/KingMars.html',['']],
+    ['Archangel',[2,'Archangel','Archangel'],'Ship',false,false,false,'Seed','E','2021-08-06',76.63,false,'Builds/ArchAngel.html',[''],'2022-01-10'],
+    ['Dominion',[1,'Archangel'],'Ship',false,false,false,'Seed','E','2021-09-07',21.87,false,,'Builds/Dominion.html',[''],'2022-01-17'],
+    ['Urban Commando',[1,'Buster'],'MG',false,false,false,'Seed','B'],
+    ['Calamitous Godzilla',[1,'Calamity'],'FM',false,false,false,'Seed','B'],
+    ['PB Armageddon',[2.5,'Dagger L','Dagger L','Dagger Expansion Pack'],'HG',false,true,false,'Seed','E','2022-03-06',28.5,false,'Builds/Armageddon.html',[''],'2022-05-23'],
+    ['King Leir',[1,'Dagger L'],'HG',false,false,false,'Seed','E','2021-06-10',14.09,false,'Builds/KingLeir.html',[''],'2021-06-26'],
+    ['Samus: Varia Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','C','2023-06-13',3.58,false,'Builds/Gundams/VariaSuit.html',['Tamiya: Gold TS-21 Can','Testors: Sunflower 1191','Tamiya: Matt Black TS-6 Can','Vallejo Game Color: Fluorescent Green 72.104','Tamiya: Gun Metal TS-38 Can']],
+    ['Charizard',[1,'Destiny'],'MG',false,false,false,'Seed','B'],
+    ['Charizard X',[1,'Destiny'],'SD',false,false,false,'Seed','E','2021-10-10',8.13,false,'Builds/CharizardX.html',[''],'2022-05-16'],
+    ['Iapetus',[1,'Destiny'],'SD',false,false,false,'Seed','B'],
+    ['Thin Blue Line',[2,'Duel Gundam','Duel Gundam Assault Shroud'],'MG',false,false,false,'Seed','B'],
+    ['Eclipse ???',[1,'Eclipse'],'MG',false,false,false,'Seed','B'],
+    ['PB Eclipse [MG]',[1.5,'Eclipse','Eclipse Maneuver Striker'],'MG',true,true,false,'Seed','E','2022-02',17.75,false,'Builds/PBEclipseMG.html',false,'2023-01-30'],
+    ['Eternal',[1,'Eternal'],'Ship',false,false,false,'Seed','E','2021-08-05',24.1,false,
+        'Builds/Ships/eternal.html',['Vallejo Model Color: Sunset Red 70.802'],'2022-01-03',models[7],
         [
             ['../../img/projects/ships/eternal/eternal01.jpeg','Warship Eternal','img1'],
             ['../../img/projects/ships/eternal/eternal02.jpeg','Warship Eternal','img2'],
@@ -721,280 +721,280 @@ const projects = [
         true,
         '1:1700'
     ],
-    ["Orga",[1,"Forbidden"],"FM",false,false,false,"Seed","A"],
-    ["Anthem",[1,"Freedom"],"MG",false,false,false,"Seed","E","2022-05-05",73.16,true,"Builds/Anthem.html",[""],"2022-07-04"],
-    ["Freedom [MGSD]",[1,"Freedom"],"MGSD",true,false,false,"Seed","D","2023-03-05",8.5,false,false,false],
-    ["Liberty",[1,"Freedom"],"SD",false,false,false,"Seed","E","2022-04-09",18,false,"Builds/Liberty.html",[""],"2022-06-27"],
-    ["Old Glory",[1,"Freedom"],"MGSD",false,false,false,"Seed","C","2023-05-06",28.83,false,"Builds/Gundams/OldGlory.html",["Mission Models: MMP-001 White","Testors: Red Grapefruit 1196","Testors: Cherry Red 1197","Vallejo Mecha Color: Gold 69.059","Vallejo Mecha Color: Electric Blue 60.020","Vallejo Model Air: Black 71.057","Vallejo Mecha Color: Metallic Blue 69.067","Vallejo Model Air: Metallic Signal Red 71.070","Vallejo Mecha Color: Sky Blue 69.017","Tamiya: Metallic BLue TS-19 Can","Tamiya: Gold TS-21 Can","Tamiya: Matt White TS-27 Can","Tamiya: Metallic Red PS-15 Can","Tamiya: Clear Red X-27"]],
-    ["Billy Blue Jay",[1,"Ginn"],"MG",false,false,false,"Seed","B"],
-    ["PB Destiny Impulse (Regenes) [MG]",[1,"Impulse, Destiny"],"Seed","MG",true,true,false,"C","2023-05-05",6.5,false,"Builds/PBDesintyImpulseREgenesMG.html",false],
-    ["PB Destiny Impulse [RG]",[1,"Impulse, Destiny"],"RG",true,true,false,"Seed","B"],
-    ["Don\"t Tread On Ye",[1,"Justice"],"MG",false,false,false,"Seed","E","2022-06-06",51.75,true,"Builds/Ye.html",[""],"2022-09-06"],
-    ["AntiJustice",[1,"Justice"],"SD",false,false,false,"Seed","B"],
-    ["Pacifist",[1,"Justice"],"SD",false,false,false,"Seed","E","2022-04-10",14.58,false,"Builds/Pacifist.html",[""],"2022-08-29"],
-    ["PB Clear \u221e Justice [RG]",[1,"Infinite Justice"],"RG",true,true,false,"Seed","E","2021-11-09",4.93,false,"Builds/PBInfiniJusticeRG.html",false,"2022-05-03"],
-    ["Oppression",[1,"Infinite Justice"],"MG",false,false,false,"Seed","B"],
-    ["Zoroaster",[1,"Legend"],"FM",false,false,false,"Seed","B"],
-    ["PB Meteors",[1,"Meteor","Meteor I","Meteor II","Freedom","Infinite Justice"],"HG",false,true,false,"Seed","B"],
-    ["Union Jack",[1,"Providence"],"MG",false,false,false,"Seed","A"],
-    ["Raider [FM]",[1,"Raider"],"FM",true,false,false,"Seed","D","2023-01-06",9.75,false,false,false],
-    ["Rodan",[1,"Raider"],"FM",false,false,false,"Seed","A"],
-    ["Blue Angels",[3,"Skygrasper","Skygrasper","Skygrasper"],"RG",false,false,false,"Seed","E","2022-12-05",22,true,"Builds/BlueAngels.html",[""],"2022-12-26"],
-    ["Skygrasper [PG]",[1,"Skygrasper"],"PG",true,false,false,"Seed","E","2022-10-06",6,false,"Builds/PGSkygasper.html",false,"2022-12-22"],
-    ["Skygrasper [RG]",[2,"Skygrasper","Skygrasper","Skygrasper"],"RG",true,false,false,"Seed","E","2022-09-06",10,false,false,false,"2022-12-19"],
-    ["PB Lightning Strike",[2,"Strike","Lightning Striker","Sword Launcher Striker Pack"],"MG",false,true,false,"Seed","B"],
-    ["Metal Strike",[1,"Strike"],"SD",false,false,false,"Seed","B"],
-    ["Strike Gundam [PG]",[1,"Strike"],"PG",true,false,false,"Seed","D","2023-05-07",14.58,true,"Builds/PGStrike.html",false],
-    ["Perfect Strike [PG]",[1,"Strike, Perfect"],"PG",true,false,false,"Seed","A"],
-    ["PB Perfect Strike [RG]",[1,"Strike, Perfect"],"RG",true,true,false,"Seed","E","2022-03-07",12.33,false,"Builds/PBPerfectStrikeRG.html",false,"2022-09-13"],
-    ["S.A.T.O.",[1,"Strike, Perfect"],"SD",false,false,false,"Seed","D","2022-01-05",14.85,false,"Builds/SATO.html",[""]],
-    ["PB Strike Daggers",[2,"Strike Dagger","Strike Dagger","Strike Dagger"],"HG",false,true,false,"Seed","D","2023-03-07",20.41,false,"Builds/PBStrikeDagger.html",[""]],
-    ["AntiFreedom",[1,"Strike-Freedom"],"SD",false,false,false,"Seed","B"],
-    ["Servitude",[1,"Strike-Freedom"],"MG",false,false,false,"Seed","B"],
-    ["Strike-Freedom Full Burst [MG]",[1,"Strike-Freedom"],"MG",true,false,false,"Seed","E","2021-07-07",18.42,false,false,false,"2021-08-17"],
-    ["Strike-Freedom MGEX",[1,"Strike-Freedom"],"MG",true,false,true,"Seed","C","2023-03-09",15.92,false,"Builds/MGEXStrikeFreedom.html",false],
-    ["PB Strike-Freedom (Deactive) [RG]",[1,"Strike-Freedom"],"RG",true,true,false,"Seed","D","2023-03-06",4.75,false,"Builds/PBStrikeFreedomDeactiveRG.html",false],
-    ["Battra",[1,"Strike Noir"],"MG",false,false,false,"Seed","B"],
-    ["Strike Noir [SD]",[1,"Strike Noir"],"SD",true,false,false,"Seed","D","2021-09-06",2.233,false,false,false],
-    ["Strike Verde",[1,"Strike Noir"],"SD",false,false,false,"Seed","D","2021-12",8,false,"Builds/StrikeVerde.html",[""]],
-    ["Oberon",[1,"Windam"],"HG",false,false,false,"Seed","E","2022-03-05",20.25,false,"Builds/Oberon.html",[""],"2022-05-09"],
-    ["PB Slash Zaku Phantom (Yzak Jule Custom) [MG]",[1,"Zaku Phantom, Slash"],"MG",true,true,false,"Seed","D","2023-04-05",11.83,false,"Builds/PBPhantomZakuMG.html",false],
+    ['Orga',[1,'Forbidden'],'FM',false,false,false,'Seed','A'],
+    ['Anthem',[1,'Freedom'],'MG',false,false,false,'Seed','E','2022-05-05',73.16,true,'Builds/Anthem.html',[''],'2022-07-04'],
+    ['Freedom [MGSD]',[1,'Freedom'],'MGSD',true,false,false,'Seed','E','2023-03-05',8.5,false,false,false],
+    ['Liberty',[1,'Freedom'],'SD',false,false,false,'Seed','E','2022-04-09',18,false,'Builds/Liberty.html',[''],'2022-06-27'],
+    ['Old Glory',[1,'Freedom'],'MGSD',false,false,false,'Seed','C','2023-05-06',28.83,false,'Builds/Gundams/OldGlory.html',['Mission Models: MMP-001 White','Testors: Red Grapefruit 1196','Testors: Cherry Red 1197','Vallejo Mecha Color: Gold 69.059','Vallejo Mecha Color: Electric Blue 60.020','Vallejo Model Air: Black 71.057','Vallejo Mecha Color: Metallic Blue 69.067','Vallejo Model Air: Metallic Signal Red 71.070','Vallejo Mecha Color: Sky Blue 69.017','Tamiya: Metallic BLue TS-19 Can','Tamiya: Gold TS-21 Can','Tamiya: Matt White TS-27 Can','Tamiya: Metallic Red PS-15 Can','Tamiya: Clear Red X-27']],
+    ['Billy Blue Jay',[1,'Ginn'],'MG',false,false,false,'Seed','B'],
+    ['PB Destiny Impulse (Regenes) [MG]',[1,'Impulse, Destiny'],'Seed','MG',true,true,false,'C','2023-05-05',6.5,false,'Builds/PBDesintyImpulseREgenesMG.html',false],
+    ['PB Destiny Impulse [RG]',[1,'Impulse, Destiny'],'RG',true,true,false,'Seed','B'],
+    ['Don\'t Tread On Ye',[1,'Justice'],'MG',false,false,false,'Seed','E','2022-06-06',51.75,true,'Builds/Ye.html',[''],'2022-09-06'],
+    ['AntiJustice',[1,'Justice'],'SD',false,false,false,'Seed','B'],
+    ['Pacifist',[1,'Justice'],'SD',false,false,false,'Seed','E','2022-04-10',14.58,false,'Builds/Pacifist.html',[''],'2022-08-29'],
+    ['PB Clear \u221e Justice [RG]',[1,'Infinite Justice'],'RG',true,true,false,'Seed','E','2021-11-09',4.93,false,'Builds/PBInfiniJusticeRG.html',false,'2022-05-03'],
+    ['Oppression',[1,'Infinite Justice'],'MG',false,false,false,'Seed','B'],
+    ['Zoroaster',[1,'Legend'],'FM',false,false,false,'Seed','B'],
+    ['PB Meteors',[1,'Meteor','Meteor I','Meteor II','Freedom','Infinite Justice'],'HG',false,true,false,'Seed','B'],
+    ['Union Jack',[1,'Providence'],'MG',false,false,false,'Seed','A'],
+    ['Raider [FM]',[1,'Raider'],'FM',true,false,false,'Seed','D','2023-01-06',9.75,false,false,false],
+    ['Rodan',[1,'Raider'],'FM',false,false,false,'Seed','A'],
+    ['Blue Angels',[3,'Skygrasper','Skygrasper','Skygrasper'],'RG',false,false,false,'Seed','E','2022-12-05',22,true,'Builds/BlueAngels.html',[''],'2022-12-26'],
+    ['Skygrasper [PG]',[1,'Skygrasper'],'PG',true,false,false,'Seed','E','2022-10-06',6,false,'Builds/PGSkygasper.html',false,'2022-12-22'],
+    ['Skygrasper [RG]',[2,'Skygrasper','Skygrasper','Skygrasper'],'RG',true,false,false,'Seed','E','2022-09-06',10,false,false,false,'2022-12-19'],
+    ['PB Lightning Strike',[2,'Strike','Lightning Striker','Sword Launcher Striker Pack'],'MG',false,true,false,'Seed','B'],
+    ['Metal Strike',[1,'Strike'],'SD',false,false,false,'Seed','B'],
+    ['Strike Gundam [PG]',[1,'Strike'],'PG',true,false,false,'Seed','D','2023-05-07',14.58,true,'Builds/PGStrike.html',false],
+    ['Perfect Strike [PG]',[1,'Strike, Perfect'],'PG',true,false,false,'Seed','A'],
+    ['PB Perfect Strike [RG]',[1,'Strike, Perfect'],'RG',true,true,false,'Seed','E','2022-03-07',12.33,false,'Builds/PBPerfectStrikeRG.html',false,'2022-09-13'],
+    ['S.A.T.O.',[1,'Strike, Perfect'],'SD',false,false,false,'Seed','D','2022-01-05',14.85,false,'Builds/SATO.html',['']],
+    ['PB Strike Daggers',[2,'Strike Dagger','Strike Dagger','Strike Dagger'],'HG',false,true,false,'Seed','D','2023-03-07',20.41,false,'Builds/PBStrikeDagger.html',['']],
+    ['AntiFreedom',[1,'Strike-Freedom'],'SD',false,false,false,'Seed','B'],
+    ['Servitude',[1,'Strike-Freedom'],'MG',false,false,false,'Seed','B'],
+    ['Strike-Freedom Full Burst [MG]',[1,'Strike-Freedom'],'MG',true,false,false,'Seed','E','2021-07-07',18.42,false,false,false,'2021-08-17'],
+    ['Strike-Freedom MGEX',[1,'Strike-Freedom'],'MG',true,false,true,'Seed','C','2023-03-09',15.92,false,'Builds/MGEXStrikeFreedom.html',false],
+    ['PB Strike-Freedom (Deactive) [RG]',[1,'Strike-Freedom'],'RG',true,true,false,'Seed','D','2023-03-06',4.75,false,'Builds/PBStrikeFreedomDeactiveRG.html',false],
+    ['Battra',[1,'Strike Noir'],'MG',false,false,false,'Seed','B'],
+    ['Strike Noir [SD]',[1,'Strike Noir'],'SD',true,false,false,'Seed','D','2021-09-06',2.233,false,false,false],
+    ['Strike Verde',[1,'Strike Noir'],'SD',false,false,false,'Seed','D','2021-12',8,false,'Builds/StrikeVerde.html',['']],
+    ['Oberon',[1,'Windam'],'HG',false,false,false,'Seed','E','2022-03-05',20.25,false,'Builds/Oberon.html',[''],'2022-05-09'],
+    ['PB Slash Zaku Phantom (Yzak Jule Custom) [MG]',[1,'Zaku Phantom, Slash'],'MG',true,true,false,'Seed','D','2023-04-05',11.83,false,'Builds/PBPhantomZakuMG.html',false],
     
     //Future Century (G Gundam)
-    ["PB Burning Gundam [RG]",[2,"Burning Gundam","Burning Gundam Expansion Pass","Burning Gundam LED lights"],"RG",true,true,false,"G","C","2022-09-07",15.5,true,"Builds/PBBurningGUndamRG.html",false],
-    ["Michael",[1,"Burning Gundam"],"SD",false,false,false,"G","B"],
-    ["Furcas",[1,"Dark Army"],"HG",false,false,false,"G","B"],
-    ["Malphas",[1,"Dark Army"],"HG",false,false,false,"G","E","2022-09-08",5.83,false,"Builds/Malphas.html",[""],"2023-01-23"],
-    ["Asmodeus",[1,"Dark Gundam"],"SD",false,false,false,"G","B"],
-    ["Baal",[1,"Dark Gundam"],"HG",false,false,false,"G","B"],
-    ["Balam",[1,"Dark Gundam"],"HG",false,false,false,"G","B"],
-    ["Beleth",[1,"Dark Gundam"],"SD",false,false,false,"G","B"],
-    ["Belial",[1,"Dark Gundam"],"HG",false,false,false,"G","B"],
-    ["Dark Gundam [SD]",[1,"Dark Gundam"],"SD",true,false,false,"G","D","2022-08-07",1.75,false,false,false],
-    ["Paimon",[1,"Dark Gundam"],"SD",false,false,false,"G","B"],
-    ["PB Gundam Rose [HG]",[1,"Rose Gundam"],"HG",true,true,false,"G","A"],
-    ["Le Roi Soleil",[1,"Rose Gundam"],"HG",false,false,false,"G","E","2022-08-09",4.17,false,"Builds/RoiSoleil.html",[""],"2022-12-12"],
-    ["Gabriel",[1,"Shining Gundam"],"SD",false,false,false,"G","B"],
-    ["Red Baron",
-        [1,"Spiegel, Gundam"],
-        "MG",
+    ['PB Burning Gundam [RG]',[2,'Burning Gundam','Burning Gundam Expansion Pass','Burning Gundam LED lights'],'RG',true,true,false,'G','C','2022-09-07',15.5,true,'Builds/PBBurningGUndamRG.html',false],
+    ['Michael',[1,'Burning Gundam'],'SD',false,false,false,'G','B'],
+    ['Furcas',[1,'Dark Army'],'HG',false,false,false,'G','B'],
+    ['Malphas',[1,'Dark Army'],'HG',false,false,false,'G','E','2022-09-08',5.83,false,'Builds/Malphas.html',[''],'2023-01-23'],
+    ['Asmodeus',[1,'Dark Gundam'],'SD',false,false,false,'G','B'],
+    ['Baal',[1,'Dark Gundam'],'HG',false,false,false,'G','B'],
+    ['Balam',[1,'Dark Gundam'],'HG',false,false,false,'G','B'],
+    ['Beleth',[1,'Dark Gundam'],'SD',false,false,false,'G','B'],
+    ['Belial',[1,'Dark Gundam'],'HG',false,false,false,'G','B'],
+    ['Dark Gundam [SD]',[1,'Dark Gundam'],'SD',true,false,false,'G','D','2022-08-07',1.75,false,false,false],
+    ['Paimon',[1,'Dark Gundam'],'SD',false,false,false,'G','B'],
+    ['PB Gundam Rose [HG]',[1,'Rose Gundam'],'HG',true,true,false,'G','A'],
+    ['Le Roi Soleil',[1,'Rose Gundam'],'HG',false,false,false,'G','E','2022-08-09',4.17,false,'Builds/RoiSoleil.html',[''],'2022-12-12'],
+    ['Gabriel',[1,'Shining Gundam'],'SD',false,false,false,'G','B'],
+    ['Red Baron',
+        [1,'Spiegel, Gundam'],
+        'MG',
         false,
         false,
         false,
-        "G",
-        "E",
-        "2021-05-05",
+        'G',
+        'E',
+        '2021-05-05',
         72.07,
         true,
-        "Builds/Gundams/RedBaron.html",
+        'Builds/Gundams/RedBaron.html',
         false,
-        "2021-05-29",
+        '2021-05-29',
         models[2],
         [
-            ["../../img/projects/gundams/red_baron/rbaron03.jpg","Gundam Red Baron","img3"],
-            ["../../img/projects/gundams/red_baron/rbaron01.JPG","Gundam Red Baron","img1"],
-            ["../../img/projects/gundams/red_baron/rbaron02.jpg","Gundam Red Baron","img2"],
-            ["../../img/projects/gundams/red_baron/rbaron04.jpg","Gundam Red Baron","img4"],
-            ["../../img/projects/gundams/red_baron/rbaron05.jpg","Gundam Red Baron","img5"],
-            ["../../img/projects/gundams/red_baron/rbaron06.jpg","Gundam Red Baron","img6"],
-            ["../../img/projects/gundams/red_baron/rbaron07.jpg","Gundam Red Baron","img7"],
-            ["../../img/projects/gundams/red_baron/rbaron08.jpg","Gundam Red Baron","img8"],
-            ["../../img/projects/gundams/red_baron/rbaron09.jpg","Gundam Red Baron","img9"],
-            ["../../img/projects/gundams/red_baron/rbaron10.jpg","Gundam Red Baron","img10"],
-            ["../../img/projects/gundams/red_baron/rbaron11.jpg","Gundam Red Baron","img11"],
-            ["../../img/projects/gundams/red_baron/rbaron12.jpg","Gundam Red Baron","img12"],
-            ["../../img/projects/gundams/red_baron/rbaron13.jpg","Gundam Red Baron","img13"],
-            ["../../img/projects/gundams/red_baron/rbaron14.jpg","Gundam Red Baron","img14"],
-            ["../../img/projects/gundams/red_baron/rbaron15.jpg","Gundam Red Baron","img15"],
-            ["../../img/projects/gundams/red_baron/rbaron16.jpg","Gundam Red Baron","img16"],
-            ["../../img/projects/gundams/red_baron/rbaron17.jpg","Gundam Red Baron","img17"],
-            ["../../img/projects/gundams/red_baron/rbaron18.jpg","Gundam Red Baron","img18"],
-            ["../../img/projects/gundams/red_baron/rbaron19.jpg","Gundam Red Baron","img19"],
-            ["../../img/projects/gundams/red_baron/rbaron20.jpg","Gundam Red Baron","img20"],
-            ["../../img/projects/gundams/red_baron/rbaron21.jpg","Gundam Red Baron","img21"],
-            ["../../img/projects/gundams/red_baron/rbaron22.jpg","Gundam Red Baron","img22"],
-            ["../../img/projects/gundams/red_baron/rbaron23.jpg","Gundam Red Baron","img23"],
-            ["../../img/projects/gundams/red_baron/rbaron24.jpg","Gundam Red Baron","img24"],
-            ["../../img/projects/gundams/red_baron/rbaron25.jpg","Gundam Red Baron","img25"],
-            ["../../img/projects/gundams/red_baron/rbaron26.jpg","Gundam Red Baron","img26"],
-            ["../../img/projects/gundams/red_baron/rbaron27.jpg","Gundam Red Baron","img27"],
-            ["../../img/projects/gundams/red_baron/rbaron28.jpg","Gundam Red Baron","img28"],
-            ["../../img/projects/gundams/red_baron/rbaron29.jpg","Gundam Red Baron","img29"],
-            ["../../img/projects/gundams/red_baron/rbaron30.jpg","Gundam Red Baron","img30"],
-            ["../../img/projects/gundams/red_baron/rbaron31.jpg","Gundam Red Baron","img31"],
-            ["../../img/projects/gundams/red_baron/rbaron32.jpg","Gundam Red Baron","img32"],
-            ["../../img/projects/gundams/red_baron/rbaron33.jpg","Gundam Red Baron","img33"],
-            ["../../img/projects/gundams/red_baron/rbaron34.jpg","Gundam Red Baron","img34"],
-            ["../../img/projects/gundams/red_baron/rbaron35.jpg","Gundam Red Baron","img35"],
-            ["../../img/projects/gundams/red_baron/rbaron36.jpg","Gundam Red Baron","img36"],
-            ["../../img/projects/gundams/red_baron/rbaron37.jpg","Gundam Red Baron","img37"],
-            ["../../img/projects/gundams/red_baron/rbaron38.jpg","Gundam Red Baron","img38"],
-            ["../../img/projects/gundams/red_baron/rbaron39.jpg","Gundam Red Baron","img39"],
-            ["../../img/projects/gundams/red_baron/rbaron40.jpg","Gundam Red Baron","img40"],
-            ["../../img/projects/gundams/red_baron/rbaron41.jpg","Gundam Red Baron","img41"],
-            ["../../img/projects/gundams/red_baron/rbaron42.jpg","Gundam Red Baron","img42"]
+            ['../../img/projects/gundams/red_baron/rbaron03.jpg','Gundam Red Baron','img3'],
+            ['../../img/projects/gundams/red_baron/rbaron01.JPG','Gundam Red Baron','img1'],
+            ['../../img/projects/gundams/red_baron/rbaron02.jpg','Gundam Red Baron','img2'],
+            ['../../img/projects/gundams/red_baron/rbaron04.jpg','Gundam Red Baron','img4'],
+            ['../../img/projects/gundams/red_baron/rbaron05.jpg','Gundam Red Baron','img5'],
+            ['../../img/projects/gundams/red_baron/rbaron06.jpg','Gundam Red Baron','img6'],
+            ['../../img/projects/gundams/red_baron/rbaron07.jpg','Gundam Red Baron','img7'],
+            ['../../img/projects/gundams/red_baron/rbaron08.jpg','Gundam Red Baron','img8'],
+            ['../../img/projects/gundams/red_baron/rbaron09.jpg','Gundam Red Baron','img9'],
+            ['../../img/projects/gundams/red_baron/rbaron10.jpg','Gundam Red Baron','img10'],
+            ['../../img/projects/gundams/red_baron/rbaron11.jpg','Gundam Red Baron','img11'],
+            ['../../img/projects/gundams/red_baron/rbaron12.jpg','Gundam Red Baron','img12'],
+            ['../../img/projects/gundams/red_baron/rbaron13.jpg','Gundam Red Baron','img13'],
+            ['../../img/projects/gundams/red_baron/rbaron14.jpg','Gundam Red Baron','img14'],
+            ['../../img/projects/gundams/red_baron/rbaron15.jpg','Gundam Red Baron','img15'],
+            ['../../img/projects/gundams/red_baron/rbaron16.jpg','Gundam Red Baron','img16'],
+            ['../../img/projects/gundams/red_baron/rbaron17.jpg','Gundam Red Baron','img17'],
+            ['../../img/projects/gundams/red_baron/rbaron18.jpg','Gundam Red Baron','img18'],
+            ['../../img/projects/gundams/red_baron/rbaron19.jpg','Gundam Red Baron','img19'],
+            ['../../img/projects/gundams/red_baron/rbaron20.jpg','Gundam Red Baron','img20'],
+            ['../../img/projects/gundams/red_baron/rbaron21.jpg','Gundam Red Baron','img21'],
+            ['../../img/projects/gundams/red_baron/rbaron22.jpg','Gundam Red Baron','img22'],
+            ['../../img/projects/gundams/red_baron/rbaron23.jpg','Gundam Red Baron','img23'],
+            ['../../img/projects/gundams/red_baron/rbaron24.jpg','Gundam Red Baron','img24'],
+            ['../../img/projects/gundams/red_baron/rbaron25.jpg','Gundam Red Baron','img25'],
+            ['../../img/projects/gundams/red_baron/rbaron26.jpg','Gundam Red Baron','img26'],
+            ['../../img/projects/gundams/red_baron/rbaron27.jpg','Gundam Red Baron','img27'],
+            ['../../img/projects/gundams/red_baron/rbaron28.jpg','Gundam Red Baron','img28'],
+            ['../../img/projects/gundams/red_baron/rbaron29.jpg','Gundam Red Baron','img29'],
+            ['../../img/projects/gundams/red_baron/rbaron30.jpg','Gundam Red Baron','img30'],
+            ['../../img/projects/gundams/red_baron/rbaron31.jpg','Gundam Red Baron','img31'],
+            ['../../img/projects/gundams/red_baron/rbaron32.jpg','Gundam Red Baron','img32'],
+            ['../../img/projects/gundams/red_baron/rbaron33.jpg','Gundam Red Baron','img33'],
+            ['../../img/projects/gundams/red_baron/rbaron34.jpg','Gundam Red Baron','img34'],
+            ['../../img/projects/gundams/red_baron/rbaron35.jpg','Gundam Red Baron','img35'],
+            ['../../img/projects/gundams/red_baron/rbaron36.jpg','Gundam Red Baron','img36'],
+            ['../../img/projects/gundams/red_baron/rbaron37.jpg','Gundam Red Baron','img37'],
+            ['../../img/projects/gundams/red_baron/rbaron38.jpg','Gundam Red Baron','img38'],
+            ['../../img/projects/gundams/red_baron/rbaron39.jpg','Gundam Red Baron','img39'],
+            ['../../img/projects/gundams/red_baron/rbaron40.jpg','Gundam Red Baron','img40'],
+            ['../../img/projects/gundams/red_baron/rbaron41.jpg','Gundam Red Baron','img41'],
+            ['../../img/projects/gundams/red_baron/rbaron42.jpg','Gundam Red Baron','img42']
         ],
-        ["img/projects/gundams/red_baron/rbaron42.jpg","Profile Photo: Gundam Red Baron"],
-        "Old Prussia. Red Baron. World War One. Pizza. Nietzche book titles. Nose ring helmet spike. First attempt at custom decals. Hand Brushed, First attempt with LEDs.",
+        ['img/projects/gundams/red_baron/rbaron42.jpg','Profile Photo: Gundam Red Baron'],
+        'Old Prussia. Red Baron. World War One. Pizza. Nietzche book titles. Nose ring helmet spike. First attempt at custom decals. Hand Brushed, First attempt with LEDs.',
         false,
         [
-            ["USA Gundam Store","https://www.usagundamstore.com/products/mg-gf13_021ng-gundam-spiegel?variant=33023432527"],
-            ["NewType","https://newtype.us/p/RQuAYgB4XXkOwgZaWLOi/h/mg-gf13-021ng-gundam-spiegel"],
-            ["Amazon","https://a.co/d/1tZmaYO"]
+            ['USA Gundam Store','https://www.usagundamstore.com/products/mg-gf13_021ng-gundam-spiegel?variant=33023432527'],
+            ['NewType','https://newtype.us/p/RQuAYgB4XXkOwgZaWLOi/h/mg-gf13-021ng-gundam-spiegel'],
+            ['Amazon','https://a.co/d/1tZmaYO']
         ],
         false,
         false,
         true,
-        "1/100"
+        '1/100'
     ],
-    ["Red Baron 2",[1,"Spiegel, Gundam"],"MG",false,false,false,"G","A","",0,false,"Builds/RedBaron2.html",[""],"",models[2]],
+    ['Red Baron 2',[1,'Spiegel, Gundam'],'MG',false,false,false,'G','A','',0,false,'Builds/RedBaron2.html',[''],'',models[2]],
 
     //Post Disaster (IBO)
-    ["Thorn",[1,"Barbatos"],"MG",false,false,false,"IBO","B"],
-    ["War Pig",[1,"Barbatos"],"SD",false,false,false,"IBO","E","2021-12-13",4.15,false,"Builds/WarPig.html",[""],"2023-04-18"],
-    ["Deep Purple",[1,"Barbatos Lupus"],"SD",false,false,false,"IBO","D","2021-12-14",4.36,false,"Builds/DeepPurple.html",[""]],
-    ["Sealiah",[1,"Barbatos Lupus"],"HG",false,false,false,"IBO","E","2023-02-05",12.51,false,"Builds/Gundams/Sealiah.html",[""],"2023-06-13"],
-    ["Nephilim",[1,"Barbatos Lupus Rex"],"HG",false,false,false,"IBO","E","2021-06-11",23.11,false,"Builds/Nephilim.html",[""],"2021-07-26"],
-    ["Queen Venus",[1,"Gremory"],"HG",false,false,false,"IBO","B"],
-    ["Vine",[1,"Hashmal"],"HG",false,false,false,"IBO","E","2023-01-07",19.64,false,"Builds/Gundams/Vine.html",[""],"2023-06-05"],
-    ["\u00dcbermensch",[1,"Vidar"],"FM",false,false,false,"IBO","B"],
+    ['Thorn',[1,'Barbatos'],'MG',false,false,false,'IBO','B'],
+    ['War Pig',[1,'Barbatos'],'SD',false,false,false,'IBO','E','2021-12-13',4.15,false,'Builds/WarPig.html',[''],'2023-04-18'],
+    ['Deep Purple',[1,'Barbatos Lupus'],'SD',false,false,false,'IBO','D','2021-12-14',4.36,false,'Builds/DeepPurple.html',['']],
+    ['Sealiah',[1,'Barbatos Lupus'],'HG',false,false,false,'IBO','E','2023-02-05',12.51,false,'Builds/Gundams/Sealiah.html',[''],'2023-06-13'],
+    ['Nephilim',[1,'Barbatos Lupus Rex'],'HG',false,false,false,'IBO','E','2021-06-11',23.11,false,'Builds/Nephilim.html',[''],'2021-07-26'],
+    ['Queen Venus',[1,'Gremory'],'HG',false,false,false,'IBO','B'],
+    ['Vine',[1,'Hashmal'],'HG',false,false,false,'IBO','E','2023-01-07',19.64,false,'Builds/Gundams/Vine.html',[''],'2023-06-05'],
+    ['\u00dcbermensch',[1,'Vidar'],'FM',false,false,false,'IBO','B'],
 
     //Universal Century
-    ["Dew Drop",[1,"Acguy"],"HG",false,false,false,"UC","E","2023-05-29-08",5.75,false,"Builds/Gundams/DewDrop.html",["Vallejo Model Air: Underside Blue 71.332","Vallejo Model Air: French Blue 71.088","Vallejo Model Air: Steel Blue 71.087","Vallejo Mecha Color: Metallic Blue 69.067","Tamiya: Gold TS-21 Can","Tamiya: Metallic Red PS-15 Can"],"2023-06-19"],
-    ["Fantomas",[1,"Banshee Norn"],"SD",false,false,false,"UC","E","2021-06-12",15.02,true,"Builds/Fantomas.html",[""],"2021-08-03"],
-    ["King Uranus",[1,"Banshee Norn"],"RG",false,false,false,"UC","B"],
-    ["Gundam ARRRgent",[1,"Crossbone X-1"],"SD",false,false,false,"UC","E","2021-06-09",14.09,false,"Builds/arrrgent.html",[""],"2021-06-25"],
-    ["Crossbone [RG]",[1,"Crossbone X-1"],"RG",true,false,false,"UC","D","2022-05-07",9.08,false,false,false],
-    ["King Neptune",[1,"Crossbone X-1"],"RG",false,false,false,"UC","B"],
-    ["Jackie-O",[1,"Delta Plus"],"SD",false,false,false,"UC","E","2022-01-07",11.17,false,"Builds/JackieO.html",[""],"2022-07-11"],
-    ["Interstellar",[1,"Dom Test Type"],"HG",false,false,false,"UC","E","2022-08-06",14.07,false,"Builds/Interstellar.html",[""],"2022-11-14"],
-    ["Rhea",[1,"RX-75 Guntank"],"SD",false,false,false,"UC","B"],
-    ["Theia",[1,"Kshatriya"],"SD",false,false,false,"UC","D","2022-12-08",12.03,false,"Builds/Theia.html",[""]],
-    ["Der Kommissar",[1,"Lightning Gundam"],"SD",false,false,false,"UC","E","2021-12-11",4.05,false,"Builds/DerKommissar.html",[""],"2023-04-03"],
-    ["Nachtigall",[1,"Nightingale"],"SD",false,false,false,"UC","B"],
-    ["Mnemosyne",[1,"Neue Ziuel"],"SD",false,false,false,"UC","B"],
-    ["Gundam \u03C0",[1,"Nu Gundam"],"SD",false,false,false,"UC","E","2021-06-06",15.66,false,"Builds/pi.html",[""],"2021-06-22"],   //pi gundam
-    ["PB BB Senshi RX-93ff \u03bd Gundam [SD]",[1,"Nu Gundam, ff"],"SD",true,true,false,"UC","E","2023-03-13",2.83,false,"Builds/PBRX93ff.html",false,"2023-04-24"],
-    ["PB RX-93ff \u03bd Gundam [RG]",[1,"Nu Gundam, ff"],"RG",true,true,false,"UC","E","2023-03-14",14.5,false,"Builds/PBRX93ff.html",false,"2023-04-25"],
-    ["Milos",[1,"Nu Gundam, Hi"],"SD",false,false,false,"UC","B"],
-    ["PB Umbrella Corp",[2,"Nu Gundam, Hi","Hi Nu Expansion Pack","Hi Nu Hyper Bazooka"],"RG",false,true,false,"UC","A"],
-    ["Bella Donna",[2,"Phenex","Phenex"],"SD",false,false,false,"UC","E","2021-12-06",14.37,false,"Builds/BellaDonna.html",[""],"2023-04-16"],
-    ["Phenex [SD]",[1,"Phenex"],"SD",true,false,false,"UC","E","2021-10-11",4.17,false,false,false,"2023-03-13"],
-    ["Sovereign",[1,"Phenex"],"SD",false,false,false,"UC","E","2021-11-08",5.93,false,"Builds/Sovereign.html",[""],"2023-04-15"],
-    ["Titan",[1,"Phenex"],"SD",false,false,false,"UC","E","2021-11-07",6.63,false,"Builds/Titan.html",[""],"2023-03-14"],
-    ["LunchTime Solutions",[1,"RX-78-2"],"RG",false,false,false,"UC","B"],
-    ["Starman",[1,"Sazabi"],"SD",false,false,false,"UC","D","2021-12-16",5.03,false,"Builds/Starman.html",[""]],
-    ["Ziggy",[1,"Sazabi"],"SD",false,false,false,"UC","D","2022-03-10",5.75,false,"Builds/Ziggy.html",[""]],
-    ["Dynamo",[1,"Sinanju"],"MG",false,false,false,"UC","B"],
-    ["Stardust",[1,"Sinanju"],"SD",false,false,false,"UC","D","2021-12-15",4.56,false,"Builds/Stardust.html",[""]],
-    ["PB Shin Musha [MG]",[1,"Shin Musha Gundam"],"MG",true,true,false,"UC","E","2022-08-05",10.58,false,"Builds/PBShinMushaMG.html",false,"2022-12-05"],
-    ["Blue Monday",[1,"Sisquiede"],"SD",false,false,false,"UC","D","2022-01-06",6.76,false,"Builds/BlueMonday.html",[""]],
-    ["Rocket Man",[1,"Xi Gundam"],"SD",false,false,false,"UC","D","2022-01-08",6.5,false,"Builds/RocketMan.html",[""]],
-    ["MK Ultra",[1,"Zaku II"],"RG",false,false,false,"UC","B"],
-    ["Zeong [RG]",[1,"Zeong"],"RG",true,false,false,"UC","E","2021-08-07",8.25,false,false,false,"2022-03-14"],
-    ["Starrider",[1,"Zeta Gundam"],"SD",false,false,false,"UC","E","2021-09-08",6.83,false,"Builds/Starrider.html",[""],"2023-03-08"],
-    ["Zeta [MG]",[1,"Zeta Gundam"],"MG",true,false,false,"UC","C","2023-04-12",8,false,false,false],
+    ['Dew Drop',[1,'Acguy'],'HG',false,false,false,'UC','E','2023-05-29-08',5.75,false,'Builds/Gundams/DewDrop.html',['Vallejo Model Air: Underside Blue 71.332','Vallejo Model Air: French Blue 71.088','Vallejo Model Air: Steel Blue 71.087','Vallejo Mecha Color: Metallic Blue 69.067','Tamiya: Gold TS-21 Can','Tamiya: Metallic Red PS-15 Can'],'2023-06-19'],
+    ['Fantomas',[1,'Banshee Norn'],'SD',false,false,false,'UC','E','2021-06-12',15.02,true,'Builds/Fantomas.html',[''],'2021-08-03'],
+    ['King Uranus',[1,'Banshee Norn'],'RG',false,false,false,'UC','B'],
+    ['Gundam ARRRgent',[1,'Crossbone X-1'],'SD',false,false,false,'UC','E','2021-06-09',14.09,false,'Builds/arrrgent.html',[''],'2021-06-25'],
+    ['Crossbone [RG]',[1,'Crossbone X-1'],'RG',true,false,false,'UC','D','2022-05-07',9.08,false,false,false],
+    ['King Neptune',[1,'Crossbone X-1'],'RG',false,false,false,'UC','B'],
+    ['Jackie-O',[1,'Delta Plus'],'SD',false,false,false,'UC','E','2022-01-07',11.17,false,'Builds/JackieO.html',[''],'2022-07-11'],
+    ['Interstellar',[1,'Dom Test Type'],'HG',false,false,false,'UC','E','2022-08-06',14.07,false,'Builds/Interstellar.html',[''],'2022-11-14'],
+    ['Rhea',[1,'RX-75 Guntank'],'SD',false,false,false,'UC','B'],
+    ['Theia',[1,'Kshatriya'],'SD',false,false,false,'UC','D','2022-12-08',12.03,false,'Builds/Theia.html',['']],
+    ['Der Kommissar',[1,'Lightning Gundam'],'SD',false,false,false,'UC','E','2021-12-11',4.05,false,'Builds/DerKommissar.html',[''],'2023-04-03'],
+    ['Nachtigall',[1,'Nightingale'],'SD',false,false,false,'UC','B'],
+    ['Mnemosyne',[1,'Neue Ziuel'],'SD',false,false,false,'UC','B'],
+    ['Gundam \u03C0',[1,'Nu Gundam'],'SD',false,false,false,'UC','E','2021-06-06',15.66,false,'Builds/pi.html',[''],'2021-06-22'],   //pi gundam
+    ['PB BB Senshi RX-93ff \u03bd Gundam [SD]',[1,'Nu Gundam, ff'],'SD',true,true,false,'UC','E','2023-03-13',2.83,false,'Builds/PBRX93ff.html',false,'2023-04-24'],
+    ['PB RX-93ff \u03bd Gundam [RG]',[1,'Nu Gundam, ff'],'RG',true,true,false,'UC','E','2023-03-14',14.5,false,'Builds/PBRX93ff.html',false,'2023-04-25'],
+    ['Milos',[1,'Nu Gundam, Hi'],'SD',false,false,false,'UC','B'],
+    ['PB Umbrella Corp',[2,'Nu Gundam, Hi','Hi Nu Expansion Pack','Hi Nu Hyper Bazooka'],'RG',false,true,false,'UC','A'],
+    ['Bella Donna',[2,'Phenex','Phenex'],'SD',false,false,false,'UC','E','2021-12-06',14.37,false,'Builds/BellaDonna.html',[''],'2023-04-16'],
+    ['Phenex [SD]',[1,'Phenex'],'SD',true,false,false,'UC','E','2021-10-11',4.17,false,false,false,'2023-03-13'],
+    ['Sovereign',[1,'Phenex'],'SD',false,false,false,'UC','E','2021-11-08',5.93,false,'Builds/Sovereign.html',[''],'2023-04-15'],
+    ['Titan',[1,'Phenex'],'SD',false,false,false,'UC','E','2021-11-07',6.63,false,'Builds/Titan.html',[''],'2023-03-14'],
+    ['LunchTime Solutions',[1,'RX-78-2'],'RG',false,false,false,'UC','B'],
+    ['Starman',[1,'Sazabi'],'SD',false,false,false,'UC','D','2021-12-16',5.03,false,'Builds/Starman.html',['']],
+    ['Ziggy',[1,'Sazabi'],'SD',false,false,false,'UC','D','2022-03-10',5.75,false,'Builds/Ziggy.html',['']],
+    ['Dynamo',[1,'Sinanju'],'MG',false,false,false,'UC','B'],
+    ['Stardust',[1,'Sinanju'],'SD',false,false,false,'UC','D','2021-12-15',4.56,false,'Builds/Stardust.html',['']],
+    ['PB Shin Musha [MG]',[1,'Shin Musha Gundam'],'MG',true,true,false,'UC','E','2022-08-05',10.58,false,'Builds/PBShinMushaMG.html',false,'2022-12-05'],
+    ['Blue Monday',[1,'Sisquiede'],'SD',false,false,false,'UC','D','2022-01-06',6.76,false,'Builds/BlueMonday.html',['']],
+    ['Rocket Man',[1,'Xi Gundam'],'SD',false,false,false,'UC','D','2022-01-08',6.5,false,'Builds/RocketMan.html',['']],
+    ['MK Ultra',[1,'Zaku II'],'RG',false,false,false,'UC','B'],
+    ['Zeong [RG]',[1,'Zeong'],'RG',true,false,false,'UC','E','2021-08-07',8.25,false,false,false,'2022-03-14'],
+    ['Starrider',[1,'Zeta Gundam'],'SD',false,false,false,'UC','E','2021-09-08',6.83,false,'Builds/Starrider.html',[''],'2023-03-08'],
+    ['Zeta [MG]',[1,'Zeta Gundam'],'MG',true,false,false,'UC','C','2023-04-12',8,false,false,false],
 
     //Regild Century (Reconguista)
 
 
     //Build Divers (BD)
-    ["PB Trans-Am Clear 00 Diver [HG]",[1,"00 Gundam Diver"],"HG",true,true,false,"BD","E","2022-01",2.75,false,"Builds/PBooDiverHG.html",false,"2022-08-08"],
-    ["King Milky Way",[1,"Astray Rebake"],"HG",false,false,false,"BD","B"],
-    ["Four Horsemen",[4,"Barbataurus","Barbataurus","Barbataurus","Barbataurus"],"HG",false,false,false,"BD","B"],
-    ["King Sol",[1,"Helios"],"HG",false,false,false,"BD","B"],
-    ["King Jupiter",[1,"Livelance"],"HG",false,false,false,"BD","B"],
-    ["King Pluto",[1,"QAN[T], Command"],"HG",false,false,false,"BD","B"],
-    ["Queen Luna",[1,"QAN[T], Shia"],"HG",false,false,false,"BD","B"],
-    ["King Earth",[1,"Strike Freedom, Perfect"],"HG",false,false,false,"BD","B"],
-    ["Constellation",[1,"Strike Full Package"],"RG",false,false,false,"BD","E","2021-11-05",37.52,true,"Builds/Constellation.html",[""],"2022-02-28"],
-    ["Moonage Daydream",[1,"Strike Full Package"],"SD",false,false,false,"BD","E","2021-11-06",7.27,false,"Builds/MoonageDaydream.html",[""],"2022-02-21"],
-    ["King Saturn",[1,"Transient"],"HG",false,false,false,"BD","B"],
-    ["King Mercury",[1,"Try Age Magnum"],"HG",false,false,false,"BD","B"],
+    ['PB Trans-Am Clear 00 Diver [HG]',[1,'00 Gundam Diver'],'HG',true,true,false,'BD','E','2022-01',2.75,false,'Builds/PBooDiverHG.html',false,'2022-08-08'],
+    ['King Milky Way',[1,'Astray Rebake'],'HG',false,false,false,'BD','B'],
+    ['Four Horsemen',[4,'Barbataurus','Barbataurus','Barbataurus','Barbataurus'],'HG',false,false,false,'BD','B'],
+    ['King Sol',[1,'Helios'],'HG',false,false,false,'BD','B'],
+    ['King Jupiter',[1,'Livelance'],'HG',false,false,false,'BD','B'],
+    ['King Pluto',[1,'QAN[T], Command'],'HG',false,false,false,'BD','B'],
+    ['Queen Luna',[1,'QAN[T], Shia'],'HG',false,false,false,'BD','B'],
+    ['King Earth',[1,'Strike Freedom, Perfect'],'HG',false,false,false,'BD','B'],
+    ['Constellation',[1,'Strike Full Package'],'RG',false,false,false,'BD','E','2021-11-05',37.52,true,'Builds/Constellation.html',[''],'2022-02-28'],
+    ['Moonage Daydream',[1,'Strike Full Package'],'SD',false,false,false,'BD','E','2021-11-06',7.27,false,'Builds/MoonageDaydream.html',[''],'2022-02-21'],
+    ['King Saturn',[1,'Transient'],'HG',false,false,false,'BD','B'],
+    ['King Mercury',[1,'Try Age Magnum'],'HG',false,false,false,'BD','B'],
     
     //SD Heroes 
-    ["Artemis",[1,"00, Zhao Yun"],"SD",false,false,false,"Heroes","A"],
-    ["Oceanus",[1,"Altron, Zhang He"],"SD",false,false,false,"Heroes","D","2022-04-06",5.42,false,"Builds/Oceanus.html",[""]],
-    ["Eurybia",[1,"Akatsuki, Zhou Yu"],"SD",false,false,false,"Heroes","B"],
-    ["Pallas",[1,"Burning Gundam, Huang Zhang Fei"],"SD",false,false,false,"Heroes","B"],
-    ["Perses",[1,"Deathscythe, Xu Huang"],"SD",false,false,false,"Heroes","A"],
-    ["Azalea",[1,"Delta, Sasuki"],"SD",false,false,false,"Heroes","E","2021-10-09",6.5,false,"Builds/Azalea.html",[""],"2022-06-22"],
-    ["Sasuki Delta [SD]",[1,"Delta, Saskui"],"SD",true,false,false,"Heroes","E","2021-09-05",1.5,false,false,false,"2022-06-20"],
-    ["Quetzalcaotl",[1,"Dragon, Dark Grasper"],"SD",false,false,false,"Heroes","B"],
-    ["Pharaoh",[1,"Dragon, Shining Grasper"],"SD",false,false,false,"Heroes","A"],
-    ["Tiamat",[1,"Dragon, Shining Grasper"],"SD",false,false,false,"Heroes","A"],
-    ["Cronus",[1,"Epyon, Nobunaga"],"SD",false,false,false,"Heroes","A"],
-    ["Helios",[1,"Freedom, Zhuge Liang"],"SD",false,false,false,"Heroes","D","2022-03-11",9.25,false,"Builds/Helios.html",[""]],
-    ["Themis",[1,"Legend, Caesar"],"SD",false,false,false,"Heroes","A"],
-    ["Crius",[1,"Sazabi, Zhang Liao"],"SD",false,false,false,"Heroes","B"],
-    ["Clymene",[1,"Strike, Knight"],"SD",false,false,false,"Heroes","A"],
-    ["Prometheus",[1,"Strike Noir, Xun Yu"],"SD",false,false,false,"Heroes","B"],
-    ["Selene",[1,"Strike-Freedom, Qiongqi"],"SD",false,false,false,"Heroes","B"],
-    ["Corona Australis",[1,"Tallgeese, Xiahou Yuan"],"SD",false,false,false,"Heroes","D","2022-04-07",7.75,false,"Builds/CoronaAustralis.html",[""]],
-    ["Corona Borealis",[1,"Tallgeese III, Xiahou Dun"],"SD",false,false,false,"Heroes","D","2022-04-08",8.67,false,"Builds/CoronaBorealis.html",[""]],
-    ["Coeus",[1,"Unicorn, Long Zun Liu Vei"],"SD",false,false,false,"Heroes","A"],
-    ["Bastiat",[1,"Verde Buster, Sergeante"],"SD",false,false,false,"Heroes","E","2021-10-17",8.3,false,"Builds/Bastiat.html",[""],"2022-08-22"],
-    ["Mighty Morphin Power Rangers",[7.5,"Trinity Bike","Verde Buster, Sergeant DX","Verde Buster, Sergeant DX","Verde Buster Team Member","Verde Buster Team Member","Verde Buster Team Member","Verde Buster Team Member"],"SD",false,false,false,"Heroes","E","2022-12-06",39.63,false,"Builds/mmpr.html",[""],"2023-02-20"],
-    ["Eos",[1,"Wing, Cao Cao"],"SD",false,false,false,"Heroes","A"],
-    ["Tethys",[1,"Wing Isei, Cao Cao"],"SD",false,false,false,"Heroes","D","2022-04-05",8.67,false,"Builds/tethys.html",[""]],
-    ["Hyperion",[1,"Wing Zero, Tian Ba Cao Cao"],"SD",false,false,false,"Heroes","B"],
+    ['Artemis',[1,'00, Zhao Yun'],'SD',false,false,false,'Heroes','A'],
+    ['Oceanus',[1,'Altron, Zhang He'],'SD',false,false,false,'Heroes','D','2022-04-06',5.42,false,'Builds/Oceanus.html',['']],
+    ['Eurybia',[1,'Akatsuki, Zhou Yu'],'SD',false,false,false,'Heroes','B'],
+    ['Pallas',[1,'Burning Gundam, Huang Zhang Fei'],'SD',false,false,false,'Heroes','B'],
+    ['Perses',[1,'Deathscythe, Xu Huang'],'SD',false,false,false,'Heroes','A'],
+    ['Azalea',[1,'Delta, Sasuki'],'SD',false,false,false,'Heroes','E','2021-10-09',6.5,false,'Builds/Azalea.html',[''],'2022-06-22'],
+    ['Sasuki Delta [SD]',[1,'Delta, Saskui'],'SD',true,false,false,'Heroes','E','2021-09-05',1.5,false,false,false,'2022-06-20'],
+    ['Quetzalcaotl',[1,'Dragon, Dark Grasper'],'SD',false,false,false,'Heroes','B'],
+    ['Pharaoh',[1,'Dragon, Shining Grasper'],'SD',false,false,false,'Heroes','A'],
+    ['Tiamat',[1,'Dragon, Shining Grasper'],'SD',false,false,false,'Heroes','A'],
+    ['Cronus',[1,'Epyon, Nobunaga'],'SD',false,false,false,'Heroes','A'],
+    ['Helios',[1,'Freedom, Zhuge Liang'],'SD',false,false,false,'Heroes','D','2022-03-11',9.25,false,'Builds/Helios.html',['']],
+    ['Themis',[1,'Legend, Caesar'],'SD',false,false,false,'Heroes','A'],
+    ['Crius',[1,'Sazabi, Zhang Liao'],'SD',false,false,false,'Heroes','B'],
+    ['Clymene',[1,'Strike, Knight'],'SD',false,false,false,'Heroes','A'],
+    ['Prometheus',[1,'Strike Noir, Xun Yu'],'SD',false,false,false,'Heroes','B'],
+    ['Selene',[1,'Strike-Freedom, Qiongqi'],'SD',false,false,false,'Heroes','B'],
+    ['Corona Australis',[1,'Tallgeese, Xiahou Yuan'],'SD',false,false,false,'Heroes','D','2022-04-07',7.75,false,'Builds/CoronaAustralis.html',['']],
+    ['Corona Borealis',[1,'Tallgeese III, Xiahou Dun'],'SD',false,false,false,'Heroes','D','2022-04-08',8.67,false,'Builds/CoronaBorealis.html',['']],
+    ['Coeus',[1,'Unicorn, Long Zun Liu Vei'],'SD',false,false,false,'Heroes','A'],
+    ['Bastiat',[1,'Verde Buster, Sergeante'],'SD',false,false,false,'Heroes','E','2021-10-17',8.3,false,'Builds/Bastiat.html',[''],'2022-08-22'],
+    ['Mighty Morphin Power Rangers',[7.5,'Trinity Bike','Verde Buster, Sergeant DX','Verde Buster, Sergeant DX','Verde Buster Team Member','Verde Buster Team Member','Verde Buster Team Member','Verde Buster Team Member'],'SD',false,false,false,'Heroes','E','2022-12-06',39.63,false,'Builds/mmpr.html',[''],'2023-02-20'],
+    ['Eos',[1,'Wing, Cao Cao'],'SD',false,false,false,'Heroes','A'],
+    ['Tethys',[1,'Wing Isei, Cao Cao'],'SD',false,false,false,'Heroes','D','2022-04-05',8.67,false,'Builds/tethys.html',['']],
+    ['Hyperion',[1,'Wing Zero, Tian Ba Cao Cao'],'SD',false,false,false,'Heroes','B'],
 
     //Haro
-    ["Haro Blue",[1,"Haropla #05 Control Blue"],"Haro",false,false,false,"","D","2023-04-07",2.55,false,"Builds/hblue.html",[""]],
-    ["Haro Cloud",[1,"Haropla #12 Basic Green"],"Haro",false,false,false,"","D","2023-04-14",3.27,false,"Builds/hcloud.html",[""]],
-    ["Haro Green",[1,"Haropla #12 Basic Green"],"Haro",false,false,false,"","D","2023-04-08",2.75,false,"Builds/hgreen.html",[""]],
-    ["Haro Lime",[1,"Haropla #12 Basic Green"],"Haro",false,false,false,"","D","2023-04-13",3.34,false,"Builds/hlime.html",[""]],
-    ["Haro Orange",[1,"Haropla #11 Zakrello"],"Haro",false,false,false,"","D","2023-04-11",4.08,false,"Builds/horange.html",[""]],
-    ["Haro Pink",[1,"Haropla #04 Momo Pink"],"Haro",false,false,false,"","D","2023-04-09",2.68,false,"Builds/hpink.html",[""]],
-    ["Haro Purple",[1,"Haropla #07 Ball Haro"],"Haro",false,false,false,"","D","2023-04-10",2.65,false,"Builds/hpurple.html",[""]],
-    ["Haro Red",[1,"Haropla #02 Diva Red"],"Haro",false,false,false,"","E","2023-04-06",2.78,false,"Builds/hred.html",[""],"2023-05-30"],
+    ['Haro Blue',[1,'Haropla #05 Control Blue'],'Haro',false,false,false,'','D','2023-04-07',2.55,false,'Builds/hblue.html',['']],
+    ['Haro Cloud',[1,'Haropla #12 Basic Green'],'Haro',false,false,false,'','D','2023-04-14',3.27,false,'Builds/hcloud.html',['']],
+    ['Haro Green',[1,'Haropla #12 Basic Green'],'Haro',false,false,false,'','D','2023-04-08',2.75,false,'Builds/hgreen.html',['']],
+    ['Haro Lime',[1,'Haropla #12 Basic Green'],'Haro',false,false,false,'','D','2023-04-13',3.34,false,'Builds/hlime.html',['']],
+    ['Haro Orange',[1,'Haropla #11 Zakrello'],'Haro',false,false,false,'','D','2023-04-11',4.08,false,'Builds/horange.html',['']],
+    ['Haro Pink',[1,'Haropla #04 Momo Pink'],'Haro',false,false,false,'','D','2023-04-09',2.68,false,'Builds/hpink.html',['']],
+    ['Haro Purple',[1,'Haropla #07 Ball Haro'],'Haro',false,false,false,'','D','2023-04-10',2.65,false,'Builds/hpurple.html',['']],
+    ['Haro Red',[1,'Haropla #02 Diva Red'],'Haro',false,false,false,'','E','2023-04-06',2.78,false,'Builds/hred.html',[''],'2023-05-30'],
     
     //Car
-    ["Hud Air",
-        [1,"Chevy Bel Air, 57"],"Car",false,false,false,"Chevy","E","2021-05-06",23.05,true,"Builds/Automobiles/HudAir.html",false,"2021-06-09",models[3],[["../../img/projects/automobiles/hud_air/hudair01.jpg","Hudson Bel-Air","img1"],["../../img/projects/automobiles/hud_air/hudair02.jpg","Hudson Bel-Air","img2"],["../../img/projects/automobiles/hud_air/hudair03.jpg","Hudson Bel-Air","img3"],["../../img/projects/automobiles/hud_air/hudair04.jpg","Hudson Bel-Air","img4"],["../../img/projects/automobiles/hud_air/hudair05.jpg","Hudson Bel-Air","img5"],["../../img/projects/automobiles/hud_air/hudair06.jpg","Hudson Bel-Air","img6"],["../../img/projects/automobiles/hud_air/hudair07.jpg","Hudson Bel-Air","img7"],["../../img/projects/automobiles/hud_air/hudair08.jpg","Hudson Bel-Air","img8"],["../../img/projects/automobiles/hud_air/hudair09.jpg","Hudson Bel-Air","img9"],["../../img/projects/automobiles/hud_air/hudair10.jpg","Hudson Bel-Air","img10"],["../../img/projects/automobiles/hud_air/hudair11.jpg","Hudson Bel-Air","img11"],["../../img/projects/automobiles/hud_air/hudair12.jpg","Hudson Bel-Air","img12"],["../../img/projects/automobiles/hud_air/hudair13.jpg","Hudson Bel-Air","img13"],["../../img/projects/automobiles/hud_air/hudair14.jpg","Hudson Bel-Air","img14"],["../../img/projects/automobiles/hud_air/hudair15.jpg","Hudson Bel-Air","img15"],["../../img/projects/automobiles/hud_air/hudair16.jpg","Hudson Bel-Air","img16"],["../../img/projects/automobiles/hud_air/hudair17.jpg","Hudson Bel-Air","img17"],["../../img/projects/automobiles/hud_air/hudair18.jpg","Hudson Bel-Air","img18"],["../../img/projects/automobiles/hud_air/hudair19.jpg","Hudson Bel-Air","img19"],["../../img/projects/automobiles/hud_air/hudair20.jpg","Hudson Bel-Air","img20"],["../../img/projects/automobiles/hud_air/hudair21.jpg","Hudson Bel-Air","img21"]],["img/projects/automobiles/hud_air/hudair16.jpg","Profile Photo: Hud-Air"],"First attempt at an air brush. Testors paints. Jennifer Hudson. The Nanny. Feeling very purple with this one.","Nick, Nevada",[['Wikipedia',"https://en.wikipedia.org/wiki/Chevrolet_Bel_Air"],['Hobby Town',"https://www.hobbytown.com/amt-1-24-57-bel-air-model-kit-amt638/p39219"],['Hobby Lobby',"https://www.hobbylobby.com/Crafts-Hobbies/Model-Kits/Cars-Trucks-Motorcycles/1957-Chevy-Bel-Air-Model-Kit/p/26172"]],false,false,true,"1:25"
+    ['Hud Air',
+        [1,'Chevy Bel Air, 57'],'Car',false,false,false,'Chevy','E','2021-05-06',23.05,true,'Builds/Automobiles/HudAir.html',false,'2021-06-09',models[3],[['../../img/projects/automobiles/hud_air/hudair01.jpg','Hudson Bel-Air','img1'],['../../img/projects/automobiles/hud_air/hudair02.jpg','Hudson Bel-Air','img2'],['../../img/projects/automobiles/hud_air/hudair03.jpg','Hudson Bel-Air','img3'],['../../img/projects/automobiles/hud_air/hudair04.jpg','Hudson Bel-Air','img4'],['../../img/projects/automobiles/hud_air/hudair05.jpg','Hudson Bel-Air','img5'],['../../img/projects/automobiles/hud_air/hudair06.jpg','Hudson Bel-Air','img6'],['../../img/projects/automobiles/hud_air/hudair07.jpg','Hudson Bel-Air','img7'],['../../img/projects/automobiles/hud_air/hudair08.jpg','Hudson Bel-Air','img8'],['../../img/projects/automobiles/hud_air/hudair09.jpg','Hudson Bel-Air','img9'],['../../img/projects/automobiles/hud_air/hudair10.jpg','Hudson Bel-Air','img10'],['../../img/projects/automobiles/hud_air/hudair11.jpg','Hudson Bel-Air','img11'],['../../img/projects/automobiles/hud_air/hudair12.jpg','Hudson Bel-Air','img12'],['../../img/projects/automobiles/hud_air/hudair13.jpg','Hudson Bel-Air','img13'],['../../img/projects/automobiles/hud_air/hudair14.jpg','Hudson Bel-Air','img14'],['../../img/projects/automobiles/hud_air/hudair15.jpg','Hudson Bel-Air','img15'],['../../img/projects/automobiles/hud_air/hudair16.jpg','Hudson Bel-Air','img16'],['../../img/projects/automobiles/hud_air/hudair17.jpg','Hudson Bel-Air','img17'],['../../img/projects/automobiles/hud_air/hudair18.jpg','Hudson Bel-Air','img18'],['../../img/projects/automobiles/hud_air/hudair19.jpg','Hudson Bel-Air','img19'],['../../img/projects/automobiles/hud_air/hudair20.jpg','Hudson Bel-Air','img20'],['../../img/projects/automobiles/hud_air/hudair21.jpg','Hudson Bel-Air','img21']],['img/projects/automobiles/hud_air/hudair16.jpg','Profile Photo: Hud-Air'],'First attempt at an air brush. Testors paints. Jennifer Hudson. The Nanny. Feeling very purple with this one.','Nick, Nevada',[['Wikipedia','https://en.wikipedia.org/wiki/Chevrolet_Bel_Air'],['Hobby Town','https://www.hobbytown.com/amt-1-24-57-bel-air-model-kit-amt638/p39219'],['Hobby Lobby','https://www.hobbylobby.com/Crafts-Hobbies/Model-Kits/Cars-Trucks-Motorcycles/1957-Chevy-Bel-Air-Model-Kit/p/26172']],false,false,true,'1:25'
     ],
-    ["Wilbur",
-        [1,"Volkswagen Beetle, 68"],"Car",false,false,false,"Volkswagen","E","2022-11-05",27.08,true,"Builds/Automobiles/wilbur.html",false,"2023-01-02",models[4],[["../../img/projects/automobiles//wilbur/wilbur01.jpeg","Wilbur the Beetle","img1"],["../../img/projects/automobiles//wilbur/wilbur02.jpeg","Wilbur the Beetle","img2"],["../../img/projects/automobiles//wilbur/wilbur03.jpeg","Wilbur the Beetle","img3"],["../../img/projects/automobiles//wilbur/wilbur04.jpeg","Wilbur the Beetle","img4"],["../../img/projects/automobiles//wilbur/wilbur05.jpeg","Wilbur the Beetle","img5"],["../../img/projects/automobiles//wilbur/wilbur06.jpeg","Wilbur the Beetle","img6"],["../../img/projects/automobiles//wilbur/wilbur07.jpeg","Wilbur the Beetle","img7"],["../../img/projects/automobiles//wilbur/wilbur08.jpeg","Wilbur the Beetle","img8"],["../../img/projects/automobiles//wilbur/wilbur09.jpeg","Wilbur the Beetle","img9"],["../../img/projects/automobiles//wilbur/wilbur10.jpeg","Wilbur the Beetle","img10"],["../../img/projects/automobiles//wilbur/wilbur11.jpeg","Wilbur the Beetle","img11"],["../../img/projects/automobiles//wilbur/wilbur12.jpeg","Wilbur the Beetle","img12"],["../../img/projects/automobiles//wilbur/wilbur13.jpeg","Wilbur the Beetle","img13"],["../../img/projects/automobiles//wilbur/wilbur14.jpeg","Wilbur the Beetle","img14"],["../../img/projects/automobiles//wilbur/wilbur15.jpeg","Wilbur the Beetle","img15"],["../../img/projects/automobiles//wilbur/wilbur16.jpeg","Wilbur the Beetle","img16"],["../../img/projects/automobiles//wilbur/wilbur17.jpeg","Wilbur the Beetle","img17"],["../../img/projects/automobiles//wilbur/wilbur18.jpeg","Wilbur the Beetle","img18"],["../../img/projects/automobiles//wilbur/wilbur19.jpeg","Wilbur the Beetle","img19"],["../../img/projects/automobiles//wilbur/wilbur20.jpeg","Wilbur the Beetle","img20"],["../../img/projects/automobiles//wilbur/wilbur21.jpeg","Wilbur the Beetle","img21"],["../../img/projects/automobiles//wilbur/wilbur24.jpeg","Wilbur the Beetle","img24"],["../../img/projects/automobiles//wilbur/wilbur25.jpeg","Wilbur the Beetle","img25"],["../../img/projects/automobiles//wilbur/wilbur26.jpeg","Wilbur the Beetle","img26"],["../../img/projects/automobiles//wilbur/wilbur27.jpeg","Wilbur the Beetle","img27"],["../../img/projects/automobiles//wilbur/wilbur28.jpeg","Wilbur the Beetle","img28"],["../../img/projects/automobiles//wilbur/wilbur29.jpeg","Wilbur the Beetle","img29"],
-        ["../../img/projects/automobiles//wilbur/wilbur30.jpeg","Wilbur the Beetle","img30"],["../../img/projects/automobiles//wilbur/wilbur31.jpeg","Wilbur the Beetle","img31"],["../../img/projects/automobiles//wilbur/wilbur32.jpeg","Wilbur the Beetle","img32"],["../../img/projects/automobiles//wilbur/wilbur33.jpeg","Wilbur the Beetle","img33"],["../../img/projects/automobiles//wilbur/wilbur34.jpeg","Wilbur the Beetle","img34"],["../../img/projects/automobiles//wilbur/wilbur35.jpeg","Wilbur the Beetle","img35"],["../../img/projects/automobiles//wilbur/wilbur36.jpeg","Wilbur the Beetle","img36"],["../../img/projects/automobiles//wilbur/wilbur37.jpeg","Wilbur the Beetle","img37"],["../../img/projects/automobiles//wilbur/wilbur38.jpeg","Wilbur the Beetle","img38"],["../../img/projects/automobiles//wilbur/wilbur39.jpeg","Wilbur the Beetle","img39"],["../../img/projects/automobiles//wilbur/wilbur40.jpeg","Wilbur the Beetle","img40"],["../../img/projects/automobiles//wilbur/wilbur41.jpeg","Wilbur the Beetle","img41"],["../../img/projects/automobiles//wilbur/wilbur42.jpeg","Wilbur the Beetle","img42"],["../../img/projects/automobiles//wilbur/wilbur43.jpeg","Wilbur the Beetle","img43"],["../../img/projects/automobiles//wilbur/wilbur44.jpeg","Wilbur the Beetle","img44"],["../../img/projects/automobiles//wilbur/wilbur45.jpeg","Wilbur the Beetle","img45"],["../../img/projects/automobiles//wilbur/wilbur46.jpeg","Wilbur the Beetle","img46"],["../../img/projects/automobiles//wilbur/wilbur47.jpeg","Wilbur the Beetle","img47"],["../../img/projects/automobiles//wilbur/wilbur22.jpeg","Wilbur the Beetle","img22"],["../../img/projects/automobiles//wilbur/wilbur23.jpeg","Wilbur the Beetle","img23"]],["img/projects/automobiles//wilbur/wilbur46.jpeg","Profile Photo: Wilbur"],"Was an attempt at a recreation for an actual old 68 beetle we're in the middle of trying to restore. Incorporating our love of Germany and all things German, most particularly the cute little Dachshund. Made this as a christmas present","Zack #TheLunchDude, Iowa",[["Video","https://www.instagram.com/p/Cm64DaTI43G/"],["Wiki","https://en.wikipedia.org/wiki/Volkswagen_Beetle"],["Volkswagen","https://www.vw.com/en.html"],["Hobby Town","https://www.hobbytown.com/revell-germany-1-24-60s-beetle-type-1-rmx854192/p609173"]],["Wilbee"],false,true,"1:24"
+    ['Wilbur',
+        [1,'Volkswagen Beetle, 68'],'Car',false,false,false,'Volkswagen','E','2022-11-05',27.08,true,'Builds/Automobiles/wilbur.html',false,'2023-01-02',models[4],[['../../img/projects/automobiles//wilbur/wilbur01.jpeg','Wilbur the Beetle','img1'],['../../img/projects/automobiles//wilbur/wilbur02.jpeg','Wilbur the Beetle','img2'],['../../img/projects/automobiles//wilbur/wilbur03.jpeg','Wilbur the Beetle','img3'],['../../img/projects/automobiles//wilbur/wilbur04.jpeg','Wilbur the Beetle','img4'],['../../img/projects/automobiles//wilbur/wilbur05.jpeg','Wilbur the Beetle','img5'],['../../img/projects/automobiles//wilbur/wilbur06.jpeg','Wilbur the Beetle','img6'],['../../img/projects/automobiles//wilbur/wilbur07.jpeg','Wilbur the Beetle','img7'],['../../img/projects/automobiles//wilbur/wilbur08.jpeg','Wilbur the Beetle','img8'],['../../img/projects/automobiles//wilbur/wilbur09.jpeg','Wilbur the Beetle','img9'],['../../img/projects/automobiles//wilbur/wilbur10.jpeg','Wilbur the Beetle','img10'],['../../img/projects/automobiles//wilbur/wilbur11.jpeg','Wilbur the Beetle','img11'],['../../img/projects/automobiles//wilbur/wilbur12.jpeg','Wilbur the Beetle','img12'],['../../img/projects/automobiles//wilbur/wilbur13.jpeg','Wilbur the Beetle','img13'],['../../img/projects/automobiles//wilbur/wilbur14.jpeg','Wilbur the Beetle','img14'],['../../img/projects/automobiles//wilbur/wilbur15.jpeg','Wilbur the Beetle','img15'],['../../img/projects/automobiles//wilbur/wilbur16.jpeg','Wilbur the Beetle','img16'],['../../img/projects/automobiles//wilbur/wilbur17.jpeg','Wilbur the Beetle','img17'],['../../img/projects/automobiles//wilbur/wilbur18.jpeg','Wilbur the Beetle','img18'],['../../img/projects/automobiles//wilbur/wilbur19.jpeg','Wilbur the Beetle','img19'],['../../img/projects/automobiles//wilbur/wilbur20.jpeg','Wilbur the Beetle','img20'],['../../img/projects/automobiles//wilbur/wilbur21.jpeg','Wilbur the Beetle','img21'],['../../img/projects/automobiles//wilbur/wilbur24.jpeg','Wilbur the Beetle','img24'],['../../img/projects/automobiles//wilbur/wilbur25.jpeg','Wilbur the Beetle','img25'],['../../img/projects/automobiles//wilbur/wilbur26.jpeg','Wilbur the Beetle','img26'],['../../img/projects/automobiles//wilbur/wilbur27.jpeg','Wilbur the Beetle','img27'],['../../img/projects/automobiles//wilbur/wilbur28.jpeg','Wilbur the Beetle','img28'],['../../img/projects/automobiles//wilbur/wilbur29.jpeg','Wilbur the Beetle','img29'],
+        ['../../img/projects/automobiles//wilbur/wilbur30.jpeg','Wilbur the Beetle','img30'],['../../img/projects/automobiles//wilbur/wilbur31.jpeg','Wilbur the Beetle','img31'],['../../img/projects/automobiles//wilbur/wilbur32.jpeg','Wilbur the Beetle','img32'],['../../img/projects/automobiles//wilbur/wilbur33.jpeg','Wilbur the Beetle','img33'],['../../img/projects/automobiles//wilbur/wilbur34.jpeg','Wilbur the Beetle','img34'],['../../img/projects/automobiles//wilbur/wilbur35.jpeg','Wilbur the Beetle','img35'],['../../img/projects/automobiles//wilbur/wilbur36.jpeg','Wilbur the Beetle','img36'],['../../img/projects/automobiles//wilbur/wilbur37.jpeg','Wilbur the Beetle','img37'],['../../img/projects/automobiles//wilbur/wilbur38.jpeg','Wilbur the Beetle','img38'],['../../img/projects/automobiles//wilbur/wilbur39.jpeg','Wilbur the Beetle','img39'],['../../img/projects/automobiles//wilbur/wilbur40.jpeg','Wilbur the Beetle','img40'],['../../img/projects/automobiles//wilbur/wilbur41.jpeg','Wilbur the Beetle','img41'],['../../img/projects/automobiles//wilbur/wilbur42.jpeg','Wilbur the Beetle','img42'],['../../img/projects/automobiles//wilbur/wilbur43.jpeg','Wilbur the Beetle','img43'],['../../img/projects/automobiles//wilbur/wilbur44.jpeg','Wilbur the Beetle','img44'],['../../img/projects/automobiles//wilbur/wilbur45.jpeg','Wilbur the Beetle','img45'],['../../img/projects/automobiles//wilbur/wilbur46.jpeg','Wilbur the Beetle','img46'],['../../img/projects/automobiles//wilbur/wilbur47.jpeg','Wilbur the Beetle','img47'],['../../img/projects/automobiles//wilbur/wilbur22.jpeg','Wilbur the Beetle','img22'],['../../img/projects/automobiles//wilbur/wilbur23.jpeg','Wilbur the Beetle','img23']],['img/projects/automobiles//wilbur/wilbur46.jpeg','Profile Photo: Wilbur'],'Was an attempt at a recreation for an actual old 68 beetle we\'re in the middle of trying to restore. Incorporating our love of Germany and all things German, most particularly the cute little Dachshund. Made this as a christmas present','Zack #TheLunchDude, Iowa',[['Video','https://www.instagram.com/p/Cm64DaTI43G/'],['Wiki','https://en.wikipedia.org/wiki/Volkswagen_Beetle'],['Volkswagen','https://www.vw.com/en.html'],['Hobby Town','https://www.hobbytown.com/revell-germany-1-24-60s-beetle-type-1-rmx854192/p609173']],['Wilbee'],false,true,'1:24'
     ],
     
     //Pokemon
-    ["Obelix",[1,"Bulbasaur"],"Pokemon",false,false,false,"","B"],
-    ["Asterix",[1,"Charmander"],"Pokemon",false,false,false,"","D","2023-03-12",3.85,false,"Builds/asterix.html",[""]],
-    ["Vercingetorix",[1,"Charizard"],"Pokemon",false,false,false,"","D","2023-03-10",5.99,false,"Builds/vercingetorix.html",[""]],
-    ["Boudica",[1,"Dragonite"],"Pokemon",false,false,false,"","D","2023-03-11",3.47,false,"Builds/boudica.html",[""]],
-    ["Granfrog",[1,"Greninja"],"Pokemon",false,false,false,"","E","2021-11-11",5.68,false,"Builds/granfrog.html",[""],"2022-08-17"],
-    ["Brennus",[1,"Groudon"],"Pokemon",false,false,false,"","A"],
-    ["Unhygienix",[1,"Magikarp"],"Pokemon",false,false,false,"","A"],
-    ["Lutetia",[1,"Lucario"],"Pokemon",false,false,false,"","A"],
-    ["Chanticleerix",[1,"Lugia"],"Pokemon",false,false,false,"","A"],
-    ["Cacofonix",[1,"Metagross"],"Pokemon",false,false,false,"","B"],
-    ["Getafix",[1,"Rayquaza"],"Pokemon",false,false,false,"","B"],
-    ["Dogmatix",[1,"Riolu"],"Pokemon",false,false,false,"","A"],
-    ["Cassivellaunus",[1,"Gyrados"],"Pokemon",false,false,false,"","A"],
+    ['Obelix',[1,'Bulbasaur'],'Pokemon',false,false,false,'','B'],
+    ['Asterix',[1,'Charmander'],'Pokemon',false,false,false,'','D','2023-03-12',3.85,false,'Builds/asterix.html',['']],
+    ['Vercingetorix',[1,'Charizard'],'Pokemon',false,false,false,'','D','2023-03-10',5.99,false,'Builds/vercingetorix.html',['']],
+    ['Boudica',[1,'Dragonite'],'Pokemon',false,false,false,'','D','2023-03-11',3.47,false,'Builds/boudica.html',['']],
+    ['Granfrog',[1,'Greninja'],'Pokemon',false,false,false,'','E','2021-11-11',5.68,false,'Builds/granfrog.html',[''],'2022-08-17'],
+    ['Brennus',[1,'Groudon'],'Pokemon',false,false,false,'','A'],
+    ['Unhygienix',[1,'Magikarp'],'Pokemon',false,false,false,'','A'],
+    ['Lutetia',[1,'Lucario'],'Pokemon',false,false,false,'','A'],
+    ['Chanticleerix',[1,'Lugia'],'Pokemon',false,false,false,'','A'],
+    ['Cacofonix',[1,'Metagross'],'Pokemon',false,false,false,'','B'],
+    ['Getafix',[1,'Rayquaza'],'Pokemon',false,false,false,'','B'],
+    ['Dogmatix',[1,'Riolu'],'Pokemon',false,false,false,'','A'],
+    ['Cassivellaunus',[1,'Gyrados'],'Pokemon',false,false,false,'','A'],
     
     //Digimon
-    ["Heimdall",[1,"Alphamon"],"Digimon",false,false,false,"","A"],
-    ["Loki",[1,"Beelzemon"],"Digimon",false,false,false,"","A"],
-    ["Thor",[1,"Gallantmon"],"Digimon",false,false,false,"","E","2022-10-05",22.5,false,"Builds/thor.html",[""],"2022-11-28"],
-    ["Jormungandr",[1,"Imperialdramom"],"Digimon",false,false,false,"","A"],
-    ["Nidhogg",[1,"Machinedramon"],"Digimon",false,false,false,"","A"],
-    ["Fenrir",[1,"Metal Garurumon"],"Digimon",false,false,false,"","E","2022-07-07",20.58,false,"Builds/fenrir.html",[""],"2022-09-21"],
-    ["T\u00FDr",[1,"Metal Greymon"],"Digimon",false,false,false,"","A"],
-    ["Odin",[1,"Shine Greymon",],"Digimon",false,false,false,"","A"],
-    ["Ragnarok",[1,"Omnimon"],"Digimon",false,false,false,"","E","2022-07-05",19.65,false,"Builds/ragnorok.html",[""],"2022-10-17"],
-    ["Revelation",[1,"Omnimon X"],"Digimon",false,false,false,"","A"],
-    ["Fafnir",[1,"War Greymon"],"Digimon",false,false,false,"","E","2022-07-08",20.7,false,"Builds/fafnir.html",[""],"2022-10-04"],
+    ['Heimdall',[1,'Alphamon'],'Digimon',false,false,false,'','A'],
+    ['Loki',[1,'Beelzemon'],'Digimon',false,false,false,'','A'],
+    ['Thor',[1,'Gallantmon'],'Digimon',false,false,false,'','E','2022-10-05',22.5,false,'Builds/thor.html',[''],'2022-11-28'],
+    ['Jormungandr',[1,'Imperialdramom'],'Digimon',false,false,false,'','A'],
+    ['Nidhogg',[1,'Machinedramon'],'Digimon',false,false,false,'','A'],
+    ['Fenrir',[1,'Metal Garurumon'],'Digimon',false,false,false,'','E','2022-07-07',20.58,false,'Builds/fenrir.html',[''],'2022-09-21'],
+    ['T\u00FDr',[1,'Metal Greymon'],'Digimon',false,false,false,'','A'],
+    ['Odin',[1,'Shine Greymon',],'Digimon',false,false,false,'','A'],
+    ['Ragnarok',[1,'Omnimon'],'Digimon',false,false,false,'','E','2022-07-05',19.65,false,'Builds/ragnorok.html',[''],'2022-10-17'],
+    ['Revelation',[1,'Omnimon X'],'Digimon',false,false,false,'','A'],
+    ['Fafnir',[1,'War Greymon'],'Digimon',false,false,false,'','E','2022-07-08',20.7,false,'Builds/fafnir.html',[''],'2022-10-04'],
 
     //Display
-    ["Diurnum",[1,"City Area, 30 Minute Mission"],"Display",false,false,false,"","E","2022-01-10",9.67,false,"Builds/diurnum.html",[""],"2022-03-21"],
-    ["Battlefield Earth",[2,"Energy Ring Emitter"],"Display",false,false,false,"","A"],
-    ["Kataluma",[1,"Hangar Bay"],"Display",false,false,false,"","E","2022-02",16.96,true,"Builds/kataluma.html",[""],"2022-04-04"],
-    ["Stratle",[1,"Maintenance Bay"],"Display",false,false,false,"","E","2022-02-11",27.12,true,"Builds/stratle.html",[""],"2022-04-11"],
+    ['Diurnum',[1,'City Area, 30 Minute Mission'],'Display',false,false,false,'','E','2022-01-10',9.67,false,'Builds/diurnum.html',[''],'2022-03-21'],
+    ['Battlefield Earth',[2,'Energy Ring Emitter'],'Display',false,false,false,'','A'],
+    ['Kataluma',[1,'Hangar Bay'],'Display',false,false,false,'','E','2022-02',16.96,true,'Builds/kataluma.html',[''],'2022-04-04'],
+    ['Stratle',[1,'Maintenance Bay'],'Display',false,false,false,'','E','2022-02-11',27.12,true,'Builds/stratle.html',[''],'2022-04-11'],
 
     //Ship
-    ["Libeccio",[0.2,"Andromeda Black"],"Ship",false,false,false,"StarBlazer","E","2022-09-09",4.42,false,
-        "Builds/Ships/libeccio.html",false,"2023-02-06",models[8],
+    ['Libeccio',[0.2,'Andromeda Black'],'Ship',false,false,false,'StarBlazer','E','2022-09-09',4.42,false,
+        'Builds/Ships/libeccio.html',false,'2023-02-06',models[8],
         [
             ['../../img/projects/ships/libeccio/libeccio01.jpeg','Libeccio Andromeda Class Battleship','img1'],
             ['../../img/projects/ships/libeccio/libeccio02.jpeg','Libeccio Andromeda Class Battleship','img2'],
@@ -1018,25 +1018,25 @@ const projects = [
         true,
         '1:1000'
     ],
-    ["Ostro",[0.2,"Cosmo Falcon"],"Ship",false,false,false,"StarBlazer","E","2022-07-06",6.33,false,"Builds/ostro.html",[""],"2022-07-18"],
-    ["Ponente",[1,"Cosmo Zero"],"Ship",false,false,false,"StarBlazer","B"],
-    ["Levante",[1,"Nagato"],"Ship",false,false,false,"Space Rengo Kantai","B"],
+    ['Ostro',[0.2,'Cosmo Falcon'],'Ship',false,false,false,'StarBlazer','E','2022-07-06',6.33,false,'Builds/ostro.html',[''],'2022-07-18'],
+    ['Ponente',[1,'Cosmo Zero'],'Ship',false,false,false,'StarBlazer','B'],
+    ['Levante',[1,'Nagato'],'Ship',false,false,false,'Space Rengo Kantai','B'],
 
     //Transformer
-    ["Wilbee",
-        [1,"Bumblebee"],
-        "Transformer",
+    ['Wilbee',
+        [1,'Bumblebee'],
+        'Transformer',
         false,
         false,
         false,
         false,
-        "E",
-        "2022-11-06",
+        'E',
+        '2022-11-06',
         9.33,
         false,
-        "Builds/Transformers/wilbee.html",
+        'Builds/Transformers/wilbee.html',
         false,
-        "2023-01-09",
+        '2023-01-09',
         models[5],
         [
             ['../../img/projects/transformers/wilbee/wilbee01.jpeg','Wilbee','img1'],
@@ -1089,14 +1089,14 @@ const projects = [
         ['Wilbur'],
         false,
         true,
-        "Not Available"
+        'Not Available'
     ],
     
     //Zoid
-    ["Dash Hound",[1,"Shadow Fox"],"Zoid",false,false,false,"","C","2023-06-12",11.67,false,"Builds/Zoids/DashHound.html",["Tamiya: Gold TS-21 Can","Tamiya: Matt Black TS-6 Can","Tamiya: Copper PS-14 Can","Vallejo Model Air: US Earth Red 71.293","Vallejo Model Air: USAF Brown 71.125","Vallejo Model Air: Rust 71.069","Vallejo Model Air: Armor Brown 71.041","Vallejo Mecha Color: Dark Steel 69.065","Vallejo Model Air: Silver 71.063","Vallejo Model Air: Ivory 71.075","Testors: Brass 1182","Vallejo Model Air: Wood 71.077","Vallejo Model Air: US Desert Sand 71.140","Vallejo Mecha Color: Gun Metal 69.058","Vallejo Model Air: Camouflage Gray 71.280"]],
-    ["Shere Khan",[1,"Blade Liger"],"Zoid",false,false,false,"","B"],
-    ["Akela",[1,"Konig Wolf Heavy Arms"],"Zoid",false,false,false,"","A"],
-    ["Kipling",[1,"Liger Zero X"],"Zoid",false,false,false,"","B"]
+    ['Dash Hound',[1,'Shadow Fox'],'Zoid',false,false,false,'','C','2023-06-12',11.67,false,'Builds/Zoids/DashHound.html',['Tamiya: Gold TS-21 Can','Tamiya: Matt Black TS-6 Can','Tamiya: Copper PS-14 Can','Vallejo Model Air: US Earth Red 71.293','Vallejo Model Air: USAF Brown 71.125','Vallejo Model Air: Rust 71.069','Vallejo Model Air: Armor Brown 71.041','Vallejo Mecha Color: Dark Steel 69.065','Vallejo Model Air: Silver 71.063','Vallejo Model Air: Ivory 71.075','Testors: Brass 1182','Vallejo Model Air: Wood 71.077','Vallejo Model Air: US Desert Sand 71.140','Vallejo Mecha Color: Gun Metal 69.058','Vallejo Model Air: Camouflage Gray 71.280']],
+    ['Shere Khan',[1,'Blade Liger'],'Zoid',false,false,false,'','B'],
+    ['Akela',[1,'Konig Wolf Heavy Arms'],'Zoid',false,false,false,'','A'],
+    ['Kipling',[1,'Liger Zero X'],'Zoid',false,false,false,'','B']
 ];
 
 //Initialize Arrays
@@ -1310,16 +1310,16 @@ function addConstructed() {
     }
 
     for (let i=0;i<constructOne.length;i++) {
-        insertLine(constructOne[i],"constOne");
+        insertLine(constructOne[i],'constOne');
     }
     for (let i=0;i<constructTwo.length;i++) {
-        insertLine(constructTwo[i],"constTwo");
+        insertLine(constructTwo[i],'constTwo');
     }
     for (let i=0;i<constructThree.length;i++) {
-        insertLine(constructThree[i],"constThree");
+        insertLine(constructThree[i],'constThree');
     }
 
-    const readyCountNode = document.getElementById("readyCountID");
+    const readyCountNode = document.getElementById('readyCountID');
     const readyCountTextNode = document.createTextNode(constructedCount);
     readyCountNode.appendChild(readyCountTextNode);
 }
@@ -1346,16 +1346,16 @@ function addInProgress() {
     }
 
     for (let i=0;i<progressOne.length;i++) {
-        insertLine(progressOne[i],"progOne");
+        insertLine(progressOne[i],'progOne');
     }
     for (let i=0;i<progressTwo.length;i++) {
-        insertLine(progressTwo[i],"progTwo");
+        insertLine(progressTwo[i],'progTwo');
     }
     for (let i=0;i<progressThree.length;i++) {
-        insertLine(progressThree[i],"progThree");
+        insertLine(progressThree[i],'progThree');
     }
 
-    const progCountNode = document.getElementById("progCountID");
+    const progCountNode = document.getElementById('progCountID');
     const progCountTextNode = document.createTextNode(inProgressCount);
     progCountNode.appendChild(progCountTextNode);
 }
@@ -1363,119 +1363,119 @@ function addInProgress() {
 function addTable() {
     //Post Finished
     for (let i=0;i<pgFinishedArray.length;i++) {
-        insertLine(pgFinishedArray[i],"pgF");
+        insertLine(pgFinishedArray[i],'pgF');
     }
     for (let i=0;i<mgFinishedArray.length;i++) {
-        insertLine(mgFinishedArray[i],"mgF");
+        insertLine(mgFinishedArray[i],'mgF');
     }
     for (let i=0;i<fmFinishedArray.length;i++) {
-        insertLine(fmFinishedArray[i],"fmF");
+        insertLine(fmFinishedArray[i],'fmF');
     }
     for (let i=0;i<rgFinishedArray.length;i++) {
-        insertLine(rgFinishedArray[i],"rgF");
+        insertLine(rgFinishedArray[i],'rgF');
     }
     for (let i=0;i<hgFinishedArray.length;i++) {
-        insertLine(hgFinishedArray[i],"hgF");
+        insertLine(hgFinishedArray[i],'hgF');
     }
     for (i=0;i<mgsdFinishedArray.length;i++) {
-        insertLine(mgsdFinishedArray[i],"mgsdF");
+        insertLine(mgsdFinishedArray[i],'mgsdF');
     }
     for (let i=0;i<sdFinishedArray.length;i++) {
-        insertLine(sdFinishedArray[i],"sdF");
+        insertLine(sdFinishedArray[i],'sdF');
     }
     for (let i=0;i<pbFinishedArray.length;i++) {
-        insertLine(pbFinishedArray[i],"pbF");
+        insertLine(pbFinishedArray[i],'pbF');
     }
     for (let i=0;i<sbFinishedArray.length;i++) {
-        insertLine(sbFinishedArray[i],"sbF");
+        insertLine(sbFinishedArray[i],'sbF');
     }
     for (let i=0;i<carFinishedArray.length;i++) {
-        insertLine(carFinishedArray[i],"carF");
+        insertLine(carFinishedArray[i],'carF');
     }
     for (let i=0;i<digiFinishedArray.length;i++) {
-        insertLine(digiFinishedArray[i],"dgF");
+        insertLine(digiFinishedArray[i],'dgF');
     }
     for (let i=0;i<dispFinishedArray.length;i++) {
-        insertLine(dispFinishedArray[i],"dspF");
+        insertLine(dispFinishedArray[i],'dspF');
     }
     for (let i=0;i<haroFinishedArray.length;i++) {
-        insertLine(haroFinishedArray[i],"haroF");
+        insertLine(haroFinishedArray[i],'haroF');
     }
     for (let i=0;i<pokeFinishedArray.length;i++) {
-        insertLine(pokeFinishedArray[i],"pokeF");
+        insertLine(pokeFinishedArray[i],'pokeF');
     }
     for (let i=0;i<shipFinishedArray.length;i++) {
-        insertLine(shipFinishedArray[i],"shipF");
+        insertLine(shipFinishedArray[i],'shipF');
     }
     for (let i=0;i<transFinishedArray.length;i++) {
-        insertLine(transFinishedArray[i],"transF");
+        insertLine(transFinishedArray[i],'transF');
     }
     for (let i=0;i<zoidFinishedArray.length;i++) {
-        insertLine(zoidFinishedArray[i],"zoidF");
+        insertLine(zoidFinishedArray[i],'zoidF');
     }
 
     //Post Backlog
     for (let i=0;i<pgBacklogArray.length;i++) {
-        insertLine(pgBacklogArray[i],"pgBL");
+        insertLine(pgBacklogArray[i],'pgBL');
     }
     for (let i=0;i<mgBacklogArray.length;i++) {
-        insertLine(mgBacklogArray[i],"mgBL");
+        insertLine(mgBacklogArray[i],'mgBL');
     }
     for (let i=0;i<fmBacklogArray.length;i++) {
-        insertLine(fmBacklogArray[i],"fmBL");
+        insertLine(fmBacklogArray[i],'fmBL');
     }
     for (let i=0;i<rgBacklogArray.length;i++) {
-        insertLine(rgBacklogArray[i],"rgBL");
+        insertLine(rgBacklogArray[i],'rgBL');
     }
     for (let i=0;i<hgBacklogArray.length;i++) {
-        insertLine(hgBacklogArray[i],"hgBL");
+        insertLine(hgBacklogArray[i],'hgBL');
     }
     for (i=0;i<mgsdBacklogArray.length;i++) {
-        insertLine(mgsdBacklogArray[i],"mgsdBL");
+        insertLine(mgsdBacklogArray[i],'mgsdBL');
     }
     for (let i=0;i<sdBacklogArray.length;i++) {
-        insertLine(sdBacklogArray[i],"sdBL");
+        insertLine(sdBacklogArray[i],'sdBL');
     }
     for (let i=0;i<pbBacklogArray.length;i++) {
-        insertLine(pbBacklogArray[i],"pbBL");
+        insertLine(pbBacklogArray[i],'pbBL');
     }
     for (let i=0;i<sbBacklogArray.length;i++) {
-        insertLine(sbBacklogArray[i],"sbBL");
+        insertLine(sbBacklogArray[i],'sbBL');
     }
     for (let i=0;i<carBacklogArray.length;i++) {
-        insertLine(carBacklogArray[i],"carBL");
+        insertLine(carBacklogArray[i],'carBL');
     }
     for (let i=0;i<digiBacklogArray.length;i++) {
-        insertLine(digiBacklogArray[i],"dgBL");
+        insertLine(digiBacklogArray[i],'dgBL');
     }
     for (let i=0;i<dispBacklogArray.length;i++) {
-        insertLine(dispBacklogArray[i],"dspBL");
+        insertLine(dispBacklogArray[i],'dspBL');
     }
     for (let i=0;i<haroBacklogArray.length;i++) {
-        insertLine(haroBacklogArray[i],"haroBL");
+        insertLine(haroBacklogArray[i],'haroBL');
     }
     for (let i=0;i<pokeBacklogArray.length;i++) {
-        insertLine(pokeBacklogArray[i],"pokeBL");
+        insertLine(pokeBacklogArray[i],'pokeBL');
     }
     for (let i=0;i<shipBacklogArray.length;i++) {
-        insertLine(shipBacklogArray[i],"shipBL");
+        insertLine(shipBacklogArray[i],'shipBL');
     }
     for (let i=0;i<transBacklogArray.length;i++) {
-        insertLine(transBacklogArray[i],"transBL");
+        insertLine(transBacklogArray[i],'transBL');
     }
     for (let i=0;i<zoidBacklogArray.length;i++) {
-        insertLine(zoidBacklogArray[i],"zoidBL");
+        insertLine(zoidBacklogArray[i],'zoidBL');
     }
 
     //Post Out of Stock
     for (let i=0;i<outOfInventoryArray.length;i++) {
-        insertLine(outOfInventoryArray[i][0],"OOS");
+        insertLine(outOfInventoryArray[i][0],'OOS');
     }
     for (let i=0;i<pbUndeliveredArray.length;i++) {
-        insertLine(pbUndeliveredArray[i],"OOSPB");
+        insertLine(pbUndeliveredArray[i],'OOSPB');
     }
     
-    const finishNode = document.getElementById("FP").parentNode;
+    const finishNode = document.getElementById('FP').parentNode;
     const totalFinishedNode = document.createTextNode(postedCount); 
     finishNode.appendChild(totalFinishedNode); 
 }
@@ -1496,36 +1496,36 @@ function arrayAverage(array) {
 
 function calculateStats() {
     //average hours
-    mgAve = projectAverage("MG",false);
-    mgStrAve = projectAverage("MG",true);
-    pgAve = projectAverage("PG",false);
-    pgStrAve = projectAverage("PG",true);
-    fmAve = projectAverage("FM",false);
-    fmStrAve = projectAverage("FM",true);
-    rgAve = projectAverage("RG",false);
-    rgStrAve = projectAverage("RG",true);
-    hgAve = projectAverage("HG",false);
-    hgStrAve = projectAverage("HG",true);
-    mgsdAve = projectAverage("MGSD",false);
-    mgsdStrAve = projectAverage("MGSD",true);
-    sdAve = projectAverage("SD",false);
-    sdStrAve = projectAverage("SD",true);
-    haroAve = projectAverage("Haro",false);
-    haroStrAve = projectAverage("Haro",true);
-    carAve = projectAverage("Car",false);
-    carStrAve = projectAverage("Car",true);
-    pokeAve = projectAverage("Pokemon",false);
-    pokeStrAve = projectAverage("Pokemon",true);
-    digiAve = projectAverage("Digimon",false);
-    digiStrAve = projectAverage("Digimon",true);
-    dispAve = projectAverage("Display",false);
-    dispStrAve = projectAverage("Display",true);
-    shipAve = projectAverage("Ship",false);
-    shipStrAve = projectAverage("Ship",true);
-    transAve = projectAverage("Transformer",false);
-    transStrAve = projectAverage("Transformer",true);
-    zoidAve = projectAverage("Zoid",false);
-    zoidStrAve = projectAverage("Zoid",true);
+    mgAve = projectAverage('MG',false);
+    mgStrAve = projectAverage('MG',true);
+    pgAve = projectAverage('PG',false);
+    pgStrAve = projectAverage('PG',true);
+    fmAve = projectAverage('FM',false);
+    fmStrAve = projectAverage('FM',true);
+    rgAve = projectAverage('RG',false);
+    rgStrAve = projectAverage('RG',true);
+    hgAve = projectAverage('HG',false);
+    hgStrAve = projectAverage('HG',true);
+    mgsdAve = projectAverage('MGSD',false);
+    mgsdStrAve = projectAverage('MGSD',true);
+    sdAve = projectAverage('SD',false);
+    sdStrAve = projectAverage('SD',true);
+    haroAve = projectAverage('Haro',false);
+    haroStrAve = projectAverage('Haro',true);
+    carAve = projectAverage('Car',false);
+    carStrAve = projectAverage('Car',true);
+    pokeAve = projectAverage('Pokemon',false);
+    pokeStrAve = projectAverage('Pokemon',true);
+    digiAve = projectAverage('Digimon',false);
+    digiStrAve = projectAverage('Digimon',true);
+    dispAve = projectAverage('Display',false);
+    dispStrAve = projectAverage('Display',true);
+    shipAve = projectAverage('Ship',false);
+    shipStrAve = projectAverage('Ship',true);
+    transAve = projectAverage('Transformer',false);
+    transStrAve = projectAverage('Transformer',true);
+    zoidAve = projectAverage('Zoid',false);
+    zoidStrAve = projectAverage('Zoid',true);
 
     //weights
     pgWt = pgAve / mgAve;
@@ -1549,91 +1549,91 @@ function calculateStats() {
     straightWeight = straightAverage / paintedAverage;
 
     //counts
-    mgCount = projectCount("MG",false);
-    mgStrCount = projectCount("MG",true);
-    pgCount = projectCount("PG",false);
-    pgStrCount = projectCount("PG",true);
-    fmCount = projectCount("FM",false);
-    fmStrCount = projectCount("FM",true);
-    rgCount = projectCount("RG",false);
-    rgStrCount = projectCount("RG",true);
-    hgCount = projectCount("HG",false);
-    hgStrCount = projectCount("HG",true);
-    mgsdCount = projectCount("MGSD",false);
-    mgsdStrCount = projectCount("MGSD",true);
-    sdCount = projectCount("SD",false);
-    sdStrCount = projectCount("SD",true);
-    haroCount = projectCount("Haro",false);
-    haroStrCount = projectCount("Haro",true);
-    carCount = projectCount("Car",false);
-    carStrCount = projectCount("Car",true);
-    pokeCount = projectCount("Pokemon",false);
-    pokeStrCount = projectCount("Pokemon",true);
-    digiCount = projectCount("Digimon",false);
-    digiStrCount = projectCount("Digimon",true);
-    dispCount = projectCount("Display",false);
-    dispStr = projectCount("Display",true);
-    shipCount = projectCount("Ship",false);
-    shipStrCount = projectCount("Ship",true);
-    transCount = projectCount("Transformer",false);
-    transStrCount = projectCount("Transformer",true);
-    zoidCount = projectCount("Zoid",false);
-    zoidStrCount = projectCount("Zoid",true);
+    mgCount = projectCount('MG',false);
+    mgStrCount = projectCount('MG',true);
+    pgCount = projectCount('PG',false);
+    pgStrCount = projectCount('PG',true);
+    fmCount = projectCount('FM',false);
+    fmStrCount = projectCount('FM',true);
+    rgCount = projectCount('RG',false);
+    rgStrCount = projectCount('RG',true);
+    hgCount = projectCount('HG',false);
+    hgStrCount = projectCount('HG',true);
+    mgsdCount = projectCount('MGSD',false);
+    mgsdStrCount = projectCount('MGSD',true);
+    sdCount = projectCount('SD',false);
+    sdStrCount = projectCount('SD',true);
+    haroCount = projectCount('Haro',false);
+    haroStrCount = projectCount('Haro',true);
+    carCount = projectCount('Car',false);
+    carStrCount = projectCount('Car',true);
+    pokeCount = projectCount('Pokemon',false);
+    pokeStrCount = projectCount('Pokemon',true);
+    digiCount = projectCount('Digimon',false);
+    digiStrCount = projectCount('Digimon',true);
+    dispCount = projectCount('Display',false);
+    dispStr = projectCount('Display',true);
+    shipCount = projectCount('Ship',false);
+    shipStrCount = projectCount('Ship',true);
+    transCount = projectCount('Transformer',false);
+    transStrCount = projectCount('Transformer',true);
+    zoidCount = projectCount('Zoid',false);
+    zoidStrCount = projectCount('Zoid',true);
 
     //PBandai Count
-    mgCountPB = projectCountPB("MG");
-    pgCountPB = projectCountPB("PG");
-    fmCountPB = projectCountPB("FM");
-    rgCountPB = projectCountPB("RG");
-    hgCountPB = projectCountPB("HG");
-    mgsdCountPB = projectCountPB("MGSD");
-    sdCountPB = projectCountPB("SD");
-    haroCountPB = projectCountPB("Haro");
-    shipCountPB = projectCountPB("Ship");
-    dispCountPB = projectCountPB("Display");
+    mgCountPB = projectCountPB('MG');
+    pgCountPB = projectCountPB('PG');
+    fmCountPB = projectCountPB('FM');
+    rgCountPB = projectCountPB('RG');
+    hgCountPB = projectCountPB('HG');
+    mgsdCountPB = projectCountPB('MGSD');
+    sdCountPB = projectCountPB('SD');
+    haroCountPB = projectCountPB('Haro');
+    shipCountPB = projectCountPB('Ship');
+    dispCountPB = projectCountPB('Display');
 
     //Remaining Count
-    mgRemain = projectRemaining("MG");
-    pgRemain = projectRemaining("PG");
-    fmRemain = projectRemaining("FM");
-    rgRemain = projectRemaining("RG");
-    hgRemain = projectRemaining("HG");
-    mgsdRemain = projectRemaining("MGSD");
-    sdRemain = projectRemaining("SD");
-    haroRemain = projectRemaining("HARO");
-    carRemain = projectRemaining("Car");
-    digiRemain = projectRemaining("Digimon");
-    dispRemain = projectRemaining("Display");
-    pokeRemain = projectRemaining("Pokemon");
-    shipRemain = projectRemaining("Ship");
-    transRemain = projectRemaining("Transformer");
-    zoidRemain = projectRemaining("Zoid");
+    mgRemain = projectRemaining('MG');
+    pgRemain = projectRemaining('PG');
+    fmRemain = projectRemaining('FM');
+    rgRemain = projectRemaining('RG');
+    hgRemain = projectRemaining('HG');
+    mgsdRemain = projectRemaining('MGSD');
+    sdRemain = projectRemaining('SD');
+    haroRemain = projectRemaining('HARO');
+    carRemain = projectRemaining('Car');
+    digiRemain = projectRemaining('Digimon');
+    dispRemain = projectRemaining('Display');
+    pokeRemain = projectRemaining('Pokemon');
+    shipRemain = projectRemaining('Ship');
+    transRemain = projectRemaining('Transformer');
+    zoidRemain = projectRemaining('Zoid');
 
     //hours
-    mgHours = projectHours("MG");
-    pgHours = projectHours("PG");
-    fmHours = projectHours("FM");
-    rgHours = projectHours("RG");
-    hgHours = projectHours("HG");
-    mgsdHours = projectHours("MGSD");
-    sdHours = projectHours("SD");
-    haroHours = projectHours("Haro");
-    carHours = projectHours("Car");
-    pokeHours = projectHours("Pokemon");
-    digiHours = projectHours("Digimon");
-    dispHours = projectHours("Display");
-    shipHours = projectHours("Ship");
-    transHours = projectHours("Transformer");
-    zoidHours = projectHours("Zoid");
+    mgHours = projectHours('MG');
+    pgHours = projectHours('PG');
+    fmHours = projectHours('FM');
+    rgHours = projectHours('RG');
+    hgHours = projectHours('HG');
+    mgsdHours = projectHours('MGSD');
+    sdHours = projectHours('SD');
+    haroHours = projectHours('Haro');
+    carHours = projectHours('Car');
+    pokeHours = projectHours('Pokemon');
+    digiHours = projectHours('Digimon');
+    dispHours = projectHours('Display');
+    shipHours = projectHours('Ship');
+    transHours = projectHours('Transformer');
+    zoidHours = projectHours('Zoid');
 }
 
 function cleanupArrays(array,context) {
     if(array.length<1) {
-        if (context==="fin") {
-            array=["...Pending..."];
+        if (context==='fin') {
+            array=['...Pending...'];
         }
-        if (context==="out") {
-            array=[".....Out of Stock....."];
+        if (context==='out') {
+            array=['.....Out of Stock.....'];
         }
     }
     return array;
@@ -1644,47 +1644,47 @@ function composeStatsArray () {
     let statData = [];
 
     for (let i=0;i<projects.length;i++) {
-        if (projects[i][3]===false && (projects[i][7]=="C" || projects[i][7]=="D" || projects[i][7]=="E")) {
-            if (projects[i][2]=="MG") {
+        if (projects[i][3]===false && (projects[i][7]=='C' || projects[i][7]=='D' || projects[i][7]=='E')) {
+            if (projects[i][2]=='MG') {
                 wt=1;
             } 
-            else if (projects[i][2]=="FM") {
+            else if (projects[i][2]=='FM') {
                 wt=fmWt;
             } 
-            else if (projects[i][2]=="RG") {
+            else if (projects[i][2]=='RG') {
                 wt=rgWt;
             } 
-            else if (projects[i][2]=="HG") {
+            else if (projects[i][2]=='HG') {
                 wt=hgWt;
             } 
-            else if (projects[i][2]=="MGSD") {
+            else if (projects[i][2]=='MGSD') {
                 wt=mgsdWt;
             } 
-            else if (projects[i][2]=="SD") {
+            else if (projects[i][2]=='SD') {
                 wt=sdWt;
             } 
-            else if (projects[i][2]=="Haro") {
+            else if (projects[i][2]=='Haro') {
                 wt=haroWt;
             } 
-            else if (projects[i][2]=="Car") {
+            else if (projects[i][2]=='Car') {
                 wt=carWt;
             } 
-            else if (projects[i][2]=="Pokemon") {
+            else if (projects[i][2]=='Pokemon') {
                 wt=pokeWt;
             } 
-            else if (projects[i][2]=="Digimon") {
+            else if (projects[i][2]=='Digimon') {
                 wt=digiWt;
             } 
-            else if (projects[i][2]=="Display") {
+            else if (projects[i][2]=='Display') {
                 wt=dispWt;
             } 
-            else if (projects[i][2]=="Ship") {
+            else if (projects[i][2]=='Ship') {
                 wt=shipWt;
             } 
-            else if (projects[i][2]=="Transformer") {
+            else if (projects[i][2]=='Transformer') {
                 wt=transWt;
             } 
-            else if (projects[i][2]=="Zoid") {
+            else if (projects[i][2]=='Zoid') {
                 wt=zoidWt;
             } 
 
@@ -1708,14 +1708,14 @@ function composeStatsArray () {
 function convertDate() {
     for (let i=0;i<projects.length;i++) {
         if (!projects[i][8]) {
-            projects[i][8] = new Date("2099-12-25");
+            projects[i][8] = new Date('2099-12-25');
         } 
         else {
             projects[i][8] = new Date(projects[i][8]);
         }
 
         if (!projects[i][13]) {
-            projects[i][13] = new Date("2099-12-25");
+            projects[i][13] = new Date('2099-12-25');
         } 
         else {
             projects[i][13] = new Date(projects[i][13]);
@@ -1728,22 +1728,22 @@ function generateLists() {
     projects.sort();
     
     for (let i=0;i<projects.length;i++) {
-        if (projects[i][7] == "A" && projects[i][4]) {
+        if (projects[i][7] == 'A' && projects[i][4]) {
             pbUndeliveredArray.push(projects[i][0]);
         }
-        else if (projects[i][7] == "A") {
+        else if (projects[i][7] == 'A') {
             outOfInventoryArray.push(projects[i]);
         }
-        else if (projects[i][7] == "B") {
+        else if (projects[i][7] == 'B') {
             backlogArray.push(projects[i]);
         }
-        else if (projects[i][7] == "C") {
+        else if (projects[i][7] == 'C') {
             inProgressArray.push(projects[i]);
         }
-        else if (projects[i][7] == "D") {
+        else if (projects[i][7] == 'D') {
             constructedArray.push(projects[i]);
         }
-        else if (projects[i][7] == "E") {
+        else if (projects[i][7] == 'E') {
             postedArray.push(projects[i]);
         }
     }
@@ -1752,61 +1752,61 @@ function generateLists() {
     inProgressCount = inProgressArray.length;
     constructedCount = constructedArray.length;
     postedCount = postedArray.length;
-    inProgressArray = sortByDate(inProgressArray,"start");
-    constructedArray = sortByDate(constructedArray,"start");
-    postedArray = sortByDate(postedArray,"start");
+    inProgressArray = sortByDate(inProgressArray,'start');
+    constructedArray = sortByDate(constructedArray,'start');
+    postedArray = sortByDate(postedArray,'start');
 
     //Backlog by Grade
     for (let i=0;i<backlogArray.length;i++) {
         if (backlogArray[i][4]) {
             pbBacklogArray.push(backlogArray[i][0]);
         }
-        else if (backlogArray[i][2]=="PG") {
+        else if (backlogArray[i][2]=='PG') {
             pgBacklogArray.push(backlogArray[i][0]);
         }
         else if (backlogArray[i][3]) {
             sbBacklogArray.push(backlogArray[i][0]);
         }
-        else if (backlogArray[i][2]=="MG") {
+        else if (backlogArray[i][2]=='MG') {
             mgBacklogArray.push(backlogArray[i][0]);
         }
-        else if (backlogArray[i][2]=="FM") {
+        else if (backlogArray[i][2]=='FM') {
             fmBacklogArray.push(backlogArray[i][0]);
         }
-        else if (backlogArray[i][2]=="RG") {
+        else if (backlogArray[i][2]=='RG') {
             rgBacklogArray.push(backlogArray[i][0]);
         }
-        else if (backlogArray[i][2]=="HG") {
+        else if (backlogArray[i][2]=='HG') {
             hgBacklogArray.push(backlogArray[i][0]);
         }
-        else if (backlogArray[i][2]=="MGSD") {
+        else if (backlogArray[i][2]=='MGSD') {
             mgsdBacklogArray.push(backlogArray[i][0]);
         }
-        else if (backlogArray[i][2]=="SD") {
+        else if (backlogArray[i][2]=='SD') {
             sdBacklogArray.push(backlogArray[i][0]);
         }
-        else if (backlogArray[i][2]=="Car") {
+        else if (backlogArray[i][2]=='Car') {
             carBacklogArray.push(backlogArray[i][0]);
         }
-        else if (backlogArray[i][2]=="Digimon") {
+        else if (backlogArray[i][2]=='Digimon') {
             digiBacklogArray.push(backlogArray[i][0]);
         }
-        else if (backlogArray[i][2]=="Display") {
+        else if (backlogArray[i][2]=='Display') {
             dispBacklogArray.push(backlogArray[i][0]);
         }
-        else if (backlogArray[i][2]=="Haro") {
+        else if (backlogArray[i][2]=='Haro') {
             haroBacklogArray.push(backlogArray[i][0]);
         }
-        else if (backlogArray[i][2]=="Pokemon") {
+        else if (backlogArray[i][2]=='Pokemon') {
             pokeBacklogArray.push(backlogArray[i][0]);
         }
-        else if (backlogArray[i][2]=="Ship") {
+        else if (backlogArray[i][2]=='Ship') {
             shipBacklogArray.push(backlogArray[i][0]);
         }
-        else if (backlogArray[i][2]=="Transformer") {
+        else if (backlogArray[i][2]=='Transformer') {
             transBacklogArray.push(backlogArray[i][0]);
         }
-        else if (backlogArray[i][2]=="Zoid") {
+        else if (backlogArray[i][2]=='Zoid') {
             zoidBacklogArray.push(backlogArray[i][0]);
         }
     }
@@ -1816,102 +1816,102 @@ function generateLists() {
         if (postedArray[i][4]) {
             pbFinishedArray.push(postedArray[i][0]);
         }
-        else if (postedArray[i][2]=="PG") {
+        else if (postedArray[i][2]=='PG') {
             pgFinishedArray.push(postedArray[i][0]);
         }
         else if (postedArray[i][3]) {
             sbFinishedArray.push(postedArray[i][0]);
         }
-        else if (postedArray[i][2]=="MG") {
+        else if (postedArray[i][2]=='MG') {
             mgFinishedArray.push(postedArray[i][0]);
         }
-        else if (postedArray[i][2]=="FM") {
+        else if (postedArray[i][2]=='FM') {
             fmFinishedArray.push(postedArray[i][0]);
         }
-        else if (postedArray[i][2]=="RG") {
+        else if (postedArray[i][2]=='RG') {
             rgFinishedArray.push(postedArray[i][0]);
         }
-        else if (postedArray[i][2]=="HG") {
+        else if (postedArray[i][2]=='HG') {
             hgFinishedArray.push(postedArray[i][0]);
         }
-        else if (postedArray[i][2]=="MGSD") {
+        else if (postedArray[i][2]=='MGSD') {
             mgsdFinishedArray.push(postedArray[i][0]);
         }
-        else if (postedArray[i][2]=="SD") {
+        else if (postedArray[i][2]=='SD') {
             sdFinishedArray.push(postedArray[i][0]);
         }
-        else if (postedArray[i][2]=="Car") {
+        else if (postedArray[i][2]=='Car') {
             carFinishedArray.push(postedArray[i][0]);
         }
-        else if (postedArray[i][2]=="Digimon") {
+        else if (postedArray[i][2]=='Digimon') {
             digiFinishedArray.push(postedArray[i][0]);
         }
-        else if (postedArray[i][2]=="Display") {
+        else if (postedArray[i][2]=='Display') {
             dispFinishedArray.push(postedArray[i][0]);
         }
-        else if (postedArray[i][2]=="Haro") {
+        else if (postedArray[i][2]=='Haro') {
             haroFinishedArray.push(postedArray[i][0]);
         }
-        else if (postedArray[i][2]=="Pokemon") {
+        else if (postedArray[i][2]=='Pokemon') {
             pokeFinishedArray.push(postedArray[i][0]);
         }
-        else if (postedArray[i][2]=="Ship") {
+        else if (postedArray[i][2]=='Ship') {
             shipFinishedArray.push(postedArray[i][0]);
         }
-        else if (postedArray[i][2]=="Transformer") {
+        else if (postedArray[i][2]=='Transformer') {
             transFinishedArray.push(postedArray[i][0]);
         }
-        else if (postedArray[i][2]=="Zoid") {
+        else if (postedArray[i][2]=='Zoid') {
             zoidFinishedArray.push(postedArray[i][0]);
         }
     }
 
     //Clean up in backlog lists
-    pgBacklogArray = cleanupArrays(pgBacklogArray,"out");
-    mgBacklogArray = cleanupArrays(mgBacklogArray,"out");
-    fmBacklogArray = cleanupArrays(fmBacklogArray,"out");
-    rgBacklogArray = cleanupArrays(rgBacklogArray,"out");
-    hgBacklogArray = cleanupArrays(hgBacklogArray,"out");
-    mgsdBacklogArray = cleanupArrays(mgsdBacklogArray,"out");
-    sdBacklogArray = cleanupArrays(sdBacklogArray,"out");
-    pbBacklogArray = cleanupArrays(pbBacklogArray,"out");
-    sbBacklogArray = cleanupArrays(sbBacklogArray,"out");
-    carBacklogArray = cleanupArrays(carBacklogArray,"out");
-    digiBacklogArray = cleanupArrays(digiBacklogArray,"out");
-    dispBacklogArray = cleanupArrays(dispBacklogArray,"out");
-    haroBacklogArray = cleanupArrays(haroBacklogArray,"out");
-    pokeBacklogArray = cleanupArrays(pokeBacklogArray,"out");
-    shipBacklogArray = cleanupArrays(shipBacklogArray,"out");
-    transBacklogArray = cleanupArrays(transBacklogArray,"out");
-    zoidBacklogArray = cleanupArrays(zoidBacklogArray,"out");
+    pgBacklogArray = cleanupArrays(pgBacklogArray,'out');
+    mgBacklogArray = cleanupArrays(mgBacklogArray,'out');
+    fmBacklogArray = cleanupArrays(fmBacklogArray,'out');
+    rgBacklogArray = cleanupArrays(rgBacklogArray,'out');
+    hgBacklogArray = cleanupArrays(hgBacklogArray,'out');
+    mgsdBacklogArray = cleanupArrays(mgsdBacklogArray,'out');
+    sdBacklogArray = cleanupArrays(sdBacklogArray,'out');
+    pbBacklogArray = cleanupArrays(pbBacklogArray,'out');
+    sbBacklogArray = cleanupArrays(sbBacklogArray,'out');
+    carBacklogArray = cleanupArrays(carBacklogArray,'out');
+    digiBacklogArray = cleanupArrays(digiBacklogArray,'out');
+    dispBacklogArray = cleanupArrays(dispBacklogArray,'out');
+    haroBacklogArray = cleanupArrays(haroBacklogArray,'out');
+    pokeBacklogArray = cleanupArrays(pokeBacklogArray,'out');
+    shipBacklogArray = cleanupArrays(shipBacklogArray,'out');
+    transBacklogArray = cleanupArrays(transBacklogArray,'out');
+    zoidBacklogArray = cleanupArrays(zoidBacklogArray,'out');
 
     //Clean up in finish lists
-    pgFinishedArray = cleanupArrays(pgFinishedArray,"fin");
-    mgFinishedArray = cleanupArrays(mgFinishedArray,"fin");
-    fmFinishedArray = cleanupArrays(fmFinishedArray,"fin");
-    rgFinishedArray = cleanupArrays(rgFinishedArray,"fin");
-    hgFinishedArray = cleanupArrays(hgFinishedArray,"fin");
-    mgsdFinishedArray = cleanupArrays(mgsdFinishedArray,"fin");
-    sdFinishedArray = cleanupArrays(sdFinishedArray,"fin");
-    pbFinishedArray = cleanupArrays(pbFinishedArray,"fin");
-    sbFinishedArray = cleanupArrays(sbFinishedArray,"fin");
-    carFinishedArray = cleanupArrays(carFinishedArray,"fin");
-    digiFinishedArray = cleanupArrays(digiFinishedArray,"fin");
-    dispFinishedArray = cleanupArrays(dispFinishedArray,"fin");
-    haroFinishedArray = cleanupArrays(haroFinishedArray,"fin");
-    pokeFinishedArray = cleanupArrays(pokeFinishedArray,"fin");
-    shipFinishedArray = cleanupArrays(shipFinishedArray,"fin");
-    transFinishedArray = cleanupArrays(transFinishedArray,"fin");
-    zoidFinishedArray = cleanupArrays(zoidFinishedArray,"fin");
+    pgFinishedArray = cleanupArrays(pgFinishedArray,'fin');
+    mgFinishedArray = cleanupArrays(mgFinishedArray,'fin');
+    fmFinishedArray = cleanupArrays(fmFinishedArray,'fin');
+    rgFinishedArray = cleanupArrays(rgFinishedArray,'fin');
+    hgFinishedArray = cleanupArrays(hgFinishedArray,'fin');
+    mgsdFinishedArray = cleanupArrays(mgsdFinishedArray,'fin');
+    sdFinishedArray = cleanupArrays(sdFinishedArray,'fin');
+    pbFinishedArray = cleanupArrays(pbFinishedArray,'fin');
+    sbFinishedArray = cleanupArrays(sbFinishedArray,'fin');
+    carFinishedArray = cleanupArrays(carFinishedArray,'fin');
+    digiFinishedArray = cleanupArrays(digiFinishedArray,'fin');
+    dispFinishedArray = cleanupArrays(dispFinishedArray,'fin');
+    haroFinishedArray = cleanupArrays(haroFinishedArray,'fin');
+    pokeFinishedArray = cleanupArrays(pokeFinishedArray,'fin');
+    shipFinishedArray = cleanupArrays(shipFinishedArray,'fin');
+    transFinishedArray = cleanupArrays(transFinishedArray,'fin');
+    zoidFinishedArray = cleanupArrays(zoidFinishedArray,'fin');
 
     //Clean UP PB Undelivered
-    pbUndeliveredArray = cleanupArrays(pbUndeliveredArray,"fin");
+    pbUndeliveredArray = cleanupArrays(pbUndeliveredArray,'fin');
 }
 
 function generateRandomBuild() {
-    const nextBuildNode = document.getElementById("nextBuildID");
-    const nextGradeNode = document.getElementById("nextGradeID");
-    const nextBacklogNode = document.getElementById("backlogID");
+    const nextBuildNode = document.getElementById('nextBuildID');
+    const nextGradeNode = document.getElementById('nextGradeID');
+    const nextBacklogNode = document.getElementById('backlogID');
     nextBuildNode.removeChild(nextBuildNode.firstChild);
     nextGradeNode.removeChild(nextGradeNode.firstChild);
     nextBacklogNode.removeChild(nextBacklogNode.firstChild);
@@ -1931,34 +1931,34 @@ function generateRandomBuild() {
 }
 
 function gradeEdifier(array) {
-    let grade = "";
+    let grade = '';
     
-    if (array[2] == "PG") {
-        grade = "Perfect Grade";
+    if (array[2] == 'PG') {
+        grade = 'Perfect Grade';
     }
-    else if (array[2] == "MG") {
-        grade = "Master Grade";
+    else if (array[2] == 'MG') {
+        grade = 'Master Grade';
     }
-    else if (array[2] == "FM") {
-        grade = "Full Mechanics";
+    else if (array[2] == 'FM') {
+        grade = 'Full Mechanics';
     }
-    else if (array[2] == "RG") {
-        grade = "Real Grade";
+    else if (array[2] == 'RG') {
+        grade = 'Real Grade';
     }
-    else if (array[2] == "HG") {
-        grade = "High Grade";
+    else if (array[2] == 'HG') {
+        grade = 'High Grade';
     }
-    else if (array[2] == "SD") {
-        grade = "Super Deformed";
+    else if (array[2] == 'SD') {
+        grade = 'Super Deformed';
     }
     else if (array[3]) {
-        grade = "Straight Build";
+        grade = 'Straight Build';
     }
     else if (array[4]) {
-        grade = "P-Bandai";
+        grade = 'P-Bandai';
     }
     else if (array[5]) {
-        grade = "MGEX";
+        grade = 'MGEX';
     }
     else {
         grade = array[2];
@@ -1978,7 +1978,7 @@ function initialize() {
 
 function insertLine (text,ID) {
     const listNode = document.getElementById(ID);
-    const lineItemNode = document.createElement("li");
+    const lineItemNode = document.createElement('li');
     const textNode = document.createTextNode(text);
     listNode.appendChild(lineItemNode);
     lineItemNode.appendChild(textNode);
@@ -1987,7 +1987,7 @@ function insertLine (text,ID) {
 function populateBuildsPage() {
     convertDate();
     generateLists();
-    postedArray = sortByDate(postedArray,"post");
+    postedArray = sortByDate(postedArray,'post');
 
     let buildColumnsNode = document.getElementById('buildColumns');
     for (let i=0;i<postedArray.length;i++) {
@@ -2044,139 +2044,139 @@ function poststats() {
     composeStatsArray();
 
     //Populate 
-    populateStat(pgCount,"pgPrj",0);
-    populateStat(pgStrCount,"pgStrPrj",0);
-    populateStat(pgCountPB,"pgPB",0);
-    populateStat(pgRemain,"pgRM",0);
-    populateStat(pgHours,"pgHR",2);
-    populateStat(pgAve,"pgAHR",2);
-    populateStat(pgStrAve,"pgSHR",2);
-    populateStat(pgWt,"pgWT",2);
+    populateStat(pgCount,'pgPrj',0);
+    populateStat(pgStrCount,'pgStrPrj',0);
+    populateStat(pgCountPB,'pgPB',0);
+    populateStat(pgRemain,'pgRM',0);
+    populateStat(pgHours,'pgHR',2);
+    populateStat(pgAve,'pgAHR',2);
+    populateStat(pgStrAve,'pgSHR',2);
+    populateStat(pgWt,'pgWT',2);
 
-    populateStat(mgCount,"mgPrj",0);
-    populateStat(mgStrCount,"mgStrPrj",0);
-    populateStat(mgCountPB,"mgPB",0);
-    populateStat(mgRemain,"mgRM",0);
-    populateStat(mgHours,"mgHR",2);
-    populateStat(mgAve,"mgAHR",2);
-    populateStat(mgStrAve,"mgSHR",2);
-    populateStat(mgWt,"mgWT",2);
+    populateStat(mgCount,'mgPrj',0);
+    populateStat(mgStrCount,'mgStrPrj',0);
+    populateStat(mgCountPB,'mgPB',0);
+    populateStat(mgRemain,'mgRM',0);
+    populateStat(mgHours,'mgHR',2);
+    populateStat(mgAve,'mgAHR',2);
+    populateStat(mgStrAve,'mgSHR',2);
+    populateStat(mgWt,'mgWT',2);
 
-    populateStat(fmCount,"fmPrj",0);
-    populateStat(fmStrCount,"fmStrPrj",0);
-    populateStat(fmCountPB,"fmPB",0);
-    populateStat(fmRemain,"fmRM",0);
-    populateStat(fmHours,"fmHR",2);
-    populateStat(fmAve,"fmAHR",2);
-    populateStat(fmStrAve,"fmSHR",2);
-    populateStat(fmWt,"fmWT",2);
+    populateStat(fmCount,'fmPrj',0);
+    populateStat(fmStrCount,'fmStrPrj',0);
+    populateStat(fmCountPB,'fmPB',0);
+    populateStat(fmRemain,'fmRM',0);
+    populateStat(fmHours,'fmHR',2);
+    populateStat(fmAve,'fmAHR',2);
+    populateStat(fmStrAve,'fmSHR',2);
+    populateStat(fmWt,'fmWT',2);
 
-    populateStat(rgCount,"rgPrj",0);
-    populateStat(rgStrCount,"rgStrPrj",0);
-    populateStat(rgCountPB,"rgPB",0);
-    populateStat(rgRemain,"rgRM",0);
-    populateStat(rgHours,"rgHR",2);
-    populateStat(rgAve,"rgAHR",2);
-    populateStat(rgStrAve,"rgSHR",2);
-    populateStat(rgWt,"rgWT",2);
+    populateStat(rgCount,'rgPrj',0);
+    populateStat(rgStrCount,'rgStrPrj',0);
+    populateStat(rgCountPB,'rgPB',0);
+    populateStat(rgRemain,'rgRM',0);
+    populateStat(rgHours,'rgHR',2);
+    populateStat(rgAve,'rgAHR',2);
+    populateStat(rgStrAve,'rgSHR',2);
+    populateStat(rgWt,'rgWT',2);
 
-    populateStat(hgCount,"hgPrj",0);
-    populateStat(hgStrCount,"hgStrPrj",0);
-    populateStat(hgCountPB,"hgPB",0);
-    populateStat(hgRemain,"hgRM",0);
-    populateStat(hgHours,"hgHR",2);
-    populateStat(hgAve,"hgAHR",2);
-    populateStat(hgStrAve,"hgSHR",2);
-    populateStat(hgWt,"hgWT",2);
+    populateStat(hgCount,'hgPrj',0);
+    populateStat(hgStrCount,'hgStrPrj',0);
+    populateStat(hgCountPB,'hgPB',0);
+    populateStat(hgRemain,'hgRM',0);
+    populateStat(hgHours,'hgHR',2);
+    populateStat(hgAve,'hgAHR',2);
+    populateStat(hgStrAve,'hgSHR',2);
+    populateStat(hgWt,'hgWT',2);
 
-    populateStat(mgsdCount,"mgsdPrj",0);
-    populateStat(mgsdStrCount,"mgsdStrPrj",0);
-    populateStat(mgsdCountPB,"mgsdPB",0);
-    populateStat(mgsdRemain,"mgsdRM",0);
-    populateStat(mgsdHours,"mgsdHR",2);
-    populateStat(mgsdAve,"mgsdAHR",2);
-    populateStat(mgsdStrAve,"mgsdSHR",2);
-    populateStat(mgsdWt,"mgsdWT",2);
+    populateStat(mgsdCount,'mgsdPrj',0);
+    populateStat(mgsdStrCount,'mgsdStrPrj',0);
+    populateStat(mgsdCountPB,'mgsdPB',0);
+    populateStat(mgsdRemain,'mgsdRM',0);
+    populateStat(mgsdHours,'mgsdHR',2);
+    populateStat(mgsdAve,'mgsdAHR',2);
+    populateStat(mgsdStrAve,'mgsdSHR',2);
+    populateStat(mgsdWt,'mgsdWT',2);
 
-    populateStat(sdCount,"sdPrj",0);
-    populateStat(sdStrCount,"sdStrPrj",0);
-    populateStat(sdCountPB,"sdPB",0);
-    populateStat(sdRemain,"sdRM",0);
-    populateStat(sdHours,"sdHR",2);
-    populateStat(sdAve,"sdAHR",2);
-    populateStat(sdStrAve,"sdSHR",2);
-    populateStat(sdWt,"sdWT",2);
+    populateStat(sdCount,'sdPrj',0);
+    populateStat(sdStrCount,'sdStrPrj',0);
+    populateStat(sdCountPB,'sdPB',0);
+    populateStat(sdRemain,'sdRM',0);
+    populateStat(sdHours,'sdHR',2);
+    populateStat(sdAve,'sdAHR',2);
+    populateStat(sdStrAve,'sdSHR',2);
+    populateStat(sdWt,'sdWT',2);
 
-    populateStat(shipCount,"shipPrj",0);
-    populateStat(shipStrCount,"shipStrPrj",0);
-    populateStat(shipCountPB,"shipPB",0);
-    populateStat(shipRemain,"shipRM",0);
-    populateStat(shipHours,"shipHR",2);
-    populateStat(shipAve,"shipAHR",2);
-    populateStat(shipStrAve,"shipSHR",2);
-    populateStat(shipWt,"shipWT",2);
+    populateStat(shipCount,'shipPrj',0);
+    populateStat(shipStrCount,'shipStrPrj',0);
+    populateStat(shipCountPB,'shipPB',0);
+    populateStat(shipRemain,'shipRM',0);
+    populateStat(shipHours,'shipHR',2);
+    populateStat(shipAve,'shipAHR',2);
+    populateStat(shipStrAve,'shipSHR',2);
+    populateStat(shipWt,'shipWT',2);
 
-    populateStat(haroCount,"haroPrj",0);
-    populateStat(haroStrCount,"haroStrPrj",0);
-    populateStat(haroCountPB,"haroPB",0);
-    populateStat(haroRemain,"haroRM",0);
-    populateStat(haroHours,"haroHR",2);
-    populateStat(haroAve,"haroAHR",2);
-    populateStat(haroStrAve,"haroSHR",2);
-    populateStat(haroWt,"haroWT",2);
+    populateStat(haroCount,'haroPrj',0);
+    populateStat(haroStrCount,'haroStrPrj',0);
+    populateStat(haroCountPB,'haroPB',0);
+    populateStat(haroRemain,'haroRM',0);
+    populateStat(haroHours,'haroHR',2);
+    populateStat(haroAve,'haroAHR',2);
+    populateStat(haroStrAve,'haroSHR',2);
+    populateStat(haroWt,'haroWT',2);
 
-    populateStat(dispCount,"dispPrj",0);
-    populateStat(dispStrCount,"dispStrPrj",0);
-    populateStat(dispCountPB,"dispPB",0);
-    populateStat(dispRemain,"dispRM",0);
-    populateStat(dispHours,"dispHR",2);
-    populateStat(dispAve,"dispAHR",2);
-    populateStat(dispStrAve,"dispSHR",2);
-    populateStat(dispWt,"dispWT",2);
+    populateStat(dispCount,'dispPrj',0);
+    populateStat(dispStrCount,'dispStrPrj',0);
+    populateStat(dispCountPB,'dispPB',0);
+    populateStat(dispRemain,'dispRM',0);
+    populateStat(dispHours,'dispHR',2);
+    populateStat(dispAve,'dispAHR',2);
+    populateStat(dispStrAve,'dispSHR',2);
+    populateStat(dispWt,'dispWT',2);
 
-    populateStat(pokeCount,"pokePrj",0);
-    populateStat(pokeStrCount,"pokeStrPrj",0);
-    populateStat(pokeRemain,"pokeRM",0);
-    populateStat(pokeHours,"pokeHR",2);
-    populateStat(pokeAve,"pokeAHR",2);
-    populateStat(pokeStrAve,"pokeSHR",2);
-    populateStat(pokeWt,"pokeWT",2);
+    populateStat(pokeCount,'pokePrj',0);
+    populateStat(pokeStrCount,'pokeStrPrj',0);
+    populateStat(pokeRemain,'pokeRM',0);
+    populateStat(pokeHours,'pokeHR',2);
+    populateStat(pokeAve,'pokeAHR',2);
+    populateStat(pokeStrAve,'pokeSHR',2);
+    populateStat(pokeWt,'pokeWT',2);
 
-    populateStat(digiCount,"digiPrj",0);
-    populateStat(digiStrCount,"digiStrPrj",0);
-    populateStat(digiRemain,"digiRM",0);
-    populateStat(digiHours,"digiHR",2);
-    populateStat(digiAve,"digiAHR",2);
-    populateStat(digiStrAve,"digiSHR",2);
-    populateStat(digiWt,"digiWT",2);
+    populateStat(digiCount,'digiPrj',0);
+    populateStat(digiStrCount,'digiStrPrj',0);
+    populateStat(digiRemain,'digiRM',0);
+    populateStat(digiHours,'digiHR',2);
+    populateStat(digiAve,'digiAHR',2);
+    populateStat(digiStrAve,'digiSHR',2);
+    populateStat(digiWt,'digiWT',2);
 
-    populateStat(carCount,"carPrj",0);
-    populateStat(carStrCount,"carStrPrj",0);
-    populateStat(carRemain,"carRM",0);
-    populateStat(carHours,"carHR",2);
-    populateStat(carAve,"carAHR",2);
-    populateStat(carStrAve,"carSHR",2);
-    populateStat(carWt,"carWT",2);
+    populateStat(carCount,'carPrj',0);
+    populateStat(carStrCount,'carStrPrj',0);
+    populateStat(carRemain,'carRM',0);
+    populateStat(carHours,'carHR',2);
+    populateStat(carAve,'carAHR',2);
+    populateStat(carStrAve,'carSHR',2);
+    populateStat(carWt,'carWT',2);
 
-    populateStat(transCount,"transPrj",0);
-    populateStat(transCount,"transStrPrj",0);
-    populateStat(transRemain,"transRM",0);
-    populateStat(transHours,"transHR",2);
-    populateStat(transAve,"transAHR",2);
-    populateStat(transStrAve,"transSHR",2);
-    populateStat(transWt,"transWT",2);
+    populateStat(transCount,'transPrj',0);
+    populateStat(transCount,'transStrPrj',0);
+    populateStat(transRemain,'transRM',0);
+    populateStat(transHours,'transHR',2);
+    populateStat(transAve,'transAHR',2);
+    populateStat(transStrAve,'transSHR',2);
+    populateStat(transWt,'transWT',2);
 
-    populateStat(zoidCount,"zoidPrj",0);
-    populateStat(zoidCount,"zoidStrPrj",0);
-    populateStat(zoidRemain,"zoidRM",0);
-    populateStat(zoidHours,"zoidHR",2);
-    populateStat(zoidAve,"zoidAHR",2);
-    populateStat(zoidStrAve,"zoidSHR",2);
-    populateStat(zoidWt,"zoidWT",2);
+    populateStat(zoidCount,'zoidPrj',0);
+    populateStat(zoidCount,'zoidStrPrj',0);
+    populateStat(zoidRemain,'zoidRM',0);
+    populateStat(zoidHours,'zoidHR',2);
+    populateStat(zoidAve,'zoidAHR',2);
+    populateStat(zoidStrAve,'zoidSHR',2);
+    populateStat(zoidWt,'zoidWT',2);
 
-    populateStat(paintedAverage,"paintAve",2);
-    populateStat(straightAverage,"straightAve",2);
-    populateStat(straightWeight,"straightWeight",2);
+    populateStat(paintedAverage,'paintAve',2);
+    populateStat(straightAverage,'straightAve',2);
+    populateStat(straightWeight,'straightWeight',2);
 }
 
 function projectAverage(grade,straight) {
@@ -2184,7 +2184,7 @@ function projectAverage(grade,straight) {
     let count = 0;
 
     for (let i=0;i<projects.length;i++) {
-        if (projects[i][2]==grade && projects[i][3]===straight && (projects[i][7]=="C" || projects[i][7]=="D" || projects[i][7]=="E")) {
+        if (projects[i][2]==grade && projects[i][3]===straight && (projects[i][7]=='C' || projects[i][7]=='D' || projects[i][7]=='E')) {
             hour = hour + projects[i][9];
             count = count + projects[i][1][0];
         }
@@ -2198,7 +2198,7 @@ function projectCount(grade,straight) {
     let count = 0;
 
     for (let i=0;i<projects.length;i++) {
-        if (projects[i][2] == grade && projects[i][3] === straight && (projects[i][7] === "C" || projects[i][7] === "D" || projects[i][7] === "E")) {
+        if (projects[i][2] == grade && projects[i][3] === straight && (projects[i][7] === 'C' || projects[i][7] === 'D' || projects[i][7] === 'E')) {
             count++;
         }
     }
@@ -2210,7 +2210,7 @@ function projectCountPB(grade) {
     let count = 0;
 
     for (let i=0;i<projects.length;i++) {
-        if (projects[i][2] == grade && projects[i][4] && (projects[i][7] == "C" || projects[i][7] == "D" || projects[i][7] == "E")) {
+        if (projects[i][2] == grade && projects[i][4] && (projects[i][7] == 'C' || projects[i][7] == 'D' || projects[i][7] == 'E')) {
             count++;
         }
     }
@@ -2222,7 +2222,7 @@ function projectHours(grade) {
     let hours = 0;
 
     for (let i=0;i<projects.length;i++) {
-        if ((projects[i][7]=="C" || projects[i][7]=="D" || projects[i][7]=="E") && projects[i][2]==grade) {
+        if ((projects[i][7]=='C' || projects[i][7]=='D' || projects[i][7]=='E') && projects[i][2]==grade) {
             hours = hours + projects[i][9];
         }
     }
@@ -2234,7 +2234,7 @@ function projectRemaining(grade) {
     let count = 0;
 
     for (let i=0;i<projects.length;i++) {
-        if ((projects[i][7]=="A" || projects[i][7]=="B") && projects[i][2]==grade) {
+        if ((projects[i][7]=='A' || projects[i][7]=='B') && projects[i][2]==grade) {
             count++;
         }
     }
@@ -2249,7 +2249,7 @@ function removeAllChildNodes(parent) {
 }
 
 function sortByDate(array,sort) {
-    if (sort == "post")
+    if (sort == 'post')
     {
         array.sort((a,b) => a[13] - b[13]);
     }
@@ -2271,7 +2271,7 @@ function stageCount(array,stage) {
 }
 
 function suggestNextPost () {
-    const suggestPostNode = document.getElementById("toPost");
+    const suggestPostNode = document.getElementById('toPost');
     removeAllChildNodes(suggestPostNode);
     
     let decisionNumber = Math.floor(Math.random()*constructedCount)
@@ -2290,27 +2290,27 @@ function projectPage(string) {
     }
 
     modelArray = projectArray[14];
-    let titleNode = document.getElementById("title");
-    let titleNodeText = document.createTextNode(projectArray[0]+" \u269C");
+    let titleNode = document.getElementById('title');
+    let titleNodeText = document.createTextNode(projectArray[0]+' \u269C');
     titleNode.appendChild(titleNodeText);
 
-    let jumboNode = document.getElementById("jumboNode");
+    let jumboNode = document.getElementById('jumboNode');
     let jumboNodeText = document.createTextNode(projectArray[0]);
     jumboNode.appendChild(jumboNodeText);
 
-    let breadcrumbNode = document.getElementById("breadcrumbNode");
+    let breadcrumbNode = document.getElementById('breadcrumbNode');
     let breadcrumbText = document.createTextNode(projectArray[0]);
     breadcrumbNode.appendChild(breadcrumbText);
 
-    let projectTitleNode = document.getElementById("projectTitle");
-    let projectTitleNode_Mobile = document.getElementById("projectTitle_Mobile");
+    let projectTitleNode = document.getElementById('projectTitle');
+    let projectTitleNode_Mobile = document.getElementById('projectTitle_Mobile');
     if (modelArray[1] === 1) {
         let gundamStringNode = document.createTextNode('Gundam ');
         let gundamStringNodeMobile = document.createTextNode('Gundam ');
         projectTitleNode.appendChild(gundamStringNode);
         projectTitleNode_Mobile.appendChild(gundamStringNodeMobile);
     }
-    if (modelArray[1] === 2 || 3) {
+    if (modelArray[1] === 2 || modelArray[1] === 3) {
         let shipTitleStringNode = document.createTextNode(modelArray[27]+' ');
         let shipTitleStringNodeMobile = document.createTextNode(modelArray[27]+' ');
         projectTitleNode.appendChild(shipTitleStringNode);
@@ -2323,31 +2323,31 @@ function projectPage(string) {
     let projectTitleText_Mobile = document.createTextNode(projectArray[0]);
     projectTitleNode_Mobile.appendChild(projectTitleText_Mobile);
 
-    let modelNameNode = document.getElementById("modelFullName");
+    let modelNameNode = document.getElementById('modelFullName');
     let modelNameText = document.createTextNode(modelArray[3]);
     modelNameNode.appendChild(modelNameText);
 
-    insertPhoto(modelArray[26],"modelPhoto","../../");
-    insertPhoto(projectArray[16],"profilePhoto","../../");
+    insertPhoto(modelArray[26],'modelPhoto','../../');
+    insertPhoto(projectArray[16],'profilePhoto','../../');
 
-    let projectNameNode = document.getElementById("projectName");
+    let projectNameNode = document.getElementById('projectName');
     let projectNameText = document.createTextNode(projectArray[0]);
     projectNameNode.appendChild(projectNameText);
 
-    let modelName_ShortNode = document.getElementById("modelName_Short");
+    let modelName_ShortNode = document.getElementById('modelName_Short');
     let modelName_ShortText = document.createTextNode(modelArray[3]);
     modelName_ShortNode.appendChild(modelName_ShortText);
     
     if (projectArray[1].length>2) {
-        const otherModelsClass = document.querySelector(".otherModelsClass");
-        otherModelsClass.style.display = "block";
+        const otherModelsClass = document.querySelector('.otherModelsClass');
+        otherModelsClass.style.display = 'block';
         
-        let otherModelsNode = document.getElementById("otherModels");
+        let otherModelsNode = document.getElementById('otherModels');
         let otherModelText = document.createTextNode(projectArray[1][2]);
         otherModelsNode.appendChild(otherModelText);
         if (projectArray[1].length>3) {
             for (let i=3;i<projectArray[1].length;i++) {
-                let thirdModelText = document.createTextNode(", "+projectArray[1][i]);
+                let thirdModelText = document.createTextNode(', '+projectArray[1][i]);
                 otherModelsNode.appendChild(thirdModelText);
             }
         }
@@ -2362,46 +2362,46 @@ function projectPage(string) {
     let postDay = postStamp.getDate();
     let postYear = postStamp.getFullYear();
 
-    let dateStartNode = document.getElementById("dateStart");
-    let dateStartText = document.createTextNode(startMonth+" "+startYear);
+    let dateStartNode = document.getElementById('dateStart');
+    let dateStartText = document.createTextNode(startMonth+' '+startYear);
     dateStartNode.appendChild(dateStartText);
 
-    let datePostNode = document.getElementById("datePost");
-    let datePostText = document.createTextNode(postMonth+" "+postDay+" "+postYear);
+    let datePostNode = document.getElementById('datePost');
+    let datePostText = document.createTextNode(postMonth+' '+postDay+' '+postYear);
     datePostNode.appendChild(datePostText);
 
-    let dateStartNode_Mobile = document.getElementById("dateStart_Mobile");
-    let dateStartText_Mobile = document.createTextNode(startMonth+" "+startYear);
+    let dateStartNode_Mobile = document.getElementById('dateStart_Mobile');
+    let dateStartText_Mobile = document.createTextNode(startMonth+' '+startYear);
     dateStartNode_Mobile.appendChild(dateStartText_Mobile);
 
-    let datePostNode_Mobile = document.getElementById("datePost_Mobile");
-    let datePostText_Mobile = document.createTextNode(postMonth+" "+postDay+" "+postYear);
+    let datePostNode_Mobile = document.getElementById('datePost_Mobile');
+    let datePostText_Mobile = document.createTextNode(postMonth+' '+postDay+' '+postYear);
     datePostNode_Mobile.appendChild(datePostText_Mobile);
        
-    let tHoursNode = document.getElementById("tHours");
-    let tHoursText = document.createTextNode(projectArray[9]+" hrs");
+    let tHoursNode = document.getElementById('tHours');
+    let tHoursText = document.createTextNode(projectArray[9]+' hrs');
     tHoursNode.appendChild(tHoursText);
 
-    let ledQ = "No";
+    let ledQ = 'No';
     if (projectArray[10]) {
-        ledQ = "Yes";
+        ledQ = 'Yes';
     }
 
-    let LEDS_Node = document.getElementById("LEDS");
+    let LEDS_Node = document.getElementById('LEDS');
     let LEDS_Text = document.createTextNode(ledQ);
     LEDS_Node.appendChild(LEDS_Text);
 
-    let descripNode = document.getElementById("descrip");
+    let descripNode = document.getElementById('descrip');
     let descripText = document.createTextNode(projectArray[17]);
     descripNode.appendChild(descripText);
 
-    let descripMobileNode = document.getElementById("descripMobile");
+    let descripMobileNode = document.getElementById('descripMobile');
     let descripMobileText = document.createTextNode(projectArray[17]);
     descripMobileNode.appendChild(descripMobileText);
 
     if (projectArray[12]) {
-        const gPaintClass = document.querySelector(".gPaint");
-        gPaintClass.style.display = "block";
+        const gPaintClass = document.querySelector('.gPaint');
+        gPaintClass.style.display = 'block';
 
         let paintUL = document.getElementById('paints');
         for (let i=0;i<projectArray[12].length;i++) {
@@ -2416,8 +2416,8 @@ function projectPage(string) {
     }
 
     if (projectArray[20]) {
-        const affiliates = document.querySelector(".affiliates");
-        affiliates.style.display = "block";
+        const affiliates = document.querySelector('.affiliates');
+        affiliates.style.display = 'block';
 
         let affilatesArray = [];
         for (let i=0;i<projectArray[20].length;i++) {
@@ -2428,7 +2428,7 @@ function projectPage(string) {
             }
         }
 
-        projectLinks(affilatesArray,"gAffiliates");
+        projectLinks(affilatesArray,'gAffiliates');
     }
 
 
@@ -2440,23 +2440,23 @@ function projectPage(string) {
     }
 
     if (otherArray.length>0) {
-        const otherBuilds = document.querySelector("affiliates");
-        otherBuilds.style.display = "block";
+        const otherBuilds = document.querySelector('affiliates');
+        otherBuilds.style.display = 'block';
 
-        projectLinks(otherArray,"otherBuilds");
+        projectLinks(otherArray,'otherBuilds');
     }
 
     if (projectArray[19]) {
-        const outsideLinks = document.querySelector(".links");
-        outsideLinks.style.display = "block";
+        const outsideLinks = document.querySelector('.links');
+        outsideLinks.style.display = 'block';
 
-        let destinationNode = document.getElementById("outsideLinks")
+        let destinationNode = document.getElementById('outsideLinks')
         for (let i=0;i<projectArray[19].length;i++) {
-            let liNode = document.createElement("li");
-            let aNode = document.createElement("a");
-            let aHref = document.createAttribute("href");
-            let aTarget = document.createAttribute("target");
-            aTarget.value = "_blank";
+            let liNode = document.createElement('li');
+            let aNode = document.createElement('a');
+            let aHref = document.createAttribute('href');
+            let aTarget = document.createAttribute('target');
+            aTarget.value = '_blank';
             aHref.value = projectArray[19][i][1];
             aNode.setAttributeNode(aHref);
             aNode.setAttributeNode(aTarget);
@@ -2509,8 +2509,8 @@ function projectPage(string) {
     }
 
     if (projectArray[18]) {
-        const ownerClass = document.querySelector(".owner");
-        ownerClass.style.display = "block";
+        const ownerClass = document.querySelector('.owner');
+        ownerClass.style.display = 'block';
 
         let ownerNode = document.getElementById('cOwner');
         let ownerText = document.createTextNode(projectArray[18]);
@@ -2520,103 +2520,103 @@ function projectPage(string) {
 }
 
 function convertMonth(n) {
-    let month = "Month";
+    let month = 'Month';
     if (n==0) {
-        month = "January"
+        month = 'January'
     }
     else  if (n==1) {
-        month = "February"
+        month = 'February'
     }
     else  if (n==2) {
-        month = "March"
+        month = 'March'
     }
     else  if (n==3) {
-        month = "April"
+        month = 'April'
     }
     else  if (n==4) {
-        month = "May"
+        month = 'May'
     }
     else  if (n==5) {
-        month = "June"
+        month = 'June'
     }
     else  if (n==6) {
-        month = "July"
+        month = 'July'
     }
     else  if (n==7) {
-        month = "August"
+        month = 'August'
     }
     else  if (n==8) {
-        month = "September"
+        month = 'September'
     }
     else  if (n==9) {
-        month = "Otober"
+        month = 'Otober'
     }
     else  if (n==10) {
-        month = "November"
+        month = 'November'
     }
     else {
-        month = "December"
+        month = 'December'
     }
     return month;
 }
 
 function generateModalFrame() {
-    let anchorNode = document.getElementById("modalAnchor");
+    let anchorNode = document.getElementById('modalAnchor');
 
     for (let i=0;i<projectArray[15].length;i++) {
         let count=i+1;
 
-        let div1Node = document.createElement("div");
-        let div1ID = document.createAttribute("id");
-        div1ID.value = "photoModal"+count;
-        let div1Class = document.createAttribute("class");
-        div1Class.value = "modal";
-        let div1Role = document.createAttribute("role");
-        div1Role.value = ("dialog");
+        let div1Node = document.createElement('div');
+        let div1ID = document.createAttribute('id');
+        div1ID.value = 'photoModal'+count;
+        let div1Class = document.createAttribute('class');
+        div1Class.value = 'modal';
+        let div1Role = document.createAttribute('role');
+        div1Role.value = ('dialog');
         div1Node.setAttributeNode(div1Class);
         div1Node.setAttributeNode(div1Role);
         div1Node.setAttributeNode(div1ID);
 
-        let div2Node = document.createElement("div");
-        let div2Class = document.createAttribute("class");
-        div2Class.value = "modal-dialog modal-lg";
-        let div2Role = document.createAttribute("role");
-        div2Role.value = ("document");
+        let div2Node = document.createElement('div');
+        let div2Class = document.createAttribute('class');
+        div2Class.value = 'modal-dialog modal-lg';
+        let div2Role = document.createAttribute('role');
+        div2Role.value = ('document');
         div2Node.setAttributeNode(div2Class);
         div2Node.setAttributeNode(div2Role);
         div1Node.appendChild(div2Node);
 
-        let div3Node = document.createElement("div");
-        let div3Class = document.createAttribute("class");
-        div3Class.value = "modal-content";
+        let div3Node = document.createElement('div');
+        let div3Class = document.createAttribute('class');
+        div3Class.value = 'modal-content';
         div3Node.setAttributeNode(div3Class);
         div2Node.appendChild(div3Node);
 
-        let div4Node = document.createElement("div");
-        let div4Class = document.createAttribute("class");
-        div4Class.value = "modal-header bg-secondary text-white";
+        let div4Node = document.createElement('div');
+        let div4Class = document.createAttribute('class');
+        div4Class.value = 'modal-header bg-secondary text-white';
         div4Node.setAttributeNode(div4Class);
         div3Node.appendChild(div4Node);
 
-        let h3_1Node = document.createElement("h3");
-        let h3_1Class = document.createAttribute("class");
-        h3_1Class.value = "modal-title";
-        let h3_1ID = document.createAttribute("id");
-        h3_1ID.value = "caption"+count;
+        let h3_1Node = document.createElement('h3');
+        let h3_1Class = document.createAttribute('class');
+        h3_1Class.value = 'modal-title';
+        let h3_1ID = document.createAttribute('id');
+        h3_1ID.value = 'caption'+count;
         h3_1Node.setAttributeNode(h3_1Class);
         h3_1Node.setAttributeNode(h3_1ID);
         div4Node.appendChild(h3_1Node);
 
-        let button1Node = document.createElement("button");
-        let button1Type = document.createAttribute("type");
-        button1Type.value = "button";
-        let button1Class = document.createAttribute("class");
-        button1Class.value = "close";
-        let button1DataDismiss = document.createAttribute("data-dismiss");
-        button1DataDismiss.value = "modal";
-        let button1ID = document.createAttribute("id");
-        button1ID.value = "close"+count;
-        let button1Text = document.createTextNode("X");
+        let button1Node = document.createElement('button');
+        let button1Type = document.createAttribute('type');
+        button1Type.value = 'button';
+        let button1Class = document.createAttribute('class');
+        button1Class.value = 'close';
+        let button1DataDismiss = document.createAttribute('data-dismiss');
+        button1DataDismiss.value = 'modal';
+        let button1ID = document.createAttribute('id');
+        button1ID.value = 'close'+count;
+        let button1Text = document.createTextNode('X');
         button1Node.setAttributeNode(button1Type);
         button1Node.setAttributeNode(button1Class);
         button1Node.setAttributeNode(button1DataDismiss);
@@ -2624,23 +2624,23 @@ function generateModalFrame() {
         button1Node.appendChild(button1Text);
         div4Node.appendChild(button1Node);
 
-        let div5Node = document.createElement("div");
-        let div5Class = document.createAttribute("class");
-        div5Class.value = "modal-body";
+        let div5Node = document.createElement('div');
+        let div5Class = document.createAttribute('class');
+        div5Class.value = 'modal-body';
         div5Node.setAttributeNode(div5Class);
         div3Node.appendChild(div5Node);
 
-        let div6Node = document.createElement("div");
-        let div6Class = document.createAttribute("class");
-        div6Class.value = "container-fluid";
+        let div6Node = document.createElement('div');
+        let div6Class = document.createAttribute('class');
+        div6Class.value = 'container-fluid';
         div6Node.setAttributeNode(div6Class);
         div5Node.appendChild(div6Node);
 
-        let img1Node = document.createElement("img");
-        let img1Class = document.createAttribute("class");
-        img1Class.value = "img-fluid";
-        let img1ID = document.createAttribute("id");
-        img1ID.value = "modImg"+count;
+        let img1Node = document.createElement('img');
+        let img1Class = document.createAttribute('class');
+        img1Class.value = 'img-fluid';
+        let img1ID = document.createAttribute('id');
+        img1ID.value = 'modImg'+count;
         img1Node.setAttributeNode(img1Class);
         img1Node.setAttributeNode(img1ID);
         div6Node.appendChild(img1Node);
@@ -2650,13 +2650,13 @@ function generateModalFrame() {
 }
 
 function insertPhoto (array,id,dots) {
-    let imgNode = document.createElement("img");
-    let srcAttribute = document.createAttribute("src");
+    let imgNode = document.createElement('img');
+    let srcAttribute = document.createAttribute('src');
     srcAttribute.value = dots+array[0];
-    let altAttribute = document.createAttribute("alt");
+    let altAttribute = document.createAttribute('alt');
     altAttribute.value = array[1];
-    let imgClassAttribute = document.createAttribute("class");
-    imgClassAttribute.value = "img-fluid img-thumbnail";
+    let imgClassAttribute = document.createAttribute('class');
+    imgClassAttribute.value = 'img-fluid img-thumbnail';
     imgNode.setAttributeNode(srcAttribute);
     imgNode.setAttributeNode(altAttribute);
     imgNode.setAttributeNode(imgClassAttribute);
@@ -2666,27 +2666,27 @@ function insertPhoto (array,id,dots) {
 }
 
 function insertPhotoColumn (array,id) {
-    let divRowNode = document.createElement("div");
-    let classRowAttribute = document.createAttribute("class");
-    classRowAttribute.value = "row mt-3";
+    let divRowNode = document.createElement('div');
+    let classRowAttribute = document.createAttribute('class');
+    classRowAttribute.value = 'row mt-3';
     divRowNode.setAttributeNode(classRowAttribute);
     
-    let divColNode = document.createElement("div");
-    let classColAttribute = document.createAttribute("class");
-    classColAttribute.value = "col";
+    let divColNode = document.createElement('div');
+    let classColAttribute = document.createAttribute('class');
+    classColAttribute.value = 'col';
     divColNode.setAttributeNode(classColAttribute);
     
-    let imgNode = document.createElement("img");
-    let srcAttribute = document.createAttribute("src");
+    let imgNode = document.createElement('img');
+    let srcAttribute = document.createAttribute('src');
     srcAttribute.value = array[0];
-    let altAttribute = document.createAttribute("alt");
+    let altAttribute = document.createAttribute('alt');
     altAttribute.value = array[1];
-    let imgClassAttribute = document.createAttribute("class");
-    imgClassAttribute.value = "img-fluid modImage";
-    let idAttribute = document.createAttribute("id");
+    let imgClassAttribute = document.createAttribute('class');
+    imgClassAttribute.value = 'img-fluid modImage';
+    let idAttribute = document.createAttribute('id');
     idAttribute.value = array[2];
-    let styleAttribute = document.createAttribute("style");
-    styleAttribute.value = "width:100%;max-width:300px"
+    let styleAttribute = document.createAttribute('style');
+    styleAttribute.value = 'width:100%;max-width:300px'
     imgNode.setAttributeNode(srcAttribute);
     imgNode.setAttributeNode(altAttribute);
     imgNode.setAttributeNode(imgClassAttribute);
@@ -2703,50 +2703,50 @@ function insertPhotoColumn (array,id) {
 function photoModalPopup(i) {
     count=i+1;
 
-    let modal = document.getElementById("photoModal"+count);
-    let image = document.getElementById("img"+count);
-    let modalImage = document.getElementById("modImg"+count);
-    let captionText = document.getElementById("caption"+count);
+    let modal = document.getElementById('photoModal'+count);
+    let image = document.getElementById('img'+count);
+    let modalImage = document.getElementById('modImg'+count);
+    let captionText = document.getElementById('caption'+count);
     image.onclick = function() {
-        modal.style.display = "block";
+        modal.style.display = 'block';
         modalImage.src = this.src;
         captionText.innerHTML = this.alt;
     }
-    let span = document.getElementById("close"+count);
+    let span = document.getElementById('close'+count);
     span.onclick = function() {
-        modal.style.display = "none";
+        modal.style.display = 'none';
     }
 }
 
 function popAuto () {
-    const autoModelClass1 = document.querySelector(".autoModel1");
-    autoModelClass1.style.display = "block";
+    const autoModelClass1 = document.querySelector('.autoModel1');
+    autoModelClass1.style.display = 'block';
     
-    let gGradeNode = document.getElementById("gGrade")
+    let gGradeNode = document.getElementById('gGrade')
     let gGradeText = document.createTextNode(projectArray[23]);
     gGradeNode.appendChild(gGradeText);
 
-    let cNameNode = document.getElementById("cName")
+    let cNameNode = document.getElementById('cName')
     let cNameText = document.createTextNode(modelArray[2]);
     cNameNode.appendChild(cNameText);
 
-    let cModelNode = document.getElementById("cModel")
+    let cModelNode = document.getElementById('cModel')
     let cModelText = document.createTextNode(modelArray[5]);
     cModelNode.appendChild(cModelText);
 
-    let cManuNode = document.getElementById("cManu")
+    let cManuNode = document.getElementById('cManu')
     let cManuText = document.createTextNode(modelArray[4]);
     cManuNode.appendChild(cManuText);
 
-    let cYearNode = document.getElementById("cYear")
+    let cYearNode = document.getElementById('cYear')
     let cYearText = document.createTextNode(modelArray[6]);
     cYearNode.appendChild(cYearText);
 
-    let cLifespanNode = document.getElementById("cLifespan")
+    let cLifespanNode = document.getElementById('cLifespan')
     let cLifespanText = document.createTextNode(modelArray[9]);
     cLifespanNode.appendChild(cLifespanText);
 
-    let cDesignNode = document.getElementById("cDesign")
+    let cDesignNode = document.getElementById('cDesign')
     let cDesignText = document.createTextNode(modelArray[10]);
     cDesignNode.appendChild(cDesignText);
 }
@@ -2786,38 +2786,38 @@ function populateImages() {
     }
 
     for (let i=0;i<photoColumnOne.length;i++) {
-        insertPhotoColumn(photoColumnOne[i],"photoCol1");
+        insertPhotoColumn(photoColumnOne[i],'photoCol1');
     }
     for (let i=0;i<photoColumnTwo.length;i++) {
-        insertPhotoColumn(photoColumnTwo[i],"photoCol2");
+        insertPhotoColumn(photoColumnTwo[i],'photoCol2');
     }
     for (let i=0;i<photoColumnThree.length;i++) {
-        insertPhotoColumn(photoColumnThree[i],"photoCol3");
+        insertPhotoColumn(photoColumnThree[i],'photoCol3');
     }
     for (let i=0;i<photoColumnFour.length;i++) {
-        insertPhotoColumn(photoColumnFour[i],"photoCol4");
+        insertPhotoColumn(photoColumnFour[i],'photoCol4');
     }
 }
 
 function popGundamPage () {
-    const gundamModelClass1 = document.querySelector(".gundamModel1");
-    gundamModelClass1.style.display = "block";
+    const gundamModelClass1 = document.querySelector('.gundamModel1');
+    gundamModelClass1.style.display = 'block';
 
-    const gundamModelClass2 = document.querySelector(".gundamModel2");
-    gundamModelClass2.style.display = "block";
+    const gundamModelClass2 = document.querySelector('.gundamModel2');
+    gundamModelClass2.style.display = 'block';
     
     if (projectArray[4]) {
-        const pBandaiClass = document.querySelector(".pBandaiClass");
-        pBandaiClass.style.display = "block";
+        const pBandaiClass = document.querySelector('.pBandaiClass');
+        pBandaiClass.style.display = 'block';
         
-        let pBandaiNode = document.getElementById("pBandai");
-        let pBandaiSpan = document.createElement("span");
-        let pBandaiSpanClass = document.createAttribute("class");
-        pBandaiSpanClass.value = "text-danger font-weight-bold";
+        let pBandaiNode = document.getElementById('pBandai');
+        let pBandaiSpan = document.createElement('span');
+        let pBandaiSpanClass = document.createAttribute('class');
+        pBandaiSpanClass.value = 'text-danger font-weight-bold';
         pBandaiSpan.setAttributeNode(pBandaiSpanClass);
-        let pBandaiText = document.createTextNode("P-BANDAI Edition")
-        let straightBuildText = document.createTextNode(" Straight");
-        let buildText = document.createTextNode(" Build");
+        let pBandaiText = document.createTextNode('P-BANDAI Edition')
+        let straightBuildText = document.createTextNode(' Straight');
+        let buildText = document.createTextNode(' Build');
         pBandaiSpan.appendChild(pBandaiText);
         if (projectArray[3]) {
             pBandaiSpan.appendChild(straightBuildText);
@@ -2826,13 +2826,13 @@ function popGundamPage () {
         pBandaiNode.appendChild(pBandaiSpan);
     }
 
-    let gGradeNode = document.getElementById("gGrade")
+    let gGradeNode = document.getElementById('gGrade')
     if (projectArray[5]) {
-        let gGradeSpan = document.createElement("span");
-        let gGradeSpanAttr = document.createAttribute("class");
-        gGradeSpanAttr.value = "text-danger font-weight-bold";
+        let gGradeSpan = document.createElement('span');
+        let gGradeSpanAttr = document.createAttribute('class');
+        gGradeSpanAttr.value = 'text-danger font-weight-bold';
         gGradeSpan.setAttributeNode(gGradeSpanAttr);
-        let MGEXtext = document.createTextNode("Master Grade Extreme (MGEX)");
+        let MGEXtext = document.createTextNode('Master Grade Extreme (MGEX)');
         gGradeSpan.appendChild(MGEXtext);
         gGradeNode.appendChild(gGradeSpan);
     }
@@ -2841,75 +2841,75 @@ function popGundamPage () {
         gGradeNode.appendChild(gGradeText);
     }
     
-    let gmodelNameFullNode = document.getElementById("gmodelNameFull");
+    let gmodelNameFullNode = document.getElementById('gmodelNameFull');
     let gmodelNameFullText = document.createTextNode(modelArray[2]);
     gmodelNameFullNode.appendChild(gmodelNameFullText);
 
     if (modelArray[6]) {
-        const EWclass = document.querySelector(".EWclass");
-        EWclass.style.display = "block";
+        const EWclass = document.querySelector('.EWclass');
+        EWclass.style.display = 'block';
 
-        let EWNode = document.getElementById("EW");
-        let EWSpan = document.createElement("span");
-        let EWClass = document.createAttribute("class");
-        EWClass.value = "text-danger";
+        let EWNode = document.getElementById('EW');
+        let EWSpan = document.createElement('span');
+        let EWClass = document.createAttribute('class');
+        EWClass.value = 'text-danger';
         EWSpan.setAttributeNode(EWClass);
-        let EWText = document.createTextNode("EW Version");
+        let EWText = document.createTextNode('EW Version');
         EWNode.appendChild(EWSpan);
         EWSpan.appendChild(EWText);
     }
 
-    let serialNode = document.getElementById("gserial");
+    let serialNode = document.getElementById('gserial');
     let serialText = document.createTextNode(modelArray[4]);
     serialNode.appendChild(serialText);
 
     if (modelArray[25]) {
-        const mobileArmorClass = document.querySelector(".mobileArmorClass");
-        mobileArmorClass.style.display = "block"; 
+        const mobileArmorClass = document.querySelector('.mobileArmorClass');
+        mobileArmorClass.style.display = 'block'; 
 
-        let mobileArmorNode = document.getElementById("mobileArmor");
-        let mobileArmorText = document.createTextNode("Mobile Armr");
+        let mobileArmorNode = document.getElementById('mobileArmor');
+        let mobileArmorText = document.createTextNode('Mobile Armr');
         mobileArmorNode.appendChild(mobileArmorText);
     }
  
     if (modelArray[24]) {
-        const altNameClass = document.querySelector(".altNameClass");
-        altNameClass.style.display = "block";
+        const altNameClass = document.querySelector('.altNameClass');
+        altNameClass.style.display = 'block';
 
-        let altNameNode = document.getElementById("gAltName");
+        let altNameNode = document.getElementById('gAltName');
         let altNameText = document.createTextNode(modelArray[24]);
         altNameNode.appendChild(altNameText);
     }
 
-    let pilotNode = document.getElementById("gpilot");
+    let pilotNode = document.getElementById('gpilot');
     let pilotText = document.createTextNode(modelArray[11]);
     pilotNode.appendChild(pilotText);
 
     if (modelArray[12]) {
-        const g2pilot = document.querySelector(".g2pilot");
-        g2pilot.style.display = "block";
+        const g2pilot = document.querySelector('.g2pilot');
+        g2pilot.style.display = 'block';
 
-        let g2ndPilotsNode = document.getElementById("g2ndPilots");
+        let g2ndPilotsNode = document.getElementById('g2ndPilots');
         let g2ndPilotsText = document.createTextNode(modelArray[12][0]);
         g2ndPilotsNode.appendChild(g2ndPilotsText);
 
         if (modelArray[12].length>1) {
             for (let i=1;i<modelArray[12].length;i++) {
-                let otherPilotsText = document.createTextNode(", "+modelArray[12][i]);
+                let otherPilotsText = document.createTextNode(', '+modelArray[12][i]);
                 g2ndPilotsNode.appendChild(otherPilotsText);
             }
         }
     }
 
-    let gSeriesNode = document.getElementById("gSeries");
+    let gSeriesNode = document.getElementById('gSeries');
     let gSeriesText = document.createTextNode(modelArray[5]);
     gSeriesNode.appendChild(gSeriesText);
 
-    let gEraNode = document.getElementById("gEra");
+    let gEraNode = document.getElementById('gEra');
     let gEraText = document.createTextNode(modelArray[9]);
     gEraNode.appendChild(gEraText);
 
-    let gCreateDateNode = document.getElementById("gCreateDate");
+    let gCreateDateNode = document.getElementById('gCreateDate');
     let gCreateDateText = document.createTextNode(modelArray[10][1]);
     gCreateDateNode.appendChild(gCreateDateText);
 
@@ -2922,33 +2922,33 @@ function popGundamPage () {
         timespan = lYear-fYear;
     }
 
-    let gTimelineNode = document.getElementById("gTimeline");
-    let gTimelineText = document.createTextNode(fYear+" - "+lYear);
+    let gTimelineNode = document.getElementById('gTimeline');
+    let gTimelineText = document.createTextNode(fYear+' - '+lYear);
     gTimelineNode.appendChild(gTimelineText);
 
     if (lYear != 'Present') {
-        let yearsTimelineText = document.createTextNode("; "+timespan+" year(s)");
+        let yearsTimelineText = document.createTextNode('; '+timespan+' year(s)');
         gTimelineNode.appendChild(yearsTimelineText);
     }
 
-    let gManufacNode = document.getElementById("gManufac");
+    let gManufacNode = document.getElementById('gManufac');
     let gManufacText = document.createTextNode(modelArray[13]);
     gManufacNode.appendChild(gManufacText);
 
-    let gManufacNodeMobile = document.getElementById("gManufacMobile");
+    let gManufacNodeMobile = document.getElementById('gManufacMobile');
     let gManufacTextMobile = document.createTextNode(modelArray[13]);
     gManufacNodeMobile.appendChild(gManufacTextMobile);
 
-    let gAffiliateNode = document.getElementById("gAffiliate");
-    let gAffiliateNodeMobile = document.getElementById("gAffiliateMobile");
+    let gAffiliateNode = document.getElementById('gAffiliate');
+    let gAffiliateNodeMobile = document.getElementById('gAffiliateMobile');
     for (let i=0;i<modelArray[14].length;i++) {
-        let gAffiliate_LI = document.createElement("li");
-        let gAffiliate_LIMobile = document.createElement("li");
-        let gAffiliate_LIClass = document.createAttribute("Class");
-        gAffiliate_LIClass.value = "font-weight-normal";
+        let gAffiliate_LI = document.createElement('li');
+        let gAffiliate_LIMobile = document.createElement('li');
+        let gAffiliate_LIClass = document.createAttribute('Class');
+        gAffiliate_LIClass.value = 'font-weight-normal';
         gAffiliate_LI.setAttributeNode(gAffiliate_LIClass);
-        let gAffiliate_LIMobileClass = document.createAttribute("Class");
-        gAffiliate_LIMobileClass.value = "font-weight-normal";
+        let gAffiliate_LIMobileClass = document.createAttribute('Class');
+        gAffiliate_LIMobileClass.value = 'font-weight-normal';
         gAffiliate_LIMobile.setAttributeNode(gAffiliate_LIMobileClass);
         let gAffilateText = document.createTextNode(modelArray[14][i]);
         let gAffilateTextMobile = document.createTextNode(modelArray[14][i]);
@@ -2959,57 +2959,57 @@ function popGundamPage () {
     }
     
     if (modelArray[7]) {
-        const gFromClass = document.querySelector(".gFromClass");
-        gFromClass.style.display = "block";
+        const gFromClass = document.querySelector('.gFromClass');
+        gFromClass.style.display = 'block';
 
-        const gFromClass_Mobile = document.querySelector(".gFromClass_Mobile");
-        gFromClass_Mobile.style.display = "block";
+        const gFromClass_Mobile = document.querySelector('.gFromClass_Mobile');
+        gFromClass_Mobile.style.display = 'block';
 
-        let gFromNode = document.getElementById("gFrom");
+        let gFromNode = document.getElementById('gFrom');
         let gFromText = document.createTextNode(modelArray[7]);
         gFromNode.appendChild(gFromText);
 
-        let gFromNodeMobile = document.getElementById("gFromMobile");
+        let gFromNodeMobile = document.getElementById('gFromMobile');
         let gFromTextMobile = document.createTextNode(modelArray[7]);
         gFromNodeMobile.appendChild(gFromTextMobile);
     }
 
     if (modelArray[8]) {
-        const gToClass = document.querySelector(".gToClass");
-        gToClass.style.display = "block";
-        const gToClass_Mobile = document.querySelector(".gToClass_Mobile");
-        gToClass_Mobile.style.display = "block";
+        const gToClass = document.querySelector('.gToClass');
+        gToClass.style.display = 'block';
+        const gToClass_Mobile = document.querySelector('.gToClass_Mobile');
+        gToClass_Mobile.style.display = 'block';
 
-        let gToNode = document.getElementById("gTo");
+        let gToNode = document.getElementById('gTo');
         let gToText = document.createTextNode(modelArray[8]);
         gToNode.appendChild(gToText);
 
-        let gToNodeMobile = document.getElementById("gToMobile");
+        let gToNodeMobile = document.getElementById('gToMobile');
         let gToTextMobile = document.createTextNode(modelArray[8]);
         gToNodeMobile.appendChild(gToTextMobile);
     }
 
-    let gHeightNode = document.getElementById("gHeight");
+    let gHeightNode = document.getElementById('gHeight');
     let gHeightText = document.createTextNode(modelArray[15][1]);
     gHeightNode.appendChild(gHeightText);
 
-    let gWeightNode = document.getElementById("gWeight");
+    let gWeightNode = document.getElementById('gWeight');
     let gWeightText = document.createTextNode(modelArray[16][1]);
     gWeightNode.appendChild(gWeightText);
 
-    let gMaterialNode = document.getElementById("gMaterial");
+    let gMaterialNode = document.getElementById('gMaterial');
     let gMaterialText = document.createTextNode(modelArray[17]);
     gMaterialNode.appendChild(gMaterialText);
 
-    let gPowerNode = document.getElementById("gPower");
+    let gPowerNode = document.getElementById('gPower');
     let gPowerText = document.createTextNode(modelArray[18]);
     gPowerNode.appendChild(gPowerText);
 
     for (let i=0;i<modelArray[21].length;i++) {
-        let gSystemNode = document.getElementById("gSystem");
-        let gSystemLI = document.createElement("li");
-        let gSystemLIClass = document.createAttribute("Class");
-        gSystemLIClass.value = "font-weight-normal";
+        let gSystemNode = document.getElementById('gSystem');
+        let gSystemLI = document.createElement('li');
+        let gSystemLIClass = document.createAttribute('Class');
+        gSystemLIClass.value = 'font-weight-normal';
         gSystemLI.setAttributeNode(gSystemLIClass);
         let gSystemText = document.createTextNode(modelArray[21][i]);
         gSystemLI.appendChild(gSystemText);
@@ -3017,10 +3017,10 @@ function popGundamPage () {
     }
 
     for (let i=0;i<modelArray[19].length;i++) {
-        let gArmamentsNode = document.getElementById("gArmaments");
-        let gArmamentsLI = document.createElement("li");
-        let gArmamentsLIClass = document.createAttribute("Class");
-        gArmamentsLIClass.value = "font-weight-normal";
+        let gArmamentsNode = document.getElementById('gArmaments');
+        let gArmamentsLI = document.createElement('li');
+        let gArmamentsLIClass = document.createAttribute('Class');
+        gArmamentsLIClass.value = 'font-weight-normal';
         gArmamentsLI.setAttributeNode(gArmamentsLIClass);
         let gArmamentsText = document.createTextNode(modelArray[19][i]);
         gArmamentsLI.appendChild(gArmamentsText);
@@ -3028,17 +3028,17 @@ function popGundamPage () {
     }
 
     for (let i=0;i<modelArray[20].length;i++) {
-        let gOptArmNode = document.getElementById("gOptArm");
-        let gOptArmLI = document.createElement("li");
-        let gOptArmLIClass = document.createAttribute("Class");
-        gOptArmLIClass.value = "font-weight-normal";
+        let gOptArmNode = document.getElementById('gOptArm');
+        let gOptArmLI = document.createElement('li');
+        let gOptArmLIClass = document.createAttribute('Class');
+        gOptArmLIClass.value = 'font-weight-normal';
         gOptArmLI.setAttributeNode(gOptArmLIClass);
         let gOptArmText = document.createTextNode(modelArray[20][i]);
         gOptArmLI.appendChild(gOptArmText);
         gOptArmNode.appendChild(gOptArmLI);
     }
 
-    let gDesignNode = document.getElementById("gDesign");
+    let gDesignNode = document.getElementById('gDesign');
     let gDesignText = document.createTextNode(modelArray[22]);
     gDesignNode.appendChild(gDesignText);
 }
@@ -3052,10 +3052,10 @@ function popPokemon () {
 }
 
 function popTransformer () {
-    const transformerModel = document.querySelector(".transformerModel");
-    transformerModel.style.display = "block";
+    const transformerModel = document.querySelector('.transformerModel');
+    transformerModel.style.display = 'block';
 
-    let gGradeNode = document.getElementById("gGrade")
+    let gGradeNode = document.getElementById('gGrade')
     let gGradeText = document.createTextNode(projectArray[23]);
     gGradeNode.appendChild(gGradeText);
 
@@ -3100,24 +3100,24 @@ function popSDWHero() {
 }
 
 function popShipGundam () {
-    const gundamModelClass1 = document.querySelector(".gundamShipModel1");
-    gundamModelClass1.style.display = "block";
+    const gundamModelClass1 = document.querySelector('.gundamShipModel1');
+    gundamModelClass1.style.display = 'block';
 
-    const gundamModelClass2 = document.querySelector(".gundamShipModel2");
-    gundamModelClass2.style.display = "block";
+    const gundamModelClass2 = document.querySelector('.gundamShipModel2');
+    gundamModelClass2.style.display = 'block';
     
     if (projectArray[4]) {
-        const pBandaiClass = document.querySelector(".pBandaiClass");
-        pBandaiClass.style.display = "block";
+        const pBandaiClass = document.querySelector('.pBandaiClass');
+        pBandaiClass.style.display = 'block';
         
-        let pBandaiNode = document.getElementById("pBandai");
-        let pBandaiSpan = document.createElement("span");
-        let pBandaiSpanClass = document.createAttribute("class");
-        pBandaiSpanClass.value = "text-danger font-weight-bold";
+        let pBandaiNode = document.getElementById('pBandai');
+        let pBandaiSpan = document.createElement('span');
+        let pBandaiSpanClass = document.createAttribute('class');
+        pBandaiSpanClass.value = 'text-danger font-weight-bold';
         pBandaiSpan.setAttributeNode(pBandaiSpanClass);
-        let pBandaiText = document.createTextNode("P-BANDAI Edition")
-        let straightBuildText = document.createTextNode(" Straight");
-        let buildText = document.createTextNode(" Build");
+        let pBandaiText = document.createTextNode('P-BANDAI Edition')
+        let straightBuildText = document.createTextNode(' Straight');
+        let buildText = document.createTextNode(' Build');
         pBandaiSpan.appendChild(pBandaiText);
         if (projectArray[3]) {
             pBandaiSpan.appendChild(straightBuildText);
@@ -3126,56 +3126,56 @@ function popShipGundam () {
         pBandaiNode.appendChild(pBandaiSpan);
     }
 
-    let gGradeNode = document.getElementById("gGrade");
+    let gGradeNode = document.getElementById('gGrade');
     let gGradeText = document.createTextNode(projectArray[23]);
     gGradeNode.appendChild(gGradeText);
     
-    let gmodelNameFullNode = document.getElementById("sgmodelNameFull");
+    let gmodelNameFullNode = document.getElementById('sgmodelNameFull');
     let gmodelNameFullText = document.createTextNode(modelArray[2]);
     gmodelNameFullNode.appendChild(gmodelNameFullText);
 
-    let serialNode = document.getElementById("sgserial");
+    let serialNode = document.getElementById('sgserial');
     let serialText = document.createTextNode(modelArray[4]);
     serialNode.appendChild(serialText);
  
     if (modelArray[24]) {
-        const altNameClass = document.querySelector(".altNameClassShip");
-        altNameClass.style.display = "block";
+        const altNameClass = document.querySelector('.altNameClassShip');
+        altNameClass.style.display = 'block';
 
-        let altNameNode = document.getElementById("sgAltName");
+        let altNameNode = document.getElementById('sgAltName');
         let altNameText = document.createTextNode(modelArray[24]);
         altNameNode.appendChild(altNameText);
     }
 
-    let pilotNode = document.getElementById("sgpilot");
+    let pilotNode = document.getElementById('sgpilot');
     let pilotText = document.createTextNode(modelArray[11]);
     pilotNode.appendChild(pilotText);
 
     if (modelArray[12]) {
-        const g2pilot = document.querySelector(".g2pilotShip");
-        g2pilot.style.display = "block";
+        const g2pilot = document.querySelector('.g2pilotShip');
+        g2pilot.style.display = 'block';
 
-        let g2ndPilotsNode = document.getElementById("sg2ndPilots");
+        let g2ndPilotsNode = document.getElementById('sg2ndPilots');
         let g2ndPilotsText = document.createTextNode(modelArray[12][0]);
         g2ndPilotsNode.appendChild(g2ndPilotsText);
 
         if (modelArray[12].length>1) {
             for (let i=1;i<modelArray[12].length;i++) {
-                let otherPilotsText = document.createTextNode(", "+modelArray[12][i]);
+                let otherPilotsText = document.createTextNode(', '+modelArray[12][i]);
                 g2ndPilotsNode.appendChild(otherPilotsText);
             }
         }
     }
 
-    let gSeriesNode = document.getElementById("sgSeries");
+    let gSeriesNode = document.getElementById('sgSeries');
     let gSeriesText = document.createTextNode(modelArray[5]);
     gSeriesNode.appendChild(gSeriesText);
 
-    let gEraNode = document.getElementById("sgEra");
+    let gEraNode = document.getElementById('sgEra');
     let gEraText = document.createTextNode(modelArray[9]);
     gEraNode.appendChild(gEraText);
 
-    let gCreateDateNode = document.getElementById("sgCreateDate");
+    let gCreateDateNode = document.getElementById('sgCreateDate');
     let gCreateDateText = document.createTextNode(modelArray[10][1]);
     gCreateDateNode.appendChild(gCreateDateText);
 
@@ -3188,33 +3188,33 @@ function popShipGundam () {
         timespan = lYear-fYear;
     }
 
-    let gTimelineNode = document.getElementById("sgTimeline");
-    let gTimelineText = document.createTextNode(fYear+"-"+lYear);
+    let gTimelineNode = document.getElementById('sgTimeline');
+    let gTimelineText = document.createTextNode(fYear+'-'+lYear);
     gTimelineNode.appendChild(gTimelineText);
 
     if (lYear != 'Present') {
-        let yearsTimelineText = document.createTextNode("; "+timespan+" year(s)");
+        let yearsTimelineText = document.createTextNode('; '+timespan+' year(s)');
         gTimelineNode.appendChild(yearsTimelineText);
     }
 
-    let gManufacNode = document.getElementById("sgManufac");
+    let gManufacNode = document.getElementById('sgManufac');
     let gManufacText = document.createTextNode(modelArray[13]);
     gManufacNode.appendChild(gManufacText);
 
-    let gManufacNodeMobile = document.getElementById("sgManufacMobile");
+    let gManufacNodeMobile = document.getElementById('sgManufacMobile');
     let gManufacTextMobile = document.createTextNode(modelArray[13]);
     gManufacNodeMobile.appendChild(gManufacTextMobile);
 
-    let gAffiliateNode = document.getElementById("sgAffiliate");
-    let gAffiliateNodeMobile = document.getElementById("sgAffiliateMobile");
+    let gAffiliateNode = document.getElementById('sgAffiliate');
+    let gAffiliateNodeMobile = document.getElementById('sgAffiliateMobile');
     for (let i=0;i<modelArray[14].length;i++) {
-        let gAffiliate_LI = document.createElement("li");
-        let gAffiliate_LIMobile = document.createElement("li");
-        let gAffiliate_LIClass = document.createAttribute("Class");
-        gAffiliate_LIClass.value = "font-weight-normal";
+        let gAffiliate_LI = document.createElement('li');
+        let gAffiliate_LIMobile = document.createElement('li');
+        let gAffiliate_LIClass = document.createAttribute('Class');
+        gAffiliate_LIClass.value = 'font-weight-normal';
         gAffiliate_LI.setAttributeNode(gAffiliate_LIClass);
-        let gAffiliate_LIMobileClass = document.createAttribute("Class");
-        gAffiliate_LIMobileClass.value = "font-weight-normal";
+        let gAffiliate_LIMobileClass = document.createAttribute('Class');
+        gAffiliate_LIMobileClass.value = 'font-weight-normal';
         gAffiliate_LIMobile.setAttributeNode(gAffiliate_LIMobileClass);
         let gAffilateText = document.createTextNode(modelArray[14][i]);
         let gAffilateTextMobile = document.createTextNode(modelArray[14][i]);
@@ -3224,16 +3224,16 @@ function popShipGundam () {
         gAffiliate_LIMobile.appendChild(gAffilateTextMobile);
     }
 
-    let gHeightNode = document.getElementById("sgHeight");
+    let gHeightNode = document.getElementById('sgHeight');
     let gHeightText = document.createTextNode(modelArray[15][1]);
     gHeightNode.appendChild(gHeightText);
 
 
     for (let i=0;i<modelArray[21].length;i++) {
-        let gSystemNode = document.getElementById("sgSystem");
-        let gSystemLI = document.createElement("li");
-        let gSystemLIClass = document.createAttribute("Class");
-        gSystemLIClass.value = "font-weight-normal";
+        let gSystemNode = document.getElementById('sgSystem');
+        let gSystemLI = document.createElement('li');
+        let gSystemLIClass = document.createAttribute('Class');
+        gSystemLIClass.value = 'font-weight-normal';
         gSystemLI.setAttributeNode(gSystemLIClass);
         let gSystemText = document.createTextNode(modelArray[21][i]);
         gSystemLI.appendChild(gSystemText);
@@ -3241,10 +3241,10 @@ function popShipGundam () {
     }
 
     for (let i=0;i<modelArray[19].length;i++) {
-        let gArmamentsNode = document.getElementById("sgArmaments");
-        let gArmamentsLI = document.createElement("li");
-        let gArmamentsLIClass = document.createAttribute("Class");
-        gArmamentsLIClass.value = "font-weight-normal";
+        let gArmamentsNode = document.getElementById('sgArmaments');
+        let gArmamentsLI = document.createElement('li');
+        let gArmamentsLIClass = document.createAttribute('Class');
+        gArmamentsLIClass.value = 'font-weight-normal';
         gArmamentsLI.setAttributeNode(gArmamentsLIClass);
         let gArmamentsText = document.createTextNode(modelArray[19][i]);
         gArmamentsLI.appendChild(gArmamentsText);
@@ -3252,10 +3252,10 @@ function popShipGundam () {
     }
 
     for (let i=0;i<modelArray[20].length;i++) {
-        let gOptArmNode = document.getElementById("sgOptArm");
-        let gOptArmLI = document.createElement("li");
-        let gOptArmLIClass = document.createAttribute("Class");
-        gOptArmLIClass.value = "font-weight-normal";
+        let gOptArmNode = document.getElementById('sgOptArm');
+        let gOptArmLI = document.createElement('li');
+        let gOptArmLIClass = document.createAttribute('Class');
+        gOptArmLIClass.value = 'font-weight-normal';
         gOptArmLI.setAttributeNode(gOptArmLIClass);
         let gOptArmText = document.createTextNode(modelArray[20][i]);
         gOptArmLI.appendChild(gOptArmText);
@@ -3264,13 +3264,13 @@ function popShipGundam () {
 }
 
 function popShipOther () {
-    const gundamModelClass1 = document.querySelector(".shipModel1");
-    gundamModelClass1.style.display = "block";
+    const gundamModelClass1 = document.querySelector('.shipModel1');
+    gundamModelClass1.style.display = 'block';
 
-    const gundamModelClass2 = document.querySelector(".shipModel2");
-    gundamModelClass2.style.display = "block";
+    const gundamModelClass2 = document.querySelector('.shipModel2');
+    gundamModelClass2.style.display = 'block';
 
-    let gGradeNode = document.getElementById("gGrade");
+    let gGradeNode = document.getElementById('gGrade');
     let gGradeText = document.createTextNode(projectArray[23]);
     gGradeNode.appendChild(gGradeText);
 
@@ -3279,8 +3279,8 @@ function popShipOther () {
     oShipNameNode.appendChild(oShipNameText);
     
     if (modelArray[4]) {
-        const osSeriesCl = document.querySelector(".osSeriesCl");
-        osSeriesCl.style.display = "block";
+        const osSeriesCl = document.querySelector('.osSeriesCl');
+        osSeriesCl.style.display = 'block';
 
         let osSeriesN = document.getElementById('osSeries');
         let osSeriesT = document.createTextNode(modelArray[4]);
@@ -3288,8 +3288,8 @@ function popShipOther () {
     }
 
     if (modelArray[5]) {
-        const osFranCl = document.querySelector(".osFranCl");
-        osFranCl.style.display = "block";
+        const osFranCl = document.querySelector('.osFranCl');
+        osFranCl.style.display = 'block';
 
         let osFranN = document.getElementById('osFran');
         let osFranT = document.createTextNode(modelArray[5]);
@@ -3297,8 +3297,8 @@ function popShipOther () {
     }
 
     if (modelArray[10]) {
-        const osCreateCl = document.querySelector(".osCreateCl");
-        osCreateCl.style.display = "block";
+        const osCreateCl = document.querySelector('.osCreateCl');
+        osCreateCl.style.display = 'block';
 
         let osCreateN = document.getElementById('osCreate');
         let osCreateT = document.createTextNode(modelArray[10][1]);
@@ -3306,8 +3306,8 @@ function popShipOther () {
     }
 
     if (modelArray[14]) {
-        const osAffilCl = document.querySelector(".osAffilCl");
-        osAffilCl.style.display = "block";
+        const osAffilCl = document.querySelector('.osAffilCl');
+        osAffilCl.style.display = 'block';
 
         let osAffilN = document.getElementById('osAffil');
         let osAffilT = document.createTextNode(modelArray[14]);
@@ -3315,10 +3315,10 @@ function popShipOther () {
     }
 
     if (modelArray[15]) {
-        const osHeightCl = document.querySelector(".osHeightCl");
-        const osHeightClMb = document.querySelector(".osHeightClMb");
-        osHeightCl.style.display = "block";
-        osHeightClMb.style.display = "block";
+        const osHeightCl = document.querySelector('.osHeightCl');
+        const osHeightClMb = document.querySelector('.osHeightClMb');
+        osHeightCl.style.display = 'block';
+        osHeightClMb.style.display = 'block';
 
         let osHeightN = document.getElementById('osHeight');
         let osHeightT = document.createTextNode(modelArray[15][1]);
@@ -3330,10 +3330,10 @@ function popShipOther () {
     }
 
     if (modelArray[16]) {
-        const osLengthCl = document.querySelector(".osLengthCl");
-        const osLengthClMb = document.querySelector(".osLengthClMb");
-        osLengthCl.style.display = "block";
-        osLengthClMb.style.display = "block";
+        const osLengthCl = document.querySelector('.osLengthCl');
+        const osLengthClMb = document.querySelector('.osLengthClMb');
+        osLengthCl.style.display = 'block';
+        osLengthClMb.style.display = 'block';
 
         let osLengthN = document.getElementById('osLength');
         let osLengthT = document.createTextNode(modelArray[16][1]);
@@ -3345,10 +3345,10 @@ function popShipOther () {
     }
 
     if (modelArray[17]) {
-        const osWidthCl = document.querySelector(".osWidthCl");
-        const osWidthClMb = document.querySelector(".osWidthClMb");
-        osWidthCl.style.display = "block";
-        osWidthClMb.style.display = "block";
+        const osWidthCl = document.querySelector('.osWidthCl');
+        const osWidthClMb = document.querySelector('.osWidthClMb');
+        osWidthCl.style.display = 'block';
+        osWidthClMb.style.display = 'block';
 
         let osWidthN = document.getElementById('osWidth');
         let osWidthT = document.createTextNode(modelArray[17][1]);
@@ -3360,8 +3360,8 @@ function popShipOther () {
     }
 
     if (modelArray[18]) {
-        const osPropulsionCl = document.querySelector(".osPropulsionCl");
-        osPropulsionCl.style.display = "block";
+        const osPropulsionCl = document.querySelector('.osPropulsionCl');
+        osPropulsionCl.style.display = 'block';
 
         let osPropulsionN = document.getElementById('osPropulsion');
         let osPropulsionT = document.createTextNode(modelArray[18]);
@@ -3369,8 +3369,8 @@ function popShipOther () {
     }
 
     if (modelArray[21]) {
-        const osDefensesCl = document.querySelector(".osDefensesCl");
-        osDefensesCl.style.display = "block";
+        const osDefensesCl = document.querySelector('.osDefensesCl');
+        osDefensesCl.style.display = 'block';
 
         let osDefensesN = document.getElementById('osDefenses');
         let osDefensesT = document.createTextNode(modelArray[21]);
@@ -3378,8 +3378,8 @@ function popShipOther () {
     }
 
     if (modelArray[19]) {
-        const osArmCl = document.querySelector(".osArmCl");
-        osArmCl.style.display = "block";
+        const osArmCl = document.querySelector('.osArmCl');
+        osArmCl.style.display = 'block';
 
         let osArmN = document.getElementById('osArm')
         for (let i=0;i<modelArray[19].length;i++) {
@@ -3401,10 +3401,10 @@ function popZoid () {
 function projectLinks(prArray,ID) {
     let destinationNode = document.getElementById(ID);
     for (let i=0;i<prArray.length;i++) {
-        let liNode = document.createElement("li");
-        let aNode = document.createElement("a");
-        let aSrc = document.createAttribute("href");
-        aSrc.value = "../../"+prArray[i][11];
+        let liNode = document.createElement('li');
+        let aNode = document.createElement('a');
+        let aSrc = document.createAttribute('href');
+        aSrc.value = '../../'+prArray[i][11];
         aNode.setAttributeNode(aSrc);
         let aTextNode = document.createTextNode(prArray[i][0]);
         aNode.appendChild(aTextNode);
