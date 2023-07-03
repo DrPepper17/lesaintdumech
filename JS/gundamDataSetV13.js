@@ -1256,7 +1256,7 @@ const projects = [
 
     //Cosmic Century (Seed) 
     ['Fluorescent',
-        [1,'Aegis'],'SD',false,false,false,'Seed','E','2021-06-08',9.94,false,'Builds/Gundams/Fluorescent.html',false,'2021-06-24',models[19],
+        [1,'Aegis'],'SD',false,false,false,'Seed','E','2021-06-08',9.94,false,'Builds/Gundams/fluorescent.html',false,'2021-06-24',models[19],
         [
             ['../../img/projects/gundams/fluor/fluor01.jpeg','Fluorescent Gundam','img1'],
             ['../../img/projects/gundams/fluor/fluor02.jpeg','Fluorescent Gundam','img2'],
@@ -1282,7 +1282,7 @@ const projects = [
     ['Rising Sun',[1,'Akatsuki, Oowashi'],'HG',false,false,false,'Seed','E','2021-11-05',17.28,false,'Builds/RisingSun.html',[''],'2022-04-28'],
     ['King Mars',[1,'Akatsuki, Shiranui'],'HG',false,false,false,'Seed','D','2022-05-06',13.67,false,'Builds/KingMars.html',['']],
     ['Archangel',
-    [2,'Archangel','Archangel'],'Ship',false,false,false,'Seed','E','2021-08-06',76.63,false,'Builds/Ships/archAngel.html',false,'2022-01-10',models[15],
+    [2,'Archangel','Archangel'],'Ship',false,false,false,'Seed','E','2021-08-06',76.63,false,'Builds/Ships/archangel.html',false,'2022-01-10',models[15],
         [
             ['../../img/projects/ships/archangel/archangel01.jpeg','Battleship Archangel','img1'],
             ['../../img/projects/ships/archangel/archangel02.jpeg','Battleship Archangel','img2'],
