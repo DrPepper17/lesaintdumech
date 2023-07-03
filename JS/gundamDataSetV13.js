@@ -36,7 +36,7 @@
     20. Equipment (array)v(equipment are components separate from the suit, i.e. a beam saver or shield)
     21. Systems
     22. Designed by
-    23. SDW Hero (true/false)
+    23. SDW Hero (list model based on)
     24. Alternate Name
     25. Mobile Armor: true/false
     26. original photo (array): ['file path','photo name']
@@ -47,7 +47,7 @@
     3. Full Name
     4. Serial Number
     5. Series
-    6. ...
+    6. Class
     7. ...
     8. ...
     9. Era
@@ -191,7 +191,8 @@ const models = [
         false,
         false,
         false,
-        ['img/models/heavyarmsew.jpeg','Gundam Heavyarms EW']
+        ['img/models/heavyarmsew.jpeg','Gundam Heavyarms EW'],
+        true
     ],
     [2,1,'Gundam Spiegel',
         'GF13-021NG Gundam Spiegel',
@@ -220,7 +221,8 @@ const models = [
         false,
         'Shadow Gundam',
         false,
-        ['img/models/spiegel.jpeg','Spiegel Gundam']
+        ['img/models/spiegel.jpeg','Spiegel Gundam'],
+        true
     ],
     [3,4,'Chevy Bel-Air',
         'Chevrolet 1957 Bel-Air',
@@ -346,7 +348,7 @@ const models = [
         [300,'300 Meters'],
         false,
         false,
-        false,
+        ['Large Thruster (x4)','Small Thruster (x6'],
         ['Main Cannon',
             'Twin Rail Gun',
             'Missile Launcher',
@@ -360,12 +362,15 @@ const models = [
             'ZGMF-X88S Gaia Gundam',
             'ZGMF-XX09T DOM Trooper'
         ],
-        false,
-        false,
+        1,
+        2,
         false,
         false,
         ['img/models/eternal.jpeg','Warship Eternal'],
-        'Warship'
+        'Warship',
+        false,
+        false,
+        'Custom Support Space Ship'
     ],
     [8,3,'Andromeda Black',
         'StarBlazers Andromeda Black',
@@ -535,7 +540,8 @@ const models = [
         false,
         'NewType-Use Prototype Gundam',
         false,
-        ['img/models/nugundam.jpeg','Nu Gundam']
+        ['img/models/nugundam.jpeg','Nu Gundam'],
+        true
     ],
     [14,1,'Freedom Gundam',
         'ZGMF-X10A Freedom Gundam',
@@ -577,7 +583,398 @@ const models = [
         false,
         false,
         false,
-        ['img/models/freedom.jpeg','Freedom Gundam']
+        ['img/models/freedom.jpeg','Freedom Gundam'],
+        true
+    ],
+    [15,2,'Archangel',
+        'LCAM-01XA Archangel',
+        'LCAM-01XA',
+        'Mobile Suit Gundam Seed',
+        'Archangel Class',
+        false,
+        false,
+        'Cosmic Era',
+        [71,' January 71 C.E.','Present'],
+        'Murrue Ramius',
+        false,
+        'Morgenroete Inc.',
+        ['Earth Alliance','Three Ship Alliance','Archangel Corps','Terminal','Orb'],
+        [420,'420 Meters'],
+        false,
+        false,
+        ['Large Thruster (x6)','Small Thruster (x12'],
+        ['"Gottfried Mk.71" 225cm Dual High-energy Beam Cannon (x2)','"Igelstellung" 75mm Automatic Multi-barrel CIWS (x16)','"Lohengrin" Positron Blaster Cannon (x2)','Surface-to-air Missile Launcher (x16)','Surface-to-ship Missile Launcher (x24)',
+        '"Valiant Mk.8" 110cm Linear Cannon (x2)','Torpedo Launcher (X4)','Laminated Armor'],
+        ['Ablative Gel','Anti-Beam Depth Charge','Plasma Booster'],
+        ['FX-550 Skygrasper','GAT-X105 Strike Gundam','GAT-X103 Buster Gundam','MAW-01 Mistral','TS-MA2mod.00 Moebius Zero','ZGMF-X109A Justice Gundam','ZGMF-X10A Freedom Gundam','MBF-02 Strike Rouge','MVF-M11C Murasame','ORB-01 Akatsuki','ZGMF-X19A Infinite Justice Gundam','ZGMF-X20A Strike Freedom GUndam'],
+        2,
+        false,
+        'The Legged Ship',
+        false,
+        ['img/models/archangel.jpeg','Assault Battleship Archangel','Assault Battleship Archangel'],
+        'Battleship',
+        ['Izumo Class'],
+        false,
+        'Limited Production Mobile Assault Battleship'
+    ],
+    [16,2,'Dominion',
+        'LCAM-01XB Dominino',
+        'LCAM-01XB',
+        'Mobile Suit Gundam Seed',
+        'Archangel Class',
+        false,
+        false,
+        'Cosmic Era',
+        [71,'71 C.E.',71],
+        'Natarle Badgirue',
+        false,
+        'Earth Alliance',
+        ['Earth Alliance','7th Space Fleet','Blue Cosmos'],
+        [420,'420 Meters'],
+        false,
+        false,
+        ['Large Thruster (x6)','Small Thruster (x12'],
+        ['"Gottfried Mk.71" 225cm Dual High-energy Beam Cannon (x2)','"Igelstellung" 75mm Automatic Multi-barrel CIWS (x16)','"Lohengrin" Positron Blaster Cannon (x2)','Surface-to-air Missile Launcher (x16)','Surface-to-ship Missile Launcher (x24)',
+        '"Valiant Mk.8" 110cm Linear Cannon (x2)','Laminated Armor'],
+        ['Ablative Gel','Anti-Beam Depth Charge','Plasma Booster'],
+        ['GAT-01 Strike Dagger','GAT-X131 Calamity Gundam','GAT-X252 Forbidden Gundam','Gat-X370 Raider Gundam'],
+        2,
+        false,
+        false,
+        false,
+        ['img/models/dominion.jpeg','Assault Battleship Dominion','Assault Battleship Dominion'],
+        'Battleship',
+        ['Izumo Class'],
+        false,
+        'Limited Production Mobile Assault Battleship'
+    ],
+    [17,1,'SD Sasuke Delta',
+        'SD Sasuke Delta',
+        false,
+        'SDW Heroes',
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        'MSN-001 Delta Gundam',
+        false,
+        false,
+        ['img/models/sasukedelta.jpeg','SD Sasuke Delta'],
+        true
+    ],
+    [18,1,'Crossbone Gundam',
+        'XM-X1 Crossbone Gundam X-1',
+        'XM-X1',
+        'Mobile Suit Crossbone Gundam',
+        false,
+        ['F90Y Gundam F90 Youngstar Type'],
+        false,
+        'Universal Century',
+        [133,'133 U.C.','Present'],
+        'Kincada Nau',
+        ['Tobia Arronax','Umon Samon'],
+        'Strategic Naval Research Institute',
+        ['Earth Federation','Crossbone Vanguard'],
+        [15.9,'15.9 Meters'],
+        [24.8,'24.8 Metric Tons'],
+        'Gundarium Alloy Ceramic Composite',
+        'Minovsky Ultracompact Fusion Reactor',
+        [
+            'Vulcan Gun (x2)',
+            'Heat Radion Face Open'
+        ],
+        [
+            'Core Fighter',
+            'Anti-Beam Coating Cloak',
+            'Beam Saber (x2)',
+            'Heat Dagger (x2)',
+            'Scissor Anchor (x2)',
+            'Beam Shield / Brand Marker',
+            'Dummy Launcher'
+
+        ],
+        [
+            'Bio-Computer'
+        ],
+        'Hajime Katoki & Yuuichi Hasegawa',
+        false,
+        false,
+        false,
+        ['img/models/crossbonex1.jpeg','Crossbone Gundam X-1'],
+        true
+    ],
+    [19,1,'Aegis Gundam',
+        'GAT-X303 Aegis Gundam',
+        'GAT-X303',
+        'Mobile Suit Gundam SEED',
+        false,
+        false,
+        ['GAT-333 Raider','YMF-X000A Dreadnought Gundam','ZGMF-600 GuAIZ','ZGMF-X11A Regenerate Gundam'],
+        'Cosmis Era',
+        [71,'January 71 A.C.',71],
+        'Athrun Zala',
+        false,
+        'Morgenroete Inc.',
+        ['Zodiac Alliance of Freedom Treaty','Le Creuset Team'],
+        [18.66,'18.86 Meters'],
+        [79.6,'79.6 Metric Tons'],
+        false,
+        'Ultracompact Energy Battery',
+        [
+            '"Igelstellung" 75mm Multi-barrel CIWS (x2)',
+            'Beam Saber (X4)',
+            '"Scylla" 580mm Multi-phase Energy Cannon'
+        ],
+        [
+            '60mm High Energy Beam Rifle',
+            'Shield',
+            'Lancher'
+        ],
+        [
+            'OS: General Unilateral Neuro-Link Dispersive Autonomic Maneuver Synthesis System',
+            'Phase Shift Armor'
+        ],
+        false,
+        false,
+        false,
+        false,
+        ['img/models/aegis.jpeg','Aegis Gundam'],
+        true
+    ],
+    [20,1,'Banshee Norn',
+        'RX-0[N] Unicorn Gundam 02 Banshee Norn',
+        'RX-0[N]',
+        'Mobile Suit Gundam Unicorn',
+        false,
+        ['RX-0 Unicorn Gundam 02 Banshee'],
+        false,
+        'Universal Century',
+        [96,'96 U.C.','Present'],
+        'Riddhe Marcenas',
+        false,
+        'Anaheim Electronics',
+        ['Vist Foundation'],
+        [21.7,'21.7 Meters'],
+        [48.8,'48.8 Metric Tons'],
+        'Luna Titanum (Gundarium Alloy)',
+        'Minovsky Ultracompact Fusion Reactor',
+        [
+            '60mm Vulcan Guns (x2)',
+            'Beam Saber (x4)',
+            'Beam Tonfa (x2)'
+        ],
+        [
+            'Beam Magnum',
+            'Revolving Launcher',
+            'Beam Jutte',
+            'BOP Missile',
+            'MGaAp',
+            'Micro Hide Bomb',
+            'Armed Armor DE',
+            'I-Field Generator',
+            'Mega Cannon'
+        ],
+        [
+            'NT-D (Anti-NewType) Operating System'
+        ],
+        'Hajime Katoki',
+        false,
+        false,
+        false,
+        ['img/models/bansheenorn.jpeg','Banshee Norn'],
+        true
+    ],
+    [21,1,'00 Qan[T]',
+        'GNT-0000 00 Qan[T]',
+        'GNT-0000',
+        'Mobile Suit Gundam 00 The Movie: Awakening of the Trailblazer',
+        false,
+        ['GN-0000+GNR-010 00 Raiser'],
+        ['ELS Qan[T]'],
+        'Anno Domini',
+        [2314,'2314 A.D.','Present'],
+        'Setsuna F. Seisei',
+        false,
+        'Celestial Being',
+        ['Celestial Being'],
+        [18.3,'18.3 Meters'],
+        [63.5,'63.5 Metric Tons'],
+        'E-Carbon',
+        'Double GN Drives',
+        [
+            'GN Sword Bit A (x2)',
+            'GN Sword Bit B (x2)',
+            'GN Sword Bit C (x2)'
+        ],
+        [
+            'GN Sword V'
+        ],
+        [
+            'Veda-Linked Operating System',
+            'Twin Drive System',
+            'Bit Control System',
+            'GN Field',
+            'Miniature Veda Terminal',
+            'Quantum System',
+            'Quantum Teleportation System',
+            'Trans-Am System'
+        ],
+        'Kanetake Ebikawa',
+        false,
+        false,
+        false,
+        ['img/models/qant.jpeg','Gundam QAN[T]'],
+        true
+    ],
+    [22,1,'00 Gundam',
+        'GN-0000 00 Gundam',
+        'GN-0000',
+        'Mobile Suit Gundam 00: Season Two',
+        false,
+        ['GN-001 Gundam Exia'],
+        ['GN-0000+GNR-010 00 Raiser','CB-0000G/C Reborns Gundam'],
+        'Anno Domini',
+        [2312,'2312 A.D.',2314],
+        'Setsuna F. Seisei',
+        ['Tieria Erde'],
+        'Celestial Being',
+        ['Celestial Being'],
+        [18.3,'18.3 Meters'],
+        [54.9,'54.9 Metric Tons'],
+        'E-Carbon',
+        'Double GN Drives',
+        false,
+        [
+            'GN Beam Saver (x2)',
+            'GN Shield (X2)',
+            'GN Sword II (x2)',
+            'GN Sword III',
+            'Seven Swords Pack'
+        ],
+        [
+            'Veda-Linked Operating System',
+            'Twin Drive System',
+            'GN Field',
+            'Trans-Am System'
+        ],
+        'Kanetake Ebikawa',
+        false,
+        'Double O',
+        false,
+        ['img/models/doubleo.jpeg','00 Gundam']
+    ],
+    [23,1,'Dagger L',
+        'GAT-02L2 Dagger L',
+        'GAT-02L2',
+        'Mobile Suit Gundam SEED Destiny',
+        false,
+        ['GAT-01A1 Dagger'],
+        ['GAT-04 Windam'],
+        'Cosmic Era',
+        [71,'71 C.E.','Present'],
+        'Earth Alliance Soldiers',
+        false,
+        'Earth Alliance',
+        ['Earth Alliance','Atlantic Federation','OMNI Enforcer'],
+        [18.4,'18.4 Meters'],
+        [55.05,'55.05 Metric Tons'],
+        false,
+        'Ultracompact Energy Battery',
+        [
+            'M2M5 "Todesschrecken" 12.5mm Automatic CIWS (x4)',
+        ],
+        [
+            'ES04B Beam Saber (x2)',
+            'Mk315 "Stiletto" Rocket-Propelled Anti-Armor Penetrator (X2)',
+            'Shield',
+            'Mk39 Low-Recoil Cannon'
+        ],
+        [
+            'Striker Pack System'
+        ],
+        'Kunio Okawara',
+        false,
+        false,
+        false,
+        ['img/models/daggerl.jpeg','Dagger L'],
+        false
+    ],
+    [24,1,'Windam',
+        'GAT-04 Windam',
+        'GAT-04',
+        'Mobile Suit Gundam SEED Destiny',
+        false,
+        ['GAT-02L2 Dagger L'],
+        false,
+        'Cosmic Era',
+        [73,'October 73 C.E.','Present'],
+        'Noa Roanoke',
+        ['Earth Alliance Soldiers'],
+        'Earth Alliance',
+        ['Earth Alliance','Atlantic Federation','OMNI Enforcer'],
+        [18.67,'18.67 Meters'],
+        [58.2,'58.2 Metric Tons'],
+        false,
+        'Ultracompact Energy Battery',
+        [
+            'M2M5 "Todesschrecken" 12.5mm Automatic CIWS (x4)'
+        ],
+        [
+            'ES04B Beam Saber (x2)',
+            'Mk315 "Stiletto" Rocket-Propelled Anti-Armor Penetrator (x2)',
+            'Shield',
+            'Mk39 Low-Recoil Cannon',
+            'Aile Strike Pack'
+        ],
+        [
+            'Striker Pack System'
+        ],
+        'Kunio Okawara',
+        false,
+        false,
+        false,
+        ['img/models/windam.jpeg','Windam'],
+        false
+    ],
+    [25,1,'Doppelhorn Dual Recoilless Cannon and Nuclear Multi-Launcher Pack',
+        'AQM/E-M11 Doppelhorn Dual Recoilless Cannon and Nuclear Multi-Launcher Pack',
+        false,
+        'Mobile Suit Gundam SEED',
+        false,
+        false,
+        false,
+        'Cosmic Era',
+        false,
+        false,
+        false,
+        false,
+        ['Earth Alliance'],
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        'Kunio Okawara',
+        false,
+        false,
+        false,
+        ['img/models/daggerexp.jpeg','Dagger DoppleHorn Multi-Launcher Expansion Pack'],
+        false
     ]
 ];
 
@@ -589,7 +986,7 @@ const models = [
     2. Grade
     3. Straight Build (true/false)
     4. P-Bandai (true/false)
-    5. MGEX (true/false)
+    5. MGEX (true/false) 
     6. Series (Age,G,IBO,Mercury,Recon,Seed,TurnA,UC,X,Wing,00)
     7. Stage:
          A: Out Of Inventory
@@ -793,11 +1190,60 @@ const projects = [
     ['Iron Maiden',[1,'X Gundam'],'SD',false,false,false,'X','E','2021-10-07',4.83,false,'Builds/IronMaiden.html',[''],'2023-03-20'],
 
     //Anno Domini (00)
-    ['Gundam Umlaut \xD6\xD6',[1,'00 Gundam'],'SD',false,false,false,'00','E','2021-06-07',10.83,false,'Builds/Umlaut.html',[''],'2021-06-23'],
+    ['Umlaut \xD6\xD6',
+        [1,'00 Gundam'],'SD',false,false,false,'00','E','2021-06-07',10.83,false,'Builds/Gundams/umlaut.html',false,'2021-06-23',models[22],
+        [
+            ['../../img/projects/gundams/umlaut/umlaut01.jpeg','Gundam Umlaut','img1'],
+            ['../../img/projects/gundams/umlaut/umlaut02.jpeg','Gundam Umlaut','img2'],
+            ['../../img/projects/gundams/umlaut/umlaut03.jpeg','Gundam Umlaut','img3'],
+            ['../../img/projects/gundams/umlaut/umlaut04.jpeg','Gundam Umlaut','img4'],
+            ['../../img/projects/gundams/umlaut/umlaut05.jpeg','Gundam Umlaut','img5'],
+            ['../../img/projects/gundams/umlaut/umlaut06.jpeg','Gundam Umlaut','img6']
+        ],
+        ['img/projects/gundams/umlaut/umlaut03.jpeg','Profile Photo: Gundam Umlaut'],
+        'This model was strictly experimental as I was trying to get practice in on the airbrush. Since the name of the original gundam is the OO, Double O, I was being silly and figured why not add to dots on top of that and make it an umlaut.','Luke, Nebraska',
+        [
+            ['USA Gundam Store','https://www.usagundamstore.com/products/sd-ex-standard-008-00-gundam-model-kit?variant=14706730692'],
+            ['NewType','https://newtype.us/p/wterrtvejnOf2FWv8BIz/h/sdex-standard-08-00-gundam']
+        ],false,false,true,false
+    ],
     ['Metatron',[1,'00 Raiser'],'SD',false,false,false,'00','B'],
     ['PB Trans-Am Clear 00 Raiser [RG]',[1,'00 Gundam Raiser'],'RG',true,true,false,'00','E','2021-12-09',12.67,false,'Builds/PBooraiserRG.html',false,'2022-06-15'],
-    ['Silver \'n\' Gold',[1,'00 Gundam QAN[T]'],'RG',false,false,false,'00','B'],
-    ['Thunder QAN[T]',[1,'00 Gundam QAN[T]'],'SD',false,false,false,'00','E','2021-06-12',11.68,true,'Builds/ThunderQ.html',[''],'2021-08-09'],
+    ['Silver \'n\' Gold',
+        [1,'00 Gundam QAN[T]'],'RG',false,false,false,'00','B',false,0,false,'Builds/Gundams/silverngold.html',false,false,models[21]
+    ],
+    ['Thunder QAN[T]',
+        [1,'00 Gundam QAN[T]'],'SD',false,false,false,'00','E','2021-06-12',11.68,true,'Builds/Gundams/thunderq.html',false,'2021-08-09',models[21],
+        [
+            ['../../img/projects/gundams/thunderqant/thunderq01.jpeg','Gundam Thunder-Q','img1'],
+            ['../../img/projects/gundams/thunderqant/thunderq02.jpeg','Gundam Thunder-Q','img2'],
+            ['../../img/projects/gundams/thunderqant/thunderq03.jpeg','Gundam Thunder-Q','img3'],
+            ['../../img/projects/gundams/thunderqant/thunderq04.jpeg','Gundam Thunder-Q','img4'],
+            ['../../img/projects/gundams/thunderqant/thunderq05.jpeg','Gundam Thunder-Q','img5'],
+            ['../../img/projects/gundams/thunderqant/thunderq06.jpeg','Gundam Thunder-Q','img6'],
+            ['../../img/projects/gundams/thunderqant/thunderq07.jpeg','Gundam Thunder-Q','img7'],
+            ['../../img/projects/gundams/thunderqant/thunderq08.jpeg','Gundam Thunder-Q','img8'],
+            ['../../img/projects/gundams/thunderqant/thunderq09.jpeg','Gundam Thunder-Q','img9'],
+            ['../../img/projects/gundams/thunderqant/thunderq10.jpeg','Gundam Thunder-Q','img10'],
+            ['../../img/projects/gundams/thunderqant/thunderq11.jpeg','Gundam Thunder-Q','img11'],
+            ['../../img/projects/gundams/thunderqant/thunderq12.jpeg','Gundam Thunder-Q','img12'],
+            ['../../img/projects/gundams/thunderqant/thunderq13.jpeg','Gundam Thunder-Q','img13'],
+            ['../../img/projects/gundams/thunderqant/thunderq14.jpeg','Gundam Thunder-Q','img14'],
+            ['../../img/projects/gundams/thunderqant/thunderq15.jpeg','Gundam Thunder-Q','img15'],
+            ['../../img/projects/gundams/thunderqant/thunderq16.jpeg','Gundam Thunder-Q','img16'],
+            ['../../img/projects/gundams/thunderqant/thunderq17.jpeg','Gundam Thunder-Q','img17'],
+            ['../../img/projects/gundams/thunderqant/thunderq18.jpeg','Gundam Thunder-Q','img18'],
+            ['../../img/projects/gundams/thunderqant/thunderq19.jpeg','Gundam Thunder-Q','img19'],
+            ['../../img/projects/gundams/thunderqant/thunderq20.jpeg','Gundam Thunder-Q','img20'],
+            ['../../img/projects/gundams/thunderqant/thunderq21.jpeg','Gundam Thunder-Q','img21']
+        ],
+        ['img/projects/gundams/thunderqant/thunderq17.jpeg','Profile Photo: THunder-QAN[T]'],
+        'Gundam QANT is one of my favorites in the whole franchise. So much more futuristic that the prior installments of the Gundam universe. And the clear parts on this model were just begging for LEDs.',false,
+        [
+            ['USA Gundam Store','https://www.usagundamstore.com/products/bb364-gundam00-qant?variant=7146675077156'],
+            ['NewType','https://newtype.us/p/8q0W5dRIDplgZOwCuz3T/h/sdbb-364-00-qan-t']
+        ],false,true,true,false
+    ],
     ['PB Trans-Am Clear 00 QAN[T] [RG]',[1,'00 Gundam QAN[T]'],'RG',true,true,false,'00','E','2022-01-09',8.33,false,'Builds/PBOOQRG.html',false,'2022-07-28'],
     ['Nena',[1,'Exia'],'SD',false,false,false,'00','D','2021-12-07',4.95,false,'Builds/Nena.html',['']],
     ['PB Trans-Am Clear Exia [RG]',[1,'Exia'],'RG',true,true,false,'00','E','2021-12-08',6.58,false,'Builds/PBExiaRG.html',false,'2022-05-31'],
@@ -809,27 +1255,186 @@ const projects = [
     ['John Wayne',[1,'Turn-A'],'SD',false,false,false,'TurnA','E','2021-09-10',6.62,false,'Builds/JohnWayne.html',[''],'2023-02-13'],
 
     //Cosmic Century (Seed) 
-    ['Gundam Fluorescent',[1,'Aegis'],'SD',false,false,false,'Seed','E','2021-06-08',9.94,false,'Builds/Fluorescent.html',[''],'2021-06-24'],
+    ['Fluorescent',
+        [1,'Aegis'],'SD',false,false,false,'Seed','E','2021-06-08',9.94,false,'Builds/Gundams/Fluorescent.html',false,'2021-06-24',models[19],
+        [
+            ['../../img/projects/gundams/fluor/fluor01.jpeg','Fluorescent Gundam','img1'],
+            ['../../img/projects/gundams/fluor/fluor02.jpeg','Fluorescent Gundam','img2'],
+            ['../../img/projects/gundams/fluor/fluor03.jpeg','Fluorescent Gundam','img3'],
+            ['../../img/projects/gundams/fluor/fluor04.jpeg','Fluorescent Gundam','img4'],
+            ['../../img/projects/gundams/fluor/fluor05.jpeg','Fluorescent Gundam','img5'],
+            ['../../img/projects/gundams/fluor/fluor06.jpeg','Fluorescent Gundam','img6'],
+            ['../../img/projects/gundams/fluor/fluor07.jpeg','Fluorescent Gundam','img7'],
+            ['../../img/projects/gundams/fluor/fluor08.jpeg','Fluorescent Gundam','img8'],
+            ['../../img/projects/gundams/fluor/fluor09.jpeg','Fluorescent Gundam','img9']
+        ],
+        ['img/projects/gundams/fluor/fluor06.jpeg','Profile Photo: Fluorescent Gundam'],
+        'No particalur theme or inspiration here. This kit was used exclusively as a blank canvas to test out different shades of fluorescent paints on. Long story short I\'ve yet to have any luck on fluorescent colors. At least this model came together well though.',
+        'Ankita, Wisconsin',
+        [
+            ['USA Gundm Store','https://www.usagundamstore.com/products/bb-sd-aegis-gundam?variant=12995582404'],
+            ['NewType','https://newtype.us/p/f1D4oTlneK6t2H8RfSWn/h/sdgg-261-gat-x303-aegis-gundam']
+        ],false,false,true,false
+    ],
     ['Bald Eagle',[1,'Astray Blue Frame'],'MG',false,false,false,'Seed','B'],
     ['Raphael',[1,'Astray Gold Frame'],'SD',false,false,false,'Seed','B'],
     ['Oowashi Akatsuki [HG]',[1,'Akatsuki, Oowsahi'],'HG',true,false,false,'Seed','E','2021-12-18',2.67,false,false,false,'2022-04-26'],
     ['Rising Sun',[1,'Akatsuki, Oowashi'],'HG',false,false,false,'Seed','E','2021-11-05',17.28,false,'Builds/RisingSun.html',[''],'2022-04-28'],
     ['King Mars',[1,'Akatsuki, Shiranui'],'HG',false,false,false,'Seed','D','2022-05-06',13.67,false,'Builds/KingMars.html',['']],
-    ['Archangel',[2,'Archangel','Archangel'],'Ship',false,false,false,'Seed','E','2021-08-06',76.63,false,'Builds/ArchAngel.html',[''],'2022-01-10'],
-    ['Dominion',[1,'Archangel'],'Ship',false,false,false,'Seed','E','2021-09-07',21.87,false,,'Builds/Dominion.html',[''],'2022-01-17'],
+    ['Archangel',
+    [2,'Archangel','Archangel'],'Ship',false,false,false,'Seed','E','2021-08-06',76.63,false,'Builds/Ships/archAngel.html',false,'2022-01-10',models[15],
+        [
+            ['../../img/projects/ships/archangel/archangel01.jpeg','Battleship Archangel','img1'],
+            ['../../img/projects/ships/archangel/archangel02.jpeg','Battleship Archangel','img2'],
+            ['../../img/projects/ships/archangel/archangel03.jpeg','Battleship Archangel','img3'],
+            ['../../img/projects/ships/archangel/archangel04.jpeg','Battleship Archangel','img4'],
+            ['../../img/projects/ships/archangel/archangel06.jpeg','Battleship Archangel','img5'],
+            ['../../img/projects/ships/archangel/archangel07.jpeg','Battleship Archangel','img6'],
+            ['../../img/projects/ships/archangel/archangel08.jpeg','Battleship Archangel','img7'],
+            ['../../img/projects/ships/archangel/archangel09.jpeg','Battleship Archangel','img8'],
+            ['../../img/projects/ships/archangel/archangel10.jpeg','Battleship Archangel','img9'],
+            ['../../img/projects/ships/archangel/archangel11.jpeg','Battleship Archangel','img10'],
+            ['../../img/projects/ships/archangel/archangel12.jpeg','Battleship Archangel','img11'],
+            ['../../img/projects/ships/archangel/archangel13.jpeg','Battleship Archangel','img12'],
+            ['../../img/projects/ships/archangel/archangel14.jpeg','Battleship Archangel','img13'],
+            ['../../img/projects/ships/archangel/archangel15.jpeg','Battleship Archangel','img14'],
+            ['../../img/projects/ships/archangel/archangel16.jpeg','Battleship Archangel','img15'],
+            ['../../img/projects/ships/archangel/archangel17.jpeg','Battleship Archangel','img16'],
+            ['../../img/projects/ships/archangel/archangel18.jpeg','Battleship Archangel','img17'],
+            ['../../img/projects/ships/archangel/archangel19.jpeg','Battleship Archangel','img18'],
+            ['../../img/projects/ships/archangel/archangel20.jpeg','Battleship Archangel','img19'],
+            ['../../img/projects/ships/archangel/archangel21.jpeg','Battleship Archangel','img20'],
+            ['../../img/projects/ships/archangel/archangel22.jpeg','Battleship Archangel','img21'],
+            ['../../img/projects/ships/archangel/archangel23.jpeg','Battleship Archangel','img22'],
+            ['../../img/projects/ships/archangel/archangel24.jpeg','Battleship Archangel','img23'],
+            ['../../img/projects/ships/archangel/archangel25.jpeg','Battleship Archangel','img24'],
+            ['../../img/projects/ships/archangel/archangel26.jpeg','Battleship Archangel','img25'],
+            ['../../img/projects/ships/archangel/archangel27.jpeg','Battleship Archangel','img26'],
+            ['../../img/projects/ships/archangel/archangel28.jpeg','Battleship Archangel','img27'],
+            ['../../img/projects/ships/archangel/archangel29.jpeg','Battleship Archangel','img28'],
+            ['../../img/projects/ships/archangel/archangel30.jpeg','Battleship Archangel','img29'],
+            ['../../img/projects/ships/archangel/archangel31.jpeg','Battleship Archangel','img30'],
+            ['../../img/projects/ships/archangel/archangel32.jpeg','Battleship Archangel','img31'],
+            ['../../img/projects/ships/archangel/archangel33.jpeg','Battleship Archangel','img32'],
+            ['../../img/projects/ships/archangel/archangel34.jpeg','Battleship Archangel','img33'],
+            ['../../img/projects/ships/archangel/archangel35.jpeg','Battleship Archangel','img34'],
+            ['../../img/projects/ships/archangel/archangel36.jpeg','Battleship Archangel','img35'],
+            ['../../img/projects/ships/archangel/archangel37.jpeg','Battleship Archangel','img36'],
+            ['../../img/projects/ships/archangel/archangel38.jpeg','Battleship Archangel','img37'],
+            ['../../img/projects/ships/archangel/archangel39.jpeg','Battleship Archangel','img38'],
+            ['../../img/projects/ships/archangel/archangel40.jpeg','Battleship Archangel','img39'],
+            ['../../img/projects/ships/archangel/archangel41.jpeg','Battleship Archangel','img40'],
+            ['../../img/projects/ships/archangel/archangel42.jpeg','Battleship Archangel','img41'],
+            ['../../img/projects/ships/archangel/archangel43.jpeg','Battleship Archangel','img42'],
+            ['../../img/projects/ships/archangel/archangel44.jpeg','Battleship Archangel','img43'],
+            ['../../img/projects/ships/archangel/archangel45.jpeg','Battleship Archangel','img44'],
+            ['../../img/projects/ships/archangel/archangel46.jpeg','Battleship Archangel','img45']
+        ],
+        ['img/projects/ships/archangel/archangel21.jpeg','Profile Photo: Archangel'],
+        'Had a lot of fun building the Eternal that I just had to build another ship model. Archangel has always been a huge favorite of mine in the Gundam series so it just seemed natural to build that next, as well as a must. The kit has two modes, weapons and launch catapults extended and withdrawn. I did not want to risk damaging the model by tinkering around with chaning it in between modes so I wound up resorting to building two models of the Archangel, one in each mode. There is also a third option in the kit to swap the parts around to build the Dominion but I skipped that for a future build. But anyhow both my Archangels came out looking great. I\'m so proud of this buidl.',false,false,['Eternal','Dominion'],false,true,'1:1700'
+    ],
+    ['Dominion',
+    [1,'Archangel'],'Ship',false,false,false,'Seed','E','2021-09-07',21.87,false,'Builds/Ships/dominion.html',false,'2022-01-17',models[16],
+    [
+        ['../../img/projects/ships/dominion/dominion01.jpeg','Battleship Dominion','img1'],
+        ['../../img/projects/ships/dominion/dominion02.jpeg','Battleship Dominion','img2'],
+        ['../../img/projects/ships/dominion/dominion03.jpeg','Battleship Dominion','img3'],
+        ['../../img/projects/ships/dominion/dominion04.jpeg','Battleship Dominion','img4'],
+        ['../../img/projects/ships/dominion/dominion05.jpeg','Battleship Dominion','img5'],
+        ['../../img/projects/ships/dominion/dominion06.jpeg','Battleship Dominion','img6'],
+        ['../../img/projects/ships/dominion/dominion07.jpeg','Battleship Dominion','img7'],
+        ['../../img/projects/ships/dominion/dominion08.jpeg','Battleship Dominion','img8'],
+        ['../../img/projects/ships/dominion/dominion09.jpeg','Battleship Dominion','img9'],
+        ['../../img/projects/ships/dominion/dominion10.jpeg','Battleship Dominion','img10'],
+    ],
+    ['img/projects/ships/dominion/dominion05.jpeg'],
+    'I originally was not planning to build this. But my both my Archangels came out so fantastic and the fact the kit had the parts to build the Dominion just kept weighing on my mind that eventually I broke down and surrendered to the temptation and had to buy me a third Archangel kit. Besides, you cannot have the Archangel without staging its final dual with the Dominion. Therefore now preseneting to you, the Dominino.',false,false,['Archangel'],false,true,'1:1700'
+    ],
     ['Urban Commando',[1,'Buster'],'MG',false,false,false,'Seed','B'],
     ['Calamitous Godzilla',[1,'Calamity'],'FM',false,false,false,'Seed','B'],
-    ['PB Armageddon',[2.5,'Dagger L','Dagger L','Dagger Expansion Pack'],'HG',false,true,false,'Seed','E','2022-03-06',28.5,false,'Builds/Armageddon.html',[''],'2022-05-23'],
-    ['King Leir',[1,'Dagger L'],'HG',false,false,false,'Seed','E','2021-06-10',14.09,false,'Builds/KingLeir.html',[''],'2021-06-26'],
-    ['Samus: Varia Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','C','2023-06-13',3.58,false,'Builds/Gundams/VariaSuit.html',['Tamiya: Gold TS-21 Can','Testors: Sunflower 1191','Tamiya: Matt Black TS-6 Can','Vallejo Game Color: Fluorescent Green 72.104','Tamiya: Gun Metal TS-38 Can']],
+    ['PB Armageddon',
+        [2.5,'Dagger L','Dagger L','PB Dagger Expansion Pack'],'HG',false,true,false,'Seed','E','2022-03-06',28.5,false,'Builds/uniqueTemplates/armageddon.html',false,'2022-05-23',models[25],
+        [
+            ['../../img/projects/gundams/oberon/oberon12.jpeg','Oberon','img1'],
+            ['../../img/projects/PBandai/parmageddon/parmageddon01.jpeg','Project Armageddon','img2'],
+            ['../../img/projects/PBandai/parmageddon/parmageddon02.jpeg','Project Armageddon','img3'],
+            ['../../img/projects/PBandai/parmageddon/parmageddon03.jpeg','Project Armageddon','img4'],
+            ['../../img/projects/PBandai/parmageddon/parmageddon04.jpeg','Project Armageddon','img5'],
+            ['../../img/projects/PBandai/parmageddon/parmageddon05.jpeg','Project Armageddon','img6'],
+            ['../../img/projects/PBandai/parmageddon/parmageddon06.jpeg','Project Armageddon','img7'],
+            ['../../img/projects/PBandai/parmageddon/parmageddon07.jpeg','Project Armageddon','img8'],
+            ['../../img/projects/PBandai/parmageddon/parmageddon08.jpeg','Project Armageddon','img9'],
+            ['../../img/projects/PBandai/parmageddon/parmageddon09.jpeg','Project Armageddon','img10'],
+            ['../../img/projects/PBandai/parmageddon/parmageddon10.jpeg','Project Armageddon','img11'],
+            ['../../img/projects/PBandai/parmageddon/parmageddon11.jpeg','Project Armageddon','img12'],
+            ['../../img/projects/PBandai/parmageddon/parmageddon12.jpeg','Project Armageddon','img13'],
+            ['../../img/projects/PBandai/parmageddon/parmageddon13.jpeg','Project Armageddon','img14'],
+            ['../../img/projects/PBandai/parmageddon/parmageddon14.jpeg','Project Armageddon','img15'],
+            ['../../img/projects/PBandai/parmageddon/parmageddon15.jpeg','Project Armageddon','img16'],
+            ['../../img/projects/PBandai/parmageddon/parmageddon16.jpeg','Project Armageddon','img17'],
+            ['../../img/projects/PBandai/parmageddon/parmageddon17.jpeg','Project Armageddon','img18'],
+            ['../../img/projects/PBandai/parmageddon/parmageddon18.jpeg','Project Armageddon','img19'],
+            ['../../img/projects/PBandai/parmageddon/parmageddon19.jpeg','Project Armageddon','img20'],
+            ['../../img/projects/PBandai/parmageddon/parmageddon20.jpeg','Project Armageddon','img21']
+        ],
+        ['img/projects/PBandai/parmageddon/parmageddon17.jpeg'],
+        'One of the coolest things I love about the SEED universe is the versatility of the mobile suits in how they all can have added equipment packs added on to enhance their features. However very few of these packs have been made as actual add-on model kits to add to the current model kit lineup. So when I saw that P-Bandai was releasing the Dagger L expansion pack I just had to get it and paint it. Included is the Doppelhorn Dual Recoilless Cannon, which is the very long barrel guns mounted on the Dagger\'s shoulders. And also included is the Multi-Launcher pack which is the large square box-like structure that houses the long range nuclear ICBMs stored inside that were used to vaporize the Boaz military asteroid in the final story arc of Gundam SEED. To mount the two units I build two new Dagger Ls which I painted identical my previous project King Leir. Bringing my Dagger count now up to three: King Leir and his two daughters Gonorilla and Regan. Also included is Oberon, acting as their squadron commander.',false,
+        [
+            ['Premium Bandai','https://p-bandai.com/us/item/N2563436001002']
+        ],['Oberon','King Leir','PB Strike Daggers'],false,true,'1:144'
+    ],
+    ['King Leir',
+        [1,'Dagger L'],'HG',false,false,false,'Seed','E','2021-06-10',14.09,false,'Builds/Gundams/KingLeir.html',false,'2021-06-26',models[23],
+        [
+            ['../../img/projects/gundams/kingleir/kingleir01.jpeg','King Leir','img1'],
+            ['../../img/projects/gundams/kingleir/kingleir02.jpeg','King Leir','img2'],
+            ['../../img/projects/gundams/kingleir/kingleir03.jpeg','King Leir','img3'],
+            ['../../img/projects/gundams/kingleir/kingleir04.jpeg','King Leir','img4'],
+            ['../../img/projects/gundams/kingleir/kingleir05.jpeg','King Leir','img5'],
+            ['../../img/projects/gundams/kingleir/kingleir06.jpeg','King Leir','img6'],
+            ['../../img/projects/gundams/kingleir/kingleir07.jpeg','King Leir','img7'],
+            ['../../img/projects/gundams/kingleir/kingleir08.jpeg','King Leir','img8'],
+            ['../../img/projects/gundams/kingleir/kingleir09.jpeg','King Leir','img9'],
+            ['../../img/projects/gundams/kingleir/kingleir10.jpeg','King Leir','img10'],
+            ['../../img/projects/gundams/kingleir/kingleir11.jpeg','King Leir','img11'],
+            ['../../img/projects/gundams/kingleir/kingleir12.jpeg','King Leir','img12'],
+            ['../../img/projects/gundams/kingleir/kingleir13.jpeg','King Leir','img13'],
+            ['../../img/projects/gundams/kingleir/kingleir14.jpeg','King Leir','img14'],
+            ['../../img/projects/gundams/kingleir/kingleir15.jpeg','King Leir','img15'],
+            ['../../img/projects/gundams/kingleir/kingleir16.jpeg','King Leir','img16'],
+            ['../../img/projects/gundams/kingleir/kingleir17.jpeg','King Leir','img17'],
+            ['../../img/projects/gundams/kingleir/kingleir18.jpeg','King Leir','img18'],
+            ['../../img/projects/gundams/kingleir/kingleir19.jpeg','King Leir','img19'],
+            ['../../img/projects/gundams/kingleir/kingleir20.jpeg','King Leir','img20']
+        ],
+        ['img/projects/gundams/kingleir/kingleir01.jpeg'],
+        'This was my first attempt at painting a larger model than an SD with the airbrush. I stuck to mostly the traditional desgn but swapped the white portions with steel and aluminum to make it a little more darker. Also brightened the purple and swapped the blue with a steel blue. After it was finsiehd, not gonna lie, I liked my design way better than the original.',false,
+        [
+            ['USA Gundam Store','https://www.usagundamstore.com/products/hgce-1-144-247-dagger-l'],
+            ['NewType','https://newtype.us/p/V3s94PjelBrA0T06Q673/h/hgce-237-gat-o2l2-dagger-l']
+        ],['PB Armageddon','Samus: Varia Suit','Malphas'],false,true,'1:144'
+    ],
+    ['Samus: Varia Suit',
+        [1,'Dagger L'],'HG',false,false,false,'Seed','C','2023-06-13',3.58,false,'Builds/Gundams/VariaSuit.html',['Tamiya: Gold TS-21 Can','Testors: Sunflower 1191','Tamiya: Matt Black TS-6 Can','Vallejo Game Color: Fluorescent Green 72.104','Tamiya: Gun Metal TS-38 Can'],false,models[23],
+        [
+            []
+        ],
+        [],
+        '',false,
+        [
+            ['USA Gundam Store','https://www.usagundamstore.com/products/hgce-1-144-247-dagger-l'],
+            ['NewType','https://newtype.us/p/V3s94PjelBrA0T06Q673/h/hgce-237-gat-o2l2-dagger-l']
+        ],['PB Armageddon','King Leir','PB Strike Daggers'],false,false,'1:144'
+        
+    ],
     ['Charizard',[1,'Destiny'],'MG',false,false,false,'Seed','B'],
     ['Charizard X',[1,'Destiny'],'SD',false,false,false,'Seed','E','2021-10-10',8.13,false,'Builds/CharizardX.html',[''],'2022-05-16'],
     ['Iapetus',[1,'Destiny'],'SD',false,false,false,'Seed','B'],
     ['Thin Blue Line',[2,'Duel Gundam','Duel Gundam Assault Shroud'],'MG',false,false,false,'Seed','B'],
     ['Eclipse ???',[1,'Eclipse'],'MG',false,false,false,'Seed','B'],
     ['PB Eclipse [MG]',[1.5,'Eclipse','Eclipse Maneuver Striker'],'MG',true,true,false,'Seed','E','2022-02',17.75,false,'Builds/PBEclipseMG.html',false,'2023-01-30'],
-    ['Eternal',[1,'Eternal'],'Ship',false,false,false,'Seed','E','2021-08-05',24.1,false,
-        'Builds/Ships/eternal.html',['Vallejo Model Color: Sunset Red 70.802'],'2022-01-03',models[7],
+    ['Eternal',
+        [1,'Eternal'],'Ship',false,false,false,'Seed','E','2021-08-05',24.1,false,'Builds/Ships/eternal.html',['Vallejo Model Color: Sunset Red 70.802'],'2022-01-03',models[7],
         [
             ['../../img/projects/ships/eternal/eternal01.jpeg','Warship Eternal','img1'],
             ['../../img/projects/ships/eternal/eternal02.jpeg','Warship Eternal','img2'],
@@ -864,15 +1469,11 @@ const projects = [
         ],
         ['img/projects/ships/eternal/eternal28.jpeg','Profile Photo: Eternal'],
         'This was my first ship buid. And I am awfully quite attached to it. At the time I was in a Gundam Seed kick and rewatching that series so the ships and machines from that saga was on my mind. Seed is probably home to all my favorite vessels throughout the entire Gundam saga. Whether it be Eternal or Archangel they\'re all so cool. And Eternal is by my far the coolest one. For this I was trying to be as realistic and close to the source material as possible. So rather than do a custom design I painted it exactly as how it appears in the anime. So expect lots of pink and purples... Also..., it has got to be pointed out how cool and cute the METEOR units in this kit are. By far out of the whole ship, the METEORs I\'m most proud of. Inspired by these, I am going to be doing a much larger scale P-Bandai meteor kit paint real soon.',
-        false,
-        false,
-        ['Archangel'],
-        false,
-        true,
-        '1:1700'
+        false,false,['Archangel'],false,true,'1:1700'
     ],
     ['Orga',[1,'Forbidden'],'FM',false,false,false,'Seed','A'],
-    ['Anthem',[1,'Freedom'],'MG',false,false,false,'Seed','E','2022-05-05',73.16,true,'Builds/Gundams/Anthem.html',false,'2022-07-04',models[14],[
+    ['Anthem',
+        [1,'Freedom'],'MG',false,false,false,'Seed','E','2022-05-05',73.16,true,'Builds/Gundams/Anthem.html',false,'2022-07-04',models[14],[
             ['../../img/projects/gundams/anthem/anthem01.jpeg','Anthem Gundam','img1'],
             ['../../img/projects/gundams/anthem/anthem02.jpeg','Anthem Gundam','img2'],
             ['../../img/projects/gundams/anthem/anthem03.jpeg','Anthem Gundam','img3'],
@@ -966,7 +1567,8 @@ const projects = [
         ],['Liberty','Old Glory','Don\'t Tread On Ye'],false,true,'1:100'
     ],
     ['Freedom [MGSD]',[1,'Freedom'],'MGSD',true,false,false,'Seed','E','2023-03-05',8.5,false,false,false,'2023-06-28',false],
-    ['Liberty',[1,'Freedom'],'SD',false,false,false,'Seed','E','2022-04-09',18,false,'Builds/Gundams/Liberty.html',false,'2022-06-27',models[14],
+    ['Liberty',
+        [1,'Freedom'],'SD',false,false,false,'Seed','E','2022-04-09',18,false,'Builds/Gundams/Liberty.html',false,'2022-06-27',models[14],
         [
             ['../../img/projects/gundams/liberty/liberty01.jpeg','Gundam Liberty','img1'],
             ['../../img/projects/gundams/liberty/liberty02.jpeg','Gundam Liberty','img2'],
@@ -1027,7 +1629,29 @@ const projects = [
     ['Battra',[1,'Strike Noir'],'MG',false,false,false,'Seed','B'],
     ['Strike Noir [SD]',[1,'Strike Noir'],'SD',true,false,false,'Seed','D','2021-09-06',2.233,false,false,false],
     ['Strike Verde',[1,'Strike Noir'],'SD',false,false,false,'Seed','D','2021-12',8,false,'Builds/StrikeVerde.html',['']],
-    ['Oberon',[1,'Windam'],'HG',false,false,false,'Seed','E','2022-03-05',20.25,false,'Builds/Oberon.html',[''],'2022-05-09'],
+    ['Oberon',
+        [1,'Windam'],'HG',false,false,false,'Seed','E','2022-03-05',20.25,false,'Builds/Gundams/oberon.html',false,'2022-05-09',models[24],
+        [
+            ['../../img/projects/gundams/oberon/oberon01.jpeg','Oberon','img1'],
+            ['../../img/projects/gundams/oberon/oberon02.jpeg','Oberon','img2'],
+            ['../../img/projects/gundams/oberon/oberon03.jpeg','Oberon','img3'],
+            ['../../img/projects/gundams/oberon/oberon04.jpeg','Oberon','img4'],
+            ['../../img/projects/gundams/oberon/oberon05.jpeg','Oberon','img5'],
+            ['../../img/projects/gundams/oberon/oberon06.jpeg','Oberon','img6'],
+            ['../../img/projects/gundams/oberon/oberon07.jpeg','Oberon','img7'],
+            ['../../img/projects/gundams/oberon/oberon08.jpeg','Oberon','img8'],
+            ['../../img/projects/gundams/oberon/oberon09.jpeg','Oberon','img9'],
+            ['../../img/projects/gundams/oberon/oberon10.jpeg','Oberon','img10'],
+            ['../../img/projects/gundams/oberon/oberon11.jpeg','Oberon','img11'],
+            ['../../img/projects/gundams/oberon/oberon12.jpeg','Oberon','img12']
+        ],
+        ['img/projects/gundams/oberon/oberon12.jpeg'],
+        'So the Windam is the upgrade version of the Dagger L. Which my Dagger build I named it King Leir, from Shakespeare. Following the Shakespeare therefore I decided for the Windam to name it Oberon, from Shakespeare\'s Midsummer Night\'s Dream. Now those who keep up with Shakespeare would know that in Shakespearean lore Oberon was the king of the fairies. Therefore to make him more fairy like I decided to stick with more pastel colors.',false,
+        [
+            ['USA Gundam Store','https://www.usagundamstore.com/products/hgce-1-144-232-gat-04-windam'],
+            ['NewType','https://newtype.us/p/kjwUPIk5smIcsY8oIzVJ/h/hgce-232-gat-04-windam']
+        ],['PB Armageddon'],false,true,'1:144'
+    ],
     ['PB Slash Zaku Phantom (Yzak Jule Custom) [MG]',[1,'Zaku Phantom, Slash'],'MG',true,true,false,'Seed','D','2023-04-05',11.83,false,'Builds/PBPhantomZakuMG.html',false],
     
     //Future Century (G Gundam)
@@ -1131,9 +1755,60 @@ const projects = [
 
     //Universal Century
     ['Dew Drop',[1,'Acguy'],'HG',false,false,false,'UC','E','2023-05-29-08',5.75,false,'Builds/Gundams/DewDrop.html',['Vallejo Model Air: Underside Blue 71.332','Vallejo Model Air: French Blue 71.088','Vallejo Model Air: Steel Blue 71.087','Vallejo Mecha Color: Metallic Blue 69.067','Tamiya: Gold TS-21 Can','Tamiya: Metallic Red PS-15 Can'],'2023-06-19'],
-    ['Fantomas',[1,'Banshee Norn'],'SD',false,false,false,'UC','E','2021-06-12',15.02,true,'Builds/Fantomas.html',[''],'2021-08-03'],
-    ['King Uranus',[1,'Banshee Norn'],'RG',false,false,false,'UC','B'],
-    ['Gundam ARRRgent',[1,'Crossbone X-1'],'SD',false,false,false,'UC','E','2021-06-09',14.09,false,'Builds/arrrgent.html',[''],'2021-06-25'],
+    ['Fantomas',
+        [1,'Banshee Norn'],'SD',false,false,false,'UC','E','2021-06-12',15.02,true,'Builds/Gundams/fantomas.html',false,'2021-08-03',models[20],
+        [
+            ['../../img/projects/gundams/fantomas/Fantomas01.jpeg','Fantomas','img1'],
+            ['../../img/projects/gundams/fantomas/Fantomas02.jpeg','Fantomas','img2'],
+            ['../../img/projects/gundams/fantomas/Fantomas03.jpeg','Fantomas','img3'],
+            ['../../img/projects/gundams/fantomas/Fantomas04.jpeg','Fantomas','img4'],
+            ['../../img/projects/gundams/fantomas/Fantomas05.jpeg','Fantomas','img5'],
+            ['../../img/projects/gundams/fantomas/Fantomas06.jpeg','Fantomas','img6'],
+            ['../../img/projects/gundams/fantomas/Fantomas07.jpeg','Fantomas','img7'],
+            ['../../img/projects/gundams/fantomas/Fantomas08.jpeg','Fantomas','img8'],
+            ['../../img/projects/gundams/fantomas/Fantomas09.jpeg','Fantomas','img9'],
+            ['../../img/projects/gundams/fantomas/Fantomas10.jpeg','Fantomas','img10'],
+            ['../../img/projects/gundams/fantomas/Fantomas11.jpeg','Fantomas','img11'],
+            ['../../img/projects/gundams/fantomas/Fantomas12.jpeg','Fantomas','img12'],
+            ['../../img/projects/gundams/fantomas/Fantomas13.jpeg','Fantomas','img13'],
+            ['../../img/projects/gundams/fantomas/Fantomas14.jpeg','Fantomas','img14'],
+            ['../../img/projects/gundams/fantomas/Fantomas15.jpeg','Fantomas','img15'],
+            ['../../img/projects/gundams/fantomas/Fantomas16.jpeg','Fantomas','img16'],
+            ['../../img/projects/gundams/fantomas/Fantomas17.jpeg','Fantomas','img17']
+        ],
+        ['img/projects/gundams/fantomas/Fantomas17.jpeg','Profile Photo: Fantomas'],
+        'Inspired by the French liteary character, Fantomas, wanted to make something dark and spooky. THe LEDs in the light and chest created a cool affect.',false,
+        [
+            ['Fantomas','https://en.wikipedia.org/wiki/Fantômas'],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/gundam-sd-ex-standard-015-unicorn-gundam-02-banshee-norn-destroy-mode'],
+            ['NewType','https://newtype.us/p/U9GzVy0DVcUQH57GpMAY/h/sdex-standard-15-banshee-norn-destroy-mode']
+        ],false,true,true,false
+    ],
+    ['King Uranus',
+    [1,'Banshee Norn'],'RG',false,false,false,'UC','B',false,0,false,'Builds/Gundams/uranus.html',false,false,models[20],false
+
+    ],
+    ['ARRRgent',
+         [1,'Crossbone X-1'],'SD',false,false,false,'UC','E','2021-06-09',14.09,false,'Builds/Gundams/arrrgent.html',false,'2021-06-25',models[18],
+        [
+            ['../../img/projects/gundams/arrrgent/arrrgent01.jpeg','Arrrgent Gundam','img1'],
+            ['../../img/projects/gundams/arrrgent/arrrgent02.jpeg','Arrrgent Gundam','img2'],
+            ['../../img/projects/gundams/arrrgent/arrrgent03.jpeg','Arrrgent Gundam','img3'],
+            ['../../img/projects/gundams/arrrgent/arrrgent04.jpeg','Arrrgent Gundam','img4'],
+            ['../../img/projects/gundams/arrrgent/arrrgent05.jpeg','Arrrgent Gundam','img5'],
+            ['../../img/projects/gundams/arrrgent/arrrgent06.jpeg','Arrrgent Gundam','img6'],
+            ['../../img/projects/gundams/arrrgent/arrrgent07.jpeg','Arrrgent Gundam','img7'],
+            ['../../img/projects/gundams/arrrgent/arrrgent08.jpeg','Arrrgent Gundam','img8'],
+            ['../../img/projects/gundams/arrrgent/arrrgent09.jpeg','Arrrgent Gundam','img9'],
+            ['../../img/projects/gundams/arrrgent/arrrgent10.jpeg','Arrrgent Gundam','img10'],
+            ['../../img/projects/gundams/arrrgent/arrrgent11.jpeg','Arrrgent Gundam','img11'],
+        ],
+        ['img/projects/gundams/arrrgent/arrrgent03.jpeg','Profile Photo: Arrrgent Gundam'],'What can I say, arrrrrgh, the boy\'s a pirate.',false,
+        [
+            ['USA Gundam Store','https://www.usagundamstore.com/products/pre-order-bandai-sdgcs-2-crossbone-gundan-x1-crossbone-gundam?variant=6977963851812'],
+            ['NewType','https://newtype.us/p/YGYIUhgF1SPER7BQkT5D/h/sdcs-02-crossbone-gundam-x1']
+        ],false,false,true,false
+    ],
     ['Crossbone [RG]',[1,'Crossbone X-1'],'RG',true,false,false,'UC','D','2022-05-07',9.08,false,false,false],
     ['King Neptune',[1,'Crossbone X-1'],'RG',false,false,false,'UC','B'],
     ['Jackie-O',[1,'Delta Plus'],'SD',false,false,false,'UC','E','2022-01-07',11.17,false,'Builds/JackieO.html',[''],'2022-07-11'],
@@ -1143,7 +1818,8 @@ const projects = [
     ['Der Kommissar',[1,'Lightning Gundam'],'SD',false,false,false,'UC','E','2021-12-11',4.05,false,'Builds/DerKommissar.html',[''],'2023-04-03'],
     ['Nachtigall',[1,'Nightingale'],'SD',false,false,false,'UC','B'],
     ['Mnemosyne',[1,'Neue Ziuel'],'SD',false,false,false,'UC','B'],
-    ['\u03C0 (pi)',[1,'Nu Gundam'],'SD',false,false,false,'UC','E','2021-06-06',15.66,false,'Builds/Gundams/pi.html',false,'2021-06-22',models[13],
+    ['\u03C0 (pi)',
+        [1,'Nu Gundam'],'SD',false,false,false,'UC','E','2021-06-06',15.66,false,'Builds/Gundams/pi.html',false,'2021-06-22',models[13],
         [
             ['../../img/projects/gundams/pi/pi01.jpeg','Pi Gundam','img1'],
             ['../../img/projects/gundams/pi/pi02.jpeg','Pi Gundam','img2'],
@@ -1216,7 +1892,41 @@ const projects = [
     ['Eurybia',[1,'Akatsuki, Zhou Yu'],'SD',false,false,false,'Heroes','B'],
     ['Pallas',[1,'Burning Gundam, Huang Zhang Fei'],'SD',false,false,false,'Heroes','B'],
     ['Perses',[1,'Deathscythe, Xu Huang'],'SD',false,false,false,'Heroes','A'],
-    ['Azalea',[1,'Delta, Sasuki'],'SD',false,false,false,'Heroes','E','2021-10-09',6.5,false,'Builds/Azalea.html',[''],'2022-06-22'],
+    ['Azalea',
+        [1,'Delta, Sasuki'],'SD',false,false,false,'Heroes','E','2021-10-09',6.5,false,'Builds/SDW/azalea.html',['Turbo Dork: Sakura','Turbo Dork: Sparkle Motion'],'2022-06-22',models[17],
+        [
+            ['../../img/projects/sdw/azalea/azalea01.jpeg','Gundam Azalea','img1'],
+            ['../../img/projects/sdw/azalea/azalea02.jpeg','Gundam Azalea','img2'],
+            ['../../img/projects/sdw/azalea/azalea03.jpeg','Gundam Azalea','img3'],
+            ['../../img/projects/sdw/azalea/azalea04.jpeg','Gundam Azalea','img4'],
+            ['../../img/projects/sdw/azalea/azalea05.jpeg','Gundam Azalea','img5'],
+            ['../../img/projects/sdw/azalea/azalea06.jpeg','Gundam Azalea','img6'],
+            ['../../img/projects/sdw/azalea/azalea07.jpeg','Gundam Azalea','img7'],
+            ['../../img/projects/sdw/azalea/azalea08.jpeg','Gundam Azalea','img8'],
+            ['../../img/projects/sdw/azalea/azalea09.jpeg','Gundam Azalea','img9'],
+            ['../../img/projects/sdw/azalea/azalea10.jpeg','Gundam Azalea','img10'],
+            ['../../img/projects/sdw/azalea/azalea11.jpeg','Gundam Azalea','img11'],
+            ['../../img/projects/sdw/azalea/azalea12.jpeg','Gundam Azalea','img12'],
+            ['../../img/projects/sdw/azalea/azalea13.jpeg','Gundam Azalea','img13'],
+            ['../../img/projects/sdw/azalea/azalea14.jpeg','Gundam Azalea','img14'],
+            ['../../img/projects/sdw/azalea/azalea15.jpeg','Gundam Azalea','img15'],
+            ['../../img/projects/sdw/azalea/azalea16.jpeg','Gundam Azalea','img16'],
+            ['../../img/projects/sdw/azalea/azalea17.jpeg','Gundam Azalea','img17'],
+            ['../../img/projects/sdw/azalea/azalea18.jpeg','Gundam Azalea','img18'],
+            ['../../img/projects/sdw/azalea/azalea19.jpeg','Gundam Azalea','img19'],
+            ['../../img/projects/sdw/azalea/azalea20.jpeg','Gundam Azalea','img20'],
+            ['../../img/projects/sdw/azalea/azalea21.jpeg','Gundam Azalea','img21'],
+            ['../../img/projects/sdw/azalea/azalea22.jpeg','Gundam Azalea','img22'],
+            ['../../img/projects/sdw/azalea/azalea23.jpeg','Gundam Azalea','img23']
+        ],
+        ['img/projects/sdw/azalea/azalea16.jpeg','Profile Photo: Azalea'],
+        'The drive behind this design was two-fold. One, I was testing out the new paint line I discovered, Turbo Dork. For the record they came out great and their paints are super shiny. And two, I was tyring to come up with a Christmas present for a girl, which the resolution to that quest was the shiny pink. I was really proud how this turned out that it was sad to give it away. But I\'m really proud of this build.','Penny, Nebraska',
+        [
+            ['TurboDork','https://turbodork.com/products/sakura'],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/sdw-heroes-06-sasuke-delta-gundam?variant=37856509067461'],
+            ['NewType','https://newtype.us/p/37iFUC8z3fCky22Mbkxp/h/sdw-heroes-06-sasuke-delta-gundam']
+        ],false,false,true,false
+    ],
     ['Sasuki Delta [SD]',[1,'Delta, Saskui'],'SD',true,false,false,'Heroes','E','2021-09-05',1.5,false,false,false,'2022-06-20'],
     ['Quetzalcaotl',[1,'Dragon, Dark Grasper'],'SD',false,false,false,'Heroes','B'],
     ['Pharaoh',[1,'Dragon, Shining Grasper'],'SD',false,false,false,'Heroes','A'],
@@ -1294,7 +2004,8 @@ const projects = [
     ['Asterix',[1,'Charmander'],'Pokemon',false,false,false,'','D','2023-03-12',3.85,false,'Builds/asterix.html',['']],
     ['Vercingetorix',[1,'Charizard'],'Pokemon',false,false,false,'','D','2023-03-10',5.99,false,'Builds/vercingetorix.html',['']],
     ['Boudica',[1,'Dragonite'],'Pokemon',false,false,false,'','D','2023-03-11',3.47,false,'Builds/boudica.html',['']],
-    ['Granfrog',[1,'Greninja'],'Pokemon',false,false,false,false,'E','2021-11-11',5.68,false,'Builds/Pokemon/granfrog.html',false,'2022-08-17',models[11],
+    ['Granfrog',
+        [1,'Greninja'],'Pokemon',false,false,false,false,'E','2021-11-11',5.68,false,'Builds/Pokemon/granfrog.html',false,'2022-08-17',models[11],
         [
             ['../../img/projects/pokemon/granfrog/granfrog01.jpeg','Granfrog the Greninja','img1'],
             ['../../img/projects/pokemon/granfrog/granfrog02.jpeg','Granfrog the Greninja','img2'],
@@ -1314,7 +2025,8 @@ const projects = [
             ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Greninja_(Pokémon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-47-greninja-model-kit?variant=40332069765317'],
             ['NewType','https://newtype.us/p/dwk8jzQtdPBUWYb5VxT3/h/pokemon-greninja']
-        ],false,false,true,false],
+        ],false,false,true,false
+    ],
     ['Brennus',[1,'Groudon'],'Pokemon',false,false,false,'','A'],
     ['Unhygienix',[1,'Magikarp'],'Pokemon',false,false,false,'','A'],
     ['Lutetia',[1,'Lucario'],'Pokemon',false,false,false,'','A'],
@@ -1335,7 +2047,8 @@ const projects = [
     ['Odin',[1,'Shine Greymon',],'Digimon',false,false,false,'','A'],
     ['Ragnarok',[1,'Omnimon'],'Digimon',false,false,false,'','E','2022-07-05',19.65,false,'Builds/ragnorok.html',[''],'2022-10-17'],
     ['Revelation',[1,'Omnimon X'],'Digimon',false,false,false,'','A'],
-    ['Fafnir',[1,'War Greymon'],'Digimon',false,false,false,'','E','2022-07-08',20.7,false,'Builds/Digimon/fafnir.html',false,'2022-10-04',models[10],
+    ['Fafnir',
+        [1,'War Greymon'],'Digimon',false,false,false,'','E','2022-07-08',20.7,false,'Builds/Digimon/fafnir.html',false,'2022-10-04',models[10],
         [['../../img/projects/digimon/fafnir/fafnir01.jpeg','Fafnir','img1'],
             ['../../img/projects/digimon/fafnir/fafnir02.jpeg','Fafnir','img2'],
             ['../../img/projects/digimon/fafnir/fafnir03.jpeg','Fafnir','img3'],
@@ -1366,7 +2079,8 @@ const projects = [
             ['Digmon Cybersleuth','https://www.grindosaur.com/en/games/digimon/digimon-story-cyber-sleuth/digimon/228-wargreymon'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/digimon-adventure-figure-rise-standard-amplified-wargreymon-model-kit'],
             ['NewType','https://newtype.us/p/dGkX8wc4OgATMVVeqW5A/h/figure-rise-wargreymon-amplified']
-        ],['Fenrir','Ragnarok'],false,true,false],
+        ],['Fenrir','Ragnarok'],false,true,false
+    ],
 
     //Display
     ['Diurnum',
@@ -2705,7 +3419,7 @@ function buildProjectPage(string) {
     popNode(projectArray[0],'jumboNode');
     popNode(projectArray[0],'breadcrumbNode');
 
-    if (modelArray[1] === 1) {
+    if (modelArray[1] === 1 && modelArray[27]) {
         popNode('Gundam ','projectTitle');
         popNode('Gundam ','projectTitleMb');
     }
@@ -2838,10 +3552,7 @@ function buildProjectPage(string) {
         }
     }
 
-    if (modelArray[23]) {
-        buildSDWHero();
-    }
-    else if (modelArray[1] === 1) {
+    if (modelArray[1] === 1) {
         buildGundam();
     } 
     else if (modelArray[1] === 2) {
@@ -3034,6 +3745,11 @@ function buildGundam() {
         unhide('.gEquipmentHD');
         createList(modelArray[20],'gEquipment');
     }
+
+    if (modelArray[23]) {
+        unhide('.gSDWHD');
+        popNode(modelArray[18],'gSDW');
+    }
 }
 
 function buildShipGundam() {
@@ -3075,6 +3791,10 @@ function buildShipGundam() {
         unhide('.gsSeriesHD');
         popNode(modelArray[5],'gsSeries');
     }
+    if (modelArray[6]) {
+        unhide('.gsClassHD');
+        popNode(modelArray[6],'gsClass');
+    }
 
     if (modelArray[9]) {
         unhide('.gsEraHD');
@@ -3105,6 +3825,14 @@ function buildShipGundam() {
         unhide('.gsLengthHD');
         popNode(modelArray[15][1],'gsLength');
     }
+    if (modelArray[16]) {
+        unhide('.gsHeightHD');
+        popNode(modelArray[16][1],'gsHeight');
+    }
+    if (modelArray[17]) {
+        unhide('.gsWidthHD');
+        popNode(modelArray[17][1],'gsWidth');
+    }
 
     if (modelArray[13]) {
         unhide('.gsManufacturerHD');
@@ -3114,6 +3842,11 @@ function buildShipGundam() {
     if (modelArray[14]) {
         unhide('.gsAffiliationHD');
         createList(modelArray[14],'gsAffiliation');
+    }
+
+    if (modelArray[18]) {
+        unhide('.gsPropulsionHD');
+        createList(modelArray[18],'gsPropulsion');
     }
 
     if (modelArray[19]) {
@@ -3129,8 +3862,31 @@ function buildShipGundam() {
     if (modelArray[21]) {
         unhide('.gsOnboardHD');
         createList(modelArray[21],'gsOnboard');
-        const gsOnboardHD = document.querySelector('.gsOnboardHD');
-        gsOnboardHD.style.display = 'block';
+    }
+
+    if (modelArray[22]) {
+        unhide('.gsCatapultHD');
+        popNode(modelArray[22],'gsCatapult')
+    }
+
+    if (modelArray[23]) {
+        unhide('.gsHangarHD');
+        popNode(modelArray[23],'gsHangar')
+    }
+
+    if (modelArray[28]) {
+        unhide('.gsFromHD');
+        createList(modelArray[28],'gsFrom');
+    }
+
+    if (modelArray[29]) {
+        unhide('.gsToHD');
+        createList(modelArray[29],'gsTo');
+    }
+
+    if (modelArray[30]) {
+        unhide('.gsTypeHD');
+        popNode(modelArray[30],'gsType')
     }
 }
 

@@ -129,6 +129,9 @@ ul {
 .gSeriesHD {
     display: none;
 }
+.gSDWHD {
+    display: none;
+}
 .gShortNameHD {
     display: none;
 }
@@ -152,8 +155,17 @@ ul {
 .gsArmamentsHD {
     display: none;
 }
+.gsCatapultHD {
+    display: none;
+}
 .gsCaptainHD, .gsCaptain2HD {
     display: none;
+}
+.gsClassHD {
+    display: none;
+    font-family: "Apple Chancery", Times, sans-serif;
+    font-size: 1.2em;
+    font-style: italic;
 }
 .gsCreatedHD {
     display: none;
@@ -164,10 +176,22 @@ ul {
 .gsEquipmentHD {
     display: none;
 }
+.gsFromHD {
+    display: none;
+}
+.gsHangarHD {
+    display: none;
+}
+.gsHeightHD {
+    display: none;
+}
 .gsLengthHD {
     display: none;
 }
 .gsManufacturerHD {
+    display: none;
+}
+.gsPropulsionHD {
     display: none;
 }
 .gsOnboardHD {
@@ -180,6 +204,15 @@ ul {
     display: none;
 }
 .gsShortNameHD {
+    display: none;
+}
+.gsToHD {
+    display: none;
+}
+.gsTypeHD {
+    display: none;
+}
+.gsWidthHD {
     display: none;
 }
 
@@ -414,5 +447,10 @@ ul {
     display: none;
 }
 .hpSpecialFeaturesHD {
+    display: none;
+}
+
+/* Unique Templates */
+.permHideHD {
     display: none;
 }
