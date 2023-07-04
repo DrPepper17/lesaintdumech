@@ -1473,7 +1473,8 @@ const projects = [
     ],
     ['Orga',[1,'Forbidden'],'FM',false,false,false,'Seed','A'],
     ['Anthem',
-        [1,'Freedom'],'MG',false,false,false,'Seed','E','2022-05-05',73.16,true,'Builds/Gundams/Anthem.html',false,'2022-07-04',models[14],[
+        [1,'Freedom'],'MG',false,false,false,'Seed','E','2022-05-05',73.16,true,'Builds/Gundams/Anthem.html',false,'2022-07-04',models[14],
+        [
             ['../../img/projects/gundams/anthem/anthem01.jpeg','Anthem Gundam','img1'],
             ['../../img/projects/gundams/anthem/anthem02.jpeg','Anthem Gundam','img2'],
             ['../../img/projects/gundams/anthem/anthem03.jpeg','Anthem Gundam','img3'],
@@ -1595,9 +1596,54 @@ const projects = [
         [
             ['USA Gundam Store','https://www.usagundamstore.com/products/pre-order-sd-gundam-cross-silhouette-freedom-gundam?variant=9558574923812'],
             ['NewType','https://newtype.us/p/vKxUpq1pJg9sDiFkRFZ1/h/sdcs-08-freedom-gundam']
-        ],['Anthem','Old GLory'],true,true,false
+        ],['Anthem','Old Glory'],true,true,false
     ],
-    ['Old Glory',[1,'Freedom'],'MGSD',false,false,false,'Seed','D','2023-05-06',30.33,false,'Builds/Gundams/OldGlory.html',['Mission Models: MMP-001 White','Testors: Red Grapefruit 1196','Testors: Cherry Red 1197','Vallejo Mecha Color: Gold 69.059','Vallejo Mecha Color: Electric Blue 60.020','Vallejo Model Air: Black 71.057','Vallejo Mecha Color: Metallic Blue 69.067','Vallejo Model Air: Metallic Signal Red 71.070','Vallejo Mecha Color: Sky Blue 69.017','Tamiya: Metallic BLue TS-19 Can','Tamiya: Gold TS-21 Can','Tamiya: Matt White TS-27 Can','Tamiya: Metallic Red PS-15 Can','Tamiya: Clear Red X-27'],false,models[14]],
+    ['Old Glory',
+        [1,'Freedom'],'MGSD',false,false,false,'Seed','E','2023-05-06',30.33,false,'Builds/Gundams/OldGlory.html',['Mission Models: MMP-001 White','Testors: Red Grapefruit 1196','Testors: Cherry Red 1197','Vallejo Mecha Color: Gold 69.059','Vallejo Mecha Color: Electric Blue 60.020','Vallejo Model Air: Black 71.057','Vallejo Mecha Color: Metallic Blue 69.067','Vallejo Model Air: Metallic Signal Red 71.070','Vallejo Mecha Color: Sky Blue 69.017','Tamiya: Metallic BLue TS-19 Can','Tamiya: Gold TS-21 Can','Tamiya: Matt White TS-27 Can','Tamiya: Metallic Red PS-15 Can','Tamiya: Clear Red X-27'],false,models[14],
+        [
+            ['../../img/projects/gundams/oldglory/oldglory01.jpeg','Old Glory','img1'],
+            ['../../img/projects/gundams/oldglory/oldglory02.jpeg','Old Glory','img2'],
+            ['../../img/projects/gundams/oldglory/oldglory03.jpeg','Old Glory','img3'],
+            ['../../img/projects/gundams/oldglory/oldglory04.jpeg','Old Glory','img4'],
+            ['../../img/projects/gundams/oldglory/oldglory05.jpeg','Old Glory','img5'],
+            ['../../img/projects/gundams/oldglory/oldglory06.jpeg','Old Glory','img6'],
+            ['../../img/projects/gundams/oldglory/oldglory07.jpeg','Old Glory','img7'],
+            ['../../img/projects/gundams/oldglory/oldglory08.jpeg','Old Glory','img8'],
+            ['../../img/projects/gundams/oldglory/oldglory09.jpeg','Old Glory','img9'],
+            ['../../img/projects/gundams/oldglory/oldglory10.jpeg','Old Glory','img10'],
+            ['../../img/projects/gundams/oldglory/oldglory11.jpeg','Old Glory','img11'],
+            ['../../img/projects/gundams/oldglory/oldglory12.jpeg','Old Glory','img12'],
+            ['../../img/projects/gundams/oldglory/oldglory13.jpeg','Old Glory','img13'],
+            ['../../img/projects/gundams/oldglory/oldglory14.jpeg','Old Glory','img14'],
+            ['../../img/projects/gundams/oldglory/oldglory15.jpeg','Old Glory','img15'],
+            ['../../img/projects/gundams/oldglory/oldglory16.jpeg','Old Glory','img16'],
+            ['../../img/projects/gundams/oldglory/oldglory17.jpeg','Old Glory','img17'],
+            ['../../img/projects/gundams/oldglory/oldglory18.jpeg','Old Glory','img18'],
+            ['../../img/projects/gundams/oldglory/oldglory19.jpeg','Old Glory','img19'],
+            ['../../img/projects/gundams/oldglory/oldglory20.jpeg','Old Glory','img20'],
+            ['../../img/projects/gundams/oldglory/oldglory21.jpeg','Old Glory','img21'],
+            ['../../img/projects/gundams/oldglory/oldglory22.jpeg','Old Glory','img22'],
+            ['../../img/projects/gundams/oldglory/oldglory23.jpeg','Old Glory','img23'],
+            ['../../img/projects/gundams/oldglory/oldglory24.jpeg','Old Glory','img24'],
+            ['../../img/projects/gundams/oldglory/oldglory25.jpeg','Old Glory','img25'],
+            ['../../img/projects/gundams/oldglory/oldglory26.jpeg','Old Glory','img26'],
+            ['../../img/projects/gundams/oldglory/oldglory27.jpeg','Old Glory','img27'],
+            ['../../img/projects/gundams/oldglory/oldglory28.jpeg','Old Glory','img28'],
+            ['../../img/projects/gundams/oldglory/oldglory29.jpeg','Old Glory','img29'],
+            ['../../img/projects/gundams/oldglory/oldglory30.jpeg','Old Glory','img30'],
+            ['../../img/projects/gundams/oldglory/oldglory31.jpeg','Old Glory','img31'],
+            ['../../img/projects/gundams/oldglory/oldglory32.jpeg','Old Glory','img32'],
+            ['../../img/projects/gundams/oldglory/oldglory33.jpeg','Old Glory','img33'],
+            ['../../img/projects/gundams/oldglory/oldglory34.jpeg','Old Glory','img34']
+        ],
+        ['img/projects/gundams/oldglory/oldglory30.jpeg'],
+        'So a year ago I did a project where I restyled Freedom Gundam in the ol\' Red, White and Blue. Since then Bandai created the new MGSD model class and its initial release was the Freedom Gundam. Since I painted the MG Freedom as the Red White and Blue. And I painted the SD Freedom model in the Red White and Blue. It only made sense I had to complete the series by doing the same with the new MGSD Freedom. So without further adew, I present to you my latest project, Old Glory.',false,
+        [
+            ['Video','https://www.instagram.com/reel/CuQYuUxJm_k/?igshid=YzcxN2Q2NzY0OA=='],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/mgsd-freedom-gundam'],
+            ['NewType','https://newtype.us/p/YvNO7xYH5IAMfB9d8UZy/h/mgsd-freedom-gundam']
+        ],['Anthem','Liberty'],false,true,false
+    ],
     ['Billy Blue Jay',[1,'Ginn'],'MG',false,false,false,'Seed','B'],
     ['PB Destiny Impulse (Regenes) [MG]',[1,'Impulse, Destiny'],'Seed','MG',true,true,false,'C','2023-05-05',6.5,false,'Builds/PBDesintyImpulseREgenesMG.html',false],
     ['PB Destiny Impulse [RG]',[1,'Impulse, Destiny'],'RG',true,true,false,'Seed','B'],
@@ -3487,10 +3533,10 @@ function buildProjectPage(string) {
         popNode(projectArray[17],'projectDescription');
     }
 
-    if (projectArray[12]) {
+/*    if (projectArray[12]) {
         unhide('.projectPaintsHD');
         createList(projectArray[12],'projectPaints');
-    }
+    }   */
 
     if (projectArray[18]) {
         unhide('.projectCurrentOwnerHD');
