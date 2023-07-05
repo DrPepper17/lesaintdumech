@@ -1411,7 +1411,7 @@ const projects = [
     ['Ariel',[1.5,'Aerial','Mirasoul Flight Pack'],'HG',false,false,false,'Mercury','B'],
     ['Cherub',[1,'Aerial'],'SD',false,false,false,'Mercury','D','2023-01-03-10',4.91,false,'Builds/Cherub.html',['']],
     ['Azrael',
-        [1,'Dilanza, Guel\'s'],'HG',false,false,false,'Mercury','E','2023-01-05',12.14,false,'Builds/Gundams/Azrael.html',false,'2023-02-27',models[26],
+        [1,'Dilanza, Guel\'s'],'HG',false,false,false,'Mercury','E','2023-01-05',12.14,false,'Builds/Gundams/azrael.html',false,'2023-02-27',models[26],
         [
             ['../../img/projects/gundams/azrael/azrael01.jpeg','Azrael','img1'],
             ['../../img/projects/gundams/azrael/azrael06.jpeg','Azrael','img2'],
