@@ -2311,6 +2311,7 @@ const projects = [
         ['img/projects/gundams/anthem/anthem76.jpeg','Profile Photo: Anthem Gundam'],
         'The theme for this one obviously is the American Flag. Since the name of the Gundam is the Freedom Gundam, one day it spawned on me, what\'s not more representative of Freedom than the American Flag, After all we\'re the "Home of the Free and Land of the Brave. Therefore I decided the Freedom needed a much deserved Red White and Blue makeover. So without further ado, and in honor of the pursuit and preservation of freedom everywhere, I present to you the new Freedom Gundam... Gudam Anthem.',false,
         [
+            ['Video','https://www.instagram.com/reel/CuSx0amrZW4/?igshid=YzcxN2Q2NzY0OA==']
             ['USA Gundam Store','https://www.usagundamstore.com/products/mg-1-100-freedom-gundam-ver-2-0'],
             ['NewType','https://newtype.us/p/uMb67BdrKhMnFDOYzJVF/h/mg-zgmf-x10a-freedom-gundam-ver-20'],
             ['Amazon','https://a.co/d/69DPX3z']
