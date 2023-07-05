@@ -1,0 +1,463 @@
+/* Top Level */
+li {
+
+    list-style-type: none;
+}
+ul {
+    margin-bottom: 0px;
+}
+
+.row {
+    margin-bottom: 20px;
+}
+
+#projectTitle, #projectTitleMb {
+    font-family: "Apple Chancery", Times, sans-serif;
+}
+#projectTitle {
+    font-size: 3em;
+}
+#projectTitle, #projectTitleMb, #modelFullName {
+    color: rgb(250, 69, 129);
+}
+
+/* Project Section */
+.projectAliasHD {
+    display: none;
+}
+#projectAlias {
+    font-family: "Apple Chancery", Times, sans-serif;
+    font-size: 1.2em;
+}
+.projectAvailableHD {
+    display: none;
+}
+.projectCurrentOwnerHD {
+    display: none;
+}
+.projectDescriptionHD {
+    display: none;
+}
+.projectGradeHD {
+    display: none;
+}
+.projectHoursHD {
+    display: none;
+}
+.projectLEDHD {
+    display: none;
+}
+.projectOtherModelsHD {
+    display: none;
+}
+.projectPaintsHD {
+    display: none;
+}
+.projectPBandaiHD {
+    display: none;
+}
+.projectPostDateHD {
+    display: none;
+}
+.projectStartDateHD {
+    display: none;
+}
+
+
+/* Links Section */
+.projectAffProjectsHD {
+    display: none;
+}
+.projectOutsideLinksHD {
+    display: none;
+}
+.modelOtherSameModelHD {
+    display: none;
+}
+
+/* Gundam Section (1) */
+.GundamPage {
+    display: none;
+}
+.gAffiliationHD {
+    display: none;
+}
+.gAltNameHD {
+    display: none;
+}
+.gArmamentsHD {
+    display: none;
+}
+.gCreatedHD {
+    display: none;
+}
+.osDefensesHD {
+    display: none;
+}
+.gDesignedHD {
+    display: none;
+}
+.gEraHD {
+    display: none;
+}
+.gEquipmentHD {
+    display: none;
+}
+.gEWHD {
+    display: none;
+}
+.gFromHD {
+    display: none;
+}
+.gHeightHD {
+    display: none;
+}
+.gManufacturerHD {
+    display: none;
+}
+.gMaterialHD {
+    display: none;
+}
+.gMobileArmorHD {
+    display: none;
+}
+.gPilotHD, .gPilot2HD {
+    display: none;
+}
+.gPowerHD {
+    display: none;
+}
+.gWeightHD {
+    display: none;
+}
+.gSerialHD {
+    display: none;
+}
+.gSeriesHD {
+    display: none;
+}
+.gSDWHD {
+    display: none;
+}
+.gShortNameHD {
+    display: none;
+}
+.gSystemsHD {
+    display: none;
+}
+.gToHD {
+    display: none;
+}
+
+/* Ship (Gundam) */
+.GundamShipPage {
+    display: none;
+}
+.gsAltNameHD {
+    display: none;
+}
+.gsAffiliationHD {
+    display: none;
+}
+.gsArmamentsHD {
+    display: none;
+}
+.gsCatapultHD {
+    display: none;
+}
+.gsCaptainHD, .gsCaptain2HD {
+    display: none;
+}
+.gsClassHD {
+    display: none;
+    font-family: "Apple Chancery", Times, sans-serif;
+    font-size: 1.2em;
+    font-style: italic;
+}
+.gsCreatedHD {
+    display: none;
+}
+.gsEraHD {
+    display: none;
+}
+.gsEquipmentHD {
+    display: none;
+}
+.gsFromHD {
+    display: none;
+}
+.gsHangarHD {
+    display: none;
+}
+.gsHeightHD {
+    display: none;
+}
+.gsLengthHD {
+    display: none;
+}
+.gsManufacturerHD {
+    display: none;
+}
+.gsPropulsionHD {
+    display: none;
+}
+.gsOnboardHD {
+    display: none;
+}
+.gsSerialHD {
+    display: none;
+}
+.gsSeriesHD {
+    display: none;
+}
+.gsShortNameHD {
+    display: none;
+}
+.gsToHD {
+    display: none;
+}
+.gsTypeHD {
+    display: none;
+}
+.gsWidthHD {
+    display: none;
+}
+
+/* Ship (Other) */
+.OtherShipPage {
+    display: none;
+}
+.osAltNameHD {
+    display: none;
+}
+.osAffiliationHD {
+    display: none;
+}
+.osArmamentsHD {
+    display: none;
+}
+.osCaptainHD, .osCaptain2HD {
+    display: none;
+}
+.osCreatedHD {
+    display: none;
+}
+.osEraHD {
+    display: none;
+}
+.osEquipmentHD {
+    display: none;
+}
+.osFranchiseHD {
+    display: none;
+}
+.osHeightHD {
+    display: none;
+}
+.osLengthHD {
+    display: none;
+}
+.osManufacturerHD {
+    display: none;
+}
+.osOnboardHD {
+    display: none;
+}
+.osPropulsionHD {
+    display: none;
+}
+.osSerialHD {
+    display: none;
+}
+.osShortNameHD {
+    display: none;
+} 
+.osWidthHD {
+    display: none;
+}
+
+/* Car - Auto */
+.AutomobilePage {
+    display: none;
+}
+.caDesignerHD {
+    display: none;
+}
+.caManufacturerHD {
+    display: none;
+}
+.caModelHD {
+    display: none;
+}
+.caNicknameHD {
+    display: none;
+    font-family: "Apple Chancery", Times, sans-serif;
+    font-size: 1.3em;
+}
+.caProductionHD {
+    display: none;
+}
+.caYearHD {
+    display: none;
+}
+
+/* Displays */
+.DisplayPage {
+    display: none;
+}
+.dpBrandHD {
+    display: none;
+}
+.dpSeriesHD {
+    display: none;
+}
+.dpShortNameHD {
+    display: none;
+}
+
+/* Digimon */
+.DigimonPage {
+    display: none;
+}
+.dgAttributeHD {
+    display: none;
+}
+.dgElementHD {
+    display: none;
+}
+.dgFormHD {
+    display: none;
+}
+.dgFromHD {
+    display: none;
+}
+.dgLevelHD {
+    display: none;
+}
+.dgMemoryHD {
+    display: none;
+}
+.dgNicknameHD {
+    display: none;
+}
+.dgPartnerHD {
+    display: none;
+}
+.dgSizeHD{
+    display: none;
+}
+.dgSpeciesHD {
+    display: none;
+}
+.dgToHD {
+    display: none;
+}
+.dgTypeHD {
+    display: none;
+}
+
+
+/* Pokemon */
+.PokemonPage {
+    display: none;
+}
+.pkCategoryHD {
+    display: none;
+}
+.pkDexHD {
+    display: none;
+}
+.pkDexNoHD {
+    display: none;
+}
+.pkFirstGameHD {
+    display: none;
+}
+.pkFormHD {
+    display: none;
+}
+.pkFromHD {
+    display: none;
+}
+.pkGenerationHD {
+    display: none;
+}
+.pkHeightHD {
+    display: none;
+}
+.pkNicknameHD {
+    display: none;
+    font-family: "Apple Chancery", Times, sans-serif;
+    font-size: 1.3em;
+}
+.pkStageHD {
+    display: none;
+}
+.pkToHD {
+    display: none;
+}
+.pkTypeHD {
+    display: none;
+}
+.pkWeightHD {
+    display: none;
+}
+
+/* Transformers */
+.TransformerPage {
+    display: none;
+}
+.tsCanonHD {
+    display: none;
+}
+.tsCybertronHD {
+    display: none;
+}
+.tsEarthHD {
+    display: none;
+}
+.tsFactionHD {
+    display: none;
+}
+.tsNicknameHD {
+    display: none;
+    font-family: "Apple Chancery", Times, sans-serif;
+    font-size: 1.3em;
+}
+.tsRankHD {
+    display: none;
+}
+.tsVehicleHD {
+    display: none;
+}
+
+/* Zoids */
+.ZoidPage {
+    display: none;
+}
+
+
+/* Haro */
+.HaroPage {
+    display: none;
+}
+.hpColorHD {
+    display: none;
+}
+.hpEquipmentHD {
+    display: none;
+}
+.hpKitHD {
+    display: none;
+}
+.hpShortNameHD {
+    display: none;
+}
+.hpSpecialFeaturesHD {
+    display: none;
+}
+
+/* Unique Templates */
+.permHideHD {
+    display: none;
+}
