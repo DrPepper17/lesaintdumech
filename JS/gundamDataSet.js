@@ -1948,7 +1948,7 @@ const projects = [
         [
             ['USA Gundam Store','https://www.usagundamstore.com/products/gg-46-gundam-airmaster'],
             ['NewType','https://newtype.us/p/eqkYbPH6E7Ye0yiP2zZs/h/sdgg-046-gundam-airmaster']
-        ],['Guapo'],false,true
+        ],['Guapo'],false,true,false
     ],
     ['Biohazard',[1,'Double X'],'SD',
         false,false,false,'X','E','2022-08-08',5.83,false,'Builds/Gundams/biohazard.html',[''],'2022-10-24',models[29],
