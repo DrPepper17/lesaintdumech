@@ -1492,21 +1492,8 @@ const projects = [
     ['Golden Ghidorah',[1,'Epyon'],'RG',false,false,false,'Wing','A'],
     ['PB Geminass 01 [HG]',[1.5,'Geminass 01','Geminass Assault Mobility Booster Expansion Pack'],'HG',true,true,false,'Wing','E','2022-12-07',6.5,false,'Builds/PBGeminassHG.html',false,'2023-04-27'],
     ['Major Tom',[1,'Geminass 01'],'SD',false,false,false,'Wing','E','2021-12-12',5.15,false,'Builds/MajorTom.html',[''],'2023-04-10'],
-    ['Guerilla Arms',
-        [1,'Heavy Arms'],
-        'MG',
-        false,
-        false,
-        false,
-        'Wing',
-        'E',
-        '2021-04-03',
-        60.07,
-        false,
-        'Builds/Gundams/GuerillaArms.html',
-        false,
-        '2021-05-22',
-        models[1],
+    ['Guerilla Arms',[1,'Heavy Arms'],'MG',
+        false,false,false,'Wing','E','2021-04-03',60.07,false,'Builds/Gundams/guerillaarms.html',false,'2021-05-22',models[1],
         [
             ['../../img/projects/gundams/guerilla_arms/gahamg19.JPG','Gundam Guerilla Arms','img19'],
             ['../../img/projects/gundams/guerilla_arms/gahamg20.JPG','Gundam Guerilla Arms','img20'],
@@ -1542,21 +1529,16 @@ const projects = [
             ['../../img/projects/gundams/guerilla_arms/gahamg32.JPG','Gundam Guerilla Arms','img32']
         ],
         ['img/projects/gundams/guerilla_arms/gahamg32.JPG','Profile Photo: Gundam Guerilla Arms'],
-        'Camouflage. Commando. Jungle Warfare. Entirely hand brushed. First attempt at custom painting. Entirely Testors paints. Huge learning experience.',
-        false,
+        'Camouflage. Commando. Jungle Warfare. Entirely hand brushed. First attempt at custom painting. Entirely Testors paints. Huge learning experience.',false,
         [
             ['USA Gundam Store','https://www.usagundamstore.com/products/mg-1-100-gundam-heavyarms-ew-ver'],
             ['NewType','https://newtype.us/p/xyX3s81UEQTYgD2wfA49/h/mg-gundam-heavyarms-ew'],
             ['Amazon','https://a.co/d/03pIAks']
-        ],
-        false,
-        false,
-        true,
-        '1/100'
+        ],false,false,true,'1/100'
     ],
     ['Phoebe',[1,'Maganac Corps'],'SD',false,false,false,'Wing','D','2022-04-11',8.42,false,'Builds/Phoebe.html',['']],
-    ['Isaac',
-        [1,'Proto-Zero'],'SD',false,false,false,'Wing','E','2023-02-06',14.14,false,'Builds/Gundams/Isaac.html',false,'2023-05-10',models[31],
+    ['Isaac',[1,'Proto-Zero'],'SD',
+        false,false,false,'Wing','E','2023-02-06',14.14,false,'Builds/Gundams/isaac.html',false,'2023-05-10',models[31],
         [
             ['../../img/projects/gundams/isaac/isaac01.jpeg','Gundam Isaac','img1'],
             ['../../img/projects/gundams/isaac/isaac02.jpeg','Gundam Isaac','img2'],
@@ -1587,8 +1569,8 @@ const projects = [
             ['NewType','https://newtype.us/p/M1rp6lWHgYzNoxyJXOK0/h/sdex-standard-18-wing-gundam-zero']
         ],['King David'],false,true,false
     ],
-    ['Jericho',
-        [1,'Proto-Zero'],'HG',false,false,false,'Wing','E','2023-01-09',12.79,false,'Builds/Gundams/Jericho.html',false,'2023-05-24',models[31],
+    ['Jericho',[1,'Proto-Zero'],'HG',
+        false,false,false,'Wing','E','2023-01-09',12.79,false,'Builds/Gundams/jericho.html',false,'2023-05-24',models[31],
         [
             ['../../img/projects/gundams/jericho/jericho01.jpeg','Gundam Jericho','img1'],
             ['../../img/projects/gundams/jericho/jericho02.jpeg','Gundam Jericho','img2'],
@@ -1619,8 +1601,8 @@ const projects = [
             ['NewType','https://newtype.us/p/RtKPoNDHiAAdbYkcDUAT/h/hgac-174-wing-gundam-zero']
         ],false,false,true,'1:144'
     ],
-    ['King David',
-        [1,'Proto-Zero'],'MG',false,false,false,'Wing','E','2023-03-08',52.11,true,'Builds/Gundams/KingDavid.html',false,'2023-05-15',models[31],
+    ['King David',[1,'Proto-Zero'],'MG',
+        false,false,false,'Wing','E','2023-03-08',52.11,true,'Builds/Gundams/kingdavid.html',false,'2023-05-15',models[31],
         [
             ['../../img/projects/gundams/kingdavid/kingdavid01.jpeg','King David','img1'],
             ['../../img/projects/gundams/kingdavid/kingdavid02.jpeg','King David','img2'],
@@ -1696,7 +1678,7 @@ const projects = [
         ],['Isaac'],false,true,'1:100'
     ],
     ['Metal Zero',
-        [1,'Proto-Zero'],'SD',false,false,false,'Wing','E','2023-01-08',14.19,false,'Builds/Gundams/MetalZero.html',false,'2023-05-04',models[31],
+        [1,'Proto-Zero'],'SD',false,false,false,'Wing','E','2023-01-08',14.19,false,'Builds/Gundams/metalzero.html',false,'2023-05-04',models[31],
         [
             ['../../img/projects/gundams/metalzero/metalzero01.jpeg','Metal Proto-Zero','img1'],
             ['../../img/projects/gundams/metalzero/metalzero02.jpeg','Metal Proto-Zero','img2'],
@@ -1768,8 +1750,8 @@ const projects = [
     ['Fiery Mothra',[1,'Wing Zero'],'MG',false,false,false,'Wing','B'],
     ['Fiery Mothra',[1,'Wing Zero'],'RG',false,false,false,'Wing','A'],
     ['Fiery Mothra',[1,'Wing Zero'],'SD',false,false,false,'Wing','A'],
-    ['Gold Dust Woman',
-        [1,'Wing Zero'],'SD',false,false,false,'Wing','E','2021-09-09',8.37,false,'Builds/Gundams/GoldDustWoman.html',false,'2022-02-01',models[32],
+    ['Gold Dust Woman',[1,'Wing Zero'],'SD',
+        false,false,false,'Wing','E','2021-09-09',8.37,false,'Builds/Gundams/golddustwoman.html',false,'2022-02-01',models[32],
         [
             ['../../img/projects/gundams/golddustwoman/golddust01.jpeg','Gold Dust Woman','img1'],
             ['../../img/projects/gundams/golddustwoman/golddust02.jpeg','Gold Dust Woman','img2'],
@@ -1807,8 +1789,8 @@ const projects = [
 
     //After War (X)
     ['Gaebora',[1,'Airmaster'],'SD',false,false,false,'X','E','2021-10-06',5.51,false,'Builds/Gaebora.html',[''],'2022-03-28'],
-    ['Biohazard',
-        [1,'Double X'],'SD',false,false,false,'X','E','2022-08-08',5.83,false,'Builds/Gundams/Biohazard.html',[''],'2022-10-24',models[29],
+    ['Biohazard',[1,'Double X'],'SD',
+        false,false,false,'X','E','2022-08-08',5.83,false,'Builds/Gundams/biohazard.html',[''],'2022-10-24',models[29],
         [
             ['../../img/projects/gundams/biohazard/biohazard01.jpeg','Gundam Biohazard','img1'],
             ['../../img/projects/gundams/biohazard/biohazard02.jpeg','Gundam Biohazard','img2'],
@@ -1829,8 +1811,8 @@ const projects = [
             ['NewType','https://newtype.us/p/Tj4bsQyOIopaVxWIEoty/h/sdgg-044-gundam-double-x']
         ],['Corona Virus'],true,true,false
     ],
-    ['Charlie Daniels',
-        [1,'Double X'],'SD',false,false,false,'X','E','2021-10-08',4.51,false,'Builds/Gundams/CharlieDaniels.html',[''],'2022-08-01',models[29],
+    ['Charlie Daniels',[1,'Double X'],'SD',
+        false,false,false,'X','E','2021-10-08',4.51,false,'Builds/Gundams/charliedaniels.html',false,'2022-08-01',models[29],
         [
             ['../../img/projects/gundams/charliedaniels/charliedaniels01.jpeg','Gundam Charlie Daniels','img1'],
             ['../../img/projects/gundams/charliedaniels/charliedaniels02.jpeg','Gundam Charlie Daniels','img2'],
@@ -1848,8 +1830,8 @@ const projects = [
             ['NewType','https://newtype.us/p/Tj4bsQyOIopaVxWIEoty/h/sdgg-044-gundam-double-x']
         ],false,false,true,false
     ],
-    ['Corona Virus',
-        [1,'Double X'],'MG',false,false,false,'X','E','2022-09-05',36.08,false,'Builds/Gundams/Corona.html',[''],'2022-10-31',models[29],
+    ['Corona Virus',[1,'Double X'],'MG',
+        false,false,false,'X','E','2022-09-05',36.08,false,'Builds/Gundams/corona.html',[''],'2022-10-31',models[29],
         [
             ['../../img/projects/gundams/corona/covidmolecule01.jpeg','Covid Gundam','img1'],
             ['../../img/projects/gundams/corona/covidmolecule02.jpeg','Covid Gundam','img2'],
@@ -2115,8 +2097,8 @@ const projects = [
             ['Premium Bandai','https://p-bandai.com/us/item/N2563436001002']
         ],['Oberon','King Leir','PB Strike Daggers'],false,true,'1:144'
     ],
-    ['King Leir',
-        [1,'Dagger L'],'HG',false,false,false,'Seed','E','2021-06-10',14.09,false,'Builds/Gundams/KingLeir.html',false,'2021-06-26',models[23],
+    ['King Leir',[1,'Dagger L'],'HG',
+        false,false,false,'Seed','E','2021-06-10',14.09,false,'Builds/Gundams/kingleir.html',false,'2021-06-26',models[23],
         [
             ['../../img/projects/gundams/kingleir/kingleir01.jpeg','King Leir','img1'],
             ['../../img/projects/gundams/kingleir/kingleir02.jpeg','King Leir','img2'],
@@ -2146,8 +2128,8 @@ const projects = [
             ['NewType','https://newtype.us/p/V3s94PjelBrA0T06Q673/h/hgce-237-gat-o2l2-dagger-l']
         ],['PB Armageddon','Samus: Varia Suit','Malphas'],false,true,'1:144'
     ],
-    ['Samus: Varia Suit',
-        [1,'Dagger L'],'HG',false,false,false,'Seed','C','2023-06-13',3.58,false,'Builds/Gundams/VariaSuit.html',['Tamiya: Gold TS-21 Can','Testors: Sunflower 1191','Tamiya: Matt Black TS-6 Can','Vallejo Game Color: Fluorescent Green 72.104','Tamiya: Gun Metal TS-38 Can'],false,models[23],
+    ['Samus: Varia Suit',[1,'Dagger L'],'HG',
+        false,false,false,'Seed','C','2023-06-13',3.58,false,'Builds/Gundams/VariaSuit.html',['Tamiya: Gold TS-21 Can','Testors: Sunflower 1191','Tamiya: Matt Black TS-6 Can','Vallejo Game Color: Fluorescent Green 72.104','Tamiya: Gun Metal TS-38 Can'],false,models[23],
         [
             []
         ],
@@ -2160,8 +2142,8 @@ const projects = [
         
     ],
     ['Charizard',[1,'Destiny'],'MG',false,false,false,'Seed','B'],
-    ['Charizard X',
-        [1,'Destiny'],'SD',false,false,false,'Seed','E','2021-10-10',8.13,false,'Builds/Gundams/CharizardX.html',false,'2022-05-16',models[33],
+    ['Charizard X',[1,'Destiny'],'SD',
+        false,false,false,'Seed','E','2021-10-10',8.13,false,'Builds/Gundams/charizardx.html',false,'2022-05-16',models[33],
         [
             ['../../img/projects/gundams/charizardx/charizardx.jpeg','Charizard X','img1'],
             ['../../img/projects/gundams/charizardx/charx01.jpeg','Charizard X','img2'],
@@ -2182,7 +2164,9 @@ const projects = [
     ['Iapetus',[1,'Destiny'],'SD',false,false,false,'Seed','B'],
     ['Thin Blue Line',[2,'Duel Gundam','Duel Gundam Assault Shroud'],'MG',false,false,false,'Seed','B'],
     ['Eclipse ???',[1,'Eclipse'],'MG',false,false,false,'Seed','B'],
-    ['PB Eclipse [MG]',[1.5,'Eclipse','Eclipse Maneuver Striker'],'MG',true,true,false,'Seed','E','2022-02',17.75,false,'Builds/PBEclipseMG.html',false,'2023-01-30'],
+    ['PB Eclipse [MG]',[1.5,'Eclipse','Eclipse Maneuver Striker'],'MG',
+        true,true,false,'Seed','E','2022-02',17.75,false,'Builds/PBEclipseMG.html',false,'2023-01-30'
+    ],
     ['Eternal',
         [1,'Eternal'],'Ship',false,false,false,'Seed','E','2021-08-05',24.1,false,'Builds/Ships/eternal.html',['Vallejo Model Color: Sunset Red 70.802'],'2022-01-03',models[7],
         [
@@ -2319,8 +2303,8 @@ const projects = [
         ],['Liberty','Old Glory','Don\'t Tread On Ye'],false,true,'1:100'
     ],
     ['Freedom [MGSD]',[1,'Freedom'],'MGSD',true,false,false,'Seed','E','2023-03-05',8.5,false,false,false,'2023-06-28',false],
-    ['Liberty',
-        [1,'Freedom'],'SD',false,false,false,'Seed','E','2022-04-09',18,false,'Builds/Gundams/Liberty.html',false,'2022-06-27',models[14],
+    ['Liberty',[1,'Freedom'],'SD',
+        false,false,false,'Seed','E','2022-04-09',18,false,'Builds/Gundams/liberty.html',false,'2022-06-27',models[14],
         [
             ['../../img/projects/gundams/liberty/liberty01.jpeg','Gundam Liberty','img1'],
             ['../../img/projects/gundams/liberty/liberty02.jpeg','Gundam Liberty','img2'],
@@ -2349,8 +2333,8 @@ const projects = [
             ['NewType','https://newtype.us/p/vKxUpq1pJg9sDiFkRFZ1/h/sdcs-08-freedom-gundam']
         ],['Anthem','Old Glory'],true,true,false
     ],
-    ['Old Glory',
-        [1,'Freedom'],'MGSD',false,false,false,'Seed','E','2023-05-06',30.33,false,'Builds/Gundams/OldGlory.html',['Mission Models: MMP-001 White','Testors: Red Grapefruit 1196','Testors: Cherry Red 1197','Vallejo Mecha Color: Gold 69.059','Vallejo Mecha Color: Electric Blue 60.020','Vallejo Model Air: Black 71.057','Vallejo Mecha Color: Metallic Blue 69.067','Vallejo Model Air: Metallic Signal Red 71.070','Vallejo Mecha Color: Sky Blue 69.017','Tamiya: Metallic BLue TS-19 Can','Tamiya: Gold TS-21 Can','Tamiya: Matt White TS-27 Can','Tamiya: Metallic Red PS-15 Can','Tamiya: Clear Red X-27'],'2023-07-03',models[14],
+    ['Old Glory',[1,'Freedom'],'MGSD',
+        false,false,false,'Seed','E','2023-05-06',30.33,false,'Builds/Gundams/oldglory.html',['Mission Models: MMP-001 White','Testors: Red Grapefruit 1196','Testors: Cherry Red 1197','Vallejo Mecha Color: Gold 69.059','Vallejo Mecha Color: Electric Blue 60.020','Vallejo Model Air: Black 71.057','Vallejo Mecha Color: Metallic Blue 69.067','Vallejo Model Air: Metallic Signal Red 71.070','Vallejo Mecha Color: Sky Blue 69.017','Tamiya: Metallic BLue TS-19 Can','Tamiya: Gold TS-21 Can','Tamiya: Matt White TS-27 Can','Tamiya: Metallic Red PS-15 Can','Tamiya: Clear Red X-27'],'2023-07-03',models[14],
         [
             ['../../img/projects/gundams/oldglory/oldglory01.jpeg','Old Glory','img1'],
             ['../../img/projects/gundams/oldglory/oldglory02.jpeg','Old Glory','img2'],
@@ -2408,8 +2392,8 @@ const projects = [
     ['Union Jack',[1,'Providence'],'MG',false,false,false,'Seed','A'],
     ['Raider [FM]',[1,'Raider'],'FM',true,false,false,'Seed','D','2023-01-06',9.75,false,false,false],
     ['Rodan',[1,'Raider'],'FM',false,false,false,'Seed','A'],
-    ['Blue Angels',
-        [3,'Skygrasper','Skygrasper','Skygrasper'],'RG',false,false,false,'Seed','E','2022-12-05',22,true,'Builds/Gundams/BlueAngels.html',false,'2022-12-26',models[30],
+    ['Blue Angels',[3,'Skygrasper','Skygrasper','Skygrasper'],'RG',
+        false,false,false,'Seed','E','2022-12-05',22,true,'Builds/Gundams/blueangels.html',false,'2022-12-26',models[30],
         [
             ['../../img/projects/gundams/blueangels/blue_skygrasper01.jpeg','Skygrasper Straight Build','img1'],
             ['../../img/projects/gundams/blueangels/blue_skygrasper02.jpeg','Skygrasper Straight Build','img2'],
@@ -2520,21 +2504,8 @@ const projects = [
     ['PB Gundam Rose [HG]',[1,'Rose Gundam'],'HG',true,true,false,'G','A'],
     ['Le Roi Soleil',[1,'Rose Gundam'],'HG',false,false,false,'G','E','2022-08-09',4.17,false,'Builds/RoiSoleil.html',[''],'2022-12-12'],
     ['Gabriel',[1,'Shining Gundam'],'SD',false,false,false,'G','B'],
-    ['Red Baron',
-        [1,'Spiegel, Gundam'],
-        'MG',
-        false,
-        false,
-        false,
-        'G',
-        'E',
-        '2021-05-05',
-        72.07,
-        true,
-        'Builds/Gundams/RedBaron.html',
-        false,
-        '2021-05-29',
-        models[2],
+    ['Red Baron',[1,'Spiegel, Gundam'],'MG',
+        false,false,false,'G','E','2021-05-05',72.07,true,'Builds/Gundams/redbaron.html',false,'2021-05-29',models[2],
         [
             ['../../img/projects/gundams/red_baron/rbaron03.jpg','Gundam Red Baron','img3'],
             ['../../img/projects/gundams/red_baron/rbaron01.JPG','Gundam Red Baron','img1'],
@@ -2580,17 +2551,12 @@ const projects = [
             ['../../img/projects/gundams/red_baron/rbaron42.jpg','Gundam Red Baron','img42']
         ],
         ['img/projects/gundams/red_baron/rbaron42.jpg','Profile Photo: Gundam Red Baron'],
-        'Old Prussia. Red Baron. World War One. Pizza. Nietzche book titles. Nose ring helmet spike. First attempt at custom decals. Hand Brushed, First attempt with LEDs.',
-        false,
+        'Old Prussia. Red Baron. World War One. Pizza. Nietzche book titles. Nose ring helmet spike. First attempt at custom decals. Hand Brushed, First attempt with LEDs.',false,
         [
             ['USA Gundam Store','https://www.usagundamstore.com/products/mg-gf13_021ng-gundam-spiegel?variant=33023432527'],
             ['NewType','https://newtype.us/p/RQuAYgB4XXkOwgZaWLOi/h/mg-gf13-021ng-gundam-spiegel'],
             ['Amazon','https://a.co/d/1tZmaYO']
-        ],
-        false,
-        false,
-        true,
-        '1/100'
+        ],false,false,true,'1/100'
     ],
     ['Red Baron 2',[1,'Spiegel, Gundam'],'MG',false,false,false,'G','A','',0,false,'Builds/RedBaron2.html',[''],'',models[2]],
 
@@ -2605,9 +2571,11 @@ const projects = [
     ['\u00dcbermensch',[1,'Vidar'],'FM',false,false,false,'IBO','B'],
 
     //Universal Century
-    ['Dew Drop',[1,'Acguy'],'HG',false,false,false,'UC','E','2023-05-29-08',5.75,false,'Builds/Gundams/DewDrop.html',['Vallejo Model Air: Underside Blue 71.332','Vallejo Model Air: French Blue 71.088','Vallejo Model Air: Steel Blue 71.087','Vallejo Mecha Color: Metallic Blue 69.067','Tamiya: Gold TS-21 Can','Tamiya: Metallic Red PS-15 Can'],'2023-06-19'],
-    ['Fantomas',
-        [1,'Banshee Norn'],'SD',false,false,false,'UC','E','2021-06-12',15.02,true,'Builds/Gundams/fantomas.html',false,'2021-08-03',models[20],
+    ['Dew Drop',[1,'Acguy'],'HG',
+        false,false,false,'UC','E','2023-05-29-08',5.75,false,'Builds/Gundams/dewdrop.html',['Vallejo Model Air: Underside Blue 71.332','Vallejo Model Air: French Blue 71.088','Vallejo Model Air: Steel Blue 71.087','Vallejo Mecha Color: Metallic Blue 69.067','Tamiya: Gold TS-21 Can','Tamiya: Metallic Red PS-15 Can'],'2023-06-19'
+    ],
+    ['Fantomas',[1,'Banshee Norn'],'SD',
+        false,false,false,'UC','E','2021-06-12',15.02,true,'Builds/Gundams/fantomas.html',false,'2021-08-03',models[20],
         [
             ['../../img/projects/gundams/fantomas/Fantomas01.jpeg','Fantomas','img1'],
             ['../../img/projects/gundams/fantomas/Fantomas02.jpeg','Fantomas','img2'],
@@ -2635,12 +2603,12 @@ const projects = [
             ['NewType','https://newtype.us/p/U9GzVy0DVcUQH57GpMAY/h/sdex-standard-15-banshee-norn-destroy-mode']
         ],false,true,true,false
     ],
-    ['King Uranus',
-    [1,'Banshee Norn'],'RG',false,false,false,'UC','B',false,0,false,'Builds/Gundams/uranus.html',false,false,models[20],false
+    ['King Uranus',[1,'Banshee Norn'],'RG',
+    false,false,false,'UC','B',false,0,false,'Builds/Gundams/uranus.html',false,false,models[20],false
 
     ],
-    ['ARRRgent',
-         [1,'Crossbone X-1'],'SD',false,false,false,'UC','E','2021-06-09',14.09,false,'Builds/Gundams/arrrgent.html',false,'2021-06-25',models[18],
+    ['ARRRgent',[1,'Crossbone X-1'],'SD',
+        false,false,false,'UC','E','2021-06-09',14.09,false,'Builds/Gundams/arrrgent.html',false,'2021-06-25',models[18],
         [
             ['../../img/projects/gundams/arrrgent/arrrgent01.jpeg','Arrrgent Gundam','img1'],
             ['../../img/projects/gundams/arrrgent/arrrgent02.jpeg','Arrrgent Gundam','img2'],
@@ -2702,8 +2670,8 @@ const projects = [
     ['PB RX-93ff \u03bd Gundam [RG]',[1,'Nu Gundam, ff'],'RG',true,true,false,'UC','E','2023-03-14',14.5,false,'Builds/PBRX93ff.html',false,'2023-04-25'],
     ['Milos',[1,'Nu Gundam, Hi'],'SD',false,false,false,'UC','B'],
     ['PB Umbrella Corp',[2,'Nu Gundam, Hi','Hi Nu Expansion Pack','Hi Nu Hyper Bazooka'],'RG',false,true,false,'UC','A'],
-    ['Bella Donna',
-        [2,'Phenex','Phenex'],'SD',false,false,false,'UC','E','2021-12-06',14.37,false,'Builds/Gundams/belladonna.html',false,'2023-03-16',models[28],
+    ['Bella Donna',[2,'Phenex','Phenex'],'SD',
+        false,false,false,'UC','E','2021-12-06',14.37,false,'Builds/Gundams/belladonna.html',false,'2023-03-16',models[28],
         [
             ['../../img/projects/gundams/belladonna/belladonna01.jpeg','Gundam Bella Donna','img1'],
             ['../../img/projects/gundams/belladonna/belladonna02.jpeg','Gundam Bella Donna','img2'],
@@ -2798,8 +2766,8 @@ const projects = [
     ['King Milky Way',[1,'Astray Rebake'],'HG',false,false,false,'BD','B'],
     ['Four Horsemen',[4,'Barbataurus','Barbataurus','Barbataurus','Barbataurus'],'HG',false,false,false,'BD','B'],
     ['King Sol',[1,'Helios'],'HG',false,false,false,'BD','B'],
-    ['Der Kommissar',
-        [1,'Lightning Gundam'],'SD',false,false,false,'BD','E','2021-12-11',4.05,false,'Builds/Gundams/DerKommissar.html',false,'2023-04-03',models[35],
+    ['Der Kommissar',[1,'Lightning Gundam'],'SD',
+        false,false,false,'BD','E','2021-12-11',4.05,false,'Builds/Gundams/derkommissar.html',false,'2023-04-03',models[35],
         [
             ['../../img/projects/gundams/derkommissar/komm01.jpeg','Der Kommissar','img1'],
             ['../../img/projects/gundams/derkommissar/komm02.jpeg','Der Kommissar','img2'],
@@ -2824,8 +2792,8 @@ const projects = [
     ['King Pluto',[1,'QAN[T], Command'],'HG',false,false,false,'BD','B'],
     ['Queen Luna',[1,'QAN[T], Shia'],'HG',false,false,false,'BD','B'],
     ['King Earth',[1,'Strike Freedom, Perfect'],'HG',false,false,false,'BD','B'],
-    ['Constellation',
-        [1,'Strike Full Package'],'RG',false,false,false,'BD','E','2021-11-05',37.52,true,'Builds/Gundams/Constellation.html',false,'2022-02-28',models[34],
+    ['Constellation',[1,'Strike Full Package'],'RG',
+        false,false,false,'BD','E','2021-11-05',37.52,true,'Builds/Gundams/constellation.html',false,'2022-02-28',models[34],
         [
             ['../../img/projects/gundams/constellation/constel01.jpeg','Constellation','img1'],
             ['../../img/projects/gundams/constellation/constel02.jpeg','Constellation','img2'],
@@ -2850,8 +2818,8 @@ const projects = [
             ['NewType','https://newtype.us/p/QIE6S4m3dl46dKwRkzap/h/rg-23-build-strike-gundam-full-package']
         ],['Moonage Daydream'],true,true,'1:144'
     ],
-    ['Moonage Daydream',
-        [1,'Strike Full Package'],'SD',false,false,false,'BD','E','2021-11-06',7.27,false,'Builds/Gundams/MoonageDaydream.html',false,'2022-02-21',models[34],
+    ['Moonage Daydream',[1,'Strike Full Package'],'SD',
+        false,false,false,'BD','E','2021-11-06',7.27,false,'Builds/Gundams/moonagedaydream.html',false,'2022-02-21',models[34],
         [
             ['../../img/projects/gundams/moonagedaydream/moonage01.jpeg','Moonage Daydream','img1'],
             ['../../img/projects/gundams/moonagedaydream/moonage02.jpeg','Moonage Daydream','img2'],
@@ -3229,8 +3197,8 @@ const projects = [
     ['Levante',[1,'Nagato'],'Ship',false,false,false,'Space Rengo Kantai','B'],
 
     //Transformer
-    ['Wilbee',
-        [1,'Bumblebee'],'Transformer',false,false,false,false,'E','2022-11-06',9.33,false,'Builds/Transformers/wilbee.html',false,'2023-01-09',models[5],
+    ['Wilbee',[1,'Bumblebee'],'Transformer',
+        false,false,false,false,'E','2022-11-06',9.33,false,'Builds/Transformers/wilbee.html',false,'2023-01-09',models[5],
         [
             ['../../img/projects/transformers/wilbee/wilbee01.jpeg','Wilbee','img1'],
             ['../../img/projects/transformers/wilbee/wilbee02.jpeg','Wilbee','img2'],
