@@ -1,23 +1,23 @@
 [
     ID, //numeric
     1,
-    'Short Name',
-    'Full Name',
-    'Serial Number',
+    'ShortName',
+    'FullName',
+    'SerialNumber',
     'Series',
     EW,    //boolean
-    ['Developed From'],
-    ['Developed Into'],
+    ['DevelopedFrom'],
+    ['DevelopedInto'],
     'Era',
-    [StartDate,'Start Date in string',EndDate],
+    [StartDate,'DateString',EndDate],
     'Pilot',
-    ['Second Pilots'],
+    ['SecondPilots'],
     'Manufacturer',
     ['Affiliations'],
     [16.7,'16.7 Meters'],           //Height
     [7.7,'7.7 Metric Tons'],        //Weight
-    'Material / Armor',
-    'Energy / Power Source',
+    'MaterialArmor',
+    'EnergyPowerSource',
     [
         'Armaments'
     ],
@@ -27,10 +27,10 @@
     [
         'Systems'
     ],
-    'Designed by',
+    'DesignedBy',
     SDWHero,                //boolean
-    'Alternate/nickname',
+    'AlternateNickname',
     MobileArmor,            //boolean
-    ['Model photo Url','Photo Alt Text'],
-    Is_Gundam           //boolean
+    ['img/models/xxx.jpeg','PhotoAltText'],
+    IsGundam           //boolean
 ]

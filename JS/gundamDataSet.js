@@ -1355,6 +1355,147 @@ const models = [
         false,
         ['img/models/lightningg.jpeg','Lightning Gundam'],
         true
+    ],
+    [36,1,'AcGuy',
+        'MSM-04 AcGuy',
+        'MSM-o4',
+        'Mobile Suit Gundam',
+        false,
+        ['MSM-04-1 Prototype Acguy'],
+        ['EMS-13 Aggjin'],
+        'Universal Century',
+        [79,'0079 U.C.','Present'],
+        'Zeon Soldiers',
+        false,
+        'Zeonic Company',
+        ['Principality of Zeon'],
+        [19.2,'19.2 Meters'],
+        [129,'129 Metric Tons'],
+        false,
+        'Minovsky Ultracompact Fusion Reactor (x2)',
+        [
+            '105mm Vulcan Gun (x4)',
+            '6-tube Missile Launcher',
+            'Mega Particle Cannon',
+            'Vulcan Gun',
+            'Iron Nail'
+        ],
+        false,
+        [
+            'Interchangeable Forearms'
+        ],
+        'Kunio Okawara ',
+        false,                //boolean
+        'Alternate/nickname',
+        false,            //boolean
+        ['img/models/acguy.jpeg','Acguy'],
+        false
+    ],
+    [37,3,'Cosmo Falcon',
+        'StarBlazers Cosmo Falcon',
+        'Type-99',
+        'StarBlazers',
+        false,
+        false,
+        false,
+        'Anno Domini',
+        false,
+        false,
+        false,
+        false,
+        ['United Nations Cosmo Navy'],
+        false,
+        [15.9,'15.9 Meters'],
+        [6.8,'6.8 Meters'],
+        'Meteor Type 35 Composite Radial Flow Cosmo-Engine',
+        ['Machine Guns (x2)','Cannons (x6)','Anti-Air/Anti-Ship Missiles (x8)'],
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        ['img/models/cosmofalcon.jpeg','Andromeda Black Model'],
+        'Type-99 space attack fighter aircraft'
+    ],
+    [38,1,'Gundam Airmaster',
+        'GW-9800 Gundam Airmaster',
+        'GW-9800',
+        'After War Gundam X',
+        false,
+        false,
+        ['GW-9800-B Gundam Airmaster Burst'],
+        'After War',
+        [1,'0001 A.W.',15],
+        'Witz Sou',
+        false,
+        'New United Nations Earth',
+        ['New United Nations Earth','Vulture'],
+        [17.2,'17.2 Meters'],
+        [6.9,'6.9 Metric Tons'],
+        'Luna Titanium (Gundarium Alloy)',
+        'Ultracompact Fusion Reactor',
+        [
+            'Head Vulcan (x2)',
+            'Nose Vulcan (x2)',
+            'Shoulder Missile (x2)'
+        ],
+        [
+            'Buster Rifle (x2)'
+        ],
+        [
+            'Flash System',
+            'Trans System'
+        ],
+        false,
+        false,
+        false,
+        false,
+        ['img/models/airmaster.jpeg','Gundam Airmaster'],
+        true
+    ],
+    [39,1,'Gundam Leopard',
+        'GT-9600 Gundam Leopard',
+        'GT-9600',
+        'After War Gundam X',
+        false,
+        false,
+        ['GT-9600-D Gundam Leopard Destroy'],
+        'After War',
+        [1,'0001 A.W.',15],
+        'Roybea Loy',
+        false,
+        'New United Nations Earth',
+        ['New United Nations Earth','Vulture'],
+        [17.2,'17.2 Meters'],
+        [6.9,'6.9 Metric Tons'],
+        'Luna Titanium (Gundarium Alloy)',
+        'Ultracompact Fusion Reactor',
+        [
+            'Inner Arm Gatling',
+            'Breast Gatling (x2)',
+            'Hornet Missile (x2)',
+            'Shoulder Missiles (x11)',
+            'Head Vulcan (x2)',
+            'Head Cannot (x2)',
+            'Grenade Launcher (x6)',
+            'Separate Missile Pod',
+            'Inner Arm Torpedo Launcher'
+        ],
+        [
+            'Beam Knife',
+            'S-1 Unit (Torpedo Launcher)',
+            'Snow Dasher (x2)'
+        ],
+        [
+            'Flash System'
+        ],
+        'Kunio Okawara',
+        false,
+        false,
+        false,
+        ['img/models/leopard.jpeg','Gundam Leopard'],
+        true
     ]
 ];
 
@@ -1769,7 +1910,7 @@ const projects = [
             ['../../img/projects/gundams/golddustwoman/golddust14.jpeg','Gold Dust Woman','img14']
         ],
         ['img/projects/gundams/golddustwoman/golddust10.jpeg','Profile Photo: Gold Dust Woman'],
-        'Theme was traditional Zero in the traditional colors. But with Turbo Dork to make it shiny.','Susie, Nebraska',
+        'Theme was traditional Zero in the traditional colors. But with Turbo Dork to make it shiny.','Susie, Iowa',
         [
             ['USA Gundam Store','https://www.usagundamstore.com/products/13-wing-gundam-zero-ew-gundam-wing-endless-waltz-bandai-spirits-sdcs?variant=11912262615076'],
             ['NewType','https://newtype.us/p/5msfyhVsQRBrZ6bIzNBO/h/sdcs-13-wing-gundam-zero-ew']
@@ -1788,7 +1929,27 @@ const projects = [
     ['Zero EW (sd)',[1,'Wing Zero'],'SD',false,false,false,'Wing','A'],
 
     //After War (X)
-    ['Gaebora',[1,'Airmaster'],'SD',false,false,false,'X','E','2021-10-06',5.51,false,'Builds/Gaebora.html',[''],'2022-03-28'],
+    ['Gaebora',[1,'Airmaster'],'SD',
+        false,false,false,'X','E','2021-10-06',5.51,false,'Builds/Gundams/gaebora.html',false,'2022-03-28',models[38],
+        [
+            ['../../img/projects/gundams/gaebora/gaeboraowl.jpeg','Gaebora the Owl','img1'],
+            ['../../img/projects/gundams/gaebora/gaebora01.jpeg','Gaebora','img2'],
+            ['../../img/projects/gundams/gaebora/gaebora02.jpeg','Gaebora','img3'],
+            ['../../img/projects/gundams/gaebora/gaebora03.jpeg','Gaebora','img4'],
+            ['../../img/projects/gundams/gaebora/gaebora04.jpeg','Gaebora','img5'],
+            ['../../img/projects/gundams/gaebora/gaebora05.jpeg','Gaebora','img6'],
+            ['../../img/projects/gundams/gaebora/gaebora06.jpeg','Gaebora','img7'],
+            ['../../img/projects/gundams/gaebora/gaebora07.jpeg','Gaebora','img8'],
+            ['../../img/projects/gundams/gaebora/gaebora08.jpeg','Gaebora','img9'],
+            ['../../img/projects/gundams/gaebora/gaebora09.jpeg','Gaebora','img10']
+        ],
+        ['img/projects/gundams/gaebora/gaebora09.jpeg','Profile Photo: Gaebora'],
+        'Primarily inspired by the owl from Legend of Zelda. Therefore primarily different shades of brown color palette to resemble an owl\'s plumage.','Leslie, Iowa',
+        [
+            ['USA Gundam Store','https://www.usagundamstore.com/products/gg-46-gundam-airmaster'],
+            ['NewType','https://newtype.us/p/eqkYbPH6E7Ye0yiP2zZs/h/sdgg-046-gundam-airmaster']
+        ],['Guapo'],false,true
+    ],
     ['Biohazard',[1,'Double X'],'SD',
         false,false,false,'X','E','2022-08-08',5.83,false,'Builds/Gundams/biohazard.html',[''],'2022-10-24',models[29],
         [
@@ -1885,8 +2046,29 @@ const projects = [
     ],
     ['Double X [MG]',[1,'Double X'],'MG',true,false,false,'X','E','2022-09-10',7.58,false,false,false,'2022-10-10'],
     ['Double X [HG]',[1,'Double X'],'HG',true,false,false,'X','E','2022-08-10',2,false,false,false,'2022-09-26'],
-    ['Guapo',[1,'Leopard'],'SD',false,false,false,'X','E','2021-10-05',6.2,false,'Builds/Guapo.html',[''],'2022-03-07'],
-    ['Iron Maiden',[1,'X Gundam'],'SD',false,false,false,'X','E','2021-10-07',4.83,false,'Builds/IronMaiden.html',[''],'2023-03-20'],
+    ['Guapo',[1,'Leopard'],'SD',
+        false,false,false,'X','E','2021-10-05',6.2,false,'Builds/Gundams/guapo.html',false,'2022-03-07',models[39],
+        [
+            ['../../img/projects/gundams/guapo/guapo01.jpeg','Gundam Guapo','img1'],
+            ['../../img/projects/gundams/guapo/guapo02.jpeg','Gundam Guapo','img2'],
+            ['../../img/projects/gundams/guapo/guapo03.jpeg','Gundam Guapo','img3'],
+            ['../../img/projects/gundams/guapo/guapo04.jpeg','Gundam Guapo','img4'],
+            ['../../img/projects/gundams/guapo/guapo05.jpeg','Gundam Guapo','img5'],
+            ['../../img/projects/gundams/guapo/guapo06.jpeg','Gundam Guapo','img6'],
+            ['../../img/projects/gundams/guapo/guapo07.jpeg','Gundam Guapo','img7'],
+            ['../../img/projects/gundams/guapo/guapo08.jpeg','Gundam Guapo','img8'],
+            ['../../img/projects/gundams/guapo/guapo09.jpeg','Gundam Guapo','img9'],
+            ['../../img/projects/gundams/guapo/guapo10.jpeg','Gundam Guapo','img10'],
+            ['../../img/projects/gundams/guapo/guapo11.jpeg','Gundam Guapo','img11']
+        ],
+        ['img/projects/gundams/guapo/guapo03.jpeg'],
+        'Inspired by my best friends new Border Collie puppy, Guapo.','Eric, Iowa',
+        [
+            ['USA Gundam Store','https://www.usagundamstore.com/products/gg-45-gundam-leopard'],
+            ['NewType','https://newtype.us/p/4stOTt5HqaY9M2zZp01L/h/sdgg-045-gundam-leopard']
+        ],['Gaebora'],false,true,false
+    ],
+    ['Iron Maiden',[1,'X Gundam'],'SD',false,false,false,'X','E','2021-10-07',4.83,false,'Builds/IronMaiden.html',false,'2023-03-20'],
 
     //Anno Domini (00)
     ['Umlaut \xD6\xD6',
@@ -2572,7 +2754,27 @@ const projects = [
 
     //Universal Century
     ['Dew Drop',[1,'Acguy'],'HG',
-        false,false,false,'UC','E','2023-05-29-08',5.75,false,'Builds/Gundams/dewdrop.html',['Vallejo Model Air: Underside Blue 71.332','Vallejo Model Air: French Blue 71.088','Vallejo Model Air: Steel Blue 71.087','Vallejo Mecha Color: Metallic Blue 69.067','Tamiya: Gold TS-21 Can','Tamiya: Metallic Red PS-15 Can'],'2023-06-19'
+        false,false,false,'UC','E','2023-05-29-08',5.75,false,'Builds/Gundams/dewdrop.html',['Vallejo Model Air: Underside Blue 71.332','Vallejo Model Air: French Blue 71.088','Vallejo Model Air: Steel Blue 71.087','Vallejo Mecha Color: Metallic Blue 69.067','Tamiya: Gold TS-21 Can','Tamiya: Metallic Red PS-15 Can'],'2023-06-19',models[36],
+        [
+            ['.../../img/projects/gundams/dewdrop/dewdrop01.jpeg','Dew Drop','img1'],
+            ['.../../img/projects/gundams/dewdrop/dewdrop02.jpeg','Dew Drop','img2'],
+            ['.../../img/projects/gundams/dewdrop/dewdrop03.jpeg','Dew Drop','img3'],
+            ['.../../img/projects/gundams/dewdrop/dewdrop04.jpeg','Dew Drop','img4'],
+            ['.../../img/projects/gundams/dewdrop/dewdrop05.jpeg','Dew Drop','img5'],
+            ['.../../img/projects/gundams/dewdrop/dewdrop06.jpeg','Dew Drop','img6'],
+            ['.../../img/projects/gundams/dewdrop/dewdrop07.jpeg','Dew Drop','img7'],
+            ['.../../img/projects/gundams/dewdrop/dewdrop08.jpeg','Dew Drop','img8'],
+            ['.../../img/projects/gundams/dewdrop/dewdrop09.jpeg','Dew Drop','img9'],
+            ['.../../img/projects/gundams/dewdrop/dewdrop10.jpeg','Dew Drop','img10'],
+            ['.../../img/projects/gundams/dewdrop/dewdrop11.jpeg','Dew Drop','img11']
+        ],
+        ['img/projects/gundams/dewdrop/dewdrop01.jpeg','Profile Photo: Dew Drop'],
+        'The AcGuy is an aquatic unit. But I always thought its traditional color scheme was completely wrong for something with Amphibious elements. So I decided to fix that by retooling it different shades of blue.','Zack #TheLunchDude, Iowa',
+        [
+            ['Video','https://www.instagram.com/reel/Ctrs_SpNgCb/?igshid=YzcxN2Q2NzY0OA=='],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/hguc-1-144-78-acguy'],
+            ['NewType','https://newtype.us/p/1QXHTj5usn3RdM8hks9O/h/hguc-078-acguy']
+        ],false,false,true,'1:144'
     ],
     ['Fantomas',[1,'Banshee Norn'],'SD',
         false,false,false,'UC','E','2021-06-12',15.02,true,'Builds/Gundams/fantomas.html',false,'2021-08-03',models[20],
@@ -3170,8 +3372,8 @@ const projects = [
     ['Stratle',[1,'Maintenance Bay'],'Display',false,false,false,'','E','2022-02-11',27.12,true,'Builds/stratle.html',[''],'2022-04-11'],
 
     //Ship
-    ['Libeccio',
-        [0.2,'Andromeda Black'],'Ship',false,false,false,'StarBlazer','E','2022-09-09',4.42,false,'Builds/Ships/libeccio.html',false,'2023-02-06',models[8],
+    ['Libeccio',[0.2,'Andromeda Black'],'Ship',
+        false,false,false,'StarBlazer','E','2022-09-09',4.42,false,'Builds/Ships/libeccio.html',false,'2023-02-06',models[8],
         [
             ['../../img/projects/ships/libeccio/libeccio01.jpeg','Libeccio Andromeda Class Battleship','img1'],
             ['../../img/projects/ships/libeccio/libeccio02.jpeg','Libeccio Andromeda Class Battleship','img2'],
@@ -3190,9 +3392,24 @@ const projects = [
         [
             ['Video','https://www.instagram.com/reel/CoVMgaLMyp5/?igshid=YzcxN2Q2NzY0OA=='],
             ['StarBlazer Wiki','https://yamato.fandom.com/wiki/Andromeda_Black']
-        ],['Ostro'],false,true,'1:1000'
+        ],['Ostro','Ponente','Levante'],false,true,'1:1000'
     ],
-    ['Ostro',[0.2,'Cosmo Falcon'],'Ship',false,false,false,'StarBlazer','E','2022-07-06',6.33,false,'Builds/ostro.html',[''],'2022-07-18'],
+    ['Ostro',[0.2,'Cosmo Falcon'],'Ship',
+        false,false,false,'StarBlazer','E','2022-07-06',6.33,false,'Builds/Ships/ostro.html',false,'2022-07-18',models[37],
+        [
+            ['../../img/projects/ships/ostro/ostro01.jpeg','Ostro','img1'],
+            ['../../img/projects/ships/ostro/ostro02.jpeg','Ostro','img2'],
+            ['../../img/projects/ships/ostro/ostro03.jpeg','Ostro','img3'],
+            ['../../img/projects/ships/ostro/ostro04.jpeg','Ostro','img4'],
+            ['../../img/projects/ships/ostro/ostro05.jpeg','Ostro','img5'],
+            ['../../img/projects/ships/ostro/ostro06.jpeg','Ostro','img6']
+        ],
+        ['img/projects/ships/ostro/ostro03.jpeg','Profile Photo: Ostro'],
+        'Sky theme. The photos don\'t do the model justice, but if you focus and look very, very closely there is a slight white swirl inside the blue. On this one experimented with new technique to lightly overlap one color over another by wrapping in stretched baby whites. Basically I painted the base blue layer first. Then took a baby white and stretched it out so that there were porous gaps, wrapped the wipe around the plastic, then sprayed the second color in order to make the clouds look. It came out really faint though that I am going to need more practice at this technique.','Zack #TheLunchDude, Iowa',
+        [
+            ['StarBlazer Wiki','https://yamato.fandom.com/wiki/Type-99_Cosmo_Falcon']
+        ],['Libeccio','Ponente','Levante'],false,true,false
+    ],
     ['Ponente',[1,'Cosmo Zero'],'Ship',false,false,false,'StarBlazer','B'],
     ['Levante',[1,'Nagato'],'Ship',false,false,false,'Space Rengo Kantai','B'],
 
