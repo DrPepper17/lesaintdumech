@@ -15,7 +15,7 @@
 
         <title id="title">&#9884; Le Saint du Mech: </title>
     </head>
-    <body onload="buildProjectPage('Fafnir'),convertDateToday()">
+    <body onload="buildProjectPage('Fluorescent'),convertDateToday()">
         <!--Jumbotron-->
         <header class="jumbotron jumbotron-fluid">
             <div class="container">
@@ -153,6 +153,9 @@
                         <span class="gSeriesHD">
                             <span id="gSeries"><span class="font-weight-bold">Series: </span></span><br/>
                         </span>
+                        <span class="gSDWHD">
+                            <span id="gSDW"><span class="font-weight-bold">Based on: </span></span><br/>
+                        </span>
                         <span class="gEraHD">
                             <span id="gEra"><span class="font-weight-bold">Era: </span></span><br/>
                         </span>
@@ -165,10 +168,12 @@
                 <div class="row">
                     <div class="col">
                         <span class="gFromHD">
-                            <span id="gFrom"><span class="font-weight-bold">Developed From: </span></span><br/>
+                            <span class="font-weight-bold">Developed From: </span><br/>
+                            <ul id="gFrom"></ul>
                         </span>
                         <span class="gToHD">
-                            <span id="gTo"><span class="font-weight-bold">Developed Into: </span></span><br/>
+                            <span class="font-weight-bold">Developed Into: </span><br/>
+                            <ul id="gTo"></ul>
                         </span>
                         <span class="gManufacturerHD">
                             <span id="gManufacturer"><span class="font-weight-bold">Manufacturer: </span></span><br/>
@@ -203,7 +208,7 @@
                             <ul id="gArmaments"></ul>
                         </span>
                         <span class="gEquipmentHD">
-                            <span class="font-weight-bold">Optional Equipment: </span><br/>
+                            <span class="font-weight-bold">Equipment: </span><br/>
                             <ul id="gEquipment"></ul>
                         </span>
                     </div>
@@ -220,8 +225,14 @@
                         <span class="gsShortNameHD">
                             <span id="gsShortName"><span class="font-weight-bold">Ship: </span></span><br/>
                         </span>
+                        <span class="gsClassHD">
+                            <q id="gsClass"></q><br/>
+                        </span>
                         <span class="gsAltNameHD">
                             <span id="gsAltName"><span class="font-weight-bold">Alias: </span></span><br/>
+                        </span>
+                        <span class="gsTypeHD">
+                            <span id="gsType"><span class="font-weight-bold">Type: </span></span><br/>
                         </span>
                         <span class="gsSerialHD">
                             <span id="gsSerial"><span class="font-weight-bold">Serial: </span></span><br/>
@@ -245,6 +256,12 @@
                         <span class="gsLengthHD">
                             <span id="gsLength"><span class="font-weight-bold">Length: </span></span><br/>
                         </span>
+                        <span class="gsHeightHD">
+                            <span id="gsHeight"><span class="font-weight-bold">Height: </span></span><br/>
+                        </span>
+                        <span class="gsWidthHD">
+                            <span id="gsWidth"><span class="font-weight-bold">Width: </span></span><br/>
+                        </span>
                         <span class="gsManufacturerHD">
                             <span id="gsManufacturer"><span class="font-weight-bold">Manufacturer: </span></span><br/>
                         </span>
@@ -252,8 +269,26 @@
                             <span class="font-weight-bold">Affiliation: </span><br/>
                             <ul id="gsAffiliation"></ul>
                         </span>
+                        <span class="gsFromHD">
+                            <span class="font-weight-bold">Developed From: </span><br/>
+                            <ul id="gsFrom"></ul>
+                        </span>
+                        <span class="gsToHD">
+                            <span class="font-weight-bold">Developed To: </span><br/>
+                            <ul id="gsTo"></ul>
+                        </span>
+                        <span class="gsHangarHD">
+                            <span id="gsHangar"><span class="font-weight-bold">Number of Hangars: </span></span><br/>
+                        </span>
+                        <span class="gsCatapultHD">
+                            <span id="gsCatapult"><span class="font-weight-bold">Number of Catapults: </span></span><br/>
+                        </span>
                     </div>
                     <div class="col-md">
+                        <span class="gsPropulsionHD">
+                            <span class="font-weight-bold">Propulsion: </span><br/>
+                            <ul id="gsPropulsion"></ul>
+                        </span>
                         <span class="gsArmamentsHD">
                             <span class="font-weight-bold">Armaments: </span><br/>
                             <ul id="gsArmaments"></ul>
