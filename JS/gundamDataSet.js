@@ -1689,6 +1689,55 @@ const models = [
         false,
         ['img/models/geminass01.jpeg','Gundam Geminass 01'],
         true
+    ],
+    [45,1,'Zeta Gundam',
+        'MSZ-006 Zeta Gundam',
+        'MSZ-006',
+        'Mobile Suit Zeta Gundam',
+        false,
+        [
+            'MSZ-006-X Prototype Z Gundam',
+            'RX-178 Gundam Mk-II'
+        ],
+        [
+            'MSU-010 Zeta Gundam Mk-II',
+            'MSZ-007 Mass Production Type Z Gundam',
+            'MSZ-007 Z Rapier I',
+            'MSZ-008 ZII',
+            ['MSZ-009 Prototype ZZ Gundam']
+        ],
+        'Universal Century',
+        [87,'July, 0087 U.C.',100],
+        'Kamille Bidan',
+        ['Reccoa Londe','Apolly Bay','Judau Ashta','Roux Louka','Fa Yuiry'],
+        'Anaheim Electronics',
+        ['Anti Earth Union Group','Gundam Team'],
+        [19.85,'19.85 Meters'],
+        [28.7,'28.7 Metric Tons'],
+        'Gundarium \u03b3 (Gamma) Alloy',
+        'Minovsky Ultracompact Fusion Reactor',
+        [
+            'Sealant Launchers',
+            'MU-86G 60mm Vulcan Gun (x2)',
+            '2-tube Grenade Launch (x2)',
+            'Anchor Wire (x2)'
+        ],
+        [
+            'A.E.BLASH XB-G-35/Du.105 Beam Saber (Beam Gun) (x2)',
+            'XBR-M87A2 Beam Rifle',
+            'H-Baz-87-A*E/Ver.004 Hyper Bazooka'
+
+        ],
+        [
+            'Wave Rider Mode',
+            'Bio-Sensor'
+        ],
+        'Kazumi Fujita ',
+        false,
+        false,
+        false,
+        ['img/models/zeta.jpeg','Zeta Gundam'],
+        true
     ]
 ];
 
@@ -3321,8 +3370,29 @@ const projects = [
     ['Rocket Man',[1,'Xi Gundam'],'SD',false,false,false,'UC','D','2022-01-08',6.5,false,'Builds/RocketMan.html',['']],
     ['MK Ultra',[1,'Zaku II'],'RG',false,false,false,'UC','B'],
     ['Zeong [RG]',[1,'Zeong'],'RG',true,false,false,'UC','E','2021-08-07',8.25,false,false,false,'2022-03-14'],
-    ['Starrider',[1,'Zeta Gundam'],'SD',false,false,false,'UC','E','2021-09-08',6.83,false,'Builds/Starrider.html',[''],'2023-03-08'],
-    ['Zeta [MG]',[1,'Zeta Gundam'],'MG',true,false,false,'UC','C','2023-04-12',8,false,false,false],
+    ['Starrider',[1,'Zeta Gundam'],'SD',
+        false,false,false,'UC','E','2021-09-08',6.83,false,'Builds/Gundams/Starrider.html',false,'2023-03-08',models[45],
+        [
+            ['../../img/projects/gundams/starrider/starrider01.jpeg','Starrider','img1'],
+            ['../../img/projects/gundams/starrider/starrider02.jpeg','Starrider','img2'],
+            ['../../img/projects/gundams/starrider/starrider03.jpeg','Starrider','img3'],
+            ['../../img/projects/gundams/starrider/starrider04.jpeg','Starrider','img4'],
+            ['../../img/projects/gundams/starrider/starrider05.jpeg','Starrider','img5'],
+            ['../../img/projects/gundams/starrider/starrider06.jpeg','Starrider','img6'],
+            ['../../img/projects/gundams/starrider/starrider07.jpeg','Starrider','img7'],
+            ['../../img/projects/gundams/starrider/starrider08.jpeg','Starrider','img8'],
+            ['../../img/projects/gundams/starrider/starrider09.jpeg','Starrider','img9'],
+            ['../../img/projects/gundams/starrider/starrider10.jpeg','Starrider','img10'],
+            ['../../img/projects/gundams/starrider/starrider11.jpeg','Starrider','img11']
+        ],
+        ['img/projects/gundams/starrider/starrider06.jpeg'],
+        'This design was entirely experimental. But by the end it kept giving me the vibes of a leprechaun.','Carlos,Nebraska',
+        [
+            ['USA Gundam Store','https://www.usagundamstore.com/products/bb198-msz-006-zeta-gundam'],
+            ['NewType','https://newtype.us/p/QGZ7IGxhBsKUpVEQcuMm/h/sdgg-198-msz-006-zeta-gundam']
+        ],false,false,true,false
+    ],
+    ['Zeta [MG]',[1,'Zeta Gundam'],'MG',true,false,false,'UC','C','2023-04-12',8,false,false,false,],
 
     //Regild Century (Reconguista)
 
