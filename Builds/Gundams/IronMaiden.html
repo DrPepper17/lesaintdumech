@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.min.css" />  
+        <link rel="stylesheet" href="../../node_modules/font-awesome/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="../../node_modules/bootstrap-social/bootstrap-social.css" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&display=swap" />
+        <script src="../../JS/gundamDataSet.js?v=202307072204"></script>
+        <script src="../../JS/frenchMetrics.js"></script>
+        <link rel="stylesheet" href="../../CSS/home.css?v=202307072204"/>
+        <link rel="stylesheet" href="../../CSS/modal.css"/>
+        <link rel="stylesheet" href="../../CSS/projects.css?v=202307072204">
+
+        <title id="title">&#9884; Le Saint du Mech: </title>
+    </head>
+    <body onload="buildProjectPage('Iron Maiden'),convertDateToday()">
+        <!--Jumbotron-->
+        <header class="jumbotron jumbotron-fluid"> 
+            <div class="container">
+                <div class="row text-right">
+                    <div class="col text-warning mr-0 pr-1 h6" id="dateFR"></div><img src="../../img/french.png" height="20px"/>
+                </div>
+                <div class="row">
+                    <div class="col-3 col-lg-2">
+                        <a href="../../index.html"><img src="../../img/m_fleur.png" class="img-fluid" /></a>
+                    </div>
+                    <div class="col align-self-center ">
+                        <h1 class="d-none d-md-block">Le Saint du Mech</h1>
+                        <h2 class="d-md-none mt-3">Le Saint du Mech</h2>
+                        <h3 id="jumboNode"></h3>
+                    </div>
+                </div> 
+            </div>
+        </header>
+
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#siteNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="siteNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="../../index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../../blog.html">Blog</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../../builds.html">Builds</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../../statistics.html">Statistics</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../../links.html">Links</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <span id="modalAnchor"></span>
+
+        <div class="container">
+            <!--BreadCrumb-->
+            <div class="row">
+                <div class="col">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="../../builds.html">Builds</a></li>
+                        <li class="breadcrumb-item active" id="breadcrumbNode"></li>
+                    </ol>
+                </div>
+            </div>
+            <!--Title Section-->
+            <div class="row">
+                <div class="col">
+                    <h1 class="d-none d-sm-block" id="projectTitle"> </h1>
+                    <h3 class="d-sm-none mt-3" id="projectTitleMb"></h>
+                    <h5 id="modelFullName"></h5>
+                </div>
+            </div>
+
+            <!--Project Details Section-->
+            <div class="row align-items-center">
+                <div class="col offset-md-1">
+                    <span id="projectName"><span class="font-weight-bold">Project: </span></span><br/>
+                    <span class="projectAliasHD">
+                        <q id="projectAlias"></q><br/>
+                    </span>
+                    <span id="modelName"><span class="font-weight-bold">Model: </span></span><br/>
+                    <span class="projectPBandaiHD">
+                        <span id="projectPBandai" class="font-weight-bold text-danger">P-BANDAI Edition </span><br/>
+                    </span>
+                    <span class="projectGradeHD">
+                        <span id="projectGrade"><span class="font-weight-bold">Grade/Scale:</span> </span><br/>
+                    </span>
+                    <span class="projectOtherModelsHD">
+                        <span class="font-weight-bold">All Models Used:</span><br/>
+                        <ul id="projectOtherModels"></ul>
+                    </span>
+                    <span class="projectStartDateHD">
+                        <span id="projectStartDate"><span class="font-weight-bold">Date Started: </span></span><br/>
+                    </span>
+                    <span class="projectPostDateHD">
+                        <span id="projectPostDate"><span class="font-weight-bold">Date Posted: </span></span><br/>
+                    </span>
+                    <span class="projectHoursHD">
+                        <span id="projectHours"><span class="font-weight-bold">Total Hours: </span></span><br/>  
+                    </span>
+                    <span id="projectLED"><span class="font-weight-bold">LEDs Used: </span></span>
+                </div>
+                <div class="col-6" id="projectProfilePhoto"></div>
+            </div>
+            <div class="row projectDescriptionHD">
+                <div class="col">
+                    <span class="font-weight-bold">Theme/Description:</span><br/>
+                    <span id="projectDescription"></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col projectPaintsHD">
+                    <span class="font-weight-bold">Paints Used:</span><br/>
+                    <ul id="projectPaints"></ul>
+                </div>
+                <div class="col-md">
+                    <span class="projectCurrentOwnerHD">
+                        <span id="projectCurrentOwner"><span class="font-weight-bold">Current Owner: </span></span><br/>  
+                    </span>
+                    <span class="projectAvailableHD">
+                        <span class="font-weight-bold text-warning">Available For Adoption !!!</span><br/>
+                    </span>
+                </div>
+            </div>
+            
+            <!--Model Details Page-->
+            <!--Gundam-->
+            <span class="GundamPage">
+                <div class="row align-items-center">
+                    <div class="col-md-5 mb-3 text-center" id="gModelPhoto"></div>
+                    <div class="col">
+                        <span class="gShortNameHD">
+                            <span id="gShortName"><span class="font-weight-bold">Model: </span></span><br/>
+                        </span>
+                        <span class="gSerialHD">
+                            <span id="gSerial"><span class="font-weight-bold">Serial Number: </span></span><br/>
+                        </span>
+                        <span class="gEWHD">
+                            <span class="font-weight-bold text-danger">EW Version</span><br/>
+                        </span>
+                        <span class="gMobileArmorHD">
+                            <span class="font-weight-bold text-warning">Mobile Armor</span><br/>
+                        </span>
+                        <span class="gAltNameHD">
+                            <span id="gAltName"><span class="font-weight-bold">Alias: </span></span><br/>
+                        </span>
+                        <span class="gPilotHD">
+                            <span id="gPilot"><span class="font-weight-bold">Pilot: </span></span><br/>
+                        </span>
+                        <span class="gPilot2HD">
+                            <span id="gPilot2"><span class="font-weight-bold">Secondary Pilots: </span></span><br/>
+                        </span>
+                        <span class="gSeriesHD">
+                            <span id="gSeries"><span class="font-weight-bold">Series: </span></span><br/>
+                        </span>
+                        <span class="gSDWHD">
+                            <span id="gSDW"><span class="font-weight-bold">Based on: </span></span><br/>
+                        </span>
+                        <span class="gEraHD">
+                            <span id="gEra"><span class="font-weight-bold">Era: </span></span><br/>
+                        </span>
+                        <span class="gCreatedHD">
+                            <span id="gCreated"><span class="font-weight-bold">Created: </span></span><br/>
+                            <span id="gTimeline"><span class="font-weight-bold">Timeline: </span></span><br/>
+                        </span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <span class="gFromHD">
+                            <span class="font-weight-bold">Developed From: </span><br/>
+                            <ul id="gFrom"></ul>
+                        </span>
+                        <span class="gToHD">
+                            <span class="font-weight-bold">Developed Into: </span><br/>
+                            <ul id="gTo"></ul>
+                        </span>
+                        <span class="gManufacturerHD">
+                            <span id="gManufacturer"><span class="font-weight-bold">Manufacturer: </span></span><br/>
+                        </span>
+                        <span class="gAffiliationHD">
+                            <span class="font-weight-bold">Affiliation: </span><br/>
+                            <ul id="gAffiliation"></ul>
+                        </span>
+                        <span class="gHeightHD">
+                            <span id="gHeight"><span class="font-weight-bold">Height: </span></span><br/>
+                        </span>
+                        <span class="gWeightHD">
+                            <span id="gWeight"><span class="font-weight-bold">Weight: </span></span><br/>
+                        </span>
+                        <span class="gMaterialHD">
+                            <span id="gMaterial"><span class="font-weight-bold">Material: </span></span><br/>
+                        </span>
+                        <span class="gPowerHD">
+                            <span id="gPower"><span class="font-weight-bold">Power Source: </span></span><br/>
+                        </span>
+                        <span class="gDesignedHD">
+                            <span id="gDesigned"><span class="font-weight-bold">Designed by: </span></span><br/>
+                        </span>
+                    </div>
+                    <div class="col-md">
+                        <span class="gSystemsHD">
+                            <span class="font-weight-bold">Systems: </span><br/>
+                            <ul id="gSystems"></ul>
+                        </span>
+                        <span class="gArmamentsHD">
+                            <span class="font-weight-bold">Armaments: </span><br/>
+                            <ul id="gArmaments"></ul>
+                        </span>
+                        <span class="gEquipmentHD">
+                            <span class="font-weight-bold">Equipment: </span><br/>
+                            <ul id="gEquipment"></ul>
+                        </span>
+                    </div>
+                </div>
+            </span>
+
+            <!--Ship (Gundam)-->
+            <span class="GundamShipPage">
+                <div class="row">
+                    <div class="col text-center" id="gsModelPhoto"></div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <span class="gsShortNameHD">
+                            <span id="gsShortName"><span class="font-weight-bold">Ship: </span></span><br/>
+                        </span>
+                        <span class="gsClassHD">
+                            <q id="gsClass"></q><br/>
+                        </span>
+                        <span class="gsAltNameHD">
+                            <span id="gsAltName"><span class="font-weight-bold">Alias: </span></span><br/>
+                        </span>
+                        <span class="gsTypeHD">
+                            <span id="gsType"><span class="font-weight-bold">Type: </span></span><br/>
+                        </span>
+                        <span class="gsSerialHD">
+                            <span id="gsSerial"><span class="font-weight-bold">Serial: </span></span><br/>
+                        </span>
+                        <span class="gsCaptainHD">
+                            <span id="gsCaptain"><span class="font-weight-bold">Captain: </span></span><br/>
+                        </span>
+                        <span class="gsCaptain2HD">
+                            <span id="gsCaptain2"><span class="font-weight-bold">2nd Captains: </span></span><br/>
+                        </span>
+                        <span class="gsSeriesHD">
+                            <span id="gsSeries"><span class="font-weight-bold">Series: </span></span><br/>
+                        </span>
+                        <span class="gsEraHD">
+                            <span id="gsEra"><span class="font-weight-bold">Era: </span></span><br/>
+                        </span>
+                        <span class="gsCreatedHD">
+                            <span id="gsCreated"><span class="font-weight-bold">Created: </span></span><br/>
+                            <span id="gsTimeline"><span class="font-weight-bold">Timeline: </span></span><br/>
+                        </span>
+                        <span class="gsLengthHD">
+                            <span id="gsLength"><span class="font-weight-bold">Length: </span></span><br/>
+                        </span>
+                        <span class="gsHeightHD">
+                            <span id="gsHeight"><span class="font-weight-bold">Height: </span></span><br/>
+                        </span>
+                        <span class="gsWidthHD">
+                            <span id="gsWidth"><span class="font-weight-bold">Width: </span></span><br/>
+                        </span>
+                        <span class="gsManufacturerHD">
+                            <span id="gsManufacturer"><span class="font-weight-bold">Manufacturer: </span></span><br/>
+                        </span>
+                        <span class="gsAffiliationHD">
+                            <span class="font-weight-bold">Affiliation: </span><br/>
+                            <ul id="gsAffiliation"></ul>
+                        </span>
+                        <span class="gsFromHD">
+                            <span class="font-weight-bold">Developed From: </span><br/>
+                            <ul id="gsFrom"></ul>
+                        </span>
+                        <span class="gsToHD">
+                            <span class="font-weight-bold">Developed To: </span><br/>
+                            <ul id="gsTo"></ul>
+                        </span>
+                        <span class="gsHangarHD">
+                            <span id="gsHangar"><span class="font-weight-bold">Number of Hangars: </span></span><br/>
+                        </span>
+                        <span class="gsCatapultHD">
+                            <span id="gsCatapult"><span class="font-weight-bold">Number of Catapults: </span></span><br/>
+                        </span>
+                    </div>
+                    <div class="col-md">
+                        <span class="gsPropulsionHD">
+                            <span class="font-weight-bold">Propulsion: </span><br/>
+                            <ul id="gsPropulsion"></ul>
+                        </span>
+                        <span class="gsArmamentsHD">
+                            <span class="font-weight-bold">Armaments: </span><br/>
+                            <ul id="gsArmaments"></ul>
+                        </span>
+                        <span class="gsEquipmentHD">
+                            <span class="font-weight-bold">Equipment: </span><br/>
+                            <ul id="gsEquipment"></ul>
+                        </span>
+                        <span class="gsOnboardHD">
+                            <span class="font-weight-bold">Onboard: </span><br/>
+                            <ul id="gsOnboard"></ul>
+                        </span>
+                    </div>
+                </div>
+            </span>
+
+            <!--Ship (Other)-->
+            <span class="OtherShipPage">
+                <div class="row">
+                    <div class="col text-center" id="osModelPhoto"></div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <span class="osShortNameHD">
+                            <span id="osShortName"><span class="font-weight-bold">Ship: </span></span><br/>
+                        </span>
+                        <span class="osAltNameHD">
+                            <span id="osAltName"><span class="font-weight-bold">Alias: </span></span><br/>
+                        </span>
+                        <span class="osSerialHD">
+                            <span id="osSerial"><span class="font-weight-bold">Series: </span></span><br/>
+                        </span>
+                        <span class="osCaptainHD">
+                            <span id="osCaptain"><span class="font-weight-bold">Captain: </span></span><br/>
+                        </span>
+                        <span class="osCaptain2HD">
+                            <span id="osCaptain2"><span class="font-weight-bold">2nd Captains: </span></span><br/>
+                        </span>
+                        <span class="osFranchiseHD">
+                            <span id="osFranchise"><span class="font-weight-bold">Franchise: </span></span><br/>
+                        </span>
+                        <span class="osEraHD">
+                            <span id="osEra"><span class="font-weight-bold">Era: </span></span><br/>
+                        </span>
+                        <span class="osCreatedHD">
+                            <span id="osCreated"><span class="font-weight-bold">Created: </span></span><br/>
+                            <span id="osTimeline"><span class="font-weight-bold">Timeline: </span></span><br/>
+                        </span>
+                        <span class="osHeightHD">
+                            <span id="osHeight"><span class="font-weight-bold">Height: </span></span><br/>
+                        </span>
+                        <span class="osLengthHD">
+                            <span id="osLength"><span class="font-weight-bold">Length: </span></span><br/>
+                        </span>
+                        <span class="osWidthHD">
+                            <span id="osWidth"><span class="font-weight-bold">Width: </span></span><br/>
+                        </span>
+                        <span class="osManufacturerHD">
+                            <span id="osManufacturer"><span class="font-weight-bold">Manufacturer: </span></span><br/>
+                        </span>
+                        <span class="osAffiliationHD">
+                            <span class="font-weight-bold">Affiliation: </span>
+                            <ul id="osAffiliation"></ul>
+                        </span>
+                    </div>
+                    <div class="col-md">
+                        <span class="osPropulsionHD">
+                            <span id="osPropulsion"><span class="font-weight-bold">Propulsion: </span></span><br/>
+                        </span>
+                        <span class="osArmamentsHD">
+                            <span class="font-weight-bold">Armaments: </span><br/>
+                            <ul id="osArmaments"></ul>
+                        </span>
+                        <span class="osEquipmentHD">
+                            <span class="font-weight-bold">Equipment: </span><br/>
+                            <ul id="osEquipment"></ul>
+                        </span>
+                        <span class="osDefensesHD">
+                            <span id="osDefenses"><span class="font-weight-bold">Defenses: </span></span><br/>
+                        </span>
+                        <span class="osOnboardHD">
+                            <span class="font-weight-bold">Onboard: </span><br/>
+                            <ul id="osOnboard"></ul>
+                        </span>
+                    </div>
+                </div>
+            </span>
+
+            <!--Car/Auto-->
+            <span class="AutomobilePage">
+                <div class="row align-items-center">
+                    <div class="col text-center mb-3" id="caModelPhoto"></div>
+                    <div class="col-md">
+                        <h4 class="font-weight-bold text-danger" id="caShortName"></h4>
+                        <span class="caNicknameHD">
+                            <q id="caNickname"></q> <br/>
+                        </span>
+                        <span class="caManufacturerHD">
+                            <span id="caManufacturer"><span class="font-weight-bold">Manufacturer: </span> </span><br/>
+                        </span>
+                        <span class="caModelHD">
+                            <span id="caModel"><span class="font-weight-bold">Model: </span> </span><br/>
+                        </span>
+                        <span class="caYearHD">
+                            <span id="caYear"><span class="font-weight-bold">Year: </span> </span><br/>
+                        </span>
+                        <span class="caProductionHD">
+                            <span id="caProduction"><span class="font-weight-bold">Years in Production: </span> </span><br/>
+                        </span>
+                        <span class="caDesignerHD">
+                            <span id="caDesigner"><span class="font-weight-bold">Designer: </span> </span><br/>
+                        </span>
+                    </div>
+                </div>
+            </span>
+
+            <!--Displays-->
+            <span class="DisplayPage">
+                <div class="row align-items-center">
+                    <div class="col offset-md-1" id="dpModelPhoto"></div>
+                    <div class="col">
+                        <span class="dpSeriesHD">
+                            <span id="dpSeries"><span class="font-weight-bold">Series: </span></span><br/>
+                        </span>
+                        <span class="dpShortNameHD">
+                            <span id="dpShortName"><span class="font-weight-bold">Kit: </span></span><br/>
+                        </span>
+                        <span class="dpBrandHD">
+                            <span id="dpBrand"><span class="font-weight-bold">Manufacturer: </span></span><br/>
+                        </span>
+                    </div>
+                </div>
+            </span>
+
+            <!--Digimon-->
+            <span class="DigimonPage">
+                <div class="row align-items-center">
+                    <div class="col offset-md-1 text-center" id="dgModelPhoto"></div>
+                    <div class="col-md">
+                        <h4 class="font-weight-bold text-danger" id="dgShortName"></h4>
+                        <span class="dgNicknameHD">
+                            <q id="dgNickname"></q> <br/>
+                        </span>
+                        <span class="dgFormHD">
+                            <span id="dgForm"><span class="font-weight-bold">Form: </span></span><br/>
+                        </span>
+                        <span class="dgLevelHD">
+                            <span id="dgLevel"><span class="font-weight-bold">Level: </span></span><br/>
+                        </span>
+                        <span class="dgPartnerHD">
+                            <span id="dgPartner"><span class="font-weight-bold">Partner: </span></span><br/>
+                        </span>
+                        <span class="dgAttributeHD">
+                            <span id="dgAttribute"><span class="font-weight-bold">Attribute: </span></span><br/>
+                        </span>
+                        <span class="dgElementHD">
+                            <span id="dgElement"><span class="font-weight-bold">Element: </span></span><br/>
+                        </span>
+                        <span class="dgTypeHD">
+                            <span id="dgType"><span class="font-weight-bold">Type: </span></span><br/>
+                        </span>
+                        <span class="dgSpeciesHD">
+                            <span id="dgSpecies"><span class="font-weight-bold">Species/Group: </span></span><br/>
+                        </span>
+                        <span class="dgMemoryHD">
+                            <span id="dgMemory"><span class="font-weight-bold">Memory Usage: </span></span><br/>
+                        </span>
+                        <span class="dgSizeHD">
+                            <span id="dgSize"><span class="font-weight-bold">Size: </span></span><br/>
+                        </span>
+                        <span class="dgFromHD">
+                            <span class="font-weight-bold">Digivolves From: </span><br/>
+                            <ul id="dgFrom"></ul>
+                        </span>
+                        <span class="dgToHD">
+                            <span class="font-weight-bold">Digivolves To: </span><br/>
+                            <ul id="dgTo"></ul>
+                        </span>
+                    </div>
+                </div>
+            </span>
+
+            <!--Pokemon-->
+            <span class="PokemonPage">
+                <div class="row align-items-center">
+                    <div class="col offset-md-1 text-center mb-3" id="pkModelPhoto"></div>
+                    <div class="col-md">
+                        <h3 class="font-weight-bold text-info d-inline" id="pkShortName"></h3><br/>
+                        <span class="pkNicknameHD">
+                            <q id="pkNickname"></q> <br/>
+                        </span>
+                        <span class="pkFormHD">
+                            <span id="pkForm"><span class="font-weight-bold">Form: </span></span><br/>
+                        </span>
+                        <span class="pkStageHD">
+                            <span id="pkStage"><span class="font-weight-bold">Stage: </span></span><br/>
+                        </span>
+                        <span class="pkTypeHD">
+                            <span id="pkType"><span class="font-weight-bold">Type: </span></span><br/>
+                        </span>
+                        <span class="pkCategoryHD">
+                            <span id="pkCategory"><span class="font-weight-bold">Category: </span></span><br/>
+                        </span>
+                        <span class="pkFromHD">
+                            <span class="font-weight-bold">Evolves From: </span><br/>
+                            <ul id="pkFrom"></ul>
+                        </span>
+                        <span class="pkToHD">
+                            <span class="font-weight-bold">Evolves To: </span><br/>
+                            <ul id="pkTo"></ul>
+                        </span>
+                        <span class="pkGenerationHD">
+                            <span id="pkGeneration"><span class="font-weight-bold">Generation: </span></span><br/>
+                        </span>
+                        <span class="pkFirstGameHD">
+                            <span id="pkFirstGame"><span class="font-weight-bold">First Appearance: </span></span><br/>
+                        </span>
+                    </div>
+                </div>
+                <div class="row mb-0">
+                    <div class="col">
+                        <span class="pkDexNoHD">
+                            <h4 class="font-weight-bold text-danger d-inline" id="pkDexNo">National Dex &#35; </h4><br/>
+                        </span>
+                    </div>
+                </div>
+                <div class="row my-0">
+                    <div class="col pkHeightHD offset-4 offset-md-6 offset-lg-7">
+                        <span id="pkHeight"><span class="font-weight-bold">Height: </span></span><br/>
+                    </div>
+                    <div class="col pkWeightHD">
+                        <span id="pkWeight"><span class="font-weight-bold">Weight: </span></span><br/>
+                    </div>
+                </div>
+                <div class="row mt-0 justify-content-center">
+                    <div class="col-md-8">
+                        <span class="pkDexHD">
+                            <span class="font-weight-bold">Pokedex Entry: </span><br/>
+                            <span id="pkDex"> </span>
+                        </span>
+                    </div>
+                </div>
+            </span>
+
+            <!--Transformer-->
+            <span class="TransformerPage">
+                <div class="row align-items-center">
+                    <div class="col text-center mb-3" id="tsModelPhoto"></div>
+                    <div class="col-md-7">
+                        <span class="tsCybertronHD">
+                            <span id="tsCybertron"><span class="font-weight-bold">Cybertron Name: </span></span><br/>
+                        </span>
+                        <span class="tsEarthHD">
+                            <span id="tsEarth"><span class="font-weight-bold">Earth Name: </span></span><br/>
+                        </span>
+                        <span class="tsNicknameHD">
+                            <q id="tsNickname"></q><br/>
+                        </span>
+                        <span class="tsRankHD">
+                            <span id="tsRank"><span class="font-weight-bold">Rank: </span></span><br/>
+                        </span>
+                        <span class="tsFactionHD">
+                            <span id="tsFaction"><span class="font-weight-bold">Faction: </span></span><br/>
+                        </span>
+                        <span class="tsCanonHD">
+                            <span id="tsCanon"><span class="font-weight-bold">Canon: </span></span><br/>
+                        </span>
+                        <span class="tsVehicleHD">
+                            <span class="font-weight-bold">Vehicle Forms </span><br/>
+                            <ul id="tsVehicle"></ul>
+                        </span>
+                    </div>
+                </div>
+            </span>
+
+            <!--Zoid-->
+
+
+            <!--Haro-->
+            <span class="HaroPage">
+                <div class="row align-items-center">
+                    <div class="col offset-md-1 text-center mb-3" id="hpModelPhoto"></div>
+                    <div class="col-md">
+                        <span class="hpShortNameHD">
+                            <span class="font-weight-bold" id="hpShortName"></span><br/>
+                        </span>
+                        <span class="hpKitHD">
+                            <span id="hpKit"><span class="font-weight-bold">Kit: </span></span><br/>
+                        </span>
+                        <span class="hpColorHD">
+                            <span id="hpColor"><span class="font-weight-bold">Color: </span></span><br/>
+                        </span>
+                        <span class="hpEquipmentHD">
+                            <span class="font-weight-bold">Equipment: </span><br/>
+                            <ul id="hpEquipment"></ul>
+                        </span>
+                        <span class="hpSpecialFeaturesHD">
+                            <span class="font-weight-bold">Special Features: </span><br/>
+                            <ul id="hpSpecialFeaturesHD"></ul>
+                        </span>
+                    </div>
+                </div>
+            </span>
+
+            <!--Links-->
+            <div class="row">
+                <div class="col projectAffProjectsHD">
+                    <h4 class="font-weight-bold">Affiliated Projects: </h4>
+                    <ul id="projectAffProjects"></ul>
+                </div>
+                <div class="col-md modelOtherSameModelHD">
+                    <h4 class="font-weight-bold">Other <span id="modelOtherTitle"></span></h4>
+                    <ul id="modelOtherSameModel"></ul>
+                </div>
+                <div class="col-md projectOutsideLinksHD">
+                    <h4 class="font-weight-bold">Outside Links: </h4>
+                    <ul id="projectOutsideLinks"></ul>
+                </div>
+            </div>
+
+            <!--Gallery-->
+            <div class="row mt-3">
+                <div class="col">
+                    <h1 class="font-weight-bold d-inline">Gallery:</h1> (click on images...)
+                </div>
+            </div>
+            <div class="row align-items-center" id="photoGallery">
+
+            </div>
+        </div>
+
+        <!--Footer-->
+        <footer class="site-footer">
+            <div class="container">
+                <div class="row mb-2">
+                    <div class="col text-center">
+                        <a href="../../index.html"><img src="../../img/m_fleur.png"  width="30px" class="img-fluid" /></a>
+                        <a class="btn btn-social-icon btn-instagram" href="https://www.instagram.com/lesaintdumech/" target="_blank"><i class="fa fa-instagram"></i></a>
+                        <a class="btn btn-social-icon btn-twitter" href="https://twitter.com/LeSaintDuMech" target="_blank"><i class="fa fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- jQuery, Popper.js, Bootstrap JavaScript plugins.-->
+        <script src="../../node_modules/jquery/dist/jquery.slim.min.js"></script>
+        <script src="../../node_modules/popper.js/dist/umd/popper.min.js"></script>
+        <script src="../../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    </body>
+</html>

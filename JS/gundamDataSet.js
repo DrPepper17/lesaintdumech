@@ -874,7 +874,8 @@ const models = [
         false,
         'Double O',
         false,
-        ['img/models/doubleo.jpeg','00 Gundam']
+        ['img/models/doubleo.jpeg','00 Gundam'],
+        true
     ],
     [23,1,'Dagger L',
         'GAT-02L2 Dagger L',
@@ -1531,6 +1532,44 @@ const models = [
         false,
         ['img/models/aquarius.jpeg','Gundam Aquarius'],
         true
+    ],
+    [41,1,'Gundam X',
+        'GX-9900 Gundam X',
+        'GX-9900',
+        'After War Gundam X',
+        false,
+        false,
+        ['GX-9901-DX Gundam Double X'],
+        'After War',
+        [1,'0001 A.W.',15],
+        'Garrod Ran',
+        ['Jamil Neate','Kai','Rick Aller','Mana'],
+        'New United Nations Earth',
+        ['New United Nations Earth','Vulture'],
+        [17.1,'17.1 Meters'],
+        [7.5,'7.5 Metric Tons'],
+        'Luna Titanium (Gundarium Alloy)',
+        'Rechargeable Energy Conductors',
+        [
+            'Satellite Cannon',
+            'Large Beam Sword',
+            'Shoulder Vulcan',
+            'Breast Vulcan (x4)'
+        ],
+        [
+            'Shield Buster Rifle'
+        ],
+        [
+            'Satellite System',
+            'Reflector Unit',
+            'Flash System'
+        ],
+        'Kunio Okawara',
+        false,
+        'GX',
+        false,
+        ['img/models/gundamx.jpeg','Gundam X'],
+        true
     ]
 ];
 
@@ -2132,7 +2171,28 @@ const projects = [
             ['NewType','https://newtype.us/p/4stOTt5HqaY9M2zZp01L/h/sdgg-045-gundam-leopard']
         ],['Gaebora'],false,true,false
     ],
-    ['Iron Maiden',[1,'X Gundam'],'SD',false,false,false,'X','E','2021-10-07',4.83,false,'Builds/IronMaiden.html',false,'2023-03-20'],
+    ['Iron Maiden',[1,'X Gundam'],'SD',
+        false,false,false,'X','E','2021-10-07',4.83,false,'Builds/Gundams/IronMaiden.html',false,'2023-03-20',models[41],
+        [
+            ['../../img/projects/gundams/ironmaiden/ironmaiden01.jpeg','Iron Maiden','img1'],
+            ['../../img/projects/gundams/ironmaiden/ironmaiden02.jpeg','Iron Maiden','img2'],
+            ['../../img/projects/gundams/ironmaiden/ironmaiden03.jpeg','Iron Maiden','img3'],
+            ['../../img/projects/gundams/ironmaiden/ironmaiden04.jpeg','Iron Maiden','img4'],
+            ['../../img/projects/gundams/ironmaiden/ironmaiden05.jpeg','Iron Maiden','img5'],
+            ['../../img/projects/gundams/ironmaiden/ironmaiden06.jpeg','Iron Maiden','img6'],
+            ['../../img/projects/gundams/ironmaiden/ironmaiden07.jpeg','Iron Maiden','img7'],
+            ['../../img/projects/gundams/ironmaiden/ironmaiden08.jpeg','Iron Maiden','img8'],
+            ['../../img/projects/gundams/ironmaiden/ironmaiden09.jpeg','Iron Maiden','img9'],
+            ['../../img/projects/gundams/ironmaiden/ironmaiden10.jpeg','Iron Maiden','img10'],
+            ['../../img/projects/gundams/ironmaiden/ironmaiden11.jpeg','Iron Maiden','img11']
+        ],
+        ['img/projects/gundams/ironmaiden/ironmaiden11.jpeg'],
+        'Theme was all different shades of metal paints. Iron, Copper, Brass, Silver, Chrome, Gold. I think there were more but I forget.','Madan, Nebraska',
+        [
+            ['USA Gundam Store','https://www.usagundamstore.com/products/gg-29-gundam-x'],
+            ['NewType','https://newtype.us/p/4uMTmwWtNpAim7uaDwZx/h/sdgg-029-gundam-x']
+        ],false,false,true,false
+    ],
 
     //Anno Domini (00)
     ['Umlaut \xD6\xD6',
