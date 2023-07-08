@@ -1853,7 +1853,7 @@ const projects = [
     ['Epyon [RG]',[1,'Epyon'],'RG',true,false,false,'Wing','A'],
     ['Golden Ghidorah',[1,'Epyon'],'MG',false,false,false,'Wing','B'],
     ['Golden Ghidorah',[1,'Epyon'],'RG',false,false,false,'Wing','A'],
-    ['PB Geminass 01 [HG]',[1.5,'Geminass 01','Geminass Assault Mobility Booster Expansion Pack'],'HG',
+    ['Geminass 01',[1.5,'Geminass 01','Geminass Assault Mobility Booster Expansion Pack'],'HG',
         true,true,false,'Wing','E','2022-12-07',6.5,false,'Builds/PBandai/PBGeminassHG.html',false,'2023-04-27',models[44],
         [
             ['../../img/projects/PBandai/pbgeminasskit/pbgem01.jpeg','PB Geminass','img1'],
@@ -2164,7 +2164,7 @@ const projects = [
         false,false,false,'Wing','E','2021-07-06',60.48,true,'Builds/WildWing.html',[''],'2022-02-14'
     ],
     ['Wing Gundam [RG]',[1,'Wing Gundam'],'RG',true,false,false,'Wing','E','2021-07',12.59,false,false,false,'2022-02-07'],
-    ['PB Clear Wing Zero [RG]',
+    ['Wing Zero Clear',
         [1,'Wing Zero'],'RG',true,true,false,'Wing','E','2021-11-10',6.15,false,'Builds/PBandai/PBZeroRG.html',false,'2022-04-19',models[32],
         [
             ['../../img/projects/PBandai/clearwingzero/pbclearzero01.jpeg','PB Zero','img1'],
@@ -2440,7 +2440,7 @@ const projects = [
             ['NewType','https://newtype.us/p/8q0W5dRIDplgZOwCuz3T/h/sdbb-364-00-qan-t']
         ],false,true,true,false
     ],
-    ['PB Trans-Am Clear 00 QAN[T] [RG]',
+    ['00 QAN[T] Trans-Am Clear',
         [1,'00 Gundam QAN[T]'],'RG',true,true,false,'00','E','2022-01-09',8.33,false,'Builds/PBandai/PBOOQRG.html',false,'2022-07-28',models[21],
         [
             ['../../img/projects/PBandai/pbqantclear/pbqantclear01.jpeg','PB 00QANT','img1'],
@@ -5088,6 +5088,10 @@ function buildProjectPage(string) {
     popNode(projectArray[0],'jumboNode');
     popNode(projectArray[0],'breadcrumbNode');
 
+    if (projectArray[4]) {
+        popNode('PB ','projectTitle');
+        popNode('PB ','projectTitleMb');
+    }
     if (modelArray[1] === 1 && modelArray[27]) {
         popNode('Gundam ','projectTitle');
         popNode('Gundam ','projectTitleMb');
