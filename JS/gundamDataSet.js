@@ -1775,6 +1775,48 @@ const models = [
         false,
         ['img/models/barbatos.jpeg','Gundam Barbatos'],
         true
+    ],
+    [47,1,'Tallgeese',
+        'OZ-00MS Tallgeese',
+        'OZ-00MS',
+        'Mobile Suit Gundam Wing',
+        false,
+        false,
+        [
+            'XXXG-00W0 Wing Gundam Proto-Zero',
+            'OZ-06MS Leo',
+            'OZ-07AMS Aries',
+            'OZ-00MSVa Tallgeese Valkyrie',
+            'OZ-00MS Tallgeese Flugel',
+            'OZ-00MS2 Tallgeese II',
+            'OZ-13MS Gundam Epyon'
+        ],
+        'After Colony',
+        [175,'175 A.C.',195],
+        'Zechs Merquise',
+        ['Otto'],
+        'Organization of the Zodiac',
+        ['United Earth Sphere Alliance','Organization of the Zodiac','Sanc Kingdom','Peacemillion'],
+        [17.4,'17.4 Meters'],
+        [8.8,'8.8 Metric Tons'],
+        'Titanium Alloy',
+        'Ultracompact Fusion Reactor',
+        false,
+        [
+            'Dober Gun',
+            'Shield',
+            'Beam Saber (x2)',
+            'Booster Unit'
+        ],
+        [
+            'Self-Destruct System'
+        ],
+        'Hajime Katoki',
+        false,
+        false,
+        false,
+        ['img/models/tallgeesei.jpeg','Tallgeese I'],
+        false
     ]
 ];
 
@@ -2240,9 +2282,38 @@ const projects = [
         ],false,true,true,false
     ],
     ['Proto-Zero [SD]',[1,'Proto-Zero'],'SD',true,false,false,'Wing','E','2021-12-14',1.67,false,false,false,'2023-05-01'],
-    ['Napoleon',[2,'Tallgeese','Ceramic Horse'],'MG',false,false,false,'Wing','B'],
-    ['St Dominic',[1,'Tallgeese'],'RG',false,false,false,'Wing','E','2021-12-10',19,false,'Builds/StDominic.html',[''],'2022-06-08'],
-    ['PB Fl\u00FCgel Sparkel',[1,'Tallgeese Fl\u00FCgel'],'MG',false,true,false,'Wing','B'],
+    ['Napoleon',[2,'Tallgeese','Ceramic Horse'],'MG',
+        false,false,false,'Wing','B',false,0,false,'Builds/Gundams/Napoleon.html',false,false,models[47]
+    ],
+    ['St Dominic',[1,'Tallgeese'],'RG',
+        false,false,false,'Wing','E','2021-12-10',19,false,'Builds/Gundams/StDominic.html',false,'2022-06-08',models[47],
+        [
+            ['../../img/projects/gundams/stdominic/stdom01.jpeg','St Dominic','img1'],
+            ['../../img/projects/gundams/stdominic/stdom02.jpeg','St Dominic','img2'],
+            ['../../img/projects/gundams/stdominic/stdom03.jpeg','St Dominic','img3'],
+            ['../../img/projects/gundams/stdominic/stdom04.jpeg','St Dominic','img4'],
+            ['../../img/projects/gundams/stdominic/stdom05.jpeg','St Dominic','img5'],
+            ['../../img/projects/gundams/stdominic/stdom06.jpeg','St Dominic','img6'],
+            ['../../img/projects/gundams/stdominic/stdom07.jpeg','St Dominic','img7'],
+            ['../../img/projects/gundams/stdominic/stdom08.jpeg','St Dominic','img8'],
+            ['../../img/projects/gundams/stdominic/stdom09.jpeg','St Dominic','img9'],
+            ['../../img/projects/gundams/stdominic/stdom10.jpeg','St Dominic','img10'],
+            ['../../img/projects/gundams/stdominic/stdom11.jpeg','St Dominic','img11'],
+            ['../../img/projects/gundams/stdominic/stdom12.jpeg','St Dominic','img12'],
+            ['../../img/projects/gundams/stdominic/stdom13.jpeg','St Dominic','img13'],
+            ['../../img/projects/gundams/stdominic/stdom14.jpeg','St Dominic','img14'],
+            ['../../img/projects/gundams/stdominic/stdom15.jpeg','St Dominic','img15']
+        ],
+        ['img/projects/gundams/stdominic/stdom12.jpeg','Profile Photo: St Dominic'],
+        'Inspired by the flag of the Dominican Republic, I figured the Tallgeese\'s body is modular enough I could easily partition it into four quadrants to make the DR flag. This was a test run for an undisclosed future project that I have in the works. But in the meantime, I present to you, Saint Dominic.',false,
+        [
+            ['USA Gundam Store','https://www.usagundamstore.com/products/rg-1-144-28-tallgeese-ew'],
+            ['NewType','https://newtype.us/p/dD7AVRarBNfcX5yhevcx/h/rg-28-tallgeese-ew']
+        ],false,false,true,'1:144'
+    ],
+    ['PB Fl\u00FCgel Sparkel',[1,'Tallgeese Fl\u00FCgel'],'MG',
+        false,true,false,'Wing','B'
+    ],
     ['PB Tallgeese Fl\u00FCgel [MG]',
         [1,'Tallgeese Fl\u00FCgel'],'MG',true,true,false,'Wing','D','2022-05-08',20.17,false,'Builds/PBTallgeeseFlugelMG.html',false
     ],
@@ -3185,7 +3256,7 @@ const projects = [
             ['../../img/projects/gundams/warpig/warpig10.jpeg','War Pig','img10'],
             ['../../img/projects/gundams/warpig/warpig11.jpeg','War Pig','img11']
         ],
-        ['img/projects/gundams/warpig/warpig01.jpeg'],false,false,
+        ['img/projects/gundams/warpig/warpig01.jpeg','Profile Photo: War Pig'],false,false,
         [
             ['Video','https://www.instagram.com/reel/CrMBT1IONut/?igshid=YzcxN2Q2NzY0OA=='],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pre-order-sd-gundam-ex-standard-010-gundam-barbatos'],
