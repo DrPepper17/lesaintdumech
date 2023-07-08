@@ -1570,6 +1570,125 @@ const models = [
         false,
         ['img/models/gundamx.jpeg','Gundam X'],
         true
+    ],
+    [42,1,'Delta Plus',
+        'MSN-001A1 Delta Plus',
+        'SerialNMSN-001A1umber',
+        'Mobile Suit Gundam Unicorn',
+        false,
+        ['MSN-001 Delta Gundam'],
+        false,
+        'Universal Century',
+        [90,'0090 U.C.',97],
+        'Riddhe Marcenas',
+        ['Piko Altidore'],
+        'Anaheim Electronics',
+        ['Earth Federation Forces','Londo Bell'],
+        [19.6,'19.6 Meters'],
+        [27.2,'27.2 Metric Tons'],
+        'Luna Titanium (Gundarium Alloy)',
+        'Minovsky Ultracompact Fusion Reactor',
+        [
+            '60mm Vulcan Gun (x2)'
+        ],
+        [
+            'Long Mega Buster',
+            'Shield (w/ 2-Barrel Grenade Launcher, Beam Cannon)'
+        ],
+        [
+            'Bio-Sensor'
+        ],
+        'Hajime Katoki',
+        false,
+        'AlternateNickname',
+        false,
+        ['img/models/deltaplus.jpeg','MSN-001A1 Delta Plus'],
+        false
+    ],
+    [43,1,'\u2200 Gundam',
+        'System-\u220099 \u2200 Gundam',
+        'System-\u220099',
+        'Turn A Gundam',
+        false,
+        ['Concept-X 6-1-2 Turn X'],
+        false,
+        'Correct Century',
+        [1,'0001 C.C.',2345],
+        'Loran Cehack',
+        ['Sochie Heim','Teteh Halleh','Merrybell Gadget','Joseph Yaht'],
+        'Unknown Previous Human Civilizatino',
+        ['Inglessa Militia'],
+        [20,'2o Meters'],
+        [28.6,'28.6 Metric Tons'],
+        'FE Type',
+        'Discontinuous Hyperoscillation Gauge Collapsing Pile',
+        [
+            'Abdomen Beam Cannon (x2)',
+            'Chest Multi-Purpose Silo (x6)'
+        ],
+        [
+            'Beam Saber (x2)',
+            'Beam Rifle',
+            'Shield',
+            'Gundam Hammer',
+            'Minchi Drill'
+        ],
+        [
+            'Core Block System',
+            'Moonlight Butterfly',
+            'Spine Pulse Sensor',
+            'VR Helmet',
+            'I-Field Barrier',
+            'Nanomachine Regeration System',
+            'I-Field Beam Drive System',
+            'Teleportation'
+        ],
+        'Syd Mead',
+        false,
+        'Turn-A, White Doll, Mustache',
+        false,
+        ['img/models/turna.jpeg','Turn A Gundam'],
+        true
+    ],
+    [44,1,'Gundam Geminass 01',
+        'OZX-GU01A Gundam Geminass 01',
+        'OZX-GU01A',
+        'SeriNew Mobile Report Gundam Wing Dual Story: G-Unites',
+        false,
+        false,
+        ['OZX-GU01LOB Gundam L.O. Booster'],
+        'After Colony',
+        [195,'195 A.C.',195],
+        'Odin Bernett',
+        false,
+        'MO-V',
+        ['MO-V'],
+        [17.3,'17.3 Meters'],
+        [7.9,'7.9 Metric Tons'],
+        'Gundanium Alloy, Luna Ceramic, Fine Kevlar',
+        'Ultracompact Fusion Reactor',
+        false,
+        [
+            'Beam Sword (x2)',
+            'Accelerated Rifle',
+            'G-UNIT Shield',
+            'Optional Equipment: High Mobility Unit',
+            'Optional Equipment: Assault Unit',
+            'Optional Equipment: Space Unit'
+        ],
+        [
+            'Laser COmmunication System',
+            'A.I.-Equipped Fire Control System',
+            '3D Mosotronics',
+            'Mass Reaction Search System',
+            'PX System'
+        ],
+        'Koichi Tokita',
+        false,
+        false,
+        false,
+        ['img/models/geminass01.jpeg','Gundam Geminass 01'],
+        true
     ]
 ];
 
@@ -1659,8 +1778,8 @@ const projects = [
 
     //After Colony (Wing)
     ['Leo Army',[6,'Leo'],'LEO',false,false,false,'Wing','C','2021-10-03',37.42,false,'Builds/LeoArmy.html',['Tested every paint']],
-    ['South Park',
-        [6,'Tallgeese','Epyon','Heavy Arms','Shenlong','Deathscythe','Sandrock'],'SD',false,false,false,'Wing','E','2021-06-05',54.42,true,'Builds/uniqueTemplates/SouthPark.html',false,'2021-06-21',models[6],
+    ['South Park',[6,'Tallgeese','Epyon','Heavy Arms','Shenlong','Deathscythe','Sandrock'],'SD',
+        false,false,false,'Wing','E','2021-06-05',54.42,true,'Builds/uniqueTemplates/SouthPark.html',false,'2021-06-21',models[6],
         [
             ['../../img/projects/gundams/southpark/sparkStan.jpeg','South Park: Stan','img1'],
             ['../../img/projects/gundams/southpark/sparkKyle.jpeg','South Park: Kyle','img2'],
@@ -1722,7 +1841,7 @@ const projects = [
             ['../../img/projects/gundams/gemini/gemini18.jpeg','Gemini Twins','img18'],
             ['../../img/projects/gundams/gemini/gemini19.jpeg','Gemini Twins','img19']
         ],
-        ['img/projects/gundams/gemini/gemini10.jpeg'],
+        ['img/projects/gundams/gemini/gemini10.jpeg','Profile Photo: Gemini'],
         'This was a cool new discovery. I had never seen the Gundam Aquarius before. It\'s from the Gundam Wing universe but was not featured in the Wing anime. So when I first saw the Aquarius kit I was intrigued. The traditional Aquarius is blue but further down the rabbit hole I got I discovered cool fan art versions of it rendered red. Which is what led to the insipration behind this project. I decided to paint twin Aquarius unit one of each color, the traditional blue and the fan red.',false,
         [
             ['USA Gundam Store','https://www.usagundamstore.com/products/gg-50-gundam-aquarius'],
@@ -1734,8 +1853,80 @@ const projects = [
     ['Epyon [RG]',[1,'Epyon'],'RG',true,false,false,'Wing','A'],
     ['Golden Ghidorah',[1,'Epyon'],'MG',false,false,false,'Wing','B'],
     ['Golden Ghidorah',[1,'Epyon'],'RG',false,false,false,'Wing','A'],
-    ['PB Geminass 01 [HG]',[1.5,'Geminass 01','Geminass Assault Mobility Booster Expansion Pack'],'HG',true,true,false,'Wing','E','2022-12-07',6.5,false,'Builds/PBGeminassHG.html',false,'2023-04-27'],
-    ['Major Tom',[1,'Geminass 01'],'SD',false,false,false,'Wing','E','2021-12-12',5.15,false,'Builds/MajorTom.html',[''],'2023-04-10'],
+    ['PB Geminass 01 [HG]',[1.5,'Geminass 01','Geminass Assault Mobility Booster Expansion Pack'],'HG',
+        true,true,false,'Wing','E','2022-12-07',6.5,false,'Builds/PBandai/PBGeminassHG.html',false,'2023-04-27',models[44],
+        [
+            ['../../img/projects/PBandai/pbgeminasskit/pbgem01.jpeg','PB Geminass','img1'],
+            ['../../img/projects/PBandai/pbgeminasskit/pbgem02.jpeg','PB Geminass','img2'],
+            ['../../img/projects/PBandai/pbgeminasskit/pbgem03.jpeg','PB Geminass','img3'],
+            ['../../img/projects/PBandai/pbgeminasskit/pbgem04.jpeg','PB Geminass','img4'],
+            ['../../img/projects/PBandai/pbgeminasskit/pbgem05.jpeg','PB Geminass','img5'],
+            ['../../img/projects/PBandai/pbgeminasskit/pbgem06.jpeg','PB Geminass','img6'],
+            ['../../img/projects/PBandai/pbgeminasskit/pbgem07.jpeg','PB Geminass','img7'],
+            ['../../img/projects/PBandai/pbgeminasskit/pbgem08.jpeg','PB Geminass','img8'],
+            ['../../img/projects/PBandai/pbgeminasskit/pbgem09.jpeg','PB Geminass','img9'],
+            ['../../img/projects/PBandai/pbgeminasskit/pbgem10.jpeg','PB Geminass','img10'],
+            ['../../img/projects/PBandai/pbgeminasskit/pbgem11.jpeg','PB Geminass','img11'],
+            ['../../img/projects/PBandai/pbgeminasskit/pbgem12.jpeg','PB Geminass','img12'],
+            ['../../img/projects/PBandai/pbgeminasskit/pbgem13.jpeg','PB Geminass','img13'],
+            ['../../img/projects/PBandai/pbgeminasskit/pbgem14.jpeg','PB Geminass','img14'],
+            ['../../img/projects/PBandai/pbgeminasskit/pbgem15.jpeg','PB Geminass','img15'],
+            ['../../img/projects/PBandai/pbgeminasskit/pbgem16.jpeg','PB Geminass','img16'],
+            ['../../img/projects/PBandai/pbgeminasskit/pbgem17.jpeg','PB Geminass','img17'],
+            ['../../img/projects/PBandai/pbgeminasskit/pbgem18.jpeg','PB Geminass','img18'],
+            ['../../img/projects/PBandai/pbgeminasskit/pbgem19.jpeg','PB Geminass','img19'],
+            ['../../img/projects/PBandai/pbgeminasskit/pbgem20.jpeg','PB Geminass','img20'],
+            ['../../img/projects/PBandai/pbgeminasskit/pbgem21.jpeg','PB Geminass','img21'],
+            ['../../img/projects/PBandai/pbgeminasskit/pbgem22.jpeg','PB Geminass','img22'],
+            ['../../img/projects/PBandai/pbgeminasskit/pbgem23.jpeg','PB Geminass','img23'],
+            ['../../img/projects/PBandai/pbgeminasskit/pbgem24.jpeg','PB Geminass','img24'],
+            ['../../img/projects/PBandai/pbgeminasskit/pbgem25.jpeg','PB Geminass','img25'],
+            ['../../img/projects/PBandai/pbgeminasskit/pbgem26.jpeg','PB Geminass','img26'],
+            ['../../img/projects/PBandai/pbgeminasskit/pbgem27.jpeg','PB Geminass','img27'],
+            ['../../img/projects/PBandai/pbgeminasskit/pbgem28.jpeg','PB Geminass','img28'],
+            ['../../img/projects/PBandai/pbgeminasskit/pbgem29.jpeg','PB Geminass','img29'],
+            ['../../img/projects/PBandai/pbgeminasskit/pbgem30.jpeg','PB Geminass','img30'],
+            ['../../img/projects/PBandai/pbgeminasskit/pbgem31.jpeg','PB Geminass','img31'],
+            ['../../img/projects/PBandai/pbgeminasskit/pbgem32.jpeg','PB Geminass','img32'],
+            ['../../img/projects/PBandai/pbgeminasskit/pbgem33.jpeg','PB Geminass','img33'],
+            ['../../img/projects/PBandai/pbgeminasskit/pbgem34.jpeg','PB Geminass','img34'],
+            ['../../img/projects/PBandai/pbgeminasskit/pbgem35.jpeg','PB Geminass','img35'],
+            ['../../img/projects/PBandai/pbgeminasskit/pbgem36.jpeg','PB Geminass','img36'],
+            ['../../img/projects/PBandai/pbgeminasskit/pbgem37.jpeg','PB Geminass','img37'],
+            ['../../img/projects/PBandai/pbgeminasskit/pbgem38.jpeg','PB Geminass','img38'],
+            ['../../img/projects/PBandai/pbgeminasskit/pbgem39.jpeg','PB Geminass','img39'],
+            ['../../img/projects/PBandai/pbgeminasskit/pbgem40.jpeg','PB Geminass','img40']
+        ],
+        ['img/projects/PBandai/pbgeminasskit/pbgem40.jpeg','Profile Photo: PB Geminass 01'],
+        'P-Bandai: HG 1/144 GUNDAM GEMINASS 01 \'n\' HG 1/144 Geminass ASSAULT BOOSTER & HIGH MOBILITY UNIT',false,
+        [
+            ['P-Bandai: Geminass Unit','https://p-bandai.com/us/item/N2505896001004'],
+            ['P-Bandai: Geminass Expansion Set','https://p-bandai.com/us/item/N2515196001003']
+        ],false,false,true,false
+
+    ],
+    ['Major Tom',[1,'Geminass 01'],'SD',
+        false,false,false,'Wing','E','2021-12-12',5.15,false,'Builds/Gundams/MajorTom.html',false,'2023-04-10',models[44],
+        [
+            ['../../img/projects/gundams/majortom/majortom01.jpeg','Major Tom','img1'],
+            ['../../img/projects/gundams/majortom/majortom02.jpeg','Major Tom','img2'],
+            ['../../img/projects/gundams/majortom/majortom03.jpeg','Major Tom','img3'],
+            ['../../img/projects/gundams/majortom/majortom04.jpeg','Major Tom','img4'],
+            ['../../img/projects/gundams/majortom/majortom05.jpeg','Major Tom','img5'],
+            ['../../img/projects/gundams/majortom/majortom06.jpeg','Major Tom','img6'],
+            ['../../img/projects/gundams/majortom/majortom07.jpeg','Major Tom','img7'],
+            ['../../img/projects/gundams/majortom/majortom08.jpeg','Major Tom','img8'],
+            ['../../img/projects/gundams/majortom/majortom09.jpeg','Major Tom','img9'],
+            ['../../img/projects/gundams/majortom/majortom10.jpeg','Major Tom','img10'],
+            ['../../img/projects/gundams/majortom/majortom11.jpeg','Major Tom','img11']
+        ],
+        ['img/projects/gundams/majortom/majortom01.jpeg','Profile Photo: Major Tom'],false,false,
+        [
+            ['Video','https://www.instagram.com/reel/Cq3Ywijx6jM/?igshid=YzcxN2Q2NzY0OA=='],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/gg-33-gundam-geminass'],
+            ['NewType','https://newtype.us/p/Vov92a1PdDqQESssP8wz/h/sdgg-033-gundam-geminass-01']
+        ],false,true,true,false
+    ],
     ['Guerilla Arms',[1,'Heavy Arms'],'MG',
         false,false,false,'Wing','E','2021-04-03',60.07,false,'Builds/Gundams/GuerillaArms.html',false,'2021-05-22',models[1],
         [
@@ -2164,7 +2355,7 @@ const projects = [
             ['../../img/projects/gundams/guapo/guapo10.jpeg','Gundam Guapo','img10'],
             ['../../img/projects/gundams/guapo/guapo11.jpeg','Gundam Guapo','img11']
         ],
-        ['img/projects/gundams/guapo/guapo03.jpeg'],
+        ['img/projects/gundams/guapo/guapo03.jpeg','Profile Photo: Guapo'],
         'Inspired by my best friends new Border Collie puppy, Guapo.','Eric, Iowa',
         [
             ['USA Gundam Store','https://www.usagundamstore.com/products/gg-45-gundam-leopard'],
@@ -2186,7 +2377,7 @@ const projects = [
             ['../../img/projects/gundams/ironmaiden/ironmaiden10.jpeg','Iron Maiden','img10'],
             ['../../img/projects/gundams/ironmaiden/ironmaiden11.jpeg','Iron Maiden','img11']
         ],
-        ['img/projects/gundams/ironmaiden/ironmaiden11.jpeg'],
+        ['img/projects/gundams/ironmaiden/ironmaiden11.jpeg','Profile Photo: Iron Maiden'],
         'Theme was all different shades of metal paints. Iron, Copper, Brass, Silver, Chrome, Gold. I think there were more but I forget.','Madan, Nebraska',
         [
             ['USA Gundam Store','https://www.usagundamstore.com/products/gg-29-gundam-x'],
@@ -2195,8 +2386,8 @@ const projects = [
     ],
 
     //Anno Domini (00)
-    ['Umlaut \xD6\xD6',
-        [1,'00 Gundam'],'SD',false,false,false,'00','E','2021-06-07',10.83,false,'Builds/Gundams/Umlaut.html',false,'2021-06-23',models[22],
+    ['Umlaut \xD6\xD6',[1,'00 Gundam'],'SD',
+        false,false,false,'00','E','2021-06-07',10.83,false,'Builds/Gundams/Umlaut.html',false,'2021-06-23',models[22],
         [
             ['../../img/projects/gundams/umlaut/umlaut01.jpeg','Gundam Umlaut','img1'],
             ['../../img/projects/gundams/umlaut/umlaut02.jpeg','Gundam Umlaut','img2'],
@@ -2217,8 +2408,8 @@ const projects = [
     ['Silver \'n\' Gold',
         [1,'00 Gundam QAN[T]'],'RG',false,false,false,'00','B',false,0,false,'Builds/Gundams/silverngold.html',false,false,models[21]
     ],
-    ['Thunder QAN[T]',
-        [1,'00 Gundam QAN[T]'],'SD',false,false,false,'00','E','2021-06-12',11.68,true,'Builds/Gundams/ThunderQ.html',false,'2021-08-09',models[21],
+    ['Thunder QAN[T]',[1,'00 Gundam QAN[T]'],'SD',
+        false,false,false,'00','E','2021-06-12',11.68,true,'Builds/Gundams/ThunderQ.html',false,'2021-08-09',models[21],
         [
             ['../../img/projects/gundams/thunderqant/thunderq01.jpeg','Gundam Thunder-Q','img1'],
             ['../../img/projects/gundams/thunderqant/thunderq02.jpeg','Gundam Thunder-Q','img2'],
@@ -2272,7 +2463,32 @@ const projects = [
     ['PB Zabanya (Final Battle Version) [HG]',[1,'Zabanya'],'HG',true,true,false,'00','E','2022-03-09',3,false,'Builds/PBZabanyaFinalHG.html',false,'2022-11-07'],
 
     //Correct Century (Turn A)
-    ['John Wayne',[1,'Turn-A'],'SD',false,false,false,'TurnA','E','2021-09-10',6.62,false,'Builds/JohnWayne.html',[''],'2023-02-13'],
+    ['John Wayne',[1,'Turn-A'],'SD',
+        false,false,false,'TurnA','E','2021-09-10',6.62,false,'Builds/Gundams/JohnWayne.html',false,'2023-02-13',models[43],
+        [
+            ['../../img/projects/gundams/johnwayne/johnwayne01.jpeg','John Wayne','img1'],
+            ['../../img/projects/gundams/johnwayne/johnwayne02.jpeg','John Wayne','img2'],
+            ['../../img/projects/gundams/johnwayne/johnwayne03.jpeg','John Wayne','img3'],
+            ['../../img/projects/gundams/johnwayne/johnwayne04.jpeg','John Wayne','img4'],
+            ['../../img/projects/gundams/johnwayne/johnwayne05.jpeg','John Wayne','img5'],
+            ['../../img/projects/gundams/johnwayne/johnwayne06.jpeg','John Wayne','img6'],
+            ['../../img/projects/gundams/johnwayne/johnwayne07.jpeg','John Wayne','img7'],
+            ['../../img/projects/gundams/johnwayne/johnwayne08.jpeg','John Wayne','img8'],
+            ['../../img/projects/gundams/johnwayne/johnwayne09.jpeg','John Wayne','img9'],
+            ['../../img/projects/gundams/johnwayne/johnwayne10.jpeg','John Wayne','img10'],
+            ['../../img/projects/gundams/johnwayne/johnwayne11.jpeg','John Wayne','img11'],
+            ['../../img/projects/gundams/johnwayne/johnwayne12.jpeg','John Wayne','img12'],
+            ['../../img/projects/gundams/johnwayne/johnwayne13.jpeg','John Wayne','img13'],
+            ['../../img/projects/gundams/johnwayne/johnwayne14.jpeg','John Wayne','img14'],
+            ['../../img/projects/gundams/johnwayne/johnwayne15.jpeg','John Wayne','img15']
+        ],
+        ['img/projects/gundams/johnwayne/johnwayne06.jpeg','Profile Photo: John Wayne'],false,false,
+        [
+            ['Video','https://www.instagram.com/reel/CooWAkZs4hO/?igshid=YzcxN2Q2NzY0OA=='],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/gg-40-turn-a-gundam'],
+            ['NewType','https://newtype.us/p/xLxRrK7NiCCOUyI2ZRrj/h/sdgg-040-turn-a-gundam']
+        ],false,true,true,false
+    ],
 
     //Cosmic Century (Seed) 
     ['Fluorescent',[1,'Aegis'],'SD',
@@ -2367,13 +2583,13 @@ const projects = [
         ['../../img/projects/ships/dominion/dominion09.jpeg','Battleship Dominion','img9'],
         ['../../img/projects/ships/dominion/dominion10.jpeg','Battleship Dominion','img10'],
     ],
-    ['img/projects/ships/dominion/dominion05.jpeg'],
+    ['img/projects/ships/dominion/dominion05.jpeg','Profile Photo: Dominion'],
     'I originally was not planning to build this. But my both my Archangels came out so fantastic and the fact the kit had the parts to build the Dominion just kept weighing on my mind that eventually I broke down and surrendered to the temptation and had to buy me a third Archangel kit. Besides, you cannot have the Archangel without staging its final dual with the Dominion. Therefore now preseneting to you, the Dominino.',false,false,['Archangel'],false,true,'1:1700'
     ],
     ['Urban Commando',[1,'Buster'],'MG',false,false,false,'Seed','B'],
     ['Calamitous Godzilla',[1,'Calamity'],'FM',false,false,false,'Seed','B'],
-    ['PB Armageddon',
-        [2.5,'Dagger L','Dagger L','PB Dagger Expansion Pack'],'HG',false,true,false,'Seed','E','2022-03-06',28.5,false,'Builds/uniqueTemplates/Armageddon.html',false,'2022-05-23',models[25],
+    ['PB Armageddon',[2.5,'Dagger L','Dagger L','PB Dagger Expansion Pack'],'HG',
+        false,true,false,'Seed','E','2022-03-06',28.5,false,'Builds/uniqueTemplates/Armageddon.html',false,'2022-05-23',models[25],
         [
             ['../../img/projects/gundams/oberon/oberon12.jpeg','Oberon','img1'],
             ['../../img/projects/PBandai/parmageddon/parmageddon01.jpeg','Project Armageddon','img2'],
@@ -2397,7 +2613,7 @@ const projects = [
             ['../../img/projects/PBandai/parmageddon/parmageddon19.jpeg','Project Armageddon','img20'],
             ['../../img/projects/PBandai/parmageddon/parmageddon20.jpeg','Project Armageddon','img21']
         ],
-        ['img/projects/PBandai/parmageddon/parmageddon17.jpeg'],
+        ['img/projects/PBandai/parmageddon/parmageddon17.jpeg','Profile Photo: Armageddon'],
         'One of the coolest things I love about the SEED universe is the versatility of the mobile suits in how they all can have added equipment packs added on to enhance their features. However very few of these packs have been made as actual add-on model kits to add to the current model kit lineup. So when I saw that P-Bandai was releasing the Dagger L expansion pack I just had to get it and paint it. Included is the Doppelhorn Dual Recoilless Cannon, which is the very long barrel guns mounted on the Dagger\'s shoulders. And also included is the Multi-Launcher pack which is the large square box-like structure that houses the long range nuclear ICBMs stored inside that were used to vaporize the Boaz military asteroid in the final story arc of Gundam SEED. To mount the two units I build two new Dagger Ls which I painted identical my previous project King Leir. Bringing my Dagger count now up to three: King Leir and his two daughters Gonorilla and Regan. Also included is Oberon, acting as their squadron commander.',false,
         [
             ['Premium Bandai','https://p-bandai.com/us/item/N2563436001002']
@@ -2427,7 +2643,7 @@ const projects = [
             ['../../img/projects/gundams/kingleir/kingleir19.jpeg','King Leir','img19'],
             ['../../img/projects/gundams/kingleir/kingleir20.jpeg','King Leir','img20']
         ],
-        ['img/projects/gundams/kingleir/kingleir01.jpeg'],
+        ['img/projects/gundams/kingleir/kingleir01.jpeg','Profile Photo: King Leir'],
         'This was my first attempt at painting a larger model than an SD with the airbrush. I stuck to mostly the traditional desgn but swapped the white portions with steel and aluminum to make it a little more darker. Also brightened the purple and swapped the blue with a steel blue. After it was finsiehd, not gonna lie, I liked my design way better than the original.',false,
         [
             ['USA Gundam Store','https://www.usagundamstore.com/products/hgce-1-144-247-dagger-l'],
@@ -2677,7 +2893,7 @@ const projects = [
             ['../../img/projects/gundams/oldglory/oldglory33.jpeg','Old Glory','img33'],
             ['../../img/projects/gundams/oldglory/oldglory34.jpeg','Old Glory','img34']
         ],
-        ['img/projects/gundams/oldglory/oldglory30.jpeg'],
+        ['img/projects/gundams/oldglory/oldglory30.jpeg','Profile Photo: Old Glory'],
         'So a year ago I did a project where I restyled Freedom Gundam in the ol\' Red, White and Blue. Since then Bandai created the new MGSD model class and its initial release was the Freedom Gundam. Since I painted the MG Freedom as the Red White and Blue. And I painted the SD Freedom model in the Red White and Blue. It only made sense I had to complete the series by doing the same with the new MGSD Freedom. So without further adew, I present to you my latest project, Old Glory.',false,
         [
             ['Video','https://www.instagram.com/reel/CuQYuUxJm_k/?igshid=YzcxN2Q2NzY0OA=='],
@@ -2948,7 +3164,8 @@ const projects = [
             ['../../img/projects/gundams/arrrgent/arrrgent10.jpeg','Arrrgent Gundam','img10'],
             ['../../img/projects/gundams/arrrgent/arrrgent11.jpeg','Arrrgent Gundam','img11'],
         ],
-        ['img/projects/gundams/arrrgent/arrrgent03.jpeg','Profile Photo: Arrrgent Gundam'],'What can I say, arrrrrgh, the boy\'s a pirate.',false,
+        ['img/projects/gundams/arrrgent/arrrgent03.jpeg','Profile Photo: Arrrgent Gundam'],
+        'What can I say, arrrrrgh, the boy\'s a pirate.',false,
         [
             ['USA Gundam Store','https://www.usagundamstore.com/products/pre-order-bandai-sdgcs-2-crossbone-gundan-x1-crossbone-gundam?variant=6977963851812'],
             ['NewType','https://newtype.us/p/YGYIUhgF1SPER7BQkT5D/h/sdcs-02-crossbone-gundam-x1']
@@ -2956,14 +3173,37 @@ const projects = [
     ],
     ['Crossbone [RG]',[1,'Crossbone X-1'],'RG',true,false,false,'UC','D','2022-05-07',9.08,false,false,false],
     ['King Neptune',[1,'Crossbone X-1'],'RG',false,false,false,'UC','B'],
-    ['Jackie-O',[1,'Delta Plus'],'SD',false,false,false,'UC','E','2022-01-07',11.17,false,'Builds/JackieO.html',[''],'2022-07-11'],
+    ['Jackie-O',[1,'Delta Plus'],'SD',
+        false,false,false,'UC','E','2022-01-07',11.17,false,'Builds/Gundams/JackieO.html',false,'2022-07-11',models[42],
+        [
+            ['../../img/projects/gundams/jackieo/airforce01.jpeg','Airforce One','img1'],
+            ['../../img/projects/gundams/jackieo/jackieo01.jpeg','Jackie-O','img2'],
+            ['../../img/projects/gundams/jackieo/jackieo02.jpeg','Jackie-O','img3'],
+            ['../../img/projects/gundams/jackieo/jackieo03.jpeg','Jackie-O','img4'],
+            ['../../img/projects/gundams/jackieo/airforce02.jpeg','Airforce One','img5'],
+            ['../../img/projects/gundams/jackieo/jackieo04.jpeg','Jackie-O','img6'],
+            ['../../img/projects/gundams/jackieo/jackieo05.jpeg','Jackie-O','img7'],
+            ['../../img/projects/gundams/jackieo/jackieo06.jpeg','Jackie-O','img8'],
+            ['../../img/projects/gundams/jackieo/airforce03.jpeg','Airforce One','img9'],
+            ['../../img/projects/gundams/jackieo/jackieo07.jpeg','Jackie-O','img10'],
+            ['../../img/projects/gundams/jackieo/jackieo08.jpeg','Jackie-O','img11'],
+            ['../../img/projects/gundams/jackieo/jackieo09.jpeg','Jackie-O','img12']
+        ],
+        ['img/projects/gundams/jackieo/jackieo03.jpeg','Profile Photo: Jackie-O'],
+        'This was inspired by Airforce One. Which the current design was stylized by American First Lady, Jacqueline Onassis-Kennedy. Therefore presenting, Jackie-O !!!',false,
+        [
+            ['Video','https://www.instagram.com/reel/Cf48aw8lNmK/?igshid=YzcxN2Q2NzY0OA=='],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/bb379-delta-plus'],
+            ['NewType','https://newtype.us/p/FwGjUKw2TJtylxXE2GUp/h/sdbb-379-delta-plus']
+        ],false,true,true,false
+    ],
     ['Interstellar',[1,'Dom Test Type'],'HG',false,false,false,'UC','E','2022-08-06',14.07,false,'Builds/Interstellar.html',[''],'2022-11-14'],
     ['Rhea',[1,'RX-75 Guntank'],'SD',false,false,false,'UC','B'],
     ['Theia',[1,'Kshatriya'],'SD',false,false,false,'UC','D','2022-12-08',12.03,false,'Builds/Theia.html',['']],
     ['Nachtigall',[1,'Nightingale'],'SD',false,false,false,'UC','B'],
     ['Mnemosyne',[1,'Neue Ziuel'],'SD',false,false,false,'UC','B'],
-    ['\u03C0 (pi)',
-        [1,'Nu Gundam'],'SD',false,false,false,'UC','E','2021-06-06',15.66,false,'Builds/Gundams/Pi.html',false,'2021-06-22',models[13],
+    ['\u03C0 (pi)',[1,'Nu Gundam'],'SD',
+        false,false,false,'UC','E','2021-06-06',15.66,false,'Builds/Gundams/Pi.html',false,'2021-06-22',models[13],
         [
             ['../../img/projects/gundams/pi/pi01.jpeg','Pi Gundam','img1'],
             ['../../img/projects/gundams/pi/pi02.jpeg','Pi Gundam','img2'],
@@ -3027,8 +3267,8 @@ const projects = [
         ],['Sovereign','Titan'],true,true,false
     ],
     ['Phenex [SD]',[1,'Phenex'],'SD',true,false,false,'UC','E','2021-10-11',4.17,false,false,false,'2023-03-13'],
-    ['Sovereign',
-        [1,'Phenex'],'SD',false,false,false,'UC','E','2021-11-08',5.93,false,'Builds/Gundams/Sovereign.html',false,'2023-03-15',models[28],
+    ['Sovereign',[1,'Phenex'],'SD',
+        false,false,false,'UC','E','2021-11-08',5.93,false,'Builds/Gundams/Sovereign.html',false,'2023-03-15',models[28],
         [
             ['../../img/projects/gundams/sovereign/sovereign01.jpeg','Gundam Sovereign','img1'],
             ['../../img/projects/gundams/sovereign/sovereign02.jpeg','Gundam Sovereign','img2'],
@@ -3049,8 +3289,8 @@ const projects = [
             ['NewType','https://newtype.us/p/dIWzPbdrfm4LhDH7zl24/h/sdcs-07-unicorn-gundam-03-phenex-gundam-nt']
         ],['Bella Donna','Titan'],true,true,false
     ],
-    ['Titan',
-        [1,'Phenex'],'SD',false,false,false,'UC','E','2021-11-07',6.63,false,'Builds/Gundams/Titan.html',false,'2023-03-14',models[28],
+    ['Titan',[1,'Phenex'],'SD',
+        false,false,false,'UC','E','2021-11-07',6.63,false,'Builds/Gundams/Titan.html',false,'2023-03-14',models[28],
         [
             ['../../img/projects/gundams/titan/titan01.jpeg','Gundam Titan','img1'],
             ['../../img/projects/gundams/titan/titan02.jpeg','Gundam Titan','img2'],
@@ -3137,7 +3377,7 @@ const projects = [
             ['../../img/projects/gundams/constellation/constel14.jpeg','Constellation','img14'],
             ['../../img/projects/gundams/constellation/constel15.jpeg','Constellation','img15']
         ],
-        ['img/projects/gundams/constellation/constel14.jpeg'],
+        ['img/projects/gundams/constellation/constel14.jpeg','Profile Photo: Constellation'],
         'Not much inspiration here. This was my first attempt at building a Real Grade model so I was more focused on doing a project of the RG grade more so than I was on the design.',false,
         [
             ['USA Gundam Store','https://www.usagundamstore.com/products/rg-1-144-23-build-strike-gundam-full-package'],
@@ -3331,8 +3571,8 @@ const projects = [
     ['Haro Orange',[1,'Haropla #11 Zakrello'],'Haro',false,false,false,'','D','2023-04-11',4.08,false,'Builds/horange.html',['']],
     ['Haro Pink',[1,'Haropla #04 Momo Pink'],'Haro',false,false,false,'','D','2023-04-09',2.68,false,'Builds/hpink.html',['']],
     ['Haro Purple',[1,'Haropla #07 Ball Haro'],'Haro',false,false,false,'','D','2023-04-10',2.65,false,'Builds/hpurple.html',['']],
-    ['Haro Red',
-        [1,'Haropla #02 Diva Red'],'Haro',false,false,false,false,'E','2023-04-06',2.78,false,'Builds/Haro/HaroRed.html',['Vallejo Model Air, Metallic: Signal Red 71.070'],'2023-05-30',models[12],
+    ['Haro Red',[1,'Haropla #02 Diva Red'],'Haro',
+        false,false,false,false,'E','2023-04-06',2.78,false,'Builds/Haro/HaroRed.html',['Vallejo Model Air, Metallic: Signal Red 71.070'],'2023-05-30',models[12],
         [
             ['../../img/projects/haro/redharo/redharo01.jpeg','Red Haro','img1'],
             ['../../img/projects/haro/redharo/redharo02.jpeg','Red Haro','img2'],
@@ -3359,9 +3599,8 @@ const projects = [
     ],
     
     //Car
-    ['Hud Air',[1,'Chevy Bel Air, 57'],'Car'
-        ,false,false,false,'Chevy','E','2021-05-06',23.05,true,'Builds/Automobiles/HudAir.html',
-        false,'2021-06-09',models[3],
+    ['Hud Air',[1,'Chevy Bel Air, 57'],'Car',
+        false,false,false,'Chevy','E','2021-05-06',23.05,true,'Builds/Automobiles/HudAir.html',false,'2021-06-09',models[3],
         [
             ['../../img/projects/automobiles/hud_air/hudair01.jpg','Hudson Bel-Air','img1'],
             ['../../img/projects/automobiles/hud_air/hudair02.jpg','Hudson Bel-Air','img2'],
@@ -3412,8 +3651,8 @@ const projects = [
     ['Asterix',[1,'Charmander'],'Pokemon',false,false,false,'','D','2023-03-12',3.85,false,'Builds/asterix.html',['']],
     ['Vercingetorix',[1,'Charizard'],'Pokemon',false,false,false,'','D','2023-03-10',5.99,false,'Builds/vercingetorix.html',['']],
     ['Boudica',[1,'Dragonite'],'Pokemon',false,false,false,'','D','2023-03-11',3.47,false,'Builds/boudica.html',['']],
-    ['Granfrog',
-        [1,'Greninja'],'Pokemon',false,false,false,false,'E','2021-11-11',5.68,false,'Builds/Pokemon/Granfrog.html',false,'2022-08-17',models[11],
+    ['Granfrog',[1,'Greninja'],'Pokemon',
+        false,false,false,false,'E','2021-11-11',5.68,false,'Builds/Pokemon/Granfrog.html',false,'2022-08-17',models[11],
         [
             ['../../img/projects/pokemon/granfrog/granfrog01.jpeg','Granfrog the Greninja','img1'],
             ['../../img/projects/pokemon/granfrog/granfrog02.jpeg','Granfrog the Greninja','img2'],
@@ -3427,7 +3666,7 @@ const projects = [
             ['../../img/projects/pokemon/granfrog/granfrog10.jpeg','Granfrog the Greninja','img10'],
             ['../../img/projects/pokemon/granfrog/granfrog11.jpeg','Granfrog the Greninja','img11']
         ],
-        ['img/projects/pokemon/granfrog/granfrog10.jpeg'],
+        ['img/projects/pokemon/granfrog/granfrog10.jpeg','Profile Photo: Granfrog'],
         'So inspiration for this piece is I was looking for a Christmas present idea for a particularly grandmother of mine who is aboslutely obsessed with frogs. I knew I wanted to make her something from scratch, but the hobby stores don\'t just have generic model kits of plain regular animals lying around that creating her a custom painted model frog was a no go. So after much consideration I realized the closest I could do was a pokemon frog. So anyhow, for the color scheme on this one, I didn\'t want to go with the traditional blue that Greninja is known for, but instead respecting my grandmother\'s love for the animal, wanted to keep it as close to the traditional frog colors as possible. Particularly the tropical rainforest frogs you see from South America with the bright colors on their backs.','Mary, Nebraska',
         [
             ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Greninja_(Pokémon)'],
@@ -3540,7 +3779,7 @@ const projects = [
             ['../../img/projects/ships/libeccio/libeccio09.jpeg','Libeccio Andromeda Class Battleship','img9'],
             ['../../img/projects/ships/libeccio/libeccio10.jpeg','Libeccio Andromeda Class Battleship','img10']
         ],
-        ['img/projects/ships/libeccio/libeccio10.jpeg','Profile Photo: Libbeccio'],
+        ['img/projects/ships/libeccio/libeccio10.jpeg','Profile Photo: Libeccio'],
         'Named after the Mediterranean SouthWest wind, I present to you the Libeccio. I had, had way too much fun building the Eternal, Archangel and Dominion, that I ached to build another ship model again. Granted there are not many other ships in the Gundam lineup to build, and also that Bandai is currently not manufacturing new ones, I had no choice but to branch out and try another franchise. And luckly enough at the time, there were lots of StarBlazers kits floating around in rotation to take advantavge of. I know nothing about the StarBlazer though of course. But the kits were cool enough that they seemed worth giving them a try.',
         false,
         [
