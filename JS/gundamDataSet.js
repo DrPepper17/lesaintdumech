@@ -2015,7 +2015,7 @@ const projects = [
         ],['Guapo'],false,true,false
     ],
     ['Biohazard',[1,'Double X'],'SD',
-        false,false,false,'X','E','2022-08-08',5.83,false,'Builds/Gundams/Biohazard.html',[''],'2022-10-24',models[29],
+        false,false,false,'X','E','2022-08-08',5.83,false,'Builds/Gundams/Biohazard.html',false,'2022-10-24',models[29],
         [
             ['../../img/projects/gundams/biohazard/biohazard01.jpeg','Gundam Biohazard','img1'],
             ['../../img/projects/gundams/biohazard/biohazard02.jpeg','Gundam Biohazard','img2'],
