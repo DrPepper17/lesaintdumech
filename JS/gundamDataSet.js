@@ -1709,7 +1709,7 @@ const models = [
         'Universal Century',
         [87,'July, 0087 U.C.',100],
         'Kamille Bidan',
-        ['Reccoa Londe','Apolly Bay','Judau Ashta','Roux Louka','Fa Yuiry'],
+        ['Reccoa Londe','Apolly Bay','Judau Ashta','Roux Louka'],
         'Anaheim Electronics',
         ['Anti Earth Union Group','Gundam Team'],
         [19.85,'19.85 Meters'],
@@ -1737,6 +1737,43 @@ const models = [
         false,
         false,
         ['img/models/zeta.jpeg','Zeta Gundam'],
+        true
+    ],
+    [46,1,
+        'Gundam Barbatos',
+        'ASW-G-08 Gundam Barbatos',
+        'ASW-G-08',
+        ' Mobile Suit Gundam IRON-BLOODED ORPHANS',
+        false,
+        false,
+        ['ASW-G-08 Gundam Barbatos Lupus','ASW-G-11 Gundam Gusion Rebake'],
+        'Post Disaster',
+        false,
+        'Mikazuki Augus',
+        false,
+        'Gjallarhorn',
+        ['Gjallarhorn','Tekkadan','Teiwaz'],
+        [18.8,'18.8 Meters'],           //Height
+        [30.5,'30.5 Metric Tons'],        //Weight
+        'Nanolaminate Armor, High Hardness Rare Alloy',
+        'Ahab Reactor',
+        [
+            '170mm Autocannon (x2)',
+            'Arm Mortar (x4)'
+        ],
+        [
+            'Large Special Mace',
+            'GR-H019.8m Battle Axe',
+            'Long Range Rifle'
+        ],
+        [
+            'Alaya-Vijnana System'
+        ],
+        'Naohiro Washio',
+        false,
+        false,
+        false,
+        ['img/models/barbatos.jpeg','Gundam Barbatos'],
         true
     ]
 ];
@@ -3133,7 +3170,28 @@ const projects = [
 
     //Post Disaster (IBO)
     ['Thorn',[1,'Barbatos'],'MG',false,false,false,'IBO','B'],
-    ['War Pig',[1,'Barbatos'],'SD',false,false,false,'IBO','E','2021-12-13',4.15,false,'Builds/WarPig.html',[''],'2023-04-18'],
+    ['War Pig',[1,'Barbatos'],'SD',
+        false,false,false,'IBO','E','2021-12-13',4.15,false,'Builds/Gundams/WarPig.html',false,'2023-04-18',models[46],
+        [
+            ['../../img/projects/gundams/warpig/warpig01.jpeg','War Pig','img1'],
+            ['../../img/projects/gundams/warpig/warpig02.jpeg','War Pig','img2'],
+            ['../../img/projects/gundams/warpig/warpig03.jpeg','War Pig','img3'],
+            ['../../img/projects/gundams/warpig/warpig04.jpeg','War Pig','img4'],
+            ['../../img/projects/gundams/warpig/warpig05.jpeg','War Pig','img5'],
+            ['../../img/projects/gundams/warpig/warpig06.jpeg','War Pig','img6'],
+            ['../../img/projects/gundams/warpig/warpig07.jpeg','War Pig','img7'],
+            ['../../img/projects/gundams/warpig/warpig08.jpeg','War Pig','img8'],
+            ['../../img/projects/gundams/warpig/warpig09.jpeg','War Pig','img9'],
+            ['../../img/projects/gundams/warpig/warpig10.jpeg','War Pig','img10'],
+            ['../../img/projects/gundams/warpig/warpig11.jpeg','War Pig','img11']
+        ],
+        ['img/projects/gundams/warpig/warpig01.jpeg'],false,false,
+        [
+            ['Video','https://www.instagram.com/reel/CrMBT1IONut/?igshid=YzcxN2Q2NzY0OA=='],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/pre-order-sd-gundam-ex-standard-010-gundam-barbatos'],
+            ['NewType','https://newtype.us/p/Oaz5ySoNM69IG61UfS7W/h/sdex-standard-10-gundam-barbatos']
+        ],['Deep Purple'],true,true,false
+    ],
     ['Deep Purple',[1,'Barbatos Lupus'],'SD',false,false,false,'IBO','D','2021-12-14',4.36,false,'Builds/DeepPurple.html',['']],
     ['Sealiah',[1,'Barbatos Lupus'],'HG',false,false,false,'IBO','E','2023-02-05',12.51,false,'Builds/Gundams/Sealiah.html',[''],'2023-06-13'],
     ['Nephilim',[1,'Barbatos Lupus Rex'],'HG',false,false,false,'IBO','E','2021-06-11',23.11,false,'Builds/Nephilim.html',[''],'2021-07-26'],
@@ -3385,7 +3443,7 @@ const projects = [
             ['../../img/projects/gundams/starrider/starrider10.jpeg','Starrider','img10'],
             ['../../img/projects/gundams/starrider/starrider11.jpeg','Starrider','img11']
         ],
-        ['img/projects/gundams/starrider/starrider06.jpeg'],
+        ['img/projects/gundams/starrider/starrider06.jpeg','Profile Photo: Starrider'],
         'This design was entirely experimental. But by the end it kept giving me the vibes of a leprechaun.','Carlos,Nebraska',
         [
             ['USA Gundam Store','https://www.usagundamstore.com/products/bb198-msz-006-zeta-gundam'],
