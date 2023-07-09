@@ -1739,11 +1739,10 @@ const models = [
         ['img/models/zeta.jpeg','Zeta Gundam'],
         true
     ],
-    [46,1,
-        'Gundam Barbatos',
+    [46,1,'Gundam Barbatos',
         'ASW-G-08 Gundam Barbatos',
         'ASW-G-08',
-        ' Mobile Suit Gundam IRON-BLOODED ORPHANS',
+        'Mobile Suit Gundam IRON-BLOODED ORPHANS',
         false,
         false,
         ['ASW-G-08 Gundam Barbatos Lupus','ASW-G-11 Gundam Gusion Rebake'],
@@ -1756,7 +1755,7 @@ const models = [
         [18.8,'18.8 Meters'],           //Height
         [30.5,'30.5 Metric Tons'],        //Weight
         'Nanolaminate Armor, High Hardness Rare Alloy',
-        'Ahab Reactor',
+        'Twin Ahab Reactors',
         [
             '170mm Autocannon (x2)',
             'Arm Mortar (x4)'
@@ -1816,6 +1815,119 @@ const models = [
         false,
         false,
         ['img/models/tallgeesei.jpeg','Tallgeese I'],
+        false
+    ],
+    [48,1,'Gundam Barbatos Lupus',
+        'ASW-G-08 Gundam Barbatos Lupus',
+        'ASW-G-08',
+        'Mobile Suit Gundam IRON-BLOODED ORPHANS',
+        false,
+        ['ASW-G-08 Gundam Barbatos'],
+        ['ASW-G-08 Gundam Barbatos Lupus Rex'],
+        'Post Disaster',
+        false,
+        'Mikazuki Augus',
+        false,
+        'Teiwaz',
+        ['Tekkadan','Teiwaz'],
+        [19,'19 Meters'],
+        [31.2,'31.2 Metric Tons'],
+        'Nanolaminate Armor',
+        'Twin Ahab Reactors',
+        [
+            'Arm Rocket Launcher (x2)',
+            '200mm sub-arm Gun (x2)',
+            '20mm sub-arm Machine Gun (x2)'
+        ],
+        [
+            'Sword Mace',
+            'Twin Mace (x2)',
+            'New Long Sword',
+            'Large Railgun',
+            'Valkyrja Buster Sword'
+        ],
+        [
+            'Alaya-Vijnana System'
+        ],
+        'Naohiro Washio',
+        false,
+        false,
+        false,
+        ['img/models/barbatoslupus.jpeg','Barbatos Lupus'],
+        true
+    ],
+    [49,1,'Gundam Barbatos Lupus Rex',
+        'ASW-G-08 Gundam Barbatos Lupus Rex',
+        'ASW-G-08',
+        'Mobile Suit Gundam IRON-BLOODED ORPHANS',
+        false,
+        ['ASW-G-08 Gundam Barbatos Lupus'],
+        false,
+        'Post Disaster',
+        false,
+        'Mikazuki Augus',
+        false,
+        'Teiwaz',
+        ['Tekkadan','Teiwaz'],
+        [19,'19 Meters'],
+        [31.2,'31.2 Metric Tons'],
+        'Nanolaminate Armor',
+        'Twin Ahab Reactors',
+        [
+            'Tail Blade',
+            'Red Nail (x10)',
+            '200mm sub-arm Gun (x2)',
+            'Heel Bunker (x2)'
+        ],
+        [
+            'Ultra Large Mace',
+            'GR-H01 9.8m Battle Axe',
+            'Anti-Ship Lance mace'
+        ],
+        [
+            'Alaya-Vijnana System'
+        ],
+        'Naohiro Washio',
+        false,
+        false,
+        false,
+        ['img/models/barbatoslupusrex.jpeg','Barbatos Lupus Rex'],
+        true
+    ],
+    [50,1,'Hashmal',
+        'Mobile Armor Hashmal',
+        false,
+        'Mobile Suit Gundam IRON-BLOODED ORPHANS',
+        false,
+        false,
+        ['ASW-G-08 Gundam Barbatos Lupus Rex'],
+        'Post Disaster',
+        false,
+        'Self-Autonomous',
+        false,
+        'Manufacturer',
+        ['Affiliations'],
+        [35.2,'35.2 Meters'],           //Height
+        [49.8,'49.8 Metric Tons'],        //Weight
+        'Nanolaminate Armor',
+        'Ahab Reactor',
+        [
+            'Beam Cannon',
+            'Twin Kinetic Energy Shot Launchers',
+            'Wire Blade'
+        ],
+        [
+            'Autonomous Army of Plumas',
+            'Energy Supply System'
+        ],
+        [
+            'Pluma Manufacturing'
+        ],
+        'Naohiro Washio',
+        false,
+        false,
+        true,
+        ['img/models/hashmal.jpeg','Mobile Armor Hashmal'],
         false
     ]
 ];
@@ -3230,7 +3342,7 @@ const projects = [
             ['../../img/projects/gundams/red_baron/rbaron42.jpg','Gundam Red Baron','img42']
         ],
         ['img/projects/gundams/red_baron/rbaron42.jpg','Profile Photo: Gundam Red Baron'],
-        'Old Prussia. Red Baron. World War One. Pizza. Nietzche book titles. Nose ring helmet spike. First attempt at custom decals. Hand Brushed, First attempt with LEDs.',false,
+        'Half inspired by the WWI Imperial Prussian fighter pilot half inspired by the pizza. Half just desperate for a theme to do on my second custom paint job. The Gundam Spiegel according to cannon was the official mobile suit of Neo Germany in the future, so I decided to take it all the way back to the imperial Prussia of the past. Painted it red with white stripes like the famous Red Baron plane. Clipped the spike from a nose ring to make the Pickelhaube for the helmet. And cut brown felt to make his aviator scarf just alike a real pilot. Still hand brushed, I had not come to my senses and realized the need for an air brush yet. Was also my first attempt at using LEDs and first time making custom waterslide decals. It being Deutsch, I also added Nietzschean book titles to each of the blades: Jenseits von Gut und B\u00f6se, Also sprach Zarathustra, Die fr\u00f6hliche Wissenschaft, Der Wille zur Macht.',false,
         [
             ['USA Gundam Store','https://www.usagundamstore.com/products/mg-gf13_021ng-gundam-spiegel?variant=33023432527'],
             ['NewType','https://newtype.us/p/RQuAYgB4XXkOwgZaWLOi/h/mg-gf13-021ng-gundam-spiegel'],
