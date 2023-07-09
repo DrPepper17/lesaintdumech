@@ -3375,11 +3375,60 @@ const projects = [
             ['NewType','https://newtype.us/p/Oaz5ySoNM69IG61UfS7W/h/sdex-standard-10-gundam-barbatos']
         ],['Deep Purple'],true,true,false
     ],
-    ['Deep Purple',[1,'Barbatos Lupus'],'SD',false,false,false,'IBO','D','2021-12-14',4.36,false,'Builds/DeepPurple.html',['']],
-    ['Sealiah',[1,'Barbatos Lupus'],'HG',false,false,false,'IBO','E','2023-02-05',12.51,false,'Builds/Gundams/Sealiah.html',[''],'2023-06-13'],
-    ['Nephilim',[1,'Barbatos Lupus Rex'],'HG',false,false,false,'IBO','E','2021-06-11',23.11,false,'Builds/Nephilim.html',[''],'2021-07-26'],
+    ['Deep Purple',[1,'Barbatos Lupus'],'SD',
+        false,false,false,'IBO','D','2021-12-14',4.36,false,'Builds/Gundams/DeepPurple.html',false,false,models[48],
+        [
+            []
+        ],
+        ['','Profile Photo: Deep Purple'],
+        '',false,
+        [
+            ['Video',''],
+            ['USA Gundam Store',''],
+            ['NewType','']
+        ],['War Pig'],false,false,false
+    ],
+    ['Sealiah',[1,'Barbatos Lupus'],'HG',
+        false,false,false,'IBO','E','2023-02-05',12.51,false,'Builds/Gundams/Sealiah.html',false,'2023-06-13',models[48],
+        [
+            []
+        ],
+        ['','Profile Photo: Sealiah'],
+        '',false,
+        [
+            ['Video',''],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/hg-ibo-1-144-21-gundam-barbatos-lupus'],
+            ['NewType','https://newtype.us/p/E4QQkHGKK23LQ0KcwQ22/h/hgibo-021-gundam-barbatos-lupus']
+        ],['Vine'],false,true,'1:144'
+    ],
+    ['Nephilim',[1,'Barbatos Lupus Rex'],'HG',
+        false,false,false,'IBO','E','2021-06-11',23.11,false,'Builds/Gundams/Nephilim.html',[''],'2021-07-26',models[49],
+        [
+            []
+        ],
+        ['','Profile Photo: Nephilim'],
+        '',false,
+        [
+            ['USA Gundam Store','https://www.usagundamstore.com/products/hg-ibo-1-144-033-gundam-barbatos-lupus-rex'],
+            ['NewType','https://newtype.us/p/Xk6YwEL0UJ62VCfHY1kf/h/hgibo-033-gundam-barbatos-lupus-rex']
+        ],false,false,true,'1:144'
+    ],
     ['Queen Venus',[1,'Gremory'],'HG',false,false,false,'IBO','B'],
-    ['Vine',[1,'Hashmal'],'HG',false,false,false,'IBO','E','2023-01-07',19.64,false,'Builds/Gundams/Vine.html',[''],'2023-06-05'],
+    ['Vine',[1,'Hashmal'],'HG',
+        false,false,false,'IBO','E','2023-01-07',19.64,false,'Builds/Gundams/Vine.html',false,'2023-06-05',models[50],
+        [
+            []
+        ],
+        ['','Profile Photo: Vine'],
+        '',false,
+        [
+            ['Video',''],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/hg-ibo-1-144-29-mobile-armor-hashmal'],
+            ['NewType','https://newtype.us/p/7JEXE8RGCWQpRiBbvSLa/h/hgibo-029-mobile-armor-hashmal'],
+            ['Box Wine','https://turbodork.com/products/box-wine'],
+            ['Scarab','https://turbodork.com/products/scarab']
+        ],['Sealiahs'],false,true,'1:144'
+    ],
     ['\u00dcbermensch',[1,'Vidar'],'FM',false,false,false,'IBO','B'],
 
     //Universal Century
