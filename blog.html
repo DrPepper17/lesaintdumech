@@ -9,13 +9,14 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&display=swap" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caprasimo&display=swap">
         <script src="JS/frenchMetrics.js"></script>
+        <script src="JS/blog.js?v=202307101410"></script>
         <link rel="stylesheet" href="CSS/home.css?v=202307071222"/>
-        <link rel="stylesheet" href="CSS/blog.css?v=202307071222"/>
+        <link rel="stylesheet" href="CSS/blog.css?v=202307101410"/>
 
         <title>&#9884; Le Saint du Mech: Blog &#9884;</title>
     </head>
 
-    <body style="background-size: cover;" onload="convertDateToday()">
+    <body style="background-size: cover;" onload="convertDateToday(); constructBlog()">
             <header class="jumbotron jumbotron-fluid">
                 <div class="container">
                     <div class="row text-right">
@@ -53,19 +54,15 @@
             <div class="container">
                 <div class="row row-content">
                     <div class="col-10 col-lg-8 order-last">
-                        <div class="card">
-                            <h3 class="card-header">Happy Fourth !!!</h3>
-                            <div class="card-body">
+                        <div class="card blogHD1">
+                            <h3 class="card-header" id="title1"> </h3>
+                            <div class="card-body" id="blog1">
                                 <dl class="row">
-                                    <dt class="col text-right">Troisi&egrave;me Juillet 2023</dt>
+                                    <dt class="col text-right" id="date1"> </dt>
                                 </dl>
                                 <dl class="row align-items-center">
-                                    <dt class="col"><p>Just uploaded this week's post, and did so just in time for the July Fourth holiday. In honor of Independence Day and in Honor of freedom for all, this week's unveil is my USA themed MGSD Gundam Freedom, the <a href="Builds/Gundams/oldglory.html">Old Glory</a>.</p>
-                                    <p>So wishing you all a happy Fourth of July and may all the blessings of heaven shine down upon you and your family this year.</p></dt>
-                                    <dt class="col-lg-7 my-2"><img class="img-fluid img-thumbnail" src="img/projects/gundams/oldglory/oldglory14.jpeg" /></dt>
-                                </dl>
-                                <dl class="row"></dl>
-                                    <dt class="col-12">Also, other news. Not counting <u><i>Old Gory</i></u>, since Launch Day last weekend, I've uploaded around over 40 more projects from the backlog to the <a href="builds.html">Builds</a> page. So be sure to check those out. I'm still adding more but doing so is a time straining process and I do have quite the backlog to make my way through that it's going to take a while. So I beg for you patience as I work through this process.</dt>
+                                    <dt class="col"><p id="paraOne1"> </p></dt>
+                                    <dt class="col-lg-5 my-2 imgHD1"><img class="img-fluid img-thumbnail" id="img1"/></dt>
                                 </dl>
                             </div>
                         </div>
@@ -74,23 +71,76 @@
                 </div>
                 <div class="row row-content">
                     <div class="col-10 col-lg-8">
-                        <div class="card">
-                            <h3 class="card-header">Launch Day</h3>
-                            <div class="card-body">
+                        <div class="card blogHD2">
+                            <h3 class="card-header" id="title2"> </h3>
+                            <div class="card-body" id="blog2">
                                 <dl class="row">
-                                    <dt class="col text-right">Vingt-Quatri&egrave;me Juin 2023</dt>
+                                    <dt class="col text-right" id="date2"> </dt>
                                 </dl>
                                 <dl class="row align-items-center">
-                                    <dt class="col">So excited. Today's the launch day for the site. Still a work in progress though with more development yet to come. But I'm still working on it and hope to have the full thing up and running as soon as possible.</dt>
-                                    <dt class="col-lg-7 my-2"><img class="img-fluid img-thumbnail" src="img/blogphotos/jun6launchdayscreenshotMedium.jpeg" /></dt>
-                                </dl>
-                                <dl class="row"></dl>
-                                    <dt class="col-12">So please stick around and be part of the community as we develop and grow. I hope to have all sorts of cool new features on here very soon. I promise to make it worth all your while.</dt>
+                                    <dt class="col"><p id="paraOne2"> </p></dt>
+                                    <dt class="col-lg-5 my-2 imgHD2"><img class="img-fluid img-thumbnail" id="img2"/></dt>
                                 </dl>
                             </div>
                         </div>
                     </div>
                     <div class="col"></div>
+                </div>
+                <div class="row row-content">
+                    <div class="col-10 col-lg-8 order-last">
+                        <div class="card blogHD3">
+                            <h3 class="card-header" id="title3"> </h3>
+                            <div class="card-body" id="blog3">
+                                <dl class="row">
+                                    <dt class="col text-right" id="date3"> </dt>
+                                </dl>
+                                <dl class="row align-items-center">
+                                    <dt class="col"><p id="paraOne3"> </p></dt>
+                                    <dt class="col-lg-5 my-2 imgHD3"><img class="img-fluid img-thumbnail" id="img3"/></dt>
+                                </dl>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col"></div>
+                </div>
+                <div class="row row-content">
+                    <div class="col-10 col-lg-8">
+                        <div class="card blogHD4">
+                            <h3 class="card-header" id="title4"> </h3>
+                            <div class="card-body" id="blog4">
+                                <dl class="row">
+                                    <dt class="col text-right" id="date4"> </dt>
+                                </dl>
+                                <dl class="row align-items-center">
+                                    <dt class="col"><p id="paraOne4"> </p></dt>
+                                    <dt class="col-lg-5 my-2 imgHD4"><img class="img-fluid img-thumbnail" id="img4"/></dt>
+                                </dl>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col"></div>
+                </div>
+                <div class="row row-content">
+                    <div class="col-10 col-lg-8 order-last">
+                        <div class="card blogHD5">
+                            <h3 class="card-header" id="title5"> </h3>
+                            <div class="card-body" id="blog5">
+                                <dl class="row">
+                                    <dt class="col text-right" id="date5"> </dt>
+                                </dl>
+                                <dl class="row align-items-center">
+                                    <dt class="col"><p id="paraOne5"> </p></dt>
+                                    <dt class="col-lg-5 my-2 imgHD5"><img class="img-fluid img-thumbnail" id="img5"/></dt>
+                                </dl>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col"></div>
+                </div>
+                <div class="row mb-4">
+                    <div class="col text-center">
+                        <a href="blogArchive.html"><button type="button" class="btn btn-info" >Blog Archive</button></a>
+                    </div>
                 </div>
             </div>
 

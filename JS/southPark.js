@@ -183,7 +183,7 @@ const models = [
         false,
         false,
         false,
-        ['img/models/southpark.jpg','The South Park Gang'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/southpark.jpg','The South Park Gang'],
     ]
 ];
 
@@ -281,7 +281,7 @@ const projects = [
             ['../../img/projects/gundams/southpark/spark08.jpeg','South Park','img31'],
             ['../../img/projects/gundams/southpark/spark09.jpeg','South Park','img32']
         ],
-        ['img/projects/gundams/southpark/spark01.jpeg','Profile Photo: South Park'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/spark01.jpeg','Profile Photo: South Park'],
         'After finishing the Bel-Air, I realized there was still a lot I had to learn about air brush painting. So before moving on to the larger projects I decided to do something fun on a much more small scale in order to get a little more practice. Looking for a theme I was inspired by the boys of South Park, plus the Operation Meteor lineup.',
         false,
         false,
@@ -332,8 +332,8 @@ function projectPage(string) {
     let modelNameText = document.createTextNode(modelArray[3]);
     modelNameNode.appendChild(modelNameText);
 
-    insertPhoto(modelArray[26],'modelPhoto','../../');
-    insertPhoto(projectArray[16],'profilePhoto','../../');
+    insertPhoto(modelArray[26],'modelPhoto',false);
+    insertPhoto(projectArray[16],'profilePhoto',false);
 
     let projectNameNode = document.getElementById('projectName');
     let projectNameText = document.createTextNode(projectArray[0]);
@@ -658,7 +658,12 @@ function generateModalFrame() {
 function insertPhoto (array,id,dots) {
     let imgNode = document.createElement('img');
     let srcAttribute = document.createAttribute('src');
-    srcAttribute.value = dots+array[0];
+    if (dots) {
+        srcAttribute.value = dots+array[0];
+    }
+    else {
+        srcAttribute.value = array[0];
+    }
     let altAttribute = document.createAttribute('alt');
     altAttribute.value = array[1];
     let imgClassAttribute = document.createAttribute('class');

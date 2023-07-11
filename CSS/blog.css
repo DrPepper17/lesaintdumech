@@ -10,3 +10,6 @@
     background-color: cadetblue;
     color: papayawhip;
 }
+.blogHD1, .blogHD2, .blogHD3, .blogHD4, .blogHD5, .imgHD1, .imgHD2, .imgHD3, .imgHD4, .imgHD5, .templateHD {
+    display: none;
+}

@@ -191,7 +191,7 @@ const models = [
         false,
         false,
         false,
-        ['img/models/heavyarmsew.jpeg','Gundam Heavyarms EW'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/heavyarmsew.jpeg','Gundam Heavyarms EW'],
         true
     ],
     [2,1,'Gundam Spiegel',
@@ -221,7 +221,7 @@ const models = [
         false,
         'Shadow Gundam',
         false,
-        ['img/models/spiegel.jpeg','Spiegel Gundam'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/spiegel_pvRFRZsKNqpmuxQ7DdZaoA.jpeg','Spiegel Gundam'],
         true
     ],
     [3,4,'Chevy Bel-Air',
@@ -248,7 +248,7 @@ const models = [
         false,
         false,
         false,
-        ['img/models/57belair.jpeg']
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/57belair.jpeg','Chevy Bel Air']
     ],
     [4,4,'Volkswagen Beetle',
         'Volkswagen 1968 Beetle',
@@ -274,7 +274,7 @@ const models = [
         false,
         'Slug Bug',
         false,
-        ['img/models/68beetle.jpeg']
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/68beetle.jpeg','68 Volkswagen Beetle']
     ],
     [5,8,'Bumblebee',
         'Warrior of Cybertron',
@@ -304,7 +304,7 @@ const models = [
         false,
         'Bee',
         false,
-        ['img/models/bumblebee.jpeg']
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/bumblebee.jpeg','Bumblebee']
     ],
     [6,0,'South Park',
         'Come on down to South Park and meet some friends of mine',
@@ -330,7 +330,7 @@ const models = [
         false,
         false,
         false,
-        ['img/models/southpark.jpg','The South Park Gang'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/southpark.jpg','The South Park Gang'],
     ],
     [7,2,'Eternal',
         'ZAFT FFMH-Y101 Eternal',
@@ -366,7 +366,7 @@ const models = [
         2,
         false,
         false,
-        ['img/models/eternal.jpeg','Warship Eternal'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/eternal.jpeg','Warship Eternal'],
         'Warship',
         false,
         false,
@@ -396,7 +396,7 @@ const models = [
         false,
         false,
         false,
-        ['img/models/andromedablack.jpeg','Andromeda Black Model'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/andromedablack.jpeg','Andromeda Black Model'],
         'Battleship'
     ],
     [9,5,'City Area',
@@ -423,7 +423,7 @@ const models = [
         false,
         false,
         false,
-        ['img/models/30minutecity.jpeg','30 Minute Mission City Display Kit'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/30minutecity.jpeg','30 Minute Mission City Display Kit'],
         false
     ],
     [10,6,'WarGreymon',
@@ -450,7 +450,7 @@ const models = [
         false,
         false,
         false,
-        ['img/models/wargreymon.jpeg','Wargreymon']
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/wargreymon.jpeg','Wargreymon']
     ],
     [11,7,'Greninja',
         'Pokemon #47 Greninja Model Kit',
@@ -476,7 +476,7 @@ const models = [
         false,
         false,
         false,
-        ['img/models/greninja.jpeg','Greninja']
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/greninja.jpeg','Greninja']
     ],
     [12,10,'Red Haro',
         'HaroPla #02 Haro Diva Red Model Kit',
@@ -502,7 +502,7 @@ const models = [
         false,
         false,
         false,
-        ['img/models/redharo.jpeg','Red Haro']
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/redharo.jpeg','Red Haro']
     ],
     [13,1,'Nu Gundam',
         'RX-93 \u03BD Gundam',
@@ -540,7 +540,7 @@ const models = [
         false,
         'NewType-Use Prototype Gundam',
         false,
-        ['img/models/nugundam.jpeg','Nu Gundam'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/nugundam.jpeg','Nu Gundam'],
         true
     ],
     [14,1,'Freedom Gundam',
@@ -583,7 +583,7 @@ const models = [
         false,
         false,
         false,
-        ['img/models/freedom.jpeg','Freedom Gundam'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/freedom.jpeg','Freedom Gundam'],
         true
     ],
     [15,2,'Archangel',
@@ -611,7 +611,7 @@ const models = [
         false,
         'The Legged Ship',
         false,
-        ['img/models/archangel.jpeg','Assault Battleship Archangel','Assault Battleship Archangel'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/archangel.jpeg','Assault Battleship Archangel'],
         'Battleship',
         ['Izumo Class'],
         false,
@@ -642,7 +642,7 @@ const models = [
         false,
         false,
         false,
-        ['img/models/dominion.jpeg','Assault Battleship Dominion','Assault Battleship Dominion'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/dominion.jpeg','Assault Battleship Dominion'],
         'Battleship',
         ['Izumo Class'],
         false,
@@ -672,7 +672,7 @@ const models = [
         'MSN-001 Delta Gundam',
         false,
         false,
-        ['img/models/sasukedelta.jpeg','SD Sasuke Delta'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/sasukedelta.jpeg','SD Sasuke Delta'],
         true
     ],
     [18,1,'Crossbone Gundam',
@@ -713,7 +713,7 @@ const models = [
         false,
         false,
         false,
-        ['img/models/crossbonex1.jpeg','Crossbone Gundam X-1'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/crossbonex1.jpeg','Crossbone Gundam X-1'],
         true
     ],
     [19,1,'Aegis Gundam',
@@ -751,7 +751,7 @@ const models = [
         false,
         false,
         false,
-        ['img/models/aegis.jpeg','Aegis Gundam'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/aegis.jpeg','Aegis Gundam'],
         true
     ],
     [20,1,'Banshee Norn',
@@ -794,7 +794,7 @@ const models = [
         false,
         false,
         false,
-        ['img/models/bansheenorn.jpeg','Banshee Norn'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/bansheenorn.jpeg','Banshee Norn'],
         true
     ],
     [21,1,'00 Qan[T]',
@@ -836,7 +836,7 @@ const models = [
         false,
         false,
         false,
-        ['img/models/qant.jpeg','Gundam QAN[T]'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/qant.jpeg','Gundam QAN[T]'],
         true
     ],
     [22,1,'00 Gundam',
@@ -874,7 +874,7 @@ const models = [
         false,
         'Double O',
         false,
-        ['img/models/doubleo.jpeg','00 Gundam'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/doubleo.jpeg','00 Gundam'],
         true
     ],
     [23,1,'Dagger L',
@@ -910,7 +910,7 @@ const models = [
         false,
         false,
         false,
-        ['img/models/daggerl.jpeg','Dagger L'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/daggerl.jpeg','Dagger L'],
         false
     ],
     [24,1,'Windam',
@@ -947,7 +947,7 @@ const models = [
         false,
         false,
         false,
-        ['img/models/windam.jpeg','Windam'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/windam.jpeg','Windam'],
         false
     ],
     [25,1,'Doppelhorn Dual Recoilless Cannon and Nuclear Multi-Launcher Pack',
@@ -974,7 +974,7 @@ const models = [
         false,
         false,
         false,
-        ['img/models/daggerexp.jpeg','Dagger DoppleHorn Multi-Launcher Expansion Pack'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/daggerexp.jpeg','Dagger DoppleHorn Multi-Launcher Expansion Pack'],
         false
     ],
     [26,1,'Guel\'s Dilanza',
@@ -1008,7 +1008,7 @@ const models = [
         false,
         false,
         false,
-        ['img/models/gueldilanza.jpeg','Guel\' Dilanza'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/gueldilanza.jpeg','Guel\' Dilanza'],
         false
     ],
     [27,1,'SD Sergeante Verde Buster',
@@ -1035,7 +1035,7 @@ const models = [
         'GAT-X103AP Verde Buster Gundam',
         false,
         false,
-        ['img/models/sergeantverdebuster.jpeg','SD Sergeante Verde Buster'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/sergeantverdebuster.jpeg','SD Sergeante Verde Buster'],
         false
     ],
     [28,1,'Phenex Gundam',
@@ -1070,7 +1070,7 @@ const models = [
         false,
         false,
         false,
-        ['img/models/phenex.jpeg','Phenex Gundam'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/phenex.jpeg','Phenex Gundam'],
         false
     ],
     [29,1,'Gundam Double X',
@@ -1108,7 +1108,7 @@ const models = [
         false,
         false,
         false,
-        ['img/models/doublex.jpeg','Gundam Double X'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/doublex.jpeg','Gundam Double X'],
         true
     ],
     [30,1,'Skygrasper',
@@ -1147,7 +1147,7 @@ const models = [
         false,
         false,
         false,
-        ['img/models/skygrasper.jpeg'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/skygrasper.jpeg','Skygrasper'],
         false,
     ],
     [31,1,'Gundam Proto-Zero',
@@ -1199,7 +1199,7 @@ const models = [
         false,
         'Zero',
         false,
-        ['img/models/protozero.jpeg','Wing Gundam Proto Zero'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/protozero.jpeg','Wing Gundam Proto Zero'],
         true
     ],
     [32,1,'Wing Gundam Zero',
@@ -1243,7 +1243,7 @@ const models = [
         false,
         'Zero',
         false,
-        ['img/models/wingzero.jpeg','Wing Gundam Zero'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/wingzero.jpeg','Wing Gundam Zero'],
         true
     ],
     [33,1,'Destiny Gundam',
@@ -1284,7 +1284,7 @@ const models = [
         false,
         'Alternate/nickname',
         false,
-        ['img/models/destinygundam.jpeg','Destiny Gundam'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/destinygundam.jpeg','Destiny Gundam'],
         true
     ],
     [34,1,'Build Strike Gundam Full Package',
@@ -1320,7 +1320,7 @@ const models = [
         false,
         false,
         false,
-        ['img/models/buildstrikefullpackage.jpeg','Build Strike Full Package'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/buildstrikefullpackage.jpeg','Build Strike Full Package'],
         true
     ],
     [35,1,'Lightning Gundam',
@@ -1354,7 +1354,7 @@ const models = [
         false,
         false,
         false,
-        ['img/models/lightningg.jpeg','Lightning Gundam'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/lightningg.jpeg','Lightning Gundam'],
         true
     ],
     [36,1,'AcGuy',
@@ -1389,7 +1389,7 @@ const models = [
         false,                //boolean
         'Alternate/nickname',
         false,            //boolean
-        ['img/models/acguy.jpeg','Acguy'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/acguy.jpeg','Acguy'],
         false
     ],
     [37,3,'Cosmo Falcon',
@@ -1416,7 +1416,7 @@ const models = [
         false,
         false,
         false,
-        ['img/models/cosmofalcon.jpeg','Andromeda Black Model'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/cosmofalcon.jpeg','Andromeda Black Model'],
         'Type-99 space attack fighter aircraft'
     ],
     [38,1,'Gundam Airmaster',
@@ -1452,7 +1452,7 @@ const models = [
         false,
         false,
         false,
-        ['img/models/airmaster.jpeg','Gundam Airmaster'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/airmaster.jpeg','Gundam Airmaster'],
         true
     ],
     [39,1,'Gundam Leopard',
@@ -1495,7 +1495,7 @@ const models = [
         false,
         false,
         false,
-        ['img/models/leopard.jpeg','Gundam Leopard'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/leopard.jpeg','Gundam Leopard'],
         true
     ],
     [40,1,'Gundam Aquarius',
@@ -1530,7 +1530,7 @@ const models = [
         false,
         false,
         false,
-        ['img/models/aquarius.jpeg','Gundam Aquarius'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/aquarius.jpeg','Gundam Aquarius'],
         true
     ],
     [41,1,'Gundam X',
@@ -1568,7 +1568,7 @@ const models = [
         false,
         'GX',
         false,
-        ['img/models/gundamx.jpeg','Gundam X'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/gundamx.jpeg','Gundam X'],
         true
     ],
     [42,1,'Delta Plus',
@@ -1602,7 +1602,7 @@ const models = [
         false,
         'AlternateNickname',
         false,
-        ['img/models/deltaplus.jpeg','MSN-001A1 Delta Plus'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/deltaplus.jpeg','MSN-001A1 Delta Plus'],
         false
     ],
     [43,1,'\u2200 Gundam',
@@ -1647,7 +1647,7 @@ const models = [
         false,
         'Turn-A, White Doll, Mustache',
         false,
-        ['img/models/turna.jpeg','Turn A Gundam'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/turna.jpeg','Turn A Gundam'],
         true
     ],
     [44,1,'Gundam Geminass 01',
@@ -1687,7 +1687,7 @@ const models = [
         false,
         false,
         false,
-        ['img/models/geminass01.jpeg','Gundam Geminass 01'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/geminass01.jpeg','Gundam Geminass 01'],
         true
     ],
     [45,1,'Zeta Gundam',
@@ -1736,7 +1736,7 @@ const models = [
         false,
         false,
         false,
-        ['img/models/zeta.jpeg','Zeta Gundam'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/zeta.jpeg','Zeta Gundam'],
         true
     ],
     [46,1,'Gundam Barbatos',
@@ -1772,7 +1772,7 @@ const models = [
         false,
         false,
         false,
-        ['img/models/barbatos.jpeg','Gundam Barbatos'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/barbatos.jpeg','Gundam Barbatos'],
         true
     ],
     [47,1,'Tallgeese',
@@ -1814,7 +1814,7 @@ const models = [
         false,
         false,
         false,
-        ['img/models/tallgeesei.jpeg','Tallgeese I'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/tallgeesei.jpeg','Tallgeese I'],
         false
     ],
     [48,1,'Gundam Barbatos Lupus',
@@ -1853,7 +1853,7 @@ const models = [
         false,
         false,
         false,
-        ['img/models/barbatoslupus.jpeg','Barbatos Lupus'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/barbatoslupus.jpeg','Barbatos Lupus'],
         true
     ],
     [49,1,'Gundam Barbatos Lupus Rex',
@@ -1891,7 +1891,7 @@ const models = [
         false,
         false,
         false,
-        ['img/models/barbatoslupusrex.jpeg','Barbatos Lupus Rex'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/barbatoslupusrex.jpeg','Barbatos Lupus Rex'],
         true
     ],
     [50,1,'Hashmal',
@@ -1927,8 +1927,50 @@ const models = [
         false,
         false,
         true,
-        ['img/models/hashmal.jpeg','Mobile Armor Hashmal'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/hashmal.jpeg','Mobile Armor Hashmal'],
         false
+    ],
+    [51,1,'Strike Noir',
+        'GAT-X105E Strike Noir Gundam',
+        'GAT-X105E',
+        'Mobile Suit Gundam SEED C.E. 73: STARGAZER',
+        false,
+        [
+            'GAT-X105E Strike E',
+            'GAT-X105+AQM/E-M1 Strike Gundam IWSP'
+        ],
+        false,
+        'Cosmic Era',
+        [73,'73 C.E.',74],
+        'Sven Cal Bayang',
+        false,
+        'Actaeon Inudstries',
+        ['OMNI Enforcer','Phantom Pain'],
+        [17.72,'17.72 Meters'],
+        [90.51,'90.51 Metric Tons'],
+        false,
+        'Ultracompact Energy Battery',
+        [
+            'M2M5 "Todesschrecken" 12.5mm Automatic CIWS (x2)',
+            'EQS1358 Rocket Anchor (x6)'
+        ],
+        [
+            'M8F-SB1 Beam Rifle Shorty (x2)',
+            'MR-Q10 "Fragarach 3" Beam Blade (x2)',
+            'MAU-M3E4 Twin Linear Gun (x2)',
+            '57mm High-Energy Beam Rifle w/ 175mm Grenade Launcher (x2)'
+        ],
+        [
+            'Variable Phase Shift armor',
+            'Striker Pack System',
+            'Power Extender'
+        ],
+        false,
+        false,
+        false,
+        false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/strikenoir.jpeg','Stike Noir'],
+        true
     ]
 ];
 
@@ -1980,7 +2022,7 @@ const models = [
 const projects = [
     //Ad Stella (Mercury)
     ['Aerial (?)',[1,'Aerial'],'FM',false,false,false,'Mercury','A'],
-    ['Aerial [HG]',[1,'Aerial'],'HG',true,false,false,'Mercury','D','2023-05-30-09',2.75,false,false,false],
+    ['Aerial [HG]',[1,'Aerial'],'HG',true,false,false,'Mercury','D','2023-05-30',2.75,false,false,false],
     ['PB Aerial Permet Six [HG]',[1,'Aerial'],'HG',true,true,false,'Mercury','A'],
     ['Ariel',[1.5,'Aerial','Mirasoul Flight Pack'],'HG',false,false,false,'Mercury','B'],
     ['Cherub',[1,'Aerial'],'SD',false,false,false,'Mercury','D','2023-01-03-10',4.91,false,'Builds/Cherub.html',false],
@@ -2000,7 +2042,7 @@ const projects = [
             ['../../img/projects/gundams/azrael/azrael10.jpeg','Azrael','img10'],
             ['../../img/projects/gundams/azrael/azrael02.jpeg','Azrael','img11']
         ],
-        ['img/projects/gundams/azrael/azrael04.jpeg','Profile Photo: Azrael'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/azrael03.jpeg','Profile Photo: Azrael'],
         'Named after the Hebrew Angel of Death. I wanted to keep the color scheme of this one as close as I could to the original. Just made it more shiny by using Turbo Dork. This was my first build of a Witch from Mercury model, and it was pretty cool. Not to mention their model quality at Bandai has really improved a lot on these Mercury model kits.',false,
         [
             ['Video','https://www.instagram.com/reel/CpMT1gEs1no/'],
@@ -2054,7 +2096,7 @@ const projects = [
             ['../../img/projects/gundams/southpark/spark08.jpeg','South Park','img31'],
             ['../../img/projects/gundams/southpark/spark09.jpeg','South Park','img32']
         ],
-        ['img/projects/gundams/southpark/spark01.jpeg','Profile Photo: South Park'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/spark01.jpeg','Profile Photo: South Park'],
         'After finishing the Bel-Air, I realized there was still a lot I had to learn about air brush painting. So before moving on to the larger projects I decided to do something fun on a much more small scale in order to get a little more practice. Looking for a theme I was inspired by the boys of South Park, plus the Operation Meteor lineup.',
         false,false,false,false,true,false
     ],
@@ -2081,7 +2123,7 @@ const projects = [
             ['../../img/projects/gundams/gemini/gemini18.jpeg','Gemini Twins','img18'],
             ['../../img/projects/gundams/gemini/gemini19.jpeg','Gemini Twins','img19']
         ],
-        ['img/projects/gundams/gemini/gemini10.jpeg','Profile Photo: Gemini'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/gemini10.jpeg','Profile Photo: Gemini'],
         'This was a cool new discovery. I had never seen the Gundam Aquarius before. It\'s from the Gundam Wing universe but was not featured in the Wing anime. So when I first saw the Aquarius kit I was intrigued. The traditional Aquarius is blue but further down the rabbit hole I got I discovered cool fan art versions of it rendered red. Which is what led to the insipration behind this project. I decided to paint twin Aquarius unit one of each color, the traditional blue and the fan red.',false,
         [
             ['USA Gundam Store','https://www.usagundamstore.com/products/gg-50-gundam-aquarius'],
@@ -2137,7 +2179,7 @@ const projects = [
             ['../../img/projects/PBandai/pbgeminasskit/pbgem39.jpeg','PB Geminass','img39'],
             ['../../img/projects/PBandai/pbgeminasskit/pbgem40.jpeg','PB Geminass','img40']
         ],
-        ['img/projects/PBandai/pbgeminasskit/pbgem40.jpeg','Profile Photo: PB Geminass 01'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/pbgem40.jpeg','Profile Photo: PB Geminass 01'],
         'P-Bandai: HG 1/144 GUNDAM GEMINASS 01 \'n\' HG 1/144 Geminass ASSAULT BOOSTER & HIGH MOBILITY UNIT',false,
         [
             ['P-Bandai: Geminass Unit','https://p-bandai.com/us/item/N2505896001004'],
@@ -2160,7 +2202,7 @@ const projects = [
             ['../../img/projects/gundams/majortom/majortom10.jpeg','Major Tom','img10'],
             ['../../img/projects/gundams/majortom/majortom11.jpeg','Major Tom','img11']
         ],
-        ['img/projects/gundams/majortom/majortom01.jpeg','Profile Photo: Major Tom'],false,false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/majortom01.jpeg','Profile Photo: Major Tom'],false,false,
         [
             ['Video','https://www.instagram.com/reel/Cq3Ywijx6jM/?igshid=YzcxN2Q2NzY0OA=='],
             ['USA Gundam Store','https://www.usagundamstore.com/products/gg-33-gundam-geminass'],
@@ -2203,7 +2245,7 @@ const projects = [
             ['../../img/projects/gundams/guerilla_arms/gahamg18.JPG','Gundam Guerilla Arms','img18'],
             ['../../img/projects/gundams/guerilla_arms/gahamg32.JPG','Gundam Guerilla Arms','img32']
         ],
-        ['img/projects/gundams/guerilla_arms/gahamg32.JPG','Profile Photo: Gundam Guerilla Arms'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/gahamg32.JPG','Profile Photo: Gundam Guerilla Arms'],
         'Camouflage. Commando. Jungle Warfare. Entirely hand brushed. First attempt at custom painting. Entirely Testors paints. Huge learning experience.',false,
         [
             ['USA Gundam Store','https://www.usagundamstore.com/products/mg-1-100-gundam-heavyarms-ew-ver'],
@@ -2236,7 +2278,7 @@ const projects = [
             ['../../img/projects/gundams/isaac/isaac19.jpeg','Gundam Isaac','img19'],
             ['../../img/projects/gundams/isaac/isaac20.jpeg','Gundam Isaac','img20']
         ],
-        ['img/projects/gundams/isaac/isaac10.jpeg','Profile Photo: Isaac'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/isaac10.jpeg','Profile Photo: Isaac'],
         'Practice build for the King David build.',false,
         [
             ['Video','https://www.instagram.com/reel/CsE6K7bNZv5/?igshid=YzcxN2Q2NzY0OA=='],
@@ -2268,7 +2310,7 @@ const projects = [
             ['../../img/projects/gundams/jericho/jericho19.jpeg','Gundam Jericho','img19'],
             ['../../img/projects/gundams/jericho/jericho20.jpeg','Gundam Jericho','img20']
         ],
-        ['img/projects/gundams/jericho/jericho20.jpeg','Profile Photo: Jericho'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/jericho20.jpeg','Profile Photo: Jericho'],
         'I had been building the Zero in both SD and MG. So decided I wanted to build it in HG too. For this the color scheme was simple. I based the palette on fire.',false,
         [
             ['Video','https://www.instagram.com/reel/Csnfsy4xdt_/?igshid=YzcxN2Q2NzY0OA=='],
@@ -2344,7 +2386,7 @@ const projects = [
             ['../../img/projects/gundams/kingdavid/kingdavid63.jpeg','King David','img63'],
             ['../../img/projects/gundams/kingdavid/kingdavid64.jpeg','King David','img64']
         ],
-        ['img/projects/gundams/kingdavid/kingdavid50.jpeg','Profile Photo: King David'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/kingdavid50.jpeg','Profile Photo: King David'],
         'To honor the recent Israeli Independence Day, built this to celebrate the long history and survival of the eternal Kingdom of Israel. Presenting, King David',false,
         [
             ['Video','https://www.instagram.com/reel/CsR33QhtEkN/?igshid=YzcxN2Q2NzY0OA=='],
@@ -2385,7 +2427,7 @@ const projects = [
             ['../../img/projects/gundams/metalzero/metalzero28.jpeg','Metal Proto-Zero','img28'],
             ['../../img/projects/gundams/metalzero/metalzero29.jpeg','Metal Proto-Zero','img29']
         ],
-        ['img/projects/gundams/metalzero/metalzero18.jpeg','Profile Photo: Metal Zero'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/metalzero18.jpeg','Profile Photo: Metal Zero'],
         'Before getting started on the King David project, I wanted to build the Zero but in its traditional colors. So painted this with all Testors shiny metallic paints. Presenting the Metal-Zero',false,
         [
             ['Video','https://www.instagram.com/reel/Cr1SFhjPliv/?igshid=YzcxN2Q2NzY0OA=='],
@@ -2416,7 +2458,7 @@ const projects = [
             ['../../img/projects/gundams/stdominic/stdom14.jpeg','St Dominic','img14'],
             ['../../img/projects/gundams/stdominic/stdom15.jpeg','St Dominic','img15']
         ],
-        ['img/projects/gundams/stdominic/stdom12.jpeg','Profile Photo: St Dominic'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/stdom12.jpeg','Profile Photo: St Dominic'],
         'Inspired by the flag of the Dominican Republic, I figured the Tallgeese\'s body is modular enough I could easily partition it into four quadrants to make the DR flag. This was a test run for an undisclosed future project that I have in the works. But in the meantime, I present to you, Saint Dominic.',false,
         [
             ['USA Gundam Store','https://www.usagundamstore.com/products/rg-1-144-28-tallgeese-ew'],
@@ -2443,7 +2485,7 @@ const projects = [
             ['../../img/projects/PBandai/clearwingzero/pbclearzero05.jpeg','PB Zero','img5'],
             ['../../img/projects/PBandai/clearwingzero/pbclearzero06.jpeg','PB Zero','img6']
         ],
-        ['img/projects/PBandai/clearwingzero/pbclearzero04.jpeg','Profile Photo: P-Bandai Clear Wing Zero'],false,false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/pbclearzero04.jpeg','Profile Photo: P-Bandai Clear Wing Zero'],false,false,
         [
             ['Premium Bandai','https://p-bandai.com/us/item/N2390162001002']
         ],false,false,true,'1:144'
@@ -2472,7 +2514,7 @@ const projects = [
             ['../../img/projects/gundams/golddustwoman/golddust13.jpeg','Gold Dust Woman','img13'],
             ['../../img/projects/gundams/golddustwoman/golddust14.jpeg','Gold Dust Woman','img14']
         ],
-        ['img/projects/gundams/golddustwoman/golddust10.jpeg','Profile Photo: Gold Dust Woman'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/golddust14.jpeg','Profile Photo: Gold Dust Woman'],
         'Theme was traditional Zero in the traditional colors. But with Turbo Dork to make it shiny.','Susie, Iowa',
         [
             ['USA Gundam Store','https://www.usagundamstore.com/products/13-wing-gundam-zero-ew-gundam-wing-endless-waltz-bandai-spirits-sdcs?variant=11912262615076'],
@@ -2506,7 +2548,7 @@ const projects = [
             ['../../img/projects/gundams/gaebora/gaebora08.jpeg','Gaebora','img9'],
             ['../../img/projects/gundams/gaebora/gaebora09.jpeg','Gaebora','img10']
         ],
-        ['img/projects/gundams/gaebora/gaebora09.jpeg','Profile Photo: Gaebora'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/gaebora06.jpeg','Profile Photo: Gaebora'],
         'Primarily inspired by the owl from Legend of Zelda. Therefore primarily different shades of brown color palette to resemble an owl\'s plumage.','Leslie, Iowa',
         [
             ['USA Gundam Store','https://www.usagundamstore.com/products/gg-46-gundam-airmaster'],
@@ -2527,7 +2569,7 @@ const projects = [
             ['../../img/projects/gundams/biohazard/biohazard09.jpeg','Gundam Biohazard','img9'],
             ['../../img/projects/gundams/biohazard/biohazard10.jpeg','Gundam Biohazard','img10']
         ],
-        ['img/projects/gundams/biohazard/biohazard08.jpeg','Profile Photo: Gundam Biohazard'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/biohazard08.jpeg','Profile Photo: Gundam Biohazard'],
         'Practice build before painting the larger project Corona Virus',false,
         [
             ['Video','https://www.instagram.com/reel/CkHdoz0ttUg/?igshid=YzcxN2Q2NzY0OA=='],
@@ -2548,7 +2590,7 @@ const projects = [
             ['../../img/projects/gundams/charliedaniels/charliedaniels08.jpeg','Gundam Charlie Daniels','img8'],
             ['../../img/projects/gundams/charliedaniels/charliedaniels09.jpeg','Gundam Charlie Daniels','img9'],
         ],
-        ['img/projects/gundams/charliedaniels/charliedaniels07.jpeg','Profile Photo: Charlie Daniels'],false,'Tyler, Nebraska',
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/charliedaniels09.jpeg','Profile Photo: Charlie Daniels'],false,'Tyler, Nebraska',
         [
             ['USA Gundam Store','https://www.usagundamstore.com/products/gg-44-gundam-double-x?variant=32323103522852'],
             ['NewType','https://newtype.us/p/Tj4bsQyOIopaVxWIEoty/h/sdgg-044-gundam-double-x']
@@ -2599,7 +2641,7 @@ const projects = [
             ['../../img/projects/gundams/corona/covid37.jpeg','Covid Gundam','img40'],
             ['../../img/projects/gundams/corona/covid38.jpeg','Covid Gundam','img41']
         ],
-        ['img/projects/gundams/corona/covid36.jpeg','Profile Photo: Covid Gundam'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/covid36.jpeg','Profile Photo: Covid Gundam'],
         'The idea for this came up during the midst of the world wide covid-19 outbreak and lockdown. Figured since we\'re all locked down cause of it, might as well paint it. Only problem was, since it is a microscopic entity invisible to the naked eye, what exactly then does it look like in order to paint it? So I went through lots of photos online of people posting pictures of it from under the microscope. But even then that was a problem since even those photos are paritally an artistic rendering of what the machine imagines it to look like. Especially the colors. All color photos are human-picked colors chosen to represent how we imagine it to look blown up, rather than the actual color-profile of the virus. Which again left me with the problem of okay what colors should I even use. Anyhow, most the photos I noticed used bright neon colors to represent the thing, I\'m guessing so as to make it look more menacing. So I decided to go with fluorescent paints to try to reproduce that. On top of that I added some biohazard symbol decals and gemstone stickers to represent the 3D protrusions of the actual virus. Bit let down by this Gundam, don\'t think I really nailed the source material that well, but it is what it is.',false,
         [
             ['Video','https://www.instagram.com/reel/CkZnasMvN0U/?igshid=YzcxN2Q2NzY0OA=='],
@@ -2624,7 +2666,7 @@ const projects = [
             ['../../img/projects/gundams/guapo/guapo10.jpeg','Gundam Guapo','img10'],
             ['../../img/projects/gundams/guapo/guapo11.jpeg','Gundam Guapo','img11']
         ],
-        ['img/projects/gundams/guapo/guapo03.jpeg','Profile Photo: Guapo'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/guapo07.jpeg','Profile Photo: Guapo'],
         'Inspired by my best friends new Border Collie puppy, Guapo.','Eric, Iowa',
         [
             ['USA Gundam Store','https://www.usagundamstore.com/products/gg-45-gundam-leopard'],
@@ -2646,7 +2688,7 @@ const projects = [
             ['../../img/projects/gundams/ironmaiden/ironmaiden10.jpeg','Iron Maiden','img10'],
             ['../../img/projects/gundams/ironmaiden/ironmaiden11.jpeg','Iron Maiden','img11']
         ],
-        ['img/projects/gundams/ironmaiden/ironmaiden11.jpeg','Profile Photo: Iron Maiden'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/ironmaiden11.jpeg','Profile Photo: Iron Maiden'],
         'Theme was all different shades of metal paints. Iron, Copper, Brass, Silver, Chrome, Gold. I think there were more but I forget.','Madan, Nebraska',
         [
             ['USA Gundam Store','https://www.usagundamstore.com/products/gg-29-gundam-x'],
@@ -2665,7 +2707,7 @@ const projects = [
             ['../../img/projects/gundams/umlaut/umlaut05.jpeg','Gundam Umlaut','img5'],
             ['../../img/projects/gundams/umlaut/umlaut06.jpeg','Gundam Umlaut','img6']
         ],
-        ['img/projects/gundams/umlaut/umlaut03.jpeg','Profile Photo: Gundam Umlaut'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/umlaut03.jpeg','Profile Photo: Gundam Umlaut'],
         'This model was strictly experimental as I was trying to get practice in on the airbrush. Since the name of the original gundam is the OO, Double O, I was being silly and figured why not add to dots on top of that and make it an umlaut.','Luke, Nebraska',
         [
             ['USA Gundam Store','https://www.usagundamstore.com/products/sd-ex-standard-008-00-gundam-model-kit?variant=14706730692'],
@@ -2702,7 +2744,7 @@ const projects = [
             ['../../img/projects/gundams/thunderqant/thunderq20.jpeg','Gundam Thunder-Q','img20'],
             ['../../img/projects/gundams/thunderqant/thunderq21.jpeg','Gundam Thunder-Q','img21']
         ],
-        ['img/projects/gundams/thunderqant/thunderq17.jpeg','Profile Photo: Thunder-QAN[T]'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/thunderq17.jpeg','Profile Photo: Thunder-QAN[T]'],
         'Gundam QANT is one of my favorites in the whole franchise. So much more futuristic that the prior installments of the Gundam universe. And the clear parts on this model were just begging for LEDs.',false,
         [
             ['USA Gundam Store','https://www.usagundamstore.com/products/bb364-gundam00-qant?variant=7146675077156'],
@@ -2720,13 +2762,14 @@ const projects = [
             ['../../img/projects/PBandai/pbqantclear/pbqantclear06.jpeg','PB 00QANT','img6'],
             ['../../img/projects/PBandai/pbqantclear/pbqantclear07.jpeg','PB 00QANT','img7']
         ],
-        ['img/projects/PBandai/pbqantclear/pbqantclear05.jpeg','Profile Photo: PB Clear QAN[T]'],false,false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/pbqantclear05.jpeg','Profile Photo: PB Clear QAN[T]'],false,false,
         [
             ['Premium Bandai','https://p-bandai.com/us/item/N2519709001001'],
         ],false,false,true,false
     ],
     ['Nena',[1,'Exia'],'SD',false,false,false,'00','D','2021-12-07',4.95,false,'Builds/Nena.html',['']],
     ['PB Trans-Am Clear Exia [RG]',[1,'Exia'],'RG',true,true,false,'00','E','2021-12-08',6.58,false,'Builds/PBExiaRG.html',false,'2022-05-31'],
+    ['F-23',[1,'Flag'],'HG',false,false,false,'00','B'],
     ['PB Harute (Final Battle Version) [HG]',[1,'Harute'],'HG',true,true,false,'00','E','2022-03-08',5.75,false,'Builds/PBHaruteFinalHG.html',false,'2022-11-21'],
     ['Virtue/Nadlee [MG]',[3,'Virtue','Nadlee','VirtueStand'],'MG',true,false,false,'00','E','2022-02',20.08,true,'Builds/VirtueNadleeStand.html',false,'2023-01-16'],
     ['PB Zabanya (Final Battle Version) [HG]',[1,'Zabanya'],'HG',true,true,false,'00','E','2022-03-09',3,false,'Builds/PBZabanyaFinalHG.html',false,'2022-11-07'],
@@ -2751,7 +2794,7 @@ const projects = [
             ['../../img/projects/gundams/johnwayne/johnwayne14.jpeg','John Wayne','img14'],
             ['../../img/projects/gundams/johnwayne/johnwayne15.jpeg','John Wayne','img15']
         ],
-        ['img/projects/gundams/johnwayne/johnwayne06.jpeg','Profile Photo: John Wayne'],false,false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/johnwayne01.jpeg','Profile Photo: John Wayne'],false,false,
         [
             ['Video','https://www.instagram.com/reel/CooWAkZs4hO/?igshid=YzcxN2Q2NzY0OA=='],
             ['USA Gundam Store','https://www.usagundamstore.com/products/gg-40-turn-a-gundam'],
@@ -2773,7 +2816,7 @@ const projects = [
             ['../../img/projects/gundams/fluor/fluor08.jpeg','Fluorescent Gundam','img8'],
             ['../../img/projects/gundams/fluor/fluor09.jpeg','Fluorescent Gundam','img9']
         ],
-        ['img/projects/gundams/fluor/fluor06.jpeg','Profile Photo: Fluorescent Gundam'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/fluor05.jpeg','Profile Photo: Fluorescent Gundam'],
         'No particalur theme or inspiration here. This kit was used exclusively as a blank canvas to test out different shades of fluorescent paints on. Long story short I\'ve yet to have any luck on fluorescent colors. At least this model came together well though.',
         'Ankita, Wisconsin',
         [
@@ -2835,7 +2878,7 @@ const projects = [
             ['../../img/projects/ships/archangel/archangel45.jpeg','Battleship Archangel','img44'],
             ['../../img/projects/ships/archangel/archangel46.jpeg','Battleship Archangel','img45']
         ],
-        ['img/projects/ships/archangel/archangel21.jpeg','Profile Photo: Archangel'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/archangel21.jpeg','Profile Photo: Archangel'],
         'Had a lot of fun building the Eternal that I just had to build another ship model. Archangel has always been a huge favorite of mine in the Gundam series so it just seemed natural to build that next, as well as a must. The kit has two modes, weapons and launch catapults extended and withdrawn. I did not want to risk damaging the model by tinkering around with chaning it in between modes so I wound up resorting to building two models of the Archangel, one in each mode. There is also a third option in the kit to swap the parts around to build the Dominion but I skipped that for a future build. But anyhow both my Archangels came out looking great. I\'m so proud of this buidl.',false,false,['Eternal','Dominion'],false,true,'1:1700'
     ],
     ['Dominion',[1,'Archangel'],'Ship',
@@ -2852,12 +2895,14 @@ const projects = [
         ['../../img/projects/ships/dominion/dominion09.jpeg','Battleship Dominion','img9'],
         ['../../img/projects/ships/dominion/dominion10.jpeg','Battleship Dominion','img10'],
     ],
-    ['img/projects/ships/dominion/dominion05.jpeg','Profile Photo: Dominion'],
+    ['https://hosting.photobucket.com/images/i/lesaintdumech/dominion05.jpeg','Profile Photo: Dominion'],
     'I originally was not planning to build this. But my both my Archangels came out so fantastic and the fact the kit had the parts to build the Dominion just kept weighing on my mind that eventually I broke down and surrendered to the temptation and had to buy me a third Archangel kit. Besides, you cannot have the Archangel without staging its final dual with the Dominion. Therefore now preseneting to you, the Dominino.',false,false,['Archangel'],false,true,'1:1700'
     ],
+    ['Canis Beta',[1,'BuCUE'],'HG',false,false,false,'Seed','A'],
+    ['Canis Gamma',[1,'BuCUE'],'HG',false,false,false,'Seed','A'],
     ['Urban Commando',[1,'Buster'],'MG',false,false,false,'Seed','B'],
     ['Calamitous Godzilla',[1,'Calamity'],'FM',false,false,false,'Seed','B'],
-    ['PB Armageddon',[2.5,'Dagger L','Dagger L','PB Dagger Expansion Pack'],'HG',
+    ['Armageddon',[2.5,'Dagger L','Dagger L','PB Dagger Expansion Pack'],'HG',
         false,true,false,'Seed','E','2022-03-06',28.5,false,'Builds/uniqueTemplates/Armageddon.html',false,'2022-05-23',models[25],
         [
             ['../../img/projects/gundams/oberon/oberon12.jpeg','Oberon','img1'],
@@ -2882,7 +2927,7 @@ const projects = [
             ['../../img/projects/PBandai/parmageddon/parmageddon19.jpeg','Project Armageddon','img20'],
             ['../../img/projects/PBandai/parmageddon/parmageddon20.jpeg','Project Armageddon','img21']
         ],
-        ['img/projects/PBandai/parmageddon/parmageddon17.jpeg','Profile Photo: Armageddon'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/parmageddon17.jpeg','Profile Photo: Armageddon'],
         'One of the coolest things I love about the SEED universe is the versatility of the mobile suits in how they all can have added equipment packs added on to enhance their features. However very few of these packs have been made as actual add-on model kits to add to the current model kit lineup. So when I saw that P-Bandai was releasing the Dagger L expansion pack I just had to get it and paint it. Included is the Doppelhorn Dual Recoilless Cannon, which is the very long barrel guns mounted on the Dagger\'s shoulders. And also included is the Multi-Launcher pack which is the large square box-like structure that houses the long range nuclear ICBMs stored inside that were used to vaporize the Boaz military asteroid in the final story arc of Gundam SEED. To mount the two units I build two new Dagger Ls which I painted identical my previous project King Leir. Bringing my Dagger count now up to three: King Leir and his two daughters Gonorilla and Regan. Also included is Oberon, acting as their squadron commander.',false,
         [
             ['Premium Bandai','https://p-bandai.com/us/item/N2563436001002']
@@ -2912,15 +2957,15 @@ const projects = [
             ['../../img/projects/gundams/kingleir/kingleir19.jpeg','King Leir','img19'],
             ['../../img/projects/gundams/kingleir/kingleir20.jpeg','King Leir','img20']
         ],
-        ['img/projects/gundams/kingleir/kingleir01.jpeg','Profile Photo: King Leir'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/kingleir01.jpeg','Profile Photo: King Leir'],
         'This was my first attempt at painting a larger model than an SD with the airbrush. I stuck to mostly the traditional desgn but swapped the white portions with steel and aluminum to make it a little more darker. Also brightened the purple and swapped the blue with a steel blue. After it was finsiehd, not gonna lie, I liked my design way better than the original.',false,
         [
             ['USA Gundam Store','https://www.usagundamstore.com/products/hgce-1-144-247-dagger-l'],
             ['NewType','https://newtype.us/p/V3s94PjelBrA0T06Q673/h/hgce-237-gat-o2l2-dagger-l']
-        ],['PB Armageddon','Samus: Varia Suit','Malphas'],false,true,'1:144'
+        ],['Armageddon','Samus: Varia Suit','Malphas'],false,true,'1:144'
     ],
     ['Samus: Varia Suit',[1,'Dagger L'],'HG',
-        false,false,false,'Seed','C','2023-06-13',3.58,false,'Builds/Gundams/VariaSuit.html',['Tamiya: Gold TS-21 Can','Testors: Sunflower 1191','Tamiya: Matt Black TS-6 Can','Vallejo Game Color: Fluorescent Green 72.104','Tamiya: Gun Metal TS-38 Can'],false,models[23],
+        false,false,false,'Seed','C','2023-06-13',5.5,false,'Builds/Gundams/VariaSuit.html',['Tamiya: Gold TS-21 Can','Testors: Sunflower 1191','Tamiya: Matt Black TS-6 Can','Vallejo Game Color: Fluorescent Green 72.104','Tamiya: Gun Metal TS-38 Can'],false,models[23],
         [
             []
         ],
@@ -2929,7 +2974,7 @@ const projects = [
         [
             ['USA Gundam Store','https://www.usagundamstore.com/products/hgce-1-144-247-dagger-l'],
             ['NewType','https://newtype.us/p/V3s94PjelBrA0T06Q673/h/hgce-237-gat-o2l2-dagger-l']
-        ],['PB Armageddon','King Leir','PB Strike Daggers'],false,false,'1:144'
+        ],['Armageddon','King Leir','PB Strike Daggers'],false,false,'1:144'
         
     ],
     ['Charizard',[1,'Destiny'],'MG',false,false,false,'Seed','B'],
@@ -2945,7 +2990,7 @@ const projects = [
             ['../../img/projects/gundams/charizardx/charx06.jpeg','Charizard X','img7'],
             ['../../img/projects/gundams/charizardx/charx07.jpeg','Charizard X','img8']
         ],
-        ['img/projects/gundams/charizardx/charx01.jpeg','Profile Photo: Charizard X'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/charx01.jpeg','Profile Photo: Charizard X'],
         'Made this as a Christmas present for a younger family member. Based the design after the Pokemon \'Charizard X\'.','Luke, Nebraska',
         [
             ['USA Gundam Store','https://www.usagundamstore.com/products/pre-order-ex-standard-009-destiny-gundam'],
@@ -2992,7 +3037,7 @@ const projects = [
             ['../../img/projects/ships/eternal/eternal29.jpeg','Warship Eternal','img29'],
             ['../../img/projects/ships/eternal/eternal30.jpeg','Warship Eternal','img30']
         ],
-        ['img/projects/ships/eternal/eternal28.jpeg','Profile Photo: Eternal'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/eternal28.jpeg','Profile Photo: Eternal'],
         'This was my first ship buid. And I am awfully quite attached to it. At the time I was in a Gundam Seed kick and rewatching that series so the ships and machines from that saga was on my mind. Seed is probably home to all my favorite vessels throughout the entire Gundam saga. Whether it be Eternal or Archangel they\'re all so cool. And Eternal is by my far the coolest one. For this I was trying to be as realistic and close to the source material as possible. So rather than do a custom design I painted it exactly as how it appears in the anime. So expect lots of pink and purples... Also..., it has got to be pointed out how cool and cute the METEOR units in this kit are. By far out of the whole ship, the METEORs I\'m most proud of. Inspired by these, I am going to be doing a much larger scale P-Bandai meteor kit paint real soon.',
         false,false,['Archangel'],false,true,'1:1700'
     ],
@@ -3084,7 +3129,7 @@ const projects = [
             ['../../img/projects/gundams/anthem/anthem82.jpeg','Anthem Gundam','img82'],
             ['../../img/projects/gundams/anthem/anthem83.jpeg','Anthem Gundam','img83']
         ],
-        ['img/projects/gundams/anthem/anthem76.jpeg','Profile Photo: Anthem Gundam'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/anthem76.jpeg','Profile Photo: Anthem Gundam'],
         'The theme for this one obviously is the American Flag. Since the name of the Gundam is the Freedom Gundam, one day it spawned on me, what\'s not more representative of Freedom than the American Flag, After all we\'re the "Home of the Free and Land of the Brave. Therefore I decided the Freedom needed a much deserved Red White and Blue makeover. So without further ado, and in honor of the pursuit and preservation of freedom everywhere, I present to you the new Freedom Gundam... Gudam Anthem.',false,
         [
             ['Video','https://www.instagram.com/reel/CuSx0amrZW4/?igshid=YzcxN2Q2NzY0OA=='],
@@ -3117,7 +3162,7 @@ const projects = [
             ['../../img/projects/gundams/liberty/liberty18.jpeg','Gundam Liberty','img18'],
             ['../../img/projects/gundams/liberty/liberty19.jpeg','Gundam Liberty','img19']
         ],
-        ['img/projects/gundams/liberty/liberty19.jpeg','Profile Photo: Gundam Liberty'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/liberty12.jpeg','Profile Photo: Gundam Liberty'],
         'For the theme/description here, just read the post for Gundam Anthem. Same inspiration behind this as well. With as complciated of a design as I was pursuing on the Anthem I wanted to try the same design but on somethings smaller. A la the Liberty. This project was basically a prototype for the Anthem just to test myself to see if I could pull it off.',false,
         [
             ['USA Gundam Store','https://www.usagundamstore.com/products/pre-order-sd-gundam-cross-silhouette-freedom-gundam?variant=9558574923812'],
@@ -3162,7 +3207,7 @@ const projects = [
             ['../../img/projects/gundams/oldglory/oldglory33.jpeg','Old Glory','img33'],
             ['../../img/projects/gundams/oldglory/oldglory34.jpeg','Old Glory','img34']
         ],
-        ['img/projects/gundams/oldglory/oldglory30.jpeg','Profile Photo: Old Glory'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/oldglory30_o27ZnVfXuFvfv6c5Kjpz86.jpeg','Profile Photo: Old Glory'],
         'So a year ago I did a project where I restyled Freedom Gundam in the ol\' Red, White and Blue. Since then Bandai created the new MGSD model class and its initial release was the Freedom Gundam. Since I painted the MG Freedom as the Red White and Blue. And I painted the SD Freedom model in the Red White and Blue. It only made sense I had to complete the series by doing the same with the new MGSD Freedom. So without further adew, I present to you my latest project, Old Glory.',false,
         [
             ['Video','https://www.instagram.com/reel/CuQYuUxJm_k/?igshid=YzcxN2Q2NzY0OA=='],
@@ -3178,6 +3223,7 @@ const projects = [
     ['Pacifist',[1,'Justice'],'SD',false,false,false,'Seed','E','2022-04-10',14.58,false,'Builds/Pacifist.html',[''],'2022-08-29'],
     ['PB Clear \u221e Justice [RG]',[1,'Infinite Justice'],'RG',true,true,false,'Seed','E','2021-11-09',4.93,false,'Builds/PBInfiniJusticeRG.html',false,'2022-05-03'],
     ['Oppression',[1,'Infinite Justice'],'MG',false,false,false,'Seed','B'],
+    ['Canis Alpha',[1,'LaGOWE'],'HG',false,false,false,'Seed','A'],
     ['Zoroaster',[1,'Legend'],'FM',false,false,false,'Seed','B'],
     ['PB Meteors',[1,'Meteor','Meteor I','Meteor II','Freedom','Infinite Justice'],'HG',false,true,false,'Seed','B'],
     ['Union Jack',[1,'Providence'],'MG',false,false,false,'Seed','A'],
@@ -3208,7 +3254,7 @@ const projects = [
             ['../../img/projects/gundams/blueangels/blueangels12.jpeg','Skygrasper Straight Build','img20'],
             ['../../img/projects/gundams/blueangels/blueangels13.jpeg','Skygrasper Straight Build','img21']
         ],
-        ['img/projects/gundams/blueangels/blueangels06.jpeg','Profile Photo: Blue Angels'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/blueangels06.jpeg','Profile Photo: Blue Angels'],
         'The theme for this was two fold. One navy show-planes, The Blue Angels. I wanted to capture their color. Second, the holidays were upon us and I wanted to do something Christmas themed to capture the holiday spirit. For this I imagined a squadron of Skygraspers flying through the clouds and passing by Santa as they did.',false,
         [
             ['Video','https://www.instagram.com/reel/CmpsNSWokVp/?igshid=YzcxN2Q2NzY0OA=='],
@@ -3231,7 +3277,7 @@ const projects = [
             ['../../img/projects/pg/pgskygrasper/pgsky10.jpeg','Skygrasper [PG]','img10'],
             ['../../img/projects/pg/pgskygrasper/pgsky11.jpeg','Skygrasper [PG]','img11']
         ],
-        ['img/projects/pg/pgskygrasper/pgsky07.jpeg','Profile Photo: Skygrasper Perfect Grade'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/pgsky07.jpeg','Profile Photo: Skygrasper Perfect Grade'],
         'Normally I don\'t post straight builds. I reserve that only for P-Bandai kits due to their limited edition and uniqueness. However due to this being my first ever Perfect Grade kit, the amazingness of Perfect Grades and the $200-$300 price point of perfect grades that I\'m a bit scared to paint them in case I damage the kit, I decided to change the rules to also include Perfect Grades. Anyhow like I said, this is my first Perfect Grade I have ever built, and I was quite amazed at the sheer size and detail of this. If it were not for the price I think I would be building a whole lot more of these.',false,
         [
             ['Video','https://www.instagram.com/reel/CmfxQMHoIyt/?igshid=YzcxN2Q2NzY0OA=='],
@@ -3253,8 +3299,31 @@ const projects = [
     ['Strike-Freedom MGEX',[1,'Strike-Freedom'],'MG',true,false,true,'Seed','C','2023-03-09',15.92,false,'Builds/MGEXStrikeFreedom.html',false],
     ['PB Strike-Freedom (Deactive) [RG]',[1,'Strike-Freedom'],'RG',true,true,false,'Seed','D','2023-03-06',4.75,false,'Builds/PBStrikeFreedomDeactiveRG.html',false],
     ['Battra',[1,'Strike Noir'],'MG',false,false,false,'Seed','B'],
-    ['Strike Noir [SD]',[1,'Strike Noir'],'SD',true,false,false,'Seed','D','2021-09-06',2.233,false,false,false],
-    ['Strike Verde',[1,'Strike Noir'],'SD',false,false,false,'Seed','D','2021-12',8,false,'Builds/StrikeVerde.html',['']],
+    ['Strike Noir [SD]',[1,'Strike Noir'],'SD',true,false,false,'Seed','E','2021-09-06',2.233,false,false,'2023-07-10'],
+    ['Strike Verde',[1,'Strike Noir'],'SD',
+        false,false,false,'Seed','E','2021-12',8,false,'Builds/Gundams/StrikeVerde.html',false,'2023-07-11',models[51],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/IMG_2567_Large.jpeg','Strike Verde','img1'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/IMG_2566_Large.jpeg','Strike Verde','img2'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/eZy_Watermark_18-11-2022_10-06-11AM_Large.jpeg','Strike Verde','img3'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/eZy_Watermark_18-11-2022_10-06-14AM_Large.jpeg','Strike Verde','img4'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/eZy_Watermark_18-11-2022_10-06-14AM_2_Large.jpeg','Strike Verde','img5'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/eZy_Watermark_18-11-2022_10-06-12AM_Large.jpeg','Strike Verde','img6'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/eZy_Watermark_18-11-2022_10-06-13AM_2_Large.jpeg','Strike Verde','img7'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/eZy_Watermark_18-11-2022_10-06-10AM_Large.jpeg','Strike Verde','img8'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/eZy_Watermark_18-11-2022_10-06-11AM_2_Large.jpeg','Strike Verde','img9'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/eZy_Watermark_18-11-2022_10-06-13AM_Large.jpeg','Strike Verde','img10'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/eZy_Watermark_18-11-2022_10-06-15AM_2_Large.jpeg','Strike Verde','img11'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/eZy_Watermark_18-11-2022_10-06-15AM_Large.jpeg','Strike Verde','img12']
+        ],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/eZy_Watermark_18-11-2022_10-06-13AM_2_Large.jpeg','Profile Photo: Strike Verde'],
+        'So they are not the best paint in terms of usability for airbrushing, but I do love Testors\' variety of shades of colors. By far they are probably the best for color diversity amongst modeling paints. I am probably the only person in the community with this opinion but I stand by it. In particular I love their shiny metallic paints. For this project, it all started with me admiring the shininess of Testors metallic green w/ metal flakes. At the same time I had a spare SD Strike Noir kit laying around and I was brainstorming ideas to paint it. Then it hit me, instead of the black I wanted to use this Testors metallic green. Therefore Strike Noir now became Strike Verde. It looks great. Only thing I would have done different is used a lighter primer underneath the metallic green. Generally the rule of thumb for most paints is you use grey/white primer for flat colors and black primer for metal colors, which is what I did for Strike Verde. But it came out too dark in my opinion that the green is less noticeably green. Definitely a lesson learned, that for all Testors colors going forward, always use the grey primer only on Testors. But anyhow, presenting to you SD Strike Verde.',false,
+        [
+            ['Video','https://www.instagram.com/reel/Cuj6WuCpk2p/?igshid=YzcxN2Q2NzY0OA=='],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/bb293-strike-noir-gundam'],
+            ['NewType','https://newtype.us/p/NsPxBG5t6hpfpZqSAuWb/h/sdbb-293-gat-x105e-strike-noir-gundam']
+        ],false,true,true,false
+    ],
     ['Oberon',[1,'Windam'],'HG',
         false,false,false,'Seed','E','2022-03-05',20.25,false,'Builds/Gundams/Oberon.html',false,'2022-05-09',models[24],
         [
@@ -3271,12 +3340,12 @@ const projects = [
             ['../../img/projects/gundams/oberon/oberon11.jpeg','Oberon','img11'],
             ['../../img/projects/gundams/oberon/oberon12.jpeg','Oberon','img12']
         ],
-        ['img/projects/gundams/oberon/oberon12.jpeg'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/oberon12.jpeg','Profile Photo: Oberon'],
         'So the Windam is the upgrade version of the Dagger L. Which my Dagger build I named it King Leir, from Shakespeare. Following the Shakespeare therefore I decided for the Windam to name it Oberon, from Shakespeare\'s Midsummer Night\'s Dream. Now those who keep up with Shakespeare would know that in Shakespearean lore Oberon was the king of the fairies. Therefore to make him more fairy like I decided to stick with more pastel colors.',false,
         [
             ['USA Gundam Store','https://www.usagundamstore.com/products/hgce-1-144-232-gat-04-windam'],
             ['NewType','https://newtype.us/p/kjwUPIk5smIcsY8oIzVJ/h/hgce-232-gat-04-windam']
-        ],['PB Armageddon'],false,true,'1:144'
+        ],['Armageddon'],false,true,'1:144'
     ],
     ['PB Slash Zaku Phantom (Yzak Jule Custom) [MG]',[1,'Zaku Phantom, Slash'],'MG',true,true,false,'Seed','D','2023-04-05',11.83,false,'Builds/PBPhantomZakuMG.html',false],
     
@@ -3341,7 +3410,7 @@ const projects = [
             ['../../img/projects/gundams/red_baron/rbaron41.jpg','Gundam Red Baron','img41'],
             ['../../img/projects/gundams/red_baron/rbaron42.jpg','Gundam Red Baron','img42']
         ],
-        ['img/projects/gundams/red_baron/rbaron42.jpg','Profile Photo: Gundam Red Baron'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/rbaron42.jpg','Profile Photo: Gundam Red Baron'],
         'Half inspired by the WWI Imperial Prussian fighter pilot half inspired by the pizza. Half just desperate for a theme to do on my second custom paint job. The Gundam Spiegel according to cannon was the official mobile suit of Neo Germany in the future, so I decided to take it all the way back to the imperial Prussia of the past. Painted it red with white stripes like the famous Red Baron plane. Clipped the spike from a nose ring to make the Pickelhaube for the helmet. And cut brown felt to make his aviator scarf just alike a real pilot. Still hand brushed, I had not come to my senses and realized the need for an air brush yet. Was also my first attempt at using LEDs and first time making custom waterslide decals. It being Deutsch, I also added Nietzschean book titles to each of the blades: Jenseits von Gut und B\u00f6se, Also sprach Zarathustra, Die fr\u00f6hliche Wissenschaft, Der Wille zur Macht.',false,
         [
             ['USA Gundam Store','https://www.usagundamstore.com/products/mg-gf13_021ng-gundam-spiegel?variant=33023432527'],
@@ -3368,7 +3437,7 @@ const projects = [
             ['../../img/projects/gundams/warpig/warpig10.jpeg','War Pig','img10'],
             ['../../img/projects/gundams/warpig/warpig11.jpeg','War Pig','img11']
         ],
-        ['img/projects/gundams/warpig/warpig01.jpeg','Profile Photo: War Pig'],false,false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/warpig01.jpeg','Profile Photo: War Pig'],false,false,
         [
             ['Video','https://www.instagram.com/reel/CrMBT1IONut/?igshid=YzcxN2Q2NzY0OA=='],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pre-order-sd-gundam-ex-standard-010-gundam-barbatos'],
@@ -3430,7 +3499,7 @@ const projects = [
             ['../../img/projects/gundams/sealiah/sealiah37.jpeg','Sealiah','img37'],
             ['../../img/projects/gundams/sealiah/sealiah38.jpeg','Sealiah','img38']
         ],
-        ['img/projects/gundams/sealiah/sealiah01.jpeg','Profile Photo: Sealiah'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/sealiah01.jpeg','Profile Photo: Sealiah'],
         'After having started work on Vine/Hashmal, I realized it needed an opponent to fight. So sticking to cannon I obviously chose the HG Barbatos Lupus. And since I named my Hashmal after the demon king Vine, its opponent had to be an angel instead. Naturally, according to the Ars Goetia the eternal opponent to Vine is the angel Sealiah. Painted with two new Turbo dork colors: Purl Grey and Blue Steel, I present to you the guardian angel of motivation and willfulness, Sealiah',false,
         [
             ['Video','https://www.instagram.com/reel/Cta8-OdLppw/?igshid=YzcxN2Q2NzY0OA=='],
@@ -3442,7 +3511,7 @@ const projects = [
         ],['Vine'],false,true,'1:144'
     ],
     ['Nephilim',[1,'Barbatos Lupus Rex'],'HG',
-        false,false,false,'IBO','E','2021-06-11',23.11,false,'Builds/Gundams/Nephilim.html',[''],'2021-07-26',models[49],
+        false,false,false,'IBO','E','2021-06-11',23.11,false,'Builds/Gundams/Nephilim.html',false,'2021-07-26',models[49],
         [
             ['../../img/projects/gundams/nephilim/nephilim01.jpeg','Nephilim','img1'],
             ['../../img/projects/gundams/nephilim/nephilim02.jpeg','Nephilim','img2'],
@@ -3469,7 +3538,7 @@ const projects = [
             ['../../img/projects/gundams/nephilim/nephilim25.jpeg','Nephilim','img23'],
             ['../../img/projects/gundams/nephilim/nephilim26.jpeg','Nephilim','img24']
         ],
-        ['img/projects/gundams/nephilim/nephilim13.jpeg','Profile Photo: Nephilim'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/IMG_7174_Large.jpeg','Profile Photo: Nephilim'],
         'My second mobile suit painted with the airbrush. Went with mostly dark colors, but also was a bit experimental wanting to try out every shade in the Testors lineup as I could. Also, I just love the tail blade on this kit. It is so cool and ahd so much potential for so many cool poses.',false,
         [
             ['USA Gundam Store','https://www.usagundamstore.com/products/hg-ibo-1-144-033-gundam-barbatos-lupus-rex'],
@@ -3506,7 +3575,7 @@ const projects = [
             ['../../img/projects/gundams/vine/vine25.jpeg','Vine','img24'],
             ['../../img/projects/gundams/vine/vine26.jpeg','Vine','img25']
         ],
-        ['img/projects/gundams/vine/vine15.jpeg','Profile Photo: Vine'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/vine15.jpeg','Profile Photo: Vine'],
         'I was not too particularly fond of the mobile suits in the Iron Blooded orphans series. They just felt like Gundam gone cheap. IBO I would definitely consider one of my least favorite installments in the Gundam anthology. But the one mech from the IBO series that did stand out to me was the Mobile Armor Hashmal. Just from the moment it first appears on screen, just everythign about it screams Bad-Ass. So when I finally saw the kit available online, it was an immediate purchase. Named after the demon king of Hell in the Art Goetia, Vine, I painted this in two of my favorite Turbo Dork colors: Box Wine and Scarab. Box Wine is a beautiful rich bergundy red that just looks so pretty under a glossy top coat. And scarab is a really shiny green that like the name implies totally resembles a shiny bug\'s shell. I love both these shades so much. So without further ado, I present to you the demon king himself, Vine.',false,
         [
             ['Video','https://www.instagram.com/reel/CtHH3mBsRFP/?igshid=YzcxN2Q2NzY0OA=='],
@@ -3535,7 +3604,7 @@ const projects = [
             ['../../img/projects/gundams/dewdrop/dewdrop10.jpeg','Dew Drop','img10'],
             ['../../img/projects/gundams/dewdrop/dewdrop11.jpeg','Dew Drop','img11']
         ],
-        ['img/projects/gundams/dewdrop/dewdrop01.jpeg','Profile Photo: Dew Drop'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/dewdrop01.jpeg','Profile Photo: Dew Drop'],
         'The AcGuy is an aquatic unit. But I always thought its traditional color scheme was completely wrong for something with Amphibious elements. So I decided to fix that by retooling it different shades of blue.','Zack #TheLunchDude, Iowa',
         [
             ['Video','https://www.instagram.com/reel/Ctrs_SpNgCb/?igshid=YzcxN2Q2NzY0OA=='],
@@ -3564,7 +3633,7 @@ const projects = [
             ['../../img/projects/gundams/fantomas/Fantomas16.jpeg','Fantomas','img16'],
             ['../../img/projects/gundams/fantomas/Fantomas17.jpeg','Fantomas','img17']
         ],
-        ['img/projects/gundams/fantomas/Fantomas17.jpeg','Profile Photo: Fantomas'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/Fantomas17.jpeg','Profile Photo: Fantomas'],
         'Inspired by the French liteary character, Fantomas, wanted to make something dark and spooky. THe LEDs in the light and chest created a cool affect.',false,
         [
             ['Fantomas','https://en.wikipedia.org/wiki/Fantômas'],
@@ -3591,7 +3660,7 @@ const projects = [
             ['../../img/projects/gundams/arrrgent/arrrgent10.jpeg','Arrrgent Gundam','img10'],
             ['../../img/projects/gundams/arrrgent/arrrgent11.jpeg','Arrrgent Gundam','img11'],
         ],
-        ['img/projects/gundams/arrrgent/arrrgent03.jpeg','Profile Photo: Arrrgent Gundam'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/arrrgent03.jpeg','Profile Photo: Arrrgent Gundam'],
         'What can I say, arrrrrgh, the boy\'s a pirate.',false,
         [
             ['USA Gundam Store','https://www.usagundamstore.com/products/pre-order-bandai-sdgcs-2-crossbone-gundan-x1-crossbone-gundam?variant=6977963851812'],
@@ -3616,7 +3685,7 @@ const projects = [
             ['../../img/projects/gundams/jackieo/jackieo08.jpeg','Jackie-O','img11'],
             ['../../img/projects/gundams/jackieo/jackieo09.jpeg','Jackie-O','img12']
         ],
-        ['img/projects/gundams/jackieo/jackieo03.jpeg','Profile Photo: Jackie-O'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/jackieo08.jpeg','Profile Photo: Jackie-O'],
         'This was inspired by Airforce One. Which the current design was stylized by American First Lady, Jacqueline Onassis-Kennedy. Therefore presenting, Jackie-O !!!',false,
         [
             ['Video','https://www.instagram.com/reel/Cf48aw8lNmK/?igshid=YzcxN2Q2NzY0OA=='],
@@ -3650,7 +3719,7 @@ const projects = [
             ['../../img/projects/gundams/pi/pi16.jpeg','Pi Gundam','img16'],
             ['../../img/projects/gundams/pi/pi17.jpeg','Pi Gundam','img17']
         ],
-        ['img/projects/gundams/pi/pi06.jpeg','Profile Photo: Pi Gundam'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/pi06.jpeg','Profile Photo: Pi Gundam'],
         'No particular theme here for this one. Well... initially. This I was still in the practicing phase with the airbrush so this started out as purely experimental. Since the original Gundam\'s name is \u039D, that\'s the Greek letter Nu, I was like well what is the next letter in the Greek Alphabet that I can name this after. Well the next few letters sequentially were already claimed by other main canon Gundams so I could not use those. Anyhow the next avaible letter turned out to be \u03C0 (pi). And if I\'m wrong, well so help me God. Anyhow, pi lead to pie and it all went downhill from there. So introducing my pi, pie, tasty dessert themed Gundam.',
         false,
         [
@@ -3683,7 +3752,7 @@ const projects = [
             ['../../img/projects/gundams/belladonna/belladonna15.jpeg','Gundam Bella Donna','img15'],
             ['../../img/projects/gundams/belladonna/belladonna16.jpeg','Gundam Bella Donna','img16']
         ],
-        ['img/projects/gundams/belladonna/belladonna11.jpeg','Profile Photo: Bella Donna'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/belladonna11.jpeg','Profile Photo: Bella Donna'],
         'Having done the Phenex Titan and Phenex Sovereign, I wanted to paint the Phenex but in it\'s tradiitional gold color, but as shiny as possible. Of course for all thinsg shiny I always resort to Turbo Dork. However I was not sure which shade of Turbo to use, so I painted two. One in \'All That Glitters\', which is the brighter gold, and one in \'Afterburner\', which is the darker gold. Together they both came out nice. I sort of imagine these two as twins.',false,
         [
             ['Video','https://www.instagram.com/reel/Cp3XKq1vOI_/?igshid=YzcxN2Q2NzY0OA=='],
@@ -3708,7 +3777,7 @@ const projects = [
             ['../../img/projects/gundams/sovereign/sovereign09.jpeg','Gundam Sovereign','img9'],
             ['../../img/projects/gundams/sovereign/sovereign10.jpeg','Gundam Sovereign','img10']
         ],
-        ['img/projects/gundams/sovereign/sovereign01.jpeg','Profile Photo: Sovereign'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/sovereign09.jpeg','Profile Photo: Sovereign'],
         'Basically was inspired by the Gundam Phenex and how shiny it is. So I wanted to try Phenex in other colors. For the Sovereign I painted the Phenex in its Destroy mode with a mixture of Pearl Red and Pearl Purple paints blended together.',false,
         [
             ['Video','https://www.instagram.com/reel/Cp0DancrAsz/?igshid=YzcxN2Q2NzY0OA=='],
@@ -3731,7 +3800,7 @@ const projects = [
             ['../../img/projects/gundams/titan/titan10.jpeg','Gundam Titan','img10'],
             ['../../img/projects/gundams/titan/titan11.jpeg','Gundam Titan','img11']
         ],
-        ['img/projects/gundams/titan/titan06.jpeg','Profile Photo: Titan'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/titan06.jpeg','Profile Photo: Titan'],
         'Basically was inspired by the Gundam Phenex and how shiny it is. So I wanted to try Phenex in other colors. For the Titan I painted the Phenex in its Unicorn mode with a Pearl Blue paint.',false,
         [
             ['Video','https://www.instagram.com/reel/Cpx6gJTDOai/?igshid=YzcxN2Q2NzY0OA=='],
@@ -3763,7 +3832,7 @@ const projects = [
             ['../../img/projects/gundams/starrider/starrider10.jpeg','Starrider','img10'],
             ['../../img/projects/gundams/starrider/starrider11.jpeg','Starrider','img11']
         ],
-        ['img/projects/gundams/starrider/starrider06.jpeg','Profile Photo: Starrider'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/starrider06.jpeg','Profile Photo: Starrider'],
         'This design was entirely experimental. But by the end it kept giving me the vibes of a leprechaun.','Carlos,Nebraska',
         [
             ['USA Gundam Store','https://www.usagundamstore.com/products/bb198-msz-006-zeta-gundam'],
@@ -3795,7 +3864,7 @@ const projects = [
             ['../../img/projects/gundams/derkommissar/komm10.jpeg','Der Kommissar','img10'],
             ['../../img/projects/gundams/derkommissar/komm11.jpeg','Der Kommissar','img11']
         ],
-        ['img/projects/gundams/derkommissar/komm11.jpeg','Profile Photo: Der Kommissar'],false,false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/komm11.jpeg','Profile Photo: Der Kommissar'],false,false,
         [
             ['Video','https://www.instagram.com/reel/CqlfDEftfwA/?igshid=YzcxN2Q2NzY0OA=='],
             ['USA Gundam Store','https://www.usagundamstore.com/products/sd-bb-lightning-gundam?variant=2103466628'],
@@ -3825,7 +3894,7 @@ const projects = [
             ['../../img/projects/gundams/constellation/constel14.jpeg','Constellation','img14'],
             ['../../img/projects/gundams/constellation/constel15.jpeg','Constellation','img15']
         ],
-        ['img/projects/gundams/constellation/constel14.jpeg','Profile Photo: Constellation'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/constel14.jpeg','Profile Photo: Constellation'],
         'Not much inspiration here. This was my first attempt at building a Real Grade model so I was more focused on doing a project of the RG grade more so than I was on the design.',false,
         [
             ['USA Gundam Store','https://www.usagundamstore.com/products/rg-1-144-23-build-strike-gundam-full-package'],
@@ -3845,7 +3914,7 @@ const projects = [
             ['../../img/projects/gundams/moonagedaydream/moonage08.jpeg','Moonage Daydream','img8'],
             ['../../img/projects/gundams/moonagedaydream/moonage09.jpeg','Moonage Daydream','img9']
         ],
-        ['img/projects/gundams/moonagedaydream/moonage02.jpeg','Profile Photo: Moonage Daydream'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/moonage06.jpeg','Profile Photo: Moonage Daydream'],
         'Miniature version of the Constellation Gundam. Rather than paint this as a practice run, began work on this halfway through Constellation as a sort of semi-after thought.','Maricela, Nebraska',
         [
             ['USA Gundam Store','https://www.usagundamstore.com/products/bb388-build-strike-gundam-full-package?variant=6062886404'],
@@ -3888,7 +3957,7 @@ const projects = [
             ['../../img/projects/sdw/azalea/azalea22.jpeg','Gundam Azalea','img22'],
             ['../../img/projects/sdw/azalea/azalea23.jpeg','Gundam Azalea','img23']
         ],
-        ['img/projects/sdw/azalea/azalea16.jpeg','Profile Photo: Azalea'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/azalea16.jpeg','Profile Photo: Azalea'],
         'The drive behind this design was two-fold. One, I was testing out the new paint line I discovered, Turbo Dork. For the record they came out great and their paints are super shiny. And two, I was tyring to come up with a Christmas present for a girl, which the resolution to that quest was the shiny pink. I was really proud how this turned out that it was sad to give it away. But I\'m really proud of this build.','Penny, Nebraska',
         [
             ['TurboDork','https://turbodork.com/products/sakura'],
@@ -3923,7 +3992,7 @@ const projects = [
             ['../../img/projects/sdw/bastiat/bastiat08.jpeg','Bastiat','img8'],
             ['../../img/projects/sdw/bastiat/bastiat09.jpeg','Bastiat','img9']
         ],
-        ['img/projects/sdw/bastiat/bastiat05.jpeg','Profile Photo: Bastiat'],false,false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/bastiat05.jpeg','Profile Photo: Bastiat'],false,false,
         [
             ['USA Gundam Store','https://www.usagundamstore.com/products/sdw-heroes-03-sergeant-verde-buster-gundam'],
             ['NewType','https://newtype.us/p/eufjJyWFODY5XuvTiOIY/h/sdw-heroes-03-sergeant-verde-buster-gundam']
@@ -3996,7 +4065,7 @@ const projects = [
             ['../../img/projects/sdw/mmpr/mmpr12.jpeg','Power Rangers','img62'],
             ['../../img/projects/sdw/mmpr/mmpr13.jpeg','Power Rangers','img63']
         ],
-        ['img/projects/sdw/mmpr/mmpr10.jpeg','Profile Photo: Power Rangers'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/mmpr10.jpeg','Profile Photo: Power Rangers'],
         'So I always thought the Buster Sergeants and officers formed their very own police squad corps. That it was just beggin of me to make my own Buster team or foce. Of course the question then was, what sort of team would they be. Then one day staring down at their cute little helmets, it dawned on me, well of course, the frickin Power Rangers. Not the lame newer stuff, but the original 90s Might Morphin Power Rangers. So I painted each one a different color out of the original lineup, plus the green ranger. And for their helmets I chose a matching color shade of Turbo Dork to make the viser shiny. These came out looking so cool.',false,
         [
             ['Video','https://www.instagram.com/reel/CpF8BcpOht9/'],
@@ -4007,9 +4076,10 @@ const projects = [
             ['Turbo Dork','https://turbodork.com']
         ],false,true,true,false,false,'Mighty Morphin Power Rangers'
     ],
-    ['Eos',[1,'Wing, Cao Cao'],'SD',false,false,false,'Heroes','A'],
-    ['Tethys',[1,'Wing Isei, Cao Cao'],'SD',false,false,false,'Heroes','D','2022-04-05',8.67,false,'Builds/tethys.html',['']],
-    ['Hyperion',[1,'Wing Zero, Tian Ba Cao Cao'],'SD',false,false,false,'Heroes','B'],
+    ['Eos',[1,'Wing, Sangoku Soketsuden  Cao Cao'],'SD',false,false,false,'Heroes','A'],    //Wing zero
+    ['Aether',[1,'Wing, Sangoku Soketsuden  Cao Cao'],'SD',false,false,false,'Heroes','A'],    //Wing zero
+    ['Tethys',[1,'Wing Isei, Cao Cao'],'SD',false,false,false,'Heroes','D','2022-04-05',8.67,false,'Builds/tethys.html',['']], //Regular wing
+    ['Hyperion',[1,'Wing, Tian Ba Cao Cao'],'SD',false,false,false,'Heroes','B'],   //regular wing 
 
     //Haro
     ['Haro Blue',[1,'Haropla #05 Control Blue'],'Haro',false,false,false,'','D','2023-04-07',2.55,false,'Builds/hblue.html',['']],
@@ -4035,7 +4105,7 @@ const projects = [
             ['../../img/projects/haro/redharo/redharo11.jpeg','Red Haro','img11'],
             ['../../img/projects/haro/redharo/redharo12.jpeg','Red Haro','img12']
         ],
-        ['img/projects/haro/redharo/redharo10.jpeg','Profile Photo: Red Haro'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/redharo10.jpeg','Profile Photo: Red Haro'],
         'Easter was coming up and I wanted to do something different than those annoying damn eggs again. So I thought about it and I realized you know what, those Haros sure are pretty round like eggs. So to celebrate the holiday I made a whole basket of them, each a different color, to spread the Easter Joy. Theme for this one was a metallic red color.',
         'Zack #TheLunchDude, Iowa',
         [
@@ -4071,7 +4141,7 @@ const projects = [
             ['../../img/projects/automobiles/hud_air/hudair19.jpg','Hudson Bel-Air','img19'],
             ['../../img/projects/automobiles/hud_air/hudair20.jpg','Hudson Bel-Air','img20'],
             ['../../img/projects/automobiles/hud_air/hudair21.jpg','Hudson Bel-Air','img21']
-        ],['img/projects/automobiles/hud_air/hudair16.jpg','Profile Photo: Hud-Air'],
+        ],['https://hosting.photobucket.com/images/i/lesaintdumech/hudair16.jpg','Profile Photo: Hud-Air'],
         'First attempt at an air brush. Testors paints. Jennifer Hudson. The Nanny. Feeling very purple with this one.',
         'Nick, Nevada',
         [
@@ -4083,7 +4153,7 @@ const projects = [
     ['Wilbur',[1,'Volkswagen Beetle, 68'],'Car',
         false,false,false,'Volkswagen','E','2022-11-05',27.08,true,'Builds/Automobiles/Wilbur.html',false,'2023-01-02',models[4],[['../../img/projects/automobiles//wilbur/wilbur01.jpeg','Wilbur the Beetle','img1'],['../../img/projects/automobiles//wilbur/wilbur02.jpeg','Wilbur the Beetle','img2'],['../../img/projects/automobiles//wilbur/wilbur03.jpeg','Wilbur the Beetle','img3'],['../../img/projects/automobiles//wilbur/wilbur04.jpeg','Wilbur the Beetle','img4'],['../../img/projects/automobiles//wilbur/wilbur05.jpeg','Wilbur the Beetle','img5'],['../../img/projects/automobiles//wilbur/wilbur06.jpeg','Wilbur the Beetle','img6'],['../../img/projects/automobiles//wilbur/wilbur07.jpeg','Wilbur the Beetle','img7'],['../../img/projects/automobiles//wilbur/wilbur08.jpeg','Wilbur the Beetle','img8'],['../../img/projects/automobiles//wilbur/wilbur09.jpeg','Wilbur the Beetle','img9'],['../../img/projects/automobiles//wilbur/wilbur10.jpeg','Wilbur the Beetle','img10'],['../../img/projects/automobiles//wilbur/wilbur11.jpeg','Wilbur the Beetle','img11'],['../../img/projects/automobiles//wilbur/wilbur12.jpeg','Wilbur the Beetle','img12'],['../../img/projects/automobiles//wilbur/wilbur13.jpeg','Wilbur the Beetle','img13'],['../../img/projects/automobiles//wilbur/wilbur14.jpeg','Wilbur the Beetle','img14'],['../../img/projects/automobiles//wilbur/wilbur15.jpeg','Wilbur the Beetle','img15'],['../../img/projects/automobiles//wilbur/wilbur16.jpeg','Wilbur the Beetle','img16'],['../../img/projects/automobiles//wilbur/wilbur17.jpeg','Wilbur the Beetle','img17'],['../../img/projects/automobiles//wilbur/wilbur18.jpeg','Wilbur the Beetle','img18'],['../../img/projects/automobiles//wilbur/wilbur19.jpeg','Wilbur the Beetle','img19'],['../../img/projects/automobiles//wilbur/wilbur20.jpeg','Wilbur the Beetle','img20'],['../../img/projects/automobiles//wilbur/wilbur21.jpeg','Wilbur the Beetle','img21'],['../../img/projects/automobiles//wilbur/wilbur24.jpeg','Wilbur the Beetle','img24'],['../../img/projects/automobiles//wilbur/wilbur25.jpeg','Wilbur the Beetle','img25'],['../../img/projects/automobiles//wilbur/wilbur26.jpeg','Wilbur the Beetle','img26'],['../../img/projects/automobiles//wilbur/wilbur27.jpeg','Wilbur the Beetle','img27'],['../../img/projects/automobiles//wilbur/wilbur28.jpeg','Wilbur the Beetle','img28'],['../../img/projects/automobiles//wilbur/wilbur29.jpeg','Wilbur the Beetle','img29'],
         ['../../img/projects/automobiles//wilbur/wilbur30.jpeg','Wilbur the Beetle','img30'],['../../img/projects/automobiles//wilbur/wilbur31.jpeg','Wilbur the Beetle','img31'],['../../img/projects/automobiles//wilbur/wilbur32.jpeg','Wilbur the Beetle','img32'],['../../img/projects/automobiles//wilbur/wilbur33.jpeg','Wilbur the Beetle','img33'],['../../img/projects/automobiles//wilbur/wilbur34.jpeg','Wilbur the Beetle','img34'],['../../img/projects/automobiles//wilbur/wilbur35.jpeg','Wilbur the Beetle','img35'],['../../img/projects/automobiles//wilbur/wilbur36.jpeg','Wilbur the Beetle','img36'],['../../img/projects/automobiles//wilbur/wilbur37.jpeg','Wilbur the Beetle','img37'],['../../img/projects/automobiles//wilbur/wilbur38.jpeg','Wilbur the Beetle','img38'],['../../img/projects/automobiles//wilbur/wilbur39.jpeg','Wilbur the Beetle','img39'],['../../img/projects/automobiles//wilbur/wilbur40.jpeg','Wilbur the Beetle','img40'],['../../img/projects/automobiles//wilbur/wilbur41.jpeg','Wilbur the Beetle','img41'],['../../img/projects/automobiles//wilbur/wilbur42.jpeg','Wilbur the Beetle','img42'],['../../img/projects/automobiles//wilbur/wilbur43.jpeg','Wilbur the Beetle','img43'],['../../img/projects/automobiles//wilbur/wilbur44.jpeg','Wilbur the Beetle','img44'],['../../img/projects/automobiles//wilbur/wilbur45.jpeg','Wilbur the Beetle','img45'],['../../img/projects/automobiles//wilbur/wilbur46.jpeg','Wilbur the Beetle','img46'],['../../img/projects/automobiles//wilbur/wilbur47.jpeg','Wilbur the Beetle','img47'],['../../img/projects/automobiles//wilbur/wilbur22.jpeg','Wilbur the Beetle','img22'],['../../img/projects/automobiles//wilbur/wilbur23.jpeg','Wilbur the Beetle','img23']],
-        ['img/projects/automobiles//wilbur/wilbur46.jpeg','Profile Photo: Wilbur'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/wilbur46.jpeg','Profile Photo: Wilbur'],
         'Was an attempt at a recreation for an actual old 68 beetle we\'re in the middle of trying to restore. Incorporating our love of Germany and all things German, most particularly the cute little Dachshund. Made this as a christmas present',
         'Zack #TheLunchDude, Iowa',
         [
@@ -4114,7 +4184,7 @@ const projects = [
             ['../../img/projects/pokemon/granfrog/granfrog10.jpeg','Granfrog the Greninja','img10'],
             ['../../img/projects/pokemon/granfrog/granfrog11.jpeg','Granfrog the Greninja','img11']
         ],
-        ['img/projects/pokemon/granfrog/granfrog10.jpeg','Profile Photo: Granfrog'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/granfrog02.jpeg','Profile Photo: Granfrog'],
         'So inspiration for this piece is I was looking for a Christmas present idea for a particularly grandmother of mine who is aboslutely obsessed with frogs. I knew I wanted to make her something from scratch, but the hobby stores don\'t just have generic model kits of plain regular animals lying around that creating her a custom painted model frog was a no go. So after much consideration I realized the closest I could do was a pokemon frog. So anyhow, for the color scheme on this one, I didn\'t want to go with the traditional blue that Greninja is known for, but instead respecting my grandmother\'s love for the animal, wanted to keep it as close to the traditional frog colors as possible. Particularly the tropical rainforest frogs you see from South America with the bright colors on their backs.','Mary, Nebraska',
         [
             ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Greninja_(Pokémon)'],
@@ -4167,7 +4237,7 @@ const projects = [
             ['../../img/projects/digimon/fafnir/fafnir21.jpeg','Fafnir','img21'],
             ['../../img/projects/digimon/fafnir/fafnir22.jpeg','Fafnir','img22']
         ],
-        ['img/projects/digimon/fafnir/fafnir16.jpeg','Profile Photo: Fafnir'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/fafnir17.jpeg','Profile Photo: Fafnir'],
         'So I loved the show Digimon as a kid growing up, and WarGreymon plus his evolution Omnimon I always thought they were just the coolest. When I saw the amplified kit of him and all its extra details, I was just completedly sold. It came out great. My use of the Vallejo Ferarri Red looked better than the typical yellow-orange of the original plastic. This was just rad as ever.',false,[
             ['Video','https://www.instagram.com/reel/CjUMt3eP1lk/'],
             ['Fandom','https://digimon.fandom.com/wiki/WarGreymon'],
@@ -4200,7 +4270,7 @@ const projects = [
             ['../../img/projects/displays/diurnum/diurnum17.jpeg','City of Diurnum','img17'],
             ['../../img/projects/displays/diurnum/diurnum18.jpeg','City of Diurnum','img18']
         ],
-        ['img/projects/displays/diurnum/diurnum07.jpeg','Profile Photo: Diurnum'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/diurnum18.jpeg','Profile Photo: Diurnum'],
         'Diurnum; Latin for the City of Light. Now though just relics in the dust bowl of the desert. I had went to a plastic modeling convention recently and I was fascinated by all the people who built dioramas. They were so realistic and looked so cool. It had me inspired to want to create my own scenery pieces to show off my own models in. This was my first dabble and attemp. I\'m real proud of how this turned out and not going to lie this little building came out so cute.',
         false,
         [
@@ -4227,7 +4297,7 @@ const projects = [
             ['../../img/projects/ships/libeccio/libeccio09.jpeg','Libeccio Andromeda Class Battleship','img9'],
             ['../../img/projects/ships/libeccio/libeccio10.jpeg','Libeccio Andromeda Class Battleship','img10']
         ],
-        ['img/projects/ships/libeccio/libeccio10.jpeg','Profile Photo: Libeccio'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/libeccio05.jpeg','Profile Photo: Libeccio'],
         'Named after the Mediterranean SouthWest wind, I present to you the Libeccio. I had, had way too much fun building the Eternal, Archangel and Dominion, that I ached to build another ship model again. Granted there are not many other ships in the Gundam lineup to build, and also that Bandai is currently not manufacturing new ones, I had no choice but to branch out and try another franchise. And luckly enough at the time, there were lots of StarBlazers kits floating around in rotation to take advantavge of. I know nothing about the StarBlazer though of course. But the kits were cool enough that they seemed worth giving them a try.',
         false,
         [
@@ -4245,7 +4315,7 @@ const projects = [
             ['../../img/projects/ships/ostro/ostro05.jpeg','Ostro','img5'],
             ['../../img/projects/ships/ostro/ostro06.jpeg','Ostro','img6']
         ],
-        ['img/projects/ships/ostro/ostro03.jpeg','Profile Photo: Ostro'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/ostro03.jpeg','Profile Photo: Ostro'],
         'Sky theme. The photos don\'t do the model justice, but if you focus and look very, very closely there is a slight white swirl inside the blue. On this one experimented with new technique to lightly overlap one color over another by wrapping in stretched baby whites. Basically I painted the base blue layer first. Then took a baby white and stretched it out so that there were porous gaps, wrapped the wipe around the plastic, then sprayed the second color in order to make the clouds look. It came out really faint though that I am going to need more practice at this technique.','Zack #TheLunchDude, Iowa',
         [
             ['StarBlazer Wiki','https://yamato.fandom.com/wiki/Type-99_Cosmo_Falcon']
@@ -4296,7 +4366,7 @@ const projects = [
             ['../../img/projects/transformers/wilbee/wilbee36.jpeg','Wilbee','img36'],
             ['../../img/projects/transformers/wilbee/wilbee37.jpeg','Wilbee','img37']
         ],
-        ['img/projects/transformers/wilbee/wilbee37.jpeg','Profile Photo: Wilbee'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/wilbee36.jpeg','Profile Photo: Wilbee'],
         'Was working on the Volkswagen Beetle model Wilbur and train of thought on this led me to considering the Transformer\'s 2018 Bumblebee film Volkswagen bug version of the eponymous \'Bumblebee\'. So this lead me to immediately buying the eqivalent Trumpeter brand model Bumblebee kit and painting him the same colors as Wilbur... thus \u00E0 la Wil-Beeeee!!!! I like to imagine him being my Wilbur transformed into robot mode. Oh and unlike Captain Bumble, Wilbee is a total Predacon.',
         false,
         [
@@ -4309,7 +4379,7 @@ const projects = [
     
     //Zoid
     ['Dash Hound',
-        [1,'Shadow Fox'],'Zoid',false,false,false,'','C','2023-06-12',15.83,false,'Builds/Zoids/DashHound.html',['Tamiya: Gold TS-21 Can','Tamiya: Matt Black TS-6 Can','Tamiya: Copper PS-14 Can','Vallejo Model Air: US Earth Red 71.293','Vallejo Model Air: USAF Brown 71.125','Vallejo Model Air: Rust 71.069','Vallejo Model Air: Armor Brown 71.041','Vallejo Mecha Color: Dark Steel 69.065','Vallejo Model Air: Silver 71.063','Vallejo Model Air: Ivory 71.075','Testors: Brass 1182','Vallejo Model Air: Wood 71.077','Vallejo Model Air: US Desert Sand 71.140','Vallejo Mecha Color: Gun Metal 69.058','Vallejo Model Air: Camouflage Gray 71.280']
+        [1,'Shadow Fox'],'Zoid',false,false,false,'','C','2023-06-12',17.17,false,'Builds/Zoids/DashHound.html',['Tamiya: Gold TS-21 Can','Tamiya: Matt Black TS-6 Can','Tamiya: Copper PS-14 Can','Vallejo Model Air: US Earth Red 71.293','Vallejo Model Air: USAF Brown 71.125','Vallejo Model Air: Rust 71.069','Vallejo Model Air: Armor Brown 71.041','Vallejo Mecha Color: Dark Steel 69.065','Vallejo Model Air: Silver 71.063','Vallejo Model Air: Ivory 71.075','Testors: Brass 1182','Vallejo Model Air: Wood 71.077','Vallejo Model Air: US Desert Sand 71.140','Vallejo Mecha Color: Gun Metal 69.058','Vallejo Model Air: Camouflage Gray 71.280']
     ],
     ['Shere Khan',[1,'Blade Liger'],'Zoid',false,false,false,'','B'],
     ['Akela',[1,'Konig Wolf Heavy Arms'],'Zoid',false,false,false,'','A'],
@@ -5609,7 +5679,7 @@ function buildProjectPage(string) {
     }
     popNode(ledQ,'projectLED');
 
-    insertPhoto(projectArray[16],'projectProfilePhoto','../../',325);
+    insertPhoto(projectArray[16],'projectProfilePhoto',false,325);
 
     if (projectArray[17]) {
         unhide('.projectDescriptionHD');
@@ -5722,7 +5792,7 @@ function buildProjectPage(string) {
 
 function buildGundam() {
     unhide('.GundamPage');
-    insertPhoto(modelArray[26],'gModelPhoto','../../',300);
+    insertPhoto(modelArray[26],'gModelPhoto',false,300);
 
     if (projectArray[4]) {
         unhide('.projectPBandaiHD');
@@ -5891,7 +5961,7 @@ function buildGundam() {
 
 function buildShipGundam() {
     unhide('.GundamShipPage');
-    insertPhoto(modelArray[26],'gsModelPhoto','../../',450);
+    insertPhoto(modelArray[26],'gsModelPhoto',false,450);
 
     if (modelArray[2]) {
         unhide('.gsShortNameHD');
@@ -6029,7 +6099,7 @@ function buildShipGundam() {
 
 function buildShipOther() {
     unhide('.OtherShipPage');
-    insertPhoto(modelArray[26],'osModelPhoto','../../',450);
+    insertPhoto(modelArray[26],'osModelPhoto',false,450);
 
     if (modelArray[2]) {
         unhide('.osShortNameHD');
@@ -6143,7 +6213,7 @@ function buildShipOther() {
 
 function buildCarAuto() {
     unhide('.AutomobilePage');
-    insertPhoto(modelArray[26],'caModelPhoto','../../',450);
+    insertPhoto(modelArray[26],'caModelPhoto',false,450);
 
     popNode(modelArray[2],'caShortName');
 
@@ -6180,7 +6250,7 @@ function buildCarAuto() {
 
 function buildDisplay() {
     unhide('.DisplayPage');
-    insertPhoto(modelArray[26],'dpModelPhoto','../../',350);
+    insertPhoto(modelArray[26],'dpModelPhoto',false,350);
 
     if (modelArray[2]) {
         unhide('.dpShortNameHD');
@@ -6200,7 +6270,7 @@ function buildDisplay() {
 
 function buildDigimon() {
     unhide('.DigimonPage');
-    insertPhoto(modelArray[26],'dgModelPhoto','../../',400);
+    insertPhoto(modelArray[26],'dgModelPhoto',false,400);
     popNode(modelArray[2],'dgShortName');
 
     if (modelArray[4]) {
@@ -6251,7 +6321,7 @@ function buildDigimon() {
 
 function buildPokemon() {
     unhide('.PokemonPage');
-    insertPhoto(modelArray[26],'pkModelPhoto','../../',300);
+    insertPhoto(modelArray[26],'pkModelPhoto',false,300);
     popNode(modelArray[2],'pkShortName');
 
     if (modelArray[4]) {
@@ -6326,7 +6396,7 @@ function buildPokemon() {
 
 function buildTransformer() {
     unhide('.TransformerPage');
-    insertPhoto(modelArray[26],'tsModelPhoto','../../',300);
+    insertPhoto(modelArray[26],'tsModelPhoto',false,300);
 
     if (modelArray[2]) {
         unhide('.tsEarthHD');
@@ -6361,7 +6431,7 @@ function buildTransformer() {
 
 function buildHaro() {
     unhide('.HaroPage');
-    insertPhoto(modelArray[26],'hpModelPhoto','../../',300);
+    insertPhoto(modelArray[26],'hpModelPhoto',false,300);
 
     if (modelArray[2]) {
         unhide('.hpShortNameHD');
@@ -6542,7 +6612,12 @@ function generateModalFrame() {
 function insertPhoto(array,id,dots,maxWidth) {
     let imgNode = document.createElement('img');
     let srcAttribute = document.createAttribute('src');
-    srcAttribute.value = dots+array[0];
+    if (dots) {
+        srcAttribute.value = dots+array[0];
+    }
+    else {
+        srcAttribute.value = array[0];
+    }
     let altAttribute = document.createAttribute('alt');
     altAttribute.value = array[1];
     let imgClassAttribute = document.createAttribute('class');
