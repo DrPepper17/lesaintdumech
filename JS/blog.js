@@ -356,30 +356,20 @@ function constructArchiveEntry() {
 
         let dl2Node = document.createElement('dl');
         let dl2Class = document.createAttribute('class');
-        dl2Class.value = 'row align-items-top';
+        dl2Class.value = 'row align-items-center';
         dl2Node.setAttributeNode(dl2Class);
         div4.appendChild(dl2Node);
-
-        let dt2Node = document.createElement('dt');
-        let dt2Class = document.createAttribute('class');
-        dt2Class.value = 'col';
-        dt2Node.setAttributeNode(dt2Class);
-        dl2Node.appendChild(dt2Node);
-
-        let p1Node = document.createElement('p');
-        constructParagraph(blogArray[i][3],p1Node);
-        dt2Node.appendChild(p1Node);
 
         if (blogArray[i][2]) {
             let dt3Node = document.createElement('dt');
             let dt3Class = document.createAttribute('class');
-            dt3Class.value = 'col-md-5';
+            dt3Class.value = 'col order-md-last';
             dt3Node.setAttributeNode(dt3Class);
             dl2Node.appendChild(dt3Node);
             
             let img1Node = document.createElement('img');
             let img1Class = document.createAttribute('class');
-            img1Class.value = 'img-fluid img-thumbnail';
+            img1Class.value = 'img-fluid img-thumbnail mb-3';
             img1Node.setAttributeNode(img1Class);
             let img1Src = document.createAttribute('src');
             img1Src.value = blogArray[i][2];
@@ -387,16 +377,42 @@ function constructArchiveEntry() {
             dt3Node.appendChild(img1Node);
         }
 
+        let dt2Node = document.createElement('dt');
+        let dt2Class = document.createAttribute('class');
+        dt2Class.value = 'col-md-7';
+        dt2Node.setAttributeNode(dt2Class);
+        dl2Node.appendChild(dt2Node);
+
+        let p1Node = document.createElement('p');
+        constructParagraph(blogArray[i][3],p1Node);
+        dt2Node.appendChild(p1Node);
+
 
         if (blogArray[i].length>4) {
-            for (let p=4;p<blogArray[i].length;p++) {
-                let newPNode = document.createElement('p');
-                constructParagraph(blogArray[i][p],newPNode);
-                dt2Node.appendChild(newPNode);
-            }
+                let P2Node = document.createElement('p');
+                constructParagraph(blogArray[i][4],P2Node);
+                dt2Node.appendChild(P2Node);
         }
 
-        
+        if (blogArray[i].length>5) {
+            let dl3Node = document.createElement('dl');
+            let dl3Class = document.createAttribute('class');
+            dl3Class.value = 'row';
+            dl3Node.setAttributeNode(dl3Class);
+            div4.appendChild(dl3Node);
+
+            let dt4Node = document.createElement('dt');
+            let dt4Class = document.createAttribute('class');
+            dt4Class.value = 'col';
+            dt4Node.setAttributeNode(dt4Class);
+            dl3Node.appendChild(dt4Node);
+
+            for (let p=5;p<blogArray[i].length;p++) {
+                let newPNode = document.createElement('p');
+                constructParagraph(blogArray[i][p],newPNode);
+                dt4Node.appendChild(newPNode);
+            }
+        }
 
 
         startBlogNode.appendChild(div1);
