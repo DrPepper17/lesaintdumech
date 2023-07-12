@@ -23,7 +23,7 @@ const blogArray = [
     [
         '2023-07-03',
         'Happy Fourth !!!',
-        'img/projects/gundams/oldglory/oldglory14.jpeg',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/oldglory15_eGREgFtS5ru7kwrr5vsofU.jpeg',
         [
             [
                 'Just uploaded this week\'s post, and did so just in time for the July Fourth holiday. In honor of Independence Day and in Honor of freedom for all, this week\'s unveil is my USA themed MGSD Gundam Freedom, the ',
