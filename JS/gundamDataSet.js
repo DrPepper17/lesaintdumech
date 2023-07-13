@@ -184,12 +184,12 @@ const models = [
             'Damselfly'
         ],
         [
-            'Standard Gundam Operating System',
+            'OS: Standard Gundam Operating System',
             'Self-Destruct System'
         ],
         'Hajime Katoki',
         false,
-        false,
+        'Gundam 03',
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/heavyarmsew.jpeg','Gundam Heavyarms EW'],
         true
@@ -209,7 +209,7 @@ const models = [
         ['Neo Germany','Shuffle Alliance','Dark Gundam','Kasshu Family','13th Gundam Fight'],
         [16.3,'16.3 Meters'],
         [7.3,'7.3 Metric Tons'],
-        'Gundanium Alloy super ceramic composite',
+        'Gundanium Alloy Super Ceramic Composite',
         'Ultracompact Fusion Reactor',
         ['Spiegel Blades (x2)',
             'Iron Net',
@@ -1998,7 +1998,7 @@ const models = [
         'Ultracompact Nuclear Fission Reactor',
         [
             'MMI-GAU1 "Sagittus" 20mm CIWS (x4)',
-            'Shoulder RQM51 "Bassel" Beam Boomerang (x2)'
+            'Shoulders: RQM51 "Bassel" Beam Boomerang (x2)'
         ],
         [
             'MA-M20 "Lupus" Beam Rifle',
@@ -2022,7 +2022,282 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/justice.jpeg','Justice Gundam'],
         true
-    ]
+    ],
+    [53,1,'Infinite Justice Gundam',
+        'ZGMF-X19A \u221e Justice Gundam',
+        'ZGMF-X19A',
+        'Mobile Suit Gundam SEED Destiny',
+        false,
+        ['ZGMF-X09A Justice Gundam'],
+        false,
+        'Cosmic Era',
+        [74,'74 C.E.','Present'],
+        'Athrun Zala',
+        ['Lacus Clyne'],
+        'Terminal',
+        ['Three Ships Alliance','Terminal','Orb Union','Archangel Corps'],
+        [18.9,'18.9 Meters'],
+        [79.67,'79.g7 Metric Tons'],
+        false,
+        'Hyper-Deuterion Engine',
+        [
+            'MMI-GAU26 17.5mm CIWS (x4)',
+            'MMI-M19L 14mm Twin CIWS (x2)',
+            'Legs: MR-Q15A "Griffon" Beam Blade (x2)'
+        ],
+        [
+            'MA-M1911 High-energy Beam Rifle',
+            'MX2002 Carrier Beam Shield',
+            'Shield: RQM55 "Shining Edge" Beam Boomerang',
+            'Shield Mounted: EEQ8 Grapple Stinger',
+            'MA-M02G "Super Lacerta" Beam Saber (x2)',
+            'Fatum-01',
+            'Fatum: MA-6J "Hyper Fortis" Beam Cannon (x2)',
+            'Fatum: MA-M02G "Super Lacerta" Beam Saber',
+            'Fatum: MA-M02S "Preface Lacerta" Beam Saber (x2)',
+            'Fatum: MR-Q17X "Griffon 2" Beam Blade (x2)',
+            'METEOR Unit'
+        ],
+        [
+            'OS: Generation Unsubdued Nuclear Drive Assault Module Complex',
+            'Variable Phase Shift Armor',
+            'Neutron Jammer Canceller',
+            'Multi Lock-On System',
+        ],
+        'Kunio Okawara',
+        false,
+        'Justice',
+        false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/infjustice.jpeg','Infinite Justice Gundam'],
+        true
+    ],
+    [54,1,'Wing Gundam',
+        'XXXG-01W Wing Gundam',
+        'XXXG-01W',
+        'Mobile Suit Gundam Wing',
+        false,
+        ['XXXG-00W0 Wing Gundam Zero'],
+        false,
+        'After Colony',
+        [195,'April 7, 195 A.C.',195],
+        'Heero Yuy',
+        ['Trowa Barton','Lady Une'],
+        'Jay Null',
+        ['Colony Liberation Organization','G Team','Operation Meteor','Sanc Kingdom'],
+        [16.3,'16.3 Meters'],           //Height
+        [7.1,'7.1 Metric Tons'],        //Weight
+        'Gundanium Alloy',
+        'Ultracompact Fusion Reactor',
+        [
+            'Vulcan Gun (x2)',
+            'Machine Cannon (x2)'
+        ],
+        [
+            'Buster Rifle',
+            'Beam Saber',
+            'Anti Beam Coating Shield'
+        ],
+        [
+            'OS: Standard Gundam Operating System',
+            'Bird Mode',
+            'Search Eye',
+            'Self-Destruct System'
+        ],
+        'Kunio Okawara',
+        false,
+        'Gundam 01',
+        false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/wingtv.jpeg','Wing Gundam'],
+        true
+    ],
+    [55,1,'Dom Test Type',
+        'YMS-08B Dom Test Type',
+        'YMS-08B',
+        'Mobile Suit Discovery',
+        false,
+        [
+            'MS-06RD-4 Zaku High Mobility Test Type',
+            'MS-07C-5 Gouf Test Prototype',
+            'YMS-08A High Mobility Prototype'
+        ],
+        ['MS-09 Dom','MS-09R Rick Dom'],
+        'Universal Century',
+        false,
+        'Vasily Bosch',
+        ['Zeon Pilots'],
+        'Zimmad',
+        ['Principality of Zeon','Y-02 Development and Training Team'],
+        [18,'18.0 Meters'],
+        false,
+        false,
+        false,
+        false,
+        [
+            'Heat Saber',
+            'Beam Bazooka'
+        ],
+        false,
+        false,
+        false,
+        false,
+        false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/domtesttype_Large.jpeg','Dom Test Type'],
+        false
+    ],
+    [56,1,'Gundam Rose',
+        'GF13-009NF Gundam Rose',
+        'GF13-009NF',
+        'Mobile Fighter G Gundam',
+        false,
+        false,
+        ['GF13-009NFII Gundam Versailles'],
+        'Future Century',
+        [60,'60 F.C.',60],
+        'George de Sand',
+        false,
+        'Neo France',
+        ['Neo France','Shuffle Alliance','13th Gundam Fight'],
+        [16.2,'16.2 Meters'],
+        [13.1,'13.1 Metric Tons'],
+        'Gundanium Alloy Super Ceramic Composite',
+        'Ultracompact Fusion Reactor',
+        [
+            'Vulcan Gun (x2)',
+        ],
+        [
+            'Chevalier Beam Saber',
+            'Rose Bits (x100s)',
+            'Corelander'
+        ],
+        [
+            'Mobile Trace System',
+        ],
+        'Kunio Okawara',
+        false,
+        false,
+        false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/Gundam_rose_Large.jpeg','Gundam Rose'],
+        true
+    ],
+    [57,1,'Akatsuki',
+        'ORB-01 Akatsuki Gundam',
+        'ORB-01',
+        'Mobile Suit Gundam SEED Destiny',
+        false,
+        ['GAT-X105 Strike Gundam'],
+        false,
+        'Cosmic Era',
+        [74,'74 C.E.','Present'],
+        'Cagalli Yula Athha',
+        ['Mu La Flaga'],
+        'Morgenroete',
+        ['Orb Union','Three Ships Alliance'],
+        [18.74,'18.74 Meters'],
+        [69.6,'69.6 Metric Tons'],
+        false,
+        'Ultracompact Energy Battery',
+        [
+            'M2M5D 12.5mm CIWS (x2)'
+        ],
+        [
+            'Type 73J2 Experimental Twin Beam Saber (x2)',
+            'Type 72D5 "Hyakurai" Beam Rifle',
+            'Type 71 Experimental Defensive Shield',
+            'Optional Equipment: Oowashi Sky Pack',
+            'Oowashi Sky Pack: Type-73F Kai High-Energy Beam Cannon (x2)',
+            'Optional Equipment: Shiranui Space Pack',
+            'Shiranui Space Pack: M531R Guided Mobile Beam Turret System (x7)'
+        ],
+        [
+            'OS: General Unilateral Neuro-link Dispersive Autonomic Maneuver',
+            'Striker Pack System'
+        ],
+        'Kunio Okawara',
+        false,
+        false,
+        false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/akatsuki_Large.jpeg','Akatsuki Gundam'],
+        true
+    ],
+    [58,1,'FF Nu Gundam',
+        'RX-93ff \u03BD Gundam',
+        'RX-93ff',
+        'Gundam Breaker Mobile',
+        false,
+        ['RX-93 \u03BD Gundam'],
+        false,
+        'Universal Century',
+        false,
+        'Amuro Ray',
+        false,
+        'Side-F',
+        ['Earth Federation','Londo Bell'],
+        [24.8,'24.8 Meters'],
+        [20.5,'20.5 Metric Tons'],
+        'Luna Titanium (Gundarium Alloy',
+        'Minovsky Ultracompact Fusion Reactor',
+        [
+            '60mm Vulcan Gun (x2)',
+            'Fin Funnels (x6)',
+            'Birdlime Launchers',
+            'Dummy Launchers'
+        ],
+        [
+            'Long-Range Fin Funnel',
+            'Beam Saber',
+            'Spare Beam Saber',
+            'Beam Rifle',
+            'New Hyper Bazooka',
+            'Shield (w/ integrated 7.8 MW beam cannont and missile launchers)'
+        ],
+        [
+            'Psycho-Frame Cockpit'
+        ],
+        'Masatake Kawahara',
+        false,
+        false,
+        false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/rx93ff.jpeg','RX93ff'],
+        true
+    ],
+    [59,1,'Dark Army',
+        'JDG-009X Dark Army',
+        'JDG-009X',
+        'Mobile Fighter G Gundam',
+        false,
+        false,
+        [
+            'Death Dragon',
+            'Death Master',
+            'Death Beast',
+            'Death Birdie',
+            'Death Navy'
+        ],
+        'Future Century',
+        [60,'60 F.C.',60],
+        'Dark Gundam Corps',
+        false,
+        'Dark Gundam',
+        ['Dark Gundam'],
+        false,
+        false,
+        'DG Cells',
+        'Ultra Compact Fusion Reactor',
+        [
+            'Spiked Knuckle (x2)'
+        ],
+        [
+            'Beam Rifle',
+            'Death Rifle'
+        ],
+        false,
+        'Hajime Katoki',
+        false,
+        'Death Army',
+        false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/deatharmy.jpeg','Dark Army'],
+        false
+    ] 
 ];
 
 /*
@@ -2532,7 +2807,45 @@ const projects = [
         [1,'Tallgeese Fl\u00FCgel'],'MG',true,true,false,'Wing','D','2022-05-08',20.17,false,'Builds/PBTallgeeseFlugelMG.html',false
     ],
     ['Wild Wing',[1,'Wing Gundam'],'MG',
-        false,false,false,'Wing','E','2021-07-06',60.48,true,'Builds/WildWing.html',[''],'2022-02-14'
+        false,false,false,'Wing','E','2021-07-06',60.48,true,'Builds/Gundams/WildWing.html',false,'2022-02-14',models[54],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/wildwing01.jpeg','Gundam Wild Wing','img1'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/wildwing02.jpeg','Gundam Wild Wing','img2'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/wildwing03.jpeg','Gundam Wild Wing','img3'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/wildwing04.jpeg','Gundam Wild Wing','img4'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/wildwing05.jpeg','Gundam Wild Wing','img5'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/wildwing06.jpeg','Gundam Wild Wing','img6'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/wildwing07.jpeg','Gundam Wild Wing','img7'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/wildwing08.jpeg','Gundam Wild Wing','img8'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/wildwing09.jpeg','Gundam Wild Wing','img9'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/wildwing10.jpeg','Gundam Wild Wing','img10'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/wildwing11.jpeg','Gundam Wild Wing','img11'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/wildwing12.jpeg','Gundam Wild Wing','img12'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/wildwing13.jpeg','Gundam Wild Wing','img13'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/wildwing14.jpeg','Gundam Wild Wing','img14'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/wildwing15.jpeg','Gundam Wild Wing','img15'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/wildwing16.jpeg','Gundam Wild Wing','img16'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/wildwing17.jpeg','Gundam Wild Wing','img17'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/wildwing18.jpeg','Gundam Wild Wing','img18'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/wildwing19.jpeg','Gundam Wild Wing','img19'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/wildwing20.jpeg','Gundam Wild Wing','img20'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/wildwing21.jpeg','Gundam Wild Wing','img21'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/wildwing22.jpeg','Gundam Wild Wing','img22'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/wildwing23.jpeg','Gundam Wild Wing','img23'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/wildwing24.jpeg','Gundam Wild Wing','img24'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/wildwing25.jpeg','Gundam Wild Wing','img25'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/wildwing26.jpeg','Gundam Wild Wing','img26'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/wildwing27.jpeg','Gundam Wild Wing','img27'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/wildwing28.jpeg','Gundam Wild Wing','img28'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/wildwing29.jpeg','Gundam Wild Wing','img29'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/wildwing30.jpeg','Gundam Wild Wing','img30']
+        ],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/wildwing27.jpeg','Profile Photo: Gundam Wild Wing'],
+        'So I happen to be a huge wings fan and an avid patron to the chain Buffalo Wild Wings, well up until they locked me out of my Blazing Rewards account over a year ago. They claim it\'s a computer glitch, but I\'m convinced they did it on purpose due to my high point balance I\'ve accumulated (like for real I really did use to eat there all the time; like three times a week). But that\'s enought about B-Dubs. At the time I had only done a few projects with the airbrush, but only much smaller models, SDs and HGs. But by this point I was finally starting to get the hang of it and feeling adventurous that I wanted to take on something larger but I had no idea what. Then one evenign I happened to be driving past the the local B-Dubs and I noticed the buffalo logo on their sign and it dawned on me... \'Wing Gundam\'... \'Buffalo Wild WINGS\', WING and WINGS. A la Gundam Wild Wing was born. This project has lots of special meaning to me. One, this was my first ever Master Grade kit I painted with the Airbrush. But the Wing Gundam itself was the first Gundam of them all I became introduced to which opened the whole Gundam Universe up to me. It holds great significance to me in my heart. In essance it\'s the Gundam for me that started it all. Therefore I am proud to present to you, the Gundam Wild Wing !!!',false,
+        [
+            ['USA Gundam Store','https://www.usagundamstore.com/products/mg-wing-gundam'],
+            ['NewType','https://newtype.us/p/vsAyif43MfJi4I0Q8OZp/h/mg-xxxg-01w-wing-gundam']
+        ],false,false,true,'1:100'
     ],
     ['Wing Gundam [RG]',[1,'Wing Gundam'],'RG',true,false,false,'Wing','E','2021-07',12.59,false,false,false,'2022-02-07'],
     ['Wing Zero Clear',
@@ -2885,8 +3198,47 @@ const projects = [
     ['Bald Eagle',[1,'Astray Blue Frame'],'MG',false,false,false,'Seed','B'],
     ['Raphael',[1,'Astray Gold Frame'],'SD',false,false,false,'Seed','B'],
     ['Oowashi Akatsuki [HG]',[1,'Akatsuki, Oowsahi'],'HG',true,false,false,'Seed','E','2021-12-18',2.67,false,false,false,'2022-04-26'],
-    ['Rising Sun',[1,'Akatsuki, Oowashi'],'HG',false,false,false,'Seed','E','2021-11-05',17.28,false,'Builds/RisingSun.html',[''],'2022-04-28'],
-    ['King Mars',[1,'Akatsuki, Shiranui'],'HG',false,false,false,'Seed','D','2022-05-06',13.67,false,'Builds/KingMars.html',['']],
+    ['Rising Sun',[1,'Akatsuki, Oowashi'],'HG',
+        false,false,false,'Seed','E','2021-11-05',17.28,false,'Builds/Gundams/RisingSun.html',false,'2022-04-28',models[57],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/risingsun01.jpeg','Akatsuki Oowashi Straight Build','img1'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/risingsun02.jpeg','Akatsuki Oowashi Straight Build','img2'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/risingsun03.jpeg','Akatsuki Oowashi Straight Build','img3'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/risingsun04.jpeg','Akatsuki Oowashi Straight Build','img4'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/risingsun05.jpeg','Akatsuki Oowashi Straight Build','img5'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/risingsun06.jpeg','Akatsuki Oowashi Straight Build','img6'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/risingsun07.jpeg','Akatsuki Oowashi Straight Build','img7'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/risingsun08.jpeg','Akatsuki Oowashi Straight Build','img8'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/risingsun09.jpeg','Akatsuki Oowashi Straight Build','img9'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/risingsun10.jpeg','Akatsuki Oowashi Straight Build','img10'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/risingsun11.jpeg','Akatsuki Oowashi Straight Build','img11'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/risingsun12.jpeg','Oowashi Flight Unit Straight Build','img12'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/risingsun13.jpeg','Gundam Rising Sun','img13'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/risingsun14.jpeg','Gundam Rising Sun','img14'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/risingsun15.jpeg','Gundam Rising Sun','img15'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/risingsun16.jpeg','Gundam Rising Sun','img16'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/risingsun17.jpeg','Gundam Rising Sun','img17'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/risingsun18.jpeg','Gundam Rising Sun','img18'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/risingsun19.jpeg','Gundam Rising Sun','img19'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/risingsun20.jpeg','Gundam Rising Sun','img20'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/risingsun21.jpeg','Rising Sun Flight Unit','img21'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/risingsun22.jpeg','Rsing Sun Flight Unit','img22'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/risingsun23.jpeg','Rising Sun and Straight Build','img23'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/risingsun24.jpeg','Gundam Rising Sun','img24'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/risingsun25.jpeg','Gundam Rising Sun','img25'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/risingsun26.jpeg','Rising Sun and Straight Build','img26']
+        ],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/risingsun19.jpeg','Profile Photo: Gundam Rising Sun'],
+        'So the defining factor of the Akatsuki in the show has always been its shiny goldness. Which no lie is really, really cool and inspired me to want to build this for that factor alone. I originally had done just a straight build of this as is, out of the box. But I was not impressed by the cheap chrome of the plastic. It just did not live up to the hype of the tv show. not oing to lie I was a bit let down. Therefore I decided to build it again but this time paint it with the shiniest gold paint I could fine, just to make it live up to the legend. And for that I used Turbo Dork paint, All That Glitters. And it definitely was a huge improvement over the plastic out of the box. I definitely like mine way better.',false,
+        [
+            ['USA Gundam Store','https://www.usagundamstore.com/products/hg-1-144-40-oowashi-akatsuki-gunda'],
+            ['NewType','https://newtype.us/p/TVltE6umkrkynKYjjE0a/h/hgseed-40-orb-01-owashi-akatsuki-gundam'],
+            ['Turbo Dork: All That Glitters','https://turbodork.com/products/all-that-glitters']
+        ],false,false,true,'1:144',false,'Akatsuki: Oowashi Pack'
+    ],
+    ['King Mars',[1,'Akatsuki, Shiranui'],'HG',
+        false,false,false,'Seed','D','2022-05-06',13.67,false,'Builds/Gundams/KingMars.html',false,'',models[57],
+    ],
     ['Archangel',[2,'Archangel','Archangel'],'Ship',
         false,false,false,'Seed','E','2021-08-06',76.63,false,'Builds/Ships/Archangel.html',false,'2022-01-10',models[15],
         [
@@ -3385,7 +3737,22 @@ const projects = [
             ['NewType','https://newtype.us/p/IztRvBhzZPTcUVemeUIR/h/sdgg-268-zgmf-x09a-justice-gundam']
         ],'Don\'t Tread On Ye',true,true,false
     ],
-    ['PB Clear \u221e Justice [RG]',[1,'Infinite Justice'],'RG',true,true,false,'Seed','E','2021-11-09',4.93,false,'Builds/PBInfiniJusticeRG.html',false,'2022-05-03'],
+    ['\u221e Justice Clear',[1,'Infinite Justice'],'RG',
+        true,true,false,'Seed','E','2021-11-09',4.93,false,'Builds/PBandai/PBInfiniJusticeRG.html',false,'2022-05-03',models[53],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbijust01.jpeg','P-Bandai Infinite Justice Clear','img1'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbijust02.jpeg','P-Bandai Infinite Justice Clear','img2'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbijust03.jpeg','P-Bandai Infinite Justice Clear','img3'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbijust04.jpeg','P-Bandai Infinite Justice Clear','img4'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbijust05.jpeg','P-Bandai Infinite Justice Clear','img5'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbijust06.jpeg','P-Bandai Infinite Justice Clear','img6'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbijust07.jpeg','P-Bandai Infinite Justice Clear','img7']
+        ],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/pbijust03.jpeg','Profile Photo: PB Infinite Justice Clear'],false,false,
+        [
+            ['Premium Bandai','https://p-bandai.com/us/item/N2519700001001']
+        ],false,false,true,'1:144'
+    ],
     ['Oppression',[1,'Infinite Justice'],'MG',false,false,false,'Seed','B'],
     ['Canis Alpha',[1,'LaGOWE'],'HG',false,false,false,'Seed','A'],
     ['Zoroaster',[1,'Legend'],'FM',false,false,false,'Seed','B'],
@@ -3517,7 +3884,29 @@ const projects = [
     ['PB Burning Gundam [RG]',[2,'Burning Gundam','Burning Gundam Expansion Pass','Burning Gundam LED lights'],'RG',true,true,false,'G','C','2022-09-07',15.5,true,'Builds/PBBurningGUndamRG.html',false],
     ['Michael',[1,'Burning Gundam'],'SD',false,false,false,'G','B'],
     ['Furcas',[1,'Dark Army'],'HG',false,false,false,'G','B'],
-    ['Malphas',[1,'Dark Army'],'HG',false,false,false,'G','E','2022-09-08',5.83,false,'Builds/Malphas.html',[''],'2023-01-23'],
+    ['Malphas',[1,'Dark Army'],'HG',
+        false,false,false,'G','E','2022-09-08',5.83,false,'Builds/Gundams/Malphas.html',false,'2023-01-23',models[59],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/malphas01.jpeg','Malphas','img1'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/malphas02.jpeg','Malphas','img2'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/malphas03.jpeg','Malphas','img3'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/malphas04.jpeg','Malphas','img4'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/malphas05.jpeg','Malphas','img5'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/malphas06.jpeg','Malphas','img6'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/malphas07.jpeg','Malphas','img7'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/malphas08.jpeg','Malphas','img8'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/malphas09.jpeg','Malphas','img9'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/malphas10.jpeg','Malphas','img10']
+        ],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/malphas08.jpeg','Profile Photo: Malphas'],
+        'Part of my Ars Goetia project, this model was named after one of the Presidents of hell, Malphas. For color scheme, I basically took my color scheme from King Leir and decided to apply it to other kits. So far the paint scheme appears to be pretty universal, it can apply to anything. On this one in particular it came out looking nice.',false,
+        [
+            ['USA Gundam Store','https://www.usagundamstore.com/products/hgfc-1-144-230-death-army'],
+            ['NewType','https://newtype.us/p/jyG6L0YpSElExWI5jPd7/h/hgfc-230-death-army'],
+            ['Malphas','https://en.wikipedia.org/wiki/Malphas'],
+            ['Ara Goetia','https://en.wikipedia.org/wiki/List_of_demons_in_the_Ars_Goetia']
+        ],['King Leir'],true,true,'1:144'
+    ],
     ['Asmodeus',[1,'Dark Gundam'],'SD',false,false,false,'G','B'],
     ['Baal',[1,'Dark Gundam'],'HG',false,false,false,'G','B'],
     ['Balam',[1,'Dark Gundam'],'HG',false,false,false,'G','B'],
@@ -3526,7 +3915,26 @@ const projects = [
     ['Dark Gundam [SD]',[1,'Dark Gundam'],'SD',true,false,false,'G','D','2022-08-07',1.75,false,false,false],
     ['Paimon',[1,'Dark Gundam'],'SD',false,false,false,'G','B'],
     ['PB Gundam Rose [HG]',[1,'Rose Gundam'],'HG',true,true,false,'G','A'],
-    ['Le Roi Soleil',[1,'Rose Gundam'],'HG',false,false,false,'G','E','2022-08-09',4.17,false,'Builds/RoiSoleil.html',[''],'2022-12-12'],
+    ['Le Roi Soleil',[1,'Rose Gundam'],'HG',
+        false,false,false,'G','E','2022-08-09',4.17,false,'Builds/Gundams/RoiSoleil.html',false,'2022-12-12',models[56],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/roisoleil01.jpeg','Le Roi Soleil','img1'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/roisoleil02.jpeg','Le Roi Soleil','img2'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/roisoleil03.jpeg','Le Roi Soleil','img3'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/roisoleil04.jpeg','Le Roi Soleil','img4'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/roisoleil05.jpeg','Le Roi Soleil','img5'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/roisoleil06.jpeg','Le Roi Soleil','img6'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/roisoleil07.jpeg','Le Roi Soleil','img7'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/roisoleil08.jpeg','Le Roi Soleil','img8'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/roisoleil09.jpeg','Le Roi Soleil','img9'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/roisoleil10.jpeg','Le Roi Soleil','img10']
+        ],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/roisoleil09.jpeg','Profile Photo: Le Roi Soleil'],false,false,
+        [
+            ['Video','https://www.instagram.com/reel/CmFot3-sGX-/?igshid=YzcxN2Q2NzY0OA==']
+        ],false,true,true,'1:144','The Sun King'
+
+    ],
     ['Gabriel',[1,'Shining Gundam'],'SD',false,false,false,'G','B'],
     ['Red Baron',[1,'Spiegel, Gundam'],'MG',
         false,false,false,'G','E','2021-05-05',72.07,true,'Builds/Gundams/RedBaron.html',false,'2021-05-29',models[2],
@@ -3873,7 +4281,32 @@ const projects = [
             ['NewType','https://newtype.us/p/FwGjUKw2TJtylxXE2GUp/h/sdbb-379-delta-plus']
         ],false,true,true,false
     ],
-    ['Interstellar',[1,'Dom Test Type'],'HG',false,false,false,'UC','E','2022-08-06',14.07,false,'Builds/Interstellar.html',[''],'2022-11-14'],
+    ['Interstellar',[1,'Dom Test Type'],'HG',
+        false,false,false,'UC','E','2022-08-06',14.07,false,'Builds/Gundams/Interstellar.html',false,'2022-11-14',models[55],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/interstellar01.jpeg','Interstellar','img1'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/interstellar02.jpeg','Interstellar','img2'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/interstellar03.jpeg','Interstellar','img3'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/interstellar04.jpeg','Interstellar','img4'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/interstellar05.jpeg','Interstellar','img5'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/interstellar06.jpeg','Interstellar','img6'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/interstellar07.jpeg','Interstellar','img7'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/interstellar08.jpeg','Interstellar','img8'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/interstellar09.jpeg','Interstellar','img9'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/interstellar10.jpeg','Interstellar','img10'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/interstellar11.jpeg','Interstellar','img11'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/interstellar12.jpeg','Interstellar','img12'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/interstellar13.jpeg','Interstellar','img13']
+        ],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/interstellar12.jpeg','Profile Photo: Interstellar Dom Test Type'],
+        'Whole point of this project was pretty much just to test out the Turbo Dork paint, Rainbow Roll.',false,
+        [
+            ['Video','https://www.instagram.com/reel/Ck9q2OdszjF/?igshid=YzcxN2Q2NzY0OA=='],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/hg-the-origin-1-144-007-yms-08b-dom-test-type'],
+            ['NewType','https://newtype.us/p/O92LcR7Vr8loQn1HmU4p/h/hggto-007-yms-08b-dom-test-type'],
+            ['Turbo Dork: Rainbow Roll','https://turbodork.com/products/rainbow-roll']
+        ],false,true,true,'1:144','DOM Interstellar  Test Type'
+    ],
     ['Rhea',[1,'RX-75 Guntank'],'SD',false,false,false,'UC','B'],
     ['Theia',[1,'Kshatriya'],'SD',false,false,false,'UC','D','2022-12-08',12.03,false,'Builds/Theia.html',['']],
     ['Nachtigall',[1,'Nightingale'],'SD',false,false,false,'UC','B'],
@@ -3908,8 +4341,44 @@ const projects = [
         ],
         false,true,true,false
     ],   //pi gundam
-    ['PB BB Senshi RX-93ff \u03bd Gundam [SD]',[1,'Nu Gundam, ff'],'SD',true,true,false,'UC','E','2023-03-13',2.83,false,'Builds/PBRX93ff.html',false,'2023-04-24'],
-    ['PB RX-93ff \u03bd Gundam [RG]',[1,'Nu Gundam, ff'],'RG',true,true,false,'UC','E','2023-03-14',14.5,false,'Builds/PBRX93ff.html',false,'2023-04-25'],
+    ['BB Senshi RX-93ff \u03bd',[1,'Nu Gundam, ff'],'SD',
+        true,true,false,'UC','E','2023-03-13',2.83,false,'Builds/PBandai/BBSenshi93ff.html',false,'2023-04-24',models[58],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/bbsenshi01.jpeg','BB Senshi RX-93ff','img1'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/bbsenshi02.jpeg','BB Senshi RX-93ff','img2'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/bbsenshi03.jpeg','BB Senshi RX-93ff','img3'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/bbsenshi04.jpeg','BB Senshi RX-93ff','img4'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/bbsenshi05.jpeg','BB Senshi RX-93ff','img5'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/bbsenshi06.jpeg','BB Senshi RX-93ff','img6'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/bbsenshi07.jpeg','BB Senshi RX-93ff','img7'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/bbsenshi08.jpeg','BB Senshi RX-93ff','img8'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/bbsenshi09.jpeg','BB Senshi RX-93ff','img9'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/bbsenshi10.jpeg','BB Senshi RX-93ff','img10']
+        ],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/bbsenshi02.jpeg','Profile Photo: BB Senshi RX-93ff'],false,false,
+        [
+            ['Premium Bandai','https://p-bandai.com/us/item/N2605386001002']
+        ],['RX-93ff \u03bd'],false,true
+    ],
+    ['RX-93ff \u03bd',[1,'Nu Gundam, ff'],'RG',
+        true,true,false,'UC','E','2023-03-14',14.5,false,'Builds/PBandai/PB93ff.html',false,'2023-04-25',models[58],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/rx93ff01.jpeg','RX-93ff','img1'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/rx93ff02.jpeg','RX-93ff','img2'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/rx93ff03.jpeg','RX-93ff','img3'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/rx93ff04.jpeg','RX-93ff','img4'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/rx93ff05.jpeg','RX-93ff','img5'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/rx93ff06.jpeg','RX-93ff','img6'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/rx93ff07.jpeg','RX-93ff','img7'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/rx93ff08.jpeg','RX-93ff','img8'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/rx93ff09.jpeg','RX-93ff','img9'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/rx93ff10.jpeg','RX-93ff','img10']
+        ],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/rx93ff07.jpeg','Profile Photo: RX-93ff'],false,false,
+        [
+            ['Premium Bandai','https://p-bandai.com/us/item/N2604206001002']
+        ],['BB Senshi RX-93ff \u03bd'],false,true
+    ],
     ['Milos',[1,'Nu Gundam, Hi'],'SD',false,false,false,'UC','B'],
     ['PB Umbrella Corp',[2,'Nu Gundam, Hi','Hi Nu Expansion Pack','Hi Nu Hyper Bazooka'],'RG',false,true,false,'UC','A'],
     ['Bella Donna',[2,'Phenex','Phenex'],'SD',
