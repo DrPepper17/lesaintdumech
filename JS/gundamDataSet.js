@@ -3904,7 +3904,7 @@ const projects = [
             ['USA Gundam Store','https://www.usagundamstore.com/products/hgfc-1-144-230-death-army'],
             ['NewType','https://newtype.us/p/jyG6L0YpSElExWI5jPd7/h/hgfc-230-death-army'],
             ['Malphas','https://en.wikipedia.org/wiki/Malphas'],
-            ['Ara Goetia','https://en.wikipedia.org/wiki/List_of_demons_in_the_Ars_Goetia']
+            ['Ars Goetia','https://en.wikipedia.org/wiki/List_of_demons_in_the_Ars_Goetia']
         ],['King Leir'],true,true,'1:144'
     ],
     ['Asmodeus',[1,'Dark Gundam'],'SD',false,false,false,'G','B'],
