@@ -3667,7 +3667,7 @@ const projects = [
             ['Premium Bandai','https://p-bandai.com/us/item/N2519710001001']
         ],false,false,true,'1:144'
     ],
-    ['F-23',[1,'Flag'],'HG',false,false,false,'00','B'],
+    ['Federation Trooper',[1,'Flag'],'HG',false,false,false,'00','B'],
     ['Harute (Final Battle)',[1,'Harute'],'HG',
         true,true,false,'00','E','2022-03-08',5.75,false,'Builds/PBandai/PBHaruteFinalHG.html',false,'2022-11-21',models[70],
         [
@@ -3952,6 +3952,11 @@ const projects = [
             ['NewType','https://newtype.us/p/V3s94PjelBrA0T06Q673/h/hgce-237-gat-o2l2-dagger-l']
         ],['Armageddon','Samus: Varia Suit','Malphas'],false,true,'1:144'
     ],
+    ['Samus: Dark Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','A'],
+    ['Samus: Fusion Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','A'],
+    ['Samus: Gravity Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','A'],
+    ['Samus: Light Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','A'],
+    ['Samus: Phazon Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','A'],
     ['Samus: Varia Suit',[1,'Dagger L'],'HG',
         false,false,false,'Seed','C','2023-06-13',6.33,false,'Builds/Gundams/VariaSuit.html',['Tamiya: Gold TS-21 Can','Testors: Sunflower 1191','Tamiya: Matt Black TS-6 Can','Vallejo Game Color: Fluorescent Green 72.104','Tamiya: Gun Metal TS-38 Can'],false,models[23],
         [
@@ -4471,6 +4476,8 @@ const projects = [
             ['NewType','https://newtype.us/p/NsPxBG5t6hpfpZqSAuWb/h/sdbb-293-gat-x105e-strike-noir-gundam']
         ],false,true,true,false
     ],
+    ['Dark Samus: Echoes',[1,'Windam'],'HG',false,false,false,'Seed','A'],
+    ['Dark Samus: Corruption',[1,'Windam'],'HG',false,false,false,'Seed','A'],
     ['Oberon',[1,'Windam'],'HG',
         false,false,false,'Seed','E','2022-03-05',20.25,false,'Builds/Gundams/Oberon.html',false,'2022-05-09',models[24],
         [
