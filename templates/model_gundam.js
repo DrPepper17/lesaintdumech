@@ -31,6 +31,6 @@
     SDWHero,                //boolean
     'AlternateNickname',
     MobileArmor,            //boolean
-    ['img/models/xxx.jpeg','PhotoAltText'],
+    ['','PhotoAltText'],
     IsGundam           //boolean
 ]

@@ -6,7 +6,10 @@ li {
 ul {
     margin-bottom: 0px;
 }
-
+.curse {
+    font-family: Georgia, 'Times New Roman', Times, sans-serif;
+    font-size: 1.2em;
+}
 .row {
     margin-bottom: 20px;
 }
@@ -319,6 +322,9 @@ ul {
 .DigimonPage {
     display: none;
 }
+.dgAlternateHD {
+    display: none;
+}
 .dgAttributeHD {
     display: none;
 }
@@ -339,6 +345,8 @@ ul {
 }
 .dgNicknameHD {
     display: none;
+    font-family: "Apple Chancery", Times, sans-serif;
+    font-size: 1.3em;
 }
 .dgPartnerHD {
     display: none;

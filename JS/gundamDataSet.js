@@ -2297,7 +2297,496 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/deatharmy.jpeg','Dark Army'],
         false
-    ] 
+    ],
+    [60,1,'Strike Gundam',
+        'GAT-X105 Strike Gundam',
+        'GAT-X105',
+        'Mobile Suit Gundam SEED',
+        false,
+        false,
+        [
+            'GAT-01 Strike Dagger',
+            'MBF-02 Strike Rouge',
+            'ORB-01 Akatsuki Gundam',
+            'GAT-X105+AQM/E-YM1 Perfect Strike Gundam'
+        ],
+        'Cosmic Era',
+        [71,'January 25, 71 C.E.',71],
+        'Kira Yamato',
+        ['Mu La Flaga','Muru Ramius'],
+        'Morgenroete',
+        ['Earth Alliance','Orb Union','Archangel Corps','Three Ships Alliance'],
+        [17.72,'17.72 Meters'],           //Height
+        [64.8,'64.8 Metric Tons'],        //Weight
+        false,
+        'Ultracompact Energy Battery',
+        [
+            '"Igelstellung" 75mm Automatic Multi-barrel CIWS (x2)'
+        ],
+        [
+            '"Armor Schneider" Combat Knife (x2)',
+            '57mm High-energy Beam Rifle',
+            'Shield',
+            'XM404 "Grand Slam" Anti-Ship Sword',
+            'Strike Pack: AQM/W-XO1 Aile Striker',
+            'Aile Strike: Beam Sabers (x2)',
+            'Strike Pack: AQM/W-XO2 Sword Striker',
+            'Sword Strike: "Schwert Gewehr" 15.78m Anti-ship Sword',
+            'Sword Strike: "Panzer Eisen" Rocket Anchor',
+            'Sword Strike: "Midas Messer" Beam Boomerang',
+            'Strike Pack: AQM/W-XO3 Launcher Striker',
+            'Launcher Strike: "Agni" 320mm Hyper Impulse Cannon',
+            'Launcher Strike: 120mm Anti-Ship Vulcan Gun',
+            'Launcher Strike: 350mm Gun Launcher (x2)',
+            'Strike Pack: P202QX Lightning Striker',
+            'Lightning Strike: Type 70-31 Electromagnetic Cannon'
+        ],
+        [
+            'OS: General Unilateral Neuro-Link Dispersive Autonomic Maneuver Synthesis System',
+            'Phase Shift Armor',
+            'Striker Pack System'
+        ],
+        'Junichi Akutsu',
+        false,
+        false,
+        false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/strike_Large.jpeg','Strike Gundam'],
+        true
+    ],
+    [61,1,'Perfect Strike Gundam',
+        'GAT-X105+AQM/E-YM1 Perfect Strike Gundam',
+        'GAT-X105+AQM/E-YM1',
+        'Mobile Suit Gundam SEED',
+        false,
+        ['GAT-X105 Strike Gundam'],
+        false,
+        'Cosmic Era',
+        [71,'71 C.E.',71],
+        'Mu La Flaga',
+        false,
+        'Morgenroete',
+        ['Orb Union','Archangel Corps','Three Ships Alliance'],
+        [17.72,'17.72 Meters'],           //Height
+        [64.8,'64.8 Metric Tons'],        //Weight
+        false,
+        'Ultracompact Energy Battery + 4 Battery Packs',
+        [
+            '"Igelstellung" 75mm Automatic Multi-barrel CIWS (x2)'
+        ],
+        [
+            '"Armor Schneider" Combat Knife (x2)',
+            '57mm High-energy Beam Rifle',
+            'Shield',
+            'Beam Sabers (x2)',
+            '"Schwert Gewehr" 15.78m Anti-ship Sword',
+            '"Panzer Eisen" Rocket Anchor',
+            '"Midas Messer" Beam Boomerang',
+            '"Agni" 320mm Hyper Impulse Cannon',
+            '120mm Anti-Ship Vulcan Gun',
+            '350mm Gun Launcher (x2)'
+        ],
+        [
+            'OS: General Unilateral Neuro-Link Dispersive Autonomic Maneuver Synthesis System',
+            'Phase Shift Armor',
+            'Striker Pack System',
+            '4 Battery Packs'
+        ],
+        'Junichi Akutsu',
+        false,
+        false,
+        false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/perfectstrike_Large.jpeg','Strike Gundam'],
+        true
+    ],
+    [62,6,'MetalGarurumon',
+        'Figure-rise Standard Amplified MetalGarurumon',
+        'Mega',
+        ['WereGarurumon'],
+        ['Omnimon'],
+        'Cyborg',
+        'Data',
+        'Water',
+        'Garurumon Family',
+        false,
+        'Matt Ishida',
+        [18,'18 GB'],
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/metalgarurumon.jpeg','MetalGarurumon']
+    ],
+    [63,6,'Omnimon',
+        'Figure-rise Standard Amplified Omegamon',
+        'Ultra',
+        ['DNA-Digivolution: MetalGarurumon and Wargreymon'],
+        false,
+        'Holy Knight',
+        'Vaccine',
+        'Light',
+        'Royal Knights',
+        false,
+        'Tai Kamiya -n- Matt Ishida',
+        [25,'25 GB'],
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        'Omegamon',
+        'Legendary Warrior',
+        false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/omnimon_2.jpeg','Omnimon']
+    ],
+    [64,6,'Gallantmon',
+        'Figure-rise Standard Amplified Gallantmon',
+        'Mega',
+        ['WarGrowlmon'],
+        ['Gallantmon Crimson Mode'],
+        'Holy Knight',
+        'Virus',
+        'Light',
+        'Royal Knights',
+        false,
+        'Takato Matsuki',
+        [22,'22 GB'],
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        'Dukemon',
+        'Crimson Knight',
+        false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/gallantmon_2.jpeg','Omnimon']
+    ],
+    [65,5,'Hangar Bay',
+        '1/144 Gundam Hangar Bay',
+        'Unsure',
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/hangarbay_2.jpeg','Gundam Hangar Bay'],
+    ],
+    [66,5,'Gundam Maintenance Bay',
+        'Condensed Light Composable Action Base',
+        'Condensed Light',
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/compactbase.jpeg','Gundam Maintenance Bay'],
+        false
+    ],
+    [67,1,'Exia',
+        'GN-001 Gundam Exia',
+        'GN-001',
+        'Mobile Suit Gundam 00',
+        false,
+        ['GNY-001 Gundam Astraea'],
+        ['GN-0000 00 Gundam'],
+        'Anno Domini',
+        [2307,'2307 A.D.',2308],
+        'Setsuna F. Seiei',
+        false,
+        'Krung Thep',
+        ['Celestial Being'],
+        [18.3,'18.3 Meters'],           //Height
+        [57.2,'57.2 Metric Tons'],        //Weight
+        'E-Carbon',
+        'GN Drive',
+        [
+            'GN Vulcan (x2)'
+        ],
+        [
+            'GN Sword',
+            'GN Beam Dagger (x2)',
+            'GN Beam Saber (x2)',
+            'GN Long Blade',
+            'GN Short Blade',
+            'GN Shield'
+        ],
+        [
+            'Over Boost Mode',
+            'Optical Camouflage',
+            'Veda-Linked Operating System',
+            'Trans-Am System'
+        ],
+        'Kanetake Ebikawa',
+        false,
+        'Gundam Seven Swords',
+        false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/exia_Large.jpeg','Gundam Exia'],
+        true
+    ],
+    [68,1,'00 Raiser',
+        'GN-0000+GNR-010 00 Raiser',
+        'GN-0000+GNR-010',
+        'Mobile Suit Gundam 00: Season Two',
+        false,
+        ['GN-0000 00 Gundam','GNR-010 0 Raiser'],
+        ['GNT-0000 00 Qan[T]'],
+        'Anno Domini',
+        [2312,'2312 A.D.',2314],
+        'Setsuna F. Seisei',
+        ['Saji Crossroad'],
+        'Celestial Being',
+        ['Celestial Being'],
+        [18.3,'18.3 Meters'],
+        [75.1,'75.1 Metric Tons'],
+        'E-Carbon',
+        'Double GN Drives',
+        [
+            'GN Vulcan (x4)',
+            'GN Micro Missile (x8)',
+            'GN Beam Machine Gun (x2)'
+        ],
+        [
+            'GN Beam Saver (x2)',
+            'GN Shield (X2)',
+            'GN Sword II (x2)',
+            'GN Sword III',
+            'Seven Swords Pack'
+        ],
+        [
+            'Veda-Linked Operating System',
+            'Twin Drive System',
+            'Raiser System',
+            'GN Field',
+            'Trans-Am System',
+            'Trans-Am Burst System',
+            'Trans-Am Raiser'
+        ],
+        'Kanetake Ebikawa',
+        false,
+        false,
+        false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/ooraiser_Large.jpeg','00 Raiser Gundam'],
+        true
+    ],
+    [69,1,'Gundam 00 Diver',
+        'GN-0000DVR Gundam 00 Diver',
+        'GN-0000DVR',
+        'Gundam Build Divers',
+        false,
+        ['GN-0000 00 Gundam'],
+        ['GN-0000DVR/A Gundam 00 Diver Ace'],
+        false,
+        false,
+        'Riku Mikami',
+        false,
+        'Riku Mikami',
+        ['Build Divers'],
+        [18.3,'18,3 Meters'],
+        [55.5,'55.5 Metric Tons'],
+        false,
+        false,
+        [
+            'Armaments'
+        ],
+        [
+            'GN Beam Saber (x2)',
+            'GN Sword II (x2)'
+        ],
+        [
+            'Trans-Am System'
+        ],
+        'Kanetake Ebikawa',
+        false,
+        false,
+        false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/00diver.jpeg','00 Diver'],
+        true
+    ],
+    [70,1,'Gundam Harute',
+        'GN-011 Gundam Harute',
+        'GN-011',
+        'Mobile Suit Gundam 00 The Movie: Awakening of the Trailblazer',
+        false,
+        ['GN-007 Arios Gundam','GNR-101A GN Archer','GNR-010/XN XN Raiser'],
+        false,
+        'Anno Domini',
+        [2314,'2314 A.D.','Present'],
+        'Allelujah Haptism',
+        ['Marie Parfacy'],
+        'Celestial Being',
+        ['Celestial Being'],
+        [19.0,'19.0 Meters'],
+        [77.1,'77.1 Metric Tons'],
+        'E-Carbon',
+        'GN Drive',
+        [
+            'GN Cannon (x2)',
+            'GN Missile Container'
+        ],
+        [
+            'GN Sword Rifle (x2)',
+            'GN Scissor Bit (x10)',
+            'Optional: GN Booster (x2)'
+        ],
+        [
+            'Veda-Linked Operating System',
+            'Trans-Am System',
+            'Bit Control Sysem',
+            'Marute Mode'
+        ],
+        'Takayuki Yanase',
+        false,
+        false,
+        false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/harute.jpeg','Gundam Harute'],
+        true
+    ],
+    [71,1,'Gundam Zabanya',
+        'GN-010 Gundam Zabanya',
+        'GN-010',
+        'Mobile Suit Gundam 00 The Movie: Awakening of the Trailblazer',
+        false,
+        ['GN-006GNHW/R Cherudim Gundam GNHW/R'],
+        false,
+        'Anno Domini',
+        [2314,'2314 A.D.','Present'],
+        'Lockon Stratos',
+        ['Haro 1','Haro 2'],
+        'Celestial Being',
+        ['Celestial Being'],
+        [18.0,'18.0 Meters'],
+        [86.8,'86.8 Metric Tons'],
+        'E-Carbon',
+        'GN Drive',
+        [
+            '3-Tube GN Missile Pod (x20)',
+            '4-Tube GN Missile Pod (x4)'
+        ],
+        [
+            'GN Holster Bit (x14)',
+            'GN Pistol Bit/Rifle Bit II (x10)',
+            'GN Pistol Bit/Rifle Bit II (x4)'
+        ],
+        [
+            'Veda-Linked Operating System',
+            'Trans-Am System',
+            'Bit Control Sysem'
+        ],
+        'Takayuki Yanase',
+        false,
+        false,
+        false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/harute.jpeg','Gundam Harute'],
+        true
+    ],
+    [72,1,'Shin Musha Gundam',
+        'Prototype Close Quarters Combat Mobile Suit',
+        false,
+        'Gundam Musou',
+        false,
+        ['Musha Gundam'],
+        false,
+        false,
+        false,
+        'Gym Ghingham',
+        ['Yazan Gable'],
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        [
+            'Tanegashima Gun',
+            'Nichirinmaru Katana',
+            'Denkoumaru Naginata',
+            'Sankoumaru Jumonji Yari'
+        ],
+        [
+            'Mars Drive'
+        ],
+        'Hajime Katoki',
+        false,
+        false,
+        false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/shinmusha.jpeg','Shin Musha'],
+        true
+    ],
+    [73,1,'Eclipse Gundam Maneuver Striker ',
+        'MVF-X08+EW452HW Eclipse Gundam Maneuver Striker Pack Equipped',
+        'MVF-X08+EW452HW',
+        'Mobile Suit Gundam SEED Eclipse',
+        false,    //boolean
+        ['MVF-X08 Eclipse Gundam'],
+        false,
+        'Cosmic Century',
+        false,
+        'Tatsumi Hori',
+        false,
+        false,
+        ['ORB Union','Orb Disaster Relief Team'],
+        false,
+        false,
+        false,
+        'Ultracompact Energy Battery',
+        false,
+        false,
+        false,
+        false,
+        false,                //boolean
+        false,
+        false,            //boolean
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/maneuverstriker.jpeg','Eclipse Maneuver Strike'],
+        false           //boolean
+    ]
 ];
 
 /*
@@ -2851,14 +3340,14 @@ const projects = [
     ['Wing Zero Clear',
         [1,'Wing Zero'],'RG',true,true,false,'Wing','E','2021-11-10',6.15,false,'Builds/PBandai/PBZeroRG.html',false,'2022-04-19',models[32],
         [
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbclearzero01.jpeg','Premium-Bandai Wing Zero','img1'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbclearzero02.jpeg','Premium-Bandai Wing Zero','img2'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbclearzero03.jpeg','Premium-Bandai Wing Zero','img3'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbclearzero04.jpeg','Premium-Bandai Wing Zero','img4'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbclearzero05.jpeg','Premium-Bandai Wing Zero','img5'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbclearzero06.jpeg','Premium-Bandai Wing Zero','img6']
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbzc01.jpeg','Premium-Bandai Wing Zero','img1'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbzc02.jpeg','Premium-Bandai Wing Zero','img2'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbzc03.jpeg','Premium-Bandai Wing Zero','img3'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbzc04.jpeg','Premium-Bandai Wing Zero','img4'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbzc05.jpeg','Premium-Bandai Wing Zero','img5'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbzc06.jpeg','Premium-Bandai Wing Zero','img6']
         ],
-        ['https://hosting.photobucket.com/images/i/lesaintdumech/pbclearzero04.jpeg','Profile Photo: P-Bandai Clear Wing Zero'],false,false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/pbzc03.jpeg','Profile Photo: P-Bandai Clear Wing Zero'],false,false,
         [
             ['Premium Bandai','https://p-bandai.com/us/item/N2390162001002']
         ],false,false,true,'1:144'
@@ -3086,9 +3575,28 @@ const projects = [
         ],false,false,true,false
     ],
     ['Metatron',[1,'00 Raiser'],'SD',false,false,false,'00','B'],
-    ['PB Trans-Am Clear 00 Raiser [RG]',[1,'00 Gundam Raiser'],'RG',true,true,false,'00','E','2021-12-09',12.67,false,'Builds/PBooraiserRG.html',false,'2022-06-15'],
-    ['Silver \'n\' Gold',
-        [1,'00 Gundam QAN[T]'],'RG',false,false,false,'00','B',false,0,false,'Builds/Gundams/silverngold.html',false,false,models[21]
+    ['00 Raiser Trans-Am',[1,'00 Gundam Raiser'],'RG',
+        true,true,false,'00','E','2021-12-09',12.67,false,'Builds/PBandai/PBooraiserRG.html',false,'2022-06-15',models[68],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pborais01.jpeg','PB Raiser Trans-Am','img1'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pborais02.jpeg','PB Raiser Trans-Am','img2'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pborais03.jpeg','PB Raiser Trans-Am','img3'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pborais04.jpeg','PB Raiser Trans-Am','img4'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pborais05.jpeg','PB Raiser Trans-Am','img5'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pborais06.jpeg','PB Raiser Trans-Am','img6'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pborais07.jpeg','PB Raiser Trans-Am','img7'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pborais08.jpeg','PB Raiser Trans-Am','img8'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pborais09.jpeg','PB Raiser Trans-Am','img9'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pborais10.jpeg','PB Raiser Trans-Am','img10'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pborais11.jpeg','PB Raiser Trans-Am','img11']
+        ],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/pborais07.jpeg','Profile Photo: PB 00 Raiser Trans-Am'],false,false,
+        [
+            ['Premium Bandai','https://p-bandai.com/us/item/N2519708001001']
+        ],false,false,true,'1:144'
+    ],
+    ['Silver \'n\' Gold',[1,'00 Gundam QAN[T]'],'RG',
+        false,false,false,'00','B',false,0,false,'Builds/Gundams/silverngold.html',false,false,models[21]
     ],
     ['Thunder QAN[T]',[1,'00 Gundam QAN[T]'],'SD',
         false,false,false,'00','E','2021-06-12',11.68,true,'Builds/Gundams/ThunderQ.html',false,'2021-08-09',models[21],
@@ -3122,8 +3630,8 @@ const projects = [
             ['NewType','https://newtype.us/p/8q0W5dRIDplgZOwCuz3T/h/sdbb-364-00-qan-t']
         ],false,true,true,false
     ],
-    ['00 QAN[T] Trans-Am Clear',
-        [1,'00 Gundam QAN[T]'],'RG',true,true,false,'00','E','2022-01-09',8.33,false,'Builds/PBandai/PBOOQRG.html',false,'2022-07-28',models[21],
+    ['00 QAN[T] Trans-Am',[1,'00 Gundam QAN[T]'],'RG',
+        true,true,false,'00','E','2022-01-09',8.33,false,'Builds/PBandai/PBOOQRG.html',false,'2022-07-28',models[21],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/pbqantclear01.jpeg','PB 00QANT','img1'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/pbqantclear02.jpeg','PB 00QANT','img2'],
@@ -3136,14 +3644,69 @@ const projects = [
         ['https://hosting.photobucket.com/images/i/lesaintdumech/pbqantclear05.jpeg','Profile Photo: PB Clear QAN[T]'],false,false,
         [
             ['Premium Bandai','https://p-bandai.com/us/item/N2519709001001'],
-        ],false,false,true,false
+        ],false,false,true,'1:144'
     ],
-    ['Nena',[1,'Exia'],'SD',false,false,false,'00','D','2021-12-07',4.95,false,'Builds/Nena.html',['']],
-    ['PB Trans-Am Clear Exia [RG]',[1,'Exia'],'RG',true,true,false,'00','E','2021-12-08',6.58,false,'Builds/PBExiaRG.html',false,'2022-05-31'],
+    ['Nena',[1,'Exia'],'SD',
+        false,false,false,'00','D','2021-12-07',4.95,false,'Builds/Gundams/Nena.html',false,'',models[67]
+    ],
+    ['Exia Trans-Am',[1,'Exia'],'RG',
+        true,true,false,'00','E','2021-12-08',6.58,false,'Builds/PBandai/PBExiaRG.html',false,'2022-05-31',models[67],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbex01.jpeg','PB Exia','img1'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbex02.jpeg','PB Exia','img2'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbex03.jpeg','PB Exia','img3'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbex04.jpeg','PB Exia','img4'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbex05.jpeg','PB Exia','img5'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbex06.jpeg','PB Exia','img6'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbex07.jpeg','PB Exia','img7'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbex08.jpeg','PB Exia','img8'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbex09.jpeg','PB Exia','img9']
+        ],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/pbex09.jpeg','Profile Photo: PB Exia Trans-Am'],false,false,
+        [
+            ['Premium Bandai','https://p-bandai.com/us/item/N2519710001001']
+        ],false,false,true,'1:144'
+    ],
     ['F-23',[1,'Flag'],'HG',false,false,false,'00','B'],
-    ['PB Harute (Final Battle Version) [HG]',[1,'Harute'],'HG',true,true,false,'00','E','2022-03-08',5.75,false,'Builds/PBHaruteFinalHG.html',false,'2022-11-21'],
+    ['Harute (Final Battle Version)',[1,'Harute'],'HG',
+        true,true,false,'00','E','2022-03-08',5.75,false,'Builds/PBandai/PBHaruteFinalHG.html',false,'2022-11-21',models[70],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbharfb01.jpeg','PB Harute','img1'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbharfb02.jpeg','PB Harute','img2'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbharfb03.jpeg','PB Harute','img3'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbharfb04.jpeg','PB Harute','img4'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbharfb05.jpeg','PB Harute','img5'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbharfb06.jpeg','PB Harute','img6'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbharfb07.jpeg','PB Harute','img7'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbharfb08.jpeg','PB Harute','img8'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbharfb09.jpeg','PB Harute','img9'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbharfb10.jpeg','PB Harute','img10']
+        ],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/pbharfb05.jpeg','Profile Photo: PB Harute'],false,false,
+        [
+            ['Premium Bandai','https://p-bandai.com/us/item/N2570543001001']
+        ],false,false,true,'1:144'
+    ],
     ['Virtue/Nadlee [MG]',[3,'Virtue','Nadlee','VirtueStand'],'MG',true,false,false,'00','E','2022-02',20.08,true,'Builds/VirtueNadleeStand.html',false,'2023-01-16'],
-    ['PB Zabanya (Final Battle Version) [HG]',[1,'Zabanya'],'HG',true,true,false,'00','E','2022-03-09',3,false,'Builds/PBZabanyaFinalHG.html',false,'2022-11-07'],
+    ['Zabanya (Final Battle Version)',[1,'Zabanya'],'HG',
+        true,true,false,'00','E','2022-03-09',3,false,'Builds/PBandai/PBZabanyaFinalHG.html',false,'2022-11-07',models[71],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbzab01.jpeg','PB Zabanya','img1'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbzab02.jpeg','PB Zabanya','img2'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbzab03.jpeg','PB Zabanya','img3'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbzab04.jpeg','PB Zabanya','img4'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbzab05.jpeg','PB Zabanya','img5'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbzab06.jpeg','PB Zabanya','img6'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbzab07.jpeg','PB Zabanya','img7'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbzab08.jpeg','PB Zabanya','img8'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbzab09.jpeg','PB Zabanya','img9'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbzab10.jpeg','PB Zabanya','img10']
+        ],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/pbzab07.jpeg','Profile Photo: PB Zabanya'],false,false,
+        [
+            ['Premium Bandai','https://p-bandai.com/us/item/N2570542001001']
+        ],false,false,true,'1:144'
+    ],
 
     //Correct Century (Turn A)
     ['John Wayne',[1,'Turn-A'],'SD',
@@ -3390,7 +3953,7 @@ const projects = [
         ],['Armageddon','Samus: Varia Suit','Malphas'],false,true,'1:144'
     ],
     ['Samus: Varia Suit',[1,'Dagger L'],'HG',
-        false,false,false,'Seed','C','2023-06-13',5.5,false,'Builds/Gundams/VariaSuit.html',['Tamiya: Gold TS-21 Can','Testors: Sunflower 1191','Tamiya: Matt Black TS-6 Can','Vallejo Game Color: Fluorescent Green 72.104','Tamiya: Gun Metal TS-38 Can'],false,models[23],
+        false,false,false,'Seed','C','2023-06-13',6.33,false,'Builds/Gundams/VariaSuit.html',['Tamiya: Gold TS-21 Can','Testors: Sunflower 1191','Tamiya: Matt Black TS-6 Can','Vallejo Game Color: Fluorescent Green 72.104','Tamiya: Gun Metal TS-38 Can'],false,models[23],
         [
             []
         ],
@@ -3425,8 +3988,38 @@ const projects = [
     ['Iapetus',[1,'Destiny'],'SD',false,false,false,'Seed','B'],
     ['Thin Blue Line',[2,'Duel Gundam','Duel Gundam Assault Shroud'],'MG',false,false,false,'Seed','B'],
     ['Eclipse ???',[1,'Eclipse'],'MG',false,false,false,'Seed','B'],
-    ['PB Eclipse [MG]',[1.5,'Eclipse','Eclipse Maneuver Striker'],'MG',
-        true,true,false,'Seed','E','2022-02',17.75,false,'Builds/PBEclipseMG.html',false,'2023-01-30'
+    ['Maneuver Striker',[1.5,'Eclipse','Eclipse Maneuver Striker'],'MG',
+        true,true,false,'Seed','E','2022-02',17.75,false,'Builds/PBandai/PBEclipseMG.html',false,'2023-01-30',models[73],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbmanstrike01.jpeg','PB Maneuver Striker','img1'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbmanstrike02.jpeg','PB Maneuver Striker','img2'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbmanstrike03.jpeg','PB Maneuver Striker','img3'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbmanstrike04.jpeg','PB Maneuver Striker','img4'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbmanstrike05.jpeg','PB Maneuver Striker','img5'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbmanstrike06.jpeg','PB Maneuver Striker','img6'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbmanstrike07.jpeg','PB Maneuver Striker','img7'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbmanstrike08.jpeg','PB Maneuver Striker','img8'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbmanstrike09.jpeg','PB Maneuver Striker','img9'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbmanstrike10.jpeg','PB Maneuver Striker','img10'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbmanstrike11.jpeg','PB Maneuver Striker','img11'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbmanstrike12.jpeg','PB Maneuver Striker','img12'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbmanstrike13.jpeg','PB Maneuver Striker','img13'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbmanstrike14.jpeg','PB Maneuver Striker','img14'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbmanstrike15.jpeg','PB Maneuver Striker','img15'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbmanstrike16.jpeg','PB Maneuver Striker','img16'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbmanstrike17.jpeg','PB Maneuver Striker','img17'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbmanstrike18.jpeg','PB Maneuver Striker','img18'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbmanstrike19.jpeg','PB Maneuver Striker','img19'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbmanstrike20.jpeg','PB Maneuver Striker','img20'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbmanstrike21.jpeg','PB Maneuver Striker','img21'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbmanstrike22.jpeg','PB Maneuver Striker','img22'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbmanstrike23.jpeg','PB Maneuver Striker','img23'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbmanstrike24.jpeg','PB Maneuver Striker','img24']
+        ],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/pbmanstrike03.jpeg','Profile Photo: Maneuver Striker'],false,false,
+        [
+            ['Premium Bandai','https://p-bandai.com/us/item/N2583175001001']
+        ],false,false,true,'1:100'
     ],
     ['Eternal',[1,'Eternal'],'Ship',
         false,false,false,'Seed','E','2021-08-05',24.1,false,'Builds/Ships/Eternal.html',['Vallejo Model Color: Sunset Red 70.802'],'2022-01-03',models[7],
@@ -3704,7 +4297,7 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/ye69.jpeg','Gundam Ye','img69']
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/ye15.jpeg','Profile Photo: Gundam Ye'],
-        'So I will be the first to admit that this project definitely did not age well. Just a discalimer, I came up with the idea for this and began working on it way before Kanye\'s huge public global meltdown. Whatever the hell is going on with him, I did not foresee that at all at the time of paiting this, but may he please get help and get better. Both for his own sake but also for the sake of his children and his family. Anyhow, as to the origins of this. I had came up with the idea for Gundam Anthem (my red white and blue style Gundam Freedom), since Freedom and Justice are twin units, you cannot have the one without the other so I knew I had to paint the Justice as well so that the Freedom would not stand alone. However since my Freedom redesign was based on the old Betsy Ross original thirteen star American flag, in order to keep up with the flag theme I needed an equal just as famous well recognizable flag from the same era as the Betsy Ross to style the Justice. After thinking about it long and hard the only thing I could think of was that yellow rattlesnake Gadsden flag. So the first draft of the redesign was just to paint the Justice yellow and add rattlesnake decals. Anyhow, I let that idea stew in my mind for a while and my thoughts drifted back to an old meme I had made bout five year prior featuring the South Park rendition of Kanye on the rattlesnake flag and referrencing Fish Sticks. You have to be a South Park fan to understand the fish stick reference, but basically it was humiliating towards Kanye and the point of the meme was to make fun of Kanye\'s narcisstic don\'t give an eff attitude. So to keep the story going, the rattlesnake Gadsden theme slowly evolved to a rattlesnake Gadsden gay fish fish Kanye theme where I would paint it yellow and add rattlesnake and Ye and South Park decals. I present to you Gundam Don\'t Tread on Ye.',false,
+        'So I will be the first to admit that this project definitely did not age well. Just a discalimer, I came up with the idea for this and began working on it way before Kanye\'s huge public global meltdown. Whatever the hell is going on with him, I did not foresee that at all at the time of planning this, but may he please get help and get better. Both for his own sake but also for the sake of his children and his family. Anyhow, as to the origins of this. I had came up with the idea for Gundam Anthem (my red white and blue style Gundam Freedom), since Freedom and Justice are twin units, you cannot have the one without the other so I knew I had to paint the Justice as well so that the Freedom would not stand alone. However since my Freedom redesign was based on the old Betsy Ross original thirteen star American flag, in order to keep up with the flag theme I needed an equal just as famous well recognizable flag from the same era as the Betsy Ross to style the Justice. After thinking about it long and hard the only thing I could think of was that yellow rattlesnake Gadsden flag. So the first draft of the redesign was just to paint the Justice yellow and add rattlesnake decals. Anyhow, I let that idea stew in my mind for a while and my thoughts drifted back to an old meme I had made bout five year prior featuring the South Park rendition of Kanye on the rattlesnake flag and referrencing Fish Sticks. You have to be a South Park fan to understand the fish stick reference, but basically it was humiliating towards Kanye and the point of the meme was to make fun of Kanye\'s narcisstic don\'t give an eff attitude. So to keep the story going, the rattlesnake Gadsden theme slowly evolved to a rattlesnake Gadsden gay fish fish Kanye theme where I would paint it yellow and add rattlesnake and Ye and South Park decals. I present to you Gundam Don\'t Tread on Ye.',false,
         [
             ['Video 1','https://www.instagram.com/reel/CiMJpP7p9ET/?igshid=YzcxN2Q2NzY0OA=='],
             ['Video 2','https://www.instagram.com/reel/CiMJiakAuwL/?igshid=YzcxN2Q2NzY0OA=='],
@@ -3814,15 +4407,38 @@ const projects = [
             ['Video','https://www.instagram.com/reel/CmfxQMHoIyt/?igshid=YzcxN2Q2NzY0OA=='],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pre-order-pg-skygrasper-aile-striker?variant=6442840900'],
             ['NewType','https://newtype.us/p/rO9JwbTqHIJ7hgQYIER6/h/pg-fx-550-skygrasper-aqm-e-x01-aile-striker']
-        ],false,false,true,'1:60'
+        ],false,false,true,'1:60',false,'Skygrasper'
     ],
     ['Skygrasper [RG]',[2,'Skygrasper','Skygrasper','Skygrasper'],'RG',true,false,false,'Seed','E','2022-09-06',10,false,false,false,'2022-12-19'],
     ['PB Lightning Strike',[2,'Strike','Lightning Striker','Sword Launcher Striker Pack'],'MG',false,true,false,'Seed','B'],
     ['Metal Strike',[1,'Strike'],'SD',false,false,false,'Seed','B'],
-    ['Strike Gundam [PG]',[1,'Strike'],'PG',true,false,false,'Seed','D','2023-05-07',14.58,true,'Builds/PGStrike.html',false],
-    ['Perfect Strike [PG]',[1,'Strike, Perfect'],'PG',true,false,false,'Seed','A'],
-    ['PB Perfect Strike [RG]',[1,'Strike, Perfect'],'RG',true,true,false,'Seed','E','2022-03-07',12.33,false,'Builds/PBPerfectStrikeRG.html',false,'2022-09-13'],
-    ['S.A.T.O.',[1,'Strike, Perfect'],'SD',false,false,false,'Seed','D','2022-01-05',14.85,false,'Builds/SATO.html',['']],
+    ['Strike Gundam [PG]',[1,'Strike'],'PG',
+        true,false,false,'Seed','D','2023-05-07',14.58,true,'Builds/PG/PGStrike.html',false,'',models[60]
+    ],
+    ['Perfect Strike [PG]',[1,'Strike, Perfect'],'PG',
+        true,false,false,'Seed','A','',0,true,'Builds/PG/PGPerfectStrike.html',false,'',models[61]
+    ],
+    ['Perfect Strike [P-Bandai]',[1,'Strike, Perfect'],'RG',
+        true,true,false,'Seed','E','2022-03-07',12.33,false,'Builds/PBandai/PBPerfectStrikeRG.html',false,'2022-09-13',models[61],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbpstrikerg01.jpeg','P-Bandai Perfect Strike','img1'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbpstrikerg02.jpeg','P-Bandai Perfect Strike','img2'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbpstrikerg03.jpeg','P-Bandai Perfect Strike','img3'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbpstrikerg04.jpeg','P-Bandai Perfect Strike','img4'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbpstrikerg05.jpeg','P-Bandai Perfect Strike','img5'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbpstrikerg06.jpeg','P-Bandai Perfect Strike','img6'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbpstrikerg07.jpeg','P-Bandai Perfect Strike','img7'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbpstrikerg08.jpeg','P-Bandai Perfect Strike','img8'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbpstrikerg09.jpeg','P-Bandai Perfect Strike','img9']
+        ],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/pbpstrikerg06.jpeg','Profile Photo: P-Bandai Perfect Strike'],false,false,
+        [
+            ['Premium Bandai','https://p-bandai.com/us/item/N2487790001005']
+        ],false,false,true,'1:144',false,'Perfect Strike'
+    ],
+    ['S.A.T.O.',[1,'Strike, Perfect'],'SD',
+        false,false,false,'Seed','D','2022-01-05',14.85,false,'Builds/Gundams/SATO.html',false,'',models[61]
+    ],
     ['PB Strike Daggers',[2,'Strike Dagger','Strike Dagger','Strike Dagger'],'HG',false,true,false,'Seed','D','2023-03-07',20.41,false,'Builds/PBStrikeDagger.html',['']],
     ['AntiFreedom',[1,'Strike-Freedom'],'SD',false,false,false,'Seed','B'],
     ['Servitude',[1,'Strike-Freedom'],'MG',false,false,false,'Seed','B'],
@@ -4461,7 +5077,27 @@ const projects = [
     ['Ziggy',[1,'Sazabi'],'SD',false,false,false,'UC','D','2022-03-10',5.75,false,'Builds/Ziggy.html',['']],
     ['Dynamo',[1,'Sinanju'],'MG',false,false,false,'UC','B'],
     ['Stardust',[1,'Sinanju'],'SD',false,false,false,'UC','D','2021-12-15',4.56,false,'Builds/Stardust.html',['']],
-    ['PB Shin Musha [MG]',[1,'Shin Musha Gundam'],'MG',true,true,false,'UC','E','2022-08-05',10.58,false,'Builds/PBShinMushaMG.html',false,'2022-12-05'],
+    ['Shin Musha Black Robe',[1,'Shin Musha Gundam'],'MG',
+        true,true,false,'UC','E','2022-08-05',10.58,false,'Builds/PBandai/PBShinMushaMG.html',false,'2022-12-05',models[72],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbsmush01.jpeg','PB Shin Musha Black Robe','img1'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbsmush02.jpeg','PB Shin Musha Black Robe','img2'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbsmush03.jpeg','PB Shin Musha Black Robe','img3'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbsmush04.jpeg','PB Shin Musha Black Robe','img4'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbsmush05.jpeg','PB Shin Musha Black Robe','img5'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbsmush06.jpeg','PB Shin Musha Black Robe','img6'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbsmush07.jpeg','PB Shin Musha Black Robe','img7'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbsmush08.jpeg','PB Shin Musha Black Robe','img8'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbsmush09.jpeg','PB Shin Musha Black Robe','img9'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbsmush10.jpeg','PB Shin Musha Black Robe','img10'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbsmush11.jpeg','PB Shin Musha Black Robe','img11']
+        ],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/pbsmush10.jpeg'],
+        'Another P-Bandai Straight Build. What I thought was cool on this though and convinced me to order it was the Cherry Blossom flower panel stickers adorning the arms and legs. They just add a certain special \'je ne sais quoi\' that I thought was so pretty and neat. Not to also mention in real life is one of my favorite flowers. If you have never been to the cherry blossom festival in Washington DC, or in Japana, when the trees all open up each Spring, you definitely need to go sometime in your lifetime. It is a must see worth witnessing.',false,
+        [
+            ['Premium Bandai','https://p-bandai.com/us/item/N2569532001002'],
+        ],false,false,true,'1:100'
+    ],
     ['Blue Monday',[1,'Sisquiede'],'SD',false,false,false,'UC','D','2022-01-06',6.76,false,'Builds/BlueMonday.html',['']],
     ['Rocket Man',[1,'Xi Gundam'],'SD',false,false,false,'UC','D','2022-01-08',6.5,false,'Builds/RocketMan.html',['']],
     ['MK Ultra',[1,'Zaku II'],'RG',false,false,false,'UC','B'],
@@ -4494,7 +5130,22 @@ const projects = [
 
 
     //Build Divers (BD)
-    ['PB Trans-Am Clear 00 Diver [HG]',[1,'00 Gundam Diver'],'HG',true,true,false,'BD','E','2022-01',2.75,false,'Builds/PBooDiverHG.html',false,'2022-08-08'],
+    ['00 Diver Trans-Am',[1,'00 Gundam Diver'],'HG',
+        true,true,false,'BD','E','2022-01',2.75,false,'Builds/Gundams/PBooDiverHG.html',false,'2022-08-08',models[69],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbod01.jpeg','00 Diver','img1'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbod02.jpeg','00 Diver','img2'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbod03.jpeg','00 Diver','img3'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbod04.jpeg','00 Diver','img4'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbod05.jpeg','00 Diver','img5'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbod06.jpeg','00 Diver','img6'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbod07.jpeg','00 Diver','img7']
+        ],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/pbod05.jpeg','Profile Photo: PB 00 Diver'],false,false,
+        [
+            ['Premium Bandai','https://p-bandai.com/us/item/N2486108001002']
+        ],false,false,true,'1:144'
+    ],
     ['King Milky Way',[1,'Astray Rebake'],'HG',false,false,false,'BD','B'],
     ['Four Horsemen',[4,'Barbataurus','Barbataurus','Barbataurus','Barbataurus'],'HG',false,false,false,'BD','B'],
     ['King Sol',[1,'Helios'],'HG',false,false,false,'BD','B'],
@@ -4901,13 +5552,130 @@ const projects = [
     //Digimon
     ['Heimdall',[1,'Alphamon'],'Digimon',false,false,false,'','A'],
     ['Loki',[1,'Beelzemon'],'Digimon',false,false,false,'','A'],
-    ['Thor',[1,'Gallantmon'],'Digimon',false,false,false,'','E','2022-10-05',22.5,false,'Builds/thor.html',[''],'2022-11-28'],
+    ['Thor',[1,'Gallantmon'],'Digimon',
+        false,false,false,'','E','2022-10-05',22.5,false,'Builds/Digimon/Thor.html',false,'2022-11-28',models[64],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/thor01.jpeg','Thor','img1'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/thor02.jpeg','Thor','img2'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/thor03.jpeg','Thor','img3'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/thor04.jpeg','Thor','img4'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/thor05.jpeg','Thor','img5'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/thor06.jpeg','Thor','img6'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/thor07.jpeg','Thor','img7'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/thor08.jpeg','Thor','img8'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/thor09.jpeg','Thor','img9'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/thor10.jpeg','Thor','img10'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/thor11.jpeg','Thor','img11'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/thor12.jpeg','Thor','img12'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/thor13.jpeg','Thor','img13'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/thor14.jpeg','Thor','img14'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/thor15.jpeg','Thor','img15'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/thor16.jpeg','Thor','img16'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/thor17.jpeg','Thor','img17'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/thor18.jpeg','Thor','img18'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/thor19.jpeg','Thor','img19'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/thor20.jpeg','Thor','img20'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/thor21.jpeg','Thor','img21'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/thor22.jpeg','Thor','img22'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/thor23.jpeg','Thor','img23'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/thor24.jpeg','Thor','img24'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/thor25.jpeg','Thor','img25'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/thor26.jpeg','Thor','img26'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/thor27.jpeg','Thor','img27'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/thor28.jpeg','Thor','img28']
+        ],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/thor27.jpeg','Profile Photo: Fenrir'],
+        'After having completed Fafnir, Fenrir and Ragnarok I was having way too much fun construcitn Digimon builds that I had to do one more so I went and bought Gallantmon. FIRST OFF.... I am so wowed and bedazzled how this shield turned out. It is just beyond surreal. But to get into the theme, unlike the previous three which I kept faithful to their original design by the Digimon creators, with Thor I decided to get more creative. I though his mostly white body was too vague and bland, plus too similar to Omnimon\'s so I decided to spice it up by painting it the exact opposite color to make it stand out. For the black I chose Turbo Dork\'s shade Black Ice. This was my first time using this color and I admit I was expecting more. It does fall a bit flat that I could have achieved similar results with any plain generic black paint with plenty of gloss top coat added on top. But the Black Ice did have a little bit of shine which was cool. Also for distinction, the Black Ice was used solely on the body of Thor. For the black parts of the shield, I used Vallejo\'s Burnt Iron. Burnt Iron on the other hand I just absolutely love this shade of paint. It looks fantastic every time I use it. Not only is it dark, but it also has a nice element of texture that just stands out that makes any paint project look much deeper. Also another modification, the original model kit comes with plastic vinyl flaps for the cape, which looked just ridiculous. So I threw those out and made a new cape out of actual canvas and mine looks way better.',false,
+        [
+            ['Video','https://www.instagram.com/reel/CliF2wOMz8g/?igshid=YzcxN2Q2NzY0OA=='],
+            ['Fandom','https://digimon.fandom.com/wiki/Gallantmon?so=search'],
+            ['Digmon Cybersleuth','https://www.grindosaur.com/en/games/digimon/digimon-story-cyber-sleuth/digimon/262-gallantmon'],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/digimon-tamers-figure-rise-standard-amplified-dukemon-gallantmon'],
+            ['NewType','https://newtype.us/p/QsA7C5WeJfFpYIYbCCU3/h/figure-rise-omegamon-amplified'],
+            ['Turbo Dork: Black Ice','https://turbodork.com/products/black-ice']
+        ],['Heimdall'],false,true,false
+    ],
     ['Jormungandr',[1,'Imperialdramom'],'Digimon',false,false,false,'','A'],
     ['Nidhogg',[1,'Machinedramon'],'Digimon',false,false,false,'','A'],
-    ['Fenrir',[1,'Metal Garurumon'],'Digimon',false,false,false,'','E','2022-07-07',20.58,false,'Builds/fenrir.html',[''],'2022-09-21'],
+    ['Fenrir',[1,'Metal Garurumon'],'Digimon',
+        false,false,false,'','E','2022-07-07',20.58,false,'Builds/Digimon/Fenrir.html',false,'2022-09-21',models[62],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/fenrir01.jpeg','Fenrir','img1'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/fenrir02.jpeg','Fenrir','img2'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/fenrir03.jpeg','Fenrir','img3'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/fenrir04.jpeg','Fenrir','img4'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/fenrir05.jpeg','Fenrir','img5'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/fenrir06.jpeg','Fenrir','img6'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/fenrir07.jpeg','Fenrir','img7'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/fenrir08.jpeg','Fenrir','img8'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/fenrir09.jpeg','Fenrir','img9'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/fenrir10.jpeg','Fenrir','img10'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/fenrir11.jpeg','Fenrir','img11'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/fenrir12.jpeg','Fenrir','img12'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/fenrir13.jpeg','Fenrir','img13'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/fenrir14.jpeg','Fenrir','img14'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/fenrir15.jpeg','Fenrir','img15'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/fenrir16.jpeg','Fenrir','img16'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/fenrir17.jpeg','Fenrir','img17'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/fenrir18.jpeg','Fenrir','img18'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/fenrir19.jpeg','Fenrir','img19'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/fenrir20.jpeg','Fenrir','img20'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/fenrir21.jpeg','Fenrir','img21'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/fenrir22.jpeg','Fenrir','img22'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/fenrir23.jpeg','Fenrir','img23'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/fenrir24.jpeg','Fenrir','img24'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/fenrir25.jpeg','Fenrir','img25'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/fenrir26.jpeg','Fenrir','img26'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/fenrir27.jpeg','Fenrir','img27']
+        ],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/fenrir25.jpeg','Profile Photo: Fenrir'],
+        'I had been building Gundams and mechas for a while now and wanted to do something a little more organic. I had purchased the Omnimon kit but had not built it yet. But considering Omnimon is the fusion of WarGreymon and MetalGarurumon I was starting to think maybe it would only be appropriate I build those two first before moving on to Omnimon. So next thing I know is I\'m online ordering both those two kits as well and then all of a sudden I\'m opening MetalGarurumon\'s box and spraying primer on the plastic pieces. For Fenrir, despite the cool Norse name I stuck pretty traditional to the design. Did not change any of the colors. Did thing the Vallejo Electric Blue however turned out great for the body of this wolf. Also loved how the crest on his stomach turned out. To achieve that affect I used Vallejo Arctic Metallic Blue and then a candy effect of red transpirant over gold paint in order to make it so shiny. Every time I look up at this build where it\'s currently mounted on my bookshelf I am just taken back by it. This was my first ever Digimon build and I am just so proud of how I did.',false,
+        [
+            ['Video','https://www.instagram.com/reel/Cixi0LbAGST/?igshid=YzcxN2Q2NzY0OA=='],
+            ['Fandom','https://digimon.fandom.com/wiki/MetalGarurumon?so=search'],
+            ['Digmon Cybersleuth','https://www.grindosaur.com/en/games/digimon/digimon-story-cyber-sleuth/digimon/297-metalgarurumon'],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/digimon-adventure-figure-rise-standard-amplified-metalgarurumon-model-kit'],
+            ['NewType','https://newtype.us/p/8ZOOYNmIKJ69rfHIhP3v/h/figure-rise-metalgarurumon-amplified']
+        ],['Fafnir','Ragnarok'],false,true,false
+    ],
     ['T\u00FDr',[1,'Metal Greymon'],'Digimon',false,false,false,'','A'],
     ['Odin',[1,'Shine Greymon',],'Digimon',false,false,false,'','A'],
-    ['Ragnarok',[1,'Omnimon'],'Digimon',false,false,false,'','E','2022-07-05',19.65,false,'Builds/ragnorok.html',[''],'2022-10-17'],
+    ['Ragnarok',[1,'Omnimon'],'Digimon',
+        false,false,false,'','E','2022-07-05',19.65,false,'Builds/Digimon/Ragnorok.html',false,'2022-10-17',models[63],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ragnarok01.jpeg','Ragnarok','img1'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ragnarok02.jpeg','Ragnarok','img2'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ragnarok03.jpeg','Ragnarok','img3'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ragnarok04.jpeg','Ragnarok','img4'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ragnarok05.jpeg','Ragnarok','img5'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ragnarok06.jpeg','Ragnarok','img6'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ragnarok07.jpeg','Ragnarok','img7'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ragnarok08.jpeg','Ragnarok','img8'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ragnarok09.jpeg','Ragnarok','img9'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ragnarok10.jpeg','Ragnarok','img10'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ragnarok11.jpeg','Ragnarok','img11'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ragnarok12.jpeg','Ragnarok','img12'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ragnarok13.jpeg','Ragnarok','img13'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ragnarok14.jpeg','Ragnarok','img14'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ragnarok15.jpeg','Ragnarok','img15'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ragnarok16.jpeg','Ragnarok','img16'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ragnarok17.jpeg','Ragnarok','img17'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ragnarok18.jpeg','Ragnarok','img18'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ragnarok19.jpeg','Ragnarok','img19'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ragnarok20.jpeg','Ragnarok','img20'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ragnarok21.jpeg','Ragnarok','img21'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ragnarok22.jpeg','Ragnarok','img22']
+        ],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/ragnarok17.jpeg','Profile Photo: Ragnarok'],
+        'Since its original debut in the Digimon movie, Omnimon has always been my favorite Digimon that I just had to build this. For this kit I really tried hard to bring out the colors and make them pop. For the blue I used a Valejo Electric Blue and the red I used Ferari Red. For the cape I found a greate crimson/magenta for the font facing side and on the back I tried experiementing with mixing different satan / ivory and shades of white paint together to attempt to make a nice fluffy swirly feather effect. I definitely failed on the effect but it\'s somethihgn I will continue attempting and practicing at. Also I mm maybe most proud of the chest. For the blue lines I hand painted them with Testors Glossy Teal and I just love the shiny blue look of this paint. All in all I am well pleased by the result of this',false,
+        [
+            ['Video','https://www.instagram.com/reel/Cj0z4GPs1Xo/?igshid=YzcxN2Q2NzY0OA=='],
+            ['Fandom','https://digimon.fandom.com/wiki/Omnimon'],
+            ['Digmon Cybersleuth','https://www.grindosaur.com/en/games/digimon/digimon-story-cyber-sleuth/digimon/315-omnimon'],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/digimon-figure-rise-standard-amplified-omegamon-model-kit'],
+            ['NewType','https://newtype.us/p/QsA7C5WeJfFpYIYbCCU3/h/figure-rise-omegamon-amplified']
+        ],['Fenrir','Fafnir'],false,true,false
+    ],
     ['Revelation',[1,'Omnimon X'],'Digimon',false,false,false,'','A'],
     ['Fafnir',[1,'War Greymon'],'Digimon',
         false,false,false,'','E','2022-07-08',20.7,false,'Builds/Digimon/Fafnir.html',false,'2022-10-04',models[10],
@@ -4936,7 +5704,8 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/fafnir22.jpeg','Fafnir','img22']
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/fafnir17.jpeg','Profile Photo: Fafnir'],
-        'So I loved the show Digimon as a kid growing up, and WarGreymon plus his evolution Omnimon I always thought they were just the coolest. When I saw the amplified kit of him and all its extra details, I was just completedly sold. It came out great. My use of the Vallejo Ferarri Red looked better than the typical yellow-orange of the original plastic. This was just rad as ever.',false,[
+        'So I loved the show Digimon as a kid growing up, and WarGreymon plus his evolution Omnimon I always thought they were just the coolest. When I saw the amplified kit of him and all its extra details, I was just completedly sold. It came out great. My use of the Vallejo Ferarri Red looked better than the typical yellow-orange of the original plastic. This was just rad as ever.',false,
+        [
             ['Video','https://www.instagram.com/reel/CjUMt3eP1lk/'],
             ['Fandom','https://digimon.fandom.com/wiki/WarGreymon'],
             ['Digmon Cybersleuth','https://www.grindosaur.com/en/games/digimon/digimon-story-cyber-sleuth/digimon/228-wargreymon'],
@@ -4977,8 +5746,68 @@ const projects = [
         ],false,false,true,false
     ],
     ['Battlefield Earth',[2,'Energy Ring Emitter'],'Display',false,false,false,'','A'],
-    ['Kataluma',[1,'Hangar Bay'],'Display',false,false,false,'','E','2022-02',16.96,true,'Builds/kataluma.html',[''],'2022-04-04'],
-    ['Stratle',[1,'Maintenance Bay'],'Display',false,false,false,'','E','2022-02-11',27.12,true,'Builds/stratle.html',[''],'2022-04-11'],
+    ['Kataluma',[1,'Hangar Bay'],'Display',
+        false,false,false,'','E','2022-02',16.96,true,'Builds/Displays/Kataluma.html',false,'2022-04-04',models[65],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/kataluma01.jpeg','Kataluma','img1'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/kataluma02.jpeg','Kataluma','img2'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/kataluma03.jpeg','Kataluma','img3'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/kataluma04.jpeg','Kataluma','img4'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/kataluma05.jpeg','Kataluma','img5'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/kataluma06.jpeg','Kataluma','img6'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/kataluma07.jpeg','Kataluma','img7'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/kataluma08.jpeg','Kataluma','img8'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/kataluma09.jpeg','Kataluma','img9'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/kataluma10.jpeg','Kataluma','img10'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/kataluma11.jpeg','Kataluma','img11'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/kataluma12.jpeg','Kataluma','img12'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/kataluma13.jpeg','Kataluma','img13'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/kataluma14.jpeg','Kataluma','img14'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/kataluma15.jpeg','Kataluma','img15']
+        ],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/kataluma04.jpeg','Profile Photo: Kataluma'],
+        'The Kataluma, ou en grec: \"\u039A\u03B1\u03C4\u03B1\u03BB\u03C5\u03BC\u03B1\", is the name of a ship in my own Gundam self-fiction I\'m working on. Greek for Inn, and word used in the original Greek bible when Mary and Joseph were looking for a place to stay in Bethlehem. Well there is room stay at this Inn for my Gundams. Specifically just a 1:144 scale model. It is a tight squeeze for even the smallest Gundams of that scale to fit. Would have been nice if the designers had planned a little more space. But this was mostly just a practice run for my much larger project the Stratle. Overall I liked how it tuned out. It looks great with the metallic paint colors and the Evan Designs LEDs really make it pop.',false,
+        [
+            ['USA Gundam Store','https://www.usagundamstore.com/products/1-144-gundam-hanger-bay?variant=37766625657029'],
+            ['LEDS: Evan Designs','https://evandesigns.com']
+        ],['Stratle'],false,true
+    ],
+    ['Stratle',[1,'Maintenance Bay'],'Display',
+        false,false,false,'','E','2022-02-11',27.12,true,'Builds/Displays/Stratle.html',false,'2022-04-11',models[66],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/stratle01.jpeg','Stratle','img1'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/stratle02.jpeg','Stratle','img2'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/stratle03.jpeg','Stratle','img3'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/stratle04.jpeg','Stratle','img4'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/stratle05.jpeg','Stratle','img5'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/stratle06.jpeg','Stratle','img6'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/stratle07.jpeg','Stratle','img7'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/stratle08.jpeg','Stratle','img8'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/stratle09.jpeg','Stratle','img9'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/stratle10.jpeg','Stratle','img10'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/stratle11.jpeg','Stratle','img11'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/stratle12.jpeg','Stratle','img12'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/stratle13.jpeg','Stratle','img13'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/stratle14.jpeg','Stratle','img14'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/stratle15.jpeg','Stratle','img15'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/stratle16.jpeg','Stratle','img16'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/stratle17.jpeg','Stratle','img17'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/stratle18.jpeg','Stratle','img18'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/stratle19.jpeg','Stratle','img19'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/stratle20.jpeg','Stratle','img20'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/stratle21.jpeg','Stratle','img21'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/stratle22.jpeg','Stratle','img22'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/stratle23.jpeg','Stratle','img23']
+        ],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/stratle18.jpeg','Profile Photo: Stratle'],
+        'I always want to find cool and new ways to display my models, particularly in ways that are realistic. And I always like the idea of envisioning my Gundams docked inside the hangar of a space battleship. Especially with the little walkways, catwalks, cranes and equipment scattered about. So when I saw this kit announced it just screamed to me. I wanted to paint this in all metal colors like a real ship\s hull or dockyard, add LED lighting and make it as realistic looking as possible. Which not to toot my own horn, but I definitely feel like I met my goal here. Every which way and angle I look at this build it just impresses me. And when I shut off the lights and flip the LEDs on, gosh it really glows. I can just imagine this being inside a ship in real life and sconstruction workers running up and down the catwalks operating on their mobile suits. I placed a straight build Tallgeese in it for now but I cannot wait till I find just the right one of my painted models to place in it in the future. Also, an idea for a future build. The kit has instructions and supports taking four of these kits and combining them together to make a super sized mobile suit hangar. Definitely something in the back of my mind that I am contemplating one day pursuing.',false,
+        [
+            ['LEDS','https://evandesigns.com'],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/gundam-maintenance-bay-for-1-100-1-144?variant=39742292984005'],
+            ['NewType','https://newtype.us/p/TZllOhRZkRmG7KJdjDAW/h/composable-action-base#builds'],
+            ['LEDS: Evan Designs','https://evandesigns.com']
+        ],['Kataluma'],false,true
+    ],
 
     //Ship
     ['Libeccio',[0.2,'Andromeda Black'],'Ship',
@@ -7014,6 +7843,14 @@ function buildDigimon() {
     if (modelArray[14]) {
         unhide('.dgFormHD');
         popNode(modelArray[14],'dgForm');
+    }
+    if (modelArray[23]) {
+        unhide('.dgAlternateHD');
+        popNode(modelArray[23],'dgAlternate');
+    }   
+    if (modelArray[24]) {
+        unhide('.dgNicknameHD');
+        popNode(modelArray[24],'dgNickname');
     }
 }
 
