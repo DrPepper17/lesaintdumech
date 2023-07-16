@@ -63,6 +63,20 @@ const blogArray = [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/IMG_6434.jpg']
         ]
     ],
+    [
+        '2023-07-15',
+        'Finally !! Backlog Finished !!!',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/Screenshot_2023-07-16_at_12.50.35_AM_Large.jpeg',
+        ['So I am happy to announce, the backlog is finally finished and all uploaded to the site. It took me three weeks to do but it\'s finally done.'],
+        ['Of course I still have the Home and Links pages left to do. But it is such a relief to finally have this huge burden wrapped up. Before I continue on to the next portion of the site, I\'m just going to sit back and take it easy and relax for a moment.'],
+        [
+            [
+                'In the meantime while I pour myself a drink, the rest of you please go check out my ',
+                ['Builds page','builds.html'],
+                ' and admire my work. Lord knows I\'ve worked hard enough for you all to go enjoy them.'
+            ]
+        ]
+    ]
 ]
 
 //Functions
