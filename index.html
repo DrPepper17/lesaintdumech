@@ -9,12 +9,15 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&display=swap" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caprasimo&display=swap">
         <script src="JS/frenchMetrics.js"></script>
+        <script src="JS/blog.js?v=202307152218"></script>
+        <script src="JS/gundamDataSet.js?v=202307131458"></script>
         <link rel="stylesheet" href="CSS/home.css?v=202307111501"/>
+        <link rel="stylesheet" href="CSS/blog.css?v=202307111501"/>
 
         <title>&#9884; Le Saint du Mech &#9884;</title>
     </head>
 
-    <body onload="convertDateToday()">
+    <body onload="convertDateToday(); homepageDisplay(); homepageImage()">
         <header class="jumbotron jumbotron-fluid">
             <div class="container">
                 <div class="row text-right">
@@ -64,12 +67,65 @@
                 </div>
             </div>
             <div class="row">
+                <div class="d-none d-lg-block col-2">
+                    <a id="aIMG1"><img class="img-fluid mb-2" id="homeIMG1"></a>
+                    <a id="aIMG2"><img class="img-fluid mb-2" id="homeIMG2"></a>
+                    <a id="aIMG3"><img class="img-fluid mb-2" id="homeIMG3"></a>
+                    <a id="aIMG4"><img class="img-fluid mb-2" id="homeIMG4"></a>
+                    <a id="aIMG7"><img class="img-fluid mb-2" id="homeIMG7"></a>
+                </div>
                 <div class="col">
+                <!--    <a id="aIMG"><img class="img-thumbnail float-left mr-3 mb-1" style="width:100%;max-width:250px" id="homeIMG"></a> -->
                     <p>Lorem ipsum dolor sit amet, ne facer probatus mea, ad has eius iudico. Has id ullum viderer. Cu his prima vidisse alterum, per ex dictas petentium, viris choro at eum. Purto facete dissentiunt qui at.</p>
                     <p>Eum no dicam doctus splendide, vel summo putant aperiri ea. Te omnis ancillae mel, minim everti id his. Vel elit simul torquatos no, mel tation option ut, ea sit movet graeci. Ad sit unum repudiandae. Vim ut augue simul.</p>
                     <p>Ex mel hinc aliquid patrioque, case veritus molestie ea sit, scripta adversarium ex his. Blandit gloriatur at qui, at dolores argumentum per, ut sed ubique putent. Ne cibo ocurreret gloriatur mel, nonumy volutpat honestatis sit ei. Illud delectus eu has, in vim verterem sensibus accommodare, ad usu quaestio eloquentiam. Te eligendi democritum eum.</p>
                     <p>Dico falli assentior at eos. In est tantas omnium. iriure, vel no dolore vidisse platonem. Quo vidit summo omnesque ex, ea sed habemus vivendo detraxit. Ea sea viderer adipiscing. Ceteros forensibus deseruisse eu vel. Altera detracto eos ad. Dico ferri postea et vis.</p>
                     <p>Et persius tractatos voluptatum pro, eu amet omittantur ullamcorper pro, id consul option denique est. Sed causae mediocritatem cu, ea eam falli liber altera. Mei cu quem nostro. Aliquam accusamus et eam.</p>
+                </div>
+                <div class="d-none d-md-block col-5">
+                    <div class="card mt-0 mx-0">
+                        <h5 class="card-header text-center">Recent Blog Entries:</h5>
+                        <div class="card-body">
+                            <dl class="row">
+                                <dt class="col">
+                                    <h6 class="font-weight-bold" id="homeBlog1Title"> </h6>
+                                </dt>
+                            </dl>
+                            <dl class="row">
+                                <dt class="col">
+                                    <p class="font-weight-normal small" id="homeBlog1Text">
+                                        
+                                    </p>
+                                </dt>
+                                <dt class="col-lg-4">
+                                    <img class="img-fluid img-thumbnail" id="homeBlog1IMG">
+                                </dt>
+                            </dl>
+                            <span class="d-none d-lg-block">
+                                <dl class="row">
+                                    <dt class="col">
+                                        <h6 class="font-weight-bold" id="homeBlog2Title"> </h6>
+                                    </dt>
+                                </dl>
+                                <dl class="row">
+                                    <dt class="col">
+                                        <span class="font-weight-normal small" id="homeBlog2Text"> </span>
+                                    </dt>
+                                    <dt class="col-lg-4">
+                                        <img class="img-fluid img-thumbnail" id="homeBlog2IMG">
+                                    </dt>
+                                </dl>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <a id="aIMG5"><img class="img-fluid mb-4" id="homeIMG5"></a>
+                        </div>
+                        <div class="col d-none d-lg-block">
+                            <a id="aIMG6"><img class="img-fluid mb-4" id="homeIMG6"></a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -81,6 +137,7 @@
                         <a href="#" ><img src="img/m_fleur.png"  width="30px" class="img-fluid" /></a>
                         <a class="btn btn-social-icon btn-instagram" href="https://www.instagram.com/lesaintdumech/" target="_blank"><i class="fa fa-instagram"></i></a>
                         <a class="btn btn-social-icon btn-twitter" href="https://twitter.com/LeSaintDuMech" target="_blank"><i class="fa fa-twitter"></i></a>
+                        <a class="btn btn-social-icon btn-link mb-1" href="mailto:lesaint@lesaintdumech.com"><i class="fa fa-envelope"></i></a>
                     </div>
                 </div>
             </div>

@@ -2723,7 +2723,7 @@ const models = [
         false,
         false,
         false,
-        ['https://hosting.photobucket.com/images/i/lesaintdumech/harute.jpeg','Gundam Harute'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/zabanya.jpeg','Gundam Harute'],
         true
     ],
     [72,1,'Shin Musha Gundam',
@@ -3026,7 +3026,7 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/majortom10.jpeg','Major Tom','img10'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/majortom11.jpeg','Major Tom','img11']
         ],
-        ['https://hosting.photobucket.com/images/i/lesaintdumech/majortom01.jpeg','Profile Photo: Major Tom'],false,false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/majortom09.jpeg','Profile Photo: Major Tom'],false,false,
         [
             ['Video','https://www.instagram.com/reel/Cq3Ywijx6jM/?igshid=YzcxN2Q2NzY0OA=='],
             ['USA Gundam Store','https://www.usagundamstore.com/products/gg-33-gundam-geminass'],
@@ -3548,7 +3548,7 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/ironmaiden10.jpeg','Iron Maiden','img10'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/ironmaiden11.jpeg','Iron Maiden','img11']
         ],
-        ['https://hosting.photobucket.com/images/i/lesaintdumech/ironmaiden11.jpeg','Profile Photo: Iron Maiden'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/ironmaiden08.jpeg','Profile Photo: Iron Maiden'],
         'Theme was all different shades of metal paints. Iron, Copper, Brass, Silver, Chrome, Gold. I think there were more but I forget.','Madan, Nebraska',
         [
             ['USA Gundam Store','https://www.usagundamstore.com/products/gg-29-gundam-x'],
@@ -3668,7 +3668,7 @@ const projects = [
         ],false,false,true,'1:144'
     ],
     ['F-23',[1,'Flag'],'HG',false,false,false,'00','B'],
-    ['Harute (Final Battle Version)',[1,'Harute'],'HG',
+    ['Harute (Final Battle)',[1,'Harute'],'HG',
         true,true,false,'00','E','2022-03-08',5.75,false,'Builds/PBandai/PBHaruteFinalHG.html',false,'2022-11-21',models[70],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/pbharfb01.jpeg','PB Harute','img1'],
@@ -3688,7 +3688,7 @@ const projects = [
         ],false,false,true,'1:144'
     ],
     ['Virtue/Nadlee [MG]',[3,'Virtue','Nadlee','VirtueStand'],'MG',true,false,false,'00','E','2022-02',20.08,true,'Builds/VirtueNadleeStand.html',false,'2023-01-16'],
-    ['Zabanya (Final Battle Version)',[1,'Zabanya'],'HG',
+    ['Zabanya (Final Battle)',[1,'Zabanya'],'HG',
         true,true,false,'00','E','2022-03-09',3,false,'Builds/PBandai/PBZabanyaFinalHG.html',false,'2022-11-07',models[71],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/pbzab01.jpeg','PB Zabanya','img1'],
@@ -3728,7 +3728,7 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/johnwayne14.jpeg','John Wayne','img14'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/johnwayne15.jpeg','John Wayne','img15']
         ],
-        ['https://hosting.photobucket.com/images/i/lesaintdumech/johnwayne01.jpeg','Profile Photo: John Wayne'],false,false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/johnwayne09.jpeg','Profile Photo: John Wayne'],false,false,
         [
             ['Video','https://www.instagram.com/reel/CooWAkZs4hO/?igshid=YzcxN2Q2NzY0OA=='],
             ['USA Gundam Store','https://www.usagundamstore.com/products/gg-40-turn-a-gundam'],
@@ -4625,7 +4625,7 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/warpig10.jpeg','War Pig','img10'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/warpig11.jpeg','War Pig','img11']
         ],
-        ['https://hosting.photobucket.com/images/i/lesaintdumech/warpig01.jpeg','Profile Photo: War Pig'],false,false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/warpig08.jpeg','Profile Photo: War Pig'],false,false,
         [
             ['Video','https://www.instagram.com/reel/CrMBT1IONut/?igshid=YzcxN2Q2NzY0OA=='],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pre-order-sd-gundam-ex-standard-010-gundam-barbatos'],
@@ -4687,7 +4687,7 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/sealiah37.jpeg','Sealiah','img37'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/sealiah38.jpeg','Sealiah','img38']
         ],
-        ['https://hosting.photobucket.com/images/i/lesaintdumech/sealiah01.jpeg','Profile Photo: Sealiah'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/sealiah08.jpeg','Profile Photo: Sealiah'],
         'After having started work on Vine/Hashmal, I realized it needed an opponent to fight. So sticking to cannon I obviously chose the HG Barbatos Lupus. And since I named my Hashmal after the demon king Vine, its opponent had to be an angel instead. Naturally, according to the Ars Goetia the eternal opponent to Vine is the angel Sealiah. Painted with two new Turbo dork colors: Purl Grey and Blue Steel, I present to you the guardian angel of motivation and willfulness, Sealiah',false,
         [
             ['Video','https://www.instagram.com/reel/Cta8-OdLppw/?igshid=YzcxN2Q2NzY0OA=='],
@@ -4809,7 +4809,7 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/dewdrop10.jpeg','Dew Drop','img10'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/dewdrop11.jpeg','Dew Drop','img11']
         ],
-        ['https://hosting.photobucket.com/images/i/lesaintdumech/dewdrop01.jpeg','Profile Photo: Dew Drop'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/dewdrop04.jpeg','Profile Photo: Dew Drop'],
         'The AcGuy is an aquatic unit. But I always thought its traditional color scheme was completely wrong for something with Amphibious elements. So I decided to fix that by retooling it different shades of blue.','Zack #TheLunchDude, Iowa',
         [
             ['Video','https://www.instagram.com/reel/Ctrs_SpNgCb/?igshid=YzcxN2Q2NzY0OA=='],
@@ -5131,7 +5131,7 @@ const projects = [
 
     //Build Divers (BD)
     ['00 Diver Trans-Am',[1,'00 Gundam Diver'],'HG',
-        true,true,false,'BD','E','2022-01',2.75,false,'Builds/Gundams/PBooDiverHG.html',false,'2022-08-08',models[69],
+        true,true,false,'BD','E','2022-01',2.75,false,'Builds/PBandai/PBooDiverHG.html',false,'2022-08-08',models[69],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/pbod01.jpeg','00 Diver','img1'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/pbod02.jpeg','00 Diver','img2'],
@@ -7109,6 +7109,125 @@ function suggestNextPost () {
     let tempArray = constructedArray[decisionNumber];
     const suggestTextNode = document.createTextNode(tempArray[0]);
     suggestPostNode.appendChild(suggestTextNode);
+}
+
+//Home Page
+
+function homepageImage() {
+    generateLists();
+
+    let tempArray = [];
+
+    for (let i=0; i<postedArray.length; i++) {
+        if (postedArray[i][22]) {
+            tempArray.push(postedArray[i]);
+        }
+    }
+
+    //IMG 1
+    let randomN = Math.floor(Math.random()* tempArray.length);
+    let randomPost = tempArray[randomN];
+    tempArray.splice(randomN,1);
+
+    let aIMG1Node = document.getElementById('aIMG1');
+    let aIMG1HREF = document.createAttribute('href');
+    aIMG1HREF.value = randomPost[11];
+    aIMG1Node.setAttributeNode(aIMG1HREF);
+
+    let homeIMG1Node = document.getElementById('homeIMG1');
+    let homeIMG1SRC = document.createAttribute('src');
+    homeIMG1SRC.value = randomPost[16][0];
+    homeIMG1Node.setAttributeNode(homeIMG1SRC);
+
+    //IMG 2
+    randomN = Math.floor(Math.random()* tempArray.length);
+    randomPost = tempArray[randomN];
+    tempArray.splice(randomN,1);
+
+    let aIMG2Node = document.getElementById('aIMG2');
+    let aIMG2HREF = document.createAttribute('href');
+    aIMG2HREF.value = randomPost[11];
+    aIMG2Node.setAttributeNode(aIMG2HREF);
+
+    let homeIMG2Node = document.getElementById('homeIMG2');
+    let homeIMG2SRC = document.createAttribute('src');
+    homeIMG2SRC.value = randomPost[16][0];
+    homeIMG2Node.setAttributeNode(homeIMG2SRC);
+
+    //IMG 3
+    randomN = Math.floor(Math.random()* tempArray.length);
+    randomPost = tempArray[randomN];
+    tempArray.splice(randomN,1);
+
+    let aIMG3Node = document.getElementById('aIMG3');
+    let aIMG3HREF = document.createAttribute('href');
+    aIMG3HREF.value = randomPost[11];
+    aIMG3Node.setAttributeNode(aIMG3HREF);
+
+    let homeIMG3Node = document.getElementById('homeIMG3');
+    let homeIMG3SRC = document.createAttribute('src');
+    homeIMG3SRC.value = randomPost[16][0];
+    homeIMG3Node.setAttributeNode(homeIMG3SRC);
+
+    //IMG 4
+    randomN = Math.floor(Math.random()* tempArray.length);
+    randomPost = tempArray[randomN];
+    tempArray.splice(randomN,1);
+
+    let aIMG4Node = document.getElementById('aIMG4');
+    let aIMG4HREF = document.createAttribute('href');
+    aIMG4HREF.value = randomPost[11];
+    aIMG4Node.setAttributeNode(aIMG4HREF);
+
+    let homeIMG4Node = document.getElementById('homeIMG4');
+    let homeIMG4SRC = document.createAttribute('src');
+    homeIMG4SRC.value = randomPost[16][0];
+    homeIMG4Node.setAttributeNode(homeIMG4SRC);
+
+    //IMG 5
+    randomN = Math.floor(Math.random()* tempArray.length);
+    randomPost = tempArray[randomN];
+    tempArray.splice(randomN,1);
+
+    let aIMG5Node = document.getElementById('aIMG5');
+    let aIMG5HREF = document.createAttribute('href');
+    aIMG5HREF.value = randomPost[11];
+    aIMG5Node.setAttributeNode(aIMG5HREF);
+
+    let homeIMG5Node = document.getElementById('homeIMG5');
+    let homeIMG5SRC = document.createAttribute('src');
+    homeIMG5SRC.value = randomPost[16][0];
+    homeIMG5Node.setAttributeNode(homeIMG5SRC);
+
+    //IMG 6
+    randomN = Math.floor(Math.random()* tempArray.length);
+    randomPost = tempArray[randomN];
+    tempArray.splice(randomN,1);
+
+    let aIMG6Node = document.getElementById('aIMG6');
+    let aIMG6HREF = document.createAttribute('href');
+    aIMG6HREF.value = randomPost[11];
+    aIMG6Node.setAttributeNode(aIMG6HREF);
+
+    let homeIMG6Node = document.getElementById('homeIMG6');
+    let homeIMG6SRC = document.createAttribute('src');
+    homeIMG6SRC.value = randomPost[16][0];
+    homeIMG6Node.setAttributeNode(homeIMG6SRC);
+
+    //IMG 7
+    randomN = Math.floor(Math.random()* tempArray.length);
+    randomPost = tempArray[randomN];
+    tempArray.splice(randomN,1);
+
+    let aIMG7Node = document.getElementById('aIMG7');
+    let aIMG7HREF = document.createAttribute('href');
+    aIMG7HREF.value = randomPost[11];
+    aIMG7Node.setAttributeNode(aIMG7HREF);
+
+    let homeIMG7Node = document.getElementById('homeIMG7');
+    let homeIMG7SRC = document.createAttribute('src');
+    homeIMG7SRC.value = randomPost[16][0];
+    homeIMG7Node.setAttributeNode(homeIMG7SRC);
 }
 
 //Project Functions

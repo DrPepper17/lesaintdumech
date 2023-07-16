@@ -449,3 +449,55 @@ function constructArchiveEntry() {
     }
 
 }
+
+function homepageDisplay() {
+    sortArray();
+
+    //Blog One
+    let homeBlog1TitleNode = document.getElementById('homeBlog1Title');
+    let homeBlog1TitleText = document.createTextNode(blogArray[0][1]);
+    homeBlog1TitleNode.appendChild(homeBlog1TitleText);
+
+    let homeBlog1TextNode = document.getElementById('homeBlog1Text');
+    constructParagraph(blogArray[0][3],homeBlog1TextNode);
+
+    let homeBlog1IMGNode = document.getElementById('homeBlog1IMG');
+    let homeBlog1SRC = document.createAttribute('src');
+    homeBlog1SRC.value = blogArray[0][2];
+    homeBlog1IMGNode.setAttributeNode(homeBlog1SRC);
+
+    let homeBlog1Anchor = document.createElement('a');
+    let homeBlog1AnchorHref = document.createAttribute('href');
+    homeBlog1AnchorHref.value = 'blog.html#card1';
+    let homeBlog1AnchorClass = document.createAttribute('class');
+    homeBlog1AnchorClass.value = 'd-inline';
+    homeBlog1Anchor.setAttributeNode(homeBlog1AnchorHref);
+    homeBlog1Anchor.setAttributeNode(homeBlog1AnchorClass);
+    homeBlog1TextNode.lastChild.appendChild(homeBlog1Anchor);
+    let homeBlog1AnchorText = document.createTextNode('...\u003cKeep Reading\u003e');
+    homeBlog1Anchor.appendChild(homeBlog1AnchorText);
+
+    //Blog Two
+    let homeBlog2TitleNode = document.getElementById('homeBlog2Title');
+    let homeBlog2TitleText = document.createTextNode(blogArray[1][1]);
+    homeBlog2TitleNode.appendChild(homeBlog2TitleText);
+
+    let homeBlog2TextNode = document.getElementById('homeBlog2Text');
+    constructParagraph(blogArray[1][3],homeBlog2TextNode);
+
+    let homeBlog2IMGNode = document.getElementById('homeBlog2IMG');
+    let homeBlog2SRC = document.createAttribute('src');
+    homeBlog2SRC.value = blogArray[1][2];
+    homeBlog2IMGNode.setAttributeNode(homeBlog2SRC);
+
+    let homeBlog2Anchor = document.createElement('a');
+    let homeBlog2AnchorHref = document.createAttribute('href');
+    homeBlog2AnchorHref.value = 'blog.html#card2';
+    let homeBlog2AnchorClass = document.createAttribute('class');
+    homeBlog2AnchorClass.value = 'd-inline';
+    homeBlog2Anchor.setAttributeNode(homeBlog2AnchorHref);
+    homeBlog2Anchor.setAttributeNode(homeBlog2AnchorClass);
+    homeBlog2TextNode.lastChild.appendChild(homeBlog2Anchor);
+    let homeBlog2AnchorText = document.createTextNode('...\u003cKeep Reading\u003e');
+    homeBlog2Anchor.appendChild(homeBlog2AnchorText);
+}
