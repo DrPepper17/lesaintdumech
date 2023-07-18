@@ -4640,17 +4640,28 @@ const projects = [
         ],['Deep Purple'],true,true,false
     ],
     ['Deep Purple',[1,'Barbatos Lupus'],'SD',
-        false,false,false,'IBO','D','2021-12-14',4.36,false,'Builds/Gundams/DeepPurple.html',false,false,models[48],
+        false,false,false,'IBO','E','2021-12-14',4.36,false,'Builds/Gundams/DeepPurple.html',false,'2023-07-17',models[48],
         [
-            []
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/deeppurple01.jpeg','Deep Purple','img1'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/deeppurple02.jpeg','Deep Purple','img2'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/deeppurple03.jpeg','Deep Purple','img3'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/deeppurple04.jpeg','Deep Purple','img4'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/deeppurple05.jpeg','Deep Purple','img5'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/deeppurple06.jpeg','Deep Purple','img6'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/deeppurple07.jpeg','Deep Purple','img7'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/deeppurple08.jpeg','Deep Purple','img8'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/deeppurple09.jpeg','Deep Purple','img9'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/deeppurple10.jpeg','Deep Purple','img10'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/deeppurple11.jpeg','Deep Purple','img11'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/deeppurple12.jpeg','Deep Purple','img12']
         ],
-        ['','Profile Photo: Deep Purple'],
-        '',false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/deeppurple07.jpeg','Profile Photo: Deep Purple'],
+        'Smooooke on the waaaaater...... Fire in the sky!! For this design the name preceded the design. Back in December 2021 I was doing an SD models binge, with each one named after music/musicians/bands. I\'m a huge lover of Deep Purple and named this kit after them for \'just because\'. Anyhow once the name was chosen, the design quickly followed. True to name, I stuck to all different shades of puprle. Metallic purple. GLossy Purple. Grape Purple. Any shade of purple that Testors offered I was on it.',false,
         [
-            ['Video',''],
-            ['USA Gundam Store',''],
-            ['NewType','']
-        ],['War Pig'],false,false,false
+            ['Video','https://www.instagram.com/p/Cuz5iD7AGFv/'],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/pre-order-014-gundam-barbatos-lupus-ibo-2nd-season-bandai-sd-ex-standard'],
+            ['NewType','https://newtype.us/p/hvuv8wfY6UaAdRQuKlrD/h/sdex-standard-14-gundam-barbatos-lupus']
+        ],['War Pig'],false,true,false
     ],
     ['Sealiah',[1,'Barbatos Lupus'],'HG',
         false,false,false,'IBO','E','2023-02-05',12.51,false,'Builds/Gundams/Sealiah.html',false,'2023-06-13',models[48],
@@ -5913,7 +5924,7 @@ const projects = [
     
     //Zoid
     ['Dash Hound',
-        [1,'Shadow Fox'],'Zoid',false,false,false,'','C','2023-06-12',19.25,false,'Builds/Zoids/DashHound.html',['Tamiya: Gold TS-21 Can','Tamiya: Matt Black TS-6 Can','Tamiya: Copper PS-14 Can','Vallejo Model Air: US Earth Red 71.293','Vallejo Model Air: USAF Brown 71.125','Vallejo Model Air: Rust 71.069','Vallejo Model Air: Armor Brown 71.041','Vallejo Mecha Color: Dark Steel 69.065','Vallejo Model Air: Silver 71.063','Vallejo Model Air: Ivory 71.075','Testors: Brass 1182','Vallejo Model Air: Wood 71.077','Vallejo Model Air: US Desert Sand 71.140','Vallejo Mecha Color: Gun Metal 69.058','Vallejo Model Air: Camouflage Gray 71.280']
+        [1,'Shadow Fox'],'Zoid',false,false,false,'','C','2023-06-12',26.25,false,'Builds/Zoids/DashHound.html',['Tamiya: Gold TS-21 Can','Tamiya: Matt Black TS-6 Can','Tamiya: Copper PS-14 Can','Vallejo Model Air: US Earth Red 71.293','Vallejo Model Air: USAF Brown 71.125','Vallejo Model Air: Rust 71.069','Vallejo Model Air: Armor Brown 71.041','Vallejo Mecha Color: Dark Steel 69.065','Vallejo Model Air: Silver 71.063','Vallejo Model Air: Ivory 71.075','Testors: Brass 1182','Vallejo Model Air: Wood 71.077','Vallejo Model Air: US Desert Sand 71.140','Vallejo Mecha Color: Gun Metal 69.058','Vallejo Model Air: Camouflage Gray 71.280']
     ],
     ['Shere Khan',[1,'Blade Liger'],'Zoid',false,false,false,'','B'],
     ['Akela',[1,'Konig Wolf Heavy Arms'],'Zoid',false,false,false,'','A'],
