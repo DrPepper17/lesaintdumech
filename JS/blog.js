@@ -86,7 +86,8 @@ const blogArray = [
                 'Happy Monday!! Presenting this week\'s Monday post, ',
                 ['Deep Purple','Builds/Gundams/DeepPurple.html'],
                 '. Painted with near Fifty Shades of Purple and inspired by one of my favorite 60s/70s hard rock bands. Enjoy.'
-            ]
+            ],
+            ['*** For clarification, the fifty shades of purple reference was a joke. It was more like three.']
         ]
     ]
 ]
