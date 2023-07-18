@@ -83,7 +83,7 @@ const blogArray = [
         'https://hosting.photobucket.com/images/i/lesaintdumech/deeppurple10.jpeg',
         [
             [
-                'Presenting this week\'s monday post, ',
+                'Happy Monday!! Presenting this week\'s Monday post, ',
                 ['Deep Purple','Builds/Gundams/DeepPurple.html'],
                 '. Painted with near Fifty Shades of Purple and inspired by one of my favorite 60s/70s hard rock bands. Enjoy.'
             ]
