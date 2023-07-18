@@ -3954,7 +3954,7 @@ const projects = [
     ],
     ['Samus: Dark Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','A'],
     ['Samus: Fusion Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','A'],
-    ['Samus: Gravity Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','A'],
+    ['Samus: Gravity Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','B'],
     ['Samus: Light Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','A'],
     ['Samus: Phazon Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','A'],
     ['Samus: Varia Suit',[1,'Dagger L'],'HG',
@@ -4179,7 +4179,7 @@ const projects = [
         ],['Anthem','Old Glory'],true,true,false
     ],
     ['Old Glory',[1,'Freedom'],'MGSD',
-        false,false,false,'Seed','E','2023-05-06',30.33,false,'Builds/Gundams/OldGlory.html',['Mission Models: MMP-001 White','Testors: Red Grapefruit 1196','Testors: Cherry Red 1197','Vallejo Mecha Color: Gold 69.059','Vallejo Mecha Color: Electric Blue 60.020','Vallejo Model Air: Black 71.057','Vallejo Mecha Color: Metallic Blue 69.067','Vallejo Model Air: Metallic Signal Red 71.070','Vallejo Mecha Color: Sky Blue 69.017','Tamiya: Metallic BLue TS-19 Can','Tamiya: Gold TS-21 Can','Tamiya: Matt White TS-27 Can','Tamiya: Metallic Red PS-15 Can','Tamiya: Clear Red X-27'],'2023-07-03',models[14],
+        false,false,false,'Seed','E','2023-05-06',30.33,false,'Builds/Gundams/OldGlory.html',false,'2023-07-03',models[14],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/oldglory01_sdLav1PtqioFw5a8sxxjgX.jpeg','Old Glory','img1'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/oldglory02_aTn59wMj3Fgx67X7GmzEZJ.jpeg','Old Glory','img2'],
@@ -4501,7 +4501,17 @@ const projects = [
             ['NewType','https://newtype.us/p/kjwUPIk5smIcsY8oIzVJ/h/hgce-232-gat-04-windam']
         ],['Armageddon'],false,true,'1:144'
     ],
-    ['PB Slash Zaku Phantom (Yzak Jule Custom) [MG]',[1,'Zaku Phantom, Slash'],'MG',true,true,false,'Seed','D','2023-04-05',11.83,false,'Builds/PBPhantomZakuMG.html',false],
+    ['Slash Zaku Phantom',[1,'Zaku Phantom, Slash'],'MG',
+        true,true,false,'Seed','D','2023-04-05',11.83,false,'Builds/PBandai/PBPhantomZakuMG.html',false,'',false,
+        [
+            ['','','']
+        ],
+        ['',''],
+        '',false,
+        [
+            ['','']
+        ],false,false,false,'1:100','Yzak Jule Custom','Slash Zaku Phantom (Yzak Jule Custom)'
+    ],
     
     //Future Century (G Gundam)
     ['PB Burning Gundam [RG]',[2,'Burning Gundam','Burning Gundam Expansion Pass','Burning Gundam LED lights'],'RG',true,true,false,'G','C','2022-09-07',15.5,true,'Builds/PBBurningGUndamRG.html',false],
@@ -5246,7 +5256,6 @@ const projects = [
     ['Artemis',[1,'00, Zhao Yun'],'SD',false,false,false,'Heroes','A'],
     ['Oceanus',[1,'Altron, Zhang He'],'SD',false,false,false,'Heroes','D','2022-04-06',5.42,false,'Builds/Oceanus.html',['']],
     ['Eurybia',[1,'Akatsuki, Zhou Yu'],'SD',false,false,false,'Heroes','B'],
-    ['Pallas',[1,'Burning Gundam, Huang Zhang Fei'],'SD',false,false,false,'Heroes','B'],
     ['Perses',[1,'Deathscythe, Xu Huang'],'SD',false,false,false,'Heroes','A'],
     ['Azalea',[1,'Delta, Sasuki'],'SD',
         false,false,false,'Heroes','E','2021-10-09',6.5,false,'Builds/SDW/Azalea.html',['Turbo Dork: Sakura','Turbo Dork: Sparkle Motion'],'2022-06-22',models[17],
@@ -5289,6 +5298,8 @@ const projects = [
     ['Tiamat',[1,'Dragon, Shining Grasper'],'SD',false,false,false,'Heroes','A'],
     ['Cronus',[1,'Epyon, Nobunaga'],'SD',false,false,false,'Heroes','A'],
     ['Helios',[1,'Freedom, Zhuge Liang'],'SD',false,false,false,'Heroes','D','2022-03-11',9.25,false,'Builds/Helios.html',['']],
+    ['Pallas',[1,'God Gundam, Huang Zhang Fei'],'SD',false,false,false,'Heroes','B'],
+    ['Atlas',[1,'God Gundam, Zhang Fei'],'SD',false,false,false,'Heroes','B'],
     ['Themis',[1,'Legend, Caesar'],'SD',false,false,false,'Heroes','A'],
     ['Crius',[1,'Sazabi, Zhang Liao'],'SD',false,false,false,'Heroes','B'],
     ['Clymene',[1,'Strike, Knight'],'SD',false,false,false,'Heroes','A'],
@@ -5394,8 +5405,8 @@ const projects = [
             ['Turbo Dork','https://turbodork.com']
         ],false,true,true,false,false,'Mighty Morphin Power Rangers'
     ],
-    ['Eos',[1,'Wing, Sangoku Soketsuden  Cao Cao'],'SD',false,false,false,'Heroes','A'],    //Wing zero
-    ['Aether',[1,'Wing, Sangoku Soketsuden  Cao Cao'],'SD',false,false,false,'Heroes','A'],    //Wing zero
+    ['Eos',[1,'Wing, Sangoku Soketsuden  Cao Cao'],'SD',false,false,false,'Heroes','B'],    //Wing zero
+    ['Aether',[1,'Wing, Sangoku Soketsuden  Cao Cao'],'SD',false,false,false,'Heroes','B'],    //Wing zero
     ['Tethys',[1,'Wing Isei, Cao Cao'],'SD',false,false,false,'Heroes','D','2022-04-05',8.67,false,'Builds/tethys.html',['']], //Regular wing
     ['Hyperion',[1,'Wing, Tian Ba Cao Cao'],'SD',false,false,false,'Heroes','B'],   //regular wing 
 
@@ -5924,7 +5935,7 @@ const projects = [
     
     //Zoid
     ['Dash Hound',
-        [1,'Shadow Fox'],'Zoid',false,false,false,'','C','2023-06-12',26.25,false,'Builds/Zoids/DashHound.html',['Tamiya: Gold TS-21 Can','Tamiya: Matt Black TS-6 Can','Tamiya: Copper PS-14 Can','Vallejo Model Air: US Earth Red 71.293','Vallejo Model Air: USAF Brown 71.125','Vallejo Model Air: Rust 71.069','Vallejo Model Air: Armor Brown 71.041','Vallejo Mecha Color: Dark Steel 69.065','Vallejo Model Air: Silver 71.063','Vallejo Model Air: Ivory 71.075','Testors: Brass 1182','Vallejo Model Air: Wood 71.077','Vallejo Model Air: US Desert Sand 71.140','Vallejo Mecha Color: Gun Metal 69.058','Vallejo Model Air: Camouflage Gray 71.280']
+        [1,'Shadow Fox'],'Zoid',false,false,false,'','C','2023-06-12',26.25,false,'Builds/Zoids/DashHound.html',false
     ],
     ['Shere Khan',[1,'Blade Liger'],'Zoid',false,false,false,'','B'],
     ['Akela',[1,'Konig Wolf Heavy Arms'],'Zoid',false,false,false,'','A'],
