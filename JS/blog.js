@@ -76,6 +76,18 @@ const blogArray = [
                 ' and admire my work. Lord knows I\'ve worked hard enough for you all to go enjoy them.'
             ]
         ]
+    ],
+    [
+        '2023-07-17',
+        'Smoke On a Monday!!!',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/deeppurple10.jpeg',
+        [
+            [
+                'Presenting this week\'s monday post, ',
+                ['Deep Purple','Builds/Gundams/DeepPurple.html'],
+                '. Painted with near Fifty Shades of Purple and inspired by one of my favorite 60s/70s hard rock bands. Enjoy.'
+            ]
+        ]
     ]
 ]
 
