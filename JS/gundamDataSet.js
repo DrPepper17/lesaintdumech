@@ -5936,7 +5936,7 @@ const projects = [
     
     //Zoid
     ['Dash Hound',
-        [1,'Shadow Fox'],'Zoid',false,false,false,'','C','2023-06-12',26.25,false,'Builds/Zoids/DashHound.html',false
+        [1,'Shadow Fox'],'Zoid',false,false,false,'','C','2023-06-12',26.95,false,'Builds/Zoids/DashHound.html',false
     ],
     ['Shere Khan',[1,'Blade Liger'],'Zoid',false,false,false,'','B'],
     ['Akela',[1,'Konig Wolf Heavy Arms'],'Zoid',false,false,false,'','A'],
