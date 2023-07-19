@@ -2867,6 +2867,7 @@ const projects = [
     ],
     ['Adriel',[1,'LFrith'],'HG',false,false,false,'Mercury','B'],
     ['LFrith [HG]',[1,'LFrith'],'HG',true,false,false,'Mercury','D','2023-04-03-15',2.33,false,false,false],
+    ['Metatron',[1,'Schwarzette'],'HG',false,false,false,'Mercury','A'],
 
     //Advanced Generation (Age)
     ['Uriel',[1,'Age-FX'],'SD',false,false,false,'Age','B'],
@@ -3574,7 +3575,7 @@ const projects = [
             ['NewType','https://newtype.us/p/wterrtvejnOf2FWv8BIz/h/sdex-standard-08-00-gundam']
         ],false,false,true,false
     ],
-    ['Metatron',[1,'00 Raiser'],'SD',false,false,false,'00','B'],
+    ['Dantalion',[1,'00 Raiser'],'SD',false,false,false,'00','B'],
     ['00 Raiser Trans-Am',[1,'00 Gundam Raiser'],'RG',
         true,true,false,'00','E','2021-12-09',12.67,false,'Builds/PBandai/PBooraiserRG.html',false,'2022-06-15',models[68],
         [
