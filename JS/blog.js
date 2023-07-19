@@ -79,7 +79,7 @@ const blogArray = [
     ],
     [
         '2023-07-17',
-        'Smoke On a Monday!!!',
+        'Smoke On a Monday !!!',
         'https://hosting.photobucket.com/images/i/lesaintdumech/deeppurple10.jpeg',
         [
             [
