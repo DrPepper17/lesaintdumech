@@ -8,7 +8,7 @@
     5.[paragraph three]
 ]
 Each paragraph an array of segments, each segment either a string or a hyperlink array
-hyperlink array: ['word(s),'url']
+hyperlink array: ['word(s),'url',outside link?]
 */
 
 //Blog Array
@@ -89,6 +89,23 @@ const blogArray = [
             ],
         ],
         ['*** For clarification, the fifty shades of purple reference was a joke. It was more like three.']
+    ],
+    [
+        '2023-07-20',
+        'Mail Call',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/IMG_6627_Large.jpeg',
+        [
+            [
+                'So FedEX delivery today from P-Bandai just came in. Got me the ',
+                ['MG Strike Launch and Sword Striker Packs','https://p-bandai.com/us/item/N2211440001008',true],
+                ', ',
+                ['HG Rose Gundam','https://p-bandai.com/us/item/N2619353001002',true],
+                ', and two copies of the ',
+                ['HG Deathscythe Hell Tv Version','https://p-bandai.com/us/item/N2554771001001',true],
+                '. Cannot wait to paint and build these all.'
+            ],
+        ],
+        ['Expect to see more magic things from me to come.']
     ]
 ]
 
@@ -271,6 +288,11 @@ function constructParagraph(paragraphArray,anchorNode) {
                         let hrefAttr = document.createAttribute('href');
                         hrefAttr.value = paragraphArray[i][j][1];
                         aNode.setAttributeNode(hrefAttr);
+                        if (paragraphArray[i][j][2]) {
+                            let aTargetAttr = document.createAttribute('target');
+                            aTargetAttr.value = '_blank';
+                            aNode.setAttributeNode(aTargetAttr);
+                        }
                         let aText = document.createTextNode(paragraphArray[i][j][0]);
                         aNode.appendChild(aText);
                         pNode.appendChild(aNode);   
@@ -440,15 +462,11 @@ function constructArchiveEntry() {
         dt2Node.setAttributeNode(dt2Class);
         dl2Node.appendChild(dt2Node);
 
-        let p1Node = document.createElement('p');
-        constructParagraph(blogArray[i][3],p1Node);
-        dt2Node.appendChild(p1Node);
+        constructParagraph(blogArray[i][3],dt2Node);
 
 
         if (blogArray[i].length>4) {
-                let P2Node = document.createElement('p');
-                constructParagraph(blogArray[i][4],P2Node);
-                dt2Node.appendChild(P2Node);
+                constructParagraph(blogArray[i][4],dt2Node);
         }
 
         if (blogArray[i].length>5) {
@@ -465,9 +483,7 @@ function constructArchiveEntry() {
             dl3Node.appendChild(dt4Node);
 
             for (let p=5;p<blogArray[i].length;p++) {
-                let newPNode = document.createElement('p');
-                constructParagraph(blogArray[i][p],newPNode);
-                dt4Node.appendChild(newPNode);
+                constructParagraph(blogArray[i][p],dt4Node);
             }
         }
 
@@ -477,7 +493,7 @@ function constructArchiveEntry() {
 
 }
 
-function homepageDisplay() {
+function homepageBlog() {
     sortArray();
 
     //Blog One
@@ -527,4 +543,28 @@ function homepageDisplay() {
     homeBlog2TextNode.lastChild.appendChild(homeBlog2Anchor);
     let homeBlog2AnchorText = document.createTextNode('...\u003cKeep Reading\u003e');
     homeBlog2Anchor.appendChild(homeBlog2AnchorText);
+
+    //Blog Three
+    let homeBlog3TitleNode = document.getElementById('homeBlog3Title');
+    let homeBlog3TitleText = document.createTextNode(blogArray[0][1]);
+    homeBlog3TitleNode.appendChild(homeBlog3TitleText);
+
+    let homeBlog3TextNode = document.getElementById('homeBlog3Text');
+    constructParagraph(blogArray[0][3],homeBlog3TextNode);
+
+    let homeBlog3IMGNode = document.getElementById('homeBlog3IMG');
+    let homeBlog3SRC = document.createAttribute('src');
+    homeBlog3SRC.value = blogArray[0][2];
+    homeBlog3IMGNode.setAttributeNode(homeBlog3SRC);
+
+    let homeBlog3Anchor = document.createElement('a');
+    let homeBlog3AnchorHref = document.createAttribute('href');
+    homeBlog3AnchorHref.value = 'blog.html#card1';
+    let homeBlog3AnchorClass = document.createAttribute('class');
+    homeBlog3AnchorClass.value = 'd-inline';
+    homeBlog3Anchor.setAttributeNode(homeBlog3AnchorHref);
+    homeBlog3Anchor.setAttributeNode(homeBlog3AnchorClass);
+    homeBlog3TextNode.lastChild.appendChild(homeBlog3Anchor);
+    let homeBlog3AnchorText = document.createTextNode('...\u003cKeep Reading\u003e');
+    homeBlog3Anchor.appendChild(homeBlog3AnchorText);
 }

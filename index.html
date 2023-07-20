@@ -9,15 +9,15 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&display=swap" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caprasimo&display=swap">
         <script src="JS/frenchMetrics.js"></script>
-        <script src="JS/blog.js?v=202307172343"></script>
-        <script src="JS/gundamDataSet.js?v=202307172324"></script>
+        <script src="JS/blog.js?v=202307201700"></script>
+        <script src="JS/gundamDataSet.js?v=202307201722"></script>
         <link rel="stylesheet" href="CSS/home.css?v=202307111501"/>
         <link rel="stylesheet" href="CSS/blog.css?v=202307111501"/>
 
         <title>&#9884; Le Saint du Mech &#9884;</title>
     </head>
 
-    <body onload="convertDateToday(); homepageDisplay(); homepageImage()">
+    <body onload="convertDateToday(); homepageBlog(); homepageImages()">
         <header class="jumbotron jumbotron-fluid">
             <div class="container">
                 <div class="row text-right">
@@ -81,7 +81,7 @@
                     <a id="aIMG7"><img class="img-fluid mb-2" id="homeIMG7"></a>
                 </div>
                 <div class="col">
-                <!--    <a id="aIMG"><img class="img-thumbnail float-left mr-3 mb-1" style="width:100%;max-width:250px" id="homeIMG"></a> -->
+                <a id="aIMG1b"><img class="img-thumbnail float-left mr-3 mb-1 d-sm-none" style="width:100%;max-width:185px" id="homeIMG1b"></a>
                     <p>Lorem ipsum dolor sit amet, ne facer probatus mea, ad has eius iudico. Has id ullum viderer. Cu his prima vidisse alterum, per ex dictas petentium, viris choro at eum. Purto facete dissentiunt qui at.</p>
                     <p>Eum no dicam doctus splendide, vel summo putant aperiri ea. Te omnis ancillae mel, minim everti id his. Vel elit simul torquatos no, mel tation option ut, ea sit movet graeci. Ad sit unum repudiandae. Vim ut augue simul.</p>
                     <p>Ex mel hinc aliquid patrioque, case veritus molestie ea sit, scripta adversarium ex his. Blandit gloriatur at qui, at dolores argumentum per, ut sed ubique putent. Ne cibo ocurreret gloriatur mel, nonumy volutpat honestatis sit ei. Illud delectus eu has, in vim verterem sensibus accommodare, ad usu quaestio eloquentiam. Te eligendi democritum eum.</p>
@@ -130,6 +130,30 @@
                         </div>
                         <div class="col d-none d-lg-block">
                             <a id="aIMG6"><img class="img-fluid mb-4" id="homeIMG6"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row d-sm-none">
+                <div class="col">
+                    <div class="card mt-0 mx-0">
+                        <a href="blog.html"><h5 class="card-header text-center">Latest Blog:</h5></a>
+                        <div class="card-body">
+                            <dl class="row">
+                                <dt class="col">
+                                    <h6 class="font-weight-bold" id="homeBlog3Title"> </h6>
+                                </dt>
+                            </dl>
+                            <dl class="row">
+                                <dt class="col">
+                                    <p class="font-weight-normal small" id="homeBlog3Text">
+                                        
+                                    </p>
+                                </dt>
+                                <dt class="col-5">
+                                    <img class="img-fluid img-thumbnail" id="homeBlog3IMG">
+                                </dt>
+                            </dl>
                         </div>
                     </div>
                 </div>

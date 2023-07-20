@@ -2956,7 +2956,7 @@ const projects = [
         ],false,false,true,false
     ],
     ['Pontus',[1,'Aquarius'],'SD',false,false,false,'Wing','B',false,0,false,'Builds/Gundams/Pontus.html',false,false,models[40]],
-    ['PB Deathscythe Hell (TV Version',[1,'Deathscythe Hell'],'HG',false,true,false,'Wing','A'],
+    ['Deathscythe Hell (TV Version)',[1,'Deathscythe Hell'],'HG',false,true,false,'Wing','B'],
     ['Epyon [RG]',[1,'Epyon'],'RG',true,false,false,'Wing','A'],
     ['Golden Ghidorah',[1,'Epyon'],'MG',false,false,false,'Wing','B'],
     ['Golden Ghidorah',[1,'Epyon'],'RG',false,false,false,'Wing','A'],
@@ -3453,7 +3453,7 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/charliedaniels08.jpeg','Gundam Charlie Daniels','img8'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/charliedaniels09.jpeg','Gundam Charlie Daniels','img9'],
         ],
-        ['https://hosting.photobucket.com/images/i/lesaintdumech/charliedaniels09.jpeg','Profile Photo: Charlie Daniels'],false,'Tyler, Nebraska',
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/charliedaniels09.jpeg','Profile Photo: Charlie Daniels'],false,'Tyler, South Carolina',
         [
             ['USA Gundam Store','https://www.usagundamstore.com/products/gg-44-gundam-double-x?variant=32323103522852'],
             ['NewType','https://newtype.us/p/Tj4bsQyOIopaVxWIEoty/h/sdgg-044-gundam-double-x']
@@ -3959,7 +3959,7 @@ const projects = [
     ['Samus: Light Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','A'],
     ['Samus: Phazon Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','A'],
     ['Samus: Varia Suit',[1,'Dagger L'],'HG',
-        false,false,false,'Seed','C','2023-06-13',6.33,false,'Builds/Gundams/VariaSuit.html',['Tamiya: Gold TS-21 Can','Testors: Sunflower 1191','Tamiya: Matt Black TS-6 Can','Vallejo Game Color: Fluorescent Green 72.104','Tamiya: Gun Metal TS-38 Can'],false,models[23],
+        false,false,false,'Seed','C','2023-06-13',7.58,false,'Builds/Gundams/VariaSuit.html',false,'',models[23],
         [
             []
         ],
@@ -4548,7 +4548,7 @@ const projects = [
     ['Belial',[1,'Dark Gundam'],'HG',false,false,false,'G','B'],
     ['Dark Gundam [SD]',[1,'Dark Gundam'],'SD',true,false,false,'G','D','2022-08-07',1.75,false,false,false],
     ['Paimon',[1,'Dark Gundam'],'SD',false,false,false,'G','B'],
-    ['PB Gundam Rose [HG]',[1,'Rose Gundam'],'HG',true,true,false,'G','A'],
+    ['Gundam Rose',[1,'Rose Gundam'],'HG',true,true,false,'G','B'],
     ['Le Roi Soleil',[1,'Rose Gundam'],'HG',
         false,false,false,'G','E','2022-08-09',4.17,false,'Builds/Gundams/RoiSoleil.html',false,'2022-12-12',models[56],
         [
@@ -5925,7 +5925,7 @@ const projects = [
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/wilbee36.jpeg','Profile Photo: Wilbee'],
         'Was working on the Volkswagen Beetle model Wilbur and train of thought on this led me to considering the Transformer\'s 2018 Bumblebee film Volkswagen bug version of the eponymous \'Bumblebee\'. So this lead me to immediately buying the eqivalent Trumpeter brand model Bumblebee kit and painting him the same colors as Wilbur... thus \u00E0 la Wil-Beeeee!!!! I like to imagine him being my Wilbur transformed into robot mode. Oh and unlike Captain Bumble, Wilbee is a total Predacon.',
-        false,
+        'Tyler, South Carolina',
         [
             ['Video','https://www.instagram.com/p/CnM23e9IV7k/'],
             ['USA Gundam','https://www.usagundamstore.com/products/transformers-bumblebee-smart-model-kit?variant=41383099105477'],
@@ -7143,7 +7143,7 @@ function suggestNextPost () {
 
 //Home Page
 
-function homepageImage() {
+function homepageImages() {
     generateLists();
 
     let tempArray = [];
@@ -7168,6 +7168,16 @@ function homepageImage() {
     let homeIMG1SRC = document.createAttribute('src');
     homeIMG1SRC.value = randomPost[16][0];
     homeIMG1Node.setAttributeNode(homeIMG1SRC);
+
+    let aIMG1bNode = document.getElementById('aIMG1b');
+    let aIMG1bHREF = document.createAttribute('href');
+    aIMG1bHREF.value = randomPost[11];
+    aIMG1bNode.setAttributeNode(aIMG1bHREF);
+
+    let homeIMG1bNode = document.getElementById('homeIMG1b');
+    let homeIMG1bSRC = document.createAttribute('src');
+    homeIMG1bSRC.value = randomPost[16][0];
+    homeIMG1bNode.setAttributeNode(homeIMG1bSRC);
 
     //IMG 2
     randomN = Math.floor(Math.random()* tempArray.length);
