@@ -3453,7 +3453,7 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/charliedaniels08.jpeg','Gundam Charlie Daniels','img8'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/charliedaniels09.jpeg','Gundam Charlie Daniels','img9'],
         ],
-        ['https://hosting.photobucket.com/images/i/lesaintdumech/charliedaniels09.jpeg','Profile Photo: Charlie Daniels'],false,'Tyler, South Carolina',
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/charliedaniels09.jpeg','Profile Photo: Charlie Daniels'],false,'Tyler, North Carolina',
         [
             ['USA Gundam Store','https://www.usagundamstore.com/products/gg-44-gundam-double-x?variant=32323103522852'],
             ['NewType','https://newtype.us/p/Tj4bsQyOIopaVxWIEoty/h/sdgg-044-gundam-double-x']
@@ -5925,7 +5925,7 @@ const projects = [
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/wilbee36.jpeg','Profile Photo: Wilbee'],
         'Was working on the Volkswagen Beetle model Wilbur and train of thought on this led me to considering the Transformer\'s 2018 Bumblebee film Volkswagen bug version of the eponymous \'Bumblebee\'. So this lead me to immediately buying the eqivalent Trumpeter brand model Bumblebee kit and painting him the same colors as Wilbur... thus \u00E0 la Wil-Beeeee!!!! I like to imagine him being my Wilbur transformed into robot mode. Oh and unlike Captain Bumble, Wilbee is a total Predacon.',
-        'Tyler, South Carolina',
+        'Tyler, North Carolina',
         [
             ['Video','https://www.instagram.com/p/CnM23e9IV7k/'],
             ['USA Gundam','https://www.usagundamstore.com/products/transformers-bumblebee-smart-model-kit?variant=41383099105477'],
