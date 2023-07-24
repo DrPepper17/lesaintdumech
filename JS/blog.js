@@ -127,6 +127,22 @@ const blogArray = [
                 '. My first Zoid build, this was inspired by cute little dachshund puppies everywhere. So without further ado, I present to you Dash Hound.'
             ]
         ]
+    ],
+    [
+        '2023-07-25',
+        'It Is Finished',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/finished.jpeg',
+        ['So excited to announce, it is finally finished!!! The site is all done!!! It\'s now complete!!! The website is finished!!!'],
+        ['Now granted, in fairness 98% of the website was already completed. The only remaining portion left to do was just write the site introduction for the home page. I had been procrastinating on that for over a week. But hey now, sometimes it can be hard to know what to say for these sorts of things.'],
+        ['But anyhow, the home page is now done, and with that the webpage in its current iteration is now complete.'],
+        ['Of course there will still be weekly posts and updates with each now project I upload and frequent blog posts as I write about new projects I start on and comment on other Gundam news.'],
+        ['There also over time will be new updates and features added to the site, possibly including:'],
+        ['* A site migration to React format'],
+        ['* Retooling and site infrastructure and cleaning up the Javascripts'],
+        ['* A Reviews Section where I watch through different seasons of Gundam and summarize/review each episide'],
+        ['* My own Gundam fan fiction'],
+        ['* A section for my own original Gundam designs and drawings'],
+        ['Not sure what all I am going to do. But this is going to be fun. So stick around.']
     ]
 ]
 
