@@ -2786,6 +2786,44 @@ const models = [
         false,            //boolean
         ['https://hosting.photobucket.com/images/i/lesaintdumech/maneuverstriker.jpeg','Eclipse Maneuver Strike'],
         false           //boolean
+    ],
+    [74,9,'Shadow Fox',
+        'RZ-046 Shadow Fox',
+        'RZ-046',
+        'Fox Type',
+        1,
+        ['Brad Hunter'],
+        'Helic Republic',
+        [52,'52.0 tons'],
+        [17.3,'17.3 m'],
+        [8,'8.0 m'],
+        [290,'290.0 km/h'],
+        [
+            'Electron Bite Fangs',
+            'Strike Laser Claws',
+            'AZ 30mm Armor Piercing Laser Vulcan',
+            'AZ 70mm Electromagentic Net Gun'
+        ],
+        [
+            'Optical Camouflage',
+            '3D Radar & Multiple Ear Sensor',
+            'Smoke Discharger',
+            'Anchor',
+            'Multi Weapon Rack',
+            'Shoulder Weapon Rack'
+        ],
+        'Dr. Laon',
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/Shadow_Fox_Large.jpeg','Shadow Fox']
     ]
 ];
 
@@ -2956,7 +2994,7 @@ const projects = [
         ],false,false,true,false
     ],
     ['Pontus',[1,'Aquarius'],'SD',false,false,false,'Wing','B',false,0,false,'Builds/Gundams/Pontus.html',false,false,models[40]],
-    ['Deathscythe Hell (TV Version)',[1,'Deathscythe Hell'],'HG',false,true,false,'Wing','B'],
+    ['Alucard',[1,'Deathscythe Hell (TV Version'],'HG',false,true,false,'Wing','C'],
     ['Epyon [RG]',[1,'Epyon'],'RG',true,false,false,'Wing','A'],
     ['Golden Ghidorah',[1,'Epyon'],'MG',false,false,false,'Wing','B'],
     ['Golden Ghidorah',[1,'Epyon'],'RG',false,false,false,'Wing','A'],
@@ -3338,8 +3376,8 @@ const projects = [
         ],false,false,true,'1:100'
     ],
     ['Wing Gundam [RG]',[1,'Wing Gundam'],'RG',true,false,false,'Wing','E','2021-07',12.59,false,false,false,'2022-02-07'],
-    ['Wing Zero Clear',
-        [1,'Wing Zero'],'RG',true,true,false,'Wing','E','2021-11-10',6.15,false,'Builds/PBandai/PBZeroRG.html',false,'2022-04-19',models[32],
+    ['Wing Zero Clear',[1,'Wing Zero'],'RG',
+        true,true,false,'Wing','E','2021-11-10',6.15,false,'Builds/PBandai/PBZeroRG.html',false,'2022-04-19',models[32],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/pbzc01.jpeg','Premium-Bandai Wing Zero','img1'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/pbzc02.jpeg','Premium-Bandai Wing Zero','img2'],
@@ -3953,13 +3991,13 @@ const projects = [
             ['NewType','https://newtype.us/p/V3s94PjelBrA0T06Q673/h/hgce-237-gat-o2l2-dagger-l']
         ],['Armageddon','Samus: Varia Suit','Malphas'],false,true,'1:144'
     ],
-    ['Samus: Dark Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','A'],
+    ['Samus: Dark Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','C'],
     ['Samus: Fusion Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','A'],
-    ['Samus: Gravity Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','B'],
-    ['Samus: Light Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','A'],
-    ['Samus: Phazon Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','A'],
+    ['Samus: Gravity Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','C'],
+    ['Samus: Light Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','C'],
+    ['Samus: Phazon Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','C'],
     ['Samus: Varia Suit',[1,'Dagger L'],'HG',
-        false,false,false,'Seed','C','2023-06-13',7.58,false,'Builds/Gundams/VariaSuit.html',false,'',models[23],
+        false,false,false,'Seed','C','2023-06-13',7.75,false,'Builds/Gundams/VariaSuit.html',false,'',models[23],
         [
             []
         ],
@@ -4548,7 +4586,7 @@ const projects = [
     ['Belial',[1,'Dark Gundam'],'HG',false,false,false,'G','B'],
     ['Dark Gundam [SD]',[1,'Dark Gundam'],'SD',true,false,false,'G','D','2022-08-07',1.75,false,false,false],
     ['Paimon',[1,'Dark Gundam'],'SD',false,false,false,'G','B'],
-    ['Gundam Rose',[1,'Rose Gundam'],'HG',true,true,false,'G','B'],
+    ['Charlemagne',[1,'Rose Gundam'],'HG',true,true,false,'G','C'],
     ['Le Roi Soleil',[1,'Rose Gundam'],'HG',
         false,false,false,'G','E','2022-08-09',4.17,false,'Builds/Gundams/RoiSoleil.html',false,'2022-12-12',models[56],
         [
@@ -4820,7 +4858,7 @@ const projects = [
             ['Vine','https://en.wikipedia.org/wiki/Vine_(demon)']
         ],['Sealiah'],false,true,'1:144'
     ],
-    ['\u00dcbermensch',[1,'Vidar'],'FM',false,false,false,'IBO','B'],
+    ['\u00dcbermensch',[1,'Vidar'],'FM',false,false,false,'IBO','C'],
 
     //Universal Century
     ['Dew Drop',[1,'Acguy'],'HG',
@@ -5935,8 +5973,66 @@ const projects = [
     ],
     
     //Zoid
-    ['Dash Hound',
-        [1,'Shadow Fox'],'Zoid',false,false,false,'','C','2023-06-12',26.95,false,'Builds/Zoids/DashHound.html',false
+    ['Dash Hound',[1,'Shadow Fox'],'Zoid',
+        false,false,false,'','E','2023-06-12',26.95,false,'Builds/Zoids/DashHound.html',false,'2023-07-24',models[74],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dashhound01.jpeg','Dash Hound','img1'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dashhound02.jpeg','Dash Hound','img2'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dashhound03.jpeg','Dash Hound','img3'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dashhound04.jpeg','Dash Hound','img4'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dashhound05.jpeg','Dash Hound','img5'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dashhound06.jpeg','Dash Hound','img6'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dashhound07.jpeg','Dash Hound','img7'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dashhound08.jpeg','Dash Hound','img8'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dashhound09.jpeg','Dash Hound','img9'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dashhound10.jpeg','Dash Hound','img10'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dashhound11.jpeg','Dash Hound','img11'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dashhound12.jpeg','Dash Hound','img12'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dashhound13.jpeg','Dash Hound','img13'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dashhound14.jpeg','Dash Hound','img14'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dashhound15.jpeg','Dash Hound','img15'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dashhound16.jpeg','Dash Hound','img16'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dashhound17.jpeg','Dash Hound','img17'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dashhound18.jpeg','Dash Hound','img18'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dashhound19.jpeg','Dash Hound','img19'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dashhound20.jpeg','Dash Hound','img20'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dashhound21.jpeg','Dash Hound','img21'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dashhound22.jpeg','Dash Hound','img22'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dashhound23.jpeg','Dash Hound','img23'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dashhound24.jpeg','Dash Hound','img24'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dashhound25.jpeg','Dash Hound','img25'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dashhound26.jpeg','Dash Hound','img26'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dashhound27.jpeg','Dash Hound','img27'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dashhound28.jpeg','Dash Hound','img28'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dashhound29.jpeg','Dash Hound','img29'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dashhound30.jpeg','Dash Hound','img30'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dashhound31.jpeg','Dash Hound','img31'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dashhound32.jpeg','Dash Hound','img32'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dashhound33.jpeg','Dash Hound','img33'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dashhound34.jpeg','Dash Hound','img34'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dashhound35.jpeg','Dash Hound','img35'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dashhound36.jpeg','Dash Hound','img36'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dashhound37.jpeg','Dash Hound','img37'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dashhound38.jpeg','Dash Hound','img38'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dashhound39.jpeg','Dash Hound','img39'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dashhound40.jpeg','Dash Hound','img40'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dashhound41.jpeg','Dash Hound','img41'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dashhound42.jpeg','Dash Hound','img42'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dashhound43.jpeg','Dash Hound','img43'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dashhound44.jpeg','Dash Hound','img44'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dashhound45.jpeg','Dash Hound','img45'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dashhound46.jpeg','Dash Hound','img46']
+        ],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/dashhound11.jpeg','Profile Photo: Dash Hound'],
+        'So this was created as a gift for someone who is a huge Daschund lover. There are not any dachsund kits that I am aware of so I figured buy a Zoid fox kit and paint it in the dachshund color scheme. Specifically the red dachshund. This is also my first Zoid paint job. And being my first, naturally there were some challenges at getting the pieces to fit. The annoying thing about paint is it adds a tiny micro additional diameter to all the pieces that sometimes the ones with a tight fight just no longer fit. I did have to resort to mutilating the pieces a little on the inside and gluing them together. But it is after all a learning experience. My future Zoids will come together much better.',
+        'Zack #TheLunchDude, Iowa',
+        [
+            ['Shadow Fox','https://zoids.fandom.com/wiki/Shadow_Fox'],
+            ['Dachunds','https://en.wikipedia.org/wiki/Dachshund'],
+            ['Video','https://www.instagram.com/reel/CvFcTPntiHA/?igshid=YzcxN2Q2NzY0OA=='],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/zoids-highend-master-model-rz-046-shadow-fox-marking-plus-ver-1-72-scale-model-kit'],
+            ['NewType','https://newtype.us/p/mqnZCcWjZGMi6fm9t3Ir/h/zoids-rz-046-shadow-fox-marking-plus-ver']
+        ],false,false,true
     ],
     ['Shere Khan',[1,'Blade Liger'],'Zoid',false,false,false,'','B'],
     ['Akela',[1,'Konig Wolf Heavy Arms'],'Zoid',false,false,false,'','A'],
@@ -7483,7 +7579,6 @@ function buildGundam() {
     if (projectArray[4]) {
         unhide('.projectPBandaiHD');
 
-        let projectPBandaiN = document.getElementById('projectPBandai');
         let text = 'Build';
         if (projectArray[3]) {
             text = 'Straight Build';
@@ -8151,6 +8246,98 @@ function buildHaro() {
     if (modelArray[6]) {
         unhide('.hpSpecialFeaturesHD');
         createList(modelArray[6],'hpSpecialFeatures');
+    }
+}
+
+function buildZoid() {
+    unhide('.ZoidPage');
+    insertPhoto(modelArray[26],'zdModelPhoto',false,300);
+
+    if (modelArray[2]) {
+        unhide('.zdShortNameHD');
+        popNode(modelArray[2],'zdShortName');
+        popNode(modelArray[2],'modelOtherTitle')
+    }
+
+    if (modelArray[4]) {
+        unhide('.zdSerialHD');
+        popNode(modelArray[4],'zdSerial');
+    }
+
+    if (modelArray[5]) {
+        unhide('.zdTypeHD');
+        popNode(modelArray[5],'zdType');
+    }
+
+    if (modelArray[6]) {
+        unhide('.zdCrewHD');
+        popNode(modelArray[6],'zdCrew');
+    }
+
+    if (modelArray[7]) {
+        unhide('.zdPilotHD');
+        popNode(modelArray[7][0],'zdPilot');
+
+        if (modelArray[7].length>1) {
+            for (let i=1;i<modelArray[7].length;i++) {
+                popNode(', '+modelArray[7][i],'zdPilot');
+            }
+        }
+    }
+
+    if (modelArray[8]) {
+        unhide('.zdAffiiliationHD');
+        popNode(modelArray[8],'zdAffiiliation');
+    }
+
+    if (modelArray[9]) {
+        unhide('.zdWeightHD');
+        popNode(modelArray[9][1],'zdWeight');
+    }
+
+    if (modelArray[10]) {
+        unhide('.zdDepthHD');
+        popNode(modelArray[10][1],'zdDepth');
+    }
+
+    if (modelArray[11]) {
+        unhide('.zdHeightHD');
+        popNode(modelArray[11][1],'zdHeight');
+    }
+
+    if (modelArray[12]) {
+        unhide('.zdSpeedHD');
+        popNode(modelArray[12][1],'zdSpeed');
+    }
+
+    if (modelArray[13]) {
+        unhide('.zdWeaponsHD');
+        createList(modelArray[13],'zdWeapons');
+    }
+
+    if (modelArray[14]) {
+        unhide('.zdEquipmentHD');
+        createList(modelArray[14],'zdEquipment');
+    }
+
+    if (modelArray[15]) {
+        unhide('.zdDevelopedByHD');
+        popNode(modelArray[15],'zdDevelopedBy');
+    }
+
+    if (modelArray[16]) {
+        unhide('.zdFromHD');
+        createList(modelArray[16],'zdFrom');
+    }
+
+    if (modelArray[17]) {
+        unhide('.zdToHD');
+        createList(modelArray[17],'zdTo');
+    }
+
+    if (modelArray[24]) {
+        unhide('.zdAltNameHD');
+        popNode(modelArray[24],'∂AltName');
     }
 }
 

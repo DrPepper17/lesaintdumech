@@ -93,7 +93,7 @@ const blogArray = [
     [
         '2023-07-20',
         'Mail Call',
-        'https://hosting.photobucket.com/images/i/lesaintdumech/IMG_6627_Large.jpeg',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/(edited)_IMG_6628_Large.png',
         [
             [
                 'So FedEX delivery today from P-Bandai just came in. Got me the ',
@@ -105,7 +105,28 @@ const blogArray = [
                 '. Cannot wait to paint and build these all.'
             ],
         ],
-        ['Expect to see more magic things from me to come.']
+        ['Expect to see more magic things from me to come.'],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/IMG_6629_Large.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/IMG_6630_Large.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/IMG_6631_Large.jpeg']
+        ]
+    ],
+    [
+        '2023-07-24',
+        'Calling the Wolf Pack',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/dashhound34.jpeg',
+        [
+            [
+                'Awoooooo !!!! This week\'s post goes out to all those with puppy fever. Presenting project ',
+                ['Dash Hound','Builds/Zoids/DashHound.html'],
+                '. My first Zoid build, this was inspired by cute little dachshund puppies everywhere. So without further ado, I present to you Dash Hound.'
+            ]
+        ]
     ]
 ]
 

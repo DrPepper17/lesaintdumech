@@ -443,7 +443,54 @@ ul {
 .ZoidPage {
     display: none;
 }
-
+.zdShortNameHD {
+    display: none;
+}
+.zdSerialHD {
+    display: none;
+}
+.zdAltNameHD {
+    display: none;
+}
+.zdTypeHD {
+    display: none;
+}
+.zdAffiiliationHD {
+    display: none;
+}
+.zdPilotHD {
+    display: none;
+}
+.zdCrewHD {
+    display: none;
+}
+.zdFromHD {
+    display: none;
+}
+.zdToHD {
+    display: none;
+}
+.zdDevelopedByHD {
+    display: none;
+}
+.zdHeightHD {
+    display: none;
+}
+.zdWeightHD {
+    display: none;
+}
+.zdDepthHD {
+    display: none;
+}
+.zdSpeedHD {
+    display: none;
+}
+.zdWeaponsHD {
+    display: none;
+}
+.zdEquipmentHD {
+    display: none;
+}
 
 /* Haro */
 .HaroPage {
