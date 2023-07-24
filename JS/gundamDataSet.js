@@ -4033,13 +4033,13 @@ const projects = [
             ['NewType','https://newtype.us/p/V3s94PjelBrA0T06Q673/h/hgce-237-gat-o2l2-dagger-l']
         ],['Armageddon','Samus: Varia Suit','Malphas'],false,true,'1:144'
     ],
-    ['Samus: Dark Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','C'],
-    ['Samus: Fusion Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','A'],
-    ['Samus: Gravity Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','C'],
-    ['Samus: Light Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','C'],
-    ['Samus: Phazon Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','C'],
+    ['Samus: Dark Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','C','2023-07-24','.0.25',false,'Builds/Gundams/S_DarkSuit.html','Metroid','',models[23]],
+    ['Samus: Fusion Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','A','2023-07-24','.0.25',false,'Builds/Gundams/S_FusionSuit.html','Metroid','',models[23]],
+    ['Samus: Gravity Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','C','2023-07-24','.0.25',false,'Builds/Gundams/S_GravitySuit.html','Metroid','',models[23]],
+    ['Samus: Light Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','C','2023-07-24','.0.25',false,'Builds/Gundams/S_LightSuit.html','Metroid','',models[23]],
+    ['Samus: Phazon Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','C','2023-07-24','.0.25',false,'Builds/Gundams/S_PhazonSuit.html','Metroid','',models[23]],
     ['Samus: Varia Suit',[1,'Dagger L'],'HG',
-        false,false,false,'Seed','C','2023-06-13',7.75,false,'Builds/Gundams/VariaSuit.html','Metroid','',models[23],
+        false,false,false,'Seed','C','2023-06-13',7.75,false,'Builds/Gundams/S_VariaSuit.html','Metroid','',models[23],
         [
             []
         ],
@@ -7403,6 +7403,246 @@ function homepageImages() {
     let homeIMG7SRC = document.createAttribute('src');
     homeIMG7SRC.value = randomPost[16][0];
     homeIMG7Node.setAttributeNode(homeIMG7SRC);
+
+    //IMG 8
+    randomN = Math.floor(Math.random()* tempArray.length);
+    randomPost = tempArray[randomN];
+    tempArray.splice(randomN,1);
+
+    let aIMG8Node = document.getElementById('aIMG8');
+    let aIMG8HREF = document.createAttribute('href');
+    aIMG8HREF.value = randomPost[11];
+    aIMG8Node.setAttributeNode(aIMG8HREF);
+
+    let homeIMG8Node = document.getElementById('homeIMG8');
+    let homeIMG8SRC = document.createAttribute('src');
+    homeIMG8SRC.value = randomPost[16][0];
+    homeIMG8Node.setAttributeNode(homeIMG8SRC);
+
+    //IMG 9
+    randomN = Math.floor(Math.random()* tempArray.length);
+    randomPost = tempArray[randomN];
+    tempArray.splice(randomN,1);
+
+    let aIMG9Node = document.getElementById('aIMG9');
+    let aIMG9HREF = document.createAttribute('href');
+    aIMG9HREF.value = randomPost[11];
+    aIMG9Node.setAttributeNode(aIMG9HREF);
+
+    let homeIMG9Node = document.getElementById('homeIMG9');
+    let homeIMG9SRC = document.createAttribute('src');
+    homeIMG9SRC.value = randomPost[16][0];
+    homeIMG9Node.setAttributeNode(homeIMG9SRC);
+
+    //IMG 10
+    randomN = Math.floor(Math.random()* tempArray.length);
+    randomPost = tempArray[randomN];
+    tempArray.splice(randomN,1);
+
+    let aIMG10Node = document.getElementById('aIMG10');
+    let aIMG10HREF = document.createAttribute('href');
+    aIMG10HREF.value = randomPost[11];
+    aIMG10Node.setAttributeNode(aIMG10HREF);
+
+    let homeIMG10Node = document.getElementById('homeIMG10');
+    let homeIMG10SRC = document.createAttribute('src');
+    homeIMG10SRC.value = randomPost[16][0];
+    homeIMG10Node.setAttributeNode(homeIMG10SRC);
+
+    //IMG 11
+    randomN = Math.floor(Math.random()* tempArray.length);
+    randomPost = tempArray[randomN];
+    tempArray.splice(randomN,1);
+
+    let aIMG11Node = document.getElementById('aIMG11');
+    let aIMG11HREF = document.createAttribute('href');
+    aIMG11HREF.value = randomPost[11];
+    aIMG11Node.setAttributeNode(aIMG11HREF);
+
+    let homeIMG11Node = document.getElementById('homeIMG11');
+    let homeIMG11SRC = document.createAttribute('src');
+    homeIMG11SRC.value = randomPost[16][0];
+    homeIMG11Node.setAttributeNode(homeIMG11SRC);
+
+    //IMG 12
+    randomN = Math.floor(Math.random()* tempArray.length);
+    randomPost = tempArray[randomN];
+    tempArray.splice(randomN,1);
+
+    let aIMG12Node = document.getElementById('aIMG12');
+    let aIMG12HREF = document.createAttribute('href');
+    aIMG12HREF.value = randomPost[11];
+    aIMG12Node.setAttributeNode(aIMG12HREF);
+
+    let homeIMG12Node = document.getElementById('homeIMG12');
+    let homeIMG12SRC = document.createAttribute('src');
+    homeIMG12SRC.value = randomPost[16][0];
+    homeIMG12Node.setAttributeNode(homeIMG12SRC);
+
+    //IMG 13
+    randomN = Math.floor(Math.random()* tempArray.length);
+    randomPost = tempArray[randomN];
+    tempArray.splice(randomN,1);
+
+    let aIMG13Node = document.getElementById('aIMG13');
+    let aIMG13HREF = document.createAttribute('href');
+    aIMG13HREF.value = randomPost[11];
+    aIMG13Node.setAttributeNode(aIMG13HREF);
+
+    let homeIMG13Node = document.getElementById('homeIMG13');
+    let homeIMG13SRC = document.createAttribute('src');
+    homeIMG13SRC.value = randomPost[16][0];
+    homeIMG13Node.setAttributeNode(homeIMG13SRC);
+
+    //IMG 14
+    randomN = Math.floor(Math.random()* tempArray.length);
+    randomPost = tempArray[randomN];
+    tempArray.splice(randomN,1);
+
+    let aIMG14Node = document.getElementById('aIMG14');
+    let aIMG14HREF = document.createAttribute('href');
+    aIMG14HREF.value = randomPost[11];
+    aIMG14Node.setAttributeNode(aIMG14HREF);
+
+    let homeIMG14Node = document.getElementById('homeIMG14');
+    let homeIMG14SRC = document.createAttribute('src');
+    homeIMG14SRC.value = randomPost[16][0];
+    homeIMG14Node.setAttributeNode(homeIMG14SRC);
+
+    //IMG 15
+    randomN = Math.floor(Math.random()* tempArray.length);
+    randomPost = tempArray[randomN];
+    tempArray.splice(randomN,1);
+
+    let aIMG15Node = document.getElementById('aIMG15');
+    let aIMG15HREF = document.createAttribute('href');
+    aIMG15HREF.value = randomPost[11];
+    aIMG15Node.setAttributeNode(aIMG15HREF);
+
+    let homeIMG15Node = document.getElementById('homeIMG15');
+    let homeIMG15SRC = document.createAttribute('src');
+    homeIMG15SRC.value = randomPost[16][0];
+    homeIMG15Node.setAttributeNode(homeIMG15SRC);
+
+    //IMG 16
+    randomN = Math.floor(Math.random()* tempArray.length);
+    randomPost = tempArray[randomN];
+    tempArray.splice(randomN,1);
+
+    let aIMG16Node = document.getElementById('aIMG16');
+    let aIMG16HREF = document.createAttribute('href');
+    aIMG16HREF.value = randomPost[11];
+    aIMG16Node.setAttributeNode(aIMG16HREF);
+
+    let homeIMG16Node = document.getElementById('homeIMG16');
+    let homeIMG16SRC = document.createAttribute('src');
+    homeIMG16SRC.value = randomPost[16][0];
+    homeIMG16Node.setAttributeNode(homeIMG16SRC);
+
+    //IMG 17
+    randomN = Math.floor(Math.random()* tempArray.length);
+    randomPost = tempArray[randomN];
+    tempArray.splice(randomN,1);
+
+    let aIMG17Node = document.getElementById('aIMG17');
+    let aIMG17HREF = document.createAttribute('href');
+    aIMG17HREF.value = randomPost[11];
+    aIMG17Node.setAttributeNode(aIMG17HREF);
+
+    let homeIMG17Node = document.getElementById('homeIMG17');
+    let homeIMG17SRC = document.createAttribute('src');
+    homeIMG17SRC.value = randomPost[16][0];
+    homeIMG17Node.setAttributeNode(homeIMG17SRC);
+
+    //IMG 18
+    randomN = Math.floor(Math.random()* tempArray.length);
+    randomPost = tempArray[randomN];
+    tempArray.splice(randomN,1);
+
+    let aIMG18Node = document.getElementById('aIMG18');
+    let aIMG18HREF = document.createAttribute('href');
+    aIMG18HREF.value = randomPost[11];
+    aIMG18Node.setAttributeNode(aIMG18HREF);
+
+    let homeIMG18Node = document.getElementById('homeIMG18');
+    let homeIMG18SRC = document.createAttribute('src');
+    homeIMG18SRC.value = randomPost[16][0];
+    homeIMG18Node.setAttributeNode(homeIMG18SRC);
+
+    //IMG 19
+    randomN = Math.floor(Math.random()* tempArray.length);
+    randomPost = tempArray[randomN];
+    tempArray.splice(randomN,1);
+
+    let aIMG19Node = document.getElementById('aIMG19');
+    let aIMG19HREF = document.createAttribute('href');
+    aIMG19HREF.value = randomPost[11];
+    aIMG19Node.setAttributeNode(aIMG19HREF);
+
+    let homeIMG19Node = document.getElementById('homeIMG19');
+    let homeIMG19SRC = document.createAttribute('src');
+    homeIMG19SRC.value = randomPost[16][0];
+    homeIMG19Node.setAttributeNode(homeIMG19SRC);
+
+    //IMG 20
+    randomN = Math.floor(Math.random()* tempArray.length);
+    randomPost = tempArray[randomN];
+    tempArray.splice(randomN,1);
+
+    let aIMG20Node = document.getElementById('aIMG20');
+    let aIMG20HREF = document.createAttribute('href');
+    aIMG20HREF.value = randomPost[11];
+    aIMG20Node.setAttributeNode(aIMG20HREF);
+
+    let homeIMG20Node = document.getElementById('homeIMG20');
+    let homeIMG20SRC = document.createAttribute('src');
+    homeIMG20SRC.value = randomPost[16][0];
+    homeIMG20Node.setAttributeNode(homeIMG20SRC);
+
+    //IMG 21
+    randomN = Math.floor(Math.random()* tempArray.length);
+    randomPost = tempArray[randomN];
+    tempArray.splice(randomN,1);
+
+    let aIMG21Node = document.getElementById('aIMG21');
+    let aIMG21HREF = document.createAttribute('href');
+    aIMG21HREF.value = randomPost[11];
+    aIMG21Node.setAttributeNode(aIMG21HREF);
+
+    let homeIMG21Node = document.getElementById('homeIMG21');
+    let homeIMG21SRC = document.createAttribute('src');
+    homeIMG21SRC.value = randomPost[16][0];
+    homeIMG21Node.setAttributeNode(homeIMG21SRC);
+
+    //IMG 22
+    randomN = Math.floor(Math.random()* tempArray.length);
+    randomPost = tempArray[randomN];
+    tempArray.splice(randomN,1);
+
+    let aIMG22Node = document.getElementById('aIMG22');
+    let aIMG22HREF = document.createAttribute('href');
+    aIMG22HREF.value = randomPost[11];
+    aIMG22Node.setAttributeNode(aIMG22HREF);
+
+    let homeIMG22Node = document.getElementById('homeIMG22');
+    let homeIMG22SRC = document.createAttribute('src');
+    homeIMG22SRC.value = randomPost[16][0];
+    homeIMG22Node.setAttributeNode(homeIMG22SRC);
+
+    //IMG 23
+    randomN = Math.floor(Math.random()* tempArray.length);
+    randomPost = tempArray[randomN];
+    tempArray.splice(randomN,1);
+
+    let aIMG23Node = document.getElementById('aIMG23');
+    let aIMG23HREF = document.createAttribute('href');
+    aIMG23HREF.value = randomPost[11];
+    aIMG23Node.setAttributeNode(aIMG23HREF);
+
+    let homeIMG23Node = document.getElementById('homeIMG23');
+    let homeIMG23SRC = document.createAttribute('src');
+    homeIMG23SRC.value = randomPost[16][0];
+    homeIMG23Node.setAttributeNode(homeIMG23SRC);
 }
 
 //Project Functions
