@@ -3677,7 +3677,7 @@ const projects = [
         ],false,false,true,'1:144'
     ],
     ['Silver \'n\' Gold',[1,'00 Gundam QAN[T]'],'RG',
-        false,false,false,'00','B',false,0,false,'Builds/Gundams/silverngold.html',false,false,models[21]
+        false,false,false,'00','B',false,0,false,'Builds/Gundams/SilverNGold.html',false,false,models[21]
     ],
     ['Thunder QAN[T]',[1,'00 Gundam QAN[T]'],'SD',
         false,false,false,'00','E','2021-06-12',11.68,true,'Builds/Gundams/ThunderQ.html','Practice SDs','2021-08-09',models[21],
@@ -3881,7 +3881,7 @@ const projects = [
         ],false,false,true,'1:144',false,'Akatsuki: Oowashi Pack'
     ],
     ['King Mars',[1,'Akatsuki, Shiranui'],'HG',
-        false,false,false,'Seed','D','2022-05-06',13.67,false,'Builds/Gundams/KingMars.html','Planets','',models[57],
+        false,false,false,'Seed','D','2022-05-06',13.67,false,'Builds/Gundams/KingMars.html','Planets','',models[57]
     ],
     ['Archangel',[2,'Archangel','Archangel'],'Ship',
         false,false,false,'Seed','E','2021-08-06',76.63,false,'Builds/Ships/Archangel.html',false,'2022-01-10',models[15],
@@ -4033,11 +4033,11 @@ const projects = [
             ['NewType','https://newtype.us/p/V3s94PjelBrA0T06Q673/h/hgce-237-gat-o2l2-dagger-l']
         ],['Armageddon','Samus: Varia Suit','Malphas'],false,true,'1:144'
     ],
-    ['Samus: Dark Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','C','2023-07-24','.0.25',false,'Builds/Gundams/S_DarkSuit.html','Metroid','',models[23]],
-    ['Samus: Fusion Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','A','2023-07-24','.0.25',false,'Builds/Gundams/S_FusionSuit.html','Metroid','',models[23]],
-    ['Samus: Gravity Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','C','2023-07-24','.0.25',false,'Builds/Gundams/S_GravitySuit.html','Metroid','',models[23]],
-    ['Samus: Light Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','C','2023-07-24','.0.25',false,'Builds/Gundams/S_LightSuit.html','Metroid','',models[23]],
-    ['Samus: Phazon Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','C','2023-07-24','.0.25',false,'Builds/Gundams/S_PhazonSuit.html','Metroid','',models[23]],
+    ['Samus: Dark Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','C','2023-07-24',0.25,false,'Builds/Gundams/S_DarkSuit.html','Metroid','',models[23]],
+    ['Samus: Fusion Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','A','2023-07-24',0.25,false,'Builds/Gundams/S_FusionSuit.html','Metroid','',models[23]],
+    ['Samus: Gravity Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','C','2023-07-24',0.25,false,'Builds/Gundams/S_GravitySuit.html','Metroid','',models[23]],
+    ['Samus: Light Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','C','2023-07-24',0.25,false,'Builds/Gundams/S_LightSuit.html','Metroid','',models[23]],
+    ['Samus: Phazon Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','C','2023-07-24',0.25,false,'Builds/Gundams/S_PhazonSuit.html','Metroid','',models[23]],
     ['Samus: Varia Suit',[1,'Dagger L'],'HG',
         false,false,false,'Seed','C','2023-06-13',7.75,false,'Builds/Gundams/S_VariaSuit.html','Metroid','',models[23],
         [
@@ -4049,7 +4049,6 @@ const projects = [
             ['USA Gundam Store','https://www.usagundamstore.com/products/hgce-1-144-247-dagger-l'],
             ['NewType','https://newtype.us/p/V3s94PjelBrA0T06Q673/h/hgce-237-gat-o2l2-dagger-l']
         ],['Armageddon','King Leir','PB Strike Daggers'],false,false,'1:144'
-        
     ],
     ['Charizard',[1,'Destiny'],'MG',false,false,false,'Seed','B'],
     ['Charizard X',[1,'Destiny'],'SD',
@@ -5232,7 +5231,7 @@ const projects = [
             ['NewType','https://newtype.us/p/QGZ7IGxhBsKUpVEQcuMm/h/sdgg-198-msz-006-zeta-gundam']
         ],false,false,true,false
     ],
-    ['Zeta [MG]',[1,'Zeta Gundam'],'MG',true,false,false,'UC','C','2023-04-12',8,false,false,false,],
+    ['Zeta [MG]',[1,'Zeta Gundam'],'MG',true,false,false,'UC','C','2023-04-12',8,false,false,false],
 
     //Regild Century (Reconguista)
 
@@ -5310,7 +5309,7 @@ const projects = [
         ],['Moonage Daydream'],true,true,'1:144'
     ],
     ['Moonage Daydream',[1,'Strike Full Package'],'SD',
-        false,false,false,'BD','E','2021-11-06',7.27,false,'Builds/Gundams/MoonageDaydream.html','SD Rock','2022-02-21',models[34],
+        false,false,false,'BD','E','2021-11-06',7.27,false,'Builds/Gundams/MoonageDaydream.html',false,'2022-02-21',models[34],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/moonage01.jpeg','Moonage Daydream','img1'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/moonage02.jpeg','Moonage Daydream','img2'],
@@ -5746,7 +5745,7 @@ const projects = [
         ],['Fafnir','Ragnarok'],false,true,false
     ],
     ['T\u00FDr',[1,'Metal Greymon'],'Digimon',false,false,false,'','A'],
-    ['Odin',[1,'Shine Greymon',],'Digimon',false,false,false,'','A'],
+    ['Odin',[1,'Shine Greymon'],'Digimon',false,false,false,'','A'],
     ['Ragnarok',[1,'Omnimon'],'Digimon',
         false,false,false,'','E','2022-07-05',19.65,false,'Builds/Digimon/Ragnorok.html','Norse','2022-10-17',models[63],
         [
