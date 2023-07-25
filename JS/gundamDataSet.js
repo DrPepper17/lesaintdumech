@@ -3036,7 +3036,9 @@ const projects = [
         ],false,false,true,false
     ],
     ['Pontus',[1,'Aquarius'],'SD',false,false,false,'Wing','B',false,0,false,'Builds/Gundams/Pontus.html','Titans',false,models[40]],
-    ['Alucard',[1,'Deathscythe Hell (TV Version'],'HG',false,true,false,'Wing','C','2023-07-24',0],
+    ['Alucard',[1,'Deathscythe Hell (TV Version'],'HG',
+        false,true,false,'Wing','C','2023-08-01',0.75
+    ],
     ['Epyon [RG]',[1,'Epyon'],'RG',true,false,false,'Wing','A'],
     ['Golden Ghidorah',[1,'Epyon'],'MG',false,false,false,'Wing','B'],
     ['Golden Ghidorah',[1,'Epyon'],'RG',false,false,false,'Wing','A'],
@@ -4033,11 +4035,12 @@ const projects = [
             ['NewType','https://newtype.us/p/V3s94PjelBrA0T06Q673/h/hgce-237-gat-o2l2-dagger-l']
         ],['Armageddon','Samus: Varia Suit','Malphas'],false,true,'1:144'
     ],
-    ['Samus: Dark Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','B','2023-07-24',0.25,false,'Builds/Gundams/S_DarkSuit.html','Metroid','',models[23]],
-    ['Samus: Fusion Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','A','2023-07-24',0.25,false,'Builds/Gundams/S_FusionSuit.html','Metroid','',models[23]],
-    ['Samus: Gravity Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','B','2023-07-24',0.25,false,'Builds/Gundams/S_GravitySuit.html','Metroid','',models[23]],
-    ['Samus: Light Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','B','2023-07-24',0.25,false,'Builds/Gundams/S_LightSuit.html','Metroid','',models[23]],
-    ['Samus: Phazon Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','B','2023-07-24',0.25,false,'Builds/Gundams/S_PhazonSuit.html','Metroid','',models[23]],
+    ['Samus: Dark Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','C','2023-08-01',0.5,false,'Builds/Gundams/S_DarkSuit.html','Metroid','',models[23]],
+    ['Samus: Fusion Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','C','2023-08-01',0.5,false,'Builds/Gundams/S_FusionSuit.html','Metroid','',models[23]],
+    ['Samus: Gravity Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','C','2023-08-01',0.42,false,'Builds/Gundams/S_GravitySuit.html','Metroid','',models[23]],
+    ['Samus: Light Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','C','2023-08-01',0.5,false,'Builds/Gundams/S_LightSuit.html','Metroid','',models[23]],
+    ['Samus: PED Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','C','2023-08-01',0.42,false,'Builds/Gundams/S_PhazonSuit.html','Metroid','',models[23]],
+    ['Samus: Phazon Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','C','2023-08-01',0.5,false,'Builds/Gundams/S_PhazonSuit.html','Metroid','',models[23]],
     ['Samus: Varia Suit',[1,'Dagger L'],'HG',
         false,false,false,'Seed','C','2023-06-13',7.75,false,'Builds/Gundams/S_VariaSuit.html','Metroid','',models[23],
         [
@@ -4305,8 +4308,8 @@ const projects = [
         ],['Anthem','Liberty'],false,true,false
     ],
     ['Billy Blue Jay',[1,'Ginn'],'MG',false,false,false,'Seed','B'],
-    ['PB Destiny Impulse (Regenes) [MG]',[1,'Impulse, Destiny'],'Seed','MG',true,true,false,'C','2023-05-05',6.5,false,'Builds/PBDesintyImpulseREgenesMG.html',false],
-    ['PB Destiny Impulse [RG]',[1,'Impulse, Destiny'],'RG',true,true,false,'Seed','B'],
+    ['Destiny Impulse (Regenes)',[1,'Impulse, Destiny'],'MG',true,true,false,'Seed','C','2023-05-05',6.5,false,'Builds/PBDesintyImpulseREgenesMG.html',false],
+    ['Destiny Impulse [RG]',[1,'Impulse, Destiny'],'RG',true,true,false,'Seed','C','2023-07-25',0],
     ['Don\'t Tread On Ye',[1,'Justice'],'MG',
         false,false,false,'Seed','E','2022-06-06',51.75,true,'Builds/Gundams/Ye.html','America','2022-09-06',models[52],
         [
@@ -4434,6 +4437,7 @@ const projects = [
     ['Oppression',[1,'Infinite Justice'],'MG',false,false,false,'Seed','B'],
     ['Canis Alpha',[1,'LaGOWE'],'HG',false,false,false,'Seed','A'],
     ['Zoroaster',[1,'Legend'],'FM',false,false,false,'Seed','B'],
+    ['Lightning Striker',[0.5,'Lightning Strike Pack'],'MG',false,true,false,'Seed','B'],
     ['PB Meteors',[1,'Meteor','Meteor I','Meteor II','Freedom','Infinite Justice'],'HG',false,true,false,'Seed','B'],
     ['Union Jack',[1,'Providence'],'MG',false,false,false,'Seed','A'],
     ['Raider [FM]',[1,'Raider'],'FM',true,false,false,'Seed','D','2023-01-06',9.75,false,false,false],
@@ -4495,7 +4499,7 @@ const projects = [
         ],false,false,true,'1:60',false,'Skygrasper'
     ],
     ['Skygrasper [RG]',[2,'Skygrasper','Skygrasper','Skygrasper'],'RG',true,false,false,'Seed','E','2022-09-06',10,false,false,false,'2022-12-19'],
-    ['PB Lightning Strike',[2,'Strike','Lightning Striker','Sword Launcher Striker Pack'],'MG',false,true,false,'Seed','B'],
+    ['Metal Strike',[1,'Strike'],'MG',false,false,false,'Seed','B'],
     ['Metal Strike',[1,'Strike'],'SD',false,false,false,'Seed','B'],
     ['Strike Gundam [PG]',[1,'Strike'],'PG',
         true,false,false,'Seed','D','2023-05-07',14.58,true,'Builds/PG/PGStrike.html',false,'',models[60]
@@ -4524,12 +4528,12 @@ const projects = [
     ['S.A.T.O.',[1,'Strike, Perfect'],'SD',
         false,false,false,'Seed','D','2022-01-05',14.85,false,'Builds/Gundams/SATO.html','SD Rock','',models[61]
     ],
-    ['PB Strike Daggers',[2,'Strike Dagger','Strike Dagger','Strike Dagger'],'HG',false,true,false,'Seed','D','2023-03-07',20.41,false,'Builds/PBStrikeDagger.html','Metroid'],
+    ['Strike Daggers',[2,'Strike Dagger','Strike Dagger','Strike Dagger'],'HG',false,true,false,'Seed','D','2023-03-07',20.41,false,'Builds/PBStrikeDagger.html','Metroid'],
     ['AntiFreedom',[1,'Strike-Freedom'],'SD',false,false,false,'Seed','B'],
     ['Servitude',[1,'Strike-Freedom'],'MG',false,false,false,'Seed','B'],
     ['Strike-Freedom Full Burst [MG]',[1,'Strike-Freedom'],'MG',true,false,false,'Seed','E','2021-07-07',18.42,false,false,false,'2021-08-17'],
     ['Strike-Freedom MGEX',[1,'Strike-Freedom'],'MG',true,false,true,'Seed','C','2023-03-09',15.92,false,'Builds/MGEXStrikeFreedom.html',false],
-    ['PB Strike-Freedom (Deactive) [RG]',[1,'Strike-Freedom'],'RG',true,true,false,'Seed','D','2023-03-06',4.75,false,'Builds/PBStrikeFreedomDeactiveRG.html',false],
+    ['Strike-Freedom (Deactive)',[1,'Strike-Freedom'],'RG',true,true,false,'Seed','D','2023-03-06',4.75,false,'Builds/PBandai/PBStrikeFreedomDeactive.html',false],
     ['Battra',[1,'Strike Noir'],'MG',false,false,false,'Seed','B'],
     ['Strike Noir [SD]',[1,'Strike Noir'],'SD',true,false,false,'Seed','E','2021-09-06',2.233,false,false,'2023-07-10'],
     ['Strike Verde',[1,'Strike Noir'],'SD',
@@ -4556,6 +4560,7 @@ const projects = [
             ['NewType','https://newtype.us/p/NsPxBG5t6hpfpZqSAuWb/h/sdbb-293-gat-x105e-strike-noir-gundam']
         ],false,true,true,false
     ],
+    ['Perfect Striker',[0.5,'Sword-Launcher Strike Pack'],'MG',false,true,false,'Seed','B'],
     ['Dark Samus: Echoes',[1,'Windam'],'HG',false,false,false,'Seed','A'],
     ['Dark Samus: Corruption',[1,'Windam'],'HG',false,false,false,'Seed','A'],
     ['Oberon',[1,'Windam'],'HG',
@@ -4626,7 +4631,9 @@ const projects = [
     ['Belial',[1,'Dark Gundam'],'HG',false,false,false,'G','B'],
     ['Dark Gundam [SD]',[1,'Dark Gundam'],'SD',true,false,false,'G','D','2022-08-07',1.75,false,false,false],
     ['Paimon',[1,'Dark Gundam'],'SD',false,false,false,'G','B'],
-    ['Charlemagne',[1,'Rose Gundam'],'HG',true,true,false,'G','C','2023-07-24',0],
+    ['Charlemagne',[1,'Rose Gundam'],'HG',
+        false,true,false,'G','C','2023-08-01',0.58
+    ],
     ['Le Roi Soleil',[1,'Rose Gundam'],'HG',
         false,false,false,'G','E','2022-08-09',4.17,false,'Builds/Gundams/RoiSoleil.html',false,'2022-12-12',models[56],
         [
@@ -4898,7 +4905,9 @@ const projects = [
             ['Vine','https://en.wikipedia.org/wiki/Vine_(demon)']
         ],['Sealiah'],false,true,'1:144'
     ],
-    ['\u00dcbermensch',[1,'Vidar'],'FM',false,false,false,'IBO','C'],
+    ['\u00dcbermensch',[1,'Vidar'],'FM',
+        false,false,false,'IBO','C','2023-08-01',0.75
+    ],
 
     //Universal Century
     ['Dew Drop',[1,'Acguy'],'HG',
@@ -5484,10 +5493,10 @@ const projects = [
             ['Turbo Dork','https://turbodork.com']
         ],false,true,true,false,false,'Mighty Morphin Power Rangers'
     ],
-    ['Eos',[1,'Wing, Sangoku Soketsuden  Cao Cao'],'SD',false,false,false,'Heroes','B'],    //Wing zero
-    ['Aether',[1,'Wing, Sangoku Soketsuden  Cao Cao'],'SD',false,false,false,'Heroes','B'],    //Wing zero
-    ['Tethys',[1,'Wing Isei, Cao Cao'],'SD',false,false,false,'Heroes','D','2022-04-05',8.67,false,'Builds/tethys.html',['']], //Regular wing
-    ['Hyperion',[1,'Wing, Tian Ba Cao Cao'],'SD',false,false,false,'Heroes','B'],   //regular wing 
+    ['Eos',[1,'Wing, Cao Cao'],'SD',false,false,false,'Heroes','B'],    //Wing zero
+    ['Aether',[1,'Wing, Cao Cao'],'SD',false,false,false,'Heroes','B'],    //Wing zero
+    ['Tethys',[1,'Wing Isei, Cao Cao'],'SD',false,false,false,'Heroes','D','2022-04-05',8.67,false,'Builds/tethys.html',['']], //Regular wing KA
+    ['Hyperion',[1,'Wing, Tian Ba Cao Cao'],'SD',false,false,false,'Heroes','B'],   // wing zero 
 
     //Haro
     ['Haro Blue',[1,'Haropla #05 Control Blue'],'Haro',false,false,false,'','D','2023-04-07',2.55,false,'Builds/hblue.html','HARO'],
