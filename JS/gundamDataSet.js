@@ -3028,7 +3028,7 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/gems28.jpeg','Twin Gemini Units','img28'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/gems29.jpeg','Twin Gemini Units','img29']
         ],
-        ['https://hosting.photobucket.com/images/i/lesaintdumech/gems29.jpeg','Profile Photo: Gemini'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/gems28B.jpeg','Profile Photo: Gemini'],
         'This was a cool new discovery. I had never seen the Gundam Aquarius before. It\'s from the Gundam Wing universe but was not featured in the Wing anime. So when I first saw the Aquarius kit I was intrigued. The traditional Aquarius is blue but further down the rabbit hole I got I discovered cool fan art versions of it rendered red. Which is what led to the insipration behind this project. I decided to paint twin Aquarius unit one of each color, the traditional blue and the fan red.',false,
         [
             ['USA Gundam Store','https://www.usagundamstore.com/products/gg-50-gundam-aquarius'],
@@ -3152,7 +3152,7 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/gahamg31.JPG','Gundam Guerilla Arms','img31'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/gahamg32.JPG','Gundam Guerilla Arms','img32']
         ],
-        ['https://hosting.photobucket.com/images/i/lesaintdumech/gahamg32.JPG','Profile Photo: Gundam Guerilla Arms'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/gahamg32B.jpg','Profile Photo: Gundam Guerilla Arms'],
         'Camouflage. Commando. Jungle Warfare. Entirely hand brushed. First attempt at custom painting. Entirely Testors paints. Huge learning experience.',false,
         [
             ['USA Gundam Store','https://www.usagundamstore.com/products/mg-1-100-gundam-heavyarms-ew-ver'],
@@ -3650,7 +3650,7 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/umlaut05.jpeg','Gundam Umlaut','img5'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/umlaut06.jpeg','Gundam Umlaut','img6']
         ],
-        ['https://hosting.photobucket.com/images/i/lesaintdumech/umlaut03.jpeg','Profile Photo: Gundam Umlaut'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/umlaut02B.jpeg','Profile Photo: Gundam Umlaut'],
         'This model was strictly experimental as I was trying to get practice in on the airbrush. Since the name of the original gundam is the OO, Double O, I was being silly and figured why not add to dots on top of that and make it an umlaut.','Luke, Nebraska',
         [
             ['USA Gundam Store','https://www.usagundamstore.com/products/sd-ex-standard-008-00-gundam-model-kit?variant=14706730692'],
@@ -3833,7 +3833,7 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/fluor08.jpeg','Fluorescent Gundam','img8'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/fluor09.jpeg','Fluorescent Gundam','img9']
         ],
-        ['https://hosting.photobucket.com/images/i/lesaintdumech/fluor05.jpeg','Profile Photo: Fluorescent Gundam'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/fluor06B.jpeg','Profile Photo: Fluorescent Gundam'],
         'No particalur theme or inspiration here. This kit was used exclusively as a blank canvas to test out different shades of fluorescent paints on. Long story short I\'ve yet to have any luck on fluorescent colors. At least this model came together well though.',
         'Ankita, Wisconsin',
         [
@@ -4028,7 +4028,7 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/leir34.jpeg','King Leir','img34'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/leir35.jpeg','King Leir','img35']
         ],
-        ['https://hosting.photobucket.com/images/i/lesaintdumech/leir01.jpeg','Profile Photo: King Leir'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/leir01B.jpeg','Profile Photo: King Leir'],
         'This was my first attempt at painting a larger model than an SD with the airbrush. I stuck to mostly the traditional desgn but swapped the white portions with steel and aluminum to make it a little more darker. Also brightened the purple and swapped the blue with a steel blue. After it was finsiehd, not gonna lie, I liked my design way better than the original.',false,
         [
             ['USA Gundam Store','https://www.usagundamstore.com/products/hgce-1-144-247-dagger-l'],
@@ -4579,7 +4579,7 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/oberon11.jpeg','Oberon','img11'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/oberon12.jpeg','Oberon','img12']
         ],
-        ['https://hosting.photobucket.com/images/i/lesaintdumech/oberon12.jpeg','Profile Photo: Oberon'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/oberon12B.jpeg','Profile Photo: Oberon'],
         'So the Windam is the upgrade version of the Dagger L. Which my Dagger build I named it King Leir, from Shakespeare. Following the Shakespeare therefore I decided for the Windam to name it Oberon, from Shakespeare\'s Midsummer Night\'s Dream. Now those who keep up with Shakespeare would know that in Shakespearean lore Oberon was the king of the fairies. Therefore to make him more fairy like I decided to stick with more pastel colors.',false,
         [
             ['USA Gundam Store','https://www.usagundamstore.com/products/hgce-1-144-232-gat-04-windam'],
@@ -4701,7 +4701,7 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/rbaron41.jpg','Gundam Red Baron','img41'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/rbaron42.jpg','Gundam Red Baron','img42']
         ],
-        ['https://hosting.photobucket.com/images/i/lesaintdumech/rbaron42.jpg','Profile Photo: Gundam Red Baron'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/rbaron42B.jpg','Profile Photo: Gundam Red Baron'],
         'Half inspired by the WWI Imperial Prussian fighter pilot half inspired by the pizza. Half just desperate for a theme to do on my second custom paint job. The Gundam Spiegel according to cannon was the official mobile suit of Neo Germany in the future, so I decided to take it all the way back to the imperial Prussia of the past. Painted it red with white stripes like the famous Red Baron plane. Clipped the spike from a nose ring to make the Pickelhaube for the helmet. And cut brown felt to make his aviator scarf just alike a real pilot. Still hand brushed, I had not come to my senses and realized the need for an air brush yet. Was also my first attempt at using LEDs and first time making custom waterslide decals. It being Deutsch, I also added Nietzschean book titles to each of the blades: Jenseits von Gut und B\u00f6se, Also sprach Zarathustra, Die fr\u00f6hliche Wissenschaft, Der Wille zur Macht.',false,
         [
             ['USA Gundam Store','https://www.usagundamstore.com/products/mg-gf13_021ng-gundam-spiegel?variant=33023432527'],
@@ -4842,7 +4842,7 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/neph26.jpeg','Nephilim','img25'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/neph27.jpeg','Nephilim','img26']
         ],
-        ['https://hosting.photobucket.com/images/i/lesaintdumech/neph14.jpeg','Profile Photo: Nephilim'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/neph14B.jpeg','Profile Photo: Nephilim'],
         'My second mobile suit painted with the airbrush. Went with mostly dark colors, but also was a bit experimental wanting to try out every shade in the Testors lineup as I could. Also, I just love the tail blade on this kit. It is so cool and ahd so much potential for so many cool poses.',false,
         [
             ['USA Gundam Store','https://www.usagundamstore.com/products/hg-ibo-1-144-033-gundam-barbatos-lupus-rex'],
@@ -4980,7 +4980,7 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/arrrgent10.jpeg','Arrrgent Gundam','img10'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/arrrgent11.jpeg','Arrrgent Gundam','img11']
         ],
-        ['https://hosting.photobucket.com/images/i/lesaintdumech/arrrgent03.jpeg','Profile Photo: Arrrgent Gundam'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/arrrgent03B.jpeg','Profile Photo: Arrrgent Gundam'],
         'What can I say, arrrrrgh, the boy\'s a pirate.',false,
         [
             ['USA Gundam Store','https://www.usagundamstore.com/products/pre-order-bandai-sdgcs-2-crossbone-gundan-x1-crossbone-gundam?variant=6977963851812'],
@@ -5064,7 +5064,7 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/pi16_8XCRfFxwhjbk2ZQ773aT2W.jpeg','Pi Gundam','img16'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/pi17_a6i3Sdvk1sod1DmUCDP5sw.jpeg','Pi Gundam','img17']
         ],
-        ['https://hosting.photobucket.com/images/i/lesaintdumech/pi06_gMfYKtAs6sP3uXn2iWRmVr.jpeg','Profile Photo: Pi Gundam'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/pi04B.jpeg','Profile Photo: Pi Gundam'],
         'No particular theme here for this one. Well... initially. This I was still in the practicing phase with the airbrush so this started out as purely experimental. Since the original Gundam\'s name is \u039D, that\'s the Greek letter Nu, I was like well what is the next letter in the Greek Alphabet that I can name this after. Well the next few letters sequentially were already claimed by other main canon Gundams so I could not use those. Anyhow the next avaible letter turned out to be \u03C0 (pi). And if I\'m wrong, well so help me God. Anyhow, pi lead to pie and it all went downhill from there. So introducing my pi, pie, tasty dessert themed Gundam.',
         false,
         [
@@ -5880,7 +5880,7 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/kataluma14.jpeg','Kataluma','img14'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/kataluma15.jpeg','Kataluma','img15']
         ],
-        ['https://hosting.photobucket.com/images/i/lesaintdumech/kataluma04.jpeg','Profile Photo: Kataluma'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/kataluma04B.jpeg','Profile Photo: Kataluma'],
         'The Kataluma, ou en grec: \"\u039A\u03B1\u03C4\u03B1\u03BB\u03C5\u03BC\u03B1\", is the name of a ship in my own Gundam self-fiction I\'m working on. Greek for Inn, and word used in the original Greek bible when Mary and Joseph were looking for a place to stay in Bethlehem. Well there is room stay at this Inn for my Gundams. Specifically just a 1:144 scale model. It is a tight squeeze for even the smallest Gundams of that scale to fit. Would have been nice if the designers had planned a little more space. But this was mostly just a practice run for my much larger project the Stratle. Overall I liked how it tuned out. It looks great with the metallic paint colors and the Evan Designs LEDs really make it pop.',false,
         [
             ['USA Gundam Store','https://www.usagundamstore.com/products/1-144-gundam-hanger-bay?variant=37766625657029'],
