@@ -3372,10 +3372,10 @@ const projects = [
             ['NewType','https://newtype.us/p/dD7AVRarBNfcX5yhevcx/h/rg-28-tallgeese-ew']
         ],false,false,true,'1:144'
     ],
-    ['PB Fl\u00FCgel Sparkel',[1,'Tallgeese Fl\u00FCgel'],'MG',
+    ['Fl\u00FCgel Sparkel',[1,'Tallgeese Fl\u00FCgel'],'MG',
         false,true,false,'Wing','B'
     ],
-    ['PB Tallgeese Fl\u00FCgel [MG]',
+    ['Tallgeese Fl\u00FCgel',
         [1,'Tallgeese Fl\u00FCgel'],'MG',true,true,false,'Wing','D','2022-05-08',20.17,false,'Builds/PBTallgeeseFlugelMG.html',false
     ],
     ['Wild Wing',[1,'Wing Gundam'],'MG',
@@ -4598,7 +4598,7 @@ const projects = [
     ],
     
     //Future Century (G Gundam)
-    ['PB Burning Gundam [RG]',[2,'Burning Gundam','Burning Gundam Expansion Pass','Burning Gundam LED lights'],'RG',true,true,false,'G','C','2022-09-07',15.5,true,'Builds/PBBurningGUndamRG.html',false],
+    ['Burning Gundam [RG]',[2,'Burning Gundam','Burning Gundam Expansion Pass','Burning Gundam LED lights'],'RG',true,true,false,'G','C','2022-09-07',15.5,true,'Builds/PBBurningGUndamRG.html',false],
     ['Michael',[1,'Burning Gundam'],'SD',false,false,false,'G','B'],
     ['Furcas',[1,'Dark Army'],'HG',false,false,false,'G','B'],
     ['Malphas',[1,'Dark Army'],'HG',
