@@ -3036,7 +3036,7 @@ const projects = [
         ],false,false,true,false
     ],
     ['Pontus',[1,'Aquarius'],'SD',false,false,false,'Wing','B',false,0,false,'Builds/Gundams/Pontus.html','Titans',false,models[40]],
-    ['Alucard',[1,'Deathscythe Hell (TV Version'],'HG',false,true,false,'Wing','C'],
+    ['Alucard',[1,'Deathscythe Hell (TV Version'],'HG',false,true,false,'Wing','C','2023-07-24',0],
     ['Epyon [RG]',[1,'Epyon'],'RG',true,false,false,'Wing','A'],
     ['Golden Ghidorah',[1,'Epyon'],'MG',false,false,false,'Wing','B'],
     ['Golden Ghidorah',[1,'Epyon'],'RG',false,false,false,'Wing','A'],
@@ -3533,7 +3533,7 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/charliedaniels08.jpeg','Gundam Charlie Daniels','img8'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/charliedaniels09.jpeg','Gundam Charlie Daniels','img9'],
         ],
-        ['https://hosting.photobucket.com/images/i/lesaintdumech/charliedaniels09.jpeg','Profile Photo: Charlie Daniels'],false,'Tyler, North Carolina',
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/charliedaniels09.jpeg','Profile Photo: Charlie Daniels'],false,'Lost somewhere in La-Vista, Nebraska',
         [
             ['USA Gundam Store','https://www.usagundamstore.com/products/gg-44-gundam-double-x?variant=32323103522852'],
             ['NewType','https://newtype.us/p/Tj4bsQyOIopaVxWIEoty/h/sdgg-044-gundam-double-x']
@@ -4033,11 +4033,11 @@ const projects = [
             ['NewType','https://newtype.us/p/V3s94PjelBrA0T06Q673/h/hgce-237-gat-o2l2-dagger-l']
         ],['Armageddon','Samus: Varia Suit','Malphas'],false,true,'1:144'
     ],
-    ['Samus: Dark Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','C','2023-07-24',0.25,false,'Builds/Gundams/S_DarkSuit.html','Metroid','',models[23]],
+    ['Samus: Dark Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','B','2023-07-24',0.25,false,'Builds/Gundams/S_DarkSuit.html','Metroid','',models[23]],
     ['Samus: Fusion Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','A','2023-07-24',0.25,false,'Builds/Gundams/S_FusionSuit.html','Metroid','',models[23]],
-    ['Samus: Gravity Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','C','2023-07-24',0.25,false,'Builds/Gundams/S_GravitySuit.html','Metroid','',models[23]],
-    ['Samus: Light Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','C','2023-07-24',0.25,false,'Builds/Gundams/S_LightSuit.html','Metroid','',models[23]],
-    ['Samus: Phazon Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','C','2023-07-24',0.25,false,'Builds/Gundams/S_PhazonSuit.html','Metroid','',models[23]],
+    ['Samus: Gravity Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','B','2023-07-24',0.25,false,'Builds/Gundams/S_GravitySuit.html','Metroid','',models[23]],
+    ['Samus: Light Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','B','2023-07-24',0.25,false,'Builds/Gundams/S_LightSuit.html','Metroid','',models[23]],
+    ['Samus: Phazon Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','B','2023-07-24',0.25,false,'Builds/Gundams/S_PhazonSuit.html','Metroid','',models[23]],
     ['Samus: Varia Suit',[1,'Dagger L'],'HG',
         false,false,false,'Seed','C','2023-06-13',7.75,false,'Builds/Gundams/S_VariaSuit.html','Metroid','',models[23],
         [
@@ -4626,7 +4626,7 @@ const projects = [
     ['Belial',[1,'Dark Gundam'],'HG',false,false,false,'G','B'],
     ['Dark Gundam [SD]',[1,'Dark Gundam'],'SD',true,false,false,'G','D','2022-08-07',1.75,false,false,false],
     ['Paimon',[1,'Dark Gundam'],'SD',false,false,false,'G','B'],
-    ['Charlemagne',[1,'Rose Gundam'],'HG',true,true,false,'G','C'],
+    ['Charlemagne',[1,'Rose Gundam'],'HG',true,true,false,'G','C','2023-07-24',0],
     ['Le Roi Soleil',[1,'Rose Gundam'],'HG',
         false,false,false,'G','E','2022-08-09',4.17,false,'Builds/Gundams/RoiSoleil.html',false,'2022-12-12',models[56],
         [
@@ -4997,12 +4997,12 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/jackieo09.jpeg','Airforce One','img12']
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/jackieo08.jpeg','Profile Photo: Jackie-O'],
-        'This was inspired by Airforce One. Which the current design was stylized by American First Lady, Jacqueline Onassis-Kennedy. Therefore presenting, Jackie-O !!!',false,
+        'This was inspired by Airforce One. Which the current design was stylized by American First Lady, Jacqueline Onassis-Kennedy. Therefore presenting, Jackie-O !!!','Dr. Paige, Chicago',
         [
             ['Video','https://www.instagram.com/reel/Cf48aw8lNmK/?igshid=YzcxN2Q2NzY0OA=='],
             ['USA Gundam Store','https://www.usagundamstore.com/products/bb379-delta-plus'],
             ['NewType','https://newtype.us/p/FwGjUKw2TJtylxXE2GUp/h/sdbb-379-delta-plus']
-        ],false,true,true,false
+        ],false,false,true,false
     ],
     ['Interstellar',[1,'Dom Test Type'],'HG',
         false,false,false,'UC','E','2022-08-06',14.07,false,'Builds/Gundams/Interstellar.html',false,'2022-11-14',models[55],
