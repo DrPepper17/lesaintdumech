@@ -3037,7 +3037,7 @@ const projects = [
     ],
     ['Pontus',[1,'Aquarius'],'SD',false,false,false,'Wing','B',false,0,false,'Builds/Gundams/Pontus.html','Titans',false,models[40]],
     ['Alucard',[1,'Deathscythe Hell (TV Version'],'HG',
-        false,true,false,'Wing','C','2023-08-01',0.75
+        false,true,false,'Wing','C','2023-08-09',0.75
     ],
     ['Epyon [RG]',[1,'Epyon'],'RG',true,false,false,'Wing','A'],
     ['Golden Ghidorah',[1,'Epyon'],'MG',false,false,false,'Wing','B'],
@@ -4035,12 +4035,12 @@ const projects = [
             ['NewType','https://newtype.us/p/V3s94PjelBrA0T06Q673/h/hgce-237-gat-o2l2-dagger-l']
         ],['Armageddon','Samus: Varia Suit','Malphas'],false,true,'1:144'
     ],
-    ['Samus: Dark Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','C','2023-08-01',0.5,false,'Builds/Gundams/S_DarkSuit.html','Metroid','',models[23]],
-    ['Samus: Fusion Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','C','2023-08-01',0.5,false,'Builds/Gundams/S_FusionSuit.html','Metroid','',models[23]],
-    ['Samus: Gravity Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','C','2023-08-01',0.42,false,'Builds/Gundams/S_GravitySuit.html','Metroid','',models[23]],
-    ['Samus: Light Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','C','2023-08-01',0.5,false,'Builds/Gundams/S_LightSuit.html','Metroid','',models[23]],
-    ['Samus: PED Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','C','2023-08-01',0.42,false,'Builds/Gundams/S_PhazonSuit.html','Metroid','',models[23]],
-    ['Samus: Phazon Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','C','2023-08-01',0.5,false,'Builds/Gundams/S_PhazonSuit.html','Metroid','',models[23]],
+    ['Samus: Dark Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','C','2023-08-04',0.5,false,'Builds/Gundams/S_DarkSuit.html','Metroid','',models[23]],
+    ['Samus: Fusion Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','C','2023-08-06',0.5,false,'Builds/Gundams/S_FusionSuit.html','Metroid','',models[23]],
+    ['Samus: Gravity Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','C','2023-08-02',0.42,false,'Builds/Gundams/S_GravitySuit.html','Metroid','',models[23]],
+    ['Samus: Light Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','C','2023-08-05',0.5,false,'Builds/Gundams/S_LightSuit.html','Metroid','',models[23]],
+    ['Samus: PED Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','C','2023-08-07',0.42,false,'Builds/Gundams/S_PhazonSuit.html','Metroid','',models[23]],
+    ['Samus: Phazon Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','C','2023-08-03',0.5,false,'Builds/Gundams/S_PhazonSuit.html','Metroid','',models[23]],
     ['Samus: Varia Suit',[1,'Dagger L'],'HG',
         false,false,false,'Seed','C','2023-06-13',7.75,false,'Builds/Gundams/S_VariaSuit.html','Metroid','',models[23],
         [
@@ -4312,7 +4312,7 @@ const projects = [
         true,true,false,'Seed','C','2023-05-05',6.5,false,'Builds/PBandai/PBDesintyImpulseREgenesMG.html',false,''
     ],
     ['Destiny Impulse [RG]',[1,'Impulse, Destiny'],'RG',
-        true,true,false,'Seed','C','2023-07-25',5.5,false,'Builds/PBandai/PBDestinyImpulseRG.html',false,''
+        true,true,false,'Seed','C','2023-07-26',5.5,false,'Builds/PBandai/PBDestinyImpulseRG.html',false,''
     ],
     ['Don\'t Tread On Ye',[1,'Justice'],'MG',
         false,false,false,'Seed','E','2022-06-06',51.75,true,'Builds/Gundams/Ye.html','America','2022-09-06',models[52],
@@ -4536,7 +4536,9 @@ const projects = [
     ['AntiFreedom',[1,'Strike-Freedom'],'SD',false,false,false,'Seed','B'],
     ['Servitude',[1,'Strike-Freedom'],'MG',false,false,false,'Seed','B'],
     ['Strike-Freedom Full Burst [MG]',[1,'Strike-Freedom'],'MG',true,false,false,'Seed','E','2021-07-07',18.42,false,false,false,'2021-08-17'],
-    ['MGEX Strike-Freedom',[1,'Strike-Freedom'],'MG',true,false,true,'Seed','C','2023-03-09',21.42,false,'Builds/MGEXStrikeFreedom.html',false],
+    ['MGEX Strike-Freedom',[1,'Strike-Freedom'],'MG',
+        true,false,true,'Seed','D','2023-03-09',21.42,false,'Builds/Specials/MGEXStrikeFreedom.html',false,''
+    ],
     ['Strike-Freedom (Deactive)',[1,'Strike-Freedom'],'RG',true,true,false,'Seed','D','2023-03-06',4.75,false,'Builds/PBandai/PBStrikeFreedomDeactive.html',false],
     ['Battra',[1,'Strike Noir'],'MG',false,false,false,'Seed','B'],
     ['Strike Noir [SD]',[1,'Strike Noir'],'SD',true,false,false,'Seed','E','2021-09-06',2.233,false,false,'2023-07-10'],
@@ -4636,7 +4638,7 @@ const projects = [
     ['Dark Gundam [SD]',[1,'Dark Gundam'],'SD',true,false,false,'G','D','2022-08-07',1.75,false,false,false],
     ['Paimon',[1,'Dark Gundam'],'SD',false,false,false,'G','B'],
     ['Charlemagne',[1,'Rose Gundam'],'HG',
-        false,true,false,'G','C','2023-08-01',0.58
+        false,true,false,'G','C','2023-08-08',0.58
     ],
     ['Le Roi Soleil',[1,'Rose Gundam'],'HG',
         false,false,false,'G','E','2022-08-09',4.17,false,'Builds/Gundams/RoiSoleil.html',false,'2022-12-12',models[56],
@@ -7655,6 +7657,36 @@ function homepageImages() {
     let homeIMG23SRC = document.createAttribute('src');
     homeIMG23SRC.value = randomPost[16][0];
     homeIMG23Node.setAttributeNode(homeIMG23SRC);
+
+    //IMG 24
+    randomN = Math.floor(Math.random()* tempArray.length);
+    randomPost = tempArray[randomN];
+    tempArray.splice(randomN,1);
+
+    let aIMG24Node = document.getElementById('aIMG24');
+    let aIMG24HREF = document.createAttribute('href');
+    aIMG24HREF.value = randomPost[11];
+    aIMG24Node.setAttributeNode(aIMG24HREF);
+
+    let homeIMG24Node = document.getElementById('homeIMG24');
+    let homeIMG24SRC = document.createAttribute('src');
+    homeIMG24SRC.value = randomPost[16][0];
+    homeIMG24Node.setAttributeNode(homeIMG24SRC);
+
+    //IMG 25
+    randomN = Math.floor(Math.random()* tempArray.length);
+    randomPost = tempArray[randomN];
+    tempArray.splice(randomN,1);
+
+    let aIMG25Node = document.getElementById('aIMG25');
+    let aIMG25HREF = document.createAttribute('href');
+    aIMG25HREF.value = randomPost[11];
+    aIMG25Node.setAttributeNode(aIMG25HREF);
+
+    let homeIMG25Node = document.getElementById('homeIMG25');
+    let homeIMG25SRC = document.createAttribute('src');
+    homeIMG25SRC.value = randomPost[16][0];
+    homeIMG25Node.setAttributeNode(homeIMG25SRC);
 }
 
 //Project Functions
