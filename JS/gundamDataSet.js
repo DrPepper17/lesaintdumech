@@ -4308,8 +4308,12 @@ const projects = [
         ],['Anthem','Liberty'],false,true,false
     ],
     ['Billy Blue Jay',[1,'Ginn'],'MG',false,false,false,'Seed','B'],
-    ['Destiny Impulse (Regenes)',[1,'Impulse, Destiny'],'MG',true,true,false,'Seed','C','2023-05-05',6.5,false,'Builds/PBDesintyImpulseREgenesMG.html',false],
-    ['Destiny Impulse [RG]',[1,'Impulse, Destiny'],'RG',true,true,false,'Seed','C','2023-07-25',0],
+    ['Destiny Impulse (Regenes)',[1,'Impulse, Destiny'],'MG',
+        true,true,false,'Seed','C','2023-05-05',6.5,false,'Builds/PBandai/PBDesintyImpulseREgenesMG.html',false,''
+    ],
+    ['Destiny Impulse [RG]',[1,'Impulse, Destiny'],'RG',
+        true,true,false,'Seed','C','2023-07-25',5.5,false,'Builds/PBandai/PBDestinyImpulseRG.html',false,''
+    ],
     ['Don\'t Tread On Ye',[1,'Justice'],'MG',
         false,false,false,'Seed','E','2022-06-06',51.75,true,'Builds/Gundams/Ye.html','America','2022-09-06',models[52],
         [
@@ -4532,7 +4536,7 @@ const projects = [
     ['AntiFreedom',[1,'Strike-Freedom'],'SD',false,false,false,'Seed','B'],
     ['Servitude',[1,'Strike-Freedom'],'MG',false,false,false,'Seed','B'],
     ['Strike-Freedom Full Burst [MG]',[1,'Strike-Freedom'],'MG',true,false,false,'Seed','E','2021-07-07',18.42,false,false,false,'2021-08-17'],
-    ['Strike-Freedom MGEX',[1,'Strike-Freedom'],'MG',true,false,true,'Seed','C','2023-03-09',15.92,false,'Builds/MGEXStrikeFreedom.html',false],
+    ['MGEX Strike-Freedom',[1,'Strike-Freedom'],'MG',true,false,true,'Seed','C','2023-03-09',21.42,false,'Builds/MGEXStrikeFreedom.html',false],
     ['Strike-Freedom (Deactive)',[1,'Strike-Freedom'],'RG',true,true,false,'Seed','D','2023-03-06',4.75,false,'Builds/PBandai/PBStrikeFreedomDeactive.html',false],
     ['Battra',[1,'Strike Noir'],'MG',false,false,false,'Seed','B'],
     ['Strike Noir [SD]',[1,'Strike Noir'],'SD',true,false,false,'Seed','E','2021-09-06',2.233,false,false,'2023-07-10'],
