@@ -2835,9 +2835,9 @@ const models = [
         'Cosmic Era',
         [73,'73 C.E.',73],
         'Zaft Soldiers',
-        ['Yzak Joule'],
+        ['Yzak Jule'],
         'Integrated Design Bureau',
-        ['Zodiac Alliance of Freedom Treaty','Joule Team'],
+        ['Zodiac Alliance of Freedom Treaty','Jule Team'],
         false,           //Height
         [88.1,'88.1 Metric Tons'],        //Weight
         false,
@@ -3037,7 +3037,7 @@ const projects = [
     ],
     ['Pontus',[1,'Aquarius'],'SD',false,false,false,'Wing','B',false,0,false,'Builds/Gundams/Pontus.html','Titans',false,models[40]],
     ['Alucard',[1,'Deathscythe Hell (TV Version'],'HG',
-        false,true,false,'Wing','C','2023-08-09',0.75
+        false,true,false,'Wing','C','2023-08-1',0.75
     ],
     ['Epyon [RG]',[1,'Epyon'],'RG',true,false,false,'Wing','A'],
     ['Golden Ghidorah',[1,'Epyon'],'MG',false,false,false,'Wing','B'],
@@ -3750,7 +3750,9 @@ const projects = [
             ['Premium Bandai','https://p-bandai.com/us/item/N2519710001001']
         ],false,false,true,'1:144'
     ],
-    ['Federation Trooper',[1,'Flag'],'HG',false,false,false,'00','B'],
+    ['Federation Trooper',[1,'Flag'],'HG',
+        false,false,false,'00','C','2023-08-03',0.25,false,'Builds/Gundams/S_DarkSuit.html','Metroid'
+    ],
     ['Harute (Final Battle)',[1,'Harute'],'HG',
         true,true,false,'00','E','2022-03-08',5.75,false,'Builds/PBandai/PBHaruteFinalHG.html',false,'2022-11-21',models[70],
         [
@@ -4035,11 +4037,11 @@ const projects = [
             ['NewType','https://newtype.us/p/V3s94PjelBrA0T06Q673/h/hgce-237-gat-o2l2-dagger-l']
         ],['Armageddon','Samus: Varia Suit','Malphas'],false,true,'1:144'
     ],
-    ['Samus: Dark Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','C','2023-08-04',0.5,false,'Builds/Gundams/S_DarkSuit.html','Metroid','',models[23]],
-    ['Samus: Fusion Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','C','2023-08-06',0.5,false,'Builds/Gundams/S_FusionSuit.html','Metroid','',models[23]],
-    ['Samus: Gravity Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','C','2023-08-02',0.42,false,'Builds/Gundams/S_GravitySuit.html','Metroid','',models[23]],
-    ['Samus: Light Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','C','2023-08-05',0.5,false,'Builds/Gundams/S_LightSuit.html','Metroid','',models[23]],
-    ['Samus: PED Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','C','2023-08-07',0.42,false,'Builds/Gundams/S_PhazonSuit.html','Metroid','',models[23]],
+    ['Samus: Dark Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','C','2023-08-02',0.5,false,'Builds/Gundams/S_DarkSuit.html','Metroid','',models[23]],
+    ['Samus: Fusion Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','C','2023-08-03',0.5,false,'Builds/Gundams/S_FusionSuit.html','Metroid','',models[23]],
+    ['Samus: Gravity Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','C','2023-08-01',0.42,false,'Builds/Gundams/S_GravitySuit.html','Metroid','',models[23]],
+    ['Samus: Light Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','C','2023-08-03',0.5,false,'Builds/Gundams/S_LightSuit.html','Metroid','',models[23]],
+    ['Samus: PED Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','C','2023-08-03',0.42,false,'Builds/Gundams/S_PhazonSuit.html','Metroid','',models[23]],
     ['Samus: Phazon Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','C','2023-08-03',0.5,false,'Builds/Gundams/S_PhazonSuit.html','Metroid','',models[23]],
     ['Samus: Varia Suit',[1,'Dagger L'],'HG',
         false,false,false,'Seed','C','2023-06-13',7.75,false,'Builds/Gundams/S_VariaSuit.html','Metroid','',models[23],
@@ -4593,14 +4595,25 @@ const projects = [
         ],['Armageddon'],false,true,'1:144'
     ],
     ['Slash Zaku Phantom',[1,'Zaku Phantom, Slash'],'MG',
-        true,true,false,'Seed','D','2023-04-05',11.83,false,'Builds/PBandai/PBPhantomZakuMG.html',false,'2023-07-31',models[75],
+        true,true,false,'Seed','E','2023-04-05',11.83,false,'Builds/PBandai/PBPhantomZakuMG.html',false,'2023-07-31',models[75],
         [
-            ['','Yzak Joule Slash Zaku','img1']
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbyzakzaku01phantom.jpeg','Yzak Jule Slash Zaku','img1'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbyzakzaku02phantom.jpeg','Yzak Jule Slash Zaku','img2'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbyzakzaku03phantom.jpeg','Yzak Jule Slash Zaku','img3'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbyzakzaku04phantom.jpeg','Yzak Jule Slash Zaku','img4'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbyzakzaku05phantom.jpeg','Yzak Jule Slash Zaku','img5'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbyzakzaku06phantom.jpeg','Yzak Jule Slash Zaku','img6'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbyzakzaku07phantom.jpeg','Yzak Jule Slash Zaku','img7'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbyzakzaku08phantom.jpeg','Yzak Jule Slash Zaku','img8'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbyzakzaku09phantom.jpeg','Yzak Jule Slash Zaku','img9'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbyzakzaku10phantom.jpeg','Yzak Jule Slash Zaku','img10'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbyzakzaku11phantom.jpeg','Yzak Jule Slash Zaku','img11'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbyzakzaku12phantom.jpeg','Yzak Jule Slash Zaku','img12']
         ],
-        ['','Profile Photo: PB Slash Zaku Phntom'],false,false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/pbyzakzaku06phantom.jpeg','Profile Photo: PB Slash Zaku Phntom'],false,false,
         [
             ['Premium Banai','https://p-bandai.com/us/item/N2500763001004']
-        ],false,false,false,'1:100',false,'Slash Zaku Phantom (Yzak Joule Custom)'
+        ],false,false,true,'1:100',false,'Slash Zaku Phantom (Yzak Jule Custom)'
     ],
     
     //Future Century (G Gundam)
@@ -4638,7 +4651,7 @@ const projects = [
     ['Dark Gundam [SD]',[1,'Dark Gundam'],'SD',true,false,false,'G','D','2022-08-07',1.75,false,false,false],
     ['Paimon',[1,'Dark Gundam'],'SD',false,false,false,'G','B'],
     ['Charlemagne',[1,'Rose Gundam'],'HG',
-        false,true,false,'G','C','2023-08-08',0.58
+        false,true,false,'G','C','2023-08-02',0.58
     ],
     ['Le Roi Soleil',[1,'Rose Gundam'],'HG',
         false,false,false,'G','E','2022-08-09',4.17,false,'Builds/Gundams/RoiSoleil.html',false,'2022-12-12',models[56],

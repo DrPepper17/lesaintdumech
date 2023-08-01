@@ -143,6 +143,20 @@ const blogArray = [
         ['* My own Gundam fan fiction'],
         ['* A section for my own original Gundam designs and drawings'],
         ['Not sure what all I am going to do. But this is going to be fun. So stick around.']
+    ],
+    [
+        '2023-07-31',
+        'Premium-Bleu!!',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/pbyzakzaku12phantom.jpeg',
+        ['Well it\'s that day of the week again. Time for another weekly project unveil. This week I\'m doing just a plain P-Bandai straight build. Nothing fancy nor custom painted here. Just all built exactly as is out of the box. Sometimes it does feel nice to take a break from the painting and just enjoy building somethign simple just for the joy of building and to relax the creative mucles, which is what I usually do with the P-Bandai kits. '],
+        ['Besides, the P-Bandais are usually more expensive and they\'re limited editions that I do not want to risk messing them up with a paint job gone wrong.'],
+        [
+            [
+                'Anyhow, presenting this week\'s project, the ',
+                ['Slash Zaku Phantom','Builds/PBandai/PBPhantomZakuMG.html'],
+                '.'
+            ]
+        ]
     ]
 ]
 
