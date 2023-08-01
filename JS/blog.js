@@ -139,7 +139,7 @@ const blogArray = [
         ['There also over time will be new updates and features added to the site, possibly including:'],
         ['* First Up: Site migration to React format'],
         ['* Retooling site infrastructure and cleaning up the Javascripts'],
-        ['* A Reviews Section where I watch through different seasons of Gundam and summarize/review each episide'],
+        ['* A Reviews Section where I watch through different seasons of Gundam and summarize/review each episode'],
         ['* My own Gundam fan fiction'],
         ['* A section for my own original Gundam designs and drawings'],
         ['Not sure what all I am going to do. But this is going to be fun. So stick around.']
@@ -157,20 +157,43 @@ const blogArray = [
                 '.'
             ]
         ]
+    ],
+    [
+        '2023-08-01',
+        'Something new in the works',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/IMG_6946.jpeg',
+        [
+            [
+                'So happy first day of August. Starting on a new project tonight. Won\'t say what it is just yet. All I can say you all know just how much I love the ',
+                ['Dagger L','Builds/Gundams/KingLeir.html'],
+                '. So going to paint a whole lot more of them. Practically assembling my own little Dagger Army. Got a cool theme this time planned out for them which I cannot wait to share. In the meantime though you\'re all going to have to wait to be surprised. Cannot wait to reveal more details on this project soon.'
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/IMG_6945.jpeg']
+        ]
     ]
 ]
 
 //Functions
+function constructDates() {
+    for (let i=0; i<blogArray.length; i++) {
+        blogArray[i][0] = new Date(blogArray[i][0]);
+    }
+}
+
 function frenchDate(arrayDate) {
     let date = new Date(arrayDate);
-    let day = dayFR(date.getDate()+1);
+    date.setDate(date.getDate()+1);
+    let day = dayFR(date.getDate());
     let month = monthFR(date.getMonth());
     return day+month+date.getFullYear();
 }
 
 function numericDate(arrayDate) {
     let date = new Date(arrayDate);
-    let day = date.getDate()+1;
+    date.setDate(date.getDate()+1);
+    let day = date.getDate();
     let month = date.getMonth()+1;
     return month+'-'+day+'-'+date.getFullYear();
 }

@@ -3707,7 +3707,7 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/thunderq21.jpeg','Gundam Thunder-Q','img21']
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/thunderq17.jpeg','Profile Photo: Thunder-QAN[T]'],
-        'Gundam QANT is one of my favorites in the whole franchise. So much more futuristic that the prior installments of the Gundam universe. And the clear parts on this model were just begging for LEDs.',false,
+        'Gundam QANT is one of my favorites in the whole franchise. So much more futuristic than the prior installments of the Gundam universe. And the clear parts on this model were just begging for LEDs.',false,
         [
             ['USA Gundam Store','https://www.usagundamstore.com/products/bb364-gundam00-qant?variant=7146675077156'],
             ['NewType','https://newtype.us/p/8q0W5dRIDplgZOwCuz3T/h/sdbb-364-00-qan-t']
@@ -4608,7 +4608,18 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/pbyzakzaku09phantom.jpeg','Yzak Jule Slash Zaku','img9'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/pbyzakzaku10phantom.jpeg','Yzak Jule Slash Zaku','img10'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/pbyzakzaku11phantom.jpeg','Yzak Jule Slash Zaku','img11'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbyzakzaku12phantom.jpeg','Yzak Jule Slash Zaku','img12']
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbyzakzaku12phantom.jpeg','Yzak Jule Slash Zaku','img12'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/zakuslash20.jpeg','Yzak Jule Slash Zaku','img13'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/zakuslash21.jpeg','Yzak Jule Slash Zaku','img14'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/zakuslash22.jpeg','Yzak Jule Slash Zaku','img15'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/zakuslash23.jpeg','Yzak Jule Slash Zaku','img16'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/zakuslash24.jpeg','Yzak Jule Slash Zaku','img17'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/zakuslash25.jpeg','Yzak Jule Slash Zaku','img18'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/zakuslash26.jpeg','Yzak Jule Slash Zaku','img19'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/zakuslash28.jpeg','Yzak Jule Slash Zaku','img20'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/zakuslash29.jpeg','Yzak Jule Slash Zaku','img21'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/zakuslash30.jpeg','Yzak Jule Slash Zaku','img22'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/zakuslash31.jpeg','Yzak Jule Slash Zaku','img23'],
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/pbyzakzaku06phantom.jpeg','Profile Photo: PB Slash Zaku Phntom'],false,false,
         [
