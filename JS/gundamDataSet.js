@@ -3037,7 +3037,7 @@ const projects = [
     ],
     ['Pontus',[1,'Aquarius'],'SD',false,false,false,'Wing','B',false,0,false,'Builds/Gundams/Pontus.html','Titans',false,models[40]],
     ['Alucard',[1,'Deathscythe Hell (TV Version'],'HG',
-        false,true,false,'Wing','C','2023-08-1',0.75
+        false,true,false,'Wing','C','2023-08',0.75
     ],
     ['Epyon [RG]',[1,'Epyon'],'RG',true,false,false,'Wing','A'],
     ['Golden Ghidorah',[1,'Epyon'],'MG',false,false,false,'Wing','B'],
@@ -3751,7 +3751,7 @@ const projects = [
         ],false,false,true,'1:144'
     ],
     ['Federation Trooper',[1,'Flag'],'HG',
-        false,false,false,'00','C','2023-08-03',0.25,false,'Builds/Gundams/S_DarkSuit.html','Metroid'
+        false,false,false,'00','C','2023-08',0.25,false,'Builds/Gundams/S_DarkSuit.html','Metroid'
     ],
     ['Harute (Final Battle)',[1,'Harute'],'HG',
         true,true,false,'00','E','2022-03-08',5.75,false,'Builds/PBandai/PBHaruteFinalHG.html',false,'2022-11-21',models[70],
@@ -4037,12 +4037,24 @@ const projects = [
             ['NewType','https://newtype.us/p/V3s94PjelBrA0T06Q673/h/hgce-237-gat-o2l2-dagger-l']
         ],['Armageddon','Samus: Varia Suit','Malphas'],false,true,'1:144'
     ],
-    ['Samus: Dark Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','C','2023-08-02',0.5,false,'Builds/Gundams/S_DarkSuit.html','Metroid','',models[23]],
-    ['Samus: Fusion Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','C','2023-08-03',0.5,false,'Builds/Gundams/S_FusionSuit.html','Metroid','',models[23]],
-    ['Samus: Gravity Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','C','2023-08-01',0.42,false,'Builds/Gundams/S_GravitySuit.html','Metroid','',models[23]],
-    ['Samus: Light Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','C','2023-08-03',0.5,false,'Builds/Gundams/S_LightSuit.html','Metroid','',models[23]],
-    ['Samus: PED Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','C','2023-08-03',0.42,false,'Builds/Gundams/S_PhazonSuit.html','Metroid','',models[23]],
-    ['Samus: Phazon Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','C','2023-08-03',0.5,false,'Builds/Gundams/S_PhazonSuit.html','Metroid','',models[23]],
+    ['Samus: Dark Suit',[1,'Dagger L'],'HG',
+        false,false,false,'Seed','C','2023-08',0.5,false,'Builds/Gundams/S_DarkSuit.html','Metroid','',models[23]
+    ],
+    ['Samus: Fusion Suit',[1,'Dagger L'],'HG',
+        false,false,false,'Seed','C','2023-08',0.5,false,'Builds/Gundams/S_FusionSuit.html','Metroid','',models[23]
+    ],
+    ['Samus: Gravity Suit',[1,'Dagger L'],'HG',
+        false,false,false,'Seed','C','2023-08',0.42,false,'Builds/Gundams/S_GravitySuit.html','Metroid','',models[23]
+    ],
+    ['Samus: Light Suit',[1,'Dagger L'],'HG',
+        false,false,false,'Seed','C','2023-08',0.5,false,'Builds/Gundams/S_LightSuit.html','Metroid','',models[23]
+    ],
+    ['Samus: PED Suit',[1,'Dagger L'],'HG',
+        false,false,false,'Seed','C','2023-08',0.42,false,'Builds/Gundams/S_PhazonSuit.html','Metroid','',models[23]
+    ],
+    ['Samus: Phazon Suit',[1,'Dagger L'],'HG',
+        false,false,false,'Seed','C','2023-08',0.5,false,'Builds/Gundams/S_PhazonSuit.html','Metroid','',models[23]
+    ],
     ['Samus: Varia Suit',[1,'Dagger L'],'HG',
         false,false,false,'Seed','C','2023-06-13',7.75,false,'Builds/Gundams/S_VariaSuit.html','Metroid','',models[23],
         [
@@ -4616,10 +4628,11 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/zakuslash24.jpeg','Yzak Jule Slash Zaku','img17'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/zakuslash25.jpeg','Yzak Jule Slash Zaku','img18'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/zakuslash26.jpeg','Yzak Jule Slash Zaku','img19'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/zakuslash28.jpeg','Yzak Jule Slash Zaku','img20'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/zakuslash29.jpeg','Yzak Jule Slash Zaku','img21'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/zakuslash30.jpeg','Yzak Jule Slash Zaku','img22'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/zakuslash31.jpeg','Yzak Jule Slash Zaku','img23'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/_zakuslash27.jpeg','Yzak Jule Slash Zaku','img20'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/zakuslash28.jpeg','Yzak Jule Slash Zaku','img21'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/zakuslash29.jpeg','Yzak Jule Slash Zaku','img22'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/zakuslash30.jpeg','Yzak Jule Slash Zaku','img23'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/zakuslash31.jpeg','Yzak Jule Slash Zaku','img24']
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/pbyzakzaku06phantom.jpeg','Profile Photo: PB Slash Zaku Phntom'],false,false,
         [
@@ -4662,7 +4675,7 @@ const projects = [
     ['Dark Gundam [SD]',[1,'Dark Gundam'],'SD',true,false,false,'G','D','2022-08-07',1.75,false,false,false],
     ['Paimon',[1,'Dark Gundam'],'SD',false,false,false,'G','B'],
     ['Charlemagne',[1,'Rose Gundam'],'HG',
-        false,true,false,'G','C','2023-08-02',0.58
+        false,true,false,'G','C','2023-08',0.58
     ],
     ['Le Roi Soleil',[1,'Rose Gundam'],'HG',
         false,false,false,'G','E','2022-08-09',4.17,false,'Builds/Gundams/RoiSoleil.html',false,'2022-12-12',models[56],
@@ -4936,7 +4949,7 @@ const projects = [
         ],['Sealiah'],false,true,'1:144'
     ],
     ['\u00dcbermensch',[1,'Vidar'],'FM',
-        false,false,false,'IBO','C','2023-08-01',0.75
+        false,false,false,'IBO','C','2023-08-01',4
     ],
 
     //Universal Century
@@ -6728,14 +6741,18 @@ function convertDate() {
             projects[i][8] = new Date('2099-12-25');
         } 
         else {
-            projects[i][8] = new Date(projects[i][8]);
+            let dateStart = new Date(projects[i][8]);
+            dateStart.setDate(dateStart.getDate()+1);
+            projects[i][8] = dateStart;
         }
 
         if (!projects[i][13]) {
             projects[i][13] = new Date('2099-12-25');
         } 
         else {
-            projects[i][13] = new Date(projects[i][13]);
+            let datePost = new Date(projects[i][13]);
+            datePost.setDate(datePost.getDate()+1);
+            projects[i][13] = datePost;
         }
     }
 } 
@@ -7779,12 +7796,14 @@ function buildProjectPage(string) {
     }
 
     let startStamp = new Date(projectArray[8]);
+    startStamp.setDate(startStamp.getDate()+1);
     let startMonth = convertMonth(startStamp.getMonth());
     let startYear = startStamp.getFullYear();
     
     let postStamp = new Date(projectArray[13]);
+    postStamp.setDate(postStamp.getDate()+1);
     let postMonth = convertMonth(postStamp.getMonth());
-    let postDay = postStamp.getDate()+1;
+    let postDay = postStamp.getDate();
     let postYear = postStamp.getFullYear();
 
     if (projectArray[8]) {
