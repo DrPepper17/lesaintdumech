@@ -2866,6 +2866,9 @@ const models = [
         false,            //boolean
         ['https://hosting.photobucket.com/images/i/lesaintdumech/zakuphantom_Large.jpeg','Slash Zaku Phantom'],
         false           //boolean
+    ],
+    [76,2,'Strike-Freedom',
+        
     ]
 ];
 
