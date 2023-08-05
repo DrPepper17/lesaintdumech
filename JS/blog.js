@@ -176,7 +176,7 @@ const blogArray = [
     [
         '2023-08-05',
         'New Paints',
-        'https://hosting.photobucket.com/images/i/lesaintdumech/IMG_6996_Large.jpeg',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/(edited)_IMG_6996_Large.png',
         [
             'Got some new paint in the mail and they came are absolutely amazing. '
         ],
