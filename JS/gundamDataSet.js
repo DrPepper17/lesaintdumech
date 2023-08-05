@@ -358,7 +358,7 @@ const models = [
         ['ZGMF-X09A Justice Gundam',
             'ZGMF-X19A \u221e Justice Gundam',
             'ZGMF-X10A Freedom Gundam',
-            'ZGMF-X20A Strike Freedom Gundam',
+            'ZGMF-X20A Strike-Freedom Gundam',
             'ZGMF-X88S Gaia Gundam',
             'ZGMF-XX09T DOM Trooper'
         ],
@@ -549,7 +549,7 @@ const models = [
         'Mobile Suit Gundam SEED',
         false,
         ['YMF-X000A Dreadnought Gundam'],
-        ['ZGMF-X20A Strike Freedom Gundam'],
+        ['ZGMF-X20A Strike-Freedom Gundam'],
         'Cosmic Era',
         [71,'May 71 C.E.',74],
         'Kira Yamato',
@@ -572,7 +572,7 @@ const models = [
             'METEOR Unit'
         ],
         [
-            'OS: Generation Unsubdued Nuclear Drive Assault Module Comple',
+            'OS: Generation Unsubdued Nuclear Drive Assault Module Complex',
             'Phase Shift Armor',
             'High Mobility Aerial Tactics (HiMAT) Mode',
             'Multi Lock-on System',
@@ -606,7 +606,7 @@ const models = [
         ['"Gottfried Mk.71" 225cm Dual High-energy Beam Cannon (x2)','"Igelstellung" 75mm Automatic Multi-barrel CIWS (x16)','"Lohengrin" Positron Blaster Cannon (x2)','Surface-to-air Missile Launcher (x16)','Surface-to-ship Missile Launcher (x24)',
         '"Valiant Mk.8" 110cm Linear Cannon (x2)','Torpedo Launcher (X4)','Laminated Armor'],
         ['Ablative Gel','Anti-Beam Depth Charge','Plasma Booster'],
-        ['FX-550 Skygrasper','GAT-X105 Strike Gundam','GAT-X103 Buster Gundam','MAW-01 Mistral','TS-MA2mod.00 Moebius Zero','ZGMF-X109A Justice Gundam','ZGMF-X10A Freedom Gundam','MBF-02 Strike Rouge','MVF-M11C Murasame','ORB-01 Akatsuki','ZGMF-X19A Infinite Justice Gundam','ZGMF-X20A Strike Freedom GUndam'],
+        ['FX-550 Skygrasper','GAT-X105 Strike Gundam','GAT-X103 Buster Gundam','MAW-01 Mistral','TS-MA2mod.00 Moebius Zero','ZGMF-X109A Justice Gundam','ZGMF-X10A Freedom Gundam','MBF-02 Strike Rouge','MVF-M11C Murasame','ORB-01 Akatsuki','ZGMF-X19A Infinite Justice Gundam','ZGMF-X20A Strike-Freedom Gundam'],
         2,
         false,
         'The Legged Ship',
@@ -2867,8 +2867,51 @@ const models = [
         ['https://hosting.photobucket.com/images/i/lesaintdumech/zakuphantom_Large.jpeg','Slash Zaku Phantom'],
         false           //boolean
     ],
-    [76,2,'Strike-Freedom',
-
+    [76,1,'Strike-Freedom Gundam',
+        'ZGMF-X20A Strike-Freedom Gundam',
+        'ZGMF-X20A',
+        'Mobile Suit Gundam SEED Destiny',
+        false,
+        ['ZGMF-X10A Freedom Gundam'],
+        false,
+        'Cosmic Era',
+        [74,'74 C.E.','Present'],
+        'Kira Yamato',
+        false,
+        'Terminal',
+        ['Terminal','Three Ships Alliance','Orb National Defense Forces'],
+        [18.88,'18.88 Meters'],           //Height
+        [80.09,'80.09 Metric Tons'],        //Weight
+        false,
+        'Hyper-Deuterion Engine',
+        [
+            'MMI-GAU27D 31mm CIWS (x2)',
+            'Abdoment Mounted MGX-2235 "Calidus" Multi-Phase Beam Cannon',
+            'MMI-M15E "Xiphias 3" Railgun (x2)',
+            'MX2200 Beam Shield (x2)',
+            'EQFU-3X Super DRAGOON MA-80V Beam Assault Cannon (x8)'
+        ],
+        [
+            'MA-M02G "Super Lacerta" Beam Saber (x2)',
+            'MA-M21KF High-energy Beam Rifle (x2)',
+            'METEOR Unit'
+        ],
+        [
+            'OS: Generation Unsubdued Nuclear Drive Assault Module Complex',
+            'Variable Phase Shift Armor',
+            'High Mobility Aerial Tactics (HiMAT) Mode',
+            'Multi Lock-on System',
+            'Full Burst Mode',
+            'Neutron Jammer Canceller',
+            'Voiture Lumiere Propulsion System',
+            'Super DRAGOON System'
+        ],
+        'Kunio Okawara',
+        false,
+        'Freedom',
+        false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/strikefreedom_Large.jpeg','Strike-Freedom Gundam'],
+        true
     ]
 ];
 
@@ -2913,7 +2956,8 @@ const models = [
     22. Ready to post to site (boolean)
     23. scale
     24. Second name/nickname/phrase/slogan
-    25. Project Expanded (override name)
+    25. Project Page: override name
+    26. Build Page: Override Name
 */
 
 //Pojects
@@ -3476,7 +3520,7 @@ const projects = [
     ['Snow White',[1,'Wing Zero'],'RG',false,false,false,'Wing','B'],
     ['Snow White',[1,'Wing Zero'],'SD',false,false,false,'Wing','A'],
     ['Wing Zero KA [MG]',[1,'Wing Zero','GFFMC Wings For MG Wing Zero'],'MG',true,false,false,'Wing','C','2022-06-05',10.83,false,false,false],
-    ['Wing Zero [PG]',[1,'Wing GUndam'],'PG',true,false,false,'Wing','A'],
+    ['Wing Zero [PG]',[1,'Wing Gundam'],'PG',true,false,false,'Wing','A'],
     ['Zero Traditional',[1,'Wing Zero'],'MG',false,false,false,'Wing','B'],
     ['Zero Traditional',[1,'Wing Zero'],'RG',false,false,false,'Wing','B'],
     ['Zero Traditional',[1,'Wing Zero'],'SD',false,false,false,'Wing','A'],
@@ -4557,9 +4601,28 @@ const projects = [
     ['Servitude',[1,'Strike-Freedom'],'MG',false,false,false,'Seed','B'],
     ['Strike-Freedom Full Burst [MG]',[1,'Strike-Freedom'],'MG',true,false,false,'Seed','E','2021-07-07',18.42,false,false,false,'2021-08-17'],
     ['MGEX Strike-Freedom',[1,'Strike-Freedom'],'MG',
-        true,false,true,'Seed','D','2023-03-09',21.42,false,'Builds/Specials/MGEXStrikeFreedom.html',false,''
+        true,false,true,'Seed','D','2023-03-09',21.42,false,'Builds/Specials/MGEXStrikeFreedom.html','MGEX','2023-08-14',models[76],
+        [
+            ['','MGEX Strike-Freedom','img1']
+        ],
+        ['','Profile Photo: MGEX Strike-Freedom'],
+        'Description',false,
+        [
+            ['USA Gundam Store','https://www.usagundamstore.com/products/mgex-1-100-strike-freedom-gundam'],
+            ['NewType','https://newtype.us/p/S4Qqw8vjfebq5dssbLNR/h/mgex-strike-freedom-gundam']
+        ],false,false,false,'1:100',false,false,'MGEX S-Freedom'
     ],
-    ['Strike-Freedom (Deactive)',[1,'Strike-Freedom'],'RG',true,true,false,'Seed','D','2023-03-06',4.75,false,'Builds/PBandai/PBStrikeFreedomDeactive.html',false],
+    ['Strike-Freedom (Deactive)',[1,'Strike-Freedom'],'RG',
+        true,true,false,'Seed','D','2023-03-06',4.75,false,'Builds/PBandai/PBStrikeFreedomDeactive.html',false,'2023-08-07',models[76],
+        [
+            ['','Strike-Freedom (Deactive)','img1']
+        ],
+        ['','Profile Photo: PB Strike-Freedom (Deactive)'],
+        'Strike-Freedom but in Deactive Mode. Basically its powered down state. In Gundam Seed and Gundam Double O the gundams natural colors is all grey. The natural metal colors of the material they\'re constructed from. The color of the suit actually comes from the electric energy armor that covers and protects the suit in battle. I thought this was a cool concept for a kit that when P-Bandai made the deactive modes available I had to build it. It was a cool concept for a straight build. But I am going to paint them in their deactive state sometime in the future.',false,
+        [
+            ['Premium Bandai','https://p-bandai.com/us/item/N2256565001006']
+        ],false,false,false,'1:144',false,'Strike-Freedom (Deactive Mode)','Strike-Freedom'
+    ],
     ['Battra',[1,'Strike Noir'],'MG',false,false,false,'Seed','B'],
     ['Strike Noir [SD]',[1,'Strike Noir'],'SD',true,false,false,'Seed','E','2021-09-06',2.233,false,false,'2023-07-10'],
     ['Strike Verde',[1,'Strike Noir'],'SD',
@@ -4645,7 +4708,7 @@ const projects = [
     ],
     
     //Future Century (G Gundam)
-    ['Burning Gundam [RG]',[2,'Burning Gundam','Burning Gundam Expansion Pass','Burning Gundam LED lights'],'RG',true,true,false,'G','C','2022-09-07',15.5,true,'Builds/PBBurningGUndamRG.html',false],
+    ['Burning Gundam [RG]',[2,'Burning Gundam','Burning Gundam Expansion Pass','Burning Gundam LED lights'],'RG',true,true,false,'G','C','2022-09-07',15.5,true,'Builds/PBBurningGundamRG.html',false],
     ['Michael',[1,'Burning Gundam'],'SD',false,false,false,'G','B'],
     ['Furcas',[1,'Dark Army'],'HG',false,false,false,'G','B'],
     ['Malphas',[1,'Dark Army'],'HG',
@@ -5337,7 +5400,7 @@ const projects = [
     ['King Jupiter',[1,'Livelance'],'HG',false,false,false,'BD','B'],
     ['King Pluto',[1,'QAN[T], Command'],'HG',false,false,false,'BD','B'],
     ['Queen Luna',[1,'QAN[T], Shia'],'HG',false,false,false,'BD','B'],
-    ['King Earth',[1,'Strike Freedom, Perfect'],'HG',false,false,false,'BD','B'],
+    ['King Earth',[1,'Strike-Freedom, Perfect'],'HG',false,false,false,'BD','B'],
     ['Constellation',[1,'Strike Full Package'],'RG',
         false,false,false,'BD','E','2021-11-05',37.52,true,'Builds/Gundams/Constellation.html',false,'2022-02-28',models[34],
         [
@@ -7078,6 +7141,9 @@ function populateBuildsPage() {
             pClass.value = 'font-weight-bold text-danger buildH4';
             pNode.setAttributeNode(pClass);
             let pTextNode = document.createTextNode(postedArray[i][0]);
+            if (postedArray[i][26]) {
+                pTextNode = document.createTextNode(postedArray[i][26])
+            }
             pNode.appendChild(pTextNode);
 
             aNode2.appendChild(pNode);
