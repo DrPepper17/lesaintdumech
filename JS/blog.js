@@ -172,6 +172,42 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/IMG_6945.jpeg']
         ]
+    ],
+    [
+        '2023-08-05',
+        'New Paints',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/IMG_6996_Large.jpeg',
+        [
+            'Got some new paint in the mail and they came are absolutely amazing. '
+        ],
+        [
+            [
+                'As part of my next oncoming projects I needed new shiny metallic colors. So for that I turned to the',
+                ['Mr Hobby','https://www.mr-hobby.com/en/product1/category_7.html'],
+                ', Mr Metallic, line.'
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/IMG_6995_Large.jpeg']
+        ],
+        ['For colors I purchased Metallic Purple:'],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/(edited)_IMG_7001_Large.png']
+        ],
+        ['Bloody Red:'],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/(edited)_IMG_6997_Large.png']
+        ],
+        ['And Rough Gold:'],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/(edited)_IMG_7004_Large.png']
+        ],
+        ['After the first round these came out great.'], 
+        ['The paint does have its difficulties. It requires a ton of paint thinner. The thinner for this brand appears to evaporate or something becausee after so many minutes the paint starts to thicken again that I have to add more thinner and dilute it down all over again. I had to constantly keep re-thinning the paint several times all throughout the paint process that it probably took me three times as long to paint everything as it normally would. Was definitely a big hurdle to overcome.'],
+        ['But all in all these pieces look just amazing. Like absolutely astounding. This brand is hard to come by and often not in stock, but whenever I can come across it, this is definitely going to be my go to for metallic colors from now on.'],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/IMG_7005_Large.jpeg']
+        ]
     ]
 ]
 

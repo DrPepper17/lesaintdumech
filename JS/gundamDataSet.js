@@ -2868,7 +2868,7 @@ const models = [
         false           //boolean
     ],
     [76,2,'Strike-Freedom',
-        
+
     ]
 ];
 
@@ -2948,6 +2948,9 @@ const projects = [
             ['Azrael','https://en.wikipedia.org/wiki/Azrael']
         ],false,false,true,'1:144'
     ],
+    ['Dark Samus: Echoes',[1,'Gundvolva'],'HG',false,false,false,'Mercury','B'],
+    ['Dark Samus: Corruption',[1,'Gundvolva'],'HG',false,false,false,'Mercury','B'],
+    ['Dobiel',[1,'Gundvolva'],'HG',false,false,false,'Mercury','B'],
     ['Adriel',[1,'LFrith'],'HG',false,false,false,'Mercury','B'],
     ['LFrith [HG]',[1,'LFrith'],'HG',true,false,false,'Mercury','D','2023-04-03-15',2.33,false,false,false],
     ['Metatron',[1,'Schwarzette'],'HG',false,false,false,'Mercury','A'],
@@ -3040,7 +3043,7 @@ const projects = [
     ],
     ['Pontus',[1,'Aquarius'],'SD',false,false,false,'Wing','B',false,0,false,'Builds/Gundams/Pontus.html','Titans',false,models[40]],
     ['Alucard',[1,'Deathscythe Hell (TV Version'],'HG',
-        false,true,false,'Wing','C','2023-08',0.75
+        false,true,false,'Wing','C','2023-08-02',1.65
     ],
     ['Epyon [RG]',[1,'Epyon'],'RG',true,false,false,'Wing','A'],
     ['Golden Ghidorah',[1,'Epyon'],'MG',false,false,false,'Wing','B'],
@@ -4041,13 +4044,13 @@ const projects = [
         ],['Armageddon','Samus: Varia Suit','Malphas'],false,true,'1:144'
     ],
     ['Samus: Dark Suit',[1,'Dagger L'],'HG',
-        false,false,false,'Seed','C','2023-08',0.5,false,'Builds/Gundams/S_DarkSuit.html','Metroid','',models[23]
+        false,false,false,'Seed','C','2023-08-02',0.95,false,'Builds/Gundams/S_DarkSuit.html','Metroid','',models[23]
     ],
     ['Samus: Fusion Suit',[1,'Dagger L'],'HG',
         false,false,false,'Seed','C','2023-08',0.5,false,'Builds/Gundams/S_FusionSuit.html','Metroid','',models[23]
     ],
     ['Samus: Gravity Suit',[1,'Dagger L'],'HG',
-        false,false,false,'Seed','C','2023-08',0.42,false,'Builds/Gundams/S_GravitySuit.html','Metroid','',models[23]
+        false,false,false,'Seed','C','2023-08-02',3.12,false,'Builds/Gundams/S_GravitySuit.html','Metroid','',models[23]
     ],
     ['Samus: Light Suit',[1,'Dagger L'],'HG',
         false,false,false,'Seed','C','2023-08',0.5,false,'Builds/Gundams/S_LightSuit.html','Metroid','',models[23]
@@ -4584,8 +4587,6 @@ const projects = [
         ],false,true,true,false
     ],
     ['Perfect Striker',[0.5,'Sword-Launcher Strike Pack'],'MG',false,true,false,'Seed','B'],
-    ['Dark Samus: Echoes',[1,'Windam'],'HG',false,false,false,'Seed','A'],
-    ['Dark Samus: Corruption',[1,'Windam'],'HG',false,false,false,'Seed','A'],
     ['Oberon',[1,'Windam'],'HG',
         false,false,false,'Seed','E','2022-03-05',20.25,false,'Builds/Gundams/Oberon.html',false,'2022-05-09',models[24],
         [
@@ -4678,7 +4679,7 @@ const projects = [
     ['Dark Gundam [SD]',[1,'Dark Gundam'],'SD',true,false,false,'G','D','2022-08-07',1.75,false,false,false],
     ['Paimon',[1,'Dark Gundam'],'SD',false,false,false,'G','B'],
     ['Charlemagne',[1,'Rose Gundam'],'HG',
-        false,true,false,'G','C','2023-08',0.58
+        false,true,false,'G','C','2023-08-02',1.05
     ],
     ['Le Roi Soleil',[1,'Rose Gundam'],'HG',
         false,false,false,'G','E','2022-08-09',4.17,false,'Builds/Gundams/RoiSoleil.html',false,'2022-12-12',models[56],
@@ -4952,7 +4953,7 @@ const projects = [
         ],['Sealiah'],false,true,'1:144'
     ],
     ['\u00dcbermensch',[1,'Vidar'],'FM',
-        false,false,false,'IBO','C','2023-08-01',4
+        false,false,false,'IBO','C','2023-08-01',9.32
     ],
 
     //Universal Century
