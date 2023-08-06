@@ -842,7 +842,7 @@ const models = [
     [22,1,'00 Gundam',
         'GN-0000 00 Gundam',
         'GN-0000',
-        'Mobile Suit Gundam 00: Season Two',
+        'Mobile Suit Gundam 00',
         false,
         ['GN-001 Gundam Exia'],
         ['GN-0000+GNR-010 00 Raiser','CB-0000G/C Reborns Gundam'],
@@ -1359,7 +1359,7 @@ const models = [
     ],
     [36,1,'AcGuy',
         'MSM-04 AcGuy',
-        'MSM-o4',
+        'MSM-04',
         'Mobile Suit Gundam',
         false,
         ['MSM-04-1 Prototype Acguy'],
@@ -1573,7 +1573,7 @@ const models = [
     ],
     [42,1,'Delta Plus',
         'MSN-001A1 Delta Plus',
-        'SerialNMSN-001A1umber',
+        'MSN-001A1',
         'Mobile Suit Gundam Unicorn',
         false,
         ['MSN-001 Delta Gundam'],
@@ -1930,7 +1930,7 @@ const models = [
         ['https://hosting.photobucket.com/images/i/lesaintdumech/hashmal.jpeg','Mobile Armor Hashmal'],
         false
     ],
-    [51,1,'Strike Noir',
+    [51,1,'Gundam Strike Noir',
         'GAT-X105E Strike Noir Gundam',
         'GAT-X105E',
         'Mobile Suit Gundam SEED C.E. 73: STARGAZER',
@@ -1973,7 +1973,7 @@ const models = [
         true
     ],
     [52,1,'Justice Gundam',
-        ' ZGMF-X09A Justice Gundam',
+        'ZGMF-X09A Justice Gundam',
         'ZGMF-X09A',
         'Mobile Suit Gundam SEED',
         false,    //boolean
@@ -2529,7 +2529,7 @@ const models = [
         ['https://hosting.photobucket.com/images/i/lesaintdumech/compactbase.jpeg','Gundam Maintenance Bay'],
         false
     ],
-    [67,1,'Exia',
+    [67,1,'Gundam Exia',
         'GN-001 Gundam Exia',
         'GN-001',
         'Mobile Suit Gundam 00',
@@ -2570,10 +2570,10 @@ const models = [
         ['https://hosting.photobucket.com/images/i/lesaintdumech/exia_Large.jpeg','Gundam Exia'],
         true
     ],
-    [68,1,'00 Raiser',
+    [68,1,'Gundam 00 Raiser',
         'GN-0000+GNR-010 00 Raiser',
         'GN-0000+GNR-010',
-        'Mobile Suit Gundam 00: Season Two',
+        'Mobile Suit Gundam 00',
         false,
         ['GN-0000 00 Gundam','GNR-010 0 Raiser'],
         ['GNT-0000 00 Qan[T]'],
@@ -2911,6 +2911,92 @@ const models = [
         'Freedom',
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/strikefreedom_Large.jpeg','Strike-Freedom Gundam'],
+        true
+    ],
+    [77,1,'Gundam Nadleeh',
+        'GN-004 Gundam Nadleeh',
+        'GN-004',
+        'Mobile Suit Gundam 00',
+        false,
+        ['GNY-004 Gundam Plutone'],
+        [
+            'GN-004/te-A02 Gundam Nadleeh Akwos',
+            'GN-005 Gundam Virtue',
+            'GN-005/PH Gundam Virtue Physical',
+            'GN-009 Seraphim Gundam'
+        ],
+        'Anno Domini',
+        [2307,'2307 A.D.',2308],
+        'Tieria Erde',
+        false,
+        'Krung Thep',
+        ['Celestial Being'],
+        [18.1,'18.1 Meters'],
+        [54.0,'54.0 Metric Tons'],
+        'E-Carbon',
+        'GN Drive',
+        false,
+        [
+            'GN Beam Saber (x2)',
+            'GN Cannon (x2)',
+            'GN Beam Rifle',
+            'GN Shield'
+        ],
+        [
+            'Veda-Linked Operating System',
+            'Optical Camouflage',
+            'Trial System',
+            'Trans-Am System'
+        ],
+        'Takayuki Yanase',
+        false,
+        false,
+        false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/GundamNadleeh.jpeg','Gundam Nadleeh'],
+        true
+    ],
+    [78,1,'Gundam Virtue',
+        'GN-005 Gundam Virtue',
+        'GN-005',
+        'Mobile Suit Gundam 00',
+        false,
+        [
+            'GNY-004 Gundam Plutone',
+            'GN-004 Gundam Nadleeh'
+        ],
+        [
+            'CBY-007 GN Cannon',
+            'GN-008 Seravee Gundam',
+            'GNZ-003 Gadessa'
+        ],
+        'Anno Domini',
+        [2307,'2307 A.D.',2308],
+        'Tieria Erde',
+        false,
+        'Krung Thep',
+        ['Celestial Being'],
+        [18.4,'18.4 Meters'],
+        [66.7,'66.7 Metric Tons'],
+        'E-Carbon',
+        'GN Drive',
+        [
+            'GN Field'
+        ],
+        [
+            'GN Beam Saber (x2)',
+            'GN Cannon (x2)',
+            'GN Bazooka'
+        ],
+        [
+            'Veda-Linked Operating System',
+            'Optical Camouflage',
+            'Trans-Am System'
+        ],
+        'Takayuki Yanase',
+        false,
+        false,
+        false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/GundamVirtue.jpeg','Gundam Virtue'],
         true
     ]
 ];
@@ -3822,7 +3908,72 @@ const projects = [
             ['Premium Bandai','https://p-bandai.com/us/item/N2570543001001']
         ],false,false,true,'1:144'
     ],
-    ['Virtue/Nadlee [MG]',[3,'Virtue','Nadlee','VirtueStand'],'MG',true,false,false,'00','E','2022-02',20.08,true,'Builds/VirtueNadleeStand.html',false,'2023-01-16'],
+    ['Virtue/Nadleeh [MG]',[3,'Virtue','Nadlee','VirtueStand'],'MG',
+        true,false,false,'00','E','2022-02',20.08,true,'Builds/Gundams/VirtueNadleeStand.html',false,'2023-01-16',models[77],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nadvirt01.jpeg','Nadleeh','img1'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nadvirt02.jpeg','Nadleeh','img2'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nadvirt03.jpeg','Nadleeh','img3'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nadvirt04.jpeg','Nadleeh','img4'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nadvirt05.jpeg','Nadleeh','img5'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nadvirt06.jpeg','Nadleeh','img6'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nadvirt07.jpeg','Nadleeh','img7'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nadvirt08.jpeg','Nadleeh','img8'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nadvirt09.jpeg','Nadleeh','img9'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nadvirt10.jpeg','Nadleeh','img10'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nadvirt11.jpeg','Virtue','img11'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nadvirt12.jpeg','Virtue','img12'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nadvirt13.jpeg','Virtue','img13'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nadvirt14.jpeg','Virtue','img14'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nadvirt15.jpeg','Virtue','img15'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nadvirt16.jpeg','Virtue','img16'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nadvirt17.jpeg','Virtue','img17'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nadvirt18.jpeg','Virtue','img18'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nadvirt19.jpeg','Virtue','img19'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nadvirt20.jpeg','Virtue','img20'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nadvirt21.jpeg','Nadleeh & Virtue','img21'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nadvirt22.jpeg','Nadleeh & Virtue','img22'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nadvirt23.jpeg','Nadleeh & Virtue','img23'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nadvirt24.jpeg','Nadleeh & Virtue','img24'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nadvirt25.jpeg','Nadleeh & Virtue','img25'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nadvirt26.jpeg','Nadleeh & Virtue','img26'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nadvirt27.jpeg','Nadleeh & Nadleeh','img27'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nadvirt28.jpeg','Unveil of Nadleeh','img28'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nadvirt29.jpeg','Unveil of Nadleeh','img29'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nadvirt30.jpeg','Unveil of Nadleeh','img30'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nadvirt31.jpeg','Unveil of Nadleeh','img31'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nadvirt32.jpeg','Unveil of Nadleeh','img32'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nadvirt33.jpeg','Unveil of Nadleeh','img33'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nadvirt34.jpeg','Unveil of Nadleeh','img34'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nadvirt35.jpeg','Unveil of Nadleeh','img35'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nadvirt36.jpeg','Unveil of Nadleeh','img36'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nadvirt37.jpeg','Unveil of Nadleeh','img37'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nadvirt38.jpeg','Nadleeh & Virtue','img38'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nadvirt39.jpeg','Virtue','img39'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nadvirt40.jpeg','Virtue','img40'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nadvirt41.jpeg','Unveil of Nadleeh','img41'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nadvirt42.jpeg','Unveil of Nadleeh','img42'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nadvirt43.jpeg','Unveil of Nadleeh','img43'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nadvirt44.jpeg','Unveil of Nadleeh','img44'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nadvirt45.jpeg','Unveil of Nadleeh','img45'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nadvirt46.jpeg','Unveil of Nadleeh','img46'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nadvirt47.jpeg','Virtue','img47'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nadvirt48.jpeg','Unveil of Nadleeh','img48'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nadvirt49.jpeg','Nadleeh & Virtue','img49'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nadvirt50.jpeg','Nadleeh & Virtue','img50'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nadvirt51.jpeg','Nadleeh & Virtue','img51'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nadvirt53.jpeg','Virtue','img52'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nadvirt52.jpeg','Birth of Nadleeh','img53'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/birthofvenus_Large.jpeg','Birth of Venus','img54']
+        ],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/nadvirt48B.jpeg','Profile Photo: Nadleeh/Virtue'],
+        'I normally do not post non-PB straight builds but this one is of exception. The Gundam Virtue is a unique gundam in that it has a second unit Gundam Nadleeh stored inside it. Or in other words, Gundam Virtue is really Gundam Nadleeh with aditional armor mounted on top. So to represent both I purchased two kits and built both gundams so I could display them side-by-side. Then few months later a third party vendor created a display stand designed to exhibit the Nadleeh with the Virtue Armor coming off, so as to create the transitioning/unveiling of the Nadleeh. Almost like a Botticelli Birth of Venus effect. Which I had to show that off. So for those reasons I am breaking my no straight builds rule, so enjoy.',false,
+        [
+            ['USA Gundam Store','https://www.usagundamstore.com/products/mg-1-100-gundam-virtue'],
+            ['NewType','https://newtype.us/p/Qk1wgMICQffG5UlLTyfD/h/mg-gn-005-gundam-virtue'],
+            ['Virtue Display Stand','https://www.usagundamstore.com/products/mg-virtue-display-stand']
+        ],false,false,true,'1:100','Birth of Nadleeh','Nadleeh / Virtue','Birth of Nadleeh'
+    ],
     ['Zabanya (Final Battle)',[1,'Zabanya'],'HG',
         true,true,false,'00','E','2022-03-09',3,false,'Builds/PBandai/PBZabanyaFinalHG.html',false,'2022-11-07',models[71],
         [
@@ -6460,55 +6611,55 @@ function addInProgress() {
 function addTable() {
     //Post Finished
     for (let i=0;i<pgFinishedArray.length;i++) {
-        insertLine(pgFinishedArray[i],'pgF');
+        insertLink(pgFinishedArray[i],'pgF');
     }
     for (let i=0;i<mgFinishedArray.length;i++) {
-        insertLine(mgFinishedArray[i],'mgF');
+        insertLink(mgFinishedArray[i],'mgF');
     }
     for (let i=0;i<fmFinishedArray.length;i++) {
-        insertLine(fmFinishedArray[i],'fmF');
+        insertLink(fmFinishedArray[i],'fmF');
     }
     for (let i=0;i<rgFinishedArray.length;i++) {
-        insertLine(rgFinishedArray[i],'rgF');
+        insertLink(rgFinishedArray[i],'rgF');
     }
     for (let i=0;i<hgFinishedArray.length;i++) {
-        insertLine(hgFinishedArray[i],'hgF');
+        insertLink(hgFinishedArray[i],'hgF');
     }
     for (i=0;i<mgsdFinishedArray.length;i++) {
-        insertLine(mgsdFinishedArray[i],'mgsdF');
+        insertLink(mgsdFinishedArray[i],'mgsdF');
     }
     for (let i=0;i<sdFinishedArray.length;i++) {
-        insertLine(sdFinishedArray[i],'sdF');
+        insertLink(sdFinishedArray[i],'sdF');
     }
     for (let i=0;i<pbFinishedArray.length;i++) {
-        insertLine(pbFinishedArray[i],'pbF');
+        insertLink(pbFinishedArray[i],'pbF');
     }
     for (let i=0;i<sbFinishedArray.length;i++) {
-        insertLine(sbFinishedArray[i],'sbF');
+        insertLink(sbFinishedArray[i],'sbF');
     }
     for (let i=0;i<carFinishedArray.length;i++) {
-        insertLine(carFinishedArray[i],'carF');
+        insertLink(carFinishedArray[i],'carF');
     }
     for (let i=0;i<digiFinishedArray.length;i++) {
-        insertLine(digiFinishedArray[i],'dgF');
+        insertLink(digiFinishedArray[i],'dgF');
     }
     for (let i=0;i<dispFinishedArray.length;i++) {
-        insertLine(dispFinishedArray[i],'dspF');
+        insertLink(dispFinishedArray[i],'dspF');
     }
     for (let i=0;i<haroFinishedArray.length;i++) {
-        insertLine(haroFinishedArray[i],'haroF');
+        insertLink(haroFinishedArray[i],'haroF');
     }
     for (let i=0;i<pokeFinishedArray.length;i++) {
-        insertLine(pokeFinishedArray[i],'pokeF');
+        insertLink(pokeFinishedArray[i],'pokeF');
     }
     for (let i=0;i<shipFinishedArray.length;i++) {
-        insertLine(shipFinishedArray[i],'shipF');
+        insertLink(shipFinishedArray[i],'shipF');
     }
     for (let i=0;i<transFinishedArray.length;i++) {
-        insertLine(transFinishedArray[i],'transF');
+        insertLink(transFinishedArray[i],'transF');
     }
     for (let i=0;i<zoidFinishedArray.length;i++) {
-        insertLine(zoidFinishedArray[i],'zoidF');
+        insertLink(zoidFinishedArray[i],'zoidF');
     }
 
     //Post Backlog
@@ -6915,55 +7066,55 @@ function generateLists() {
     //Finished by Grade
     for (let i=0;i<postedArray.length;i++) {
         if (postedArray[i][4]) {
-            pbFinishedArray.push(postedArray[i][0]);
+            pbFinishedArray.push(postedArray[i]);
         }
         else if (postedArray[i][2]=='PG') {
-            pgFinishedArray.push(postedArray[i][0]);
+            pgFinishedArray.push(postedArray[i]);
         }
         else if (postedArray[i][3]) {
-            sbFinishedArray.push(postedArray[i][0]);
+            sbFinishedArray.push(postedArray[i]);
         }
         else if (postedArray[i][2]=='MG') {
-            mgFinishedArray.push(postedArray[i][0]);
+            mgFinishedArray.push(postedArray[i]);
         }
         else if (postedArray[i][2]=='FM') {
-            fmFinishedArray.push(postedArray[i][0]);
+            fmFinishedArray.push(postedArray[i]);
         }
         else if (postedArray[i][2]=='RG') {
-            rgFinishedArray.push(postedArray[i][0]);
+            rgFinishedArray.push(postedArray[i]);
         }
         else if (postedArray[i][2]=='HG') {
-            hgFinishedArray.push(postedArray[i][0]);
+            hgFinishedArray.push(postedArray[i]);
         }
         else if (postedArray[i][2]=='MGSD') {
-            mgsdFinishedArray.push(postedArray[i][0]);
+            mgsdFinishedArray.push(postedArray[i]);
         }
         else if (postedArray[i][2]=='SD') {
-            sdFinishedArray.push(postedArray[i][0]);
+            sdFinishedArray.push(postedArray[i]);
         }
         else if (postedArray[i][2]=='Car') {
-            carFinishedArray.push(postedArray[i][0]);
+            carFinishedArray.push(postedArray[i]);
         }
         else if (postedArray[i][2]=='Digimon') {
-            digiFinishedArray.push(postedArray[i][0]);
+            digiFinishedArray.push(postedArray[i]);
         }
         else if (postedArray[i][2]=='Display') {
-            dispFinishedArray.push(postedArray[i][0]);
+            dispFinishedArray.push(postedArray[i]);
         }
         else if (postedArray[i][2]=='Haro') {
-            haroFinishedArray.push(postedArray[i][0]);
+            haroFinishedArray.push(postedArray[i]);
         }
         else if (postedArray[i][2]=='Pokemon') {
-            pokeFinishedArray.push(postedArray[i][0]);
+            pokeFinishedArray.push(postedArray[i]);
         }
         else if (postedArray[i][2]=='Ship') {
-            shipFinishedArray.push(postedArray[i][0]);
+            shipFinishedArray.push(postedArray[i]);
         }
         else if (postedArray[i][2]=='Transformer') {
-            transFinishedArray.push(postedArray[i][0]);
+            transFinishedArray.push(postedArray[i]);
         }
         else if (postedArray[i][2]=='Zoid') {
-            zoidFinishedArray.push(postedArray[i][0]);
+            zoidFinishedArray.push(postedArray[i]);
         }
     }
 
@@ -7083,6 +7234,28 @@ function insertLine (text,ID) {
     const textNode = document.createTextNode(text);
     listNode.appendChild(lineItemNode);
     lineItemNode.appendChild(textNode);
+}
+
+function insertLink(array,ID) {
+    const listNode = document.getElementById(ID);
+    const lineItemNode = document.createElement('li');
+    let text = array[0];
+    if (array.includes('...Pending...')) {
+        text = '...Pending...';
+    }
+    const textNode = document.createTextNode(text);
+    if (array[22]) {
+        const linkNode = document.createElement('a');
+        const URLNode = document.createAttribute('href');
+        URLNode.value = array[11];
+        linkNode.setAttributeNode(URLNode);
+        linkNode.appendChild(textNode);
+        lineItemNode.appendChild(linkNode);
+    }
+    else {
+        lineItemNode.appendChild(textNode);
+    }
+    listNode.appendChild(lineItemNode);
 }
 
 function populateBuildsPage() {
