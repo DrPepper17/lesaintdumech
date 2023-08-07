@@ -3910,7 +3910,7 @@ const projects = [
         ],false,false,true,'1:144'
     ],
     ['Virtue/Nadleeh [MG]',[3,'Virtue','Nadlee','VirtueStand'],'MG',
-        true,false,false,'00','E','2022-02',20.08,true,'Builds/Gundams/VirtueNadleeStand.html',false,'2023-01-16',models[77],
+        true,false,false,'00','E','2022-02',20.08,true,'Builds/Specials/VirtueNadleeStand.html',false,'2023-01-16',models[77],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/nadvirt01.jpeg','Nadleeh','img1'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/nadvirt02.jpeg','Nadleeh','img2'],
@@ -8204,6 +8204,9 @@ function buildGundam() {
             text = 'Straight Build';
         }
         popNode(text,'projectPBandai');
+    }
+    else if (projectArray[3]) {
+        unhide('.projectStraightBuildHD');
     }
 
     if (projectArray[2]) {
