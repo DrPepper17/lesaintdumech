@@ -208,6 +208,19 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/IMG_7005_Large.jpeg']
         ]
+    ],
+    [
+        '2023-08-07',
+        'Premium-Strike!!',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/sfdeac01.jpeg',
+        [
+            [
+                'Second week in a row of posting a Premium-Bandai Straight Build. Am on bit of P-Bandai splurge lately. I have a large back stock of them I have to get through. This week is ',
+                ['Strike-Freedom (Deactive Mode)','Builds/PBandai/PBStrikeFreedomDeactive.html'],
+                '. A simple build but neat in concept. Enjoy!'
+            ]
+        ],
+        ['However stay tuned, got more P-Bandai\'s and Strike-Freedom and Strike madness yet to come.  You will not want to miss out. There will be more content in the weeks to come.']
     ]
 ]
 
@@ -511,11 +524,14 @@ function constructArchiveEntry() {
         div3.setAttributeNode(div3Class);
         div2.appendChild(div3);
 
+        let postNumber = i+1;
+        let titleNumber = postNumber+'. ';
+
         let h3Node = document.createElement('h3');
         let h3Class = document.createAttribute('class');
         h3Class.value = 'card-header';
         h3Node.setAttributeNode(h3Class);
-        let h3Text = document.createTextNode(blogArray[i][1]);
+        let h3Text = document.createTextNode(titleNumber+blogArray[i][1]);
         h3Node.appendChild(h3Text);
         div3.appendChild(h3Node);
 

@@ -3081,6 +3081,7 @@ const projects = [
     ['Dark Samus: Echoes',[1,'Gundvolva'],'HG',false,false,false,'Mercury','B'],
     ['Dark Samus: Corruption',[1,'Gundvolva'],'HG',false,false,false,'Mercury','B'],
     ['Dobiel',[1,'Gundvolva'],'HG',false,false,false,'Mercury','B'],
+    ['EMMI',[1,'Heindree'],'HG',false,false,false,'Mercury','A'],
     ['Adriel',[1,'LFrith'],'HG',false,false,false,'Mercury','B'],
     ['LFrith [HG]',[1,'LFrith'],'HG',true,false,false,'Mercury','D','2023-04-03-15',2.33,false,false,false],
     ['Metatron',[1,'Schwarzette'],'HG',false,false,false,'Mercury','A'],
@@ -3173,7 +3174,7 @@ const projects = [
     ],
     ['Pontus',[1,'Aquarius'],'SD',false,false,false,'Wing','B',false,0,false,'Builds/Gundams/Pontus.html','Titans',false,models[40]],
     ['Alucard',[1,'Deathscythe Hell (TV Version'],'HG',
-        false,true,false,'Wing','C','2023-08-02',1.65
+        false,true,false,'Wing','C','2023-08-02',2.12
     ],
     ['Epyon [RG]',[1,'Epyon'],'RG',true,false,false,'Wing','A'],
     ['Golden Ghidorah',[1,'Epyon'],'MG',false,false,false,'Wing','B'],
@@ -3887,7 +3888,7 @@ const projects = [
         ],false,false,true,'1:144'
     ],
     ['Federation Trooper',[1,'Flag'],'HG',
-        false,false,false,'00','C','2023-08',0.25,false,'Builds/Gundams/S_DarkSuit.html','Metroid'
+        false,false,false,'00','C','2023-08-06',0.25,false,'Builds/Gundams/S_DarkSuit.html','Metroid'
     ],
     ['Harute (Final Battle)',[1,'Harute'],'HG',
         true,true,false,'00','E','2022-03-08',5.75,false,'Builds/PBandai/PBHaruteFinalHG.html',false,'2022-11-21',models[70],
@@ -4239,22 +4240,22 @@ const projects = [
         ],['Armageddon','Samus: Varia Suit','Malphas'],false,true,'1:144'
     ],
     ['Samus: Dark Suit',[1,'Dagger L'],'HG',
-        false,false,false,'Seed','C','2023-08-02',0.95,false,'Builds/Gundams/S_DarkSuit.html','Metroid','',models[23]
+        false,false,false,'Seed','C','2023-08-02',1.4,false,'Builds/Gundams/S_DarkSuit.html','Metroid','',models[23]
     ],
     ['Samus: Fusion Suit',[1,'Dagger L'],'HG',
-        false,false,false,'Seed','C','2023-08',0.5,false,'Builds/Gundams/S_FusionSuit.html','Metroid','',models[23]
+        false,false,false,'Seed','C','2023-08',0.67,false,'Builds/Gundams/S_FusionSuit.html','Metroid','',models[23]
     ],
     ['Samus: Gravity Suit',[1,'Dagger L'],'HG',
-        false,false,false,'Seed','C','2023-08-02',3.12,false,'Builds/Gundams/S_GravitySuit.html','Metroid','',models[23]
+        false,false,false,'Seed','C','2023-08-02',3.84,false,'Builds/Gundams/S_GravitySuit.html','Metroid','',models[23]
     ],
     ['Samus: Light Suit',[1,'Dagger L'],'HG',
         false,false,false,'Seed','C','2023-08',0.5,false,'Builds/Gundams/S_LightSuit.html','Metroid','',models[23]
     ],
     ['Samus: PED Suit',[1,'Dagger L'],'HG',
-        false,false,false,'Seed','C','2023-08',0.42,false,'Builds/Gundams/S_PhazonSuit.html','Metroid','',models[23]
+        false,false,false,'Seed','C','2023-08-06',1.82,false,'Builds/Gundams/S_PhazonSuit.html','Metroid','',models[23]
     ],
     ['Samus: Phazon Suit',[1,'Dagger L'],'HG',
-        false,false,false,'Seed','C','2023-08',0.5,false,'Builds/Gundams/S_PhazonSuit.html','Metroid','',models[23]
+        false,false,false,'Seed','C','2023-08-06',1.09,false,'Builds/Gundams/S_PhazonSuit.html','Metroid','',models[23]
     ],
     ['Samus: Varia Suit',[1,'Dagger L'],'HG',
         false,false,false,'Seed','C','2023-06-13',7.75,false,'Builds/Gundams/S_VariaSuit.html','Metroid','',models[23],
@@ -4752,7 +4753,7 @@ const projects = [
     ['Servitude',[1,'Strike-Freedom'],'MG',false,false,false,'Seed','B'],
     ['Strike-Freedom Full Burst [MG]',[1,'Strike-Freedom'],'MG',true,false,false,'Seed','E','2021-07-07',18.42,false,false,false,'2021-08-17'],
     ['MGEX Strike-Freedom',[1,'Strike-Freedom'],'MG',
-        true,false,true,'Seed','D','2023-03-09',21.42,false,'Builds/Specials/MGEXStrikeFreedom.html','MGEX','2023-08-14',models[76],
+        true,false,true,'Seed','D','2023-03-09',21.42,false,'Builds/Specials/MGEXStrikeFreedom.html',false,'2023-08-14',models[76],
         [
             ['','MGEX Strike-Freedom','img1']
         ],
@@ -4764,15 +4765,24 @@ const projects = [
         ],false,false,false,'1:100',false,false,'MGEX S-Freedom'
     ],
     ['Strike-Freedom (Deactive)',[1,'Strike-Freedom'],'RG',
-        true,true,false,'Seed','D','2023-03-06',4.75,false,'Builds/PBandai/PBStrikeFreedomDeactive.html',false,'2023-08-07',models[76],
+        true,true,false,'Seed','E','2023-03-06',4.75,false,'Builds/PBandai/PBStrikeFreedomDeactive.html',false,'2023-08-07',models[76],
         [
-            ['','Strike-Freedom (Deactive)','img1']
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/sfdeac01.jpeg','Strike-Freedom (Deactive)','img1'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/sfdeac02.jpeg','Strike-Freedom (Deactive)','img2'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/sfdeac03.jpeg','Strike-Freedom (Deactive)','img3'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/sfdeac04.jpeg','Strike-Freedom (Deactive)','img4'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/sfdeac05.jpeg','Strike-Freedom (Deactive)','img5'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/sfdeac06.jpeg','Strike-Freedom (Deactive)','img6'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/sfdeac07.jpeg','Strike-Freedom (Deactive)','img7'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/sfdeac08.jpeg','Strike-Freedom (Deactive)','img8'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/sfdeac09.jpeg','Strike-Freedom (Deactive)','img9'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/sfdeac10.jpeg','Strike-Freedom (Deactive)','img10']
         ],
-        ['','Profile Photo: PB Strike-Freedom (Deactive)'],
-        'Strike-Freedom but in Deactive Mode. Basically its powered down state. In Gundam Seed and Gundam Double O the gundams natural colors is all grey. The natural metal colors of the material they\'re constructed from. The color of the suit actually comes from the electric energy armor that covers and protects the suit in battle. I thought this was a cool concept for a kit that when P-Bandai made the deactive modes available I had to build it. It was a cool concept for a straight build. But I am going to paint them in their deactive state sometime in the future.',false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/sfdeac08.jpeg','Profile Photo: PB Strike-Freedom (Deactive)'],
+        'Strike-Freedom but in Deactive Mode. Basically its powered down state. In Gundam Seed and Gundam Double O the gundams natural colors is all grey. The natural metal colors of the material they\'re constructed from. The color of the suit actually comes from the electric energy armor that covers and protects the suit in battle. I thought this was a cool concept for a kit that when P-Bandai made the deactive modes available I had to build it. It was a cool concept for a straight build. But I am going to paint them in their deactive state sometime in the future. Also, I deliberately chose not to apply the decals for this one. I figured if it\'s powered off, it would make no sense for them to display.',false,
         [
             ['Premium Bandai','https://p-bandai.com/us/item/N2256565001006']
-        ],false,false,false,'1:144',false,'Strike-Freedom (Deactive Mode)','Strike-Freedom'
+        ],false,false,true,'1:144',false,'Strike-Freedom (Deactive Mode)','Strike-Freedom'
     ],
     ['Battra',[1,'Strike Noir'],'MG',false,false,false,'Seed','B'],
     ['Strike Noir [SD]',[1,'Strike Noir'],'SD',true,false,false,'Seed','E','2021-09-06',2.233,false,false,'2023-07-10'],
@@ -4824,6 +4834,7 @@ const projects = [
             ['NewType','https://newtype.us/p/kjwUPIk5smIcsY8oIzVJ/h/hgce-232-gat-04-windam']
         ],['Armageddon'],false,true,'1:144'
     ],
+    ['Samus: Metroid Suit',[1,'Windam'],'HG',false,false,false,'Seed','A'],
     ['Slash Zaku Phantom',[1,'Zaku Phantom, Slash'],'MG',
         true,true,false,'Seed','E','2023-04-05',11.83,false,'Builds/PBandai/PBPhantomZakuMG.html',false,'2023-07-31',models[75],
         [
@@ -4893,7 +4904,7 @@ const projects = [
     ['Dark Gundam [SD]',[1,'Dark Gundam'],'SD',true,false,false,'G','D','2022-08-07',1.75,false,false,false],
     ['Paimon',[1,'Dark Gundam'],'SD',false,false,false,'G','B'],
     ['Charlemagne',[1,'Rose Gundam'],'HG',
-        false,true,false,'G','C','2023-08-02',1.05
+        false,true,false,'G','C','2023-08-02',1.53
     ],
     ['Le Roi Soleil',[1,'Rose Gundam'],'HG',
         false,false,false,'G','E','2022-08-09',4.17,false,'Builds/Gundams/RoiSoleil.html',false,'2022-12-12',models[56],
@@ -5167,7 +5178,7 @@ const projects = [
         ],['Sealiah'],false,true,'1:144'
     ],
     ['\u00dcbermensch',[1,'Vidar'],'FM',
-        false,false,false,'IBO','C','2023-08-01',9.32
+        false,false,false,'IBO','C','2023-08-01',11.37
     ],
 
     //Universal Century
