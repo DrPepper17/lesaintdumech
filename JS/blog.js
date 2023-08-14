@@ -16,7 +16,7 @@ const blogArray = [
     [
         '2023-06-24',
         'Launch Day',
-        'img/blogphotos/jun6launchdayscreenshotMedium.jpeg',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/jun6launchdayscreenshotMedium.jpeg',
         ['So excited. Today\'s the launch day for the site. Still a work in progress though with more development yet to come. But I\'m still working on it and hope to have the full thing up and running as soon as possible.'],
         ['So please stick around and be part of the community as we develop and grow. I hope to have all sorts of cool new features on here very soon. I promise to make it worth all your while.']
     ],
