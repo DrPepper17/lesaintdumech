@@ -5312,9 +5312,7 @@ const projects = [
             ['NewType','https://newtype.us/p/U9GzVy0DVcUQH57GpMAY/h/sdex-standard-15-banshee-norn-destroy-mode']
         ],false,true,true,false
     ],
-    ['King Uranus',[1,'Banshee Norn'],'RG',
-        false,false,false,'UC','B',false,0,false,'Builds/Gundams/uranus.html','Planets',false,models[20],false
-    ],
+    ['King Uranus',[1,'Banshee Norn'],'RG',false,false,false,'UC','B',false,0,false,'Builds/Gundams/Uranus.html','Planets',false,models[20],false],
     ['Metroid [Larva]',[1,'Baund-Doc'],'HG',false,false,false,'UC','A'],
     ['ARRRgent',[1,'Crossbone X-1'],'SD',
         false,false,false,'UC','E','2021-06-09',14.09,false,'Builds/Gundams/Arrrgent.html','Practice SDs','2021-06-25',models[18],
@@ -8052,11 +8050,8 @@ function buildProjectPage(string) {
 
     generateModalFrame();
     for (let i=0;i<projectArray[15].length;i++) {
-        insertPhotoColumn(projectArray[15][i],'photoGallery');
+        insertPhotoColumn(projectArray[15][i],'photoGallery',i+1);
     }
-    for (let i=0;i<projectArray[15].length;i++) {
-        photoModalPopup(i);
-    }  
 
     popNode(projectArray[0]+' \u269C','title');
     popNode(projectArray[0],'jumboNode');
@@ -9094,7 +9089,7 @@ function generateModalFrame() {
         let div1ID = document.createAttribute('id');
         div1ID.value = 'photoModal'+count;
         let div1Class = document.createAttribute('class');
-        div1Class.value = 'modal';
+        div1Class.value = 'modal fade';
         let div1Role = document.createAttribute('role');
         div1Role.value = ('dialog');
         div1Node.setAttributeNode(div1Class);
@@ -9125,10 +9120,9 @@ function generateModalFrame() {
         let h3_1Node = document.createElement('h3');
         let h3_1Class = document.createAttribute('class');
         h3_1Class.value = 'modal-title';
-        let h3_1ID = document.createAttribute('id');
-        h3_1ID.value = 'caption'+count;
         h3_1Node.setAttributeNode(h3_1Class);
-        h3_1Node.setAttributeNode(h3_1ID);
+        let modalTitle = document.createTextNode(projectArray[15][i][1]);
+        h3_1Node.appendChild(modalTitle);
         div4Node.appendChild(h3_1Node);
 
         let button1Node = document.createElement('button');
@@ -9138,14 +9132,17 @@ function generateModalFrame() {
         button1Class.value = 'close';
         let button1DataDismiss = document.createAttribute('data-dismiss');
         button1DataDismiss.value = 'modal';
-        let button1ID = document.createAttribute('id');
-        button1ID.value = 'close'+count;
-        let button1Text = document.createTextNode('X');
+        let closeImg = document.createElement('img');
+        let closeImgSRC = document.createAttribute('src');
+        closeImgSRC.value = '../../img/CloseButton.png';
+        let closeImgWidth = document.createAttribute('width');
+        closeImgWidth.value = '50px';
+        closeImg.setAttributeNode(closeImgSRC);
+        closeImg.setAttributeNode(closeImgWidth);
         button1Node.setAttributeNode(button1Type);
         button1Node.setAttributeNode(button1Class);
         button1Node.setAttributeNode(button1DataDismiss);
-        button1Node.setAttributeNode(button1ID);
-        button1Node.appendChild(button1Text);
+        button1Node.appendChild(closeImg);
         div4Node.appendChild(button1Node);
 
         let div5Node = document.createElement('div');
@@ -9163,10 +9160,10 @@ function generateModalFrame() {
         let img1Node = document.createElement('img');
         let img1Class = document.createAttribute('class');
         img1Class.value = 'img-fluid';
-        let img1ID = document.createAttribute('id');
-        img1ID.value = 'modImg'+count;
+        let img1SRC = document.createAttribute('src');
+        img1SRC.value = projectArray[15][i][0];
         img1Node.setAttributeNode(img1Class);
-        img1Node.setAttributeNode(img1ID);
+        img1Node.setAttributeNode(img1SRC);
         div6Node.appendChild(img1Node);
 
         anchorNode.appendChild(div1Node);
@@ -9198,12 +9195,22 @@ function insertPhoto(array,id,dots,maxWidth) {
     locationNode.appendChild(imgNode);
 }
 
-function insertPhotoColumn(array,id) {
+function insertPhotoColumn(array,id,count) {
     let divColNode = document.createElement('div');
     let classColAttribute = document.createAttribute('class');
     classColAttribute.value = 'col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2 mx-0 mb-3 text-center';
     divColNode.setAttributeNode(classColAttribute);
     
+    let imgAModalHook = document.createElement('a');
+    let dataToggleAttr = document.createAttribute('data-toggle');
+    dataToggleAttr.value = 'modal';
+    let dataTargetAttr = document.createAttribute('data-target');
+    dataTargetAttr.value = '#photoModal'+count;
+    imgAModalHook.setAttributeNode(dataToggleAttr);
+    imgAModalHook.setAttributeNode(dataTargetAttr);
+
+    divColNode.appendChild(imgAModalHook);
+
     let imgNode = document.createElement('img');
     let srcAttribute = document.createAttribute('src');
     srcAttribute.value = array[0];
@@ -9221,28 +9228,10 @@ function insertPhotoColumn(array,id) {
     imgNode.setAttributeNode(idAttribute);
     imgNode.setAttributeNode(styleAttribute);
 
-    divColNode.appendChild(imgNode);
+    imgAModalHook.appendChild(imgNode);
 
     let locationNode = document.getElementById(id);
     locationNode.appendChild(divColNode);
-}
-
-function photoModalPopup(i) {
-    count=i+1;
-
-    let modal = document.getElementById('photoModal'+count);
-    let image = document.getElementById('img'+count);
-    let modalImage = document.getElementById('modImg'+count);
-    let captionText = document.getElementById('caption'+count);
-    image.onclick = function() {
-        modal.style.display = 'block';
-        modalImage.src = this.src;
-        captionText.innerHTML = this.alt;
-    }
-    let span = document.getElementById('close'+count);
-    span.onclick = function() {
-        modal.style.display = 'none';
-    }
 }
 
 function popNode(insert,ID) {
