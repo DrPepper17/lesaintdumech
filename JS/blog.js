@@ -221,6 +221,21 @@ const blogArray = [
             ]
         ],
         ['However stay tuned, got more P-Bandai\'s and Strike-Freedom and Strike madness yet to come.  You will not want to miss out. There will be more content in the weeks to come.']
+    ],
+    [
+        '2023-08-14',
+        'MGEX Strike-Freedom, Pt I',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/mgexsfgoldframe67.jpeg',
+        [
+            [
+                'Not a P-Bandai but another Straight Build. Today\'s post is the ',
+                ['Master Grade Extreme Strike-Freedom','Builds/Specials/MGEXStrikeFreedom.html'],
+                ', Gold Frame.'
+            ]
+        ],
+        ['As I have stated before I normally do not post straight builds. But MGEX is a premier grade using metal infused plastic and highly detailed parts that I think this class deserves special exception.'],
+        ['Also going to be unveiling this week\'s project in two parts. First up is the internal gold frame It is super shiny and has actual gold forged into the plastic. Considering that in the long run it is going to wind up hidden beneath the bulk of the kit\'s plastic to not be ever witnessed nor seen, I had to stop to do a photo shoot of it assembled as just the frame first before proceeding to building the rest of it.'],
+        ['So proud to present to you now, the MGEX Strike-Freedom Straight Build Gold Frame. Be sure to stick around for the full build too later this week.']
     ]
 ]
 

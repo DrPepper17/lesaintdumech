@@ -1202,7 +1202,7 @@ const models = [
         ['https://hosting.photobucket.com/images/i/lesaintdumech/protozero.jpeg','Wing Gundam Proto Zero'],
         true
     ],
-    [32,1,'Wing Gundam Zero',
+    [32,1,'Gundam Wing Zero',
         'XXXG-00W0 Wing Gundam Zero EW',
         'XXXG-00W0',
         'Mobile Suit Gundam Wing Endless Waltz',
@@ -3080,7 +3080,9 @@ const projects = [
     ],
     ['Dark Samus: Echoes',[1,'Gundvolva'],'HG',false,false,false,'Mercury','B'],
     ['Dark Samus: Corruption',[1,'Gundvolva'],'HG',false,false,false,'Mercury','B'],
-    ['Dobiel',[1,'Gundvolva'],'HG',false,false,false,'Mercury','B'],
+    ['Dobiel',[1,'Gundvolva'],'HG',
+        false,false,false,'Mercury','C','2023-08-07',5.6,true
+    ],
     ['EMMI',[1,'Heindree'],'HG',false,false,false,'Mercury','A'],
     ['Adriel',[1,'LFrith'],'HG',false,false,false,'Mercury','B'],
     ['LFrith [HG]',[1,'LFrith'],'HG',true,false,false,'Mercury','D','2023-04-03-15',2.33,false,false,false],
@@ -3174,7 +3176,7 @@ const projects = [
     ],
     ['Pontus',[1,'Aquarius'],'SD',false,false,false,'Wing','B',false,0,false,'Builds/Gundams/Pontus.html','Titans',false,models[40]],
     ['Alucard',[1,'Deathscythe Hell (TV Version'],'HG',
-        false,true,false,'Wing','C','2023-08-02',2.12
+        false,true,false,'Wing','C','2023-08-02',2.82
     ],
     ['Epyon [RG]',[1,'Epyon'],'RG',true,false,false,'Wing','A'],
     ['Golden Ghidorah',[1,'Epyon'],'MG',false,false,false,'Wing','B'],
@@ -3888,7 +3890,7 @@ const projects = [
         ],false,false,true,'1:144'
     ],
     ['Federation Trooper',[1,'Flag'],'HG',
-        false,false,false,'00','C','2023-08-06',0.25,false,'Builds/Gundams/S_DarkSuit.html','Metroid'
+        false,false,false,'00','C','2023-08-06',0.48,false,'Builds/Gundams/S_DarkSuit.html','Metroid'
     ],
     ['Harute (Final Battle)',[1,'Harute'],'HG',
         true,true,false,'00','E','2022-03-08',5.75,false,'Builds/PBandai/PBHaruteFinalHG.html',false,'2022-11-21',models[70],
@@ -4240,22 +4242,22 @@ const projects = [
         ],['Armageddon','Samus: Varia Suit','Malphas'],false,true,'1:144'
     ],
     ['Samus: Dark Suit',[1,'Dagger L'],'HG',
-        false,false,false,'Seed','C','2023-08-02',1.4,false,'Builds/Gundams/S_DarkSuit.html','Metroid','',models[23]
+        false,false,false,'Seed','C','2023-08-02',1.95,false,'Builds/Gundams/S_DarkSuit.html','Metroid','',models[23]
     ],
     ['Samus: Fusion Suit',[1,'Dagger L'],'HG',
-        false,false,false,'Seed','C','2023-08',0.67,false,'Builds/Gundams/S_FusionSuit.html','Metroid','',models[23]
+        false,false,false,'Seed','C','2023-08',1.08,false,'Builds/Gundams/S_FusionSuit.html','Metroid','',models[23]
     ],
     ['Samus: Gravity Suit',[1,'Dagger L'],'HG',
-        false,false,false,'Seed','C','2023-08-02',3.84,false,'Builds/Gundams/S_GravitySuit.html','Metroid','',models[23]
+        false,false,false,'Seed','C','2023-08-02',6.07,false,'Builds/Gundams/S_GravitySuit.html','Metroid','',models[23]
     ],
     ['Samus: Light Suit',[1,'Dagger L'],'HG',
-        false,false,false,'Seed','C','2023-08',0.5,false,'Builds/Gundams/S_LightSuit.html','Metroid','',models[23]
+        false,false,false,'Seed','C','2023-08',0.7,false,'Builds/Gundams/S_LightSuit.html','Metroid','',models[23]
     ],
     ['Samus: PED Suit',[1,'Dagger L'],'HG',
-        false,false,false,'Seed','C','2023-08-06',1.82,false,'Builds/Gundams/S_PhazonSuit.html','Metroid','',models[23]
+        false,false,false,'Seed','C','2023-08-06',3,false,'Builds/Gundams/S_PhazonSuit.html','Metroid','',models[23]
     ],
     ['Samus: Phazon Suit',[1,'Dagger L'],'HG',
-        false,false,false,'Seed','C','2023-08-06',1.09,false,'Builds/Gundams/S_PhazonSuit.html','Metroid','',models[23]
+        false,false,false,'Seed','C','2023-08-06',1.85,false,'Builds/Gundams/S_PhazonSuit.html','Metroid','',models[23]
     ],
     ['Samus: Varia Suit',[1,'Dagger L'],'HG',
         false,false,false,'Seed','C','2023-06-13',7.75,false,'Builds/Gundams/S_VariaSuit.html','Metroid','',models[23],
@@ -4753,16 +4755,92 @@ const projects = [
     ['Servitude',[1,'Strike-Freedom'],'MG',false,false,false,'Seed','B'],
     ['Strike-Freedom Full Burst [MG]',[1,'Strike-Freedom'],'MG',true,false,false,'Seed','E','2021-07-07',18.42,false,false,false,'2021-08-17'],
     ['MGEX Strike-Freedom',[1,'Strike-Freedom'],'MG',
-        true,false,true,'Seed','D','2023-03-09',21.42,false,'Builds/Specials/MGEXStrikeFreedom.html',false,'2023-08-14',models[76],
+        true,false,true,'Seed','E','2023-03-09',21.42,false,'Builds/Specials/MGEXStrikeFreedom.html',false,'2023-08-14',models[76],
         [
-            ['','MGEX Strike-Freedom','img1']
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgexsfgoldframe01.jpeg','MGEX Strike-Freedom: Gold Frame','img1'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgexsfgoldframe02.jpeg','MGEX Strike-Freedom: Gold Frame','img2'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgexsfgoldframe03.jpeg','MGEX Strike-Freedom: Gold Frame','img3'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgexsfgoldframe04.jpeg','MGEX Strike-Freedom: Gold Frame','img4'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgexsfgoldframe05.jpeg','MGEX Strike-Freedom: Gold Frame','img5'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgexsfgoldframe06.jpeg','MGEX Strike-Freedom: Gold Frame','img6'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgexsfgoldframe07.jpeg','MGEX Strike-Freedom: Gold Frame','img7'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgexsfgoldframe08.jpeg','MGEX Strike-Freedom: Gold Frame','img8'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgexsfgoldframe09.jpeg','MGEX Strike-Freedom: Gold Frame','img9'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgexsfgoldframe10.jpeg','MGEX Strike-Freedom: Gold Frame','img10'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgexsfgoldframe11.jpeg','MGEX Strike-Freedom: Gold Frame','img11'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgexsfgoldframe12.jpeg','MGEX Strike-Freedom: Gold Frame','img12'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgexsfgoldframe13.jpeg','MGEX Strike-Freedom: Gold Frame','img13'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgexsfgoldframe14.jpeg','MGEX Strike-Freedom: Gold Frame','img14'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgexsfgoldframe15.jpeg','MGEX Strike-Freedom: Gold Frame','img15'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgexsfgoldframe16.jpeg','MGEX Strike-Freedom: Gold Frame','img16'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgexsfgoldframe17.jpeg','MGEX Strike-Freedom: Gold Frame','img17'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgexsfgoldframe18.jpeg','MGEX Strike-Freedom: Gold Frame','img18'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgexsfgoldframe19.jpeg','MGEX Strike-Freedom: Gold Frame','img19'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgexsfgoldframe20.jpeg','MGEX Strike-Freedom: Gold Frame','img20'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgexsfgoldframe21.jpeg','MGEX Strike-Freedom: Gold Frame','img21'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgexsfgoldframe22.jpeg','MGEX Strike-Freedom: Gold Frame','img22'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgexsfgoldframe23.jpeg','MGEX Strike-Freedom: Gold Frame','img23'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgexsfgoldframe24.jpeg','MGEX Strike-Freedom: Gold Frame','img24'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgexsfgoldframe25.jpeg','MGEX Strike-Freedom: Gold Frame','img25'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgexsfgoldframe26.jpeg','MGEX Strike-Freedom: Gold Frame','img26'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgexsfgoldframe27.jpeg','MGEX Strike-Freedom: Gold Frame','img27'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgexsfgoldframe28.jpeg','MGEX Strike-Freedom: Gold Frame','img28'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgexsfgoldframe29.jpeg','MGEX Strike-Freedom: Gold Frame','img29'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgexsfgoldframe30.jpeg','MGEX Strike-Freedom: Gold Frame','img30'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgexsfgoldframe31.jpeg','MGEX Strike-Freedom: Gold Frame','img31'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgexsfgoldframe32.jpeg','MGEX Strike-Freedom: Gold Frame','img32'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgexsfgoldframe33.jpeg','MGEX Strike-Freedom: Gold Frame','img33'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgexsfgoldframe34.jpeg','MGEX Strike-Freedom: Gold Frame','img34'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgexsfgoldframe35.jpeg','MGEX Strike-Freedom: Gold Frame','img35'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgexsfgoldframe36.jpeg','MGEX Strike-Freedom: Gold Frame','img36'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgexsfgoldframe37.jpeg','MGEX Strike-Freedom: Gold Frame','img37'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgexsfgoldframe38.jpeg','MGEX Strike-Freedom: Gold Frame','img38'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgexsfgoldframe39.jpeg','MGEX Strike-Freedom: Gold Frame','img39'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgexsfgoldframe40.jpeg','MGEX Strike-Freedom: Gold Frame','img40'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgexsfgoldframe41.jpeg','MGEX Strike-Freedom: Gold Frame','img41'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgexsfgoldframe42.jpeg','MGEX Strike-Freedom: Gold Frame','img42'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgexsfgoldframe43.jpeg','MGEX Strike-Freedom: Gold Frame','img43'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgexsfgoldframe44.jpeg','MGEX Strike-Freedom: Gold Frame','img44'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgexsfgoldframe45.jpeg','MGEX Strike-Freedom: Gold Frame','img45'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgexsfgoldframe46.jpeg','MGEX Strike-Freedom: Gold Frame','img46'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgexsfgoldframe47.jpeg','MGEX Strike-Freedom: Gold Frame','img47'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgexsfgoldframe48.jpeg','MGEX Strike-Freedom: Gold Frame','img48'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgexsfgoldframe49.jpeg','MGEX Strike-Freedom: Gold Frame','img49'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgexsfgoldframe50.jpeg','MGEX Strike-Freedom: Gold Frame','img50'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgexsfgoldframe51.jpeg','MGEX Strike-Freedom: Gold Frame','img51'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgexsfgoldframe52.jpeg','MGEX Strike-Freedom: Gold Frame','img52'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgexsfgoldframe53.jpeg','MGEX Strike-Freedom: Gold Frame','img53'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgexsfgoldframe54.jpeg','MGEX Strike-Freedom: Gold Frame','img54'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgexsfgoldframe55.jpeg','MGEX Strike-Freedom: Gold Frame','img55'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgexsfgoldframe56.jpeg','MGEX Strike-Freedom: Gold Frame','img56'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgexsfgoldframe57.jpeg','MGEX Strike-Freedom: Gold Frame','img57'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgexsfgoldframe58.jpeg','MGEX Strike-Freedom: Gold Frame','img58'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgexsfgoldframe59.jpeg','MGEX Strike-Freedom: Gold Frame','img59'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgexsfgoldframe60.jpeg','MGEX Strike-Freedom: Gold Frame','img60'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgexsfgoldframe61.jpeg','MGEX Strike-Freedom: Gold Frame','img61'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgexsfgoldframe62.jpeg','MGEX Strike-Freedom: Gold Frame','img62'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgexsfgoldframe63.jpeg','MGEX Strike-Freedom: Gold Frame','img63'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgexsfgoldframe64.jpeg','MGEX Strike-Freedom: Gold Frame','img64'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgexsfgoldframe65.jpeg','MGEX Strike-Freedom: Gold Frame','img65'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgexsfgoldframe66.jpeg','MGEX Strike-Freedom: Gold Frame','img66'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgexsfgoldframe67.jpeg','MGEX Strike-Freedom: Gold Frame','img67'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgexsfgoldframe68.jpeg','MGEX Strike-Freedom: Gold Frame','img68'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgexsfgoldframe69.jpeg','MGEX Strike-Freedom: Gold Frame','img69'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgexsfgoldframe70.jpeg','MGEX Strike-Freedom: Gold Frame','img70'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgexsfgoldframe71.jpeg','MGEX Strike-Freedom: Gold Frame','img71'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgexsfgoldframe72.jpeg','MGEX Strike-Freedom: Gold Frame','img72'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgexsfgoldframe73.jpeg','MGEX Strike-Freedom: Gold Frame','img73'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgexsfgoldframe74.jpeg','MGEX Strike-Freedom: Gold Frame','img74'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgexsfgoldframe75.jpeg','MGEX Strike-Freedom: Gold Frame','img75'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgexsfgoldframe76.jpeg','MGEX Strike-Freedom: Gold Frame','img76']
+            
         ],
-        ['','Profile Photo: MGEX Strike-Freedom'],
-        'Description',false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/mgexsfgoldframe76.jpeg','Profile Photo: MGEX Strike-Freedom'],
+        'The MGEX, Master Grade Extreme, kits are a special class of builds in the Gundam franchise that are meant as a higher quality and higher level of sophistication than the regular Master Grades of their size which do to cost I had never built one. (However them being so new and only one other MGEX kit ever being built also played a factor too.) But when I saw thei first unveil of the MGEX Strike-Freedom I was shook. It looked so amazing. I loved the level of detail that went into the design, of every single nook and cranny and engraved panel. The visual is far beyond the standard Master-Grade Strike Freedom that I have built (ss straight builds) several times before. On top of that the shininess is just mind blowing. No matter the cost, I had to have this kit. Also due to the cost, and due to the detail, no way was I going to paint this. Even there are those online who have painted this kit, that ruins the quality on this kit. In now way should it ever be painted. This kit as is, is a master piece and I am so glad to be able to share it with you.',false,
         [
             ['USA Gundam Store','https://www.usagundamstore.com/products/mgex-1-100-strike-freedom-gundam'],
             ['NewType','https://newtype.us/p/S4Qqw8vjfebq5dssbLNR/h/mgex-strike-freedom-gundam']
-        ],false,false,false,'1:100',false,false,'MGEX S-Freedom'
+        ],false,false,true,'1:100',false,false,'MGEX S-Freedom'
     ],
     ['Strike-Freedom (Deactive)',[1,'Strike-Freedom'],'RG',
         true,true,false,'Seed','E','2023-03-06',4.75,false,'Builds/PBandai/PBStrikeFreedomDeactive.html',false,'2023-08-07',models[76],
@@ -4834,7 +4912,7 @@ const projects = [
             ['NewType','https://newtype.us/p/kjwUPIk5smIcsY8oIzVJ/h/hgce-232-gat-04-windam']
         ],['Armageddon'],false,true,'1:144'
     ],
-    ['Samus: Metroid Suit',[1,'Windam'],'HG',false,false,false,'Seed','A'],
+    ['Samus: Metroid Suit',[1,'Windam'],'HG',false,false,false,'Seed','B'],
     ['Slash Zaku Phantom',[1,'Zaku Phantom, Slash'],'MG',
         true,true,false,'Seed','E','2023-04-05',11.83,false,'Builds/PBandai/PBPhantomZakuMG.html',false,'2023-07-31',models[75],
         [
@@ -4904,7 +4982,7 @@ const projects = [
     ['Dark Gundam [SD]',[1,'Dark Gundam'],'SD',true,false,false,'G','D','2022-08-07',1.75,false,false,false],
     ['Paimon',[1,'Dark Gundam'],'SD',false,false,false,'G','B'],
     ['Charlemagne',[1,'Rose Gundam'],'HG',
-        false,true,false,'G','C','2023-08-02',1.53
+        false,true,false,'G','C','2023-08-02',1.58
     ],
     ['Le Roi Soleil',[1,'Rose Gundam'],'HG',
         false,false,false,'G','E','2022-08-09',4.17,false,'Builds/Gundams/RoiSoleil.html',false,'2022-12-12',models[56],
@@ -5178,7 +5256,7 @@ const projects = [
         ],['Sealiah'],false,true,'1:144'
     ],
     ['\u00dcbermensch',[1,'Vidar'],'FM',
-        false,false,false,'IBO','C','2023-08-01',11.37
+        false,false,false,'IBO','C','2023-08-01',15.72
     ],
 
     //Universal Century
@@ -5237,6 +5315,7 @@ const projects = [
     ['King Uranus',[1,'Banshee Norn'],'RG',
         false,false,false,'UC','B',false,0,false,'Builds/Gundams/uranus.html','Planets',false,models[20],false
     ],
+    ['Metroid [Larva]',[1,'Baund-Doc'],'HG',false,false,false,'UC','A'],
     ['ARRRgent',[1,'Crossbone X-1'],'SD',
         false,false,false,'UC','E','2021-06-09',14.09,false,'Builds/Gundams/Arrrgent.html','Practice SDs','2021-06-25',models[18],
         [
@@ -5460,6 +5539,7 @@ const projects = [
             ['USA Gundam Store','https://www.usagundamstore.com/products/bandai-hobby-bb-394-unicorn-gundam-phenex-action-figure?variant=1114433924']
         ],['Bella Donna','Sovereign'],true,true,false
     ],
+    ['Ridley',[1,'Qubeley'],'HG',false,false,false,'UC','A'],
     ['LunchTime Solutions',[1,'RX-78-2'],'RG',false,false,false,'UC','B'],
     ['Starman',[1,'Sazabi'],'SD',false,false,false,'UC','D','2021-12-16',5.03,false,'Builds/Starman.html',['']],
     ['Ziggy',[1,'Sazabi'],'SD',false,false,false,'UC','D','2022-03-10',5.75,false,'Builds/Ziggy.html',['']],
@@ -5489,6 +5569,7 @@ const projects = [
     ['Blue Monday',[1,'Sisquiede'],'SD',false,false,false,'UC','D','2022-01-06',6.76,false,'Builds/BlueMonday.html',['']],
     ['Rocket Man',[1,'Xi Gundam'],'SD',false,false,false,'UC','D','2022-01-08',6.5,false,'Builds/RocketMan.html',['']],
     ['MK Ultra',[1,'Zaku II'],'RG',false,false,false,'UC','B'],
+    ['Metroid [Alpha]',[1,'Zeong'],'HG',false,false,false,'UC','A'],
     ['Zeong [RG]',[1,'Zeong'],'RG',true,false,false,'UC','E','2021-08-07',8.25,false,false,false,'2022-03-14'],
     ['Starrider',[1,'Zeta Gundam'],'SD',
         false,false,false,'UC','E','2021-09-08',6.83,false,'Builds/Gundams/Starrider.html','SD Rock','2023-03-08',models[45],
@@ -7586,7 +7667,6 @@ function suggestNextPost () {
 }
 
 //Home Page
-
 function homepageImages() {
     generateLists();
 
@@ -7623,6 +7703,16 @@ function homepageImages() {
     homeIMG1bSRC.value = randomPost[16][0];
     homeIMG1bNode.setAttributeNode(homeIMG1bSRC);
 
+    let aIMG1cNode = document.getElementById('aIMG1c');
+    let aIMG1cHREF = document.createAttribute('href');
+    aIMG1cHREF.value = randomPost[11];
+    aIMG1cNode.setAttributeNode(aIMG1cHREF);
+
+    let homeIMG1cNode = document.getElementById('homeIMG1c');
+    let homeIMG1cSRC = document.createAttribute('src');
+    homeIMG1cSRC.value = randomPost[16][0];
+    homeIMG1cNode.setAttributeNode(homeIMG1cSRC);
+
     //IMG 2
     randomN = Math.floor(Math.random()* tempArray.length);
     randomPost = tempArray[randomN];
@@ -7637,6 +7727,16 @@ function homepageImages() {
     let homeIMG2SRC = document.createAttribute('src');
     homeIMG2SRC.value = randomPost[16][0];
     homeIMG2Node.setAttributeNode(homeIMG2SRC);
+
+    let aIMG2bNode = document.getElementById('aIMG2b');
+    let aIMG2bHREF = document.createAttribute('href');
+    aIMG2bHREF.value = randomPost[11];
+    aIMG2bNode.setAttributeNode(aIMG2bHREF);
+
+    let homeIMG2bNode = document.getElementById('homeIMG2b');
+    let homeIMG2bSRC = document.createAttribute('src');
+    homeIMG2bSRC.value = randomPost[16][0];
+    homeIMG2bNode.setAttributeNode(homeIMG2bSRC);
 
     //IMG 3
     randomN = Math.floor(Math.random()* tempArray.length);
@@ -7653,6 +7753,16 @@ function homepageImages() {
     homeIMG3SRC.value = randomPost[16][0];
     homeIMG3Node.setAttributeNode(homeIMG3SRC);
 
+    let aIMG3bNode = document.getElementById('aIMG3b');
+    let aIMG3bHREF = document.createAttribute('href');
+    aIMG3bHREF.value = randomPost[11];
+    aIMG3bNode.setAttributeNode(aIMG3bHREF);
+
+    let homeIMG3bNode = document.getElementById('homeIMG3b');
+    let homeIMG3bSRC = document.createAttribute('src');
+    homeIMG3bSRC.value = randomPost[16][0];
+    homeIMG3bNode.setAttributeNode(homeIMG3bSRC);
+
     //IMG 4
     randomN = Math.floor(Math.random()* tempArray.length);
     randomPost = tempArray[randomN];
@@ -7668,6 +7778,16 @@ function homepageImages() {
     homeIMG4SRC.value = randomPost[16][0];
     homeIMG4Node.setAttributeNode(homeIMG4SRC);
 
+    let aIMG4bNode = document.getElementById('aIMG4b');
+    let aIMG4bHREF = document.createAttribute('href');
+    aIMG4bHREF.value = randomPost[11];
+    aIMG4bNode.setAttributeNode(aIMG4bHREF);
+
+    let homeIMG4bNode = document.getElementById('homeIMG4b');
+    let homeIMG4bSRC = document.createAttribute('src');
+    homeIMG4bSRC.value = randomPost[16][0];
+    homeIMG4bNode.setAttributeNode(homeIMG4bSRC);
+
     //IMG 5
     randomN = Math.floor(Math.random()* tempArray.length);
     randomPost = tempArray[randomN];
@@ -7682,6 +7802,16 @@ function homepageImages() {
     let homeIMG5SRC = document.createAttribute('src');
     homeIMG5SRC.value = randomPost[16][0];
     homeIMG5Node.setAttributeNode(homeIMG5SRC);
+
+    let aIMG5bNode = document.getElementById('aIMG5b');
+    let aIMG5bHREF = document.createAttribute('href');
+    aIMG5bHREF.value = randomPost[11];
+    aIMG5bNode.setAttributeNode(aIMG5bHREF);
+
+    let homeIMG5bNode = document.getElementById('homeIMG5b');
+    let homeIMG5bSRC = document.createAttribute('src');
+    homeIMG5bSRC.value = randomPost[16][0];
+    homeIMG5bNode.setAttributeNode(homeIMG5bSRC);
 
     //IMG 6
     randomN = Math.floor(Math.random()* tempArray.length);
@@ -7907,81 +8037,6 @@ function homepageImages() {
     let homeIMG20SRC = document.createAttribute('src');
     homeIMG20SRC.value = randomPost[16][0];
     homeIMG20Node.setAttributeNode(homeIMG20SRC);
-
-    //IMG 21
-    randomN = Math.floor(Math.random()* tempArray.length);
-    randomPost = tempArray[randomN];
-    tempArray.splice(randomN,1);
-
-    let aIMG21Node = document.getElementById('aIMG21');
-    let aIMG21HREF = document.createAttribute('href');
-    aIMG21HREF.value = randomPost[11];
-    aIMG21Node.setAttributeNode(aIMG21HREF);
-
-    let homeIMG21Node = document.getElementById('homeIMG21');
-    let homeIMG21SRC = document.createAttribute('src');
-    homeIMG21SRC.value = randomPost[16][0];
-    homeIMG21Node.setAttributeNode(homeIMG21SRC);
-
-    //IMG 22
-    randomN = Math.floor(Math.random()* tempArray.length);
-    randomPost = tempArray[randomN];
-    tempArray.splice(randomN,1);
-
-    let aIMG22Node = document.getElementById('aIMG22');
-    let aIMG22HREF = document.createAttribute('href');
-    aIMG22HREF.value = randomPost[11];
-    aIMG22Node.setAttributeNode(aIMG22HREF);
-
-    let homeIMG22Node = document.getElementById('homeIMG22');
-    let homeIMG22SRC = document.createAttribute('src');
-    homeIMG22SRC.value = randomPost[16][0];
-    homeIMG22Node.setAttributeNode(homeIMG22SRC);
-
-    //IMG 23
-    randomN = Math.floor(Math.random()* tempArray.length);
-    randomPost = tempArray[randomN];
-    tempArray.splice(randomN,1);
-
-    let aIMG23Node = document.getElementById('aIMG23');
-    let aIMG23HREF = document.createAttribute('href');
-    aIMG23HREF.value = randomPost[11];
-    aIMG23Node.setAttributeNode(aIMG23HREF);
-
-    let homeIMG23Node = document.getElementById('homeIMG23');
-    let homeIMG23SRC = document.createAttribute('src');
-    homeIMG23SRC.value = randomPost[16][0];
-    homeIMG23Node.setAttributeNode(homeIMG23SRC);
-
-    //IMG 24
-    randomN = Math.floor(Math.random()* tempArray.length);
-    randomPost = tempArray[randomN];
-    tempArray.splice(randomN,1);
-
-    let aIMG24Node = document.getElementById('aIMG24');
-    let aIMG24HREF = document.createAttribute('href');
-    aIMG24HREF.value = randomPost[11];
-    aIMG24Node.setAttributeNode(aIMG24HREF);
-
-    let homeIMG24Node = document.getElementById('homeIMG24');
-    let homeIMG24SRC = document.createAttribute('src');
-    homeIMG24SRC.value = randomPost[16][0];
-    homeIMG24Node.setAttributeNode(homeIMG24SRC);
-
-    //IMG 25
-    randomN = Math.floor(Math.random()* tempArray.length);
-    randomPost = tempArray[randomN];
-    tempArray.splice(randomN,1);
-
-    let aIMG25Node = document.getElementById('aIMG25');
-    let aIMG25HREF = document.createAttribute('href');
-    aIMG25HREF.value = randomPost[11];
-    aIMG25Node.setAttributeNode(aIMG25HREF);
-
-    let homeIMG25Node = document.getElementById('homeIMG25');
-    let homeIMG25SRC = document.createAttribute('src');
-    homeIMG25SRC.value = randomPost[16][0];
-    homeIMG25Node.setAttributeNode(homeIMG25SRC);
 }
 
 //Project Functions
@@ -8195,6 +8250,10 @@ function buildProjectPage(string) {
 function buildGundam() {
     unhide('.GundamPage');
     insertPhoto(modelArray[26],'gModelPhoto',false,300);
+
+    if (projectArray[5]) {
+        unhide('.projectMGEXHD');
+    }
 
     if (projectArray[4]) {
         unhide('.projectPBandaiHD');
