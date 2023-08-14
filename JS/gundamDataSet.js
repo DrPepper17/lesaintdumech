@@ -4840,7 +4840,7 @@ const projects = [
         [
             ['USA Gundam Store','https://www.usagundamstore.com/products/mgex-1-100-strike-freedom-gundam'],
             ['NewType','https://newtype.us/p/S4Qqw8vjfebq5dssbLNR/h/mgex-strike-freedom-gundam']
-        ],false,false,true,'1:100',false,false,'MGEX S-Freedom'
+        ],false,false,true,'1:100',false,false,'MGEX S.F.'
     ],
     ['Strike-Freedom (Deactive)',[1,'Strike-Freedom'],'RG',
         true,true,false,'Seed','E','2023-03-06',4.75,false,'Builds/PBandai/PBStrikeFreedomDeactive.html',false,'2023-08-07',models[76],
@@ -5391,6 +5391,7 @@ const projects = [
         ],false,true,true,'1:144','DOM Interstellar  Test Type'
     ],
     ['Rhea',[1,'RX-75 Guntank'],'SD',false,false,false,'UC','B'],
+    ['Metroid',[1,'Hygogg'],'HG',false,false,false,'UC','A'],
     ['Theia',[1,'Kshatriya'],'SD',false,false,false,'UC','D','2022-12-08',12.03,false,'Builds/Theia.html',['']],
     ['Nachtigall',[1,'Nightingale'],'SD',false,false,false,'UC','B'],
     ['Mnemosyne',[1,'Neue Ziuel'],'SD',false,false,false,'UC','B'],
