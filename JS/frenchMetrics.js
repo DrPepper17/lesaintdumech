@@ -3,6 +3,7 @@ function convertDateToday() {
 	var answer, calStartDate, date1, date2, dateDiff, inputDate1, inputDate2, totalDays;
 	    	
 	d = new Date();
+	d.setDate(d.getDate()-1);
 	month = d.getMonth() + 1;
 	day = d.getDate();
 	year = d.getFullYear();
