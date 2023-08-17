@@ -236,6 +236,19 @@ const blogArray = [
         ['As I have stated before I normally do not post straight builds. But MGEX is a premier grade using metal infused plastic and highly detailed parts that I think this class deserves special exception.'],
         ['Also going to be unveiling this week\'s project in two parts. First up is the internal gold frame It is super shiny and has actual gold forged into the plastic. Considering that in the long run it is going to wind up hidden beneath the bulk of the kit\'s plastic to not be ever witnessed nor seen, I had to stop to do a photo shoot of it assembled as just the frame first before proceeding to building the rest of it.'],
         ['So proud to present to you now, the MGEX Strike-Freedom Straight Build Gold Frame. Be sure to stick around for the full build too later this week.']
+    ],
+    [
+        '2023-08-17',
+        'MGEX Strike-Freedom, Pt II',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/mgexstrikefreedom110.jpeg',
+        [
+            [
+                'Time for part two of this week\'s post, ',
+                ['Master Grade Extreme Strike-Freedom','Builds/Specials/MGEXStrikeFreedom.html'],
+                ', Full Armor.'
+            ]
+        ],
+        ['Monday I posted just the MGEX Strike-Freedom\'s inner frame underneath all the armor and accessories. But today I am now unveiling the fully assembled MGEX Strike Freedom. And boy is it a masterpiece. Enjoy!']
     ]
 ]
 
