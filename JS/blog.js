@@ -249,6 +249,25 @@ const blogArray = [
             ]
         ],
         ['Monday I posted just the MGEX Strike-Freedom\'s inner frame underneath all the armor and accessories. But today I am now unveiling the fully assembled MGEX Strike Freedom. And boy is it a masterpiece. Enjoy!']
+    ],
+    [
+        '2023-08-21',
+        'Strike Perfect Grade',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/pgstrikem16.jpeg',
+        [
+            [
+                'This week another Straight Build. Don\'t worry, more paint jobs coming up very soon. Got Something special in the works. But as for this week I present to you the ',
+                ['Strike Gundam, Perfect Grade','Builds/PG/PGStrike.html'],
+                '.'
+            ]
+        ],
+        [
+            [
+                'This was my first attempt at a Perfect Grade Gundam kit. However it\'s not my first Perfect Grade overall. I had built the Perfect Grade ',
+                ['Skygrasper','Builds/PG/PGSkygasper.html'],
+                ' back in October and it was amazing. Really showed me what the Perfect Grade line is all about. However of course the Skygrasper is not a Gundam, it\'s an aircraft. So this was my first official Gundam Perfect Grade, and wow it was so amazing. Like even the Skygrasper, as cool as it was, did not even come close So much detail goes into these Perfect Grade kits. They truly are the golden standard of what Gundams are meant to be.'
+            ],
+        ]
     ]
 ]
 

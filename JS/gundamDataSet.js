@@ -3054,7 +3054,8 @@ const projects = [
     ['PB Aerial Permet Six [HG]',[1,'Aerial'],'HG',true,true,false,'Mercury','A'],
     ['Ariel',[1.5,'Aerial','Mirasoul Flight Pack'],'HG',false,false,false,'Mercury','B'],
     ['Cherub',[1,'Aerial'],'SD',false,false,false,'Mercury','D','2023-01-03-10',4.91,false,'Builds/Cherub.html','Angels'],
-    ['Abaddon',[1,'Calibarn'],'HG',false,false,false,'Mercury','A'],
+    ['Zephon',[1,'Aerial Rebuild'],'HG',false,false,false,'Mercury','B'],
+    ['Abaddon',[1,'Calibarn'],'HG',false,false,false,'Mercury','B'],
     ['Azrael',[1,'Dilanza, Guel\'s'],'HG',
         false,false,false,'Mercury','E','2023-01-05',12.14,false,'Builds/Gundams/Azrael.html','Angels','2023-02-27',models[26],
         [
@@ -3081,12 +3082,12 @@ const projects = [
     ['Dark Samus: Echoes',[1,'Gundvolva'],'HG',false,false,false,'Mercury','B'],
     ['Dark Samus: Corruption',[1,'Gundvolva'],'HG',false,false,false,'Mercury','B'],
     ['Dobiel',[1,'Gundvolva'],'HG',
-        false,false,false,'Mercury','C','2023-08-07',7.02,true
+        false,false,false,'Mercury','C','2023-08-07',7.6,true
     ],
     ['EMMI',[1,'Heindree'],'HG',false,false,false,'Mercury','A'],
     ['Adriel',[1,'LFrith'],'HG',false,false,false,'Mercury','B'],
     ['LFrith [HG]',[1,'LFrith'],'HG',true,false,false,'Mercury','D','2023-04-03-15',2.33,false,false,false],
-    ['Metatron',[1,'Schwarzette'],'HG',false,false,false,'Mercury','A'],
+    ['Metatron',[1,'Schwarzette'],'HG',false,false,false,'Mercury','B'],
 
     //Advanced Generation (Age)
     ['Uriel',[1,'Age-FX'],'SD',false,false,false,'Age','B'],
@@ -3176,7 +3177,7 @@ const projects = [
     ],
     ['Pontus',[1,'Aquarius'],'SD',false,false,false,'Wing','B',false,0,false,'Builds/Gundams/Pontus.html','Titans',false,models[40]],
     ['Alucard',[1,'Deathscythe Hell (TV Version'],'HG',
-        false,true,false,'Wing','C','2023-08-02',3.98
+        false,true,false,'Wing','C','2023-08-02',8.5
     ],
     ['Epyon [RG]',[1,'Epyon'],'RG',true,false,false,'Wing','A'],
     ['Golden Ghidorah',[1,'Epyon'],'MG',false,false,false,'Wing','B'],
@@ -3890,7 +3891,7 @@ const projects = [
         ],false,false,true,'1:144'
     ],
     ['Federation Trooper',[1,'Flag'],'HG',
-        false,false,false,'00','C','2023-08-06',0.48,false,'Builds/Gundams/S_DarkSuit.html','Metroid'
+        false,false,false,'00','C','2023-08-06',3.32,false,'Builds/Gundams/S_DarkSuit.html','Metroid'
     ],
     ['Harute (Final Battle)',[1,'Harute'],'HG',
         true,true,false,'00','E','2022-03-08',5.75,false,'Builds/PBandai/PBHaruteFinalHG.html',false,'2022-11-21',models[70],
@@ -4242,22 +4243,22 @@ const projects = [
         ],['Armageddon','Samus: Varia Suit','Malphas'],false,true,'1:144'
     ],
     ['Samus: Dark Suit',[1,'Dagger L'],'HG',
-        false,false,false,'Seed','C','2023-08-02',2.03,false,'Builds/Gundams/S_DarkSuit.html','Metroid','',models[23]
+        false,false,false,'Seed','C','2023-08-02',4.28,false,'Builds/Gundams/S_DarkSuit.html','Metroid','',models[23]
     ],
     ['Samus: Fusion Suit',[1,'Dagger L'],'HG',
-        false,false,false,'Seed','C','2023-08',1.08,false,'Builds/Gundams/S_FusionSuit.html','Metroid','',models[23]
+        false,false,false,'Seed','C','2023-08-19',2.92,false,'Builds/Gundams/S_FusionSuit.html','Metroid','',models[23]
     ],
     ['Samus: Gravity Suit',[1,'Dagger L'],'HG',
         false,false,false,'Seed','C','2023-08-02',7.4,false,'Builds/Gundams/S_GravitySuit.html','Metroid','',models[23]
     ],
     ['Samus: Light Suit',[1,'Dagger L'],'HG',
-        false,false,false,'Seed','C','2023-08-16',1.12,false,'Builds/Gundams/S_LightSuit.html','Metroid','',models[23]
+        false,false,false,'Seed','C','2023-08-16',4.57,false,'Builds/Gundams/S_LightSuit.html','Metroid','',models[23]
     ],
     ['Samus: PED Suit',[1,'Dagger L'],'HG',
-        false,false,false,'Seed','C','2023-08-06',3,false,'Builds/Gundams/S_PhazonSuit.html','Metroid','',models[23]
+        false,false,false,'Seed','C','2023-08-06',4.37,false,'Builds/Gundams/S_PhazonSuit.html','Metroid','',models[23]
     ],
     ['Samus: Phazon Suit',[1,'Dagger L'],'HG',
-        false,false,false,'Seed','C','2023-08-06',3.52,false,'Builds/Gundams/S_PhazonSuit.html','Metroid','',models[23]
+        false,false,false,'Seed','C','2023-08-06',5.02,false,'Builds/Gundams/S_PhazonSuit.html','Metroid','',models[23]
     ],
     ['Samus: Varia Suit',[1,'Dagger L'],'HG',
         false,false,false,'Seed','C','2023-06-13',7.75,false,'Builds/Gundams/S_VariaSuit.html','Metroid','',models[23],
@@ -4697,8 +4698,8 @@ const projects = [
             ['NewType','https://newtype.us/p/a718Du5Yq0A0Vec2LZ24/h/rg-06-fx-550-skygrasper-launcher-sword-pack']
         ],false,false,true,'1:144'
     ],
-    ['Skygrasper [PG]',
-        [1,'Skygrasper'],'PG',true,false,false,'Seed','E','2022-10-06',6,false,'Builds/PG/PGSkygasper.html',false,'2022-12-22',models[30],
+    ['Skygrasper [PG]',[1,'Skygrasper'],'PG',
+        true,false,false,'Seed','E','2022-10-06',6,false,'Builds/PG/PGSkygasper.html',false,'2022-12-22',models[30],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/pgsky01.jpeg','Skygrasper [PG]','img1'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/pgsky02.jpeg','Skygrasper [PG]','img2'],
@@ -4718,14 +4719,45 @@ const projects = [
             ['Video','https://www.instagram.com/reel/CmfxQMHoIyt/?igshid=YzcxN2Q2NzY0OA=='],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pre-order-pg-skygrasper-aile-striker?variant=6442840900'],
             ['NewType','https://newtype.us/p/rO9JwbTqHIJ7hgQYIER6/h/pg-fx-550-skygrasper-aqm-e-x01-aile-striker']
-        ],false,false,true,'1:60',false,'Skygrasper'
+        ],['Strike Gundam [PG]'],false,true,'1:60',false,'Skygrasper Perfect Grade','Skygrasper'
     ],
     ['Skygrasper [RG]',[2,'Skygrasper','Skygrasper','Skygrasper'],'RG',true,false,false,'Seed','E','2022-09-06',10,false,false,false,'2022-12-19'],
     ['Metal Strike',[1,'Strike'],'MG',false,false,false,'Seed','B'],
     ['Metal Strike',[1,'Strike'],'SD',false,false,false,'Seed','B'],
     ['Strike Gundam [PG]',[1,'Strike'],'PG',
-        true,false,false,'Seed','D','2023-05-07',14.58,true,'Builds/PG/PGStrike.html',false,'',models[60]
-    ],
+        true,false,false,'Seed','E','2023-05-07',14.58,true,'Builds/PG/PGStrike.html',false,'2023-08-21',models[60],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pgstrikem01.jpeg','Strike [PG]','img1'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pgstrikem02.jpeg','Strike [PG]','img2'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pgstrikem03.jpeg','Strike [PG]','img3'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pgstrikem04.jpeg','Strike [PG]','img4'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pgstrikem05.jpeg','Strike [PG]','img5'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pgstrikem06.jpeg','Strike [PG]','img6'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pgstrikem07.jpeg','Strike [PG]','img7'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pgstrikem08.jpeg','Strike [PG]','img8'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pgstrikem09.jpeg','Strike [PG]','img9'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pgstrikem10.jpeg','Strike [PG]','img10'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pgstrikem11.jpeg','Strike [PG]','img11'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pgstrikem12.jpeg','Strike [PG]','img12'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pgstrikem13.jpeg','Strike [PG]','img13'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pgstrikem14.jpeg','Strike [PG]','img14'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pgstrikem15.jpeg','Strike [PG]','img15'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pgstrikem16.jpeg','Strike [PG]','img16'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pgstrikem17.jpeg','Strike [PG]','img17'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pgstrikem18.jpeg','Strike [PG]','img18'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pgstrikem19.jpeg','Strike [PG]','img19'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pgstrikem20.jpeg','Strike [PG]','img20'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pgstrikem21.jpeg','Strike [PG]','img21'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pgstrikem22.jpeg','Strike [PG]','img22']
+        ],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/pgstrikem22.jpeg','Profile Photo: Strike Perfect Grade'],
+        'My second Perfect Grade build, but my first Perfect Grade Gundam. My first one was the Gundam Seed Skygrasper which was cool but a bit short. However upon building the Strike Gundam Perfect Grade, it did not fall short of my expectations. So much detail and high quality goes into these perfect grades I am seriously going to start building a whole lot more.',false,
+        [
+            ['Video','https://www.instagram.com/reel/CwOdqOYIB-N/?igshid=MzRlODBiNWFlZA=='],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/strike-gundam-seed-1-60-perfect-grade-model-kit'],
+            ['NewType','https://newtype.us/p/NWCMv4JQaiL5GlCBr8jU/h/pg-gat-x105-strike-gundam']
+        ],['Skygrasper [PG]'],false,true,'1:60',false,'Strike Perfect Grade','Strike'
+    ], 
     ['Perfect Strike [PG]',[1,'Strike, Perfect'],'PG',
         true,false,false,'Seed','A','',0,true,'Builds/PG/PGPerfectStrike.html',false,'',models[61]
     ],
@@ -5093,7 +5125,7 @@ const projects = [
     ['Dark Gundam [SD]',[1,'Dark Gundam'],'SD',true,false,false,'G','D','2022-08-07',1.75,false,false,false],
     ['Paimon',[1,'Dark Gundam'],'SD',false,false,false,'G','B'],
     ['Charlemagne',[1,'Rose Gundam'],'HG',
-        false,true,false,'G','C','2023-08-02',1.92
+        false,true,false,'G','C','2023-08-02',5.75
     ],
     ['Le Roi Soleil',[1,'Rose Gundam'],'HG',
         false,false,false,'G','E','2022-08-09',4.17,false,'Builds/Gundams/RoiSoleil.html',false,'2022-12-12',models[56],
@@ -8397,7 +8429,8 @@ function buildGundam() {
     if (modelArray[2]) {
         unhide('.gShortNameHD');
         popNode(modelArray[2],'gShortName');
-        popNode(modelArray[2],'modelOtherTitle')
+        popNode(modelArray[2],'modelOtherTitle');
+        popNode(':','modelOtherTitle');
     }
 
     if (modelArray[4]) {
