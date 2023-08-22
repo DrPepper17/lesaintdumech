@@ -257,8 +257,8 @@ const blogArray = [
         [
             [
                 'This week another Straight Build. Don\'t worry, more paint jobs coming up very soon. Got Something special in the works. But as for this week I present to you the ',
-                ['Strike Gundam, Perfect Grade','Builds/PG/PGStrike.html'],
-                '.'
+                ['Strike Gundam','Builds/PG/PGStrike.html'],
+                ', Perfect Grade.'
             ]
         ],
         [

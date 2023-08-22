@@ -3079,8 +3079,12 @@ const projects = [
             ['Azrael','https://en.wikipedia.org/wiki/Azrael']
         ],false,false,true,'1:144'
     ],
-    ['Dark Samus: Echoes',[1,'Gundvolva'],'HG',false,false,false,'Mercury','B'],
-    ['Dark Samus: Corruption',[1,'Gundvolva'],'HG',false,false,false,'Mercury','B'],
+    ['Dark Samus: Echoes',[1,'Gundvolva'],'HG',
+        false,false,false,'Mercury','C','',0
+    ],
+    ['Dark Samus: Corruption',[1,'Gundvolva'],'HG',
+        false,false,false,'Mercury','C','',0
+    ],
     ['Dobiel',[1,'Gundvolva'],'HG',
         false,false,false,'Mercury','C','2023-08-07',7.6,true
     ],
@@ -5055,7 +5059,9 @@ const projects = [
             ['NewType','https://newtype.us/p/kjwUPIk5smIcsY8oIzVJ/h/hgce-232-gat-04-windam']
         ],['Armageddon'],false,true,'1:144'
     ],
-    ['Samus: Metroid Suit',[1,'Windam'],'HG',false,false,false,'Seed','B'],
+    ['Samus: Metroid Suit',[1,'Windam'],'HG',
+        false,false,false,'Seed','C','',0
+    ],
     ['Slash Zaku Phantom',[1,'Zaku Phantom, Slash'],'MG',
         true,true,false,'Seed','E','2023-04-05',11.83,false,'Builds/PBandai/PBPhantomZakuMG.html',false,'2023-07-31',models[75],
         [
