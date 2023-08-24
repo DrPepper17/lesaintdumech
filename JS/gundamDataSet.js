@@ -3053,9 +3053,10 @@ const projects = [
     ['Aerial [HG]',[1,'Aerial'],'HG',true,false,false,'Mercury','D','2023-05-30',7.42,false,false,false],
     ['PB Aerial Permet Six [HG]',[1,'Aerial'],'HG',true,true,false,'Mercury','A'],
     ['Ariel',[1.5,'Aerial','Mirasoul Flight Pack'],'HG',false,false,false,'Mercury','B'],
-    ['Cherub',[1,'Aerial'],'SD',false,false,false,'Mercury','D','2023-01-03-10',4.91,false,'Builds/Cherub.html','Angels'],
+    ['Cherub',[1,'Aerial'],'SD',false,false,false,'Mercury','D','2023-01-10',4.91,false,'Builds/Cherub.html','Angels'],
     ['Zephon',[1,'Aerial Rebuild'],'HG',false,false,false,'Mercury','B'],
     ['Abaddon',[1,'Calibarn'],'HG',false,false,false,'Mercury','B'],
+    ['Calibarn [HG]',[1,'Calibarn'],'HG',true,false,false,'Mercury','D','2023-08-22',2.83,false,false,false],
     ['Azrael',[1,'Dilanza, Guel\'s'],'HG',
         false,false,false,'Mercury','E','2023-01-05',12.14,false,'Builds/Gundams/Azrael.html','Angels','2023-02-27',models[26],
         [
@@ -3086,11 +3087,12 @@ const projects = [
         false,false,false,'Mercury','C','',0
     ],
     ['Dobiel',[1,'Gundvolva'],'HG',
-        false,false,false,'Mercury','C','2023-08-07',7.6,true
+        false,false,false,'Mercury','C','2023-08-07',10.77,true
     ],
     ['EMMI',[1,'Heindree'],'HG',false,false,false,'Mercury','A'],
     ['Adriel',[1,'LFrith'],'HG',false,false,false,'Mercury','B'],
-    ['LFrith [HG]',[1,'LFrith'],'HG',true,false,false,'Mercury','D','2023-04-03-15',2.33,false,false,false],
+    ['PB LFrith Jiu',[1,'LFrith Jiu'],'HG',false,true,false,'Mercury','A'],
+    ['LFrith [HG]',[1,'LFrith'],'HG',true,false,false,'Mercury','D','2023-04-15',2.33,false,false,false],
     ['Metatron',[1,'Schwarzette'],'HG',false,false,false,'Mercury','B'],
 
     //Advanced Generation (Age)
@@ -3181,7 +3183,7 @@ const projects = [
     ],
     ['Pontus',[1,'Aquarius'],'SD',false,false,false,'Wing','B',false,0,false,'Builds/Gundams/Pontus.html','Titans',false,models[40]],
     ['Alucard',[1,'Deathscythe Hell (TV Version'],'HG',
-        false,true,false,'Wing','C','2023-08-02',8.5
+        false,true,false,'Wing','C','2023-08-02',8.83
     ],
     ['Epyon [RG]',[1,'Epyon'],'RG',true,false,false,'Wing','A'],
     ['Golden Ghidorah',[1,'Epyon'],'MG',false,false,false,'Wing','B'],
@@ -3895,7 +3897,7 @@ const projects = [
         ],false,false,true,'1:144'
     ],
     ['Federation Trooper',[1,'Flag'],'HG',
-        false,false,false,'00','C','2023-08-06',3.32,false,'Builds/Gundams/S_DarkSuit.html','Metroid'
+        false,false,false,'00','C','2023-08-06',3.82,false,'Builds/Gundams/S_DarkSuit.html','Metroid'
     ],
     ['Harute (Final Battle)',[1,'Harute'],'HG',
         true,true,false,'00','E','2022-03-08',5.75,false,'Builds/PBandai/PBHaruteFinalHG.html',false,'2022-11-21',models[70],
@@ -4247,22 +4249,22 @@ const projects = [
         ],['Armageddon','Samus: Varia Suit','Malphas'],false,true,'1:144'
     ],
     ['Samus: Dark Suit',[1,'Dagger L'],'HG',
-        false,false,false,'Seed','C','2023-08-02',4.28,false,'Builds/Gundams/S_DarkSuit.html','Metroid','',models[23]
+        false,false,false,'Seed','C','2023-08-02',4.38,false,'Builds/Gundams/S_DarkSuit.html','Metroid','',models[23]
     ],
     ['Samus: Fusion Suit',[1,'Dagger L'],'HG',
-        false,false,false,'Seed','C','2023-08-19',2.92,false,'Builds/Gundams/S_FusionSuit.html','Metroid','',models[23]
+        false,false,false,'Seed','C','2023-08-19',2.93,false,'Builds/Gundams/S_FusionSuit.html','Metroid','',models[23]
     ],
     ['Samus: Gravity Suit',[1,'Dagger L'],'HG',
         false,false,false,'Seed','C','2023-08-02',7.4,false,'Builds/Gundams/S_GravitySuit.html','Metroid','',models[23]
     ],
     ['Samus: Light Suit',[1,'Dagger L'],'HG',
-        false,false,false,'Seed','C','2023-08-16',4.57,false,'Builds/Gundams/S_LightSuit.html','Metroid','',models[23]
+        false,false,false,'Seed','C','2023-08-16',5.08,false,'Builds/Gundams/S_LightSuit.html','Metroid','',models[23]
     ],
     ['Samus: PED Suit',[1,'Dagger L'],'HG',
-        false,false,false,'Seed','C','2023-08-06',4.37,false,'Builds/Gundams/S_PhazonSuit.html','Metroid','',models[23]
+        false,false,false,'Seed','C','2023-08-06',4.8,false,'Builds/Gundams/S_PhazonSuit.html','Metroid','',models[23]
     ],
     ['Samus: Phazon Suit',[1,'Dagger L'],'HG',
-        false,false,false,'Seed','C','2023-08-06',5.02,false,'Builds/Gundams/S_PhazonSuit.html','Metroid','',models[23]
+        false,false,false,'Seed','C','2023-08-06',5.03,false,'Builds/Gundams/S_PhazonSuit.html','Metroid','',models[23]
     ],
     ['Samus: Varia Suit',[1,'Dagger L'],'HG',
         false,false,false,'Seed','C','2023-06-13',7.75,false,'Builds/Gundams/S_VariaSuit.html','Metroid','',models[23],
@@ -4732,6 +4734,7 @@ const projects = [
         true,false,false,'Seed','E','2023-05-07',14.58,true,'Builds/PG/PGStrike.html',false,'2023-08-21',models[60],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/pgstrikem01.jpeg','Strike [PG]','img1'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/IMG_7494.jpeg','Strike [PG]','img23'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/pgstrikem02.jpeg','Strike [PG]','img2'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/pgstrikem03.jpeg','Strike [PG]','img3'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/pgstrikem04.jpeg','Strike [PG]','img4'],
@@ -5130,8 +5133,9 @@ const projects = [
     ['Belial',[1,'Dark Gundam'],'HG',false,false,false,'G','B'],
     ['Dark Gundam [SD]',[1,'Dark Gundam'],'SD',true,false,false,'G','D','2022-08-07',1.75,false,false,false],
     ['Paimon',[1,'Dark Gundam'],'SD',false,false,false,'G','B'],
-    ['Charlemagne',[1,'Rose Gundam'],'HG',
-        false,true,false,'G','C','2023-08-02',5.75
+    ['Brady',[1,'PB Gundam Maxter'],'HG',false,true,false,'G','A'],
+    ['Charlemagne',[1,'PB Rose Gundam'],'HG',
+        false,true,false,'G','C','2023-08-02',5.83
     ],
     ['Le Roi Soleil',[1,'Rose Gundam'],'HG',
         false,false,false,'G','E','2022-08-09',4.17,false,'Builds/Gundams/RoiSoleil.html',false,'2022-12-12',models[56],
@@ -5687,6 +5691,7 @@ const projects = [
             ['USA Gundam Store','https://www.usagundamstore.com/products/bandai-hobby-bb-394-unicorn-gundam-phenex-action-figure?variant=1114433924']
         ],['Bella Donna','Sovereign'],true,true,false
     ],
+    ['PB Polypodball',[1,'Polypodball'],'MG',false,true,false,'UC','A'],
     ['Ridley',[1,'Qubeley'],'HG',false,false,false,'UC','A'],
     ['LunchTime Solutions',[1,'RX-78-2'],'RG',false,false,false,'UC','B'],
     ['Starman',[1,'Sazabi'],'SD',false,false,false,'UC','D','2021-12-16',5.03,false,'Builds/Starman.html',['']],
