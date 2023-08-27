@@ -268,6 +268,15 @@ const blogArray = [
                 ' back in October and it was amazing. Really showed me what the Perfect Grade line is all about. However of course the Skygrasper is not a Gundam, it\'s an aircraft. So this was my first official Gundam Perfect Grade, and wow it was so amazing. Like even the Skygrasper, as cool as it was, did not even come close So much detail goes into these Perfect Grade kits. They truly are the golden standard of what Gundams are meant to be.'
             ],
         ]
+    ],
+    [
+        '2023-08-26',
+        'All Bea\'d Out',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/IMG_7618.jpeg',
+        ['Gosh it\'s been such a long day and my sweet little Bea is alll tuckered out. Sleep well little angel. You have a whole lot more of playing to do with the children who love you again tomorrow.'],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/IMG_7620.jpeg']
+        ]
     ]
 ]
 

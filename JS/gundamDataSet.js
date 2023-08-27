@@ -2998,6 +2998,90 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/GundamVirtue.jpeg','Gundam Virtue'],
         true
+    ],
+    [79,7,'Charmander',
+        'Pokemon Charmander 11 Quick Model Kit',
+        '0004',
+        'Fire',
+        '1st Stage',
+        false,
+        [
+            ['Charmeleon','lvl 16']
+        ],
+        'Lizard Pokemon',
+        'Obviously prefers hot places. When it rains, steam is said to spout from the tip of its tail. The flame at the tip of its tail makes a sound as it burns. You can only hear it in quiet places. Even the newborns have flaming tails. Unfamiliar with fire, babies are said to accidentally burn themselves.',
+        '2\'00\"',
+        [18.7,'18.7 lbs'],
+        'I',
+        'Pokemon Red and Blue',
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/Charmander.jpg','Charmander']
+    ],
+    [80,7,'Charizard',
+        'Pokemon Charizard & Dragonite Model Kit Set',
+        '0006',
+        'Dragon / Flying',
+        '3rd Stage',
+        ['Charmeleon','lvl 36'],
+        [
+            ['Mega Charizard X','Charizardite X'],
+            ['Mega Charizard Y','Charizardite Y'],
+            ['Gigantamax Charizard','Gigantamax Factor']
+        ],
+        'Flame Pokemon',
+        'Spits fire that is hot enough to melt boulders. Known to cause forest fires unintentionally. Its fiery breath reaches incredible temperatures. It can quickly melt glaciers weighing 10,000 tons. When expelling a blast of super hot fire, the red flame at the tip of its tail burns more intensely.',
+        '5\'07\"',
+        [199.5,'199.5 lbs'],
+        'I',
+        'Pokemon Red and Blue',
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/(edited)_charizard.png','Charizard']
+    ],
+    [81,7,'Dragonite',
+        'Pokemon Charizard & Dragonite Model Kit Set',
+        '0149',
+        'Dragon / Flying',
+        '3rd Stage',
+        ['Dragonair','lvl 55'],
+        false,
+        'Dragon Pokemon',
+        'An extremely rarely seen marine Pokémon. Its intelligence is said to match that of humans. It is said that this Pokémon lives somewhere in the sea and is said to be capable of flying around the globe in about 16 hours.',
+        '7\'03\"',
+        [463.0,'463.0 lbs'],
+        'I',
+        'Pokemon Red and Blue',
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/(edited)_dragonite.png','Dragonite']
     ]
 ];
 
@@ -3528,6 +3612,8 @@ const projects = [
         false,false,false,'Wing','E','2021-07-06',60.48,true,'Builds/Gundams/WildWing.html',false,'2022-02-14',models[54],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/wildwing01.jpeg','Gundam Wild Wing','img1'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/bww2.jpg','B-Dubs Building'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/bww1.jpg','B-Dubs Building'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/wildwing02.jpeg','Gundam Wild Wing','img2'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/wildwing03.jpeg','Gundam Wild Wing','img3'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/wildwing04.jpeg','Gundam Wild Wing','img4'],
@@ -6135,9 +6221,25 @@ const projects = [
     
     //Pokemon
     ['Obelix',[1,'Bulbasaur'],'Pokemon',false,false,false,'','B'],
-    ['Asterix',[1,'Charmander'],'Pokemon',false,false,false,'','D','2023-03-12',3.85,false,'Builds/asterix.html','Gaulois'],
-    ['Vercingetorix',[1,'Charizard'],'Pokemon',false,false,false,'','D','2023-03-10',5.99,false,'Builds/vercingetorix.html','Gaulois'],
-    ['Boudica',[1,'Dragonite'],'Pokemon',false,false,false,'','D','2023-03-11',3.47,false,'Builds/boudica.html','Gaulois'],
+    ['Asterix',[1,'Charmander'],'Pokemon',
+        false,false,false,'','E','2023-03-12',3.85,false,'Builds/Pokemon/Asterix.html',false,'2023-08-28',models[79],
+        [
+            ['','']
+        ],
+        ['','Profile Photo: Asterix'],
+        '',false,
+        [
+            ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Charmander_(Pokémon)'],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-charmander-11-quick-model-kit?_pos=1&_sid=5226c6cbe&_ss=r'],
+            ['NewType','https://newtype.us/p/kjQjxZgkxDWE1c9nYf1Z/h/pokemon-model-kit-quick-11-charmander']
+        ],false,false,false,false
+    ],
+    ['Vercingetorix',[1,'Charizard'],'Pokemon',
+        false,false,false,'','D','2023-03-10',5.99,false,'Builds/Pokemon/Vercingetorix.html',false,'2023-09-04',models[80]
+    ],
+    ['Boudica',[1,'Dragonite'],'Pokemon',
+        false,false,false,'','D','2023-03-11',3.47,false,'Builds/Pokemon/Boudica.html',false,'2023-09-1',models[81]
+    ],
     ['Granfrog',[1,'Greninja'],'Pokemon',
         false,false,false,false,'E','2021-11-11',5.68,false,'Builds/Pokemon/Granfrog.html',false,'2022-08-17',models[11],
         [
@@ -7435,6 +7537,9 @@ function gradeEdifier(array) {
     }
     else if (array[2] == 'MG') {
         grade = 'Master Grade';
+    }
+    else if (array[2] == 'MGSD') {
+        grade = 'Master Grade Super Deformed';
     }
     else if (array[2] == 'FM') {
         grade = 'Full Mechanics';
