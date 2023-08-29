@@ -277,6 +277,19 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/IMG_7620.jpeg']
         ]
+    ],
+    [
+        '2023-08-28',
+        'I\'m Burnin, I\'m Burnin, I\'m Burnin for You!!',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/asterix16.jpeg',
+        [
+            [
+                'That time of the calendar again when it\'s time for another weekly unveil. This week I present to you a fiery Charmander named ',
+                ['Asterix','Builds/Pokemon/Asterix.html'],
+                '.'
+            ]
+        ],
+        ['My second time painting a Pokemon. And it really came out cute. Just that adorable little smile with those, shiny metallic scales, tiny little paws and fiery eyes beaming up at you, he instantly steals your heart with his flaming soul. Really makes me wish he were sorta real.']
     ]
 ]
 
