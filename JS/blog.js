@@ -290,6 +290,27 @@ const blogArray = [
             ]
         ],
         ['My second time painting a Pokemon. And it really came out cute. Just that adorable little smile with those, shiny metallic scales, tiny little paws and fiery eyes beaming up at you, he instantly steals your heart with his flaming soul. Really makes me wish he were sorta real.']
+    ],
+    [
+        '2023-09-04',
+        'Enter The Dragon!!',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/vercezard24.jpeg',
+        ['Happy Labor Day!! Today may be a fake holiday but that does not stop me from making another model unveil.'],
+        [
+            [
+                'This week, and as for the first post of the month, I bring to you ',
+                ['Vercingetorix','Builds/Pokemon/Vercingetorix.html'],
+                '.'
+            ]
+        ],
+        [
+            [
+                'Doing another Pokemon this week. Last week I gave you the Charmander, ',
+                ['Asterix','Builds/Pokemon/Asterix.html'],
+                '. But this week I bring you his final evolved form, a fiery Ferrari Red Charizard, Vercingetorix.'
+            ]
+        ],
+        ['Both is he fierce and is he ferocious. This mighty fire dragon rules the skies and takes no prisoners, he is lord of all. Enjoy.']
     ]
 ]
 

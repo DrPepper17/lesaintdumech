@@ -3165,13 +3165,13 @@ const projects = [
         ],false,false,true,'1:144'
     ],
     ['Dark Samus: Echoes',[1,'Gundvolva'],'HG',
-        false,false,false,'Mercury','C','',0
+        false,false,false,'Mercury','C','',0.25
     ],
     ['Dark Samus: Corruption',[1,'Gundvolva'],'HG',
         false,false,false,'Mercury','C','',0
     ],
     ['Dobiel',[1,'Gundvolva'],'HG',
-        false,false,false,'Mercury','C','2023-08-07',10.93,true
+        false,false,false,'Mercury','C','2023-08-07',11.28,true
     ],
     ['EMMI',[1,'Heindree'],'HG',false,false,false,'Mercury','A'],
     ['Adriel',[1,'LFrith'],'HG',false,false,false,'Mercury','B'],
@@ -3184,7 +3184,7 @@ const projects = [
     ['Gamma Draconis',[1,'Danazine'],'HG',false,false,false,'Age','B'],
 
     //After Colony (Wing)
-    ['Leo Army',[6,'Leo'],'LEO',false,false,false,'Wing','C','2021-10-03',37.42,false,'Builds/LeoArmy.html',false],
+    ['Leo Army',[6,'Leo'],'LEO',false,false,false,'Wing','C','2021-10-03',39.06,false,'Builds/LeoArmy.html',false],
     ['South Park',[6,'Tallgeese','Epyon','Heavy Arms','Shenlong','Deathscythe','Sandrock'],'SD',
         false,false,false,'Wing','E','2021-06-05',54.42,true,'Builds/uniqueTemplates/SouthPark.html','Practice SDs','2021-06-21',models[6],
         [
@@ -3267,7 +3267,7 @@ const projects = [
     ],
     ['Pontus',[1,'Aquarius'],'SD',false,false,false,'Wing','B',false,0,false,'Builds/Gundams/Pontus.html','Titans',false,models[40]],
     ['Alucard',[1,'Deathscythe Hell (TV Version'],'HG',
-        false,true,false,'Wing','C','2023-08-02',9.58
+        false,true,false,'Wing','C','2023-08-02',12.96
     ],
     ['Epyon [RG]',[1,'Epyon'],'RG',true,false,false,'Wing','A'],
     ['Golden Ghidorah',[1,'Epyon'],'MG',false,false,false,'Wing','B'],
@@ -3983,7 +3983,7 @@ const projects = [
         ],false,false,true,'1:144'
     ],
     ['Federation Trooper',[1,'Flag'],'HG',
-        false,false,false,'00','C','2023-08-06',4.9,false,'Builds/Gundams/S_DarkSuit.html','Metroid'
+        false,false,false,'00','C','2023-08-06',6.52,false,'Builds/Gundams/S_DarkSuit.html','Metroid'
     ],
     ['Harute (Final Battle)',[1,'Harute'],'HG',
         true,true,false,'00','E','2022-03-08',5.75,false,'Builds/PBandai/PBHaruteFinalHG.html',false,'2022-11-21',models[70],
@@ -4335,22 +4335,22 @@ const projects = [
         ],['Armageddon','Samus: Varia Suit','Malphas'],false,true,'1:144'
     ],
     ['Samus: Dark Suit',[1,'Dagger L'],'HG',
-        false,false,false,'Seed','C','2023-08-02',4.8,false,'Builds/Gundams/S_DarkSuit.html','Metroid','',models[23]
+        false,false,false,'Seed','C','2023-08-02',5.55,false,'Builds/Gundams/S_DarkSuit.html','Metroid','',models[23]
     ],
     ['Samus: Fusion Suit',[1,'Dagger L'],'HG',
-        false,false,false,'Seed','C','2023-08-19',3.18,false,'Builds/Gundams/S_FusionSuit.html','Metroid','',models[23]
+        false,false,false,'Seed','C','2023-08-19',5.03,false,'Builds/Gundams/S_FusionSuit.html','Metroid','',models[23]
     ],
     ['Samus: Gravity Suit',[1,'Dagger L'],'HG',
-        false,false,false,'Seed','C','2023-08-02',7.4,false,'Builds/Gundams/S_GravitySuit.html','Metroid','',models[23]
+        false,false,false,'Seed','C','2023-08-02',7.44,false,'Builds/Gundams/S_GravitySuit.html','Metroid','',models[23]
     ],
     ['Samus: Light Suit',[1,'Dagger L'],'HG',
-        false,false,false,'Seed','C','2023-08-16',5.42,false,'Builds/Gundams/S_LightSuit.html','Metroid','',models[23]
+        false,false,false,'Seed','C','2023-08-16',6.46,false,'Builds/Gundams/S_LightSuit.html','Metroid','',models[23]
     ],
     ['Samus: PED Suit',[1,'Dagger L'],'HG',
-        false,false,false,'Seed','C','2023-08-06',4.97,false,'Builds/Gundams/S_PhazonSuit.html','Metroid','',models[23]
+        false,false,false,'Seed','C','2023-08-06',5.9,false,'Builds/Gundams/S_PhazonSuit.html','Metroid','',models[23]
     ],
     ['Samus: Phazon Suit',[1,'Dagger L'],'HG',
-        false,false,false,'Seed','C','2023-08-06',5.03,false,'Builds/Gundams/S_PhazonSuit.html','Metroid','',models[23]
+        false,false,false,'Seed','C','2023-08-06',5.66,false,'Builds/Gundams/S_PhazonSuit.html','Metroid','',models[23]
     ],
     ['Samus: Varia Suit',[1,'Dagger L'],'HG',
         false,false,false,'Seed','C','2023-06-13',7.75,false,'Builds/Gundams/S_VariaSuit.html','Metroid','',models[23],
@@ -5221,7 +5221,7 @@ const projects = [
     ['Paimon',[1,'Dark Gundam'],'SD',false,false,false,'G','B'],
     ['Brady',[1,'PB Gundam Maxter'],'HG',false,true,false,'G','A'],
     ['Charlemagne',[1,'PB Rose Gundam'],'HG',
-        false,true,false,'G','C','2023-08-02',6.25
+        false,true,false,'G','C','2023-08-02',10.08
     ],
     ['Le Roi Soleil',[1,'Rose Gundam'],'HG',
         false,false,false,'G','E','2022-08-09',4.17,false,'Builds/Gundams/RoiSoleil.html',false,'2022-12-12',models[56],
@@ -6249,32 +6249,49 @@ const projects = [
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-charmander-11-quick-model-kit?_pos=1&_sid=5226c6cbe&_ss=r'],
             ['NewType','https://newtype.us/p/kjQjxZgkxDWE1c9nYf1Z/h/pokemon-model-kit-quick-11-charmander'],
             ['Turbo Dork: Redrum','https://turbodork.com/products/redrum'],
+            ['Video','https://www.instagram.com/reel/CwhNGT7IWme/?igshid=MzRlODBiNWFlZA=='],
             ['Asterix: Profile','https://asterix.fandom.com/wiki/Asterix_(Character)'],
             ['Asterix: Wiki','https://en.wikipedia.org/wiki/Asterix'],
             ['Asterix: Official Site','https://asterix.com/en/']
         ],['Obelix','Vercingetorix'],false,true,false
     ],
     ['Vercingetorix',[1,'Charizard'],'Pokemon',
-        false,false,false,'','D','2023-03-10',5.99,false,'Builds/Pokemon/Vercingetorix.html',false,'2023-09-04',models[80],
+        false,false,false,'','E','2023-03-10',5.99,false,'Builds/Pokemon/Vercingetorix.html',false,'2023-09-04',models[80],
         [
-            ['','Vercingetorix'],
-            ['','Vercingetorix'],
-            ['','Vercingetorix'],
-            ['','Vercingetorix'],
-            ['','Vercingetorix'],
-            ['','Vercingetorix'],
-            ['','Vercingetorix'],
-            ['','Vercingetorix'],
-            ['','Vercingetorix'],
-            ['','Vercingetorix']
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/vercezard01.jpeg','Vercingetorix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/vercezard02.jpeg','Vercingetorix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/vercezard03.jpeg','Vercingetorix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/vercezard04.jpeg','Vercingetorix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/vercezard05.jpeg','Vercingetorix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/vercezard06.jpeg','Vercingetorix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/vercezard07.jpeg','Vercingetorix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/vercezard08.jpeg','Vercingetorix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/vercezard09.jpeg','Vercingetorix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/vercezard10.jpeg','Vercingetorix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/vercezard11.jpeg','Vercingetorix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/vercezard12.jpeg','Vercingetorix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/vercezard13.jpeg','Vercingetorix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/vercezard14.jpeg','Vercingetorix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/vercezard15.jpeg','Vercingetorix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/vercezard16.jpeg','Vercingetorix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/vercezard17.jpeg','Vercingetorix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/vercezard18.jpeg','Vercingetorix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/vercezard19.jpeg','Vercingetorix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/vercezard20.jpeg','Vercingetorix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/vercezard21.jpeg','Vercingetorix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/vercezard22.jpeg','Vercingetorix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/vercezard23.jpeg','Vercingetorix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/vercezard24.jpeg','Vercingetorix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/vercezard25.jpeg','Vercingetorix']
         ],
-        ['','Profile Photo: Vercingetorix'],
-        '',false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/vercezard09.jpeg','Profile Photo: Vercingetorix'],
+        'My favorite Pokemon has always been Charizard. What can I say I\'ve always been a lover of dragons. So for my first Pokemon and first starter, Charizard could not have been more adequqte and fitting. Plus with the Vallejo Ferari Red instead of his traditional orange, this one only came out looking even more cooler. ',false,
         [
             ['Bulbapedia','https://www.google.com/search?client=safari&rls=en&q=charizard&ie=UTF-8&oe=UTF-8'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-plamo-charizard-dragonite'],
-            ['NewType','https://newtype.us/p/S9nZ4KxUmzbDoDM0HfDd/h/pokemon-charizard-dragonite']
-        ],['Asterix','Boudica','Charizard','Charizard X'],false,false,false
+            ['NewType','https://newtype.us/p/S9nZ4KxUmzbDoDM0HfDd/h/pokemon-charizard-dragonite'],
+            ['Video','https://www.instagram.com/reel/CwyAiLGOMR_/?igshid=MzRlODBiNWFlZA==']
+        ],['Asterix','Boudica','Charizard','Charizard X'],false,true,false
     ],
     ['Boudica',[1,'Dragonite'],'Pokemon',
         false,false,false,'','D','2023-03-11',3.47,false,'Builds/Pokemon/Boudica.html',false,'2023-09-11',models[81],
