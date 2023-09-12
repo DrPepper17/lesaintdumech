@@ -3171,7 +3171,7 @@ const projects = [
         false,false,false,'Mercury','C','',0
     ],
     ['Dobiel',[1,'Gundvolva'],'HG',
-        false,false,false,'Mercury','C','2023-08-07',11.28,true
+        false,false,false,'Mercury','C','2023-08-07',11.53,true
     ],
     ['EMMI',[1,'Heindree'],'HG',false,false,false,'Mercury','A'],
     ['Adriel',[1,'LFrith'],'HG',false,false,false,'Mercury','B'],
@@ -3267,7 +3267,7 @@ const projects = [
     ],
     ['Pontus',[1,'Aquarius'],'SD',false,false,false,'Wing','B',false,0,false,'Builds/Gundams/Pontus.html','Titans',false,models[40]],
     ['Alucard',[1,'Deathscythe Hell (TV Version'],'HG',
-        false,true,false,'Wing','C','2023-08-02',12.96
+        false,true,false,'Wing','C','2023-08-02',15.04
     ],
     ['Epyon [RG]',[1,'Epyon'],'RG',true,false,false,'Wing','A'],
     ['Golden Ghidorah',[1,'Epyon'],'MG',false,false,false,'Wing','B'],
@@ -4335,22 +4335,22 @@ const projects = [
         ],['Armageddon','Samus: Varia Suit','Malphas'],false,true,'1:144'
     ],
     ['Samus: Dark Suit',[1,'Dagger L'],'HG',
-        false,false,false,'Seed','C','2023-08-02',5.55,false,'Builds/Gundams/S_DarkSuit.html','Metroid','',models[23]
+        false,false,false,'Seed','C','2023-08-02',7.36,false,'Builds/Gundams/S_DarkSuit.html','Metroid','',models[23]
     ],
     ['Samus: Fusion Suit',[1,'Dagger L'],'HG',
-        false,false,false,'Seed','C','2023-08-19',5.03,false,'Builds/Gundams/S_FusionSuit.html','Metroid','',models[23]
+        false,false,false,'Seed','C','2023-08-19',6.89,false,'Builds/Gundams/S_FusionSuit.html','Metroid','',models[23]
     ],
     ['Samus: Gravity Suit',[1,'Dagger L'],'HG',
-        false,false,false,'Seed','C','2023-08-02',7.44,false,'Builds/Gundams/S_GravitySuit.html','Metroid','',models[23]
+        false,false,false,'Seed','C','2023-08-02',7.58,false,'Builds/Gundams/S_GravitySuit.html','Metroid','',models[23]
     ],
     ['Samus: Light Suit',[1,'Dagger L'],'HG',
-        false,false,false,'Seed','C','2023-08-16',6.46,false,'Builds/Gundams/S_LightSuit.html','Metroid','',models[23]
+        false,false,false,'Seed','C','2023-08-16',8.68,false,'Builds/Gundams/S_LightSuit.html','Metroid','',models[23]
     ],
     ['Samus: PED Suit',[1,'Dagger L'],'HG',
-        false,false,false,'Seed','C','2023-08-06',5.9,false,'Builds/Gundams/S_PhazonSuit.html','Metroid','',models[23]
+        false,false,false,'Seed','C','2023-08-06',7.57,false,'Builds/Gundams/S_PhazonSuit.html','Metroid','',models[23]
     ],
     ['Samus: Phazon Suit',[1,'Dagger L'],'HG',
-        false,false,false,'Seed','C','2023-08-06',5.66,false,'Builds/Gundams/S_PhazonSuit.html','Metroid','',models[23]
+        false,false,false,'Seed','C','2023-08-06',7.52,false,'Builds/Gundams/S_PhazonSuit.html','Metroid','',models[23]
     ],
     ['Samus: Varia Suit',[1,'Dagger L'],'HG',
         false,false,false,'Seed','C','2023-06-13',7.75,false,'Builds/Gundams/S_VariaSuit.html','Metroid','',models[23],
@@ -5221,7 +5221,7 @@ const projects = [
     ['Paimon',[1,'Dark Gundam'],'SD',false,false,false,'G','B'],
     ['Brady',[1,'PB Gundam Maxter'],'HG',false,true,false,'G','A'],
     ['Charlemagne',[1,'PB Rose Gundam'],'HG',
-        false,true,false,'G','C','2023-08-02',10.08
+        false,true,false,'G','C','2023-08-02',14.41
     ],
     ['Le Roi Soleil',[1,'Rose Gundam'],'HG',
         false,false,false,'G','E','2022-08-09',4.17,false,'Builds/Gundams/RoiSoleil.html',false,'2022-12-12',models[56],
@@ -6294,26 +6294,32 @@ const projects = [
         ],['Asterix','Boudica','Charizard','Charizard X'],false,true,false
     ],
     ['Boudica',[1,'Dragonite'],'Pokemon',
-        false,false,false,'','D','2023-03-11',3.47,false,'Builds/Pokemon/Boudica.html',false,'2023-09-11',models[81],
+        false,false,false,'','E','2023-03-11',3.47,false,'Builds/Pokemon/Boudica.html',false,'2023-09-11',models[81],
         [
-            ['','Boudica'],
-            ['','Boudica'],
-            ['','Boudica'],
-            ['','Boudica'],
-            ['','Boudica'],
-            ['','Boudica'],
-            ['','Boudica'],
-            ['','Boudica'],
-            ['','Boudica'],
-            ['','Boudica']
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/boudica01.jpeg','Boudica'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/boudica02.jpeg','Boudica'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/boudica03.jpeg','Boudica'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/boudica04.jpeg','Boudica'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/boudica05.jpeg','Boudica'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/boudica06.jpeg','Boudica'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/boudica07.jpeg','Boudica'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/boudica08.jpeg','Boudica'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/boudica09.jpeg','Boudica'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/boudica10.jpeg','Boudica'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/boudica11.jpeg','Boudica'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/boudica12.jpeg','Boudica'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/boudica13.jpeg','Boudica'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/boudica14.jpeg','Boudica']
+
         ],
-        ['','Profile Photo: Boudica'],
-        '',false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/boudica08.jpeg','Profile Photo: Boudica'],
+        'Not much inspiration for my Dragonite here. Pretty much just a traditional Dragonite painted in Vallejo Old Gold.',false,
         [
             ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Dragonite_(Pokémon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-plamo-charizard-dragonite'],
-            ['NewType','https://newtype.us/p/S9nZ4KxUmzbDoDM0HfDd/h/pokemon-charizard-dragonite']
-        ],['Vercingetorix'],false,false,false
+            ['NewType','https://newtype.us/p/S9nZ4KxUmzbDoDM0HfDd/h/pokemon-charizard-dragonite'],
+            ['Video','https://www.instagram.com/reel/CxHDELNufAP/?igshid=MzRlODBiNWFlZA==']
+        ],['Vercingetorix'],false,true,false
     ],
     ['Astronomix',[1,'Gengar'],'Pokemon',false,false,false,'','A'],
     ['Granfrog',[1,'Greninja'],'Pokemon',

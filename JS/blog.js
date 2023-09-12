@@ -311,6 +311,21 @@ const blogArray = [
             ]
         ],
         ['Both is he fierce and is he ferocious. This mighty fire dragon rules the skies and takes no prisoners, he is lord of all. Enjoy.']
+    ],
+    [
+        '2023-09-12',
+        'Enter the Dragon Part II',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/boudica08.jpeg',
+        [
+            [
+                'Last week I presented my Charizard, but the Charizard pack is actually a double pack with the pieces for two Pokemon. The second being Dragonite. So naturally I had to paint that one too. So without much further ado, I present to you',
+                ['Boudica','Builds/Pokemon/Boudica.html'],
+                '.'
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/(edited)_boudica14.png']
+        ]
     ]
 ]
 
