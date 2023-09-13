@@ -3136,10 +3136,12 @@ const projects = [
     ['Aerial (?)',[1,'Aerial'],'FM',false,false,false,'Mercury','A'],
     ['Aerial [HG]',[1,'Aerial'],'HG',true,false,false,'Mercury','D','2023-05-30',7.42,false,false,false],
     ['PB Aerial Permet Six [HG]',[1,'Aerial'],'HG',true,true,false,'Mercury','A'],
-    ['Ariel',[1.5,'Aerial','Mirasoul Flight Pack'],'HG',false,false,false,'Mercury','B'],
+    ['Ariel',[1.5,'Aerial','Mirasoul Flight Pack'],'HG',
+        false,false,false,'Mercury','C','',0
+    ],
     ['Cherub',[1,'Aerial'],'SD',false,false,false,'Mercury','D','2023-01-10',4.91,false,'Builds/Cherub.html','Angels'],
-    ['Zephon',[1,'Aerial Rebuild'],'HG',false,false,false,'Mercury','B'],
-    ['Abaddon',[1,'Calibarn'],'HG',false,false,false,'Mercury','B'],
+    ['Zephon',[1,'Aerial Rebuild'],'HG',false,false,false,'Mercury','C','',0],
+    ['Abaddon',[1,'Calibarn'],'HG',false,false,false,'Mercury','C','',0],
     ['Calibarn [HG]',[1,'Calibarn'],'HG',true,false,false,'Mercury','D','2023-08-22',2.83,false,false,false],
     ['Azrael',[1,'Dilanza, Guel\'s'],'HG',
         false,false,false,'Mercury','E','2023-01-05',12.14,false,'Builds/Gundams/Azrael.html','Angels','2023-02-27',models[26],
@@ -3168,16 +3170,16 @@ const projects = [
         false,false,false,'Mercury','C','',0.25
     ],
     ['Dark Samus: Corruption',[1,'Gundvolva'],'HG',
-        false,false,false,'Mercury','C','',0
+        false,false,false,'Mercury','C','',0.25
     ],
     ['Dobiel',[1,'Gundvolva'],'HG',
         false,false,false,'Mercury','C','2023-08-07',11.53,true
     ],
     ['EMMI',[1,'Heindree'],'HG',false,false,false,'Mercury','A'],
-    ['Adriel',[1,'LFrith'],'HG',false,false,false,'Mercury','B'],
+    ['Adriel',[1,'LFrith'],'HG',false,false,false,'Mercury','C','',0],
     ['PB LFrith Jiu',[1,'LFrith Jiu'],'HG',false,true,false,'Mercury','A'],
     ['LFrith [HG]',[1,'LFrith'],'HG',true,false,false,'Mercury','D','2023-04-15',2.33,false,false,false],
-    ['Metatron',[1,'Schwarzette'],'HG',false,false,false,'Mercury','B'],
+    ['Metatron',[1,'Schwarzette'],'HG',false,false,false,'Mercury','C','',0],
 
     //Advanced Generation (Age)
     ['Uriel',[1,'Age-FX'],'SD',false,false,false,'Age','B'],
@@ -4335,25 +4337,25 @@ const projects = [
         ],['Armageddon','Samus: Varia Suit','Malphas'],false,true,'1:144'
     ],
     ['Samus: Dark Suit',[1,'Dagger L'],'HG',
-        false,false,false,'Seed','C','2023-08-02',7.36,false,'Builds/Gundams/S_DarkSuit.html','Metroid','',models[23]
+        false,false,false,'Seed','C','2023-08-02',7.36,false,'Builds/Metroid/S_DarkSuit.html','Metroid','',models[23]
     ],
     ['Samus: Fusion Suit',[1,'Dagger L'],'HG',
-        false,false,false,'Seed','C','2023-08-19',6.89,false,'Builds/Gundams/S_FusionSuit.html','Metroid','',models[23]
+        false,false,false,'Seed','C','2023-08-19',6.89,false,'Builds/Metroid/S_FusionSuit.html','Metroid','',models[23]
     ],
     ['Samus: Gravity Suit',[1,'Dagger L'],'HG',
-        false,false,false,'Seed','C','2023-08-02',7.58,false,'Builds/Gundams/S_GravitySuit.html','Metroid','',models[23]
+        false,false,false,'Seed','C','2023-08-02',7.58,false,'Builds/Metroid/S_GravitySuit.html','Metroid','',models[23]
     ],
     ['Samus: Light Suit',[1,'Dagger L'],'HG',
-        false,false,false,'Seed','C','2023-08-16',8.68,false,'Builds/Gundams/S_LightSuit.html','Metroid','',models[23]
+        false,false,false,'Seed','C','2023-08-16',8.68,false,'Builds/Metroid/S_LightSuit.html','Metroid','',models[23]
     ],
     ['Samus: PED Suit',[1,'Dagger L'],'HG',
-        false,false,false,'Seed','C','2023-08-06',7.57,false,'Builds/Gundams/S_PhazonSuit.html','Metroid','',models[23]
+        false,false,false,'Seed','C','2023-08-06',7.57,false,'Builds/Metroid/S_PhazonSuit.html','Metroid','',models[23]
     ],
     ['Samus: Phazon Suit',[1,'Dagger L'],'HG',
-        false,false,false,'Seed','C','2023-08-06',7.52,false,'Builds/Gundams/S_PhazonSuit.html','Metroid','',models[23]
+        false,false,false,'Seed','C','2023-08-06',7.52,false,'Builds/Metroid/S_PhazonSuit.html','Metroid','',models[23]
     ],
     ['Samus: Varia Suit',[1,'Dagger L'],'HG',
-        false,false,false,'Seed','C','2023-06-13',7.75,false,'Builds/Gundams/S_VariaSuit.html','Metroid','',models[23],
+        false,false,false,'Seed','C','2023-06-13',7.75,false,'Builds/Metroid/S_VariaSuit.html','Metroid','',models[23],
         [
             []
         ],
@@ -5149,7 +5151,7 @@ const projects = [
         ],['Armageddon'],false,true,'1:144'
     ],
     ['Samus: Metroid Suit',[1,'Windam'],'HG',
-        false,false,false,'Seed','C','',0
+        false,false,false,'Seed','C','2023-09-13',0.25,false,'Builds/Metroid/S_MetroidSuit.html'
     ],
     ['Slash Zaku Phantom',[1,'Zaku Phantom, Slash'],'MG',
         true,true,false,'Seed','E','2023-04-05',11.83,false,'Builds/PBandai/PBPhantomZakuMG.html',false,'2023-07-31',models[75],
@@ -6220,7 +6222,9 @@ const projects = [
     ],
     
     //Pokemon
-    ['Obelix',[1,'Bulbasaur'],'Pokemon',false,false,false,'','B'],
+    ['Obelix',[1,'Bulbasaur'],'Pokemon',
+        false,false,false,'','C','2023-09-13',0,false
+    ],
     ['Asterix',[1,'Charmander'],'Pokemon',
         false,false,false,'','E','2023-03-12',3.85,false,'Builds/Pokemon/Asterix.html',false,'2023-08-28',models[79],
         [
@@ -6294,7 +6298,7 @@ const projects = [
         ],['Asterix','Boudica','Charizard','Charizard X'],false,true,false
     ],
     ['Boudica',[1,'Dragonite'],'Pokemon',
-        false,false,false,'','E','2023-03-11',3.47,false,'Builds/Pokemon/Boudica.html',false,'2023-09-11',models[81],
+        false,false,false,'','E','2023-03-11',3.47,false,'Builds/Pokemon/Boudica.html',false,'2023-09-12',models[81],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/boudica01.jpeg','Boudica'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/boudica02.jpeg','Boudica'],
@@ -6344,7 +6348,7 @@ const projects = [
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-47-greninja-model-kit?variant=40332069765317'],
             ['NewType','https://newtype.us/p/dwk8jzQtdPBUWYb5VxT3/h/pokemon-greninja']
         ],false,false,true,false
-    ],
+    ], 
     ['Brennus',[1,'Groudon'],'Pokemon',false,false,false,'','A'],
     ['Unhygienix',[1,'Magikarp'],'Pokemon',false,false,false,'','A'],
     ['Monosyllabix',[1,'Mew'],'Pokemon',false,false,false,'','A'],
