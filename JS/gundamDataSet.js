@@ -7614,7 +7614,18 @@ function generateRandomBuild() {
     nextBuildNode.appendChild(buildNode);
     nextGradeNode.appendChild(gradeNode);
     nextBacklogNode.appendChild(backlogNode);
+}
 
+function generateRandomSD() {
+    const nextSDNode = document.getElementById('randomSD');
+
+    nextSDNode.removeChild(nextSDNode.firstChild);
+
+    let randomNum = Math.floor(Math.random()*sdBacklogArray.length);
+    let randomSelection = sdBacklogArray[randomNum];
+
+    const randomSDNode = document.createTextNode(randomSelection);
+    nextSDNode.appendChild(randomSDNode);
 }
 
 function gradeEdifier(array) {
