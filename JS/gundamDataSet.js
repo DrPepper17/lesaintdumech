@@ -7640,6 +7640,11 @@ function generateRandomBuildByGrade(grade) {
     let randomSelection = '';
     let selectedGrade = '';
 
+    if (grade === 'PB') {
+        randomNum = Math.floor(Math.random()*pbBacklogArray.length);
+        randomSelection = pbBacklogArray[randomNum];
+        selectedGrade = 'P-Bandai'
+    }
     if (grade === 'PG') {
         randomNum = Math.floor(Math.random()*pgBacklogArray.length);
         randomSelection = pgBacklogArray[randomNum];
@@ -7714,6 +7719,11 @@ function generateRandomBuildByGrade(grade) {
         randomNum = Math.floor(Math.random()*zoidBacklogArray.length);
         randomSelection = zoidBacklogArray[randomNum];
         selectedGrade = 'Zoid'
+    }
+    if (grade === 'SB') {
+        randomNum = Math.floor(Math.random()*sbBacklogArray.length);
+        randomSelection = sbBacklogArray[randomNum];
+        selectedGrade = 'Straight Build'
     }
 
     const buildNode = document.createTextNode(randomSelection);
