@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&display=swap" />
         <script src="JS/frenchMetrics.js?v=202308131625"></script>
         <script src="JS/gundamDataSet.js?v=202309121840"></script>
-        <link rel="stylesheet" href="CSS/home.css?v=202308061306"/>
+        <link rel="stylesheet" href="CSS/home.css?v=202309151411"/>
 
         <title>&#9884; Le Saint du Mech: Project Tracker &#9884;</title>
     </head>
@@ -73,8 +73,34 @@
             </div>
             <div class="row">
                 <div class="col">
-                    <p><button type="button" class="btn btn-secondary" onclick="generateRandomBuild()">What should I build?</button></p>
-                    <p><button type="button" class="btn btn-secondary" onclick="generateRandomSD()">Choose Random SD</button> <span id="randomSD"> </span></p>
+                    <p>
+                        <button type="button" class="btn btn-secondary" onclick="generateRandomBuild()">What should I build?</button>
+                        <button type="button" class="btn btn-secondary" onclick="chooseGrade()">Choose by Grade:</button>
+                    </p>
+                </div>
+            </div>
+
+            <div class="row mb-4 mx-2 gradeBox">
+                <div class="col" style="border: solid">
+                    <div class="row">
+                        <div class="col">
+                            <button type="button" class="btn btn-secondary my-1" onclick="generateRandomBuildByGrade('PG')">Perfect Grade</button>
+                            <button type="button" class="btn btn-secondary my-1" onclick="generateRandomBuildByGrade('MG')">Master Grade</button>
+                            <button type="button" class="btn btn-secondary my-1" onclick="generateRandomBuildByGrade('FM')">Full Mechanics</button>
+                            <button type="button" class="btn btn-secondary my-1" onclick="generateRandomBuildByGrade('RG')">Real Grade</button>
+                            <button type="button" class="btn btn-secondary my-1" onclick="generateRandomBuildByGrade('HG')">High Grade</button>
+                            <button type="button" class="btn btn-secondary my-1" onclick="generateRandomBuildByGrade('MGSD')">MGSD</button>
+                            <button type="button" class="btn btn-secondary my-1" onclick="generateRandomBuildByGrade('SD')">Super Deformed</button>
+                            <button type="button" class="btn btn-secondary my-1" onclick="generateRandomBuildByGrade('SHIP')">Ship</button>
+                            <button type="button" class="btn btn-secondary my-1" onclick="generateRandomBuildByGrade('HARO')">Haro</button>
+                            <button type="button" class="btn btn-secondary my-1" onclick="generateRandomBuildByGrade('DISP')">Display</button>
+                            <button type="button" class="btn btn-secondary my-1" onclick="generateRandomBuildByGrade('POKE')">Pokemon</button>
+                            <button type="button" class="btn btn-secondary my-1" onclick="generateRandomBuildByGrade('DIGI')">Digimon</button>
+                            <button type="button" class="btn btn-secondary my-1" onclick="generateRandomBuildByGrade('CAR')">Car</button>
+                            <button type="button" class="btn btn-secondary my-1" onclick="generateRandomBuildByGrade('TRANS')">Transformer</button>
+                            <button type="button" class="btn btn-secondary my-1" onclick="generateRandomBuildByGrade('ZOID')">Zoid</button>
+                        </div>
+                    </div>
                 </div>
             </div>
 

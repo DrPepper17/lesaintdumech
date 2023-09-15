@@ -42,7 +42,7 @@ tr {
 .chancery {
     font-family: "Apple Chancery", Times, sans-serif;
 }
-.hide, .table2, .table3, .table4 {
+.hide, .table2, .table3, .table4, .gradeBox {
     display: none;
 }
 .jumbotron {

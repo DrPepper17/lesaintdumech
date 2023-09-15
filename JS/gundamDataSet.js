@@ -6838,6 +6838,7 @@ let inProgressCount = 0;
 let constructedCount = 0;
 let postedCount = 0;
 let finishedCount = 0;
+let chooseGradeToggle = 1;
 
 //data
     //average hours
@@ -7311,6 +7312,17 @@ function calculateStats() {
     zoidHours = projectHours('Zoid');
 }
 
+function chooseGrade() {
+    if (chooseGradeToggle > 0) {
+        unhide('.gradeBox');
+        chooseGradeToggle *= -1;
+    }
+    else {
+        hide('.gradeBox');
+        chooseGradeToggle *= -1;
+    }
+}
+
 function cleanupArrays(array,context) {
     if(array.length<1) {
         if (context==='fin') {
@@ -7617,16 +7629,100 @@ function generateRandomBuild() {
     nextBacklogNode.appendChild(backlogNode);
 }
 
-function generateRandomSD() {
-    const nextSDNode = document.getElementById('randomSD');
+function generateRandomBuildByGrade(grade) {
+    const nextBuildNode = document.getElementById('nextBuildID');
+    const nextGradeNode = document.getElementById('nextGradeID');
+    const nextBacklogNode = document.getElementById('backlogID');
+    nextBuildNode.removeChild(nextBuildNode.firstChild);
+    nextGradeNode.removeChild(nextGradeNode.firstChild);
+    nextBacklogNode.removeChild(nextBacklogNode.firstChild);
 
-    nextSDNode.removeChild(nextSDNode.firstChild);
+    let randomNum = '';
+    let randomSelection = '';
+    let selectedGrade = '';
 
-    let randomNum = Math.floor(Math.random()*sdBacklogArray.length);
-    let randomSelection = sdBacklogArray[randomNum];
+    if (grade === 'PG') {
+        randomNum = Math.floor(Math.random()*pgBacklogArray.length);
+        randomSelection = pgBacklogArray[randomNum];
+        selectedGrade = 'Perfect Grade'
+    }
+    if (grade === 'MG') {
+        randomNum = Math.floor(Math.random()*mgBacklogArray.length);
+        randomSelection = mgBacklogArray[randomNum];
+        selectedGrade = 'Master Grade'
+    }
+    if (grade === 'FM') {
+        randomNum = Math.floor(Math.random()*fmBacklogArray.length);
+        randomSelection = fmBacklogArray[randomNum];
+        selectedGrade = 'Full Mechanics'
+    }
+    if (grade === 'RG') {
+        randomNum = Math.floor(Math.random()*rgBacklogArray.length);
+        randomSelection = rgBacklogArray[randomNum];
+        selectedGrade = 'Real Grade'
+    }
+    if (grade === 'HG') {
+        randomNum = Math.floor(Math.random()*hgBacklogArray.length);
+        randomSelection = hgBacklogArray[randomNum];
+        selectedGrade = 'High Grade'
+    }
+    if (grade === 'MGSD') {
+        randomNum = Math.floor(Math.random()*mgsdBacklogArray.length);
+        randomSelection = mgsdBacklogArray[randomNum];
+        selectedGrade = 'Master Grade SD'
+    }
+    if (grade === 'SD') {
+        randomNum = Math.floor(Math.random()*sdBacklogArray.length);
+        randomSelection = sdBacklogArray[randomNum];
+        selectedGrade = 'Super Deformed'
+    }
+    if (grade === 'SHIP') {
+        randomNum = Math.floor(Math.random()*shipBacklogArray.length);
+        randomSelection = shipBacklogArray[randomNum];
+        selectedGrade = 'Ship'
+    }
+    if (grade === 'HARO') {
+        randomNum = Math.floor(Math.random()*haroBacklogArray.length);
+        randomSelection = haroBacklogArray[randomNum];
+        selectedGrade = 'Haro'
+    }
+    if (grade === 'DISP') {
+        randomNum = Math.floor(Math.random()*dispBacklogArray.length);
+        randomSelection = dispBacklogArray[randomNum];
+        selectedGrade = 'Display'
+    }
+    if (grade === 'POKE') {
+        randomNum = Math.floor(Math.random()*pokeBacklogArray.length);
+        randomSelection = pokeBacklogArray[randomNum];
+        selectedGrade = 'Pokemon'
+    }
+    if (grade === 'DIGI') {
+        randomNum = Math.floor(Math.random()*digiBacklogArray.length);
+        randomSelection = digiBacklogArray[randomNum];
+        selectedGrade = 'Digimon'
+    }
+    if (grade === 'CAR') {
+        randomNum = Math.floor(Math.random()*carBacklogArray.length);
+        randomSelection = carBacklogArray[randomNum];
+        selectedGrade = 'Car'
+    }
+    if (grade === 'TRANS') {
+        randomNum = Math.floor(Math.random()*transBacklogArray.length);
+        randomSelection = transBacklogArray[randomNum];
+        selectedGrade = 'Transformer'
+    }
+    if (grade === 'ZOID') {
+        randomNum = Math.floor(Math.random()*zoidBacklogArray.length);
+        randomSelection = zoidBacklogArray[randomNum];
+        selectedGrade = 'Zoid'
+    }
 
-    const randomSDNode = document.createTextNode(randomSelection);
-    nextSDNode.appendChild(randomSDNode);
+    const buildNode = document.createTextNode(randomSelection);
+    const gradeNode = document.createTextNode(selectedGrade);
+    const backlogNode = document.createTextNode(backlogCount);
+    nextBuildNode.appendChild(buildNode);
+    nextGradeNode.appendChild(gradeNode);
+    nextBacklogNode.appendChild(backlogNode);
 }
 
 function gradeEdifier(array) {
@@ -7639,7 +7735,7 @@ function gradeEdifier(array) {
         grade = 'Master Grade';
     }
     else if (array[2] == 'MGSD') {
-        grade = 'Master Grade Super Deformed';
+        grade = 'Master Grade SD';
     }
     else if (array[2] == 'FM') {
         grade = 'Full Mechanics';
@@ -9633,4 +9729,9 @@ function projectLinks(prArray,ID) {
 function unhide(ID) {
     const section = document.querySelector(ID);
     section.style.display = 'block';
+}
+
+function hide(ID) {
+    const section = document.querySelector(ID);
+    section.style.display = 'none';
 }
