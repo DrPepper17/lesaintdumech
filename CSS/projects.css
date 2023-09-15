@@ -130,6 +130,9 @@ ul {
 .gMobileArmorHD {
     display: none;
 }
+.gOtherModelHD {
+    display: none;
+}
 .gPilotHD, .gPilot2HD {
     display: none;
 }

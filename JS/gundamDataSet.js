@@ -3106,7 +3106,7 @@ const models = [
             when both straight and painted included on same project, omit straight build hours
     10. LEDS (true/false)
     11. URL // don't do invidivual pages for straightbuilds unless it's a p-bandai
-    12. Project
+    12. tags [array]
     13. Date Posted
     14. Model (link array)
     15. Photos (array of arrays)
@@ -3128,6 +3128,7 @@ const models = [
     24. Second name/nickname/phrase/slogan
     25. Project Page: override name
     26. Build Page: Override Name
+    27. Other Models included [array]
 */
 
 //Pojects
@@ -3135,7 +3136,7 @@ const projects = [
     //Ad Stella (Mercury)
     ['Aerial (?)',[1,'Aerial'],'FM',false,false,false,'Mercury','A'],
     ['Aerial [HG]',[1,'Aerial'],'HG',true,false,false,'Mercury','D','2023-05-30',7.42,false,false,false],
-    ['PB Aerial Permet Six [HG]',[1,'Aerial'],'HG',true,true,false,'Mercury','A'],
+    ['PB Aerial Permet Six [HG]',[1,'Aerial'],'HG',true,true,false,'Mercury','B'],
     ['Ariel',[1.5,'Aerial','Mirasoul Flight Pack'],'HG',
         false,false,false,'Mercury','C','',0
     ],
@@ -3173,7 +3174,7 @@ const projects = [
         false,false,false,'Mercury','C','',0.25
     ],
     ['Dobiel',[1,'Gundvolva'],'HG',
-        false,false,false,'Mercury','C','2023-08-07',11.53,true
+        false,false,false,'Mercury','D','2023-08-07',12.7,true
     ],
     ['EMMI',[1,'Heindree'],'HG',false,false,false,'Mercury','A'],
     ['Adriel',[1,'LFrith'],'HG',false,false,false,'Mercury','C','',0],
@@ -3269,7 +3270,7 @@ const projects = [
     ],
     ['Pontus',[1,'Aquarius'],'SD',false,false,false,'Wing','B',false,0,false,'Builds/Gundams/Pontus.html','Titans',false,models[40]],
     ['Alucard',[1,'Deathscythe Hell (TV Version'],'HG',
-        false,true,false,'Wing','C','2023-08-02',15.04
+        false,true,false,'Wing','D','2023-08-02',16.38
     ],
     ['Epyon [RG]',[1,'Epyon'],'RG',true,false,false,'Wing','A'],
     ['Golden Ghidorah',[1,'Epyon'],'MG',false,false,false,'Wing','B'],
@@ -3985,7 +3986,7 @@ const projects = [
         ],false,false,true,'1:144'
     ],
     ['Federation Trooper',[1,'Flag'],'HG',
-        false,false,false,'00','C','2023-08-06',6.52,false,'Builds/Gundams/S_DarkSuit.html','Metroid'
+        false,false,false,'00','D','2023-08-06',9.1,false,'Builds/Gundams/S_DarkSuit.html','Metroid'
     ],
     ['Harute (Final Battle)',[1,'Harute'],'HG',
         true,true,false,'00','E','2022-03-08',5.75,false,'Builds/PBandai/PBHaruteFinalHG.html',false,'2022-11-21',models[70],
@@ -4288,7 +4289,7 @@ const projects = [
         'One of the coolest things I love about the SEED universe is the versatility of the mobile suits in how they all can have added equipment packs added on to enhance their features. However very few of these packs have been made as actual add-on model kits to add to the current model kit lineup. So when I saw that P-Bandai was releasing the Dagger L expansion pack I just had to get it and paint it. Included is the Doppelhorn Dual Recoilless Cannon, which is the very long barrel guns mounted on the Dagger\'s shoulders. And also included is the Multi-Launcher pack which is the large square box-like structure that houses the long range nuclear ICBMs stored inside that were used to vaporize the Boaz military asteroid in the final story arc of Gundam SEED. To mount the two units I build two new Dagger Ls which I painted identical my previous project King Leir. Bringing my Dagger count now up to three: King Leir and his two daughters Gonorilla and Regan. Also included is Oberon, acting as their squadron commander.',false,
         [
             ['Premium Bandai','https://p-bandai.com/us/item/N2563436001002']
-        ],['Oberon','King Leir','PB Strike Daggers'],false,true,'1:144'
+        ],['Oberon','King Leir','PB Strike Daggers'],false,true,'1:144',false,false,false,[models[23],models[24]]
     ],
     ['King Leir',[1,'Dagger L'],'HG',
         false,false,false,'Seed','E','2021-06-10',14.09,false,'Builds/Gundams/KingLeir.html',false,'2021-06-26',models[23],
@@ -4334,28 +4335,28 @@ const projects = [
         [
             ['USA Gundam Store','https://www.usagundamstore.com/products/hgce-1-144-247-dagger-l'],
             ['NewType','https://newtype.us/p/V3s94PjelBrA0T06Q673/h/hgce-237-gat-o2l2-dagger-l']
-        ],['Armageddon','Samus: Varia Suit','Malphas'],false,true,'1:144'
+        ],['Malphas','Dobiel'],false,true,'1:144'
     ],
     ['Samus: Dark Suit',[1,'Dagger L'],'HG',
-        false,false,false,'Seed','C','2023-08-02',7.36,false,'Builds/Metroid/S_DarkSuit.html','Metroid','',models[23]
+        false,false,false,'Seed','D','2023-08-02',8.14,false,'Builds/Metroid/S_DarkSuit.html','Metroid','',models[23]
     ],
     ['Samus: Fusion Suit',[1,'Dagger L'],'HG',
-        false,false,false,'Seed','C','2023-08-19',6.89,false,'Builds/Metroid/S_FusionSuit.html','Metroid','',models[23]
+        false,false,false,'Seed','D','2023-08-19',7.79,false,'Builds/Metroid/S_FusionSuit.html','Metroid','',models[23]
     ],
     ['Samus: Gravity Suit',[1,'Dagger L'],'HG',
-        false,false,false,'Seed','C','2023-08-02',7.58,false,'Builds/Metroid/S_GravitySuit.html','Metroid','',models[23]
+        false,false,false,'Seed','D','2023-08-02',8.37,false,'Builds/Metroid/S_GravitySuit.html','Metroid','',models[23]
     ],
     ['Samus: Light Suit',[1,'Dagger L'],'HG',
-        false,false,false,'Seed','C','2023-08-16',8.68,false,'Builds/Metroid/S_LightSuit.html','Metroid','',models[23]
+        false,false,false,'Seed','D','2023-08-16',9.47,false,'Builds/Metroid/S_LightSuit.html','Metroid','',models[23]
     ],
     ['Samus: PED Suit',[1,'Dagger L'],'HG',
-        false,false,false,'Seed','C','2023-08-06',7.57,false,'Builds/Metroid/S_PhazonSuit.html','Metroid','',models[23]
+        false,false,false,'Seed','D','2023-08-06',8.36,false,'Builds/Metroid/S_PhazonSuit.html','Metroid','',models[23]
     ],
     ['Samus: Phazon Suit',[1,'Dagger L'],'HG',
-        false,false,false,'Seed','C','2023-08-06',7.52,false,'Builds/Metroid/S_PhazonSuit.html','Metroid','',models[23]
+        false,false,false,'Seed','D','2023-08-06',8.3,false,'Builds/Metroid/S_PhazonSuit.html','Metroid','',models[23]
     ],
     ['Samus: Varia Suit',[1,'Dagger L'],'HG',
-        false,false,false,'Seed','C','2023-06-13',7.75,false,'Builds/Metroid/S_VariaSuit.html','Metroid','',models[23],
+        false,false,false,'Seed','D','2023-06-13',8.33,false,'Builds/Metroid/S_VariaSuit.html','Metroid','',models[23],
         [
             []
         ],
@@ -5151,7 +5152,7 @@ const projects = [
         ],['Armageddon'],false,true,'1:144'
     ],
     ['Samus: Metroid Suit',[1,'Windam'],'HG',
-        false,false,false,'Seed','C','2023-09-13',0.25,false,'Builds/Metroid/S_MetroidSuit.html'
+        false,false,false,'Seed','C','2023-09-13',2.5,false,'Builds/Metroid/S_MetroidSuit.html'
     ],
     ['Slash Zaku Phantom',[1,'Zaku Phantom, Slash'],'MG',
         true,true,false,'Seed','E','2023-04-05',11.83,false,'Builds/PBandai/PBPhantomZakuMG.html',false,'2023-07-31',models[75],
@@ -5223,7 +5224,7 @@ const projects = [
     ['Paimon',[1,'Dark Gundam'],'SD',false,false,false,'G','B'],
     ['Brady',[1,'PB Gundam Maxter'],'HG',false,true,false,'G','A'],
     ['Charlemagne',[1,'PB Rose Gundam'],'HG',
-        false,true,false,'G','C','2023-08-02',14.41
+        false,true,false,'G','D','2023-08-02',16.83
     ],
     ['Le Roi Soleil',[1,'Rose Gundam'],'HG',
         false,false,false,'G','E','2022-08-09',4.17,false,'Builds/Gundams/RoiSoleil.html',false,'2022-12-12',models[56],
@@ -5703,7 +5704,7 @@ const projects = [
         ],['BB Senshi RX-93ff \u03bd'],false,true
     ],
     ['Milos',[1,'Nu Gundam, Hi'],'SD',false,false,false,'UC','B'],
-    ['PB Umbrella Corp',[2,'Nu Gundam, Hi','Hi Nu Expansion Pack','Hi Nu Hyper Bazooka'],'RG',false,true,false,'UC','A'],
+    ['PB Umbrella Corp',[2,'Nu Gundam, Hi','Hi Nu Expansion Pack','Hi Nu Hyper Bazooka'],'RG',false,true,false,'UC','B'],
     ['Bella Donna',[2,'Phenex','Phenex'],'SD',
         false,false,false,'UC','E','2021-12-06',14.37,false,'Builds/Gundams/BellaDonna.html','Phoneix','2023-03-16',models[28],
         [
@@ -6223,7 +6224,7 @@ const projects = [
     
     //Pokemon
     ['Obelix',[1,'Bulbasaur'],'Pokemon',
-        false,false,false,'','C','2023-09-13',0,false
+        false,false,false,'','C','2023-09-13',0.67,false
     ],
     ['Asterix',[1,'Charmander'],'Pokemon',
         false,false,false,'','E','2023-03-12',3.85,false,'Builds/Pokemon/Asterix.html',false,'2023-08-28',models[79],
@@ -6325,7 +6326,7 @@ const projects = [
             ['Video','https://www.instagram.com/reel/CxHDELNufAP/?igshid=MzRlODBiNWFlZA==']
         ],['Vercingetorix'],false,true,false
     ],
-    ['Astronomix',[1,'Gengar'],'Pokemon',false,false,false,'','A'],
+    ['Astronomix',[1,'Gengar'],'Pokemon',false,false,false,'','B'],
     ['Granfrog',[1,'Greninja'],'Pokemon',
         false,false,false,false,'E','2021-11-11',5.68,false,'Builds/Pokemon/Granfrog.html',false,'2022-08-17',models[11],
         [
@@ -6350,15 +6351,15 @@ const projects = [
         ],false,false,true,false
     ], 
     ['Brennus',[1,'Groudon'],'Pokemon',false,false,false,'','A'],
+    ['Cassivellaunus',[1,'Gyrados'],'Pokemon',false,false,false,'','C','',0.25],
     ['Unhygienix',[1,'Magikarp'],'Pokemon',false,false,false,'','A'],
-    ['Monosyllabix',[1,'Mew'],'Pokemon',false,false,false,'','A'],
-    ['Polysyllabix',[1,'Mewtwo'],'Pokemon',false,false,false,'','A'],
-    ['Lutetia',[1,'Lucario'],'Pokemon',false,false,false,'','A'],
+    ['Monosyllabix',[1,'Mew'],'Pokemon',false,false,false,'','B'],
+    ['Polysyllabix',[1,'Mewtwo'],'Pokemon',false,false,false,'','B'],
+    ['Lutetia',[1,'Lucario'],'Pokemon',false,false,false,'','B'],
     ['Chanticleerix',[1,'Lugia'],'Pokemon',false,false,false,'','A'],
-    ['Cacofonix',[1,'Metagross'],'Pokemon',false,false,false,'','B'],
-    ['Getafix',[1,'Rayquaza'],'Pokemon',false,false,false,'','B'],
-    ['Dogmatix',[1,'Riolu'],'Pokemon',false,false,false,'','A'],
-    ['Cassivellaunus',[1,'Gyrados'],'Pokemon',false,false,false,'','A'],
+    ['Cacofonix',[1,'Metagross'],'Pokemon',false,false,false,'','C','',0.17],
+    ['Getafix',[1,'Rayquaza'],'Pokemon',false,false,false,'','C','',0.25],
+    ['Dogmatix',[1,'Riolu'],'Pokemon',false,false,false,'','B'],
     
     //Digimon
     ['Heimdall',[1,'Alphamon'],'Digimon',false,false,false,'','A'],
@@ -8536,6 +8537,11 @@ function buildProjectPage(string) {
         if ((projectArray[14] === projects[i][14]) && (projectArray[0] != projects[i][0]) && projects[i][22]) {
             otherArray.push(projects[i])
         }
+        if (projects[i][27]) {
+            if (projects[i][27].includes(projectArray[14]) && (projectArray[0] != projects[i][0]) && projects[i][22]) {
+                otherArray.push(projects[i])
+            }
+        }
     }
     for (let i=0;i<otherArray.length;i++) {
         for (let j=0;j<affilatesArray.length;j++) {
@@ -8710,6 +8716,16 @@ function buildGundam() {
             popNode('; '+timespan+' year(s)','gTimeline');
         }
     }
+
+    /* if (projectArray[27]) {
+        let otherModelsArray = [];
+        for (let i=0; i<projectArray[27].length; i++){
+            otherModelsArray.push(projectArray[27][i][3]);
+        }
+
+        unhide('.gOtherModelHD');
+        createList(otherModelsArray,'gOtherModel');
+    } */
 
     if (modelArray[13]) {
         unhide('.gManufacturerHD');
