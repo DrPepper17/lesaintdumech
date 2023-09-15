@@ -71,7 +71,6 @@
     27. title/classification
     28. 
 
-
     // Ship (fictional): Other (3) //
     2. Short Name
     3. Full Name
