@@ -329,7 +329,7 @@ const blogArray = [
     ],
     [
         '2023-09-14',
-        'Finishing Up',
+        'Bookkeeping',
         'https://hosting.photobucket.com/images/i/lesaintdumech/IMG_8007.jpeg',
         ['Entering in all my latest hours into the database. Just wrapped up quite a few projects that I had been working on all last month. So got a lot of hours to enter to get the time spent on each model all tallied up.'], 
         ['But got a lot of cool new stuff to unveil to you all very soon. Not gonna lie, I have enough finished material now that I am going to be posting well into 2024.'],
