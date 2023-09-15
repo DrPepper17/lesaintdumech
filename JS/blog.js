@@ -331,7 +331,8 @@ const blogArray = [
         '2023-09-14',
         'Finishing Up',
         'https://hosting.photobucket.com/images/i/lesaintdumech/IMG_8007.jpeg',
-        ['Entering in all my latest hours into the database. Just wrapped up quite a few projects that I had been working on all last month so got a lot of hours to enter to get the time spent on each model all tallied up. But got a lot of cool new stuff to unveil to you all very soon. Not gonna lie, I have enough finished material now that I am going to be posting well into 2024.'],
+        ['Entering in all my latest hours into the database. Just wrapped up quite a few projects that I had been working on all last month. So got a lot of hours to enter to get the time spent on each model all tallied up.'], 
+        ['But got a lot of cool new stuff to unveil to you all very soon. Not gonna lie, I have enough finished material now that I am going to be posting well into 2024.'],
         ['Hell I have got such a huge back log built up, that at this point I could take a vacation from modeling for the entire rest of the year and half of next if I absolutely wanted to. But of course I won\'t do that. Probably will slow down though to focus more on my compputer courses.']
     ]
 ]
