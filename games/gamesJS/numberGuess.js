@@ -76,7 +76,14 @@ function numIsLower() {
     max = currGuess - 1;
     console.log("Changing the maximum to: " + max);
     toggleBtns([higherBtn, lowerBtn], false);
-    tryGuess();
+
+    if (currGuess === 1) {
+        message.textContent = "You're shitting me. Start Over";
+        toggleBtns([resetBtn], true);
+    }
+    else {
+        tryGuess();
+    }
 }
 
 function resetGame() {
