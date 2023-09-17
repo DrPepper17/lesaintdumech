@@ -3964,7 +3964,27 @@ const projects = [
         ],false,false,true,'1:144'
     ],
     ['Nena',[1,'Exia'],'SD',
-        false,false,false,'00','D','2021-12-07',4.95,false,'Builds/Gundams/Nena.html','SD Rock','',models[67]
+        false,false,false,'00','D','2021-12-07',4.95,false,'Builds/Gundams/Nena.html','SD Rock','2023-09-18',models[67],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nena01.jpeg','Nena'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nena02.jpeg','Nena'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nena03.jpeg','Nena'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nena04.jpeg','Nena'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nena05.jpeg','Nena'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nena06.jpeg','Nena'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nena07.jpeg','Nena'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nena08.jpeg','Nena'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nena09.jpeg','Nena'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nena10.jpeg','Nena'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nena11.jpeg','Nena']
+        ],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/nena02.jpeg','Profile Photo: Nena'],
+        'Hast du etwas Zeit f\u00FCr mich? Dann singe ich ein Lied f\u00FCr dich.',false,
+        [
+            ['Video',''],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/sd-gundam-ex-standard-003-gundam-exia'],
+            ['NewType','https://newtype.us/p/ahi6UOwPykwwh9oPynTg/h/sdex-standard-03-gundam-exia']
+        ],false,true,true,false
     ],
     ['Exia Trans-Am',[1,'Exia'],'RG',
         true,true,false,'00','E','2021-12-08',6.58,false,'Builds/PBandai/PBExiaRG.html',false,'2022-05-31',models[67],

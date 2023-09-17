@@ -334,6 +334,17 @@ const blogArray = [
         ['Entering in all my latest hours into the database. Just wrapped up quite a few projects that I had been working on all last month. So got a lot of hours to enter to get the time spent on each model all tallied up.'], 
         ['But got a lot of cool new stuff to unveil to you all very soon. Not gonna lie, I have enough finished material now that I am going to be posting well into 2024.'],
         ['Hell I have got such a huge back log built up, that at this point I could take a vacation from modeling for the entire rest of the year and half of next if I absolutely wanted to. But of course I won\'t do that. Probably will slow down though to focus more on my compputer courses.']
+    ],
+    [
+        '2023-09-16',
+        'New Games Section',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/Screenshot_2023-09-16_at_11.53.41_PM.jpeg',
+        ['So new site news. Just added a new games section.'], 
+        ['Nothing too complex or exciting. Just basic Javascript powered activities created as part of my practice in mastering the program language. Wrote them as assignments for my programming class and figured why not also share them here.'],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/Screenshot_2023-09-17_at_12.00.34_AM.jpeg']
+        ],
+        ['So far all I have is just one number guessing game. But I will be uploading more soon. Again do not expect anythning complex. Just simple little ditties cause why not.']
     ]
 ]
 
