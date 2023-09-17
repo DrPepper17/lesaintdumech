@@ -1,0 +1,51 @@
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css" />  
+        <title>Le Saint du Mech: Number Guessing Game</title>
+        <link rel="stylesheet" href="gamesCSS/numberGuess.css" />
+    </head>
+    <body>
+        <h1>Number Guessing Game</h1>
+        <div style="text-align: right; padding-right: 100px"><a href="../games.html">Return To Games</a></div><br/>
+        <div style="text-align: right; padding-right: 100px"><a href="../index.html">Home Page</a></div><br/>
+       
+        <div class="container-fluid">
+            <div class="row mb-5">
+                <div class="col-sm-2 align-middle">
+                    My guess is... 
+                </div>
+                <div class="col">
+                    <button class="btn btn-primary" id="startBtn">?</button>
+                    <button class="btn btn-primary" id="guessBtn"></button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <p id="instructions">Think of a number between 1-100 and click the blue button when you're ready.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="btn-group" role="group">
+                        <button id="yesBtn" class="btn btn-success">Yes</button>
+                        <button id="noBtn" class="btn btn-warning">No</button>
+                    </div>
+                    <div class="btn-group" role="group">
+                        <button id="higherBtn" class="btn btn-dark">Higher</button>
+                        <button id="lowerBtn" class="btn btn-light">Lower</button>
+                    </div>
+                    <div class="btn-group mb-5" role="group">
+                        <button id="resetBtn" class="btn btn-success">Reset</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <p>
+            <a href="../games.html">Return to Games</a> - <a href="../index.html">Home Page</a> 
+        </p>
+        <script src="gamesJS/numberGuess.js"></script>
+    </body>
+</html>
