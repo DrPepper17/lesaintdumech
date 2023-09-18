@@ -2,34 +2,50 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Le Saint du Mech: Face Game</title>
+        <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css" />
+        <title>Le Saint du Mech: Face Game 2</title>
         <style>
             img {
                 position: absolute;
             }
-            div {
-                position: absolute;
-                width: 500px;
-                height: 500px;
+            .game {
+
+                width: 300px;
+                height: 400px;
             }
             #rightSide {
-                left: 500px;
+                left: 300px;
                 border-left: 1px solid;
             }
         </style>
     </head>
     <body>
-        <div style="text-align: right; padding-right: 100px"><a href="../games.html">Return To Games</a></div><br/>
-        <div style="text-align: right; padding-right: 100px"><a href="../index.html">Home Page</a></div><br/>
-        <br/>
-
-        <h1>Face Game</h1>
-        <p>Click on the extra smiling face on the left.</p>
-        <h4>If playing on mobile device, turn screen sideways.</h4>
-
-        <div id="leftSide"></div>
-        <div id="rightSide"></div>
-
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <div style="text-align: right; padding-right: 100px"><a href="../games.html">Return To Games</a></div><br/>
+                    <div style="text-align: right; padding-right: 100px"><a href="../index.html">Home Page</a></div><br/>
+                    <br/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <h1>Face Game 2</h1>
+                    <p>Click on the extra smiling face on the left.</p>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md">
+                    <h3>Left Side:</h3>
+                    <div id="leftSide" class="game"></div>
+                </div>
+                <div class="col">
+                    <h3>Right Side:</h3>
+                    <div id="rightSide" class="game"></div>
+                </div>
+            </div>
+        </div>
+        
         <script>
             window.addEventListener('load', generateFaces);
             let numberOfFaces = 5;
@@ -41,8 +57,8 @@
                     const faceNode = document.createElement('img');
                     faceNode.src = 'gamesIMG/smile.png';
 
-                    const randomTop = Math.floor(Math.random()*400)+1;
-                    const randomLeft = Math.floor(Math.random()*400)+1;
+                    const randomTop = Math.floor(Math.random()*300)+1;
+                    const randomLeft = Math.floor(Math.random()*300)+1;
 
                     faceNode.style.top = randomTop + 'px';
                     faceNode.style.left = randomLeft + 'px';
