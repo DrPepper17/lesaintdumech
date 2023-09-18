@@ -9,7 +9,7 @@
         5. Display
         6. Digimon
         7. Pokemon
-        8. Transformer
+        8. Transformer 
         9. Zoid
         10. Haropla
         11. 
@@ -188,7 +188,7 @@ const models = [
         ],
         'Hajime Katoki',
         false,
-        'Gundam 03',
+        'Gundam Zero-Three',
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/heavyarmsew.jpeg','Gundam Heavyarms EW'],
         true
@@ -2104,7 +2104,7 @@ const models = [
         ],
         'Kunio Okawara',
         false,
-        'Gundam 01',
+        'Gundam Zero-One',
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/wingtv.jpeg','Wing Gundam'],
         true
@@ -3081,6 +3081,307 @@ const models = [
         false,
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/(edited)_dragonite.png','Dragonite']
+    ],
+    [82,1,'Delta Gundam',
+        'MSN-001 Delta Gundam',
+        'MSN-001',
+        'Gundam MS Graphica',
+        false,
+        ['RMS-099 Rick Dias'],
+        [
+            'MSN-00100 Hyaku Shiki',
+            'MSN-00101 Hyaku Ichi Shiki',
+            'MSN-001M Mega-Shiki',
+            'MSN-001A1 Delta Plus'
+        ],
+        'Universal Century',
+        false,
+        'Never Piloted',
+        false,
+        'Anaheim Electronics',
+        ['Anaheim Electronics'],
+        false,
+        false,
+        'Gundarium Alloy',
+        'Minovsky Ultracompact Fusion Reactor',
+        [
+            '2 x 60mm Vulcan Gun'
+        ],
+        [
+            'Beam Rifle',
+            'Beam Shield'
+        ],
+        [
+            'Anti-Beam Reflective Coating'
+        ],
+        'Hajime Katoki',
+        false,                //boolean
+        '\u03B4 Gundam',
+        false,            //boolean
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/delta.jpeg','Delta Gundam'],
+        true           //boolean
+    ],
+    [83,1,'SD Verde Buster Team Member',
+        'SD Verde Buster Team Member',
+        false,
+        'SDW Heroes',
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        'GAT-X103AP Verde Buster Gundam',
+        false,
+        false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/verdebusterteammember.jpeg','SD Verde Buster Team Member'],
+        false
+    ],
+    [84,1,'Verde Buster Gundam',
+        'GAT-X103AP Verde Buster Gundam',
+        'GAT-X103AP',
+        'Mobile Suit Gundam SEED C.E. 73: STARGAZER',
+        false,
+        ['GAT-X103 Buster Gundam'],
+        false,
+        'Cosmic Era',
+        [73,'73 C.E.',74],
+        'Shams Couza',
+        false,
+        'Actaeon Industries',
+        [
+            'Earth Alliance',
+            'Phantom Pain'
+        ],
+        [18.46,'18.46 Meters'],
+        [99.36,'99.36 Metric Tons'],
+        false,
+        'Ultracompact Energy Battery',
+        [
+            '94mm High-Energy Beam Cannon',
+            '350mm Gun Launcher'
+        ],
+        false,
+        [
+            'Variable Phase Shift Armor',
+            'Power Extender',
+            '6-tube 220mm Multipurpose Missile Pod (x2)',
+            'M9009B Composite Bayonet Beam Rifle (x2)'
+        ],
+        false,
+        false,
+        false,
+        false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/verdebuster.jpeg','Verde Buster Gundam'],
+        true
+    ],
+    [85,1,'Gundam Heavyarms',
+        'XXXG-01H Gundam Heavarms',
+        'XXXG-01H',
+        'Mobile Suit Gundam Wing',
+        false,
+        ['XXXG-00W0 Wing Gundam Proto Zero'],
+        [
+            'XXXG-01H2 Gundam Heavarms Custom',
+            'MMS-01 Serpent'
+        ],
+        'After Colony',
+        [195,'April 7, 195 A.C.',195],
+        'Trowa Barton',
+        ['Heero Yuy'],
+        'Barton Foundation',
+        ['Colony Liberation Organization','G Team','Operation Meteor','Peacemillion'],
+        [16.7,'16.7 Meters'],
+        [7.7,'7.7 Metric Tons'],
+        'Gundanium Alloy',
+        'Ultracompact Fusion Reactor',
+        [
+            'Vulcan Guns (x2)',
+            'Machine Cannons (x2)',
+            'Chest Gatling Guns (x2)',
+            'Homing Missiles (x6)',
+            'Micro Missiles (x24)'
+        ],
+        [
+            'Beam Gatling Gun',
+            'Shield',
+            'Army Knife',
+            'Beam Saber'
+        ],
+        [
+            'OS: Standard Gundam Operating System',
+            'Self-Destruct System'
+        ],
+        'Kunio Okawara',
+        false,
+        'Gundam Zero-Three',
+        false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/HeavyarmsTV.jpeg','Gundam Heavyarms'],
+        true
+    ],
+    [86,1,'Gundam Deathscythe',
+        'XXXG-01D Gundam Deathscythe',
+        'XXXG-01D',
+        'Mobile Suit Gundam Wing',
+        false,
+        ['XXXG-00W0 Wing Gundam Zero'],
+        ['XXXG-01D2 Gundam Deathscythe Hell'],
+        'After Colony',
+        [195,'April 7, 195 A.C.',195],
+        'Duo Maxwell',
+        false,
+        'Professor G',
+        ['Colony Liberation Organization','G Team','Operation Meteor'],
+        [16.3,'16.3 Meters'],
+        [7.2,'7.2 Metric Tons'],
+        'Gundanium Alloy',
+        'Ultracompact Fusion Reactor',
+        [
+            'Hyper Jammer (x2)',
+            'Vulcan Gun (x2)',
+            'Machine Cannon (x2)'
+        ],
+        [
+            'Buster Shield',
+            'Beam Scythe',
+            'Beam Cannon'
+        ],
+        [
+            'OS: Standard Gundam Operating System',
+            'Self-Destruct System'
+        ],
+        'Kunio Okawara',
+        false,
+        'Gundam Zero-Two',
+        false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/deathscythetv.jpeg','Gundam Deathscythe'],
+        true
+    ],
+    [87,1,'Shenlong Gundam',
+        'XXXG-01S Shenlong Gundam',
+        'XXXG-01S',
+        'Mobile Suit Gundam Wing',
+        false,
+        ['XXXG-00W0 Wing Gundam Zero'],
+        ['XXXG-01S2 Altron Gundam'],
+        'After Colony',
+        [194,'194 A.C.',195],
+        'Chang Wufei',
+        false,
+        'Master O',
+        ['Colony Liberation Organization','G Team','Operation Meteor'],
+        [16.4,'16.4 Meters'],           //Height
+        [7.4,'7.4 Metric Tons'],        //Weight
+        'Gundanium Alloy',
+        'Ultracompact Fusion Reactor',
+        [
+            'Vulcan Gun (x2)',
+            'Dragon Fang',
+            'Flamethrower (x2)'
+        ],
+        [
+            'Shenlong Shield',
+            'Beam Glaive'
+        ],
+        [
+            'OS: Standard Gundam Operating System',
+            'Fighting Sight',
+            'Self-Destruct System'
+        ],
+        'Kunio Okawara',
+        false,                //boolean
+        'Nataku',
+        false,            //boolean
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/shenlongTV_7SpxSMBkPuiHG12bki4vkz.jpeg','Shenlong Gundam'],
+        true
+    ],
+    [88,1,'Gundam Sandrock',
+        'XXXG-01SR Gundam Sandrock',
+        'XXXG-01SR',
+        'Mobile Suit Gundam Wing',
+        false,
+        ['XXXG-00W0 Wing Gundam Zero'],
+        ['XXXG-01SR2 Gundam Sandrock Custom'],
+        'After Colony',
+        [195,'April 7, 195 A.C.',195],
+        'Quatre Raberba Winner',
+        false,
+        'Instructor H',
+        ['Colony Liberation Organization','G Team','Operation Meteor','Peacemillion'],
+        [16.5,'16.5 Meters'],
+        [7.5,'7.5 Metric Tons'],
+        'Gundanium Alloy',
+        'Ultracompact Fusion Reactor',
+        [
+            'Vulcan Gun (x2)',
+            'Homing Missile (x2)'
+        ],
+        [
+            'Heat Shotel (x2)',
+            'Anti Beam Shield (Shield Flasher x2)',
+            'Diffuser Cloth'
+        ],
+        [
+            'OS: Standard Gundam Operating System',
+            'Self-Destruct System'
+        ],
+        'Kunio Okawara',
+        false,
+        'Gundam Zero-Four',
+        false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/sandrock.jpeg','Gundam Sandrock'],
+        true
+    ],
+    [89,1,'Gundam Epyon',
+        'OZ-13MS Gundam Epyon',
+        'OZ-13MS',
+        'Mobile Suit Gundam Wing',
+        false,
+        ['OZ-00MS Tallgeese'],
+        false,
+        'After Colony',
+        [195,'November 13, 195 A.C.',195],
+        'Zechs Merquise',
+        ['Heero Yuy','Treize Khushrenada'],
+        'Treize Khushrenada',
+        ['OZ','Treize Faction','Sanc Kingdom','White Fang'],
+        [17.4,'17.4 Meters'],
+        [8.5,'8.5 Metric Tons'],
+        'Gundanium Alloy',
+        'Ultracompact Fusion Reactor',
+        [
+            'Vulcan Gun',
+            'Beam Sword',
+            'Epyon Claw'
+        ],
+        [
+            'Epyon Shield',
+            'Heat Rod',
+            'Sturm Und Drang'
+        ],
+        [
+            'MA Mode',
+            'ZERO System',
+            'Search Eye',
+            'Self-Destruct System'
+        ],
+        'Kunio Okawara',
+        false,
+        false,
+        false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/epyonposter.jpeg','Gundam Epyon'],
+        true
     ]
 ];
 
@@ -3225,7 +3526,7 @@ const projects = [
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/spark01.jpeg','Profile Photo: South Park'],
         'After finishing the Bel-Air, I realized there was still a lot I had to learn about air brush painting. So before moving on to the larger projects I decided to do something fun on a much more small scale in order to get a little more practice. Looking for a theme I was inspired by the boys of South Park, plus the Operation Meteor lineup.',
-        false,false,false,false,true,false
+        false,false,false,false,true,false,false,false,false,[models[47],models[85],models[86],models[87],models[88],models[89]]
     ],
     ['Gemini',[2,'Aquarius','Aquarius'],'SD',
         false,false,false,'Wing','E','2021-07-05',20.61,false,'Builds/Gundams/Gemini.html','Practice SDs','2022-01-24',models[40],
@@ -3390,7 +3691,7 @@ const projects = [
             ['USA Gundam Store','https://www.usagundamstore.com/products/mg-1-100-gundam-heavyarms-ew-ver'],
             ['NewType','https://newtype.us/p/xyX3s81UEQTYgD2wfA49/h/mg-gundam-heavyarms-ew'],
             ['Amazon','https://a.co/d/03pIAks']
-        ],false,false,true,'1/100'
+        ],false,false,true,'1/100',false,false,false,[models[85]]
     ],
     ['Phoebe',[1,'Maganac Corps'],'SD',false,false,false,'Wing','D','2022-04-11',8.42,false,'Builds/Phoebe.html','Titans'],
     ['Isaac',[1,'Proto-Zero'],'SD',
@@ -3698,7 +3999,7 @@ const projects = [
         [
             ['USA Gundam Store','https://www.usagundamstore.com/products/13-wing-gundam-zero-ew-gundam-wing-endless-waltz-bandai-spirits-sdcs?variant=11912262615076'],
             ['NewType','https://newtype.us/p/5msfyhVsQRBrZ6bIzNBO/h/sdcs-13-wing-gundam-zero-ew']
-        ],false,false,true
+        ],false,false,true,false
     ],
     ['Snow White',[1,'Wing Zero'],'MG',false,false,false,'Wing','B'],
     ['Snow White',[1,'Wing Zero'],'RG',false,false,false,'Wing','B'],
@@ -3910,7 +4211,7 @@ const projects = [
         ['https://hosting.photobucket.com/images/i/lesaintdumech/pborais07.jpeg','Profile Photo: PB 00 Raiser Trans-Am'],false,false,
         [
             ['Premium Bandai','https://p-bandai.com/us/item/N2519708001001']
-        ],false,false,true,'1:144'
+        ],false,false,true,'1:144',false,false,false,[models[22]]
     ],
     ['Silver \'n\' Gold',[1,'00 Gundam QAN[T]'],'RG',
         false,false,false,'00','B',false,0,false,'Builds/Gundams/SilverNGold.html',false,false,models[21]
@@ -3964,7 +4265,7 @@ const projects = [
         ],false,false,true,'1:144'
     ],
     ['Nena',[1,'Exia'],'SD',
-        false,false,false,'00','D','2021-12-07',4.95,false,'Builds/Gundams/Nena.html','SD Rock','2023-09-18',models[67],
+        false,false,false,'00','E','2021-12-07',4.95,false,'Builds/Gundams/Nena.html','SD Rock','2023-09-18',models[67],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/nena01.jpeg','Nena'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/nena02.jpeg','Nena'],
@@ -3981,7 +4282,7 @@ const projects = [
         ['https://hosting.photobucket.com/images/i/lesaintdumech/nena02.jpeg','Profile Photo: Nena'],
         'Hast du etwas Zeit f\u00FCr mich? Dann singe ich ein Lied f\u00FCr dich.',false,
         [
-            ['Video',''],
+            ['Video','https://www.instagram.com/reel/CxWEMvaOmVX/?igshid=MzRlODBiNWFlZA=='],
             ['USA Gundam Store','https://www.usagundamstore.com/products/sd-gundam-ex-standard-003-gundam-exia'],
             ['NewType','https://newtype.us/p/ahi6UOwPykwwh9oPynTg/h/sdex-standard-03-gundam-exia']
         ],false,true,true,false
@@ -4090,7 +4391,7 @@ const projects = [
             ['USA Gundam Store','https://www.usagundamstore.com/products/mg-1-100-gundam-virtue'],
             ['NewType','https://newtype.us/p/Qk1wgMICQffG5UlLTyfD/h/mg-gn-005-gundam-virtue'],
             ['Virtue Display Stand','https://www.usagundamstore.com/products/mg-virtue-display-stand']
-        ],false,false,true,'1:100','Birth of Nadleeh','Nadleeh / Virtue','Birth of Nadleeh'
+        ],false,false,true,'1:100','Birth of Nadleeh','Nadleeh / Virtue','Birth of Nadleeh',[models[78]]
     ],
     ['Zabanya (Final Battle)',[1,'Zabanya'],'HG',
         true,true,false,'00','E','2022-03-09',3,false,'Builds/PBandai/PBZabanyaFinalHG.html',false,'2022-11-07',models[71],
@@ -4273,7 +4574,7 @@ const projects = [
         ['https://hosting.photobucket.com/images/i/lesaintdumech/dominion10.jpeg','Battleship Dominion','img10'],
     ],
     ['https://hosting.photobucket.com/images/i/lesaintdumech/dominion05.jpeg','Profile Photo: Dominion'],
-    'I originally was not planning to build this. But my both my Archangels came out so fantastic and the fact the kit had the parts to build the Dominion just kept weighing on my mind that eventually I broke down and surrendered to the temptation and had to buy me a third Archangel kit. Besides, you cannot have the Archangel without staging its final dual with the Dominion. Therefore now preseneting to you, the Dominino.',false,false,['Archangel'],false,true,'1:1700'
+    'I originally was not planning to build this. But my both my Archangels came out so fantastic and the fact the kit had the parts to build the Dominion just kept weighing on my mind that eventually I broke down and surrendered to the temptation and had to buy me a third Archangel kit. Besides, you cannot have the Archangel without staging its final dual with the Dominion. Therefore now preseneting to you, the Dominino.',false,false,['Archangel'],false,true,'1:1700',false,false,false,[models[15]]
     ],
     ['Canis Beta',[1,'BuCUE'],'HG',false,false,false,'Seed','A'],
     ['Canis Gamma',[1,'BuCUE'],'HG',false,false,false,'Seed','A'],
@@ -4892,7 +5193,7 @@ const projects = [
         ['https://hosting.photobucket.com/images/i/lesaintdumech/pbpstrikerg06.jpeg','Profile Photo: P-Bandai Perfect Strike'],false,false,
         [
             ['Premium Bandai','https://p-bandai.com/us/item/N2487790001005']
-        ],false,false,true,'1:144',false,'Perfect Strike'
+        ],false,false,true,'1:144',false,'Perfect Strike',false,[models[60]]
     ],
     ['S.A.T.O.',[1,'Strike, Perfect'],'SD',
         false,false,false,'Seed','D','2022-01-05',14.85,false,'Builds/Gundams/SATO.html','SD Rock','',models[61]
@@ -5621,7 +5922,7 @@ const projects = [
             ['Video','https://www.instagram.com/reel/Cf48aw8lNmK/?igshid=YzcxN2Q2NzY0OA=='],
             ['USA Gundam Store','https://www.usagundamstore.com/products/bb379-delta-plus'],
             ['NewType','https://newtype.us/p/FwGjUKw2TJtylxXE2GUp/h/sdbb-379-delta-plus']
-        ],false,false,true,false
+        ],false,false,true,false,false,false,false,[models[82]]
     ],
     ['Interstellar',[1,'Dom Test Type'],'HG',
         false,false,false,'UC','E','2022-08-06',14.07,false,'Builds/Gundams/Interstellar.html',false,'2022-11-14',models[55],
@@ -5874,7 +6175,7 @@ const projects = [
         ['https://hosting.photobucket.com/images/i/lesaintdumech/pbod05.jpeg','Profile Photo: PB 00 Diver'],false,false,
         [
             ['Premium Bandai','https://p-bandai.com/us/item/N2486108001002']
-        ],false,false,true,'1:144'
+        ],false,false,true,'1:144',false,false,false,[models[22]]
     ],
     ['King Milky Way',[1,'Astray Rebake'],'HG',false,false,false,'BD','B'],
     ['Four Horsemen',[4,'Barbataurus','Barbataurus','Barbataurus','Barbataurus'],'HG',false,false,false,'BD','B'],
@@ -5929,7 +6230,7 @@ const projects = [
         [
             ['USA Gundam Store','https://www.usagundamstore.com/products/rg-1-144-23-build-strike-gundam-full-package'],
             ['NewType','https://newtype.us/p/QIE6S4m3dl46dKwRkzap/h/rg-23-build-strike-gundam-full-package']
-        ],['Moonage Daydream'],true,true,'1:144'
+        ],['Moonage Daydream'],true,true,'1:144',false,false,false,[models[60]]
     ],
     ['Moonage Daydream',[1,'Strike Full Package'],'SD',
         false,false,false,'BD','E','2021-11-06',7.27,false,'Builds/Gundams/MoonageDaydream.html',false,'2022-02-21',models[34],
@@ -5949,7 +6250,7 @@ const projects = [
         [
             ['USA Gundam Store','https://www.usagundamstore.com/products/bb388-build-strike-gundam-full-package?variant=6062886404'],
             ['NewType','https://newtype.us/p/Jo894rN6W9JMC7IrdI5x/h/sdbb-388-build-strike-full-package']
-        ],['Constellation'],false,true,false
+        ],['Constellation'],false,true,false,false,false,false,[models[60]]
     ],
     ['King Saturn',[1,'Transient'],'HG',false,false,false,'BD','B'],
     ['King Mercury',[1,'Try Age Magnum'],'HG',false,false,false,'BD','B'],
@@ -5992,7 +6293,7 @@ const projects = [
             ['TurboDork','https://turbodork.com/products/sakura'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/sdw-heroes-06-sasuke-delta-gundam?variant=37856509067461'],
             ['NewType','https://newtype.us/p/37iFUC8z3fCky22Mbkxp/h/sdw-heroes-06-sasuke-delta-gundam']
-        ],false,false,true,false
+        ],false,false,true,false,false,false,false,[models[82]]
     ],
     ['Sasuki Delta [SD]',[1,'Delta, Saskui'],'SD',true,false,false,'Heroes','E','2021-09-05',1.5,false,false,false,'2022-06-20'],
     ['Quetzalcaotl',[1,'Dragon, Dark Grasper'],'SD',false,false,false,'Heroes','B'],
@@ -6027,7 +6328,7 @@ const projects = [
         [
             ['USA Gundam Store','https://www.usagundamstore.com/products/sdw-heroes-03-sergeant-verde-buster-gundam'],
             ['NewType','https://newtype.us/p/eufjJyWFODY5XuvTiOIY/h/sdw-heroes-03-sergeant-verde-buster-gundam']
-        ],false,false,true,false,'The Law Giver'
+        ],false,false,true,false,'The Law Giver',false,false,[models[84]]
     ],
     ['Power Rangers',
         [7.5,'Trinity Bike','Verde Buster, Sergeant DX','Verde Buster, Sergeant DX','Verde Buster Team Member','Verde Buster Team Member','Verde Buster Team Member','Verde Buster Team Member'],'SD',false,false,false,'Heroes','E','2022-12-06',39.63,false,'Builds/SDW/mmpr.html',false,'2023-02-20',models[27],
@@ -6105,7 +6406,7 @@ const projects = [
             ['NewType','https://newtype.us/p/6WGpOtGU5sn6S4Zq5WxW/h/sdw-heroes-12-sergeant-verde-buster-gundam-dx-set'],
             ['NewType','https://newtype.us/p/9DnZDjp1oqrDn71o7qfZ/h/sdw-heroes-13-verde-buster-team-member'],
             ['Turbo Dork','https://turbodork.com']
-        ],false,true,true,false,false,'Mighty Morphin Power Rangers'
+        ],false,true,true,false,false,'Mighty Morphin Power Rangers',false,[models[83],models[84]]
     ],
     ['Eos',[1,'Wing, Cao Cao'],'SD',false,false,false,'Heroes','B'],    //Wing zero
     ['Aether',[1,'Wing, Cao Cao'],'SD',false,false,false,'Heroes','B'],    //Wing zero

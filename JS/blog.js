@@ -345,6 +345,24 @@ const blogArray = [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/Screenshot_2023-09-17_at_12.00.34_AM.jpeg']
         ],
         ['So far all I have is just one number guessing game. But I will be uploading more soon. Again do not expect anythning complex. Just simple little ditties cause why not.']
+    ],
+    [
+        '2023-09-18',
+        'Need More Kroutrock',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/nena01.jpeg',
+        [
+            [
+                'Time for this week\'s post. I present to you ',
+                ['Nena','Builds/Gundams/Nena.html'],
+                '.'
+            ]
+        ],
+        [
+            'No particular theme and inspiration here. I was going through an SD rush where I was painting a ton and needed a naming convention to tie them all together. And I ended up longing on 80s rock. Particularly Kroutrock. Long story short most the names I grabbed off of the Atomic Blonde movie official soundtrack.'
+        ],
+        [
+            'As for how that theme influenced the design of this model, it did not. I pretty much the names of colors out of a hat.'
+        ]
     ]
 ]
 
