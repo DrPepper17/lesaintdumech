@@ -1,0 +1,31 @@
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css" />  
+        <title>Le Saint du Mech: Dice Game</title>
+    </head>
+    <body>
+        <h1>Dice Game</h1>
+        <div style="text-align: right; padding-right: 100px"><a href="../games.html">Return To Games</a></div><br/>
+        <div style="text-align: right; padding-right: 100px"><a href="../index.html">Home Page</a></div><br/>
+       
+        <div class="container-fluid">
+            <h2>Rules:</h2>
+            <ul>
+                <li>When you click the Roll Dice! button, you will roll up to 10 dice, one at a time. 
+                <li>If you roll a 1, game stops and all further rolls are forfeited.</li>
+                <li>If you roll 2 or 3, you win nothing but you get to roll again.</li>
+                <li>If you roll a 4, you lose one gold coin but still get to roll again.</li>
+                <li>If you roll a 5, you win 5 gold coins and you get to roll again.</li>
+                <li>If you roll a 6, you win 6 gold coins and you get to roll again.</li>
+            </ul>
+            <button type="button" onclick="rollDice()">Roll Dice!</button>
+        </div>
+
+        <p>
+            <a href="../games.html">Return to Games</a> - <a href="../index.html">Home Page</a> 
+        </p>
+        <script src="gamesJS/dice-game.js"></script>
+    </body>
+</html>

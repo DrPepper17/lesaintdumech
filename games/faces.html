@@ -1,0 +1,81 @@
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Le Saint du Mech: Face Game</title>
+        <style>
+            img {
+                position: absolute;
+            }
+            div {
+                position: absolute;
+                width: 500px;
+                height: 500px;
+            }
+            #rightSide {
+                left: 500px;
+                border-left: 1px solid;
+            }
+        </style>
+    </head>
+    <body>
+        <div style="text-align: right; padding-right: 100px"><a href="../games.html">Return To Games</a></div><br/>
+        <div style="text-align: right; padding-right: 100px"><a href="../index.html">Home Page</a></div><br/>
+        <br/>
+       
+        <div class="container-fluid">
+            <h1>Matching Game</h1>
+            <p>Click on the extra smiling face on the left.</p>
+
+            <div id="leftSide"></div>
+            <div id="rightSide"></div>
+        </div>
+
+        <script>
+            window.addEventListener('load', generateFaces);
+            let numberOfFaces = 5;
+            const theLeftSide = document.getElementById('leftSide');
+            const theRightSide = document.getElementById('rightSide');
+
+            function generateFaces () {
+                for (i=0;i<numberOfFaces;i++) {
+                    const faceNode = document.createElement('img');
+                    faceNode.src = 'gamesIMG/smile.png';
+
+                    const randomTop = Math.floor(Math.random()*400)+1;
+                    const randomLeft = Math.floor(Math.random()*400)+1;
+
+                    faceNode.style.top = randomTop + 'px';
+                    faceNode.style.left = randomLeft + 'px';
+
+                    theLeftSide.appendChild(faceNode);
+                }
+
+                const leftSideImages = theLeftSide.cloneNode(true);
+                leftSideImages.removeChild(leftSideImages.lastChild);
+                theRightSide.appendChild(leftSideImages);
+
+                theLeftSide.lastChild.addEventListener('click',nextLevel);
+                document.body.addEventListener('click',gameOver);
+            }
+
+            function nextLevel(event) {
+                event.stopPropagation();
+                while(theLeftSide.firstChild) {
+                    theLeftSide.removeChild(theLeftSide.firstChild);
+                }
+                while(theRightSide.firstChild) {
+                    theRightSide.removeChild(theRightSide.firstChild);
+                }
+                numberOfFaces += 5;
+                generateFaces();
+            }
+
+            function gameOver() {
+                alert('Game Over!');
+                theLeftSide.lastChild.removeEventListener('click',nextLevel);
+                document.body.removeEventListener('click',gameOver);
+            }
+        </script>
+    </body>
+</html>
