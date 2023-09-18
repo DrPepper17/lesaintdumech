@@ -2759,7 +2759,7 @@ const models = [
         ['https://hosting.photobucket.com/images/i/lesaintdumech/shinmusha.jpeg','Shin Musha'],
         true
     ],
-    [73,1,'Eclipse Gundam Maneuver Striker ',
+    [73,1,'Eclipse Gundam Maneuver Striker',
         'MVF-X08+EW452HW Eclipse Gundam Maneuver Striker Pack Equipped',
         'MVF-X08+EW452HW',
         'Mobile Suit Gundam SEED Eclipse',
@@ -3382,6 +3382,46 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/epyonposter.jpeg','Gundam Epyon'],
         true
+    ],
+    [90,1,'Eclipse Gundam',
+        'MVF-X08 Eclipse Gundam ',
+        'MVF-X08',
+        'Mobile Suit Gundam SEED Eclipse',
+        false,    //boolean
+        ['ZGMF-X10A Freedom Gundam'],
+        [
+            'MVF-X08+EW452HW Eclipse Gundam Maneuver Striker Pack Equipped',
+            'MVF-X08+EW453R Eclipse Gundam Raijin Striker Pack Equipped'
+        ],
+        'Cosmic Century',
+        false,
+        'Tatsumi Hori',
+        false,
+        'Orb Union',
+        ['ORB Union','Orb Disaster Relief Team'],
+        [19.8,'19.8 Meters'],
+        [56.4,'56.4 Metric Tons'],
+        false,
+        'Ultracompact Energy Battery',
+        [
+            'PS-02 Beam Shield (x2)'
+        ],
+        [
+            'Type 72E4 Beam Rifle "Jinrai"',
+            'Type 72 Beam Saber'
+        ],
+        [
+            'Phase Shift Armor',
+            'Mirage Colloid Stealth System',
+            'Striker Pack System',
+            'MA Mode'
+        ],
+        'Junichi Akutsu',
+        false,                //boolean
+        false,
+        false,            //boolean
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/mgeclipse.jpeg','Eclipse Gundam'],
+        true           //boolean
     ]
 ];
 
@@ -4441,7 +4481,7 @@ const projects = [
         ],false,true,true,false
     ],
 
-    //Cosmic Century (Seed) 
+    //Cosmic Era (Seed) 
     ['Fluorescent',[1,'Aegis'],'SD',
         false,false,false,'Seed','E','2021-06-08',9.94,false,'Builds/Gundams/Fluorescent.html','Practice SDs','2021-06-24',models[19],
         [
@@ -4709,7 +4749,7 @@ const projects = [
     ],
     ['Iapetus',[1,'Destiny'],'SD',false,false,false,'Seed','B'],
     ['Thin Blue Line',[2,'Duel Gundam','Duel Gundam Assault Shroud'],'MG',false,false,false,'Seed','B'],
-    ['Eclipse ???',[1,'Eclipse'],'MG',false,false,false,'Seed','B'],
+    ['Monarch',[1,'Eclipse'],'MG',false,false,false,'Seed','B'],
     ['Maneuver Striker',[1.5,'Eclipse','Eclipse Maneuver Striker'],'MG',
         true,true,false,'Seed','E','2022-02',17.75,false,'Builds/PBandai/PBEclipseMG.html',false,'2023-01-30',models[73],
         [
@@ -4741,7 +4781,7 @@ const projects = [
         ['https://hosting.photobucket.com/images/i/lesaintdumech/pbmanstrike03.jpeg','Profile Photo: Maneuver Striker'],false,false,
         [
             ['Premium Bandai','https://p-bandai.com/us/item/N2583175001001']
-        ],false,false,true,'1:100'
+        ],false,false,true,'1:100',false,false,false,[models[90]]
     ],
     ['Eternal',[1,'Eternal'],'Ship',
         false,false,false,'Seed','E','2021-08-05',24.1,false,'Builds/Ships/Eternal.html',false,'2022-01-03',models[7],
