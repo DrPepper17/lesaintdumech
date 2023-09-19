@@ -3476,7 +3476,7 @@ const projects = [
     //Ad Stella (Mercury)
     ['Aerial (?)',[1,'Aerial'],'FM',false,false,false,'Mercury','A'],
     ['Aerial [HG]',[1,'Aerial'],'HG',true,false,false,'Mercury','D','2023-05-30',7.42,false,false,false],
-    ['PB Aerial Permet Six [HG]',[1,'Aerial'],'HG',true,true,false,'Mercury','B'],
+    ['PB Aerial Permet Six [HG]',[1,'Aerial'],'HG',true,true,false,'Mercury','C'],
     ['Ariel',[1.5,'Aerial','Mirasoul Flight Pack'],'HG',
         false,false,false,'Mercury','C','',0
     ],
@@ -6064,7 +6064,7 @@ const projects = [
         ],['BB Senshi RX-93ff \u03bd'],false,true
     ],
     ['Milos',[1,'Nu Gundam, Hi'],'SD',false,false,false,'UC','B'],
-    ['PB Umbrella Corp',[2,'Nu Gundam, Hi','Hi Nu Expansion Pack','Hi Nu Hyper Bazooka'],'RG',false,true,false,'UC','B'],
+    ['PB Umbrella Corp',[1.5,'Nu Gundam, Hi','Hi Nu Expansion Pack','Hi Nu Hyper Bazooka'],'RG',false,true,false,'UC','B'],
     ['Bella Donna',[2,'Phenex','Phenex'],'SD',
         false,false,false,'UC','E','2021-12-06',14.37,false,'Builds/Gundams/BellaDonna.html','Phoneix','2023-03-16',models[28],
         [
@@ -6729,7 +6729,7 @@ const projects = [
     ],
     ['Dogmatix',[1,'Riolu'],'Pokemon',
         false,false,false,'','C','',0.24
-    ],
+    ], 
     
     //Digimon
     ['Heimdall',[1,'Alphamon'],'Digimon',false,false,false,'','A'],
@@ -6825,6 +6825,7 @@ const projects = [
     ['Ragnarok',[1,'Omnimon'],'Digimon',
         false,false,false,'','E','2022-07-05',19.65,false,'Builds/Digimon/Ragnorok.html','Norse','2022-10-17',models[63],
         [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/9dcc6225b7a35fba85b21f1804b67b65.jpg','White Omnimon Fan Art'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/ragnarok01.jpeg','Ragnarok','img1'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/ragnarok02.jpeg','Ragnarok','img2'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/ragnarok03.jpeg','Ragnarok','img3'],

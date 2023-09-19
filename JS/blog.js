@@ -363,6 +363,12 @@ const blogArray = [
         [
             'As for how that theme influenced the design of this model, it did not. I pretty much the names of colors out of a hat.'
         ]
+    ],
+    [
+        '2023-09-19',
+        'Ne Touche',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/Screen_Shot_2022-10-04_at_10.03.09_PM.png',
+        ['You can look, but do not touch. :P']
     ]
 ]
 
