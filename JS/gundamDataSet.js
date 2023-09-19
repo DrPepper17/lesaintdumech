@@ -5512,7 +5512,7 @@ const projects = [
         ],['Armageddon'],false,true,'1:144'
     ],
     ['Samus: Metroid Suit',[1,'Windam'],'HG',
-        false,false,false,'Seed','C','2023-09-13',2.5,false,'Builds/Metroid/S_MetroidSuit.html'
+        false,false,false,'Seed','C','2023-09-13',2.57,false,'Builds/Metroid/S_MetroidSuit.html'
     ],
     ['Slash Zaku Phantom',[1,'Zaku Phantom, Slash'],'MG',
         true,true,false,'Seed','E','2023-04-05',11.83,false,'Builds/PBandai/PBPhantomZakuMG.html',false,'2023-07-31',models[75],
@@ -6711,15 +6711,25 @@ const projects = [
         ],false,false,true,false
     ], 
     ['Brennus',[1,'Groudon'],'Pokemon',false,false,false,'','A'],
-    ['Cassivellaunus',[1,'Gyrados'],'Pokemon',false,false,false,'','C','',0.25],
+    ['Cassivellaunus',[1,'Gyrados'],'Pokemon',
+        false,false,false,'','C','2023-09-18',1.24
+    ],
     ['Unhygienix',[1,'Magikarp'],'Pokemon',false,false,false,'','A'],
     ['Monosyllabix',[1,'Mew'],'Pokemon',false,false,false,'','B'],
     ['Polysyllabix',[1,'Mewtwo'],'Pokemon',false,false,false,'','B'],
-    ['Lutetia',[1,'Lucario'],'Pokemon',false,false,false,'','B'],
+    ['Lutetia',[1,'Lucario'],'Pokemon',
+        false,false,false,'','C','',0.57
+    ],
     ['Chanticleerix',[1,'Lugia'],'Pokemon',false,false,false,'','A'],
-    ['Cacofonix',[1,'Metagross'],'Pokemon',false,false,false,'','C','',0.17],
-    ['Getafix',[1,'Rayquaza'],'Pokemon',false,false,false,'','C','',0.25],
-    ['Dogmatix',[1,'Riolu'],'Pokemon',false,false,false,'','B'],
+    ['Cacofonix',[1,'Metagross'],'Pokemon',
+        false,false,false,'','C','2023-09-18',0.99
+    ],
+    ['Getafix',[1,'Rayquaza'],'Pokemon',
+        false,false,false,'','C','2023-09-18',1.4
+    ],
+    ['Dogmatix',[1,'Riolu'],'Pokemon',
+        false,false,false,'','C','',0.24
+    ],
     
     //Digimon
     ['Heimdall',[1,'Alphamon'],'Digimon',false,false,false,'','A'],
@@ -8861,6 +8871,36 @@ function homepageImages() {
     let homeIMG20SRC = document.createAttribute('src');
     homeIMG20SRC.value = randomPost[16][0];
     homeIMG20Node.setAttributeNode(homeIMG20SRC);
+
+    //IMG 21
+    randomN = Math.floor(Math.random()* tempArray.length);
+    randomPost = tempArray[randomN];
+    tempArray.splice(randomN,1);
+
+    let aIMG21Node = document.getElementById('aIMG21');
+    let aIMG21HREF = document.createAttribute('href');
+    aIMG21HREF.value = randomPost[11];
+    aIMG21Node.setAttributeNode(aIMG21HREF);
+
+    let homeIMG21Node = document.getElementById('homeIMG21');
+    let homeIMG21SRC = document.createAttribute('src');
+    homeIMG21SRC.value = randomPost[16][0];
+    homeIMG21Node.setAttributeNode(homeIMG21SRC);
+
+    //IMG 21
+    randomN = Math.floor(Math.random()* tempArray.length);
+    randomPost = tempArray[randomN];
+    tempArray.splice(randomN,1);
+
+    let aIMG22Node = document.getElementById('aIMG22');
+    let aIMG22HREF = document.createAttribute('href');
+    aIMG22HREF.value = randomPost[11];
+    aIMG22Node.setAttributeNode(aIMG22HREF);
+
+    let homeIMG22Node = document.getElementById('homeIMG22');
+    let homeIMG22SRC = document.createAttribute('src');
+    homeIMG22SRC.value = randomPost[16][0];
+    homeIMG22Node.setAttributeNode(homeIMG22SRC);
 }
 
 //Project Functions
