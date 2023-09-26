@@ -369,6 +369,24 @@ const blogArray = [
         'Ne Touche',
         'https://hosting.photobucket.com/images/i/lesaintdumech/Screen_Shot_2022-10-04_at_10.03.09_PM.png',
         ['You can look, but do not touch. :P']
+    ],
+    [
+        '2023-09-25',
+        'Bear of Persia',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/dobiel20.jpeg',
+        [
+            'Once again time for the weekly unveil. This week\'s post is special. Not only because it is the last post for the month of September but because it is also the first Gundam paint job for quite a while. Lately I\'ve had lots of P-Bandai straight builds and Pokemon posts that it feels good to get back to the main franchise that I love.'
+        ],
+        [
+            [
+                'This week I present to you ',
+                ['Dobiel','Builds/Gundams/Dobiel.html'],
+                ['.']
+            ]
+        ],
+        [
+            'Named of the Hebrew guardian angel of Persia, its name translates to \'God is my bear\'. This was a fun build and my second project from the new Witch from Mercury series. I had been waiting forever to build this since they first unveiled it in the anime, that soon as the kit became available I just had snatch it. Enjoy.'
+        ]
     ]
 ]
 

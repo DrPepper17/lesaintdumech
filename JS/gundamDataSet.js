@@ -3422,6 +3422,41 @@ const models = [
         false,            //boolean
         ['https://hosting.photobucket.com/images/i/lesaintdumech/mgeclipse.jpeg','Eclipse Gundam'],
         true           //boolean
+    ],
+    [91,1,'Gundv\u00F6lva',
+        'EDM-GB Gundv\u00F6lva',
+        'EDM-GB',
+        'Mobile Suit Gundam the Witch from Mercury',
+        false,
+        ['XGF-01 Gundam Lfrith Pre-Production Model'],
+        false,
+        'Ad Stella',
+        [122,'122 Ad Stella',122],
+        'Unmanned',
+        false,
+        'Ochs Earth Corporation',
+        ['Dawn of Fold'],
+        [18.5,'18.5 Meters'],           //Height
+        [42.9,'42.9 Metric Tons'],        //Weight
+        false,
+        false,
+        [
+            'Shell Unit'
+        ],
+        [
+            'Beam Carbine Rifle',
+            'Beam Shield',
+            'Beam Saber'
+        ],
+        [
+            'Gund Format'
+        ],
+        'Takayuki Yanase',
+        false,
+        false,
+        false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/volva.jpeg','Gundv\u00F6lva'],
+        false
     ]
 ];
 
@@ -3476,7 +3511,7 @@ const projects = [
     //Ad Stella (Mercury)
     ['Aerial (?)',[1,'Aerial'],'FM',false,false,false,'Mercury','A'],
     ['Aerial [HG]',[1,'Aerial'],'HG',true,false,false,'Mercury','D','2023-05-30',7.42,false,false,false],
-    ['PB Aerial Permet Six [HG]',[1,'Aerial'],'HG',true,true,false,'Mercury','C'],
+    ['PB Aerial Permet Six [HG]',[1,'Aerial'],'HG',true,true,false,'Mercury','D','2023-09-19',2.83],
     ['Ariel',[1.5,'Aerial','Mirasoul Flight Pack'],'HG',
         false,false,false,'Mercury','C','',0
     ],
@@ -3512,9 +3547,42 @@ const projects = [
     ],
     ['Dark Samus: Corruption',[1,'Gundvolva'],'HG',
         false,false,false,'Mercury','C','',0.25
-    ],
+    ], 
     ['Dobiel',[1,'Gundvolva'],'HG',
-        false,false,false,'Mercury','D','2023-08-07',12.7,true
+        false,false,false,'Mercury','E','2023-08-07',12.7,true,'Builds/Gundams/Dobiel.html','Angels','2023-09-25',models[91],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dobiel01.jpeg','Dobiel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dobiel02.jpeg','Dobiel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dobiel03.jpeg','Dobiel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dobiel04.jpeg','Dobiel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dobiel05.jpeg','Dobiel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dobiel06.jpeg','Dobiel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dobiel07.jpeg','Dobiel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dobiel08.jpeg','Dobiel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dobiel09.jpeg','Dobiel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dobiel10.jpeg','Dobiel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dobiel11.jpeg','Dobiel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dobiel12.jpeg','Dobiel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dobiel13.jpeg','Dobiel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dobiel14.jpeg','Dobiel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dobiel15.jpeg','Dobiel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dobiel16.jpg','Dobiel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dobiel17.jpg','Dobiel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dobiel20.jpeg','Dobiel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dobiel21.jpeg','Dobiel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dobiel22.jpeg','Dobiel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dobiel23.jpeg','Dobiel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dobiel18.JPG','Dobiel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dobiel19.JPG','Dobiel']
+        ],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/dobiel07.jpeg','Profile Photo: Dobiel'],
+        'Named after the Guardian angel of Persia. Dobiel is painted with the same color scheme I used for the King\'s Leir Dagger L. Basically this scheme has become my standard for all mass production main military mobile suits. I have used it on all my Daggers, my OZ Leo, and my Death Army unit Malphas.',false,
+        [
+            ['Video','https://www.instagram.com/reel/Cxok1oXu9rW/?igshid=MzRlODBiNWFlZA=='],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/hgtwfm-1-144-24-gundvolva'],
+            ['NewType','https://newtype.us/p/0LtLPFfPCrT5SfGPqKjS/h/hgwfm-24-gundv-lva'],
+            ['Dobiel','https://en.wikipedia.org/wiki/Dobiel']
+        ],['Malphas','King Leir','Leo Army'],false,true,'1:144'
     ],
     ['EMMI',[1,'Heindree'],'HG',false,false,false,'Mercury','A'],
     ['Adriel',[1,'LFrith'],'HG',false,false,false,'Mercury','C','',0],
@@ -4011,11 +4079,11 @@ const projects = [
         ],false,false,true,'1:144'
     ],
     ['Dark Zero',[1,'Wing Zero'],'MG',false,false,false,'Wing','B'],
-    ['Dark Zero',[1,'Wing Zero'],'RG',false,false,false,'Wing','A'],
-    ['Dark Zero',[1,'Wing Zero'],'SD',false,false,false,'Wing','A'],
+    ['Dark Zero [RG]',[1,'Wing Zero'],'RG',false,false,false,'Wing','A'],
+    ['Dark Zero [SD]',[1,'Wing Zero'],'SD',false,false,false,'Wing','A'],
     ['Fiery Mothra',[1,'Wing Zero'],'MG',false,false,false,'Wing','B'],
-    ['Fiery Mothra',[1,'Wing Zero'],'RG',false,false,false,'Wing','A'],
-    ['Fiery Mothra',[1,'Wing Zero'],'SD',false,false,false,'Wing','A'],
+    ['Fiery Mothra [RG]',[1,'Wing Zero'],'RG',false,false,false,'Wing','A'],
+    ['Fiery Mothra [SD]',[1,'Wing Zero'],'SD',false,false,false,'Wing','A'],
     ['Gold Dust Woman',[1,'Wing Zero'],'SD',
         false,false,false,'Wing','E','2021-09-09',8.37,false,'Builds/Gundams/GoldDustWoman.html','SD Rock','2022-02-01',models[32],
         [
@@ -4042,13 +4110,13 @@ const projects = [
         ],false,false,true,false
     ],
     ['Snow White',[1,'Wing Zero'],'MG',false,false,false,'Wing','B'],
-    ['Snow White',[1,'Wing Zero'],'RG',false,false,false,'Wing','B'],
-    ['Snow White',[1,'Wing Zero'],'SD',false,false,false,'Wing','A'],
+    ['Snow White [RG]',[1,'Wing Zero'],'RG',false,false,false,'Wing','B'],
+    ['Snow White [SD]',[1,'Wing Zero'],'SD',false,false,false,'Wing','A'],
     ['Wing Zero KA [MG]',[1,'Wing Zero','GFFMC Wings For MG Wing Zero'],'MG',true,false,false,'Wing','C','2022-06-05',10.83,false,false,false],
     ['Wing Zero [PG]',[1,'Wing Gundam'],'PG',true,false,false,'Wing','A'],
     ['Zero Traditional',[1,'Wing Zero'],'MG',false,false,false,'Wing','B'],
-    ['Zero Traditional',[1,'Wing Zero'],'RG',false,false,false,'Wing','B'],
-    ['Zero Traditional',[1,'Wing Zero'],'SD',false,false,false,'Wing','A'],
+    ['Zero Traditional [RG]',[1,'Wing Zero'],'RG',false,false,false,'Wing','B'],
+    ['Zero Traditional [SD]',[1,'Wing Zero'],'SD',false,false,false,'Wing','A'],
     ['Zero EW (mg)',[1,'Wing Zero'],'MG',false,false,false,'Wing','B'],
     ['Zero EW (rg)',[1,'Wing Zero'],'RG',false,false,false,'Wing','A'],
     ['Zero EW (sd)',[1,'Wing Zero'],'SD',false,false,false,'Wing','A'],
@@ -4695,7 +4763,7 @@ const projects = [
         [
             ['USA Gundam Store','https://www.usagundamstore.com/products/hgce-1-144-247-dagger-l'],
             ['NewType','https://newtype.us/p/V3s94PjelBrA0T06Q673/h/hgce-237-gat-o2l2-dagger-l']
-        ],['Malphas','Dobiel'],false,true,'1:144'
+        ],['Malphas','Dobiel','Leo Army'],false,true,'1:144'
     ],
     ['Samus: Dark Suit',[1,'Dagger L'],'HG',
         false,false,false,'Seed','D','2023-08-02',8.14,false,'Builds/Metroid/S_DarkSuit.html','Metroid','',models[23]
@@ -4929,11 +4997,11 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/liberty19.jpeg','Gundam Liberty','img19']
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/liberty12.jpeg','Profile Photo: Gundam Liberty'],
-        'For the theme/description here, just read the post for Gundam Anthem. Same inspiration behind this as well. With as complciated of a design as I was pursuing on the Anthem I wanted to try the same design but on somethings smaller. A la the Liberty. This project was basically a prototype for the Anthem just to test myself to see if I could pull it off.',false,
+        'For the theme/description here, just read the post for Gundam Anthem. Same inspiration behind this as well. With as complciated of a design as I was pursuing on the Anthem I wanted to try the same design but on somethings smaller. A la the Liberty. This project was basically a prototype for the Anthem just to test myself to see if I could pull it off.','Alice, Maryland',
         [
             ['USA Gundam Store','https://www.usagundamstore.com/products/pre-order-sd-gundam-cross-silhouette-freedom-gundam?variant=9558574923812'],
             ['NewType','https://newtype.us/p/vKxUpq1pJg9sDiFkRFZ1/h/sdcs-08-freedom-gundam']
-        ],['Anthem','Old Glory'],true,true,false
+        ],['Anthem','Old Glory'],false,true,false
     ],
     ['Old Glory',[1,'Freedom'],'MGSD',
         false,false,false,'Seed','E','2023-05-06',30.33,false,'Builds/Gundams/OldGlory.html','America','2023-07-03',models[14],
@@ -5090,11 +5158,11 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/pacifist13.jpeg','Gundam Pacifist','img13']
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/pacifist11.jpeg','Profile Photo: Gundam Pacifist'],
-        'Just like I did on Gundam Liberty for the Gundam Anthem project, I too for the Gadsden flag profject wanted to do a practice round on a much smaller model before attempting it on the much larger Master Grade kit. So this little model was my practice rehearsal at painting the Gadsden flag before painting Gundam Ye. Unlike Ye, this one had no Kanye influence. The model being so small I did not want to get overboard by swamping it with too much stuff so I just kept this strictly to the basic Gadsen theme. Which it honestly came out great. The hardest part of this project in all transparency was actually in deciding what to name it. And to give you the decision point on that, I kept thinking back to the rattlesnake and remembered hearing a Native American once give a speech about how in Native American lore the rattlesnake is viewed as Mother Nature\'s true pacifists. Basically they never (according to him) act out in unprovoked aggression. They always warn you first with their rattle before you get too close. And they only strike when you have totally gotten all up in their business. Unlike other animals, he said that they are peacekeepers who desire to avoid all conflict at all costs. I do not know how accurate that is. I certainly am not an expert on serpent psychology. But the description sounded deep and profound to me, as well as very wise and it always stuck with me. To this day I have a certain respect for rattlers that I do not for other snakes because of this. But anyhow... I now present to you, Gundam Pacifist !!!',false,
+        'Just like I did on Gundam Liberty for the Gundam Anthem project, I too for the Gadsden flag profject wanted to do a practice round on a much smaller model before attempting it on the much larger Master Grade kit. So this little model was my practice rehearsal at painting the Gadsden flag before painting Gundam Ye. Unlike Ye, this one had no Kanye influence. The model being so small I did not want to get overboard by swamping it with too much stuff so I just kept this strictly to the basic Gadsen theme. Which it honestly came out great. The hardest part of this project in all transparency was actually in deciding what to name it. And to give you the decision point on that, I kept thinking back to the rattlesnake and remembered hearing a Native American once give a speech about how in Native American lore the rattlesnake is viewed as Mother Nature\'s true pacifists. Basically they never (according to him) act out in unprovoked aggression. They always warn you first with their rattle before you get too close. And they only strike when you have totally gotten all up in their business. Unlike other animals, he said that they are peacekeepers who desire to avoid all conflict at all costs. I do not know how accurate that is. I certainly am not an expert on serpent psychology. But the description sounded deep and profound to me, as well as very wise and it always stuck with me. To this day I have a certain respect for rattlers that I do not for other snakes because of this. But anyhow... I now present to you, Gundam Pacifist !!!','Chase, Maryland',
         [
             ['USA Gundam Store','https://www.usagundamstore.com/products/bb268-justice-gundam'],
             ['NewType','https://newtype.us/p/IztRvBhzZPTcUVemeUIR/h/sdgg-268-zgmf-x09a-justice-gundam']
-        ],'Don\'t Tread On Ye',true,true,false
+        ],'Don\'t Tread On Ye',false,true,false
     ],
     ['\u221e Justice Clear',[1,'Infinite Justice'],'RG',
         true,true,false,'Seed','E','2021-11-09',4.93,false,'Builds/PBandai/PBInfiniJusticeRG.html',false,'2022-05-03',models[53],
@@ -5573,7 +5641,7 @@ const projects = [
             ['NewType','https://newtype.us/p/jyG6L0YpSElExWI5jPd7/h/hgfc-230-death-army'],
             ['Malphas','https://en.wikipedia.org/wiki/Malphas'],
             ['Ars Goetia','https://en.wikipedia.org/wiki/List_of_demons_in_the_Ars_Goetia']
-        ],['King Leir'],true,true,'1:144'
+        ],['King Leir','Dobiel','Leo Army'],true,true,'1:144'
     ],
     ['Asmodeus',[1,'Dark Gundam'],'SD',false,false,false,'G','B'],
     ['Baal',[1,'Dark Gundam'],'HG',false,false,false,'G','B'],
@@ -6714,22 +6782,26 @@ const projects = [
     ['Cassivellaunus',[1,'Gyrados'],'Pokemon',
         false,false,false,'','C','2023-09-18',1.24
     ],
+    ['Vitalstatistix',[1,'Ho-Oh'],'Pokemon',false,false,false,'','A'],
     ['Unhygienix',[1,'Magikarp'],'Pokemon',false,false,false,'','A'],
     ['Monosyllabix',[1,'Mew'],'Pokemon',false,false,false,'','B'],
     ['Polysyllabix',[1,'Mewtwo'],'Pokemon',false,false,false,'','B'],
     ['Lutetia',[1,'Lucario'],'Pokemon',
         false,false,false,'','C','',0.57
     ],
-    ['Chanticleerix',[1,'Lugia'],'Pokemon',false,false,false,'','A'],
+    ['Chanticleerix',[1,'Lugia'],'Pokemon',false,false,false,'','B'],
     ['Cacofonix',[1,'Metagross'],'Pokemon',
         false,false,false,'','C','2023-09-18',0.99
     ],
+    ['Picanmix',[1,'Piplup'],'Pokemon',false,false,false,'','B'],
     ['Getafix',[1,'Rayquaza'],'Pokemon',
         false,false,false,'','C','2023-09-18',1.4
     ],
+    ['Geriatrix',[1,'Reshiram'],'Pokemon',false,false,false,'','A'],
     ['Dogmatix',[1,'Riolu'],'Pokemon',
         false,false,false,'','C','',0.24
     ], 
+    ['Prolix',[1,'Zekrom'],'Pokemon',false,false,false,'','B'],
     
     //Digimon
     ['Heimdall',[1,'Alphamon'],'Digimon',false,false,false,'','A'],
