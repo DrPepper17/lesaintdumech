@@ -387,6 +387,23 @@ const blogArray = [
         [
             'Named of the Hebrew guardian angel of Persia, its name translates to \'God is my bear\'. This was a fun build and my second project from the new Witch from Mercury series. I had been waiting forever to build this since they first unveiled it in the anime, that soon as the kit became available I just had snatch it. Enjoy.'
         ]
+    ],
+    [
+        '2023-10-02',
+        'Charlemagne King of Roses',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/pbcharlemagne29.jpeg',
+        [
+            [
+                'Got something special for this week. One of the coolest Gundams from G Gundam and in a new P-Bandai enhanced kit I present to you ',
+                ['Charlemange','Builds/PBandai/Charlemagne.html'],
+                '.'
+            ]
+        ],
+        [
+            'Charlemagne is the new updated version of the HG kit of Gundam Rose. The original Rose HG kit was pretty lame. Very cheaply designed and very rudimentary. Basically just a front half mold and a back half mold slabbed together and called a Gundam kit. No special effects and especially not one of its signature feature, the Rose Bits.'
+        ],
+        ['However P-Bandai really stepped it up with this new kit. They added the rose bits, which are just cool. And made the cape panels come off and added a special display stand to feature Gundam Rose\'s signature move, Rose Hurricane, in action. This kit is truly one of a kind and I am excited to hear that they P-Bandai has announced plans to release another HG redesign of their G-Gundam, Gundam Maxter, coming out next sometime early next year. I will definitely be getting my hands on that one as well.'],
+        ['These new G-Gundam redesigns are just too cool. I am impressed.']
     ]
 ]
 
