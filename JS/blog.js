@@ -404,6 +404,18 @@ const blogArray = [
         ],
         ['However P-Bandai really stepped it up with this new kit. They added the rose bits, which are just cool. And made the cape panels come off and added a special display stand to feature Gundam Rose\'s signature move, Rose Hurricane, in action. This kit is truly one of a kind and I am excited to hear that they P-Bandai has announced plans to release another HG redesign of their G-Gundam, Gundam Maxter, coming out next sometime early next year. I will definitely be getting my hands on that one as well.'],
         ['These new G-Gundam redesigns are just too cool. I am impressed.']
+    ],
+    [
+        '2023-10-10',
+        'More PB (and J)',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/PBSDagger23.jpeg',
+        [
+            [
+                'Happy Columbus Day and another Happy start to the week. This week is another P-Bandai kit. So with no time to waste, I present to you the ',
+                ['Premium Bandai HG Strike Dagger straight build','Builds/PBandai/PBStrikeDaggers.html'],
+                '.'
+            ],
+        ]
     ]
 ]
 
