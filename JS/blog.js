@@ -416,6 +416,26 @@ const blogArray = [
                 '.'
             ],
         ]
+    ],
+    [
+        '2023-10-12',
+        'Strike Dagger Pt II',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/PBSDagger35.jpeg',
+        ['So of course I could not just build a straight build of the P-Bandai Strike Dagger without also wanting to paint it too. So without question I obviously did just that.'],
+        [
+            [
+                'As part of part two of this week\'s reveal I have just uploaded the photos of the paint build I did for the ',
+                ['Strike Dagger','Builds/PBandai/PBStrikeDaggers.html'],
+                ' to the build\'s page.'
+            ],
+        ],
+        ['Go check it out.'],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/PBSDagger53.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/PBSDagger49.jpeg']
+        ]
     ]
 ]
 

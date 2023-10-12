@@ -3582,7 +3582,7 @@ const projects = [
         ],false,false,true,'1:144'
     ],
     ['Dark Samus: Echoes',[1,'Gundvolva'],'HG',
-        false,false,false,'Mercury','C','',0.25
+        false,false,false,'Mercury','C','2023-10-11',2.42
     ],
     ['Dark Samus: Corruption',[1,'Gundvolva'],'HG',
         false,false,false,'Mercury','C','',0.25
@@ -5378,7 +5378,38 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/PBSDagger07.jpeg','P-Bandai Strike Dagger Straight Build'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/PBSDagger08.jpeg','P-Bandai Strike Dagger Straight Build'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/PBSDagger09.jpeg','P-Bandai Strike Dagger Straight Build'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBSDagger10.jpeg','P-Bandai Strike Dagger Straight Build']
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBSDagger10.jpeg','P-Bandai Strike Dagger Straight Build'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBSDagger30.jpeg','P-Bandai Strike Dagger'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBSDagger31.jpeg','P-Bandai Strike Dagger'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBSDagger32.jpeg','P-Bandai Strike Dagger'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBSDagger33.jpeg','P-Bandai Strike Dagger'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBSDagger34.jpeg','P-Bandai Strike Dagger'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBSDagger35.jpeg','P-Bandai Strike Dagger'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBSDagger36.jpeg','P-Bandai Strike Dagger'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBSDagger37.jpeg','P-Bandai Strike Dagger'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBSDagger38.jpeg','P-Bandai Strike Dagger'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBSDagger39.jpeg','P-Bandai Strike Dagger'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBSDagger40.jpeg','P-Bandai Strike Dagger'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBSDagger41.jpeg','P-Bandai Strike Dagger'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBSDagger42.jpeg','P-Bandai Strike Dagger'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBSDagger43.jpeg','P-Bandai Strike Dagger'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBSDagger44.jpeg','P-Bandai Strike Dagger'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBSDagger45.jpeg','P-Bandai Strike Dagger'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBSDagger46.jpeg','P-Bandai Strike Dagger'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBSDagger47.jpeg','P-Bandai Strike Dagger'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBSDagger48.jpeg','P-Bandai Strike Dagger'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBSDagger49.jpeg','P-Bandai Strike Dagger'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBSDagger50.jpeg','P-Bandai Strike Dagger'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBSDagger51.jpeg','P-Bandai Strike Dagger'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBSDagger52.jpeg','P-Bandai Strike Dagger'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBSDagger53.jpeg','P-Bandai Strike Dagger'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBSDagger54.jpeg','P-Bandai Strike Dagger'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBSDagger55.jpeg','P-Bandai Strike Dagger'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBSDagger56.jpeg','P-Bandai Strike Dagger'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBSDagger57.jpeg','P-Bandai Strike Dagger'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBSDagger58.jpeg','P-Bandai Strike Dagger'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBSDagger59.jpeg','P-Bandai Strike Dagger'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBSDagger60.jpeg','P-Bandai Strike Dagger']
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/PBSDagger23.jpeg','Profile Photo: P-Bandai Strike Dagger'],
         'The Dagger L has long been my favorite HG kit. So when I saw that P-Bandai was now selling the origins of the Dagger L, the Strike Dagger, it was an immediate of course. Yes I had to build it. I ordered three. One to do as a straight build. A second to paint in the traditional color. And a third to be painted in something new. (More details on the third yet to come). Loved this kit. It came out well. I am quite proud. ... Also, is it just me or does the helmet on the Strike Dagger look a lot like a football helmet. Definitely gives off strong Gundam Maxter vibes.',false,
@@ -5659,7 +5690,7 @@ const projects = [
         ],['Armageddon'],false,true,'1:144'
     ],
     ['Samus: Metroid Suit',[1,'Windam'],'HG',
-        false,false,false,'Seed','C','2023-09-13',4.34,false,'Builds/Metroid/S_MetroidSuit.html'
+        false,false,false,'Seed','C','2023-09-13',4.92,false,'Builds/Metroid/S_MetroidSuit.html'
     ],
     ['Slash Zaku Phantom',[1,'Zaku Phantom, Slash'],'MG',
         true,true,false,'Seed','E','2023-04-05',11.83,false,'Builds/PBandai/PBPhantomZakuMG.html',false,'2023-07-31',models[75],
@@ -6800,7 +6831,7 @@ const projects = [
     
     //Pokemon
     ['Obelix',[1,'Bulbasaur'],'Pokemon',
-        false,false,false,'','C','2023-09-13',1.83,false
+        false,false,false,'','C','2023-09-13',2.08,false
     ],
     ['Asterix',[1,'Charmander'],'Pokemon',
         false,false,false,'','E','2023-03-12',3.85,false,'Builds/Pokemon/Asterix.html',false,'2023-08-28',models[79],
@@ -6928,7 +6959,7 @@ const projects = [
     ], 
     ['Brennus',[1,'Groudon'],'Pokemon',false,false,false,'','A'],
     ['Cassivellaunus',[1,'Gyarados'],'Pokemon',
-        false,false,false,'','C','2023-09-18',1.35
+        false,false,false,'','C','2023-09-18',1.85
     ],
     ['Vitalstatistix',[1,'Ho-Oh'],'Pokemon',false,false,false,'','A'],
     ['Unhygienix',[1,'Magikarp'],'Pokemon',false,false,false,'','A'],
@@ -6939,15 +6970,15 @@ const projects = [
     ],
     ['Chanticleerix',[1,'Lugia'],'Pokemon',false,false,false,'','C','',0],
     ['Cacofonix',[1,'Metagross'],'Pokemon',
-        false,false,false,'','C','2023-09-18',2.45
+        false,false,false,'','C','2023-09-18',2.79
     ],
     ['Picanmix',[1,'Piplup'],'Pokemon',false,false,false,'','C','',0],
     ['Getafix',[1,'Rayquaza'],'Pokemon',
-        false,false,false,'','C','2023-09-18',2.24
+        false,false,false,'','C','2023-09-18',2.32
     ],
     ['Geriatrix',[1,'Reshiram'],'Pokemon',false,false,false,'','A'],
     ['Dogmatix',[1,'Riolu'],'Pokemon',
-        false,false,false,'','C','2023-10-03',0.97
+        false,false,false,'','C','2023-10-03',1.05
     ], 
     ['Prolix',[1,'Zekrom'],'Pokemon',false,false,false,'','C','',0],
     
