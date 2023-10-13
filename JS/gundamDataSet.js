@@ -3582,7 +3582,7 @@ const projects = [
         ],false,false,true,'1:144'
     ],
     ['Dark Samus: Echoes',[1,'Gundvolva'],'HG',
-        false,false,false,'Mercury','C','2023-10-11',2.42
+        false,false,false,'Mercury','C','2023-10-11',3.67
     ],
     ['Dark Samus: Corruption',[1,'Gundvolva'],'HG',
         false,false,false,'Mercury','C','',0.25
@@ -3635,7 +3635,7 @@ const projects = [
     ['Gamma Draconis',[1,'Danazine'],'HG',false,false,false,'Age','B'],
 
     //After Colony (Wing)
-    ['Leo Army',[6,'Leo'],'LEO',false,false,false,'Wing','C','2021-10-03',39.59,false,'Builds/LeoArmy.html',false],
+    ['Leo Army',[6,'Leo'],'LEO',false,false,false,'Wing','C','2021-10-03',39.76,false,'Builds/LeoArmy.html',false],
     ['South Park',[6,'Tallgeese','Epyon','Heavy Arms','Shenlong','Deathscythe','Sandrock'],'SD',
         false,false,false,'Wing','E','2021-06-05',54.42,true,'Builds/uniqueTemplates/SouthPark.html','Practice SDs','2021-06-21',models[6],
         [
@@ -5414,6 +5414,7 @@ const projects = [
         ['https://hosting.photobucket.com/images/i/lesaintdumech/PBSDagger23.jpeg','Profile Photo: P-Bandai Strike Dagger'],
         'The Dagger L has long been my favorite HG kit. So when I saw that P-Bandai was now selling the origins of the Dagger L, the Strike Dagger, it was an immediate of course. Yes I had to build it. I ordered three. One to do as a straight build. A second to paint in the traditional color. And a third to be painted in something new. (More details on the third yet to come). Loved this kit. It came out well. I am quite proud. ... Also, is it just me or does the helmet on the Strike Dagger look a lot like a football helmet. Definitely gives off strong Gundam Maxter vibes.',false,
         [
+            ['Video','https://www.instagram.com/reel/CyTM6JPultl/?igshid=MzRlODBiNWFlZA=='],
             ['Premium Bandai','https://p-bandai.com/us/item/N2595691001002']
         ],['King Leir'],false,true,'1:144'
     ],
@@ -5690,7 +5691,7 @@ const projects = [
         ],['Armageddon'],false,true,'1:144'
     ],
     ['Samus: Metroid Suit',[1,'Windam'],'HG',
-        false,false,false,'Seed','C','2023-09-13',4.92,false,'Builds/Metroid/S_MetroidSuit.html'
+        false,false,false,'Seed','C','2023-09-13',5,false,'Builds/Metroid/S_MetroidSuit.html'
     ],
     ['Slash Zaku Phantom',[1,'Zaku Phantom, Slash'],'MG',
         true,true,false,'Seed','E','2023-04-05',11.83,false,'Builds/PBandai/PBPhantomZakuMG.html',false,'2023-07-31',models[75],
@@ -6831,7 +6832,7 @@ const projects = [
     
     //Pokemon
     ['Obelix',[1,'Bulbasaur'],'Pokemon',
-        false,false,false,'','C','2023-09-13',2.08,false
+        false,false,false,'','C','2023-09-13',2.17,false
     ],
     ['Asterix',[1,'Charmander'],'Pokemon',
         false,false,false,'','E','2023-03-12',3.85,false,'Builds/Pokemon/Asterix.html',false,'2023-08-28',models[79],
@@ -6959,26 +6960,26 @@ const projects = [
     ], 
     ['Brennus',[1,'Groudon'],'Pokemon',false,false,false,'','A'],
     ['Cassivellaunus',[1,'Gyarados'],'Pokemon',
-        false,false,false,'','C','2023-09-18',1.85
+        false,false,false,'','C','2023-09-18',3.44
     ],
     ['Vitalstatistix',[1,'Ho-Oh'],'Pokemon',false,false,false,'','A'],
     ['Unhygienix',[1,'Magikarp'],'Pokemon',false,false,false,'','A'],
     ['Monosyllabix',[1,'Mew'],'Pokemon',false,false,false,'','C','',0],
     ['Polysyllabix',[1,'Mewtwo'],'Pokemon',false,false,false,'','C','',0],
     ['Lutetia',[1,'Lucario'],'Pokemon',
-        false,false,false,'','C','2023-10-03',2
+        false,false,false,'','C','2023-10-03',2.59
     ],
     ['Chanticleerix',[1,'Lugia'],'Pokemon',false,false,false,'','C','',0],
     ['Cacofonix',[1,'Metagross'],'Pokemon',
-        false,false,false,'','C','2023-09-18',2.79
+        false,false,false,'','C','2023-09-18',2.87
     ],
     ['Picanmix',[1,'Piplup'],'Pokemon',false,false,false,'','C','',0],
     ['Getafix',[1,'Rayquaza'],'Pokemon',
-        false,false,false,'','C','2023-09-18',2.32
+        false,false,false,'','C','2023-09-18',2.57
     ],
     ['Geriatrix',[1,'Reshiram'],'Pokemon',false,false,false,'','A'],
     ['Dogmatix',[1,'Riolu'],'Pokemon',
-        false,false,false,'','C','2023-10-03',1.05
+        false,false,false,'','C','2023-10-03',1.14
     ], 
     ['Prolix',[1,'Zekrom'],'Pokemon',false,false,false,'','C','',0],
     
