@@ -2083,7 +2083,7 @@ const models = [
         [195,'April 7, 195 A.C.',195],
         'Heero Yuy',
         ['Trowa Barton','Lady Une'],
-        'Jay Null',
+        'Dr. Jay Null',
         ['Colony Liberation Organization','G Team','Operation Meteor','Sanc Kingdom'],
         [16.3,'16.3 Meters'],           //Height
         [7.1,'7.1 Metric Tons'],        //Weight
@@ -3266,7 +3266,7 @@ const models = [
         ],
         'Kunio Okawara',
         false,
-        'Gundam Zero-Two',
+        'The God of Death',
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/deathscythetv.jpeg','Gundam Deathscythe'],
         true
@@ -3496,6 +3496,43 @@ const models = [
         false,            //boolean
         ['https://hosting.photobucket.com/images/i/lesaintdumech/Strike_Dagger.jpeg','Strike Dagger'],
         false           //boolean
+    ],
+    [93,1,'Gundam Deathscythe Hell',
+        'XXXG-01D2 Gundam Deathscythe Hell',
+        'XXXG-01D2',
+        'Mobile Suit Gundam Wing',
+        false,
+        ['XXXG-01D Gundam Deathscythe'],
+        false,
+        'After Colony',
+        [195,'195 A.C.',196],
+        'Duo Maxwell',
+        false,
+        'Gundam Scientists',
+        ['G Team','Peacemillion'],
+        [16.3,'16.3 Meters'],
+        [7.4,'7.4 Metric Tons'],
+        'Gundanium Alloy',
+        'Ultracompact Fusion Reactor',
+        [
+            'Active Cloak',
+            'Hyper Jammer (x2)',
+            'Vulcan Gun (x2)'
+        ],
+        [
+            'Twin Beam Scythe',
+            'Buster Shield'
+        ],
+        [
+            'OS: Standard Gundam Operating System',
+            'Self-Destruct System'
+        ],
+        'Kunio Okawara',
+        false,
+        'The God of Death',
+        false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/dshtv.jpg','Deathscythe Hell (TV Version)'],
+        true
     ]
 ];
 
@@ -3718,7 +3755,31 @@ const projects = [
     ],
     ['Pontus',[1,'Aquarius'],'SD',false,false,false,'Wing','B',false,0,false,'Builds/Gundams/Pontus.html','Titans',false,models[40]],
     ['Alucard',[1,'Deathscythe Hell (TV Version'],'HG',
-        false,true,false,'Wing','D','2023-08-02',16.38
+        false,true,false,'Wing','E','2023-08-02',16.38,false,'Builds/PBandai/PBAlucard.html',false,'2023/10/16',models[93],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBDScytheHell01.jpeg','P-Bandai Deathscythe Hell'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBDScytheHell02.jpeg','P-Bandai Deathscythe Hell'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBDScytheHell03.jpeg','P-Bandai Deathscythe Hell'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBDScytheHell04.jpeg','P-Bandai Deathscythe Hell'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBDScytheHell05.jpeg','P-Bandai Deathscythe Hell'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBDScytheHell06.jpeg','P-Bandai Deathscythe Hell'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBDScytheHell07.jpeg','P-Bandai Deathscythe Hell'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBDScytheHell08.jpeg','P-Bandai Deathscythe Hell'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBDScytheHell09.jpeg','P-Bandai Deathscythe Hell'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBDScytheHell10.jpeg','P-Bandai Deathscythe Hell'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBDScytheHell11.jpeg','P-Bandai Deathscythe Hell'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBDScytheHell12.jpeg','P-Bandai Deathscythe Hell'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBDScytheHell13.jpeg','P-Bandai Deathscythe Hell'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBDScytheHell14.jpeg','P-Bandai Deathscythe Hell'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBDScytheHell15.jpeg','P-Bandai Deathscythe Hell'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBDScytheHell16.jpeg','P-Bandai Deathscythe Hell'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBDScytheHell17.jpeg','P-Bandai Deathscythe Hell']
+        ],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/PBDScytheHell17.jpeg','Profile Photo: Alucard'],
+        'So Gundam Wing was the first Gundam series I was ever introduced to and my favorite. The designs of each movile suit in the tv series, particularly the Gundams, were so unique and amazing I just absolutely loved them. However years later for the movie and the new mangas all the Gundams got redesigned into the EW versions. The Some of the EWs were cool, i.e. Wing, Heavyarms and Altron. Some seemed pointless in that it was difficult to tell the difference, Sandrock, Tallgueese and Epyon. But one in particular I absolutely hated the redesign and thought it made it wrose, and that was the Deathscythe Hellscythe. However annoying soon as they unvieled the EW redesign they completely retired the tv original version completely out of canon that it has been completely impossible to find model kits of the original in rotation. Which had been driving me crazy. Anyhow recently Premium Bandai announced the tv version being sold online as a limited time P-Bandai exclusive. So I just had to grab it. No presenting to you PB Alucard. THis kit and build has been long time overdue. ',false,
+        [
+            ['Premium Bandai','https://p-bandai.com/us/item/N2554771001001']
+        ],false,false,true,'1:144'
     ],
     ['Epyon [RG]',[1,'Epyon'],'RG',true,false,false,'Wing','A'],
     ['Golden Ghidorah',[1,'Epyon'],'MG',false,false,false,'Wing','B'],

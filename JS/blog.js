@@ -436,6 +436,19 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/PBSDagger49.jpeg']
         ]
+    ],
+    [
+        '2023-10-16',
+        'The God of Death',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/PBDScytheHell09.jpeg',
+        [
+            [
+                'Doing another P-Bandai build this week. Starting off first with a straight build of the Gundam ',
+                ['Deathscythe Hell','Builds/PBandai/PBAlucard.html'],
+                '.'
+            ],
+        ],
+        ['Specifically this model is the TV Version of Deathscythe Hell. The TV Version lately has become real hard to find due to the EW custom version having taken dominance. So this kti ware a real special and rare treat.']
     ]
 ]
 
