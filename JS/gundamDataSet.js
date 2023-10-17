@@ -3757,6 +3757,7 @@ const projects = [
     ['Alucard',[1,'Deathscythe Hell (TV Version'],'HG',
         false,true,false,'Wing','E','2023-08-02',16.38,false,'Builds/PBandai/PBAlucard.html',false,'2023/10/16',models[93],
         [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBDScytheHell18.jpeg','P-Bandai Deathscythe Hell'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/PBDScytheHell01.jpeg','P-Bandai Deathscythe Hell'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/PBDScytheHell02.jpeg','P-Bandai Deathscythe Hell'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/PBDScytheHell03.jpeg','P-Bandai Deathscythe Hell'],
