@@ -3619,7 +3619,7 @@ const projects = [
         ],false,false,true,'1:144'
     ],
     ['Dark Samus: Echoes',[1,'Gundvolva'],'HG',
-        false,false,false,'Mercury','C','2023-10-11',3.67
+        false,false,false,'Mercury','C','2023-10-11',6.17
     ],
     ['Dark Samus: Corruption',[1,'Gundvolva'],'HG',
         false,false,false,'Mercury','C','',0.25
@@ -3672,7 +3672,7 @@ const projects = [
     ['Gamma Draconis',[1,'Danazine'],'HG',false,false,false,'Age','B'],
 
     //After Colony (Wing)
-    ['Leo Army',[6,'Leo'],'LEO',false,false,false,'Wing','C','2021-10-03',39.76,false,'Builds/LeoArmy.html',false],
+    ['Leo Army',[6,'Leo'],'LEO',false,false,false,'Wing','C','2021-10-03',40.03,false,'Builds/Gundams/LeoArmy.html',false],
     ['South Park',[6,'Tallgeese','Epyon','Heavy Arms','Shenlong','Deathscythe','Sandrock'],'SD',
         false,false,false,'Wing','E','2021-06-05',54.42,true,'Builds/uniqueTemplates/SouthPark.html','Practice SDs','2021-06-21',models[6],
         [
@@ -3755,7 +3755,7 @@ const projects = [
     ],
     ['Pontus',[1,'Aquarius'],'SD',false,false,false,'Wing','B',false,0,false,'Builds/Gundams/Pontus.html','Titans',false,models[40]],
     ['Alucard',[1,'Deathscythe Hell (TV Version'],'HG',
-        false,true,false,'Wing','E','2023-08-02',16.38,false,'Builds/PBandai/PBAlucard.html',false,'2023/10/16',models[93],
+        false,true,false,'Wing','E','2023-08-02',16.38,false,'Builds/PBandai/PBAlucard.html',false,'2023-10-19',models[93],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/PBDScytheHell18.jpeg','P-Bandai Deathscythe Hell'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/PBDScytheHell01.jpeg','P-Bandai Deathscythe Hell'],
@@ -3774,12 +3774,31 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/PBDScytheHell14.jpeg','P-Bandai Deathscythe Hell'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/PBDScytheHell15.jpeg','P-Bandai Deathscythe Hell'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/PBDScytheHell16.jpeg','P-Bandai Deathscythe Hell'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBDScytheHell17.jpeg','P-Bandai Deathscythe Hell']
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBDScytheHell17.jpeg','P-Bandai Deathscythe Hell'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbaluc01.jpeg','PB Alucard'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbaluc02.jpeg','PB Alucard'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbaluc03.jpeg','PB Alucard'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbaluc04.jpeg','PB Alucard'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbaluc05.jpeg','PB Alucard'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbaluc06.jpeg','PB Alucard'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbaluc07.jpeg','PB Alucard'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbaluc08.jpeg','PB Alucard'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbaluc09.jpeg','PB Alucard'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbaluc10.jpeg','PB Alucard'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbaluc11.jpeg','PB Alucard'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbaluc12.jpeg','PB Alucard'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbaluc13.jpeg','PB Alucard'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbaluc14.jpeg','PB Alucard'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbaluc15.jpeg','PB Alucard']
         ],
-        ['https://hosting.photobucket.com/images/i/lesaintdumech/PBDScytheHell17.jpeg','Profile Photo: Alucard'],
-        'So Gundam Wing was the first Gundam series I was ever introduced to and my favorite. The designs of each movile suit in the tv series, particularly the Gundams, were so unique and amazing I just absolutely loved them. However years later for the movie and the new mangas all the Gundams got redesigned into the EW versions. The Some of the EWs were cool, i.e. Wing, Heavyarms and Altron. Some seemed pointless in that it was difficult to tell the difference, Sandrock, Tallgueese and Epyon. But one in particular I absolutely hated the redesign and thought it made it wrose, and that was the Deathscythe Hellscythe. However annoying soon as they unvieled the EW redesign they completely retired the tv original version completely out of canon that it has been completely impossible to find model kits of the original in rotation. Which had been driving me crazy. Anyhow recently Premium Bandai announced the tv version being sold online as a limited time P-Bandai exclusive. So I just had to grab it. No presenting to you PB Alucard. THis kit and build has been long time overdue. ',false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/pbaluc10.jpeg','Profile Photo: Alucard'],
+        'So Gundam Wing was the first Gundam series I was ever introduced to and my favorite. The designs of each movile suit in the tv series, particularly the Gundams, were so unique and amazing I just absolutely loved them. However years later for the movie and the new mangas all the Gundams got redesigned into the EW versions. The Some of the EWs were cool, i.e. Wing, Heavyarms and Altron. Some seemed pointless in that it was difficult to tell the difference, Sandrock, Tallgueese and Epyon. But one in particular I absolutely hated the redesign and thought it made it wrose, and that was the Deathscythe Hellscythe. However annoying soon as they unvieled the EW redesign they completely retired the tv original version completely out of canon that it has been completely impossible to find model kits of the original in rotation. Which had been driving me crazy. Anyhow recently Premium Bandai announced the tv version being sold online as a limited time P-Bandai exclusive. So I just had to grab it. I wound up grabbing two. Not because I wanted to do a straight build, but because some of the intricate details, particularly the tiny bones on the chest, I was scared of messing up so I figured it best to have a backup. Luckily, and maybe this shows my skill is improving, that I got it right on the first attempt and did not have to grab the spare at all. But there is no use in leaving a spare kit laying around so afterwards I wound up building as a straight build just to compare the paint verse the straight. Logically the paint job looks best. So without further adieu, I present to you the son of Dracula himself, PB Alucard. THis kit and build has been long time overdue. ',false,
         [
-            ['Premium Bandai','https://p-bandai.com/us/item/N2554771001001']
+            ['Video','https://www.instagram.com/reel/CymDh9xOFkT/?igshid=MzRlODBiNWFlZA=='],
+            ['Premium Bandai','https://p-bandai.com/us/item/N2554771001001'],
+            ['Turbo Dork: Black Ice','https://turbodork.com/products/black-ice'],
+            ['Turbo Dork: Rainbow Roll','https://turbodork.com/products/rainbow-roll'],
+            ['Turbo Dork: Sparkling Motion','https://turbodork.com/products/sparkle-motion']
         ],false,false,true,'1:144'
     ],
     ['Epyon [RG]',[1,'Epyon'],'RG',true,false,false,'Wing','A'],
@@ -5753,7 +5772,7 @@ const projects = [
         ],['Armageddon'],false,true,'1:144'
     ],
     ['Samus: Metroid Suit',[1,'Windam'],'HG',
-        false,false,false,'Seed','C','2023-09-13',5,false,'Builds/Metroid/S_MetroidSuit.html'
+        false,false,false,'Seed','C','2023-09-13',5.34,false,'Builds/Metroid/S_MetroidSuit.html'
     ],
     ['Slash Zaku Phantom',[1,'Zaku Phantom, Slash'],'MG',
         true,true,false,'Seed','E','2023-04-05',11.83,false,'Builds/PBandai/PBPhantomZakuMG.html',false,'2023-07-31',models[75],
@@ -7022,26 +7041,26 @@ const projects = [
     ], 
     ['Brennus',[1,'Groudon'],'Pokemon',false,false,false,'','A'],
     ['Cassivellaunus',[1,'Gyarados'],'Pokemon',
-        false,false,false,'','C','2023-09-18',3.44
+        false,false,false,'','C','2023-09-18',4.27
     ],
     ['Vitalstatistix',[1,'Ho-Oh'],'Pokemon',false,false,false,'','A'],
     ['Unhygienix',[1,'Magikarp'],'Pokemon',false,false,false,'','A'],
     ['Monosyllabix',[1,'Mew'],'Pokemon',false,false,false,'','C','',0],
     ['Polysyllabix',[1,'Mewtwo'],'Pokemon',false,false,false,'','C','',0],
     ['Lutetia',[1,'Lucario'],'Pokemon',
-        false,false,false,'','C','2023-10-03',2.59
+        false,false,false,'','C','2023-10-03',3.75
     ],
     ['Chanticleerix',[1,'Lugia'],'Pokemon',false,false,false,'','C','',0],
     ['Cacofonix',[1,'Metagross'],'Pokemon',
-        false,false,false,'','C','2023-09-18',2.87
+        false,false,false,'','C','2023-09-18',3.45
     ],
     ['Picanmix',[1,'Piplup'],'Pokemon',false,false,false,'','C','',0],
     ['Getafix',[1,'Rayquaza'],'Pokemon',
-        false,false,false,'','C','2023-09-18',2.57
+        false,false,false,'','C','2023-09-18',4.49
     ],
     ['Geriatrix',[1,'Reshiram'],'Pokemon',false,false,false,'','A'],
     ['Dogmatix',[1,'Riolu'],'Pokemon',
-        false,false,false,'','C','2023-10-03',1.14
+        false,false,false,'','C','2023-10-03',1.97
     ], 
     ['Prolix',[1,'Zekrom'],'Pokemon',false,false,false,'','C','',0],
     

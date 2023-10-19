@@ -449,6 +449,33 @@ const blogArray = [
             ],
         ],
         ['Specifically this model is the TV Version of Deathscythe Hell. The TV Version lately has become real hard to find due to the EW custom version having taken dominance. So this kti ware a real special and rare treat.']
+    ],
+    [
+        '2023-10-19',
+        'Son of Dracul',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/pbaluc07.jpeg',
+        [
+            [
+                'Once again this week\'s build is in two parts. Monday I posted the straight build. But today I now present to you, ',
+                ['Alcuard','Builds/PBandai/PBAlucard.html'],
+                ', my paint build of the HG Deathscythe Hell.'
+            ]
+        ],
+        [
+            [
+                'For this I used a combination of ',
+                ['Turbo Dork','https://turbodork.com'],
+                ' colors to add some shininess. For the wings I used their Black Ice to give that sharp deep black look. I also used one layer of their Rainbow Roll on the external sides of the wings to give it that glittery effect. to contrast the black I also used Turbo Dork\'s Sparkling Motion for the silver protion on the front wing panels and wow does it burst. ' 
+            ]
+        ],
+        [
+            [
+                'This was also a special build because it was one of my first few builds to experiment with the Mr Hobby / Mr Color ',
+                ['Mr Metallic','https://www.mr-hobby.com/en/product1/category_7/104.html'],
+                ' lineup of paints. Overwhelmingly, my first impression is astoundingly positive. These are really great paints. They go on smoothly, and when dry the quality is great. They just look really nice. Only thing is make sure you have a lot of their approved paint thinner. The paint goes through thinner fast.'
+            ]
+        ],
+        ['For Alucard I used the Mr Metallic GX 217 Rough Gold for the gold portions of the chest rib bones and gold crest on the helmet. It\'s sooo shiny. This will be my go-to paint for gold going forward. I also used the Mr Metallic GX 215 Bloody Red for the red portions on the front wing panels and the shield. Quality of this red, it is just astounding. So shiny and so deep and rich. I love it.']
     ]
 ]
 
