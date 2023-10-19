@@ -183,7 +183,7 @@ const blogArray = [
         [
             [
                 'As part of my next oncoming projects I needed new shiny metallic colors. So for that I turned to the',
-                ['Mr Hobby','https://www.mr-hobby.com/en/product1/category_7.html'],
+                ['Mr Hobby','https://www.mr-hobby.com/en/product1/category_7.html',true],
                 ', Mr Metallic, line.'
             ]
         ],
@@ -464,14 +464,14 @@ const blogArray = [
         [
             [
                 'For this I used a combination of ',
-                ['Turbo Dork','https://turbodork.com'],
+                ['Turbo Dork','https://turbodork.com',true],
                 ' colors to add some shininess. For the wings I used their Black Ice to give that sharp deep black look. I also used one layer of their Rainbow Roll on the external sides of the wings to give it that glittery effect. to contrast the black I also used Turbo Dork\'s Sparkling Motion for the silver protion on the front wing panels and wow does it burst. ' 
             ]
         ],
         [
             [
                 'This was also a special build because it was one of my first few builds to experiment with the Mr Hobby / Mr Color ',
-                ['Mr Metallic','https://www.mr-hobby.com/en/product1/category_7/104.html'],
+                ['Mr Metallic','https://www.mr-hobby.com/en/product1/category_7/104.html',true],
                 ' lineup of paints. Overwhelmingly, my first impression is astoundingly positive. These are really great paints. They go on smoothly, and when dry the quality is great. They just look really nice. Only thing is make sure you have a lot of their approved paint thinner. The paint goes through thinner fast.'
             ]
         ],
