@@ -3533,6 +3533,34 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/dshtv.jpg','Deathscythe Hell (TV Version)'],
         true
+    ],
+    [94,7,'Bulbasaur',
+        'Pokemon Bulbasaur 13 Quick Model Kit!',
+        '0001',
+        'Grass / Poison',
+        '1st Stage',
+        false,
+        [
+            ['Ivysaur','lvl 16']
+        ],
+        'Seed Pokemon',
+        'A strange seed filled with nutrients was planted on its back at birth. The bulb on its back stores energy that Bulbasaur can go for days without eating a single morsel of food. The plant sprouts and grows steadily larger as its body grows.',
+        '2\'04\"',
+        [15.2,'15.2 lbs'],
+        'I',
+        'Pokemon Red and Blue',
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/bulbasaur.jpg','Bulbasaur']
     ]
 ];
 
@@ -3619,7 +3647,7 @@ const projects = [
         ],false,false,true,'1:144'
     ],
     ['Dark Samus: Echoes',[1,'Gundvolva'],'HG',
-        false,false,false,'Mercury','C','2023-10-11',6.17
+        false,false,false,'Mercury','C','2023-10-11',7.08
     ],
     ['Dark Samus: Corruption',[1,'Gundvolva'],'HG',
         false,false,false,'Mercury','C','',0.25
@@ -3757,6 +3785,7 @@ const projects = [
     ['Alucard',[1,'Deathscythe Hell (TV Version'],'HG',
         false,true,false,'Wing','E','2023-08-02',16.38,false,'Builds/PBandai/PBAlucard.html',false,'2023-10-19',models[93],
         [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/AlucardUArt.jpeg','Alucard'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/PBDScytheHell18.jpeg','P-Bandai Deathscythe Hell'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/PBDScytheHell01.jpeg','P-Bandai Deathscythe Hell'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/PBDScytheHell02.jpeg','P-Bandai Deathscythe Hell'],
@@ -3789,7 +3818,12 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/pbaluc12.jpeg','PB Alucard'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/pbaluc13.jpeg','PB Alucard'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/pbaluc14.jpeg','PB Alucard'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbaluc15.jpeg','PB Alucard']
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbaluc15.jpeg','PB Alucard'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbaluc_8830.jpeg','Straight and Paint Build'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbaluc_8831.jpeg','Straight and Paint Build'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbaluc_8832.jpeg','Straight and Paint Build'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbaluc_8833.jpeg','Straight and Paint Build'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/symphonyofnight.jpeg','Symphony of the Night']
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/pbaluc10.jpeg','Profile Photo: Alucard'],
         'So Gundam Wing was the first Gundam series I was ever introduced to and my favorite. The designs of each movile suit in the tv series, particularly the Gundams, were so unique and amazing I just absolutely loved them. However years later for the movie and the new mangas all the Gundams got redesigned into the EW versions. The Some of the EWs were cool, i.e. Wing, Heavyarms and Altron. Some seemed pointless in that it was difficult to tell the difference, Sandrock, Tallgueese and Epyon. But one in particular I absolutely hated the redesign and thought it made it wrose, and that was the Deathscythe Hellscythe. However annoying soon as they unvieled the EW redesign they completely retired the tv original version completely out of canon that it has been completely impossible to find model kits of the original in rotation. Which had been driving me crazy. Anyhow recently Premium Bandai announced the tv version being sold online as a limited time P-Bandai exclusive. So I just had to grab it. I wound up grabbing two. Not because I wanted to do a straight build, but because some of the intricate details, particularly the tiny bones on the chest, I was scared of messing up so I figured it best to have a backup. Luckily, and maybe this shows my skill is improving, that I got it right on the first attempt and did not have to grab the spare at all. But there is no use in leaving a spare kit laying around so afterwards I wound up building as a straight build just to compare the paint verse the straight. Logically the paint job looks best. So without further adieu, I present to you the son of Dracula himself, PB Alucard. THis kit and build has been long time overdue. ',false,
@@ -5772,7 +5806,7 @@ const projects = [
         ],['Armageddon'],false,true,'1:144'
     ],
     ['Samus: Metroid Suit',[1,'Windam'],'HG',
-        false,false,false,'Seed','C','2023-09-13',5.34,false,'Builds/Metroid/S_MetroidSuit.html'
+        false,false,false,'Seed','C','2023-09-13',5.99,false,'Builds/Metroid/S_MetroidSuit.html'
     ],
     ['Slash Zaku Phantom',[1,'Zaku Phantom, Slash'],'MG',
         true,true,false,'Seed','E','2023-04-05',11.83,false,'Builds/PBandai/PBPhantomZakuMG.html',false,'2023-07-31',models[75],
@@ -6913,7 +6947,20 @@ const projects = [
     
     //Pokemon
     ['Obelix',[1,'Bulbasaur'],'Pokemon',
-        false,false,false,'','C','2023-09-13',2.17,false
+        false,false,false,'','D','2023-09-13',2.32,false,'Builds/Pokemon/Obelix.html',false,'2023-10-23',models[94],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/obelixcomic.jpeg','Obelix the Gaul']
+        ],
+        ['','Profile Photo: Obelix'],
+        'Description',false,
+        [
+            ['Video',''],
+            ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Bulbasaur_(Pokémon)'],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-bulbasaur-13-quick-model-kit'],
+            ['NewType','https://newtype.us/p/W2XuUUtpyK4uqkEPD18t/h/pokemon-model-kit-quick-13-bulbasaur'],
+            ['Turbo Dork: Forrest Flux','https://turbodork.com/products/forrest-flux'],
+            ['Obelix: Profile','https://asterix.fandom.com/wiki/Obelix']
+        ],false,false
     ],
     ['Asterix',[1,'Charmander'],'Pokemon',
         false,false,false,'','E','2023-03-12',3.85,false,'Builds/Pokemon/Asterix.html',false,'2023-08-28',models[79],
@@ -7041,26 +7088,26 @@ const projects = [
     ], 
     ['Brennus',[1,'Groudon'],'Pokemon',false,false,false,'','A'],
     ['Cassivellaunus',[1,'Gyarados'],'Pokemon',
-        false,false,false,'','C','2023-09-18',4.27
+        false,false,false,'','C','2023-09-18',4.64
     ],
     ['Vitalstatistix',[1,'Ho-Oh'],'Pokemon',false,false,false,'','A'],
     ['Unhygienix',[1,'Magikarp'],'Pokemon',false,false,false,'','A'],
     ['Monosyllabix',[1,'Mew'],'Pokemon',false,false,false,'','C','',0],
     ['Polysyllabix',[1,'Mewtwo'],'Pokemon',false,false,false,'','C','',0],
     ['Lutetia',[1,'Lucario'],'Pokemon',
-        false,false,false,'','C','2023-10-03',3.75
+        false,false,false,'','C','2023-10-03',4.17
     ],
     ['Chanticleerix',[1,'Lugia'],'Pokemon',false,false,false,'','C','',0],
     ['Cacofonix',[1,'Metagross'],'Pokemon',
-        false,false,false,'','C','2023-09-18',3.45
+        false,false,false,'','C','2023-09-18',3.7
     ],
     ['Picanmix',[1,'Piplup'],'Pokemon',false,false,false,'','C','',0],
     ['Getafix',[1,'Rayquaza'],'Pokemon',
-        false,false,false,'','C','2023-09-18',4.49
+        false,false,false,'','C','2023-09-18',4.82
     ],
     ['Geriatrix',[1,'Reshiram'],'Pokemon',false,false,false,'','A'],
     ['Dogmatix',[1,'Riolu'],'Pokemon',
-        false,false,false,'','C','2023-10-03',1.97
+        false,false,false,'','C','2023-10-03',2.22
     ], 
     ['Prolix',[1,'Zekrom'],'Pokemon',false,false,false,'','C','',0],
     
