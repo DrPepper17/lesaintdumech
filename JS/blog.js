@@ -485,7 +485,7 @@ const blogArray = [
             [
                 'Time for another Pokemon build. This week I present ',
                 ['Obelix','Builds/Pokemon/Obelix.html'],
-                ', the shiny Bulbasaur.'
+                ', the mighty, shiny Bulbasaur.'
             ]
         ]
     ]
