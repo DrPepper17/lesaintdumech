@@ -476,6 +476,18 @@ const blogArray = [
             ]
         ],
         ['For Alucard I used the Mr Metallic GX 217 Rough Gold for the gold portions of the chest rib bones and gold crest on the helmet. It\'s sooo shiny. This will be my go-to paint for gold going forward. I also used the Mr Metallic GX 215 Bloody Red for the red portions on the front wing panels and the shield. Quality of this red, it is just astounding. So shiny and so deep and rich. I love it.']
+    ],
+    [
+        '2023-10-23',
+        'Return of the Pocket Monsters',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/Obelix_8910.jpeg',
+        [
+            [
+                'Time for another Pokemon build. This week I present ',
+                ['Obelix','Builds/Pokemon/Obelix.html'],
+                ', the shiny Bulbasaur.'
+            ]
+        ]
     ]
 ]
 

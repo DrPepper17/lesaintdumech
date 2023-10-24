@@ -3647,7 +3647,7 @@ const projects = [
         ],false,false,true,'1:144'
     ],
     ['Dark Samus: Echoes',[1,'Gundvolva'],'HG',
-        false,false,false,'Mercury','C','2023-10-11',7.08
+        false,false,false,'Mercury','C','2023-10-11',7.17
     ],
     ['Dark Samus: Corruption',[1,'Gundvolva'],'HG',
         false,false,false,'Mercury','C','',0.25
@@ -3700,7 +3700,7 @@ const projects = [
     ['Gamma Draconis',[1,'Danazine'],'HG',false,false,false,'Age','B'],
 
     //After Colony (Wing)
-    ['Leo Army',[6,'Leo'],'LEO',false,false,false,'Wing','C','2021-10-03',40.03,false,'Builds/Gundams/LeoArmy.html',false],
+    ['Leo Army',[6,'Leo'],'LEO',false,false,false,'Wing','C','2021-10-03',40.19,false,'Builds/Gundams/LeoArmy.html',false],
     ['South Park',[6,'Tallgeese','Epyon','Heavy Arms','Shenlong','Deathscythe','Sandrock'],'SD',
         false,false,false,'Wing','E','2021-06-05',54.42,true,'Builds/uniqueTemplates/SouthPark.html','Practice SDs','2021-06-21',models[6],
         [
@@ -5806,7 +5806,7 @@ const projects = [
         ],['Armageddon'],false,true,'1:144'
     ],
     ['Samus: Metroid Suit',[1,'Windam'],'HG',
-        false,false,false,'Seed','C','2023-09-13',5.99,false,'Builds/Metroid/S_MetroidSuit.html'
+        false,false,false,'Seed','C','2023-09-13',6.07,false,'Builds/Metroid/S_MetroidSuit.html'
     ],
     ['Slash Zaku Phantom',[1,'Zaku Phantom, Slash'],'MG',
         true,true,false,'Seed','E','2023-04-05',11.83,false,'Builds/PBandai/PBPhantomZakuMG.html',false,'2023-07-31',models[75],
@@ -6947,20 +6947,31 @@ const projects = [
     
     //Pokemon
     ['Obelix',[1,'Bulbasaur'],'Pokemon',
-        false,false,false,'','D','2023-09-13',2.32,false,'Builds/Pokemon/Obelix.html',false,'2023-10-23',models[94],
+        false,false,false,'','E','2023-09-13',3.07,false,'Builds/Pokemon/Obelix.html',false,'2023-10-23',models[94],
         [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Obelix_8909.jpeg','Obelix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Obelix_8910.jpeg','Obelix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Obelix_8911.jpeg','Obelix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Obelix_8912.jpeg','Obelix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Obelix_8913.jpeg','Obelix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Obelix_8914.jpeg','Obelix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Obelix_8915.jpeg','Obelix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Obelix_8916.jpeg','Obelix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Obelix_8917.jpeg','Obelix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Obelix_8918.jpeg','Obelix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Obelix_8920.jpg','Obelix'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/obelixcomic.jpeg','Obelix the Gaul']
         ],
-        ['','Profile Photo: Obelix'],
-        'Description',false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/Obelix_8915.jpeg','Profile Photo: Obelix'],
+        'Had a lot of fun building the previous Pokemon builds. Particularly the Charmander family. That I felt a suddent urge to want to build even more little pocket monsters. Since Charmander was so fun I figured why not do another starter from the Kanto family, and the local hobby shop had a Bulbasaur kit in stock so the fate was sealed. For this used regular Vallejo Model Air green paints for the base of the body. But adding the real shine I used Turbo Dork\'s Forrest Flux to add the shine of the bulb. Overall the little guy is cute and I am pleased with the results.',false,
         [
-            ['Video',''],
+            ['Video','https://www.instagram.com/reel/CywqRtPOlzK/?igshid=MzRlODBiNWFlZA=='],
             ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Bulbasaur_(Pokémon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-bulbasaur-13-quick-model-kit'],
             ['NewType','https://newtype.us/p/W2XuUUtpyK4uqkEPD18t/h/pokemon-model-kit-quick-13-bulbasaur'],
             ['Turbo Dork: Forrest Flux','https://turbodork.com/products/forrest-flux'],
             ['Obelix: Profile','https://asterix.fandom.com/wiki/Obelix']
-        ],false,false
+        ],['Asterix'],false,true
     ],
     ['Asterix',[1,'Charmander'],'Pokemon',
         false,false,false,'','E','2023-03-12',3.85,false,'Builds/Pokemon/Asterix.html',false,'2023-08-28',models[79],
@@ -7088,26 +7099,31 @@ const projects = [
     ], 
     ['Brennus',[1,'Groudon'],'Pokemon',false,false,false,'','A'],
     ['Cassivellaunus',[1,'Gyarados'],'Pokemon',
-        false,false,false,'','C','2023-09-18',4.64
+        false,false,false,'','D','2023-09-18',5.39
     ],
     ['Vitalstatistix',[1,'Ho-Oh'],'Pokemon',false,false,false,'','A'],
-    ['Unhygienix',[1,'Magikarp'],'Pokemon',false,false,false,'','A'],
-    ['Monosyllabix',[1,'Mew'],'Pokemon',false,false,false,'','C','',0],
-    ['Polysyllabix',[1,'Mewtwo'],'Pokemon',false,false,false,'','C','',0],
     ['Lutetia',[1,'Lucario'],'Pokemon',
-        false,false,false,'','C','2023-10-03',4.17
+        false,false,false,'','D','2023-10-03',5.09
     ],
     ['Chanticleerix',[1,'Lugia'],'Pokemon',false,false,false,'','C','',0],
+    ['Unhygienix',[1,'Magikarp'],'Pokemon',false,false,false,'','A'],
     ['Cacofonix',[1,'Metagross'],'Pokemon',
-        false,false,false,'','C','2023-09-18',3.7
+        false,false,false,'','D','2023-09-18',4.54
     ],
+    ['Monosyllabix',[1,'Mew'],'Pokemon',
+        false,false,false,'','C','2023-10-22',0.42
+    ],
+    ['Polysyllabix',[1,'Mewtwo'],'Pokemon',false,false,false,'','C','',0],
     ['Picanmix',[1,'Piplup'],'Pokemon',false,false,false,'','C','',0],
     ['Getafix',[1,'Rayquaza'],'Pokemon',
-        false,false,false,'','C','2023-09-18',4.82
+        false,false,false,'','D','2023-09-18',5.74
     ],
     ['Geriatrix',[1,'Reshiram'],'Pokemon',false,false,false,'','A'],
     ['Dogmatix',[1,'Riolu'],'Pokemon',
-        false,false,false,'','C','2023-10-03',2.22
+        false,false,false,'','D','2023-10-03',2.97
+    ], 
+    ['Tusk',[1,'Tepig'],'Pokemon',
+        false,false,false,'','C','2023-10-22',0.42
     ], 
     ['Prolix',[1,'Zekrom'],'Pokemon',false,false,false,'','C','',0],
     
