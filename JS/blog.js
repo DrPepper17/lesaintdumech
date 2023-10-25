@@ -488,6 +488,23 @@ const blogArray = [
                 ', the mighty, shiny Bulbasaur.'
             ]
         ]
+    ],
+    [
+        '2023-10-25',
+        'Toothpicks',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/IMG_8948.JPG',
+        ['Trying something experimental tonight. Needed spikes for a project so decided to glue the tips of toothpicks. Bit nervous. Using plastic model cement, which as the name implies, is intended for plastic. But of course Toothpicks are made of wood so I don\'t know how well they\'ll adhere to the model. They\'re drying right now. I will see how in the morning well the cement holds up. fingers crossed.'],
+        ['Hopefully it works. There are other cements meant for wood. But then the question becomes how well does that adhere to the plastic. So you can the conundrum I am in. I swear there really needs to be an adhesive marketed to work on both.'],
+        ['Anyhow, one way or another I will figure it out. I cannot wait to reveal this project to you early 2024. Happy hobbying to all till then.'],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/IMG_8949.JPG']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/IMG_8950.JPG']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/IMG_8951.JPG']
+        ]
     ]
 ]
 

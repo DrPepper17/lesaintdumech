@@ -3647,7 +3647,7 @@ const projects = [
         ],false,false,true,'1:144'
     ],
     ['Dark Samus: Echoes',[1,'Gundvolva'],'HG',
-        false,false,false,'Mercury','C','2023-10-11',7.17
+        false,false,false,'Mercury','C','2023-10-11',8.83
     ],
     ['Dark Samus: Corruption',[1,'Gundvolva'],'HG',
         false,false,false,'Mercury','C','',0.25
@@ -5806,7 +5806,7 @@ const projects = [
         ],['Armageddon'],false,true,'1:144'
     ],
     ['Samus: Metroid Suit',[1,'Windam'],'HG',
-        false,false,false,'Seed','C','2023-09-13',6.07,false,'Builds/Metroid/S_MetroidSuit.html'
+        false,false,false,'Seed','C','2023-09-13',7.9,false,'Builds/Metroid/S_MetroidSuit.html'
     ],
     ['Slash Zaku Phantom',[1,'Zaku Phantom, Slash'],'MG',
         true,true,false,'Seed','E','2023-04-05',11.83,false,'Builds/PBandai/PBPhantomZakuMG.html',false,'2023-07-31',models[75],
