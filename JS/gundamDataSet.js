@@ -5212,7 +5212,7 @@ const projects = [
         true,true,false,'Seed','C','2023-05-05',6.5,false,'Builds/PBandai/PBDesintyImpulseREgenesMG.html',false,''
     ],
     ['Destiny Impulse [RG]',[1,'Impulse, Destiny'],'RG',
-        true,true,false,'Seed','C','2023-07-26',5.5,false,'Builds/PBandai/PBDestinyImpulseRG.html',false,''
+        true,true,false,'Seed','C','2023-07-26',10.92,false,'Builds/PBandai/PBDestinyImpulseRG.html',false,''
     ],
     ['Don\'t Tread On Ye',[1,'Justice'],'MG',
         false,false,false,'Seed','E','2022-06-06',51.75,true,'Builds/Gundams/Ye.html','America','2022-09-06',models[52],
