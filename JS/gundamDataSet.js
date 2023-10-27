@@ -3650,7 +3650,7 @@ const projects = [
         ],false,false,true,'1:144'
     ],
     ['Dark Samus: Echoes',[1,'Gundvolva'],'HG',
-        false,false,false,'Mercury','C','2023-10-11',8.83
+        false,false,false,'Mercury','D','2023-10-11',9.5
     ],
     ['The Nazarene',[1,'Gundvolva'],'HG',false,false,false,'Mercury','B'], 
     ['Dobiel',[1,'Gundvolva'],'HG',
@@ -3953,9 +3953,9 @@ const projects = [
         ['https://hosting.photobucket.com/images/i/lesaintdumech/gahamg32B.jpg','Profile Photo: Gundam Guerilla Arms'],
         'Camouflage. Commando. Jungle Warfare. Entirely hand brushed. First attempt at custom painting. Entirely Testors paints. Huge learning experience.',false,
         [
-            ['USA Gundam Store','https://www.usagundamstore.com/products/mg-1-100-gundam-heavyarms-ew-ver'],
+            ['Amazon','https://a.co/d/03pIAks'],
             ['NewType','https://newtype.us/p/xyX3s81UEQTYgD2wfA49/h/mg-gundam-heavyarms-ew'],
-            ['Amazon','https://a.co/d/03pIAks']
+            ['USA Gundam Store','https://www.usagundamstore.com/products/mg-1-100-gundam-heavyarms-ew-ver']
         ],false,false,true,'1/100',false,false,false,[models[85]]
     ],
     ['Phoebe',[1,'Maganac Corps'],'SD',false,false,false,'Wing','D','2022-04-11',8.42,false,'Builds/Phoebe.html','Titans'],
@@ -4215,8 +4215,9 @@ const projects = [
         ['https://hosting.photobucket.com/images/i/lesaintdumech/wildwing27.jpeg','Profile Photo: Gundam Wild Wing'],
         'So I happen to be a huge wings fan and an avid patron to the chain Buffalo Wild Wings, well up until they locked me out of my Blazing Rewards account over a year ago. They claim it\'s a computer glitch, but I\'m convinced they did it on purpose due to my high point balance I\'ve accumulated (like for real I really did use to eat there all the time; like three times a week). But that\'s enought about B-Dubs. At the time I had only done a few projects with the airbrush, but only much smaller models, SDs and HGs. But by this point I was finally starting to get the hang of it and feeling adventurous that I wanted to take on something larger but I had no idea what. Then one evenign I happened to be driving past the the local B-Dubs and I noticed the buffalo logo on their sign and it dawned on me... \'Wing Gundam\'... \'Buffalo Wild WINGS\', WING and WINGS. A la Gundam Wild Wing was born. This project has lots of special meaning to me. One, this was my first ever Master Grade kit I painted with the Airbrush. But the Wing Gundam itself was the first Gundam of them all I became introduced to which opened the whole Gundam Universe up to me. It holds great significance to me in my heart. In essance it\'s the Gundam for me that started it all. Therefore I am proud to present to you, the Gundam Wild Wing !!!',false,
         [
-            ['USA Gundam Store','https://www.usagundamstore.com/products/mg-wing-gundam'],
-            ['NewType','https://newtype.us/p/vsAyif43MfJi4I0Q8OZp/h/mg-xxxg-01w-wing-gundam']
+            ['Buffalo Wild Wings','https://www.buffalowildwings.com'],
+            ['NewType','https://newtype.us/p/vsAyif43MfJi4I0Q8OZp/h/mg-xxxg-01w-wing-gundam'],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/mg-wing-gundam']
         ],false,false,true,'1:100'
     ],
     ['Wing Gundam [RG]',[1,'Wing Gundam'],'RG',true,false,false,'Wing','E','2021-07',12.59,false,false,false,'2022-02-07'],
@@ -5809,7 +5810,7 @@ const projects = [
         ],['Armageddon'],false,true,'1:144'
     ],
     ['Samus: Metroid Suit',[1,'Windam'],'HG',
-        false,false,false,'Seed','C','2023-09-13',8.9,false,'Builds/Metroid/S_MetroidSuit.html'
+        false,false,false,'Seed','D','2023-09-13',10.24,false,'Builds/Metroid/S_MetroidSuit.html'
     ],
     ['Slash Zaku Phantom',[1,'Zaku Phantom, Slash'],'MG',
         true,true,false,'Seed','E','2023-04-05',11.83,false,'Builds/PBandai/PBPhantomZakuMG.html',false,'2023-07-31',models[75],
@@ -6022,9 +6023,9 @@ const projects = [
         ['https://hosting.photobucket.com/images/i/lesaintdumech/rbaron42B.jpg','Profile Photo: Gundam Red Baron'],
         'Half inspired by the WWI Imperial Prussian fighter pilot half inspired by the pizza. Half just desperate for a theme to do on my second custom paint job. The Gundam Spiegel according to cannon was the official mobile suit of Neo Germany in the future, so I decided to take it all the way back to the imperial Prussia of the past. Painted it red with white stripes like the famous Red Baron plane. Clipped the spike from a nose ring to make the Pickelhaube for the helmet. And cut brown felt to make his aviator scarf just alike a real pilot. Still hand brushed, I had not come to my senses and realized the need for an air brush yet. Was also my first attempt at using LEDs and first time making custom waterslide decals. It being Deutsch, I also added Nietzschean book titles to each of the blades: Jenseits von Gut und B\u00f6se, Also sprach Zarathustra, Die fr\u00f6hliche Wissenschaft, Der Wille zur Macht.',false,
         [
-            ['USA Gundam Store','https://www.usagundamstore.com/products/mg-gf13_021ng-gundam-spiegel?variant=33023432527'],
+            ['Amazon','https://a.co/d/1tZmaYO'],
             ['NewType','https://newtype.us/p/RQuAYgB4XXkOwgZaWLOi/h/mg-gf13-021ng-gundam-spiegel'],
-            ['Amazon','https://a.co/d/1tZmaYO']
+            ['USA Gundam Store','https://www.usagundamstore.com/products/mg-gf13_021ng-gundam-spiegel?variant=33023432527']
         ],false,false,true,'1/100'
     ],
     ['Red Baron 2',[1,'Spiegel, Gundam'],'MG',false,false,false,'G','A','',0,false,'Builds/RedBaron2.html',[''],'',models[2]],
@@ -6881,9 +6882,9 @@ const projects = [
         'First attempt at an air brush. Testors paints. Jennifer Hudson. The Nanny. Feeling very purple with this one.',
         'Nick, Nevada',
         [
-            ['Wikipedia','https://en.wikipedia.org/wiki/Chevrolet_Bel_Air'],
+            ['Hobby Lobby','https://www.hobbylobby.com/Crafts-Hobbies/Model-Kits/Cars-Trucks-Motorcycles/1957-Chevy-Bel-Air-Model-Kit/p/26172'],
             ['Hobby Town','https://www.hobbytown.com/amt-1-24-57-bel-air-model-kit-amt638/p39219'],
-            ['Hobby Lobby','https://www.hobbylobby.com/Crafts-Hobbies/Model-Kits/Cars-Trucks-Motorcycles/1957-Chevy-Bel-Air-Model-Kit/p/26172']
+            ['Wikipedia','https://en.wikipedia.org/wiki/Chevrolet_Bel_Air']
         ],false,false,true,'1:25'
     ],
     ['Wilbur',[1,'Volkswagen Beetle, 68'],'Car',
@@ -6941,10 +6942,10 @@ const projects = [
         'Was an attempt at a recreation for an actual old 68 beetle we\'re in the middle of trying to restore. Incorporating our love of Germany and all things German, most particularly the cute little Dachshund. Made this as a christmas present',
         'Zack #TheLunchDude, Iowa',
         [
+            ['Hobby Town','https://www.hobbytown.com/revell-germany-1-24-60s-beetle-type-1-rmx854192/p609173'],
             ['Video','https://www.instagram.com/p/Cm64DaTI43G/'],
             ['Wiki','https://en.wikipedia.org/wiki/Volkswagen_Beetle'],
-            ['Volkswagen','https://www.vw.com/en.html'],
-            ['Hobby Town','https://www.hobbytown.com/revell-germany-1-24-60s-beetle-type-1-rmx854192/p609173']
+            ['Volkswagen','https://www.vw.com/en.html']
         ],['Wilbee'],false,true,'1:24'
     ],
     
@@ -7410,8 +7411,8 @@ const projects = [
         'Named after the Mediterranean SouthWest wind, I present to you the Libeccio. I had, had way too much fun building the Eternal, Archangel and Dominion, that I ached to build another ship model again. Granted there are not many other ships in the Gundam lineup to build, and also that Bandai is currently not manufacturing new ones, I had no choice but to branch out and try another franchise. And luckly enough at the time, there were lots of StarBlazers kits floating around in rotation to take advantavge of. I know nothing about the StarBlazer though of course. But the kits were cool enough that they seemed worth giving them a try.',
         false,
         [
-            ['Video','https://www.instagram.com/reel/CoVMgaLMyp5/?igshid=YzcxN2Q2NzY0OA=='],
-            ['StarBlazer Wiki','https://yamato.fandom.com/wiki/Andromeda_Black']
+            ['StarBlazer Wiki','https://yamato.fandom.com/wiki/Andromeda_Black'],
+            ['Video','https://www.instagram.com/reel/CoVMgaLMyp5/?igshid=YzcxN2Q2NzY0OA==']
         ],['Ostro','Ponente','Levante'],false,true,'1:1000'
     ],
     ['Ostro',[0.2,'Cosmo Falcon'],'Ship',
@@ -7479,10 +7480,10 @@ const projects = [
         'Was working on the Volkswagen Beetle model Wilbur and train of thought on this led me to considering the Transformer\'s 2018 Bumblebee film Volkswagen bug version of the eponymous \'Bumblebee\'. So this lead me to immediately buying the eqivalent Trumpeter brand model Bumblebee kit and painting him the same colors as Wilbur... thus \u00E0 la Wil-Beeeee!!!! I like to imagine him being my Wilbur transformed into robot mode. Oh and unlike Captain Bumble, Wilbee is a total Predacon.',
         'Tyler, North Carolina',
         [
-            ['Video','https://www.instagram.com/p/CnM23e9IV7k/'],
-            ['USA Gundam','https://www.usagundamstore.com/products/transformers-bumblebee-smart-model-kit?variant=41383099105477'],
+            ['Amazon','https://a.co/d/a6lagxe'],
             ['NewType','https://newtype.us/p/TgNnMiuDbvcowmHCougQ/h/trumpeter-bumblebee-smart-kit'],
-            ['Amazon','https://a.co/d/a6lagxe']
+            ['USA Gundam','https://www.usagundamstore.com/products/transformers-bumblebee-smart-model-kit?variant=41383099105477'],
+            ['Video','https://www.instagram.com/p/CnM23e9IV7k/']
         ],['Wilbur'],false,true,false
     ],
     
@@ -7541,11 +7542,11 @@ const projects = [
         'So this was created as a gift for someone who is a huge Daschund lover. There are not any dachsund kits that I am aware of so I figured buy a Zoid fox kit and paint it in the dachshund color scheme. Specifically the red dachshund. This is also my first Zoid paint job. And being my first, naturally there were some challenges at getting the pieces to fit. The annoying thing about paint is it adds a tiny micro additional diameter to all the pieces that sometimes the ones with a tight fight just no longer fit. I did have to resort to mutilating the pieces a little on the inside and gluing them together. But it is after all a learning experience. My future Zoids will come together much better.',
         'Zack #TheLunchDude, Iowa',
         [
-            ['Shadow Fox','https://zoids.fandom.com/wiki/Shadow_Fox'],
             ['Dachunds','https://en.wikipedia.org/wiki/Dachshund'],
-            ['Video','https://www.instagram.com/reel/CvFcTPntiHA/?igshid=YzcxN2Q2NzY0OA=='],
+            ['NewType','https://newtype.us/p/mqnZCcWjZGMi6fm9t3Ir/h/zoids-rz-046-shadow-fox-marking-plus-ver'],
+            ['Shadow Fox','https://zoids.fandom.com/wiki/Shadow_Fox'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/zoids-highend-master-model-rz-046-shadow-fox-marking-plus-ver-1-72-scale-model-kit'],
-            ['NewType','https://newtype.us/p/mqnZCcWjZGMi6fm9t3Ir/h/zoids-rz-046-shadow-fox-marking-plus-ver']
+            ['Video','https://www.instagram.com/reel/CvFcTPntiHA/?igshid=YzcxN2Q2NzY0OA==']
         ],false,false,true
     ],
     ['Shere Khan',[1,'Blade Liger'],'Zoid',false,false,false,'','B'],
