@@ -1907,7 +1907,7 @@ const models = [
         'Self-Autonomous',
         false,
         'Manufacturer',
-        ['Affiliations'],
+        false,
         [35.2,'35.2 Meters'],           //Height
         [49.8,'49.8 Metric Tons'],        //Weight
         'Nanolaminate Armor',
@@ -3561,6 +3561,164 @@ const models = [
         false,
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/bulbasaur.jpg','Bulbasaur']
+    ],
+    [95,1,'Gundam Vidar',
+        'ASW-G-XX Gundam Vidar',
+        'ASW-G-XX',
+        'Mobile Suit Gundam IRON-BLOODED ORPHANS',
+        false,
+        ['ASW-G-XK XK'],
+        ['ASW-G-66 Gundam Kimaris Vidar'],
+        'Post Disaster',
+        [325,'325 P.D.',325],
+        'Gaelio Bauduin',
+        false,
+        'Gjallarhorn',
+        ['Gjallarhorn','Arianrhod Fleet'],
+        [18.5,'18.5 Meters'],           //Height
+        [30.9,'30.9 Metric Tons'],        //Weight
+        'Nanolaminate Armor',
+        'Ahab Reactor (x3)',
+        [
+            'Hunter\'s Edge (x2)'
+        ],
+        [
+            'Bust Saber  w/ 6 Napalm Combustion Blades',
+            'Handgun (x2)',
+            '110mm Rifle'
+        ],
+        [
+            'Ahab Thrusters',
+            'Thermal Phase Trasition Thrusters',
+            'Alaya-Vijnana Type E'
+        ],
+        'Ippei Gyoubu',
+        false,                //boolean
+        false,
+        false,            //boolean
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/Vidar.jpeg','Gundam Vidar'],
+        true           //boolean
+    ],
+    [96,1,'Destiny Impulse Gundam',
+        'ZGMF-X56S/\u03B8 Destiny Impulse Gundam',
+        'ZGMF-X56S/\u03B8',
+        'Mobile Suit Gundam SEED Destiny MSV',
+        false,
+        ['ZGMF-X56S Impulse Gundam'],
+        ['ZGMF-X56S/\u03B9 Destiny Impulse Gundam R'],
+        'Cosmic Era',
+        false,
+        ' Courtney Heironimus',
+        ['Mare Strode','Shimon Izuna'],
+        'Zodiac Alliance of Freedom Treaty',
+        ['Zodiac Alliance of Freedom Treaty','Shimon Izuna','Coalition of Volunteers'],
+        false,
+        false,
+        false,
+        'Ultracompact Energy Battery',
+        [
+            'MMI-GAU25A 20mm CIWS (x2)',
+            'Telescopic Barrel Beam Cannon (x2)',
+            'Beam Shield Generator'
+        ],
+        [
+            'M71-AAK "Folding Razor" Anti-armor Knife (x2)',
+            'MMI-710 "Excalibur" Anti-ship Laser Sword (x2)',
+            'RQM-60 "Flash Edge" Beam Boomerang (x2)',
+            'MA-BAR72 High-energy Beam Rifle'
+        ],
+        [
+            '\u03B8 Destiny Silhouette',
+            'Deuterion Beam Energy Transfer System',
+            'Core Splendor cockpit system',
+            'Voiture Lumiere propulsion system'
+        ],
+        false,
+        false,                //boolean
+        false,
+        false,            //boolean
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/DestinyImpulse.jpeg','Destiny Impulse'],
+        true           //boolean
+    ],
+    [97,1,'Destiny Impulse Gundam R',
+        'ZGMF-X56S/\u03B9 Destiny Impulse Gundam R',
+        'ZGMF-X56S/\u03B9',
+        'Mobile Suit Gundam SEED Destiny Astray R',
+        false,    //boolean
+        ['ZGMF-X56S/\u03B8 Destiny Impulse Gundam'],
+        ['DI Adaga','ZGMF-X56S/\u03B9  Impulse Gundam Blanche'],
+        'Cosmic Era',
+        [73,'73 C.E.','Present'],
+        'No Known Pilot',
+        false,
+        'Zodiac Alliance of Freedom Treaty',
+        ['Zodiac Alliance of Freedom Treaty'],
+        [19.43,'19.43 Meters'],           //Height
+        [84.77,'84.77 Metric Tons'],        //Weight
+        false,
+        'Ultracompact Energy Battery',
+        [
+            'MMI-GAU25A 20mm CIWS (x2)',
+            '"Wolfsbane" Long Range Beam Cannon'
+        ],
+        [
+            'M71-AAK "Folding Razor" Anti-armor Knife (x2)',
+            'MA-BAR72 High-energy Beam Rifle',
+            'MMI-RG59V Mobile Shield'
+        ],
+        [
+            'Destiny R Silhouette',
+            'Deuterion Beam Energy Transfer System',
+            'Buddy System',
+            'Variable Phase Shift armor'
+        ],
+        false,
+        false,                //boolean
+        'Gundam Regenes',
+        false,            //boolean
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/DestinyRegenes.jpeg','Destiny Impulse Regenes'],
+        true           //boolean
+    ],
+    [98,1,'Impulse Gundam',
+        'ZGMF-X56S Impulse Gundam',
+        'ZGMF-X56S',
+        'Mobile Suit Gundam SEED Destiny',
+        false,    //boolean
+        ['ZGMF-X101S ZAKU Splendor'],
+        ['ZGMF-X42S Destiny Gundam','ZGMF-X56S/\u03B8 Destiny Impulse Gundam'],
+        'Cosmic Era',
+        [73,'October 2, 73 C.E.',74],
+        'Shin Asuka',
+        ['Lunamaria Hawke'],
+        'Integrated Design Bureau',
+        ['Zodiac Alliance of Freedom Treaty'],
+        [17.76,'17.76 Meters'],           //Height
+        [63.54,'63.54 Metric Tons'],        //Weight
+        false,
+        'Ultracompact Energy Battery',
+        [
+            'MMI-GAU25A 20mm CIWS (x2)'
+        ],
+        [
+            'M71-AAK "Folding Razor" Anti-Armor Knife (x2)',
+            'MA-BAR72 High-Energy Beam Rifle',
+            'MMI-RG59V Mobile Shield',
+            'Optional: \u03B1 Force Silhouette Pack',
+            'Optional: \u03B2 Sword Silhouette Pack',
+            'Optional: \u03B3 Blast Silhouette Pack'
+        ],
+        [
+            'Deuterion Beam Energy Transfer System',
+            'Core Splendor Cockplit System',
+            'Silhouette Pack System',
+            'Variable Phase Shift Armor'
+        ],
+        'Kunio Okawara',
+        false,                //boolean
+        false,
+        false,            //boolean
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/impulse.jpeg','Impulse Gundam'],
+        true           //boolean
     ]
 ];
 
@@ -3641,12 +3799,12 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/azrael11.jpeg','Azrael','img10']
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/azrael03.jpeg','Profile Photo: Azrael'],
-        'Named after the Hebrew Angel of Death. I wanted to keep the color scheme of this one as close as I could to the original. Just made it more shiny by using Turbo Dork. This was my first build of a Witch from Mercury model, and it was pretty cool. Not to mention their model quality at Bandai has really improved a lot on these Mercury model kits.',false,
+        'Named after the Hebrew Angel of Death. I wanted to keep the color scheme of this one as close as I could to the original. Just made it more shiny by using TurboDork. This was my first build of a Witch from Mercury model, and it was pretty cool. Not to mention their model quality at Bandai has really improved a lot on these Mercury model kits.',false,
         [
             ['Video','https://www.instagram.com/reel/CpMT1gEs1no/'],
+            ['Azrael','https://en.wikipedia.org/wiki/Azrael'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/hgtwfm-1-144-04-dilanza-guels-mobile-suit'],
-            ['NewType','https://newtype.us/p/1ZqsazKkWagen1RV4twr/h/hgwfm-04-guel-s-dilanza'],
-            ['Azrael','https://en.wikipedia.org/wiki/Azrael']
+            ['NewType','https://newtype.us/p/1ZqsazKkWagen1RV4twr/h/hgwfm-04-guel-s-dilanza']
         ],false,false,true,'1:144'
     ],
     ['Dark Samus: Echoes',[1,'Gundvolva'],'HG',
@@ -3684,9 +3842,9 @@ const projects = [
         'Named after the Guardian angel of Persia. Dobiel is painted with the same color scheme I used for the King\'s Leir Dagger L. Basically this scheme has become my standard for all mass production main military mobile suits. I have used it on all my Daggers, my OZ Leo, and my Death Army unit Malphas.',false,
         [
             ['Video','https://www.instagram.com/reel/Cxok1oXu9rW/?igshid=MzRlODBiNWFlZA=='],
+            ['Dobiel','https://en.wikipedia.org/wiki/Dobiel'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/hgtwfm-1-144-24-gundvolva'],
-            ['NewType','https://newtype.us/p/0LtLPFfPCrT5SfGPqKjS/h/hgwfm-24-gundv-lva'],
-            ['Dobiel','https://en.wikipedia.org/wiki/Dobiel']
+            ['NewType','https://newtype.us/p/0LtLPFfPCrT5SfGPqKjS/h/hgwfm-24-gundv-lva']
         ],['Malphas','King Leir','Leo Army'],false,true,'1:144'
     ],
     ['EMMI',[1,'Heindree'],'HG',false,false,false,'Mercury','A'],
@@ -3832,9 +3990,9 @@ const projects = [
         [
             ['Video','https://www.instagram.com/reel/CymDh9xOFkT/?igshid=MzRlODBiNWFlZA=='],
             ['Premium Bandai','https://p-bandai.com/us/item/N2554771001001'],
-            ['Turbo Dork: Black Ice','https://turbodork.com/products/black-ice'],
-            ['Turbo Dork: Rainbow Roll','https://turbodork.com/products/rainbow-roll'],
-            ['Turbo Dork: Sparkling Motion','https://turbodork.com/products/sparkle-motion']
+            ['TurboDork: Black Ice','https://turbodork.com/products/black-ice'],
+            ['TurboDork: Rainbow Roll','https://turbodork.com/products/rainbow-roll'],
+            ['TurboDork: Sparkling Motion','https://turbodork.com/products/sparkle-motion']
         ],false,false,true,'1:144'
     ],
     ['Epyon [RG]',[1,'Epyon'],'RG',true,false,false,'Wing','A'],
@@ -3953,9 +4111,8 @@ const projects = [
         ['https://hosting.photobucket.com/images/i/lesaintdumech/gahamg32B.jpg','Profile Photo: Gundam Guerilla Arms'],
         'Camouflage. Commando. Jungle Warfare. Entirely hand brushed. First attempt at custom painting. Entirely Testors paints. Huge learning experience.',false,
         [
-            ['Amazon','https://a.co/d/03pIAks'],
-            ['NewType','https://newtype.us/p/xyX3s81UEQTYgD2wfA49/h/mg-gundam-heavyarms-ew'],
-            ['USA Gundam Store','https://www.usagundamstore.com/products/mg-1-100-gundam-heavyarms-ew-ver']
+            ['USA Gundam Store','https://www.usagundamstore.com/products/mg-1-100-gundam-heavyarms-ew-ver'],
+            ['NewType','https://newtype.us/p/xyX3s81UEQTYgD2wfA49/h/mg-gundam-heavyarms-ew']
         ],false,false,true,'1/100',false,false,false,[models[85]]
     ],
     ['Phoebe',[1,'Maganac Corps'],'SD',false,false,false,'Wing','D','2022-04-11',8.42,false,'Builds/Phoebe.html','Titans'],
@@ -4216,8 +4373,8 @@ const projects = [
         'So I happen to be a huge wings fan and an avid patron to the chain Buffalo Wild Wings, well up until they locked me out of my Blazing Rewards account over a year ago. They claim it\'s a computer glitch, but I\'m convinced they did it on purpose due to my high point balance I\'ve accumulated (like for real I really did use to eat there all the time; like three times a week). But that\'s enought about B-Dubs. At the time I had only done a few projects with the airbrush, but only much smaller models, SDs and HGs. But by this point I was finally starting to get the hang of it and feeling adventurous that I wanted to take on something larger but I had no idea what. Then one evenign I happened to be driving past the the local B-Dubs and I noticed the buffalo logo on their sign and it dawned on me... \'Wing Gundam\'... \'Buffalo Wild WINGS\', WING and WINGS. A la Gundam Wild Wing was born. This project has lots of special meaning to me. One, this was my first ever Master Grade kit I painted with the Airbrush. But the Wing Gundam itself was the first Gundam of them all I became introduced to which opened the whole Gundam Universe up to me. It holds great significance to me in my heart. In essance it\'s the Gundam for me that started it all. Therefore I am proud to present to you, the Gundam Wild Wing !!!',false,
         [
             ['Buffalo Wild Wings','https://www.buffalowildwings.com'],
-            ['NewType','https://newtype.us/p/vsAyif43MfJi4I0Q8OZp/h/mg-xxxg-01w-wing-gundam'],
-            ['USA Gundam Store','https://www.usagundamstore.com/products/mg-wing-gundam']
+            ['USA Gundam Store','https://www.usagundamstore.com/products/mg-wing-gundam'],
+            ['NewType','https://newtype.us/p/vsAyif43MfJi4I0Q8OZp/h/mg-xxxg-01w-wing-gundam']
         ],false,false,true,'1:100'
     ],
     ['Wing Gundam [RG]',[1,'Wing Gundam'],'RG',true,false,false,'Wing','E','2021-07',12.59,false,false,false,'2022-02-07'],
@@ -4261,7 +4418,7 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/golddust14.jpeg','Gold Dust Woman','img14']
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/golddust14.jpeg','Profile Photo: Gold Dust Woman'],
-        'Theme was traditional Zero in the traditional colors. But with Turbo Dork to make it shiny.','Susie, Iowa',
+        'Theme was traditional Zero in the traditional colors. But with TurboDork to make it shiny.','Susie, Iowa',
         [
             ['USA Gundam Store','https://www.usagundamstore.com/products/13-wing-gundam-zero-ew-gundam-wing-endless-waltz-bandai-spirits-sdcs?variant=11912262615076'],
             ['NewType','https://newtype.us/p/5msfyhVsQRBrZ6bIzNBO/h/sdcs-13-wing-gundam-zero-ew']
@@ -4527,7 +4684,7 @@ const projects = [
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/pbqantclear05.jpeg','Profile Photo: PB Clear QAN[T]'],false,false,
         [
-            ['Premium Bandai','https://p-bandai.com/us/item/N2519709001001'],
+            ['Premium Bandai','https://p-bandai.com/us/item/N2519709001001']
         ],false,false,true,'1:144'
     ],
     ['Nena',[1,'Exia'],'SD',
@@ -4763,11 +4920,11 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/risingsun26.jpeg','Rising Sun and Straight Build','img26']
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/risingsun19.jpeg','Profile Photo: Gundam Rising Sun'],
-        'So the defining factor of the Akatsuki in the show has always been its shiny goldness. Which no lie is really, really cool and inspired me to want to build this for that factor alone. I originally had done just a straight build of this as is, out of the box. But I was not impressed by the cheap chrome of the plastic. It just did not live up to the hype of the tv show. not oing to lie I was a bit let down. Therefore I decided to build it again but this time paint it with the shiniest gold paint I could fine, just to make it live up to the legend. And for that I used Turbo Dork paint, All That Glitters. And it definitely was a huge improvement over the plastic out of the box. I definitely like mine way better.',false,
+        'So the defining factor of the Akatsuki in the show has always been its shiny goldness. Which no lie is really, really cool and inspired me to want to build this for that factor alone. I originally had done just a straight build of this as is, out of the box. But I was not impressed by the cheap chrome of the plastic. It just did not live up to the hype of the tv show. not oing to lie I was a bit let down. Therefore I decided to build it again but this time paint it with the shiniest gold paint I could fine, just to make it live up to the legend. And for that I used TurboDork paint, All That Glitters. And it definitely was a huge improvement over the plastic out of the box. I definitely like mine way better.',false,
         [
             ['USA Gundam Store','https://www.usagundamstore.com/products/hg-1-144-40-oowashi-akatsuki-gunda'],
             ['NewType','https://newtype.us/p/TVltE6umkrkynKYjjE0a/h/hgseed-40-orb-01-owashi-akatsuki-gundam'],
-            ['Turbo Dork: All That Glitters','https://turbodork.com/products/all-that-glitters']
+            ['TurboDork: All That Glitters','https://turbodork.com/products/all-that-glitters']
         ],false,false,true,'1:144',false,'Akatsuki: Oowashi Pack'
     ],
     ['King Mars',[1,'Akatsuki, Shiranui'],'HG',
@@ -5126,8 +5283,7 @@ const projects = [
         [
             ['Video','https://www.instagram.com/reel/CuSx0amrZW4/?igshid=YzcxN2Q2NzY0OA=='],
             ['USA Gundam Store','https://www.usagundamstore.com/products/mg-1-100-freedom-gundam-ver-2-0'],
-            ['NewType','https://newtype.us/p/uMb67BdrKhMnFDOYzJVF/h/mg-zgmf-x10a-freedom-gundam-ver-20'],
-            ['Amazon','https://a.co/d/69DPX3z']
+            ['NewType','https://newtype.us/p/uMb67BdrKhMnFDOYzJVF/h/mg-zgmf-x10a-freedom-gundam-ver-20']
         ],['Liberty','Old Glory','Don\'t Tread On Ye'],false,true,'1:100'
     ],
     ['Freedom [MGSD]',[1,'Freedom'],'MGSD',true,false,false,'Seed','E','2023-03-05',8.5,false,false,false,'2023-06-28',false],
@@ -5842,7 +5998,7 @@ const projects = [
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/pbyzakzaku06phantom.jpeg','Profile Photo: PB Slash Zaku Phntom'],false,false,
         [
-            ['Premium Banai','https://p-bandai.com/us/item/N2500763001004']
+            ['Premium Bandai','https://p-bandai.com/us/item/N2500763001004']
         ],false,false,true,'1:100',false,'Slash Zaku Phantom (Yzak Jule Custom)'
     ],
     
@@ -5867,10 +6023,10 @@ const projects = [
         ['https://hosting.photobucket.com/images/i/lesaintdumech/malphas08.jpeg','Profile Photo: Malphas'],
         'Part of my Ars Goetia project, this model was named after one of the Presidents of hell, Malphas. For color scheme, I basically took my color scheme from King Leir and decided to apply it to other kits. So far the paint scheme appears to be pretty universal, it can apply to anything. On this one in particular it came out looking nice.',false,
         [
-            ['USA Gundam Store','https://www.usagundamstore.com/products/hgfc-1-144-230-death-army'],
-            ['NewType','https://newtype.us/p/jyG6L0YpSElExWI5jPd7/h/hgfc-230-death-army'],
+            ['Ars Goetia','https://en.wikipedia.org/wiki/List_of_demons_in_the_Ars_Goetia'],
             ['Malphas','https://en.wikipedia.org/wiki/Malphas'],
-            ['Ars Goetia','https://en.wikipedia.org/wiki/List_of_demons_in_the_Ars_Goetia']
+            ['USA Gundam Store','https://www.usagundamstore.com/products/hgfc-1-144-230-death-army'],
+            ['NewType','https://newtype.us/p/jyG6L0YpSElExWI5jPd7/h/hgfc-230-death-army']
         ],['King Leir','Dobiel','Leo Army'],true,true,'1:144'
     ],
     ['Asmodeus',[1,'Dark Gundam'],'SD',false,false,false,'G','B'],
@@ -5945,12 +6101,12 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/pbcharlemagne49.jpeg','Charlemagne']
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/pbcharlemagne33.jpeg','Profile Photo: Charlemagne'],
-        'Named after the great king of France and the Holy Roman Empire. Charlemagne I kept true to the original color scheme of Gundam Rose from the tv show. I did use Turbo Dork paints though just to add some extra shiny metallic flair to the roses. Overall it looks real nice. I cannot wait for P-Bandai to release the rest of the shuffle alliance kits from G-Gundam so I can paint them all and complete the set. I\'m awfully proud of this one.',false,
+        'Named after the great king of France and the Holy Roman Empire. Charlemagne I kept true to the original color scheme of Gundam Rose from the tv show. I did use TurboDork paints though just to add some extra shiny metallic flair to the roses. Overall it looks real nice. I cannot wait for P-Bandai to release the rest of the shuffle alliance kits from G-Gundam so I can paint them all and complete the set. I\'m awfully proud of this one.',false,
         [
             ['Video','https://www.instagram.com/reel/Cx5dWmxOikb/?igshid=MzRlODBiNWFlZA=='],
-            ['Turbo Dork: Red Rum','https://turbodork.com/products/redrum'],
-            ['Turbo Dork: Spicy Meatball','https://turbodork.com/products/spicy-meatball'],
-            ['Premium Bandai','https://p-bandai.com/us/item/N2619353001002']
+            ['Premium Bandai','https://p-bandai.com/us/item/N2619353001002'],
+            ['TurboDork: Red Rum','https://turbodork.com/products/redrum'],
+            ['TurboDork: Spicy Meatball','https://turbodork.com/products/spicy-meatball']
         ],false,false,true,'1:144'
     ],
     ['Le Roi Soleil',[1,'Rose Gundam'],'HG',
@@ -6023,9 +6179,8 @@ const projects = [
         ['https://hosting.photobucket.com/images/i/lesaintdumech/rbaron42B.jpg','Profile Photo: Gundam Red Baron'],
         'Half inspired by the WWI Imperial Prussian fighter pilot half inspired by the pizza. Half just desperate for a theme to do on my second custom paint job. The Gundam Spiegel according to cannon was the official mobile suit of Neo Germany in the future, so I decided to take it all the way back to the imperial Prussia of the past. Painted it red with white stripes like the famous Red Baron plane. Clipped the spike from a nose ring to make the Pickelhaube for the helmet. And cut brown felt to make his aviator scarf just alike a real pilot. Still hand brushed, I had not come to my senses and realized the need for an air brush yet. Was also my first attempt at using LEDs and first time making custom waterslide decals. It being Deutsch, I also added Nietzschean book titles to each of the blades: Jenseits von Gut und B\u00f6se, Also sprach Zarathustra, Die fr\u00f6hliche Wissenschaft, Der Wille zur Macht.',false,
         [
-            ['Amazon','https://a.co/d/1tZmaYO'],
-            ['NewType','https://newtype.us/p/RQuAYgB4XXkOwgZaWLOi/h/mg-gf13-021ng-gundam-spiegel'],
-            ['USA Gundam Store','https://www.usagundamstore.com/products/mg-gf13_021ng-gundam-spiegel?variant=33023432527']
+            ['USA Gundam Store','https://www.usagundamstore.com/products/mg-gf13_021ng-gundam-spiegel?variant=33023432527'],
+            ['NewType','https://newtype.us/p/RQuAYgB4XXkOwgZaWLOi/h/mg-gf13-021ng-gundam-spiegel']
         ],false,false,true,'1/100'
     ],
     ['Red Baron 2',[1,'Spiegel, Gundam'],'MG',false,false,false,'G','A','',0,false,'Builds/RedBaron2.html',[''],'',models[2]],
@@ -6121,14 +6276,14 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/sealiah38.jpeg','Sealiah','img38']
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/sealiah08.jpeg','Profile Photo: Sealiah'],
-        'After having started work on Vine/Hashmal, I realized it needed an opponent to fight. So sticking to cannon I obviously chose the HG Barbatos Lupus. And since I named my Hashmal after the demon king Vine, its opponent had to be an angel instead. Naturally, according to the Ars Goetia the eternal opponent to Vine is the angel Sealiah. Painted with two new Turbo dork colors: Purl Grey and Blue Steel, I present to you the guardian angel of motivation and willfulness, Sealiah',false,
+        'After having started work on Vine/Hashmal, I realized it needed an opponent to fight. So sticking to cannon I obviously chose the HG Barbatos Lupus. And since I named my Hashmal after the demon king Vine, its opponent had to be an angel instead. Naturally, according to the Ars Goetia the eternal opponent to Vine is the angel Sealiah. Painted with two new TurboDork colors: Purl Grey and Blue Steel, I present to you the guardian angel of motivation and willfulness, Sealiah',false,
         [
             ['Video','https://www.instagram.com/reel/Cta8-OdLppw/?igshid=YzcxN2Q2NzY0OA=='],
             ['USA Gundam Store','https://www.usagundamstore.com/products/hg-ibo-1-144-21-gundam-barbatos-lupus'],
             ['NewType','https://newtype.us/p/E4QQkHGKK23LQ0KcwQ22/h/hgibo-021-gundam-barbatos-lupus'],
-            ['Purl Grey','https://turbodork.com/collections/all-paints/products/purl-grey'],
-            ['Blue Steel','https://turbodork.com/collections/all-paints/products/blue-steel'],
-            ['Sealiah','https://guardianangelguide.com/guardian-angel-sealiah/']
+            ['TurboDork: Blue Steel','https://turbodork.com/collections/all-paints/products/blue-steel'],
+            ['TurboDork: Purl Grey','https://turbodork.com/collections/all-paints/products/purl-grey'],
+            ['TurboDork: Sealiah','https://guardianangelguide.com/guardian-angel-sealiah/']
         ],['Vine'],false,true,'1:144'
     ],
     ['Nephilim',[1,'Barbatos Lupus Rex'],'HG',
@@ -6214,14 +6369,14 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/demonvine30.jpeg','Vine','img30']
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/demonvine38.jpeg','Profile Photo: Vine'],
-        'I was not too particularly fond of the mobile suits in the Iron Blooded orphans series. They just felt like Gundam gone cheap. IBO I would definitely consider one of my least favorite installments in the Gundam anthology. But the one mech from the IBO series that did stand out to me was the Mobile Armor Hashmal. Just from the moment it first appears on screen, just everythign about it screams Bad-Ass. So when I finally saw the kit available online, it was an immediate purchase. Named after the demon king of Hell in the Art Goetia, Vine, I painted this in two of my favorite Turbo Dork colors: Box Wine and Scarab. Box Wine is a beautiful rich bergundy red that just looks so pretty under a glossy top coat. And scarab is a really shiny green that like the name implies totally resembles a shiny bug\'s shell. I love both these shades so much. So without further ado, I present to you the demon king himself, Vine.',false,
+        'I was not too particularly fond of the mobile suits in the Iron Blooded orphans series. They just felt like Gundam gone cheap. IBO I would definitely consider one of my least favorite installments in the Gundam anthology. But the one mech from the IBO series that did stand out to me was the Mobile Armor Hashmal. Just from the moment it first appears on screen, just everythign about it screams Bad-Ass. So when I finally saw the kit available online, it was an immediate purchase. Named after the demon king of Hell in the Art Goetia, Vine, I painted this in two of my favorite TurboDork colors: Box Wine and Scarab. Box Wine is a beautiful rich bergundy red that just looks so pretty under a glossy top coat. And scarab is a really shiny green that like the name implies totally resembles a shiny bug\'s shell. I love both these shades so much. So without further ado, I present to you the demon king himself, Vine.',false,
         [
             ['Video','https://www.instagram.com/reel/CtHH3mBsRFP/?igshid=YzcxN2Q2NzY0OA=='],
             ['USA Gundam Store','https://www.usagundamstore.com/products/hg-ibo-1-144-29-mobile-armor-hashmal'],
             ['NewType','https://newtype.us/p/7JEXE8RGCWQpRiBbvSLa/h/hgibo-029-mobile-armor-hashmal'],
-            ['Box Wine','https://turbodork.com/products/box-wine'],
-            ['Scarab','https://turbodork.com/products/scarab'],
-            ['Vine','https://en.wikipedia.org/wiki/Vine_(demon)']
+            ['TurboDork: Box Wine','https://turbodork.com/products/box-wine'],
+            ['TurboDork: Scarab','https://turbodork.com/products/scarab'],
+            ['TurboDork: Vine','https://en.wikipedia.org/wiki/Vine_(demon)']
         ],['Sealiah'],false,true,'1:144'
     ],
     ['\u00dcbermensch',[1,'Vidar'],'FM',
@@ -6349,12 +6504,12 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/interstellar13.jpeg','Interstellar','img13']
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/interstellar12.jpeg','Profile Photo: Interstellar Dom Test Type'],
-        'Whole point of this project was pretty much just to test out the Turbo Dork paint, Rainbow Roll.',false,
+        'Whole point of this project was pretty much just to test out the TurboDork paint, Rainbow Roll.',false,
         [
             ['Video','https://www.instagram.com/reel/Ck9q2OdszjF/?igshid=YzcxN2Q2NzY0OA=='],
             ['USA Gundam Store','https://www.usagundamstore.com/products/hg-the-origin-1-144-007-yms-08b-dom-test-type'],
             ['NewType','https://newtype.us/p/O92LcR7Vr8loQn1HmU4p/h/hggto-007-yms-08b-dom-test-type'],
-            ['Turbo Dork: Rainbow Roll','https://turbodork.com/products/rainbow-roll']
+            ['TurboDork: Rainbow Roll','https://turbodork.com/products/rainbow-roll']
         ],false,true,true,'1:144','DOM Interstellar  Test Type'
     ],
     ['Rhea',[1,'RX-75 Guntank'],'SD',false,false,false,'UC','B'],
@@ -6453,13 +6608,13 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/belladonna16.jpeg','Gundam Bella Donna','img16']
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/belladonna11.jpeg','Profile Photo: Bella Donna'],
-        'Having done the Phenex Titan and Phenex Sovereign, I wanted to paint the Phenex but in it\'s tradiitional gold color, but as shiny as possible. Of course for all thinsg shiny I always resort to Turbo Dork. However I was not sure which shade of Turbo to use, so I painted two. One in \'All That Glitters\', which is the brighter gold, and one in \'Afterburner\', which is the darker gold. Together they both came out nice. I sort of imagine these two as twins.',false,
+        'Having done the Phenex Titan and Phenex Sovereign, I wanted to paint the Phenex but in it\'s tradiitional gold color, but as shiny as possible. Of course for all thinsg shiny I always resort to TurboDork. However I was not sure which shade of Turbo to use, so I painted two. One in \'All That Glitters\', which is the brighter gold, and one in \'Afterburner\', which is the darker gold. Together they both came out nice. I sort of imagine these two as twins.',false,
         [
             ['Video','https://www.instagram.com/reel/Cp3XKq1vOI_/?igshid=YzcxN2Q2NzY0OA=='],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pre-order-sd-gundam-cross-silhouette-unicorn-gundam-03-phenex-destroy-mode-narrative-ver?variant=9116289466404'],
             ['NewType','https://newtype.us/p/dIWzPbdrfm4LhDH7zl24/h/sdcs-07-unicorn-gundam-03-phenex-gundam-nt'],
-            ['Turbo Dork: After Burner','https://turbodork.com/products/afterburner'],
-            ['Turbo Dork: All That Glitters','https://turbodork.com/products/all-that-glitters']
+            ['TurboDork: After Burner','https://turbodork.com/products/afterburner'],
+            ['TurboDork: All That Glitters','https://turbodork.com/products/all-that-glitters']
         ],['Sovereign','Titan'],true,true,false
     ],
     ['Phenex [SD]',[1,'Phenex'],'SD',true,false,false,'UC','E','2021-10-11',4.17,false,false,false,'2023-03-13'],
@@ -6532,7 +6687,7 @@ const projects = [
         ['https://hosting.photobucket.com/images/i/lesaintdumech/pbsmush10.jpeg'],
         'Another P-Bandai Straight Build. What I thought was cool on this though and convinced me to order it was the Cherry Blossom flower panel stickers adorning the arms and legs. They just add a certain special \'je ne sais quoi\' that I thought was so pretty and neat. Not to also mention in real life is one of my favorite flowers. If you have never been to the cherry blossom festival in Washington DC, or in Japana, when the trees all open up each Spring, you definitely need to go sometime in your lifetime. It is a must see worth witnessing.',false,
         [
-            ['Premium Bandai','https://p-bandai.com/us/item/N2569532001002'],
+            ['Premium Bandai','https://p-bandai.com/us/item/N2569532001002']
         ],false,false,true,'1:100'
     ],
     ['Blue Monday',[1,'Sisquiede'],'SD',false,false,false,'UC','D','2022-01-06',6.76,false,'Builds/BlueMonday.html',['']],
@@ -6695,11 +6850,11 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/azalea23.jpeg','Gundam Azalea','img23']
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/azalea16.jpeg','Profile Photo: Azalea'],
-        'The drive behind this design was two-fold. One, I was testing out the new paint line I discovered, Turbo Dork. For the record they came out great and their paints are super shiny. And two, I was tyring to come up with a Christmas present for a girl, which the resolution to that quest was the shiny pink. I was really proud how this turned out that it was sad to give it away. But I\'m really proud of this build.','Penny, Nebraska',
+        'The drive behind this design was two-fold. One, I was testing out the new paint line I discovered, TurboDork. For the record they came out great and their paints are super shiny. And two, I was tyring to come up with a Christmas present for a girl, which the resolution to that quest was the shiny pink. I was really proud how this turned out that it was sad to give it away. But I\'m really proud of this build.','Penny, Nebraska',
         [
-            ['TurboDork','https://turbodork.com/products/sakura'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/sdw-heroes-06-sasuke-delta-gundam?variant=37856509067461'],
-            ['NewType','https://newtype.us/p/37iFUC8z3fCky22Mbkxp/h/sdw-heroes-06-sasuke-delta-gundam']
+            ['NewType','https://newtype.us/p/37iFUC8z3fCky22Mbkxp/h/sdw-heroes-06-sasuke-delta-gundam'],
+            ['TurboDork: Sakura','https://turbodork.com/products/sakura']
         ],false,false,true,false,false,false,false,[models[82]]
     ],
     ['Sasuki Delta [SD]',[1,'Delta, Saskui'],'SD',true,false,false,'Heroes','E','2021-09-05',1.5,false,false,false,'2022-06-20'],
@@ -6805,14 +6960,14 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/mmpr13.jpeg','Power Rangers','img63']
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/mmpr10.jpeg','Profile Photo: Power Rangers'],
-        'So I always thought the Buster Sergeants and officers formed their very own police squad corps. That it was just beggin of me to make my own Buster team or foce. Of course the question then was, what sort of team would they be. Then one day staring down at their cute little helmets, it dawned on me, well of course, the frickin Power Rangers. Not the lame newer stuff, but the original 90s Might Morphin Power Rangers. So I painted each one a different color out of the original lineup, plus the green ranger. And for their helmets I chose a matching color shade of Turbo Dork to make the viser shiny. These came out looking so cool.',false,
+        'So I always thought the Buster Sergeants and officers formed their very own police squad corps. That it was just beggin of me to make my own Buster team or foce. Of course the question then was, what sort of team would they be. Then one day staring down at their cute little helmets, it dawned on me, well of course, the frickin Power Rangers. Not the lame newer stuff, but the original 90s Might Morphin Power Rangers. So I painted each one a different color out of the original lineup, plus the green ranger. And for their helmets I chose a matching color shade of TurboDork to make the viser shiny. These came out looking so cool.',false,
         [
             ['Video','https://www.instagram.com/reel/CpF8BcpOht9/'],
-            ['USA Gundam Store','https://www.usagundamstore.com/products/sdw-heroes-12-sergeant-verde-buster-gundam-dx'],
-            ['USA Gundam Store','https://www.usagundamstore.com/products/gundam-sdw-heroes-verde-buster-team-member-model-kit'],
-            ['NewType','https://newtype.us/p/6WGpOtGU5sn6S4Zq5WxW/h/sdw-heroes-12-sergeant-verde-buster-gundam-dx-set'],
-            ['NewType','https://newtype.us/p/9DnZDjp1oqrDn71o7qfZ/h/sdw-heroes-13-verde-buster-team-member'],
-            ['Turbo Dork','https://turbodork.com']
+            ['USA Gundam Store: Sergeanet','https://www.usagundamstore.com/products/sdw-heroes-12-sergeant-verde-buster-gundam-dx'],
+            ['USA Gundam Store: Team Member','https://www.usagundamstore.com/products/gundam-sdw-heroes-verde-buster-team-member-model-kit'],
+            ['NewType: Sergeant','https://newtype.us/p/6WGpOtGU5sn6S4Zq5WxW/h/sdw-heroes-12-sergeant-verde-buster-gundam-dx-set'],
+            ['NewType: Team Member','https://newtype.us/p/9DnZDjp1oqrDn71o7qfZ/h/sdw-heroes-13-verde-buster-team-member'],
+            ['TurboDork','https://turbodork.com']
         ],false,true,true,false,false,'Mighty Morphin Power Rangers',false,[models[83],models[84]]
     ],
     ['Eos',[1,'Wing, Cao Cao'],'SD',false,false,false,'Heroes','B'],    //Wing zero
@@ -6882,9 +7037,9 @@ const projects = [
         'First attempt at an air brush. Testors paints. Jennifer Hudson. The Nanny. Feeling very purple with this one.',
         'Nick, Nevada',
         [
+            ['Wikipedia','https://en.wikipedia.org/wiki/Chevrolet_Bel_Air'],
             ['Hobby Lobby','https://www.hobbylobby.com/Crafts-Hobbies/Model-Kits/Cars-Trucks-Motorcycles/1957-Chevy-Bel-Air-Model-Kit/p/26172'],
-            ['Hobby Town','https://www.hobbytown.com/amt-1-24-57-bel-air-model-kit-amt638/p39219'],
-            ['Wikipedia','https://en.wikipedia.org/wiki/Chevrolet_Bel_Air']
+            ['Hobby Town','https://www.hobbytown.com/amt-1-24-57-bel-air-model-kit-amt638/p39219']
         ],false,false,true,'1:25'
     ],
     ['Wilbur',[1,'Volkswagen Beetle, 68'],'Car',
@@ -6942,10 +7097,10 @@ const projects = [
         'Was an attempt at a recreation for an actual old 68 beetle we\'re in the middle of trying to restore. Incorporating our love of Germany and all things German, most particularly the cute little Dachshund. Made this as a christmas present',
         'Zack #TheLunchDude, Iowa',
         [
-            ['Hobby Town','https://www.hobbytown.com/revell-germany-1-24-60s-beetle-type-1-rmx854192/p609173'],
             ['Video','https://www.instagram.com/p/Cm64DaTI43G/'],
             ['Wiki','https://en.wikipedia.org/wiki/Volkswagen_Beetle'],
-            ['Volkswagen','https://www.vw.com/en.html']
+            ['Volkswagen','https://www.vw.com/en.html'],
+            ['Hobby Town','https://www.hobbytown.com/revell-germany-1-24-60s-beetle-type-1-rmx854192/p609173']
         ],['Wilbee'],false,true,'1:24'
     ],
     
@@ -6967,14 +7122,14 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/obelixcomic.jpeg','Obelix the Gaul']
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/Obelix_8915.jpeg','Profile Photo: Obelix'],
-        'Had a lot of fun building the previous Pokemon builds. Particularly the Charmander family. That I felt a suddent urge to want to build even more little pocket monsters. Since Charmander was so fun I figured why not do another starter from the Kanto family, and the local hobby shop had a Bulbasaur kit in stock so the fate was sealed. For this used regular Vallejo Model Air green paints for the base of the body. But adding the real shine I used Turbo Dork\'s Forrest Flux to add the shine of the bulb. Overall the little guy is cute and I am pleased with the results.',false,
+        'Had a lot of fun building the previous Pokemon builds. Particularly the Charmander family. That I felt a suddent urge to want to build even more little pocket monsters. Since Charmander was so fun I figured why not do another starter from the Kanto family, and the local hobby shop had a Bulbasaur kit in stock so the fate was sealed. For this used regular Vallejo Model Air green paints for the base of the body. But adding the real shine I used TurboDork\'s Forrest Flux to add the shine of the bulb. Overall the little guy is cute and I am pleased with the results.',false,
         [
             ['Video','https://www.instagram.com/reel/CywqRtPOlzK/?igshid=MzRlODBiNWFlZA=='],
             ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Bulbasaur_(Pokémon)'],
+            ['Obelix: Profile','https://asterix.fandom.com/wiki/Obelix'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-bulbasaur-13-quick-model-kit'],
             ['NewType','https://newtype.us/p/W2XuUUtpyK4uqkEPD18t/h/pokemon-model-kit-quick-13-bulbasaur'],
-            ['Turbo Dork: Forrest Flux','https://turbodork.com/products/forrest-flux'],
-            ['Obelix: Profile','https://asterix.fandom.com/wiki/Obelix']
+            ['TurboDork: Forrest Flux','https://turbodork.com/products/forrest-flux']
         ],['Asterix'],false,true
     ],
     ['Asterix',[1,'Charmander'],'Pokemon',
@@ -6998,17 +7153,17 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/asterix.jpg','Asterix the Gaul']
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/asterix10.jpg','Profile Photo: Asterix'],
-        'I remember back playing my first Pokemon game, the Red Version, and choosing Charmander as my first starter. He has always been my favorite starter. There\'s just something cute that you gotta love the guy. Not to mention his final evolution is just bad-@$$. I grabbed this kit on a purely impulsive whim, but I am so glad I did. Since there\'s very little surface area to paint, I decided to go with a Turbo Dork metallic red to make it more shiny than normal to compensate for the lack of complexity and it looked so cool. I did not plan it this way at the time, but since the game-mechanic was introduced in the latest generation of Pokemon games, post paint I decided to label this one Charmander\'s terastal form. As for the project name, I was at a loss for ideas. I did not want to just title it Charmander and be lame; I like to give a special name to all my projects (except straight builds). So at pure randomness I thought back to the old French Gaulois comics series Asterix and figured why not. Going forward all my Pokemon models are going to be nomenclatured after the world of Asterix and Gaulois in general. Enjoy!',false,
+        'I remember back playing my first Pokemon game, the Red Version, and choosing Charmander as my first starter. He has always been my favorite starter. There\'s just something cute that you gotta love the guy. Not to mention his final evolution is just bad-@$$. I grabbed this kit on a purely impulsive whim, but I am so glad I did. Since there\'s very little surface area to paint, I decided to go with a TurboDork metallic red to make it more shiny than normal to compensate for the lack of complexity and it looked so cool. I did not plan it this way at the time, but since the game-mechanic was introduced in the latest generation of Pokemon games, post paint I decided to label this one Charmander\'s terastal form. As for the project name, I was at a loss for ideas. I did not want to just title it Charmander and be lame; I like to give a special name to all my projects (except straight builds). So at pure randomness I thought back to the old French Gaulois comics series Asterix and figured why not. Going forward all my Pokemon models are going to be nomenclatured after the world of Asterix and Gaulois in general. Enjoy!',false,
         [
+            ['Video','https://www.instagram.com/reel/CwhNGT7IWme/?igshid=MzRlODBiNWFlZA=='],
+            ['Asterix: Official Site','https://asterix.com/en/'],
+            ['Asterix: Profile','https://asterix.fandom.com/wiki/Asterix_(Character)'],
+            ['Asterix: Wiki','https://en.wikipedia.org/wiki/Asterix'],
             ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Charmander_(Pokémon)'],
             ['Terestal Phenomenon','https://bulbapedia.bulbagarden.net/wiki/Terastal_phenomenon'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-charmander-11-quick-model-kit?_pos=1&_sid=5226c6cbe&_ss=r'],
             ['NewType','https://newtype.us/p/kjQjxZgkxDWE1c9nYf1Z/h/pokemon-model-kit-quick-11-charmander'],
-            ['Turbo Dork: Redrum','https://turbodork.com/products/redrum'],
-            ['Video','https://www.instagram.com/reel/CwhNGT7IWme/?igshid=MzRlODBiNWFlZA=='],
-            ['Asterix: Profile','https://asterix.fandom.com/wiki/Asterix_(Character)'],
-            ['Asterix: Wiki','https://en.wikipedia.org/wiki/Asterix'],
-            ['Asterix: Official Site','https://asterix.com/en/']
+            ['TurboDork: Redrum','https://turbodork.com/products/redrum'],
         ],['Obelix','Vercingetorix'],false,true,false
     ],
     ['Vercingetorix',[1,'Charizard'],'Pokemon',
@@ -7043,10 +7198,10 @@ const projects = [
         ['https://hosting.photobucket.com/images/i/lesaintdumech/vercezard09.jpeg','Profile Photo: Vercingetorix'],
         'My favorite Pokemon has always been Charizard. What can I say I\'ve always been a lover of dragons. So for my first Pokemon and first starter, Charizard could not have been more adequqte and fitting. Plus with the Vallejo Ferari Red instead of his traditional orange, this one only came out looking even more cooler. ',false,
         [
+            ['Video','https://www.instagram.com/reel/CwyAiLGOMR_/?igshid=MzRlODBiNWFlZA=='],
             ['Bulbapedia','https://www.google.com/search?client=safari&rls=en&q=charizard&ie=UTF-8&oe=UTF-8'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-plamo-charizard-dragonite'],
-            ['NewType','https://newtype.us/p/S9nZ4KxUmzbDoDM0HfDd/h/pokemon-charizard-dragonite'],
-            ['Video','https://www.instagram.com/reel/CwyAiLGOMR_/?igshid=MzRlODBiNWFlZA==']
+            ['NewType','https://newtype.us/p/S9nZ4KxUmzbDoDM0HfDd/h/pokemon-charizard-dragonite']
         ],['Asterix','Boudica','Charizard','Charizard X'],false,true,false
     ],
     ['Boudica',[1,'Dragonite'],'Pokemon',
@@ -7071,10 +7226,10 @@ const projects = [
         ['https://hosting.photobucket.com/images/i/lesaintdumech/boudica08.jpeg','Profile Photo: Boudica'],
         'Not much inspiration for my Dragonite here. Pretty much just a traditional Dragonite painted in Vallejo Old Gold.',false,
         [
+            ['Video','https://www.instagram.com/reel/CxHDELNufAP/?igshid=MzRlODBiNWFlZA=='],
             ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Dragonite_(Pokémon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-plamo-charizard-dragonite'],
-            ['NewType','https://newtype.us/p/S9nZ4KxUmzbDoDM0HfDd/h/pokemon-charizard-dragonite'],
-            ['Video','https://www.instagram.com/reel/CxHDELNufAP/?igshid=MzRlODBiNWFlZA==']
+            ['NewType','https://newtype.us/p/S9nZ4KxUmzbDoDM0HfDd/h/pokemon-charizard-dragonite']
         ],['Vercingetorix'],false,true,false
     ],
     ['Astronomix',[1,'Gengar'],'Pokemon',false,false,false,'','C','',0.33],
@@ -7167,14 +7322,14 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/thor28.jpeg','Thor','img28']
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/thor27.jpeg','Profile Photo: Fenrir'],
-        'After having completed Fafnir, Fenrir and Ragnarok I was having way too much fun construcitn Digimon builds that I had to do one more so I went and bought Gallantmon. FIRST OFF.... I am so wowed and bedazzled how this shield turned out. It is just beyond surreal. But to get into the theme, unlike the previous three which I kept faithful to their original design by the Digimon creators, with Thor I decided to get more creative. I though his mostly white body was too vague and bland, plus too similar to Omnimon\'s so I decided to spice it up by painting it the exact opposite color to make it stand out. For the black I chose Turbo Dork\'s shade Black Ice. This was my first time using this color and I admit I was expecting more. It does fall a bit flat that I could have achieved similar results with any plain generic black paint with plenty of gloss top coat added on top. But the Black Ice did have a little bit of shine which was cool. Also for distinction, the Black Ice was used solely on the body of Thor. For the black parts of the shield, I used Vallejo\'s Burnt Iron. Burnt Iron on the other hand I just absolutely love this shade of paint. It looks fantastic every time I use it. Not only is it dark, but it also has a nice element of texture that just stands out that makes any paint project look much deeper. Also another modification, the original model kit comes with plastic vinyl flaps for the cape, which looked just ridiculous. So I threw those out and made a new cape out of actual canvas and mine looks way better.',false,
+        'After having completed Fafnir, Fenrir and Ragnarok I was having way too much fun construcitn Digimon builds that I had to do one more so I went and bought Gallantmon. FIRST OFF.... I am so wowed and bedazzled how this shield turned out. It is just beyond surreal. But to get into the theme, unlike the previous three which I kept faithful to their original design by the Digimon creators, with Thor I decided to get more creative. I though his mostly white body was too vague and bland, plus too similar to Omnimon\'s so I decided to spice it up by painting it the exact opposite color to make it stand out. For the black I chose TurboDork\'s shade Black Ice. This was my first time using this color and I admit I was expecting more. It does fall a bit flat that I could have achieved similar results with any plain generic black paint with plenty of gloss top coat added on top. But the Black Ice did have a little bit of shine which was cool. Also for distinction, the Black Ice was used solely on the body of Thor. For the black parts of the shield, I used Vallejo\'s Burnt Iron. Burnt Iron on the other hand I just absolutely love this shade of paint. It looks fantastic every time I use it. Not only is it dark, but it also has a nice element of texture that just stands out that makes any paint project look much deeper. Also another modification, the original model kit comes with plastic vinyl flaps for the cape, which looked just ridiculous. So I threw those out and made a new cape out of actual canvas and mine looks way better.',false,
         [
             ['Video','https://www.instagram.com/reel/CliF2wOMz8g/?igshid=YzcxN2Q2NzY0OA=='],
-            ['Fandom','https://digimon.fandom.com/wiki/Gallantmon?so=search'],
             ['Digmon Cybersleuth','https://www.grindosaur.com/en/games/digimon/digimon-story-cyber-sleuth/digimon/262-gallantmon'],
+            ['Fandom','https://digimon.fandom.com/wiki/Gallantmon?so=search'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/digimon-tamers-figure-rise-standard-amplified-dukemon-gallantmon'],
             ['NewType','https://newtype.us/p/QsA7C5WeJfFpYIYbCCU3/h/figure-rise-omegamon-amplified'],
-            ['Turbo Dork: Black Ice','https://turbodork.com/products/black-ice']
+            ['TurboDork: Black Ice','https://turbodork.com/products/black-ice']
         ],['Heimdall'],false,true,false
     ],
     ['Jormungandr',[1,'Imperialdramom'],'Digimon',false,false,false,'','A'],
@@ -7214,8 +7369,8 @@ const projects = [
         'I had been building Gundams and mechas for a while now and wanted to do something a little more organic. I had purchased the Omnimon kit but had not built it yet. But considering Omnimon is the fusion of WarGreymon and MetalGarurumon I was starting to think maybe it would only be appropriate I build those two first before moving on to Omnimon. So next thing I know is I\'m online ordering both those two kits as well and then all of a sudden I\'m opening MetalGarurumon\'s box and spraying primer on the plastic pieces. For Fenrir, despite the cool Norse name I stuck pretty traditional to the design. Did not change any of the colors. Did thing the Vallejo Electric Blue however turned out great for the body of this wolf. Also loved how the crest on his stomach turned out. To achieve that affect I used Vallejo Arctic Metallic Blue and then a candy effect of red transpirant over gold paint in order to make it so shiny. Every time I look up at this build where it\'s currently mounted on my bookshelf I am just taken back by it. This was my first ever Digimon build and I am just so proud of how I did.',false,
         [
             ['Video','https://www.instagram.com/reel/Cixi0LbAGST/?igshid=YzcxN2Q2NzY0OA=='],
-            ['Fandom','https://digimon.fandom.com/wiki/MetalGarurumon?so=search'],
             ['Digmon Cybersleuth','https://www.grindosaur.com/en/games/digimon/digimon-story-cyber-sleuth/digimon/297-metalgarurumon'],
+            ['Fandom','https://digimon.fandom.com/wiki/MetalGarurumon?so=search'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/digimon-adventure-figure-rise-standard-amplified-metalgarurumon-model-kit'],
             ['NewType','https://newtype.us/p/8ZOOYNmIKJ69rfHIhP3v/h/figure-rise-metalgarurumon-amplified']
         ],['Fafnir','Ragnarok'],false,true,false
@@ -7253,8 +7408,8 @@ const projects = [
         'Since its original debut in the Digimon movie, Omnimon has always been my favorite Digimon that I just had to build this. For this kit I really tried hard to bring out the colors and make them pop. For the blue I used a Valejo Electric Blue and the red I used Ferari Red. For the cape I found a greate crimson/magenta for the font facing side and on the back I tried experiementing with mixing different satan / ivory and shades of white paint together to attempt to make a nice fluffy swirly feather effect. I definitely failed on the effect but it\'s somethihgn I will continue attempting and practicing at. Also I mm maybe most proud of the chest. For the blue lines I hand painted them with Testors Glossy Teal and I just love the shiny blue look of this paint. All in all I am well pleased by the result of this',false,
         [
             ['Video','https://www.instagram.com/reel/Cj0z4GPs1Xo/?igshid=YzcxN2Q2NzY0OA=='],
-            ['Fandom','https://digimon.fandom.com/wiki/Omnimon'],
             ['Digmon Cybersleuth','https://www.grindosaur.com/en/games/digimon/digimon-story-cyber-sleuth/digimon/315-omnimon'],
+            ['Fandom','https://digimon.fandom.com/wiki/Omnimon'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/digimon-figure-rise-standard-amplified-omegamon-model-kit'],
             ['NewType','https://newtype.us/p/QsA7C5WeJfFpYIYbCCU3/h/figure-rise-omegamon-amplified']
         ],['Fenrir','Fafnir'],false,true,false
@@ -7290,8 +7445,8 @@ const projects = [
         'So I loved the show Digimon as a kid growing up, and WarGreymon plus his evolution Omnimon I always thought they were just the coolest. When I saw the amplified kit of him and all its extra details, I was just completedly sold. It came out great. My use of the Vallejo Ferarri Red looked better than the typical yellow-orange of the original plastic. This was just rad as ever.',false,
         [
             ['Video','https://www.instagram.com/reel/CjUMt3eP1lk/'],
-            ['Fandom','https://digimon.fandom.com/wiki/WarGreymon'],
             ['Digmon Cybersleuth','https://www.grindosaur.com/en/games/digimon/digimon-story-cyber-sleuth/digimon/228-wargreymon'],
+            ['Fandom','https://digimon.fandom.com/wiki/WarGreymon'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/digimon-adventure-figure-rise-standard-amplified-wargreymon-model-kit'],
             ['NewType','https://newtype.us/p/dGkX8wc4OgATMVVeqW5A/h/figure-rise-wargreymon-amplified']
         ],['Fenrir','Ragnarok'],false,true,false
@@ -7351,8 +7506,8 @@ const projects = [
         ['https://hosting.photobucket.com/images/i/lesaintdumech/kataluma04B.jpeg','Profile Photo: Kataluma'],
         'The Kataluma, ou en grec: \"\u039A\u03B1\u03C4\u03B1\u03BB\u03C5\u03BC\u03B1\", is the name of a ship in my own Gundam self-fiction I\'m working on. Greek for Inn, and word used in the original Greek bible when Mary and Joseph were looking for a place to stay in Bethlehem. Well there is room stay at this Inn for my Gundams. Specifically just a 1:144 scale model. It is a tight squeeze for even the smallest Gundams of that scale to fit. Would have been nice if the designers had planned a little more space. But this was mostly just a practice run for my much larger project the Stratle. Overall I liked how it tuned out. It looks great with the metallic paint colors and the Evan Designs LEDs really make it pop.',false,
         [
-            ['USA Gundam Store','https://www.usagundamstore.com/products/1-144-gundam-hanger-bay?variant=37766625657029'],
-            ['LEDS: Evan Designs','https://evandesigns.com']
+            ['LEDS: Evan Designs','https://evandesigns.com'],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/1-144-gundam-hanger-bay?variant=37766625657029']
         ],['Stratle'],false,true
     ],
     ['Stratle',[1,'Maintenance Bay'],'Display',
@@ -7387,8 +7542,7 @@ const projects = [
         [
             ['LEDS','https://evandesigns.com'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/gundam-maintenance-bay-for-1-100-1-144?variant=39742292984005'],
-            ['NewType','https://newtype.us/p/TZllOhRZkRmG7KJdjDAW/h/composable-action-base#builds'],
-            ['LEDS: Evan Designs','https://evandesigns.com']
+            ['NewType','https://newtype.us/p/TZllOhRZkRmG7KJdjDAW/h/composable-action-base#builds']
         ],['Kataluma'],false,true
     ],
 
@@ -7411,8 +7565,8 @@ const projects = [
         'Named after the Mediterranean SouthWest wind, I present to you the Libeccio. I had, had way too much fun building the Eternal, Archangel and Dominion, that I ached to build another ship model again. Granted there are not many other ships in the Gundam lineup to build, and also that Bandai is currently not manufacturing new ones, I had no choice but to branch out and try another franchise. And luckly enough at the time, there were lots of StarBlazers kits floating around in rotation to take advantavge of. I know nothing about the StarBlazer though of course. But the kits were cool enough that they seemed worth giving them a try.',
         false,
         [
-            ['StarBlazer Wiki','https://yamato.fandom.com/wiki/Andromeda_Black'],
-            ['Video','https://www.instagram.com/reel/CoVMgaLMyp5/?igshid=YzcxN2Q2NzY0OA==']
+            ['Video','https://www.instagram.com/reel/CoVMgaLMyp5/?igshid=YzcxN2Q2NzY0OA=='],
+            ['StarBlazer Wiki','https://yamato.fandom.com/wiki/Andromeda_Black']
         ],['Ostro','Ponente','Levante'],false,true,'1:1000'
     ],
     ['Ostro',[0.2,'Cosmo Falcon'],'Ship',
@@ -7480,10 +7634,9 @@ const projects = [
         'Was working on the Volkswagen Beetle model Wilbur and train of thought on this led me to considering the Transformer\'s 2018 Bumblebee film Volkswagen bug version of the eponymous \'Bumblebee\'. So this lead me to immediately buying the eqivalent Trumpeter brand model Bumblebee kit and painting him the same colors as Wilbur... thus \u00E0 la Wil-Beeeee!!!! I like to imagine him being my Wilbur transformed into robot mode. Oh and unlike Captain Bumble, Wilbee is a total Predacon.',
         'Tyler, North Carolina',
         [
-            ['Amazon','https://a.co/d/a6lagxe'],
-            ['NewType','https://newtype.us/p/TgNnMiuDbvcowmHCougQ/h/trumpeter-bumblebee-smart-kit'],
+            ['Video','https://www.instagram.com/p/CnM23e9IV7k/'],
             ['USA Gundam','https://www.usagundamstore.com/products/transformers-bumblebee-smart-model-kit?variant=41383099105477'],
-            ['Video','https://www.instagram.com/p/CnM23e9IV7k/']
+            ['NewType','https://newtype.us/p/TgNnMiuDbvcowmHCougQ/h/trumpeter-bumblebee-smart-kit']
         ],['Wilbur'],false,true,false
     ],
     
@@ -7542,11 +7695,11 @@ const projects = [
         'So this was created as a gift for someone who is a huge Daschund lover. There are not any dachsund kits that I am aware of so I figured buy a Zoid fox kit and paint it in the dachshund color scheme. Specifically the red dachshund. This is also my first Zoid paint job. And being my first, naturally there were some challenges at getting the pieces to fit. The annoying thing about paint is it adds a tiny micro additional diameter to all the pieces that sometimes the ones with a tight fight just no longer fit. I did have to resort to mutilating the pieces a little on the inside and gluing them together. But it is after all a learning experience. My future Zoids will come together much better.',
         'Zack #TheLunchDude, Iowa',
         [
+            ['Video','https://www.instagram.com/reel/CvFcTPntiHA/?igshid=YzcxN2Q2NzY0OA=='],
             ['Dachunds','https://en.wikipedia.org/wiki/Dachshund'],
-            ['NewType','https://newtype.us/p/mqnZCcWjZGMi6fm9t3Ir/h/zoids-rz-046-shadow-fox-marking-plus-ver'],
             ['Shadow Fox','https://zoids.fandom.com/wiki/Shadow_Fox'],
-            ['USA Gundam Store','https://www.usagundamstore.com/products/zoids-highend-master-model-rz-046-shadow-fox-marking-plus-ver-1-72-scale-model-kit'],
-            ['Video','https://www.instagram.com/reel/CvFcTPntiHA/?igshid=YzcxN2Q2NzY0OA==']
+            ['NewType','https://newtype.us/p/mqnZCcWjZGMi6fm9t3Ir/h/zoids-rz-046-shadow-fox-marking-plus-ver'],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/zoids-highend-master-model-rz-046-shadow-fox-marking-plus-ver-1-72-scale-model-kit']
         ],false,false,true
     ],
     ['Shere Khan',[1,'Blade Liger'],'Zoid',false,false,false,'','B'],
