@@ -505,6 +505,18 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/IMG_8951.JPG']
         ]
+    ],
+    [
+        '2023-10-30',
+        'Halloween Week: Part 1',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/VidarFrame27.jpeg',
+        [
+            [
+                'This week is going to be another two parter. Just in time for Halloween is my take on the omninous Gundam Vidar from Iron blooded Ophans. Vidar to me has always been a dark and ominous, intimidating suit so I wanted to paint something that represented that. So inpsired by Nietzsche himself, I present to you ',
+                ['Gundam \u00dcbermensch','Builds/Gundams/Ubermesnch.html'],
+                ', part 1, the gold frame.'
+            ]
+        ]
     ]
 ]
 

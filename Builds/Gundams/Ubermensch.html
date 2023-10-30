@@ -11,11 +11,11 @@
         <script src="../../JS/frenchMetrics.js?v=202308131625"></script>
         <link rel="stylesheet" href="../../CSS/home.css?v=202309151411"/>
         <link rel="stylesheet" href="../../CSS/modal.css?v=202308141426"/>
-        <link rel="stylesheet" href="../../CSS/projects.css?v=202308071837">
+        <link rel="stylesheet" href="../../CSS/projects.css?v=202309131321">
 
         <title id="title">&#9884; Le Saint du Mech: </title>
     </head>
-    <body onload="buildProjectPage('Interstellar'),convertDateToday()">
+    <body onload="buildProjectPage('\u00dcbermensch'),convertDateToday()">
         <!--Jumbotron-->
         <header class="jumbotron jumbotron-fluid"> 
             <div class="container">
@@ -48,6 +48,7 @@
                         <li class="nav-item"><a class="nav-link" href="../../builds.html">Builds</a></li>
                         <li class="nav-item"><a class="nav-link" href="../../statistics.html">Statistics</a></li>
                         <li class="nav-item"><a class="nav-link" href="../../links.html">Links</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../../games.html">Games</a></li>
                     </ul>
                 </div>
             </div>
@@ -77,14 +78,21 @@
             <!--Project Details Section-->
             <div class="row align-items-center">
                 <div class="col offset-md-1">
+                    <span class="projectMGEXHD">
+                        <h3 class="font-weight-bold text-danger d-none d-md-block">Master Grade Extreme</h3>
+                        <h5 class="font-weight-bold text-danger d-md-none">Master Grade Extreme</h5>
+                    </span>
+                    <span class="projectPBandaiHD">
+                        <span id="projectPBandai" class="font-weight-bold text-danger">Premium-Edition </span><br/>
+                    </span>
+                    <span class="projectStraightBuildHD">
+                        <span class="font-weight-bold text-danger">Straight Build</span><br/>
+                    </span>
                     <span id="projectName"><span class="font-weight-bold">Project: </span></span><br/>
                     <span class="projectAliasHD">
                         <q id="projectAlias"></q><br/>
                     </span>
                     <span id="modelName"><span class="font-weight-bold">Model: </span></span><br/>
-                    <span class="projectPBandaiHD">
-                        <span id="projectPBandai" class="font-weight-bold text-danger">Premium-Edition </span><br/>
-                    </span>
                     <span class="projectGradeHD">
                         <span id="projectGrade"><span class="font-weight-bold">Grade/Scale:</span> </span><br/>
                     </span>
@@ -435,6 +443,9 @@
                         <span class="dgNicknameHD">
                             <q id="dgNickname"></q> <br/>
                         </span>
+                        <span class="dgAlternateHD">
+                            <span id="dgAlternate"><span class="font-weight-bold">Also known as: </span></span><br/>
+                        </span>
                         <span class="dgFormHD">
                             <span id="dgForm"><span class="font-weight-bold">Form: </span></span><br/>
                         </span>
@@ -568,7 +579,71 @@
             </span>
 
             <!--Zoid-->
-
+            <span class="ZoidPage">
+                <div class="row align-items-center">
+                    <div class="col-md-5 mb-3 text-center" id="zdModelPhoto"></div>
+                    <div class="col">
+                        <span class="zdShortNameHD">
+                            <span id="zdShortName"><span class="font-weight-bold">Model: </span></span><br/>
+                        </span>
+                        <span class="zdSerialHD">
+                            <span id="zdSerial"><span class="font-weight-bold">Serial Number: </span></span><br/>
+                        </span>
+                        <span class="zdAltNameHD">
+                            <span id="zdAltName"><span class="font-weight-bold">Alias: </span></span><br/>
+                        </span>
+                        <span class="zdTypeHD">
+                            <span id="zdType"><span class="font-weight-bold">Animal/Type: </span></span><br/>
+                        </span>
+                        <span class="zdAffiiliationHD">
+                            <span id="zdAffiiliation"><span class="font-weight-bold">Nation/Affiliation: </span></span><br/>
+                        </span>
+                        <span class="zdPilotHD">
+                            <span id="zdPilot"><span class="font-weight-bold">Notable Pilots: </span></span><br/>
+                        </span>
+                        <span class="zdCrewHD">
+                            <span id="zdCrew"><span class="font-weight-bold">Crew Count: </span></span><br/>
+                        </span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col offset-md-2">
+                        <span class="zdHeightHD">
+                            <span id="zdHeight"><span class="font-weight-bold">Height: </span></span><br/>
+                        </span>
+                        <span class="zdWeightHD">
+                            <span id="zdWeight"><span class="font-weight-bold">Weight: </span></span><br/>
+                        </span>
+                        <span class="zdDepthHD">
+                            <span id="zdDepth"><span class="font-weight-bold">Depth: </span></span><br/>
+                        </span>
+                        <span class="zdSpeedHD">
+                            <span id="zdSpeed"><span class="font-weight-bold">Speed: </span></span><br/>
+                        </span>
+                        <span class="zdDevelopedByHD">
+                            <span id="zdDevelopedBy"><span class="font-weight-bold">Developed By: </span></span><br/>
+                        </span>
+                        <span class="zdFromHD">
+                            <span class="font-weight-bold">Developed From: </span><br/>
+                            <ul id="zdFrom"></ul>
+                        </span>
+                        <span class="zdToHD">
+                            <span class="font-weight-bold">Developed Into: </span><br/>
+                            <ul id="zdTo"></ul>
+                        </span>
+                    </div>
+                    <div class="col-md">
+                        <span class="zdWeaponsHD">
+                            <span class="font-weight-bold">Weapons: </span><br/>
+                            <ul id="zdWeapons"></ul>
+                        </span>
+                        <span class="zdEquipmentHD">
+                            <span class="font-weight-bold">Equipment: </span><br/>
+                            <ul id="zdEquipment"></ul>
+                        </span>
+                    </div>
+                </div>
+            </span>
 
             <!--Haro-->
             <span class="HaroPage">

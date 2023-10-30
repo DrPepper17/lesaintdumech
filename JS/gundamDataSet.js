@@ -6380,7 +6380,46 @@ const projects = [
         ],['Sealiah'],false,true,'1:144'
     ],
     ['\u00dcbermensch',[1,'Vidar'],'FM',
-        false,false,false,'IBO','D','2023-08-01',19.47
+        false,false,false,'IBO','E','2023-08-01',20.55,false,'Builds/Gundams/Ubermensch.html',false,'2023-10-30',models[95],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/VidarFrame01.jpeg','Ubermensce: Frame'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/VidarFrame02.jpeg','Ubermensce: Frame'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/VidarFrame03.jpeg','Ubermensce: Frame'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/VidarFrame04.jpeg','Ubermensce: Frame'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/VidarFrame05.jpeg','Ubermensce: Frame'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/VidarFrame06.jpeg','Ubermensce: Frame'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/VidarFrame07.jpeg','Ubermensce: Frame'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/VidarFrame08.jpeg','Ubermensce: Frame'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/VidarFrame09.jpeg','Ubermensce: Frame'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/VidarFrame10.jpeg','Ubermensce: Frame'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/VidarFrame11.jpeg','Ubermensce: Frame'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/VidarFrame12.jpeg','Ubermensce: Frame'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/VidarFrame13.jpeg','Ubermensce: Frame'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/VidarFrame14.jpeg','Ubermensce: Frame'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/VidarFrame15.jpeg','Ubermensce: Frame'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/VidarFrame16.jpeg','Ubermensce: Frame'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/VidarFrame17.jpeg','Ubermensce: Frame'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/VidarFrame18.jpeg','Ubermensce: Frame'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/VidarFrame19.jpeg','Ubermensce: Frame'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/VidarFrame20.jpeg','Ubermensce: Frame'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/VidarFrame21.jpeg','Ubermensce: Frame'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/VidarFrame22.jpeg','Ubermensce: Frame'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/VidarFrame23.jpeg','Ubermensce: Frame'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/VidarFrame24.jpeg','Ubermensce: Frame'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/VidarFrame25.jpeg','Ubermensce: Frame'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/VidarFrame26.jpeg','Ubermensce: Frame'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/VidarFrame27.jpeg','Ubermensce: Frame'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/VidarFrame28.jpeg','Ubermensce: Frame'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/VidarFrame29.jpeg','Ubermensce: Frame'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/VidarFrameAA.jpeg','Ubermensce: Frame'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/VidarFrameAB.jpeg','Ubermensce: Frame']
+        ],['https://hosting.photobucket.com/images/i/lesaintdumech/VidarFrame16.jpeg', 'Profile Photo: Ubermensch'],
+        '"In a stronger age than this decaying, self-doubing present, he must yet come to us, the redeeming man, of great love and contempt, the creative spirit whose compelling strength will not let him rest in any aloofness or any beyond, whose isolation is misunderstood by the people as if it were flight from reality \u2014 While it is only his absorption, immersion, penetration into reality, so that, when he one day emerges again into the light, he may bring home the redemption of this reality; its redemption from the curse that the hitherto reigning ideal has laid upon it. The man of the future, who will redeem us not only from the hitherto reigning ideal but also from that which was bound to grow out of it, the Great Nausea, the will to nothingness, nihilism; this bell-stroke of noon and of the great decision that liberates the will again and restores its goal to the earth and his hope to man; this Antichrist and Antinihilist; this victor over God and nothingness \u2014 he must come one day." ~ Friedrich Nietzsche, On the Genealogy of Morals',false, 
+        [
+            ['Video: Frame','https://instagram.com/p/CzCnO36OrDa/'],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/full-mechanics-iron-blooded-orphans-1-100-gundam-vidar'],
+            ['NewType','https://newtype.us/p/HkMyju9reQSuPtxEuvx8/h/full-mechanics-gundam-vidar']
+        ],false,false,true,'1:100', 'The \u00dcbermensch shall be the meaning of the earth! I entreat you my brethren, remain true to the earth, and do not believe those who speak to you of supra-terrestrial hopes! … Behold, I teach you the \u00dcbermensch: he is this lightning, he is this madness! … Behold, I am a prophet of the lightning and a heavy drop from the cloud: but this lightning is called \u00dcbermensch.'
     ],
 
     //Universal Century
