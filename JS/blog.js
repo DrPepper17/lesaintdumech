@@ -513,7 +513,7 @@ const blogArray = [
         [
             [
                 'This week is going to be another two parter. Just in time for Halloween is my take on the omninous Gundam Vidar from Iron blooded Ophans. Vidar to me has always been a dark and ominous, intimidating suit so I wanted to paint something that represented that. So inpsired by Nietzsche himself, I present to you ',
-                ['Gundam \u00dcbermensch','Builds/Gundams/Ubermesnch.html'],
+                ['Gundam \u00dcbermensch','Builds/Gundams/Ubermensch.html'],
                 ', part 1, the gold frame.'
             ]
         ]
