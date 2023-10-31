@@ -517,6 +517,20 @@ const blogArray = [
                 ', part 1, the gold frame.'
             ]
         ]
+    ],
+    [
+        '2023-10-31',
+        'Happy Halloween!!!',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/UbmenschArmor28.jpeg',
+        [
+            [
+                'Happy Halloween and in honor of the holiday, time for part two of spooky',
+                ['Gundam \u00dcbermensch','Builds/Gundams/Ubermensch.html'],
+                '. Today I am unveiling \u00dcbermensch\'s armor form. '
+            ]
+        ],
+        ['I really love how shiny this armor came out. This was my first time using the Mr Color, Mr Metallic line of paints. On this one I utilized the Mr Metallic GX-206 Metal Purple, GX-215 Bloody Red and GX-217 Rough Gold. They all are outstanding. I definitely achieved the vision I had in mind. I will be using Mr Color for metallic paints going forward.'],
+        ['But without furter adieau, enjoy, Gundam \u00dcbermensch.']
     ]
 ]
 
