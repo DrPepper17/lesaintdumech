@@ -509,7 +509,7 @@ const models = [
         'Mobile Suit Gundam: Char\'s Counterattack',
         false,
         ['RX-78-2 Gundam'],
-        ['RX-93ff \u03BD Gundam','RX-0 Unicorn Gundam'],
+        ['RX-93ff \u03BD Gundam','RX-0 Unicorn Gundam','MSN-06S Sinanju Stein'],
         'Universal Century',
         [93,'March 12, 0093 U.C.',93],
         'Amuro Ray',
@@ -520,7 +520,8 @@ const models = [
         [27.9,'27.9 Metric Tons'],
         'Luna Titanium (Gundarium Alloy',
         'Minovsky Ultracompact Fusion Reactor',
-        ['60mm Vulcan Gun (x2)',
+        [
+            '60mm Vulcan Gun (x2)',
             'Fin Funnels (x6)',
             'Birdlime Launchers',
             'Dummy Launchers'
@@ -3719,6 +3720,95 @@ const models = [
         false,            //boolean
         ['https://hosting.photobucket.com/images/i/lesaintdumech/impulse.jpeg','Impulse Gundam'],
         true           //boolean
+    ],
+    [99,1,'Sazabi',
+        'MSN-04 Sazabi',
+        'MSN-04',
+        ' Mobile Suit Gundam: Char\'s Counterattack',
+        false,
+        ['MSN-04X2 Sazabi Prototype '],
+        [
+            'MSN-04FF Sazabi',
+            'MSN-04 II Nightingale',
+            'Me02R-F01 Messer Type-F01',
+            'RX-110 Zorin Soul',
+            'MSN-06S Sinanju Stein'
+        ],
+        'Universal Century',
+        [93,'March 12, 0093 U.C.',93],
+        'Char Aznoble',
+        false,
+        'Anaheim Electronics',
+        ['Newborn Neo Zeon'],
+        [23.0,'23.0 Meters'],
+        [71.2,'71.2 Metric Tons'],
+        'Gundarium Alloy',
+        'Minovsky Ultracompact Fusion Reactor',
+        [
+            'Scattering Mega Particle Cannon',
+            'Funnels (x6)'
+        ],
+        [
+            'Beam Saber (x2)',
+            'Beam Shot Rifle',
+            'Long Beam Rifle',
+            'Beam Shield',
+            'Beam Shield: Missile Launcher (x3)',
+            'Beam Tomahwak'
+        ],
+        [
+            'Psycommu System',
+            'Psycho-Frame Cockpit'
+        ],
+        'DesigneYutaka Izubuchi',
+        false,                //boolean
+        'Red Comet',
+        false,            //boolean
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/sazabi2.jpeg','MSN-04 Sazabi'],
+        false           //boolean
+    ],
+    [100,1,'Sinanju',
+        'MSN-06S Sinanju',
+        'MSN-06S',
+        'Mobile Suit Gundam Unicorn',
+        false, 
+        ['MSN-06S Sinanju Stein'],
+        [
+            'NZ-999 Neo Zeong',
+            'YAMS-132 Rozen Zulu'
+        ],
+        'Universal Century',
+        [96,'May, 0096 U.C.',96],
+        'Full Frontal',
+        false,
+        'Anaheim Electronics',
+        ['The Sleeves'],
+        [22.6,'22.6 Meters'],           //Height
+        [56.9,'56.9 Metric Tons'],        //Weight
+        'Gundarium Allow',
+        'Minovsky Ultracompact Fusion Reactor',
+        [
+            '60mm Vulcan Gun (x2)'
+        ],
+        [
+            'Beam Saber (x2)',
+            'Beam Rifle',
+            'Grenade Launcher',
+            'Rocket Bazooka',
+            'Beam Shield',
+            'Beam Shield: Beam Axe'
+        ],
+        [
+            'Psycommu System',
+            'Psycho-Frame Cockpit',
+            'Intention Automatic System'
+        ],
+        'Hajime Katoki',
+        false,                //boolean
+        false,
+        false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/(edited)_Sinanjuportrait.png','MSN-06S Sinanju'],
+        false
     ]
 ];
 
@@ -5368,7 +5458,7 @@ const projects = [
         true,true,false,'Seed','C','2023-05-05',6.5,false,'Builds/PBandai/PBDesintyImpulseREgenesMG.html',false,''
     ],
     ['Destiny Impulse [RG]',[1,'Impulse, Destiny'],'RG',
-        true,true,false,'Seed','C','2023-07-26',10.92,false,'Builds/PBandai/PBDestinyImpulseRG.html',false,''
+        true,true,false,'Seed','D','2023-07-26',18.27,false,'Builds/PBandai/PBDestinyImpulseRG.html',false,''
     ],
     ['Don\'t Tread On Ye',[1,'Justice'],'MG',
         false,false,false,'Seed','E','2022-06-06',51.75,true,'Builds/Gundams/Ye.html','America','2022-09-06',models[52],
@@ -6740,10 +6830,81 @@ const projects = [
     ['PB Polypodball',[1,'Polypodball'],'MG',false,true,false,'UC','A'],
     ['Ridley',[1,'Qubeley'],'HG',false,false,false,'UC','A'],
     ['LunchTime Solutions',[1,'RX-78-2'],'RG',false,false,false,'UC','B'],
-    ['Starman',[1,'Sazabi'],'SD',false,false,false,'UC','D','2021-12-16',5.03,false,'Builds/Starman.html',['']],
-    ['Ziggy',[1,'Sazabi'],'SD',false,false,false,'UC','D','2022-03-10',5.75,false,'Builds/Ziggy.html',['']],
-    ['Dynamo',[1,'Sinanju'],'MG',false,false,false,'UC','B'],
-    ['Stardust',[1,'Sinanju'],'SD',false,false,false,'UC','D','2021-12-15',4.56,false,'Builds/Stardust.html',['']],
+    ['Starman',[1,'Sazabi'],'SD',
+        false,false,false,'UC','E','2021-12-16',5.03,false,'Builds/Gundams/Starman.html',false,'2023-11-07',models[99],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/starman01.jpeg','Starman'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/starman02.jpeg','Starman'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/starman03.jpeg','Starman'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/starman04.jpeg','Starman'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/starman05.jpeg','Starman'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/starman06.jpeg','Starman'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/starman07.jpeg','Starman'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/starman08.jpeg','Starman'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/starman09.jpeg','Starman'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/starman10.jpeg','Starman'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/starman11.JPG','Starman']
+        ],['https://hosting.photobucket.com/images/i/lesaintdumech/starman09.jpeg','Profile Photo: Starman'],
+        'Was working on the SD Sazabi and Sinanju models both at the same time. Since they\'re sort of sister units I figured they should go together so I did a silver and gold theme to contrast the two; Sazabi being gold and Sinanju being silver.',false,
+        [
+            ['Video','https://www.instagram.com/p/CzW5MI0O-_O/'],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/sd-gundam-ex-standard-017-msn-04-sazabi'],
+            ['NewType','https://newtype.us/p/QGDshPJdIM5rIXs7oFNJ/h/sdex-standard-17-sazabi']
+        ],['Stardust'],true,true
+    ],
+    ['Ziggy',[1,'Sazabi'],'SD',
+        false,false,false,'UC','D','2022-03-10',5.75,false,'Builds/Gundams/Ziggy.html',false,'2023',models[99],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ziggy01.jpeg','Ziggy'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ziggy02.jpeg','Ziggy'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ziggy03.jpeg','Ziggy'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ziggy04.jpeg','Ziggy'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ziggy05.jpeg','Ziggy'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ziggy06.jpeg','Ziggy'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ziggy07.jpeg','Ziggy'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ziggy08.jpeg','Ziggy'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ziggy09.jpeg','Ziggy'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ziggy10.jpeg','Ziggy'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ziggy11.jpeg','Ziggy'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ziggy12.jpeg','Ziggy'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ziggy13.jpeg','Ziggy'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ziggy14.jpeg','Ziggy'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ziggy15.jpeg','Ziggy'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ziggy16.jpeg','Ziggy'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ziggy17.jpeg','Ziggy'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ziggy18.jpeg','Ziggy']
+        ],['https://hosting.photobucket.com/images/i/lesaintdumech/ziggy04.jpeg','Profile Photo: Ziggy'],
+        'After having completed Starman and Stardust, I was not satisfied with how the gold of Starman came out so I decided to give it a second go, this time using a candy yellow technique to give it the more shiny gold effect I desired',false,
+        [
+            ['Video',''],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/sd-gundam-ex-standard-017-msn-04-sazabi'],
+            ['NewType','https://newtype.us/p/QGDshPJdIM5rIXs7oFNJ/h/sdex-standard-17-sazabi']
+        ],['Stardust'],true,false
+    ],
+    ['Dynamo',[1,'Sinanju Stein'],'MG',false,false,false,'UC','B'],
+    ['Stardust',[1,'Sinanju'],'SD',
+        false,false,false,'UC','D','2021-12-15',4.56,false,'Builds/Gundams/Stardust.html',false,'2023',models[100],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/stardust01.jpeg','Stardust'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/stardust02.jpeg','Stardust'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/stardust03.jpeg','Stardust'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/stardust04.jpeg','Stardust'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/stardust05.jpeg','Stardust'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/stardust06.jpeg','Stardust'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/stardust07.jpeg','Stardust'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/stardust09.jpeg','Stardust'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/stardust08.jpeg','Stardust'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/stardust10.jpeg','Stardust'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/stardust11.jpeg','Stardust'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/stardust12.jpeg','Stardust']
+        ],['https://hosting.photobucket.com/images/i/lesaintdumech/stardust06.jpeg','Profile Photo: Stardust'],
+        'Worked on this as part of my silver and gold project I did with the SD Sazabi kit, Starman. Starman was gold, therefore this one obviously was meant to be silver in contrast.',false,
+        [
+            ['Video',''],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/gundam-sd-ex-standard-013-sinanju'],
+            ['NewType','https://newtype.us/p/UGUtnpvzUngHjixG1boK/h/sdex-standard-13-sinanju']
+        ],['Starman','Ziggy'],true,false
+    ],
     ['Shin Musha Black Robe',[1,'Shin Musha Gundam'],'MG',
         true,true,false,'UC','E','2022-08-05',10.58,false,'Builds/PBandai/PBShinMushaMG.html',false,'2022-12-05',models[72],
         [

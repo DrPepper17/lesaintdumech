@@ -531,6 +531,19 @@ const blogArray = [
         ],
         ['I really love how shiny this armor came out. This was my first time using the Mr Color, Mr Metallic line of paints. On this one I utilized the Mr Metallic GX-206 Metal Purple, GX-215 Bloody Red and GX-217 Rough Gold. They all are outstanding. I definitely achieved the vision I had in mind. I will be using Mr Color for metallic paints going forward.'],
         ['But without furter adieau, enjoy, Gundam \u00dcbermensch.']
+    ],
+    [
+        '2023-11-07',
+        'There\'s a Starman, Waiting in the Sky',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/starman11.JPG',
+        [
+            [
+                'I\'m a day late at posting this week\'s unveil. What can I say, yesterday I was just so tired. But without further delay I present to you ',
+                ['Starman','Builds/Gundams/Starman.html'],
+                '.'
+            ]
+        ],
+        ['Enjoy :)']
     ]
 ]
 
