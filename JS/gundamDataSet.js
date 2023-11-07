@@ -3760,7 +3760,7 @@ const models = [
             'Psycommu System',
             'Psycho-Frame Cockpit'
         ],
-        'DesigneYutaka Izubuchi',
+        'Yutaka Izubuchi',
         false,                //boolean
         'Red Comet',
         false,            //boolean
