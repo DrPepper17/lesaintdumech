@@ -9774,8 +9774,8 @@ function buildProjectPage(string) {
         insertPhotoColumn(projectArray[15][i],'photoGallery',i+1);
     }
 
-    popNode(projectArray[0]+' \u269C','title');
-    popNode(projectArray[0],'jumboNode');
+    popNode(projectArray[25]+' \u269C','title');
+    popNode(projectArray[25],'jumboNode');
     if (projectArray[25]) {
         popNode(projectArray[25],'breadcrumbNode');
     }
