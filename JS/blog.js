@@ -544,6 +544,20 @@ const blogArray = [
             ]
         ],
         ['Enjoy :)']
+    ],
+    [
+        '2023-11-14',
+        'Incoming Destiny',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/desimprg49.jpeg',
+        [
+            [
+                'Another week another build. This week presenting Premium Bandai ',
+                ['Destiny Impulse','Builds/PBandai/PBDestinyImpulseRG.html'],
+                ', Real Grade.'
+            ]
+        ],
+        ['I\'ve had quite the back log of Premium Bandai straight builds. With this week\'s post I am almost all the way through the backlog. Cannot wait to being posting nothing but paint builds for a while.'],
+        ['Not going to lie, the more I paint the more I get bored with straight builds. I used to reserve paint builds only for the cool kits that I did not want to mess up with a bad paint. But more and more I am beginning to feel confident enough in my painting skill to no longer have that worry. I am even contemplating painting a perfect grade. Who knows what I may do next.']
     ]
 ]
 

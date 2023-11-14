@@ -5455,10 +5455,76 @@ const projects = [
     ],
     ['Billy Blue Jay',[1,'Ginn'],'MG',false,false,false,'Seed','B'],
     ['Destiny Impulse (Regenes)',[1,'Impulse, Destiny'],'MG',
-        true,true,false,'Seed','C','2023-05-05',6.5,false,'Builds/PBandai/PBDesintyImpulseREgenesMG.html',false,''
+        true,true,false,'Seed','D','2023-05-05',6.5,false,'Builds/PBandai/PBDesintyImpulseREgenesMG.html',false,'2023-11-27',models[97],
+        [
+            ['','PB Destiny Impulse Regenes']
+        ],
+        ['','Phofile Photo: PB Desinty Impulse Regenes'],false,false,
+        [
+            ['Premium Bandai','https://p-bandai.com/us/item/N2247801001005']
+        ],['Destiny Impulse [RG]'],false,false,"1:100",'Destiny Impulse Regenes','Destiny Impulse R','Dest. Imp. R'
     ],
     ['Destiny Impulse [RG]',[1,'Impulse, Destiny'],'RG',
-        true,true,false,'Seed','D','2023-07-26',18.27,false,'Builds/PBandai/PBDestinyImpulseRG.html',false,''
+        true,true,false,'Seed','E','2023-07-26',19.27,false,'Builds/PBandai/PBDestinyImpulseRG.html',false,'2023-11-14',models[96],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/desimprg01.jpeg','PB Destiny Impulse'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/desimprg02.jpeg','PB Destiny Impulse'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/desimprg03.jpeg','PB Destiny Impulse'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/desimprg04.jpeg','PB Destiny Impulse'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/desimprg05.jpeg','PB Destiny Impulse'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/desimprg06.jpeg','PB Destiny Impulse'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/desimprg07.jpeg','PB Destiny Impulse'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/desimprg08.jpeg','PB Destiny Impulse'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/desimprg09.jpeg','PB Destiny Impulse'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/desimprg10.jpeg','PB Destiny Impulse'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/desimprg11.jpeg','PB Destiny Impulse'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/desimprg12.jpeg','PB Destiny Impulse'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/desimprg13.jpeg','PB Destiny Impulse'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/desimprg14.jpeg','PB Destiny Impulse'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/desimprg15.jpeg','PB Destiny Impulse'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/desimprg16.jpeg','PB Destiny Impulse'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/desimprg17.jpeg','PB Destiny Impulse'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/desimprg18.jpeg','PB Destiny Impulse'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/desimprg19.jpeg','PB Destiny Impulse'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/desimprg20.jpeg','PB Destiny Impulse'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/desimprg21.jpeg','PB Destiny Impulse'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/desimprg22.jpeg','PB Destiny Impulse'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/desimprg23.jpeg','PB Destiny Impulse'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/desimprg24.jpeg','PB Destiny Impulse'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/desimprg25.jpeg','PB Destiny Impulse'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/desimprg26.jpeg','PB Destiny Impulse'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/desimprg27.jpeg','PB Destiny Impulse'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/desimprg28.jpeg','PB Destiny Impulse'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/desimprg29.jpeg','PB Destiny Impulse'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/desimprg30.jpeg','PB Destiny Impulse'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/desimprg31.jpeg','PB Destiny Impulse'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/desimprg32.jpeg','PB Destiny Impulse'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/desimprg33.jpeg','PB Destiny Impulse'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/desimprg34.jpeg','PB Destiny Impulse'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/desimprg35.jpeg','PB Destiny Impulse'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/desimprg36.jpeg','PB Destiny Impulse'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/desimprg37.jpeg','PB Destiny Impulse'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/desimprg38.jpeg','PB Destiny Impulse'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/desimprg39.jpeg','PB Destiny Impulse'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/desimprg40.jpeg','PB Destiny Impulse'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/desimprg41.jpeg','PB Destiny Impulse'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/desimprg42.jpeg','PB Destiny Impulse'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/desimprg43.jpeg','PB Destiny Impulse'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/desimprg44.jpeg','PB Destiny Impulse'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/desimprg45.jpeg','PB Destiny Impulse'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/desimprg46.jpeg','PB Destiny Impulse'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/desimprg47.jpeg','PB Destiny Impulse'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/desimprg48.jpeg','PB Destiny Impulse'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/desimprg49.jpeg','PB Destiny Impulse'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/desimprg50.jpeg','PB Destiny Impulse'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/desimprg51.jpeg','PB Destiny Impulse'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/desimprg52.jpeg','PB Destiny Impulse'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/desimprg53.jpeg','PB Destiny Impulse']
+        ],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/desimprg18.jpeg','Phofile Photo: PB Desinty Impulse'],false,false,
+        [
+            ['Premium Bandai','https://p-bandai.com/us/item/N2555449001001']
+        ],['Destiny Impulse (Regenes)'],false,true,"1:144",false,'Destiny Impulse','Destiny Imp.'
     ],
     ['Don\'t Tread On Ye',[1,'Justice'],'MG',
         false,false,false,'Seed','E','2022-06-06',51.75,true,'Builds/Gundams/Ye.html','America','2022-09-06',models[52],
@@ -9710,7 +9776,12 @@ function buildProjectPage(string) {
 
     popNode(projectArray[0]+' \u269C','title');
     popNode(projectArray[0],'jumboNode');
-    popNode(projectArray[0],'breadcrumbNode');
+    if (projectArray[25]) {
+        popNode(projectArray[25],'breadcrumbNode');
+    }
+    else {
+        popNode(projectArray[0],'breadcrumbNode');
+    }
 
     if (projectArray[4]) {
         popNode('PB ','projectTitle');
@@ -10920,6 +10991,9 @@ function projectLinks(prArray,ID) {
         aSrc.value = '../../'+prArray[i][11];
         aNode.setAttributeNode(aSrc);
         let aTextNode = document.createTextNode(prArray[i][0]);
+        if (prArray[i][25]) {
+            aTextNode = document.createTextNode(prArray[i][25]);
+        }
         aNode.appendChild(aTextNode);
         liNode.appendChild(aNode);
         destinationNode.appendChild(liNode);
