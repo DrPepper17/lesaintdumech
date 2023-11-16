@@ -4086,7 +4086,7 @@ const projects = [
             ['TurboDork: Sparkling Motion','https://turbodork.com/products/sparkle-motion']
         ],false,false,true,'1:144'
     ],
-    ['Epyon [RG]',[1,'Epyon'],'RG',true,false,false,'Wing','C','2023-11'],
+    ['Epyon [RG]',[1,'Epyon'],'RG',true,false,false,'Wing','C','2023-11',0],
     ['Golden Ghidorah',[1,'Epyon'],'MG',false,false,false,'Wing','B'],
     ['Golden Ghidorah',[1,'Epyon'],'RG',false,false,false,'Wing','A'],
     ['Geminass 01',[1.5,'Geminass 01','Geminass Assault Mobility Booster Expansion Pack'],'HG',
