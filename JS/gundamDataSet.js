@@ -3944,6 +3944,7 @@ const projects = [
     ['PB Jiu',[1,'LFrith Jiu'],'HG',false,true,false,'Mercury','A'],
     ['Schwarzette [HG]',[1,'Schwarzette'],'HG',true,false,false,'Mercury','D','2023-10-04',2.33,false,false,false],
     ['Metatron',[1,'Schwarzette'],'HG',false,false,false,'Mercury','C','',0.58],
+    ['Samus: Zero Suit',[1,'Suletta Mercury','Miorine Rembran'],'HG',false,false,false,'Mercury','A'],
 
     //Advanced Generation (Age)
     ['Uriel',[1,'Age-FX'],'SD',false,false,false,'Age','B'],
@@ -4031,7 +4032,7 @@ const projects = [
             ['NewType','https://newtype.us/p/TOmRKyr7gHBbJij2bFtt/h/sdgg-050-gundam-aquarius']
         ],false,false,true,false
     ],
-    ['Pontus',[1,'Aquarius'],'SD',false,false,false,'Wing','B',false,0.33,false,'Builds/Gundams/Pontus.html','Titans',false,models[40]],
+    ['Pontus',[1,'Aquarius'],'SD',false,false,false,'Wing','B','',0.33,false,'Builds/Gundams/Pontus.html','Titans',false,models[40]],
     ['Alucard',[1,'Deathscythe Hell (TV Version'],'HG',
         false,true,false,'Wing','E','2023-08-02',16.38,false,'Builds/PBandai/PBAlucard.html',false,'2023-10-19',models[93],
         [
@@ -4085,7 +4086,7 @@ const projects = [
             ['TurboDork: Sparkling Motion','https://turbodork.com/products/sparkle-motion']
         ],false,false,true,'1:144'
     ],
-    ['Epyon [RG]',[1,'Epyon'],'RG',true,false,false,'Wing','A'],
+    ['Epyon [RG]',[1,'Epyon'],'RG',true,false,false,'Wing','C','2023-11'],
     ['Golden Ghidorah',[1,'Epyon'],'MG',false,false,false,'Wing','B'],
     ['Golden Ghidorah',[1,'Epyon'],'RG',false,false,false,'Wing','A'],
     ['Geminass 01',[1.5,'Geminass 01','Geminass Assault Mobility Booster Expansion Pack'],'HG',
@@ -5093,6 +5094,7 @@ const projects = [
     ['Canis Gamma',[1,'BuCUE'],'HG',false,false,false,'Seed','A'],
     ['Urban Commando',[1,'Buster'],'MG',false,false,false,'Seed','B'],
     ['Calamitous Godzilla',[1,'Calamity'],'FM',false,false,false,'Seed','B'],
+    ['Metroid',[1,'Chaos'],'HG',false,false,false,'Seed','A'],
     ['Armageddon',[2.5,'Dagger L','Dagger L','PB Dagger Expansion Pack'],'HG',
         false,true,false,'Seed','E','2022-03-06',28.5,false,'Builds/uniqueTemplates/Armageddon.html',false,'2022-05-23',models[25],
         [
@@ -5221,6 +5223,7 @@ const projects = [
         ],['Charizard','Vercingetorix'],false,true
     ],
     ['Iapetus',[1,'Destiny'],'SD',false,false,false,'Seed','B'],
+    ['Metroid Prime',[1,'Destroy'],'HG',false,false,false,'Seed','A'],
     ['Thin Blue Line',[2,'Duel Gundam','Duel Gundam Assault Shroud'],'MG',false,false,false,'Seed','B'],
     ['Monarch',[1,'Eclipse'],'MG',false,false,false,'Seed','B'],
     ['Maneuver Striker',[1.5,'Eclipse','Eclipse Maneuver Striker'],'MG',
@@ -6744,7 +6747,7 @@ const projects = [
         ],false,true,true,'1:144','DOM Interstellar  Test Type'
     ],
     ['Rhea',[1,'RX-75 Guntank'],'SD',false,false,false,'UC','B'],
-    ['Metroid',[1,'Hygogg'],'HG',false,false,false,'UC','A'],
+    ['Metroid [Zeta]',[1,'Hygogg'],'HG',false,false,false,'UC','A'],
     ['Theia',[1,'Kshatriya'],'SD',false,false,false,'UC','D','2022-12-08',12.03,false,'Builds/Theia.html',['']],
     ['Nachtigall',[1,'Nightingale'],'SD',false,false,false,'UC','B'],
     ['Mnemosyne',[1,'Neue Ziuel'],'SD',false,false,false,'UC','B'],

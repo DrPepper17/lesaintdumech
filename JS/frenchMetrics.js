@@ -294,6 +294,10 @@ function metricTime() {
     totalSeconds = totalSeconds - (hoursFR * 8640);
     let minutesFR = Math.trunc(totalSeconds / 86.4);
 
+    if (minutesFR < 10) {
+        minutesFR = '0'+minutesFR;
+    }
+
     return hoursFR+':'+minutesFR;
 }
     
