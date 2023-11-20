@@ -4086,7 +4086,7 @@ const projects = [
             ['TurboDork: Sparkling Motion','https://turbodork.com/products/sparkle-motion']
         ],false,false,true,'1:144'
     ],
-    ['Epyon [RG]',[1,'Epyon'],'RG',true,false,false,'Wing','C','2023-11',0],
+    ['Epyon [RG]',[1,'Epyon'],'RG',true,false,false,'Wing','C','2023-11-16',5.67],
     ['Golden Ghidorah',[1,'Epyon'],'MG',false,false,false,'Wing','B'],
     ['Golden Ghidorah',[1,'Epyon'],'RG',false,false,false,'Wing','A'],
     ['Geminass 01',[1.5,'Geminass 01','Geminass Assault Mobility Booster Expansion Pack'],'HG',
@@ -5458,7 +5458,7 @@ const projects = [
     ],
     ['Billy Blue Jay',[1,'Ginn'],'MG',false,false,false,'Seed','B'],
     ['Destiny Impulse (Regenes)',[1,'Impulse, Destiny'],'MG',
-        true,true,false,'Seed','D','2023-05-05',6.5,false,'Builds/PBandai/PBDesintyImpulseREgenesMG.html',false,'2023-11-27',models[97],
+        true,true,false,'Seed','D','2023-05-05',12.5,false,'Builds/PBandai/PBDesintyImpulseREgenesMG.html',false,'2023-11-27',models[97],
         [
             ['','PB Destiny Impulse Regenes']
         ],
@@ -6922,7 +6922,7 @@ const projects = [
         ],['Stardust'],true,true
     ],
     ['Ziggy',[1,'Sazabi'],'SD',
-        false,false,false,'UC','D','2022-03-10',5.75,false,'Builds/Gundams/Ziggy.html',false,'2023',models[99],
+        false,false,false,'UC','E','2022-03-10',5.75,false,'Builds/Gundams/Ziggy.html',false,'2023-11-20',models[99],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/ziggy01.jpeg','Ziggy'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/ziggy02.jpeg','Ziggy'],
@@ -6945,10 +6945,10 @@ const projects = [
         ],['https://hosting.photobucket.com/images/i/lesaintdumech/ziggy04.jpeg','Profile Photo: Ziggy'],
         'After having completed Starman and Stardust, I was not satisfied with how the gold of Starman came out so I decided to give it a second go, this time using a candy yellow technique to give it the more shiny gold effect I desired',false,
         [
-            ['Video',''],
+            ['Video','https://www.instagram.com/reel/Cz24RetOxgV/?igshid=N2ViNmM2MDRjNw=='],
             ['USA Gundam Store','https://www.usagundamstore.com/products/sd-gundam-ex-standard-017-msn-04-sazabi'],
             ['NewType','https://newtype.us/p/QGDshPJdIM5rIXs7oFNJ/h/sdex-standard-17-sazabi']
-        ],['Stardust'],true,false
+        ],['Stardust'],true,true
     ],
     ['Dynamo',[1,'Sinanju Stein'],'MG',false,false,false,'UC','B'],
     ['Stardust',[1,'Sinanju'],'SD',
@@ -9777,13 +9777,16 @@ function buildProjectPage(string) {
         insertPhotoColumn(projectArray[15][i],'photoGallery',i+1);
     }
 
-    popNode(projectArray[25]+' \u269C','title');
-    popNode(projectArray[25],'jumboNode');
+    
     if (projectArray[25]) {
         popNode(projectArray[25],'breadcrumbNode');
+        popNode(projectArray[25]+' \u269C','title');
+        popNode(projectArray[25],'jumboNode');
     }
     else {
         popNode(projectArray[0],'breadcrumbNode');
+        popNode(projectArray[0]+' \u269C','title');
+        popNode(projectArray[0],'jumboNode');
     }
 
     if (projectArray[4]) {

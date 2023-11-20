@@ -558,7 +558,72 @@ const blogArray = [
         ],
         ['I\'ve had quite the back log of Premium Bandai straight builds. With this week\'s post I am almost all the way through the backlog. Cannot wait to being posting nothing but paint builds for a while.'],
         ['Not going to lie, the more I paint the more I get bored with straight builds. I used to reserve paint builds only for the cool kits that I did not want to mess up with a bad paint. But more and more I am beginning to feel confident enough in my painting skill to no longer have that worry. I am even contemplating painting a perfect grade. Who knows what I may do next.']
-    ]
+    ],
+    [
+        '2023-11-20',
+        'Ziggy Played Guitar',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/ziggy16.jpeg',
+        [
+            [
+                'Was disappointed by the Starman so I decided to give it a second go. This time I now present to you my second SD Sazabi attempt, ',
+                ['Ziggy','Builds/Gundams/Ziggy.html'],
+                '.'
+            ]
+        ],
+        [''],
+        [
+            [
+                ['break','Now Ziggy played guitar'],
+                ['break','Jamming good with Weird and Gilly'],
+                ['break','And The Spiders from Mars'],
+                ['break','He played it left hand'],
+                ['break','But made it too far'],
+                ['break','Became the special man'],
+                'Then we were Ziggy\'s Band'
+            ]
+        ],
+        [
+            [
+                ['break','Ziggy really sang'],
+                ['break','Screwed-up eyes and screwed-down hairdo'],
+                ['break','Like some cat from Japan'],
+                ['break','He could lick \'em by smiling'],
+                ['break','He could leave \'em to hang'],
+                ['break','He came on so loaded man'],
+                'Well-hung and snow-white tan'
+            ]
+        ],
+        [
+            [
+                ['break','So where were the spiders'],
+                ['break','While the fly tried to break our balls?'],
+                ['break','Just the beer light to guide us'],
+                ['break','So we bitched about his fans'],
+                'And should we crush his sweet hands?'
+            ]
+        ],
+        [
+            [
+                ['break','Ziggy played for time'],
+                ['break','Jiving us that we were Voodoo'],
+                ['break','The kids was just crass'],
+                ['break','He was the nazz'],
+                ['break','With the God-given ass'],
+                ['break','He took it all too far'],
+                'But boy could he play guitar'
+            ]
+        ],
+        [
+            [
+                ['break','Making love with his ego'],
+                ['break','Ziggy sucked up into his mind'],
+                ['break','Like a leper messiah'],
+                ['break','When the kids had killed a man'],
+                'We had to break up the band'
+            ]
+        ],
+        ['Ziggy Played Guitar !!!']
+    ],
 ]
 
 //Functions
@@ -744,18 +809,29 @@ function constructParagraph(paragraphArray,anchorNode) {
             else {
                 for (let j=0;j<paragraphArray[i].length;j++) {
                     if (Array.isArray(paragraphArray[i][j])) {
-                        let aNode = document.createElement('a');
-                        let hrefAttr = document.createAttribute('href');
-                        hrefAttr.value = paragraphArray[i][j][1];
-                        aNode.setAttributeNode(hrefAttr);
-                        if (paragraphArray[i][j][2]) {
-                            let aTargetAttr = document.createAttribute('target');
-                            aTargetAttr.value = '_blank';
-                            aNode.setAttributeNode(aTargetAttr);
+                        if (paragraphArray[i][j][0] === 'break') {
+                            let lspanNode = document.createElement('span');
+                            let lspanText = document.createTextNode(paragraphArray[i][j][1]);
+                            lspanNode.appendChild(lspanText);
+                            pNode.appendChild(lspanNode);
+                            let lbrNode = document.createElement('br');
+                            pNode.appendChild(lbrNode);
+                            
                         }
-                        let aText = document.createTextNode(paragraphArray[i][j][0]);
-                        aNode.appendChild(aText);
-                        pNode.appendChild(aNode);   
+                        else {
+                            let aNode = document.createElement('a');
+                            let hrefAttr = document.createAttribute('href');
+                            hrefAttr.value = paragraphArray[i][j][1];
+                            aNode.setAttributeNode(hrefAttr);
+                            if (paragraphArray[i][j][2]) {
+                                let aTargetAttr = document.createAttribute('target');
+                                aTargetAttr.value = '_blank';
+                                aNode.setAttributeNode(aTargetAttr);
+                            }
+                            let aText = document.createTextNode(paragraphArray[i][j][0]);
+                            aNode.appendChild(aText);
+                            pNode.appendChild(aNode);
+                        }
                     }
                     else {
                         let pText = document.createTextNode(paragraphArray[i][j]+' ');
