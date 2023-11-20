@@ -619,7 +619,7 @@ const blogArray = [
                 ['break','Ziggy sucked up into his mind'],
                 ['break','Like a leper messiah'],
                 ['break','When the kids had killed a man'],
-                'We had to break up the band'
+                'I had to break up the band'
             ]
         ],
         ['Ziggy Played Guitar !!!']
