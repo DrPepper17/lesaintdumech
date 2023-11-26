@@ -624,6 +624,12 @@ const blogArray = [
         ],
         ['Ziggy Played Guitar !!!']
     ],
+    [
+        '2023-11-23',
+        'Happy Turkey Day !!',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/freedomturkey.jpeg',
+        ['Wishing everyone a Happy Thanksgiving 2023!!!']
+    ]
 ]
 
 //Functions

@@ -3632,7 +3632,8 @@ const models = [
             '\u03B8 Destiny Silhouette',
             'Deuterion Beam Energy Transfer System',
             'Core Splendor cockpit system',
-            'Voiture Lumiere propulsion system'
+            'Voiture Lumiere propulsion system',
+            'OS: Generation Unrestricted Network Drive Assault Module'
         ],
         false,
         false,                //boolean
@@ -3671,7 +3672,8 @@ const models = [
             'Destiny R Silhouette',
             'Deuterion Beam Energy Transfer System',
             'Buddy System',
-            'Variable Phase Shift armor'
+            'Variable Phase Shift armor',
+            'OS: Generation Unrestricted Network Drive Assault Module'
         ],
         false,
         false,                //boolean
@@ -3712,7 +3714,8 @@ const models = [
             'Deuterion Beam Energy Transfer System',
             'Core Splendor Cockplit System',
             'Silhouette Pack System',
-            'Variable Phase Shift Armor'
+            'Variable Phase Shift Armor',
+            'OS: Generation Unrestricted Network Drive Assault Module'
         ],
         'Kunio Okawara',
         false,                //boolean
@@ -3868,11 +3871,11 @@ const projects = [
         false,false,false,'Mercury','C','',0.75
     ],
     ['Cherub',[1,'Aerial'],'SD',false,false,false,'Mercury','D','2023-01-10',4.91,false,'Builds/Cherub.html','Angels'],
-    ['Zephon',[1,'Aerial Rebuild'],'HG',false,false,false,'Mercury','C','',0.83],
+    ['Zephon',[1,'Aerial Rebuild'],'HG',false,false,false,'Mercury','C','2023-11-25',2.5],
     ['Dark Samus: Corruption',[1,'Beguir-Pente'],'HG',
         false,false,false,'Mercury','C','',0.25
     ], 
-    ['Abaddon',[1,'Calibarn'],'HG',false,false,false,'Mercury','C','',0.83],
+    ['Abaddon',[1,'Calibarn'],'HG',false,false,false,'Mercury','C','2023-11-25',1.83],
     ['Calibarn [HG]',[1,'Calibarn'],'HG',true,false,false,'Mercury','D','2023-08-22',2.83,false,false,false],
     ['Azrael',[1,'Dilanza, Guel\'s'],'HG',
         false,false,false,'Mercury','E','2023-01-05',12.14,false,'Builds/Gundams/Azrael.html','Angels','2023-02-27',models[26],
@@ -3943,8 +3946,8 @@ const projects = [
     ['PB Anavata',[1,'LFrith Anavata'],'HG',false,true,false,'Mercury','A'],
     ['PB Jiu',[1,'LFrith Jiu'],'HG',false,true,false,'Mercury','A'],
     ['Schwarzette [HG]',[1,'Schwarzette'],'HG',true,false,false,'Mercury','D','2023-10-04',2.33,false,false,false],
-    ['Metatron',[1,'Schwarzette'],'HG',false,false,false,'Mercury','C','',0.58],
-    ['Samus: Zero Suit',[1,'Suletta Mercury','Miorine Rembran'],'HG',false,false,false,'Mercury','A'],
+    ['Metatron',[1,'Schwarzette'],'HG',false,false,false,'Mercury','C','2023-11-25',1.5],
+    ['Samus: Zero Suit',[1,'Suletta Mercury','Miorine Rembran'],'HG',false,false,false,'Mercury','B'],
 
     //Advanced Generation (Age)
     ['Uriel',[1,'Age-FX'],'SD',false,false,false,'Age','B'],
@@ -4032,7 +4035,7 @@ const projects = [
             ['NewType','https://newtype.us/p/TOmRKyr7gHBbJij2bFtt/h/sdgg-050-gundam-aquarius']
         ],false,false,true,false
     ],
-    ['Pontus',[1,'Aquarius'],'SD',false,false,false,'Wing','B','',0.33,false,'Builds/Gundams/Pontus.html','Titans',false,models[40]],
+    ['Pontus',[1,'Aquarius'],'SD',false,false,false,'Wing','C','2023-11-25',1.83,false,'Builds/Gundams/Pontus.html','Titans',false,models[40]],
     ['Alucard',[1,'Deathscythe Hell (TV Version'],'HG',
         false,true,false,'Wing','E','2023-08-02',16.38,false,'Builds/PBandai/PBAlucard.html',false,'2023-10-19',models[93],
         [
@@ -5458,14 +5461,14 @@ const projects = [
     ],
     ['Billy Blue Jay',[1,'Ginn'],'MG',false,false,false,'Seed','B'],
     ['Destiny Impulse (Regenes)',[1,'Impulse, Destiny'],'MG',
-        true,true,false,'Seed','D','2023-05-05',12.5,false,'Builds/PBandai/PBDesintyImpulseREgenesMG.html',false,'2023-11-27',models[97],
+        true,true,false,'Seed','E','2023-05-05',20.33,false,'Builds/PBandai/PBDesintyImpulseREgenesMG.html',false,'2023-11-27',models[97],
         [
             ['','PB Destiny Impulse Regenes']
         ],
         ['','Phofile Photo: PB Desinty Impulse Regenes'],false,false,
         [
             ['Premium Bandai','https://p-bandai.com/us/item/N2247801001005']
-        ],['Destiny Impulse [RG]'],false,false,"1:100",'Destiny Impulse Regenes','Destiny Impulse R','Dest. Imp. R'
+        ],['Destiny Impulse [RG]'],false,true,"1:100",'Destiny Impulse Regenes','Destiny Impulse R','Dest. Imp. R'
     ],
     ['Destiny Impulse [RG]',[1,'Impulse, Destiny'],'RG',
         true,true,false,'Seed','E','2023-07-26',19.27,false,'Builds/PBandai/PBDestinyImpulseRG.html',false,'2023-11-14',models[96],
@@ -7577,8 +7580,8 @@ const projects = [
     ['Monosyllabix',[1,'Mew'],'Pokemon',
         false,false,false,'','C','2023-10-22',0.58
     ],
-    ['Polysyllabix',[1,'Mewtwo'],'Pokemon',false,false,false,'','C','',0.33],
-    ['Picanmix',[1,'Piplup'],'Pokemon',false,false,false,'','C','',0.33],
+    ['Polysyllabix',[1,'Mewtwo'],'Pokemon',false,false,false,'','C','2023-11-25',0.75],
+    ['Picanmix',[1,'Piplup'],'Pokemon',false,false,false,'','C','2023-11-25',0.42],
     ['Getafix',[1,'Rayquaza'],'Pokemon',
         false,false,false,'','D','2023-09-18',5.74
     ],
