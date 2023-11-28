@@ -629,6 +629,29 @@ const blogArray = [
         'Happy Turkey Day !!',
         'https://hosting.photobucket.com/images/i/lesaintdumech/freedomturkey.jpeg',
         ['Wishing everyone a Happy Thanksgiving 2023!!!']
+    ],
+    [
+        '2023-11-27',
+        'Premium-Destiny Part Dieux',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/mgdesimpreg21.jpeg',
+        [
+            [
+                'This week another Premium Bandai. I present the Master Grade ',
+                ['Destiny Impulse Regenes','Builds/PBandai/PBDesintyImpulseREgenesMG.html'],
+                '.'
+            ]
+        ],
+        [
+            [
+                'Few weeks back I presented the Premium Bandai',
+                ['Destiny Impulse','Builds/PBandai/PBDestinyImpulseRG.html'],
+                ' Real Grade model. Well at the same time that kit was made available, Premium Bandai also released a Master Grade version of the Regenese model, a much similar mobile suit to the Destiny Impulse but with less weapons but a cooler name. So I naturally had to purchase the two of them together and build both.'
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/mgdesimpreg34.jpeg']
+        ],
+        ['Both models have their own unique strengths and differences. So you be the judge on which one you like better.']
     ]
 ]
 

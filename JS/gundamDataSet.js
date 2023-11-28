@@ -3871,11 +3871,11 @@ const projects = [
         false,false,false,'Mercury','C','',0.75
     ],
     ['Cherub',[1,'Aerial'],'SD',false,false,false,'Mercury','D','2023-01-10',4.91,false,'Builds/Cherub.html','Angels'],
-    ['Zephon',[1,'Aerial Rebuild'],'HG',false,false,false,'Mercury','C','2023-11-25',2.5],
+    ['Zephon',[1,'Aerial Rebuild'],'HG',false,false,false,'Mercury','C','2023-11-25',2.92],
     ['Dark Samus: Corruption',[1,'Beguir-Pente'],'HG',
         false,false,false,'Mercury','C','',0.25
     ], 
-    ['Abaddon',[1,'Calibarn'],'HG',false,false,false,'Mercury','C','2023-11-25',1.83],
+    ['Abaddon',[1,'Calibarn'],'HG',false,false,false,'Mercury','C','2023-11-25',2.17],
     ['Calibarn [HG]',[1,'Calibarn'],'HG',true,false,false,'Mercury','D','2023-08-22',2.83,false,false,false],
     ['Azrael',[1,'Dilanza, Guel\'s'],'HG',
         false,false,false,'Mercury','E','2023-01-05',12.14,false,'Builds/Gundams/Azrael.html','Angels','2023-02-27',models[26],
@@ -3946,7 +3946,7 @@ const projects = [
     ['PB Anavata',[1,'LFrith Anavata'],'HG',false,true,false,'Mercury','A'],
     ['PB Jiu',[1,'LFrith Jiu'],'HG',false,true,false,'Mercury','A'],
     ['Schwarzette [HG]',[1,'Schwarzette'],'HG',true,false,false,'Mercury','D','2023-10-04',2.33,false,false,false],
-    ['Metatron',[1,'Schwarzette'],'HG',false,false,false,'Mercury','C','2023-11-25',1.5],
+    ['Metatron',[1,'Schwarzette'],'HG',false,false,false,'Mercury','C','2023-11-25',1.75],
     ['Samus: Zero Suit',[1,'Suletta Mercury','Miorine Rembran'],'HG',false,false,false,'Mercury','B'],
 
     //Advanced Generation (Age)
@@ -4035,7 +4035,7 @@ const projects = [
             ['NewType','https://newtype.us/p/TOmRKyr7gHBbJij2bFtt/h/sdgg-050-gundam-aquarius']
         ],false,false,true,false
     ],
-    ['Pontus',[1,'Aquarius'],'SD',false,false,false,'Wing','C','2023-11-25',1.83,false,'Builds/Gundams/Pontus.html','Titans',false,models[40]],
+    ['Pontus',[1,'Aquarius'],'SD',false,false,false,'Wing','C','2023-11-25',2.08,false,'Builds/Gundams/Pontus.html','Titans',false,models[40]],
     ['Alucard',[1,'Deathscythe Hell (TV Version'],'HG',
         false,true,false,'Wing','E','2023-08-02',16.38,false,'Builds/PBandai/PBAlucard.html',false,'2023-10-19',models[93],
         [
@@ -5463,9 +5463,41 @@ const projects = [
     ['Destiny Impulse (Regenes)',[1,'Impulse, Destiny'],'MG',
         true,true,false,'Seed','E','2023-05-05',20.33,false,'Builds/PBandai/PBDesintyImpulseREgenesMG.html',false,'2023-11-27',models[97],
         [
-            ['','PB Destiny Impulse Regenes']
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgdesimpreg01.jpeg','PB Destiny R Silhouette'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgdesimpreg02.jpeg','PB Destiny R Silhouette'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgdesimpreg03.jpeg','PB Destiny R Silhouette'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgdesimpreg04.jpeg','PB Destiny R Silhouette'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgdesimpreg05.jpeg','PB Destiny R Silhouette'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgdesimpreg06.jpeg','PB Destiny R Silhouette'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgdesimpreg07.jpeg','PB Destiny R Silhouette'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgdesimpreg08.jpeg','PB Destiny R Silhouette'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgdesimpreg09.jpeg','PB Destiny Impulse Regenes'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgdesimpreg10.jpeg','PB Destiny Impulse Regenes'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgdesimpreg11.jpeg','PB Destiny Impulse Regenes'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgdesimpreg12.jpeg','PB Destiny Impulse Regenes'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgdesimpreg13.jpeg','PB Destiny Impulse Regenes'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgdesimpreg14.jpeg','PB Destiny Impulse Regenes'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgdesimpreg15.jpeg','PB Destiny Impulse Regenes'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgdesimpreg16.jpeg','PB Destiny Impulse Regenes'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgdesimpreg17.jpeg','PB Destiny Impulse Regenes'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgdesimpreg18.jpeg','PB Destiny Impulse Regenes'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgdesimpreg19.jpeg','PB Destiny Impulse Regenes'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgdesimpreg20.jpeg','PB Destiny Impulse Regenes'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgdesimpreg21.jpeg','PB Destiny Impulse Regenes'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgdesimpreg22.jpeg','PB Destiny Impulse Regenes'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgdesimpreg23.jpeg','PB Destiny Impulse Regenes'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgdesimpreg24.jpeg','PB Destiny Impulse Regenes'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgdesimpreg25.jpeg','PB Destiny R Core Splendor'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgdesimpreg26.jpeg','PB Destiny R Core Splendor'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgdesimpreg27.jpeg','PB Destiny R Core Splendor'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgdesimpreg28.jpeg','PB Destiny R Core Splendor'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgdesimpreg29.jpeg','PB Destiny R Core Splendor'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgdesimpreg30.jpeg','PB Destiny R Core Splendor'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgdesimpreg31.jpeg','PB Destiny R Core Splendor'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgdesimpreg32.jpeg','Both Destiny Impulses'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mgdesimpreg33.jpeg','Both Destiny Impulses']
         ],
-        ['','Phofile Photo: PB Desinty Impulse Regenes'],false,false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/mgdesimpreg13.jpeg','Phofile Photo: PB Desinty Impulse Regenes'],false,false,
         [
             ['Premium Bandai','https://p-bandai.com/us/item/N2247801001005']
         ],['Destiny Impulse [RG]'],false,true,"1:100",'Destiny Impulse Regenes','Destiny Impulse R','Dest. Imp. R'
@@ -5473,16 +5505,16 @@ const projects = [
     ['Destiny Impulse [RG]',[1,'Impulse, Destiny'],'RG',
         true,true,false,'Seed','E','2023-07-26',19.27,false,'Builds/PBandai/PBDestinyImpulseRG.html',false,'2023-11-14',models[96],
         [
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/desimprg01.jpeg','PB Destiny Impulse'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/desimprg02.jpeg','PB Destiny Impulse'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/desimprg03.jpeg','PB Destiny Impulse'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/desimprg04.jpeg','PB Destiny Impulse'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/desimprg05.jpeg','PB Destiny Impulse'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/desimprg06.jpeg','PB Destiny Impulse'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/desimprg07.jpeg','PB Destiny Impulse'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/desimprg08.jpeg','PB Destiny Impulse'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/desimprg09.jpeg','PB Destiny Impulse'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/desimprg10.jpeg','PB Destiny Impulse'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/desimprg01.jpeg','PB Destiny Core Splendor'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/desimprg02.jpeg','PB Destiny Core Splendor'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/desimprg03.jpeg','PB Destiny Core Splendor'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/desimprg04.jpeg','PB Destiny Core Splendor'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/desimprg05.jpeg','PB Destiny Core Splendor'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/desimprg06.jpeg','PB Destiny Core Splendor'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/desimprg07.jpeg','PB Destiny Core Splendor'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/desimprg08.jpeg','PB Destiny Core Splendor'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/desimprg09.jpeg','PB Destiny Core Splendor'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/desimprg10.jpeg','PB Destiny Core Splendor'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/desimprg11.jpeg','PB Destiny Impulse'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/desimprg12.jpeg','PB Destiny Impulse'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/desimprg13.jpeg','PB Destiny Impulse'],
@@ -7580,8 +7612,8 @@ const projects = [
     ['Monosyllabix',[1,'Mew'],'Pokemon',
         false,false,false,'','C','2023-10-22',0.58
     ],
-    ['Polysyllabix',[1,'Mewtwo'],'Pokemon',false,false,false,'','C','2023-11-25',0.75],
-    ['Picanmix',[1,'Piplup'],'Pokemon',false,false,false,'','C','2023-11-25',0.42],
+    ['Polysyllabix',[1,'Mewtwo'],'Pokemon',false,false,false,'','C','2023-11-25',0.92],
+    ['Picanmix',[1,'Piplup'],'Pokemon',false,false,false,'','C','2023-11-25',0.5],
     ['Getafix',[1,'Rayquaza'],'Pokemon',
         false,false,false,'','D','2023-09-18',5.74
     ],
