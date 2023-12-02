@@ -652,6 +652,27 @@ const blogArray = [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/mgdesimpreg34.jpeg']
         ],
         ['Both models have their own unique strengths and differences. So you be the judge on which one you like better.']
+    ],
+    [
+        '2023-11-30',
+        'NewType Build of the Week',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/Image_11-27-23_at_6.42_PM.jpeg',
+        [
+            [
+                'OMG this was a surprise. But I am so stoked to announce that my project ',
+                ['Fluorescent','Builds/Gundams/Fluorescent.html'],
+                ' has been featured on the site ',
+                ['NewType','https://newtype.us',true],
+                ' as one of their builds of the week.'
+            ],
+        ],
+        ['I did not see this coming but I am so moved and honored. Thank you so much NewType !!!'],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/Image_11-27-23_at_6.42_PM.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/fluor05.jpeg']
+        ]
     ]
 ]
 
