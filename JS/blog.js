@@ -673,6 +673,18 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/fluor05.jpeg']
         ]
+    ],
+    [
+        '2023-12-04',
+        'Lady Stardust sang a song of Darkness and Dismay',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/stardust12.jpeg',
+        [
+            [
+                'After painting two Sazabis, I of course had to also paint their Sucessor the Sinanju. I present to you ',
+                ['Stardust','Builds/Gundams/Stardust.html'],
+                '.'
+            ]
+        ]
     ]
 ]
 

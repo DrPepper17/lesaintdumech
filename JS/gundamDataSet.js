@@ -3871,11 +3871,11 @@ const projects = [
         false,false,false,'Mercury','C','',0.75
     ],
     ['Cherub',[1,'Aerial'],'SD',false,false,false,'Mercury','D','2023-01-10',4.91,false,'Builds/Cherub.html','Angels'],
-    ['Zephon',[1,'Aerial Rebuild'],'HG',false,false,false,'Mercury','C','2023-11-25',2.92],
+    ['Zephon',[1,'Aerial Rebuild'],'HG',false,false,false,'Mercury','C','2023-11-25',4.57],
     ['Dark Samus: Corruption',[1,'Beguir-Pente'],'HG',
         false,false,false,'Mercury','C','',0.25
     ], 
-    ['Abaddon',[1,'Calibarn'],'HG',false,false,false,'Mercury','C','2023-11-25',2.17],
+    ['Abaddon',[1,'Calibarn'],'HG',false,false,false,'Mercury','C','2023-11-25',2.62],
     ['Calibarn [HG]',[1,'Calibarn'],'HG',true,false,false,'Mercury','D','2023-08-22',2.83,false,false,false],
     ['Azrael',[1,'Dilanza, Guel\'s'],'HG',
         false,false,false,'Mercury','E','2023-01-05',12.14,false,'Builds/Gundams/Azrael.html','Angels','2023-02-27',models[26],
@@ -3946,7 +3946,7 @@ const projects = [
     ['PB Anavata',[1,'LFrith Anavata'],'HG',false,true,false,'Mercury','A'],
     ['PB Jiu',[1,'LFrith Jiu'],'HG',false,true,false,'Mercury','A'],
     ['Schwarzette [HG]',[1,'Schwarzette'],'HG',true,false,false,'Mercury','D','2023-10-04',2.33,false,false,false],
-    ['Metatron',[1,'Schwarzette'],'HG',false,false,false,'Mercury','C','2023-11-25',1.75],
+    ['Metatron',[1,'Schwarzette'],'HG',false,false,false,'Mercury','C','2023-11-25',2.15],
     ['Samus: Zero Suit',[1,'Suletta Mercury','Miorine Rembran'],'HG',false,false,false,'Mercury','B'],
 
     //Advanced Generation (Age)
@@ -4035,7 +4035,7 @@ const projects = [
             ['NewType','https://newtype.us/p/TOmRKyr7gHBbJij2bFtt/h/sdgg-050-gundam-aquarius']
         ],false,false,true,false
     ],
-    ['Pontus',[1,'Aquarius'],'SD',false,false,false,'Wing','C','2023-11-25',2.08,false,'Builds/Gundams/Pontus.html','Titans',false,models[40]],
+    ['Pontus',[1,'Aquarius'],'SD',false,false,false,'Wing','C','2023-11-25',2.9,false,'Builds/Gundams/Pontus.html','Titans',false,models[40]],
     ['Alucard',[1,'Deathscythe Hell (TV Version'],'HG',
         false,true,false,'Wing','E','2023-08-02',16.38,false,'Builds/PBandai/PBAlucard.html',false,'2023-10-19',models[93],
         [
@@ -6987,7 +6987,7 @@ const projects = [
     ],
     ['Dynamo',[1,'Sinanju Stein'],'MG',false,false,false,'UC','B'],
     ['Stardust',[1,'Sinanju'],'SD',
-        false,false,false,'UC','D','2021-12-15',4.56,false,'Builds/Gundams/Stardust.html',false,'2023',models[100],
+        false,false,false,'UC','E','2021-12-15',4.56,false,'Builds/Gundams/Stardust.html',false,'2023-12-04',models[100],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/stardust01.jpeg','Stardust'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/stardust02.jpeg','Stardust'],
@@ -7004,10 +7004,10 @@ const projects = [
         ],['https://hosting.photobucket.com/images/i/lesaintdumech/stardust06.jpeg','Profile Photo: Stardust'],
         'Worked on this as part of my silver and gold project I did with the SD Sazabi kit, Starman. Starman was gold, therefore this one obviously was meant to be silver in contrast.',false,
         [
-            ['Video',''],
+            ['Video','https://www.instagram.com/reel/C0a-Y-eutWL/?igshid=N2ViNmM2MDRjNw=='],
             ['USA Gundam Store','https://www.usagundamstore.com/products/gundam-sd-ex-standard-013-sinanju'],
             ['NewType','https://newtype.us/p/UGUtnpvzUngHjixG1boK/h/sdex-standard-13-sinanju']
-        ],['Starman','Ziggy'],true,false
+        ],['Starman','Ziggy'],true,true
     ],
     ['Shin Musha Black Robe',[1,'Shin Musha Gundam'],'MG',
         true,true,false,'UC','E','2022-08-05',10.58,false,'Builds/PBandai/PBShinMushaMG.html',false,'2022-12-05',models[72],
@@ -7614,8 +7614,8 @@ const projects = [
     ['Monosyllabix',[1,'Mew'],'Pokemon',
         false,false,false,'','C','2023-10-22',0.58
     ],
-    ['Polysyllabix',[1,'Mewtwo'],'Pokemon',false,false,false,'','C','2023-11-25',0.92],
-    ['Picanmix',[1,'Piplup'],'Pokemon',false,false,false,'','C','2023-11-25',0.5],
+    ['Polysyllabix',[1,'Mewtwo'],'Pokemon',false,false,false,'','C','2023-11-25',1.5],
+    ['Picanmix',[1,'Piplup'],'Pokemon',false,false,false,'','C','2023-11-25',0.95],
     ['Getafix',[1,'Rayquaza'],'Pokemon',
         false,false,false,'','D','2023-09-18',5.74
     ],
