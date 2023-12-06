@@ -3871,11 +3871,11 @@ const projects = [
         false,false,false,'Mercury','C','',0.75
     ],
     ['Cherub',[1,'Aerial'],'SD',false,false,false,'Mercury','D','2023-01-10',4.91,false,'Builds/Cherub.html','Angels'],
-    ['Zephon',[1,'Aerial Rebuild'],'HG',false,false,false,'Mercury','C','2023-11-25',4.57],
+    ['Zephon',[1,'Aerial Rebuild'],'HG',false,false,false,'Mercury','C','2023-11-25',6.07],
     ['Dark Samus: Corruption',[1,'Beguir-Pente'],'HG',
         false,false,false,'Mercury','C','',0.25
     ], 
-    ['Abaddon',[1,'Calibarn'],'HG',false,false,false,'Mercury','C','2023-11-25',2.62],
+    ['Abaddon',[1,'Calibarn'],'HG',false,false,false,'Mercury','C','2023-11-25',4.37],
     ['Calibarn [HG]',[1,'Calibarn'],'HG',true,false,false,'Mercury','D','2023-08-22',2.83,false,false,false],
     ['Azrael',[1,'Dilanza, Guel\'s'],'HG',
         false,false,false,'Mercury','E','2023-01-05',12.14,false,'Builds/Gundams/Azrael.html','Angels','2023-02-27',models[26],
@@ -3946,8 +3946,8 @@ const projects = [
     ['PB Anavata',[1,'LFrith Anavata'],'HG',false,true,false,'Mercury','A'],
     ['PB Jiu',[1,'LFrith Jiu'],'HG',false,true,false,'Mercury','A'],
     ['Schwarzette [HG]',[1,'Schwarzette'],'HG',true,false,false,'Mercury','D','2023-10-04',2.33,false,false,false],
-    ['Metatron',[1,'Schwarzette'],'HG',false,false,false,'Mercury','C','2023-11-25',2.15],
-    ['Samus: Zero Suit',[1,'Suletta Mercury','Miorine Rembran'],'HG',false,false,false,'Mercury','B'],
+    ['Metatron',[1,'Schwarzette'],'HG',false,false,false,'Mercury','C','2023-11-25',3.15],
+    ['Samus: Zero Suit',[1,'Suletta Mercury','Miorine Rembran'],'Other',false,false,false,'Mercury','B'],
 
     //Advanced Generation (Age)
     ['Uriel',[1,'Age-FX'],'SD',false,false,false,'Age','B'],
@@ -4035,7 +4035,7 @@ const projects = [
             ['NewType','https://newtype.us/p/TOmRKyr7gHBbJij2bFtt/h/sdgg-050-gundam-aquarius']
         ],false,false,true,false
     ],
-    ['Pontus',[1,'Aquarius'],'SD',false,false,false,'Wing','C','2023-11-25',2.9,false,'Builds/Gundams/Pontus.html','Titans',false,models[40]],
+    ['Pontus',[1,'Aquarius'],'SD',false,false,false,'Wing','C','2023-11-25',3.37,false,'Builds/Gundams/Pontus.html','Titans',false,models[40]],
     ['Alucard',[1,'Deathscythe Hell (TV Version'],'HG',
         false,true,false,'Wing','E','2023-08-02',16.38,false,'Builds/PBandai/PBAlucard.html',false,'2023-10-19',models[93],
         [
@@ -6381,6 +6381,7 @@ const projects = [
 
     //Post Disaster (IBO)
     ['Thorn',[1,'Barbatos'],'MG',false,false,false,'IBO','B'],
+    ['Deku Knight',[1,'Barbatos'],'MGSD',false,false,false,'IBO','A'],
     ['War Pig',[1,'Barbatos'],'SD',
         false,false,false,'IBO','E','2021-12-13',4.15,false,'Builds/Gundams/WarPig.html','SD Rock','2023-04-18',models[46],
         [
@@ -7206,6 +7207,7 @@ const projects = [
     ['Pallas',[1,'God Gundam, Huang Zhang Fei'],'SD',false,false,false,'Heroes','B'],
     ['Atlas',[1,'God Gundam, Zhang Fei'],'SD',false,false,false,'Heroes','B'],
     ['Themis',[1,'Legend, Caesar'],'SD',false,false,false,'Heroes','A'],
+    ['Gaia',[1,'Providence Gundam, Sangoku Soketsuden Dong Zhuo'],'SD',false,false,false,'Heroes','B'],
     ['Crius',[1,'Sazabi, Zhang Liao'],'SD',false,false,false,'Heroes','B'],
     ['Clymene',[1,'Strike, Knight'],'SD',false,false,false,'Heroes','A'],
     ['Prometheus',[1,'Strike Noir, Xun Yu'],'SD',false,false,false,'Heroes','B'],
@@ -7614,8 +7616,8 @@ const projects = [
     ['Monosyllabix',[1,'Mew'],'Pokemon',
         false,false,false,'','C','2023-10-22',0.58
     ],
-    ['Polysyllabix',[1,'Mewtwo'],'Pokemon',false,false,false,'','C','2023-11-25',1.5],
-    ['Picanmix',[1,'Piplup'],'Pokemon',false,false,false,'','C','2023-11-25',0.95],
+    ['Polysyllabix',[1,'Mewtwo'],'Pokemon',false,false,false,'','C','2023-11-25',2.17],
+    ['Picanmix',[1,'Piplup'],'Pokemon',false,false,false,'','C','2023-11-25',1.23],
     ['Getafix',[1,'Rayquaza'],'Pokemon',
         false,false,false,'','D','2023-09-18',5.74
     ],
@@ -8046,7 +8048,10 @@ const projects = [
     ],
     ['Shere Khan',[1,'Blade Liger'],'Zoid',false,false,false,'','B'],
     ['Akela',[1,'Konig Wolf Heavy Arms'],'Zoid',false,false,false,'','B'],
-    ['Kipling',[1,'Liger Zero X'],'Zoid',false,false,false,'','B']
+    ['Kipling',[1,'Liger Zero X'],'Zoid',false,false,false,'','B'],
+
+    //Other
+    ['Voltron',[1,'Voltron'],'Other',false,false,false,'','A']
 ];
 
 //Initialize Arrays
@@ -8073,6 +8078,7 @@ let pokeBacklogArray = [];
 let shipBacklogArray = [];
 let transBacklogArray = [];
 let zoidBacklogArray = [];
+let otherBacklogArray = [];
 let pgFinishedArray = [];
 let mgFinishedArray = [];
 let fmFinishedArray = [];
@@ -8090,8 +8096,9 @@ let pokeFinishedArray = [];
 let shipFinishedArray = [];
 let transFinishedArray = [];
 let zoidFinishedArray = [];
+let otherFinishedArray = [];
 let pbUndeliveredArray = [];
-let backlogListArray = [pgBacklogArray,mgBacklogArray,fmBacklogArray,rgBacklogArray,hgBacklogArray,mgsdBacklogArray,sdBacklogArray,pbBacklogArray,sbBacklogArray,carBacklogArray,digiBacklogArray,dispBacklogArray,haroBacklogArray,pokeBacklogArray,shipBacklogArray,transBacklogArray,zoidBacklogArray];
+let backlogListArray = [pgBacklogArray,mgBacklogArray,fmBacklogArray,rgBacklogArray,hgBacklogArray,mgsdBacklogArray,sdBacklogArray,pbBacklogArray,sbBacklogArray,carBacklogArray,digiBacklogArray,dispBacklogArray,haroBacklogArray,pokeBacklogArray,shipBacklogArray,transBacklogArray,zoidBacklogArray,zoidBacklogArray];
 let statsArray = [];
 let projectArray = [];
 let modelArray = [];
@@ -8364,6 +8371,9 @@ function addTable() {
     for (let i=0;i<zoidFinishedArray.length;i++) {
         insertLink(zoidFinishedArray[i],'zoidF');
     }
+    for (let i=0;i<otherFinishedArray.length;i++) {
+        insertLink(otherFinishedArray[i],'otherF');
+    }
 
     //Post Backlog
     for (let i=0;i<pgBacklogArray.length;i++) {
@@ -8416,6 +8426,9 @@ function addTable() {
     }
     for (let i=0;i<zoidBacklogArray.length;i++) {
         insertLine(zoidBacklogArray[i],'zoidBL');
+    }
+    for (let i=0;i<otherBacklogArray.length;i++) {
+        insertLine(otherBacklogArray[i],'otherBL');
     }
 
     //Post Out of Stock
@@ -8775,6 +8788,9 @@ function generateLists() {
         else if (backlogArray[i][2]=='Zoid') {
             zoidBacklogArray.push(backlogArray[i][0]);
         }
+        else if (backlogArray[i][2]=='Other') {
+            otherBacklogArray.push(backlogArray[i][0]);
+        }
     }
 
     //Finished by Grade
@@ -8830,6 +8846,9 @@ function generateLists() {
         else if (postedArray[i][2]=='Zoid') {
             zoidFinishedArray.push(postedArray[i]);
         }
+        else if (postedArray[i][2]=='Other') {
+            otherFinishedArray.push(postedArray[i]);
+        }
     }
 
     //Clean up in backlog lists
@@ -8850,6 +8869,7 @@ function generateLists() {
     shipBacklogArray = cleanupArrays(shipBacklogArray,'out');
     transBacklogArray = cleanupArrays(transBacklogArray,'out');
     zoidBacklogArray = cleanupArrays(zoidBacklogArray,'out');
+    otherBacklogArray = cleanupArrays(otherBacklogArray,'out');
 
     //Clean up in finish lists
     pgFinishedArray = cleanupArrays(pgFinishedArray,'fin');
@@ -8869,6 +8889,7 @@ function generateLists() {
     shipFinishedArray = cleanupArrays(shipFinishedArray,'fin');
     transFinishedArray = cleanupArrays(transFinishedArray,'fin');
     zoidFinishedArray = cleanupArrays(zoidFinishedArray,'fin');
+    otherFinishedArray = cleanupArrays(otherFinishedArray,'fin');
 
     //Clean UP PB Undelivered
     pbUndeliveredArray = cleanupArrays(pbUndeliveredArray,'fin');
