@@ -3812,6 +3812,69 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/(edited)_Sinanjuportrait.png','MSN-06S Sinanju'],
         false
+    ],
+    [101,1,'Sisquiede',
+        'LRX-077 Sisquiede',
+        'LRX-077',
+        'SD Gundam G Generation',
+        false,
+        false,
+        false,
+        'Universal Century',
+        [87,'0087 U.C.','Present'],
+        'Siegfried Wedner',
+        false,
+        'Leipzig Newtype Research Institute',
+        ['Anti-Earth Union Group'],
+        [23.0,'23.0 Meters'],           //Height
+        [38.1,'38.1 Metric Tons'],        //Weight
+        'Luna Titanium',
+        'Minovsky Ultracompact Fusion Reactor',
+        [
+            'I-Field Barrier Generator'
+        ],
+        [
+            'Beam Saber (x2)',
+            'I-Field Launcher',
+            'Long Rifle',
+            'Mega Cannon'
+        ],
+        [
+            'Offense Mode'
+        ],
+        false,
+        false,
+        false,
+        false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/sisquiede.jpeg','Sisquiede'],
+        false
+    ],
+    [102,1,'SD Zhuge Liang Freedom Gundam',
+        'SD Zhuge Liang Freedom Gundam',
+        false,
+        'SDW Heroes',
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        'ZGMF-X10A Freedom Gundam',
+        false,
+        false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/zhugefreedom.jpeg','SD Zhuge Liang Freedom Gundam'],
+        false
     ]
 ];
 
@@ -3901,7 +3964,7 @@ const projects = [
         ],false,false,true,'1:144'
     ],
     ['Dark Samus: Echoes',[1,'Gundvolva'],'HG',
-        false,false,false,'Mercury','D','2023-10-11',9.5
+        false,false,false,'Mercury','D','2023-10-11',9.5,false,'Builds/Metroid/DarkSamusEchoes.html','Metroid'
     ],
     ['The Nazarene',[1,'Gundvolva'],'HG',false,false,false,'Mercury','B'], 
     ['Dobiel',[1,'Gundvolva'],'HG',
@@ -4823,7 +4886,7 @@ const projects = [
         ],false,false,true,'1:144'
     ],
     ['Federation Trooper',[1,'Flag'],'HG',
-        false,false,false,'00','D','2023-08-06',9.1,false,'Builds/Gundams/S_DarkSuit.html','Metroid'
+        false,false,false,'00','D','2023-08-06',9.1,false,'Builds/Metroid/FedTrooper.html','Metroid'
     ],
     ['Harute (Final Battle)',[1,'Harute'],'HG',
         true,true,false,'00','E','2022-03-08',5.75,false,'Builds/PBandai/PBHaruteFinalHG.html',false,'2022-11-21',models[70],
@@ -5176,25 +5239,25 @@ const projects = [
         ],['Malphas','Dobiel','Leo Army'],false,true,'1:144'
     ],
     ['Samus: Dark Suit',[1,'Dagger L'],'HG',
-        false,false,false,'Seed','D','2023-08-02',8.14,false,'Builds/Metroid/S_DarkSuit.html','Metroid','',models[23]
+        false,false,false,'Seed','D','2023-08-02',8.14,false,'Builds/Metroid/Dark.html','Metroid','',models[23]
     ],
     ['Samus: Fusion Suit',[1,'Dagger L'],'HG',
-        false,false,false,'Seed','D','2023-08-19',7.79,false,'Builds/Metroid/S_FusionSuit.html','Metroid','',models[23]
+        false,false,false,'Seed','D','2023-08-19',7.79,false,'Builds/Metroid/Fusion.html','Metroid','',models[23]
     ],
     ['Samus: Gravity Suit',[1,'Dagger L'],'HG',
-        false,false,false,'Seed','D','2023-08-02',8.37,false,'Builds/Metroid/S_GravitySuit.html','Metroid','',models[23]
+        false,false,false,'Seed','D','2023-08-02',8.37,false,'Builds/Metroid/Gravity.html','Metroid','',models[23]
     ],
     ['Samus: Light Suit',[1,'Dagger L'],'HG',
-        false,false,false,'Seed','D','2023-08-16',9.47,false,'Builds/Metroid/S_LightSuit.html','Metroid','',models[23]
+        false,false,false,'Seed','D','2023-08-16',9.47,false,'Builds/Metroid/Light.html','Metroid','',models[23]
     ],
     ['Samus: PED Suit',[1,'Dagger L'],'HG',
-        false,false,false,'Seed','D','2023-08-06',8.36,false,'Builds/Metroid/S_PhazonSuit.html','Metroid','',models[23]
+        false,false,false,'Seed','D','2023-08-06',8.36,false,'Builds/Metroid/PED.html','Metroid','',models[23]
     ],
     ['Samus: Phazon Suit',[1,'Dagger L'],'HG',
-        false,false,false,'Seed','D','2023-08-06',8.3,false,'Builds/Metroid/S_PhazonSuit.html','Metroid','',models[23]
+        false,false,false,'Seed','D','2023-08-06',8.3,false,'Builds/Metroid/Phazon.html','Metroid','',models[23]
     ],
     ['Samus: Varia Suit',[1,'Dagger L'],'HG',
-        false,false,false,'Seed','D','2023-06-13',8.33,false,'Builds/Metroid/S_VariaSuit.html','Metroid','',models[23],
+        false,false,false,'Seed','D','2023-06-13',8.33,false,'Builds/Metroid/Varia.html','Metroid','',models[23],
         [
             []
         ],
@@ -5813,10 +5876,34 @@ const projects = [
         ],false,false,true,'1:144',false,'Perfect Strike',false,[models[60]]
     ],
     ['S.A.T.O.',[1,'Strike, Perfect'],'SD',
-        false,false,false,'Seed','D','2022-01-05',14.85,false,'Builds/Gundams/SATO.html','SD Rock','',models[61]
+        false,false,false,'Seed','D','2022-01-05',14.85,false,'Builds/Gundams/SATO.html','SD Rock','2023-12-18',models[61],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SATO01.jpeg','S.A.T.O.'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SATO02.jpeg','S.A.T.O.'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SATO03.jpeg','S.A.T.O.'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SATO04.jpeg','S.A.T.O.'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SATO05.jpeg','S.A.T.O.'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SATO06.jpeg','S.A.T.O.'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SATO07.jpeg','S.A.T.O.'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SATO08.jpeg','S.A.T.O.'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SATO09.jpeg','S.A.T.O.'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SATO10.jpeg','S.A.T.O.'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SATO11.jpeg','S.A.T.O.']
+        ],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/SATO11.jpeg','Profile Photo: S.A.T.O.'],
+        'SATO: Sharon Arden Thelma Osbourne. Now I\'ll find peace of mind. Finally found a way of thinking. Tried the rest, found the best. Stormy day won\'t see me sinking',false,
+        [
+            ['Video',''],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/bb-259-strike-gundam-weapon-set'],
+            ['NewType','https://newtype.us/p/R0Pf8WZkBNKQ7Bj3jN0o/h/sdgg-259-strike-gundam-weapon-set']
+        ],false,true,false
     ],
-    ['Cordelia',[1,'Strike Dagger'],'HG',false,true,false,'Seed','C','',0.33],
-    ['Samus: Dread Suit',[1,'Strike Dagger'],'HG',false,true,false,'Seed','D','2023-03-07',10.89,false,'Builds/','Metroid'],
+    ['Cordelia',[1,'Strike Dagger'],'HG',
+        false,true,false,'Seed','C','',0.33,false,'Builds/Gundams/Cordelia.html','Shakespeare','',models[92]
+    ],
+    ['Samus: Dread Suit',[1,'Strike Dagger'],'HG',
+        false,true,false,'Seed','D','2023-03-07',10.89,false,'Builds/Metroid/Dread.html','Metroid','',models[92]
+    ],
     ['Strike Dagger',[1,'Strike Dagger','Strike Dagger'],'HG',
         false,true,false,'Seed','E','2023-03-07',9.52,false,'Builds/PBandai/PBStrikeDaggers.html',false,'2023-10-10',models[92],
         [
@@ -6160,7 +6247,7 @@ const projects = [
         ],['Armageddon'],false,true,'1:144'
     ],
     ['Samus: Metroid Suit',[1,'Windam'],'HG',
-        false,false,false,'Seed','D','2023-09-13',10.24,false,'Builds/Metroid/S_MetroidSuit.html'
+        false,false,false,'Seed','D','2023-09-13',10.24,false,'Builds/Metroid/MetroidSuit.html'
     ],
     ['Slash Zaku Phantom',[1,'Zaku Phantom, Slash'],'MG',
         true,true,false,'Seed','E','2023-04-05',11.83,false,'Builds/PBandai/PBPhantomZakuMG.html',false,'2023-07-31',models[75],
@@ -7031,7 +7118,34 @@ const projects = [
             ['Premium Bandai','https://p-bandai.com/us/item/N2569532001002']
         ],false,false,true,'1:100'
     ],
-    ['Blue Monday',[1,'Sisquiede'],'SD',false,false,false,'UC','D','2022-01-06',6.76,false,'Builds/BlueMonday.html',['']],
+    ['Blue Monday',[1,'Sisquiede'],'SD',
+        false,false,false,'UC','D','2022-01-06',6.76,false,'Builds/Gundams/BlueMonday.html','SD Rock','2023-12-11',models[101],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/bluemonday01.jpeg','Blue Monday'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/bluemonday02.jpeg','Blue Monday'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/bluemonday03.jpeg','Blue Monday'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/bluemonday04.jpeg','Blue Monday'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/bluemonday05.jpeg','Blue Monday'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/bluemonday06.jpeg','Blue Monday'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/bluemonday07.jpeg','Blue Monday'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/bluemonday08.jpeg','Blue Monday'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/bluemonday09.jpeg','Blue Monday'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/bluemonday10.jpeg','Blue Monday'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/bluemonday11.jpeg','Blue Monday'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/bluemonday12.jpeg','Blue Monday'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/bluemonday13.jpeg','Blue Monday'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/bluemonday14.jpeg','Blue Monday'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/bluemonday15.jpeg','Blue Monday']
+        ],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/bluemonday08.jpeg','Profile Picture: Blue Monday'],
+        'How does it feel? To treat me like you do? When you\'ve laid your hands upon me and told me who you are. I thought I was mistaken. I thought I heard your words. Tell me how do I feel? Tell me now, how do I feel? Inspired by one of my favorite songs of the 80s. I love Blue Monday by New Order. Painted this in many different shades of blue.',false,
+        [
+            ['Blue Monday','https://youtu.be/cYtGJGp-9hA?si=h6_8t0-b8-NKtVw-']
+            ['Video',''],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/sd-gundam-cross-silhouette-sisquiede'],
+            ['NewType','https://newtype.us/p/QxuYTqZY0B5qkyHi8JPu/h/sdcs-09-silhouette-sisquiede']
+        ],false,true,false
+    ],
     ['Rocket Man',[1,'Xi Gundam'],'SD',false,false,false,'UC','D','2022-01-08',6.5,false,'Builds/RocketMan.html',['']],
     ['MK Ultra',[1,'Zaku II'],'RG',false,false,false,'UC','B'],
     ['Metroid [Alpha]',[1,'Zeong'],'HG',false,false,false,'UC','A'],
@@ -7203,7 +7317,30 @@ const projects = [
     ['Pharaoh',[1,'Dragon, Shining Grasper'],'SD',false,false,false,'Heroes','A'],
     ['Tiamat',[1,'Dragon, Shining Grasper'],'SD',false,false,false,'Heroes','A'],
     ['Cronus',[1,'Epyon, Nobunaga'],'SD',false,false,false,'Heroes','A'],
-    ['Helios',[1,'Freedom, Zhuge Liang'],'SD',false,false,false,'Heroes','D','2022-03-11',9.25,false,'Builds/Helios.html',['']],
+    ['Helios',[1,'Freedom, Zhuge Liang'],'SD',
+        false,false,false,'Heroes','D','2022-03-11',9.25,false,'Builds/SDW/Helios.html',false,'2023-12-25',models[102],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Helios01.jpeg','Helios'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Helios02.jpeg','Helios'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Helios03.jpeg','Helios'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Helios04.jpeg','Helios'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Helios05.jpeg','Helios'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Helios06.jpeg','Helios'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Helios07.jpeg','Helios'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Helios08.jpeg','Helios'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Helios09.jpeg','Helios'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Helios10.jpeg','Helios'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Helios11.jpeg','Helios'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Helios12.jpeg','Helios'],
+        ],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/Helios02.jpeg','Profile Photo: Helios'],
+        'Helios, Greek titan of the Sun.',false,
+        [
+            ['Video',''],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/zhuge-liang-freedom-gundam-sd-sangoku-soketsuden-bandai-sd'],
+            ['NewType','https://newtype.us/p/TvXeBtAhUZuncHlIHXJb/h/sd-sangoku-soketsuden-20-zhuge-liang-freedom-gundam']
+        ],false,true,false,false,false,false,false,[models[14]]
+    ],
     ['Pallas',[1,'God Gundam, Huang Zhang Fei'],'SD',false,false,false,'Heroes','B'],
     ['Atlas',[1,'God Gundam, Zhang Fei'],'SD',false,false,false,'Heroes','B'],
     ['Themis',[1,'Legend, Caesar'],'SD',false,false,false,'Heroes','A'],
