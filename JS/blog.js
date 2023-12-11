@@ -685,6 +685,19 @@ const blogArray = [
                 '.'
             ]
         ]
+    ],
+    [
+        '2023-12-11',
+        'Time For A Blue Monday',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/bluemonday14.jpeg',
+        [
+            [
+                'Happy Monday! And hope yours is Blue!! Inspired by the New Order Song, later covered by HEALTH for Atomic Blonde, today\'s unveil is ',
+                ['Blue Monday','Builds/Gundams/BlueMonday.html'],
+                '.'
+            ]
+        ],
+        ['An SD LRX-077 Sisquiede, painted in several different shades of blue. I just love how this cute little guy turned out. This one I\'m definitely keeping in my personal collection for a long time.']
     ]
 ]
 

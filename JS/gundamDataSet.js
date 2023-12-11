@@ -3930,15 +3930,13 @@ const projects = [
     ['Aerial (?)',[1,'Aerial'],'FM',false,false,false,'Mercury','A'],
     ['Aerial [HG]',[1,'Aerial'],'HG',true,false,false,'Mercury','D','2023-05-30',7.42,false,false,false],
     ['PB Aerial Permet Six [HG]',[1,'Aerial'],'HG',true,true,false,'Mercury','D','2023-09-19',2.83],
-    ['Ariel',[1.5,'Aerial','Mirasoul Flight Pack'],'HG',
-        false,false,false,'Mercury','C','',0.75
-    ],
+    ['Ariel',[1.5,'Aerial','Mirasoul Flight Pack'],'HG',false,false,false,'Mercury','C','2023-12-10',2.42],
     ['Cherub',[1,'Aerial'],'SD',false,false,false,'Mercury','D','2023-01-10',4.91,false,'Builds/Cherub.html','Angels'],
-    ['Zephon',[1,'Aerial Rebuild'],'HG',false,false,false,'Mercury','C','2023-11-25',6.07],
+    ['Zephon',[1,'Aerial Rebuild'],'HG',false,false,false,'Mercury','C','2023-11-25',7.57],
     ['Dark Samus: Corruption',[1,'Beguir-Pente'],'HG',
         false,false,false,'Mercury','C','',0.25
     ], 
-    ['Abaddon',[1,'Calibarn'],'HG',false,false,false,'Mercury','C','2023-11-25',4.37],
+    ['Abaddon',[1,'Calibarn'],'HG',false,false,false,'Mercury','C','2023-11-25',6.03],
     ['Calibarn [HG]',[1,'Calibarn'],'HG',true,false,false,'Mercury','D','2023-08-22',2.83,false,false,false],
     ['Azrael',[1,'Dilanza, Guel\'s'],'HG',
         false,false,false,'Mercury','E','2023-01-05',12.14,false,'Builds/Gundams/Azrael.html','Angels','2023-02-27',models[26],
@@ -4009,7 +4007,7 @@ const projects = [
     ['PB Anavata',[1,'LFrith Anavata'],'HG',false,true,false,'Mercury','A'],
     ['PB Jiu',[1,'LFrith Jiu'],'HG',false,true,false,'Mercury','A'],
     ['Schwarzette [HG]',[1,'Schwarzette'],'HG',true,false,false,'Mercury','D','2023-10-04',2.33,false,false,false],
-    ['Metatron',[1,'Schwarzette'],'HG',false,false,false,'Mercury','C','2023-11-25',3.15],
+    ['Metatron',[1,'Schwarzette'],'HG',false,false,false,'Mercury','C','2023-11-25',3.82],
     ['Samus: Zero Suit',[1,'Suletta Mercury','Miorine Rembran'],'Other',false,false,false,'Mercury','B'],
 
     //Advanced Generation (Age)
@@ -4098,7 +4096,7 @@ const projects = [
             ['NewType','https://newtype.us/p/TOmRKyr7gHBbJij2bFtt/h/sdgg-050-gundam-aquarius']
         ],false,false,true,false
     ],
-    ['Pontus',[1,'Aquarius'],'SD',false,false,false,'Wing','C','2023-11-25',3.37,false,'Builds/Gundams/Pontus.html','Titans',false,models[40]],
+    ['Pontus',[1,'Aquarius'],'SD',false,false,false,'Wing','C','2023-11-25',3.87,false,'Builds/Gundams/Pontus.html','Titans',false,models[40]],
     ['Alucard',[1,'Deathscythe Hell (TV Version'],'HG',
         false,true,false,'Wing','E','2023-08-02',16.38,false,'Builds/PBandai/PBAlucard.html',false,'2023-10-19',models[93],
         [
@@ -7119,7 +7117,7 @@ const projects = [
         ],false,false,true,'1:100'
     ],
     ['Blue Monday',[1,'Sisquiede'],'SD',
-        false,false,false,'UC','D','2022-01-06',6.76,false,'Builds/Gundams/BlueMonday.html','SD Rock','2023-12-11',models[101],
+        false,false,false,'UC','E','2022-01-06',6.76,false,'Builds/Gundams/BlueMonday.html','SD Rock','2023-12-11',models[101],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/bluemonday01.jpeg','Blue Monday'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/bluemonday02.jpeg','Blue Monday'],
@@ -7141,10 +7139,10 @@ const projects = [
         'How does it feel? To treat me like you do? When you\'ve laid your hands upon me and told me who you are. I thought I was mistaken. I thought I heard your words. Tell me how do I feel? Tell me now, how do I feel? Inspired by one of my favorite songs of the 80s. I love Blue Monday by New Order. Painted this in many different shades of blue.',false,
         [
             ['Blue Monday','https://youtu.be/cYtGJGp-9hA?si=h6_8t0-b8-NKtVw-']
-            ['Video',''],
+            ['Video','https://www.instagram.com/reel/C0t66xfOZu4/?igshid=N2ViNmM2MDRjNw=='],
             ['USA Gundam Store','https://www.usagundamstore.com/products/sd-gundam-cross-silhouette-sisquiede'],
             ['NewType','https://newtype.us/p/QxuYTqZY0B5qkyHi8JPu/h/sdcs-09-silhouette-sisquiede']
-        ],false,true,false
+        ],false,false,true
     ],
     ['Rocket Man',[1,'Xi Gundam'],'SD',false,false,false,'UC','D','2022-01-08',6.5,false,'Builds/RocketMan.html',['']],
     ['MK Ultra',[1,'Zaku II'],'RG',false,false,false,'UC','B'],
@@ -7276,6 +7274,7 @@ const projects = [
     ['Artemis',[1,'00, Zhao Yun'],'SD',false,false,false,'Heroes','A'],
     ['Oceanus',[1,'Altron, Zhang He'],'SD',false,false,false,'Heroes','D','2022-04-06',5.42,false,'Builds/Oceanus.html',['']],
     ['Eurybia',[1,'Akatsuki, Zhou Yu'],'SD',false,false,false,'Heroes','B'],
+    ['Nyx',[1,'Sun Ce Gundam Astray'],'SD',false,false,false,'Heroes','B'],
     ['Perses',[1,'Deathscythe, Xu Huang'],'SD',false,false,false,'Heroes','A'],
     ['Azalea',[1,'Delta, Sasuki'],'SD',
         false,false,false,'Heroes','E','2021-10-09',6.5,false,'Builds/SDW/Azalea.html',false,'2022-06-22',models[17],
@@ -7753,8 +7752,8 @@ const projects = [
     ['Monosyllabix',[1,'Mew'],'Pokemon',
         false,false,false,'','C','2023-10-22',0.58
     ],
-    ['Polysyllabix',[1,'Mewtwo'],'Pokemon',false,false,false,'','C','2023-11-25',2.17],
-    ['Picanmix',[1,'Piplup'],'Pokemon',false,false,false,'','C','2023-11-25',1.23],
+    ['Polysyllabix',[1,'Mewtwo'],'Pokemon',false,false,false,'','C','2023-11-25',2.67],
+    ['Picanmix',[1,'Piplup'],'Pokemon',false,false,false,'','C','2023-11-25',1.57],
     ['Getafix',[1,'Rayquaza'],'Pokemon',
         false,false,false,'','D','2023-09-18',5.74
     ],
