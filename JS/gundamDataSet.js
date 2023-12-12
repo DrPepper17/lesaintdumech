@@ -4002,7 +4002,7 @@ const projects = [
         ],['Malphas','King Leir','Leo Army'],false,true,'1:144'
     ],
     ['EMMI',[1,'Heindree'],'HG',false,false,false,'Mercury','A'],
-    ['Adriel',[1,'LFrith'],'HG',false,false,false,'Mercury','C','',0.33],
+    ['Adriel',[1,'LFrith'],'HG',false,false,false,'Mercury','C','2023-12-11',1.5],
     ['LFrith [HG]',[1,'LFrith'],'HG',true,false,false,'Mercury','D','2023-04-15',2.33,false,false,false],
     ['PB Anavata',[1,'LFrith Anavata'],'HG',false,true,false,'Mercury','A'],
     ['PB Jiu',[1,'LFrith Jiu'],'HG',false,true,false,'Mercury','A'],
@@ -5897,7 +5897,7 @@ const projects = [
         ],false,true,false
     ],
     ['Cordelia',[1,'Strike Dagger'],'HG',
-        false,true,false,'Seed','C','',0.33,false,'Builds/Gundams/Cordelia.html','Shakespeare','',models[92]
+        false,true,false,'Seed','C','2023-12-11',1.5,false,'Builds/Gundams/Cordelia.html','Shakespeare','',models[92]
     ],
     ['Samus: Dread Suit',[1,'Strike Dagger'],'HG',
         false,true,false,'Seed','D','2023-03-07',10.89,false,'Builds/Metroid/Dread.html','Metroid','',models[92]
@@ -6466,7 +6466,7 @@ const projects = [
 
     //Post Disaster (IBO)
     ['Thorn',[1,'Barbatos'],'MG',false,false,false,'IBO','B'],
-    ['Deku Knight',[1,'Barbatos'],'MGSD',false,false,false,'IBO','A'],
+    ['Deku Knight',[1,'Barbatos'],'MGSD',false,false,false,'IBO','B'],
     ['War Pig',[1,'Barbatos'],'SD',
         false,false,false,'IBO','E','2021-12-13',4.15,false,'Builds/Gundams/WarPig.html','SD Rock','2023-04-18',models[46],
         [
@@ -7712,7 +7712,7 @@ const projects = [
             ['NewType','https://newtype.us/p/S9nZ4KxUmzbDoDM0HfDd/h/pokemon-charizard-dragonite']
         ],['Vercingetorix'],false,true,false
     ],
-    ['Astronomix',[1,'Gengar'],'Pokemon',false,false,false,'','C','',0.33],
+    ['Astronomix',[1,'Gengar'],'Pokemon',false,false,false,'','C','2023-12-11',0.67],
     ['Granfrog',[1,'Greninja'],'Pokemon',
         false,false,false,false,'E','2021-11-11',5.68,false,'Builds/Pokemon/Granfrog.html',false,'2022-08-17',models[11],
         [
@@ -7752,8 +7752,8 @@ const projects = [
     ['Monosyllabix',[1,'Mew'],'Pokemon',
         false,false,false,'','C','2023-10-22',0.58
     ],
-    ['Polysyllabix',[1,'Mewtwo'],'Pokemon',false,false,false,'','C','2023-11-25',2.67],
-    ['Picanmix',[1,'Piplup'],'Pokemon',false,false,false,'','C','2023-11-25',1.57],
+    ['Polysyllabix',[1,'Mewtwo'],'Pokemon',false,false,false,'','C','2023-11-25',2.75],
+    ['Picanmix',[1,'Piplup'],'Pokemon',false,false,false,'','C','2023-11-25',1.82],
     ['Getafix',[1,'Rayquaza'],'Pokemon',
         false,false,false,'','D','2023-09-18',5.74
     ],
@@ -9303,6 +9303,10 @@ function populateBuildsPage() {
             buildColumnsNode.appendChild(divNode);
         }
     }
+
+    let buildTotalNode = document.getElementById('buildTotal');
+    let buildTotalText = document.createTextNode(postedArray.length);
+    buildTotalNode.appendChild(buildTotalText);
 }
 
 function populateStat(stat,id,cap) {
