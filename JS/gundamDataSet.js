@@ -5080,7 +5080,7 @@ const projects = [
             ['USA Gundam Store','https://www.usagundamstore.com/products/hg-1-144-40-oowashi-akatsuki-gunda'],
             ['NewType','https://newtype.us/p/TVltE6umkrkynKYjjE0a/h/hgseed-40-orb-01-owashi-akatsuki-gundam'],
             ['TurboDork: All That Glitters','https://turbodork.com/products/all-that-glitters']
-        ],false,false,true,'1:144',false,'Akatsuki: Oowashi Pack'
+        ],false,false,true,'1:144','Akatsuki: Oowashi Pack'
     ],
     ['King Mars',[1,'Akatsuki, Shiranui'],'HG',
         false,false,false,'Seed','D','2022-05-06',13.67,false,'Builds/Gundams/KingMars.html','Planets','',models[57]
