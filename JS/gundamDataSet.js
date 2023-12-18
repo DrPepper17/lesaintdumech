@@ -5892,7 +5892,6 @@ const projects = [
         ['https://hosting.photobucket.com/images/i/lesaintdumech/SATO11.jpeg','Profile Photo: S.A.T.O.'],
         'SATO: Sharon Arden Thelma Osbourne. Now I\'ll find peace of mind. Finally found a way of thinking. Tried the rest, found the best. Stormy day won\'t see me sinking',false,
         [
-            ['Video',''],
             ['USA Gundam Store','https://www.usagundamstore.com/products/bb-259-strike-gundam-weapon-set'],
             ['NewType','https://newtype.us/p/R0Pf8WZkBNKQ7Bj3jN0o/h/sdgg-259-strike-gundam-weapon-set']
         ],false,true,true
