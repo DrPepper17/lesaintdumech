@@ -698,6 +698,20 @@ const blogArray = [
             ]
         ],
         ['An SD LRX-077 Sisquiede, painted in several different shades of blue. I just love how this cute little guy turned out. This one I\'m definitely keeping in my personal collection for a long time.']
+    ],
+    [
+        '2023-12-18',
+        'Almost Christmas',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/SATO11.jpeg',
+        ['We\'re officially now one week away from Christmas. And with the holidays upon us keeping us busy and the year soon drawing to a close, I\'ve been keeping things simple here in the studios at Le Saint Du Mech. So no big elaborate productions for a while. Just some small simple SDs to close things out as the year ends.'],
+        [
+            [
+                'Therefore in that vein, this week I present to you ',
+                ['SATO','Builds/Gundams/SATO.html'],
+                '.'
+            ]
+        ],
+        ['Nothing complicated. Just an SD Perfect Strike. No fancy color scheme or theme here. Just wanted to paint it a different set of colors than the standard Strike. And all colors complete chosen by drawing them out of a hat. This build could not have been any more random.']
     ]
 ]
 
