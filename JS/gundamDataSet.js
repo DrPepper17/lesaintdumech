@@ -3930,13 +3930,13 @@ const projects = [
     ['Aerial (?)',[1,'Aerial'],'FM',false,false,false,'Mercury','A'],
     ['Aerial [HG]',[1,'Aerial'],'HG',true,false,false,'Mercury','D','2023-05-30',7.42,false,false,false],
     ['PB Aerial Permet Six [HG]',[1,'Aerial'],'HG',true,true,false,'Mercury','D','2023-09-19',2.83],
-    ['Ariel',[1.5,'Aerial','Mirasoul Flight Pack'],'HG',false,false,false,'Mercury','C','2023-12-10',4.7],
+    ['Ariel',[1.5,'Aerial','Mirasoul Flight Pack'],'HG',false,false,false,'Mercury','C','2023-12-10',5.45],
     ['Cherub',[1,'Aerial'],'SD',false,false,false,'Mercury','D','2023-01-10',4.91,false,'Builds/Cherub.html','Angels'],
     ['Zephon',[1,'Aerial Rebuild'],'HG',false,false,false,'Mercury','C','2023-11-25',8.6],
     ['Dark Samus: Corruption',[1,'Beguir-Pente'],'HG',
         false,false,false,'Mercury','C','',0.88
     ], 
-    ['Abaddon',[1,'Calibarn'],'HG',false,false,false,'Mercury','C','2023-11-25',9],
+    ['Abaddon',[1,'Calibarn'],'HG',false,false,false,'Mercury','C','2023-11-25',10.58],
     ['Calibarn [HG]',[1,'Calibarn'],'HG',true,false,false,'Mercury','D','2023-08-22',2.83,false,false,false],
     ['Excalibur',[1,'Calibarn'],'HG',false,false,false,'Mercury','B'],
     ['Azrael',[1,'Dilanza, Guel\'s'],'HG',
@@ -4003,12 +4003,12 @@ const projects = [
         ],['Malphas','King Leir','Leo Army'],false,true,'1:144'
     ],
     ['EMMI',[1,'Heindree'],'HG',false,false,false,'Mercury','A'],
-    ['Adriel',[1,'LFrith'],'HG',false,false,false,'Mercury','C','2023-12-11',2.57],
+    ['Adriel',[1,'LFrith'],'HG',false,false,false,'Mercury','C','2023-12-11',2.88],
     ['LFrith [HG]',[1,'LFrith'],'HG',true,false,false,'Mercury','D','2023-04-15',2.33,false,false,false],
     ['PB Anavata',[1,'LFrith Anavata'],'HG',false,true,false,'Mercury','A'],
     ['PB Jiu',[1,'LFrith Jiu'],'HG',false,true,false,'Mercury','A'],
     ['Schwarzette [HG]',[1,'Schwarzette'],'HG',true,false,false,'Mercury','D','2023-10-04',2.33,false,false,false],
-    ['Metatron',[1,'Schwarzette'],'HG',false,false,false,'Mercury','C','2023-11-25',6.13],
+    ['Metatron',[1,'Schwarzette'],'HG',false,false,false,'Mercury','C','2023-11-25',6.17],
     ['Samus: Zero Suit',[1,'Suletta Mercury','Miorine Rembran'],'Other',false,false,false,'Mercury','B'],
 
     //Advanced Generation (Age)
@@ -4016,7 +4016,7 @@ const projects = [
     ['Gamma Draconis',[1,'Danazine'],'HG',false,false,false,'Age','B'],
 
     //After Colony (Wing)
-    ['Leo Army',[6,'Leo'],'LEO',false,false,false,'Wing','C','2021-10-03',40.64,false,'Builds/Gundams/LeoArmy.html',false],
+    ['Leo Army',[6,'Leo'],'LEO',false,false,false,'Wing','C','2021-10-03',40.81,false,'Builds/Gundams/LeoArmy.html',false],
     ['South Park',[6,'Tallgeese','Epyon','Heavy Arms','Shenlong','Deathscythe','Sandrock'],'SD',
         false,false,false,'Wing','E','2021-06-05',54.42,true,'Builds/uniqueTemplates/SouthPark.html','Practice SDs','2021-06-21',models[6],
         [
@@ -4551,10 +4551,10 @@ const projects = [
     ],
     ['Dark Zero',[1,'Wing Zero'],'MG',false,false,false,'Wing','B'],
     ['Dark Zero [RG]',[1,'Wing Zero'],'RG',false,false,false,'Wing','A'],
-    ['Dark Zero [SD]',[1,'Wing Zero'],'SD',false,false,false,'Wing','A'],
+    ['Dark Zero [SD]',[1,'Wing Zero'],'SD',false,false,false,'Wing','B'],
     ['Fiery Mothra',[1,'Wing Zero'],'MG',false,false,false,'Wing','B'],
     ['Fiery Mothra [RG]',[1,'Wing Zero'],'RG',false,false,false,'Wing','A'],
-    ['Fiery Mothra [SD]',[1,'Wing Zero'],'SD',false,false,false,'Wing','A'],
+    ['Fiery Mothra [SD]',[1,'Wing Zero'],'SD',false,false,false,'Wing','B'],
     ['Gold Dust Woman',[1,'Wing Zero'],'SD',
         false,false,false,'Wing','E','2021-09-09',8.37,false,'Builds/Gundams/GoldDustWoman.html','SD Rock','2022-02-01',models[32],
         [
@@ -4590,7 +4590,7 @@ const projects = [
     ['Zero Traditional [SD]',[1,'Wing Zero'],'SD',false,false,false,'Wing','A'],
     ['Zero EW (mg)',[1,'Wing Zero'],'MG',false,false,false,'Wing','B'],
     ['Zero EW (rg)',[1,'Wing Zero'],'RG',false,false,false,'Wing','A'],
-    ['Zero EW (sd)',[1,'Wing Zero'],'SD',false,false,false,'Wing','A'],
+    ['Zero EW (sd)',[1,'Wing Zero'],'SD',false,false,false,'Wing','B'],
 
     //After War (X)
     ['Gaebora',[1,'Airmaster'],'SD',
@@ -4700,12 +4700,13 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/covid38.jpeg','Covid Gundam','img40']
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/covid36.jpeg','Profile Photo: Covid Gundam'],
-        'The idea for this came up during the midst of the world wide covid-19 outbreak and lockdown. Figured since we\'re all locked down cause of it, might as well paint it. Only problem was, since it is a microscopic entity invisible to the naked eye, what exactly then does it look like in order to paint it? So I went through lots of photos online of people posting pictures of it from under the microscope. But even then that was a problem since even those photos are paritally an artistic rendering of what the machine imagines it to look like. Especially the colors. All color photos are human-picked colors chosen to represent how we imagine it to look blown up, rather than the actual color-profile of the virus. Which again left me with the problem of okay what colors should I even use. Anyhow, most the photos I noticed used bright neon colors to represent the thing, I\'m guessing so as to make it look more menacing. So I decided to go with fluorescent paints to try to reproduce that. On top of that I added some biohazard symbol decals and gemstone stickers to represent the 3D protrusions of the actual virus. Bit let down by this Gundam, don\'t think I really nailed the source material that well, but it is what it is.',false,
+        'The idea for this came up during the midst of the world wide covid-19 outbreak and lockdown. Figured since we\'re all locked down cause of it, might as well paint it. Only problem was, since it is a microscopic entity invisible to the naked eye, what exactly then does it look like in order to paint it? So I went through lots of photos online of people posting pictures of it from under the microscope. But even then that was a problem since even those photos are paritally an artistic rendering of what the machine imagines it to look like. Especially the colors. All color photos are human-picked colors chosen to represent how we imagine it to look blown up, rather than the actual color-profile of the virus. Which again left me with the problem of okay what colors should I even use. Anyhow, most the photos I noticed used bright neon colors to represent the thing, I\'m guessing so as to make it look more menacing. So I decided to go with fluorescent paints to try to reproduce that. On top of that I added some biohazard symbol decals and gemstone stickers to represent the 3D protrusions of the actual virus. Bit let down by this Gundam, don\'t think I really nailed the source material that well, but it is what it is.',
+        'Tyler, North Carolina',
         [
             ['Video','https://www.instagram.com/reel/CkZnasMvN0U/?igshid=YzcxN2Q2NzY0OA=='],
             ['USA Gundam Store','https://www.usagundamstore.com/products/mg-1-100-gundam-double-x'],
             ['NewType','https://newtype.us/p/1g4oS0hH0BlePBYdpBFi/h/mg-gundam-double-x']
-        ],['Biohazard'],true,true,false,'Covid Gundam'
+        ],['Biohazard'],false,true,false,'Covid Gundam'
     ],
     ['Double X [MG]',[1,'Double X'],'MG',true,false,false,'X','E','2022-09-10',7.58,false,false,false,'2022-10-10'],
     ['Double X [HG]',[1,'Double X'],'HG',true,false,false,'X','E','2022-08-10',2,false,false,false,'2022-09-26'],
@@ -4754,6 +4755,7 @@ const projects = [
     ],
 
     //Anno Domini (00)
+    ['Sariel',[1,'0 GUndam'],'SD',false,false,false,'00','B','',0,false,'','Angels'],
     ['Umlaut \xD6\xD6',[1,'00 Gundam'],'SD',
         false,false,false,'00','E','2021-06-07',10.83,false,'Builds/Gundams/Umlaut.html','Practice SDs','2021-06-23',models[22],
         [
@@ -5897,7 +5899,7 @@ const projects = [
         ],false,true,true
     ],
     ['Cordelia',[1,'Strike Dagger'],'HG',
-        false,true,false,'Seed','C','2023-12-11',2.5,false,'Builds/Gundams/Cordelia.html','Shakespeare','',models[92]
+        false,true,false,'Seed','C','2023-12-11',3.35,false,'Builds/Gundams/Cordelia.html','Shakespeare','',models[92]
     ],
     ['Samus: Dread Suit',[1,'Strike Dagger'],'HG',
         false,true,false,'Seed','D','2023-03-07',10.89,false,'Builds/Metroid/Dread.html','Metroid','',models[92]
@@ -7274,8 +7276,10 @@ const projects = [
     ['Artemis',[1,'00, Zhao Yun'],'SD',false,false,false,'Heroes','A'],
     ['Oceanus',[1,'Altron, Zhang He'],'SD',false,false,false,'Heroes','D','2022-04-06',5.42,false,'Builds/Oceanus.html',['']],
     ['Eurybia',[1,'Akatsuki, Zhou Yu'],'SD',false,false,false,'Heroes','B'],
-    ['Nyx',[1,'Sun Ce Gundam Astray'],'SD',false,false,false,'Heroes','B'],
-    ['Perses',[1,'Deathscythe, Xu Huang'],'SD',false,false,false,'Heroes','A'],
+    ['Nyx',[1,'Astray, Sun Ce'],'SD',false,false,false,'Heroes','B'],
+    ['Valac',[1,'Astray, Sun Jian'],'SD',false,false,false,'Heroes','B','',0,false,'','Ars Goetia'],
+    ['Camio',[1,'Crossbone, Gan Ning'],'SD',false,false,false,'Heroes','B','',0,false,'','Ars Goetia'],
+    ['Perses',[1,'Deathscythe, Xu Huang'],'SD',false,false,false,'Heroes','B'],
     ['Azalea',[1,'Delta, Sasuki'],'SD',
         false,false,false,'Heroes','E','2021-10-09',6.5,false,'Builds/SDW/Azalea.html',false,'2022-06-22',models[17],
         [
@@ -7315,6 +7319,7 @@ const projects = [
     ['Quetzalcaotl',[1,'Dragon, Dark Grasper'],'SD',false,false,false,'Heroes','B'],
     ['Pharaoh',[1,'Dragon, Shining Grasper'],'SD',false,false,false,'Heroes','A'],
     ['Tiamat',[1,'Dragon, Shining Grasper'],'SD',false,false,false,'Heroes','A'],
+    ['Ose',[1,'Duel, Taishi Ci'],'SD',false,false,false,'Heroes','B','',0,false,'','Ars Goetia'],
     ['Cronus',[1,'Epyon, Nobunaga'],'SD',false,false,false,'Heroes','A'],
     ['Helios',[1,'Freedom, Zhuge Liang'],'SD',
         false,false,false,'Heroes','D','2022-03-11',9.25,false,'Builds/SDW/Helios.html',false,'2023-12-25',models[102],
@@ -7712,7 +7717,7 @@ const projects = [
             ['NewType','https://newtype.us/p/S9nZ4KxUmzbDoDM0HfDd/h/pokemon-charizard-dragonite']
         ],['Vercingetorix'],false,true,false
     ],
-    ['Astronomix',[1,'Gengar'],'Pokemon',false,false,false,'','C','2023-12-11',0.9],
+    ['Astronomix',[1,'Gengar'],'Pokemon',false,false,false,'','C','2023-12-11',1.25],
     ['Granfrog',[1,'Greninja'],'Pokemon',
         false,false,false,false,'E','2021-11-11',5.68,false,'Builds/Pokemon/Granfrog.html',false,'2022-08-17',models[11],
         [
@@ -7744,16 +7749,16 @@ const projects = [
     ['Lutetia',[1,'Lucario'],'Pokemon',
         false,false,false,'','D','2023-10-03',5.09
     ],
-    ['Chanticleerix',[1,'Lugia'],'Pokemon',false,false,false,'','C','2023-12-13',1.25],
+    ['Chanticleerix',[1,'Lugia'],'Pokemon',false,false,false,'','C','2023-12-13',1.87],
     ['Unhygienix',[1,'Magikarp'],'Pokemon',false,false,false,'','A'],
     ['Cacofonix',[1,'Metagross'],'Pokemon',
         false,false,false,'','D','2023-09-18',4.54
     ],
     ['Monosyllabix',[1,'Mew'],'Pokemon',
-        false,false,false,'','C','2023-10-22',1.07
+        false,false,false,'','C','2023-10-22',1.08
     ],
-    ['Polysyllabix',[1,'Mewtwo'],'Pokemon',false,false,false,'','C','2023-11-25',3.15],
-    ['Picanmix',[1,'Piplup'],'Pokemon',false,false,false,'','C','2023-11-25',2.63],
+    ['Polysyllabix',[1,'Mewtwo'],'Pokemon',false,false,false,'','C','2023-11-25',3.23],
+    ['Picanmix',[1,'Piplup'],'Pokemon',false,false,false,'','C','2023-11-25',2.65],
     ['Getafix',[1,'Rayquaza'],'Pokemon',
         false,false,false,'','D','2023-09-18',5.74
     ],
@@ -7762,9 +7767,9 @@ const projects = [
         false,false,false,'','D','2023-10-03',2.97
     ], 
     ['Tusk',[1,'Tepig'],'Pokemon',
-        false,false,false,'','C','2023-10-22',1.32
+        false,false,false,'','C','2023-10-22',1.33
     ], 
-    ['Prolix',[1,'Zekrom'],'Pokemon',false,false,false,'','C','2023-12-13',1.37],
+    ['Prolix',[1,'Zekrom'],'Pokemon',false,false,false,'','C','2023-12-13',1.82],
     
     //Digimon
     ['Heimdall',[1,'Alphamon'],'Digimon',false,false,false,'','A'],
@@ -7990,6 +7995,7 @@ const projects = [
             ['USA Gundam Store','https://www.usagundamstore.com/products/1-144-gundam-hanger-bay?variant=37766625657029']
         ],['Stratle'],false,true
     ],
+    ['Long Live the Queen',[1,'Jurassic Park Tyrannosaurus Rex Scene'],'Display',false,false,false,'','A'],
     ['Stratle',[1,'Maintenance Bay'],'Display',
         false,false,false,'','E','2022-02-11',27.12,true,'Builds/Displays/Stratle.html',false,'2022-04-11',models[66],
         [
