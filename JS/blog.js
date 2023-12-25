@@ -712,6 +712,18 @@ const blogArray = [
             ]
         ],
         ['Nothing complicated. Just an SD Perfect Strike. No fancy color scheme or theme here. Just wanted to paint it a different set of colors than the standard Strike. And all colors complete chosen by drawing them out of a hat. This build could not have been any more random.']
+    ],
+    [
+        '2023-12-25',
+        'Merry Christmas!!',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/Helios08.jpeg',
+        [
+            [
+                'Merry Christmas!!! For the holiday, today wanted to post something colorful, bright, vibrant and festive. So with that in mind and in honor of the spirit of the holiday I present to you ',
+                ['Gundam Helios','Builds/SDW/Helios.html'],
+                '.'
+            ]
+        ]
     ]
 ]
 
