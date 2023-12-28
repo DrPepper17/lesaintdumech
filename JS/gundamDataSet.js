@@ -3930,15 +3930,15 @@ const projects = [
     ['Aerial (?)',[1,'Aerial'],'FM',false,false,false,'Mercury','A'],
     ['Aerial [HG]',[1,'Aerial'],'HG',true,false,false,'Mercury','D','2023-05-30',7.42,false,false,false],
     ['PB Aerial Permet Six [HG]',[1,'Aerial'],'HG',true,true,false,'Mercury','D','2023-09-19',2.83],
-    ['Ariel',[1.5,'Aerial','Mirasoul Flight Pack'],'HG',false,false,false,'Mercury','C','2023-12-10',6.75],
+    ['Ariel',[1.5,'Aerial','Mirasoul Flight Pack'],'HG',false,false,false,'Mercury','C','2023-12-10',7.77],
     ['Cherub',[1,'Aerial'],'SD',false,false,false,'Mercury','D','2023-01-10',4.91,false,'Builds/Cherub.html','Angels'],
-    ['Zephon',[1,'Aerial Rebuild'],'HG',false,false,false,'Mercury','C','2023-11-25',10.53],
+    ['Zephon',[1,'Aerial Rebuild'],'HG',false,false,false,'Mercury','C','2023-11-25',11.83],
     ['Dark Samus: Corruption',[1,'Beguir-Pente'],'HG',
-        false,false,false,'Mercury','C','2023-12-23',3.38
+        false,false,false,'Mercury','C','2023-12-23',6.63
     ], 
-    ['Abaddon',[1,'Calibarn'],'HG',false,false,false,'Mercury','C','2023-11-25',13.08],
+    ['Abaddon',[1,'Calibarn'],'HG',false,false,false,'Mercury','C','2023-11-25',14.48],
     ['Calibarn [HG]',[1,'Calibarn'],'HG',true,false,false,'Mercury','D','2023-08-22',2.83,false,false,false],
-    ['Excalibur',[1,'Calibarn'],'HG',false,false,false,'Mercury','B'],
+    ['Arthur',[1,'Calibarn'],'HG',false,false,false,'Mercury','B'],
     ['Azrael',[1,'Dilanza, Guel\'s'],'HG',
         false,false,false,'Mercury','E','2023-01-05',12.14,false,'Builds/Gundams/Azrael.html','Angels','2023-02-27',models[26],
         [
@@ -4003,12 +4003,12 @@ const projects = [
         ],['Malphas','King Leir','Leo Army'],false,true,'1:144'
     ],
     ['EMMI',[1,'Heindree'],'HG',false,false,false,'Mercury','A'],
-    ['Adriel',[1,'LFrith'],'HG',false,false,false,'Mercury','C','2023-12-11',3.6],
+    ['Adriel',[1,'LFrith'],'HG',false,false,false,'Mercury','C','2023-12-11',4.48],
     ['LFrith [HG]',[1,'LFrith'],'HG',true,false,false,'Mercury','D','2023-04-15',2.33,false,false,false],
     ['PB Anavata',[1,'LFrith Anavata'],'HG',false,true,false,'Mercury','A'],
     ['PB Jiu',[1,'LFrith Jiu'],'HG',false,true,false,'Mercury','A'],
     ['Schwarzette [HG]',[1,'Schwarzette'],'HG',true,false,false,'Mercury','D','2023-10-04',2.33,false,false,false],
-    ['Metatron',[1,'Schwarzette'],'HG',false,false,false,'Mercury','C','2023-11-25',7.8],
+    ['Metatron',[1,'Schwarzette'],'HG',false,false,false,'Mercury','C','2023-11-25',10.22],
     ['Samus: Zero Suit',[1,'Suletta Mercury','Miorine Rembran'],'Other',false,false,false,'Mercury','B','',0.08],
 
     //Advanced Generation (Age)
@@ -4016,7 +4016,7 @@ const projects = [
     ['Gamma Draconis',[1,'Danazine'],'HG',false,false,false,'Age','B'],
 
     //After Colony (Wing)
-    ['Leo Army',[6,'Leo'],'LEO',false,false,false,'Wing','C','2021-10-03',40.81,false,'Builds/Gundams/LeoArmy.html',false],
+    ['Leo Army',[6,'Leo'],'LEO',false,false,false,'Wing','C','2021-10-03',41.53,false,'Builds/Gundams/LeoArmy.html',false],
     ['South Park',[6,'Tallgeese','Epyon','Heavy Arms','Shenlong','Deathscythe','Sandrock'],'SD',
         false,false,false,'Wing','E','2021-06-05',54.42,true,'Builds/uniqueTemplates/SouthPark.html','Practice SDs','2021-06-21',models[6],
         [
@@ -4097,7 +4097,7 @@ const projects = [
             ['NewType','https://newtype.us/p/TOmRKyr7gHBbJij2bFtt/h/sdgg-050-gundam-aquarius']
         ],false,false,true,false
     ],
-    ['Pontus',[1,'Aquarius'],'SD',false,false,false,'Wing','C','2023-11-25',4.95,false,'Builds/Gundams/Pontus.html','Titans',false,models[40]],
+    ['Pontus',[1,'Aquarius'],'SD',false,false,false,'Wing','C','2023-11-25',5.7,false,'Builds/Gundams/Pontus.html','Titans',false,models[40]],
     ['Alucard',[1,'Deathscythe Hell (TV Version'],'HG',
         false,true,false,'Wing','E','2023-08-02',16.38,false,'Builds/PBandai/PBAlucard.html',false,'2023-10-19',models[93],
         [
@@ -5478,7 +5478,7 @@ const projects = [
         ],['Anthem','Old Glory'],false,true,false
     ],
     ['Old Glory',[1,'Freedom'],'MGSD',
-        false,false,false,'Seed','E','2023-05-06',30.33,false,'Builds/Gundams/OldGlory.html','America','2023-07-03',models[14],
+        false,false,false,'Seed','E','2023-05-06',30.92,false,'Builds/Gundams/OldGlory.html','America','2023-07-03',models[14],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/oldglory01_sdLav1PtqioFw5a8sxxjgX.jpeg','Old Glory','img1'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/oldglory02_aTn59wMj3Fgx67X7GmzEZJ.jpeg','Old Glory','img2'],
@@ -5703,7 +5703,7 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/ye69.jpeg','Gundam Ye','img69']
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/ye15.jpeg','Profile Photo: Gundam Ye'],
-        'So I will be the first to admit that this project definitely did not age well. Just a discalimer, I came up with the idea for this and began working on it way before Kanye\'s huge public global meltdown. Whatever the hell is going on with him, I did not foresee that at all at the time of planning this, but may he please get help and get better. Both for his own sake but also for the sake of his children and his family. Anyhow, as to the origins of this. I had came up with the idea for Gundam Anthem (my red white and blue style Gundam Freedom), since Freedom and Justice are twin units, you cannot have the one without the other so I knew I had to paint the Justice as well so that the Freedom would not stand alone. However since my Freedom redesign was based on the old Betsy Ross original thirteen star American flag, in order to keep up with the flag theme I needed an equal just as famous well recognizable flag from the same era as the Betsy Ross to style the Justice. After thinking about it long and hard the only thing I could think of was that yellow rattlesnake Gadsden flag. So the first draft of the redesign was just to paint the Justice yellow and add rattlesnake decals. Anyhow, I let that idea stew in my mind for a while and my thoughts drifted back to an old meme I had made bout five year prior featuring the South Park rendition of Kanye on the rattlesnake flag and referrencing Fish Sticks. You have to be a South Park fan to understand the fish stick reference, but basically it was humiliating towards Kanye and the point of the meme was to make fun of Kanye\'s narcisstic don\'t give an eff attitude. So to keep the story going, the rattlesnake Gadsden theme slowly evolved to a rattlesnake Gadsden gay fish fish Kanye theme where I would paint it yellow and add rattlesnake and Ye and South Park decals. I present to you Gundam Don\'t Tread on Ye.',false,
+        'So I will be the first to admit that this project definitely did not age well. Just a discalimer, I came up with the idea for this and began working on it way before Kanye\'s huge public global meltdown. Whatever the hell is going on with him, I did not foresee that at all at the time of planning this, but may he please get help and get better. Both for his own sake but also for the sake of his children and his family. Anyhow, as to the origins of this. I had came up with the idea for Gundam Anthem (my red white and blue style Gundam Freedom), since Freedom and Justice are twin units, you cannot have the one without the other so I knew I had to paint the Justice as well so that the Freedom would not stand alone. However since my Freedom redesign was based on the old Betsy Ross original thirteen star American flag, in order to keep up with the flag theme I needed an equal just as famous well recognizable flag from the same era as the Betsy Ross to style the Justice. After thinking about it long and hard the only thing I could think of was that yellow rattlesnake Gadsden flag. So the first draft of the redesign was just to paint the Justice yellow and add rattlesnake decals. Anyhow, I let that idea stew in my mind for a while and my thoughts drifted back to an old meme I had made bout five year prior featuring the South Park rendition of Kanye on the rattlesnake flag and referrencing Fish Sticks. You have to be a South Park fan to understand the fish stick reference, but basically it was humiliating towards Kanye and the point of the meme was to make fun of Kanye\'s narcisstic don\'t give an eff attitude. So to keep the story going, the rattlesnake Gadsden theme slowly evolved to a rattlesnake Gadsden gay fish  Kanye theme where I would paint it yellow, add rattlesnakes and Ye South Park decals. I present to you Gundam Don\'t Tread on Ye.',false,
         [
             ['Video 1','https://www.instagram.com/reel/CiMJpP7p9ET/?igshid=YzcxN2Q2NzY0OA=='],
             ['Video 2','https://www.instagram.com/reel/CiMJiakAuwL/?igshid=YzcxN2Q2NzY0OA=='],
@@ -5759,7 +5759,7 @@ const projects = [
     ['PB Meteors',[1,'Meteor','Meteor I','Meteor II','Freedom','Infinite Justice'],'HG',false,true,false,'Seed','B'],
     ['Minerva',[1,'Minerva'],'Ship',false,false,false,'Seed','A'],
     ['Union Jack',[1,'Providence'],'MG',false,false,false,'Seed','A'],
-    ['Raider [FM]',[1,'Raider'],'FM',true,false,false,'Seed','D','2023-01-06',9.75,false,false,false],
+    ['Raider [FM]',[1,'Raider'],'FM',true,false,false,'Seed','D','2023-01-06',10.25,false,false,false],
     ['Rodan',[1,'Raider'],'FM',false,false,false,'Seed','A'],
     ['La Reine',[0.5,'Raijin Striker'],'MG',false,true,false,'Seed','A'],
     ['Rising Freedom SD',[1,'Rising Freedom'],'SD',false,false,false,'Seed','A'],
@@ -5901,7 +5901,7 @@ const projects = [
         ],false,true,true
     ],
     ['Cordelia',[1,'Strike Dagger'],'HG',
-        false,true,false,'Seed','C','2023-12-11',4.1,false,'Builds/Gundams/Cordelia.html','Shakespeare','',models[92]
+        false,true,false,'Seed','C','2023-12-11',4.67,false,'Builds/Gundams/Cordelia.html','Shakespeare','',models[92]
     ],
     ['Samus: Dread Suit',[1,'Strike Dagger'],'HG',
         false,true,false,'Seed','D','2023-03-07',10.89,false,'Builds/Metroid/Dread.html','Metroid','',models[92]
@@ -7719,7 +7719,7 @@ const projects = [
             ['NewType','https://newtype.us/p/S9nZ4KxUmzbDoDM0HfDd/h/pokemon-charizard-dragonite']
         ],['Vercingetorix'],false,true,false
     ],
-    ['Astronomix',[1,'Gengar'],'Pokemon',false,false,false,'','C','2023-12-11',1.73],
+    ['Astronomix',[1,'Gengar'],'Pokemon',false,false,false,'','C','2023-12-11',1.95],
     ['Granfrog',[1,'Greninja'],'Pokemon',
         false,false,false,false,'E','2021-11-11',5.68,false,'Builds/Pokemon/Granfrog.html',false,'2022-08-17',models[11],
         [
@@ -7751,16 +7751,16 @@ const projects = [
     ['Lutetia',[1,'Lucario'],'Pokemon',
         false,false,false,'','D','2023-10-03',5.09
     ],
-    ['Chanticleerix',[1,'Lugia'],'Pokemon',false,false,false,'','C','2023-12-13',2.35],
+    ['Chanticleerix',[1,'Lugia'],'Pokemon',false,false,false,'','C','2023-12-13',3.12],
     ['Unhygienix',[1,'Magikarp'],'Pokemon',false,false,false,'','A'],
     ['Cacofonix',[1,'Metagross'],'Pokemon',
         false,false,false,'','D','2023-09-18',4.54
     ],
     ['Monosyllabix',[1,'Mew'],'Pokemon',
-        false,false,false,'','C','2023-10-22',1.2
+        false,false,false,'','C','2023-10-22',1.33
     ],
-    ['Polysyllabix',[1,'Mewtwo'],'Pokemon',false,false,false,'','C','2023-11-25',3.53],
-    ['Picanmix',[1,'Piplup'],'Pokemon',false,false,false,'','C','2023-11-25',2.97],
+    ['Polysyllabix',[1,'Mewtwo'],'Pokemon',false,false,false,'','C','2023-11-25',3.85],
+    ['Picanmix',[1,'Piplup'],'Pokemon',false,false,false,'','C','2023-11-25',3.13],
     ['Getafix',[1,'Rayquaza'],'Pokemon',
         false,false,false,'','D','2023-09-18',5.74
     ],
@@ -7769,9 +7769,9 @@ const projects = [
         false,false,false,'','D','2023-10-03',2.97
     ], 
     ['Tusk',[1,'Tepig'],'Pokemon',
-        false,false,false,'','C','2023-10-22',1.92
+        false,false,false,'','C','2023-10-22',1.37
     ], 
-    ['Prolix',[1,'Zekrom'],'Pokemon',false,false,false,'','C','2023-12-13',2.35],
+    ['Prolix',[1,'Zekrom'],'Pokemon',false,false,false,'','C','2023-12-13',2.88],
     
     //Digimon
     ['Heimdall',[1,'Alphamon'],'Digimon',false,false,false,'','A'],
