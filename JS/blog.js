@@ -724,6 +724,20 @@ const blogArray = [
                 '.'
             ]
         ]
+    ],
+    [
+        '2024-01-01',
+        'Happy New Year 2024!!',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/rocketman10.jpeg',
+        [
+            [
+                'Bursting into the new with fireworks and rockets, I present to you ',
+                ['Rocket Man','Builds/Gundams/RocketMan.html'],
+                '!!!!'
+            ]
+        ],
+        ['So excited to be celebrating the new year with you all. 2024 is going to be a blast. Got some exciting new projects to share and some exciting new changes coming to the site. Cannot wait to show you all soon.'],
+        ['So Happy 2024!!! May the new year bring you Blessings and Joy. This year is going to be a blast!']
     ]
 ]
 

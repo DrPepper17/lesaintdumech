@@ -3875,6 +3875,43 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/zhugefreedom.jpeg','SD Zhuge Liang Freedom Gundam'],
         true
+    ],
+    [103,1,'\u039E Gundam',                 //Xi Gundam
+        'RX-105 \u039E Gundam',
+        'RX-105',
+        'Mobile Suit Gundam Hathaway',
+        false,    //boolean
+        false,
+        false,
+        'Universal Century',
+        [105,'105 U.C.','Present'],
+        'Mafty Navue Erin',
+        ['SecondPilots'],
+        'Anaheim Electronics',
+        ['Mafty'],
+        [26,'26 Meters'],           //Height
+        [80,'80 Metric Tons'],        //Weight
+        'Gundarium Alloy',
+        'EnergyPowerSource',
+        [
+            'Vulcan Gun',
+            'Triple Missile'
+        ],
+        [
+            'Beam Shield w/ Beam Cannon',
+            'Beam Rifle',
+            'Beam Saber'
+        ],
+        [
+            'Minovsky Flight Unit',
+            'Funnel Missiles'
+        ],
+        'Hajime Katoki',
+        false,                //boolean
+        'Xi Gundam',
+        false,            //boolean
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/gunxi.jpeg','Xi Gundam'],
+        true           //boolean
     ]
 ];
 
@@ -7148,7 +7185,31 @@ const projects = [
             ['NewType','https://newtype.us/p/QxuYTqZY0B5qkyHi8JPu/h/sdcs-09-silhouette-sisquiede']
         ],false,false,true
     ],
-    ['Rocket Man',[1,'Xi Gundam'],'SD',false,false,false,'UC','D','2022-01-08',6.5,false,'Builds/RocketMan.html',['']],
+    ['Rocket Man',[1,'Xi Gundam'],'SD',
+        false,false,false,'UC','E','2022-01-08',6.5,false,'Builds/Gundams/RocketMan.html','SD Rock','2024-01-01',models[103],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/rocketman01.jpeg','Rocket Man'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/rocketman02.jpeg','Rocket Man'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/rocketman03.jpeg','Rocket Man'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/rocketman04.jpeg','Rocket Man'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/rocketman05.jpeg','Rocket Man'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/rocketman06.jpeg','Rocket Man'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/rocketman07.jpeg','Rocket Man'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/rocketman08.jpeg','Rocket Man'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/rocketman09.jpeg','Rocket Man'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/rocketman10.jpeg','Rocket Man'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/rocketman11.jpeg','Rocket Man'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/rocketman12.jpeg','Rocket Man'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/rocketman13.jpeg','Rocket Man']
+        ],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/rocketman02.jpeg','Profile Picture: Rocket Man'],
+        'Two Inspirations. Two Men. Both involving Rockets. Enjoy.',false,
+        [
+            ['Video','https://www.instagram.com/reel/C1koLIhOLyu/?igsh=aWRqNjI1ZGptazFl'],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/bb-senshi-386-rx-105-xi-gundam'],
+            ['NewType','https://newtype.us/p/VOMKUI0qHyyquNpps7tt/h/sdbb-386-xi-gundam']
+        ],false,true,true
+    ],
     ['MK Ultra',[1,'Zaku II'],'RG',false,false,false,'UC','B'],
     ['Metroid [Alpha]',[1,'Zeong'],'HG',false,false,false,'UC','A'],
     ['Zeong [RG]',[1,'Zeong'],'RG',true,false,false,'UC','E','2021-08-07',8.25,false,false,false,'2022-03-14'],
