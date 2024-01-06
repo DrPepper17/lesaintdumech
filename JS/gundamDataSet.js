@@ -3964,16 +3964,16 @@ const models = [
 //Pojects
 const projects = [
     //Ad Stella (Mercury)
-    ['Chimkin',[1,'Aerial'],'FM',false,false,false,'Mercury','C','2024',0],
+    ['Chimkin',[1,'Aerial'],'FM',false,false,false,'Mercury','C','2024-01-05',4],
     ['Aerial [HG]',[1,'Aerial'],'HG',true,false,false,'Mercury','D','2023-05-30',7.42,false,false,false],
     ['PB Aerial Permet Six [HG]',[1,'Aerial'],'HG',true,true,false,'Mercury','D','2023-09-19',2.83],
-    ['Ariel',[1.5,'Aerial','Mirasoul Flight Pack'],'HG',false,false,false,'Mercury','C','2023-12-10',7.77],
+    ['Ariel',[1.5,'Aerial','Mirasoul Flight Pack'],'HG',false,false,false,'Mercury','C','2023-12-10',10.32],
     ['Cherub',[1,'Aerial'],'SD',false,false,false,'Mercury','D','2023-01-10',4.91,false,'Builds/Cherub.html','Angels'],
-    ['Zephon',[1,'Aerial Rebuild'],'HG',false,false,false,'Mercury','C','2023-11-25',11.83],
+    ['Zephon',[1,'Aerial Rebuild'],'HG',false,false,false,'Mercury','C','2023-11-25',15.02],
     ['Dark Samus: Corruption',[1,'Beguir-Pente'],'HG',
-        false,false,false,'Mercury','C','2023-12-23',6.63
+        false,false,false,'Mercury','C','2023-12-23',9.34
     ], 
-    ['Abaddon',[1,'Calibarn'],'HG',false,false,false,'Mercury','C','2023-11-25',14.48],
+    ['Abaddon',[1,'Calibarn'],'HG',false,false,false,'Mercury','C','2023-11-25',17.81],
     ['Calibarn [HG]',[1,'Calibarn'],'HG',true,false,false,'Mercury','D','2023-08-22',2.83,false,false,false],
     ['Arthur',[1,'Calibarn'],'HG',false,false,false,'Mercury','C','2024',0],
     ['Azrael',[1,'Dilanza, Guel\'s'],'HG',
@@ -4040,20 +4040,20 @@ const projects = [
         ],['Malphas','King Leir','Leo Army'],false,true,'1:144'
     ],
     ['EMMI',[1,'Heindree'],'HG',false,false,false,'Mercury','A'],
-    ['Adriel',[1,'LFrith'],'HG',false,false,false,'Mercury','C','2023-12-11',4.48],
+    ['Adriel',[1,'LFrith'],'HG',false,false,false,'Mercury','C','2023-12-11',6.18],
     ['LFrith [HG]',[1,'LFrith'],'HG',true,false,false,'Mercury','D','2023-04-15',2.33,false,false,false],
     ['PB Anavata',[1,'LFrith Anavata'],'HG',false,true,false,'Mercury','A'],
     ['PB Jiu',[1,'LFrith Jiu'],'HG',false,true,false,'Mercury','A'],
     ['Schwarzette [HG]',[1,'Schwarzette'],'HG',true,false,false,'Mercury','D','2023-10-04',2.33,false,false,false],
-    ['Metatron',[1,'Schwarzette'],'HG',false,false,false,'Mercury','C','2023-11-25',10.22],
-    ['Samus: Zero Suit',[1,'Suletta Mercury','Miorine Rembran'],'Other',false,false,false,'Mercury','C','2024-01',0.08],
+    ['Metatron',[1,'Schwarzette'],'HG',false,false,false,'Mercury','C','2023-11-25',15.33],
+    ['Samus: Zero Suit',[1,'Suletta Mercury','Miorine Rembran'],'Other',false,false,false,'Mercury','C','2024-01-04',1.67],
 
     //Advanced Generation (Age)
     ['Uriel',[1,'Age-FX'],'SD',false,false,false,'Age','B'],
     ['Gamma Draconis',[1,'Danazine'],'HG',false,false,false,'Age','B'],
 
     //After Colony (Wing)
-    ['Leo Army',[6,'Leo'],'LEO',false,false,false,'Wing','C','2021-10-03',41.53,false,'Builds/Gundams/LeoArmy.html',false],
+    ['Leo Army',[6,'Leo'],'LEO',false,false,false,'Wing','C','2021-10-03',42.28,false,'Builds/Gundams/LeoArmy.html',false],
     ['South Park',[6,'Tallgeese','Epyon','Heavy Arms','Shenlong','Deathscythe','Sandrock'],'SD',
         false,false,false,'Wing','E','2021-06-05',54.42,true,'Builds/uniqueTemplates/SouthPark.html','Practice SDs','2021-06-21',models[6],
         [
@@ -4134,7 +4134,7 @@ const projects = [
             ['NewType','https://newtype.us/p/TOmRKyr7gHBbJij2bFtt/h/sdgg-050-gundam-aquarius']
         ],false,false,true,false
     ],
-    ['Pontus',[1,'Aquarius'],'SD',false,false,false,'Wing','C','2023-11-25',5.7,false,'Builds/Gundams/Pontus.html','Titans',false,models[40]],
+    ['Pontus',[1,'Aquarius'],'SD',false,false,false,'Wing','C','2023-11-25',5.95,false,'Builds/Gundams/Pontus.html','Titans',false,models[40]],
     ['Alucard',[1,'Deathscythe Hell (TV Version'],'HG',
         false,true,false,'Wing','E','2023-08-02',16.38,false,'Builds/PBandai/PBAlucard.html',false,'2023-10-19',models[93],
         [
@@ -5515,7 +5515,7 @@ const projects = [
         ],['Anthem','Old Glory'],false,true,false
     ],
     ['Old Glory',[1,'Freedom'],'MGSD',
-        false,false,false,'Seed','E','2023-05-06',30.92,false,'Builds/Gundams/OldGlory.html','America','2023-07-03',models[14],
+        false,false,false,'Seed','E','2023-05-06',33,false,'Builds/Gundams/OldGlory.html','America','2023-07-03',models[14],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/oldglory01_sdLav1PtqioFw5a8sxxjgX.jpeg','Old Glory','img1'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/oldglory02_aTn59wMj3Fgx67X7GmzEZJ.jpeg','Old Glory','img2'],
@@ -5938,7 +5938,7 @@ const projects = [
         ],false,true,true
     ],
     ['Cordelia',[1,'Strike Dagger'],'HG',
-        false,true,false,'Seed','C','2023-12-11',4.67,false,'Builds/Gundams/Cordelia.html','Shakespeare','',models[92]
+        false,true,false,'Seed','C','2023-12-11',6.08,false,'Builds/Gundams/Cordelia.html','Shakespeare','',models[92]
     ],
     ['Samus: Dread Suit',[1,'Strike Dagger'],'HG',
         false,true,false,'Seed','D','2023-03-07',10.89,false,'Builds/Metroid/Dread.html','Metroid','',models[92]
@@ -7179,7 +7179,7 @@ const projects = [
         ['https://hosting.photobucket.com/images/i/lesaintdumech/bluemonday08.jpeg','Profile Picture: Blue Monday'],
         'How does it feel? To treat me like you do? When you\'ve laid your hands upon me and told me who you are. I thought I was mistaken. I thought I heard your words. Tell me how do I feel? Tell me now, how do I feel? Inspired by one of my favorite songs of the 80s. I love Blue Monday by New Order. Painted this in many different shades of blue.',false,
         [
-            ['Blue Monday','https://youtu.be/cYtGJGp-9hA?si=h6_8t0-b8-NKtVw-']
+            ['Blue Monday','https://youtu.be/cYtGJGp-9hA?si=h6_8t0-b8-NKtVw-'],
             ['Video','https://www.instagram.com/reel/C0t66xfOZu4/?igshid=N2ViNmM2MDRjNw=='],
             ['USA Gundam Store','https://www.usagundamstore.com/products/sd-gundam-cross-silhouette-sisquiede'],
             ['NewType','https://newtype.us/p/QxuYTqZY0B5qkyHi8JPu/h/sdcs-09-silhouette-sisquiede']
@@ -7781,7 +7781,7 @@ const projects = [
             ['NewType','https://newtype.us/p/S9nZ4KxUmzbDoDM0HfDd/h/pokemon-charizard-dragonite']
         ],['Vercingetorix'],false,true,false
     ],
-    ['Astronomix',[1,'Gengar'],'Pokemon',false,false,false,'','C','2023-12-11',1.95],
+    ['Astronomix',[1,'Gengar'],'Pokemon',false,false,false,'','C','2023-12-11',2.12],
     ['Granfrog',[1,'Greninja'],'Pokemon',
         false,false,false,false,'E','2021-11-11',5.68,false,'Builds/Pokemon/Granfrog.html',false,'2022-08-17',models[11],
         [
@@ -7813,16 +7813,16 @@ const projects = [
     ['Lutetia',[1,'Lucario'],'Pokemon',
         false,false,false,'','D','2023-10-03',5.09
     ],
-    ['Chanticleerix',[1,'Lugia'],'Pokemon',false,false,false,'','C','2023-12-13',3.12],
+    ['Chanticleerix',[1,'Lugia'],'Pokemon',false,false,false,'','C','2023-12-13',3.45],
     ['Unhygienix',[1,'Magikarp'],'Pokemon',false,false,false,'','A'],
     ['Cacofonix',[1,'Metagross'],'Pokemon',
         false,false,false,'','D','2023-09-18',4.54
     ],
     ['Monosyllabix',[1,'Mew'],'Pokemon',
-        false,false,false,'','C','2023-10-22',1.33
+        false,false,false,'','C','2023-10-22',1.42
     ],
-    ['Polysyllabix',[1,'Mewtwo'],'Pokemon',false,false,false,'','C','2023-11-25',3.85],
-    ['Picanmix',[1,'Piplup'],'Pokemon',false,false,false,'','C','2023-11-25',3.13],
+    ['Polysyllabix',[1,'Mewtwo'],'Pokemon',false,false,false,'','C','2023-11-25',4.27],
+    ['Picanmix',[1,'Piplup'],'Pokemon',false,false,false,'','C','2023-11-25',3.38],
     ['Getafix',[1,'Rayquaza'],'Pokemon',
         false,false,false,'','D','2023-09-18',5.74
     ],
@@ -7831,9 +7831,9 @@ const projects = [
         false,false,false,'','D','2023-10-03',2.97
     ], 
     ['Tusk',[1,'Tepig'],'Pokemon',
-        false,false,false,'','C','2023-10-22',1.37
+        false,false,false,'','C','2023-10-22',2.53
     ], 
-    ['Prolix',[1,'Zekrom'],'Pokemon',false,false,false,'','C','2023-12-13',2.88],
+    ['Prolix',[1,'Zekrom'],'Pokemon',false,false,false,'','C','2023-12-13',3.47],
     
     //Digimon
     ['Heimdall',[1,'Alphamon'],'Digimon',false,false,false,'','A'],
