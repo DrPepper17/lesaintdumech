@@ -3912,6 +3912,32 @@ const models = [
         false,            //boolean
         ['https://hosting.photobucket.com/images/i/lesaintdumech/gunxi.jpeg','Xi Gundam'],
         true           //boolean
+    ],
+    [104,10,'Blue Haro',
+        'HaroPla #05 Haro Control Blue Model Kit',
+        'Blue',
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/haro-control-blue-pa_1.jpg','Blue Haro']
     ]
 ];
 
@@ -3964,10 +3990,10 @@ const models = [
 //Pojects
 const projects = [
     //Ad Stella (Mercury)
-    ['Chimkin',[1,'Aerial'],'FM',false,false,false,'Mercury','C','2024-01-05',4],
+    ['Chimkin',[1,'Aerial'],'FM',false,false,false,'Mercury','C','2024-01-05',8.83],
     ['Aerial [HG]',[1,'Aerial'],'HG',true,false,false,'Mercury','D','2023-05-30',7.42,false,false,false],
     ['PB Aerial Permet Six [HG]',[1,'Aerial'],'HG',true,true,false,'Mercury','D','2023-09-19',2.83],
-    ['Ariel',[1.5,'Aerial','Mirasoul Flight Pack'],'HG',false,false,false,'Mercury','C','2023-12-10',10.32],
+    ['Ariel',[1.5,'Aerial','Mirasoul Flight Pack'],'HG',false,false,false,'Mercury','C','2023-12-10',10.4],
     ['Cherub',[1,'Aerial'],'SD',false,false,false,'Mercury','D','2023-01-10',4.91,false,'Builds/Cherub.html','Angels'],
     ['Zephon',[1,'Aerial Rebuild'],'HG',false,false,false,'Mercury','C','2023-11-25',15.02],
     ['Dark Samus: Corruption',[1,'Beguir-Pente'],'HG',
@@ -4045,7 +4071,7 @@ const projects = [
     ['PB Anavata',[1,'LFrith Anavata'],'HG',false,true,false,'Mercury','A'],
     ['PB Jiu',[1,'LFrith Jiu'],'HG',false,true,false,'Mercury','A'],
     ['Schwarzette [HG]',[1,'Schwarzette'],'HG',true,false,false,'Mercury','D','2023-10-04',2.33,false,false,false],
-    ['Metatron',[1,'Schwarzette'],'HG',false,false,false,'Mercury','C','2023-11-25',15.33],
+    ['Metatron',[1,'Schwarzette'],'HG',false,false,false,'Mercury','C','2023-11-25',15.42],
     ['Samus: Zero Suit',[1,'Suletta Mercury','Miorine Rembran'],'Other',false,false,false,'Mercury','C','2024-01-04',1.67],
 
     //Advanced Generation (Age)
@@ -7522,7 +7548,27 @@ const projects = [
     ['Hyperion',[1,'Wing, Tian Ba Cao Cao'],'SD',false,false,false,'Heroes','B'],   // wing zero 
 
     //Haro
-    ['Haro Blue',[1,'Haropla #05 Control Blue'],'Haro',false,false,false,'','D','2023-04-07',2.55,false,'Builds/hblue.html','HARO'],
+    ['Haro Blue',[1,'Haropla #05 Control Blue'],'Haro',
+        false,false,false,'','E','2023-04-07',2.55,false,'Builds/Haro/HaroBlue.html','HARO','2024-01-08',models[104],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/haroblue01.jpeg','Blue Haro'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/haroblue02.jpeg','Blue Haro'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/haroblue03.jpeg','Blue Haro'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/haroblue04.jpeg','Blue Haro'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/haroblue05.jpeg','Blue Haro'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/haroblue06.jpeg','Blue Haro'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/haroblue07.jpeg','Blue Haro'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/haroblue08.jpeg','Blue Haro'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/haroblue09.jpeg','Blue Haro'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/haroblue10.jpeg','Blue Haro']
+        ],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/haroblue06.jpeg','Profile Photo: Blue Haro'],false,
+        'Zack #TheLunchDude, Iowa',
+        [
+            ['USA Gundam Store','https://www.usagundamstore.com/products/gundam-build-divers-haropla-05-haro-control-blue-model-kit'],
+            ['NewType','https://newtype.us/p/BPf92zUPPefF8P7lmgiv/h/haropla-haro-control-blue']
+        ],false,false,true,false
+    ],
     ['Haro Cloud',[1,'Haropla #12 Basic Green'],'Haro',false,false,false,'','D','2023-04-14',3.27,false,'Builds/hcloud.html','HARO'],
     ['Haro Green',[1,'Haropla #12 Basic Green'],'Haro',false,false,false,'','D','2023-04-08',2.75,false,'Builds/hgreen.html','HARO'],
     ['Haro Lime',[1,'Haropla #12 Basic Green'],'Haro',false,false,false,'','D','2023-04-13',3.34,false,'Builds/hlime.html','HARO'],
@@ -7651,7 +7697,7 @@ const projects = [
     ],
     
     //Pokemon
-    ['Fulliautomatix',[1,'Arceus'],'Pokemon',false,false,false,'','C','2024',0],
+    ['Cetautomatix',[1,'Arceus'],'Pokemon',false,false,false,'','C','2024',0],
     ['Obelix',[1,'Bulbasaur'],'Pokemon',
         false,false,false,'','E','2023-09-13',3.07,false,'Builds/Pokemon/Obelix.html',false,'2023-10-23',models[94],
         [
@@ -7809,7 +7855,7 @@ const projects = [
     ['Cassivellaunus',[1,'Gyarados'],'Pokemon',
         false,false,false,'','D','2023-09-18',5.39
     ],
-    ['Vitalstatistix',[1,'Ho-Oh'],'Pokemon',false,false,false,'','A'],
+    ['Vitalstatistix',[1,'Ho-Oh'],'Pokemon',false,false,false,'','B'],
     ['Lutetia',[1,'Lucario'],'Pokemon',
         false,false,false,'','D','2023-10-03',5.09
     ],

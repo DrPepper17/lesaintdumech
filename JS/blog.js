@@ -738,6 +738,18 @@ const blogArray = [
         ],
         ['So excited to be celebrating the new year with you all. 2024 is going to be a blast. Got some exciting new projects to share and some exciting new changes coming to the site. Cannot wait to show you all soon.'],
         ['So Happy 2024!!! May the new year bring you Blessings and Joy. This year is going to be a blast!']
+    ],
+    [
+        '2024-01-08',
+        'I\'ll be Haro for the Holidays',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/haroblue01.jpeg',
+        [
+            [
+                'For this week\'s unveil just a simple ',
+                ['Blue Haro','Builds/Haro/HaroBlue.html'],
+                '. Got big cool project posts for the new year coming very soon.'
+            ]
+        ]
     ]
 ]
 
