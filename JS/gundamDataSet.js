@@ -3938,6 +3938,47 @@ const models = [
         false,
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/haro-control-blue-pa_1.jpg','Blue Haro']
+    ],
+    [105,1,'Maganac',
+        'WMS-03 Maganac',
+        'WMS-03',
+        'Mobile Suit Gundam Wing',
+        false,
+        ['WMS-01 Aquila'],
+        [
+            'WMS-03 Maganac Abdul Custom',
+            'WMS-03 Maganac Ahmad Custom',
+            'WMS-03 Maganac Auda Custom',
+            'WMS-03 Maganac Rasid Custom',
+            'WMS-04 Olifant'
+        ],
+        'After Colony',
+        false,
+        'Maganac Corps',
+        false,
+        'Winner Corproation',
+        ['Maganac Corps'],
+        [16.4,'16.4 Meters'],
+        [7.4,'7.4 Metric Tons'],
+        'Titanium Alloy',
+        'Ultracompact Fusion Reactor',
+        [
+            'Arm Rifle',
+            'Beam Saber'
+        ],
+        [
+            'Shield',
+            'Beam Rifle',
+            'Large Rifle',
+            'Heat Tomahawk'
+        ],
+        false,
+        'Junya Ishigaki',
+        false, 
+        'Mass Production Desert Mobile Suit',
+        false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/maganaccorps.jpg','Maganac Corp Mobile Suit'],
+        false
     ]
 ];
 
@@ -3990,18 +4031,22 @@ const models = [
 //Pojects
 const projects = [
     //Ad Stella (Mercury)
-    ['Chimkin',[1,'Aerial'],'FM',false,false,false,'Mercury','C','2024-01-05',8.83],
+    ['Chimkin',[1,'Aerial'],'FM',false,false,false,'Mercury','C','2024-01-05',12.5],
     ['Aerial [HG]',[1,'Aerial'],'HG',true,false,false,'Mercury','D','2023-05-30',7.42,false,false,false],
     ['PB Aerial Permet Six [HG]',[1,'Aerial'],'HG',true,true,false,'Mercury','D','2023-09-19',2.83],
     ['Ariel',[1.5,'Aerial','Mirasoul Flight Pack'],'HG',false,false,false,'Mercury','C','2023-12-10',10.4],
+    ['Morgause',[1,'Aerial'],'HG',false,false,false,'Mercury','B','2024',0.17],
     ['Cherub',[1,'Aerial'],'SD',false,false,false,'Mercury','D','2023-01-10',4.91,false,'Builds/Cherub.html','Angels'],
     ['Zephon',[1,'Aerial Rebuild'],'HG',false,false,false,'Mercury','C','2023-11-25',15.02],
     ['Dark Samus: Corruption',[1,'Beguir-Pente'],'HG',
         false,false,false,'Mercury','C','2023-12-23',9.34
     ], 
+    ['CAL-A',[1,'Calibarn'],'SD',false,false,false,'Mercury','A'],
+    ['CAL-B',[1,'Calibarn'],'SD',false,false,false,'Mercury','A'],
+    ['CAL-C',[1,'Calibarn'],'SD',false,false,false,'Mercury','A'],
     ['Abaddon',[1,'Calibarn'],'HG',false,false,false,'Mercury','C','2023-11-25',17.81],
     ['Calibarn [HG]',[1,'Calibarn'],'HG',true,false,false,'Mercury','D','2023-08-22',2.83,false,false,false],
-    ['Arthur',[1,'Calibarn'],'HG',false,false,false,'Mercury','C','2024',0],
+    ['Arthur',[1,'Calibarn'],'HG',false,false,false,'Mercury','C','2024',0.08],
     ['Azrael',[1,'Dilanza, Guel\'s'],'HG',
         false,false,false,'Mercury','E','2023-01-05',12.14,false,'Builds/Gundams/Azrael.html','Angels','2023-02-27',models[26],
         [
@@ -4069,10 +4114,10 @@ const projects = [
     ['Adriel',[1,'LFrith'],'HG',false,false,false,'Mercury','C','2023-12-11',6.18],
     ['LFrith [HG]',[1,'LFrith'],'HG',true,false,false,'Mercury','D','2023-04-15',2.33,false,false,false],
     ['PB Anavata',[1,'LFrith Anavata'],'HG',false,true,false,'Mercury','A'],
-    ['PB Jiu',[1,'LFrith Jiu'],'HG',false,true,false,'Mercury','A'],
+    ['Eisheth',[1,'LFrith Jiu'],'HG',false,true,false,'Mercury','B','2024',0],
     ['Schwarzette [HG]',[1,'Schwarzette'],'HG',true,false,false,'Mercury','D','2023-10-04',2.33,false,false,false],
-    ['Metatron',[1,'Schwarzette'],'HG',false,false,false,'Mercury','C','2023-11-25',15.42],
-    ['Samus: Zero Suit',[1,'Suletta Mercury','Miorine Rembran'],'Other',false,false,false,'Mercury','C','2024-01-04',1.67],
+    ['Metatron',[1,'Schwarzette'],'HG',false,false,false,'Mercury','C','2023-11-25',15.83],
+    ['Samus: Zero Suit',[1,'Suletta Mercury','Miorine Rembran'],'Other',false,false,false,'Mercury','C','2024-01-04',4],
 
     //Advanced Generation (Age)
     ['Uriel',[1,'Age-FX'],'SD',false,false,false,'Age','B'],
@@ -4334,7 +4379,28 @@ const projects = [
             ['NewType','https://newtype.us/p/xyX3s81UEQTYgD2wfA49/h/mg-gundam-heavyarms-ew']
         ],false,false,true,'1/100',false,false,false,[models[85]]
     ],
-    ['Phoebe',[1,'Maganac Corps'],'SD',false,false,false,'Wing','D','2022-04-11',8.42,false,'Builds/Phoebe.html','Titans'],
+    ['Phoebe',[1,'Maganac Corps'],'SD',
+        false,false,false,'Wing','E','2022-04-11',8.42,false,'Builds/Gundams/Phoebe.html','Titans','2024-01-15',models[105],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/sdphoebe01.jpeg','Phoebe'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/sdphoebe02.jpeg','Phoebe'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/sdphoebe03.jpeg','Phoebe'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/sdphoebe04.jpeg','Phoebe'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/sdphoebe05.jpeg','Phoebe'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/sdphoebe06.jpeg','Phoebe'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/sdphoebe07.jpeg','Phoebe'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/sdphoebe08.jpeg','Phoebe'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/sdphoebe09.jpeg','Phoebe'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/sdphoebe10.jpeg','Phoebe']
+        ],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/sdphoebe01.jpeg','Profile Photo: Phoebe'],false,false,
+        [
+            ['Video','https://www.instagram.com/reel/C2HD-ZHOjc_/?igsh=MTFpNm1jOG11ZnVqOA=='],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/gg-55-maganac'],
+            ['NewType','https://newtype.us/p/IbFx1XrabesgHlQbA94e/h/sdgg-055-maganac']
+        ],false,true,true,false,'Rasid Kurama Custom'
+
+    ],
     ['Isaac',[1,'Proto-Zero'],'SD',
         false,false,false,'Wing','E','2023-02-06',14.14,false,'Builds/Gundams/Isaac.html','Israel','2023-05-10',models[31],
         [
@@ -5109,6 +5175,7 @@ const projects = [
     ],
     ['Bald Eagle',[1,'Astray Blue Frame'],'MG',false,false,false,'Seed','B'],
     ['Raphael',[1,'Astray Gold Frame'],'SD',false,false,false,'Seed','B'],
+    ['Aurum',[1,'Akatsuki'],'FM',false,false,false,'Seed','B'],
     ['Oowashi Akatsuki [HG]',[1,'Akatsuki, Oowsahi'],'HG',true,false,false,'Seed','E','2021-12-18',2.67,false,false,false,'2022-04-26'],
     ['Rising Sun',[1,'Akatsuki, Oowashi'],'HG',
         false,false,false,'Seed','E','2021-11-05',17.28,false,'Builds/Gundams/RisingSun.html',false,'2022-04-28',models[57],
@@ -5427,6 +5494,7 @@ const projects = [
         'This was my first ship buid. And I am awfully quite attached to it. At the time I was in a Gundam Seed kick and rewatching that series so the ships and machines from that saga was on my mind. Seed is probably home to all my favorite vessels throughout the entire Gundam saga. Whether it be Eternal or Archangel they\'re all so cool. And Eternal is by my far the coolest one. For this I was trying to be as realistic and close to the source material as possible. So rather than do a custom design I painted it exactly as how it appears in the anime. So expect lots of pink and purples... Also..., it has got to be pointed out how cool and cute the METEOR units in this kit are. By far out of the whole ship, the METEORs I\'m most proud of. Inspired by these, I am going to be doing a much larger scale P-Bandai meteor kit paint real soon.',
         false,false,['Archangel'],false,true,'1:1700'
     ],
+    ['Roanoke',[1,'Exus'],'HG',false,false,false,'Seed','A'],
     ['Orga',[1,'Forbidden'],'FM',false,false,false,'Seed','A'],
     ['Anthem',[1,'Freedom'],'MG',
         false,false,false,'Seed','E','2022-05-05',73.16,true,'Builds/Gundams/Anthem.html','America','2022-07-04',models[14],
@@ -6533,7 +6601,7 @@ const projects = [
 
     //Post Disaster (IBO)
     ['Thorn',[1,'Barbatos'],'MG',false,false,false,'IBO','B'],
-    ['Deku Knight',[1,'Barbatos'],'MGSD',false,false,false,'IBO','C','2024',0],
+    ['Deku Knight',[1,'Barbatos'],'MGSD',false,false,false,'IBO','C','2024-01-13',8.5],
     ['War Pig',[1,'Barbatos'],'SD',
         false,false,false,'IBO','E','2021-12-13',4.15,false,'Builds/Gundams/WarPig.html','SD Rock','2023-04-18',models[46],
         [
@@ -7008,7 +7076,7 @@ const projects = [
         ],['BB Senshi RX-93ff \u03bd'],false,true
     ],
     ['Milos',[1,'Nu Gundam, Hi'],'SD',false,false,false,'UC','B'],
-    ['Nemesis',[1.5,'Nu Gundam, Hi','Hi Nu Expansion Pack','Hi Nu Hyper Bazooka'],'RG',false,true,false,'UC','B'],
+    ['Nemesis-T Type',[1.5,'Nu Gundam, Hi','Hi Nu Expansion Pack','Hi Nu Hyper Bazooka'],'RG',false,true,false,'UC','B'],
     ['Bella Donna',[2,'Phenex','Phenex'],'SD',
         false,false,false,'UC','E','2021-12-06',14.37,false,'Builds/Gundams/BellaDonna.html','Phoneix','2023-03-16',models[28],
         [
@@ -7084,9 +7152,10 @@ const projects = [
             ['USA Gundam Store','https://www.usagundamstore.com/products/bandai-hobby-bb-394-unicorn-gundam-phenex-action-figure?variant=1114433924']
         ],['Bella Donna','Sovereign'],true,true,false
     ],
-    ['PB Polypodball',[1,'Polypodball'],'MG',false,true,false,'UC','A'],
+    ['Luxe-Ball',[1,'Polypodball'],'MG',false,true,false,'UC','B'],
     ['Ridley',[1,'Qubeley'],'HG',false,false,false,'UC','A'],
     ['LunchTime Solutions',[1,'RX-78-2'],'RG',false,false,false,'UC','B'],
+    ['Earth Federation',[2,'Salamis and Magellan Class'],'Ship',false,false,false,'UC','A'],
     ['Starman',[1,'Sazabi'],'SD',
         false,false,false,'UC','E','2021-12-16',5.03,false,'Builds/Gundams/Starman.html',false,'2023-11-07',models[99],
         [
@@ -7697,7 +7766,7 @@ const projects = [
     ],
     
     //Pokemon
-    ['Cetautomatix',[1,'Arceus'],'Pokemon',false,false,false,'','C','2024',0],
+    ['Cetautomatix',[1,'Arceus'],'Pokemon',false,false,false,'','C','2024',0.08],
     ['Obelix',[1,'Bulbasaur'],'Pokemon',
         false,false,false,'','E','2023-09-13',3.07,false,'Builds/Pokemon/Obelix.html',false,'2023-10-23',models[94],
         [
@@ -7876,6 +7945,7 @@ const projects = [
     ['Dogmatix',[1,'Riolu'],'Pokemon',
         false,false,false,'','D','2023-10-03',2.97
     ], 
+    ['Blinix',[1,'Squirtle'],'Pokemon',false,false,false,'','A'],
     ['Tusk',[1,'Tepig'],'Pokemon',
         false,false,false,'','C','2023-10-22',2.53
     ], 
@@ -8105,7 +8175,7 @@ const projects = [
             ['USA Gundam Store','https://www.usagundamstore.com/products/1-144-gundam-hanger-bay?variant=37766625657029']
         ],['Stratle'],false,true
     ],
-    ['Long Live the Queen',[1,'Jurassic Park Tyrannosaurus Rex Scene'],'Display',false,false,false,'','A'],
+    ['Long Live the Queen',[1,'Jurassic Park Tyrannosaurus Rex Scene'],'Display',false,false,false,'','B'],
     ['Stratle',[1,'Maintenance Bay'],'Display',
         false,false,false,'','E','2022-02-11',27.12,true,'Builds/Displays/Stratle.html',false,'2022-04-11',models[66],
         [

@@ -750,6 +750,20 @@ const blogArray = [
                 '. Got big cool project posts for the new year coming very soon.'
             ]
         ]
+    ],
+    [
+        '2024-01-15',
+        'Polar Vortex Phoebe',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/sdphoebe10.jpeg',
+        [
+            [
+                'So we are in the middle of an arctic front here in the midwest. Eight inches of snow, negative twelve degrees, was traepped/burried inside my house for the weekend and am currently dealing with a frozen pipe as I now write to you all this. Despite all the drama, still managed to get some painting in, even despite a frozen window that would not open to let the spray booth exhaust vent out. But enough of that drama, for this week\'s post I present to you ',
+                ['Phoebe','Builds/Gundams/Phoebe.html'],
+                '.'
+            ]
+        ],
+        ['Inspired by the Greek titan whose name means, \'The Bright One\', Phoebe was an experiment in how well I could use masking tape to to blend regions of colors. With her sharp distinct corners where the brown stands out from the blue, I think I pulled it off.'],
+        ['Anyhow, as I deal with solving all the issues with my house from this winter storm, hope you all enjoy Phoebe.']
     ]
 ]
 
