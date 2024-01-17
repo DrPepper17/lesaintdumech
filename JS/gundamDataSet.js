@@ -5834,8 +5834,9 @@ const projects = [
     ['https://hosting.photobucket.com/images/i/lesaintdumech/dominion05.jpeg','Profile Photo: Dominion'],
     'I originally was not planning to build this. But my both my Archangels came out so fantastic and the fact the kit had the parts to build the Dominion just kept weighing on my mind that eventually I broke down and surrendered to the temptation and had to buy me a third Archangel kit. Besides, you cannot have the Archangel without staging its final dual with the Dominion. Therefore now preseneting to you, the Dominino.',false,false,['Archangel'],false,true,'1:1700',false,false,false,[models[15]]
     ],
-    ['Canis Beta',[1,'BuCUE'],'HG',false,false,false,'Seed','A'],
-    ['Canis Gamma',[1,'BuCUE'],'HG',false,false,false,'Seed','A'],
+    ['Betty',[1,'BuCUE'],'HG',false,false,false,'Seed','A','2024',0,false,'Builds/Gundams/...','First Ladies'],
+    ['Nancy',[1,'BuCUE'],'HG',false,false,false,'Seed','A','2024',0,false,'Builds/Gundams/...','First Ladies'],
+    ['Barbara',[1,'BuCUE Hound, Kerberos'],'HG',false,false,false,'Seed','A','2024',0,false,'Builds/Gundams/...','First Ladies'],
     ['Urban Commando',[1,'Buster'],'MG',false,false,false,'Seed','B'],
     ['Calamitous Godzilla',[1,'Calamity'],'FM',false,false,false,'Seed','B'],
     ['Metroid',[1,'Chaos'],'HG',false,false,false,'Seed','A'],
@@ -5946,6 +5947,7 @@ const projects = [
             ['NewType','https://newtype.us/p/V3s94PjelBrA0T06Q673/h/hgce-237-gat-o2l2-dagger-l']
         ],['Armageddon','King Leir','PB Strike Daggers'],false,false,'1:144'
     ],
+    ['Othello',[1,'Dagger 105 + Gunbarrel'],'HG',false,false,false,'Seed','A'],
     ['Charizard',[1,'Destiny'],'MG',false,false,false,'Seed','B'],
     ['Charizard X',[1,'Destiny'],'SD',
         false,false,false,'Seed','E','2021-10-10',8.13,false,'Builds/Gundams/CharizardX.html',false,'2022-05-16',models[33],
@@ -6431,7 +6433,7 @@ const projects = [
         ],false,false,true,'1:144'
     ],
     ['Oppression',[1,'Infinite Justice'],'MG',false,false,false,'Seed','B'],
-    ['Canis Alpha',[1,'LaGOWE'],'HG',false,false,false,'Seed','A'],
+    ['Jacqueline',[1,'LaGOWE'],'HG',false,false,false,'Seed','A','2024',0,false,'Builds/Gundams/...','First Ladies'],
     ['Zoroaster',[1,'Legend'],'FM',false,false,false,'Seed','B'],
     ['Lightning Striker',[0.5,'Lightning Strike Pack'],'MG',false,true,false,'Seed','B'],
     ['PB Meteors',[1,'Meteor','Meteor I','Meteor II','Freedom','Infinite Justice'],'HG',false,true,false,'Seed','B'],
@@ -11625,6 +11627,18 @@ function buildTransformer() {
 function buildHaro() {
     unhide('.HaroPage');
     insertPhoto(modelArray[26],'hpModelPhoto',false,300);
+
+    let postHaroArray = [];
+    for  (let i=0;i<projects.length;i++) {
+        if (projects[i] != projectArray && projects[i][2] == 'Haro' && projects[i][22]) {
+            postHaroArray.push(projects[i])
+        }
+    }
+
+    if (postHaroArray.length>0) {
+        unhide('.haroHD');
+        projectLinks(postHaroArray.sort(),'haroModels');
+    }
 
     if (modelArray[2]) {
         unhide('.hpShortNameHD');
