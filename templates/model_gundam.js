@@ -32,5 +32,7 @@
     'AlternateNickname',
     MobileArmor,            //boolean
     ['','PhotoAltText'],
-    IsGundam           //boolean
+    IsGundam,           //boolean
+    [ID],
+    'Name'              //Only if base source
 ]

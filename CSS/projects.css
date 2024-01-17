@@ -74,13 +74,19 @@ ul {
 
 
 /* Links Section */
+.haroHD {
+    display: none;
+}
+.modelOtherSameModelHD {
+    display: none;
+}
 .projectAffProjectsHD {
     display: none;
 }
 .projectOutsideLinksHD {
     display: none;
 }
-.modelOtherSameModelHD {
+.variantHD {
     display: none;
 }
 

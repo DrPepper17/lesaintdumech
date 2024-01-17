@@ -40,7 +40,9 @@
     24. Alternate Name
     25. Mobile Armor: true/false
     26. original photo (array): ['file path','photo name']
-    27. 
+    27. Is a Gundam?
+    28. Base Suit (ID#) [an array]
+    29. Abbreviated Name (in relation to #28, How base suit is to be listed)
 
     // Ship (fictional): Gundam (2) //
     2. Short Name
@@ -191,7 +193,8 @@ const models = [
         'Gundam Zero-Three',
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/heavyarmsew.jpeg','Gundam Heavyarms EW'],
-        true
+        true,
+        [85]
     ],
     [2,1,'Gundam Spiegel',
         'GF13-021NG Gundam Spiegel',
@@ -221,7 +224,9 @@ const models = [
         'Shadow Gundam',
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/spiegel_pvRFRZsKNqpmuxQ7DdZaoA.jpeg','Spiegel Gundam'],
-        true
+        true,
+        [2],
+        'Spiegel'
     ],
     [3,4,'Chevy Bel-Air',
         'Chevrolet 1957 Bel-Air',
@@ -330,6 +335,9 @@ const models = [
         false,
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/southpark.jpg','The South Park Gang'],
+        false,
+        [47,54,85,86,87,88,89]
+
     ],
     [7,2,'Eternal',
         'ZAFT FFMH-Y101 Eternal',
@@ -541,7 +549,9 @@ const models = [
         'NewType-Use Prototype Gundam',
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/nugundam.jpeg','Nu Gundam'],
-        true
+        true,
+        [13],
+        'Nu'
     ],
     [14,1,'Freedom Gundam',
         'ZGMF-X10A Freedom Gundam',
@@ -584,7 +594,9 @@ const models = [
         false,
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/freedom.jpeg','Freedom Gundam'],
-        true
+        true,
+        [14],
+        'Freedom'
     ],
     [15,2,'Archangel',
         'LCAM-01XA Archangel',
@@ -673,7 +685,8 @@ const models = [
         false,
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/sasukedelta.jpeg','SD Sasuke Delta'],
-        true
+        true,
+        [82]
     ],
     [18,1,'Crossbone Gundam',
         'XM-X1 Crossbone Gundam X-1',
@@ -714,7 +727,9 @@ const models = [
         false,
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/crossbonex1.jpeg','Crossbone Gundam X-1'],
-        true
+        true,
+        [18],
+        'Crossbone'
     ],
     [19,1,'Aegis Gundam',
         'GAT-X303 Aegis Gundam',
@@ -752,7 +767,9 @@ const models = [
         false,
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/aegis.jpeg','Aegis Gundam'],
-        true
+        true,
+        [19],
+        'Aegis'
     ],
     [20,1,'Banshee Norn',
         'RX-0[N] Unicorn Gundam 02 Banshee Norn',
@@ -795,7 +812,9 @@ const models = [
         false,
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/bansheenorn.jpeg','Banshee Norn'],
-        true
+        true,
+        [20],
+        'Banshee'
     ],
     [21,1,'00 Qan[T]',
         'GNT-0000 00 Qan[T]',
@@ -837,7 +856,9 @@ const models = [
         false,
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/qant.jpeg','Gundam QAN[T]'],
-        true
+        true,
+        [21],
+        'QAN[T]'
     ],
     [22,1,'00 Gundam',
         'GN-0000 00 Gundam',
@@ -875,7 +896,9 @@ const models = [
         'Double O',
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/doubleo.jpeg','00 Gundam'],
-        true
+        true,
+        [22],
+        '00'
     ],
     [23,1,'Dagger L',
         'GAT-02L2 Dagger L',
@@ -912,7 +935,8 @@ const models = [
         false,
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/daggerl.jpeg','Dagger L'],
-        false
+        false,
+        [92]
     ],
     [24,1,'Windam',
         'GAT-04 Windam',
@@ -950,7 +974,9 @@ const models = [
         false,
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/windam.jpeg','Windam'],
-        false
+        false,
+        [92],
+        'Windam'
     ],
     [25,1,'Doppelhorn Dual Recoilless Cannon and Nuclear Multi-Launcher Pack',
         'AQM/E-M11 Doppelhorn Dual Recoilless Cannon and Nuclear Multi-Launcher Pack',
@@ -977,7 +1003,8 @@ const models = [
         false,
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/daggerexp.jpeg','Dagger DoppleHorn Multi-Launcher Expansion Pack'],
-        false
+        false,
+        [24,92]
     ],
     [26,1,'Guel\'s Dilanza',
         'MD-0032G Guel\'s Dilanza',
@@ -1011,7 +1038,8 @@ const models = [
         false,
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/gueldilanza.jpeg','Guel\' Dilanza'],
-        false
+        false,
+        [106]
     ],
     [27,1,'SD Sergeante Verde Buster',
         'SD Sergeante Verde Buster',
@@ -1038,7 +1066,8 @@ const models = [
         false,
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/sergeantverdebuster.jpeg','SD Sergeante Verde Buster'],
-        false
+        false,
+        [107]
     ],
     [28,1,'Phenex Gundam',
         'RX-0 Unicorn Gundam 03 Phenex',
@@ -1073,7 +1102,9 @@ const models = [
         false,
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/phenex.jpeg','Phenex Gundam'],
-        false
+        false,
+        [28],
+        'Phenex'
     ],
     [29,1,'Gundam Double X',
         'GX-9901-DX Gundam Double X',
@@ -1111,7 +1142,9 @@ const models = [
         false,
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/doublex.jpeg','Gundam Double X'],
-        true
+        true,
+        [29],
+        'XX'
     ],
     [30,1,'Skygrasper',
         'FX-550 Skygrasper',
@@ -1151,6 +1184,8 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/skygrasper.jpeg','Skygrasper'],
         false,
+        [30],
+        'Skygrasper'
     ],
     [31,1,'Gundam Proto-Zero',
         'XXXG-00W0 Wing Gundam Proto-Zero',
@@ -1202,7 +1237,9 @@ const models = [
         'Zero',
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/protozero.jpeg','Wing Gundam Proto Zero'],
-        true
+        true,
+        [31],
+        'Zero'
     ],
     [32,1,'Gundam Wing Zero',
         'XXXG-00W0 Wing Gundam Zero EW',
@@ -1246,7 +1283,8 @@ const models = [
         'Zero',
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/wingzero.jpeg','Wing Gundam Zero'],
-        true
+        true,
+        [31]
     ],
     [33,1,'Destiny Gundam',
         'ZGMF-X42S Destiny Gundam',
@@ -1287,7 +1325,9 @@ const models = [
         'Alternate/nickname',
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/destinygundam.jpeg','Destiny Gundam'],
-        true
+        true,
+        [33],
+        'Destiny'
     ],
     [34,1,'Build Strike Gundam Full Package',
         'GAT-X105B/FP Build Strike Gundam Full Package',
@@ -1323,7 +1363,8 @@ const models = [
         false,
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/buildstrikefullpackage.jpeg','Build Strike Full Package'],
-        true
+        true,
+        [60]
     ],
     [35,1,'Lightning Gundam',
         'LGZ-91 Lightning Gundam',
@@ -1357,7 +1398,9 @@ const models = [
         false,
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/lightningg.jpeg','Lightning Gundam'],
-        true
+        true,
+        [35],
+        'Lightning'
     ],
     [36,1,'AcGuy',
         'MSM-04 AcGuy',
@@ -1392,7 +1435,9 @@ const models = [
         'Alternate/nickname',
         false,            //boolean
         ['https://hosting.photobucket.com/images/i/lesaintdumech/acguy.jpeg','Acguy'],
-        false
+        false,
+        [36],
+        'AcGuy'
     ],
     [37,3,'Cosmo Falcon',
         'StarBlazers Cosmo Falcon',
@@ -1455,7 +1500,9 @@ const models = [
         false,
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/airmaster.jpeg','Gundam Airmaster'],
-        true
+        true,
+        [38],
+        'Airmaster'
     ],
     [39,1,'Gundam Leopard',
         'GT-9600 Gundam Leopard',
@@ -1498,7 +1545,9 @@ const models = [
         false,
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/leopard.jpeg','Gundam Leopard'],
-        true
+        true,
+        [39],
+        'Leopard'
     ],
     [40,1,'Gundam Aquarius',
         'OZ-14MS Gundam Aquarius',
@@ -1533,7 +1582,9 @@ const models = [
         false,
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/aquarius.jpeg','Gundam Aquarius'],
-        true
+        true,
+        [40],
+        'Aquarius'
     ],
     [41,1,'Gundam X',
         'GX-9900 Gundam X',
@@ -1571,7 +1622,9 @@ const models = [
         'GX',
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/gundamx.jpeg','Gundam X'],
-        true
+        true,
+        [41],
+        'X'
     ],
     [42,1,'Delta Plus',
         'MSN-001A1 Delta Plus',
@@ -1605,7 +1658,9 @@ const models = [
         'AlternateNickname',
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/deltaplus.jpeg','MSN-001A1 Delta Plus'],
-        false
+        false,
+        [42],
+        'Delta Plus'
     ],
     [43,1,'\u2200 Gundam',
         'System-\u220099 \u2200 Gundam',
@@ -1650,7 +1705,9 @@ const models = [
         'Turn-A, White Doll, Mustache',
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/turna.jpeg','Turn A Gundam'],
-        true
+        true,
+        [43],
+        'Turn-\u2200'
     ],
     [44,1,'Gundam Geminass 01',
         'OZX-GU01A Gundam Geminass 01',
@@ -1690,7 +1747,9 @@ const models = [
         false,
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/geminass01.jpeg','Gundam Geminass 01'],
-        true
+        true,
+        [44],
+        'Geminass'
     ],
     [45,1,'Zeta Gundam',
         'MSZ-006 Zeta Gundam',
@@ -1739,7 +1798,9 @@ const models = [
         false,
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/zeta.jpeg','Zeta Gundam'],
-        true
+        true,
+        [45],
+        'Zeta'
     ],
     [46,1,'Gundam Barbatos',
         'ASW-G-08 Gundam Barbatos',
@@ -1775,7 +1836,9 @@ const models = [
         false,
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/barbatos.jpeg','Gundam Barbatos'],
-        true
+        true,
+        [46],
+        'Barbatos'
     ],
     [47,1,'Tallgeese',
         'OZ-00MS Tallgeese',
@@ -1817,7 +1880,9 @@ const models = [
         false,
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/tallgeesei.jpeg','Tallgeese I'],
-        false
+        false,
+        [47],
+        'Tallgeese'
     ],
     [48,1,'Gundam Barbatos Lupus',
         'ASW-G-08 Gundam Barbatos Lupus',
@@ -1856,7 +1921,8 @@ const models = [
         false,
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/barbatoslupus.jpeg','Barbatos Lupus'],
-        true
+        true,
+        [46]
     ],
     [49,1,'Gundam Barbatos Lupus Rex',
         'ASW-G-08 Gundam Barbatos Lupus Rex',
@@ -1894,7 +1960,8 @@ const models = [
         false,
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/barbatoslupusrex.jpeg','Barbatos Lupus Rex'],
-        true
+        true,
+        [46]
     ],
     [50,1,'Hashmal',
         'Mobile Armor Hashmal',
@@ -1930,7 +1997,9 @@ const models = [
         false,
         true,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/hashmal.jpeg','Mobile Armor Hashmal'],
-        false
+        false,
+        [50],
+        'Hashmal'
     ],
     [51,1,'Gundam Strike Noir',
         'GAT-X105E Strike Noir Gundam',
@@ -1972,7 +2041,8 @@ const models = [
         false,
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/strikenoir.jpeg','Stike Noir'],
-        true
+        true,
+        [60]
     ],
     [52,1,'Justice Gundam',
         'ZGMF-X09A Justice Gundam',
@@ -2023,7 +2093,9 @@ const models = [
         false,
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/justice.jpeg','Justice Gundam'],
-        true
+        true,
+        [52],
+        'Justice'
     ],
     [53,1,'Infinite Justice Gundam',
         'ZGMF-X19A \u221e Justice Gundam',
@@ -2071,7 +2143,9 @@ const models = [
         'Justice',
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/infjustice.jpeg','Infinite Justice Gundam'],
-        true
+        true,
+        [53],
+        'Infinite Justice'
     ],
     [54,1,'Wing Gundam',
         'XXXG-01W Wing Gundam',
@@ -2110,7 +2184,9 @@ const models = [
         'Gundam Zero-One',
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/wingtv.jpeg','Wing Gundam'],
-        true
+        true,
+        [54],
+        'Wing'
     ],
     [55,1,'Dom Test Type',
         'YMS-08B Dom Test Type',
@@ -2144,7 +2220,8 @@ const models = [
         false,
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/domtesttype_Large.jpeg','Dom Test Type'],
-        false
+        false,
+        [108]
     ],
     [56,1,'Gundam Rose',
         'GF13-009NF Gundam Rose',
@@ -2179,7 +2256,9 @@ const models = [
         false,
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/Gundam_rose_Large.jpeg','Gundam Rose'],
-        true
+        true,
+        [56],
+        'Rose'
     ],
     [57,1,'Akatsuki',
         'ORB-01 Akatsuki Gundam',
@@ -2220,7 +2299,9 @@ const models = [
         false,
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/akatsuki_Large.jpeg','Akatsuki Gundam'],
-        true
+        true,
+        [57],
+        'Akatsuki'
     ],
     [58,1,'FF Nu Gundam',
         'RX-93ff \u03BD Gundam',
@@ -2261,7 +2342,8 @@ const models = [
         false,
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/rx93ff.jpeg','RX93ff'],
-        true
+        true,
+        [13]
     ],
     [59,1,'Dark Army',
         'JDG-009X Dark Army',
@@ -2299,7 +2381,8 @@ const models = [
         'Death Army',
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/deatharmy.jpeg','Dark Army'],
-        false
+        false,
+        [109]
     ],
     [60,1,'Strike Gundam',
         'GAT-X105 Strike Gundam',
@@ -2354,7 +2437,9 @@ const models = [
         false,
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/strike_Large.jpeg','Strike Gundam'],
-        true
+        true,
+        [60],
+        'Strike'
     ],
     [61,1,'Perfect Strike Gundam',
         'GAT-X105+AQM/E-YM1 Perfect Strike Gundam',
@@ -2399,7 +2484,8 @@ const models = [
         false,
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/perfectstrike_Large.jpeg','Strike Gundam'],
-        true
+        true,
+        [60]
     ],
     [62,6,'MetalGarurumon',
         'Figure-rise Standard Amplified MetalGarurumon',
@@ -2571,7 +2657,9 @@ const models = [
         'Gundam Seven Swords',
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/exia_Large.jpeg','Gundam Exia'],
-        true
+        true,
+        [67],
+        'Exia'
     ],
     [68,1,'Gundam 00 Raiser',
         'GN-0000+GNR-010 00 Raiser',
@@ -2616,7 +2704,8 @@ const models = [
         false,
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/ooraiser_Large.jpeg','00 Raiser Gundam'],
-        true
+        true,
+        [22]
     ],
     [69,1,'Gundam 00 Diver',
         'GN-0000DVR Gundam 00 Diver',
@@ -2650,7 +2739,8 @@ const models = [
         false,
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/00diver.jpeg','00 Diver'],
-        true
+        true,
+        [22]
     ],
     [70,1,'Gundam Harute',
         'GN-011 Gundam Harute',
@@ -2689,7 +2779,9 @@ const models = [
         false,
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/harute.jpeg','Gundam Harute'],
-        true
+        true,
+        [70],
+        'Harute'
     ],
     [71,1,'Gundam Zabanya',
         'GN-010 Gundam Zabanya',
@@ -2727,10 +2819,12 @@ const models = [
         false,
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/zabanya.jpeg','Gundam Harute'],
-        true
+        true,
+        [71],
+        'Zabanya'
     ],
     [72,1,'Shin Musha Gundam',
-        'Prototype Close Quarters Combat Mobile Suit',
+        false,
         false,
         'Gundam Musou',
         false,
@@ -2758,10 +2852,11 @@ const models = [
         ],
         'Hajime Katoki',
         false,
-        false,
+        'Prototype Close Quarters Combat Mobile Suit',
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/shinmusha.jpeg','Shin Musha'],
-        true
+        true,
+        [110]
     ],
     [73,1,'Eclipse Gundam Maneuver Striker',
         'MVF-X08+EW452HW Eclipse Gundam Maneuver Striker Pack Equipped',
@@ -2788,7 +2883,8 @@ const models = [
         false,
         false,            //boolean
         ['https://hosting.photobucket.com/images/i/lesaintdumech/maneuverstriker.jpeg','Eclipse Maneuver Strike'],
-        false           //boolean
+        false,
+        [90]
     ],
     [74,9,'Shadow Fox',
         'RZ-046 Shadow Fox',
@@ -2868,7 +2964,8 @@ const models = [
         false,
         false,            //boolean
         ['https://hosting.photobucket.com/images/i/lesaintdumech/zakuphantom_Large.jpeg','Slash Zaku Phantom'],
-        false           //boolean
+        false,
+        [111]
     ],
     [76,1,'Strike-Freedom Gundam',
         'ZGMF-X20A Strike-Freedom Gundam',
@@ -2914,7 +3011,9 @@ const models = [
         'Freedom',
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/strikefreedom_Large.jpeg','Strike-Freedom Gundam'],
-        true
+        true,
+        [76],
+        'Strike-Freedom'
     ],
     [77,1,'Gundam Nadleeh',
         'GN-004 Gundam Nadleeh',
@@ -2956,7 +3055,9 @@ const models = [
         false,
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/GundamNadleeh.jpeg','Gundam Nadleeh'],
-        true
+        true,
+        [77],
+        'Nadleeh / Virtue'
     ],
     [78,1,'Gundam Virtue',
         'GN-005 Gundam Virtue',
@@ -3000,7 +3101,8 @@ const models = [
         false,
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/GundamVirtue.jpeg','Gundam Virtue'],
-        true
+        true,
+        [77]
     ],
     [79,7,'Charmander',
         'Pokemon Charmander 11 Quick Model Kit',
@@ -3123,7 +3225,9 @@ const models = [
         '\u03B4 Gundam',
         false,            //boolean
         ['https://hosting.photobucket.com/images/i/lesaintdumech/delta.jpeg','Delta Gundam'],
-        true           //boolean
+        true,
+        [82],
+        'Delta'
     ],
     [83,1,'SD Verde Buster Team Member',
         'SD Verde Buster Team Member',
@@ -3150,7 +3254,8 @@ const models = [
         false,
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/verdebusterteammember.jpeg','SD Verde Buster Team Member'],
-        false
+        false,
+        [107]
     ],
     [84,1,'Verde Buster Gundam',
         'GAT-X103AP Verde Buster Gundam',
@@ -3188,7 +3293,8 @@ const models = [
         false,
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/verdebuster.jpeg','Verde Buster Gundam'],
-        true
+        true,
+        [107]
     ],
     [85,1,'Gundam Heavyarms',
         'XXXG-01H Gundam Heavarms',
@@ -3232,7 +3338,9 @@ const models = [
         'Gundam Zero-Three',
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/HeavyarmsTV.jpeg','Gundam Heavyarms'],
-        true
+        true,
+        [85],
+        'Heavyarms'
     ],
     [86,1,'Gundam Deathscythe',
         'XXXG-01D Gundam Deathscythe',
@@ -3270,7 +3378,9 @@ const models = [
         'The God of Death',
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/deathscythetv.jpeg','Gundam Deathscythe'],
-        true
+        true,
+        [86],
+        'Deathscythe'
     ],
     [87,1,'Shenlong Gundam',
         'XXXG-01S Shenlong Gundam',
@@ -3308,7 +3418,9 @@ const models = [
         'Nataku',
         false,            //boolean
         ['https://hosting.photobucket.com/images/i/lesaintdumech/shenlongTV_7SpxSMBkPuiHG12bki4vkz.jpeg','Shenlong Gundam'],
-        true
+        true,
+        [87],
+        'Shenlong'
     ],
     [88,1,'Gundam Sandrock',
         'XXXG-01SR Gundam Sandrock',
@@ -3345,7 +3457,9 @@ const models = [
         'Gundam Zero-Four',
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/sandrock.jpeg','Gundam Sandrock'],
-        true
+        true,
+        [88],
+        'Sandrock'
     ],
     [89,1,'Gundam Epyon',
         'OZ-13MS Gundam Epyon',
@@ -3385,7 +3499,9 @@ const models = [
         false,
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/epyonposter.jpeg','Gundam Epyon'],
-        true
+        true,
+        [89],
+        'Epyon'
     ],
     [90,1,'Eclipse Gundam',
         'MVF-X08 Eclipse Gundam ',
@@ -3425,7 +3541,9 @@ const models = [
         false,
         false,            //boolean
         ['https://hosting.photobucket.com/images/i/lesaintdumech/mgeclipse.jpeg','Eclipse Gundam'],
-        true           //boolean
+        true,
+        [90],
+        'Eclipse'
     ],
     [91,1,'Gundv\u00F6lva',
         'EDM-GB Gundv\u00F6lva',
@@ -3460,7 +3578,9 @@ const models = [
         false,
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/volva.jpeg','Gundv\u00F6lva'],
-        false
+        false,
+        [91],
+        'Gundv\u00F6lva'
     ],
     [92,1,'Strike Dagger',
         'GAT-01 Strike Dagger',
@@ -3496,7 +3616,9 @@ const models = [
         false,
         false,            //boolean
         ['https://hosting.photobucket.com/images/i/lesaintdumech/Strike_Dagger.jpeg','Strike Dagger'],
-        false           //boolean
+        false,
+        [92],
+        'Dagger'
     ],
     [93,1,'Gundam Deathscythe Hell',
         'XXXG-01D2 Gundam Deathscythe Hell',
@@ -3533,7 +3655,8 @@ const models = [
         'The God of Death',
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/dshtv.jpg','Deathscythe Hell (TV Version)'],
-        true
+        true,
+        [86]
     ],
     [94,7,'Bulbasaur',
         'Pokemon Bulbasaur 13 Quick Model Kit!',
@@ -3598,7 +3721,8 @@ const models = [
         false,
         false,            //boolean
         ['https://hosting.photobucket.com/images/i/lesaintdumech/Vidar.jpeg','Gundam Vidar'],
-        true           //boolean
+        true,
+        [112]
     ],
     [96,1,'Destiny Impulse Gundam',
         'ZGMF-X56S/\u03B8 Destiny Impulse Gundam',
@@ -3640,7 +3764,8 @@ const models = [
         false,
         false,            //boolean
         ['https://hosting.photobucket.com/images/i/lesaintdumech/DestinyImpulse.jpeg','Destiny Impulse'],
-        true           //boolean
+        true,           //boolean
+        [98]
     ],
     [97,1,'Destiny Impulse Gundam R',
         'ZGMF-X56S/\u03B9 Destiny Impulse Gundam R',
@@ -3680,7 +3805,8 @@ const models = [
         'Gundam Regenes',
         false,            //boolean
         ['https://hosting.photobucket.com/images/i/lesaintdumech/DestinyRegenes.jpeg','Destiny Impulse Regenes'],
-        true           //boolean
+        true,
+        [98]
     ],
     [98,1,'Impulse Gundam',
         'ZGMF-X56S Impulse Gundam',
@@ -3722,7 +3848,9 @@ const models = [
         false,
         false,            //boolean
         ['https://hosting.photobucket.com/images/i/lesaintdumech/impulse.jpeg','Impulse Gundam'],
-        true           //boolean
+        true,           //boolean
+        [98],
+        'Impulse'
     ],
     [99,1,'Sazabi',
         'MSN-04 Sazabi',
@@ -3768,7 +3896,9 @@ const models = [
         'Red Comet',
         false,            //boolean
         ['https://hosting.photobucket.com/images/i/lesaintdumech/sazabi2.jpeg','MSN-04 Sazabi'],
-        false           //boolean
+        false,
+        [99],
+        'Sazabi'
     ],
     [100,1,'Sinanju',
         'MSN-06S Sinanju',
@@ -3811,7 +3941,8 @@ const models = [
         false,
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/(edited)_Sinanjuportrait.png','MSN-06S Sinanju'],
-        false
+        false,
+        [113]
     ],
     [101,1,'Sisquiede',
         'LRX-077 Sisquiede',
@@ -3847,7 +3978,9 @@ const models = [
         false,
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/sisquiede.jpeg','Sisquiede'],
-        false
+        false,
+        [101],
+        'Sisquiede'
     ],
     [102,1,'SD Zhuge Liang Freedom Gundam',
         'SD Zhuge Liang Freedom Gundam',
@@ -3874,7 +4007,8 @@ const models = [
         false,
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/zhugefreedom.jpeg','SD Zhuge Liang Freedom Gundam'],
-        true
+        true,
+        [14]
     ],
     [103,1,'\u039E Gundam',                 //Xi Gundam
         'RX-105 \u039E Gundam',
@@ -3911,7 +4045,9 @@ const models = [
         'Xi Gundam',
         false,            //boolean
         ['https://hosting.photobucket.com/images/i/lesaintdumech/gunxi.jpeg','Xi Gundam'],
-        true           //boolean
+        true,
+        [103],
+        'Xi'
     ],
     [104,10,'Blue Haro',
         'HaroPla #05 Haro Control Blue Model Kit',
@@ -3978,7 +4114,418 @@ const models = [
         'Mass Production Desert Mobile Suit',
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/maganaccorps.jpg','Maganac Corp Mobile Suit'],
+        false,
+        [105],
+        'Maganac'
+    ],
+    [106,1,'Dilanza',
+        'MD-0031 Dilanza',
+        'MD-0031',
+        'Mobile Suit Gundam the Witch from Mercury',
+        false, 
+        ['MD-0021 Desultor'],
+        [
+            'MD-0031UL Dilanza Sol',
+            'MD-0031L Lauda\'s Dilanze',
+            'MD-0032 Guel\'s Dilanza'
+        ],
+        'Ad Stella',
+        false,
+        'Students of Jeturk House',
+        false,
+        'Jeturk Heavy Machinery',
+        ['Jeturk House'],
+        [18.2,'18.2 Meters'],
+        [85.3,'85.3 Metric Tons'],
+        false,
+        false,
+        [
+            'Beam Vulcan (x2)',
+            'Shield (X2)'
+        ],
+        [
+            'Beam Rifle',
+            'Beam Torch'
+        ],
+        false,
+        'Ippei Gyoubu',
+        false,
+        false,
+        false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/dilanza.jpeg','Dilanza'],
+        false,
+        [106],
+        'Dilanza'
+    ],
+    [107,1,'Buster Gundam',
+        'GAT-X103 Buster Gundam',
+        'GAT-X103',
+        'Mobile Suit Gundam SEED',
+        false,
+        false,
+        [
+            'GAT-X131 Calamity Gundam',
+            'GAT/A-01E2 Buster Dagger',
+            'YMF-X0001 Dreadnought Gundam',
+            'ZGMF-600 GuAIZ',
+            'GAT-X103AP Verde Buster Gundam',
+            'LH-GAT-X103 Hail Buster Gundam'
+        ],
+        'Cosmic Era',
+        [71,'January 25, 71 C.E.',71],
+        'Dearka Elsman',
+        ['Shams Couza'],
+        'Morgenroete',
+        ['Earth Alliance','Zodiac Alliance of Freedm Treaty','Le Creuset Team','Archangel Corps','Three Ships Alliance'],
+        [18.86,'18.86 Meters'],
+        [84.2,'84.2 Metric Tons'],
+        false,
+        'Ultracompact Energy Battery',
+        [
+            '220mm 6-tube Missile Pod (x2)'
+        ],
+        [
+            '350mm Gun Launcher',
+            'Anti-Armor Shotgun',
+            '94mm High-Energy Rifle',
+            'Hyper Impulse Long-Range Sniper Rifle'
+        ],
+        [
+            'OS: General Unilateral Neuro-Link Dispersive Autonomic Maneuver Synthesis System',
+            'Phase Shift Armor'
+        ],
+        'Junichi Akutsu',
+        false,
+        false,
+        false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/buster.jpeg','Buster Gundam'],
+        true,
+        [107],
+        'Buster'
+    ],
+    [108,1,'Dom',
+        'MS-09 Dom',
+        'MS-09',
+        'Mobile Suit GUndam',
+        false,
+        ['MS-07C-5 Gouf Test Prototype','YMS-09 Prototype Dom'],
+        ['MS-09R Rick Dom','Dom Resonance','MS-09G Dwadge'],
+        'Universal Century',
+        [79,'June, 0079 U.C.','Present'],
+        'Black Tri-Stars',
+        ['Zeon Soldiers'],
+        'Zimmad Company',
+        ['Principality of Zon'],
+        [18.6,'18.6 Meters'],
+        [81.8,'81.8 Metric Tons'],
+        'Super-Hard Steel Alloy',
+        'Thermonuclear Fusion Reactor',
+        [
+            'Gun Turret (x3)'
+        ],
+        [
+            'Beam Saber',
+            'Scattering Beam Cannon',
+            'H&L-GB03K/360mm Giant Bazooka',
+            '880mmRB-T27 Raketen Bazooka',
+            'H&L-SB25K/280mmA-P Zaku Bazooka',
+            'Heat Kawk',
+            'Knuckle Shield',
+            'MMP-80 90mm Machine Gun',
+            'Sturm Faust',
+            'ZMP-50D 120mm Machine Gun',
+            'M-120A1 120mm Machine Gun',
+            'Beam Snipe Rifle'
+        ],
+        false,
+        'Kunio Okawara',
+        false,
+        'Mass-Production Ground Combat Mobile Suit',
+        false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/dom.jpeg','Dom'],
+        false,
+        [108],
+        'Dom'
+    ],
+    [109,1,'Ultimate Gundam',
+        false,
+        false,
+        'Mobile Fighter G Gundam',
+        false,
+        false,
+        ['JDG-00X Devil Gindam'],
+        'Future Century',
+        [59,'59 F.C.',60],
+        'Kyoji Kasshu',
+        false,
+        'Raizo Kasshu',
+        ['Neo Japan','Devil Gundam'],
+        false,
+        false,
+        'Gundarium alloy super-ceramic composite rare metal hybrid',
+        'Ultracopmact Fusion Reactor',
+        [
+            'Claw (x2)',
+            'Vulcan Gun (x4)',
+            'Beam Cannons'
+        ],
+        false,
+        [
+            'Nanotech Cells',
+            '-Self-Evolution',
+            '-Self-Replication',
+            '-Self-Regeneration'
+        ],
+        'Hajime Katoki',
+        false,
+        'Prototype Earth Restoration Mobile Fighter',
+        false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/ultimategundam.jpeg','Ultimate Gundam'],
+        true,
+        [109],
+        'Devil Gundam'
+    ],
+    [110,1,'Musha Gundam',
+        false,
+        false,
+        'Plamo-Kyoshiro',
+        false,
+        ['RX-78-2 Gundam'],
+        ['Shin Musha Gundam'],
+        false,
+        false,
+        'Shiro Kyoda',
+        false,
+        'Shiro Kyoda',
+        ['Shiro Kyoda'],
+        [18.18,'18.18 Meters'],
+        [6,'6 Metric Tons'],
+        false,
+        'EnergyPowerSource',
+        false,
+        [
+            'Tanegashima Gun',
+            'Nichirinmaru Katana',
+            'Denkoumaru Naginata (x2)',
+            'Sankoumaru Jumonji Yari'
+        ],
+        false,
+        'Hajime Katoki',
+        false,
+        'Prototype Close Quarters Combat Mobile Suit',
+        false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/mushagund.jpeg','Musha Gundam'],
+        true,
+        [110],
+        'Musha'
+    ],
+    [111,1,'ZAKU Warrior',
+        'ZGMA-1000 ZAKU Warrior',
+        'ZGMF-1000',
+        'Mobile Suit Gundam SEED Destiny',
+        false,
+        ['ZGMF-X999A ZAKU Mass Production Trial Type'],
+        [
+            'ZGMF-1001 ZAKU Phantom',
+            'ZGMF-1000 Kerberos ZAKU Warrior',
+            'ZGMF-1000/A1 Gunner ZAKU Warrior',
+            'ZGMF-1000/AAL Noctiluca ZAKU Warrior',
+            'ZGMF-1000/K Slash ZAKU Warrior',
+            'ZGMF-1000/M Blaze ZAKU Warrior'
+        ],
+        'Cosmic Era',
+        [73,'73 C.E.','Present'],
+        'Zaft Soldiers',
+        false,
+        'Integrated Design Bureau',
+        ['Zodiac Alliance of Freedom Treaty'],
+        [17.19,'17.19 Meters'],
+        [73.09,'73.09 Metric Tons'],
+        false,
+        'Ultracompact Energy Battery',
+        [
+            'Anti-Beam Shield (x2)'
+        ],
+        [
+            'MA-M8 Beam Tomahawk',
+            'MMI-M633 Beam Assault Rifle',
+            'M68 "Cattus" 500mm Recoilless Rifle',
+            'MMI-M8A3 76mm Heavy Assault Machine Gun',
+            'MA-M3 Heavy Blade (x2)',
+            'ZR30F fragmentation grenades',
+            'ZR20E high explosive grenades',
+            'ZR271 thermite incendiary grenades',
+            'ZR11Q flash grenades',
+            'ZR13Q smoke grenades'
+        ],
+        [
+            'Wizard System'
+        ],
+        'Kunio Okawara',
+        false,
+        'Mass Production Multi-Mode Mobile Suit',
+        false, 
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/zakuwarriorseed.jpeg','Zaku Warrio'],
+        false,
+        [111],
+        'Zaku [Cosmic Era]'
+    ],
+    [112,1,'Gundam Kimaris',
+        'ASW-G-66 Gundam Kimaris',
+        'ASW-G-66',
+        'Mobile Suit Gundam IRON-BLOODED-ORPHANS',
+        false,
+        false,
+        ['ASW-G-66 Kimaris Trooper'],
+        'Post Disaster',
+        false,
+        'Gaelio Bauduin',
+        ['Gargin Bauduin'],
+        'Gjallarhorn',
+        ['Gjallarhorn','Bauduin Family'],
+        [19.3,'19.3 Meters'],
+        [31.7,'31.7 Metric Tons'],
+        'Nanolaminate Armor',
+        'TWin Ahab Reactors',
+        [
+            'Slash Disk Launchers (x2)',
+            'Flash Bang Launcher (x4)'
+        ],
+        [
+            'Gungnir w/ 2 x 120mm Cannon',
+            'Combat Knife'
+        ],
+        [
+            'High-output Leg Booster (x4)',
+            'Optional: Kimaris Booster ',
+        ],
+        'Ippei Gyoubu',
+        false,
+        'High Mobility Close Quarters Combat Space Mobile Suit',
+        false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/kimbooster.jpeg','Gundam Kimaris'],
+        true,
+        [112],
+        'Kimaris'
+    ],
+    [113,1,'Sinanju Stein',
+        'MSN-06S Sinanju Stein',
+        'MSN-06S',
+        'Mobile Suit Gundam UC',
+        false,
+        false,
+        ['RX-0 Unicorn Gundam','RX-0 Unicorn Gundam 02 Banshee','MSN-06S Sinanju','MSN-06S-2 Sinanju Stein'],
+        'Universal Era',
+        [94,'0094 U.C.',97],
+        false,
+        false,
+        'Anaheim Electronics',
+        ['Sleeves'],
+        [22.6,'22.6 Meters'],
+        [54.2,'54.2 Metric Tons'],
+        'Gundarium Alloy',
+        'Minovsky Ultracompact Fusion Reactor',
+        [
+            '60mm Vulcan Gun (x2)'
+        ],
+        [
+            'Beam Saber (x2)',
+            'High Beam Rifle',
+            'Grenade Launcher',
+            'Rocket Bazooka',
+            'Beam Shield',
+            'Beam Shield: Beam Axe'
+        ],
+        [
+            'Psycommu System',
+            'Psycho-Frame Cockpit',
+            'Intention Automatic System'
+        ],
+        'Hajime Katoki',
+        false,
+        'Prototype Newtype-use High Mobility Mobile Suit',
+        false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/sinstein.jpeg','Sinanju Stein'],
         false
+        [113],
+        'Sinanju'
+    ],
+    [114,1,'Nightingale',
+        'MSN-04 II Nightingale',
+        'MSN-04 II',
+        'Mobile Suit Gundam: Char\'s Counterattack - Beltorchika\'s Children',
+        false,
+        false,
+        false,
+        'Universal Century',
+        [93,'0093 U.C.',93],
+        'Char Aznoble',
+        false,
+        'Anaheim Electronics',
+        ['Newborn Neo Zeon'],
+        [27.8,'27.8 Meters'],
+        [48.2,'48.2 Metric Tons'],
+        'Gundarium Alloy',
+        'Minovsky Ultracompact Fusion Reactor',
+        [
+            'Large Abdominal Mega Particle Canon',
+            'Chest Vulcan Gun',
+            'Hidden Arms (x4)'
+        ],
+        [
+            'Large Mega Beam Rifle',
+            'Beam Tomahawk',
+            'Anti-Beam Shield',
+            'Shield Mounted Micro Missiles',
+            'Beam Sabers (x4)'
+        ],
+        [
+            'Funnel (x10)'
+        ],
+        'Yutaka Izubuchi',
+        false,
+        'Neo Zeon Char Aznable\'s Use Mobile Suit',
+        true,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/nightingale.jpeg','Nightingale'],
+        false,
+        [99]
+    ],
+    [115,1,'Devil Gundam',
+        'JDG-00X Devil Gundam',
+        'JDG-00X',
+        'Mobile Fighter G Gundam',
+        false,
+        ['Ultimate Gundam'],
+        ['Devil Gundam Core','Colony Devil Gundam'],
+        'Future Century',
+        [59,'59 F.C.',60],
+        'Kyoji Kasshu',
+        ['Rain Mikamura'],
+        'Raizo Kasshu',
+        ['Devil Gundam'],
+        [23.9,'23.9 Meters'],
+        [84.9,'84.9 Metric Tons'],
+        'DG-Cell Infused Gundarium Alloy',
+        'Ultracompact Fusion Reactor',
+        [
+            'Vulcan Gun (x4)',
+            'Devil Finger (x2)',
+            'Beam Cannons'
+        ],
+        false,
+        [
+            'Nanotech Cells',
+            '-Self-Evolution',
+            '-Self-Replication',
+            '-Self-Regeneration'
+        ],
+        'Hajime Katoki',
+        false,
+        'Dark Gundam',
+        false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/devilgund.jpeg','Devil Gundam'],
+        true,
+        [109]
     ]
 ];
 
@@ -4163,7 +4710,7 @@ const projects = [
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/spark01.jpeg','Profile Photo: South Park'],
         'After finishing the Bel-Air, I realized there was still a lot I had to learn about air brush painting. So before moving on to the larger projects I decided to do something fun on a much more small scale in order to get a little more practice. Looking for a theme I was inspired by the boys of South Park, plus the Operation Meteor lineup.',
-        false,false,false,false,true,false,false,false,false,[models[47],models[85],models[86],models[87],models[88],models[89]]
+        false,false,false,false,true
     ],
     ['Gemini',[2,'Aquarius','Aquarius'],'SD',
         false,false,false,'Wing','E','2021-07-05',20.61,false,'Builds/Gundams/Gemini.html','Practice SDs','2022-01-24',models[40],
@@ -4377,7 +4924,7 @@ const projects = [
         [
             ['USA Gundam Store','https://www.usagundamstore.com/products/mg-1-100-gundam-heavyarms-ew-ver'],
             ['NewType','https://newtype.us/p/xyX3s81UEQTYgD2wfA49/h/mg-gundam-heavyarms-ew']
-        ],false,false,true,'1/100',false,false,false,[models[85]]
+        ],false,false,true,'1/100',false,false,false,
     ],
     ['Phoebe',[1,'Maganac Corps'],'SD',
         false,false,false,'Wing','E','2022-04-11',8.42,false,'Builds/Gundams/Phoebe.html','Titans','2024-01-15',models[105],
@@ -4921,7 +5468,7 @@ const projects = [
         ['https://hosting.photobucket.com/images/i/lesaintdumech/pborais07.jpeg','Profile Photo: PB 00 Raiser Trans-Am'],false,false,
         [
             ['Premium Bandai','https://p-bandai.com/us/item/N2519708001001']
-        ],false,false,true,'1:144',false,false,false,[models[22]]
+        ],false,false,true,'1:144',false,false,false,
     ],
     ['Silver \'n\' Gold',[1,'00 Gundam QAN[T]'],'RG',
         false,false,false,'00','B',false,0,false,'Builds/Gundams/SilverNGold.html',false,false,models[21]
@@ -5101,7 +5648,7 @@ const projects = [
             ['USA Gundam Store','https://www.usagundamstore.com/products/mg-1-100-gundam-virtue'],
             ['NewType','https://newtype.us/p/Qk1wgMICQffG5UlLTyfD/h/mg-gn-005-gundam-virtue'],
             ['Virtue Display Stand','https://www.usagundamstore.com/products/mg-virtue-display-stand']
-        ],false,false,true,'1:100','Birth of Nadleeh','Nadleeh / Virtue','Birth of Nadleeh',[models[78]]
+        ],false,false,true,'1:100','Birth of Nadleeh','Nadleeh / Virtue','Birth of Nadleeh'
     ],
     ['Zabanya (Final Battle)',[1,'Zabanya'],'HG',
         true,true,false,'00','E','2022-03-09',3,false,'Builds/PBandai/PBZabanyaFinalHG.html',false,'2022-11-07',models[71],
@@ -5321,7 +5868,7 @@ const projects = [
         'One of the coolest things I love about the SEED universe is the versatility of the mobile suits in how they all can have added equipment packs added on to enhance their features. However very few of these packs have been made as actual add-on model kits to add to the current model kit lineup. So when I saw that P-Bandai was releasing the Dagger L expansion pack I just had to get it and paint it. Included is the Doppelhorn Dual Recoilless Cannon, which is the very long barrel guns mounted on the Dagger\'s shoulders. And also included is the Multi-Launcher pack which is the large square box-like structure that houses the long range nuclear ICBMs stored inside that were used to vaporize the Boaz military asteroid in the final story arc of Gundam SEED. To mount the two units I build two new Dagger Ls which I painted identical my previous project King Leir. Bringing my Dagger count now up to three: King Leir and his two daughters Gonorilla and Regan. Also included is Oberon, acting as their squadron commander.',false,
         [
             ['Premium Bandai','https://p-bandai.com/us/item/N2563436001002']
-        ],['Oberon','King Leir','PB Strike Daggers'],false,true,'1:144',false,false,false,[models[23],models[24]]
+        ],['Oberon','King Leir','PB Strike Daggers'],false,true,'1:144',false,false,false,
     ],
     ['King Leir',[1,'Dagger L'],'HG',
         false,false,false,'Seed','E','2021-06-10',14.09,false,'Builds/Gundams/KingLeir.html',false,'2021-06-26',models[23],
@@ -5454,7 +6001,7 @@ const projects = [
         ['https://hosting.photobucket.com/images/i/lesaintdumech/pbmanstrike03.jpeg','Profile Photo: Maneuver Striker'],false,false,
         [
             ['Premium Bandai','https://p-bandai.com/us/item/N2583175001001']
-        ],false,false,true,'1:100',false,false,false,[models[90]]
+        ],false,false,true,'1:100',false,false,false
     ],
     ['Eternal',[1,'Eternal'],'Ship',
         false,false,false,'Seed','E','2021-08-05',24.1,false,'Builds/Ships/Eternal.html',false,'2022-01-03',models[7],
@@ -5989,7 +6536,7 @@ const projects = [
         ],['Skygrasper [PG]'],false,true,'1:60',false,'Strike Perfect Grade','Strike'
     ], 
     ['Perfect Strike [PG]',[1,'Strike, Perfect'],'PG',
-        true,false,false,'Seed','A','',0,true,'Builds/PG/PGPerfectStrike.html',false,'',models[61]
+        true,false,false,'Seed','B','',0,true,'Builds/PG/PGPerfectStrike.html',false,'',models[61]
     ],
     ['Perfect Strike [P-Bandai]',[1,'Strike, Perfect'],'RG',
         true,true,false,'Seed','E','2022-03-07',12.33,false,'Builds/PBandai/PBPerfectStrikeRG.html',false,'2022-09-13',models[61],
@@ -6007,7 +6554,7 @@ const projects = [
         ['https://hosting.photobucket.com/images/i/lesaintdumech/pbpstrikerg06.jpeg','Profile Photo: P-Bandai Perfect Strike'],false,false,
         [
             ['Premium Bandai','https://p-bandai.com/us/item/N2487790001005']
-        ],false,false,true,'1:144',false,'Perfect Strike',false,[models[60]]
+        ],false,false,true,'1:144',false,'Perfect Strike',false
     ],
     ['S.A.T.O.',[1,'Strike, Perfect'],'SD',
         false,false,false,'Seed','E','2022-01-05',14.85,false,'Builds/Gundams/SATO.html','SD Rock','2023-12-18',models[61],
@@ -6974,7 +7521,7 @@ const projects = [
             ['Video','https://www.instagram.com/reel/Cf48aw8lNmK/?igshid=YzcxN2Q2NzY0OA=='],
             ['USA Gundam Store','https://www.usagundamstore.com/products/bb379-delta-plus'],
             ['NewType','https://newtype.us/p/FwGjUKw2TJtylxXE2GUp/h/sdbb-379-delta-plus']
-        ],false,false,true,false,false,false,false,[models[82]]
+        ],false,false,true
     ],
     ['Interstellar',[1,'Dom Test Type'],'HG',
         false,false,false,'UC','E','2022-08-06',14.07,false,'Builds/Gundams/Interstellar.html',false,'2022-11-14',models[55],
@@ -7005,7 +7552,7 @@ const projects = [
     ['Rhea',[1,'RX-75 Guntank'],'SD',false,false,false,'UC','B'],
     ['Metroid [Zeta]',[1,'Hygogg'],'HG',false,false,false,'UC','A'],
     ['Theia',[1,'Kshatriya'],'SD',false,false,false,'UC','D','2022-12-08',12.03,false,'Builds/Theia.html',['']],
-    ['Nachtigall',[1,'Nightingale'],'SD',false,false,false,'UC','B'],
+    ['Nachtigall',[1,'Nightingale'],'SD',false,false,false,'UC','C','2024-01-16',0.25],
     ['Mnemosyne',[1,'Neue Ziuel'],'SD',false,false,false,'UC','B'],
     ['\u03C0 (pi)',[1,'Nu Gundam'],'SD',
         false,false,false,'UC','E','2021-06-06',15.66,false,'Builds/Gundams/Pi.html','Practice SDs','2021-06-22',models[13],
@@ -7128,7 +7675,7 @@ const projects = [
             ['Video','https://www.instagram.com/reel/Cp0DancrAsz/?igshid=YzcxN2Q2NzY0OA=='],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pre-order-sd-gundam-cross-silhouette-unicorn-gundam-03-phenex-destroy-mode-narrative-ver?variant=9116289466404'],
             ['NewType','https://newtype.us/p/dIWzPbdrfm4LhDH7zl24/h/sdcs-07-unicorn-gundam-03-phenex-gundam-nt']
-        ],['Bella Donna','Titan'],true,true,false
+        ],['Bella Donna','Titan'],true,true
     ],
     ['Titan',[1,'Phenex'],'SD',
         false,false,false,'UC','E','2021-11-07',6.63,false,'Builds/Gundams/Titan.html','Phoneix','2023-03-14',models[28],
@@ -7350,7 +7897,7 @@ const projects = [
         ['https://hosting.photobucket.com/images/i/lesaintdumech/pbod05.jpeg','Profile Photo: PB 00 Diver'],false,false,
         [
             ['Premium Bandai','https://p-bandai.com/us/item/N2486108001002']
-        ],false,false,true,'1:144',false,false,false,[models[22]]
+        ],false,false,true,'1:144'
     ],
     ['King Milky Way',[1,'Astray Rebake'],'HG',false,false,false,'BD','B'],
     ['Four Horsemen',[4,'Barbataurus','Barbataurus','Barbataurus','Barbataurus'],'HG',false,false,false,'BD','B'],
@@ -7405,7 +7952,7 @@ const projects = [
         [
             ['USA Gundam Store','https://www.usagundamstore.com/products/rg-1-144-23-build-strike-gundam-full-package'],
             ['NewType','https://newtype.us/p/QIE6S4m3dl46dKwRkzap/h/rg-23-build-strike-gundam-full-package']
-        ],['Moonage Daydream'],true,true,'1:144',false,false,false,[models[60]]
+        ],['Moonage Daydream'],true,true,'1:144'
     ],
     ['Moonage Daydream',[1,'Strike Full Package'],'SD',
         false,false,false,'BD','E','2021-11-06',7.27,false,'Builds/Gundams/MoonageDaydream.html',false,'2022-02-21',models[34],
@@ -7425,7 +7972,7 @@ const projects = [
         [
             ['USA Gundam Store','https://www.usagundamstore.com/products/bb388-build-strike-gundam-full-package?variant=6062886404'],
             ['NewType','https://newtype.us/p/Jo894rN6W9JMC7IrdI5x/h/sdbb-388-build-strike-full-package']
-        ],['Constellation'],false,true,false,false,false,false,[models[60]]
+        ],['Constellation'],false,true
     ],
     ['King Saturn',[1,'Transient'],'HG',false,false,false,'BD','B'],
     ['King Mercury',[1,'Try Age Magnum'],'HG',false,false,false,'BD','B'],
@@ -7471,7 +8018,7 @@ const projects = [
             ['USA Gundam Store','https://www.usagundamstore.com/products/sdw-heroes-06-sasuke-delta-gundam?variant=37856509067461'],
             ['NewType','https://newtype.us/p/37iFUC8z3fCky22Mbkxp/h/sdw-heroes-06-sasuke-delta-gundam'],
             ['TurboDork: Sakura','https://turbodork.com/products/sakura']
-        ],false,false,true,false,false,false,false,[models[82]]
+        ],false,false,true
     ],
     ['Sasuki Delta [SD]',[1,'Delta, Saskui'],'SD',true,false,false,'Heroes','E','2021-09-05',1.5,false,false,false,'2022-06-20'],
     ['Quetzalcaotl',[1,'Dragon, Dark Grasper'],'SD',false,false,false,'Heroes','B'],
@@ -7501,7 +8048,7 @@ const projects = [
             ['Video','https://www.instagram.com/reel/C1SFuU7O2Mo/?igsh=MWY5cGJpbGo5ZW9sNg=='],
             ['USA Gundam Store','https://www.usagundamstore.com/products/zhuge-liang-freedom-gundam-sd-sangoku-soketsuden-bandai-sd'],
             ['NewType','https://newtype.us/p/TvXeBtAhUZuncHlIHXJb/h/sd-sangoku-soketsuden-20-zhuge-liang-freedom-gundam']
-        ],false,true,true,false,false,false,false,[models[14]]
+        ],false,true,true
     ],
     ['Pallas',[1,'God Gundam, Huang Zhang Fei'],'SD',false,false,false,'Heroes','B'],
     ['Atlas',[1,'God Gundam, Zhang Fei'],'SD',false,false,false,'Heroes','B'],
@@ -7531,7 +8078,7 @@ const projects = [
         [
             ['USA Gundam Store','https://www.usagundamstore.com/products/sdw-heroes-03-sergeant-verde-buster-gundam'],
             ['NewType','https://newtype.us/p/eufjJyWFODY5XuvTiOIY/h/sdw-heroes-03-sergeant-verde-buster-gundam']
-        ],false,false,true,false,'The Law Giver',false,false,[models[84]]
+        ],false,false,true,false,'The Law Giver'
     ],
     ['Power Rangers',
         [7.5,'Trinity Bike','Verde Buster, Sergeant DX','Verde Buster, Sergeant DX','Verde Buster Team Member','Verde Buster Team Member','Verde Buster Team Member','Verde Buster Team Member'],'SD',false,false,false,'Heroes','E','2022-12-06',39.63,false,'Builds/SDW/mmpr.html',false,'2023-02-20',models[27],
@@ -7609,7 +8156,7 @@ const projects = [
             ['NewType: Sergeant','https://newtype.us/p/6WGpOtGU5sn6S4Zq5WxW/h/sdw-heroes-12-sergeant-verde-buster-gundam-dx-set'],
             ['NewType: Team Member','https://newtype.us/p/9DnZDjp1oqrDn71o7qfZ/h/sdw-heroes-13-verde-buster-team-member'],
             ['TurboDork','https://turbodork.com']
-        ],false,true,true,false,false,'Mighty Morphin Power Rangers',false,[models[83],models[84]]
+        ],false,true,true,false,false,'Mighty Morphin Power Rangers'
     ],
     ['Eos',[1,'Wing, Cao Cao'],'SD',false,false,false,'Heroes','B'],    //Wing zero
     ['Aether',[1,'Wing, Cao Cao'],'SD',false,false,false,'Heroes','B'],    //Wing zero
@@ -8424,6 +8971,8 @@ let backlogListArray = [pgBacklogArray,mgBacklogArray,fmBacklogArray,rgBacklogAr
 let statsArray = [];
 let projectArray = [];
 let modelArray = [];
+let pendingVariantArray = [];
+let variantArray = [];
 
 //Initialize Counts
 let init = 0;
