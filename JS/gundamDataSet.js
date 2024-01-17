@@ -1004,7 +1004,7 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/daggerexp.jpeg','Dagger DoppleHorn Multi-Launcher Expansion Pack'],
         false,
-        [24,92]
+        [23,24,92]
     ],
     [26,1,'Guel\'s Dilanza',
         'MD-0032G Guel\'s Dilanza',
@@ -8971,8 +8971,6 @@ let backlogListArray = [pgBacklogArray,mgBacklogArray,fmBacklogArray,rgBacklogAr
 let statsArray = [];
 let projectArray = [];
 let modelArray = [];
-let pendingVariantArray = [];
-let variantArray = [];
 
 //Initialize Counts
 let init = 0;
@@ -10916,6 +10914,53 @@ function buildProjectPage(string) {
 function buildGundam() {
     unhide('.GundamPage');
     insertPhoto(modelArray[26],'gModelPhoto',false,300);
+
+    let variantModelsArray = [];
+    let variantProjectsArray = [];
+
+    let baseModelIDs = modelArray[28];
+
+    for (let i=0;i<baseModelIDs.length;i++) {
+        let baseID = baseModelIDs[i];
+        for (let j=0;j<models.length;j++) {
+            if (models[j][1] === 1) {
+                if (models[j][28].includes(baseID)) {
+                    if (!variantModelsArray.includes(models[j])) {
+                        variantModelsArray.push(models[j]);
+                    }
+                }
+            } 
+        }
+    }
+
+    for (i=0;i<variantModelsArray.length;i++) {
+        for (j=0;j<projects.length;j++) {
+            if (variantModelsArray[i] != modelArray) {
+                if (projects[j][14] === variantModelsArray[i] && projects[j][22]) {
+                    if (projectArray[20]) {
+                        if (!projectArray[20].includes(projects[j][0])) {
+                            variantProjectsArray.push(projects[j]);
+                        }
+                    }
+                    else {
+                        variantProjectsArray.push(projects[j]);
+                    }
+                }
+            }
+        }
+    }
+
+    let firstID = baseModelIDs[0]
+    let baseModel = models[firstID];
+    let baseModelName = baseModel[29];
+    if(!baseModel[29]) {
+        baseModelName = models[baseModel[28]][29];
+    }
+    if (variantProjectsArray.length>0) {
+        unhide('.variantHD');
+        popNode(baseModelName+' Variants:','variantTitle');
+        projectLinks(variantProjectsArray.sort(),'variantModels');
+    }
 
     if (projectArray[5]) {
         unhide('.projectMGEXHD');
