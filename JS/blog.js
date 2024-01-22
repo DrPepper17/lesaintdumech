@@ -764,6 +764,19 @@ const blogArray = [
         ],
         ['Inspired by the Greek titan whose name means, \'The Bright One\', Phoebe was an experiment in how well I could use masking tape to to blend regions of colors. With her sharp distinct corners where the brown stands out from the blue, I think I pulled it off.'],
         ['Anyhow, as I deal with solving all the issues with my house from this winter storm, hope you all enjoy Phoebe.']
+    ],
+    [
+        '2024-01-22',
+        'Can you paint with all the colors of the wind?',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/tethys03.jpeg',
+        [
+            [
+                'Time once again for another weekly unveil. This week I present to you ',
+                ['Tethys','Builds/SDW/Tethys.html'],
+                ', my custom paint of the SD Cao Cao Wing Isei.'
+            ]
+        ],
+        ['A lot of colors went into this but it did not turn out how I wanted. But oh well this was just an experimentation. Enjoy!']
     ]
 ]
 

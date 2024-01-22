@@ -310,7 +310,7 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/bumblebee.jpeg','Bumblebee']
     ],
-    [6,0,'South Park',
+    [6,1,'South Park',
         'Come on down to South Park and meet some friends of mine',
         false,
         false,
@@ -336,8 +336,8 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/southpark.jpg','The South Park Gang'],
         false,
-        [47,54,85,86,87,88,89]
-
+        [6,47,54,85,86,87,88,89],
+        'Operation Meteor'
     ],
     [7,2,'Eternal',
         'ZAFT FFMH-Y101 Eternal',
@@ -4526,6 +4526,34 @@ const models = [
         ['https://hosting.photobucket.com/images/i/lesaintdumech/devilgund.jpeg','Devil Gundam'],
         true,
         [109]
+    ],
+    [116,1,'SD Cao Cao Wing Gundam Isei',
+        'SD Cao Cao Wing Gundam Isei',
+        false,
+        'SDW Heroes',
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        'XXXG-01W Wing Gundam EW',
+        false,
+        false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/caocaoisei.jpeg','Cao Cao Wing Gundam Isei'],
+        true,
+        [54]
     ]
 ];
 
@@ -4578,11 +4606,11 @@ const models = [
 //Pojects
 const projects = [
     //Ad Stella (Mercury)
-    ['Chimkin',[1,'Aerial'],'FM',false,false,false,'Mercury','C','2024-01-05',12.5],
+    ['Chimkin',[1,'Aerial'],'FM',false,false,false,'Mercury','C','2024-01-05',15.67],
     ['Aerial [HG]',[1,'Aerial'],'HG',true,false,false,'Mercury','D','2023-05-30',7.42,false,false,false],
     ['PB Aerial Permet Six [HG]',[1,'Aerial'],'HG',true,true,false,'Mercury','D','2023-09-19',2.83],
     ['Ariel',[1.5,'Aerial','Mirasoul Flight Pack'],'HG',false,false,false,'Mercury','C','2023-12-10',10.4],
-    ['Morgause',[1,'Aerial'],'HG',false,false,false,'Mercury','B','2024',0.17],
+    ['Morgause',[1,'Aerial'],'HG',false,false,false,'Mercury','C','2024',0.17],
     ['Cherub',[1,'Aerial'],'SD',false,false,false,'Mercury','D','2023-01-10',4.91,false,'Builds/Cherub.html','Angels'],
     ['Zephon',[1,'Aerial Rebuild'],'HG',false,false,false,'Mercury','C','2023-11-25',15.02],
     ['Dark Samus: Corruption',[1,'Beguir-Pente'],'HG',
@@ -4661,7 +4689,7 @@ const projects = [
     ['Adriel',[1,'LFrith'],'HG',false,false,false,'Mercury','C','2023-12-11',6.18],
     ['LFrith [HG]',[1,'LFrith'],'HG',true,false,false,'Mercury','D','2023-04-15',2.33,false,false,false],
     ['PB Anavata',[1,'LFrith Anavata'],'HG',false,true,false,'Mercury','A'],
-    ['Eisheth',[1,'LFrith Jiu'],'HG',false,true,false,'Mercury','B','2024',0],
+    ['Eisheth',[1,'LFrith Jiu'],'HG',false,true,false,'Mercury','C','2024',0],
     ['Schwarzette [HG]',[1,'Schwarzette'],'HG',true,false,false,'Mercury','D','2023-10-04',2.33,false,false,false],
     ['Metatron',[1,'Schwarzette'],'HG',false,false,false,'Mercury','C','2023-11-25',15.83],
     ['Samus: Zero Suit',[1,'Suletta Mercury','Miorine Rembran'],'Other',false,false,false,'Mercury','C','2024-01-04',4],
@@ -5947,7 +5975,7 @@ const projects = [
             ['NewType','https://newtype.us/p/V3s94PjelBrA0T06Q673/h/hgce-237-gat-o2l2-dagger-l']
         ],['Armageddon','King Leir','PB Strike Daggers'],false,false,'1:144'
     ],
-    ['Othello',[1,'Dagger 105 + Gunbarrel'],'HG',false,false,false,'Seed','A'],
+    ['Joan',[1,'Dagger 105 + Gunbarrel'],'HG',false,false,false,'Seed','A'],
     ['Charizard',[1,'Destiny'],'MG',false,false,false,'Seed','B'],
     ['Charizard X',[1,'Destiny'],'SD',
         false,false,false,'Seed','E','2021-10-10',8.13,false,'Builds/Gundams/CharizardX.html',false,'2022-05-16',models[33],
@@ -7150,7 +7178,7 @@ const projects = [
 
     //Post Disaster (IBO)
     ['Thorn',[1,'Barbatos'],'MG',false,false,false,'IBO','B'],
-    ['Deku Knight',[1,'Barbatos'],'MGSD',false,false,false,'IBO','C','2024-01-13',8.5],
+    ['Deku Knight',[1,'Barbatos'],'MGSD',false,false,false,'IBO','C','2024-01-13',8.58],
     ['War Pig',[1,'Barbatos'],'SD',
         false,false,false,'IBO','E','2021-12-13',4.15,false,'Builds/Gundams/WarPig.html','SD Rock','2023-04-18',models[46],
         [
@@ -7554,7 +7582,7 @@ const projects = [
     ['Rhea',[1,'RX-75 Guntank'],'SD',false,false,false,'UC','B'],
     ['Metroid [Zeta]',[1,'Hygogg'],'HG',false,false,false,'UC','A'],
     ['Theia',[1,'Kshatriya'],'SD',false,false,false,'UC','D','2022-12-08',12.03,false,'Builds/Theia.html',['']],
-    ['Nachtigall',[1,'Nightingale'],'SD',false,false,false,'UC','C','2024-01-16',0.25],
+    ['Nachtigall',[1,'Nightingale'],'SD',false,false,false,'UC','C','2024-01-16',1.98],
     ['Mnemosyne',[1,'Neue Ziuel'],'SD',false,false,false,'UC','B'],
     ['\u03C0 (pi)',[1,'Nu Gundam'],'SD',
         false,false,false,'UC','E','2021-06-06',15.66,false,'Builds/Gundams/Pi.html','Practice SDs','2021-06-22',models[13],
@@ -8162,7 +8190,30 @@ const projects = [
     ],
     ['Eos',[1,'Wing, Cao Cao'],'SD',false,false,false,'Heroes','B'],    //Wing zero
     ['Aether',[1,'Wing, Cao Cao'],'SD',false,false,false,'Heroes','B'],    //Wing zero
-    ['Tethys',[1,'Wing Isei, Cao Cao'],'SD',false,false,false,'Heroes','D','2022-04-05',8.67,false,'Builds/tethys.html',['']], //Regular wing KA
+    ['Tethys',[1,'Wing Isei, Cao Cao'],'SD',
+        false,false,false,'Heroes','E','2022-04-05',8.67,false,'Builds/SDW/Tethys.html',false,'2024-01-22',models[116],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/tethys01.jpeg','Tethys'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/tethys02.jpeg','Tethys'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/tethys03.jpeg','Tethys'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/tethys04.jpeg','Tethys'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/tethys05.jpeg','Tethys'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/tethys06.jpeg','Tethys'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/tethys07.jpeg','Tethys'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/tethys08.jpeg','Tethys'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/tethys09.jpeg','Tethys'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/tethys10.jpeg','Tethys'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/tethys11.jpeg','Tethys']
+        ],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/tethys08.jpeg','Profile Picture: Tethys'],
+        'This was my first try at performing the shadowing technique. Did not turn out how I wanted. But again it was only a first attempt.',false,
+        [
+            ['Video','https://www.instagram.com/reel/C2Z_a3ruHYs/?igsh=Y3g4YWpxcGJqZzkx'],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/sdw-heroes-08-cao-cao-wing-gundam-isei-style'],
+            ['NewType','https://newtype.us/p/i26bh68si7wgxteOHr5D/h/sdw-heroes-08-cao-cao-wing-gundam-isei-style']
+        ],false,true,true,false
+
+    ], //Regular wing EW
     ['Hyperion',[1,'Wing, Tian Ba Cao Cao'],'SD',false,false,false,'Heroes','B'],   // wing zero 
 
     //Haro
@@ -8473,7 +8524,7 @@ const projects = [
     ['Cassivellaunus',[1,'Gyarados'],'Pokemon',
         false,false,false,'','D','2023-09-18',5.39
     ],
-    ['Vitalstatistix',[1,'Ho-Oh'],'Pokemon',false,false,false,'','B'],
+    ['Vitalstatistix',[1,'Ho-Oh'],'Pokemon',false,false,false,'','C','2024',0],
     ['Lutetia',[1,'Lucario'],'Pokemon',
         false,false,false,'','D','2023-10-03',5.09
     ],
