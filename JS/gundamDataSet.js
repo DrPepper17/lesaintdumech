@@ -13,6 +13,7 @@
         9. Zoid
         10. Haropla
         11. 
+        12
 
     // Gundams (1) //
     2. Short Name
@@ -310,7 +311,7 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/bumblebee.jpeg','Bumblebee']
     ],
-    [6,1,'South Park',
+    [6,11,'South Park',
         'Come on down to South Park and meet some friends of mine',
         false,
         false,
@@ -4606,7 +4607,7 @@ const models = [
 //Pojects
 const projects = [
     //Ad Stella (Mercury)
-    ['Chimkin',[1,'Aerial'],'FM',false,false,false,'Mercury','C','2024-01-05',17.17],
+    ['Chimkin',[1,'Aerial'],'FM',false,false,false,'Mercury','C','2024-01-05',22.25],
     ['Aerial [HG]',[1,'Aerial'],'HG',true,false,false,'Mercury','D','2023-05-30',7.42,false,false,false],
     ['PB Aerial Permet Six [HG]',[1,'Aerial'],'HG',true,true,false,'Mercury','D','2023-09-19',2.83],
     ['Ariel',[1.5,'Aerial','Mirasoul Flight Pack'],'HG',false,false,false,'Mercury','C','2023-12-10',10.4],
@@ -4692,7 +4693,7 @@ const projects = [
     ['Eisheth',[1,'LFrith Jiu'],'HG',false,true,false,'Mercury','C','2024',0],
     ['Schwarzette [HG]',[1,'Schwarzette'],'HG',true,false,false,'Mercury','D','2023-10-04',2.33,false,false,false],
     ['Metatron',[1,'Schwarzette'],'HG',false,false,false,'Mercury','C','2023-11-25',16],
-    ['Samus: Zero Suit',[1,'Suletta Mercury','Miorine Rembran'],'Other',false,false,false,'Mercury','C','2024-01-04',4.42],
+    ['Samus: Zero Suit',[1,'Suletta Mercury','Miorine Rembran'],'Other',false,false,false,'Mercury','C','2024-01-04',5.42],
 
     //Advanced Generation (Age)
     ['Uriel',[1,'Age-FX'],'SD',false,false,false,'Age','B'],
@@ -5862,8 +5863,8 @@ const projects = [
     ['https://hosting.photobucket.com/images/i/lesaintdumech/dominion05.jpeg','Profile Photo: Dominion'],
     'I originally was not planning to build this. But my both my Archangels came out so fantastic and the fact the kit had the parts to build the Dominion just kept weighing on my mind that eventually I broke down and surrendered to the temptation and had to buy me a third Archangel kit. Besides, you cannot have the Archangel without staging its final dual with the Dominion. Therefore now preseneting to you, the Dominino.',false,false,['Archangel'],false,true,'1:1700',false,false,false,[models[15]]
     ],
-    ['Betty',[1,'BuCUE'],'HG',false,false,false,'Seed','A','2024',0,false,'Builds/Gundams/...','First Ladies'],
-    ['Nancy',[1,'BuCUE'],'HG',false,false,false,'Seed','A','2024',0,false,'Builds/Gundams/...','First Ladies'],
+    ['Betty',[1,'BuCUE'],'HG',false,false,false,'Seed','B','2024',0,false,'Builds/Gundams/...','First Ladies'],
+    ['Nancy',[1,'BuCUE'],'HG',false,false,false,'Seed','B','2024',0,false,'Builds/Gundams/...','First Ladies'],
     ['Barbara',[1,'BuCUE Hound, Kerberos'],'HG',false,false,false,'Seed','A','2024',0,false,'Builds/Gundams/...','First Ladies'],
     ['Urban Commando',[1,'Buster'],'MG',false,false,false,'Seed','B'],
     ['Calamitous Godzilla',[1,'Calamity'],'FM',false,false,false,'Seed','B'],
@@ -6461,7 +6462,7 @@ const projects = [
         ],false,false,true,'1:144'
     ],
     ['Oppression',[1,'Infinite Justice'],'MG',false,false,false,'Seed','B'],
-    ['Jacqueline',[1,'LaGOWE'],'HG',false,false,false,'Seed','A','2024',0,false,'Builds/Gundams/...','First Ladies'],
+    ['Jacqueline',[1,'LaGOWE'],'HG',false,false,false,'Seed','B','2024',0,false,'Builds/Gundams/...','First Ladies'],
     ['Zoroaster',[1,'Legend'],'FM',false,false,false,'Seed','B'],
     ['Lightning Striker',[0.5,'Lightning Strike Pack'],'MG',false,true,false,'Seed','B'],
     ['PB Meteors',[1,'Meteor','Meteor I','Meteor II','Freedom','Infinite Justice'],'HG',false,true,false,'Seed','B'],
@@ -6565,7 +6566,7 @@ const projects = [
             ['NewType','https://newtype.us/p/NWCMv4JQaiL5GlCBr8jU/h/pg-gat-x105-strike-gundam']
         ],['Skygrasper [PG]'],false,true,'1:60',false,'Strike Perfect Grade','Strike'
     ], 
-    ['Perfect Strike [PG]',[1,'Strike, Perfect'],'PG',
+    ['Perfect Perfect',[1,'Strike, Perfect'],'PG',
         true,false,false,'Seed','B','',0,true,'Builds/PG/PGPerfectStrike.html',false,'',models[61]
     ],
     ['Perfect Strike [P-Bandai]',[1,'Strike, Perfect'],'RG',
@@ -7178,7 +7179,7 @@ const projects = [
 
     //Post Disaster (IBO)
     ['Thorn',[1,'Barbatos'],'MG',false,false,false,'IBO','B'],
-    ['Deku Knight',[1,'Barbatos'],'MGSD',false,false,false,'IBO','C','2024-01-13',14.25],
+    ['Deku Knight',[1,'Barbatos'],'MGSD',false,false,false,'IBO','C','2024-01-13',18.33],
     ['War Pig',[1,'Barbatos'],'SD',
         false,false,false,'IBO','E','2021-12-13',4.15,false,'Builds/Gundams/WarPig.html','SD Rock','2023-04-18',models[46],
         [
@@ -7582,7 +7583,7 @@ const projects = [
     ['Rhea',[1,'RX-75 Guntank'],'SD',false,false,false,'UC','B'],
     ['Metroid [Zeta]',[1,'Hygogg'],'HG',false,false,false,'UC','A'],
     ['Theia',[1,'Kshatriya'],'SD',false,false,false,'UC','D','2022-12-08',12.03,false,'Builds/Theia.html',['']],
-    ['Nachtigall',[1,'Nightingale'],'SD',false,false,false,'UC','C','2024-01-16',1.98],
+    ['Nachtigall',[1,'Nightingale'],'SD',false,false,false,'UC','C','2024-01-16',2.17],
     ['Mnemosyne',[1,'Neue Ziuel'],'SD',false,false,false,'UC','B'],
     ['\u03C0 (pi)',[1,'Nu Gundam'],'SD',
         false,false,false,'UC','E','2021-06-06',15.66,false,'Builds/Gundams/Pi.html','Practice SDs','2021-06-22',models[13],
@@ -8008,7 +8009,7 @@ const projects = [
     ['King Mercury',[1,'Try Age Magnum'],'HG',false,false,false,'BD','B'],
     
     //SD Heroes 
-    ['Artemis',[1,'00, Zhao Yun'],'SD',false,false,false,'Heroes','A'],
+    ['Artemis',[1,'00, Zhao Yun'],'SD',false,false,false,'Heroes','B'],
     ['Oceanus',[1,'Altron, Zhang He'],'SD',false,false,false,'Heroes','D','2022-04-06',5.42,false,'Builds/Oceanus.html',['']],
     ['Eurybia',[1,'Akatsuki, Zhou Yu'],'SD',false,false,false,'Heroes','B'],
     ['Nyx',[1,'Astray, Sun Ce'],'SD',false,false,false,'Heroes','B'],
@@ -8052,10 +8053,10 @@ const projects = [
     ],
     ['Sasuki Delta [SD]',[1,'Delta, Saskui'],'SD',true,false,false,'Heroes','E','2021-09-05',1.5,false,false,false,'2022-06-20'],
     ['Quetzalcaotl',[1,'Dragon, Dark Grasper'],'SD',false,false,false,'Heroes','B'],
-    ['Pharaoh',[1,'Dragon, Shining Grasper'],'SD',false,false,false,'Heroes','A'],
-    ['Tiamat',[1,'Dragon, Shining Grasper'],'SD',false,false,false,'Heroes','A'],
+    ['Pharaoh',[1,'Dragon, Shining Grasper'],'SD',false,false,false,'Heroes','B'],
+    ['Tiamat',[1,'Dragon, Shining Grasper'],'SD',false,false,false,'Heroes','B'],
     ['Ose',[1,'Duel, Taishi Ci'],'SD',false,false,false,'Heroes','B','',0,false,'','Ars Goetia'],
-    ['Cronus',[1,'Epyon, Nobunaga'],'SD',false,false,false,'Heroes','A'],
+    ['Cronus',[1,'Epyon, Nobunaga'],'SD',false,false,false,'Heroes','B'],
     ['Helios',[1,'Freedom, Zhuge Liang'],'SD',
         false,false,false,'Heroes','E','2022-03-11',9.25,false,'Builds/SDW/Helios.html',false,'2023-12-25',models[102],
         [
@@ -8082,15 +8083,15 @@ const projects = [
     ],
     ['Pallas',[1,'God Gundam, Huang Zhang Fei'],'SD',false,false,false,'Heroes','B'],
     ['Atlas',[1,'God Gundam, Zhang Fei'],'SD',false,false,false,'Heroes','B'],
-    ['Themis',[1,'Legend, Caesar'],'SD',false,false,false,'Heroes','A'],
+    ['Themis',[1,'Legend, Caesar'],'SD',false,false,false,'Heroes','B'],
     ['Gaia',[1,'Providence Gundam, Sangoku Soketsuden Dong Zhuo'],'SD',false,false,false,'Heroes','B'],
     ['Crius',[1,'Sazabi, Zhang Liao'],'SD',false,false,false,'Heroes','B'],
-    ['Clymene',[1,'Strike, Knight'],'SD',false,false,false,'Heroes','A'],
+    ['Clymene',[1,'Strike, Knight'],'SD',false,false,false,'Heroes','B'],
     ['Prometheus',[1,'Strike Noir, Xun Yu'],'SD',false,false,false,'Heroes','B'],
     ['Selene',[1,'Strike-Freedom, Qiongqi'],'SD',false,false,false,'Heroes','B'],
     ['Corona Australis',[1,'Tallgeese, Xiahou Yuan'],'SD',false,false,false,'Heroes','D','2022-04-07',7.75,false,'Builds/CoronaAustralis.html',['']],
     ['Corona Borealis',[1,'Tallgeese III, Xiahou Dun'],'SD',false,false,false,'Heroes','D','2022-04-08',8.67,false,'Builds/CoronaBorealis.html',['']],
-    ['Coeus',[1,'Unicorn, Long Zun Liu Vei'],'SD',false,false,false,'Heroes','A'],
+    ['Coeus',[1,'Unicorn, Long Zun Liu Vei'],'SD',false,false,false,'Heroes','B'],
     ['Bastiat',[1,'Verde Buster, Sergeante'],'SD',
         false,false,false,'Heroes','E','2021-10-17',8.3,false,'Builds/SDW/Bastiat.html',false,'2022-08-22',models[27],
         [
@@ -8748,7 +8749,7 @@ const projects = [
             ['NewType','https://newtype.us/p/CB9RI7xIzfUuV7wIFaYw/h/30mm-customize-scene-base-06-city-area-ver']
         ],false,false,true,false
     ],
-    ['Battlefield Earth',[2,'Energy Ring Emitter'],'Display',false,false,false,'','A'],
+    ['Battlefield Earth',[2,'Energy Ring Emitter'],'Display',false,false,false,'','B'],
     ['Kataluma',[1,'Hangar Bay'],'Display',
         false,false,false,'','E','2022-02',16.96,true,'Builds/Displays/Kataluma.html',false,'2022-04-04',models[65],
         [
@@ -10962,6 +10963,57 @@ function buildProjectPage(string) {
     else if (modelArray[1] === 10) {
         buildHaro();
     }
+
+
+    /*
+    let variantModelsArray = [];
+    let variantProjectsArray = [];
+
+    let baseModelIDs = modelArray[28];
+
+    for (let i=0;i<baseModelIDs.length;i++) {
+        let baseID = baseModelIDs[i];
+        for (let j=0;j<models.length;j++) {
+            if (models[j][1] === 1 || models[j][1] === 11) {
+                if (models[j][28].includes(baseID)) {
+                    if (!variantModelsArray.includes(models[j])) {
+                        variantModelsArray.push(models[j]);
+                    }
+                }
+            } 
+        }
+    }
+
+    for (i=0;i<variantModelsArray.length;i++) {
+        for (j=0;j<projects.length;j++) {
+            if (variantModelsArray[i] != modelArray) {
+                if (projects[j][14] === variantModelsArray[i] && projects[j][22]) {
+                    if (projectArray[20]) {
+                        if (!projectArray[20].includes(projects[j][0])) {
+                            variantProjectsArray.push(projects[j]);
+                        }
+                    }
+                    else {
+                        variantProjectsArray.push(projects[j]);
+                    }
+                }
+            }
+        }
+    }
+
+    let firstID = baseModelIDs[0]
+    let baseModel = models[firstID];
+    let baseModelName = baseModel[29];
+    if(!baseModel[29]) {
+        baseModelName = models[baseModel[28]][29];
+    }
+    if (variantProjectsArray.length>0) {
+        unhide('.variantHD');
+        popNode(baseModelName+' Variants:','variantTitle');
+        projectLinks(variantProjectsArray.sort(),'variantModels');
+    }
+    */
+
 }
 
 function buildGundam() {
