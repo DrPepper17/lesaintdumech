@@ -777,6 +777,38 @@ const blogArray = [
             ]
         ],
         ['A lot of colors went into this but it did not turn out how I wanted. But oh well this was just an experimentation. Enjoy!']
+    ],
+    [
+        '2024-01-29',
+        'Build of the Week #2',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/Screen_Shot_2024-01-29_at_9.10.25_AM.jpeg',
+        [
+            [
+                'So once again I am proud to announce that ',
+                ['NewType','https://newtype.us',true],
+                ' has chosen me as of one their builds of the week. This time they chose my Shadow Gundam,',
+                ['Red Baron','Builds/Gundams/RedBaron.html'],
+                '.'
+            ],
+        ],
+        ['This is now the second time this has happened and again I am so shocked and honored to have been chosen. Thank you NewType !!!'],
+        [
+            [
+                'Everyone be sure to go check it out. Both my Red Baron ',
+                ['here','Builds/Gundams/RedBaron.html'],
+                '. The Build Page on Newtype ',
+                ['here','https://newtype.us/build/v9U65mqzvBLS4cnT1Q3W',true],
+                '. And the Shadow Gundam product page ',
+                ['here','https://newtype.us/p/RQuAYgB4XXkOwgZaWLOi/h/mg-gf13-021ng-gundam-spiegel',true],
+                ['.']
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/rbaron42.jpg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/rbaron25.jpg']
+        ]
     ]
 ]
 
