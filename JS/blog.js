@@ -793,6 +793,9 @@ const blogArray = [
         ],
         ['This is now the second time this has happened and again I am so shocked and honored to have been chosen. Thank you NewType !!!'],
         [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/Screen_Shot_2024-01-29_at_9.10.25_AM.jpeg']
+        ],
+        [
             [
                 'Everyone be sure to go check it out. Both my Red Baron ',
                 ['here','Builds/Gundams/RedBaron.html'],
@@ -802,9 +805,6 @@ const blogArray = [
                 ['here','https://newtype.us/p/RQuAYgB4XXkOwgZaWLOi/h/mg-gf13-021ng-gundam-spiegel',true],
                 ['.']
             ]
-        ],
-        [
-            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/Screen_Shot_2024-01-29_at_9.10.25_AM.jpeg']
         ],
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/rbaron42.jpg']
