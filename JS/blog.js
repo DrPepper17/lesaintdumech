@@ -804,6 +804,9 @@ const blogArray = [
             ]
         ],
         [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/Screen_Shot_2024-01-29_at_9.10.25_AM.jpeg']
+        ],
+        [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/rbaron42.jpg']
         ],
         [
