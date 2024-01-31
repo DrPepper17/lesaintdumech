@@ -6187,7 +6187,7 @@ const projects = [
         ],['Anthem','Old Glory'],false,true,false
     ],
     ['Old Glory',[1,'Freedom'],'MGSD',
-        false,false,false,'Seed','E','2023-05-06',33,false,'Builds/Gundams/OldGlory.html','America','2023-07-03',models[14],
+        false,false,false,'Seed','E','2023-05-06',34,false,'Builds/Gundams/OldGlory.html','America','2023-07-03',models[14],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/oldglory01_sdLav1PtqioFw5a8sxxjgX.jpeg','Old Glory','img1'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/oldglory02_aTn59wMj3Fgx67X7GmzEZJ.jpeg','Old Glory','img2'],
@@ -6222,13 +6222,29 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/rwb01.jpeg','Liberty Bros','img31'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/rwb02.jpeg','Liberty Bros','img32'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/rwb03.jpeg','Liberty Bros','img33'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/rwb04.jpeg','Liberty Bros','img34']
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/rwb04.jpeg','Liberty Bros','img34'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/oldgloryblazewings01.jpeg','Flame Wings'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/oldgloryblazewings02.jpeg','Flame Wings'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/oldgloryblazewings03.jpeg','Flame Wings'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/oldgloryblazewings04.jpeg','Flame Wings'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/oldgloryblazewings05.jpeg','Flame Wings'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/oldgloryblazewings06.jpeg','Flame Wings'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/oldgloryblazewings07.jpeg','Flame Wings'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/oldgloryblazewings08.jpeg','Flame Wings'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/oldgloryblazewings09.jpeg','Flame Wings'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/oldgloryblazewings10.jpeg','Flame Wings'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/oldgloryblazewings11.jpeg','Flame Wings'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/oldgloryblazewings12.jpeg','Flame Wings'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/oldgloryblazewings13.jpeg','Flame Wings'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/oldgloryblazewings14.jpeg','Flame Wings'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/oldgloryblazewings15.jpeg','Flame Wings']
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/oldglory30_o27ZnVfXuFvfv6c5Kjpz86.jpeg','Profile Photo: Old Glory'],
         'So a year ago I did a project where I restyled Freedom Gundam in the ol\' Red, White and Blue. Since then Bandai created the new MGSD model class and its initial release was the Freedom Gundam. Since I painted the MG Freedom as the Red White and Blue. And I painted the SD Freedom model in the Red White and Blue. It only made sense I had to complete the series by doing the same with the new MGSD Freedom. So without further adew, I present to you my latest project, Old Glory.',false,
         [
             ['Video','https://www.instagram.com/reel/CuQYuUxJm_k/?igshid=YzcxN2Q2NzY0OA=='],
-            ['USA Gundam Store','https://www.usagundamstore.com/products/mgsd-freedom-gundam'],
+            ['USA Gundam Store: MGSD Freedom','https://www.usagundamstore.com/products/mgsd-freedom-gundam'],
+            ['USA Gundam Store: Wings of Light','https://www.usagundamstore.com/products/mgsd-freedom-gundam-wing-of-light-option-set'],
             ['NewType','https://newtype.us/p/YvNO7xYH5IAMfB9d8UZy/h/mgsd-freedom-gundam']
         ],['Anthem','Liberty'],false,true,false
     ],

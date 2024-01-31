@@ -812,6 +812,35 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/rbaron25.jpg']
         ]
+    ],
+    [
+        '2024-01-30',
+        'Flame Wings: Old Glory, New Twist',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/oldgloryblazewings03.jpeg',
+        [
+            [
+                'For this week\'s unveil, it\'s not a new project but an update to a previous project ',
+                ['Old Glory','Builds/Gundams/OldGlory.html'],
+                '.'
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/wingsoflight.jpeg']
+        ],
+        ['Earlier this summer a special effects extra option set for the MGSD Freedom became available called the Wings of Light. Basically an energy trail glow affect for the Freedom Gundam quite similar in appearance to the Voiture Lumiere propulsion system of the Strike-Freedom Gundam. I had already by this point finshed and posted my Old Glory MGSD Freedom build, but I could not turn this special edition down so I immediately placed my pre-order for it.'],
+        ['When the wings arrived I did not like how they looked in their default plastic translucent blue. Blue in general did not fit the color scheme of the Old Glory red tones in general. Plus, since when do I ever turn down an opportunity for a new paint job.'],
+        ['With the Old GLory being primarily red and white, mostly red, I knew I had to make the wing effects a shiny red to compliment it. I then decide to add in an orange and yellow to make it a more fiery affect. And to make it shiny like a fire/energy propulsion I decided to go with a \'candy\' paint teqnique to add the glossy shininess.'],
+        ['I am real proud how this turned out. And it brought the Old Glory all the more to life that it deserved. I can definitley say Old Glory was incomplete till I added this.'],
+        ['Enjoy !'],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/oldgloryblazewings10.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/oldgloryblazewings13.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/oldgloryblazewings14.jpeg']
+        ]
     ]
 ]
 
