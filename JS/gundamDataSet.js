@@ -6223,6 +6223,7 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/rwb02.jpeg','Liberty Bros','img32'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/rwb03.jpeg','Liberty Bros','img33'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/rwb04.jpeg','Liberty Bros','img34'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/flamewing.jpeg','Flame Wing'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/oldgloryblazewings01.jpeg','Flame Wings'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/oldgloryblazewings02.jpeg','Flame Wings'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/oldgloryblazewings03.jpeg','Flame Wings'],
