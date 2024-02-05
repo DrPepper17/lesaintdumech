@@ -841,6 +841,18 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/oldgloryblazewings14.jpeg']
         ]
+    ],
+    [
+        '2024-02-05',
+        'Much Haro About Nothing',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/gharo11.jpeg',
+        [
+            [
+                'Another Haro this week. I am getting some cool new builds wrapped up that I hope to start posting soon so consider this ',
+                ['Green Haro','Builds/Haro/HaroGreen.html'],
+                ' just a filler for now. I will have the cool new projects start posting in a few weeks.'
+            ]
+        ],
     ]
 ]
 

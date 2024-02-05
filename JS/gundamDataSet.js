@@ -4555,6 +4555,32 @@ const models = [
         ['https://hosting.photobucket.com/images/i/lesaintdumech/caocaoisei.jpeg','Cao Cao Wing Gundam Isei'],
         true,
         [54]
+    ],
+    [117,10,'Green Haro',
+        'HaroPla #12 Haro Basic Green Model Kit',
+        'Green',
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/basicgreenharo.jpeg','Green Haro']
     ]
 ];
 
@@ -4607,15 +4633,15 @@ const models = [
 //Pojects
 const projects = [
     //Ad Stella (Mercury)
-    ['Chimkin',[1,'Aerial'],'FM',false,false,false,'Mercury','C','2024-01-05',22.25],
+    ['Chimkin',[1,'Aerial'],'FM',false,false,false,'Mercury','C','2024-01-05',23.21],
     ['Aerial [HG]',[1,'Aerial'],'HG',true,false,false,'Mercury','D','2023-05-30',7.42,false,false,false],
     ['PB Aerial Permet Six [HG]',[1,'Aerial'],'HG',true,true,false,'Mercury','D','2023-09-19',2.83],
-    ['Ariel',[1.5,'Aerial','Mirasoul Flight Pack'],'HG',false,false,false,'Mercury','C','2023-12-10',10.4],
+    ['Ariel',[1.5,'Aerial','Mirasoul Flight Pack'],'HG',false,false,false,'Mercury','D','2023-12-10',12.03],
     ['Morgause',[1,'Aerial'],'HG',false,false,false,'Mercury','C','2024',0.17],
     ['Cherub',[1,'Aerial'],'SD',false,false,false,'Mercury','D','2023-01-10',4.91,false,'Builds/Cherub.html','Angels'],
-    ['Zephon',[1,'Aerial Rebuild'],'HG',false,false,false,'Mercury','C','2023-11-25',15.02],
+    ['Zephon',[1,'Aerial Rebuild'],'HG',false,false,false,'Mercury','D','2023-11-25',16.15],
     ['Dark Samus: Corruption',[1,'Beguir-Pente'],'HG',
-        false,false,false,'Mercury','C','2023-12-23',9.34
+        false,false,false,'Mercury','D','2023-12-23',10.51
     ], 
     ['CAL-A',[1,'Calibarn'],'SD',false,false,false,'Mercury','A'],
     ['CAL-B',[1,'Calibarn'],'SD',false,false,false,'Mercury','A'],
@@ -4687,20 +4713,20 @@ const projects = [
         ],['Malphas','King Leir','Leo Army'],false,true,'1:144'
     ],
     ['EMMI',[1,'Heindree'],'HG',false,false,false,'Mercury','A'],
-    ['Adriel',[1,'LFrith'],'HG',false,false,false,'Mercury','C','2023-12-11',6.18],
+    ['Adriel',[1,'LFrith'],'HG',false,false,false,'Mercury','D','2023-12-11',7.25],
     ['LFrith [HG]',[1,'LFrith'],'HG',true,false,false,'Mercury','D','2023-04-15',2.33,false,false,false],
-    ['PB Anavata',[1,'LFrith Anavata'],'HG',false,true,false,'Mercury','A'],
+    ['Cassiel',[1,'LFrith Anavata'],'HG',false,true,false,'Mercury','A'],
     ['Eisheth',[1,'LFrith Jiu'],'HG',false,true,false,'Mercury','C','2024',0],
-    ['Schwarzette [HG]',[1,'Schwarzette'],'HG',true,false,false,'Mercury','D','2023-10-04',2.33,false,false,false],
-    ['Metatron',[1,'Schwarzette'],'HG',false,false,false,'Mercury','C','2023-11-25',16],
-    ['Samus: Zero Suit',[1,'Suletta Mercury','Miorine Rembran'],'Other',false,false,false,'Mercury','C','2024-01-04',5.42],
+    ['Schwarzette [HG]',[1,'Schwarzette'],'HG',true,false,false,'Mercury','E','2023-10-04',2.33,false,false,false],
+    ['Metatron',[1,'Schwarzette'],'HG',false,false,false,'Mercury','D','2023-11-25',17.15],
+    ['Samus: Zero Suit',[1,'Suletta Mercury','Miorine Rembran'],'Other',false,false,false,'Mercury','D','2024-01-04',7],
 
     //Advanced Generation (Age)
     ['Uriel',[1,'Age-FX'],'SD',false,false,false,'Age','B'],
     ['Gamma Draconis',[1,'Danazine'],'HG',false,false,false,'Age','B'],
 
     //After Colony (Wing)
-    ['Leo Army',[6,'Leo'],'LEO',false,false,false,'Wing','C','2021-10-03',42.28,false,'Builds/Gundams/LeoArmy.html',false],
+    ['Leo Army',[6,'Leo'],'LEO',false,false,false,'Wing','C','2021-10-03',42.69,false,'Builds/Gundams/LeoArmy.html',false],
     ['South Park',[6,'Tallgeese','Epyon','Heavy Arms','Shenlong','Deathscythe','Sandrock'],'SD',
         false,false,false,'Wing','E','2021-06-05',54.42,true,'Builds/uniqueTemplates/SouthPark.html','Practice SDs','2021-06-21',models[6],
         [
@@ -4781,7 +4807,7 @@ const projects = [
             ['NewType','https://newtype.us/p/TOmRKyr7gHBbJij2bFtt/h/sdgg-050-gundam-aquarius']
         ],false,false,true,false
     ],
-    ['Pontus',[1,'Aquarius'],'SD',false,false,false,'Wing','C','2023-11-25',5.95,false,'Builds/Gundams/Pontus.html','Titans',false,models[40]],
+    ['Pontus',[1,'Aquarius'],'SD',false,false,false,'Wing','D','2023-11-25',7.01,false,'Builds/Gundams/Pontus.html','Titans',false,models[40]],
     ['Alucard',[1,'Deathscythe Hell (TV Version'],'HG',
         false,true,false,'Wing','E','2023-08-02',16.38,false,'Builds/PBandai/PBAlucard.html',false,'2023-10-19',models[93],
         [
@@ -5865,7 +5891,7 @@ const projects = [
     ],
     ['Betty',[1,'BuCUE'],'HG',false,false,false,'Seed','B','2024',0,false,'Builds/Gundams/...','First Ladies'],
     ['Nancy',[1,'BuCUE'],'HG',false,false,false,'Seed','B','2024',0,false,'Builds/Gundams/...','First Ladies'],
-    ['Barbara',[1,'BuCUE Hound, Kerberos'],'HG',false,false,false,'Seed','A','2024',0,false,'Builds/Gundams/...','First Ladies'],
+    ['Jacqueline',[1,'BuCUE Hound, Kerberos'],'HG',false,false,false,'Seed','A','2024',0,false,'Builds/Gundams/...','First Ladies'],
     ['Urban Commando',[1,'Buster'],'MG',false,false,false,'Seed','B'],
     ['Calamitous Godzilla',[1,'Calamity'],'FM',false,false,false,'Seed','B'],
     ['Metroid',[1,'Chaos'],'HG',false,false,false,'Seed','A'],
@@ -6243,7 +6269,8 @@ const projects = [
         ['https://hosting.photobucket.com/images/i/lesaintdumech/oldglory30_o27ZnVfXuFvfv6c5Kjpz86.jpeg','Profile Photo: Old Glory'],
         'So a year ago I did a project where I restyled Freedom Gundam in the ol\' Red, White and Blue. Since then Bandai created the new MGSD model class and its initial release was the Freedom Gundam. Since I painted the MG Freedom as the Red White and Blue. And I painted the SD Freedom model in the Red White and Blue. It only made sense I had to complete the series by doing the same with the new MGSD Freedom. So without further adew, I present to you my latest project, Old Glory.',false,
         [
-            ['Video','https://www.instagram.com/reel/CuQYuUxJm_k/?igshid=YzcxN2Q2NzY0OA=='],
+            ['Video 1','https://www.instagram.com/reel/CuQYuUxJm_k/?igshid=YzcxN2Q2NzY0OA=='],
+            ['Video 2','https://www.instagram.com/reel/C2wNoYuuRZf/?igsh=eXd2aHN6cGtrY245'],
             ['USA Gundam Store: MGSD Freedom','https://www.usagundamstore.com/products/mgsd-freedom-gundam'],
             ['USA Gundam Store: Wings of Light','https://www.usagundamstore.com/products/mgsd-freedom-gundam-wing-of-light-option-set'],
             ['NewType','https://newtype.us/p/YvNO7xYH5IAMfB9d8UZy/h/mgsd-freedom-gundam']
@@ -6479,7 +6506,7 @@ const projects = [
         ],false,false,true,'1:144'
     ],
     ['Oppression',[1,'Infinite Justice'],'MG',false,false,false,'Seed','B'],
-    ['Jacqueline',[1,'LaGOWE'],'HG',false,false,false,'Seed','B','2024',0,false,'Builds/Gundams/...','First Ladies'],
+    ['Barbara',[1,'LaGOWE'],'HG',false,false,false,'Seed','B','2024',0,false,'Builds/Gundams/...','First Ladies'],
     ['Zoroaster',[1,'Legend'],'FM',false,false,false,'Seed','B'],
     ['Lightning Striker',[0.5,'Lightning Strike Pack'],'MG',false,true,false,'Seed','B'],
     ['PB Meteors',[1,'Meteor','Meteor I','Meteor II','Freedom','Infinite Justice'],'HG',false,true,false,'Seed','B'],
@@ -6627,7 +6654,7 @@ const projects = [
         ],false,true,true
     ],
     ['Cordelia',[1,'Strike Dagger'],'HG',
-        false,true,false,'Seed','C','2023-12-11',6.17,false,'Builds/Gundams/Cordelia.html','Shakespeare','',models[92]
+        false,true,false,'Seed','D','2023-12-11',7.23,false,'Builds/Gundams/Cordelia.html','Shakespeare','',models[92]
     ],
     ['Samus: Dread Suit',[1,'Strike Dagger'],'HG',
         false,true,false,'Seed','D','2023-03-07',10.89,false,'Builds/Metroid/Dread.html','Metroid','',models[92]
@@ -7196,7 +7223,7 @@ const projects = [
 
     //Post Disaster (IBO)
     ['Thorn',[1,'Barbatos'],'MG',false,false,false,'IBO','B'],
-    ['Deku Knight',[1,'Barbatos'],'MGSD',false,false,false,'IBO','C','2024-01-13',18.33],
+    ['Deku Knight',[1,'Barbatos'],'MGSD',false,false,false,'IBO','C','2024-01-13',19.54],
     ['War Pig',[1,'Barbatos'],'SD',
         false,false,false,'IBO','E','2021-12-13',4.15,false,'Builds/Gundams/WarPig.html','SD Rock','2023-04-18',models[46],
         [
@@ -8257,7 +8284,28 @@ const projects = [
         ],false,false,true,false
     ],
     ['Haro Cloud',[1,'Haropla #12 Basic Green'],'Haro',false,false,false,'','D','2023-04-14',3.27,false,'Builds/hcloud.html','HARO'],
-    ['Haro Green',[1,'Haropla #12 Basic Green'],'Haro',false,false,false,'','D','2023-04-08',2.75,false,'Builds/hgreen.html','HARO'],
+    ['Haro Green',[1,'Haropla #12 Basic Green'],'Haro',
+        false,false,false,'','E','2023-04-08',2.75,false,'Builds/Haro/HaroGreen.html','HARO','2024-02-05',models[117],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/gharo01.jpeg','Green Haro'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/gharo02.jpeg','Green Haro'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/gharo03.jpeg','Green Haro'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/gharo04.jpeg','Green Haro'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/gharo05.jpeg','Green Haro'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/gharo06.jpeg','Green Haro'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/gharo07.jpeg','Green Haro'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/gharo08.jpeg','Green Haro'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/gharo09.jpeg','Green Haro'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/gharo10.jpeg','Green Haro'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/gharo11.jpeg','Green Haro']
+        ],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/gharo04.jpeg','Profile Photo: Green Haro'],false,
+        'Zack #TheLunchDude, Iowa',
+        [
+            ['USA Gundam Store','https://www.usagundamstore.com/products/gundam-build-divers-haropla-12-haro-basic-green-model-kit'],
+            ['NewType','https://newtype.us/p/TDG12UDMNZmRSrV4hGO0/h/haropla-12-haro-basic-green']
+        ],false,false,true,false
+    ],
     ['Haro Lime',[1,'Haropla #12 Basic Green'],'Haro',false,false,false,'','D','2023-04-13',3.34,false,'Builds/hlime.html','HARO'],
     ['Haro Orange',[1,'Haropla #11 Zakrello'],'Haro',false,false,false,'','D','2023-04-11',4.08,false,'Builds/horange.html','HARO'],
     ['Haro Pink',[1,'Haropla #04 Momo Pink'],'Haro',false,false,false,'','D','2023-04-09',2.68,false,'Builds/hpink.html','HARO'],
@@ -8514,7 +8562,7 @@ const projects = [
             ['NewType','https://newtype.us/p/S9nZ4KxUmzbDoDM0HfDd/h/pokemon-charizard-dragonite']
         ],['Vercingetorix'],false,true,false
     ],
-    ['Astronomix',[1,'Gengar'],'Pokemon',false,false,false,'','C','2023-12-11',2.12],
+    ['Astronomix',[1,'Gengar'],'Pokemon',false,false,false,'','D','2023-12-11',2.68],
     ['Granfrog',[1,'Greninja'],'Pokemon',
         false,false,false,false,'E','2021-11-11',5.68,false,'Builds/Pokemon/Granfrog.html',false,'2022-08-17',models[11],
         [
@@ -8538,7 +8586,7 @@ const projects = [
             ['NewType','https://newtype.us/p/dwk8jzQtdPBUWYb5VxT3/h/pokemon-greninja']
         ],false,false,true,false
     ], 
-    ['Brennus',[1,'Groudon'],'Pokemon',false,false,false,'','A'],
+    ['Brennus',[1,'Groudon'],'Pokemon',false,false,false,'','B'],
     ['Cassivellaunus',[1,'Gyarados'],'Pokemon',
         false,false,false,'','D','2023-09-18',5.39
     ],
@@ -8546,16 +8594,16 @@ const projects = [
     ['Lutetia',[1,'Lucario'],'Pokemon',
         false,false,false,'','D','2023-10-03',5.09
     ],
-    ['Chanticleerix',[1,'Lugia'],'Pokemon',false,false,false,'','C','2023-12-13',3.45],
+    ['Chanticleerix',[1,'Lugia'],'Pokemon',false,false,false,'','C','2023-12-13',3.68],
     ['Unhygienix',[1,'Magikarp'],'Pokemon',false,false,false,'','A'],
     ['Cacofonix',[1,'Metagross'],'Pokemon',
         false,false,false,'','D','2023-09-18',4.54
     ],
     ['Monosyllabix',[1,'Mew'],'Pokemon',
-        false,false,false,'','C','2023-10-22',1.42
+        false,false,false,'','D','2023-10-22',2.04
     ],
-    ['Polysyllabix',[1,'Mewtwo'],'Pokemon',false,false,false,'','C','2023-11-25',4.27],
-    ['Picanmix',[1,'Piplup'],'Pokemon',false,false,false,'','C','2023-11-25',3.38],
+    ['Polysyllabix',[1,'Mewtwo'],'Pokemon',false,false,false,'','D','2023-11-25',4.83],
+    ['Picanmix',[1,'Piplup'],'Pokemon',false,false,false,'','D','2023-11-25',3.95],
     ['Getafix',[1,'Rayquaza'],'Pokemon',
         false,false,false,'','D','2023-09-18',5.74
     ],
@@ -8565,9 +8613,9 @@ const projects = [
     ], 
     ['Blinix',[1,'Squirtle'],'Pokemon',false,false,false,'','A'],
     ['Tusk',[1,'Tepig'],'Pokemon',
-        false,false,false,'','C','2023-10-22',2.53
+        false,false,false,'','D','2023-10-22',3.1
     ], 
-    ['Prolix',[1,'Zekrom'],'Pokemon',false,false,false,'','C','2023-12-13',3.47],
+    ['Prolix',[1,'Zekrom'],'Pokemon',false,false,false,'','D','2023-12-13',4.05],
     
     //Digimon
     ['Heimdall',[1,'Alphamon'],'Digimon',false,false,false,'','A'],
