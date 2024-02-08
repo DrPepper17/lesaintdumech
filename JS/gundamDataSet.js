@@ -7081,8 +7081,8 @@ const projects = [
     ],
     
     //Future Century (G Gundam)
-    ['Burning Gundam [RG]',[2,'God Gundam','PB God Gundam Expansion Set','KOSMOS LED Upgrade For RG God Gundam'],'RG',
-        true,true,false,'G','D','2022-09-07',19,true,'Builds/Specials/GodStraight.html',false,'2024-02-19',models[118],
+    ['King of Hearts',[2,'God Gundam','PB God Gundam Expansion Set','KOSMOS LED Upgrade For RG God Gundam'],'RG',
+        true,true,false,'G','E','2022-09-07',19,true,'Builds/Specials/KHeart.html',false,'2024-02-19',models[118],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/rgodpbstr01.jpeg','God Gundam'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/rgodpbstr02.jpeg','God Gundam'],
@@ -7244,7 +7244,7 @@ const projects = [
             ['NewType: RG God Gundam','https://newtype.us/p/ORUrU23xYDLWOgNOm3R1/h/rg-37-god-gundam'],
             ['NewType: KOSMOS Lights','https://newtype.us/p/YW5VjGYZ0dko4WQAeCsP/h/kosmos-led-upgrade-for-rg-god-gundam'],
             ['Premium Bandai: RG God Gundam Expansion Set','https://p-bandai.com/us/item/N2619351001001']
-        ],false,false,false,'1:144','Burning Gundam','KOSMOS God Expansion Set','GOD'
+        ],false,false,false,'1:144'
     ],
     ['Michael',[1,'Burning Gundam'],'SD',false,false,false,'G','B'],
     ['Furcas',[1,'Dark Army'],'HG',false,false,false,'G','B'],
