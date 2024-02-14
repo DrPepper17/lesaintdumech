@@ -853,6 +853,24 @@ const blogArray = [
                 ' just a filler for now. I will have the cool new projects start posting in a few weeks.'
             ]
         ],
+    ],
+    [
+        '2024-02-14',
+        'Valentines Day 2024',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/rgodpbstr166.jpeg',
+        [
+            [
+                'Happy Valentines Day!! In spirit of the Holiday I could not think of any more apt build than the ',
+                ['King of Hearts','Builds/Specials/KHeart.html'],
+                ', my Real Grade Burning/God Gundam straight build with the P-Bandai expansion pack and Kosmos light set. In spirit of the holiday, enjoy our new Cupid.'
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/rgodpbstr153.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/rgodpbstr142.jpeg']
+        ]
     ]
 ]
 

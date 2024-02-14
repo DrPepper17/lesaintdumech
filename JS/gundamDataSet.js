@@ -197,8 +197,8 @@ const models = [
         true,
         [85]
     ],
-    [2,1,'Gundam Spiegel',
-        'GF13-021NG Gundam Spiegel',
+    [2,1,'Shadow Gundam',
+        'GF13-021NG Shadow Gundam',
         'GF13-021NG',
         'Mobile Fighter G Gundam',
         false,
@@ -222,12 +222,12 @@ const models = [
         ['Mobile Trace System','Stealth Mode','Core Lander'],
         'Kunio Okawara',
         false,
-        'Shadow Gundam',
+        'Gundam Spiegel',
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/spiegel_pvRFRZsKNqpmuxQ7DdZaoA.jpeg','Spiegel Gundam'],
         true,
         [2],
-        'Spiegel'
+        'Shadow Gundam'
     ],
     [3,4,'Chevy Bel-Air',
         'Chevrolet 1957 Bel-Air',
@@ -4255,13 +4255,13 @@ const models = [
         'Mobile Fighter G Gundam',
         false,
         false,
-        ['JDG-00X Devil Gindam'],
+        ['JDG-00X Dark Gindam'],
         'Future Century',
         [59,'59 F.C.',60],
         'Kyoji Kasshu',
         false,
         'Raizo Kasshu',
-        ['Neo Japan','Devil Gundam'],
+        ['Neo Japan','Dark Gundam'],
         false,
         false,
         'Gundarium alloy super-ceramic composite rare metal hybrid',
@@ -4285,7 +4285,7 @@ const models = [
         ['https://hosting.photobucket.com/images/i/lesaintdumech/ultimategundam.jpeg','Ultimate Gundam'],
         true,
         [109],
-        'Devil Gundam'
+        'Dark Gundam'
     ],
     [110,1,'Musha Gundam',
         false,
@@ -4492,19 +4492,19 @@ const models = [
         false,
         [99]
     ],
-    [115,1,'Devil Gundam',
-        'JDG-00X Devil Gundam',
+    [115,1,'Dark Gundam',
+        'JDG-00X Dark Gundam',
         'JDG-00X',
         'Mobile Fighter G Gundam',
         false,
         ['Ultimate Gundam'],
-        ['Devil Gundam Core','Colony Devil Gundam'],
+        ['Dark Gundam Core','Colony Dark Gundam'],
         'Future Century',
         [59,'59 F.C.',60],
         'Kyoji Kasshu',
         ['Rain Mikamura'],
         'Raizo Kasshu',
-        ['Devil Gundam'],
+        ['Dark Gundam'],
         [23.9,'23.9 Meters'],
         [84.9,'84.9 Metric Tons'],
         'DG-Cell Infused Gundarium Alloy',
@@ -4523,7 +4523,7 @@ const models = [
         ],
         'Hajime Katoki',
         false,
-        'Dark Gundam',
+        'Devil Gundam',
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/devilgund.jpeg','Devil Gundam'],
         true,
@@ -4583,8 +4583,8 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/basicgreenharo.jpeg','Green Haro']
     ],
-    [118,1,'God Gundam',
-        'GF13-017NJII God Gundam',
+    [118,1,'Burning Gundam',
+        'GF13-017NJII Burning Gundam',
         'GF13-017NJII',
         'Mobile Fighter G Gundam',
         false,
@@ -4617,13 +4617,41 @@ const models = [
         ],
         'Kunio Okawara',
         false,
-        'Burning Gundam',
+        'God Gundam',
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/godgundam.jpeg','God Gundam'],
         true,
         ['118'],
         'God Gundam'
-    ]
+    ],
+    [119,1,'SD Zhuge Liang Freedom Gundam',
+        'SD Zhuge Liang Freedom Gundam',
+        false,
+        'SDW Heroes',
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        'XXXG-01S2 Altron Gundam',
+        false,
+        false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/zhanghealtron.jpeg','SD Zhang He Altron Gundam'],
+        true,
+        [87]
+    ],
 ];
 
 /*
@@ -4675,7 +4703,7 @@ const models = [
 //Pojects
 const projects = [
     //Ad Stella (Mercury)
-    ['Chimkin',[1,'Aerial'],'FM',false,false,false,'Mercury','C','2024-01-05',23.21],
+    ['Chimkin',[1,'Aerial'],'FM',false,false,false,'Mercury','C','2024-01-05',23.54],
     ['Aerial [HG]',[1,'Aerial'],'HG',true,false,false,'Mercury','D','2023-05-30',7.42,false,false,false],
     ['PB Aerial Permet Six [HG]',[1,'Aerial'],'HG',true,true,false,'Mercury','D','2023-09-19',2.83],
     ['Ariel',[1.5,'Aerial','Mirasoul Flight Pack'],'HG',false,false,false,'Mercury','D','2023-12-10',12.03],
@@ -4768,7 +4796,7 @@ const projects = [
     ['Gamma Draconis',[1,'Danazine'],'HG',false,false,false,'Age','B'],
 
     //After Colony (Wing)
-    ['Leo Army',[6,'Leo'],'LEO',false,false,false,'Wing','C','2021-10-03',42.69,false,'Builds/Gundams/LeoArmy.html',false],
+    ['Leo Army',[6,'Leo'],'LEO',false,false,false,'Wing','C','2021-10-03',42.94,false,'Builds/Gundams/LeoArmy.html',false],
     ['South Park',[6,'Tallgeese','Epyon','Heavy Arms','Shenlong','Deathscythe','Sandrock'],'SD',
         false,false,false,'Wing','E','2021-06-05',54.42,true,'Builds/uniqueTemplates/SouthPark.html','Practice SDs','2021-06-21',models[6],
         [
@@ -7082,7 +7110,7 @@ const projects = [
     
     //Future Century (G Gundam)
     ['King of Hearts',[2,'God Gundam','PB God Gundam Expansion Set','KOSMOS LED Upgrade For RG God Gundam'],'RG',
-        true,true,false,'G','E','2022-09-07',19,true,'Builds/Specials/KHeart.html',false,'2024-02-19',models[118],
+        true,true,false,'G','E','2022-09-07',19,true,'Builds/Specials/KHeart.html',false,'2024-02-14',models[118],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/rgodpbstr01.jpeg','God Gundam'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/rgodpbstr02.jpeg','God Gundam'],
@@ -7233,18 +7261,32 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/rgodpbstr147.jpeg','God Gundam: KOSMOS LED set'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/rgodpbstr148.jpeg','God Gundam: KOSMOS LED set'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/rgodpbstr149.jpeg','God Gundam: KOSMOS LED set'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/rgodpbstr150.jpeg','God Gundam: KOSMOS LED set']
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/rgodpbstr150.jpeg','God Gundam: KOSMOS LED set'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/rgodpbstr154.jpeg','King of Hearts'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/rgodpbstr155.jpeg','King of Hearts'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/rgodpbstr156.jpeg','King of Hearts'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/rgodpbstr157.jpeg','King of Hearts'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/rgodpbstr158.jpeg','King of Hearts'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/rgodpbstr159.jpeg','King of Hearts'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/rgodpbstr160.jpeg','King of Hearts'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/rgodpbstr161.jpeg','King of Hearts'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/rgodpbstr162.jpeg','King of Hearts'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/rgodpbstr163.jpeg','King of Hearts'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/rgodpbstr164.jpeg','King of Hearts'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/rgodpbstr165.jpeg','King of Hearts'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/rgodpbstr166.jpeg','King of Hearts'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/rgodpbstr167.jpeg','King of Hearts']
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/rgodpbstr135.jpeg','Profile Photo: PB God Gundam'],
         'Several kits going on here. First the brand new, well at this point \'relatively\' new, Real Grade God Gundam straight build. Second, the Premium-Bandai God Gundam expansion set. And third, the KOSMOS God Gundam led lights set. All of these were pretty cool. And combined they\'re even cooler. Was my first time as well using the KOSMOS brand LEDs and they came out really neat. The photo stills do not do them justice. You have to watch their video to see them in action. Againt I do not typically post my straight builds. But this one is a little extra something special that I just had to.',false,
         [
-            ['LED Video',''],
+            ['Video',''],
             ['USA Gundam Store: RG God Gundam','https://www.usagundamstore.com/products/rg-1-144-37-god-gundam'],
             ['USA Gundam Store: KOSMOS Lights','https://www.usagundamstore.com/products/kosmos-led-funnel-effect-for-rg-god-gundam'],
             ['NewType: RG God Gundam','https://newtype.us/p/ORUrU23xYDLWOgNOm3R1/h/rg-37-god-gundam'],
             ['NewType: KOSMOS Lights','https://newtype.us/p/YW5VjGYZ0dko4WQAeCsP/h/kosmos-led-upgrade-for-rg-god-gundam'],
             ['Premium Bandai: RG God Gundam Expansion Set','https://p-bandai.com/us/item/N2619351001001']
-        ],false,false,false,'1:144'
+        ],false,false,true,'1:144','God Gundam'
     ],
     ['Michael',[1,'Burning Gundam'],'SD',false,false,false,'G','B'],
     ['Furcas',[1,'Dark Army'],'HG',false,false,false,'G','B'],
@@ -8260,7 +8302,28 @@ const projects = [
     
     //SD Heroes 
     ['Artemis',[1,'00, Zhao Yun'],'SD',false,false,false,'Heroes','B'],
-    ['Oceanus',[1,'Altron, Zhang He'],'SD',false,false,false,'Heroes','D','2022-04-06',5.42,false,'Builds/Oceanus.html',['']],
+    ['Oceanus',[1,'Altron, Zhang He'],'SD',
+        false,false,false,'Heroes','E','2022-04-06',5.42,false,'Builds/SDW/Oceanus.html',false,'2024-02-19',models[119],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/oceanus01.jpeg','Oceanus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/oceanus02.jpeg','Oceanus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/oceanus03.jpeg','Oceanus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/oceanus04.jpeg','Oceanus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/oceanus05.jpeg','Oceanus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/oceanus06.jpeg','Oceanus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/oceanus07.jpeg','Oceanus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/oceanus08.jpeg','Oceanus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/oceanus09.jpeg','Oceanus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/oceanus10.jpeg','Oceanus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/oceanus11.jpeg','Oceanus']
+        ],['https://hosting.photobucket.com/images/i/lesaintdumech/oceanus06.jpeg','Profile Photo: Oceanus'],
+        'Oceanus, Green titan of all fresh water.',false,
+        [
+            ['Video',''],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/gundam-sd-sangoku-soketsuden-14-zhang-he-altron-gundam-model-kit'],
+            ['NewType','https://newtype.us/p/n0AqKEN7FXhplk5gjZnc/h/sd-sangoku-soketsuden-14-zhang-he-altron-gundam']
+        ],false,true,false
+    ],
     ['Eurybia',[1,'Akatsuki, Zhou Yu'],'SD',false,false,false,'Heroes','B'],
     ['Nyx',[1,'Astray, Sun Ce'],'SD',false,false,false,'Heroes','B'],
     ['Valac',[1,'Astray, Sun Jian'],'SD',false,false,false,'Heroes','B','',0,false,'','Ars Goetia'],
