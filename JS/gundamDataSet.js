@@ -4624,8 +4624,8 @@ const models = [
         ['118'],
         'God Gundam'
     ],
-    [119,1,'SD Zhuge Liang Freedom Gundam',
-        'SD Zhuge Liang Freedom Gundam',
+    [119,1,'SD Zhang He Altron Gundam',
+        'SD Zhang He Altron Gundam',
         false,
         'SDW Heroes',
         false,
@@ -4707,7 +4707,7 @@ const projects = [
     ['Aerial [HG]',[1,'Aerial'],'HG',true,false,false,'Mercury','D','2023-05-30',7.42,false,false,false],
     ['PB Aerial Permet Six [HG]',[1,'Aerial'],'HG',true,true,false,'Mercury','D','2023-09-19',2.83],
     ['Ariel',[1.5,'Aerial','Mirasoul Flight Pack'],'HG',false,false,false,'Mercury','D','2023-12-10',12.03],
-    ['Morgause',[1,'Aerial'],'HG',false,false,false,'Mercury','C','2024',0.17],
+    ['Morgause',[1,'Aerial'],'HG',false,false,false,'Mercury','C','2024-02-16',0.63],
     ['Cherub',[1,'Aerial'],'SD',false,false,false,'Mercury','D','2023-01-10',4.91,false,'Builds/Cherub.html','Angels'],
     ['Zephon',[1,'Aerial Rebuild'],'HG',false,false,false,'Mercury','D','2023-11-25',16.15],
     ['Dark Samus: Corruption',[1,'Beguir-Pente'],'HG',
@@ -4786,7 +4786,7 @@ const projects = [
     ['Adriel',[1,'LFrith'],'HG',false,false,false,'Mercury','D','2023-12-11',7.25],
     ['LFrith [HG]',[1,'LFrith'],'HG',true,false,false,'Mercury','D','2023-04-15',2.33,false,false,false],
     ['Cassiel',[1,'LFrith Anavata'],'HG',false,true,false,'Mercury','B'],
-    ['Eisheth',[1,'LFrith Jiu'],'HG',false,true,false,'Mercury','C','2024',0],
+    ['Eisheth',[1,'LFrith Jiu'],'HG',false,true,false,'Mercury','C','2024-02-16',0.58],
     ['Schwarzette [HG]',[1,'Schwarzette'],'HG',true,false,false,'Mercury','E','2023-10-04',2.33,false,false,false],
     ['Metatron',[1,'Schwarzette'],'HG',false,false,false,'Mercury','D','2023-11-25',17.15],
     ['Samus: Zero Suit',[1,'Suletta Mercury','Miorine Rembran'],'Other',false,false,false,'Mercury','D','2024-01-04',7],
@@ -5961,10 +5961,10 @@ const projects = [
     ],
     ['Betty',[1,'BuCUE'],'HG',false,false,false,'Seed','B','2024',0,false,'Builds/Gundams/...','First Ladies'],
     ['Nancy',[1,'BuCUE'],'HG',false,false,false,'Seed','B','2024',0,false,'Builds/Gundams/...','First Ladies'],
-    ['Jacqueline',[1,'BuCUE Hound, Kerberos'],'HG',false,false,false,'Seed','A','2024',0,false,'Builds/Gundams/...','First Ladies'],
+    ['Jacqueline',[1,'BuCUE Hound, Kerberos'],'HG',false,false,false,'Seed','B','2024',0,false,'Builds/Gundams/...','First Ladies'],
     ['Urban Commando',[1,'Buster'],'MG',false,false,false,'Seed','B'],
     ['Calamitous Godzilla',[1,'Calamity'],'FM',false,false,false,'Seed','B'],
-    ['Metroid',[1,'Chaos'],'HG',false,false,false,'Seed','A'],
+    ['Metroid',[1,'Chaos'],'HG',false,false,false,'Seed','B'],
     ['Armageddon',[2.5,'Dagger L','Dagger L','PB Dagger Expansion Pack'],'HG',
         false,true,false,'Seed','E','2022-03-06',28.5,false,'Builds/uniqueTemplates/Armageddon.html',false,'2022-05-23',models[25],
         [
@@ -6072,7 +6072,7 @@ const projects = [
             ['NewType','https://newtype.us/p/V3s94PjelBrA0T06Q673/h/hgce-237-gat-o2l2-dagger-l']
         ],['Armageddon','King Leir','PB Strike Daggers'],false,false,'1:144'
     ],
-    ['Joan',[1,'Dagger 105 + Gunbarrel'],'HG',false,false,false,'Seed','A'],
+    ['Joan',[1,'Dagger 105 + Gunbarrel'],'HG',false,false,false,'Seed','B'],
     ['Charizard',[1,'Destiny'],'MG',false,false,false,'Seed','B'],
     ['Charizard X',[1,'Destiny'],'SD',
         false,false,false,'Seed','E','2021-10-10',8.13,false,'Builds/Gundams/CharizardX.html',false,'2022-05-16',models[33],
@@ -6586,6 +6586,7 @@ const projects = [
     ['Rodan',[1,'Raider'],'FM',false,false,false,'Seed','A'],
     ['La Reine',[0.5,'Raijin Striker'],'MG',false,true,false,'Seed','A'],
     ['Rising Freedom SD',[1,'Rising Freedom'],'SD',false,false,false,'Seed','A'],
+    ['Revolution',[1,'Rising Freedom'],'HG',false,false,false,'Seed','C','2024-02-18',0.75],
     ['Blue Angels',[3,'Skygrasper','Skygrasper','Skygrasper'],'RG',
         false,false,false,'Seed','E','2022-12-05',22,true,'Builds/Gundams/BlueAngels.html',false,'2022-12-26',models[30],
         [
@@ -7875,7 +7876,7 @@ const projects = [
     ['Rhea',[1,'RX-75 Guntank'],'SD',false,false,false,'UC','B'],
     ['Metroid [Zeta]',[1,'Hygogg'],'HG',false,false,false,'UC','A'],
     ['Theia',[1,'Kshatriya'],'SD',false,false,false,'UC','D','2022-12-08',12.03,false,'Builds/Theia.html',['']],
-    ['Nachtigall',[1,'Nightingale'],'SD',false,false,false,'UC','C','2024-01-16',2.17],
+    ['Nachtigall',[1,'Nightingale'],'SD',false,false,false,'UC','C','2024-01-16',4.54],
     ['Mnemosyne',[1,'Neue Ziuel'],'SD',false,false,false,'UC','B'],
     ['\u03C0 (pi)',[1,'Nu Gundam'],'SD',
         false,false,false,'UC','E','2021-06-06',15.66,false,'Builds/Gundams/Pi.html','Practice SDs','2021-06-22',models[13],
@@ -8319,10 +8320,10 @@ const projects = [
         ],['https://hosting.photobucket.com/images/i/lesaintdumech/oceanus06.jpeg','Profile Photo: Oceanus'],
         'Oceanus, Green titan of all fresh water.',false,
         [
-            ['Video',''],
+            ['Video','https://www.instagram.com/reel/C3j51sjutIR/?igsh=MWw1b2dxNHp6czRmdA=='],
             ['USA Gundam Store','https://www.usagundamstore.com/products/gundam-sd-sangoku-soketsuden-14-zhang-he-altron-gundam-model-kit'],
             ['NewType','https://newtype.us/p/n0AqKEN7FXhplk5gjZnc/h/sd-sangoku-soketsuden-14-zhang-he-altron-gundam']
-        ],false,true,false
+        ],false,true,true
     ],
     ['Eurybia',[1,'Akatsuki, Zhou Yu'],'SD',false,false,false,'Heroes','B'],
     ['Nyx',[1,'Astray, Sun Ce'],'SD',false,false,false,'Heroes','B'],
@@ -8701,7 +8702,7 @@ const projects = [
     ],
     
     //Pokemon
-    ['Cetautomatix',[1,'Arceus'],'Pokemon',false,false,false,'','C','2024',0.08],
+    ['Cetautomatix',[1,'Arceus'],'Pokemon',false,false,false,'','C','2024-02-16',0.54],
     ['Obelix',[1,'Bulbasaur'],'Pokemon',
         false,false,false,'','E','2023-09-13',3.07,false,'Builds/Pokemon/Obelix.html',false,'2023-10-23',models[94],
         [
@@ -8855,7 +8856,7 @@ const projects = [
             ['NewType','https://newtype.us/p/dwk8jzQtdPBUWYb5VxT3/h/pokemon-greninja']
         ],false,false,true,false
     ], 
-    ['Brennus',[1,'Groudon'],'Pokemon',false,false,false,'','B'],
+    ['Brennus',[1,'Groudon'],'Pokemon',false,false,false,'','C','2024-02-16',.92],
     ['Cassivellaunus',[1,'Gyarados'],'Pokemon',
         false,false,false,'','D','2023-09-18',5.39
     ],

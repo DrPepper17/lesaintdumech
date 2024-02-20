@@ -871,6 +871,18 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/rgodpbstr142.jpeg']
         ]
+    ],
+    [
+        '2024-02-20',
+        'Titan of the Sea',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/oceanus11.jpeg',
+        [
+            [
+                'Am a day late this week at posting. In fairness to me Monday was President\'s day and I was busy taking care of chores and attending festivities. But a day late aint that bad. For this week I present to you ',
+                ['Oceanus','Builds/SDW/Oceanus.html'],
+                ', the water titan who ruled over all the fresh waters of the Earth and the Seas. Enjoy.'
+            ]
+        ]
     ]
 ]
 
