@@ -852,7 +852,7 @@ const blogArray = [
                 ['Green Haro','Builds/Haro/HaroGreen.html'],
                 ' just a filler for now. I will have the cool new projects start posting in a few weeks.'
             ]
-        ],
+        ]
     ],
     [
         '2024-02-14',
@@ -881,6 +881,18 @@ const blogArray = [
                 'Am a day late this week at posting. In fairness to me Monday was President\'s day and I was busy taking care of chores and attending festivities. But a day late aint that bad. For this week I present to you ',
                 ['Oceanus','Builds/SDW/Oceanus.html'],
                 ', the water titan who ruled over all the fresh waters of the Earth and the Seas. Enjoy.'
+            ]
+        ]
+    ],
+    [
+        '2024-02-26',
+        'Meet Missus Pink',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/pinkharo03.jpg',
+        [
+            [
+                'February is almost over and to wrap it up this week I\'m reveiling another Haro. This week is ',
+                ['Pink','Builds/Haro/HaroPink.html'],
+                '. Valentines was two weeks ago so I figured this could still be relevant.'
             ]
         ]
     ]
