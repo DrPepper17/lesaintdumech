@@ -4677,6 +4677,34 @@ const models = [
         false,
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/pinkharo.jpg','Pink Haro']
+    ],
+    [121,1,'SD Xiahou Yuan Tallgeese',
+        'SD Xiahou Yuan Tallgeese',
+        false,
+        'SDW Heroes',
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        'OZ-00MS Tallgeese',
+        false,
+        false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/XiahouYuan.jpeg','SD Xiahou Yuan Tallgeese'],
+        false,
+        [47]
     ]
 ];
 
@@ -4733,7 +4761,7 @@ const projects = [
     ['Aerial [HG]',[1,'Aerial'],'HG',true,false,false,'Mercury','D','2023-05-30',7.42,false,false,false],
     ['PB Aerial Permet Six [HG]',[1,'Aerial'],'HG',true,true,false,'Mercury','D','2023-09-19',2.83],
     ['Ariel',[1.5,'Aerial','Mirasoul Flight Pack'],'HG',false,false,false,'Mercury','D','2023-12-10',12.03],
-    ['Morgause',[1,'Aerial'],'HG',false,false,false,'Mercury','C','2024-02-16',0.63],
+    ['Morgause',[1,'Aerial'],'HG',false,false,false,'Mercury','C','2024-02-16',2.21],
     ['Cherub',[1,'Aerial'],'SD',false,false,false,'Mercury','D','2023-01-10',4.91,false,'Builds/Cherub.html','Angels'],
     ['Zephon',[1,'Aerial Rebuild'],'HG',false,false,false,'Mercury','D','2023-11-25',16.15],
     ['Dark Samus: Corruption',[1,'Beguir-Pente'],'HG',
@@ -4744,7 +4772,7 @@ const projects = [
     ['CAL-C',[1,'Calibarn'],'SD',false,false,false,'Mercury','A'],
     ['Abaddon',[1,'Calibarn'],'HG',false,false,false,'Mercury','C','2023-11-25',17.81],
     ['Calibarn [HG]',[1,'Calibarn'],'HG',true,false,false,'Mercury','D','2023-08-22',2.83,false,false,false],
-    ['Arthur',[1,'Calibarn'],'HG',false,false,false,'Mercury','C','2024',0.08],
+    ['Arthur',[1,'Calibarn'],'HG',false,false,false,'Mercury','C','2024-03-01',2.38],
     ['Azrael',[1,'Dilanza, Guel\'s'],'HG',
         false,false,false,'Mercury','E','2023-01-05',12.14,false,'Builds/Gundams/Azrael.html','Angels','2023-02-27',models[26],
         [
@@ -4771,7 +4799,7 @@ const projects = [
     ['Dark Samus: Echoes',[1,'Gundvolva'],'HG',
         false,false,false,'Mercury','D','2023-10-11',9.5,false,'Builds/Metroid/DarkSamusEchoes.html','Metroid'
     ],
-    ['The Nazarene',[1,'Gundvolva'],'HG',false,false,false,'Mercury','C','2024',0], 
+    ['The Nazarene',[1,'Gundvolva'],'HG',false,false,false,'Mercury','C','2024-03-01',2.70], 
     ['Dobiel',[1,'Gundvolva'],'HG',
         false,false,false,'Mercury','E','2023-08-07',12.7,true,'Builds/Gundams/Dobiel.html','Angels','2023-09-25',models[91],
         [
@@ -4812,7 +4840,7 @@ const projects = [
     ['Adriel',[1,'LFrith'],'HG',false,false,false,'Mercury','D','2023-12-11',7.25],
     ['LFrith [HG]',[1,'LFrith'],'HG',true,false,false,'Mercury','D','2023-04-15',2.33,false,false,false],
     ['Cassiel',[1,'LFrith Anavata'],'HG',false,true,false,'Mercury','B'],
-    ['Eisheth',[1,'LFrith Jiu'],'HG',false,true,false,'Mercury','C','2024-02-16',1.58],
+    ['Eisheth',[1,'LFrith Jiu'],'HG',false,true,false,'Mercury','C','2024-02-16',2.17],
     ['Schwarzette [HG]',[1,'Schwarzette'],'HG',true,false,false,'Mercury','E','2023-10-04',2.33,false,false,false],
     ['Metatron',[1,'Schwarzette'],'HG',false,false,false,'Mercury','D','2023-11-25',17.15],
     ['Samus: Zero Suit',[1,'Suletta Mercury','Miorine Rembran'],'Other',false,false,false,'Mercury','D','2024-01-04',7],
@@ -6612,7 +6640,7 @@ const projects = [
     ['Rodan',[1,'Raider'],'FM',false,false,false,'Seed','A'],
     ['La Reine',[0.5,'Raijin Striker'],'MG',false,true,false,'Seed','A'],
     ['Rising Freedom SD',[1,'Rising Freedom'],'SD',false,false,false,'Seed','A'],
-    ['Revolution',[1,'Rising Freedom'],'HG',false,false,false,'Seed','C','2024-02-18',4.67],
+    ['Revolution',[1,'Rising Freedom'],'HG',false,false,false,'Seed','C','2024-02-18',5.02],
     ['Blue Angels',[3,'Skygrasper','Skygrasper','Skygrasper'],'RG',
         false,false,false,'Seed','E','2022-12-05',22,true,'Builds/Gundams/BlueAngels.html',false,'2022-12-26',models[30],
         [
@@ -7902,7 +7930,7 @@ const projects = [
     ['Rhea',[1,'RX-75 Guntank'],'SD',false,false,false,'UC','B'],
     ['Metroid [Zeta]',[1,'Hygogg'],'HG',false,false,false,'UC','A'],
     ['Theia',[1,'Kshatriya'],'SD',false,false,false,'UC','D','2022-12-08',12.03,false,'Builds/Theia.html',['']],
-    ['Nachtigall',[1,'Nightingale'],'SD',false,false,false,'UC','C','2024-01-16',4.54],
+    ['Nachtigall',[1,'Nightingale'],'SD',false,false,false,'UC','C','2024-01-16',5.88],
     ['Mnemosyne',[1,'Neue Ziuel'],'SD',false,false,false,'UC','B'],
     ['\u03C0 (pi)',[1,'Nu Gundam'],'SD',
         false,false,false,'UC','E','2021-06-06',15.66,false,'Builds/Gundams/Pi.html','Practice SDs','2021-06-22',models[13],
@@ -8429,7 +8457,28 @@ const projects = [
     ['Clymene',[1,'Strike, Knight'],'SD',false,false,false,'Heroes','B'],
     ['Prometheus',[1,'Strike Noir, Xun Yu'],'SD',false,false,false,'Heroes','B'],
     ['Selene',[1,'Strike-Freedom, Qiongqi'],'SD',false,false,false,'Heroes','B'],
-    ['Corona Australis',[1,'Tallgeese, Xiahou Yuan'],'SD',false,false,false,'Heroes','D','2022-04-07',7.75,false,'Builds/CoronaAustralis.html',['']],
+    ['Corona Australis',[1,'Tallgeese, Xiahou Yuan'],'SD',
+        false,false,false,'Heroes','E','2022-04-07',7.75,false,'Builds/SDW/CoronaAustralis.html',false,'2024-03-07',models[121],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/coraust01.jpeg','Corona Australis'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/coraust02.jpeg','Corona Australis'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/coraust03.jpeg','Corona Australis'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/coraust04.jpeg','Corona Australis'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/coraust05.jpeg','Corona Australis'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/coraust06.jpeg','Corona Australis'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/coraust07.jpeg','Corona Australis'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/coraust08.jpeg','Corona Australis'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/coraust09.jpeg','Corona Australis'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/coraust10.jpeg','Corona Australis'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/coraust11.jpeg','Corona Australis']
+        ],['https://hosting.photobucket.com/images/i/lesaintdumech/coraust10.jpeg','Profile Photo: Corona Australis'],
+        'Corona Australis, the Northern Throne. The Crown of the Warmth and Sun.',false,
+        [
+            ['Video','https://www.instagram.com/reel/C4OY8rYOYeY/?igsh=c251ODd4YnVwOTZ3'],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/gundam-sd-sangoku-soketsuden-17-xiahou-yuan-tallgeese-model-kit'],
+            ['NewType','https://newtype.us/p/RHWvllGELThf3TsNAGPU/h/sd-sangoku-soketsuden-17-xiahou-yuan-tallgeese']
+        ],false,true,true
+    ],
     ['Corona Borealis',[1,'Tallgeese III, Xiahou Dun'],'SD',false,false,false,'Heroes','D','2022-04-08',8.67,false,'Builds/CoronaBorealis.html',['']],
     ['Coeus',[1,'Unicorn, Long Zun Liu Vei'],'SD',false,false,false,'Heroes','B'],
     ['Bastiat',[1,'Verde Buster, Sergeante'],'SD',
@@ -8755,7 +8804,7 @@ const projects = [
     ],
     
     //Pokemon
-    ['Cetautomatix',[1,'Arceus'],'Pokemon',false,false,false,'','C','2024-02-16',0.71],
+    ['Cetautomatix',[1,'Arceus'],'Pokemon',false,false,false,'','C','2024-02-16',1.33],
     ['Obelix',[1,'Bulbasaur'],'Pokemon',
         false,false,false,'','E','2023-09-13',3.07,false,'Builds/Pokemon/Obelix.html',false,'2023-10-23',models[94],
         [
@@ -8909,11 +8958,11 @@ const projects = [
             ['NewType','https://newtype.us/p/dwk8jzQtdPBUWYb5VxT3/h/pokemon-greninja']
         ],false,false,true,false
     ], 
-    ['Brennus',[1,'Groudon'],'Pokemon',false,false,false,'','C','2024-02-16',1.35],
+    ['Brennus',[1,'Groudon'],'Pokemon',false,false,false,'','C','2024-02-16',2.88],
     ['Cassivellaunus',[1,'Gyarados'],'Pokemon',
         false,false,false,'','D','2023-09-18',5.39
     ],
-    ['Vitalstatistix',[1,'Ho-Oh'],'Pokemon',false,false,false,'','C','2024-02-20',0.48],
+    ['Vitalstatistix',[1,'Ho-Oh'],'Pokemon',false,false,false,'','C','2024-02-20',0.97],
     ['Lutetia',[1,'Lucario'],'Pokemon',
         false,false,false,'','D','2023-10-03',5.09
     ],
