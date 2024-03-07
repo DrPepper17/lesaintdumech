@@ -8472,7 +8472,7 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/coraust10.jpeg','Corona Australis'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/coraust11.jpeg','Corona Australis']
         ],['https://hosting.photobucket.com/images/i/lesaintdumech/coraust10.jpeg','Profile Photo: Corona Australis'],
-        'Corona Australis, the Northern Throne. The Crown of the Warmth and Sun.',false,
+        'Corona Australis, the Southern Crown. The kingdom of the Warmth and Sun.',false,
         [
             ['Video','https://www.instagram.com/reel/C4OY8rYOYeY/?igsh=c251ODd4YnVwOTZ3'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/gundam-sd-sangoku-soketsuden-17-xiahou-yuan-tallgeese-model-kit'],
