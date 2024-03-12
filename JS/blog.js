@@ -895,6 +895,36 @@ const blogArray = [
                 '. Valentines was two weeks ago so I figured this could still be relevant.'
             ]
         ]
+    ],
+    [
+        '2024-03-07',
+        'King of the Southern Sun',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/coraust02.jpeg',
+        [
+            [
+                'So super late posting this week. I have been having technical difficulties. But better late than never. This week I present to you ',
+                ['Corona Australis','Builds/SDW/CoronaAustralis.html'],
+                '.'
+            ]
+        ],
+        [
+            'Inspired by warm colors, I painted this Tallgeese I with red and orange Turbo Dark paint to try to create a shiny, warm glow. This build makes me imagine being in the Bahamas out tanning on the beach while watching the setting tropical sun.'
+        ]
+    ],
+    [
+        '2024-03-12',
+        'Purple and Wields a Big Stick',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/pharo08.jpeg',
+        [
+            [
+                'Another Haro this week. I present to you ',
+                ['Haro Purple','Builds/Haro/HaroPurple.html'],
+                '.'
+            ]
+        ],
+        [
+            'So back story on all these Haros. Due to their spherical nature, last year for Easter 2023 I painted a ton of these and painted them separate colors to place in Easter Baskets as Gundam Easter Eggs. Anyhow, Easter 2024 is just a few weeks away from being upon us and I still have many of the Haros remaining in my backlog and still unposted that I just had to get them out of there.'
+        ]
     ]
 ]
 
