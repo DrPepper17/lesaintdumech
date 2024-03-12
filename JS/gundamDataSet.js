@@ -4705,6 +4705,32 @@ const models = [
         ['https://hosting.photobucket.com/images/i/lesaintdumech/XiahouYuan.jpeg','SD Xiahou Yuan Tallgeese'],
         false,
         [47]
+    ],
+    [122,10,'Ball Haro',
+        'HaroPla #07 Ball Haro Model Kit',
+        'Purple',
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/ballharo.jpeg','Ball Haro']
     ]
 ];
 
@@ -8681,7 +8707,30 @@ const projects = [
             ['NewType','https://newtype.us/p/SrYWqrlHNx6i0mzoxaED/h/haropla-momoharo']
         ],false,false,true,false
     ],
-    ['Haro Purple',[1,'Haropla #07 Ball Haro'],'Haro',false,false,false,'','D','2023-04-10',2.65,false,'Builds/hpurple.html','HARO'],
+    ['Haro Purple',[1,'Haropla #07 Ball Haro'],'Haro',
+        false,false,false,'','E','2023-04-10',2.65,false,'Builds/Haro/HaroPurple.html','HARO','2024-03-12',models[122],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pharo00.jpeg','Purple Haro'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pharo01_jALHtaniTAixJqnymwwXDx.jpeg','Purple Haro'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pharo02.jpeg','Purple Haro'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pharo03.jpeg','Purple Haro'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pharo04.jpeg','Purple Haro'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pharo05.jpeg','Purple Haro'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pharo06.jpeg','Purple Haro'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pharo07.jpeg','Purple Haro'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pharo08.jpeg','Purple Haro'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pharo09.jpeg','Purple Haro'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pharo10.jpeg','Purple Haro'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pharo11.jpeg','Purple Haro'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pharo12.jpeg','Purple Haro']
+        ],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/pharo09.jpeg','Profile Photo: Purple Haro'],false,
+        'Zack #TheLunchDude, Iowa',
+        [
+            ['USA Gundam Store','https://www.usagundamstore.com/products/gundam-build-divers-haropla-07-ball-haro-model-kit'],
+            ['NewType','https://newtype.us/p/nwVDWlwvC33bVXJJXsg2/h/haropla-ball-haro']
+        ],false,false,true,false
+    ],
     ['Haro Red',[1,'Haropla #02 Diva Red'],'Haro',
         false,false,false,false,'E','2023-04-06',2.78,false,'Builds/Haro/HaroRed.html','HARO','2023-05-30',models[12],
         [
