@@ -560,7 +560,7 @@ const models = [
         'Mobile Suit Gundam SEED',
         false,
         ['YMF-X000A Dreadnought Gundam'],
-        ['ZGMF-X20A Strike-Freedom Gundam'],
+        ['ZGMF-X20A Strike-Freedom Gundam','STTS-909 Rising Freedom Gundam'],
         'Cosmic Era',
         [71,'May 71 C.E.',74],
         'Kira Yamato',
@@ -1870,10 +1870,10 @@ const models = [
         [
             'Dober Gun',
             'Shield',
-            'Beam Saber (x2)',
-            'Booster Unit'
+            'Beam Saber (x2)'
         ],
         [
+            'Detachable Booster Unit',
             'Self-Destruct System'
         ],
         'Hajime Katoki',
@@ -2054,7 +2054,7 @@ const models = [
             'YFX-600R GuAIZ Experimental Firearms Type',
             'YMF-X000A Dreadnought Gundam'
         ],
-        ['ZGMF-X19A \u221e Justice Gundam'],
+        ['ZGMF-X19A \u221e Justice Gundam','STTS-808 Immortal Justice Gundam'],
         'Cosmic Era',
         [71,'May 17, 71 C.E.',71],
         'Athrun Zala',
@@ -2104,7 +2104,7 @@ const models = [
         'Mobile Suit Gundam SEED Destiny',
         false,
         ['ZGMF-X09A Justice Gundam'],
-        false,
+        ['STTS-808 Immortal Justice Gundam','ZGMF-X191M2 Infinite Justice Gundam Type II'],
         'Cosmic Era',
         [74,'74 C.E.','Present'],
         'Athrun Zala',
@@ -2975,7 +2975,7 @@ const models = [
         'Mobile Suit Gundam SEED Destiny',
         false,
         ['ZGMF-X10A Freedom Gundam'],
-        false,
+        ['STTS-909 Rising Freedom Gundam','ZGMF/A-262B Strike Freedom Gundam Type II'],
         'Cosmic Era',
         [74,'74 C.E.','Present'],
         'Kira Yamato',
@@ -4731,6 +4731,71 @@ const models = [
         false,
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/ballharo.jpeg','Ball Haro']
+    ],
+    [123,1,'Tallgeese III',
+        'OZ-00MS2B Tallgeese III',
+        'OZ-00MS2B',
+        'Mobile Suit Gundam Wing Endless Waltz',
+        false,
+        ['OZ-00MS Tallgeese'],
+        false,
+        'After Colony',
+        [196,'December 26, 196 A.C.','Present'],
+        'Zechs Merquise',
+        false,
+        'Organization of the Zodiac',
+        ['Preventer'],
+        [17.4,'17.4 Meters'],
+        [8.2,'8.2 Metric Tons'],
+        'Titanium Alloy',
+        'Ultracompact Fusion Reactor',
+        [
+            'Vulcan Gun (x2)'
+        ],
+        [
+            'Mega Cananon',
+            'Shield w/ Heat Rod',
+            'Beam Saber (x2)'
+        ],
+        [
+            'Interface System',
+            'Self-Destruct System'
+        ],
+        'Hajime Katoki',
+        false,
+        false,
+        false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/talliiiart.jpeg','Tallgeese III'],
+        false,
+        [47]
+    ],
+    [124,1,'SD Xiahou Dun Tallgeese III',
+        'SD Xiahou Yuan Tallgeese III',
+        false,
+        'SDW Heroes',
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        'OZ-00MS2B Tallgeese III',
+        false,
+        false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/XiahouDunTall3.jpeg','SD Xiahou Dun Tallgeese III'],
+        false,
+        [47]
     ]
 ];
 
@@ -4787,7 +4852,7 @@ const projects = [
     ['Aerial [HG]',[1,'Aerial'],'HG',true,false,false,'Mercury','D','2023-05-30',7.42,false,false,false],
     ['PB Aerial Permet Six [HG]',[1,'Aerial'],'HG',true,true,false,'Mercury','D','2023-09-19',2.83],
     ['Ariel',[1.5,'Aerial','Mirasoul Flight Pack'],'HG',false,false,false,'Mercury','D','2023-12-10',12.03],
-    ['Morgause',[1,'Aerial'],'HG',false,false,false,'Mercury','C','2024-02-16',3.46],
+    ['Morgause',[1,'Aerial'],'HG',false,false,false,'Mercury','C','2024-02-16',3.48],
     ['Cherub',[1,'Aerial'],'SD',false,false,false,'Mercury','D','2023-01-10',4.91,false,'Builds/Cherub.html','Angels'],
     ['Zephon',[1,'Aerial Rebuild'],'HG',false,false,false,'Mercury','D','2023-11-25',16.15],
     ['Dark Samus: Corruption',[1,'Beguir-Pente'],'HG',
@@ -4822,10 +4887,13 @@ const projects = [
             ['NewType','https://newtype.us/p/1ZqsazKkWagen1RV4twr/h/hgwfm-04-guel-s-dilanza']
         ],false,false,true,'1:144'
     ],
+    ['Gundnode A',[1,'Gundnode'],'HG',false,true,false,'Mercury','A'],
+    ['Gundnode B',[1,'Gundnode'],'HG',false,true,false,'Mercury','A'],
+    ['Gundnode Straight',[1,'Gundnode'],'HG',true,true,false,'Mercury','A'],
     ['Dark Samus: Echoes',[1,'Gundvolva'],'HG',
         false,false,false,'Mercury','D','2023-10-11',9.5,false,'Builds/Metroid/DarkSamusEchoes.html','Metroid'
     ],
-    ['The Nazarene',[1,'Gundvolva'],'HG',false,false,false,'Mercury','C','2024-03-01',4.7], 
+    ['The Nazarene',[1,'Gundvolva'],'HG',false,false,false,'Mercury','C','2024-03-01',4.77], 
     ['Dobiel',[1,'Gundvolva'],'HG',
         false,false,false,'Mercury','E','2023-08-07',12.7,true,'Builds/Gundams/Dobiel.html','Angels','2023-09-25',models[91],
         [
@@ -4866,7 +4934,7 @@ const projects = [
     ['Adriel',[1,'LFrith'],'HG',false,false,false,'Mercury','D','2023-12-11',7.25],
     ['LFrith [HG]',[1,'LFrith'],'HG',true,false,false,'Mercury','D','2023-04-15',2.33,false,false,false],
     ['Cassiel',[1,'LFrith Anavata'],'HG',false,true,false,'Mercury','B'],
-    ['Eisheth',[1,'LFrith Jiu'],'HG',false,true,false,'Mercury','C','2024-02-16',4.67],
+    ['Eisheth',[1,'LFrith Jiu'],'HG',false,true,false,'Mercury','C','2024-02-16',4.72],
     ['Schwarzette [HG]',[1,'Schwarzette'],'HG',true,false,false,'Mercury','E','2023-10-04',2.33,false,false,false],
     ['Metatron',[1,'Schwarzette'],'HG',false,false,false,'Mercury','D','2023-11-25',17.15],
     ['Samus: Zero Suit',[1,'Suletta Mercury','Miorine Rembran'],'Other',false,false,false,'Mercury','D','2024-01-04',7],
@@ -6666,7 +6734,7 @@ const projects = [
     ['Rodan',[1,'Raider'],'FM',false,false,false,'Seed','A'],
     ['La Reine',[0.5,'Raijin Striker'],'MG',false,true,false,'Seed','A'],
     ['Rising Freedom SD',[1,'Rising Freedom'],'SD',false,false,false,'Seed','A'],
-    ['Revolution',[1,'Rising Freedom'],'HG',false,false,false,'Seed','C','2024-02-18',8.35],
+    ['Revolution',[1,'Rising Freedom'],'HG',false,false,false,'Seed','C','2024-02-18',9.25],
     ['Blue Angels',[3,'Skygrasper','Skygrasper','Skygrasper'],'RG',
         false,false,false,'Seed','E','2022-12-05',22,true,'Builds/Gundams/BlueAngels.html',false,'2022-12-26',models[30],
         [
@@ -8505,7 +8573,28 @@ const projects = [
             ['NewType','https://newtype.us/p/RHWvllGELThf3TsNAGPU/h/sd-sangoku-soketsuden-17-xiahou-yuan-tallgeese']
         ],false,true,true
     ],
-    ['Corona Borealis',[1,'Tallgeese III, Xiahou Dun'],'SD',false,false,false,'Heroes','D','2022-04-08',8.67,false,'Builds/CoronaBorealis.html',['']],
+    ['Corona Borealis',[1,'Tallgeese III, Xiahou Dun'],'SD',
+        false,false,false,'Heroes','E','2022-04-08',8.67,false,'Builds/SDW/CoronaBorealis.html',false,'2024-03-19',models[124],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/corborealis01.jpeg','Corona Borealis'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/corborealis02.jpeg','Corona Borealis'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/corborealis03.jpeg','Corona Borealis'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/corborealis04.jpeg','Corona Borealis'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/corborealis05.jpeg','Corona Borealis'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/corborealis06.jpeg','Corona Borealis'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/corborealis07.jpeg','Corona Borealis'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/corborealis08.jpeg','Corona Borealis'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/corborealis09.jpeg','Corona Borealis'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/corborealis10.jpeg','Corona Borealis'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/corborealis11.jpeg','Corona Borealis']
+        ],['https://hosting.photobucket.com/images/i/lesaintdumech/corborealis10.jpeg','Profile Photo: Corona Borealis'],
+        'Corona Borealis, the Northern Crown. The kingdom of the Cold and Snow.',false,
+        [
+            ['Video','https://www.instagram.com/reel/C4rvWbAudkM/?igsh=aW8xYzJvazE4bXc2'],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/gundam-sd-sangoku-soketsuden-15-xiahou-dun-tallgeese-iii-model-kit'],
+            ['NewType','https://newtype.us/p/aXMcV8HP9eRDZ2TJC12B/h/sd-sangoku-soketsuden-15-xiahou-dun-tallgeese-iii']
+        ],false,true,true
+    ],
     ['Coeus',[1,'Unicorn, Long Zun Liu Vei'],'SD',false,false,false,'Heroes','B'],
     ['Bastiat',[1,'Verde Buster, Sergeante'],'SD',
         false,false,false,'Heroes','E','2021-10-17',8.3,false,'Builds/SDW/Bastiat.html',false,'2022-08-22',models[27],
@@ -8853,7 +8942,7 @@ const projects = [
     ],
     
     //Pokemon
-    ['Cetautomatix',[1,'Arceus'],'Pokemon',false,false,false,'','C','2024-02-16',2.58],
+    ['Cetautomatix',[1,'Arceus'],'Pokemon',false,false,false,'','C','2024-02-16',2.78],
     ['Obelix',[1,'Bulbasaur'],'Pokemon',
         false,false,false,'','E','2023-09-13',3.07,false,'Builds/Pokemon/Obelix.html',false,'2023-10-23',models[94],
         [
@@ -9008,12 +9097,12 @@ const projects = [
             ['NewType','https://newtype.us/p/dwk8jzQtdPBUWYb5VxT3/h/pokemon-greninja']
         ],false,false,true,false
     ], 
-    ['Brennus',[1,'Groudon'],'Pokemon',false,false,false,'','C','2024-02-16',4.8
+    ['Brennus',[1,'Groudon'],'Pokemon',false,false,false,'','C','2024-02-16',4.87
 ],
     ['Cassivellaunus',[1,'Gyarados'],'Pokemon',
         false,false,false,'','D','2023-09-18',5.39
     ],
-    ['Vitalstatistix',[1,'Ho-Oh'],'Pokemon',false,false,false,'','C','2024-02-20',1.38],
+    ['Vitalstatistix',[1,'Ho-Oh'],'Pokemon',false,false,false,'','C','2024-02-20',1.42],
     ['Lutetia',[1,'Lucario'],'Pokemon',
         false,false,false,'','D','2023-10-03',5.09
     ],
@@ -10517,10 +10606,12 @@ function populateBuildsPage() {
     generateLists();
     postedArray = sortByDate(postedArray,'post').reverse();
 
+    let buildCount = 0;
     let buildColumnsNode = document.getElementById('buildColumns');
     for (let i=0;i<postedArray.length;i++) {
         if(postedArray[i][22])
         {
+            buildCount++;
             let divNode = document.createElement('div');
             let divClass = document.createAttribute('class');
             divClass.value = 'col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2 mx-0 text-center';
@@ -10580,7 +10671,7 @@ function populateBuildsPage() {
     }
 
     let buildTotalNode = document.getElementById('buildTotal');
-    let buildTotalText = document.createTextNode(postedArray.length);
+    let buildTotalText = document.createTextNode(buildCount);
     buildTotalNode.appendChild(buildTotalText);
 }
 

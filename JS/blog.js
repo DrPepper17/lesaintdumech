@@ -925,6 +925,23 @@ const blogArray = [
         [
             'So back story on all these Haros. Due to their spherical nature, last year for Easter 2023 I painted a ton of these and painted them separate colors to place in Easter Baskets as Gundam Easter Eggs. Anyhow, Easter 2024 is just a few weeks away from being upon us and I still have many of the Haros remaining in my backlog and still unposted that I just had to get them out of there.'
         ]
+    ],
+    [
+        '2024-03-19',
+        'King of the Northern Light',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/corborealis11.jpeg',
+        [
+            [
+                'Few weeks back I posted the Tallgeese I ',
+                ['Corona Australis','Builds/SDW/CoronaAustralis.html'],
+                ' but this week I post its counterpart the Tallgeese III ',
+                ['Corona Borealis','Builds/SDW/CoronaBorealis.html'],
+                '.'
+            ]
+        ],
+        [
+            'Australis was inspired by the warmth and sun. But Borealis is inspired by cool and dark colors of the Arctic North. '
+        ]
     ]
 ]
 
