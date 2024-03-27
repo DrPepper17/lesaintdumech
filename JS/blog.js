@@ -942,6 +942,18 @@ const blogArray = [
         [
             'Australis was inspired by the warmth and sun. But Borealis is inspired by cool and dark colors of the Arctic North. '
         ]
+    ],
+    [
+        '2024-03-27',
+        'Put the Lime in the ...',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/HLime06.jpeg',
+        [
+            [
+                'Another Haro. Introducing ',
+                ['Haro Lime','Builds/Haro/HaroLime.html'],
+                '.'
+            ]
+        ]
     ]
 ]
 

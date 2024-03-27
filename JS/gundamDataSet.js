@@ -4852,7 +4852,7 @@ const projects = [
     ['Aerial [HG]',[1,'Aerial'],'HG',true,false,false,'Mercury','D','2023-05-30',7.42,false,false,false],
     ['PB Aerial Permet Six [HG]',[1,'Aerial'],'HG',true,true,false,'Mercury','D','2023-09-19',2.83],
     ['Ariel',[1.5,'Aerial','Mirasoul Flight Pack'],'HG',false,false,false,'Mercury','D','2023-12-10',12.03],
-    ['Morgause',[1,'Aerial'],'HG',false,false,false,'Mercury','C','2024-02-16',3.48],
+    ['Morgause',[1,'Aerial'],'HG',false,false,false,'Mercury','C','2024-02-16',4.64],
     ['Cherub',[1,'Aerial'],'SD',false,false,false,'Mercury','D','2023-01-10',4.91,false,'Builds/Cherub.html','Angels'],
     ['Zephon',[1,'Aerial Rebuild'],'HG',false,false,false,'Mercury','D','2023-11-25',16.15],
     ['Dark Samus: Corruption',[1,'Beguir-Pente'],'HG',
@@ -4863,7 +4863,7 @@ const projects = [
     ['CAL-C',[1,'Calibarn'],'SD',false,false,false,'Mercury','A'],
     ['Abaddon',[1,'Calibarn'],'HG',false,false,false,'Mercury','C','2023-11-25',17.81],
     ['Calibarn [HG]',[1,'Calibarn'],'HG',true,false,false,'Mercury','D','2023-08-22',2.83,false,false,false],
-    ['Arthur',[1,'Calibarn'],'HG',false,false,false,'Mercury','C','2024-03-01',2.53],
+    ['Arthur',[1,'Calibarn'],'HG',false,false,false,'Mercury','C','2024-03-01',4.19],
     ['Azrael',[1,'Dilanza, Guel\'s'],'HG',
         false,false,false,'Mercury','E','2023-01-05',12.14,false,'Builds/Gundams/Azrael.html','Angels','2023-02-27',models[26],
         [
@@ -4893,7 +4893,7 @@ const projects = [
     ['Dark Samus: Echoes',[1,'Gundvolva'],'HG',
         false,false,false,'Mercury','D','2023-10-11',9.5,false,'Builds/Metroid/DarkSamusEchoes.html','Metroid'
     ],
-    ['The Nazarene',[1,'Gundvolva'],'HG',false,false,false,'Mercury','C','2024-03-01',4.77], 
+    ['The Nazarene',[1,'Gundvolva'],'HG',false,false,false,'Mercury','C','2024-03-01',5.10], 
     ['Dobiel',[1,'Gundvolva'],'HG',
         false,false,false,'Mercury','E','2023-08-07',12.7,true,'Builds/Gundams/Dobiel.html','Angels','2023-09-25',models[91],
         [
@@ -5533,7 +5533,7 @@ const projects = [
     ['Snow White [RG]',[1,'Wing Zero'],'RG',false,false,false,'Wing','B'],
     ['Snow White [SD]',[1,'Wing Zero'],'SD',false,false,false,'Wing','A'],
     ['Wing Zero KA [MG]',[1,'Wing Zero','GFFMC Wings For MG Wing Zero'],'MG',true,false,false,'Wing','C','2022-06-05',10.83,false,false,false],
-    ['Wing Zero [PG]',[1,'Wing Gundam'],'PG',true,false,false,'Wing','A'],
+    ['Absolute Zero',[1,'Wing Gundam'],'PG',true,false,false,'Wing','D','2024-03-22',16],
     ['Zero Traditional',[1,'Wing Zero'],'MG',false,false,false,'Wing','B'],
     ['Zero Traditional [RG]',[1,'Wing Zero'],'RG',false,false,false,'Wing','B'],
     ['Zero Traditional [SD]',[1,'Wing Zero'],'SD',false,false,false,'Wing','A'],
@@ -6734,7 +6734,7 @@ const projects = [
     ['Rodan',[1,'Raider'],'FM',false,false,false,'Seed','A'],
     ['La Reine',[0.5,'Raijin Striker'],'MG',false,true,false,'Seed','A'],
     ['Rising Freedom SD',[1,'Rising Freedom'],'SD',false,false,false,'Seed','A'],
-    ['Revolution',[1,'Rising Freedom'],'HG',false,false,false,'Seed','C','2024-02-18',9.25],
+    ['Revolution',[1,'Rising Freedom'],'HG',false,false,false,'Seed','C','2024-02-18',10.58],
     ['Blue Angels',[3,'Skygrasper','Skygrasper','Skygrasper'],'RG',
         false,false,false,'Seed','E','2022-12-05',22,true,'Builds/Gundams/BlueAngels.html',false,'2022-12-26',models[30],
         [
@@ -8023,7 +8023,7 @@ const projects = [
     ],
     ['Rhea',[1,'RX-75 Guntank'],'SD',false,false,false,'UC','B'],
     ['Metroid [Zeta]',[1,'Hygogg'],'HG',false,false,false,'UC','A'],
-    ['Theia',[1,'Kshatriya'],'SD',false,false,false,'UC','D','2022-12-08',12.03,false,'Builds/Theia.html',['']],
+    ['Theia -n- Johnny Five',[1,'Kshatriya'],'SD',false,false,false,'UC','D','2022-12-08',12.03,false,'Builds/Theia.html',['']],
     ['Nachtigall',[1,'Nightingale'],'SD',false,false,false,'UC','C','2024-01-16',8.38],
     ['Mnemosyne',[1,'Neue Ziuel'],'SD',false,false,false,'UC','B'],
     ['\u03C0 (pi)',[1,'Nu Gundam'],'SD',
@@ -8736,7 +8736,7 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/haroblue09.jpeg','Blue Haro'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/haroblue10.jpeg','Blue Haro']
         ],
-        ['https://hosting.photobucket.com/images/i/lesaintdumech/haroblue06.jpeg','Profile Photo: Blue Haro'],false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/haroblue06.jpeg','Profile Photo: Haro Blue'],false,
         'Zack #TheLunchDude, Iowa',
         [
             ['USA Gundam Store','https://www.usagundamstore.com/products/gundam-build-divers-haropla-05-haro-control-blue-model-kit'],
@@ -8759,14 +8759,34 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/gharo10.jpeg','Green Haro'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/gharo11.jpeg','Green Haro']
         ],
-        ['https://hosting.photobucket.com/images/i/lesaintdumech/gharo04.jpeg','Profile Photo: Green Haro'],false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/gharo04.jpeg','Profile Photo: Haro Green'],false,
         'Zack #TheLunchDude, Iowa',
         [
             ['USA Gundam Store','https://www.usagundamstore.com/products/gundam-build-divers-haropla-12-haro-basic-green-model-kit'],
             ['NewType','https://newtype.us/p/TDG12UDMNZmRSrV4hGO0/h/haropla-12-haro-basic-green']
         ],false,false,true,false
     ],
-    ['Haro Lime',[1,'Haropla #12 Basic Green'],'Haro',false,false,false,'','D','2023-04-13',3.34,false,'Builds/hlime.html','HARO'],
+    ['Haro Lime',[1,'Haropla #12 Basic Green'],'Haro',
+        false,false,false,'','E','2023-04-13',3.34,false,'Builds/Haro/HaroLime.html','HARO','2024-03-27',models[117],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/HLime01.jpeg','Haro Lime'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/HLime02.jpeg','Haro Lime'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/HLime03.jpeg','Haro Lime'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/HLime04.jpeg','Haro Lime'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/HLime05.jpeg','Haro Lime'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/HLime06.jpeg','Haro Lime'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/HLime07.jpeg','Haro Lime'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/HLime08.jpeg','Haro Lime'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/HLime09.jpeg','Haro Lime'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/HLime10.jpeg','Haro Lime']
+        ],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/HLime07.jpeg','Profile Photo: Haro Lime'],false,
+        'Zack #TheLunchDude, Iowa',
+        [
+            ['USA Gundam Store','https://www.usagundamstore.com/products/gundam-build-divers-haropla-12-haro-basic-green-model-kit'],
+            ['NewType','https://newtype.us/p/TDG12UDMNZmRSrV4hGO0/h/haropla-12-haro-basic-green']
+        ],false,false,true,false
+    ],
     ['Haro Orange',[1,'Haropla #11 Zakrello'],'Haro',false,false,false,'','D','2023-04-11',4.08,false,'Builds/horange.html','HARO'],
     ['Haro Pink',[1,'Haropla #04 Momo Pink'],'Haro',
         false,false,false,'','E','2023-04-09',2.68,false,'Builds/Haro/HaroPink.html','HARO','2024-02-26',models[120],
@@ -8789,7 +8809,7 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/pinkharo15.jpeg','Pink Haro'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/pinkharo16.jpeg','Pink Haro']
         ],
-        ['https://hosting.photobucket.com/images/i/lesaintdumech/pinkharo09.jpg','Profile Photo: Pink Haro'],false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/pinkharo09.jpg','Profile Photo: Haro Pink'],false,
         'Zack #TheLunchDude, Iowa',
         [
             ['USA Gundam Store','https://www.usagundamstore.com/products/pre-order-haropla-haro-pink-variation'],
@@ -8813,7 +8833,7 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/pharo11.jpeg','Purple Haro'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/pharo12.jpeg','Purple Haro']
         ],
-        ['https://hosting.photobucket.com/images/i/lesaintdumech/pharo09.jpeg','Profile Photo: Purple Haro'],false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/pharo09.jpeg','Profile Photo: Haro Purple'],false,
         'Zack #TheLunchDude, Iowa',
         [
             ['USA Gundam Store','https://www.usagundamstore.com/products/gundam-build-divers-haropla-07-ball-haro-model-kit'],
@@ -8836,7 +8856,7 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/redharo11.jpeg','Red Haro','img11'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/redharo12.jpeg','Red Haro','img12']
         ],
-        ['https://hosting.photobucket.com/images/i/lesaintdumech/redharo10.jpeg','Profile Photo: Red Haro'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/redharo10.jpeg','Profile Photo: Haro Red'],
         'Easter was coming up and I wanted to do something different than those annoying damn eggs again. So I thought about it and I realized you know what, those Haros sure are pretty round like eggs. So to celebrate the holiday I made a whole basket of them, each a different color, to spread the Easter Joy. Theme for this one was a metallic red color.',
         'Zack #TheLunchDude, Iowa',
         [
@@ -8942,7 +8962,7 @@ const projects = [
     ],
     
     //Pokemon
-    ['Cetautomatix',[1,'Arceus'],'Pokemon',false,false,false,'','C','2024-02-16',2.78],
+    ['Cetautomatix',[1,'Arceus'],'Pokemon',false,false,false,'','C','2024-02-16',2.94],
     ['Obelix',[1,'Bulbasaur'],'Pokemon',
         false,false,false,'','E','2023-09-13',3.07,false,'Builds/Pokemon/Obelix.html',false,'2023-10-23',models[94],
         [
@@ -9097,12 +9117,12 @@ const projects = [
             ['NewType','https://newtype.us/p/dwk8jzQtdPBUWYb5VxT3/h/pokemon-greninja']
         ],false,false,true,false
     ], 
-    ['Brennus',[1,'Groudon'],'Pokemon',false,false,false,'','C','2024-02-16',4.87
+    ['Brennus',[1,'Groudon'],'Pokemon',false,false,false,'','C','2024-02-16',5.53
 ],
     ['Cassivellaunus',[1,'Gyarados'],'Pokemon',
         false,false,false,'','D','2023-09-18',5.39
     ],
-    ['Vitalstatistix',[1,'Ho-Oh'],'Pokemon',false,false,false,'','C','2024-02-20',1.42],
+    ['Vitalstatistix',[1,'Ho-Oh'],'Pokemon',false,false,false,'','C','2024-02-20',3.25],
     ['Lutetia',[1,'Lucario'],'Pokemon',
         false,false,false,'','D','2023-10-03',5.09
     ],
