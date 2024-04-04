@@ -954,6 +954,21 @@ const blogArray = [
                 '.'
             ]
         ]
+    ],
+    [
+        '2024-04-04',
+        'Soaring High in the Sky, With Haro in the Eye',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/HCloud03.jpeg',
+        [
+            [
+                'Another Haro and another variant of Haro Green. This week is ',
+                ['Haro Cloud','Builds/Haro/HaroCloud.html'],
+                '.'
+            ]
+        ],
+        [
+            'This one I painted it blue at the base while experimenting a shade technique of sublte light brown cream swirls over the blue, giving it a sort of swirly cloud sort of feel. Oh and had some left over decals from prior projects so added the Volkswagen symbol cause just why not.'
+        ]
     ]
 ]
 

@@ -8743,7 +8743,25 @@ const projects = [
             ['NewType','https://newtype.us/p/BPf92zUPPefF8P7lmgiv/h/haropla-haro-control-blue']
         ],false,false,true,false
     ],
-    ['Haro Cloud',[1,'Haropla #12 Basic Green'],'Haro',false,false,false,'','D','2023-04-14',3.27,false,'Builds/hcloud.html','HARO'],
+    ['Haro Cloud',[1,'Haropla #12 Basic Green'],'Haro',
+        false,false,false,'','E','2023-04-14',3.27,false,'Builds/Haro/HaroCloud.html','HARO','2024-04-04',models[117],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/HCloud01.jpeg','Haro Cloud'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/HCloud02.jpeg','Haro Cloud'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/HCloud03.jpeg','Haro Cloud'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/HCloud04.jpeg','Haro Cloud'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/HCloud05.jpeg','Haro Cloud'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/HCloud06.jpeg','Haro Cloud'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/HCloud07.jpeg','Haro Cloud'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/HCloud08.jpeg','Haro Cloud'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/HCloud09.jpeg','Haro Cloud'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/HCloud10.jpeg','Haro Cloud']
+        ],['https://hosting.photobucket.com/images/i/lesaintdumech/HCloud07.jpeg','Profile Photo: Haro Cloud'],false,'Zack #TheLunchDude, Iowa',
+        [
+            ['USA Gundam Store','https://www.usagundamstore.com/products/gundam-build-divers-haropla-12-haro-basic-green-model-kit'],
+            ['NewType','https://newtype.us/p/TDG12UDMNZmRSrV4hGO0/h/haropla-12-haro-basic-green']
+        ],false,false,true,false
+    ],
     ['Haro Green',[1,'Haropla #12 Basic Green'],'Haro',
         false,false,false,'','E','2023-04-08',2.75,false,'Builds/Haro/HaroGreen.html','HARO','2024-02-05',models[117],
         [
