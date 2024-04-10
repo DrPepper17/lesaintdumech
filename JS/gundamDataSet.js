@@ -4796,6 +4796,32 @@ const models = [
         ['https://hosting.photobucket.com/images/i/lesaintdumech/XiahouDunTall3.jpeg','SD Xiahou Dun Tallgeese III'],
         false,
         [47]
+    ],
+    [125,10,'Zakrello Haro',
+        'HaroPla #11 Ball Zakrello Model Kit',
+        'Orange',
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/zakrelloharo.jpeg','Zakrello Haro']
     ]
 ];
 
@@ -4848,11 +4874,11 @@ const models = [
 //Pojects
 const projects = [
     //Ad Stella (Mercury)
-    ['Chimkin',[1,'Aerial'],'FM',false,false,false,'Mercury','C','2024-01-05',24.29],
+    ['Chimkin',[1,'Aerial'],'FM',false,false,false,'Mercury','D','2024-01-05',25.63],
     ['Aerial [HG]',[1,'Aerial'],'HG',true,false,false,'Mercury','D','2023-05-30',7.42,false,false,false],
     ['PB Aerial Permet Six [HG]',[1,'Aerial'],'HG',true,true,false,'Mercury','D','2023-09-19',2.83],
     ['Ariel',[1.5,'Aerial','Mirasoul Flight Pack'],'HG',false,false,false,'Mercury','D','2023-12-10',12.03],
-    ['Morgause',[1,'Aerial'],'HG',false,false,false,'Mercury','C','2024-02-16',4.64],
+    ['Morgause',[1,'Aerial'],'HG',false,false,false,'Mercury','D','2024-02-16',7.64],
     ['Cherub',[1,'Aerial'],'SD',false,false,false,'Mercury','D','2023-01-10',4.91,false,'Builds/Cherub.html','Angels'],
     ['Zephon',[1,'Aerial Rebuild'],'HG',false,false,false,'Mercury','D','2023-11-25',16.15],
     ['Dark Samus: Corruption',[1,'Beguir-Pente'],'HG',
@@ -4863,7 +4889,7 @@ const projects = [
     ['CAL-C',[1,'Calibarn'],'SD',false,false,false,'Mercury','A'],
     ['Abaddon',[1,'Calibarn'],'HG',false,false,false,'Mercury','C','2023-11-25',17.81],
     ['Calibarn [HG]',[1,'Calibarn'],'HG',true,false,false,'Mercury','D','2023-08-22',2.83,false,false,false],
-    ['Arthur',[1,'Calibarn'],'HG',false,false,false,'Mercury','C','2024-03-01',4.19],
+    ['Arthur',[1,'Calibarn'],'HG',false,false,false,'Mercury','C','2024-03-01',6.28],
     ['Azrael',[1,'Dilanza, Guel\'s'],'HG',
         false,false,false,'Mercury','E','2023-01-05',12.14,false,'Builds/Gundams/Azrael.html','Angels','2023-02-27',models[26],
         [
@@ -4893,7 +4919,7 @@ const projects = [
     ['Dark Samus: Echoes',[1,'Gundvolva'],'HG',
         false,false,false,'Mercury','D','2023-10-11',9.5,false,'Builds/Metroid/DarkSamusEchoes.html','Metroid'
     ],
-    ['The Nazarene',[1,'Gundvolva'],'HG',false,false,false,'Mercury','C','2024-03-01',5.10], 
+    ['The Nazarene',[1,'Gundvolva'],'HG',false,false,false,'Mercury','D','2024-03-01',7.68], 
     ['Dobiel',[1,'Gundvolva'],'HG',
         false,false,false,'Mercury','E','2023-08-07',12.7,true,'Builds/Gundams/Dobiel.html','Angels','2023-09-25',models[91],
         [
@@ -4934,7 +4960,7 @@ const projects = [
     ['Adriel',[1,'LFrith'],'HG',false,false,false,'Mercury','D','2023-12-11',7.25],
     ['LFrith [HG]',[1,'LFrith'],'HG',true,false,false,'Mercury','D','2023-04-15',2.33,false,false,false],
     ['Cassiel',[1,'LFrith Anavata'],'HG',false,true,false,'Mercury','B'],
-    ['Eisheth',[1,'LFrith Jiu'],'HG',false,true,false,'Mercury','C','2024-02-16',4.72],
+    ['Eisheth',[1,'LFrith Jiu'],'HG',false,true,false,'Mercury','D','2024-02-16',8.05],
     ['Schwarzette [HG]',[1,'Schwarzette'],'HG',true,false,false,'Mercury','E','2023-10-04',2.33,false,false,false],
     ['Metatron',[1,'Schwarzette'],'HG',false,false,false,'Mercury','D','2023-11-25',17.15],
     ['Samus: Zero Suit',[1,'Suletta Mercury','Miorine Rembran'],'Other',false,false,false,'Mercury','D','2024-01-04',7],
@@ -6734,7 +6760,7 @@ const projects = [
     ['Rodan',[1,'Raider'],'FM',false,false,false,'Seed','A'],
     ['La Reine',[0.5,'Raijin Striker'],'MG',false,true,false,'Seed','A'],
     ['Rising Freedom SD',[1,'Rising Freedom'],'SD',false,false,false,'Seed','A'],
-    ['Revolution',[1,'Rising Freedom'],'HG',false,false,false,'Seed','C','2024-02-18',10.58],
+    ['Revolution',[1,'Rising Freedom'],'HG',false,false,false,'Seed','D','2024-02-18',15.08],
     ['Blue Angels',[3,'Skygrasper','Skygrasper','Skygrasper'],'RG',
         false,false,false,'Seed','E','2022-12-05',22,true,'Builds/Gundams/BlueAngels.html',false,'2022-12-26',models[30],
         [
@@ -7620,7 +7646,7 @@ const projects = [
 
     //Post Disaster (IBO)
     ['Thorn',[1,'Barbatos'],'MG',false,false,false,'IBO','B'],
-    ['Deku Knight',[1,'Barbatos'],'MGSD',false,false,false,'IBO','C','2024-01-13',20.13],
+    ['Deku Knight',[1,'Barbatos'],'MGSD',false,false,false,'IBO','D','2024-01-13',21.54],
     ['War Pig',[1,'Barbatos'],'SD',
         false,false,false,'IBO','E','2021-12-13',4.15,false,'Builds/Gundams/WarPig.html','SD Rock','2023-04-18',models[46],
         [
@@ -8024,7 +8050,7 @@ const projects = [
     ['Rhea',[1,'RX-75 Guntank'],'SD',false,false,false,'UC','B'],
     ['Metroid [Zeta]',[1,'Hygogg'],'HG',false,false,false,'UC','A'],
     ['Theia -n- Johnny Five',[1,'Kshatriya'],'SD',false,false,false,'UC','D','2022-12-08',12.03,false,'Builds/Theia.html',['']],
-    ['Nachtigall',[1,'Nightingale'],'SD',false,false,false,'UC','C','2024-01-16',8.38],
+    ['Nachtigall',[1,'Nightingale'],'SD',false,false,false,'UC','D','2024-01-16',10.88],
     ['Mnemosyne',[1,'Neue Ziuel'],'SD',false,false,false,'UC','B'],
     ['\u03C0 (pi)',[1,'Nu Gundam'],'SD',
         false,false,false,'UC','E','2021-06-06',15.66,false,'Builds/Gundams/Pi.html','Practice SDs','2021-06-22',models[13],
@@ -8805,7 +8831,30 @@ const projects = [
             ['NewType','https://newtype.us/p/TDG12UDMNZmRSrV4hGO0/h/haropla-12-haro-basic-green']
         ],false,false,true,false
     ],
-    ['Haro Orange',[1,'Haropla #11 Zakrello'],'Haro',false,false,false,'','D','2023-04-11',4.08,false,'Builds/horange.html','HARO'],
+    ['Haro Orange',[1,'Haropla #11 Zakrello'],'Haro',
+        false,false,false,'','E','2023-04-11',4.08,false,'Builds/Haro/HaroOrange.html','HARO','2024-04-10',models[125],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/haronge01.jpeg','Haro Orange'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/haronge02.jpeg','Haro Orange'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/haronge03.jpeg','Haro Orange'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/haronge04.jpeg','Haro Orange'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/haronge05.jpeg','Haro Orange'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/haronge06.jpeg','Haro Orange'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/haronge07.jpeg','Haro Orange'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/haronge08.jpeg','Haro Orange'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/haronge09.jpeg','Haro Orange'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/haronge10.jpeg','Haro Orange'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/haronge11.jpeg','Haro Orange'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/haronge12.jpeg','Haro Orange']
+
+        ],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/haronge05.jpeg','Profile Photo: Haro Orange'],false,
+        'Zack #TheLunchDude, Iowa',
+        [
+            ['USA Gundam Store','https://www.usagundamstore.com/products/gundam-build-divers-re-rise-haropla-11-zakrello-haro-model-kit'],
+            ['NewType','https://newtype.us/p/5P2dpPBN00s7Ec6jGV46/h/haropla-zakrello-haro']
+        ],false,false,true,false
+    ],
     ['Haro Pink',[1,'Haropla #04 Momo Pink'],'Haro',
         false,false,false,'','E','2023-04-09',2.68,false,'Builds/Haro/HaroPink.html','HARO','2024-02-26',models[120],
         [
@@ -8980,7 +9029,7 @@ const projects = [
     ],
     
     //Pokemon
-    ['Cetautomatix',[1,'Arceus'],'Pokemon',false,false,false,'','C','2024-02-16',2.94],
+    ['Cetautomatix',[1,'Arceus'],'Pokemon',false,false,false,'','D','2024-02-16',4.53],
     ['Obelix',[1,'Bulbasaur'],'Pokemon',
         false,false,false,'','E','2023-09-13',3.07,false,'Builds/Pokemon/Obelix.html',false,'2023-10-23',models[94],
         [
@@ -9135,12 +9184,12 @@ const projects = [
             ['NewType','https://newtype.us/p/dwk8jzQtdPBUWYb5VxT3/h/pokemon-greninja']
         ],false,false,true,false
     ], 
-    ['Brennus',[1,'Groudon'],'Pokemon',false,false,false,'','C','2024-02-16',5.53
+    ['Brennus',[1,'Groudon'],'Pokemon',false,false,false,'','D','2024-02-16',7.78
 ],
     ['Cassivellaunus',[1,'Gyarados'],'Pokemon',
         false,false,false,'','D','2023-09-18',5.39
     ],
-    ['Vitalstatistix',[1,'Ho-Oh'],'Pokemon',false,false,false,'','C','2024-02-20',3.25],
+    ['Vitalstatistix',[1,'Ho-Oh'],'Pokemon',false,false,false,'','D','2024-02-20',5.17],
     ['Lutetia',[1,'Lucario'],'Pokemon',
         false,false,false,'','D','2023-10-03',5.09
     ],

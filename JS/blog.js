@@ -969,6 +969,24 @@ const blogArray = [
         [
             'This one I painted it blue at the base while experimenting a shade technique of sublte light brown cream swirls over the blue, giving it a sort of swirly cloud sort of feel. Oh and had some left over decals from prior projects so added the Volkswagen symbol cause just why not.'
         ]
+    ],
+    [
+        '2024-04-10',
+        'Final Haro',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/haronge02.jpeg',
+        [
+            [
+                'Proud to announce, at last, the final Haro. This week is ',
+                ['Haro Orange','Builds/Haro/HaroOrange.html'],
+                '. Not just is it a Haro, but it\'s a total war machine and it\'s fierce. '
+            ]
+        ],
+        [
+            'So glad to be finished posting these. Don\'t think I\'ll be wanting to do any more Haros for quite a long while.'
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/haronge01.jpeg']
+        ]
     ]
 ]
 
