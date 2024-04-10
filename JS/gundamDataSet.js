@@ -4798,7 +4798,7 @@ const models = [
         [47]
     ],
     [125,10,'Zakrello Haro',
-        'HaroPla #11 Ball Zakrello Model Kit',
+        'HaroPla #11  Zakrello Haro Model Kit',
         'Orange',
         false,
         false,
