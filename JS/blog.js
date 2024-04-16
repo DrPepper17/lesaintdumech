@@ -1007,9 +1007,6 @@ const blogArray = [
         ],
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/theia29.jpeg']
-        ],
-        [
-            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/theia30.jpeg']
         ]
     ]
 ]
