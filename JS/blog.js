@@ -987,6 +987,27 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/haronge01.jpeg']
         ]
+    ],
+    [
+        '2024-04-15',
+        'Tax Day 2024',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/theia31.jpeg',
+        [
+            [
+                'Well it\'s April 15, Tax Day. Hope you all got your taxes filed on time. But meanwhile it\'s Monday and time for another post. This week I present to you ',
+                ['Theia','Builds/Gundams/Theia.html'],
+                ', the Kshatriya, and her buddy Johnny-Five.'
+            ]
+        ],
+        [
+            'This project was mostly done as an experiment to test new Turbo Dork colors. Which other than probably yellow they all came out great. Especially loved the scarab green on the arms.'
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/theia29.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/theia30.jpeg']
+        ]
     ]
 ]
 
