@@ -1003,6 +1003,9 @@ const blogArray = [
             'This project was mostly done as an experiment to test new Turbo Dork colors. Which other than probably yellow they all came out great. Especially loved the scarab green on the arms.'
         ],
         [
+            'Also glad to finally be posting something this week that is not a Haro.'
+        ],
+        [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/theia29.jpeg']
         ],
         [
