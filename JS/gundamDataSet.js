@@ -4822,6 +4822,47 @@ const models = [
         false,
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/zakrelloharo.jpeg','Zakrello Haro']
+    ],
+    [126,1,'Kshatriya',
+        'NZ-666 Kshatriya',
+        'NZ-666',
+        'Mobile Suit Gundam Uniccorn',
+        false,
+        ['NZ-000 Queen Mansa'],
+        ['NZ-666 Kshatriya Besserung'],
+        'Universal Century',
+        [96,'0096 U.C.',96],
+        'Marida Cruz',
+        false,
+        'Neo Zeon',
+        ['Neo Zeon','Sleeves'],
+        [22.3,'22.3 Meters'],
+        [29.7,'29.7 Metric Tons'],
+        'Gundarium Alloy',
+        'Minovsky Ultracompact Fusion Reactor',
+        [
+            'Sub-Arms (x4)',
+            'Sub-Arm Beam Sabers (x4)',
+            'Beam Gatling Gun (x2)',
+            'Machine Cannon (x2)',
+            'Mega Particle Cannon (x12)',
+            'Funnels (x24)'
+        ],
+        [
+            'Beam Sabers (x2)'
+        ],
+        [
+            'Psycho-Frame Cockpit',
+            'I-Field Generator (x4)'
+        ],
+        false,
+        false,
+        'Quad-Wing',
+        false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/kshatriyaprofile.jpeg','Kshatriya'],
+        false,
+        [126],
+        'Kashtriya' 
     ]
 ];
 
@@ -8049,7 +8090,49 @@ const projects = [
     ],
     ['Rhea',[1,'RX-75 Guntank'],'SD',false,false,false,'UC','B'],
     ['Metroid [Zeta]',[1,'Hygogg'],'HG',false,false,false,'UC','A'],
-    ['Theia -n- Johnny Five',[1,'Kshatriya'],'SD',false,false,false,'UC','D','2022-12-08',12.03,false,'Builds/Theia.html',['']],
+    ['Theia',[1,'Kshatriya'],'SD',
+        false,false,false,'UC','E','2022-12-08',12.03,false,'Builds/Gundams/Theia.html','Titans','2024-04-15',models[126],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/theia01.jpeg','Theia'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/theia02.jpeg','Theia'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/theia03.jpeg','Theia'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/theia04.jpeg','Theia'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/theia05.jpeg','Theia'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/theia06.jpeg','Theia'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/theia07.jpeg','Theia'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/theia08.jpeg','Theia'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/theia09.jpeg','Theia'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/theia10.jpeg','Theia'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/theia11.jpeg','Theia'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/theia12.jpeg','Theia -n- Johnny Five'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/theia13.jpeg','Johnny Five'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/theia14.jpeg','Johnny Five'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/theia15.jpeg','Johnny Five'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/theia16.jpeg','Johnny Five'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/theia17.jpeg','Johnny Five'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/theia18.jpeg','Johnny Five'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/theia19.jpeg','Theia'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/theia20.jpeg','Johnny Five'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/theia21.jpeg','Johnny Five'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/theia22.jpeg','Johnny Five'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/theia23.jpeg','Johnny Five'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/theia24.jpeg','Johnny Five'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/theia25.jpeg','Theia'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/theia26.jpeg','Theia'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/theia27.jpeg','Theia'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/theia28.jpeg','Theia'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/theia29.jpeg','Theia -n- Johnny Five'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/theia30.jpeg','Theia -n- Johnny Five'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/theia31.jpeg','Theia']
+        ],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/theia06.jpeg','Profile Photo: Theia'],
+        'Painted this while back while I was working on the Power Rangers project. Needed something to test all of the many different Turbo Dork Colors used for each of the rangers\' visors. The final product came out like a Harlequin paint design. Also in the kit was included the mini D-50C Loto unit which is just super cute looking and named Johnny-Five after the robot in Short Circuit.',false,
+        [
+            ['Video','https://www.instagram.com/reel/C5zYzLnuf3U/?utm_source=ig_web_copy_link'],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/bb367-kshatriya'],
+            ['NewType','https://newtype.us/p/5lIwrlcG2EHi5JDLPdsA/h/sdbb-367-kshatriya']
+        ],['Power Rangers'],true,true,'1:144',false,'Theia -n- Johnny Five'
+    ],
     ['Nachtigall',[1,'Nightingale'],'SD',false,false,false,'UC','D','2024-01-16',10.88],
     ['Mnemosyne',[1,'Neue Ziuel'],'SD',false,false,false,'UC','B'],
     ['\u03C0 (pi)',[1,'Nu Gundam'],'SD',
@@ -8717,7 +8800,7 @@ const projects = [
             ['NewType: Sergeant','https://newtype.us/p/6WGpOtGU5sn6S4Zq5WxW/h/sdw-heroes-12-sergeant-verde-buster-gundam-dx-set'],
             ['NewType: Team Member','https://newtype.us/p/9DnZDjp1oqrDn71o7qfZ/h/sdw-heroes-13-verde-buster-team-member'],
             ['TurboDork','https://turbodork.com']
-        ],false,true,true,false,false,'Mighty Morphin Power Rangers'
+        ],['Theia'],true,true,false,false,'Mighty Morphin Power Rangers'
     ],
     ['Eos',[1,'Wing, Cao Cao'],'SD',false,false,false,'Heroes','B'],    //Wing zero
     ['Aether',[1,'Wing, Cao Cao'],'SD',false,false,false,'Heroes','B'],    //Wing zero
