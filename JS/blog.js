@@ -1008,6 +1008,52 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/theia29.jpeg']
         ]
+    ],
+    [
+        '2024-04-22',
+        'The Deku Knight',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/dekuK08.jpg',
+        [
+            [
+                'Haros and SDs are finally over. Now starts the season of larger builds again. First up my MGSD Barbatos, the ',
+                ['Deku Knight','Builds/Gundams/Deku.html'],
+                '.'
+            ]
+        ],
+        [
+            'The MGDSDs are a really impressive line. Cannot wait for Bandai to make more. But for the meantime lets just all awe in amazement at the MGSD Barbatos. It\'s a really great piece of design and engineering. Bandai really outdid themselves on this one.s'
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/dekuK09.jpg']
+        ],
+        [
+            'PS Hang in. The start of something big starts next week.'
+        ]
+    ],
+    [
+        '2024-04-22',
+        'YouTube Debut',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/dkyt.jpeg',
+        [
+            [
+                'Coinciding with today\'s reveal the Deku Knight, I\'m also proud to announce today the launch of  my new ',
+                ['YouTube','https://www.youtube.com/channel/UCs6aqwL743FZhK-GRg3m4iw'],
+                ' channel.'
+            ]
+        ],
+        [
+            'Same name as the site just another platform to create and post videos of all the builds I do. I will be using it regularly going forward.'
+        ],
+        [
+            [
+                'First up, check out my video for my new build ',
+                ['Deku Knight','https://youtu.be/Ljdahpgy_4U'],
+                '.'
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/ytpremier.jpeg']
+        ]
     ]
 ]
 

@@ -486,7 +486,7 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/greninja.jpeg','Greninja']
     ],
-    [12,10,'Red Haro',
+    [12,10,'Diva Red Haro',
         'HaroPla #02 Haro Diva Red Model Kit',
         'Red',
         false,
@@ -510,7 +510,7 @@ const models = [
         false,
         false,
         false,
-        ['https://hosting.photobucket.com/images/i/lesaintdumech/redharo.jpeg','Red Haro']
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/redharo.jpeg','Diva Red Haro']
     ],
     [13,1,'Nu Gundam',
         'RX-93 \u03BD Gundam',
@@ -4051,7 +4051,7 @@ const models = [
         [103],
         'Xi'
     ],
-    [104,10,'Blue Haro',
+    [104,10,'Control Blue Haro',
         'HaroPla #05 Haro Control Blue Model Kit',
         'Blue',
         false,
@@ -4075,7 +4075,7 @@ const models = [
         false,
         false,
         false,
-        ['https://hosting.photobucket.com/images/i/lesaintdumech/haro-control-blue-pa_1.jpg','Blue Haro']
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/haro-control-blue-pa_1.jpg','Control Blue Haro']
     ],
     [105,1,'Maganac',
         'WMS-03 Maganac',
@@ -4557,7 +4557,7 @@ const models = [
         true,
         [54]
     ],
-    [117,10,'Green Haro',
+    [117,10,'Basic Green Haro',
         'HaroPla #12 Haro Basic Green Model Kit',
         'Green',
         false,
@@ -4581,7 +4581,7 @@ const models = [
         false,
         false,
         false,
-        ['https://hosting.photobucket.com/images/i/lesaintdumech/basicgreenharo.jpeg','Green Haro']
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/basicgreenharo.jpeg','Basic Green Haro']
     ],
     [118,1,'Burning Gundam',
         'GF13-017NJII Burning Gundam',
@@ -4652,7 +4652,7 @@ const models = [
         true,
         [87]
     ],
-    [120,10,'Pink Haro',
+    [120,10,'Momoharo',
         'HaroPla #04 Momoharo Model Kit',
         'Pink',
         false,
@@ -4676,7 +4676,7 @@ const models = [
         false,
         false,
         false,
-        ['https://hosting.photobucket.com/images/i/lesaintdumech/pinkharo.jpg','Pink Haro']
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/pinkharo.jpg','Pink Momo Haro']
     ],
     [121,1,'SD Xiahou Yuan Tallgeese',
         'SD Xiahou Yuan Tallgeese',
@@ -5600,7 +5600,7 @@ const projects = [
     ['Snow White [RG]',[1,'Wing Zero'],'RG',false,false,false,'Wing','B'],
     ['Snow White [SD]',[1,'Wing Zero'],'SD',false,false,false,'Wing','A'],
     ['Wing Zero KA [MG]',[1,'Wing Zero','GFFMC Wings For MG Wing Zero'],'MG',true,false,false,'Wing','C','2022-06-05',10.83,false,false,false],
-    ['Absolute Zero',[1,'Wing Gundam'],'PG',true,false,false,'Wing','D','2024-03-22',16],
+    ['Absolute Zero',[1,'Wing Gundam'],'PG',true,false,false,'Wing','D','2024-03-22',16.08],
     ['Zero Traditional',[1,'Wing Zero'],'MG',false,false,false,'Wing','B'],
     ['Zero Traditional [RG]',[1,'Wing Zero'],'RG',false,false,false,'Wing','B'],
     ['Zero Traditional [SD]',[1,'Wing Zero'],'SD',false,false,false,'Wing','A'],
@@ -6799,7 +6799,7 @@ const projects = [
     ['Union Jack',[1,'Providence'],'MG',false,false,false,'Seed','A'],
     ['Raider [FM]',[1,'Raider'],'FM',true,false,false,'Seed','D','2023-01-06',10.25,false,false,false],
     ['Rodan',[1,'Raider'],'FM',false,false,false,'Seed','A'],
-    ['La Reine',[0.5,'Raijin Striker'],'MG',false,true,false,'Seed','A'],
+    ['La Reine',[0.5,'Raijin Striker'],'MG',false,true,false,'Seed','B'],
     ['Rising Freedom SD',[1,'Rising Freedom'],'SD',false,false,false,'Seed','A'],
     ['Revolution',[1,'Rising Freedom'],'HG',false,false,false,'Seed','D','2024-02-18',15.08],
     ['Blue Angels',[3,'Skygrasper','Skygrasper','Skygrasper'],'RG',
@@ -7687,7 +7687,85 @@ const projects = [
 
     //Post Disaster (IBO)
     ['Thorn',[1,'Barbatos'],'MG',false,false,false,'IBO','B'],
-    ['Deku Knight',[1,'Barbatos'],'MGSD',false,false,false,'IBO','D','2024-01-13',21.54],
+    ['Deku Knight',[1,'Barbatos'],'MGSD',
+        false,false,false,'IBO','E','2024-01-13',21.54,false,'Builds/Gundams/Deku.html',false,'2024-04-22',models[46],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dekuK10.jpg','Deku Knight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dekuK11.jpg','Deku Knight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dekuK12.jpg','Deku Knight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dekuK13.jpg','Deku Knight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dekuK14.jpg','Deku Knight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dekuK15.jpg','Deku Knight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dekuK16.jpg','Deku Knight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dekuK17.jpg','Deku Knight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dekuK18.jpg','Deku Knight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dekuK19.jpg','Deku Knight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dekuK20.jpg','Deku Knight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dekuK21.jpg','Deku Knight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dekuK22.jpg','Deku Knight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dekuK23.jpg','Deku Knight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dekuK24.jpg','Deku Knight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dekuK25.jpg','Deku Knight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dekuK26.jpg','Deku Knight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dekuK27.jpg','Deku Knight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dekuK28.jpg','Deku Knight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dekuK29.jpg','Deku Knight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dekuK30.jpg','Deku Knight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dekuK31.jpg','Deku Knight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dekuK32.jpg','Deku Knight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dekuK33.jpg','Deku Knight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dekuK34.jpg','Deku Knight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dekuK35.jpg','Deku Knight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dekuK36.jpg','Deku Knight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dekuK37.jpg','Deku Knight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dekuK38.jpg','Deku Knight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dekuK39.jpg','Deku Knight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dekuK40.jpg','Deku Knight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dekuK41.jpg','Deku Knight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dekuK42.jpg','Deku Knight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dekuK43.jpg','Deku Knight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dekuK44.jpg','Deku Knight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dekuK45.jpg','Deku Knight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dekuK46.jpg','Deku Knight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dekuK47.jpg','Deku Knight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dekuK48.jpg','Deku Knight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dekuK49.jpg','Deku Knight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dekuK50.jpg','Deku Knight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dekuK51.jpg','Deku Knight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dekuK52.jpg','Deku Knight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dekuK53.jpg','Deku Knight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dekuK54.jpg','Deku Knight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dekuK55.jpg','Deku Knight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dekuK56.jpg','Deku Knight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dekuK57.jpg','Deku Knight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dekuK58.jpg','Deku Knight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dekuK59.jpg','Deku Knight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dekuK60.jpg','Deku Knight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dekuK61.jpg','Deku Knight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dekuK62.jpg','Deku Knight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dekuK63.jpg','Deku Knight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dekuK64.jpg','Deku Knight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dekuK65.jpg','Deku Knight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dekuK66.jpg','Deku Knight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dekuK67.jpg','Deku Knight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dekuK01.jpg','Deku Knight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dekuK02.jpg','Deku Knight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dekuK03.jpg','Deku Knight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dekuK04.jpg','Deku Knight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dekuK05.jpg','Deku Knight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dekuK06.jpg','Deku Knight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dekuK07.jpg','Deku Knight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dekuK08.jpg','Deku Knight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/dekuK09.jpg','Deku Knight']
+        ],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/dekuK65.jpg','Profile Photo: Deku Knight'],
+        'The first MGSD kit, the Freedom as so cool, so when Bandai announced their second MGSD the Barbatos I was stoked. Rushed immediately to buy it but took me a while to decide on a theme how to paint it. Eventually settled on Deku tribe from Legend of Zelda. For this theme focused on lots of green and woodsy shaded paints. Found a really nice golden olive paint from Vallejo which when applied wow it really did look like a green olive, particularly the shoulders. Every time I look at them I get this urge to just eat them up. Loved how this turned out. The only thing that did not turn out well was the decals. They look so flat and glued on. Not sure what went wrong there but I\'m trying my hardest to overlook them.',false,
+        [
+            ['Video','https://youtu.be/Ljdahpgy_4U'],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/mgsd-gundam-barbatos'],
+            ['NewType','https://newtype.us/p/s5aUGuMGUB4fnqwwiCuV/h/mgsd-gundam-barbatos']
+        ],false,true,true
+    ],
     ['War Pig',[1,'Barbatos'],'SD',
         false,false,false,'IBO','E','2021-12-13',4.15,false,'Builds/Gundams/WarPig.html','SD Rock','2023-04-18',models[46],
         [
@@ -9141,6 +9219,7 @@ const projects = [
             ['TurboDork: Forrest Flux','https://turbodork.com/products/forrest-flux']
         ],['Asterix'],false,true
     ],
+    ['Jade',[1,'Bulbasaur'],'Pokemon',false,false,false,'','B'],
     ['Asterix',[1,'Charmander'],'Pokemon',
         false,false,false,'','E','2023-03-12',3.85,false,'Builds/Pokemon/Asterix.html',false,'2023-08-28',models[79],
         [
@@ -9293,7 +9372,7 @@ const projects = [
     ['Dogmatix',[1,'Riolu'],'Pokemon',
         false,false,false,'','D','2023-10-03',2.97
     ], 
-    ['Blinix',[1,'Squirtle'],'Pokemon',false,false,false,'','A'],
+    ['Blinix',[1,'Squirtle'],'Pokemon',false,false,false,'','B'],
     ['Tusk',[1,'Tepig'],'Pokemon',
         false,false,false,'','D','2023-10-22',3.1
     ], 
