@@ -1054,6 +1054,28 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/ytpremier.jpeg']
         ]
+    ],
+    [
+        '2024-04-29',
+        'Rise of the Huntress',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/samvar28.jpeg',
+        [
+            [
+                'With today\'s unveil I announnce the start of a new project. To launch Metroid Project, first up is the ',
+                ['Samus Aran Varia Suit','Builds/Metroid/Varia.html'],
+                '.'
+            ]
+        ],
+        [
+            'The first reveil is her suit that started it all, the Varia Suit. It was a fun challenge recreating her iconic suit, in the orange, red and yellow. I decided to spruce it up with the candy effect just to make it more shiny. I\'m quite proud how close to the source material this paint job came out. Once again another proud Dagger L that I cannot help but keep looking at. Enjoy.'
+        ],
+        [
+            [
+                'P.S. Also do not forget to also check out the accompanying ',
+                ['Youtube','https://youtu.be/9wZVfwGWlKw'],
+                ' video.'
+            ]
+        ]
     ]
 ]
 
