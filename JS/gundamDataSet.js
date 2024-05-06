@@ -7660,7 +7660,7 @@ const projects = [
             ['Video','https://youtu.be/hFDa8j-NscI'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/hgce-1-144-247-dagger-l'],
             ['NewType','https://newtype.us/p/V3s94PjelBrA0T06Q673/h/hgce-237-gat-o2l2-dagger-l']
-        ],['Samus: Varia Suit','Samus: Dark Suit','Samus: Fusion Suit','Samus: Gravity Suit','Samus: Light Suit','Samus: PED Suit','Samus: Phazon Suit','Samus: Metroid Suit','Dark Samus: Corruption','Dark Samus: Echoes','Samus: Zero Suit'],false,true,'1:144',false,false,'Dread Suit'
+        ],['Samus: Varia Suit','Samus: Dark Suit','Samus: Fusion Suit','Samus: Gravity Suit','Samus: Light Suit','Samus: PED Suit','Samus: Phazon Suit','Samus: Metroid Suit','Dark Samus: Corruption','Dark Samus: Echoes','Samus: Zero Suit'],false,false,'1:144',false,false,'Dread Suit'
     ],
     ['Strike Dagger',[1,'Strike Dagger','Strike Dagger'],'HG',
         false,true,false,'Seed','E','2023-03-07',9.52,false,'Builds/PBandai/PBStrikeDaggers.html',false,'2023-10-10',models[92],
