@@ -1076,6 +1076,31 @@ const blogArray = [
                 ' video.'
             ]
         ]
+    ],
+    [
+        '2024-05-06',
+        'Anti-Gravity Commencing',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/samgrav36.jpeg',
+        [
+            [
+                'Officially week two of the Metroid project and this week I unveil Samus\' ',
+                ['Gravity Suit','Builds/Metroid/Gravity.html'],
+                '.'
+            ]
+        ],
+        [
+            'The Gravity Suit is one of the longest running original OGs in Metroid lore and I had a lot of fun adapting the design to Dagger L. Not to toot my own horn but I think I aced it.'
+        ],
+        [
+            [
+                'P.S. Also again, don\'t forget to check out our new ',
+                ['Youtube','https://youtu.be/FfthpwsEwmg'],
+                ' channel and watch the Gravity Suit video..'
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/samgrav25.jpeg']
+        ]
     ]
 ]
 
