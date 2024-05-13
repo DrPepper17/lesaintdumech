@@ -6741,7 +6741,7 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/samdar59.jpg','Dark Suit'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/samdar60.jpg','Dark Suit'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/samdar62.jpg','Dark Suit'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/samdar61.jpg','Samus & Dagger']
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/samdar61.JPG','Samus & Dagger']
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/samdar42.jpg','Profile Photo: Dark Suit'],
         '',false,
@@ -12792,7 +12792,7 @@ function buildProjectPage(string) {
 
     let otherArray = [];
     for (let i=0;i<projects.length;i++) {
-        if ((projectArray[14] === projects[i][14]) && (projectArray[0] != projects[i][0]) && projects[i][22]) {
+        if ((projectArray[14] === projects[i][14]) && (projectArray[0] != projects[i][0]) && projects[i][22] && (!affilatesArray.includes(projects[i]))) {
             otherArray.push(projects[i])
         }
         if (projects[i][27]) {
@@ -12801,13 +12801,14 @@ function buildProjectPage(string) {
             }
         }
     }
-    for (let i=0;i<otherArray.length;i++) {
+    /*for (let i=0;i<otherArray.length;i++) {
         for (let j=0;j<affilatesArray.length;j++) {
             if (otherArray[i] === affilatesArray[j]) {
                 otherArray.splice(i,1);
             }
         }
-    }
+    }*/
+
     if (otherArray.length>0) {
         unhide('.modelOtherSameModelHD');
         projectLinks(otherArray.sort(),'modelOtherSameModel');
