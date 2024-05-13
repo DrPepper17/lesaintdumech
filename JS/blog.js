@@ -1095,11 +1095,42 @@ const blogArray = [
             [
                 'P.S. Also again, don\'t forget to check out our new ',
                 ['Youtube','https://youtu.be/FfthpwsEwmg'],
-                ' channel and watch the Gravity Suit video..'
+                ' channel and watch the Gravity Suit video.'
             ]
         ],
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/samgrav25.jpeg']
+        ]
+    ],
+    [
+        '2024-05-13',
+        'Phazon Contamination Imminent',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/samphaz27.jpeg',
+        [
+            [
+                'Week three of the \'Faces of Samus\' and this week\'s unveil is her ',
+                ['Phazon Suit','Builds/Metroid/Phazon.html'],
+                '.'
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/3_PhazonSuit.webp']
+        ],
+        [
+            'The sleek black elegant Phazon suit, created by a phazon-infused Omega Pirate collapsing on top of Samus and imbuing its phazon stores strength into her. The suit is one notably one of the strongest suits in the series and my favorite. As well as the final suit in the Metroid Prime I lineup.'
+        ],
+        [
+            [
+                'Meanwhile again do go check out the this week\'s ',
+                ['Youtube','https://youtu.be/j8DI_MxWTek'],
+                ' video for the Phazon suit as well.'
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/samphaz05.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/samphaz25.jpeg']
         ]
     ]
 ]

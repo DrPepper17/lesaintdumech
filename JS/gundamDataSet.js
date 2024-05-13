@@ -4932,6 +4932,58 @@ const models = [
         false, 
         [128],
         'Suletta'
+    ],
+    [129,1,'Union Flag',
+        'SVMS-01 Union Flag',
+        'SVMS-01',
+        'Mobile Suit Gundam 00',
+        false,
+        ['YMS-01A Union Flag'],
+        ['AEU-09 AEU Enact','GNMA-04B11 Trilobite'],
+        'Anno Domini',
+        [2307,'2307 A.D.','Present'],
+        'Union Soldiers',
+        [
+            'Graham Aker',
+            'Daryl Dodge',
+            'Joshua Edwards',
+            'Debora Galiena',
+            'Howard Mason',
+            'Randy',
+            'Stuart'
+        ],
+        'Union of Solar Energy and Free Nations',
+        [
+            'Union',
+            'Union: Over Flags',
+            'ESF Forces',
+            'Katharon'
+        ],
+        [17.9,'17.9 Meters'],
+        [67.1,'67.1 Metric Tons'],
+        'E-Carbon',
+        'Hydrogen / Solar Powered Battery',
+        [
+            '20mm Machine Gun',
+            'Defense Rod',
+            'Missile Launchers'
+        ],
+        [
+            'Sonic Blade (Plasma Sword)',
+            'Linear Rifle'
+        ],
+        [
+            'Chaff & Flare Dispensers',
+            'Luminescence Facial Patterns'
+        ],
+        'Hitoshi Fukuchi',
+        false,
+        'Flag',
+        false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/SVMS01UnionFlag.jpeg','SVMS-01 Union Flag'],
+        false,
+        [129],
+        'Flag'
     ]
 ];
 
@@ -4991,6 +5043,7 @@ const projects = [
     ['Morgause',[1,'Aerial'],'HG',false,false,false,'Mercury','D','2024-02-16',7.64],
     ['Cherub',[1,'Aerial'],'SD',false,false,false,'Mercury','D','2023-01-10',4.91,false,'Builds/Cherub.html','Angels'],
     ['Zephon',[1,'Aerial Rebuild'],'HG',false,false,false,'Mercury','D','2023-11-25',16.15],
+    ['Rundas',[1,'Beguir-Beu'],'HG',false,false,false,'Mercury','A','202x',0,false,'Builds/Metroid/Rundas.html','Metroid'],
     ['Dark Samus: Corruption',[1,'Beguir-Pente'],'HG',
         false,false,false,'Mercury','D','2023-12-23',10.51,false,'Builds/Metroid/Corruption.html','Metroid','2024-07-08',models[127],
         [
@@ -5045,9 +5098,23 @@ const projects = [
         '',false,
         [
             ['Video','https://youtu.be/cy48mkY1eJs'],
-            ['USA Gundam Store','https://www.usagundamstore.com/products/hgce-1-144-247-dagger-l'],
-            ['NewType','https://newtype.us/p/V3s94PjelBrA0T06Q673/h/hgce-237-gat-o2l2-dagger-l']
-        ],['Samus: Dark Suit','Samus: Fusion Suit','Samus: Gravity Suit','Samus: Light Suit','Samus: PED Suit','Samus: Phazon Suit','Samus: Dread Suit','Samus: Metroid Suit','Dark Samus: Echoes','Samus: Zero Suit','Samus: Varia Suit'],false,false,'1:144',false,false,'Corruption'
+            ['USA Gundam Store','https://www.usagundamstore.com/products/hgtwfm-1-144-12-beguir-pente'],
+            ['NewType','https://newtype.us/p/2Fl54MsQjm7y9dm6OziD/h/hgwfm-12-beguir-pente']
+        ],
+        [
+            'Samus: Varia Suit',
+            'Samus: Gravity Suit',
+            'Samus: Phazon Suit',
+            'Samus: Dark Suit',
+            'Samus: Light Suit',
+            'Samus: PED Suit',
+            'Samus: Fusion Suit',
+            'Samus: Dread Suit',
+            'Samus: Metroid Suit',
+            'Dark Samus: Echoes',
+            'Samus: Zero Suit',
+            'Federation Trooper'
+        ],false,false,'1:144',false,false,'Corruption'
     ], 
     ['CAL-A',[1,'Calibarn'],'SD',false,false,false,'Mercury','A'],
     ['CAL-B',[1,'Calibarn'],'SD',false,false,false,'Mercury','A'],
@@ -5055,6 +5122,7 @@ const projects = [
     ['Abaddon',[1,'Calibarn'],'HG',false,false,false,'Mercury','C','2023-11-25',17.81],
     ['Calibarn [HG]',[1,'Calibarn'],'HG',true,false,false,'Mercury','D','2023-08-22',2.83,false,false,false],
     ['Arthur',[1,'Calibarn'],'HG',false,false,false,'Mercury','C','2024-03-01',6.28],
+    ['Kanden',[1.25,'Darilbalde','P.B. Witch From Mercury Expansion Pack'],'HG',false,true,false,'Mercury','A','202x',0,false,'Builds/Metroid/kanden.html','Metroid'],
     ['Azrael',[1,'Dilanza, Guel\'s'],'HG',
         false,false,false,'Mercury','E','2023-01-05',12.14,false,'Builds/Gundams/Azrael.html','Angels','2023-02-27',models[26],
         [
@@ -5187,9 +5255,23 @@ const projects = [
         '',false,
         [
             ['Video','https://youtu.be/wE2XVpx50mA'],
-            ['USA Gundam Store','https://www.usagundamstore.com/products/hgce-1-144-247-dagger-l'],
-            ['NewType','https://newtype.us/p/V3s94PjelBrA0T06Q673/h/hgce-237-gat-o2l2-dagger-l']
-        ],['Samus: Dark Suit','Samus: Fusion Suit','Samus: Gravity Suit','Samus: Light Suit','Samus: PED Suit','Samus: Phazon Suit','Samus: Dread Suit','Samus: Metroid Suit','Dark Samus: Corruption','Samus: Zero Suit','Samus: Varia Suit'],false,false,'1:144',false,false,'Dark Samus'
+            ['USA Gundam Store','https://www.usagundamstore.com/products/hgtwfm-1-144-24-gundvolva'],
+            ['NewType','https://newtype.us/p/0LtLPFfPCrT5SfGPqKjS/h/hgwfm-24-gundv-lva']
+        ],
+        [
+            'Samus: Varia Suit',
+            'Samus: Gravity Suit',
+            'Samus: Phazon Suit',
+            'Samus: Dark Suit',
+            'Samus: Light Suit',
+            'Samus: PED Suit',
+            'Samus: Fusion Suit',
+            'Samus: Dread Suit',
+            'Samus: Metroid Suit',
+            'Dark Samus: Corruption',
+            'Samus: Zero Suit',
+            'Federation Trooper'
+        ],false,false,'1:144',false,false,'Dark Samus'
     ],
     ['The Nazarene',[1,'Gundvolva'],'HG',false,false,false,'Mercury','D','2024-03-01',7.68], 
     ['Dobiel',[1,'Gundvolva'],'HG',
@@ -5233,6 +5315,10 @@ const projects = [
     ['LFrith [HG]',[1,'LFrith'],'HG',true,false,false,'Mercury','D','2023-04-15',2.33,false,false,false],
     ['Cassiel',[1,'LFrith Anavata'],'HG',false,true,false,'Mercury','C','2024',0],
     ['Eisheth',[1,'LFrith Jiu'],'HG',false,true,false,'Mercury','D','2024-02-16',8.05],
+    ['Spire',[1,'LFrith Thorn'],'HG',false,false,false,'Mercury','A','202x',0,false,'Builds/Metroid/Spire.html','Metroid'],
+    ['Weavel',[1,'LFrith Ur'],'HG',false,false,false,'Mercury','A','202x',0,false,'Builds/Metroid/Weavel.html','Metroid'],
+    ['Sylux',[1.25,'Michaelis','P.B. Witch From Mercury Expansion Pack'],'HG',false,true,false,'Mercury','A','202x',0,false,'Builds/Metroid/Sylux.html','Metroid'],
+    ['Noxus',[1.25,'Pharact','P.B. Witch From Mercury Expansion Pack'],'HG',false,true,false,'Mercury','A','202x',0,false,'Builds/Metroid/Noxus.html','Metroid'],
     ['Schwarzette [HG]',[1,'Schwarzette'],'HG',true,false,false,'Mercury','E','2023-10-04',2.33,false,false,false],
     ['Metatron',[1,'Schwarzette'],'HG',false,false,false,'Mercury','D','2023-11-25',17.15],
     ['Samus: Zero Suit',[1,'Suletta Mercury','Miorine Rembran'],'Other',
@@ -5266,14 +5352,29 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/samzero24.jpeg','Zero Suit'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/samzero25.jpeg','Samus Aran & Suletta Mercury']
         ],
-        ['','Profile Photo: Zero Suit'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/samzero12.jpeg','Profile Photo: Zero Suit'],
         '',false,
         [
             ['Video','https://youtu.be/5PgQ0s4gvHY'],
-            ['USA Gundam Store','https://www.usagundamstore.com/products/hgce-1-144-247-dagger-l'],
-            ['NewType','https://newtype.us/p/V3s94PjelBrA0T06Q673/h/hgce-237-gat-o2l2-dagger-l']
-        ],['Samus: Dark Suit','Samus: Fusion Suit','Samus: Gravity Suit','Samus: Light Suit','Samus: PED Suit','Samus: Phazon Suit','Samus: Dread Suit','Samus: Metroid Suit','Dark Samus: Corruption','Dark Samus: Echoes','Samus: Varia Suit'],false,false,'1:144',false,false,'Zero Suit'
+            ['USA Gundam Store','https://www.usagundamstore.com/products/gundam-figure-rise-standard-suletta-mercury-model-kit'],
+            ['NewType','https://newtype.us/p/wCdEeKeIHHGAMS37yMfv/h/figure-rise-standard-suletta-mercury']
+        ],
+        [
+            'Samus: Varia Suit',
+            'Samus: Gravity Suit',
+            'Samus: Phazon Suit',
+            'Samus: Dark Suit',
+            'Samus: Light Suit',
+            'Samus: PED Suit',
+            'Samus: Fusion Suit',
+            'Samus: Dread Suit',
+            'Samus: Metroid Suit',
+            'Dark Samus: Echoes',
+            'Dark Samus: Corruption',
+            'Federation Trooper'
+        ],false,false,'1:144',false,false,'Zero Suit'
     ],
+    ['Ghor',[1,'Zowort Heavy'],'HG',false,false,false,'Mercury','A','202x',0,false,'Builds/Metroid/Ghor.html','Metroid'],
 
     //Advanced Generation (Age)
     ['Uriel',[1,'Age-FX'],'SD',false,false,false,'Age','B'],
@@ -5742,6 +5843,7 @@ const projects = [
     ['Napoleon',[2,'Tallgeese','Ceramic Horse'],'MG',
         false,false,false,'Wing','B',false,0,false,'Builds/Gundams/Napoleon.html',false,false,models[47]
     ],
+    ['La Bastille',[1,'Tallgeese'],'SD',false,false,false,'Wing','A'],
     ['St Dominic',[1,'Tallgeese'],'RG',
         false,false,false,'Wing','E','2021-12-10',19,false,'Builds/Gundams/StDominic.html',false,'2022-06-08',models[47],
         [
@@ -5914,12 +6016,13 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/biohazard10.jpeg','Gundam Biohazard','img10']
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/biohazard08.jpeg','Profile Photo: Gundam Biohazard'],
-        'Practice build before painting the larger project Corona Virus',false,
+        'Practice build before painting the larger project Corona Virus',
+        'Tyler, North Carolina',
         [
             ['Video','https://www.instagram.com/reel/CkHdoz0ttUg/?igshid=YzcxN2Q2NzY0OA=='],
             ['USA Gundam Store','https://www.usagundamstore.com/products/gg-44-gundam-double-x?variant=32323103522852'],
             ['NewType','https://newtype.us/p/Tj4bsQyOIopaVxWIEoty/h/sdgg-044-gundam-double-x']
-        ],['Corona Virus'],true,true,false
+        ],['Corona Virus'],false,true,false
     ],
     ['Charlie Daniels',[1,'Double X'],'SD',
         false,false,false,'X','E','2021-10-08',4.51,false,'Builds/Gundams/CharlieDaniels.html','SD Rock','2022-08-01',models[29],
@@ -6130,6 +6233,7 @@ const projects = [
             ['Premium Bandai','https://p-bandai.com/us/item/N2519709001001']
         ],false,false,true,'1:144'
     ],
+    ['Gandrayda',[1,'Astraea Type F'],'HG',false,false,false,'00','A','202x',0,false,'Builds/Metroid/Gandrayda.html','Metroid'],
     ['Nena',[1,'Exia'],'SD',
         false,false,false,'00','E','2021-12-07',4.95,false,'Builds/Gundams/Nena.html','SD Rock','2023-09-18',models[67],
         [
@@ -6172,7 +6276,53 @@ const projects = [
         ],false,false,true,'1:144'
     ],
     ['Federation Trooper',[1,'Flag'],'HG',
-        false,false,false,'00','D','2023-08-06',9.1,false,'Builds/Metroid/FedTrooper.html','Metroid'
+        false,false,false,'00','D','2023-08-06',9.1,false,'Builds/Metroid/FedTrooper.html','Metroid',false,'2024-07-22',models[129],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PED_Trooper_Render.jpeg','Federation Trooper'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GFtrooper_trio.jpeg','Federation Troopers'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/fedtroop01.jpeg','Federation Trooper'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/fedtroop02.jpeg','Federation Trooper'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/fedtroop03.jpeg','Federation Trooper'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/fedtroop04.jpeg','Federation Trooper'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/fedtroop05.jpeg','Federation Trooper'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/fedtroop06.jpeg','Federation Trooper'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/fedtroop07.jpeg','Federation Trooper'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/fedtroop08.jpeg','Federation Trooper'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/fedtroop09.jpeg','Federation Trooper'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/fedtroop10.jpeg','Federation Trooper'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/fedtroop11.jpeg','Federation Trooper'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/fedtroop12.jpeg','Federation Trooper'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/fedtroop13.jpeg','Federation Trooper'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/fedtroop14.jpeg','Federation Trooper'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/fedtroop15.jpeg','Federation Trooper'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/fedtroop16.jpeg','Federation Trooper'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/fedtroop17.jpeg','Federation Trooper'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/fedtroop18.jpeg','Federation Trooper'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/fedtroop19.jpeg','Federation Trooper'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/fedtroop20.jpeg','Federation Trooper'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/fedtroop21.jpeg','Federation Trooper']
+        ],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/fedtroop09.jpeg','Profile Photo: Federation Trooper'],
+        '',false,
+        [
+            ['Video','https://youtu.be/jhEmwQ9XIQU'],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/hg00-1-144-02-union-flag'],
+            ['NewType','https://newtype.us/p/wRgLxRwuQTJvzCqiewP2/h/hg00-002-svms-01-union-flag']
+        ],
+        [
+            'Samus: Varia Suit',
+            'Samus: Gravity Suit',
+            'Samus: Phazon Suit',
+            'Samus: Dark Suit',
+            'Samus: Light Suit',
+            'Samus: PED Suit',
+            'Samus: Fusion Suit',
+            'Samus: Dread Suit',
+            'Samus: Metroid Suit',
+            'Dark Samus: Echoes',
+            'Dark Samus: Corruption',
+            'Samus: Zero Suit'
+        ],false,false,'1:144'
     ],
     ['Harute (Final Battle)',[1,'Harute'],'HG',
         true,true,false,'00','E','2022-03-08',5.75,false,'Builds/PBandai/PBHaruteFinalHG.html',false,'2022-11-21',models[70],
@@ -6599,7 +6749,21 @@ const projects = [
             ['Video','https://youtu.be/x53rQPMHpE8'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/hgce-1-144-247-dagger-l'],
             ['NewType','https://newtype.us/p/V3s94PjelBrA0T06Q673/h/hgce-237-gat-o2l2-dagger-l']
-        ],['Samus: Fusion Suit','Samus: Gravity Suit','Samus: Light Suit','Samus: PED Suit','Samus: Phazon Suit','Samus: Dread Suit','Samus: Metroid Suit','Dark Samus: Corruption','Dark Samus: Echoes','Samus: Zero Suit','Samus: Varia Suit'],false,false,'1:144',false,false,'Dark Suit'
+        ],
+        [
+            'Samus: Varia Suit',
+            'Samus: Gravity Suit',
+            'Samus: Phazon Suit',
+            'Samus: Light Suit',
+            'Samus: PED Suit',
+            'Samus: Fusion Suit',
+            'Samus: Dread Suit',
+            'Samus: Metroid Suit',
+            'Dark Samus: Echoes',
+            'Dark Samus: Corruption',
+            'Samus: Zero Suit',
+            'Federation Trooper'
+        ],false,false,'1:144',false,false,'Dark Suit'
     ],
     ['Samus: Fusion Suit',[1,'Dagger L'],'HG',
         false,false,false,'Seed','D','2023-08-19',7.79,false,'Builds/Metroid/Fusion.html','Metroid','2024-06-10',models[23],
@@ -6651,7 +6815,21 @@ const projects = [
             ['Video','https://youtu.be/1uz4guERqbk'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/hgce-1-144-247-dagger-l'],
             ['NewType','https://newtype.us/p/V3s94PjelBrA0T06Q673/h/hgce-237-gat-o2l2-dagger-l']
-        ],['Samus: Dark Suit','Samus: Gravity Suit','Samus: Light Suit','Samus: PED Suit','Samus: Phazon Suit','Samus: Dread Suit','Samus: Metroid Suit','Dark Samus: Corruption','Dark Samus: Echoes','Samus: Zero Suit','Samus: Varia Suit'],false,false,'1:144',false,false,'Fusion Suit'
+        ],
+        [
+            'Samus: Varia Suit',
+            'Samus: Gravity Suit',
+            'Samus: Phazon Suit',
+            'Samus: Dark Suit',
+            'Samus: Light Suit',
+            'Samus: PED Suit',
+            'Samus: Dread Suit',
+            'Samus: Metroid Suit',
+            'Dark Samus: Echoes',
+            'Dark Samus: Corruption',
+            'Samus: Zero Suit',
+            'Federation Trooper'
+        ],false,false,'1:144',false,false,'Fusion Suit'
     ],
     ['Samus: Gravity Suit',[1,'Dagger L'],'HG',
         false,false,false,'Seed','E','2023-08-02',8.37,false,'Builds/Metroid/Gravity.html','Metroid','2024-05-06',models[23],
@@ -6701,7 +6879,21 @@ const projects = [
             ['Video','https://youtu.be/FfthpwsEwmg'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/hgce-1-144-247-dagger-l'],
             ['NewType','https://newtype.us/p/V3s94PjelBrA0T06Q673/h/hgce-237-gat-o2l2-dagger-l']
-        ],['Samus: Dark Suit','Samus: Fusion Suit','Samus: Light Suit','Samus: PED Suit','Samus: Phazon Suit','Samus: Dread Suit','Samus: Metroid Suit','Dark Samus: Corruption','Dark Samus: Echoes','Samus: Zero Suit','Samus: Varia Suit'],false,true,'1:144',false,false,'Gravity Suit'
+        ],
+        [
+            'Samus: Varia Suit',
+            'Samus: Phazon Suit',
+            'Samus: Dark Suit',
+            'Samus: Light Suit',
+            'Samus: PED Suit',
+            'Samus: Fusion Suit',
+            'Samus: Dread Suit',
+            'Samus: Metroid Suit',
+            'Dark Samus: Echoes',
+            'Dark Samus: Corruption',
+            'Samus: Zero Suit',
+            'Federation Trooper'
+        ],false,true,'1:144',false,false,'Gravity Suit'
     ],
     ['Samus: Light Suit',[1,'Dagger L'],'HG',
         false,false,false,'Seed','D','2023-08-16',9.47,false,'Builds/Metroid/Light.html','Metroid','2024-05-27',models[23],
@@ -6778,7 +6970,21 @@ const projects = [
             ['Video','https://youtu.be/fIUNxZdI2M8'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/hgce-1-144-247-dagger-l'],
             ['NewType','https://newtype.us/p/V3s94PjelBrA0T06Q673/h/hgce-237-gat-o2l2-dagger-l']
-        ],['Samus: Dark Suit','Samus: Fusion Suit','Samus: Gravity Suit','Samus: PED Suit','Samus: Phazon Suit','Samus: Dread Suit','Samus: Metroid Suit','Dark Samus: Corruption','Dark Samus: Echoes','Samus: Zero Suit','Samus: Varia Suit'],false,false,'1:144',false,false,'Light Suit'
+        ],
+        [
+            'Samus: Varia Suit',
+            'Samus: Gravity Suit',
+            'Samus: Phazon Suit',
+            'Samus: Dark Suit',
+            'Samus: PED Suit',
+            'Samus: Fusion Suit',
+            'Samus: Dread Suit',
+            'Samus: Metroid Suit',
+            'Dark Samus: Echoes',
+            'Dark Samus: Corruption',
+            'Samus: Zero Suit',
+            'Federation Trooper'
+        ],false,false,'1:144',false,false,'Light Suit'
     ],
     ['Samus: PED Suit',[1,'Dagger L'],'HG',
         false,false,false,'Seed','D','2023-08-06',8.36,false,'Builds/Metroid/PED.html','Metroid','2024-06-03',models[23],
@@ -6830,10 +7036,24 @@ const projects = [
             ['Video','https://youtu.be/ftHaYYBLyWI'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/hgce-1-144-247-dagger-l'],
             ['NewType','https://newtype.us/p/V3s94PjelBrA0T06Q673/h/hgce-237-gat-o2l2-dagger-l']
-        ],['Samus: Dark Suit','Samus: Fusion Suit','Samus: Gravity Suit','Samus: Light Suit','Samus: Phazon Suit','Samus: Dread Suit','Samus: Metroid Suit','Dark Samus: Corruption','Dark Samus: Echoes','Samus: Zero Suit','Samus: Varia Suit'],false,false,'1:144',false,false,'PED Suit'
+        ],
+        [
+            'Samus: Varia Suit',
+            'Samus: Gravity Suit',
+            'Samus: Phazon Suit',
+            'Samus: Dark Suit',
+            'Samus: Light Suit',
+            'Samus: Fusion Suit',
+            'Samus: Dread Suit',
+            'Samus: Metroid Suit',
+            'Dark Samus: Echoes',
+            'Dark Samus: Corruption',
+            'Samus: Zero Suit',
+            'Federation Trooper'
+        ],false,false,'1:144',false,false,'PED Suit'
     ],
     ['Samus: Phazon Suit',[1,'Dagger L'],'HG',
-        false,false,false,'Seed','D','2023-08-06',8.3,false,'Builds/Metroid/Phazon.html','Metroid','2024-05-13',models[23],
+        false,false,false,'Seed','E','2023-08-06',8.3,false,'Builds/Metroid/Phazon.html','Metroid','2024-05-13',models[23],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/3_PhazonSuit.webp','Samus Aran: Phazon Suit'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/samphaz01.jpeg','Phazon Suit'],
@@ -6865,13 +7085,27 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/samphaz27.jpeg','Phazon Suit'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/phazonphazon.jpeg','Samus & Dagger']
         ],
-        ['https://hosting.photobucket.com/images/i/lesaintdumech/samphaz16.jpeg','Profile Photo: Phazon Suit'],
-        '',false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/samphaz14.jpeg','Profile Photo: Phazon Suit'],
+        'One of the coolest suits in the entire Metroid Series, the Phazon Suit. The sleek black with the bright red lights glow, this suit is just beautiful and adapting its design to the Dagger was a joy to do. Out of all the suits I did for the Metroid project, the Phazon suit has got to be one out of my two favorites. This one was amazing.',false,
         [
             ['Video','https://youtu.be/j8DI_MxWTek'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/hgce-1-144-247-dagger-l'],
             ['NewType','https://newtype.us/p/V3s94PjelBrA0T06Q673/h/hgce-237-gat-o2l2-dagger-l']
-        ],['Samus: Dark Suit','Samus: Fusion Suit','Samus: Gravity Suit','Samus: Light Suit','Samus: PED Suit','Samus: Dread Suit','Samus: Metroid Suit','Dark Samus: Corruption','Dark Samus: Echoes','Samus: Zero Suit','Samus: Varia Suit'],false,false,'1:144',false,false,'Phazon Suit'
+        ],
+        [
+            'Samus: Varia Suit',
+            'Samus: Gravity Suit',
+            'Samus: Dark Suit',
+            'Samus: Light Suit',
+            'Samus: PED Suit',
+            'Samus: Fusion Suit',
+            'Samus: Dread Suit',
+            'Samus: Metroid Suit',
+            'Dark Samus: Echoes',
+            'Dark Samus: Corruption',
+            'Samus: Zero Suit',
+            'Federation Trooper'
+        ],false,true,'1:144',false,false,'Phazon Suit'
     ],
     ['Samus: Varia Suit',[1,'Dagger L'],'HG',
         false,false,false,'Seed','E','2023-06-13',8.33,false,'Builds/Metroid/Varia.html','Metroid','2024-04-29',models[23],
@@ -6926,7 +7160,21 @@ const projects = [
             ['Video','https://youtu.be/9wZVfwGWlKw'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/hgce-1-144-247-dagger-l'],
             ['NewType','https://newtype.us/p/V3s94PjelBrA0T06Q673/h/hgce-237-gat-o2l2-dagger-l']
-        ],['Samus: Dark Suit','Samus: Fusion Suit','Samus: Gravity Suit','Samus: Light Suit','Samus: PED Suit','Samus: Phazon Suit','Samus: Dread Suit','Samus: Metroid Suit','Dark Samus: Corruption','Dark Samus: Echoes','Samus: Zero Suit'],false,true,'1:144',false,false,'Varia Suit'
+        ],
+        [
+            'Samus: Gravity Suit',
+            'Samus: Phazon Suit',
+            'Samus: Dark Suit',
+            'Samus: Light Suit',
+            'Samus: PED Suit',
+            'Samus: Fusion Suit',
+            'Samus: Dread Suit',
+            'Samus: Metroid Suit',
+            'Dark Samus: Echoes',
+            'Dark Samus: Corruption',
+            'Samus: Zero Suit',
+            'Federation Trooper'
+        ],false,true,'1:144',false,false,'Varia Suit'
     ],
     ['Joan',[1,'Dagger 105 + Gunbarrel'],'HG',false,false,false,'Seed','B'],
     ['Charizard',[1,'Destiny'],'MG',false,false,false,'Seed','B'],
@@ -7024,7 +7272,7 @@ const projects = [
         'This was my first ship buid. And I am awfully quite attached to it. At the time I was in a Gundam Seed kick and rewatching that series so the ships and machines from that saga was on my mind. Seed is probably home to all my favorite vessels throughout the entire Gundam saga. Whether it be Eternal or Archangel they\'re all so cool. And Eternal is by my far the coolest one. For this I was trying to be as realistic and close to the source material as possible. So rather than do a custom design I painted it exactly as how it appears in the anime. So expect lots of pink and purples... Also..., it has got to be pointed out how cool and cute the METEOR units in this kit are. By far out of the whole ship, the METEORs I\'m most proud of. Inspired by these, I am going to be doing a much larger scale P-Bandai meteor kit paint real soon.',
         false,false,['Archangel'],false,true,'1:1700'
     ],
-    ['Roanoke',[1,'Exus'],'HG',false,false,false,'Seed','A'],
+    ['Roanoke',[1,'Exus'],'HG',false,false,false,'Seed','B'],
     ['Orga',[1,'Forbidden'],'FM',false,false,false,'Seed','A'],
     ['Anthem',[1,'Freedom'],'MG',
         false,false,false,'Seed','E','2022-05-05',73.16,true,'Builds/Gundams/Anthem.html','America','2022-07-04',models[14],
@@ -7436,12 +7684,12 @@ const projects = [
     ['Zoroaster',[1,'Legend'],'FM',false,false,false,'Seed','B'],
     ['Lightning Striker',[0.5,'Lightning Strike Pack'],'MG',false,true,false,'Seed','B'],
     ['PB Meteors',[1,'Meteor','Meteor I','Meteor II','Freedom','Infinite Justice'],'HG',false,true,false,'Seed','B'],
-    ['Minerva',[1,'Minerva'],'Ship',false,false,false,'Seed','A'],
+    ['Minerva',[1,'Minerva'],'Ship',false,false,false,'Seed','B'],
     ['Union Jack',[1,'Providence'],'MG',false,false,false,'Seed','A'],
     ['Raider [FM]',[1,'Raider'],'FM',true,false,false,'Seed','D','2023-01-06',10.25,false,false,false],
     ['Rodan',[1,'Raider'],'FM',false,false,false,'Seed','A'],
     ['La Reine',[0.5,'Raijin Striker'],'MG',false,true,false,'Seed','B'],
-    ['Rising Freedom SD',[1,'Rising Freedom'],'SD',false,false,false,'Seed','A'],
+    ['Ripley',[1,'Rising Freedom'],'SD',false,false,false,'Seed','B'],
     ['Revolution',[1,'Rising Freedom'],'HG',false,false,false,'Seed','D','2024-02-18',15.08],
     ['Blue Angels',[3,'Skygrasper','Skygrasper','Skygrasper'],'RG',
         false,false,false,'Seed','E','2022-12-05',22,true,'Builds/Gundams/BlueAngels.html',false,'2022-12-26',models[30],
@@ -7658,9 +7906,22 @@ const projects = [
         '',false,
         [
             ['Video','https://youtu.be/hFDa8j-NscI'],
-            ['USA Gundam Store','https://www.usagundamstore.com/products/hgce-1-144-247-dagger-l'],
-            ['NewType','https://newtype.us/p/V3s94PjelBrA0T06Q673/h/hgce-237-gat-o2l2-dagger-l']
-        ],['Samus: Varia Suit','Samus: Dark Suit','Samus: Fusion Suit','Samus: Gravity Suit','Samus: Light Suit','Samus: PED Suit','Samus: Phazon Suit','Samus: Metroid Suit','Dark Samus: Corruption','Dark Samus: Echoes','Samus: Zero Suit'],false,false,'1:144',false,false,'Dread Suit'
+            ['Premium Bandai','https://p-bandai.com/us/item/N2595691001002']
+        ],
+        [
+            'Samus: Varia Suit',
+            'Samus: Gravity Suit',
+            'Samus: Phazon Suit',
+            'Samus: Dark Suit',
+            'Samus: Light Suit',
+            'Samus: PED Suit',
+            'Samus: Fusion Suit',
+            'Samus: Metroid Suit',
+            'Dark Samus: Echoes',
+            'Dark Samus: Corruption',
+            'Samus: Zero Suit',
+            'Federation Trooper'
+        ],false,false,'1:144',false,false,'Dread Suit'
     ],
     ['Strike Dagger',[1,'Strike Dagger','Strike Dagger'],'HG',
         false,true,false,'Seed','E','2023-03-07',9.52,false,'Builds/PBandai/PBStrikeDaggers.html',false,'2023-10-10',models[92],
@@ -8005,7 +8266,7 @@ const projects = [
         ],['Armageddon'],false,true,'1:144'
     ],
     ['Samus: Metroid Suit',[1,'Windam'],'HG',
-        false,false,false,'Seed','D','2023-09-13',10.24,false,'Builds/Metroid/Metroid.html',false,'2024-06-24',models[24],
+        false,false,false,'Seed','D','2023-09-13',10.24,false,'Builds/Metroid/MetroidSuit.html',false,'2024-06-24',models[24],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/MetroidSuit02.jpeg','Samus Aran: Metroid Suit'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/MetroidSuit01.jpeg','Samus Aran: Metroid Suit'],
@@ -8081,9 +8342,23 @@ const projects = [
         '',false,
         [
             ['Video','https://youtu.be/YZ-dzMfBmjg'],
-            ['USA Gundam Store','https://www.usagundamstore.com/products/hgce-1-144-247-dagger-l'],
-            ['NewType','https://newtype.us/p/V3s94PjelBrA0T06Q673/h/hgce-237-gat-o2l2-dagger-l']
-        ],['Samus: Dark Suit','Samus: Fusion Suit','Samus: Gravity Suit','Samus: Light Suit','Samus: PED Suit','Samus: Phazon Suit','Samus: Dread Suit','Samus: Varia Suit','Dark Samus: Corruption','Dark Samus: Echoes','Samus: Zero Suit'],false,false,'1:144',false,false,'Metroid Suit'
+            ['USA Gundam Store','https://www.usagundamstore.com/products/hgce-1-144-232-gat-04-windam'],
+            ['NewType','https://newtype.us/p/kjwUPIk5smIcsY8oIzVJ/h/hgce-232-gat-04-windam']
+        ],
+        [
+            'Samus: Varia Suit',
+            'Samus: Gravity Suit',
+            'Samus: Phazon Suit',
+            'Samus: Dark Suit',
+            'Samus: Light Suit',
+            'Samus: PED Suit',
+            'Samus: Fusion Suit',
+            'Samus: Dread Suit',
+            'Dark Samus: Echoes',
+            'Dark Samus: Corruption',
+            'Samus: Zero Suit',
+            'Federation Trooper'
+        ],false,false,'1:144',false,false,'Metroid Suit'
     ],
     ['Slash Zaku Phantom',[1,'Zaku Phantom, Slash'],'MG',
         true,true,false,'Seed','E','2023-04-05',11.83,false,'Builds/PBandai/PBPhantomZakuMG.html',false,'2023-07-31',models[75],
@@ -8753,6 +9028,7 @@ const projects = [
             ['TurboDork: Vine','https://en.wikipedia.org/wiki/Vine_(demon)']
         ],['Sealiah'],false,true,'1:144'
     ],
+    ['Trace',[1,'Reginlaze Julia'],'HG',false,false,false,'IBO','A','202x',0,false,'Builds/Metroid/Trace.html','Metroid'],
     ['\u00dcbermensch',[1,'Vidar'],'FM',
         false,false,false,'IBO','E','2023-08-01',20.55,false,'Builds/Gundams/Ubermensch.html',false,'2023-10-30',models[95],
         [
@@ -9156,7 +9432,7 @@ const projects = [
     ['Luxe-Ball',[1,'Polypodball'],'MG',false,true,false,'UC','C','2024',0],
     ['Ridley',[1,'Qubeley'],'HG',false,false,false,'UC','A'],
     ['LunchTime Solutions',[1,'RX-78-2'],'RG',false,false,false,'UC','B'],
-    ['Earth Federation',[2,'Salamis and Magellan Class'],'Ship',false,false,false,'UC','A'],
+    ['Colombo: Santa Maria -n- Santa Clara',[2,'Salamis and Magellan Class'],'Ship',false,false,false,'UC','B'],
     ['Starman',[1,'Sazabi'],'SD',
         false,false,false,'UC','E','2021-12-16',5.03,false,'Builds/Gundams/Starman.html',false,'2023-11-07',models[99],
         [
@@ -10475,6 +10751,7 @@ const projects = [
     ],
     ['Ponente',[1,'Cosmo Zero'],'Ship',false,false,false,'StarBlazer','B'],
     ['Levante',[1,'Nagato'],'Ship',false,false,false,'Space Rengo Kantai','B'],
+    ['USS Jeanne',[1,'Millennium Falcon'],'Ship',false,false,false,'Star Wars','A'],
 
     //Transformer
     ['Wilbee',[1,'Bumblebee'],'Transformer',
@@ -12510,7 +12787,7 @@ function buildProjectPage(string) {
     }
     if (affilatesArray.length>0) {
         unhide('.projectAffProjectsHD');
-        projectLinks(affilatesArray.sort(),'projectAffProjects');
+        projectLinks(affilatesArray,'projectAffProjects');
     }
 
     let otherArray = [];
