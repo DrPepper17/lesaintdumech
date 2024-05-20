@@ -72,7 +72,11 @@
     25. ...
     26. original photo (array): ['file path','photo name']
     27. title/classification
-    28. 
+    28. Developed from
+    29. Developed into
+    30. Type
+    31. Base Suit (ID#) [an array]
+    32. Abbreviated Name (in relation to #28, How base suit is to be listed)
 
     // Ship (fictional): Other (3) //
     2. Short Name
@@ -607,7 +611,7 @@ const models = [
         false,
         false,
         'Cosmic Era',
-        [71,' January 71 C.E.','Present'],
+        [71,' January 71 C.E.',75],
         'Murrue Ramius',
         false,
         'Morgenroete Inc.',
@@ -628,7 +632,7 @@ const models = [
         'Battleship',
         ['Izumo Class'],
         false,
-        'Limited Production Mobile Assault Battleship'
+        'Limited Production Mobile Assault Battleship',
     ],
     [16,2,'Dominion',
         'LCAM-01XB Dominino',
@@ -5024,7 +5028,7 @@ const models = [
             ['site name','url']
         ]
     20. Affiliated Projects (array: listing them by their name in Projects[0])
-    21. available
+    21. Available for adoption
     22. Ready to post to site (boolean)
     23. scale
     24. Second name/nickname/phrase/slogan
@@ -5036,7 +5040,7 @@ const models = [
 //Pojects
 const projects = [
     //Ad Stella (Mercury)
-    ['Chimkin',[1,'Aerial'],'FM',false,false,false,'Mercury','D','2024-01-05',25.63],
+    ['Chimkin',[1,'Aerial'],'FM',false,false,false,'Mercury','D','2024-01-05',27.29],
     ['Aerial [HG]',[1,'Aerial'],'HG',true,false,false,'Mercury','D','2023-05-30',7.42,false,false,false],
     ['PB Aerial Permet Six [HG]',[1,'Aerial'],'HG',true,true,false,'Mercury','D','2023-09-19',2.83],
     ['Ariel',[1.5,'Aerial','Mirasoul Flight Pack'],'HG',false,false,false,'Mercury','D','2023-12-10',12.03],
@@ -5720,7 +5724,7 @@ const projects = [
             ['Video','https://www.instagram.com/reel/Csnfsy4xdt_/?igshid=YzcxN2Q2NzY0OA=='],
             ['USA Gundam Store','https://www.usagundamstore.com/products/hgac-1-144-174-wing-gundam-zero'],
             ['NewType','https://newtype.us/p/RtKPoNDHiAAdbYkcDUAT/h/hgac-174-wing-gundam-zero']
-        ],false,false,true,'1:144'
+        ],false,true,true,'1:144'
     ],
     ['King David',[1,'Proto-Zero'],'MG',
         false,false,false,'Wing','E','2023-03-08',52.11,true,'Builds/Gundams/KingDavid.html','Israel','2023-05-15',models[31],
@@ -6017,12 +6021,12 @@ const projects = [
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/biohazard08.jpeg','Profile Photo: Gundam Biohazard'],
         'Practice build before painting the larger project Corona Virus',
-        'Tyler, North Carolina',
+        false,
         [
             ['Video','https://www.instagram.com/reel/CkHdoz0ttUg/?igshid=YzcxN2Q2NzY0OA=='],
             ['USA Gundam Store','https://www.usagundamstore.com/products/gg-44-gundam-double-x?variant=32323103522852'],
             ['NewType','https://newtype.us/p/Tj4bsQyOIopaVxWIEoty/h/sdgg-044-gundam-double-x']
-        ],['Corona Virus'],false,true,false
+        ],['Corona Virus'],true,true,false
     ],
     ['Charlie Daniels',[1,'Double X'],'SD',
         false,false,false,'X','E','2021-10-08',4.51,false,'Builds/Gundams/CharlieDaniels.html','SD Rock','2022-08-01',models[29],
@@ -6677,7 +6681,7 @@ const projects = [
         ],['Malphas','Dobiel','Leo Army'],false,true,'1:144'
     ],
     ['Samus: Dark Suit',[1,'Dagger L'],'HG',
-        false,false,false,'Seed','D','2023-08-02',8.14,false,'Builds/Metroid/Dark.html','Metroid','2024-05-20',models[23],
+        false,false,false,'Seed','E','2023-08-02',8.14,false,'Builds/Metroid/Dark.html','Metroid','2024-05-20',models[23],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/4_DarkSuit.webp','Samus Aran: Dark Suit'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/samdar01.jpg','Dark Suit'],
@@ -6763,7 +6767,7 @@ const projects = [
             'Dark Samus: Corruption',
             'Samus: Zero Suit',
             'Federation Trooper'
-        ],false,false,'1:144',false,false,'Dark Suit'
+        ],false,true,'1:144',false,false,'Dark Suit'
     ],
     ['Samus: Fusion Suit',[1,'Dagger L'],'HG',
         false,false,false,'Seed','D','2023-08-19',7.79,false,'Builds/Metroid/Fusion.html','Metroid','2024-06-10',models[23],
@@ -7786,7 +7790,7 @@ const projects = [
         ],['Skygrasper [PG]'],false,true,'1:60',false,'Strike Perfect Grade','Strike'
     ], 
     ['Perfect Perfect',[1,'Strike, Perfect'],'PG',
-        true,false,false,'Seed','B','',0,true,'Builds/PG/PGPerfectStrike.html',false,'',models[61]
+        true,false,false,'Seed','C','',17.25,true,'Builds/PG/PGPerfectStrike.html',false,'',models[61]
     ],
     ['Perfect Strike [P-Bandai]',[1,'Strike, Perfect'],'RG',
         true,true,false,'Seed','E','2022-03-07',12.33,false,'Builds/PBandai/PBPerfectStrikeRG.html',false,'2022-09-13',models[61],
@@ -8880,7 +8884,7 @@ const projects = [
             ['Video','https://www.instagram.com/p/Cuz5iD7AGFv/'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pre-order-014-gundam-barbatos-lupus-ibo-2nd-season-bandai-sd-ex-standard'],
             ['NewType','https://newtype.us/p/hvuv8wfY6UaAdRQuKlrD/h/sdex-standard-14-gundam-barbatos-lupus']
-        ],['War Pig'],false,true,false
+        ],['War Pig'],true,true,false
     ],
     ['Sealiah',[1,'Barbatos Lupus'],'HG',
         false,false,false,'IBO','E','2023-02-05',12.51,false,'Builds/Gundams/Sealiah.html','Angels','2023-06-13',models[48],
@@ -8933,7 +8937,7 @@ const projects = [
             ['TurboDork: Blue Steel','https://turbodork.com/collections/all-paints/products/blue-steel'],
             ['TurboDork: Purl Grey','https://turbodork.com/collections/all-paints/products/purl-grey'],
             ['TurboDork: Sealiah','https://guardianangelguide.com/guardian-angel-sealiah/']
-        ],['Vine'],false,true,'1:144'
+        ],['Vine'],true,true,'1:144'
     ],
     ['Nephilim',[1,'Barbatos Lupus Rex'],'HG',
         false,false,false,'IBO','E','2021-06-11',23.11,false,'Builds/Gundams/Nephilim.html',false,'2021-07-26',models[49],
@@ -10391,7 +10395,7 @@ const projects = [
             ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Dragonite_(Pokémon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-plamo-charizard-dragonite'],
             ['NewType','https://newtype.us/p/S9nZ4KxUmzbDoDM0HfDd/h/pokemon-charizard-dragonite']
-        ],['Vercingetorix'],false,true,false
+        ],['Vercingetorix'],true,true,false
     ],
     ['Astronomix',[1,'Gengar'],'Pokemon',false,false,false,'','D','2023-12-11',2.68],
     ['Granfrog',[1,'Greninja'],'Pokemon',

@@ -1132,6 +1132,28 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/samphaz25.jpeg']
         ]
+    ],
+    [
+        '2024-05-20',
+        'Echo of the Dark Suit',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/4_DarkSuit.webp',
+        [
+            [
+                'Entry number four in the Samus project. And this week it\'s the ',
+                ['Dark Suit','Builds/Metroid/Dark.html'],
+                '. Introduced in Metroid Prime Echoes, the Dark Suit is pretty cool looking and a major standout in the series appearing quite different than all her normal lineup of suits. It\'s truly one of a kind and a personal fave.'
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/samdar13.jpg']
+        ],
+        [
+            [
+                'Also, don\'t forget the ',
+                ['Youtube','https://youtu.be/x53rQPMHpE8'],
+                '.'
+            ]
+        ]
     ]
 ]
 
