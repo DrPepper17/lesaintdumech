@@ -1135,7 +1135,7 @@ const blogArray = [
     ],
     [
         '2024-05-20',
-        'Echo of the Dark Suit',
+        'Echoe of the Dark Suit',
         'https://hosting.photobucket.com/images/i/lesaintdumech/4_DarkSuit.webp',
         [
             [
@@ -1153,6 +1153,28 @@ const blogArray = [
                 ['Youtube','https://youtu.be/x53rQPMHpE8'],
                 '.'
             ]
+        ]
+    ],
+    [
+        '2024-05-27',
+        'Echoe of the Light Suit',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/5_LightSuit.jpeg',
+        [
+            [
+                'First off check out the ',
+                ['Youtube','https://youtu.be/fIUNxZdI2M8?si=y31ZWD5GbJU1pBqZ'],
+                '.'
+            ]
+        ],
+        [
+            [
+                'This week number five in the Samus project: the ',
+                ['Light Suit','Builds/Metroid/Light.html'],
+                '. The final and ultimate suit presented in Metroid Prime Echoes, and the ultimate weapon in the aresenal of Luminoth Technology. Nothing was cooler than seeing Samus go up against the Emporer Ing all decked out in the Light Suit. Despite its simplicity, this one I probably put the most thought into out of all the Samus Daggers to try to capture the Light Suit\'s look.'
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/samlight12.jpeg']
         ]
     ]
 ]

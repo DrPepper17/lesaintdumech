@@ -6595,7 +6595,7 @@ const projects = [
         ['https://hosting.photobucket.com/images/i/lesaintdumech/dominion10.jpeg','Battleship Dominion','img10'],
     ],
     ['https://hosting.photobucket.com/images/i/lesaintdumech/dominion05.jpeg','Profile Photo: Dominion'],
-    'I originally was not planning to build this. But my both my Archangels came out so fantastic and the fact the kit had the parts to build the Dominion just kept weighing on my mind that eventually I broke down and surrendered to the temptation and had to buy me a third Archangel kit. Besides, you cannot have the Archangel without staging its final dual with the Dominion. Therefore now preseneting to you, the Dominino.',false,false,['Archangel'],false,true,'1:1700',false,false,false,[models[15]]
+    'I originally was not planning to build this. But my both my Archangels came out so fantastic and the fact the kit had the parts to build the Dominion just kept weighing on my mind that eventually I broke down and surrendered to the temptation and had to buy me a third Archangel kit. Besides, you cannot have the Archangel without staging its final dual with the Dominion. Therefore now preseneting to you, the Dominino.',false,false,['Archangel'],false,true,'1:1700'
     ],
     ['Betty',[1,'BuCUE'],'HG',false,false,false,'Seed','B','2024',0,false,'Builds/Gundams/...','First Ladies'],
     ['Nancy',[1,'BuCUE'],'HG',false,false,false,'Seed','B','2024',0,false,'Builds/Gundams/...','First Ladies'],
@@ -6680,6 +6680,7 @@ const projects = [
             ['NewType','https://newtype.us/p/V3s94PjelBrA0T06Q673/h/hgce-237-gat-o2l2-dagger-l']
         ],['Malphas','Dobiel','Leo Army'],false,true,'1:144'
     ],
+    ['Mercutio',[1,'Dagger L'],'HG',false,false,false,'Seed','B','2024',0,false,'Builds/Gundams/Mercutio.html',false,'',models[23]],
     ['Samus: Dark Suit',[1,'Dagger L'],'HG',
         false,false,false,'Seed','E','2023-08-02',8.14,false,'Builds/Metroid/Dark.html','Metroid','2024-05-20',models[23],
         [
@@ -6748,7 +6749,7 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/samdar61.JPG','Samus & Dagger']
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/samdar42.jpg','Profile Photo: Dark Suit'],
-        '',false,
+        'Probably my favorite entry in the entire Metroid Series is Metroid Prime 2: Echoes. Echoes introduced two of the most amazing looking suits ever: the Dark Suit and the Light Suit. They both look bad-ass. The Dark Suit is all tough and formidable. And the Light Suit is all sleek and elegant. But first the Dark Suit. Had a lot of fun designing this. It was actually rather simple. Used a Vallejo Rust and a Vallejo Steel and contrasted them both with a Tamiya Copper. It was fairly simple but came out looking great. Truly evoked the Dark Suit from the game.',false,
         [
             ['Video','https://youtu.be/x53rQPMHpE8'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/hgce-1-144-247-dagger-l'],
@@ -6900,7 +6901,7 @@ const projects = [
         ],false,true,'1:144',false,false,'Gravity Suit'
     ],
     ['Samus: Light Suit',[1,'Dagger L'],'HG',
-        false,false,false,'Seed','D','2023-08-16',9.47,false,'Builds/Metroid/Light.html','Metroid','2024-05-27',models[23],
+        false,false,false,'Seed','E','2023-08-16',9.47,false,'Builds/Metroid/Light.html','Metroid','2024-05-27',models[23],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/5_LightSuit.jpeg','Samus Aran: Light Suit'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/samlight01.jpeg','Light Suit'],
@@ -6969,11 +6970,12 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/samlight64.jpeg','Samus & Dagger']
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/samlight09.jpeg','Profile Photo: Light Suit'],
-        '',false,
+        'The second new suit introduced in my favorite Metroid Game, Prime Echoes, the Light Suit. I put a lot of thought into trying to recreate the look and feel of Samus\' most sleekest suit in the lineup. In the end to create the Light Suit\'s sleek shine I went with Turbo Dork Mother Lode laced on top of a flat white and accented with Vallejo silver. The idea was simple. Just the biggest difficulty was Turbo Dork is a challenging paint to work with. Really has to be thinned down properly and takes three to five coats to really make the paint. But in the end it was totally worth it.',false,
         [
             ['Video','https://youtu.be/fIUNxZdI2M8'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/hgce-1-144-247-dagger-l'],
-            ['NewType','https://newtype.us/p/V3s94PjelBrA0T06Q673/h/hgce-237-gat-o2l2-dagger-l']
+            ['NewType','https://newtype.us/p/V3s94PjelBrA0T06Q673/h/hgce-237-gat-o2l2-dagger-l'],
+            ['Turbo Dork: Mother Lode','https://turbodork.com/products/mother-lode-1']
         ],
         [
             'Samus: Varia Suit',
@@ -6988,7 +6990,7 @@ const projects = [
             'Dark Samus: Corruption',
             'Samus: Zero Suit',
             'Federation Trooper'
-        ],false,false,'1:144',false,false,'Light Suit'
+        ],false,true,'1:144',false,false,'Light Suit'
     ],
     ['Samus: PED Suit',[1,'Dagger L'],'HG',
         false,false,false,'Seed','D','2023-08-06',8.36,false,'Builds/Metroid/PED.html','Metroid','2024-06-03',models[23],
@@ -7090,11 +7092,12 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/phazonphazon.jpeg','Samus & Dagger']
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/samphaz14.jpeg','Profile Photo: Phazon Suit'],
-        'One of the coolest suits in the entire Metroid Series, the Phazon Suit. The sleek black with the bright red lights glow, this suit is just beautiful and adapting its design to the Dagger was a joy to do. Out of all the suits I did for the Metroid project, the Phazon suit has got to be one out of my two favorites. This one was amazing.',false,
+        'One of the coolest suits in the entire Metroid Series, the Phazon Suit. The sleek black with the bright red lights glow, this suit is just beautiful and adapting its design to the Dagger was a joy to do. Out of all the suits I did for the Metroid project, the Phazon suit has got to be one out of my two favorites. To create the Phazon suit I used a Turbo Dork Black Ice with Vallejo Silver and Signal Red. The end result is just amazing.',false,
         [
             ['Video','https://youtu.be/j8DI_MxWTek'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/hgce-1-144-247-dagger-l'],
-            ['NewType','https://newtype.us/p/V3s94PjelBrA0T06Q673/h/hgce-237-gat-o2l2-dagger-l']
+            ['NewType','https://newtype.us/p/V3s94PjelBrA0T06Q673/h/hgce-237-gat-o2l2-dagger-l'],
+            ['Tubo Dork: Black Ice','https://turbodork.com/products/black-ice-1']
         ],
         [
             'Samus: Varia Suit',
@@ -7180,6 +7183,7 @@ const projects = [
             'Federation Trooper'
         ],false,true,'1:144',false,false,'Varia Suit'
     ],
+    ['Tybalt',[1,'Dagger L'],'HG',false,false,false,'Seed','B','2024',0,false,'Builds/Gundams/Tybalt.html',false,'',models[23]],
     ['Joan',[1,'Dagger 105 + Gunbarrel'],'HG',false,false,false,'Seed','B'],
     ['Charizard',[1,'Destiny'],'MG',false,false,false,'Seed','B'],
     ['Charizard X',[1,'Destiny'],'SD',
@@ -8269,6 +8273,7 @@ const projects = [
             ['NewType','https://newtype.us/p/kjwUPIk5smIcsY8oIzVJ/h/hgce-232-gat-04-windam']
         ],['Armageddon'],false,true,'1:144'
     ],
+    ['Othello',[1,'Windam'],'HG',false,false,false,'Seed','B','2024',0,false,'Builds/Gundams/Othello.html',false,'2024',models[24]],
     ['Samus: Metroid Suit',[1,'Windam'],'HG',
         false,false,false,'Seed','D','2023-09-13',10.24,false,'Builds/Metroid/MetroidSuit.html',false,'2024-06-24',models[24],
         [
