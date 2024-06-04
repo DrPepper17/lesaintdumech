@@ -7,14 +7,14 @@
         <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
         <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&display=swap" />
-        <script src="JS/gundamDataSet.js?v=202405232225"></script>
+        <script src="JS/gundamDataSet.js?v=202405271812"></script>
         <script src="JS/frenchMetrics.js?v=202311161223"></script>
-        <link rel="stylesheet" href="CSS/home.css?v=202309151411"/>
+        <link rel="stylesheet" href="CSS/home.css?v=202406021351"/>
 
         <title>&#9884; Le Saint du Mech: Builds &#9884;</title>
     </head>
     <body onload="populateBuildsPage(), convertDateToday()">
-        <header class="jumbotron jumbotron-fluid">
+        <header class="jumbotron jumbotron-fluid" id="top">
             <div class="container">
                 <div class="row text-right">
                     <div class="col text-warning mr-0 pr-1 h6" id="dateFR"></div><img src="img/french.png" height="20px"/>
@@ -52,16 +52,459 @@
         <div class="container mt-3">
             <div class="row">
                 <div class="col">
-                    <h1 class="font-weight-bold" id="top">Builds</h1>
+                    <h1 class="font-weight-bold" >Builds</h1>
                 </div>
             </div>
+            <div class="row">
+                <div class="col">
+                    <p style="text-align-last: right;">
+                        <button type="button" class="btn btn-secondary" onclick="toggleHide('.buildFilterBox')">Filter</button>
+                    </p>
+                </div>
+            </div>
+            <div class="row mb-4 mx-5 buildFilterBox">
+                <div class="col" style="border: solid">
+                    <div class="row mt-2">
+                        <div class="col">
+                            Category: 
+                            <a href="###" onclick="applyFilter(automobileFilter,'.autoPara')">Automobiles</a>, 
+                            <a href="###" onclick="applyFilter(digimonFilter,'.digiPara')">Digimon</a>, 
+                            <a href="###" onclick="applyFilter(displayFilter,'.dispPara')">Display</a>, 
+                            <a href="###" onclick="applyFilter(haroFilter,'.haroPara')">Haro</a>, 
+                            <a href="###" onclick="applyFilter(mobileFilter,'.marmPara')">Mobile Armors</a>,
+                             <a href="###" onclick="applyFilter(gundamFilter,'.gundPara')">Mobile Suits</a>, 
+                            <a href="###" onclick="applyFilter(pokemonFilter,'.pokePara')">Pokemon</a>, 
+                            <a href="###" onclick="applyFilter(shipFilter,'.shipPara')">Ships</a>, 
+                            <a href="###" onclick="applyFilter(transformerFilter,'.tranPara')">Transformers</a>, 
+                            <a href="###" onclick="applyFilter(zoidFilter,'.zoidPara')">Zoids</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <hr class="m-1"/>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            Timeline: 
+                            <a href="###" onclick="applyFilter(mercuryFilter,'.mercPara')">Ad Stella</a>, 
+                            <a href="###" onclick="applyFilter(ageFilter,'.agePara')">Advanced Generation</a>, 
+                            <a href="###" onclick="applyFilter(wingFilter,'.wingPara')">After Colony</a>, 
+                            <a href="###" onclick="applyFilter(xxFilter,'.xxPara')">After War</a>, 
+                            <a href="###" onclick="applyFilter(ooFilter,'.ooPara')">Anno Domini</a>, 
+                            <a href="###" onclick="applyFilter(turnAFilter,'.turnPara')">Correct Century</a>, 
+                            <a href="###" onclick="applyFilter(seedFilter,'.seedPara')">Cosmic Era</a>, 
+                            <a href="###" onclick="applyFilter(gGundamFilter,'.ggunPara')">Future Century</a>, 
+                            <a href="###" onclick="applyFilter(iboFilter,'.iboPara')">Post Disaster</a>, 
+                            <a href="###" onclick="applyFilter(universalFilter,'.univPara')">Universal Century</a>, 
+                            <a href="###" onclick="applyFilter(reconguistaFilter,'.recoPara')">Regild Century</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <hr class="m-1"/>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            Series: 
+                            <a href="###" onclick="applyFilter(buildDiverFilter,'.builPara')">Build Divers</a>, 
+                            <a href="###" onclick="applyFilter(sdwFilter,'.sdwPara')">SDW Heroes</a>, 
+                            <a href="###" onclick="applyFilter(starblazersFilter,'.starblazPara')">Star Blazers</a>, 
+                            <a href="###" onclick="applyFilter(starwarsFilter,'.starwarsPara')">Star Wars</a>, 
+                            <a href="###" onclick="applyFilter(otherFilter,'.othPara')">Other</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <hr class="m-1"/>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            Scale: 
+                            <a href="###" onclick="applyFilter(pgFilter,'.pgPara')">Perfect Grade</a>, 
+                            <a href="###" onclick="applyFilter(mgFilter,'.mgPara')">Master Grade</a>, 
+                            <a href="###" onclick="applyFilter(fmFilter,'.fmPara')">Full Mechanics</a>, 
+                            <a href="###" onclick="applyFilter(rgFilter,'.rgPara')">Real Grade</a>, 
+                            <a href="###" onclick="applyFilter(hgFilter,'.hgPara')">High Grade</a>, 
+                            <a href="###" onclick="applyFilter(sdFilter,'.sdPara')">Super Deformed</a>, 
+                            <a href="###" onclick="applyFilter(mgsdFilter,'.mgsdPara')">Master Grade SD</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <hr class="m-1"/>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            Miscellaneous: 
+                            <a href="###" onclick="applyFilter(ledFilter,'.ledPara')">LEDs</a>,
+                            <a href="###" onclick="applyFilter(mgexFilter,'.mgexPara')">Master Grade Extreme</a>, 
+                            <a href="###" onclick="applyFilter(pbFilter,'.pbPara')">Premium Bandaii</a>, 
+                            <a href="###" onclick="applyFilter(straightFilter,'.strPara')">Straight Builds</a>, 
+                            <a href="###" onclick="applyFilter(paintFilter,'.paintPara')">Paint Builds</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <hr class="m-1"/>
+                        </div>
+                    </div>
+                    <div class="row mb-2">
+                        <div class="col">
+                            <a href="###" onclick="applyFilter(postedArray)">Reset Filters</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col autoPara">
+                    <h5>Filter: Automobiles</h5><br/>
+                    <p style="text-align: center;">
+                        <img src="img/genrecontent/The_Flintstones_Flintmobile.jpeg" width=40%/>
+                        <h2 style="text-align: center;">Planes, Trains and Automobiles</h2>
+                    </p>
+                </div>
+                <div class="col digiPara">
+                    <h5>Filter: Digimon</h5><br/>
+                    <p style="text-align: center;">
+                        <img src="img/logos/digi_logo.png" width=40%/><br/><br/>
+                        <img src="img/genrecontent/digimon_banner.jpg" width=60%/>
+                    </p>
+                </div>
+                <div class="col dispPara">
+                    <h5>Filter: Display</h5><br/>
+                    <p style="text-align: center;">
+                        <img src="img/genrecontent/bobross.jpeg" width=40%/>
+                        <h2 style="text-align: center;">Scenes / Displays / Panoramas</h2>
+                    </p>
+                </div>
+                <div class="col gundPara">
+                    <h5>Filter: Mobile Suits</h5><br/>
+                    <p style="text-align: center;">
+                        <img src="img/genrecontent/gundam_banner_.jpg" width=40%/>
+                        <h2 style="text-align: center;">Gundams / Mobile Suits</h2>
+                    </p>
+                </div>
+                <div class="col haroPara">
+                    <h5>Filter: Haro</h5><br/>
+                    <p style="text-align: center;">
+                        <img src="img/genrecontent/haro.jpg" width=40%/>
+                        <h2 style="text-align: center;">Haros</h2>
+                    </p>
+                </div>
+                <div class="col marmPara">
+                    <h5>Filter: Mobile Armors</h5><br/>
+                    <p style="text-align: center;">
+                        <img src="img/genrecontent/mobilearmordock.jpg" width=50%/>
+                        <h2 style="text-align: center;">Mobile Armors</h2>
+                    </p>
+                </div>
+                <div class="col pokePara">
+                    <h5>Filter: Pokemon</h5><br/>
+                    <p style="text-align: center;">
+                        <img src="img/logos/pokemon_logo.png" width=30%/><br/><br/>
+                        <img src="img/genrecontent/pokedex.png" width=25%/>
+                        <h2 style="text-align: center;">Pokedex:</h2>
+                    </p>
+                </div>
+                <div class="col shipPara">
+                    <h5>Filter: Ships</h5><br/>
+                    <p style="text-align: center;">
+                        <img src="img/genrecontent/rocket-ship.png" width=40%/>
+                    </p>
+                </div>
+                <div class="col tranPara">
+                    <h5>Filter: Transformers</h5><br/>
+                    <p style="text-align: center;">
+                        <img src="img/logos/transformers_logo.jpg" width=40%/><br/><br/>
+                        <img src="img/logos/transformers_badges.jpg" width=30%/><br/><br/>
+                        <img src="img/genrecontent/transformers_promotional.jpg" width=50%/>
+                    </p>
+                </div>
+                <div class="col zoidPara">
+                    <h5>Filter: Zoids</h5><br/>
+                    <p style="text-align: center;">
+                        <img src="img/logos/Zoids_logo.png" width=50%/><br/><br/>
+                        <img src="img/genrecontent/zoids.jpg" width=60%/>
+                    </p>
+                </div>
+                <div class="col mercPara">
+                    <h5>Filter: Ad Stella Timeline</h5><br/>
+                    <p style="text-align: center;">
+                        <img src="img/logos/witch_title.jpeg" width=50%/><br/><br/>
+                        <img src="img/logos/witch_titleJP.jpeg" width=50%/><br/><br/>
+                        <img src="img/genrecontent/mercuryseason2.jpg" width=70%/><br/><br/>
+                        <img src="img/genrecontent/mercuryeverygund.jpg" width=70/>
+                        <h2 style="text-align: center;">Mobile Suit Gundam The Witch From Mercury</h2>
+                    </p>
+                </div>
+                <div class="col agePara">
+                    <h5>Filter: Advanced Generation Timeline</h5><br/>
+                    <p style="text-align: center;">
+                        <img src="img/logos/age_logo.jpeg" width=50%/><br/><br/>
+                        <img src="img/genrecontent/age_lineup.jpeg" width="60%"/>
+                        <h2 style="text-align: center;">Mobile Suit Gundam AGE</h2>
+                    </p>
+                </div>
+                <div class="col wingPara">
+                    <h5>Filter: After Colony Timeline</h5><br/>
+                    <p style="text-align: center;">
+                        <img src="img/logos/Gundam_Wing_logo.png" width=30%/><br/>
+                        <img src="img/genrecontent/gundam-wing-featured.jpg" width="70%"/>
+                        <h2 style="text-align: center;">Mobile Suit Gundam Wing</h2>
+                    </p>
+                </div>
+            </div>
+            <div class="col xxPara">
+                <h5>Filter: After War Timeline</h5><br/>
+                <p style="text-align: center;">
+                    <img src="img/logos/After_War_Gundam_X_title.jpeg" width=30%/><br/><br/>
+                    <img src="img/genrecontent/after-war-gundam-x.jpg" width=70%/>
+                    <h2 style="text-align: center;">After War Gundam X</h2>
+                </p>
+            </div>
+            <div class="col ooPara">
+                <h5>Filter: Anno Domini Timeline</h5><br/>
+                <p style="text-align: center;">
+                    <img src="img/logos/Mobile_Suit_Gundam_00.png" width=50%/><br/><br/>
+                    <img src="img/logos/Gundam_00_title.png" width=50%/><br/><br/>
+                    <img src="img/genrecontent/doubl00.jpg" width=70%/>
+                    <h2 style="text-align: center;">Mobile Suit Gundam 00</h2>
+                </p>
+            </div>
+            <div class="col turnPara">
+                <h5>Filter: Correct Century Timeline</h5><br/>
+                <p style="text-align: center;">
+                    <img src="img/logos/Logo_Turn_A_Gundam.jpg" width=50%/><br/><br/>
+                    <img src="img/genrecontent/turn_a_gundam_gundam.jpg" width=70%/>
+                    <h2 style="text-align: center;">Turn A Gundam</h2>
+                </p>
+            </div>
+            <div class="col seedPara">
+                <div class="row">
+                    <div class="col">
+                        <h5>Filter: Cosmic Era Timeline</h5><br/>
+                    </div>
+                </div>
+                <div class="row d-flex justify-content-center">
+                    <div class="col-md-4 align-self-center">
+                        <img src="img/logos/Seed.png" width=80%/>
+                    </div>
+                    <div class="col-md-4 align-self-center">
+                        <img src="img/logos/seed-destiny.png" width=80%/>
+                    </div>
+                </div>
+                <div class="row d-flex justify-content-center">
+                    <div class="col-md-4">
+                        <img src="img/logos/seed_freedom.png" width=80%/><br/><br/>
+                    </div>
+                </div>
+                <p style="text-align: center;">
+                    <img src="img/genrecontent/seed destiny hd remastered.jpg" width=70/>
+                    <h2 style="text-align: center;">Mobile Suit Gundam SEED</h2>
+                </p>
+            </div>
+            <div class="col ggunPara">
+                <h5>Filter: Future Century Timeline</h5><br/>
+                <p style="text-align: center;">
+                    <img src="img/logos/ggundam.jpeg" width=40%/><br/><br/>
+                    <img src="img/logos/Mobile-Fighter-G-Gundam-OP1-Title-Card.jpeg" width=40%/><br/><br/>
+                    <img src="img/logos/g-kingofhearts.jpg" width=30%/><br/><br/>
+                    <img src="img/genrecontent/GGundamdisplay.jpg" width=70%/><br/><br/>
+                    <img src="img/genrecontent/ggundamallgundams.jpg" width=70%/>
+                    <h2 style="text-align: center;">Mobile Fighter G Gundam</h2>
+                </p>
+            </div>
+            <div class="col iboPara">
+                <h5>Filter: Post Disaster Timeline</h5><br/>
+                <p style="text-align: center;">
+                    <img src="img/logos/Iron-Blood_Orphans_English_Logo.jpeg" width=30%/><br/><br/>
+                    <img src="img/logos/Gundam_IBO_English_Title_card.jpeg" width=30%/><br/><br/>
+                    <img src="img/genrecontent/Iron-Blooded-Orphans-S2.jpg" width=60%/><br/><br/>
+                    <img src="img/genrecontent/barbatos_facial.jpg" width=60%/>
+                    <h2 style="text-align: center;">Mobile Suit Gundam IRON-BLOODED ORPHANS<2>
+                </p>
+            </div>
+            <div class="col univPara">
+                <h5>Filter: Universal Century Timeline</h5><br/>
+                <p style="text-align: center;">
+                    <img src="img/logos/mobilsuitgundamlogo.jpeg" width=20%/><br/><br/>
+                    <img src="img/genrecontent/Mobile_Suit_Gundam_Poster.jpeg" width=30%/><br/><br/>
+                    <img src="img/logos/Zeta_logo.jpeg" width=20%/><br/><br/>
+                    <img src="img/genrecontent/zeta_poster.jpeg" width=30%/><br/><br/>
+                    <img src="img/logos/zz_logo.jpeg" width=20%/><br/><br/>
+                    <img src="img/genrecontent/ZZ_Poster.jpeg" width=30%/><br/><br/>
+                    <img src="img/logos/unicorn_logo.jpeg" width=20%/><br/><br/>
+                    <img src="img/genrecontent/Unicorn_Poster.jpeg" width=30%/><br/><br/>
+                    <img src="img/logos/Crossbone_logo.jpeg" width=20%/><br/><br/>
+                    <img src="img/genrecontent/crossbone_poster.jpeg" width=30%/><br/><br/>
+                    <h2 style="text-align: center;">Mobile Suit Gundam</h2><br/>
+                </p>
+            </div>
+            <div class="col recoPara">
+                <h5>Filter: Regild Century Timeline</h5><br/>
+                <p style="text-align: center;">
+                    <img src="img/genrecontent/reconguistatitle.jpeg" width=70/><br/><br/>
+                    <img src="img/genrecontent/Reconguistat.jpg" width=70%/>
+                    <h2 style="text-align: center;">Gundam Reconguista in G</h2>
+                </p>
+            </div>
+            <div class="col builPara">
+                <h5>Filter: Gundam Build Divers</h5><br/>
+                <p style="text-align: center;">
+                    <img src="img/logos/Build_Divers_Logo.jpeg" width=25%/><br/><br/>
+                    <img src="img/genrecontent/build-Divers-SM.jpg" width=70%/><br/><br/>
+                    <img src="img/genrecontent/Build-Divers.jpg" width=70%/><br/><br/>
+                    <h2 style="text-align: center;">Gundam Build Divers</h2>
+                </p>
+            </div>
+            <div class="col sdwPara">
+                <h5>Filter: SDW Heroes</h5><br/>
+                <p style="text-align: center;">
+                    <img src="img/logos/sdw-heroes.jpeg" width=30%/><br/><br/>
+                    <img src="img/logos/sdw-soketsuden.jpeg" width=30%/><br/><br/>
+                    <img src="img/genrecontent/sdwposter.jpg" width=50%/><br/><br/>
+                    <h2 style="text-align: center;">SD Gundam World Heroes</h2>
+                </p>
+            </div>
+            <div class="col starblazPara">
+                <h5>Filter: Star Blazers</h5><br/>
+                <p style="text-align: center;">
+                    <img src="img/genrecontent/starblazers.jpg" width=60%/>
+                </p>
+            </div>
+            <div class="col starwarsPara">
+                <h5>Filter: Star Wars</h5><br/>
+                <p style="text-align: center;">
+                    <img src="img/logos/STAR-WARS.jpg" width=50%/>
+                </p>
+            </div>
+            <div class="col othPara">
+                <h5>Filter: Other Franchises</h5><br/>
+                <p style="text-align: center;">
+                    <img src="img/genrecontent/hobbyshop.jpg" width=60%/>
+                </p>
+            </div>
+            <div class="col pgPara">
+                <h5>Filter: Perfect Grade</h5><br/>
+                <p style="text-align: center;">
+                    <img src="img/logos/PGLogo.jpeg" width=50%/>
+                </p>
+                <p style="text-align: right;">
+                    Perfect Grade<br/>
+                    Scale: 1/60<br/>
+                    Highest Standard of Models
+                </p>
+            </div>
+            <div class="col mgPara">
+                <h5>Filter: Master Grade</h5><br/>
+                <p style="text-align: center;">
+                    <img src="img/logos/MGlogo.jpeg" width=40%/>
+                </p>
+                <p style="text-align: right;">
+                    Master Grade<br/>
+                    Scale: 1/100
+                </p>
+            </div>
+            <div class="col fmPara">
+                <h5>Filter: Full Mechanics</h5><br/>
+                <p style="text-align: center;">
+                    <img src="img/logos/fm_logo.jpeg" width=50%/>
+                </p>
+                <p style="text-align: right;">
+                    Grade: Full Mechanics<br/>
+                    Scale: 1/100
+                </p>
+            </div>
+            <div class="col rgPara">
+                <h5>Filter: Real Grade</h5><br/>
+                <p style="text-align: center;">
+                    <img src="img/logos/RGlogo.jpeg" width=40%/>
+                </p>
+                <p style="text-align: right;">
+                    Real Grade<br/>
+                    Scale: 1/144
+                </p>
+            </div>
+            <div class="col hgPara">
+                <h5>Filter: High Grade</h5><br/>
+                <p style="text-align: center;">
+                    <img src="img/logos/HGlogo.jpeg" width=30%/>
+                </p>
+                <p style="text-align: right;">
+                    High Grade<br/>
+                    Scale: 1/144
+                </p>
+            </div>
+            <div class="col sdPara">
+                <h5>Filter: Super Deformed</h5><br/>
+                <p style="text-align: center;">
+                    <img src="img/logos/sd logo.png" width=35%/>
+                </p>
+                <p style="text-align: right;">
+                    Grade: Super Deformed<br/>
+                    Scale: Cute, But Questionably Delusional
+                </p>
+            </div>
+            <div class="col mgsdPara">
+                <h5>Filter: Master Grade Super Deformed</h5><br/>
+                <p style="text-align: center;">
+                    <img src="img/logos/mgsdlogo.png" width=50%/>
+                </p>
+                <p style="text-align: right;">
+                    Master Grade Super Deformed<br/>
+                    Scale: Questionably Delusional, But Slightly More Realistic
+                </p>
+            </div>
+            <div class="col ledPara">
+                <h5>Filter: LED / Lighting</h5><br/>
+                <p style="text-align: center;">
+                    <img src="img/genrecontent/trafficlight.jpg" width=50%/>
+                    <h2 style="text-align: center;">LED Lighting Enhanced Builds</h2>
+                </p>
+            </div>
+            <div class="col mgexPara">
+                <h5>Filter: Master Grade Extreme</h5><br/>
+                <p style="text-align: center;">
+                    <img src="img/logos/MG_Extreme_Logo.jpeg" width=50%/>
+                </p>
+                <p style="text-align: right;">
+                    Master Grade Extreme<br/>
+                    Scale: 1/100
+                </p>
+            </div>
+            <div class="col pbPara">
+                <h5>Filter: Premium Bandaii</h5><br/>
+                <p style="text-align: center;">
+                    <img src="img/logos/premium-bandai.jpg" width=50%/>
+                </p>
+                <p style="text-align: right;">
+                    Limited Edition, Limited Run, Limited Availability Kits
+                </p>
+            </div>
+            <div class="col strPara">
+                <h5>Filter: Straight Builds</h5><br/>
+                <p style="text-align: center;">
+                    <img src="img/genrecontent/stonesculpt.png" width=50%/>
+                </p>
+            </div>
+            <div class="col paintPara">
+                <h5>Filter: Paint Builds</h5><br/>
+                <p style="text-align: center;">
+                    <img src="img/genrecontent/paint.png" width=65%/>
+                </p>
+            </div>
+
             <div class="row justify-content-around">
                 <div class="col">
                         <p class="text-center"><a href="#bottom">Jump to Bottom</a></p>
                 </div>
             </div>
             <div class="row align-items-center" id="buildColumns">
-
             </div>
             <div class="row justify-content-around">
                 <div class="col">

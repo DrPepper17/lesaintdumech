@@ -1176,6 +1176,33 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/samlight12.jpeg']
         ]
+    ],
+    [
+        '2024-06-03',
+        'Phazon Corruption Imminent',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/6_PEDSuit.jpeg',
+        [
+            [
+                'Next up, the ',
+                ['PED Suit','Builds/Metroid/PED.html'],
+                ', entry number six in Project Samus. Introduced in Metroid Prime 3: Corruption, this suit is probably the dullest in Samus\'s lineup but due to its ability to utilize phazon and enter Samus into a hyper mode it one of the strongest. Likely second only to the ',
+                ['Metroid Suit','Builds/Metroid/Metroid.html'],
+                '.'
+            ]
+        ],
+        [
+            'Due to its simple nature there was not much here for me to work with, but I still gave it my all. And I\'m quite proud how it turned out. If anything mine is much more shinier than the original. Maybe later in the future if for another build if I am feeling up to it I might paint this suit again in her hyper mode.'
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/samped08.jpeg']
+        ],
+        [
+            [
+                'Also, ',
+                ['Youtube','https://youtu.be/ftHaYYBLyWI'],
+                '.'
+            ]
+        ]
     ]
 ]
 

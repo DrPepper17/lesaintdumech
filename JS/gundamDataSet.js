@@ -12,7 +12,7 @@
         8. Transformer 
         9. Zoid
         10. Haropla
-        11. 
+        11. Special Project
         12
 
     // Gundams (1) //
@@ -1192,7 +1192,7 @@ const models = [
         [30],
         'Skygrasper'
     ],
-    [31,1,'Gundam Proto-Zero',
+    [31,1,'Wing Gundam Proto-Zero',
         'XXXG-00W0 Wing Gundam Proto-Zero',
         'XXXG-00W0',
         'Mobile Suit Gundam Wing',
@@ -1246,7 +1246,7 @@ const models = [
         [31],
         'Zero'
     ],
-    [32,1,'Gundam Wing Zero',
+    [32,1,'Wing Gundam Zero',
         'XXXG-00W0 Wing Gundam Zero EW',
         'XXXG-00W0',
         'Mobile Suit Gundam Wing Endless Waltz',
@@ -5035,6 +5035,7 @@ const models = [
     25. Project Page: override name
     26. Build Page: Override Name
     27. Other Models included [array]
+    28. Include Franchise in Other List (true/false)
 */
 
 //Pojects
@@ -5047,6 +5048,7 @@ const projects = [
     ['Morgause',[1,'Aerial'],'HG',false,false,false,'Mercury','D','2024-02-16',7.64],
     ['Cherub',[1,'Aerial'],'SD',false,false,false,'Mercury','D','2023-01-10',4.91,false,'Builds/Cherub.html','Angels'],
     ['Zephon',[1,'Aerial Rebuild'],'HG',false,false,false,'Mercury','D','2023-11-25',16.15],
+    ['Aerial Rebuild [HG]',[1,'Aerial Rebuild'],'HG',true,false,false,'Mercury','D','2024-06-02',1.42],
     ['Rundas',[1,'Beguir-Beu'],'HG',false,false,false,'Mercury','A','202x',0,false,'Builds/Metroid/Rundas.html','Metroid'],
     ['Dark Samus: Corruption',[1,'Beguir-Pente'],'HG',
         false,false,false,'Mercury','D','2023-12-23',10.51,false,'Builds/Metroid/Corruption.html','Metroid','2024-07-08',models[127],
@@ -5124,8 +5126,9 @@ const projects = [
     ['CAL-B',[1,'Calibarn'],'SD',false,false,false,'Mercury','A'],
     ['CAL-C',[1,'Calibarn'],'SD',false,false,false,'Mercury','A'],
     ['Abaddon',[1,'Calibarn'],'HG',false,false,false,'Mercury','C','2023-11-25',17.81],
-    ['Calibarn [HG]',[1,'Calibarn'],'HG',true,false,false,'Mercury','D','2023-08-22',2.83,false,false,false],
     ['Arthur',[1,'Calibarn'],'HG',false,false,false,'Mercury','C','2024-03-01',6.28],
+    ['Tempest',[1,'Calibarn'],'HG',false,false,false,'Mercury','C','2024-06',0],   //paint in flat red
+    ['Calibarn [HG]',[1,'Calibarn'],'HG',true,false,false,'Mercury','D','2023-08-22',2.83,false,false,false],
     ['Kanden',[1.25,'Darilbalde','P.B. Witch From Mercury Expansion Pack'],'HG',false,true,false,'Mercury','A','202x',0,false,'Builds/Metroid/kanden.html','Metroid'],
     ['Azrael',[1,'Dilanza, Guel\'s'],'HG',
         false,false,false,'Mercury','E','2023-01-05',12.14,false,'Builds/Gundams/Azrael.html','Angels','2023-02-27',models[26],
@@ -5880,6 +5883,19 @@ const projects = [
     ['Tallgeese Fl\u00FCgel',
         [1,'Tallgeese Fl\u00FCgel'],'MG',true,true,false,'Wing','D','2022-05-08',20.17,false,'Builds/PBTallgeeseFlugelMG.html',false
     ],
+    ['Bibi',[1,'Wing Gundam'],'HG',false,false,false,'Wing','C','2024-06',0],
+    ['Netanyahu',[1,'Wing Gundam'],'RG',false,false,false,'Wing','A'],
+    /*
+        Bibi:
+        white       ->  Mediterannean Blue
+        blue        ->  IDF Blue
+        yellow      ->  tamiya copper 
+        red         ->  dark grey
+        crest       ->  mr metallic blue
+        shield red  ->  mr metallic blue
+        gun         ->  IDF sand
+        gun pods    ->  IDF green
+    */
     ['Wild Wing',[1,'Wing Gundam'],'MG',
         false,false,false,'Wing','E','2021-07-06',60.48,true,'Builds/Gundams/WildWing.html',false,'2022-02-14',models[54],
         [
@@ -5975,7 +5991,7 @@ const projects = [
     ['Snow White [RG]',[1,'Wing Zero'],'RG',false,false,false,'Wing','B'],
     ['Snow White [SD]',[1,'Wing Zero'],'SD',false,false,false,'Wing','A'],
     ['Wing Zero KA [MG]',[1,'Wing Zero','GFFMC Wings For MG Wing Zero'],'MG',true,false,false,'Wing','C','2022-06-05',10.83,false,false,false],
-    ['Absolute Zero',[1,'Wing Gundam'],'PG',true,false,false,'Wing','D','2024-03-22',17.25],
+    ['Absolute Zero',[1,'Wing Gundam'],'PG',true,false,false,'Wing','D','2024-03-22',17.25,true],
     ['Zero Traditional',[1,'Wing Zero'],'MG',false,false,false,'Wing','B'],
     ['Zero Traditional [RG]',[1,'Wing Zero'],'RG',false,false,false,'Wing','B'],
     ['Zero Traditional [SD]',[1,'Wing Zero'],'SD',false,false,false,'Wing','A'],
@@ -6993,7 +7009,7 @@ const projects = [
         ],false,true,'1:144',false,false,'Light Suit'
     ],
     ['Samus: PED Suit',[1,'Dagger L'],'HG',
-        false,false,false,'Seed','D','2023-08-06',8.36,false,'Builds/Metroid/PED.html','Metroid','2024-06-03',models[23],
+        false,false,false,'Seed','E','2023-08-06',8.36,false,'Builds/Metroid/PED.html','Metroid','2024-06-03',models[23],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/6_PEDSuit.jpeg','Samus Aran: PED Suit'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/samped01.jpeg','PED Suit'],
@@ -7037,11 +7053,12 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/samped39.jpeg','Samus & Dagger']
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/samped29.jpeg','Profile Photo: Ped Suit'],
-        '',false,
+        'One of the most boring suits in the series, the Phazon Enhancement Device [P.E.D.] suit. It\'s actually pretty cool in terms of its utility in the game of what it can do. But aesthetically its appearance is quite dull. This suit I was not particularly enthusiastic to paint due to its lame design, but if you\'re gonna paint all the suits of Samus then you have to paint them all. For this one Samus has sort of a dull almost army commando look to her. She feels less like an intergalactic space bunty hunter and more like a marine. To create this aesthetic I used a mix of Vallejo brass and copper to to give her that dark rustic almost khaki aesthetic and accented ith with light steel then gave her a Vallejo metallic red for her face and chest. To give her just a little bit of extra shine though, I used Turbo Dork Blue Steel for her shoulders which they really seemed to pop. After this was finished, I actually thought my rendition of the PED suit looked way better than the original source material.',false,
         [
             ['Video','https://youtu.be/ftHaYYBLyWI'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/hgce-1-144-247-dagger-l'],
-            ['NewType','https://newtype.us/p/V3s94PjelBrA0T06Q673/h/hgce-237-gat-o2l2-dagger-l']
+            ['NewType','https://newtype.us/p/V3s94PjelBrA0T06Q673/h/hgce-237-gat-o2l2-dagger-l'],
+            ['Turbo Dork: Blue Steel','https://turbodork.com/products/blue-steel-1']
         ],
         [
             'Samus: Varia Suit',
@@ -7056,7 +7073,7 @@ const projects = [
             'Dark Samus: Corruption',
             'Samus: Zero Suit',
             'Federation Trooper'
-        ],false,false,'1:144',false,false,'PED Suit'
+        ],false,true,'1:144',false,false,'PED Suit'
     ],
     ['Samus: Phazon Suit',[1,'Dagger L'],'HG',
         false,false,false,'Seed','E','2023-08-06',8.3,false,'Builds/Metroid/Phazon.html','Metroid','2024-05-13',models[23],
@@ -7699,6 +7716,7 @@ const projects = [
     ['La Reine',[0.5,'Raijin Striker'],'MG',false,true,false,'Seed','B'],
     ['Ripley',[1,'Rising Freedom'],'SD',false,false,false,'Seed','B'],
     ['Revolution',[1,'Rising Freedom'],'HG',false,false,false,'Seed','D','2024-02-18',15.08],
+    ['Rising Freedom [HG]',[1,'Rising Freedom'],'HG',true,false,false,'Seed','D','2024-05-24',2.75],
     ['Blue Angels',[3,'Skygrasper','Skygrasper','Skygrasper'],'RG',
         false,false,false,'Seed','E','2022-12-05',22,true,'Builds/Gundams/BlueAngels.html',false,'2022-12-26',models[30],
         [
@@ -7794,7 +7812,7 @@ const projects = [
         ],['Skygrasper [PG]'],false,true,'1:60',false,'Strike Perfect Grade','Strike'
     ], 
     ['Perfect Perfect',[1,'Strike, Perfect'],'PG',
-        true,false,false,'Seed','C','',17.25,true,'Builds/PG/PGPerfectStrike.html',false,'',models[61]
+        true,false,false,'Seed','C','2024-05-17',17.25,true,'Builds/PG/PGPerfectStrike.html',false,'',models[61]
     ],
     ['Perfect Strike [P-Bandai]',[1,'Strike, Perfect'],'RG',
         true,true,false,'Seed','E','2022-03-07',12.33,false,'Builds/PBandai/PBPerfectStrikeRG.html',false,'2022-09-13',models[61],
@@ -9518,7 +9536,7 @@ const projects = [
         ],['Starman','Ziggy'],true,true
     ],
     ['Shin Musha Black Robe',[1,'Shin Musha Gundam'],'MG',
-        true,true,false,'UC','E','2022-08-05',10.58,false,'Builds/PBandai/PBShinMushaMG.html',false,'2022-12-05',models[72],
+        true,true,false,'BD','E','2022-08-05',10.58,false,'Builds/PBandai/PBShinMushaMG.html',false,'2022-12-05',models[72],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/pbsmush01.jpeg','PB Shin Musha Black Robe','img1'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/pbsmush02.jpeg','PB Shin Musha Black Robe','img2'],
@@ -9618,7 +9636,7 @@ const projects = [
     ],
     ['Zeta [MG]',[1,'Zeta Gundam'],'MG',true,false,false,'UC','C','2023-04-12',8,false,false,false],
 
-    //Regild Century (Reconguista)
+    //Regild Century (Reconguista) Abbreviation: 'Recon'
 
 
     //Build Divers (BD)
@@ -10760,7 +10778,7 @@ const projects = [
     ],
     ['Ponente',[1,'Cosmo Zero'],'Ship',false,false,false,'StarBlazer','B'],
     ['Levante',[1,'Nagato'],'Ship',false,false,false,'Space Rengo Kantai','B'],
-    ['USS Jeanne',[1,'Millennium Falcon'],'Ship',false,false,false,'Star Wars','A'],
+    ['Mistral',[1,'Millennium Falcon'],'Ship',false,false,false,'StarWars','B'],
 
     //Transformer
     ['Wilbee',[1,'Bumblebee'],'Transformer',
@@ -10881,7 +10899,7 @@ const projects = [
     ['Kipling',[1,'Liger Zero X'],'Zoid',false,false,false,'','B'],
 
     //Other
-    ['Voltron',[1,'Voltron'],'Other',false,false,false,'','A']
+    ['Voltron',[1,'Voltron'],'Voltron: Defender of the Universe',false,false,false,'','A']
 ];
 
 //Initialize Arrays
@@ -10933,6 +10951,46 @@ let statsArray = [];
 let projectArray = [];
 let modelArray = [];
 
+//Builds Page Filter Arrays
+let automobileFilter = [];
+let digimonFilter = [];
+let displayFilter = [];
+let gundamFilter = [];
+let haroFilter = [];
+let mobileFilter = [];
+let pokemonFilter = [];
+let shipFilter = [];
+let transformerFilter = [];
+let zoidFilter = [];
+let mercuryFilter = [];
+let ageFilter = [];
+let wingFilter = [];
+let xxFilter = [];
+let ooFilter = [];
+let turnAFilter = [];
+let seedFilter = [];
+let gGundamFilter = [];
+let iboFilter = [];
+let universalFilter = [];
+let reconguistaFilter = [];
+let buildDiverFilter = [];
+let sdwFilter = [];
+let starblazersFilter = [];
+let starwarsFilter = [];
+let otherFilter = [];
+let pgFilter = [];
+let mgFilter = [];
+let fmFilter = [];
+let rgFilter = [];
+let hgFilter = [];
+let sdFilter = [];
+let mgsdFilter = [];
+let pbFilter = [];
+let ledFilter = [];
+let straightFilter = [];
+let paintFilter = [];
+let mgexFilter = [];
+
 //Initialize Counts
 let init = 0;
 let outOfInventoryCount = 0;
@@ -10941,7 +10999,8 @@ let inProgressCount = 0;
 let constructedCount = 0;
 let postedCount = 0;
 let finishedCount = 0;
-let chooseGradeToggle = 1;
+//let chooseGradeToggle = 1;
+let toggleSwitch = 1;
 
 //data
     //average hours
@@ -11421,7 +11480,7 @@ function calculateStats() {
     zoidHours = projectHours('Zoid');
 }
 
-function chooseGrade() {
+/*function chooseGrade() {
     if (chooseGradeToggle > 0) {
         unhide('.gradeBox');
         chooseGradeToggle *= -1;
@@ -11430,7 +11489,7 @@ function chooseGrade() {
         hide('.gradeBox');
         chooseGradeToggle *= -1;
     }
-}
+}*/
 
 function cleanupArrays(array,context) {
     if(array.length<1) {
@@ -11931,80 +11990,6 @@ function insertLink(array,ID) {
     listNode.appendChild(lineItemNode);
 }
 
-function populateBuildsPage() {
-    convertDate();
-    generateLists();
-    postedArray = sortByDate(postedArray,'post').reverse();
-
-    let buildCount = 0;
-    let buildColumnsNode = document.getElementById('buildColumns');
-    for (let i=0;i<postedArray.length;i++) {
-        if(postedArray[i][22])
-        {
-            buildCount++;
-            let divNode = document.createElement('div');
-            let divClass = document.createAttribute('class');
-            divClass.value = 'col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2 mx-0 text-center';
-            divNode.setAttributeNode(divClass);
-
-            let aNode = document.createElement('a');
-            let hrefNode = document.createAttribute('href');
-            hrefNode.value = postedArray[i][11];
-            aNode.setAttributeNode(hrefNode);
-            let aClass = document.createAttribute('class');
-            aClass.value = 'mx-0';
-            aNode.setAttributeNode(aClass);
-
-            divNode.appendChild(aNode);
-
-            let profilePhotoNode = document.createElement('img');
-            let imgSRC = document.createAttribute('src');
-            imgSRC.value = postedArray[i][16][0];
-            profilePhotoNode.setAttributeNode(imgSRC);
-            let imgClass = document.createAttribute('class');
-            imgClass.value = 'img-fluid img-thumbnail';
-            profilePhotoNode.setAttributeNode(imgClass);
-
-            aNode.appendChild(profilePhotoNode);
-
-            let spanNode = document.createElement('span');
-            let spanClass = document.createAttribute('class');
-            spanClass.value = 'align-self-center';
-            spanNode.setAttributeNode(spanClass);
-
-            divNode.appendChild(spanNode);
-
-            let aNode2 = document.createElement('a');
-            let hrefNode2 = document.createAttribute('href');
-            hrefNode2.value = postedArray[i][11];
-            aNode2.setAttributeNode(hrefNode2);
-            let aClass2 = document.createAttribute('class');
-            aClass2.value = 'mx-0';
-            aNode2.setAttributeNode(aClass2);
-
-            spanNode.appendChild(aNode2);
-
-            let pNode = document.createElement('h4');
-            let pClass = document.createAttribute('class');
-            pClass.value = 'font-weight-bold text-danger buildH4';
-            pNode.setAttributeNode(pClass);
-            let pTextNode = document.createTextNode(postedArray[i][0]);
-            if (postedArray[i][26]) {
-                pTextNode = document.createTextNode(postedArray[i][26])
-            }
-            pNode.appendChild(pTextNode);
-
-            aNode2.appendChild(pNode);
-
-            buildColumnsNode.appendChild(divNode);
-        }
-    }
-
-    let buildTotalNode = document.getElementById('buildTotal');
-    let buildTotalText = document.createTextNode(buildCount);
-    buildTotalNode.appendChild(buildTotalText);
-}
-
 function populateStat(stat,id,cap) {
     const locationNode = document.getElementById(id);
     const statNode = document.createTextNode(stat.toFixed(cap));
@@ -12233,6 +12218,26 @@ function sortByDate(array,sort) {
     return array;
 }
 
+function sortByName(array) {
+    let namesArray = [];
+    for (let i=0;i<array.length;i++) {
+        if(!namesArray.includes(array[i][14][2])) {
+            namesArray.push(array[i][14][2]);
+        }
+    }
+    namesArray.sort();
+
+    let tempArray = [];
+    for (let j=0;j<namesArray.length;j++) {
+        for (let k=0;k<array.length;k++) {
+            if (array[k][14][2] == namesArray[j]) {
+                tempArray.push(array[k]);
+            }
+        }
+    }
+    return tempArray;
+}
+
 function stageCount(array,stage) {
     let count = 0;
     for (let i=0;i<array.length;i++) {
@@ -12251,6 +12256,17 @@ function suggestNextPost () {
     let tempArray = constructedArray[decisionNumber];
     const suggestTextNode = document.createTextNode(tempArray[0]);
     suggestPostNode.appendChild(suggestTextNode);
+}
+
+function toggleHide(id) {
+    if (toggleSwitch > 0) {
+        unhide(id);
+        toggleSwitch *= -1;
+    }
+    else {
+        hide(id);
+        toggleSwitch *= -1;
+    }
 }
 
 //Home Page
@@ -12654,6 +12670,382 @@ function homepageImages() {
     let homeIMG22SRC = document.createAttribute('src');
     homeIMG22SRC.value = randomPost[16][0];
     homeIMG22Node.setAttributeNode(homeIMG22SRC);
+}
+
+//Build Page
+function applyFilter(filter,parID) {
+    rebuild(filter);
+    if(parID){
+        unhide(parID)
+    }
+}
+
+function buildFilterArrays() {
+    let postModel = 0;
+    for (let i=0;i<postedArray.length;i++) {
+        if(postedArray[i][22]){
+            postModel=postedArray[i][14];
+        
+            if(postModel[1]===1) {
+                if(postModel[25]) {
+                    mobileFilter.push(postedArray[i]);
+                }
+                else {
+                    gundamFilter.push(postedArray[i]);
+                }
+            }
+            if(postModel[1]===2) {
+                shipFilter.push(postedArray[i]);
+            }
+            if(postModel[1]===3) {
+                shipFilter.push(postedArray[i]);
+            }
+            if(postModel[1]===4) {
+                automobileFilter.push(postedArray[i]);
+            }
+            if(postModel[1]===5) {
+                displayFilter.push(postedArray[i]);
+            }
+            if(postModel[1]===6) {
+                digimonFilter.push(postedArray[i]);
+            }
+            if(postModel[1]===7) {
+                pokemonFilter.push(postedArray[i]);
+            }
+            if(postModel[1]===8) {
+                transformerFilter.push(postedArray[i]);
+            }
+            if(postModel[1]===9) {
+                zoidFilter.push(postedArray[i]);
+            }
+            if(postModel[1]===10) {
+                haroFilter.push(postedArray[i]);
+            }
+            if(postModel[1]===11) {
+                gundamFilter.push(postedArray[i]);
+            }
+            if(postedArray[i][6]==='Mercury') {
+                mercuryFilter.push(postedArray[i]);
+            }
+            if(postedArray[i][6]==='Age') {
+                ageFilter.push(postedArray[i]);
+            }
+            if(postedArray[i][6]==='Wing') {
+                wingFilter.push(postedArray[i]);
+            }
+            if(postedArray[i][6]==='X') {
+                xxFilter.push(postedArray[i]);
+            }
+            if(postedArray[i][6]==='00') {
+                ooFilter.push(postedArray[i]);
+            }
+            if(postedArray[i][6]==='TurnA') {
+                turnAFilter.push(postedArray[i]);
+            }
+            if(postedArray[i][6]==='Seed') {
+                seedFilter.push(postedArray[i]);
+            }
+            if(postedArray[i][6]==='G') {
+                gGundamFilter.push(postedArray[i]);
+            }
+            if(postedArray[i][6]==='IBO') {
+                iboFilter.push(postedArray[i]);
+            }
+            if(postedArray[i][6]==='UC') {
+                universalFilter.push(postedArray[i]);
+            }
+            if(postedArray[i][6]==='Recon') {
+                reconguistaFilter.push(postedArray[i]);
+            }
+            if(postedArray[i][6]==='BD') {
+                buildDiverFilter.push(postedArray[i]);
+            }
+            if(postedArray[i][6]==='Heroes') {
+                sdwFilter.push(postedArray[i]);
+            }
+            if(postedArray[i][6]==='StarBlazer') {
+                starblazersFilter.push(postedArray[i]);
+            }
+            if(postedArray[i][6]==='StarWars') {
+                starwarsFilter.push(postedArray[i]);
+            }
+            if(postedArray[i][28]) {
+                otherFilter.push(postedArray[i]);
+            }
+            if(postedArray[i][2]==='PG') {
+                pgFilter.push(postedArray[i]);
+            }
+            if(postedArray[i][2]==='MG') {
+                mgFilter.push(postedArray[i]);
+            }
+            if(postedArray[i][2]==='FM') {
+                fmFilter.push(postedArray[i]);
+            }
+            if(postedArray[i][2]==='RG') {
+                rgFilter.push(postedArray[i]);
+            }
+            if(postedArray[i][2]==='HG') {
+                hgFilter.push(postedArray[i]);
+            }
+            if(postedArray[i][2]==='SD') {
+                sdFilter.push(postedArray[i]);
+            }
+            if(postedArray[i][2]==='MGSD') {
+                mgsdFilter.push(postedArray[i]);
+            }
+            if(postedArray[i][4]) {
+                pbFilter.push(postedArray[i]);
+            }
+            if(postedArray[i][10]) {
+                ledFilter.push(postedArray[i]);
+            }
+            if(postedArray[i][3]) {
+                straightFilter.push(postedArray[i]);
+            }
+            if(!postedArray[i][3]) {
+                paintFilter.push(postedArray[i]);
+            }
+            if(postedArray[i][5]) {
+                mgexFilter.push(postedArray[i]);
+            }
+        }
+    }
+
+    automobileFilter = sortByDate(automobileFilter,'post').reverse();
+    digimonFilter = sortByDate(digimonFilter,'post').reverse();
+    displayFilter = sortByDate(displayFilter,'post').reverse();
+    gundamFilter = sortByDate(gundamFilter,'post').reverse();
+    haroFilter = sortByDate(haroFilter,'post').reverse();
+    mobileFilter = sortByDate(mobileFilter,'post').reverse();
+    pokemonFilter = sortByDate(pokemonFilter,'post').reverse();
+    shipFilter = sortByDate(shipFilter,'post').reverse();
+    transformerFilter = sortByDate(transformerFilter,'post').reverse();
+    zoidFilter = sortByDate(zoidFilter,'post').reverse();
+    mercuryFilter = sortByName(mercuryFilter);
+    ageFilter = sortByName(ageFilter);
+    wingFilter = sortByName(wingFilter);
+    xxFilter = sortByName(xxFilter);
+    ooFilter = sortByName(ooFilter);
+    turnAFilter = sortByName(turnAFilter);
+    seedFilter = sortByName(seedFilter);
+    gGundamFilter = sortByName(gGundamFilter);
+    iboFilter = sortByName(iboFilter);
+    universalFilter = sortByName(universalFilter);
+    reconguistaFilter = sortByName(reconguistaFilter);
+    buildDiverFilter = sortByName(buildDiverFilter);
+    sdwFilter = sortByName(sdwFilter);
+    starblazersFilter = sortByName(starblazersFilter);
+    starwarsFilter = sortByName(starwarsFilter);
+    otherFilter = sortByName(otherFilter);
+    pgFilter = sortByDate(pgFilter,'post').reverse();
+    mgFilter = sortByDate(mgFilter,'post').reverse();
+    fmFilter = sortByDate(fmFilter,'post').reverse();
+    rgFilter = sortByDate(rgFilter,'post').reverse();
+    hgFilter = sortByDate(hgFilter,'post').reverse();
+    sdFilter = sortByDate(sdFilter,'post').reverse();
+    mgsdFilter = sortByDate(mgsdFilter,'post').reverse();
+    pbFilter = sortByDate(pbFilter,'post').reverse();
+    ledFilter = sortByDate(ledFilter,'post').reverse();
+    straightFilter = sortByDate(straightFilter,'post').reverse();
+    paintFilter = sortByDate(paintFilter,'post').reverse();
+    mgexFilter = sortByDate(mgexFilter,'post').reverse();
+}
+
+function buildsClear() {
+    const buildsNode = document.getElementById('buildColumns');
+    const buildColumnsNode = document.getElementById('buildTotal');
+    removeAllChildNodes(buildsNode);
+    removeAllChildNodes(buildColumnsNode);
+
+    hide('.autoPara')
+    hide('.digiPara');
+    hide('.dispPara');
+    hide('.gundPara');
+    hide('.marmPara');
+    hide('.haroPara');
+    hide('.pokePara');
+    hide('.shipPara');
+    hide('.tranPara');
+    hide('.zoidPara');
+    hide('.mercPara');
+    hide('.agePara');
+    hide('.wingPara');
+    hide('.xxPara');
+    hide('.ooPara');
+    hide('.turnPara');
+    hide('.seedPara');
+    hide('.ggunPara');
+    hide('.iboPara');
+    hide('.univPara');
+    hide('.recoPara');
+    hide('.builPara');
+    hide('.sdwPara');
+    hide('.starblazPara');
+    hide('.starwarsPara');
+    hide('.othPara');
+    hide('.pgPara');
+    hide('.mgPara');
+    hide('.fmPara');
+    hide('.rgPara');
+    hide('.hgPara');
+    hide('.sdPara');
+    hide('.mgsdPara');
+    hide('.ledPara');
+    hide('.mgexPara');
+    hide('.pbPara');
+    hide('.strPara');
+    hide('.paintPara');
+}
+
+function populateBuildsPage() {
+    convertDate();
+    generateLists();
+    buildFilterArrays();
+    postedArray = sortByDate(postedArray,'post').reverse();
+
+    let buildCount = 0;
+    let buildColumnsNode = document.getElementById('buildColumns');
+    for (let i=0;i<postedArray.length;i++) {
+        if(postedArray[i][22])
+        {
+            buildCount++;
+            let divNode = document.createElement('div');
+            let divClass = document.createAttribute('class');
+            divClass.value = 'col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2 mx-0 text-center';
+            divNode.setAttributeNode(divClass);
+
+            let aNode = document.createElement('a');
+            let hrefNode = document.createAttribute('href');
+            hrefNode.value = postedArray[i][11];
+            aNode.setAttributeNode(hrefNode);
+            let aClass = document.createAttribute('class');
+            aClass.value = 'mx-0';
+            aNode.setAttributeNode(aClass);
+
+            divNode.appendChild(aNode);
+
+            let profilePhotoNode = document.createElement('img');
+            let imgSRC = document.createAttribute('src');
+            imgSRC.value = postedArray[i][16][0];
+            profilePhotoNode.setAttributeNode(imgSRC);
+            let imgClass = document.createAttribute('class');
+            imgClass.value = 'img-fluid img-thumbnail';
+            profilePhotoNode.setAttributeNode(imgClass);
+
+            aNode.appendChild(profilePhotoNode);
+
+            let spanNode = document.createElement('span');
+            let spanClass = document.createAttribute('class');
+            spanClass.value = 'align-self-center';
+            spanNode.setAttributeNode(spanClass);
+
+            divNode.appendChild(spanNode);
+
+            let aNode2 = document.createElement('a');
+            let hrefNode2 = document.createAttribute('href');
+            hrefNode2.value = postedArray[i][11];
+            aNode2.setAttributeNode(hrefNode2);
+            let aClass2 = document.createAttribute('class');
+            aClass2.value = 'mx-0';
+            aNode2.setAttributeNode(aClass2);
+
+            spanNode.appendChild(aNode2);
+
+            let pNode = document.createElement('h4');
+            let pClass = document.createAttribute('class');
+            pClass.value = 'font-weight-bold text-danger buildH4';
+            pNode.setAttributeNode(pClass);
+            let pTextNode = document.createTextNode(postedArray[i][0]);
+            if (postedArray[i][26]) {
+                pTextNode = document.createTextNode(postedArray[i][26])
+            }
+            pNode.appendChild(pTextNode);
+
+            aNode2.appendChild(pNode);
+
+            buildColumnsNode.appendChild(divNode);
+        }
+    }
+
+    let buildTotalNode = document.getElementById('buildTotal');
+    let buildTotalText = document.createTextNode(buildCount);
+    buildTotalNode.appendChild(buildTotalText);
+}
+
+function populateSelectBuilds(array) {
+    let buildCount = 0;
+    let buildColumnsNode = document.getElementById('buildColumns');
+    for (let i=0;i<array.length;i++) {
+        if(array[i][22])
+        {
+            buildCount++;
+            let divNode = document.createElement('div');
+            let divClass = document.createAttribute('class');
+            divClass.value = 'col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2 mx-0 text-center';
+            divNode.setAttributeNode(divClass);
+
+            let aNode = document.createElement('a');
+            let hrefNode = document.createAttribute('href');
+            hrefNode.value = array[i][11];
+            aNode.setAttributeNode(hrefNode);
+            let aClass = document.createAttribute('class');
+            aClass.value = 'mx-0';
+            aNode.setAttributeNode(aClass);
+
+            divNode.appendChild(aNode);
+
+            let profilePhotoNode = document.createElement('img');
+            let imgSRC = document.createAttribute('src');
+            imgSRC.value = array[i][16][0];
+            profilePhotoNode.setAttributeNode(imgSRC);
+            let imgClass = document.createAttribute('class');
+            imgClass.value = 'img-fluid img-thumbnail';
+            profilePhotoNode.setAttributeNode(imgClass);
+
+            aNode.appendChild(profilePhotoNode);
+
+            let spanNode = document.createElement('span');
+            let spanClass = document.createAttribute('class');
+            spanClass.value = 'align-self-center';
+            spanNode.setAttributeNode(spanClass);
+
+            divNode.appendChild(spanNode);
+
+            let aNode2 = document.createElement('a');
+            let hrefNode2 = document.createAttribute('href');
+            hrefNode2.value = array[i][11];
+            aNode2.setAttributeNode(hrefNode2);
+            let aClass2 = document.createAttribute('class');
+            aClass2.value = 'mx-0';
+            aNode2.setAttributeNode(aClass2);
+
+            spanNode.appendChild(aNode2);
+
+            let pNode = document.createElement('h4');
+            let pClass = document.createAttribute('class');
+            pClass.value = 'font-weight-bold text-danger buildH4';
+            pNode.setAttributeNode(pClass);
+            let pTextNode = document.createTextNode(array[i][0]);
+            if (array[i][26]) {
+                pTextNode = document.createTextNode(array[i][26])
+            }
+            pNode.appendChild(pTextNode);
+
+            aNode2.appendChild(pNode);
+
+            buildColumnsNode.appendChild(divNode);
+        }
+    }
+
+    let buildTotalNode = document.getElementById('buildTotal');
+    let buildTotalText = document.createTextNode(buildCount);
+    buildTotalNode.appendChild(buildTotalText);
+}
+
+function rebuild(array) {
+    buildsClear();
+    toggleHide('.buildFilterBox');
+    populateSelectBuilds(array);
 }
 
 //Project Functions
