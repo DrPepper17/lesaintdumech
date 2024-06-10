@@ -1203,6 +1203,30 @@ const blogArray = [
                 '.'
             ]
         ]
+    ],
+    [
+        '2024-06-10',
+        'Metroid DNA Fusion',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/7_FusionSuit.webp',
+        [
+            [
+                'This week I bring you the ',
+                ['Fusion Suit','Builds/Metroid/Fusion.html'],
+                '. Prime is finally over. And next up is the Fusion story arc. After defeating the Metroid Prime / Dark Samus for good, thus ending the Prime Saga. Samus now moves on to eradicate all the Metroids on planet SR388. Just for have a run in with a whole new predator. Only way to enhacne her to combat this new threat was to inject her with Metroid DNA, creating a new fusion of human and alien, turning her into a whole new monster, the ultimate human-chozo-metroid fusion.'
+            ]
+        ],
+        [
+            [
+                ['Youtube','https://youtu.be/1uz4guERqbk'],
+                '.'
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/samfus25.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/samfus38.jpeg']
+        ]
     ]
 ]
 

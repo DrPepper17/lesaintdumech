@@ -151,8 +151,9 @@
 
     // Zoid (9) //
     2. Name
-    3. Serial No.
-    4. Animal / Type
+    3. Long Name
+    4. Serial No.
+    5. Animal / Type
 */
 
 //Models Array
@@ -5036,6 +5037,7 @@ const models = [
     26. Build Page: Override Name
     27. Other Models included [array]
     28. Include Franchise in Other List (true/false)
+    29. Filter project name override (automated set)
 */
 
 //Pojects
@@ -6787,7 +6789,7 @@ const projects = [
         ],false,true,'1:144',false,false,'Dark Suit'
     ],
     ['Samus: Fusion Suit',[1,'Dagger L'],'HG',
-        false,false,false,'Seed','D','2023-08-19',7.79,false,'Builds/Metroid/Fusion.html','Metroid','2024-06-10',models[23],
+        false,false,false,'Seed','E','2023-08-19',7.79,false,'Builds/Metroid/Fusion.html','Metroid','2024-06-10',models[23],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/7_FusionSuit.webp','Samus Aran: Fusion Suit'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/IMG_7365.JPG','Samus Aran: Fusion Suit'],
@@ -6831,7 +6833,7 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/samfus38.jpeg','Samus & Dagger']
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/samfus24.jpeg','Profile Photo: Fusion Suit'],
-        '',false,
+        'The most bizarre and one of a kind suit in the series, the Fusion Suit. Starting with Metroid Fusion the series began to take a new turn in the story. Albeit there has only one been one more game post fusion so where that turn goes we have yet to find out. But for this build I tried to go with bright flashy colors. So Magenta and Turquoise accented with yellow. I worried that this suit would look too comical. But it actually came out looking great.',false,
         [
             ['Video','https://youtu.be/1uz4guERqbk'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/hgce-1-144-247-dagger-l'],
@@ -6850,7 +6852,7 @@ const projects = [
             'Dark Samus: Corruption',
             'Samus: Zero Suit',
             'Federation Trooper'
-        ],false,false,'1:144',false,false,'Fusion Suit'
+        ],false,true,'1:144',false,false,'Fusion Suit'
     ],
     ['Samus: Gravity Suit',[1,'Dagger L'],'HG',
         false,false,false,'Seed','E','2023-08-02',8.37,false,'Builds/Metroid/Gravity.html','Metroid','2024-05-06',models[23],
@@ -7714,7 +7716,7 @@ const projects = [
     ['Raider [FM]',[1,'Raider'],'FM',true,false,false,'Seed','D','2023-01-06',10.25,false,false,false],
     ['Rodan',[1,'Raider'],'FM',false,false,false,'Seed','A'],
     ['La Reine',[0.5,'Raijin Striker'],'MG',false,true,false,'Seed','B'],
-    ['Ripley',[1,'Rising Freedom'],'SD',false,false,false,'Seed','B'],
+    ['Ripley',[1,'Rising Freedom'],'SD',false,false,false,'Seed','C','2024-06-04',0.78],
     ['Revolution',[1,'Rising Freedom'],'HG',false,false,false,'Seed','D','2024-02-18',15.08],
     ['Rising Freedom [HG]',[1,'Rising Freedom'],'HG',true,false,false,'Seed','D','2024-05-24',2.75],
     ['Blue Angels',[3,'Skygrasper','Skygrasper','Skygrasper'],'RG',
@@ -9799,9 +9801,10 @@ const projects = [
         ],false,false,true
     ],
     ['Sasuki Delta [SD]',[1,'Delta, Saskui'],'SD',true,false,false,'Heroes','E','2021-09-05',1.5,false,false,false,'2022-06-20'],
-    ['Quetzalcaotl',[1,'Dragon, Dark Grasper'],'SD',false,false,false,'Heroes','B'],
-    ['Pharaoh',[1,'Dragon, Shining Grasper'],'SD',false,false,false,'Heroes','B'],
-    ['Tiamat',[1,'Dragon, Shining Grasper'],'SD',false,false,false,'Heroes','B'],
+    ['Quetzalcaotl',[1,'Dragon, Dark Grasper'],'SD',false,false,false,'Heroes','C','2024-06-06',0.58], //red queen paint
+    ['Pharaoh',[1,'Dragon, Shining Grasper'],'SD',false,false,false,'Heroes','B'], //peacock
+    ['Tiamat',[1,'Dragon, Shining Grasper'],'SD',false,false,false,'Heroes','B'], //midnight city
+    ['Python',[1,'Dragon, Shining Grasper'],'SD',false,false,false,'Heroes','B'], //leviathan
     ['Ose',[1,'Duel, Taishi Ci'],'SD',false,false,false,'Heroes','B','',0,false,'','Ars Goetia'],
     ['Cronus',[1,'Epyon, Nobunaga'],'SD',false,false,false,'Heroes','B'],
     ['Helios',[1,'Freedom, Zhuge Liang'],'SD',
@@ -9830,7 +9833,7 @@ const projects = [
     ],
     ['Pallas',[1,'God Gundam, Huang Zhang Fei'],'SD',false,false,false,'Heroes','B'],
     ['Atlas',[1,'God Gundam, Zhang Fei'],'SD',false,false,false,'Heroes','B'],
-    ['Themis',[1,'Legend, Caesar'],'SD',false,false,false,'Heroes','B'],
+    ['Themis',[1,'Legend, Caesar'],'SD',false,false,false,'Heroes','C','2024-06-06',1.42],
     ['Gaia',[1,'Providence Gundam, Sangoku Soketsuden Dong Zhuo'],'SD',false,false,false,'Heroes','B'],
     ['Crius',[1,'Sazabi, Zhang Liao'],'SD',false,false,false,'Heroes','B'],
     ['Clymene',[1,'Strike, Knight'],'SD',false,false,false,'Heroes','B'],
@@ -10317,7 +10320,7 @@ const projects = [
             ['TurboDork: Forrest Flux','https://turbodork.com/products/forrest-flux']
         ],['Asterix'],false,true
     ],
-    ['Jade',[1,'Bulbasaur'],'Pokemon',false,false,false,'','B'],
+    ['Jade',[1,'Bulbasaur'],'Pokemon',false,false,false,'','C','2024-06-04',0.45],
     ['Asterix',[1,'Charmander'],'Pokemon',
         false,false,false,'','E','2023-03-12',3.85,false,'Builds/Pokemon/Asterix.html',false,'2023-08-28',models[79],
         [
@@ -10353,7 +10356,7 @@ const projects = [
             ['TurboDork: Redrum','https://turbodork.com/products/redrum'],
         ],['Obelix','Vercingetorix'],false,true,false
     ],
-    ['Jasper',[1,'Charmander'],'Pokemon',false,false,false,'','B'],
+    ['Jasper',[1,'Charmander'],'Pokemon',false,false,false,'','C','2024-06-04',0.63],
     ['Vercingetorix',[1,'Charizard'],'Pokemon',
         false,false,false,'','E','2023-03-10',5.99,false,'Builds/Pokemon/Vercingetorix.html',false,'2023-09-04',models[80],
         [
@@ -10470,7 +10473,7 @@ const projects = [
     ['Dogmatix',[1,'Riolu'],'Pokemon',
         false,false,false,'','D','2023-10-03',2.97
     ], 
-    ['Blinix',[1,'Squirtle'],'Pokemon',false,false,false,'','B'],
+    ['Cooper',[1,'Squirtle'],'Pokemon',false,false,false,'','C','2024-06-04',0.55],
     ['Tusk',[1,'Tepig'],'Pokemon',
         false,false,false,'','D','2023-10-22',3.1
     ], 
@@ -10700,7 +10703,7 @@ const projects = [
             ['USA Gundam Store','https://www.usagundamstore.com/products/1-144-gundam-hanger-bay?variant=37766625657029']
         ],['Stratle'],false,true
     ],
-    ['Long Live the Queen',[1,'Jurassic Park Tyrannosaurus Rex Scene'],'Display',false,false,false,'','C','2024',0],
+    ['Long Live the Queen',[1,'Jurassic Park Tyrannosaurus Rex Scene'],'Display',false,false,false,'','C','2024-06-04',10.08],
     ['Stratle',[1,'Maintenance Bay'],'Display',
         false,false,false,'','E','2022-02-11',27.12,true,'Builds/Displays/Stratle.html',false,'2022-04-11',models[66],
         [
@@ -10778,7 +10781,7 @@ const projects = [
     ],
     ['Ponente',[1,'Cosmo Zero'],'Ship',false,false,false,'StarBlazer','B'],
     ['Levante',[1,'Nagato'],'Ship',false,false,false,'Space Rengo Kantai','B'],
-    ['Mistral',[1,'Millennium Falcon'],'Ship',false,false,false,'StarWars','B'],
+    ['Mistral',[1,'Millennium Falcon'],'Ship',false,false,false,'StarWars','C','2024-06-04',0.42],
 
     //Transformer
     ['Wilbee',[1,'Bumblebee'],'Transformer',
@@ -12219,7 +12222,7 @@ function sortByDate(array,sort) {
 }
 
 function sortByName(array) {
-    let namesArray = [];
+    let namesArray = [false];
     for (let i=0;i<array.length;i++) {
         if(!namesArray.includes(array[i][14][2])) {
             namesArray.push(array[i][14][2]);
@@ -12231,6 +12234,26 @@ function sortByName(array) {
     for (let j=0;j<namesArray.length;j++) {
         for (let k=0;k<array.length;k++) {
             if (array[k][14][2] == namesArray[j]) {
+                tempArray.push(array[k]);
+            }
+        }
+    }
+    return tempArray;
+}
+
+function sortByDexNumber(array) {
+    let numArray = [false];
+    for (let i=0;i<array.length;i++) {
+        if(!numArray.includes(array[i][14][4])) {
+            numArray.push(array[i][14][4]);
+        }
+    }
+    numArray.sort();
+
+    let tempArray = [];
+    for (let j=0;j<numArray.length;j++) {
+        for (let k=0;k<array.length;k++) {
+            if (array[k][14][4] == numArray[j]) {
                 tempArray.push(array[k]);
             }
         }
@@ -12673,8 +12696,34 @@ function homepageImages() {
 }
 
 //Build Page
-function applyFilter(filter,parID) {
-    rebuild(filter);
+function addDexNo(array) {
+    for (i=0;i<array.length;i++) {
+        if (array[i][26]) {
+            array[i][29] = '# '+array[i][14][4]+': '+array[i][26];
+        }
+        else {
+            array[i][29] = '# '+array[i][14][4]+': '+array[i][0];
+        }
+    }
+    return array;
+}
+
+function addSerialNo(array) {
+    for (i=0;i<array.length;i++) {
+        if (array[i][14][4]) {
+            if (array[i][26]) {
+                array[i][29] = array[i][14][4]+' '+array[i][26];
+            }
+            else {
+                array[i][29] = array[i][14][4]+' '+array[i][0];
+            }
+        }
+    }
+    return array;
+}
+
+function applyFilter(filter,parID,command) {
+    rebuild(filter,command);
     if(parID){
         unhide(parID)
     }
@@ -12817,10 +12866,10 @@ function buildFilterArrays() {
     gundamFilter = sortByDate(gundamFilter,'post').reverse();
     haroFilter = sortByDate(haroFilter,'post').reverse();
     mobileFilter = sortByDate(mobileFilter,'post').reverse();
-    pokemonFilter = sortByDate(pokemonFilter,'post').reverse();
+    pokemonFilter = sortByDexNumber(pokemonFilter);
     shipFilter = sortByDate(shipFilter,'post').reverse();
     transformerFilter = sortByDate(transformerFilter,'post').reverse();
-    zoidFilter = sortByDate(zoidFilter,'post').reverse();
+    zoidFilter = sortByDexNumber(zoidFilter);
     mercuryFilter = sortByName(mercuryFilter);
     ageFilter = sortByName(ageFilter);
     wingFilter = sortByName(wingFilter);
@@ -12895,6 +12944,10 @@ function buildsClear() {
     hide('.pbPara');
     hide('.strPara');
     hide('.paintPara');
+
+    for (i=0;i<postedArray.length;i++) {
+        postedArray[i][29]=false;
+    }
 }
 
 function populateBuildsPage() {
@@ -13029,6 +13082,9 @@ function populateSelectBuilds(array) {
             if (array[i][26]) {
                 pTextNode = document.createTextNode(array[i][26])
             }
+            if (array[i][29]) {
+                pTextNode = document.createTextNode(array[i][29])
+            }
             pNode.appendChild(pTextNode);
 
             aNode2.appendChild(pNode);
@@ -13042,9 +13098,15 @@ function populateSelectBuilds(array) {
     buildTotalNode.appendChild(buildTotalText);
 }
 
-function rebuild(array) {
+function rebuild(array,command) {
     buildsClear();
     toggleHide('.buildFilterBox');
+    if (command == 'pokedex') {
+        addDexNo(array);
+    }
+    if (command == 'serial') {
+        addSerialNo(array);
+    }
     populateSelectBuilds(array);
 }
 
