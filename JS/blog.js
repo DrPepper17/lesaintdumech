@@ -1227,6 +1227,35 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/samfus38.jpeg']
         ]
+    ],
+    [
+        '2024-06-17',
+        'Just a little Dread to inpsire the Revolution',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/8_DreadSuit.webp',
+        [
+            [
+                'This week is the ',
+                ['Dread Suit','Builds/Metroid/Dread.html'],
+                '. Despite its reveal so late in the project, this is actually the very first Samus I built and the one that inspired me to build all the others.'
+            ]
+        ],
+        [
+            [
+                'Unlike the others, the Dread Suit was entirely unplanned. The idea sort of randomly stirred in the moment of trying what to do with an unused P-Bandai Strike Dagger kit. After it was finished I was very in awe with how it turned out, and with my love of Daggers sever since building my first one, ',
+                ['King Leir','Builds/Gundams/KingLeir.html'],
+                ' and my love of all things Metroid, I just knew I had to complete the arsenal and build all the Samus suits. And by all, I really do mean All of them.'
+            ]
+        ],
+        [
+            [
+                'Visit the ',
+                ['Youtube','https://youtu.be/hFDa8j-NscI'],
+                '.'
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/samdread15.jpeg']
+        ]
     ]
 ]
 

@@ -5317,7 +5317,7 @@ const projects = [
             ['Dobiel','https://en.wikipedia.org/wiki/Dobiel'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/hgtwfm-1-144-24-gundvolva'],
             ['NewType','https://newtype.us/p/0LtLPFfPCrT5SfGPqKjS/h/hgwfm-24-gundv-lva']
-        ],['Malphas','King Leir','Leo Army'],false,true,'1:144'
+        ],['Cordelia','King Leir','Malphas','Leo Army'],false,true,'1:144'
     ],
     ['EMMI',[1,'Heindree'],'HG',false,false,false,'Mercury','A'],
     ['Adriel',[1,'LFrith'],'HG',false,false,false,'Mercury','D','2023-12-11',7.25],
@@ -6650,7 +6650,7 @@ const projects = [
         'One of the coolest things I love about the SEED universe is the versatility of the mobile suits in how they all can have added equipment packs added on to enhance their features. However very few of these packs have been made as actual add-on model kits to add to the current model kit lineup. So when I saw that P-Bandai was releasing the Dagger L expansion pack I just had to get it and paint it. Included is the Doppelhorn Dual Recoilless Cannon, which is the very long barrel guns mounted on the Dagger\'s shoulders. And also included is the Multi-Launcher pack which is the large square box-like structure that houses the long range nuclear ICBMs stored inside that were used to vaporize the Boaz military asteroid in the final story arc of Gundam SEED. To mount the two units I build two new Dagger Ls which I painted identical my previous project King Leir. Bringing my Dagger count now up to three: King Leir and his two daughters Gonorilla and Regan. Also included is Oberon, acting as their squadron commander.',false,
         [
             ['Premium Bandai','https://p-bandai.com/us/item/N2563436001002']
-        ],['Oberon','King Leir','PB Strike Daggers'],false,true,'1:144',false,false,false,
+        ],['Oberon'],false,true,'1:144',false,false,false,
     ],
     ['King Leir',[1,'Dagger L'],'HG',
         false,false,false,'Seed','E','2021-06-10',14.09,false,'Builds/Gundams/KingLeir.html',false,'2021-06-26',models[23],
@@ -6696,7 +6696,7 @@ const projects = [
         [
             ['USA Gundam Store','https://www.usagundamstore.com/products/hgce-1-144-247-dagger-l'],
             ['NewType','https://newtype.us/p/V3s94PjelBrA0T06Q673/h/hgce-237-gat-o2l2-dagger-l']
-        ],['Malphas','Dobiel','Leo Army'],false,true,'1:144'
+        ],['Cordelia','Dobiel','Malphas','Leo Army'],false,true,'1:144'
     ],
     ['Mercutio',[1,'Dagger L'],'HG',false,false,false,'Seed','B','2024',0,false,'Builds/Gundams/Mercutio.html',false,'',models[23]],
     ['Samus: Dark Suit',[1,'Dagger L'],'HG',
@@ -7716,7 +7716,7 @@ const projects = [
     ['Raider [FM]',[1,'Raider'],'FM',true,false,false,'Seed','D','2023-01-06',10.25,false,false,false],
     ['Rodan',[1,'Raider'],'FM',false,false,false,'Seed','A'],
     ['La Reine',[0.5,'Raijin Striker'],'MG',false,true,false,'Seed','B'],
-    ['Ripley',[1,'Rising Freedom'],'SD',false,false,false,'Seed','C','2024-06-04',0.78],
+    ['Ripley',[1,'Rising Freedom'],'SD',false,false,false,'Seed','C','2024-06-04',1.25],
     ['Revolution',[1,'Rising Freedom'],'HG',false,false,false,'Seed','D','2024-02-18',15.08],
     ['Rising Freedom [HG]',[1,'Rising Freedom'],'HG',true,false,false,'Seed','D','2024-05-24',2.75],
     ['Blue Angels',[3,'Skygrasper','Skygrasper','Skygrasper'],'RG',
@@ -7857,10 +7857,19 @@ const projects = [
         ],false,true,true
     ],
     ['Cordelia',[1,'Strike Dagger'],'HG',
-        false,true,false,'Seed','D','2023-12-11',7.23,false,'Builds/Gundams/Cordelia.html','Shakespeare','',models[92]
+        false,true,false,'Seed','D','2023-12-11',7.23,false,'Builds/Gundams/Cordelia.html','Shakespeare','',models[92],
+        [
+            ['','']
+        ],
+        ['','Profile Photo: Cordelia'],
+        '',false,
+        [
+            ['Video',''],
+            ['Premium Bandai','https://p-bandai.com/us/item/N2595691001002']
+        ],['Dobiel','King Leir','Malphas'],false,false,'1:144'
     ],
     ['Samus: Dread Suit',[1,'Strike Dagger'],'HG',
-        false,true,false,'Seed','D','2023-03-07',10.89,false,'Builds/Metroid/Dread.html','Metroid','2024-06-17',models[92],
+        false,true,false,'Seed','E','2023-03-07',10.89,false,'Builds/Metroid/Dread.html','Metroid','2024-06-17',models[92],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/8_DreadSuit.webp','Samus Aran: Dread Suit'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/samdread01.jpeg','Dread Suit'],
@@ -7931,10 +7940,11 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/samdread66.jpeg','Samus & Dagger']
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/samdread34.jpeg','Profile Photo: Dread Suit'],
-        '',false,
+        'The theme for this came at random. I had ordered three Striker Daggers from Premium Bandai, one for a straight build, one for a traditional paint color and a third to do a custom paint. Just for the longest time I was not sure what sort of design to go with. Then one day staring at my nintendo amiibos my eye spotted Dread Suit Samus, and I and thought gosht that would be such a cool build. So this really was the first Samus I did in the Samus project, when I did not even expect it to become a project. To achieve the Dread Suit I used Turbo Dork Pearly Gates for the base of the body\'s white. Then did a Candy Blue and Candy Red for their equivalent portions. End result, super super shiny.',false,
         [
             ['Video','https://youtu.be/hFDa8j-NscI'],
-            ['Premium Bandai','https://p-bandai.com/us/item/N2595691001002']
+            ['Premium Bandai','https://p-bandai.com/us/item/N2595691001002'],
+            ['Turbo Dork: Pearly Gates','https://turbodork.com/products/pearly-gates-1']
         ],
         [
             'Samus: Varia Suit',
@@ -7949,7 +7959,7 @@ const projects = [
             'Dark Samus: Corruption',
             'Samus: Zero Suit',
             'Federation Trooper'
-        ],false,false,'1:144',false,false,'Dread Suit'
+        ],false,true,'1:144',false,false,'Dread Suit'
     ],
     ['Strike Dagger',[1,'Strike Dagger','Strike Dagger'],'HG',
         false,true,false,'Seed','E','2023-03-07',9.52,false,'Builds/PBandai/PBStrikeDaggers.html',false,'2023-10-10',models[92],
@@ -8019,7 +8029,7 @@ const projects = [
         [
             ['Video','https://www.instagram.com/reel/CyTM6JPultl/?igshid=MzRlODBiNWFlZA=='],
             ['Premium Bandai','https://p-bandai.com/us/item/N2595691001002']
-        ],['King Leir'],false,true,'1:144'
+        ],false,false,true,'1:144'
     ],
     ['AntiFreedom',[1,'Strike-Freedom'],'SD',false,false,false,'Seed','B'],
     ['Servitude',[1,'Strike-Freedom'],'MG',false,false,false,'Seed','B'],
@@ -8603,8 +8613,8 @@ const projects = [
             ['Premium Bandai: RG God Gundam Expansion Set','https://p-bandai.com/us/item/N2619351001001']
         ],false,false,true,'1:144','God Gundam'
     ],
-    ['Michael',[1,'Burning Gundam'],'SD',false,false,false,'G','B'],
-    ['Furcas',[1,'Dark Army'],'HG',false,false,false,'G','B'],
+    ['Michael',[1,'Burning Gundam'],'SD',false,false,false,'G','C','2024',0],
+    ['Furcas',[1,'Dark Army'],'HG',false,false,false,'G','C','2024',0],
     ['Malphas',[1,'Dark Army'],'HG',
         false,false,false,'G','E','2022-09-08',5.83,false,'Builds/Gundams/Malphas.html','Ars Goetia','2023-01-23',models[59],
         [
@@ -8626,15 +8636,15 @@ const projects = [
             ['Malphas','https://en.wikipedia.org/wiki/Malphas'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/hgfc-1-144-230-death-army'],
             ['NewType','https://newtype.us/p/jyG6L0YpSElExWI5jPd7/h/hgfc-230-death-army']
-        ],['King Leir','Dobiel','Leo Army'],true,true,'1:144'
+        ],['Cordelia','Dobiel','King Leir','Leo Army'],true,true,'1:144'
     ],
     ['Asmodeus',[1,'Dark Gundam'],'SD',false,false,false,'G','B'],
-    ['Baal',[1,'Dark Gundam'],'HG',false,false,false,'G','B'],
+    ['Baal',[1,'Dark Gundam'],'HG',false,false,false,'G','C','2024',0],  //Mr Metallic
     ['Balam',[1,'Dark Gundam'],'HG',false,false,false,'G','B'],
     ['Beleth',[1,'Dark Gundam'],'SD',false,false,false,'G','B'],
     ['Belial',[1,'Dark Gundam'],'HG',false,false,false,'G','B'],
     ['Dark Gundam [SD]',[1,'Dark Gundam'],'SD',true,false,false,'G','D','2022-08-07',1.75,false,false,false],
-    ['Paimon',[1,'Dark Gundam'],'SD',false,false,false,'G','B'],
+    ['Paimon',[1,'Dark Gundam'],'SD',false,false,false,'G','C','2024',0],    //Mr Metallic
     ['Brady',[1,'PB Gundam Maxter'],'HG',false,true,false,'G','C','2024',0],
     ['Charlemagne',[1,'PB Rose Gundam'],'HG',
         false,true,false,'G','E','2023-08-02',15.83,false,'Builds/PBandai/Charlemagne.html',false,'2023-10-02',models[56],
@@ -8728,7 +8738,7 @@ const projects = [
         ],false,true,true,'1:144','The Sun King'
 
     ],
-    ['Gabriel',[1,'Shining Gundam'],'SD',false,false,false,'G','B'],
+    ['Gabriel',[1,'Shining Gundam'],'SD',false,false,false,'G','C','2024',0],
     ['Red Baron',[1,'Spiegel, Gundam'],'MG',
         false,false,false,'G','E','2021-05-05',72.07,true,'Builds/Gundams/RedBaron.html','Hand Paint','2021-05-29',models[2],
         [
@@ -9833,10 +9843,10 @@ const projects = [
     ],
     ['Pallas',[1,'God Gundam, Huang Zhang Fei'],'SD',false,false,false,'Heroes','B'],
     ['Atlas',[1,'God Gundam, Zhang Fei'],'SD',false,false,false,'Heroes','B'],
-    ['Themis',[1,'Legend, Caesar'],'SD',false,false,false,'Heroes','C','2024-06-06',1.42],
+    ['Themis',[1,'Legend, Caesar'],'SD',false,false,false,'Heroes','C','2024-06-06',1.58],
     ['Gaia',[1,'Providence Gundam, Sangoku Soketsuden Dong Zhuo'],'SD',false,false,false,'Heroes','B'],
     ['Crius',[1,'Sazabi, Zhang Liao'],'SD',false,false,false,'Heroes','B'],
-    ['Clymene',[1,'Strike, Knight'],'SD',false,false,false,'Heroes','B'],
+    ['Clymene',[1,'Strike, Knight'],'SD',false,false,false,'Heroes','C','2024',0],
     ['Prometheus',[1,'Strike Noir, Xun Yu'],'SD',false,false,false,'Heroes','B'],
     ['Selene',[1,'Strike-Freedom, Qiongqi'],'SD',false,false,false,'Heroes','B'],
     ['Corona Australis',[1,'Tallgeese, Xiahou Yuan'],'SD',
@@ -10320,7 +10330,7 @@ const projects = [
             ['TurboDork: Forrest Flux','https://turbodork.com/products/forrest-flux']
         ],['Asterix'],false,true
     ],
-    ['Jade',[1,'Bulbasaur'],'Pokemon',false,false,false,'','C','2024-06-04',0.45],
+    ['Jade',[1,'Bulbasaur'],'Pokemon',false,false,false,'','C','2024-06-04',0.53],
     ['Asterix',[1,'Charmander'],'Pokemon',
         false,false,false,'','E','2023-03-12',3.85,false,'Builds/Pokemon/Asterix.html',false,'2023-08-28',models[79],
         [
@@ -10473,7 +10483,7 @@ const projects = [
     ['Dogmatix',[1,'Riolu'],'Pokemon',
         false,false,false,'','D','2023-10-03',2.97
     ], 
-    ['Cooper',[1,'Squirtle'],'Pokemon',false,false,false,'','C','2024-06-04',0.55],
+    ['Cooper',[1,'Squirtle'],'Pokemon',false,false,false,'','C','2024-06-04',0.72],
     ['Tusk',[1,'Tepig'],'Pokemon',
         false,false,false,'','D','2023-10-22',3.1
     ], 
@@ -10703,7 +10713,7 @@ const projects = [
             ['USA Gundam Store','https://www.usagundamstore.com/products/1-144-gundam-hanger-bay?variant=37766625657029']
         ],['Stratle'],false,true
     ],
-    ['Long Live the Queen',[1,'Jurassic Park Tyrannosaurus Rex Scene'],'Display',false,false,false,'','C','2024-06-04',10.08],
+    ['Long Live the Queen',[1,'Jurassic Park Tyrannosaurus Rex Scene'],'Display',false,false,false,'','C','2024-06-04',22.5],
     ['Stratle',[1,'Maintenance Bay'],'Display',
         false,false,false,'','E','2022-02-11',27.12,true,'Builds/Displays/Stratle.html',false,'2022-04-11',models[66],
         [
@@ -10781,7 +10791,7 @@ const projects = [
     ],
     ['Ponente',[1,'Cosmo Zero'],'Ship',false,false,false,'StarBlazer','B'],
     ['Levante',[1,'Nagato'],'Ship',false,false,false,'Space Rengo Kantai','B'],
-    ['Mistral',[1,'Millennium Falcon'],'Ship',false,false,false,'StarWars','C','2024-06-04',0.42],
+    ['Mistral',[1,'Millennium Falcon'],'Ship',false,false,false,'StarWars','C','2024-06-04',0.53],
 
     //Transformer
     ['Wilbee',[1,'Bumblebee'],'Transformer',
