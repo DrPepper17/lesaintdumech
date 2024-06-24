@@ -1037,7 +1037,7 @@ const blogArray = [
         [
             [
                 'Coinciding with today\'s reveal the Deku Knight, I\'m also proud to announce today the launch of  my new ',
-                ['YouTube','https://www.youtube.com/channel/UCs6aqwL743FZhK-GRg3m4iw'],
+                ['YouTube','https://www.youtube.com/channel/UCs6aqwL743FZhK-GRg3m4iw',true],
                 ' channel.'
             ]
         ],
@@ -1072,7 +1072,7 @@ const blogArray = [
         [
             [
                 'P.S. Also do not forget to also check out the accompanying ',
-                ['Youtube','https://youtu.be/9wZVfwGWlKw'],
+                ['Youtube','https://youtu.be/9wZVfwGWlKw',true],
                 ' video.'
             ]
         ]
@@ -1094,7 +1094,7 @@ const blogArray = [
         [
             [
                 'P.S. Also again, don\'t forget to check out our new ',
-                ['Youtube','https://youtu.be/FfthpwsEwmg'],
+                ['Youtube','https://youtu.be/FfthpwsEwmg',true],
                 ' channel and watch the Gravity Suit video.'
             ]
         ],
@@ -1122,7 +1122,7 @@ const blogArray = [
         [
             [
                 'Meanwhile again do go check out the this week\'s ',
-                ['Youtube','https://youtu.be/j8DI_MxWTek'],
+                ['Youtube','https://youtu.be/j8DI_MxWTek',true],
                 ' video for the Phazon suit as well.'
             ]
         ],
@@ -1150,7 +1150,7 @@ const blogArray = [
         [
             [
                 'Also, don\'t forget the ',
-                ['Youtube','https://youtu.be/x53rQPMHpE8'],
+                ['Youtube','https://youtu.be/x53rQPMHpE8',true],
                 '.'
             ]
         ]
@@ -1162,7 +1162,7 @@ const blogArray = [
         [
             [
                 'First off check out the ',
-                ['Youtube','https://youtu.be/fIUNxZdI2M8?si=y31ZWD5GbJU1pBqZ'],
+                ['Youtube','https://youtu.be/fIUNxZdI2M8?si=y31ZWD5GbJU1pBqZ',true],
                 '.'
             ]
         ],
@@ -1199,7 +1199,7 @@ const blogArray = [
         [
             [
                 'Also, ',
-                ['Youtube','https://youtu.be/ftHaYYBLyWI'],
+                ['Youtube','https://youtu.be/ftHaYYBLyWI',true],
                 '.'
             ]
         ]
@@ -1217,7 +1217,7 @@ const blogArray = [
         ],
         [
             [
-                ['Youtube','https://youtu.be/1uz4guERqbk'],
+                ['Youtube','https://youtu.be/1uz4guERqbk',true],
                 '.'
             ]
         ],
@@ -1249,7 +1249,7 @@ const blogArray = [
         [
             [
                 'Visit the ',
-                ['Youtube','https://youtu.be/hFDa8j-NscI'],
+                ['Youtube','https://youtu.be/hFDa8j-NscI',true],
                 '.'
             ]
         ],
@@ -1271,13 +1271,13 @@ const blogArray = [
         [
             [
                 'Also, this is the last known suit of Samus; for now. But Nintendo did just announce a whole new Metroid game ',
-                ['Last Week','https://x.com/NintendoAmerica/status/1803076685723550204'],
+                ['Last Week','https://x.com/NintendoAmerica/status/1803076685723550204',true],
                 ' due to come out 2025. Which with that there are due to be new suits presented to us. So stay tuned. I will naturally of course be painting those suits too soon as they are revieled to us. But til then, enjoy, the Metroid Suit.'
             ]
         ],
         [
             [
-                ['Youtube','https://youtu.be/YZ-dzMfBmjg']
+                ['Youtube','https://youtu.be/YZ-dzMfBmjg',true]
             ]
         ],
         [
