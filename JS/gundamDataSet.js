@@ -5885,7 +5885,7 @@ const projects = [
     ['Tallgeese Fl\u00FCgel',
         [1,'Tallgeese Fl\u00FCgel'],'MG',true,true,false,'Wing','D','2022-05-08',20.17,false,'Builds/PBTallgeeseFlugelMG.html',false
     ],
-    ['Bibi',[1,'Wing Gundam'],'HG',false,false,false,'Wing','C','2024-06',0],
+    ['Bibi',[1,'Wing Gundam'],'HG',false,false,false,'Wing','B','2024-06',0],
     ['Netanyahu',[1,'Wing Gundam'],'RG',false,false,false,'Wing','A'],
     /*
         Bibi:
@@ -6000,6 +6000,8 @@ const projects = [
     ['Zero EW (mg)',[1,'Wing Zero'],'MG',false,false,false,'Wing','B'],
     ['Zero EW (rg)',[1,'Wing Zero'],'RG',false,false,false,'Wing','A'],
     ['Zero EW (sd)',[1,'Wing Zero'],'SD',false,false,false,'Wing','B'],
+    ['Wing Gundam [MGSD]-Straight',[1,'Wing Gundam'],'MGSD',true,false,false,'Wing','A'],
+    ['Wing Gundam [MGSD]-Custom',[1,'Wing Gundam'],'MGSD',false,false,false,'Wing','A'],
 
     //After War (X)
     ['Gaebora',[1,'Airmaster'],'SD',
@@ -6501,6 +6503,7 @@ const projects = [
             ['NewType','https://newtype.us/p/f1D4oTlneK6t2H8RfSWn/h/sdgg-261-gat-x303-aegis-gundam']
         ],false,false,true,false
     ],
+    ['Rostand',[1,'Astray, M1'],'HG',false,false,false,'Seed','B'],
     ['Bald Eagle',[1,'Astray Blue Frame'],'MG',false,false,false,'Seed','B'],
     ['Raphael',[1,'Astray Gold Frame'],'SD',false,false,false,'Seed','B'],
     ['Aurum',[1,'Akatsuki'],'FM',false,false,false,'Seed','C','2024',0],
@@ -6652,6 +6655,8 @@ const projects = [
             ['Premium Bandai','https://p-bandai.com/us/item/N2563436001002']
         ],['Oberon'],false,true,'1:144',false,false,false,
     ],
+    ['Balthasar',[1,'Dagger L'],'HG',false,false,false,'Seed','A','2024',0,false,'Builds/Gundams/Balthasar.html',false,'',models[23]],     //Montague: Green
+    ['Benvolio',[1,'Dagger L'],'HG',false,false,false,'Seed','A','2024',0,false,'Builds/Gundams/Benvolio.html',false,'',models[23]],      //Montague: Orange
     ['King Leir',[1,'Dagger L'],'HG',
         false,false,false,'Seed','E','2021-06-10',14.09,false,'Builds/Gundams/KingLeir.html',false,'2021-06-26',models[23],
         [
@@ -6698,7 +6703,9 @@ const projects = [
             ['NewType','https://newtype.us/p/V3s94PjelBrA0T06Q673/h/hgce-237-gat-o2l2-dagger-l']
         ],['Cordelia','Dobiel','Malphas','Leo Army'],false,true,'1:144'
     ],
-    ['Mercutio',[1,'Dagger L'],'HG',false,false,false,'Seed','B','2024',0,false,'Builds/Gundams/Mercutio.html',false,'',models[23]],
+    ['Mercutio',[1,'Dagger L'],'HG',false,false,false,'Seed','A','2024',0,false,'Builds/Gundams/Mercutio.html',false,'',models[23]],    //Montague: Purple
+    ['Petruchio',[1,'Dagger L'],'HG',false,false,false,'Seed','B','2024',0,false,'Builds/Gundams/Petruchio.html',false,'',models[23]],     //Capulet: Blue
+    ['Rosaline',[1,'Dagger L'],'HG',false,false,false,'Seed','B','2024',0,false,'Builds/Gundams/Rosaline.html',false,'',models[23]],      //Capulet: Yellow
     ['Samus: Dark Suit',[1,'Dagger L'],'HG',
         false,false,false,'Seed','E','2023-08-02',8.14,false,'Builds/Metroid/Dark.html','Metroid','2024-05-20',models[23],
         [
@@ -7202,8 +7209,8 @@ const projects = [
             'Federation Trooper'
         ],false,true,'1:144',false,false,'Varia Suit'
     ],
-    ['Tybalt',[1,'Dagger L'],'HG',false,false,false,'Seed','B','2024',0,false,'Builds/Gundams/Tybalt.html',false,'',models[23]],
-    ['Joan',[1,'Dagger 105 + Gunbarrel'],'HG',false,false,false,'Seed','B'],
+    ['Tybalt',[1,'Dagger L'],'HG',false,false,false,'Seed','B','2024',0,false,'Builds/Gundams/Tybalt.html',false,'',models[23]],        //Capulet: Red
+    ['Friar Laurence',[1,'Dagger 105 + Gunbarrel'],'HG',false,false,false,'Seed','B'],
     ['Charizard',[1,'Destiny'],'MG',false,false,false,'Seed','B'],
     ['Charizard X',[1,'Destiny'],'SD',
         false,false,false,'Seed','E','2021-10-10',8.13,false,'Builds/Gundams/CharizardX.html',false,'2022-05-16',models[33],
@@ -7716,7 +7723,7 @@ const projects = [
     ['Raider [FM]',[1,'Raider'],'FM',true,false,false,'Seed','D','2023-01-06',10.25,false,false,false],
     ['Rodan',[1,'Raider'],'FM',false,false,false,'Seed','A'],
     ['La Reine',[0.5,'Raijin Striker'],'MG',false,true,false,'Seed','B'],
-    ['Ripley',[1,'Rising Freedom'],'SD',false,false,false,'Seed','C','2024-06-04',1.25],
+    ['Ripley',[1,'Rising Freedom'],'SD',false,false,false,'Seed','C','2024-06-04',3.25],
     ['Revolution',[1,'Rising Freedom'],'HG',false,false,false,'Seed','D','2024-02-18',15.08],
     ['Rising Freedom [HG]',[1,'Rising Freedom'],'HG',true,false,false,'Seed','D','2024-05-24',2.75],
     ['Blue Angels',[3,'Skygrasper','Skygrasper','Skygrasper'],'RG',
@@ -8305,7 +8312,7 @@ const projects = [
     ],
     ['Othello',[1,'Windam'],'HG',false,false,false,'Seed','B','2024',0,false,'Builds/Gundams/Othello.html',false,'2024',models[24]],
     ['Samus: Metroid Suit',[1,'Windam'],'HG',
-        false,false,false,'Seed','D','2023-09-13',10.24,false,'Builds/Metroid/MetroidSuit.html',false,'2024-06-24',models[24],
+        false,false,false,'Seed','E','2023-09-13',10.24,false,'Builds/Metroid/Metroid.html',false,'2024-06-24',models[24],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/MetroidSuit02.jpeg','Samus Aran: Metroid Suit'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/MetroidSuit01.jpeg','Samus Aran: Metroid Suit'],
@@ -8378,7 +8385,7 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/sammet66.jpeg','Samus & Windam']
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/sammet54.jpeg','Profile Photo: Metroid Suit'],
-        '',false,
+        'For Samus\' strongest and most standout suit I had to choose a different model than the Dagger to signify that distinction. So of course ro represent that progression to her evolved form I chose the Dagger\'s upgraded model, the Windam. To create the color palette of the Metroid Suit I went with Mr Hobby\'s Metallic Green and Metallic Yellow Green, intermixed with Blood Mr Hobby Metallic Blood Red. What I am most proud of though are the fangs, which I achieved by gluing the tips of tooth picks. This is by far the coolest suit I have done in the Samus Project.',false,
         [
             ['Video','https://youtu.be/YZ-dzMfBmjg'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/hgce-1-144-232-gat-04-windam'],
@@ -8397,7 +8404,7 @@ const projects = [
             'Dark Samus: Corruption',
             'Samus: Zero Suit',
             'Federation Trooper'
-        ],false,false,'1:144',false,false,'Metroid Suit'
+        ],false,true,'1:144',false,false,'Metroid Suit'
     ],
     ['Slash Zaku Phantom',[1,'Zaku Phantom, Slash'],'MG',
         true,true,false,'Seed','E','2023-04-05',11.83,false,'Builds/PBandai/PBPhantomZakuMG.html',false,'2023-07-31',models[75],
@@ -9811,7 +9818,7 @@ const projects = [
         ],false,false,true
     ],
     ['Sasuki Delta [SD]',[1,'Delta, Saskui'],'SD',true,false,false,'Heroes','E','2021-09-05',1.5,false,false,false,'2022-06-20'],
-    ['Quetzalcaotl',[1,'Dragon, Dark Grasper'],'SD',false,false,false,'Heroes','C','2024-06-06',0.58], //red queen paint
+    ['Quetzalcaotl',[1,'Dragon, Dark Grasper'],'SD',false,false,false,'Heroes','C','2024-06-06',2.17], //red queen paint
     ['Pharaoh',[1,'Dragon, Shining Grasper'],'SD',false,false,false,'Heroes','B'], //peacock
     ['Tiamat',[1,'Dragon, Shining Grasper'],'SD',false,false,false,'Heroes','B'], //midnight city
     ['Python',[1,'Dragon, Shining Grasper'],'SD',false,false,false,'Heroes','B'], //leviathan
@@ -9843,7 +9850,7 @@ const projects = [
     ],
     ['Pallas',[1,'God Gundam, Huang Zhang Fei'],'SD',false,false,false,'Heroes','B'],
     ['Atlas',[1,'God Gundam, Zhang Fei'],'SD',false,false,false,'Heroes','B'],
-    ['Themis',[1,'Legend, Caesar'],'SD',false,false,false,'Heroes','C','2024-06-06',1.58],
+    ['Themis',[1,'Legend, Caesar'],'SD',false,false,false,'Heroes','C','2024-06-06',1.83],
     ['Gaia',[1,'Providence Gundam, Sangoku Soketsuden Dong Zhuo'],'SD',false,false,false,'Heroes','B'],
     ['Crius',[1,'Sazabi, Zhang Liao'],'SD',false,false,false,'Heroes','B'],
     ['Clymene',[1,'Strike, Knight'],'SD',false,false,false,'Heroes','C','2024',0],
@@ -10366,7 +10373,7 @@ const projects = [
             ['TurboDork: Redrum','https://turbodork.com/products/redrum'],
         ],['Obelix','Vercingetorix'],false,true,false
     ],
-    ['Jasper',[1,'Charmander'],'Pokemon',false,false,false,'','C','2024-06-04',0.63],
+    ['Jasper',[1,'Charmander'],'Pokemon',false,false,false,'','C','2024-06-04',0.8],
     ['Vercingetorix',[1,'Charizard'],'Pokemon',
         false,false,false,'','E','2023-03-10',5.99,false,'Builds/Pokemon/Vercingetorix.html',false,'2023-09-04',models[80],
         [
@@ -10483,7 +10490,7 @@ const projects = [
     ['Dogmatix',[1,'Riolu'],'Pokemon',
         false,false,false,'','D','2023-10-03',2.97
     ], 
-    ['Cooper',[1,'Squirtle'],'Pokemon',false,false,false,'','C','2024-06-04',0.72],
+    ['Cooper',[1,'Squirtle'],'Pokemon',false,false,false,'','C','2024-06-04',0.8],
     ['Tusk',[1,'Tepig'],'Pokemon',
         false,false,false,'','D','2023-10-22',3.1
     ], 
@@ -10713,7 +10720,7 @@ const projects = [
             ['USA Gundam Store','https://www.usagundamstore.com/products/1-144-gundam-hanger-bay?variant=37766625657029']
         ],['Stratle'],false,true
     ],
-    ['Long Live the Queen',[1,'Jurassic Park Tyrannosaurus Rex Scene'],'Display',false,false,false,'','C','2024-06-04',22.5],
+    ['Long Live the Queen',[1,'Jurassic Park Tyrannosaurus Rex Scene'],'Display',false,false,false,'','D','2024-06-04',32.17,false,'Builds/Displays/JParkQueen.html'],
     ['Stratle',[1,'Maintenance Bay'],'Display',
         false,false,false,'','E','2022-02-11',27.12,true,'Builds/Displays/Stratle.html',false,'2022-04-11',models[66],
         [

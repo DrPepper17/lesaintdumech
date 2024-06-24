@@ -1256,6 +1256,33 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/samdread15.jpeg']
         ]
+    ],
+    [
+        '2024-06-24',
+        'Metroid Hybrid Form',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/MetroidSuit01.jpeg',
+        [
+            [
+                'Finally Samus\' last suit, or at least the last known suit as of this time, the ',
+                ['Metroid Suit','Builds/Metroid/Metroid.html'],
+                '. This one was a pleasure to build. I spent of lot of time planning the colors. Which in the end they came out looking great. But what I am most proud of are the metroid fangs effect.'
+            ]
+        ],
+        [
+            [
+                'Also, this is the last known suit of Samus; for now. But Nintendo did just announce a whole new Metroid game ',
+                ['Last Week','https://x.com/NintendoAmerica/status/1803076685723550204'],
+                ' due to come out 2025. Which with that there are due to be new suits presented to us. So stay tuned. I will naturally of course be painting those suits too soon as they are revieled to us. But til then, enjoy, the Metroid Suit.'
+            ]
+        ],
+        [
+            [
+                ['Youtube','https://youtu.be/YZ-dzMfBmjg']
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/sammet59.jpeg']
+        ]
     ]
 ]
 
