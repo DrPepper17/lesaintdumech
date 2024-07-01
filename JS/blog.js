@@ -1283,6 +1283,54 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/sammet59.jpeg']
         ]
+    ],
+    [
+        '2024-06-25',
+        'Build of Week: Blue Angel',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/blueangels13.jpeg',
+        [
+            [
+                'Once again I am so honored, ',
+                ['NewType.US','https://newtype.us',true],
+                ' has once again chose another of my builds, this time ',
+                ['Blue Angels','Builds/Gundams/BlueAngels.html'],
+                ' as their build of the week for the week of June 24, 2024.'
+            ]
+        ],
+        [
+            'Thanks so much NewType !!!'
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/blueangelsbuildofweek.jpeg']
+        ]
+    ],
+    [
+        '2024-07-01',
+        'Rise of the Worm',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/DarkSamusEchoes02.jpeg',
+        [
+            [
+                'Now that all of Samus\' power suits are out of the way, obviously you cannot have a Metroid project without also painting Samus\' ultimate nemesis, ',
+                ['Dark Samus','Builds/Metroid/Echoes.html'],
+                '.'
+            ]
+        ],
+        [
+            'Now of course Dark Samus had two iterations, one in Metroid Prime Echoes and the second in Metroid Prime Corruption. So I am starting off this week with her form From Echoes. To pull this one off I used some pretty blues from Turbo Dork and to beef her up to make her look more intimidating than a Dagger I decided to use a Gundvolva as the base to paint her on. Overall I am very quite proud with this build.'
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/darksamecho46.jpeg']
+        ],
+        [
+            [
+                'Also do not forget to check out the ',
+                ['Youtube','https://youtu.be/wE2XVpx50mA',true],
+                '.'
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/darksamecho84.jpeg']
+        ]
     ]
 ]
 

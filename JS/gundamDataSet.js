@@ -5159,7 +5159,7 @@ const projects = [
     ['Gundnode B',[1,'Gundnode'],'HG',false,true,false,'Mercury','A'],
     ['Gundnode Straight',[1,'Gundnode'],'HG',true,true,false,'Mercury','A'],
     ['Dark Samus: Echoes',[1,'Gundvolva'],'HG',
-        false,false,false,'Mercury','D','2023-10-11',9.5,false,'Builds/Metroid/Echoes.html','Metroid','2024-07-01',models[91],
+        false,false,false,'Mercury','E','2023-10-11',9.5,false,'Builds/Metroid/Echoes.html','Metroid','2024-07-01',models[91],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/DarkSamusEchoes01.jpeg','Dark Samus Echoes'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/DarkSamusEchoes02.jpeg','Dark Samus Echoes'],
@@ -5261,11 +5261,13 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/darksamecho96.jpeg','Dark Samus & Gundvolva']
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/darksamecho37.jpeg','Profile Photo: Echoes Suit'],
-        '',false,
+        'Building the Samus Suits was fun. But you cannot build Samus without also building her dark Phazon-infused doppleganger Dark Samus. I did not want to make Dark Samus too identical to Samus so to differentiate between the two I chose a new model the Witch from Mercury Gundvolva suit. To achieve the bright vibrant blues of the phazon that fuels her body I went with Turbo Dork colors Cold Open and Ice to Never. Combined that really captured her color.',false,
         [
             ['Video','https://youtu.be/wE2XVpx50mA'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/hgtwfm-1-144-24-gundvolva'],
-            ['NewType','https://newtype.us/p/0LtLPFfPCrT5SfGPqKjS/h/hgwfm-24-gundv-lva']
+            ['NewType','https://newtype.us/p/0LtLPFfPCrT5SfGPqKjS/h/hgwfm-24-gundv-lva'],
+            ['Turbo Dork: Cold Open','https://turbodork.com/products/cold-open-1?variant=40013820100690'],
+            ['Turbo Dork: Ice to Never','https://turbodork.com/products/ice-to-never-1?variant=29460041793606']
         ],
         [
             'Samus: Varia Suit',
@@ -5280,7 +5282,7 @@ const projects = [
             'Dark Samus: Corruption',
             'Samus: Zero Suit',
             'Federation Trooper'
-        ],false,false,'1:144',false,false,'Dark Samus'
+        ],false,true,'1:144',false,false,'Dark Samus'
     ],
     ['The Nazarene',[1,'Gundvolva'],'HG',false,false,false,'Mercury','D','2024-03-01',7.68], 
     ['Dobiel',[1,'Gundvolva'],'HG',
@@ -9818,7 +9820,7 @@ const projects = [
         ],false,false,true
     ],
     ['Sasuki Delta [SD]',[1,'Delta, Saskui'],'SD',true,false,false,'Heroes','E','2021-09-05',1.5,false,false,false,'2022-06-20'],
-    ['Quetzalcaotl',[1,'Dragon, Dark Grasper'],'SD',false,false,false,'Heroes','C','2024-06-06',2.17], //red queen paint
+    ['Quetzalcaotl',[1,'Dragon, Dark Grasper'],'SD',false,false,false,'Heroes','C','2024-06-06',2.42], //red queen paint
     ['Pharaoh',[1,'Dragon, Shining Grasper'],'SD',false,false,false,'Heroes','B'], //peacock
     ['Tiamat',[1,'Dragon, Shining Grasper'],'SD',false,false,false,'Heroes','B'], //midnight city
     ['Python',[1,'Dragon, Shining Grasper'],'SD',false,false,false,'Heroes','B'], //leviathan
@@ -9850,10 +9852,10 @@ const projects = [
     ],
     ['Pallas',[1,'God Gundam, Huang Zhang Fei'],'SD',false,false,false,'Heroes','B'],
     ['Atlas',[1,'God Gundam, Zhang Fei'],'SD',false,false,false,'Heroes','B'],
-    ['Themis',[1,'Legend, Caesar'],'SD',false,false,false,'Heroes','C','2024-06-06',1.83],
+    ['Themis',[1,'Legend, Caesar'],'SD',false,false,false,'Heroes','C','2024-06-06',2.08],
     ['Gaia',[1,'Providence Gundam, Sangoku Soketsuden Dong Zhuo'],'SD',false,false,false,'Heroes','B'],
     ['Crius',[1,'Sazabi, Zhang Liao'],'SD',false,false,false,'Heroes','B'],
-    ['Clymene',[1,'Strike, Knight'],'SD',false,false,false,'Heroes','C','2024',0],
+    ['Clymene',[1,'Strike, Knight'],'SD',false,false,false,'Heroes','C','2024-06-18',1],
     ['Prometheus',[1,'Strike Noir, Xun Yu'],'SD',false,false,false,'Heroes','B'],
     ['Selene',[1,'Strike-Freedom, Qiongqi'],'SD',false,false,false,'Heroes','B'],
     ['Corona Australis',[1,'Tallgeese, Xiahou Yuan'],'SD',
@@ -10373,7 +10375,7 @@ const projects = [
             ['TurboDork: Redrum','https://turbodork.com/products/redrum'],
         ],['Obelix','Vercingetorix'],false,true,false
     ],
-    ['Jasper',[1,'Charmander'],'Pokemon',false,false,false,'','C','2024-06-04',0.8],
+    ['Jasper',[1,'Charmander'],'Pokemon',false,false,false,'','C','2024-06-04',0.88],
     ['Vercingetorix',[1,'Charizard'],'Pokemon',
         false,false,false,'','E','2023-03-10',5.99,false,'Builds/Pokemon/Vercingetorix.html',false,'2023-09-04',models[80],
         [
@@ -10490,7 +10492,7 @@ const projects = [
     ['Dogmatix',[1,'Riolu'],'Pokemon',
         false,false,false,'','D','2023-10-03',2.97
     ], 
-    ['Cooper',[1,'Squirtle'],'Pokemon',false,false,false,'','C','2024-06-04',0.8],
+    ['Cooper',[1,'Squirtle'],'Pokemon',false,false,false,'','C','2024-06-04',0.88],
     ['Tusk',[1,'Tepig'],'Pokemon',
         false,false,false,'','D','2023-10-22',3.1
     ], 
