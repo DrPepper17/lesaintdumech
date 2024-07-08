@@ -1331,6 +1331,54 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/darksamecho84.jpeg']
         ]
+    ],
+    [
+        '2024-07-08',
+        'Build of Week: Thor',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/thor24.jpeg',
+        [
+            [
+                'So I believe this is now occurence number four, but once again I have been honored by ',
+                ['NewType.US','https://newtype.us',true],
+                ' one of their builds of the week. This week they chose my Digimon Gallantmon build ',
+                ['Thor','Builds/Digimon/Thor.html'],
+                '  for the week of July 8, 2024.'
+            ]
+        ],
+        [
+            'As always I am so humbled and so touched and so grateful. Thanks you so much NewType for choosing me and showcasing my build that I worked so hard on. Love you guys so much !!!'
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/Screenshot_2024-07-08_at_12.25.26_PM.jpeg']
+        ]
+    ],
+    [
+        '2024-07-08',
+        'The Worm Pt II',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/(edited)_DarkSamusCorruption01.png',
+        [
+            [
+                'Last week I presented Dark Samus. But don\'t forget Dark Samus was featured in the franchise twice. First in Metroid Prime Echoes but then again for the final showdown with Samus in Metroid Prime Corruption. So this week I present to you Dark Samus\' ',
+                ['Corruption','Builds/Metroid/Corruption.html'],
+                ' form.'
+            ]
+        ],
+        [
+            'For her Corruption form I chose the Witch From Mercury Beguir-Pente suit. Unlike all the previous builds in the Metroid project which were suits I have already painted and built before, this was the first new suit in my lineup that I have not built yet before. And it was a lot of fun. Also pretty proud of the coloring here. I will admit that this build I do have my doubts how well it represents the source material. Primarily because the Beguir-Pente just does not feel very Samus-ish. But I can only do the best I can. Overall it is still a cool build.'
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/darksamcor22.jpeg']
+        ],
+        [
+            [
+                'Also do not forget to check out the ',
+                ['Youtube','https://youtu.be/cy48mkY1eJs',true],
+                '.'
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/darksamcor35.jpeg']
+        ]
     ]
 ]
 

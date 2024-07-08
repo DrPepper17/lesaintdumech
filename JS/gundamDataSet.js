@@ -4989,6 +4989,33 @@ const models = [
         false,
         [129],
         'Flag'
+    ],
+    [130,5,'Tyrannosaurus Rex',
+        'Jurassic Park Tyrannosaurus Rex 1/35 Scale Model Kit',
+        'X-Plus',
+        'Jurassic Park',
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/xplustrex.jpeg','T-Rex Model Kit'],
+        false
     ]
 ];
 
@@ -5053,7 +5080,7 @@ const projects = [
     ['Aerial Rebuild [HG]',[1,'Aerial Rebuild'],'HG',true,false,false,'Mercury','D','2024-06-02',1.42],
     ['Rundas',[1,'Beguir-Beu'],'HG',false,false,false,'Mercury','A','202x',0,false,'Builds/Metroid/Rundas.html','Metroid'],
     ['Dark Samus: Corruption',[1,'Beguir-Pente'],'HG',
-        false,false,false,'Mercury','D','2023-12-23',10.51,false,'Builds/Metroid/Corruption.html','Metroid','2024-07-08',models[127],
+        false,false,false,'Mercury','E','2023-12-23',10.51,false,'Builds/Metroid/Corruption.html','Metroid','2024-07-08',models[127],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/DarkSamusCorruption02.jpeg','Dark Samus Corruption'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/DarkSamusCorruption01.jpeg','Dark Samus Corruption'],
@@ -5102,8 +5129,8 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/darksamcor42.jpeg','Dark Samus Corruption Suit'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/darksamcor43.jpeg','Dark Samus & Beguir Pente']
         ],
-        ['https://hosting.photobucket.com/images/i/lesaintdumech/darksamcor07.jpeg','Profile Photo: Corruption Suit'],
-        '',false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/darksamcor36.jpeg','Profile Photo: Corruption Suit'],
+        'Dark Samus\' second form, featured in Metroid Prime Corruption. This suit is way sleaker and more streamlined than her form in Prime Echoes. To symbbolize that I again chose a different mobile suit, the Beguir-Pente. Her colors are also different. In Echoes she was a dark ominous blue whereas in Corruption she is a shiny steelish-blue. To portray that I experiemtned with the whole Mr Hobby metallics line mixing and experimenting with different ratios and combinations of Mr Hobby Metallic Blue (GX-204), Mr Hobby Metallic Dark Blue (GX-216), Mr Hobby Metallic Ice Silver (GX-214), Mr Hobby Metallic White Silver (GX-213) and Mr Hobby Metallic Black (GX-201) to create the perfect steel blue shade. I cannot tell you what the winning combination was since I did not write it down (besides a true artist never reveals his secrets) therefore this build is completely unreproducible, even to me. Enjoy.',false,
         [
             ['Video','https://youtu.be/cy48mkY1eJs'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/hgtwfm-1-144-12-beguir-pente'],
@@ -5122,7 +5149,7 @@ const projects = [
             'Dark Samus: Echoes',
             'Samus: Zero Suit',
             'Federation Trooper'
-        ],false,false,'1:144',false,false,'Corruption'
+        ],false,true,'1:144',false,false,'Corruption'
     ], 
     ['CAL-A',[1,'Calibarn'],'SD',false,false,false,'Mercury','A'],
     ['CAL-B',[1,'Calibarn'],'SD',false,false,false,'Mercury','A'],
@@ -7725,7 +7752,7 @@ const projects = [
     ['Raider [FM]',[1,'Raider'],'FM',true,false,false,'Seed','D','2023-01-06',10.25,false,false,false],
     ['Rodan',[1,'Raider'],'FM',false,false,false,'Seed','A'],
     ['La Reine',[0.5,'Raijin Striker'],'MG',false,true,false,'Seed','B'],
-    ['Ripley',[1,'Rising Freedom'],'SD',false,false,false,'Seed','C','2024-06-04',3.25],
+    ['Ripley',[1,'Rising Freedom'],'SD',false,false,false,'Seed','C','2024-06-04',6.33],
     ['Revolution',[1,'Rising Freedom'],'HG',false,false,false,'Seed','D','2024-02-18',15.08],
     ['Rising Freedom [HG]',[1,'Rising Freedom'],'HG',true,false,false,'Seed','D','2024-05-24',2.75],
     ['Blue Angels',[3,'Skygrasper','Skygrasper','Skygrasper'],'RG',
@@ -9820,10 +9847,10 @@ const projects = [
         ],false,false,true
     ],
     ['Sasuki Delta [SD]',[1,'Delta, Saskui'],'SD',true,false,false,'Heroes','E','2021-09-05',1.5,false,false,false,'2022-06-20'],
-    ['Quetzalcaotl',[1,'Dragon, Dark Grasper'],'SD',false,false,false,'Heroes','C','2024-06-06',2.42], //red queen paint
+    ['Quetzalcaotl',[1,'Dragon, Dark Grasper'],'SD',false,false,false,'Heroes','C','2024-06-06',3.73], //red queen paint
     ['Pharaoh',[1,'Dragon, Shining Grasper'],'SD',false,false,false,'Heroes','B'], //peacock
-    ['Tiamat',[1,'Dragon, Shining Grasper'],'SD',false,false,false,'Heroes','B'], //midnight city
-    ['Python',[1,'Dragon, Shining Grasper'],'SD',false,false,false,'Heroes','B'], //leviathan
+    ['Tiamat',[1,'Dragon, Shining Grasper'],'SD',false,false,false,'Heroes','C','2024-07-04',1.25], //midnight city
+    ['Python',[1,'Dragon, Shining Grasper'],'SD',false,false,false,'Heroes','C','2024-07-06',1.17], //leviathan
     ['Ose',[1,'Duel, Taishi Ci'],'SD',false,false,false,'Heroes','B','',0,false,'','Ars Goetia'],
     ['Cronus',[1,'Epyon, Nobunaga'],'SD',false,false,false,'Heroes','B'],
     ['Helios',[1,'Freedom, Zhuge Liang'],'SD',
@@ -9852,10 +9879,10 @@ const projects = [
     ],
     ['Pallas',[1,'God Gundam, Huang Zhang Fei'],'SD',false,false,false,'Heroes','B'],
     ['Atlas',[1,'God Gundam, Zhang Fei'],'SD',false,false,false,'Heroes','B'],
-    ['Themis',[1,'Legend, Caesar'],'SD',false,false,false,'Heroes','C','2024-06-06',2.08],
+    ['Themis',[1,'Legend, Caesar'],'SD',false,false,false,'Heroes','C','2024-06-06',5.38],
     ['Gaia',[1,'Providence Gundam, Sangoku Soketsuden Dong Zhuo'],'SD',false,false,false,'Heroes','B'],
     ['Crius',[1,'Sazabi, Zhang Liao'],'SD',false,false,false,'Heroes','B'],
-    ['Clymene',[1,'Strike, Knight'],'SD',false,false,false,'Heroes','C','2024-06-18',1],
+    ['Clymene',[1,'Strike, Knight'],'SD',false,false,false,'Heroes','C','2024-06-18',3.56],
     ['Prometheus',[1,'Strike Noir, Xun Yu'],'SD',false,false,false,'Heroes','B'],
     ['Selene',[1,'Strike-Freedom, Qiongqi'],'SD',false,false,false,'Heroes','B'],
     ['Corona Australis',[1,'Tallgeese, Xiahou Yuan'],'SD',
@@ -10339,7 +10366,7 @@ const projects = [
             ['TurboDork: Forrest Flux','https://turbodork.com/products/forrest-flux']
         ],['Asterix'],false,true
     ],
-    ['Jade',[1,'Bulbasaur'],'Pokemon',false,false,false,'','C','2024-06-04',0.53],
+    ['Jade',[1,'Bulbasaur'],'Pokemon',false,false,false,'','C','2024-06-04',2.23],
     ['Asterix',[1,'Charmander'],'Pokemon',
         false,false,false,'','E','2023-03-12',3.85,false,'Builds/Pokemon/Asterix.html',false,'2023-08-28',models[79],
         [
@@ -10375,7 +10402,7 @@ const projects = [
             ['TurboDork: Redrum','https://turbodork.com/products/redrum'],
         ],['Obelix','Vercingetorix'],false,true,false
     ],
-    ['Jasper',[1,'Charmander'],'Pokemon',false,false,false,'','C','2024-06-04',0.88],
+    ['Jasper',[1,'Charmander'],'Pokemon',false,false,false,'','C','2024-06-04',2.2],
     ['Vercingetorix',[1,'Charizard'],'Pokemon',
         false,false,false,'','E','2023-03-10',5.99,false,'Builds/Pokemon/Vercingetorix.html',false,'2023-09-04',models[80],
         [
@@ -10484,6 +10511,7 @@ const projects = [
         false,false,false,'','D','2023-10-22',2.04
     ],
     ['Polysyllabix',[1,'Mewtwo'],'Pokemon',false,false,false,'','D','2023-11-25',4.83],
+    ['Cyrano',[1,'Pikachu'],'Pokemon',false,false,false,'','C','2024-07-05',0.92],
     ['Picanmix',[1,'Piplup'],'Pokemon',false,false,false,'','D','2023-11-25',3.95],
     ['Getafix',[1,'Rayquaza'],'Pokemon',
         false,false,false,'','D','2023-09-18',5.74
@@ -10492,7 +10520,7 @@ const projects = [
     ['Dogmatix',[1,'Riolu'],'Pokemon',
         false,false,false,'','D','2023-10-03',2.97
     ], 
-    ['Cooper',[1,'Squirtle'],'Pokemon',false,false,false,'','C','2024-06-04',0.88],
+    ['Cooper',[1,'Squirtle'],'Pokemon',false,false,false,'','C','2024-06-04',2.1],
     ['Tusk',[1,'Tepig'],'Pokemon',
         false,false,false,'','D','2023-10-22',3.1
     ], 
@@ -10587,7 +10615,7 @@ const projects = [
             ['NewType','https://newtype.us/p/8ZOOYNmIKJ69rfHIhP3v/h/figure-rise-metalgarurumon-amplified']
         ],['Fafnir','Ragnarok'],false,true,false
     ],
-    ['T\u00FDr',[1,'Metal Greymon'],'Digimon',false,false,false,'','A'],
+    ['T\u00FDr',[1,'Metal Greymon'],'Digimon',false,false,false,'','B'],
     ['Odin',[1,'Shine Greymon'],'Digimon',false,false,false,'','A'],
     ['Ragnarok',[1,'Omnimon'],'Digimon',
         false,false,false,'','E','2022-07-05',19.65,false,'Builds/Digimon/Ragnorok.html','Norse','2022-10-17',models[63],
@@ -10722,7 +10750,115 @@ const projects = [
             ['USA Gundam Store','https://www.usagundamstore.com/products/1-144-gundam-hanger-bay?variant=37766625657029']
         ],['Stratle'],false,true
     ],
-    ['Long Live the Queen',[1,'Jurassic Park Tyrannosaurus Rex Scene'],'Display',false,false,false,'','D','2024-06-04',32.17,false,'Builds/Displays/JParkQueen.html'],
+    ['Long Live the Queen',[1,'Jurassic Park Tyrannosaurus Rex Scene'],'Display',
+        false,false,false,'','D','2024-06-04',32.17,false,'Builds/Displays/JParkQueen.html',false,'2024-07-29',models[130],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen001.jpeg','Long Live The Queen'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen002.jpeg','Long Live The Queen'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen003.jpeg','Long Live The Queen'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen004.jpeg','Long Live The Queen'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen005.jpeg','Long Live The Queen'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen006.jpeg','Long Live The Queen'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen007.jpeg','Long Live The Queen'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen008.jpeg','Long Live The Queen'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen009.jpeg','Long Live The Queen'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen010.jpeg','Long Live The Queen'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen011.jpeg','Long Live The Queen'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen012.jpeg','Long Live The Queen'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen013.jpeg','Long Live The Queen'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen014.jpeg','Long Live The Queen'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen015.jpeg','Long Live The Queen'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen016.jpeg','Long Live The Queen'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen017.jpeg','Long Live The Queen'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen018.jpeg','Long Live The Queen'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen019.jpeg','Long Live The Queen'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen020.jpeg','Long Live The Queen'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen021.jpeg','Long Live The Queen'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen022.jpeg','Long Live The Queen'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen023.jpeg','Long Live The Queen'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen024.jpeg','Long Live The Queen'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen025.jpeg','Long Live The Queen'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen026.jpeg','Long Live The Queen'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen027.jpeg','Long Live The Queen'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen028.jpeg','Long Live The Queen'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen029.jpeg','Long Live The Queen'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen030.jpeg','Long Live The Queen'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen031.jpeg','Long Live The Queen'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen032.jpeg','Long Live The Queen'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen033.jpeg','Long Live The Queen'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen034.jpeg','Long Live The Queen'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen035.jpeg','Long Live The Queen'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen036.jpeg','Long Live The Queen'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen037.jpeg','Long Live The Queen'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen038.jpeg','Long Live The Queen'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen039.jpeg','Long Live The Queen'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen040.jpeg','Long Live The Queen'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen041.jpeg','Long Live The Queen'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen042.jpeg','Long Live The Queen'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen043.jpeg','Long Live The Queen'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen044.jpeg','Long Live The Queen'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen045.jpeg','Long Live The Queen'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen046.jpeg','Long Live The Queen'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen047.jpeg','Long Live The Queen'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen048.jpeg','Long Live The Queen'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen049.jpeg','Long Live The Queen'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen050.jpeg','Long Live The Queen'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen051.jpeg','Long Live The Queen'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen052.jpeg','Long Live The Queen'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen053.jpeg','Long Live The Queen'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen054.jpeg','Long Live The Queen'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen055.jpeg','Long Live The Queen'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen056.jpeg','Long Live The Queen'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen057.jpeg','Long Live The Queen'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen058.jpeg','Long Live The Queen'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen059.jpeg','Long Live The Queen'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen060.jpeg','Long Live The Queen'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen061.jpeg','Long Live The Queen'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen062.jpeg','Long Live The Queen'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen063.jpeg','Long Live The Queen'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen064.jpeg','Long Live The Queen'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen065.jpeg','Long Live The Queen'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen066.jpeg','Long Live The Queen'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen067.jpeg','Long Live The Queen'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen068.jpeg','Long Live The Queen'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen069.jpeg','Long Live The Queen'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen070.jpeg','Long Live The Queen'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen071.jpeg','Long Live The Queen'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen072.jpeg','Long Live The Queen'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen073.jpeg','Long Live The Queen'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen074.jpeg','Long Live The Queen'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen075.jpeg','Long Live The Queen'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen076.jpeg','Long Live The Queen'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen077.jpeg','Long Live The Queen'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen078.jpeg','Long Live The Queen'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen079.jpeg','Long Live The Queen'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen080.jpeg','Long Live The Queen'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen081.jpeg','Long Live The Queen'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen082.jpeg','Long Live The Queen'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen083.jpeg','Long Live The Queen'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen084.jpeg','Long Live The Queen'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen085.jpeg','Long Live The Queen'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen086.jpeg','Long Live The Queen'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen087.jpeg','Long Live The Queen'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen088.jpeg','Long Live The Queen'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen089.jpeg','Long Live The Queen'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen090.jpeg','Long Live The Queen'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen091.jpeg','Long Live The Queen'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen092.jpeg','Long Live The Queen'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen093.jpeg','Long Live The Queen'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen094.jpeg','Long Live The Queen'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen095.jpeg','Long Live The Queen'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen096.jpeg','Long Live The Queen']
+        ],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen024.jpeg','Profile Photo: Long Live The Queen'],
+        'Saw this kit advertised online and it spoke to me I just had to build this. This was my first attempt at doing organic life. All my other kit so far just one color per panel is efficient. But this one I did multiple coats, each a different shade of paint layered over each other. In total I used seven different colors on this ranging from dark green to light green to brown khaki to sand to yellow to olive. In the end it did come across looking so realistic. I completely suprised myself. Made this as a birthday present to my mother who is a huge Jurassic Park fan. She was amazed and impressed. I could not ask for a better judge.',
+        'Happy Birthday Mom!!!, Nebraska',
+        [
+            ['Video','https://youtu.be/2BTtcMxWnug'],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/jurassic-park-tyrannosaurus-rex-1-35-scale-model-kit'],
+            ['X Plus Model Co','https://www.xplusmodelkit.com/product.html#TRex']
+        ],false,false,false,'1:35',false,false,'The Queen'
+    ],
     ['Stratle',[1,'Maintenance Bay'],'Display',
         false,false,false,'','E','2022-02-11',27.12,true,'Builds/Displays/Stratle.html',false,'2022-04-11',models[66],
         [
@@ -10800,7 +10936,7 @@ const projects = [
     ],
     ['Ponente',[1,'Cosmo Zero'],'Ship',false,false,false,'StarBlazer','B'],
     ['Levante',[1,'Nagato'],'Ship',false,false,false,'Space Rengo Kantai','B'],
-    ['Mistral',[1,'Millennium Falcon'],'Ship',false,false,false,'StarWars','C','2024-06-04',0.53],
+    ['Mistral',[1,'Millennium Falcon'],'Ship',false,false,false,'StarWars','C','2024-06-04',2.81],
 
     //Transformer
     ['Wilbee',[1,'Bumblebee'],'Transformer',
