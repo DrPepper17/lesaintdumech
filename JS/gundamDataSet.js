@@ -5016,6 +5016,81 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/xplustrex.jpeg','T-Rex Model Kit'],
         false
+    ],
+    [131,7,'Eevee',
+        'Pokemon Eevee Model Kit',
+        '0132',
+        'Normal',
+        '1st Stage',
+        false,
+        [
+            ['Vaporeon','Water Stone'],
+            ['Jolteon','Thunder Stone'],
+            ['Flareon','Fire Stone'],
+            ['Espeon','Friendship, Day'],
+            ['Umbreon','Friendship, Night'],
+            ['Leeafeon','Moss Rock / Leaf Stone'],
+            ['Glaceon','Ice Rock / Ice Stone'],
+            ['Sylveon','Fairy Move w/ High Friendship']
+        ],
+        'Evolution Pokemon',
+        'Its irregularly configured and unstable genetic makeup is affected by its surroundings. It has the abliity to alter the composition of its body to suit its surrounding environment and evolves when that environment changes. This ability allows it to adapt smoothly and perfectly to any environment. It is extremely rare and only a few of these pokemon exist today in the wild.',
+        '1\'00\"',
+        [14.3,'14.3 lbs'],
+        'I',
+        'Pokemon Red and Blue',
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/eevees.jpeg','Eevee'],
+        false,
+        [131],
+        'Eevee'
+    ],
+    [132,7,'Eevee',
+        'Pokemon Eevee (Sleeping Pose) 07 Quick Model Kit',
+        '0132',
+        'Normal',
+        '1st Stage',
+        false,
+        [
+            ['Vaporeon','Water Stone'],
+            ['Jolteon','Thunder Stone'],
+            ['Flareon','Fire Stone'],
+            ['Espeon','Friendship, Day'],
+            ['Umbreon','Friendship, Night'],
+            ['Leeafeon','Moss Rock / Leaf Stone'],
+            ['Glaceon','Ice Rock / Ice Stone'],
+            ['Sylveon','Fairy Move w/ High Friendship']
+        ],
+        'Evolution Pokemon',
+        'Its irregularly configured and unstable genetic makeup is affected by its surroundings. It has the abliity to alter the composition of its body to suit its surrounding environment and evolves when that environment changes. This ability allows it to adapt smoothly and perfectly to any environment. It is extremely rare and only a few of these pokemon exist today in the wild.',
+        '1\'00\"',
+        [14.3,'14.3 lbs'],
+        'I',
+        'Pokemon Red and Blue',
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/eevees.jpeg','Eevee'],
+        false,
+        [131]
     ]
 ];
 
@@ -5360,10 +5435,10 @@ const projects = [
     ['Schwarzette [HG]',[1,'Schwarzette'],'HG',true,false,false,'Mercury','E','2023-10-04',2.33,false,false,false],
     ['Metatron',[1,'Schwarzette'],'HG',false,false,false,'Mercury','D','2023-11-25',17.15],
     ['Samus: Zero Suit',[1,'Suletta Mercury','Miorine Rembran'],'Other',
-        false,false,false,'Mercury','D','2024-01-04',7,false,'Build/Metroids/ZeroSuit.html','Metroid','2024-07-15',models[128],
+        false,false,false,'Mercury','E','2024-01-04',7,false,'Builds/Metroid/ZeroSuit.html','Metroid','2024-07-15',models[128],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/SamusZeroSuit02.jpeg','Samus Aran: Zero Suit'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/SamusZeroSuit01.jpeg','Samus Aran: Zero Suit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SamusZeroSuit01.jpg','Samus Aran: Zero Suit'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/samzero01.jpeg','Zero Suit'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/samzero02.jpeg','Zero Suit'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/samzero03.jpeg','Zero Suit'],
@@ -5388,10 +5463,12 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/samzero22.jpeg','Zero Suit'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/samzero23.jpeg','Zero Suit'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/samzero24.jpeg','Zero Suit'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/samzero25.jpeg','Samus Aran & Suletta Mercury']
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/samzero25.jpeg','Samus Aran & Suletta Mercury'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/AllSams2.jpeg','All Samus Suits'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/AllSams.jpeg','All Samus Suits']
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/samzero12.jpeg','Profile Photo: Zero Suit'],
-        '',false,
+        'I will admit when I first saw the Suletta and Miorine kits I thought they were just stupid. Like come on Bandai, we all want to build Gundams, not little girls. But then the Metroid project started. And I had just bout finished all the suits then I realized I needed to do something for the Zero Suit. Of course Zero Suit is Samus outside the power suit in just her bare human form, so a simple Dagger would not be appropriate. Then I remembered oh yeah they released the Miorine and Suletta kits and I was well dammit I guess I have to. Now I liked the Suletta outfit. It seemed closest to the Zero Suit. Plus Miorine\'s kit has stockings and the shorts are too short for Samus. So I had to go with Suletta for the outfit. However I did not like Suletta\'s hair. Miorine\'s long hair-do is closer to Samus. Plus Miorine\'s garden pale does resemble a pistol. So... I bought both kits and combined the two: Suletta\'s body with Miorine\'s head and pale. Oh also the Suletta kit comes with a Haro, which I tried to paint to resemble the morph ball. But I don\'t think I pulled that off well.',false,
         [
             ['Video','https://youtu.be/5PgQ0s4gvHY'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/gundam-figure-rise-standard-suletta-mercury-model-kit'],
@@ -5410,7 +5487,7 @@ const projects = [
             'Dark Samus: Echoes',
             'Dark Samus: Corruption',
             'Federation Trooper'
-        ],false,false,'1:144',false,false,'Zero Suit'
+        ],false,true,false,false,false,'Zero Suit'
     ],
     ['Ghor',[1,'Zowort Heavy'],'HG',false,false,false,'Mercury','A','202x',0,false,'Builds/Metroid/Ghor.html','Metroid'],
 
@@ -5914,7 +5991,7 @@ const projects = [
     ['Tallgeese Fl\u00FCgel',
         [1,'Tallgeese Fl\u00FCgel'],'MG',true,true,false,'Wing','D','2022-05-08',20.17,false,'Builds/PBTallgeeseFlugelMG.html',false
     ],
-    ['Bibi',[1,'Wing Gundam'],'HG',false,false,false,'Wing','B','2024-06',0],
+    ['Bibi',[1,'Wing Gundam'],'HG',false,false,false,'Wing','C','2024-07-08',5],
     ['Netanyahu',[1,'Wing Gundam'],'RG',false,false,false,'Wing','A'],
     /*
         Bibi:
@@ -6532,7 +6609,7 @@ const projects = [
             ['NewType','https://newtype.us/p/f1D4oTlneK6t2H8RfSWn/h/sdgg-261-gat-x303-aegis-gundam']
         ],false,false,true,false
     ],
-    ['Rostand',[1,'Astray, M1'],'HG',false,false,false,'Seed','B'],
+    ['Rostand',[1,'Astray, M1'],'HG',false,false,false,'Seed','C','2024-07-11',3.87],
     ['Bald Eagle',[1,'Astray Blue Frame'],'MG',false,false,false,'Seed','B'],
     ['Raphael',[1,'Astray Gold Frame'],'SD',false,false,false,'Seed','B'],
     ['Aurum',[1,'Akatsuki'],'FM',false,false,false,'Seed','C','2024',0],
@@ -8341,7 +8418,7 @@ const projects = [
     ],
     ['Othello',[1,'Windam'],'HG',false,false,false,'Seed','B','2024',0,false,'Builds/Gundams/Othello.html',false,'2024',models[24]],
     ['Samus: Metroid Suit',[1,'Windam'],'HG',
-        false,false,false,'Seed','E','2023-09-13',10.24,false,'Builds/Metroid/Metroid.html',false,'2024-06-24',models[24],
+        false,false,false,'Seed','E','2023-09-13',10.24,false,'Builds/Metroid/MetroidSuit.html',false,'2024-06-24',models[24],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/MetroidSuit02.jpeg','Samus Aran: Metroid Suit'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/MetroidSuit01.jpeg','Samus Aran: Metroid Suit'],
@@ -9504,7 +9581,7 @@ const projects = [
             ['USA Gundam Store','https://www.usagundamstore.com/products/bandai-hobby-bb-394-unicorn-gundam-phenex-action-figure?variant=1114433924']
         ],['Bella Donna','Sovereign'],true,true,false
     ],
-    ['Luxe-Ball',[1,'Polypodball'],'MG',false,true,false,'UC','C','2024',0],
+    ['Luxe-Ball',[1,'Polypodball'],'MG',false,true,false,'UC','C','2024-07-14',3.42],
     ['Ridley',[1,'Qubeley'],'HG',false,false,false,'UC','A'],
     ['LunchTime Solutions',[1,'RX-78-2'],'RG',false,false,false,'UC','B'],
     ['Colombo: Santa Maria -n- Santa Clara',[2,'Salamis and Magellan Class'],'Ship',false,false,false,'UC','B'],
@@ -9848,9 +9925,9 @@ const projects = [
     ],
     ['Sasuki Delta [SD]',[1,'Delta, Saskui'],'SD',true,false,false,'Heroes','E','2021-09-05',1.5,false,false,false,'2022-06-20'],
     ['Quetzalcaotl',[1,'Dragon, Dark Grasper'],'SD',false,false,false,'Heroes','C','2024-06-06',3.73], //red queen paint
-    ['Pharaoh',[1,'Dragon, Shining Grasper'],'SD',false,false,false,'Heroes','B'], //peacock
-    ['Tiamat',[1,'Dragon, Shining Grasper'],'SD',false,false,false,'Heroes','C','2024-07-04',1.25], //midnight city
-    ['Python',[1,'Dragon, Shining Grasper'],'SD',false,false,false,'Heroes','C','2024-07-06',1.17], //leviathan
+    ['Pharaoh',[1,'Dragon, Shining Grasper'],'SD',false,false,false,'Heroes','C','2024-07-08',3.17], //peacock
+    ['Tiamat',[1,'Dragon, Shining Grasper'],'SD',false,false,false,'Heroes','C','2024-07-04',2.5], //midnight city
+    ['Python',[1,'Dragon, Shining Grasper'],'SD',false,false,false,'Heroes','C','2024-07-06',3.42], //leviathan
     ['Ose',[1,'Duel, Taishi Ci'],'SD',false,false,false,'Heroes','B','',0,false,'','Ars Goetia'],
     ['Cronus',[1,'Epyon, Nobunaga'],'SD',false,false,false,'Heroes','B'],
     ['Helios',[1,'Freedom, Zhuge Liang'],'SD',
@@ -10469,6 +10546,8 @@ const projects = [
             ['NewType','https://newtype.us/p/S9nZ4KxUmzbDoDM0HfDd/h/pokemon-charizard-dragonite']
         ],['Vercingetorix'],true,true,false
     ],
+    ['Beatrice',[1,'Eevee'],'Pokemon',false,false,false,'','C','2024-07-10',1.13,false,'Builds/Pokemon/Beatrice.html',false,'2025',models[131]],
+    ['Bandit',[1,'Eevee'],'Pokemon',false,false,false,'','C','2024-07-10',0.92,false,'Builds/Pokemon/Bandit.html',false,'2025',models[132]],
     ['Astronomix',[1,'Gengar'],'Pokemon',false,false,false,'','D','2023-12-11',2.68],
     ['Granfrog',[1,'Greninja'],'Pokemon',
         false,false,false,false,'E','2021-11-11',5.68,false,'Builds/Pokemon/Granfrog.html',false,'2022-08-17',models[11],
@@ -10511,7 +10590,7 @@ const projects = [
         false,false,false,'','D','2023-10-22',2.04
     ],
     ['Polysyllabix',[1,'Mewtwo'],'Pokemon',false,false,false,'','D','2023-11-25',4.83],
-    ['Cyrano',[1,'Pikachu'],'Pokemon',false,false,false,'','C','2024-07-05',0.92],
+    ['Cyrano',[1,'Pikachu'],'Pokemon',false,false,false,'','C','2024-07-05',1.5],
     ['Picanmix',[1,'Piplup'],'Pokemon',false,false,false,'','D','2023-11-25',3.95],
     ['Getafix',[1,'Rayquaza'],'Pokemon',
         false,false,false,'','D','2023-09-18',5.74

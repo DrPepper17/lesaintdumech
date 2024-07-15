@@ -1186,7 +1186,7 @@ const blogArray = [
                 'Next up, the ',
                 ['PED Suit','Builds/Metroid/PED.html'],
                 ', entry number six in Project Samus. Introduced in Metroid Prime 3: Corruption, this suit is probably the dullest in Samus\'s lineup but due to its ability to utilize phazon and enter Samus into a hyper mode it one of the strongest. Likely second only to the ',
-                ['Metroid Suit','Builds/Metroid/Metroid.html'],
+                ['Metroid Suit','Builds/Metroid/MetroidSuit.html'],
                 '.'
             ]
         ],
@@ -1264,7 +1264,7 @@ const blogArray = [
         [
             [
                 'Finally Samus\' last suit, or at least the last known suit as of this time, the ',
-                ['Metroid Suit','Builds/Metroid/Metroid.html'],
+                ['Metroid Suit','Builds/Metroid/MetroidSuit.html'],
                 '. This one was a pleasure to build. I spent of lot of time planning the colors. Which in the end they came out looking great. But what I am most proud of are the metroid fangs effect.'
             ]
         ],
@@ -1378,6 +1378,34 @@ const blogArray = [
         ],
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/darksamcor35.jpeg']
+        ]
+    ],
+    [
+        '2024-07-15',
+        'Completion of Samus',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/SamusZeroSuit01.jpg',
+        [
+            [
+                'This week I present the final Samus Suit. Tbe epic famous, least utilized but iconic ',
+                ['Zero Suit','Builds/Metroid/ZeroSuit.html'],
+                '. And with that I have now completed the entire Samus suit lineup.'
+            ]
+        ],
+        [
+            [
+                'Again please do check out the ',
+                ['Youtube','https://youtu.be/5PgQ0s4gvHY',true],
+                '.'
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/samzero03.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/AllSams.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/AllSams2.jpeg']
         ]
     ]
 ]
