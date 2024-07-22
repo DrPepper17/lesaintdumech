@@ -1407,6 +1407,29 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/AllSams2.jpeg']
         ]
+    ],
+    [
+        '2024-07-22',
+        'Federation Trooper',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/(edited)_GFtrooper_trio.png',
+        [
+            [
+                'Today is the big day. I present to you the final post of the Metroid Project. We went through all the Samus Suits. We did both renditions of Dark Samus. In order to keep painting Metroid I had to go further into the franchise and today I prent to you the ',
+                ['Federation Trooper','Builds/Metroid/FedTrooper.html'],
+                '.'
+            ]
+        ],
+        [
+            'And with that, the Metroid project is now coming to a pause. Not an end. But just a pause. There are of course other characters in the franchise. Other villains and monsters. And there is a whole new game in the series coming out next year which will naturally introduce whole new suits for Samus that I cannot wait to paint. There will be more to add to this project in the future. But for right now, presented to you all all the entries in this series that I have painted so far. '
+        ],
+        [
+            [
+                ['Youtube','https://youtu.be/jhEmwQ9XIQU',true]
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/fedtroop04.jpeg']
+        ]
     ]
 ]
 

@@ -5259,6 +5259,9 @@ const projects = [
     ],
     ['Gundnode A',[1,'Gundnode'],'HG',false,true,false,'Mercury','A'],
     ['Gundnode B',[1,'Gundnode'],'HG',false,true,false,'Mercury','A'],
+    ['Gundnode C',[1,'Gundnode'],'HG',false,true,false,'Mercury','A'],
+    ['Gundnode D',[1,'Gundnode'],'HG',false,true,false,'Mercury','A'],
+    ['Gundnode E',[1,'Gundnode'],'HG',false,true,false,'Mercury','A'],
     ['Gundnode Straight',[1,'Gundnode'],'HG',true,true,false,'Mercury','A'],
     ['Dark Samus: Echoes',[1,'Gundvolva'],'HG',
         false,false,false,'Mercury','E','2023-10-11',9.5,false,'Builds/Metroid/Echoes.html','Metroid','2024-07-01',models[91],
@@ -5426,8 +5429,11 @@ const projects = [
     ['EMMI',[1,'Heindree'],'HG',false,false,false,'Mercury','A'],
     ['Adriel',[1,'LFrith'],'HG',false,false,false,'Mercury','D','2023-12-11',7.25],
     ['LFrith [HG]',[1,'LFrith'],'HG',true,false,false,'Mercury','D','2023-04-15',2.33,false,false,false],
-    ['Cassiel',[1,'LFrith Anavata'],'HG',false,true,false,'Mercury','C','2024',0],
+    ['Cassiel',[1,'LFrith Anavata'],'HG',false,true,false,'Mercury','C','2024-07-21',1.83],
     ['Eisheth',[1,'LFrith Jiu'],'HG',false,true,false,'Mercury','D','2024-02-16',8.05],
+    ['Meshabber',[1,'LFrith Preproduction Model'],'HG',false,true,false,'Mercury','B'],  //IDF Green
+    ['Mashhit',[1,'LFrith Preproduction Model'],'HG',false,true,false,'Mercury','B'],  //IDF Blue
+    ['Kezef',[1,'LFrith Preproduction Model'],'HG',false,true,false,'Mercury','A'],     //IDF Sand
     ['Spire',[1,'LFrith Thorn'],'HG',false,false,false,'Mercury','A','202x',0,false,'Builds/Metroid/Spire.html','Metroid'],
     ['Weavel',[1,'LFrith Ur'],'HG',false,false,false,'Mercury','A','202x',0,false,'Builds/Metroid/Weavel.html','Metroid'],
     ['Sylux',[1.25,'Michaelis','P.B. Witch From Mercury Expansion Pack'],'HG',false,true,false,'Mercury','A','202x',0,false,'Builds/Metroid/Sylux.html','Metroid'],
@@ -6406,7 +6412,7 @@ const projects = [
         ],false,false,true,'1:144'
     ],
     ['Federation Trooper',[1,'Flag'],'HG',
-        false,false,false,'00','D','2023-08-06',9.1,false,'Builds/Metroid/FedTrooper.html','Metroid',false,'2024-07-22',models[129],
+        false,false,false,'00','E','2023-08-06',9.1,false,'Builds/Metroid/FedTrooper.html','Metroid','2024-07-22',models[129],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/PED_Trooper_Render.jpeg','Federation Trooper'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/GFtrooper_trio.jpeg','Federation Troopers'],
@@ -6433,11 +6439,12 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/fedtroop21.jpeg','Federation Trooper']
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/fedtroop09.jpeg','Profile Photo: Federation Trooper'],
-        '',false,
+        'Had this Flag kit laying around in inventory and was not sure what to do with it. I was in the middle working on my the blueprints for all the Samus Suits and I decided Samus needs her Federation Trooper buddies at her side. I thought long and hard about it and I thought the face visor of the Flag resembled most the Federation Troopers. Then I also happened to have some left over Turbo Dork Blue Steel from the Sealiah project that I thought was a good match for the shiny steel of the troopers in the game. I will admit that this is one of my few projects I actually am a little let down by. When I look at the final product it does not evoke the source material to me at all. But I did my best, what else can I do. Also... The paint was too thick that unlike the Flags which are suposed to be able to transform to flight mode, this could not transform at all.',false,
         [
             ['Video','https://youtu.be/jhEmwQ9XIQU'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/hg00-1-144-02-union-flag'],
-            ['NewType','https://newtype.us/p/wRgLxRwuQTJvzCqiewP2/h/hg00-002-svms-01-union-flag']
+            ['NewType','https://newtype.us/p/wRgLxRwuQTJvzCqiewP2/h/hg00-002-svms-01-union-flag'],
+            ['Turbo Dork: Blue Steel','https://turbodork.com/products/blue-steel-1']
         ],
         [
             'Samus: Varia Suit',
@@ -6452,8 +6459,9 @@ const projects = [
             'Dark Samus: Echoes',
             'Dark Samus: Corruption',
             'Samus: Zero Suit'
-        ],false,false,'1:144'
+        ],false,true,'1:144'
     ],
+    ['Queen Bee',[1,'GN Archer'],'HG',false,false,false,'00','B'],
     ['Harute (Final Battle)',[1,'Harute'],'HG',
         true,true,false,'00','E','2022-03-08',5.75,false,'Builds/PBandai/PBHaruteFinalHG.html',false,'2022-11-21',models[70],
         [
@@ -9581,7 +9589,7 @@ const projects = [
             ['USA Gundam Store','https://www.usagundamstore.com/products/bandai-hobby-bb-394-unicorn-gundam-phenex-action-figure?variant=1114433924']
         ],['Bella Donna','Sovereign'],true,true,false
     ],
-    ['Luxe-Ball',[1,'Polypodball'],'MG',false,true,false,'UC','C','2024-07-14',3.42],
+    ['Luxe-Ball',[1,'Polypodball'],'MG',false,true,false,'UC','C','2024-07-14',9.58],
     ['Ridley',[1,'Qubeley'],'HG',false,false,false,'UC','A'],
     ['LunchTime Solutions',[1,'RX-78-2'],'RG',false,false,false,'UC','B'],
     ['Colombo: Santa Maria -n- Santa Clara',[2,'Salamis and Magellan Class'],'Ship',false,false,false,'UC','B'],
@@ -10606,7 +10614,7 @@ const projects = [
     ['Prolix',[1,'Zekrom'],'Pokemon',false,false,false,'','D','2023-12-13',4.05],
     
     //Digimon
-    ['Heimdall',[1,'Alphamon'],'Digimon',false,false,false,'','A'],
+    ['Heimdall',[1,'Alphamon'],'Digimon',false,false,false,'','B'],
     ['Loki',[1,'Beelzemon'],'Digimon',false,false,false,'','A'],
     ['Thor',[1,'Gallantmon'],'Digimon',
         false,false,false,'','E','2022-10-05',22.5,false,'Builds/Digimon/Thor.html','Norse','2022-11-28',models[64],
