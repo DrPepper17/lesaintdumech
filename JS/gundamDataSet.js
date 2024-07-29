@@ -5226,10 +5226,8 @@ const projects = [
             'Federation Trooper'
         ],false,true,'1:144',false,false,'Corruption'
     ], 
-    ['CAL-A',[1,'Calibarn'],'SD',false,false,false,'Mercury','A'],
-    ['CAL-B',[1,'Calibarn'],'SD',false,false,false,'Mercury','A'],
-    ['CAL-C',[1,'Calibarn'],'SD',false,false,false,'Mercury','A'],
-    ['Abaddon',[1,'Calibarn'],'HG',false,false,false,'Mercury','C','2023-11-25',17.81],
+    ['Faces of Eve',[3,'Calibarn','Calibarn','Calibarn'],'SD',false,false,false,'Mercury','B'],
+    ['Abaddon',[1,'Calibarn'],'HG',false,false,false,'Mercury','C','2023-11-25',17.88],
     ['Arthur',[1,'Calibarn'],'HG',false,false,false,'Mercury','C','2024-03-01',6.28],
     ['Tempest',[1,'Calibarn'],'HG',false,false,false,'Mercury','C','2024-06',0],   //paint in flat red
     ['Calibarn [HG]',[1,'Calibarn'],'HG',true,false,false,'Mercury','D','2023-08-22',2.83,false,false,false],
@@ -5429,7 +5427,7 @@ const projects = [
     ['EMMI',[1,'Heindree'],'HG',false,false,false,'Mercury','A'],
     ['Adriel',[1,'LFrith'],'HG',false,false,false,'Mercury','D','2023-12-11',7.25],
     ['LFrith [HG]',[1,'LFrith'],'HG',true,false,false,'Mercury','D','2023-04-15',2.33,false,false,false],
-    ['Cassiel',[1,'LFrith Anavata'],'HG',false,true,false,'Mercury','C','2024-07-21',1.83],
+    ['Cassiel',[1,'LFrith Anavata'],'HG',false,true,false,'Mercury','C','2024-07-21',4.75],
     ['Eisheth',[1,'LFrith Jiu'],'HG',false,true,false,'Mercury','D','2024-02-16',8.05],
     ['Meshabber',[1,'LFrith Preproduction Model'],'HG',false,true,false,'Mercury','B'],  //IDF Green
     ['Mashhit',[1,'LFrith Preproduction Model'],'HG',false,true,false,'Mercury','B'],  //IDF Blue
@@ -5997,7 +5995,7 @@ const projects = [
     ['Tallgeese Fl\u00FCgel',
         [1,'Tallgeese Fl\u00FCgel'],'MG',true,true,false,'Wing','D','2022-05-08',20.17,false,'Builds/PBTallgeeseFlugelMG.html',false
     ],
-    ['Bibi',[1,'Wing Gundam'],'HG',false,false,false,'Wing','C','2024-07-08',5],
+    ['Bibi',[1,'Wing Gundam'],'HG',false,false,false,'Wing','D','2024-07-08',5.23],
     ['Netanyahu',[1,'Wing Gundam'],'RG',false,false,false,'Wing','A'],
     /*
         Bibi:
@@ -6617,7 +6615,7 @@ const projects = [
             ['NewType','https://newtype.us/p/f1D4oTlneK6t2H8RfSWn/h/sdgg-261-gat-x303-aegis-gundam']
         ],false,false,true,false
     ],
-    ['Rostand',[1,'Astray, M1'],'HG',false,false,false,'Seed','C','2024-07-11',3.87],
+    ['Rostand',[1,'Astray, M1'],'HG',false,false,false,'Seed','D','2024-07-11',5.69],
     ['Bald Eagle',[1,'Astray Blue Frame'],'MG',false,false,false,'Seed','B'],
     ['Raphael',[1,'Astray Gold Frame'],'SD',false,false,false,'Seed','B'],
     ['Aurum',[1,'Akatsuki'],'FM',false,false,false,'Seed','C','2024',0],
@@ -7837,7 +7835,7 @@ const projects = [
     ['Raider [FM]',[1,'Raider'],'FM',true,false,false,'Seed','D','2023-01-06',10.25,false,false,false],
     ['Rodan',[1,'Raider'],'FM',false,false,false,'Seed','A'],
     ['La Reine',[0.5,'Raijin Striker'],'MG',false,true,false,'Seed','B'],
-    ['Ripley',[1,'Rising Freedom'],'SD',false,false,false,'Seed','C','2024-06-04',6.33],
+    ['Ripley',[1,'Rising Freedom'],'SD',false,false,false,'Seed','D','2024-06-04',6.41],
     ['Revolution',[1,'Rising Freedom'],'HG',false,false,false,'Seed','D','2024-02-18',15.08],
     ['Rising Freedom [HG]',[1,'Rising Freedom'],'HG',true,false,false,'Seed','D','2024-05-24',2.75],
     ['Blue Angels',[3,'Skygrasper','Skygrasper','Skygrasper'],'RG',
@@ -9589,7 +9587,7 @@ const projects = [
             ['USA Gundam Store','https://www.usagundamstore.com/products/bandai-hobby-bb-394-unicorn-gundam-phenex-action-figure?variant=1114433924']
         ],['Bella Donna','Sovereign'],true,true,false
     ],
-    ['Luxe-Ball',[1,'Polypodball'],'MG',false,true,false,'UC','C','2024-07-14',9.58],
+    ['Luxe-Ball',[1,'Polypodball'],'MG',false,true,false,'UC','C','2024-07-14',10.42],
     ['Ridley',[1,'Qubeley'],'HG',false,false,false,'UC','A'],
     ['LunchTime Solutions',[1,'RX-78-2'],'RG',false,false,false,'UC','B'],
     ['Colombo: Santa Maria -n- Santa Clara',[2,'Salamis and Magellan Class'],'Ship',false,false,false,'UC','B'],
@@ -9932,10 +9930,10 @@ const projects = [
         ],false,false,true
     ],
     ['Sasuki Delta [SD]',[1,'Delta, Saskui'],'SD',true,false,false,'Heroes','E','2021-09-05',1.5,false,false,false,'2022-06-20'],
-    ['Quetzalcaotl',[1,'Dragon, Dark Grasper'],'SD',false,false,false,'Heroes','C','2024-06-06',3.73], //red queen paint
-    ['Pharaoh',[1,'Dragon, Shining Grasper'],'SD',false,false,false,'Heroes','C','2024-07-08',3.17], //peacock
-    ['Tiamat',[1,'Dragon, Shining Grasper'],'SD',false,false,false,'Heroes','C','2024-07-04',2.5], //midnight city
-    ['Python',[1,'Dragon, Shining Grasper'],'SD',false,false,false,'Heroes','C','2024-07-06',3.42], //leviathan
+    ['Quetzalcaotl',[1,'Dragon, Dark Grasper'],'SD',false,false,false,'Heroes','D','2024-06-06',3.81], //red queen paint
+    ['Pharaoh',[1,'Dragon, Shining Grasper'],'SD',false,false,false,'Heroes','D','2024-07-08',3.24], //peacock
+    ['Tiamat',[1,'Dragon, Shining Grasper'],'SD',false,false,false,'Heroes','D','2024-07-04',2.58], //midnight city
+    ['Python',[1,'Dragon, Shining Grasper'],'SD',false,false,false,'Heroes','D','2024-07-06',3.49], //leviathan
     ['Ose',[1,'Duel, Taishi Ci'],'SD',false,false,false,'Heroes','B','',0,false,'','Ars Goetia'],
     ['Cronus',[1,'Epyon, Nobunaga'],'SD',false,false,false,'Heroes','B'],
     ['Helios',[1,'Freedom, Zhuge Liang'],'SD',
@@ -9964,10 +9962,10 @@ const projects = [
     ],
     ['Pallas',[1,'God Gundam, Huang Zhang Fei'],'SD',false,false,false,'Heroes','B'],
     ['Atlas',[1,'God Gundam, Zhang Fei'],'SD',false,false,false,'Heroes','B'],
-    ['Themis',[1,'Legend, Caesar'],'SD',false,false,false,'Heroes','C','2024-06-06',5.38],
+    ['Themis',[1,'Legend, Caesar'],'SD',false,false,false,'Heroes','D','2024-06-06',5.46],
     ['Gaia',[1,'Providence Gundam, Sangoku Soketsuden Dong Zhuo'],'SD',false,false,false,'Heroes','B'],
     ['Crius',[1,'Sazabi, Zhang Liao'],'SD',false,false,false,'Heroes','B'],
-    ['Clymene',[1,'Strike, Knight'],'SD',false,false,false,'Heroes','C','2024-06-18',3.56],
+    ['Clymene',[1,'Strike, Knight'],'SD',false,false,false,'Heroes','D','2024-06-18',3.64],
     ['Prometheus',[1,'Strike Noir, Xun Yu'],'SD',false,false,false,'Heroes','B'],
     ['Selene',[1,'Strike-Freedom, Qiongqi'],'SD',false,false,false,'Heroes','B'],
     ['Corona Australis',[1,'Tallgeese, Xiahou Yuan'],'SD',
@@ -10451,7 +10449,7 @@ const projects = [
             ['TurboDork: Forrest Flux','https://turbodork.com/products/forrest-flux']
         ],['Asterix'],false,true
     ],
-    ['Jade',[1,'Bulbasaur'],'Pokemon',false,false,false,'','C','2024-06-04',2.23],
+    ['Jade',[1,'Bulbasaur'],'Pokemon',false,false,false,'','D','2024-06-04',2.31],
     ['Asterix',[1,'Charmander'],'Pokemon',
         false,false,false,'','E','2023-03-12',3.85,false,'Builds/Pokemon/Asterix.html',false,'2023-08-28',models[79],
         [
@@ -10487,7 +10485,7 @@ const projects = [
             ['TurboDork: Redrum','https://turbodork.com/products/redrum'],
         ],['Obelix','Vercingetorix'],false,true,false
     ],
-    ['Jasper',[1,'Charmander'],'Pokemon',false,false,false,'','C','2024-06-04',2.2],
+    ['Jasper',[1,'Charmander'],'Pokemon',false,false,false,'','D','2024-06-04',2.27],
     ['Vercingetorix',[1,'Charizard'],'Pokemon',
         false,false,false,'','E','2023-03-10',5.99,false,'Builds/Pokemon/Vercingetorix.html',false,'2023-09-04',models[80],
         [
@@ -10554,8 +10552,8 @@ const projects = [
             ['NewType','https://newtype.us/p/S9nZ4KxUmzbDoDM0HfDd/h/pokemon-charizard-dragonite']
         ],['Vercingetorix'],true,true,false
     ],
-    ['Beatrice',[1,'Eevee'],'Pokemon',false,false,false,'','C','2024-07-10',1.13,false,'Builds/Pokemon/Beatrice.html',false,'2025',models[131]],
-    ['Bandit',[1,'Eevee'],'Pokemon',false,false,false,'','C','2024-07-10',0.92,false,'Builds/Pokemon/Bandit.html',false,'2025',models[132]],
+    ['Beatrice',[1,'Eevee'],'Pokemon',false,false,false,'','D','2024-07-10',1.38,false,'Builds/Pokemon/Beatrice.html',false,'2025',models[131]],
+    ['Bandit',[1,'Eevee'],'Pokemon',false,false,false,'','D','2024-07-10',1.08,false,'Builds/Pokemon/Bandit.html',false,'2025',models[132]],
     ['Astronomix',[1,'Gengar'],'Pokemon',false,false,false,'','D','2023-12-11',2.68],
     ['Granfrog',[1,'Greninja'],'Pokemon',
         false,false,false,false,'E','2021-11-11',5.68,false,'Builds/Pokemon/Granfrog.html',false,'2022-08-17',models[11],
@@ -10598,7 +10596,7 @@ const projects = [
         false,false,false,'','D','2023-10-22',2.04
     ],
     ['Polysyllabix',[1,'Mewtwo'],'Pokemon',false,false,false,'','D','2023-11-25',4.83],
-    ['Cyrano',[1,'Pikachu'],'Pokemon',false,false,false,'','C','2024-07-05',1.5],
+    ['Cyrano',[1,'Pikachu'],'Pokemon',false,false,false,'','D','2024-07-05',1.65],
     ['Picanmix',[1,'Piplup'],'Pokemon',false,false,false,'','D','2023-11-25',3.95],
     ['Getafix',[1,'Rayquaza'],'Pokemon',
         false,false,false,'','D','2023-09-18',5.74
@@ -10607,7 +10605,7 @@ const projects = [
     ['Dogmatix',[1,'Riolu'],'Pokemon',
         false,false,false,'','D','2023-10-03',2.97
     ], 
-    ['Cooper',[1,'Squirtle'],'Pokemon',false,false,false,'','C','2024-06-04',2.1],
+    ['Cooper',[1,'Squirtle'],'Pokemon',false,false,false,'','D','2024-06-04',2.17],
     ['Tusk',[1,'Tepig'],'Pokemon',
         false,false,false,'','D','2023-10-22',3.1
     ], 
@@ -10808,7 +10806,7 @@ const projects = [
         [
             ['USA Gundam Store','https://www.usagundamstore.com/products/1-144-customized-scene-base-city-area-ver?variant=37444255678661'],
             ['NewType','https://newtype.us/p/CB9RI7xIzfUuV7wIFaYw/h/30mm-customize-scene-base-06-city-area-ver']
-        ],false,false,true,false
+        ],false,false,true,false,false,false,false,false,true
     ],
     ['Battlefield Earth',[2,'Energy Ring Emitter'],'Display',false,false,false,'','B'],
     ['Kataluma',[1,'Hangar Bay'],'Display',
@@ -10837,8 +10835,8 @@ const projects = [
             ['USA Gundam Store','https://www.usagundamstore.com/products/1-144-gundam-hanger-bay?variant=37766625657029']
         ],['Stratle'],false,true
     ],
-    ['Long Live the Queen',[1,'Jurassic Park Tyrannosaurus Rex Scene'],'Display',
-        false,false,false,'','D','2024-06-04',32.17,false,'Builds/Displays/JParkQueen.html',false,'2024-07-29',models[130],
+    ['Long Live The Queen',[1,'Jurassic Park Tyrannosaurus Rex Scene'],'Display',
+        false,false,false,'','E','2024-06-04',32.17,false,'Builds/Displays/JParkQueen.html',false,'2024-07-29',models[130],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen001.jpeg','Long Live The Queen'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen002.jpeg','Long Live The Queen'],
@@ -10944,7 +10942,7 @@ const projects = [
             ['Video','https://youtu.be/2BTtcMxWnug'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/jurassic-park-tyrannosaurus-rex-1-35-scale-model-kit'],
             ['X Plus Model Co','https://www.xplusmodelkit.com/product.html#TRex']
-        ],false,false,false,'1:35',false,false,'The Queen'
+        ],false,false,true,'1:35',false,false,false,false,true
     ],
     ['Stratle',[1,'Maintenance Bay'],'Display',
         false,false,false,'','E','2022-02-11',27.12,true,'Builds/Displays/Stratle.html',false,'2022-04-11',models[66],
@@ -11023,7 +11021,7 @@ const projects = [
     ],
     ['Ponente',[1,'Cosmo Zero'],'Ship',false,false,false,'StarBlazer','B'],
     ['Levante',[1,'Nagato'],'Ship',false,false,false,'Space Rengo Kantai','B'],
-    ['Mistral',[1,'Millennium Falcon'],'Ship',false,false,false,'StarWars','C','2024-06-04',2.81],
+    ['Mistral',[1,'Millennium Falcon'],'Ship',false,false,false,'StarWars','D','2024-06-04',2.97],
 
     //Transformer
     ['Wilbee',[1,'Bumblebee'],'Transformer',

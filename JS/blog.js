@@ -1430,6 +1430,29 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/fedtroop04.jpeg']
         ]
+    ],
+    [
+        '2024-07-29',
+        'Welcome to Jurassic Park !!!',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/longqueen089.jpeg',
+        [
+            [
+                'After three long months of Metroid, I am  excited to present to you today something different. Today is neither Samus nor a Gundam. But rather something a little more organic. I present to you',
+                ['Queen of the Dinosaurs','Builds/Displays/JParkQueen.html'],
+                ', the T-Rex of Jurassic Park.'
+            ]
+        ],
+        [
+            'This was my first attempt at doing a living lifeform. By that I mean actual realistic, living breathing life, adbiding by the laws of nature and physics and not some cartoon like Pokemon or Digimon. So it was a lot of pressure to get this right. I normally do machines. And for those you just have to paint individiaul panels one solid color. But for living animals there is so much more complexity of shading and texture and alternating of color, which I have never done that before. It was a challenge. But one I surprised myself and really pulled off quite well. I think as of this moment, July 29 2024, this is by far my most proudest project I\'ve done. I feel quite pleased with myself.'
+        ],
+        [
+            [
+                ['Youtube','https://youtu.be/2BTtcMxWnug',true]
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/longqueen001.jpeg']
+        ]
     ]
 ]
 
