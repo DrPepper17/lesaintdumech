@@ -5091,6 +5091,50 @@ const models = [
         ['https://hosting.photobucket.com/images/i/lesaintdumech/eevees.jpeg','Eevee'],
         false,
         [131]
+    ],
+    [133,3,'Millennium Falcon',
+        'YT 492727ZED',
+        'YT Series',
+        'Star Wars',
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        [
+            'Lando Calrissian',
+            'Han Solo',
+            'Rebel Alliance',
+            'The Resistance'
+        ],
+        [7.8,'7.8 Meters'],
+        [34.75,'34.75 Meters'],
+        [25.61,'25.61 Meters'],
+        'Girodyne SRB42 sublight engines x2',
+        [
+            'CEC AG-2G quad laser cannons x2',
+            'Arakyd ST2 concussion missiles',
+            'Dymek concussion missiles',
+            'BlasTech Ax-108 "Ground Buzzer" blaster cannon'
+        ],
+        false,
+        [
+            'Torplex deflector shield projector',
+            'Nordoxicon Unlimited Anti-concussion field generator',
+            'Novaldex stasis-type shield generator',
+            'Kuat Drive Yards & Nordoxicon-38 deflector shield projector',
+            'Carbanti 29L electromagnetic countermeasures',
+            'Signal-augmented sensor jammer'
+        ],
+        false,
+        false,
+        false,
+        false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/Millenium-falcon_Large.jpeg','Millennium Falcon'],
+        'Corellian YT-1300 Light Freighter',
     ]
 ];
 
@@ -5364,13 +5408,13 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/darksamecho96.jpeg','Dark Samus & Gundvolva']
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/darksamecho37.jpeg','Profile Photo: Echoes Suit'],
-        'Building the Samus Suits was fun. But you cannot build Samus without also building her dark Phazon-infused doppleganger Dark Samus. I did not want to make Dark Samus too identical to Samus so to differentiate between the two I chose a new model the Witch from Mercury Gundvolva suit. To achieve the bright vibrant blues of the phazon that fuels her body I went with Turbo Dork colors Cold Open and Ice to Never. Combined that really captured her color.',false,
+        'Building the Samus Suits was fun. But you cannot build Samus without also building her dark Phazon-infused doppleganger Dark Samus. I did not want to make Dark Samus too identical to Samus so to differentiate between the two I chose a new model the Witch from Mercury Gundvolva suit. To achieve the bright vibrant blues of the phazon that fuels her body I went with TurboDork colors Cold Open and Ice to Never. Combined that really captured her color.',false,
         [
             ['Video','https://youtu.be/wE2XVpx50mA'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/hgtwfm-1-144-24-gundvolva'],
             ['NewType','https://newtype.us/p/0LtLPFfPCrT5SfGPqKjS/h/hgwfm-24-gundv-lva'],
-            ['Turbo Dork: Cold Open','https://turbodork.com/products/cold-open-1?variant=40013820100690'],
-            ['Turbo Dork: Ice to Never','https://turbodork.com/products/ice-to-never-1?variant=29460041793606']
+            ['TurboDork: Cold Open','https://turbodork.com/products/cold-open-1?variant=40013820100690'],
+            ['TurboDork: Ice to Never','https://turbodork.com/products/ice-to-never-1?variant=29460041793606']
         ],
         [
             'Samus: Varia Suit',
@@ -5427,7 +5471,7 @@ const projects = [
     ['EMMI',[1,'Heindree'],'HG',false,false,false,'Mercury','A'],
     ['Adriel',[1,'LFrith'],'HG',false,false,false,'Mercury','D','2023-12-11',7.25],
     ['LFrith [HG]',[1,'LFrith'],'HG',true,false,false,'Mercury','D','2023-04-15',2.33,false,false,false],
-    ['Cassiel',[1,'LFrith Anavata'],'HG',false,true,false,'Mercury','C','2024-07-21',4.75],
+    ['Cassiel',[1,'LFrith Anavata'],'HG',false,true,false,'Mercury','D','2024-07-21',7.5],
     ['Eisheth',[1,'LFrith Jiu'],'HG',false,true,false,'Mercury','D','2024-02-16',8.05],
     ['Meshabber',[1,'LFrith Preproduction Model'],'HG',false,true,false,'Mercury','B'],  //IDF Green
     ['Mashhit',[1,'LFrith Preproduction Model'],'HG',false,true,false,'Mercury','B'],  //IDF Blue
@@ -5581,7 +5625,66 @@ const projects = [
             ['NewType','https://newtype.us/p/TOmRKyr7gHBbJij2bFtt/h/sdgg-050-gundam-aquarius']
         ],false,false,true,false
     ],
-    ['Pontus',[1,'Aquarius'],'SD',false,false,false,'Wing','D','2023-11-25',7.01,false,'Builds/Gundams/Pontus.html','Titans',false,models[40]],
+    ['Pontus',[1,'Aquarius'],'SD',
+        false,false,false,'Wing','E','2023-11-25',7.01,false,'Builds/Gundams/Pontus.html','Titans','2024-08-05',models[40],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pontus01.jpeg','Pontus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pontus02.jpeg','Pontus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pontus03.jpeg','Pontus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pontus04.jpeg','Pontus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pontus05.jpeg','Pontus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pontus06.jpeg','Pontus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pontus07.jpeg','Pontus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pontus08.jpeg','Pontus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pontus09.jpeg','Pontus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pontus10.jpeg','Pontus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pontus11.jpeg','Pontus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pontus12.jpeg','Pontus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pontus13.jpeg','Pontus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pontus14.jpeg','Pontus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pontus15.jpeg','Pontus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pontus16.jpeg','Pontus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pontus17.jpeg','Pontus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pontus18.jpeg','Pontus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pontus19.jpeg','Pontus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pontus20.jpeg','Pontus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pontus21.jpeg','Pontus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pontus22.jpeg','Pontus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pontus23.jpeg','Pontus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pontus24.jpeg','Pontus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pontus25.jpeg','Pontus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pontus26.jpeg','Pontus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pontus27.jpeg','Pontus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pontus28.jpeg','Pontus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pontus29.jpeg','Pontus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pontus30.jpeg','Pontus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pontus31.jpeg','Pontus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pontus32.jpeg','Pontus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pontus33.jpeg','Pontus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pontus34.jpeg','Pontus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pontus35.jpeg','Pontus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pontus36.jpeg','Pontus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pontus37.jpeg','Pontus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pontus38.jpeg','Pontus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pontus39.jpeg','Pontus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pontus40.jpeg','Pontus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pontus41.jpeg','Pontus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pontus42.jpeg','Pontus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pontus43.jpeg','Pontus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pontus44.jpeg','Pontus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pontus45.jpeg','Pontus']
+        ],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/pontus18.jpeg','Profile Photo: Pontus'],
+        'So the SD Aquarius is one of my favorte kits. There is just something about it. It\'s cute, it\'s adorable and the design conceptually seems really cool. It would be great to see it adopted to the HG or FM someday. Anyhow I had been wnting to paint another Aquarius unit again since the Project Gemini days but was not entirely sure what I wanted to do. Two years later, after having worked on the Dark Samus build I was really impressed by the shade of blues of the TurboDork Cold Open and Ice to Never lineup that I thought these would work great for the shades of blue for Aquarius that I decided to painting it again with these to. And it came out looking even better than the blue Gemini. It is definitely an improvement.',false,
+        [
+            ['Video','https://youtu.be/cyHP334NYec'],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/gg-50-gundam-aquarius'],
+            ['NewType','https://newtype.us/p/TOmRKyr7gHBbJij2bFtt/h/sdgg-050-gundam-aquarius'],
+            ['TurboDork: Blue Steel','https://turbodork.com/products/blue-steel-1'],
+            ['TurboDork: Cold Open','https://turbodork.com/products/cold-open-1'],
+            ['TurboDork: Ice to Never','https://turbodork.com/products/ice-to-never-1']
+        ],false,false,true,false
+    ],
     ['Alucard',[1,'Deathscythe Hell (TV Version'],'HG',
         false,true,false,'Wing','E','2023-08-02',16.38,false,'Builds/PBandai/PBAlucard.html',false,'2023-10-19',models[93],
         [
@@ -6437,12 +6540,12 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/fedtroop21.jpeg','Federation Trooper']
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/fedtroop09.jpeg','Profile Photo: Federation Trooper'],
-        'Had this Flag kit laying around in inventory and was not sure what to do with it. I was in the middle working on my the blueprints for all the Samus Suits and I decided Samus needs her Federation Trooper buddies at her side. I thought long and hard about it and I thought the face visor of the Flag resembled most the Federation Troopers. Then I also happened to have some left over Turbo Dork Blue Steel from the Sealiah project that I thought was a good match for the shiny steel of the troopers in the game. I will admit that this is one of my few projects I actually am a little let down by. When I look at the final product it does not evoke the source material to me at all. But I did my best, what else can I do. Also... The paint was too thick that unlike the Flags which are suposed to be able to transform to flight mode, this could not transform at all.',false,
+        'Had this Flag kit laying around in inventory and was not sure what to do with it. I was in the middle working on my the blueprints for all the Samus Suits and I decided Samus needs her Federation Trooper buddies at her side. I thought long and hard about it and I thought the face visor of the Flag resembled most the Federation Troopers. Then I also happened to have some left over TurboDork Blue Steel from the Sealiah project that I thought was a good match for the shiny steel of the troopers in the game. I will admit that this is one of my few projects I actually am a little let down by. When I look at the final product it does not evoke the source material to me at all. But I did my best, what else can I do. Also... The paint was too thick that unlike the Flags which are suposed to be able to transform to flight mode, this could not transform at all.',false,
         [
             ['Video','https://youtu.be/jhEmwQ9XIQU'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/hg00-1-144-02-union-flag'],
             ['NewType','https://newtype.us/p/wRgLxRwuQTJvzCqiewP2/h/hg00-002-svms-01-union-flag'],
-            ['Turbo Dork: Blue Steel','https://turbodork.com/products/blue-steel-1']
+            ['TurboDork: Blue Steel','https://turbodork.com/products/blue-steel-1']
         ],
         [
             'Samus: Varia Suit',
@@ -7107,12 +7210,12 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/samlight64.jpeg','Samus & Dagger']
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/samlight09.jpeg','Profile Photo: Light Suit'],
-        'The second new suit introduced in my favorite Metroid Game, Prime Echoes, the Light Suit. I put a lot of thought into trying to recreate the look and feel of Samus\' most sleekest suit in the lineup. In the end to create the Light Suit\'s sleek shine I went with Turbo Dork Mother Lode laced on top of a flat white and accented with Vallejo silver. The idea was simple. Just the biggest difficulty was Turbo Dork is a challenging paint to work with. Really has to be thinned down properly and takes three to five coats to really make the paint. But in the end it was totally worth it.',false,
+        'The second new suit introduced in my favorite Metroid Game, Prime Echoes, the Light Suit. I put a lot of thought into trying to recreate the look and feel of Samus\' most sleekest suit in the lineup. In the end to create the Light Suit\'s sleek shine I went with TurboDork Mother Lode laced on top of a flat white and accented with Vallejo silver. The idea was simple. Just the biggest difficulty was TurboDork is a challenging paint to work with. Really has to be thinned down properly and takes three to five coats to really make the paint. But in the end it was totally worth it.',false,
         [
             ['Video','https://youtu.be/fIUNxZdI2M8'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/hgce-1-144-247-dagger-l'],
             ['NewType','https://newtype.us/p/V3s94PjelBrA0T06Q673/h/hgce-237-gat-o2l2-dagger-l'],
-            ['Turbo Dork: Mother Lode','https://turbodork.com/products/mother-lode-1']
+            ['TurboDork: Mother Lode','https://turbodork.com/products/mother-lode-1']
         ],
         [
             'Samus: Varia Suit',
@@ -7174,12 +7277,12 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/samped39.jpeg','Samus & Dagger']
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/samped29.jpeg','Profile Photo: Ped Suit'],
-        'One of the most boring suits in the series, the Phazon Enhancement Device [P.E.D.] suit. It\'s actually pretty cool in terms of its utility in the game of what it can do. But aesthetically its appearance is quite dull. This suit I was not particularly enthusiastic to paint due to its lame design, but if you\'re gonna paint all the suits of Samus then you have to paint them all. For this one Samus has sort of a dull almost army commando look to her. She feels less like an intergalactic space bunty hunter and more like a marine. To create this aesthetic I used a mix of Vallejo brass and copper to to give her that dark rustic almost khaki aesthetic and accented ith with light steel then gave her a Vallejo metallic red for her face and chest. To give her just a little bit of extra shine though, I used Turbo Dork Blue Steel for her shoulders which they really seemed to pop. After this was finished, I actually thought my rendition of the PED suit looked way better than the original source material.',false,
+        'One of the most boring suits in the series, the Phazon Enhancement Device [P.E.D.] suit. It\'s actually pretty cool in terms of its utility in the game of what it can do. But aesthetically its appearance is quite dull. This suit I was not particularly enthusiastic to paint due to its lame design, but if you\'re gonna paint all the suits of Samus then you have to paint them all. For this one Samus has sort of a dull almost army commando look to her. She feels less like an intergalactic space bunty hunter and more like a marine. To create this aesthetic I used a mix of Vallejo brass and copper to to give her that dark rustic almost khaki aesthetic and accented ith with light steel then gave her a Vallejo metallic red for her face and chest. To give her just a little bit of extra shine though, I used TurboDork Blue Steel for her shoulders which they really seemed to pop. After this was finished, I actually thought my rendition of the PED suit looked way better than the original source material.',false,
         [
             ['Video','https://youtu.be/ftHaYYBLyWI'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/hgce-1-144-247-dagger-l'],
             ['NewType','https://newtype.us/p/V3s94PjelBrA0T06Q673/h/hgce-237-gat-o2l2-dagger-l'],
-            ['Turbo Dork: Blue Steel','https://turbodork.com/products/blue-steel-1']
+            ['TurboDork: Blue Steel','https://turbodork.com/products/blue-steel-1']
         ],
         [
             'Samus: Varia Suit',
@@ -7230,7 +7333,7 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/phazonphazon.jpeg','Samus & Dagger']
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/samphaz14.jpeg','Profile Photo: Phazon Suit'],
-        'One of the coolest suits in the entire Metroid Series, the Phazon Suit. The sleek black with the bright red lights glow, this suit is just beautiful and adapting its design to the Dagger was a joy to do. Out of all the suits I did for the Metroid project, the Phazon suit has got to be one out of my two favorites. To create the Phazon suit I used a Turbo Dork Black Ice with Vallejo Silver and Signal Red. The end result is just amazing.',false,
+        'One of the coolest suits in the entire Metroid Series, the Phazon Suit. The sleek black with the bright red lights glow, this suit is just beautiful and adapting its design to the Dagger was a joy to do. Out of all the suits I did for the Metroid project, the Phazon suit has got to be one out of my two favorites. To create the Phazon suit I used a TurboDork Black Ice with Vallejo Silver and Signal Red. The end result is just amazing.',false,
         [
             ['Video','https://youtu.be/j8DI_MxWTek'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/hgce-1-144-247-dagger-l'],
@@ -8059,11 +8162,11 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/samdread66.jpeg','Samus & Dagger']
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/samdread34.jpeg','Profile Photo: Dread Suit'],
-        'The theme for this came at random. I had ordered three Striker Daggers from Premium Bandai, one for a straight build, one for a traditional paint color and a third to do a custom paint. Just for the longest time I was not sure what sort of design to go with. Then one day staring at my nintendo amiibos my eye spotted Dread Suit Samus, and I and thought gosht that would be such a cool build. So this really was the first Samus I did in the Samus project, when I did not even expect it to become a project. To achieve the Dread Suit I used Turbo Dork Pearly Gates for the base of the body\'s white. Then did a Candy Blue and Candy Red for their equivalent portions. End result, super super shiny.',false,
+        'The theme for this came at random. I had ordered three Striker Daggers from Premium Bandai, one for a straight build, one for a traditional paint color and a third to do a custom paint. Just for the longest time I was not sure what sort of design to go with. Then one day staring at my nintendo amiibos my eye spotted Dread Suit Samus, and I and thought gosht that would be such a cool build. So this really was the first Samus I did in the Samus project, when I did not even expect it to become a project. To achieve the Dread Suit I used TurboDork Pearly Gates for the base of the body\'s white. Then did a Candy Blue and Candy Red for their equivalent portions. End result, super super shiny.',false,
         [
             ['Video','https://youtu.be/hFDa8j-NscI'],
             ['Premium Bandai','https://p-bandai.com/us/item/N2595691001002'],
-            ['Turbo Dork: Pearly Gates','https://turbodork.com/products/pearly-gates-1']
+            ['TurboDork: Pearly Gates','https://turbodork.com/products/pearly-gates-1']
         ],
         [
             'Samus: Varia Suit',
@@ -9433,14 +9536,84 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/theia31.jpeg','Theia']
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/theia06.jpeg','Profile Photo: Theia'],
-        'Painted this while back while I was working on the Power Rangers project. Needed something to test all of the many different Turbo Dork Colors used for each of the rangers\' visors. The final product came out like a Harlequin paint design. Also in the kit was included the mini D-50C Loto unit which is just super cute looking and named Johnny-Five after the robot in Short Circuit.',false,
+        'Painted this while back while I was working on the Power Rangers project. Needed something to test all of the many different TurboDork Colors used for each of the rangers\' visors. The final product came out like a Harlequin paint design. Also in the kit was included the mini D-50C Loto unit which is just super cute looking and named Johnny-Five after the robot in Short Circuit.',false,
         [
             ['Video','https://www.instagram.com/reel/C5zYzLnuf3U/?utm_source=ig_web_copy_link'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/bb367-kshatriya'],
             ['NewType','https://newtype.us/p/5lIwrlcG2EHi5JDLPdsA/h/sdbb-367-kshatriya']
         ],['Power Rangers'],true,true,'1:144',false,'Theia -n- Johnny Five'
     ],
-    ['Nachtigall',[1,'Nightingale'],'SD',false,false,false,'UC','D','2024-01-16',10.88],
+    ['Nachtigall',[1,'Nightingale'],'SD',
+        false,false,false,'UC','D','2024-01-16',10.88,false,'Builds/Gundams/Nachtigall.html',false,'2024-08-19',models[114],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nachtigall01.jpeg','Nachtigall'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nachtigall02.jpeg','Nachtigall'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nachtigall03.jpeg','Nachtigall'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nachtigall04.jpeg','Nachtigall'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nachtigall05.jpeg','Nachtigall'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nachtigall06.jpeg','Nachtigall'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nachtigall07.jpeg','Nachtigall'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nachtigall08.jpeg','Nachtigall'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nachtigall09.jpeg','Nachtigall'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nachtigall10.jpeg','Nachtigall'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nachtigall11.jpeg','Nachtigall'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nachtigall12.jpeg','Nachtigall'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nachtigall13.jpeg','Nachtigall'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nachtigall14.jpeg','Nachtigall'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nachtigall15.jpeg','Nachtigall'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nachtigall16.jpeg','Nachtigall'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nachtigall17.jpeg','Nachtigall'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nachtigall18.jpeg','Nachtigall'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nachtigall19.jpeg','Nachtigall'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nachtigall20.jpeg','Nachtigall'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nachtigall21.jpeg','Nachtigall'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nachtigall22.jpeg','Nachtigall'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nachtigall23.jpeg','Nachtigall'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nachtigall24.jpeg','Nachtigall'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nachtigall25.jpeg','Nachtigall'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nachtigall26.jpeg','Nachtigall'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nachtigall27.jpeg','Nachtigall'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nachtigall28.jpeg','Nachtigall'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nachtigall29.jpeg','Nachtigall'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nachtigall30.jpeg','Nachtigall'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nachtigall31.jpeg','Nachtigall'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nachtigall32.jpeg','Nachtigall'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nachtigall33.jpeg','Nachtigall'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nachtigall34.jpeg','Nachtigall'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nachtigall35.jpeg','Nachtigall'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nachtigall36.jpeg','Nachtigall'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nachtigall37.jpeg','Nachtigall'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nachtigall38.jpeg','Nachtigall'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nachtigall39.jpeg','Nachtigall'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nachtigall40.jpeg','Nachtigall'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nachtigall41.jpeg','Nachtigall'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nachtigall42.jpeg','Nachtigall'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nachtigall43.jpeg','Nachtigall'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nachtigall44.jpeg','Nachtigall'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nachtigall45.jpeg','Nachtigall'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nachtigall46.jpeg','Nachtigall'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nachtigall47.jpeg','Nachtigall'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nachtigall48.jpeg','Nachtigall'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nachtigall49.jpeg','Nachtigall'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nachtigall50.jpeg','Nachtigall'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nachtigall51.jpeg','Nachtigall'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nachtigall52.jpeg','Nachtigall'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nachtigall53.jpeg','Nachtigall'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nachtigall54.jpeg','Nachtigall'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nachtigall55.jpeg','Nachtigall'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nachtigall56.jpeg','Nachtigall'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/nachtigall57.jpeg','Nachtigall']
+        ],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/nachtigall33.jpeg','Profile Photo: Nachtigall'],
+        'Very simple design here. I thought the Zeon Nightingale was a really cool looking mobile suit. And I thought well what would make it even more menacing... Paint it all Black !!! Not much more thought went into it than that. Enjoy.',false,
+        [
+            ['Video','https://youtu.be/4wcdEav0u-A'],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/pre-order-bandai-sdgcs-3-nightingale-chars-counterattack'],
+            ['NewType','https://newtype.us/p/EcJpEQIi1ao4LI3QFFyJ/h/sdcs-03-nightingale'],
+            ['TurboDork: Black Ice','https://turbodork.com/products/black-ice-1'],
+            ['TurboDork: Rainbow Roll','https://turbodork.com/products/rainbow-roll-1']
+        ],false,true,false
+    ],
     ['Mnemosyne',[1,'Neue Ziuel'],'SD',false,false,false,'UC','B'],
     ['\u03C0 (pi)',[1,'Nu Gundam'],'SD',
         false,false,false,'UC','E','2021-06-06',15.66,false,'Builds/Gundams/Pi.html','Practice SDs','2021-06-22',models[13],
@@ -9587,7 +9760,7 @@ const projects = [
             ['USA Gundam Store','https://www.usagundamstore.com/products/bandai-hobby-bb-394-unicorn-gundam-phenex-action-figure?variant=1114433924']
         ],['Bella Donna','Sovereign'],true,true,false
     ],
-    ['Luxe-Ball',[1,'Polypodball'],'MG',false,true,false,'UC','C','2024-07-14',10.42],
+    ['Luxe-Ball',[1,'Polypodball'],'MG',false,true,false,'UC','D','2024-07-14',11.75],
     ['Ridley',[1,'Qubeley'],'HG',false,false,false,'UC','A'],
     ['LunchTime Solutions',[1,'RX-78-2'],'RG',false,false,false,'UC','B'],
     ['Colombo: Santa Maria -n- Santa Clara',[2,'Salamis and Magellan Class'],'Ship',false,false,false,'UC','B'],
@@ -10806,7 +10979,7 @@ const projects = [
         [
             ['USA Gundam Store','https://www.usagundamstore.com/products/1-144-customized-scene-base-city-area-ver?variant=37444255678661'],
             ['NewType','https://newtype.us/p/CB9RI7xIzfUuV7wIFaYw/h/30mm-customize-scene-base-06-city-area-ver']
-        ],false,false,true,false,false,false,false,false,true
+        ],false,false,true
     ],
     ['Battlefield Earth',[2,'Energy Ring Emitter'],'Display',false,false,false,'','B'],
     ['Kataluma',[1,'Hangar Bay'],'Display',
@@ -11001,7 +11174,7 @@ const projects = [
         [
             ['Video','https://www.instagram.com/reel/CoVMgaLMyp5/?igshid=YzcxN2Q2NzY0OA=='],
             ['StarBlazer Wiki','https://yamato.fandom.com/wiki/Andromeda_Black']
-        ],['Ostro','Ponente','Levante'],false,true,'1:1000'
+        ],['Mistral','Levante','Ostro','Ponente'],false,true,'1:1000'
     ],
     ['Ostro',[0.2,'Cosmo Falcon'],'Ship',
         false,false,false,'StarBlazer','E','2022-07-06',6.33,false,'Builds/Ships/Ostro.html','French Winds','2022-07-18',models[37],
@@ -11017,11 +11190,44 @@ const projects = [
         'Sky theme. The photos don\'t do the model justice, but if you focus and look very, very closely there is a slight white swirl inside the blue. On this one experimented with new technique to lightly overlap one color over another by wrapping in stretched baby whites. Basically I painted the base blue layer first. Then took a baby white and stretched it out so that there were porous gaps, wrapped the wipe around the plastic, then sprayed the second color in order to make the clouds look. It came out really faint though that I am going to need more practice at this technique.','Zack #TheLunchDude, Iowa',
         [
             ['StarBlazer Wiki','https://yamato.fandom.com/wiki/Type-99_Cosmo_Falcon']
-        ],['Libeccio','Ponente','Levante'],false,true,false
+        ],['Mistral','Levante','Libeccio','Ponente'],false,true,false
     ],
     ['Ponente',[1,'Cosmo Zero'],'Ship',false,false,false,'StarBlazer','B'],
     ['Levante',[1,'Nagato'],'Ship',false,false,false,'Space Rengo Kantai','B'],
-    ['Mistral',[1,'Millennium Falcon'],'Ship',false,false,false,'StarWars','D','2024-06-04',2.97],
+    ['Mistral',[1,'Millennium Falcon'],'Ship',
+        false,false,false,'StarWars','D','2024-06-04',2.97,false,'Builds/Ships/Mistral.html','French Winds','2024-08-12',models[133],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mistral01.jpeg','Mistral'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mistral02.jpeg','Mistral'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mistral03.jpeg','Mistral'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mistral04.jpeg','Mistral'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mistral05.jpeg','Mistral'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mistral06.jpeg','Mistral'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mistral07.jpeg','Mistral'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mistral08.jpeg','Mistral'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mistral09.jpeg','Mistral'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mistral10.jpeg','Mistral'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mistral11.jpeg','Mistral'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mistral12.jpeg','Mistral'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mistral13.jpeg','Mistral'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mistral14.jpeg','Mistral'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mistral15.jpeg','Mistral'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mistral16.jpeg','Mistral'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mistral17.jpeg','Mistral'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mistral18.jpeg','Mistral'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mistral19.jpeg','Mistral'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mistral20.jpeg','Mistral'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mistral21.jpeg','Mistral'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/mistral22.jpeg','Mistral']
+        ],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/mistral18.jpeg','Profile Photo: Mistral'],
+        'Had been working on another Millennium Falcon of another art medium and on a much larger scale which I custom shaded blue. I liked my color scheme on that I wanted to do a model-paint build in the same color scheme as well so I went and checked out the Star Wars model kits, which being a Disney property they were quite expensive. So I went with the cheapest Millennium falcon I could find which was this teeny tiny little thing. The other build I mentioned it will be a while til it is unveiled. The site has some upgrades and new features to go through before I add that portion. But in the meantime enjoy my mini little navy blue violet Falcon.',false,
+        [
+            ['Video','https://youtu.be/kEN__YDH0iM']
+            ['USA Gundam Store','https://www.usagundamstore.com/products/vehicle-model-006-millennium-falcon'],
+            ['NewType','https://newtype.us/p/pzyuVfGmFiybqSReb07Y/h/1-350-millennium-falcon']
+        ],['Levante','Libeccio','Ostro','Ponente'],true,false,'1:350'
+    ],
 
     //Transformer
     ['Wilbee',[1,'Bumblebee'],'Transformer',

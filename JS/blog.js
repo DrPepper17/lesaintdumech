@@ -464,8 +464,8 @@ const blogArray = [
         [
             [
                 'For this I used a combination of ',
-                ['Turbo Dork','https://turbodork.com',true],
-                ' colors to add some shininess. For the wings I used their Black Ice to give that sharp deep black look. I also used one layer of their Rainbow Roll on the external sides of the wings to give it that glittery effect. to contrast the black I also used Turbo Dork\'s Sparkling Motion for the silver protion on the front wing panels and wow does it burst. ' 
+                ['TurboDork','https://turbodork.com',true],
+                ' colors to add some shininess. For the wings I used their Black Ice to give that sharp deep black look. I also used one layer of their Rainbow Roll on the external sides of the wings to give it that glittery effect. to contrast the black I also used TurboDork\'s Sparkling Motion for the silver protion on the front wing panels and wow does it burst. ' 
             ]
         ],
         [
@@ -1000,7 +1000,7 @@ const blogArray = [
             ]
         ],
         [
-            'This project was mostly done as an experiment to test new Turbo Dork colors. Which other than probably yellow they all came out great. Especially loved the scarab green on the arms.'
+            'This project was mostly done as an experiment to test new TurboDork colors. Which other than probably yellow they all came out great. Especially loved the scarab green on the arms.'
         ],
         [
             'Also glad to finally be posting something this week that is not a Haro.'
@@ -1316,7 +1316,7 @@ const blogArray = [
             ]
         ],
         [
-            'Now of course Dark Samus had two iterations, one in Metroid Prime Echoes and the second in Metroid Prime Corruption. So I am starting off this week with her form From Echoes. To pull this one off I used some pretty blues from Turbo Dork and to beef her up to make her look more intimidating than a Dagger I decided to use a Gundvolva as the base to paint her on. Overall I am very quite proud with this build.'
+            'Now of course Dark Samus had two iterations, one in Metroid Prime Echoes and the second in Metroid Prime Corruption. So I am starting off this week with her form From Echoes. To pull this one off I used some pretty blues from TurboDork and to beef her up to make her look more intimidating than a Dagger I decided to use a Gundvolva as the base to paint her on. Overall I am very quite proud with this build.'
         ],
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/darksamecho46.jpeg']
@@ -1452,6 +1452,29 @@ const blogArray = [
         ],
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/longqueen001.jpeg']
+        ]
+    ],
+    [
+        '2024-08-05',
+        'Age of Aquarius',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/pontus20.jpeg',
+        [
+            [
+                'When the moon is in the Seventh House and Jupiter aligns with Mars. Then peace will guide the planets and ',
+                ['Pontus','Builds/Gundams/Pontus.html'],
+                ' will steer the stars.'
+            ]
+        ],
+        [
+            'I love the Aquarius SD model. I had to build another.'
+        ],
+        [
+            [
+                ['Youtube','https://youtu.be/cyHP334NYec',true]
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/pontus42.jpeg']
         ]
     ]
 ]
