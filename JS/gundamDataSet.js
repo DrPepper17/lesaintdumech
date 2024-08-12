@@ -5271,7 +5271,7 @@ const projects = [
         ],false,true,'1:144',false,false,'Corruption'
     ], 
     ['Faces of Eve',[3,'Calibarn','Calibarn','Calibarn'],'SD',false,false,false,'Mercury','B'],
-    ['Abaddon',[1,'Calibarn'],'HG',false,false,false,'Mercury','C','2023-11-25',17.88],
+    ['Abaddon',[1,'Calibarn'],'HG',false,false,false,'Mercury','D','2023-11-25',17.96],
     ['Arthur',[1,'Calibarn'],'HG',false,false,false,'Mercury','C','2024-03-01',6.28],
     ['Tempest',[1,'Calibarn'],'HG',false,false,false,'Mercury','C','2024-06',0],   //paint in flat red
     ['Calibarn [HG]',[1,'Calibarn'],'HG',true,false,false,'Mercury','D','2023-08-22',2.83,false,false,false],
@@ -5471,7 +5471,7 @@ const projects = [
     ['EMMI',[1,'Heindree'],'HG',false,false,false,'Mercury','A'],
     ['Adriel',[1,'LFrith'],'HG',false,false,false,'Mercury','D','2023-12-11',7.25],
     ['LFrith [HG]',[1,'LFrith'],'HG',true,false,false,'Mercury','D','2023-04-15',2.33,false,false,false],
-    ['Cassiel',[1,'LFrith Anavata'],'HG',false,true,false,'Mercury','D','2024-07-21',7.5],
+    ['Cassiel',[1,'LFrith Anavata'],'HG',false,true,false,'Mercury','D','2024-07-21',7.58],
     ['Eisheth',[1,'LFrith Jiu'],'HG',false,true,false,'Mercury','D','2024-02-16',8.05],
     ['Meshabber',[1,'LFrith Preproduction Model'],'HG',false,true,false,'Mercury','B'],  //IDF Green
     ['Mashhit',[1,'LFrith Preproduction Model'],'HG',false,true,false,'Mercury','B'],  //IDF Blue
@@ -6667,6 +6667,7 @@ const projects = [
             ['Premium Bandai','https://p-bandai.com/us/item/N2570542001001']
         ],false,false,true,'1:144'
     ],
+    ['Jimbo',[1,'0 Gundam'],'HG',false,false,false,'00','B'],
 
     //Correct Century (Turn A)
     ['John Wayne',[1,'Turn-A'],'SD',
@@ -9760,7 +9761,7 @@ const projects = [
             ['USA Gundam Store','https://www.usagundamstore.com/products/bandai-hobby-bb-394-unicorn-gundam-phenex-action-figure?variant=1114433924']
         ],['Bella Donna','Sovereign'],true,true,false
     ],
-    ['Luxe-Ball',[1,'Polypodball'],'MG',false,true,false,'UC','D','2024-07-14',11.75],
+    ['Luxe-Ball',[1,'Polypodball'],'MG',false,true,false,'UC','D','2024-07-14',15.08],
     ['Ridley',[1,'Qubeley'],'HG',false,false,false,'UC','A'],
     ['LunchTime Solutions',[1,'RX-78-2'],'RG',false,false,false,'UC','B'],
     ['Colombo: Santa Maria -n- Santa Clara',[2,'Salamis and Magellan Class'],'Ship',false,false,false,'UC','B'],
@@ -11187,7 +11188,8 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/ostro06.jpeg','Ostro','img6']
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/ostro03.jpeg','Profile Photo: Ostro'],
-        'Sky theme. The photos don\'t do the model justice, but if you focus and look very, very closely there is a slight white swirl inside the blue. On this one experimented with new technique to lightly overlap one color over another by wrapping in stretched baby whites. Basically I painted the base blue layer first. Then took a baby white and stretched it out so that there were porous gaps, wrapped the wipe around the plastic, then sprayed the second color in order to make the clouds look. It came out really faint though that I am going to need more practice at this technique.','Zack #TheLunchDude, Iowa',
+        'Sky theme. The photos don\'t do the model justice, but if you focus and look very, very closely there is a slight white swirl inside the blue. On this one experimented with new technique to lightly overlap one color over another by wrapping in stretched baby whites. Basically I painted the base blue layer first. Then took a baby white and stretched it out so that there were porous gaps, wrapped the wipe around the plastic, then sprayed the second color in order to make the clouds look. It came out really faint though that I am going to need more practice at this technique.',
+        'Zack #TheLunchDude, Iowa',
         [
             ['StarBlazer Wiki','https://yamato.fandom.com/wiki/Type-99_Cosmo_Falcon']
         ],['Mistral','Levante','Libeccio','Ponente'],false,true,false
@@ -11195,7 +11197,7 @@ const projects = [
     ['Ponente',[1,'Cosmo Zero'],'Ship',false,false,false,'StarBlazer','B'],
     ['Levante',[1,'Nagato'],'Ship',false,false,false,'Space Rengo Kantai','B'],
     ['Mistral',[1,'Millennium Falcon'],'Ship',
-        false,false,false,'StarWars','D','2024-06-04',2.97,false,'Builds/Ships/Mistral.html','French Winds','2024-08-12',models[133],
+        false,false,false,'StarWars','E','2024-06-04',2.97,false,'Builds/Ships/Mistral.html','French Winds','2024-08-12',models[133],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/mistral01.jpeg','Mistral'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/mistral02.jpeg','Mistral'],
@@ -11223,10 +11225,10 @@ const projects = [
         ['https://hosting.photobucket.com/images/i/lesaintdumech/mistral18.jpeg','Profile Photo: Mistral'],
         'Had been working on another Millennium Falcon of another art medium and on a much larger scale which I custom shaded blue. I liked my color scheme on that I wanted to do a model-paint build in the same color scheme as well so I went and checked out the Star Wars model kits, which being a Disney property they were quite expensive. So I went with the cheapest Millennium falcon I could find which was this teeny tiny little thing. The other build I mentioned it will be a while til it is unveiled. The site has some upgrades and new features to go through before I add that portion. But in the meantime enjoy my mini little navy blue violet Falcon.',false,
         [
-            ['Video','https://youtu.be/kEN__YDH0iM']
+            ['Video','https://youtu.be/kEN__YDH0iM'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/vehicle-model-006-millennium-falcon'],
             ['NewType','https://newtype.us/p/pzyuVfGmFiybqSReb07Y/h/1-350-millennium-falcon']
-        ],['Levante','Libeccio','Ostro','Ponente'],true,false,'1:350'
+        ],['Levante','Libeccio','Ostro','Ponente'],true,true,'1:350'
     ],
 
     //Transformer
@@ -11348,7 +11350,7 @@ const projects = [
     ['Kipling',[1,'Liger Zero X'],'Zoid',false,false,false,'','B'],
 
     //Other
-    ['Voltron',[1,'Voltron'],'Voltron: Defender of the Universe',false,false,false,'','A']
+    ['Voltron',[1,'Voltron'],'Voltron: Defender of the Universe',false,false,false,'','B']
 ];
 
 //Initialize Arrays

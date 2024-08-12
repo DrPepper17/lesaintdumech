@@ -1476,6 +1476,26 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/pontus42.jpeg']
         ]
+    ],
+    [
+        '2024-08-12',
+        'Blue Falcon',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/mistral10.jpeg',
+        [
+            [
+                'Took another break from Gundam to do a different franchise for a change again. This time I am finally tackling Star Wars with the smallest and cheapest Millennium Falcon model I could find. I present to you ',
+                ['Mistral','Builds/Ships/Mistral.html'],
+                '.'
+            ]
+        ],
+        [
+            [
+                ['Youtube','https://youtu.be/kEN__YDH0iM',true]
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/mistral12.jpeg']
+        ]
     ]
 ]
 
