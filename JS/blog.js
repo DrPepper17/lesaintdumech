@@ -1496,6 +1496,29 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/mistral12.jpeg']
         ]
+    ],
+    [
+        '2024-08-19',
+        'La\u00FCstic',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/nachtigall53.jpeg',
+        [
+            [
+                'Inspired by Marie de France\'s famous lai, this week I present the ',
+                ['Nachtigall','Builds/Gundams/Nachtigall.html'],
+                '. Took Char\'s Nightingale and painted it all black and changed the name to German.'
+            ]
+        ],
+        [
+            'I think the black just makes it look even more dark and ominous. I am definitely now going to have to paint the larger model in the HG scale. Just wish they would make it in the MG or FM. The bigger the better. I feel so much potential in the Nightingale mobile suit. Or mobile armor. Cannot fully tell which one of the two it is.'
+        ],
+        [
+            [
+                ['Youtube','https://youtu.be/4wcdEav0u-A',true]
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/nachtigall57.jpeg']
+        ]
     ]
 ]
 

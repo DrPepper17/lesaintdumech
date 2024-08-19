@@ -13,7 +13,8 @@
         9. Zoid
         10. Haropla
         11. Special Project
-        12
+        12. Other
+        13. 
 
     // Gundams (1) //
     2. Short Name
@@ -5135,6 +5136,112 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/Millenium-falcon_Large.jpeg','Millennium Falcon'],
         'Corellian YT-1300 Light Freighter',
+    ],
+    [134,7,'Squirtle',
+        'Pokemon Squirtle 17 Quick Model Kit',
+        '0007',
+        'Water',
+        '1st Stage',
+        false,
+        [
+            ['Wartortle','lvl 16']
+        ],
+        'Tiny Turtle Pokemon',
+        'After birth, its back swells and hardens into a shell. It soon becomes so resilient, prodding fingers will bounce off it. Powerfully sprays foam from its mouth that it shoots at prey while in the water. Withdraws into its shell when in danger.',
+        '1\'08\"',
+        [19.8,'19.8 lbs'],
+        'I',
+        'Pokemon Red and Blue',
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/squirturtle.jpeg','Bulbasaur']
+    ],
+    [135,1,'Polypodball',
+        'RB-79PP Polypodball',
+        'RB-79PP',
+        'Gundam Build Divers',
+        false,
+        [' RB-79 Ball'],
+        false,
+        false,
+        false,
+        'Azuma Carl Thompson',
+        false,
+        'Azuma Carl Thompson',
+        ['V\'Cards'],
+        false,           //Height
+        false,        //Weight
+        false,
+        false,
+        [
+            '180mm Cannon',
+            'G.H.L-M.A.D GUN'
+        ],
+        false,
+        [
+            'Speakers'
+        ],
+        'Junya Ishigaki',
+       false,                //boolean
+        'Custom Mobile Pod',
+        true,            //boolean
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/GBD_Polypodball.jpeg','Polypodball'],
+        false,           //boolean
+        [136],
+    ],
+    [136,1,'Ball',
+        'RB-79 Ball',
+        'RB-79',
+        'Mobile Suit Gundam',
+        false,    //boolean
+        ['SP-W03 Space Pod'],
+        [
+            'B Gundam',
+            'Ball Magnet Coating Type',
+            'Cannon Ball',
+            'GSREX-110309 Ball Boy',
+            'RB-133 Ball Model 133',
+            'RMB-79 Frog Ball',
+            'RB-79C Ball Type C',
+            'RB-79F Ball Type F',
+            'RB-79G Ball Type Work Type',
+            'RB-79K Ball Type K',
+            'RB-79M Ball Type M',
+            'RB-79N Fisheye',
+            'RB-79PP Polypodball'
+        ],
+        'Universal Century',
+        [79,'0079 U.C.','Present'],
+        false,
+        ['Civilain and EF space workers'],
+        'Earth Federation',
+        ['Earth Federation'],
+        [12.8,'12.8 Meters'],           //Height
+        [25.0,'25.0 Metric Tons'],        //Weight
+        false,
+        'Fuel Cell',
+        [
+            '180mm Low-Recoil Cannon'
+        ],
+        false,
+        false,
+        'Kunio Okawara',
+        false,                //boolean
+        'Mass Production Support Space Mobile Pod',
+        true,            //boolean
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/Rb-79c.jpeg','Ball'],
+        false,           //boolean
+        [136],
+        'Ball'              //Only if base source
     ]
 ];
 
@@ -5198,6 +5305,7 @@ const projects = [
     ['Zephon',[1,'Aerial Rebuild'],'HG',false,false,false,'Mercury','D','2023-11-25',16.15],
     ['Aerial Rebuild [HG]',[1,'Aerial Rebuild'],'HG',true,false,false,'Mercury','D','2024-06-02',1.42],
     ['Rundas',[1,'Beguir-Beu'],'HG',false,false,false,'Mercury','A','202x',0,false,'Builds/Metroid/Rundas.html','Metroid'],
+    ['Beguir-Beu [HG]',[1,'Beguir-Beu'],'HG',true,false,false,'Mercury','D','2024-08-17',1],
     ['Dark Samus: Corruption',[1,'Beguir-Pente'],'HG',
         false,false,false,'Mercury','E','2023-12-23',10.51,false,'Builds/Metroid/Corruption.html','Metroid','2024-07-08',models[127],
         [
@@ -5271,8 +5379,8 @@ const projects = [
         ],false,true,'1:144',false,false,'Corruption'
     ], 
     ['Faces of Eve',[3,'Calibarn','Calibarn','Calibarn'],'SD',false,false,false,'Mercury','B'],
-    ['Abaddon',[1,'Calibarn'],'HG',false,false,false,'Mercury','D','2023-11-25',17.96],
-    ['Arthur',[1,'Calibarn'],'HG',false,false,false,'Mercury','C','2024-03-01',6.28],
+    ['Abaddon',[1,'Calibarn'],'HG',false,false,false,'Mercury','D','2023-11-25',18.13],
+    ['Arthur',[1,'Calibarn'],'HG',false,false,false,'Mercury','D','2024-03-01',12.44],
     ['Tempest',[1,'Calibarn'],'HG',false,false,false,'Mercury','C','2024-06',0],   //paint in flat red
     ['Calibarn [HG]',[1,'Calibarn'],'HG',true,false,false,'Mercury','D','2023-08-22',2.83,false,false,false],
     ['Kanden',[1.25,'Darilbalde','P.B. Witch From Mercury Expansion Pack'],'HG',false,true,false,'Mercury','A','202x',0,false,'Builds/Metroid/kanden.html','Metroid'],
@@ -5299,12 +5407,12 @@ const projects = [
             ['NewType','https://newtype.us/p/1ZqsazKkWagen1RV4twr/h/hgwfm-04-guel-s-dilanza']
         ],false,false,true,'1:144'
     ],
-    ['Gundnode A',[1,'Gundnode'],'HG',false,true,false,'Mercury','A'],
-    ['Gundnode B',[1,'Gundnode'],'HG',false,true,false,'Mercury','A'],
+    ['Gundnode A',[1,'Gundnode'],'HG',false,true,false,'Mercury','B'],
+    ['Gundnode B',[1,'Gundnode'],'HG',false,true,false,'Mercury','B'],
     ['Gundnode C',[1,'Gundnode'],'HG',false,true,false,'Mercury','A'],
     ['Gundnode D',[1,'Gundnode'],'HG',false,true,false,'Mercury','A'],
     ['Gundnode E',[1,'Gundnode'],'HG',false,true,false,'Mercury','A'],
-    ['Gundnode Straight',[1,'Gundnode'],'HG',true,true,false,'Mercury','A'],
+    ['PB Gundnode [HG]',[1,'Gundnode'],'HG',true,true,false,'Mercury','D','2024-08-14',1.42],
     ['Dark Samus: Echoes',[1,'Gundvolva'],'HG',
         false,false,false,'Mercury','E','2023-10-11',9.5,false,'Builds/Metroid/Echoes.html','Metroid','2024-07-01',models[91],
         [
@@ -5431,7 +5539,106 @@ const projects = [
             'Federation Trooper'
         ],false,true,'1:144',false,false,'Dark Samus'
     ],
-    ['The Nazarene',[1,'Gundvolva'],'HG',false,false,false,'Mercury','D','2024-03-01',7.68], 
+    ['The Nazarene',[1,'Gundvolva'],'HG',
+        false,false,false,'Mercury','D','2024-03-01',7.68,false,'Builds/Gundams/TheNazarene.html',false,'2024-08-26',models[91],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Nun.jpeg','NUN'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE01.jpg','The Nazarene'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE02.jpg','The Nazarene'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE03.jpg','The Nazarene'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE04.jpg','The Nazarene'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE05.jpg','The Nazarene'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE06.jpg','The Nazarene'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE07.jpg','The Nazarene'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE08.jpg','The Nazarene'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE09.jpg','The Nazarene'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE10.jpg','The Nazarene'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE11.jpg','The Nazarene'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE12.jpg','The Nazarene'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE13.jpg','The Nazarene'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE14.jpg','The Nazarene'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE15.jpg','The Nazarene'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE16.jpg','The Nazarene'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE17.jpg','The Nazarene'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE18.jpg','The Nazarene'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE19.jpg','The Nazarene'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE20.jpg','The Nazarene'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE21.jpg','The Nazarene'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE22.jpg','The Nazarene'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE23.jpg','The Nazarene'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE24.jpg','The Nazarene'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE25.jpg','The Nazarene'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE26.jpg','The Nazarene'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE27.jpg','The Nazarene'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE28.jpg','The Nazarene'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE29.jpg','The Nazarene'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE30.jpg','The Nazarene'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE31.jpg','The Nazarene'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE32.jpg','The Nazarene'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE33.jpg','The Nazarene'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE34.jpg','The Nazarene'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE35.jpg','The Nazarene'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE36.jpg','The Nazarene'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE37.jpg','The Nazarene'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE38.jpg','The Nazarene'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE39.jpg','The Nazarene'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE40.jpg','The Nazarene'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE41.jpg','The Nazarene'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE42.jpg','The Nazarene'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE43.jpg','The Nazarene'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE44.jpg','The Nazarene'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE45.jpg','The Nazarene'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE46.jpg','The Nazarene'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE47.jpg','The Nazarene'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE48.jpg','The Nazarene'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE49.jpg','The Nazarene'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE50.jpg','The Nazarene'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE51.jpg','The Nazarene'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE52.jpg','The Nazarene'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE53.jpg','The Nazarene'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE54.jpg','The Nazarene'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE55.jpg','The Nazarene'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE56.jpg','The Nazarene'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE57.jpg','The Nazarene'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE58.jpg','The Nazarene'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE59.jpg','The Nazarene'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE60.jpg','The Nazarene'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE61.jpg','The Nazarene'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE62.jpg','The Nazarene'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE63.jpg','The Nazarene'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE64.jpg','The Nazarene'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE65.jpg','The Nazarene'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE66.jpg','The Nazarene'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE67.jpg','The Nazarene'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE68.jpg','The Nazarene'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE69.jpg','The Nazarene'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE70.jpg','The Nazarene'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE71.jpg','The Nazarene'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE72.jpg','The Nazarene'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE73.JPG','The Nazarene'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE74.JPG','The Nazarene'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE75.jpg','The Nazarene'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE76.jpg','The Nazarene'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE77.jpg','The Nazarene'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE78.jpg','The Nazarene'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE79.jpg','The Nazarene'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE80.jpg','The Nazarene'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE81.jpg','The Nazarene'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE82.jpg','The Nazarene'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE83.jpg','The Nazarene'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE84.jpg','The Nazarene'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE85.jpg','The Nazarene']
+        ],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE51.jpg','Profile Photo: The Nazarene'],
+        'So when the design for the Gundv\u00F6lva first got leaked online I was super excited and could not wait to paint and build it. The Gundv\u00F6lva reminded me so much of the Dagger L, which is one of my favorite suits to build. So it was cool having a Mercury varation of the Dagger. Soon as the V\u00F6lva finally hit store shelves I grabbed a whole stack of them wanting to paint them all. The first one I painted was the Dobiel. The second one I did became Dark Samus. But I still had the third kit in my investory left and I was not quite sure what sort of design to paint for it. Then one day it came to me. The Nazarene Christians in the Middle East. Living in Syria and Iraq, they are the oldest known Christian community in the world dating from days of Christ himself. They were amongst his first followers. But during the days of the ISIS-Crisis back in 2014-2017ish they were marked for death by ISIS and being wiped out in a total genocide. I and several other American Christians had raised money to get third party charities to rescue them and get them out of the Middle East to safety. To represent them I painted the whole V\u00F6lva in shades of black and painted their symbol, the Arab Nun symbol, in a deep red permeating the black. Also if you care about saving Middle East minorities from violence and ethnic cleansing then I recommend you checking out the links below and donating to The Nazarene Fund.',false,
+        [
+            ['Video','https://youtu.be/_RtNSbb1NNQ'],
+            ['Nasarean.org','https://www.nasarean.org'],
+            ['The Nazarene Fund','https://thenazarenefund.org'],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/hgtwfm-1-144-24-gundvolva'],
+            ['NewType','https://newtype.us/p/0LtLPFfPCrT5SfGPqKjS/h/hgwfm-24-gundv-lva']
+        ],['Cordelia','King Leir','Malphas','Leo Army'],true,false,'1:144'
+    ], 
     ['Dobiel',[1,'Gundvolva'],'HG',
         false,false,false,'Mercury','E','2023-08-07',12.7,true,'Builds/Gundams/Dobiel.html','Angels','2023-09-25',models[91],
         [
@@ -5466,8 +5673,9 @@ const projects = [
             ['Dobiel','https://en.wikipedia.org/wiki/Dobiel'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/hgtwfm-1-144-24-gundvolva'],
             ['NewType','https://newtype.us/p/0LtLPFfPCrT5SfGPqKjS/h/hgwfm-24-gundv-lva']
-        ],['Cordelia','King Leir','Malphas','Leo Army'],false,true,'1:144'
+        ],['Cordelia','King Leir','Malphas','Leo Army'],true,true,'1:144'
     ],
+    ['Gundvolva [HG]',[1,'Gundvolva'],'HG',true,false,false,'Mercury','D','2024-08-13',1.08],
     ['EMMI',[1,'Heindree'],'HG',false,false,false,'Mercury','A'],
     ['Adriel',[1,'LFrith'],'HG',false,false,false,'Mercury','D','2023-12-11',7.25],
     ['LFrith [HG]',[1,'LFrith'],'HG',true,false,false,'Mercury','D','2023-04-15',2.33,false,false,false],
@@ -5477,7 +5685,9 @@ const projects = [
     ['Mashhit',[1,'LFrith Preproduction Model'],'HG',false,true,false,'Mercury','B'],  //IDF Blue
     ['Kezef',[1,'LFrith Preproduction Model'],'HG',false,true,false,'Mercury','A'],     //IDF Sand
     ['Spire',[1,'LFrith Thorn'],'HG',false,false,false,'Mercury','A','202x',0,false,'Builds/Metroid/Spire.html','Metroid'],
+    ['LFrith Thorn [HG]',[1,'LFrith Thorn'],'HG',true,false,false,'Mercury','D','2024-08-13',1.42],
     ['Weavel',[1,'LFrith Ur'],'HG',false,false,false,'Mercury','A','202x',0,false,'Builds/Metroid/Weavel.html','Metroid'],
+    ['LFrith Ur [HG]',[1,'LFrith Ur'],'HG',true,false,false,'Mercury','D','2024-08-13',1.5],
     ['Sylux',[1.25,'Michaelis','P.B. Witch From Mercury Expansion Pack'],'HG',false,true,false,'Mercury','A','202x',0,false,'Builds/Metroid/Sylux.html','Metroid'],
     ['Noxus',[1.25,'Pharact','P.B. Witch From Mercury Expansion Pack'],'HG',false,true,false,'Mercury','A','202x',0,false,'Builds/Metroid/Noxus.html','Metroid'],
     ['Schwarzette [HG]',[1,'Schwarzette'],'HG',true,false,false,'Mercury','E','2023-10-04',2.33,false,false,false],
@@ -9545,7 +9755,7 @@ const projects = [
         ],['Power Rangers'],true,true,'1:144',false,'Theia -n- Johnny Five'
     ],
     ['Nachtigall',[1,'Nightingale'],'SD',
-        false,false,false,'UC','D','2024-01-16',10.88,false,'Builds/Gundams/Nachtigall.html',false,'2024-08-19',models[114],
+        false,false,false,'UC','E','2024-01-16',10.88,false,'Builds/Gundams/Nachtigall.html',false,'2024-08-19',models[114],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/nachtigall01.jpeg','Nachtigall'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/nachtigall02.jpeg','Nachtigall'],
@@ -9605,7 +9815,7 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/nachtigall56.jpeg','Nachtigall'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/nachtigall57.jpeg','Nachtigall']
         ],
-        ['https://hosting.photobucket.com/images/i/lesaintdumech/nachtigall33.jpeg','Profile Photo: Nachtigall'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/nachtigall36.jpeg','Profile Photo: Nachtigall'],
         'Very simple design here. I thought the Zeon Nightingale was a really cool looking mobile suit. And I thought well what would make it even more menacing... Paint it all Black !!! Not much more thought went into it than that. Enjoy.',false,
         [
             ['Video','https://youtu.be/4wcdEav0u-A'],
@@ -9613,7 +9823,7 @@ const projects = [
             ['NewType','https://newtype.us/p/EcJpEQIi1ao4LI3QFFyJ/h/sdcs-03-nightingale'],
             ['TurboDork: Black Ice','https://turbodork.com/products/black-ice-1'],
             ['TurboDork: Rainbow Roll','https://turbodork.com/products/rainbow-roll-1']
-        ],false,true,false
+        ],false,true,true
     ],
     ['Mnemosyne',[1,'Neue Ziuel'],'SD',false,false,false,'UC','B'],
     ['\u03C0 (pi)',[1,'Nu Gundam'],'SD',
@@ -9761,7 +9971,106 @@ const projects = [
             ['USA Gundam Store','https://www.usagundamstore.com/products/bandai-hobby-bb-394-unicorn-gundam-phenex-action-figure?variant=1114433924']
         ],['Bella Donna','Sovereign'],true,true,false
     ],
-    ['Luxe-Ball',[1,'Polypodball'],'MG',false,true,false,'UC','D','2024-07-14',15.08],
+    ['Luxe-Ball',[1,'Polypodball'],'MG',
+        false,true,false,'UC','D','2024-07-14',15.08,false,'Builds/PBandai/LuxeBall.html','Pokeball','2024-09-23',models[135],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL01.jpeg','P-Bandai Luxe-Ball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL02.jpeg','P-Bandai Luxe-Ball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL03.jpeg','P-Bandai Luxe-Ball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL04.jpeg','P-Bandai Luxe-Ball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL05.jpeg','P-Bandai Luxe-Ball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL06.jpeg','P-Bandai Luxe-Ball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL07.jpeg','P-Bandai Luxe-Ball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL08.jpeg','P-Bandai Luxe-Ball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL09.jpeg','P-Bandai Luxe-Ball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL10.jpeg','P-Bandai Luxe-Ball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL11.jpeg','P-Bandai Luxe-Ball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL12.jpeg','P-Bandai Luxe-Ball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL13.jpeg','P-Bandai Luxe-Ball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL14.jpeg','P-Bandai Luxe-Ball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL15.jpeg','P-Bandai Luxe-Ball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL16.jpeg','P-Bandai Luxe-Ball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL17.jpeg','P-Bandai Luxe-Ball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL18.jpeg','P-Bandai Luxe-Ball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL19.jpeg','P-Bandai Luxe-Ball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL20.jpeg','P-Bandai Luxe-Ball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL21.jpeg','P-Bandai Luxe-Ball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL22.jpeg','P-Bandai Luxe-Ball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL23.jpeg','P-Bandai Luxe-Ball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL24.jpeg','P-Bandai Luxe-Ball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL25.jpeg','P-Bandai Luxe-Ball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL26.jpeg','P-Bandai Luxe-Ball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL27.jpeg','P-Bandai Luxe-Ball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL28.jpeg','P-Bandai Luxe-Ball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL29.jpeg','P-Bandai Luxe-Ball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL30.jpeg','P-Bandai Luxe-Ball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL31.jpeg','P-Bandai Luxe-Ball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL32.jpeg','P-Bandai Luxe-Ball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL33.jpeg','P-Bandai Luxe-Ball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL34.jpeg','P-Bandai Luxe-Ball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL35.jpeg','P-Bandai Luxe-Ball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL36.jpeg','P-Bandai Luxe-Ball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL37.jpeg','P-Bandai Luxe-Ball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL38.jpeg','P-Bandai Luxe-Ball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL39.jpeg','P-Bandai Luxe-Ball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL40.jpeg','P-Bandai Luxe-Ball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL41.jpeg','P-Bandai Luxe-Ball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL42.jpeg','P-Bandai Luxe-Ball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL43.jpeg','P-Bandai Luxe-Ball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL44.jpeg','P-Bandai Luxe-Ball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL45.jpeg','P-Bandai Luxe-Ball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL46.jpeg','P-Bandai Luxe-Ball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL47.jpeg','P-Bandai Luxe-Ball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL48.jpeg','P-Bandai Luxe-Ball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL49.jpeg','P-Bandai Luxe-Ball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL50.jpeg','P-Bandai Luxe-Ball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL51.jpeg','P-Bandai Luxe-Ball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL52.jpeg','P-Bandai Luxe-Ball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL53.jpeg','P-Bandai Luxe-Ball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL54.jpeg','P-Bandai Luxe-Ball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL55.jpeg','P-Bandai Luxe-Ball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL56.jpeg','P-Bandai Luxe-Ball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL57.jpeg','P-Bandai Luxe-Ball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL58.jpeg','P-Bandai Luxe-Ball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL59.jpeg','P-Bandai Luxe-Ball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL60.jpeg','P-Bandai Luxe-Ball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL61.jpeg','P-Bandai Luxe-Ball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL62.jpeg','P-Bandai Luxe-Ball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL63.jpeg','P-Bandai Luxe-Ball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL64.jpeg','P-Bandai Luxe-Ball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL65.jpeg','P-Bandai Luxe-Ball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL66.jpeg','P-Bandai Luxe-Ball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL67.jpeg','P-Bandai Luxe-Ball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL68.jpeg','P-Bandai Luxe-Ball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL69.jpeg','P-Bandai Luxe-Ball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL70.jpeg','P-Bandai Luxe-Ball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL71.jpeg','P-Bandai Luxe-Ball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL72.jpeg','P-Bandai Luxe-Ball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL73.jpeg','P-Bandai Luxe-Ball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL74.jpeg','P-Bandai Luxe-Ball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL75.jpeg','P-Bandai Luxe-Ball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL76.jpeg','P-Bandai Luxe-Ball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL77.jpeg','P-Bandai Luxe-Ball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL78.jpeg','P-Bandai Luxe-Ball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL79.jpeg','P-Bandai Luxe-Ball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL80.jpeg','P-Bandai Luxe-Ball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL81.jpeg','P-Bandai Luxe-Ball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL82.jpeg','P-Bandai Luxe-Ball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL83.jpeg','P-Bandai Luxe-Ball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL84.jpeg','P-Bandai Luxe-Ball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL85.jpeg','P-Bandai Luxe-Ball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL86.jpeg','P-Bandai Luxe-Ball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL87.jpeg','P-Bandai Luxe-Ball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL88.jpeg','P-Bandai Luxe-Ball']
+        ],['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL74.jpeg','Profile Photo: Luxe-Ball'],
+        'Ordered this kit off P-Bandai on a pure whim. Let\'s be honest it\'s a little weird. Never been that fond of the balls from UC, and I do not really care for the Build Divers / Fighters mobile suits. They are such gimmicks. So was not really sure what I would do with this kit when I ordered it. I purchased it soly for the oddity rather than finding it cool. My first train of though was I figured I would paint it red like a crab and call it Cancer. But then playing Pokemon I kept thinking aobut the balls and all the different cool designs of each type of Pokemon ball, I particularly found the Luxury Ball fancy and pretty. And that is when it hit me, paint the Gundam Ball like a Pokeball, specifically the Luxury Ball. To accomplish that I used Mr Hobby Mr Metallic Red and Rough Gold for the red and gold portions. Then for the main ball portion I painted it three layers of TurboDork Black ice with one layer of TurboDork on just the ball to give it a sparkle. I think it came out pretty cool. At some point I think I now want to order just regular Ball kits and paint them all the other pokeball designs and complete the set.',false,
+        [
+            ['Video','https://youtu.be/AHB-3BSQa7U'],
+            ['P-Bandai','https://p-bandai.com/us/item/N2435139001008'],
+            ['TurboDork: Black Ice','https://turbodork.com/products/black-ice-1'],
+            ['TurboDork: Rainbow Roll','https://turbodork.com/products/rainbow-roll-1']
+        ],false,true,false,'1:100'
+    ],
     ['Ridley',[1,'Qubeley'],'HG',false,false,false,'UC','A'],
     ['LunchTime Solutions',[1,'RX-78-2'],'RG',false,false,false,'UC','B'],
     ['Colombo: Santa Maria -n- Santa Clara',[2,'Salamis and Magellan Class'],'Ship',false,false,false,'UC','B'],
@@ -10623,7 +10932,31 @@ const projects = [
             ['TurboDork: Forrest Flux','https://turbodork.com/products/forrest-flux']
         ],['Asterix'],false,true
     ],
-    ['Jade',[1,'Bulbasaur'],'Pokemon',false,false,false,'','D','2024-06-04',2.31],
+    ['Jade',[1,'Bulbasaur'],'Pokemon',
+        false,false,false,'','D','2024-06-04',2.31,false,'Builds/Pokemon/Jade.html',false,'2024-09-09',models[94],
+        [
+           ['https://hosting.photobucket.com/images/i/lesaintdumech/Jade01.jpeg','Jade'], 
+           ['https://hosting.photobucket.com/images/i/lesaintdumech/Jade02.jpeg','Jade'],
+           ['https://hosting.photobucket.com/images/i/lesaintdumech/Jade03.jpeg','Jade'],
+           ['https://hosting.photobucket.com/images/i/lesaintdumech/Jade04.jpeg','Jade'],
+           ['https://hosting.photobucket.com/images/i/lesaintdumech/Jade05.jpeg','Jade'],
+           ['https://hosting.photobucket.com/images/i/lesaintdumech/Jade06.jpeg','Jade'],
+           ['https://hosting.photobucket.com/images/i/lesaintdumech/Jade07.jpeg','Jade'],
+           ['https://hosting.photobucket.com/images/i/lesaintdumech/Jade08.jpeg','Jade'],
+           ['https://hosting.photobucket.com/images/i/lesaintdumech/Jade09.jpeg','Jade'],
+           ['https://hosting.photobucket.com/images/i/lesaintdumech/Jade10.jpeg','Jade'],
+           ['https://hosting.photobucket.com/images/i/lesaintdumech/Jade11.jpeg','Jade'],
+           ['https://hosting.photobucket.com/images/i/lesaintdumech/Jade12.jpeg','Jade']
+        ],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/Jade09.jpeg','Profile Photo: Jade'],
+        'So same story as Jasper. I gave both my previous Charmander and Bulbasaur builds away. But then I baught the Squirtle kit and had to have all three of the starters to complete the set. Introducing my second Bulbasaur build, Jade.',false,
+        [
+            ['Video','https://youtu.be/3SDwI7SFK1U'],
+            ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Bulbasaur_(Pokémon)'],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-bulbasaur-13-quick-model-kit'],
+            ['NewType','https://newtype.us/p/W2XuUUtpyK4uqkEPD18t/h/pokemon-model-kit-quick-13-bulbasaur']
+        ],['Jasper','Cooper'],false,false
+    ],
     ['Asterix',[1,'Charmander'],'Pokemon',
         false,false,false,'','E','2023-03-12',3.85,false,'Builds/Pokemon/Asterix.html',false,'2023-08-28',models[79],
         [
@@ -10659,7 +10992,35 @@ const projects = [
             ['TurboDork: Redrum','https://turbodork.com/products/redrum'],
         ],['Obelix','Vercingetorix'],false,true,false
     ],
-    ['Jasper',[1,'Charmander'],'Pokemon',false,false,false,'','D','2024-06-04',2.27],
+    ['Jasper',[1,'Charmander'],'Pokemon',
+        false,false,false,'','D','2024-06-04',2.27,false,'Builds/Pokemon/Jasper.html',false,'2024-09-02',models[79],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Japser01.jpeg','Jasper'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Japser02.jpeg','Jasper'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Japser03.jpeg','Jasper'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Japser04.jpeg','Jasper'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Japser05.jpeg','Jasper'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Japser06.jpeg','Jasper'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Japser07.jpeg','Jasper'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Japser08.jpeg','Jasper'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Japser09.jpeg','Jasper'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Japser10.jpeg','Jasper'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Japser11.jpeg','Jasper'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Japser12.jpeg','Jasper'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Japser13.jpeg','Jasper'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Japser14.jpeg','Jasper'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Japser15.jpeg','Jasper'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Japser16.jpeg','Jasper'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Japser17.jpeg','Jasper']
+        ],['https://hosting.photobucket.com/images/i/lesaintdumech/Japser08.jpeg','Profile Photo: Jasper'],
+        'So I really loved my previous Charmander build but I gave it away to my best friend for her wedding present that I started to miss it. Then they finally released the Squirtle kit. And I could not just only build Squirtle. I had to have all three of the starters to complete the original starters set. So I had to paint a second Charmander again. Only difference this time is last time I painted with a TurboDork red, but this time I used Mr Hobby Mr Metallic Red. I will admit Mr Metallic is a much easier paint line to paint with.',false,
+        [
+            ['Video','https://youtu.be/dSrjyUYPO5Q'],
+            ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Charmander_(Pokémon)'],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-charmander-11-quick-model-kit?_pos=1&_sid=5226c6cbe&_ss=r'],
+            ['NewType','https://newtype.us/p/kjQjxZgkxDWE1c9nYf1Z/h/pokemon-model-kit-quick-11-charmander']
+        ],['Jade','Cooper'],false,false
+    ],
     ['Vercingetorix',[1,'Charizard'],'Pokemon',
         false,false,false,'','E','2023-03-10',5.99,false,'Builds/Pokemon/Vercingetorix.html',false,'2023-09-04',models[80],
         [
@@ -10779,7 +11140,36 @@ const projects = [
     ['Dogmatix',[1,'Riolu'],'Pokemon',
         false,false,false,'','D','2023-10-03',2.97
     ], 
-    ['Cooper',[1,'Squirtle'],'Pokemon',false,false,false,'','D','2024-06-04',2.17],
+    ['Cooper',[1,'Squirtle'],'Pokemon',
+        false,false,false,'','E','2024-06-04',2.17,false,'Builds/Pokemon/Cooper.html',false,'2024-09-16',models[134],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Cooper01.jpeg','Cooper'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Cooper02.jpeg','Cooper'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Cooper03.jpeg','Cooper'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Cooper04.jpeg','Cooper'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Cooper05.jpeg','Cooper'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Cooper06.jpeg','Cooper'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Cooper07.jpeg','Cooper'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Cooper08.jpeg','Cooper'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Cooper09.jpeg','Cooper'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Cooper10.jpeg','Cooper'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Cooper11.jpeg','Cooper'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Cooper12.jpeg','Cooper'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Cooper13.jpeg','Cooper'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Cooper14.jpeg','Cooper'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Cooper15.jpeg','Cooper'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Cooper16.jpeg','Cooper'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Cooper17.jpeg','Cooper']
+        ],['https://hosting.photobucket.com/images/i/lesaintdumech/Cooper13.jpeg','Profile Photo: Cooper'],
+        'So took Bandai forever to finally release a Squirtle model. Charmander and Bulbasaur have been out for years at this point. But soon as they finally released squirtle I jumped right at the chance to build it and bought the first copy of the kit I saw on the shelf. So for the paint design here I did bit of an experiment. I used Mr Hobby Mr Metallic Blue for the body but for the  shell I tried TurboDork\'s Dark Ritual, which gave it a rich dark spooky purple look. I was not sure how that would come out nor how it would look for a shell. I had not used this Turbo shade prior to this, but as with all their colors this one came out great. I was not disappointed. It really created a rich contrast between the shiny lightness of the blue but then the darkness of the shell with just a hint of light in the shell\'s reflective gleam. I love this combination.',false,
+        [
+            ['Video','https://youtu.be/tB9dmy9CA50'],
+            ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Squirtle_(Pokémon)'],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-plastic-model-collection-quick-17-squirtle'],
+            ['NewType','https://newtype.us/p/Ti0eVe8xLiVkkMzNfrET/h/pokemon-model-kit-quick-17-squirtle'],
+            ['TurboDork: Dark Ritual','https://turbodork.com/products/dark-ritual?variant=40539853914194']
+        ],['Jade','Jasper'],false,false
+    ],
     ['Tusk',[1,'Tepig'],'Pokemon',
         false,false,false,'','D','2023-10-22',3.1
     ], 
@@ -11350,7 +11740,7 @@ const projects = [
     ['Kipling',[1,'Liger Zero X'],'Zoid',false,false,false,'','B'],
 
     //Other
-    ['Voltron',[1,'Voltron'],'Voltron: Defender of the Universe',false,false,false,'','B']
+    ['Voltron',[1,'Voltron'],'Other',false,false,false,'Voltron: Defender of the Universe','B']
 ];
 
 //Initialize Arrays
@@ -12128,7 +12518,7 @@ function generateLists() {
         else if (backlogArray[i][2]=='Zoid') {
             zoidBacklogArray.push(backlogArray[i][0]);
         }
-        else if (backlogArray[i][2]=='Other') {
+        else {
             otherBacklogArray.push(backlogArray[i][0]);
         }
     }
@@ -12186,7 +12576,7 @@ function generateLists() {
         else if (postedArray[i][2]=='Zoid') {
             zoidFinishedArray.push(postedArray[i]);
         }
-        else if (postedArray[i][2]=='Other') {
+        else {
             otherFinishedArray.push(postedArray[i]);
         }
     }
@@ -14433,6 +14823,11 @@ function buildPokemon() {
     unhide('.PokemonPage');
     insertPhoto(modelArray[26],'pkModelPhoto',false,300);
     popNode(modelArray[2],'pkShortName');
+
+    if (modelArray[2]) {
+        popNode(modelArray[2],'modelOtherTitle');
+        popNode(':','modelOtherTitle');
+    }
 
     if (modelArray[4]) {
         unhide('.pkDexNoHD');
