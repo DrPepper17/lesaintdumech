@@ -1519,6 +1519,81 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/nachtigall57.jpeg']
         ]
+    ],
+    [
+        '2024-08-26',
+        'The Nazarene',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE82.jpg',
+        [
+            [
+                'This week\'s post is bit of a passion project to me. Inspired by the Nazarene Christians marked for death by ISIS in the Middle East I present to you ',
+                ['The Nazarene','Builds/Gundams/TheNazarene.html'],
+                '.'
+            ]
+        ],
+        [
+            'The Nazarenes are Middle Eastern Christians living in Lebanon, Syria and Iraq who have been in the land for over two thousand years. During the rise of Isis around 2015 the Nazarenes were marked for death and targeted for ethnic cleansing. Isis tried to wipe them out.'
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/famliyonrun.jpeg']
+        ],
+        [
+            'Worse, even though both the U.N. and North American and European relief agencies sent in teams to assist and evacuate the targeted Muslim communities also being attacked by Isis, the Nazarene community was completely ignored and abandoned by the relief agencies and evenbarred entry by the relief agencies to their refugee camps solely due to their Christian status.'
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/refugees.jpg']
+        ],
+        [
+            'So in response to this travesty and neglect of justice many private independent Christian charities as well as non-Christian concerned citizens throughout the west who care about humanity rallied together and raised money to put together relief and rescue operations of their own and get these targeted Nazarenes out of the Middle East and into host nations throughout Eastern Europe willing to provide them refuge and aslyum. When the world governments decided they would not act, and abondoned these poor people to be wiped out, we rose up and said \'Never Again\' means NEVER AGAIN and that under our watch we would not permit this genocide.'
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/Christians-in-need-of-help.jpg']
+        ],
+        [
+            'We successfully got the Nazarenes out. Over thousands of Middle Eastern Christians and other marked for death Middle Eastern religious minorities we rescued and got out of there. Around 2019 under new leadership the American armed forces finally destroyed much of Isis and made it safe for many Nazarenes to return to their homes and rebuild their lives again.Later in 2021 after the disasterous Afghanistan pullout when the Taliban began to with a swift fury take retake over all of Afghanistan and killing much of its population we rose again to help the Afghannis as well and rescued thousands who had allies of ours during the war and who were in hiding from the Taliban forces, including women and girls who had been marked for death simply for receiving an education. We helped them too and our charities continue to be active tryin to help out in Afghanistan.'
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/nazarenewoman.jpeg']
+        ],
+        [
+            'However with the recent rise in instability in the Middle East, starting with the fall of Afghanistan, the October 7th Massacre on our friends in Israel, the Yemen Houthis obstructing trade though the gulf, and the continued proxy war between Israel and Iran, these war-torn disastrous times have enabled the rise of Isis again. They are quickly on the move and reclaiming much of their old territory that they had lost back in 2017-2019. With this new rise of Isis it is worrisome and unclear the future for the region\'s Nazarene community.'
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/oldwomanworship.jpg']
+        ],
+        [
+            'So I beg of you please educate yourself, read up, and get involved and help the Nazarene community. Please help prevent this new Genocide. I recommend you visit this links:'
+        ],
+        [
+            [
+                '* ',
+                ['Nasarean.org','https://www.nasarean.org',true],
+                ' ~ To learn more about the Nazarene community.'
+            ]
+        ],
+        [
+            [
+                '* ',
+                ['The Nazarene Fund','https://thenazarenefund.org',true],
+                ' ~ Go here to learn how you can get involved and donate money to rescue targeted Middle Eastern minorities'
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/isis.jpg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/sddefault-2.jpg']
+        ],
+        [
+            [
+                'Also, less important than the links above, but as always I ask that you check out this week\'s ',
+                ['Youtube video','https://youtu.be/_RtNSbb1NNQ',true],
+                ', but only after you\'ve checked out the above links first. Saving life is much more important.'
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/nazvideo.jpeg']
+        ]
     ]
 ]
 
