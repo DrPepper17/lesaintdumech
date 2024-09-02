@@ -5673,7 +5673,7 @@ const projects = [
             ['Nasarean.org','https://www.nasarean.org'],
             ['The Nazarene Fund','https://thenazarenefund.org'],
             ['Video','https://youtu.be/_RtNSbb1NNQ']
-        ],['Cordelia','King Leir','Malphas','Leo Army'],true,true,'1:144'
+        ],false,true,true,'1:144'
     ], 
     ['Dobiel',[1,'Gundvolva'],'HG',
         false,false,false,'Mercury','E','2023-08-07',12.7,true,'Builds/Gundams/Dobiel.html','Angels','2023-09-25',models[91],
