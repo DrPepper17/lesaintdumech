@@ -1594,6 +1594,26 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/nazvideo.jpeg']
         ]
+    ],
+    [
+        '2024-09-02',
+        'My Cuz Jasper',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/Japser13.jpeg',
+        [
+            [
+                'I painted a Charmander before and I thought he was really cute. Just the little side-eye look in his face, total adorbs. But I gave that build away. And I started to miss it. So i just had to paint him again. I present to you ',
+                ['Jasper','Builds/Pokemon/Jasper.html'],
+                '.'
+            ]
+        ],
+        [
+            [
+                ['Youtube','https://youtu.be/dSrjyUYPO5Q',true]
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/Japser05.jpeg']
+        ]
     ]
 ]
 

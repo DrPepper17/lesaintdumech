@@ -8176,6 +8176,7 @@ const projects = [
         ],false,false,true,'1:144'
     ],
     ['Oppression',[1,'Infinite Justice'],'MG',false,false,false,'Seed','B'],
+    ['Infinite Justice Type II [HG]',[1,'Infinite Justice Type II'],'HG',true,false,false,'Seed','D','2024-08-30',2.33],
     ['Barbara',[1,'LaGOWE'],'HG',false,false,false,'Seed','B','2024',0,false,'Builds/Gundams/...','First Ladies'],
     ['Zoroaster',[1,'Legend'],'FM',false,false,false,'Seed','B'],
     ['Lightning Striker',[0.5,'Lightning Strike Pack'],'MG',false,true,false,'Seed','B'],
@@ -9083,7 +9084,7 @@ const projects = [
         ],false,false,true,'1:144','God Gundam'
     ],
     ['Michael',[1,'Burning Gundam'],'SD',false,false,false,'G','B','2024',0],
-    ['Furcas',[1,'Dark Army'],'HG',false,false,false,'G','C','2024-08-20',0.85],
+    ['Furcas',[1,'Dark Army'],'HG',false,false,false,'G','C','2024-08-20',2.85],
     ['Malphas',[1,'Dark Army'],'HG',
         false,false,false,'G','E','2022-09-08',5.83,false,'Builds/Gundams/Malphas.html','Ars Goetia','2023-01-23',models[59],
         [
@@ -9108,14 +9109,14 @@ const projects = [
         ],['Cordelia','Dobiel','King Leir','Leo Army'],true,true,'1:144'
     ],
     ['Asmodeus',[1,'Dark Gundam'],'SD',false,false,false,'G','B'],
-    ['Baal',[1,'Dark Gundam'],'HG',false,false,false,'G','C','2024-08-20',1.58],  //Mr Metallic
+    ['Baal',[1,'Dark Gundam'],'HG',false,false,false,'G','C','2024-08-20',4.5],  //Mr Metallic
     ['Balam',[1,'Dark Gundam'],'HG',false,false,false,'G','B'],
     ['Beleth',[1,'Dark Gundam'],'SD',false,false,false,'G','B'],
     ['Belial',[1,'Dark Gundam'],'HG',false,false,false,'G','B'],
     ['Dark Gundam [SD]',[1,'Dark Gundam'],'SD',true,false,false,'G','D','2022-08-07',1.75,false,false,false],
-    ['Paimon',[1,'Dark Gundam'],'SD',false,false,false,'G','C','2024-08-20',1.78],    //Mr Metallic
+    ['Paimon',[1,'Dark Gundam'],'SD',false,false,false,'G','C','2024-08-20',3.62],    //Mr Metallic
     ['Brady',[1,'PB Gundam Maxter'],'HG',
-        false,true,false,'G','C','2024-08-19',4.53,false,'Builds/PBandai/Brady.html',false,'2024',models[137],
+        false,true,false,'G','C','2024-08-19',6.78,false,'Builds/PBandai/Brady.html',false,'2024',models[137],
         [
             ['','Brady']
         ],['','Profile Photo: Brady'],
@@ -10119,7 +10120,7 @@ const projects = [
     ],
     ['Ridley',[1,'Qubeley'],'HG',false,false,false,'UC','A'],
     ['LunchTime Solutions',[1,'RX-78-2'],'RG',false,false,false,'UC','B'],
-    ['Colombo: Santa Maria -n- Santa Clara',[2,'Salamis and Magellan Class'],'Ship',false,false,false,'UC','C','2024-08-21',0.92],
+    ['Colombo: Santa Maria -n- Santa Clara',[0.4,'Salamis and Magellan Class'],'Ship',false,false,false,'UC','C','2024-08-21',2.25],
     ['Starman',[1,'Sazabi'],'SD',
         false,false,false,'UC','E','2021-12-16',5.03,false,'Builds/Gundams/Starman.html',false,'2023-11-07',models[99],
         [
@@ -11039,7 +11040,7 @@ const projects = [
         ],['Obelix','Vercingetorix'],false,true,false
     ],
     ['Jasper',[1,'Charmander'],'Pokemon',
-        false,false,false,'','D','2024-06-04',2.27,false,'Builds/Pokemon/Jasper.html',false,'2024-09-02',models[79],
+        false,false,false,'','E','2024-06-04',2.27,false,'Builds/Pokemon/Jasper.html',false,'2024-09-02',models[79],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Japser01.jpeg','Jasper'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Japser02.jpeg','Jasper'],
@@ -11065,7 +11066,7 @@ const projects = [
             ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Charmander_(Pokémon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-charmander-11-quick-model-kit?_pos=1&_sid=5226c6cbe&_ss=r'],
             ['NewType','https://newtype.us/p/kjQjxZgkxDWE1c9nYf1Z/h/pokemon-model-kit-quick-11-charmander']
-        ],['Jade','Cooper'],false,false
+        ],['Jade','Cooper'],false,true
     ],
     ['Vercingetorix',[1,'Charizard'],'Pokemon',
         false,false,false,'','E','2023-03-10',5.99,false,'Builds/Pokemon/Vercingetorix.html',false,'2023-09-04',models[80],
@@ -11634,7 +11635,7 @@ const projects = [
     ],
     ['Ponente',[1,'Cosmo Zero'],'Ship',false,false,false,'StarBlazer','B'],
     ['Levante',[1,'Nagato'],'Ship',false,false,false,'Space Rengo Kantai','B'],
-    ['Mistral',[1,'Millennium Falcon'],'Ship',
+    ['Mistral',[0.2,'Millennium Falcon'],'Ship',
         false,false,false,'StarWars','E','2024-06-04',2.97,false,'Builds/Ships/Mistral.html','French Winds','2024-08-12',models[133],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/mistral01.jpeg','Mistral'],
@@ -11788,7 +11789,8 @@ const projects = [
     ['Kipling',[1,'Liger Zero X'],'Zoid',false,false,false,'','B'],
 
     //Other
-    ['Voltron',[1,'Voltron'],'Other',false,false,false,'Voltron: Defender of the Universe','B','2024',0]
+    ['Voltron',[1,'Voltron'],'Other',false,false,false,'Voltron: Defender of the Universe','B','2024',0],
+    ['Joe Cool',[1,'Surfing Snoopy'],'Other',false,false,false,'Peanuts','B','2024',0]
 ];
 
 //Initialize Arrays
