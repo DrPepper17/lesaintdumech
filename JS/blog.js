@@ -1614,6 +1614,36 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/Japser05.jpeg']
         ]
+    ],
+    [
+        '2024-09-09',
+        'My Cuz Jade',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/Jade03.jpeg',
+        [
+            [
+                'Last week I repainted Charmander. This week it\'s my Bulbasaur repaint, ',
+                ['Jade','Builds/Pokemon/Jade.html'],
+                '.'
+            ]
+        ],
+        [
+            [
+                'Using Mr Hobby\'s Metallics line, I created a beautiful metallic jade green to represent Bulby\'s body. Plus an experiment with different Vallejo olive, swampy and neon greens to create the lush green bulb on top. It\'s the perfect contrast to my previous Bulbasaur ',
+                ['Obelix','Builds/Pokemon/Obelix.html'],
+                ' which was shiny on top and flat on bottom.'
+            ]
+        ],
+        [
+            'Won\'t lie, these pokemon kits are so simple and basic it\'s sometimes a challenge to push yourself to be creative to do more than just basic paint them. Sometimes they feel like they need a little bit more. As I type this right now I\'m listening to Prince and imagining Jade wearing a little petit rasberry beret. If only they made them that small. Stay tuned, if I manage to find one I will repost.'
+        ],
+        [
+            [
+                ['Youtube','https://youtu.be/3SDwI7SFK1U',true]
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/Jade10.jpeg']
+        ]
     ]
 ]
 

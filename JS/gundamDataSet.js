@@ -5416,12 +5416,12 @@ const projects = [
             'Federation Trooper'
         ],false,true,'1:144',false,false,'Corruption'
     ], 
-    ['The Three Faces of Eve',[3,'Calibarn','Calibarn','Calibarn'],'SD',false,false,false,'Mercury','B','2024',0],
+    ['The Three Faces of Eve',[4,'Calibarn','Calibarn','Calibarn','Calibarn'],'SD',false,false,false,'Mercury','B','2024',0],
     ['Abaddon',[1,'Calibarn'],'HG',false,false,false,'Mercury','D','2023-11-25',18.13],
     ['Arthur',[1,'Calibarn'],'HG',false,false,false,'Mercury','D','2024-03-01',12.44],
     ['Tempest',[1,'Calibarn'],'HG',false,false,false,'Mercury','B','2024-06',0],   //paint in flat red
     ['Calibarn [HG]',[1,'Calibarn'],'HG',true,false,false,'Mercury','D','2023-08-22',2.83,false,false,false],
-    ['Kanden',[1.25,'Darilbalde','P.B. Witch From Mercury Expansion Pack'],'HG',false,true,false,'Mercury','A','202x',0,false,'Builds/Metroid/kanden.html','Metroid'],
+    ['Kanden',[1.25,'Darilbalde','P.B. Witch From Mercury Expansion Pack'],'HG',false,true,false,'Mercury','A','202x',0,false,'Builds/Metroid/Kanden.html','Metroid'],
     ['Azrael',[1,'Dilanza, Guel\'s'],'HG',
         false,false,false,'Mercury','E','2023-01-05',12.14,false,'Builds/Gundams/Azrael.html','Angels','2023-02-27',models[26],
         [
@@ -5831,6 +5831,7 @@ const projects = [
         'After finishing the Bel-Air, I realized there was still a lot I had to learn about air brush painting. So before moving on to the larger projects I decided to do something fun on a much more small scale in order to get a little more practice. Looking for a theme I was inspired by the boys of South Park, plus the Operation Meteor lineup.',
         false,false,false,false,true
     ],
+    ['PB Altron',[1,'PB Altron'],'HG',false,true,false,'Wing','A'],
     ['Gemini',[2,'Aquarius','Aquarius'],'SD',
         false,false,false,'Wing','E','2021-07-05',20.61,false,'Builds/Gundams/Gemini.html','Practice SDs','2022-01-24',models[40],
         [
@@ -6104,6 +6105,7 @@ const projects = [
             ['NewType','https://newtype.us/p/xyX3s81UEQTYgD2wfA49/h/mg-gundam-heavyarms-ew']
         ],false,false,true,'1/100',false,false,false,
     ],
+    ['Leo Assault',[0.5,'PB Leo Full Weapon Set'],'HG',false,true,false,'Wing','A'],
     ['Phoebe',[1,'Maganac Corps'],'SD',
         false,false,false,'Wing','E','2022-04-11',8.42,false,'Builds/Gundams/Phoebe.html','Titans','2024-01-15',models[105],
         [
@@ -6126,6 +6128,7 @@ const projects = [
         ],false,true,true,false,'Rasid Kurama Custom'
 
     ],
+    ['Coheed',[1,'PB Mercurius'],'HG',false,true,false,'Wing','A'],
     ['Isaac',[1,'Proto-Zero'],'SD',
         false,false,false,'Wing','E','2023-02-06',14.14,false,'Builds/Gundams/Isaac.html','Israel','2023-05-10',models[31],
         [
@@ -6344,6 +6347,7 @@ const projects = [
     ['Tallgeese Fl\u00FCgel',
         [1,'Tallgeese Fl\u00FCgel'],'MG',true,true,false,'Wing','D','2022-05-08',20.17,false,'Builds/PBTallgeeseFlugelMG.html',false
     ],
+    ['Cambria',[1,'PB Vayate'],'HG',false,true,false,'Wing','A'],
     ['Bibi',[1,'Wing Gundam'],'HG',false,false,false,'Wing','D','2024-07-08',5.23],
     ['Netanyahu',[1,'Wing Gundam'],'RG',false,false,false,'Wing','A'],
     /*
@@ -8723,6 +8727,7 @@ const projects = [
             ['Premium Bandai','https://p-bandai.com/us/item/N2256565001006']
         ],false,false,true,'1:144',false,'Strike-Freedom (Deactive Mode)','Strike-Freedom'
     ],
+    ['Mighty Strike Freedom [HG]',[1,'Mighty Strike Freedom'],'HG',true,false,false,'Seed','B','2024-09',0],
     ['Battra',[1,'Strike Noir'],'MG',false,false,false,'Seed','B'],
     ['Strike Noir [SD]',[1,'Strike Noir'],'SD',true,false,false,'Seed','E','2021-09-06',2.233,false,false,'2023-07-10'],
     ['Strike Verde',[1,'Strike Noir'],'SD',
@@ -8904,7 +8909,7 @@ const projects = [
     ],
     
     //Future Century (G Gundam)
-    ['King of Hearts',[2,'God Gundam','PB God Gundam Expansion Set','KOSMOS LED Upgrade For RG God Gundam'],'RG',
+    ['King of Hearts',[2,'Burning Gundam','PB God Gundam Expansion Set','KOSMOS LED Upgrade For RG God Gundam'],'RG',
         true,true,false,'G','E','2022-09-07',19,true,'Builds/Specials/KHeart.html',false,'2024-02-14',models[118],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/rgodpbstr01.jpeg','God Gundam'],
@@ -9084,7 +9089,7 @@ const projects = [
         ],false,false,true,'1:144','God Gundam'
     ],
     ['Michael',[1,'Burning Gundam'],'SD',false,false,false,'G','B','2024',0],
-    ['Furcas',[1,'Dark Army'],'HG',false,false,false,'G','C','2024-08-20',2.85],
+    ['Furcas',[1,'Dark Army'],'HG',false,false,false,'G','C','2024-08-20',4.1],
     ['Malphas',[1,'Dark Army'],'HG',
         false,false,false,'G','E','2022-09-08',5.83,false,'Builds/Gundams/Malphas.html','Ars Goetia','2023-01-23',models[59],
         [
@@ -9115,8 +9120,9 @@ const projects = [
     ['Belial',[1,'Dark Gundam'],'HG',false,false,false,'G','B'],
     ['Dark Gundam [SD]',[1,'Dark Gundam'],'SD',true,false,false,'G','D','2022-08-07',1.75,false,false,false],
     ['Paimon',[1,'Dark Gundam'],'SD',false,false,false,'G','C','2024-08-20',3.62],    //Mr Metallic
+    ['Bruce',[1,'PB Dragon Gundam'],'HG',false,true,false,'G','A'],
     ['Brady',[1,'PB Gundam Maxter'],'HG',
-        false,true,false,'G','C','2024-08-19',6.78,false,'Builds/PBandai/Brady.html',false,'2024',models[137],
+        false,true,false,'G','C','2024-08-19',9.28,false,'Builds/PBandai/Brady.html',false,'2024',models[137],
         [
             ['','Brady']
         ],['','Profile Photo: Brady'],
@@ -9218,7 +9224,8 @@ const projects = [
         ],false,true,true,'1:144','The Sun King'
 
     ],
-    ['Gabriel',[1,'Shining Gundam'],'SD',false,false,false,'G','B','2024',0],
+    ['Gabriel',[1,'Shining Gundam'],'SD',false,false,false,'G','B','2024',0],   //Mr Metallic
+    ['Camael',[1,'Shining Gundam'],'SD',false,false,false,'G','B','2024',0],    //Flat
     ['Red Baron',[1,'Spiegel, Gundam'],'MG',
         false,false,false,'G','E','2021-05-05',72.07,true,'Builds/Gundams/RedBaron.html','Hand Paint','2021-05-29',models[2],
         [
@@ -10120,7 +10127,7 @@ const projects = [
     ],
     ['Ridley',[1,'Qubeley'],'HG',false,false,false,'UC','A'],
     ['LunchTime Solutions',[1,'RX-78-2'],'RG',false,false,false,'UC','B'],
-    ['Colombo: Santa Maria -n- Santa Clara',[0.4,'Salamis and Magellan Class'],'Ship',false,false,false,'UC','C','2024-08-21',2.25],
+    ['Colombo: Santa Maria -n- Santa Clara',[0.4,'Salamis and Magellan Class'],'Ship',false,false,false,'UC','C','2024-08-21',8.17],
     ['Starman',[1,'Sazabi'],'SD',
         false,false,false,'UC','E','2021-12-16',5.03,false,'Builds/Gundams/Starman.html',false,'2023-11-07',models[99],
         [
@@ -10980,7 +10987,7 @@ const projects = [
         ],['Asterix'],false,true
     ],
     ['Jade',[1,'Bulbasaur'],'Pokemon',
-        false,false,false,'','D','2024-06-04',2.31,false,'Builds/Pokemon/Jade.html',false,'2024-09-09',models[94],
+        false,false,false,'','E','2024-06-04',2.31,false,'Builds/Pokemon/Jade.html',false,'2024-09-09',models[94],
         [
            ['https://hosting.photobucket.com/images/i/lesaintdumech/Jade01.jpeg','Jade'], 
            ['https://hosting.photobucket.com/images/i/lesaintdumech/Jade02.jpeg','Jade'],
@@ -11002,7 +11009,7 @@ const projects = [
             ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Bulbasaur_(Pokémon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-bulbasaur-13-quick-model-kit'],
             ['NewType','https://newtype.us/p/W2XuUUtpyK4uqkEPD18t/h/pokemon-model-kit-quick-13-bulbasaur']
-        ],['Jasper','Cooper'],false,false
+        ],['Jasper','Cooper'],false,true
     ],
     ['Asterix',[1,'Charmander'],'Pokemon',
         false,false,false,'','E','2023-03-12',3.85,false,'Builds/Pokemon/Asterix.html',false,'2023-08-28',models[79],
@@ -11790,7 +11797,8 @@ const projects = [
 
     //Other
     ['Voltron',[1,'Voltron'],'Other',false,false,false,'Voltron: Defender of the Universe','B','2024',0],
-    ['Joe Cool',[1,'Surfing Snoopy'],'Other',false,false,false,'Peanuts','B','2024',0]
+    ['Joe Cool',[1,'Surfing Snoopy'],'Other',false,false,false,'Peanuts','B','2024',0],
+    ['Red Pill',[1,'USAGS Apex'],'Other',false,false,false,'United States Gundam Store','B','2024',0]
 ];
 
 //Initialize Arrays
