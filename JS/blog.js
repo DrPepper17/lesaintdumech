@@ -1644,6 +1644,26 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/Jade10.jpeg']
         ]
+    ],
+    [
+        '2024-09-16',
+        'My Cuz Cooper',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/Cooper10.jpeg',
+        [
+            [
+                'This week is ',
+                ['Cooper','Builds/Pokemon/Cooper.html'],
+                '. I don\'t know why but Squirtle just gives me a Cooper vibe. And with Cooper I have now completed the Kanto starters trilogy.'
+            ]
+        ],
+        [
+            [
+                ['Youtube','https://youtu.be/tB9dmy9CA50',true]
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/Cooper14.jpeg']
+        ]
     ]
 ]
 

@@ -5673,7 +5673,7 @@ const projects = [
             ['Nasarean.org','https://www.nasarean.org'],
             ['The Nazarene Fund','https://thenazarenefund.org'],
             ['Video','https://youtu.be/_RtNSbb1NNQ']
-        ],false,true,true,'1:144'
+        ],false,false,true,'1:144'
     ], 
     ['Dobiel',[1,'Gundvolva'],'HG',
         false,false,false,'Mercury','E','2023-08-07',12.7,true,'Builds/Gundams/Dobiel.html','Angels','2023-09-25',models[91],
@@ -9088,7 +9088,7 @@ const projects = [
             ['Premium Bandai: RG God Gundam Expansion Set','https://p-bandai.com/us/item/N2619351001001']
         ],false,false,true,'1:144','God Gundam'
     ],
-    ['Michael',[1,'Burning Gundam'],'SD',false,false,false,'G','B','2024',0],
+    ['Michael',[1,'Burning Gundam'],'SD',false,false,false,'G','C','2024-09-13',1.42],
     ['Furcas',[1,'Dark Army'],'HG',false,false,false,'G','C','2024-08-20',4.1],
     ['Malphas',[1,'Dark Army'],'HG',
         false,false,false,'G','E','2022-09-08',5.83,false,'Builds/Gundams/Malphas.html','Ars Goetia','2023-01-23',models[59],
@@ -9224,7 +9224,7 @@ const projects = [
         ],false,true,true,'1:144','The Sun King'
 
     ],
-    ['Gabriel',[1,'Shining Gundam'],'SD',false,false,false,'G','B','2024',0],   //Mr Metallic
+    ['Gabriel',[1,'Shining Gundam'],'SD',false,false,false,'G','C','2024-09-13',2.17],   //Mr Metallic
     ['Camael',[1,'Shining Gundam'],'SD',false,false,false,'G','B','2024',0],    //Flat
     ['Red Baron',[1,'Spiegel, Gundam'],'MG',
         false,false,false,'G','E','2021-05-05',72.07,true,'Builds/Gundams/RedBaron.html','Hand Paint','2021-05-29',models[2],
@@ -10127,7 +10127,7 @@ const projects = [
     ],
     ['Ridley',[1,'Qubeley'],'HG',false,false,false,'UC','A'],
     ['LunchTime Solutions',[1,'RX-78-2'],'RG',false,false,false,'UC','B'],
-    ['Colombo: Santa Maria -n- Santa Clara',[0.4,'Salamis and Magellan Class'],'Ship',false,false,false,'UC','C','2024-08-21',8.17],
+    ['Colombo: Santa Maria -n- Santa Clara',[0.4,'Salamis and Magellan Class'],'Ship',false,false,false,'UC','C','2024-08-21',8.83],
     ['Starman',[1,'Sazabi'],'SD',
         false,false,false,'UC','E','2021-12-16',5.03,false,'Builds/Gundams/Starman.html',false,'2023-11-07',models[99],
         [
@@ -11141,8 +11141,9 @@ const projects = [
             ['NewType','https://newtype.us/p/S9nZ4KxUmzbDoDM0HfDd/h/pokemon-charizard-dragonite']
         ],['Vercingetorix'],true,true,false
     ],
-    ['Beatrice',[1,'Eevee'],'Pokemon',false,false,false,'','D','2024-07-10',1.38,false,'Builds/Pokemon/Beatrice.html',false,'2025',models[131]],
-    ['Bandit',[1,'Eevee'],'Pokemon',false,false,false,'','D','2024-07-10',1.08,false,'Builds/Pokemon/Bandit.html',false,'2025',models[132]],
+    ['Beatrice',[1,'Eevee'],'Pokemon',false,false,false,'','D','2024-07-10',1.38,false,'Builds/Pokemon/Beatrice.html',false,'2025',models[131]],    //Red
+    ['Bandit',[1,'Eevee'],'Pokemon',false,false,false,'','D','2024-07-10',1.08,false,'Builds/Pokemon/Bandit.html',false,'2025',models[132]],    //Blue
+    ['Soporifix',[1,'Entei'],'Pokemon',false,false,false,'','A'],
     ['Astronomix',[1,'Gengar'],'Pokemon',false,false,false,'','D','2023-12-11',2.68],
     ['Granfrog',[1,'Greninja'],'Pokemon',
         false,false,false,false,'E','2021-11-11',5.68,false,'Builds/Pokemon/Granfrog.html',false,'2022-08-17',models[11],
@@ -11177,6 +11178,7 @@ const projects = [
         false,false,false,'','D','2023-10-03',5.09
     ],
     ['Chanticleerix',[1,'Lugia'],'Pokemon',false,false,false,'','D','2023-12-13',4.18],
+    ['Bucolix',[1,'Lunala'],'Pokemon',false,false,false,'','A'],
     ['Unhygienix',[1,'Magikarp'],'Pokemon',false,false,false,'','A'],
     ['Cacofonix',[1,'Metagross'],'Pokemon',
         false,false,false,'','D','2023-09-18',4.54
@@ -11187,7 +11189,7 @@ const projects = [
     ['Polysyllabix',[1,'Mewtwo'],'Pokemon',false,false,false,'','D','2023-11-25',4.83],
     ['Cyrano',[1,'Pikachu'],'Pokemon',false,false,false,'','D','2024-07-05',1.65],
     ['Picanmix',[1,'Piplup'],'Pokemon',false,false,false,'','D','2023-11-25',3.95],
-    ['Postaldistrix',[1,'Raiku'],'Pokemon',false,false,false,'','B'],
+    ['Postaldistrix',[1,'Raiku'],'Pokemon',false,false,false,'','C','2024-09-13',0.67],
     ['Getafix',[1,'Rayquaza'],'Pokemon',
         false,false,false,'','D','2023-09-18',5.74
     ],
@@ -11197,7 +11199,7 @@ const projects = [
     ], 
     ['Tragicomix',[1,'Solgaleo'],'Pokemon',false,false,false,'','B'],
     ['Cooper',[1,'Squirtle'],'Pokemon',
-        false,false,false,'','D','2024-06-04',2.17,false,'Builds/Pokemon/Cooper.html',false,'2024-09-16',models[134],
+        false,false,false,'','E','2024-06-04',2.17,false,'Builds/Pokemon/Cooper.html',false,'2024-09-16',models[134],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Cooper01.jpeg','Cooper'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Cooper02.jpeg','Cooper'],
@@ -11224,8 +11226,9 @@ const projects = [
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-plastic-model-collection-quick-17-squirtle'],
             ['NewType','https://newtype.us/p/Ti0eVe8xLiVkkMzNfrET/h/pokemon-model-kit-quick-17-squirtle'],
             ['TurboDork: Dark Ritual','https://turbodork.com/products/dark-ritual?variant=40539853914194']
-        ],['Jade','Jasper'],false,false
+        ],['Jade','Jasper'],false,true
     ],
+    ['Pacifix',[1,'Suicune'],'Pokemon',false,false,false,'','B'],
     ['Tusk',[1,'Tepig'],'Pokemon',
         false,false,false,'','D','2023-10-22',3.1
     ], 
@@ -11798,7 +11801,7 @@ const projects = [
     //Other
     ['Voltron',[1,'Voltron'],'Other',false,false,false,'Voltron: Defender of the Universe','B','2024',0],
     ['Joe Cool',[1,'Surfing Snoopy'],'Other',false,false,false,'Peanuts','B','2024',0],
-    ['Red Pill',[1,'USAGS Apex'],'Other',false,false,false,'United States Gundam Store','B','2024',0]
+    ['Red Pill',[1,'USAGS Apex'],'Other',false,false,false,'United States Gundam Store','C','2024-09-10',1.5]
 ];
 
 //Initialize Arrays
