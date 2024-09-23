@@ -1016,7 +1016,7 @@ const models = [
     [26,1,'Guel\'s Dilanza',
         'MD-0032G Guel\'s Dilanza',
         'MD-0032G',
-        'Mobile Suit Gundam the Witch from Mercury',
+        'Mobile Suit Gundam The Witch from Mercury',
         false, 
         ['MD-0021 Desultor','MD-0031 Dilanza'],
         ['MD-0064 Darilbalde'],
@@ -2832,7 +2832,7 @@ const models = [
         'Zabanya'
     ],
     [72,1,'Shin Musha Gundam',
-        false,
+        'Shin Musha',
         false,
         'Gundam Musou',
         false,
@@ -3556,7 +3556,7 @@ const models = [
     [91,1,'Gundv\u00F6lva',
         'EDM-GB Gundv\u00F6lva',
         'EDM-GB',
-        'Mobile Suit Gundam the Witch from Mercury',
+        'Mobile Suit Gundam The Witch from Mercury',
         false,
         ['XGF-01 Gundam Lfrith Pre-Production Model'],
         false,
@@ -3568,7 +3568,7 @@ const models = [
         ['Dawn of Fold'],
         [18.5,'18.5 Meters'],           //Height
         [42.9,'42.9 Metric Tons'],        //Weight
-        false,
+        'GUND FORMAT',
         false,
         [
             'Shell Unit'
@@ -3579,7 +3579,7 @@ const models = [
             'Beam Saber'
         ],
         [
-            'Gund Format'
+            'GUND FORMAT'
         ],
         'Takayuki Yanase',
         false,
@@ -4129,7 +4129,7 @@ const models = [
     [106,1,'Dilanza',
         'MD-0031 Dilanza',
         'MD-0031',
-        'Mobile Suit Gundam the Witch from Mercury',
+        'Mobile Suit Gundam The Witch from Mercury',
         false, 
         ['MD-0021 Desultor'],
         [
@@ -4873,7 +4873,7 @@ const models = [
     [127,1,'Beguir-Pente',
         'CEK-077 Beguir-Pente',
         'CEK-077',
-        'Mobile Suit Gundam The Witch From Mercury',
+        'Mobile Suit Gundam The Witch from Mercury',
         false,    
         ['CEK-040 Beguir-Beu'],
         false,
@@ -4910,7 +4910,7 @@ const models = [
     [128,1,'Suletta',
         'Suletta Mercury',
         false,
-        'Mobile Suit Gundam The Witch From Mercury',
+        'Mobile Suit Gundam The Witch from Mercury',
         false,
         ['Ericht Samaya'],
         false,
@@ -5280,6 +5280,324 @@ const models = [
         true,           //boolean
         [137],
         'Maxter'              //Only if base source
+    ],
+    [138,1,'Gundam Lfrith',
+        'XGF-02 Gundam Lfrith',
+        'XGF-02',
+        'Mobile Suit Gundam The Witch from Mercury',
+        false,
+        ['XGF-01 Gundam Lfrith Pre-Production Model'],
+        ['XVX-016 Gundam Aerial'],
+        'Ad Stella',
+        [101,'101 Ad Stella',101],
+        'Elnora Samaya',
+        ['Ericht Samaya'],
+        'Vanadis Institute',
+        ['Vanadis Institute','Ochs Earth'],
+        [18,'18.0 Meters'],           //Height
+        [49.3,'49.3 Metric Tons'],        //Weight
+        'GUND FORMAT',
+        false,
+        [
+            'Shell Unit',
+            'Beam Vulcan (x2)'
+        ],
+        [
+            'GUND-BITs (x7)',
+            'Compo GUND-BIT Shield',
+            'Beam Saber (x2)',
+            'Receiver Gun',
+            'Receiever Gun / Beam Blade',
+            'Receiever Gun / GUND-BIT Rifle'
+        ],
+        [
+            'SYS ver. 2.0'
+        ],
+        'JNTHED',
+        false,                //boolean
+        'LF-03',
+        false,            //boolean
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/lfrith.jpeg','Gundam Lfrith'],
+        true,           //boolean
+        [138,141],
+        'Lfrith'              //Only if base source
+    ],
+    [139,1,'Gundam Lfrith Jiu',
+        'XGF-01 Gundam Lfrith Jiu',
+        'XGF-01 [II3]',
+        'Mobile Suit Gundam The Witch from Mercury',
+        false,    //boolean
+        ['XGF-01 Gundam Lfrith Pre-Production Model'],
+        false,
+        'Ad Stella',
+        [106,'106 Ad Stella','Present'],
+        'Kiyu Lavot',
+        false,
+        'Vanadis Institute',
+        ['Vanadis Institute','Ochs Earth'],
+        [18.8,'18.8 Meters'],           //Height
+        [37.8,'37.8 Metric Tons'],        //Weight
+        'GUND FORMAT',
+        false,
+        [
+            'Shell Unit'
+        ],
+        [
+            'Tiger Hand'
+        ],
+        false,
+        'Kanetake Ebikawa',
+        false,                //boolean
+        false,
+        false,            //boolean
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/lfrithjiu.jpeg','Gundam Lfrith Jiu'],
+        true,           //boolean
+        [138],
+    ],
+    [140,1,'Gundam Lfrith Anavata',
+        'AVP-03 Gundam Lfrith Anavata',
+        'AVP-03',
+        'Mobile Suit Gundam The Witch from Mercury',
+        false,    //boolean
+        ['XGF-01 Gundam Lfrith Pre-Production Model'],
+        false,
+        'Ad Stella',
+        [106,'106 Ad Stella','Present'],
+        'Yoshika',
+        false,
+        'Vanadis Institute',
+        ['Vanadis Institute','Ochs Earth'],
+        [18.2,'18.2 Meters'],           //Height
+        [44.7,'44.7 Metric Tons'],        //Weight
+        'GUND FORMAT',
+        false,
+        [
+            'Shell Unit',
+            'Beam Gun (x2)'
+        ],
+        [
+            'Gurenge',
+            'Narukami'
+        ],
+        [
+            'Hover Unit (x2)',
+            'Electricity Emitter (x2)' 
+        ],
+        'Ippei Gyoubu',
+        false,                //boolean
+        false,
+        false,            //boolean
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/anavataoverworld.jpeg','Gundam Lfrith Anavata'],
+        true,           //boolean
+        [138]
+    ],
+    [141,1,'Gundam Aerial',
+        'XVX-016 Gundam Aerial',
+        'XVX-016',
+        'Mobile Suit Gundam The Witch from Mercury',
+        false,    //boolean
+        ['XGF-02 Gundam Lfrith'],
+        ['XVX-016RN Gundam Aerial Rebuild','MDX-0003 Gundam Schwarzette'],
+        'Ad Stella',
+        [102,'102 Ad Stella',122],
+        'Suletta Mercury',
+        ['Ericht Samaya','Miorine Rembran','Elan Ceres (Enhanced Person no. IV)'],
+        'Shin Sei Corporation',
+        [
+            'Propsera Mercury',
+            'Earth House',
+            'GUND-ARM, Inc',
+            'Asticassia School of Technology'
+        ],
+        [18,'18.0 Meters'],           //Height
+        [43.9,'43.9 Metric Tons'],        //Weight
+        'GUND-FORMAT',
+        false,
+        [
+            'Shell Unit',
+            'Head Beam Vulcan (x2)',
+            'Permet Painted Armor',
+            'Fin Thruster'
+        ],
+        [
+            'Beam Saber (x2)',
+            'GUND-BITS (x11)',
+            'GUND-BIT: Escutcheon',
+            'Beam Rifle',
+            'Beam Rifle: Beam Blade',
+            'Beam Rifle: GUND-BIT Long Barrel Beam Rifle',
+            'Optional: Mirasoul Flight Unit'
+        ],
+        [
+            'SYS ver. ES (Ericht Samaya)'
+        ],
+        'JNTHED',
+        false,                //boolean
+        'Permet Code: S011-0093',
+        false,            //boolean
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/aerialoriginal.jpeg','Gundam Aerial'],
+        true,           //boolean
+        [141],
+        'Aerial'              //Only if base source
+    ],
+    [142,1,'Gundam Aerial Rebuild',
+        'XVX-016RN Gundam Aerial Rebuild',
+        'XVX-016RN',
+        'Mobile Suit Gundam The Witch from Mercury',
+        false,    //boolean
+        ['XVX-016 Gundam Aerial'],
+        false,
+        'Ad Stella',
+        [122,'122 Ad Stella',122],
+        'Suletta Mercury',
+        ['Ericht Samaya','Prospera Mercury'],
+        'Shin Sei Corporation',
+        [
+            'Shin Sei Corporation',
+            'Earth House',
+            'GUND-ARM, Inc',
+            'Asticassia School of Technology',
+            'Jeturk Heavy Machinery',
+            'Quiet Zero'
+        ],
+        [18.2,'18.2 Meters'],           //Height
+        [53.2,'53.2 Metric Tons'],        //Weight
+        'GUND-FORMAT',
+        false,
+        [
+            'Shell Unit',
+            'Head Beam Vulcan (x2)',
+            'Permet Painted Armor'
+        ],
+        [
+            'Beam Saber (x2)',
+            'GUND-BITS (x11)',
+            'GUND-BIT: Escutcheon',
+            'Beam Rifle',
+            'Beam Rifle: GUND-BIT Cannon'
+        ],
+        [
+            'SYS ver. ES (Ericht Samaya)'
+        ],
+        'JNTHED',
+        false,                //boolean
+        'Ericht Samaya',
+        false,            //boolean
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/aerialrebuild.jpeg','Gundam Aerial Rebuild'],
+        true,           //boolean
+        [141]
+    ],
+    [143,1,'Gundnode',
+        'XGF-E3 Gundnode',
+        'XGF-E3',
+        'Mobile Suit Gundam The Witch from Mercury',
+        false,    //boolean
+        false,
+        false,
+        'Ad Stella',
+        [122,'122 Ad Stella',122],
+        'Ericht Samaya',
+        ['Repli-Children'],
+        'Shin Sei Corporation',
+        ['Shin Sei Corporation','Quiet Zero'],
+        [18.9,'18.9 Meters'],           //Height
+        [44.1,'44.1 Metric Tons'],        //Weight
+        'GUND-FORMAT',
+        false,
+        [
+            'Shell Unit',
+            'Beam Blade (x2)'
+        ],
+        [
+            'Beam Rev Rifle'
+        ],
+        false,
+        'Kanetake Ebikawa',
+        false,                //boolean
+        false,
+        false,            //boolean
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/gundnode.jpeg','Gundnode'],
+        false,           //boolean
+        [143],
+        'Gundnode'              //Only if base source
+    ],
+    [144,1,'Gundam Calibarn',
+        'X-EX01 Gundam Calibarn',
+        'X-EX01',
+        'Mobile Suit Gundam The Witch from Mercury',
+        false,    //boolean
+        false,
+        false,
+        'Ad Stella',
+        [101,'101 Ad Stella',122],
+        'Suletta Mercury',
+        false,
+        'Ochs Earth Corporation',
+        [
+            'Ochs Earth Corporation',
+            'Vanadis Institute',
+            'Space Assembly League',
+            'Earth House'
+        ],
+        [18.2,'18.2 Meters'],           //Height
+        [44.7,'44.7 Metric Tons'],        //Weight
+        'GUND-FORMAT',
+        false,
+        [
+            'Shell Unit',
+            'Beam Vulcan (x2)'
+        ],
+        [
+            'Beam Saber (x2)',
+            'Variable Rod Rifle'
+        ],
+        false,
+        'JNTHED',
+        false,                //boolean
+        'The Monster',
+        false,            //boolean
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/IMG_6432.JPG','Gundam Calibarn'],
+        true,           //boolean
+        [144],
+        'Calibarn'              //Only if base source
+    ],
+    [145,1,'Gundam Schwarzette',
+        'MDX-0003 Gundam Schwarzette',
+        'MDX-0003',
+        'Mobile Suit Gundam The Witch From Mercury',
+        false,    //boolean
+        ['MX-0064 Darilbalde','XVX-016 Gundam Aerial'],
+        false,
+        'Ad Stella',
+        [122,'122 Ad Stella',122],
+        'Lauda Neill',
+        ['Ericht Samaya'],
+        'Jeturk Heavy Machinery',
+        ['Jeturk House'],
+        [18.7,'18.7 Meters'],           //Height
+        [73.3,'73.3 Metric Tons'],        //Weight
+        'GUND-FORMAT',
+        false,
+        [
+            'Shell Unit',
+            'Beam Vulcan (x2)',
+            'Arm Launcher (x2)'
+        ],
+        [
+            'GUND-BITS (x6)',
+            'Beam Blade'
+        ],
+        [
+            'Guardian'
+        ],
+        'Ippei Gyoubu',
+        false,                //boolean
+        false,
+        false,            //boolean
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/schwarzette.jpeg','Gundam Scwarzette'],
+        true,           //boolean
+        [145],
+        'Schwarzette'              //Only if base source
     ]
 ];
 
@@ -5334,14 +5652,223 @@ const models = [
 //Pojects
 const projects = [
     //Ad Stella (Mercury)
-    ['Chimkin',[1,'Aerial'],'FM',false,false,false,'Mercury','D','2024-01-05',27.29],
-    ['Aerial [HG]',[1,'Aerial'],'HG',true,false,false,'Mercury','D','2023-05-30',7.42,false,false,false],
-    ['PB Aerial Permet Six [HG]',[1,'Aerial'],'HG',true,true,false,'Mercury','D','2023-09-19',2.83],
-    ['Ariel',[1.5,'Aerial','Mirasoul Flight Pack'],'HG',false,false,false,'Mercury','D','2023-12-10',12.03],
-    ['Morgause',[1,'Aerial'],'HG',false,false,false,'Mercury','D','2024-02-16',7.64],
-    ['Cherub',[1,'Aerial'],'SD',false,false,false,'Mercury','D','2023-01-10',4.91,false,'Builds/Cherub.html','Angels'],
-    ['Zephon',[1,'Aerial Rebuild'],'HG',false,false,false,'Mercury','D','2023-11-25',16.15],
-    ['Aerial Rebuild [HG]',[1,'Aerial Rebuild'],'HG',true,false,false,'Mercury','D','2024-06-02',1.42],
+    ['Chimkin',[1,'Aerial'],'FM',
+        false,false,false,'Mercury','E','2024-01-05',27.29,false,'Builds/Gundams/Chimkin.html',false,'2024-11-11',models[141],
+        [
+            ['','Chimkin']
+        ],
+        ['','Profile Photo: '],
+        'Description:',false,
+        [
+            ['Video',''],
+            ['USA Gundam Store',''],
+            ['NewType','']
+        ],false,true,false,'1:100'
+    ],
+    ['Aerial [HG]',[1,'Aerial'],'HG',
+        true,false,false,'Mercury','E','2023-05-30',7.42,false,'Builds/Specials/AerialHGStr.html',false,'2024-10-28',models[141],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/hgaerialstr01.jpeg','HG Aerial Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/hgaerialstr02.jpeg','HG Aerial Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/hgaerialstr03.jpeg','HG Aerial Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/hgaerialstr04.jpeg','HG Aerial Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/hgaerialstr05.jpeg','HG Aerial Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/hgaerialstr06.jpeg','HG Aerial Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/hgaerialstr07.jpeg','HG Aerial Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/hgaerialstr08.jpeg','HG Aerial Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/hgaerialstr09.jpeg','HG Aerial Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/hgaerialstr10.jpeg','HG Aerial Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/hgaerialstr11.jpeg','HG Aerial Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/hgaerialstr12.jpeg','HG Aerial Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/hgaerialstr13.jpeg','HG Aerial Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/hgaerialstr14.jpeg','HG Aerial Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/hgaerialstr15.jpeg','HG Aerial Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/hgaerialstr16.jpeg','HG Aerial Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/hgaerialstr17.jpeg','HG Aerial Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/hgaerialstr18.jpeg','HG Aerial Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/hgaerialstr19.jpeg','HG Aerial Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/hgaerialstr20.jpeg','HG Aerial Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/hgaerialstr21.jpeg','HG Aerial Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/hgaerialstr22.jpeg','HG Aerial Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/hgaerialstr23.jpeg','HG Aerial Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/hgaerialstr24.jpeg','HG Aerial Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/hgaerialstr25.jpeg','HG Aerial Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/hgaerialstr26.jpeg','HG Aerial Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/hgaerialstr27.jpeg','HG Aerial Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/hgaerialstr28.jpeg','HG Aerial Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/hgaerialstr29.jpeg','HG Aerial Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/hgaerialstr30.jpeg','HG Aerial Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/hgaerialstr31.jpeg','HG Aerial Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/hgaerialstr32.jpeg','HG Aerial Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/hgaerialstr33.jpeg','HG Aerial Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/hgaerialstr34.jpeg','HG Aerial Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/hgaerialstr35.jpeg','HG Aerial Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/hgaerialstr36.jpeg','HG Aerial Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/hgaerialstr37.jpeg','HG Aerial Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/hgaerialstr38.jpeg','HG Aerial Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/hgaerialstr39.jpeg','HG Aerial Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/hgaerialstr40.jpeg','HG Aerial Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/hgaerialstr41.jpeg','HG Aerial Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/hgaerialstr42.jpeg','HG Aerial Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/hgaerialstr43.jpeg','HG Aerial Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/hgaerialstr44.jpeg','HG Aerial Straight']
+        ],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/hgaerialstr08.jpeg','Profile Photo: Aerial HG'],
+        'I normally do not post straight builds, outside of P-Bandai. And this started out as a pure straight build. But out of boredom I disassembled the the entire HG Aerial and painted all the pieces with the gundam paint markers. Okay it was not just boredom but also an experiment to try the markers out. I do think I do prefer painting with the paint brush best. But the nice think of the markers is they do not add such an extra diameter to the plastic, thereby not obstructing how they fit together as paint from the airbrush does. But I still prefer my Iwata over the markers. Interpret from this as you wish.',false,
+        [
+            ['Markers','https://www.usagundamstore.com/products/gundam-metallic-marker-set-ams121'],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/hgtwfm-1-144-03-gundam-aerial'],
+            ['NewType','https://newtype.us/p/SLQANOrlxQEO4a9t3lJ7/h/hgwfm-03-gundam-aerial']
+        ],false,false,false,'1:144'
+    ],
+    ['PB Aerial Permet Six [HG]',[1,'Aerial'],'HG',
+        true,true,false,'Mercury','E','2023-09-19',2.83,false,'Builds/PBandai/PBPermet6Aerial.html',false,'2024-10-31',models[141],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbaerialpermsix01.jpeg','PB Aerial Permet Six'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbaerialpermsix02.jpeg','PB Aerial Permet Six'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbaerialpermsix03.jpeg','PB Aerial Permet Six'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbaerialpermsix04.jpeg','PB Aerial Permet Six'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbaerialpermsix05.jpeg','PB Aerial Permet Six'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbaerialpermsix06.jpeg','PB Aerial Permet Six'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbaerialpermsix07.jpeg','PB Aerial Permet Six'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbaerialpermsix08.jpeg','PB Aerial Permet Six'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbaerialpermsix09.jpeg','PB Aerial Permet Six'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbaerialpermsix10.jpeg','PB Aerial Permet Six'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbaerialpermsix11.jpeg','PB Aerial Permet Six'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbaerialpermsix12.jpeg','PB Aerial Permet Six'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbaerialpermsix13.jpeg','PB Aerial Permet Six'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbaerialpermsix14.jpeg','PB Aerial Permet Six'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbaerialpermsix15.jpeg','PB Aerial Permet Six'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbaerialpermsix16.jpeg','PB Aerial Permet Six'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbaerialpermsix17.jpeg','PB Aerial Permet Six'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbaerialpermsix18.jpeg','PB Aerial Permet Six'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbaerialpermsix19.jpeg','PB Aerial Permet Six'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbaerialpermsix20.jpeg','PB Aerial Permet Six'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbaerialpermsix21.jpeg','PB Aerial Permet Six'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbaerialpermsix22.jpeg','PB Aerial Permet Six'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbaerialpermsix23.jpeg','PB Aerial Permet Six'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbaerialpermsix24.jpeg','PB Aerial Permet Six'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbaerialpermsix25.jpeg','PB Aerial Permet Six'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbaerialpermsix26.jpeg','PB Aerial Permet Six'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbaerialpermsix27.jpeg','PB Aerial Permet Six'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbaerialpermsix28.jpeg','PB Aerial Permet Six'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbaerialpermsix29.jpeg','PB Aerial Permet Six'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbaerialpermsix30.jpeg','PB Aerial Permet Six'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbaerialpermsix31.jpeg','PB Aerial Permet Six'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbaerialpermsix32.jpeg','PB Aerial Permet Six'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbaerialpermsix33.jpeg','PB Aerial Permet Six'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbaerialpermsix34.jpeg','PB Aerial Permet Six'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbaerialpermsix35.jpeg','PB Aerial Permet Six'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbaerialpermsix36.jpeg','PB Aerial Permet Six'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbaerialpermsix37.jpeg','PB Aerial Permet Six'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbaerialpermsix38.jpeg','PB Aerial Permet Six'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbaerialpermsix39.jpeg','PB Aerial Permet Six'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbaerialpermsix40.jpeg','PB Aerial Permet Six'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbaerialpermsix41.jpeg','PB Aerial Permet Six'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbaerialpermsix42.jpeg','PB Aerial Permet Six'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbaerialpermsix43.jpeg','PB Aerial Permet Six'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbaerialpermsix44.jpeg','PB Aerial Permet Six'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbaerialpermsix45.jpeg','PB Aerial Permet Six'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbaerialpermsix46.jpeg','PB Aerial Permet Six'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbaerialpermsix47.jpeg','PB Aerial Permet Six'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbaerialpermsix48.jpeg','PB Aerial Permet Six'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbaerialpermsix49.jpeg','PB Aerial Permet Six'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbaerialpermsix50.jpeg','PB Aerial Permet Six'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbaerialpermsix51.jpeg','PB Aerial Permet Six'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbaerialpermsix52.jpeg','PB Aerial Permet Six']
+        ],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/pbaerialpermsix15.jpeg','Profile Photo: PB Aerial Permet Six'],
+        'Saw this on P-Bandai\'s website and had to have it. Not that different than a standard HG Aerial. Just cooler more cosmic shade of colors.',false,
+        [
+            ['Premium Bandai','https://p-bandai.com/us/item/N2687957001002']
+        ],false,false,false,'1:144',false,'Aerial Permet Six','PB Aerial Permet Six'
+    ],
+    ['Ariel',[1.5,'Aerial','Mirasoul Flight Pack'],'HG',
+        false,false,false,'Mercury','E','2023-12-10',12.03,false,'Builds/Gundams/Ariel.html','Angels','2024-11-04',models[141],
+        [
+            ['','Ariel']
+        ],
+        ['','Profile Photo: Ariel'],
+        'Description:',false,
+        [
+            ['Video',''],
+            ['Ariel',''],
+            ['USA Gundam Store: Aerial','https://www.usagundamstore.com/products/hgtwfm-1-144-03-gundam-aerial'],
+            ['USA Gundam Store: Mirasoul Flight Unit','https://www.usagundamstore.com/products/hgtwfm-1-144-13-mirasoul-flight-unit'],
+            ['NewType: Aerial','https://newtype.us/p/SLQANOrlxQEO4a9t3lJ7/h/hgwfm-03-gundam-aerial'],
+            ['NewType: Mirasoul Flight Unit','https://newtype.us/p/4HOovJ14CQS8nGAftM5T/h/hgwfm-13-mirasoul-flight-unit']
+        ],false,true,false,'1:144'
+    ],
+    ['Morgause',[1,'Aerial'],'HG',
+        false,false,false,'Mercury','E','2024-02-16',7.64,false,'Builds/Gundams/Morgause.html',false,'2025-02-24',models[141],
+        [
+            ['','Morgause']
+        ],
+        ['','Profile Photo: Morgause'],
+        'Description:',false,
+        [
+            ['Video',''],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/hgtwfm-1-144-03-gundam-aerial'],
+            ['NewType','https://newtype.us/p/SLQANOrlxQEO4a9t3lJ7/h/hgwfm-03-gundam-aerial']
+        ],false,true,false,'1:144'
+    ],
+    ['Cherub',[1,'Aerial'],'SD',
+        false,false,false,'Mercury','E','2023-01-10',4.91,false,'Builds/Gundams/Cherub.html','Angels','2024-10-21',models[141],
+        [
+            ['','Cherub']
+        ],
+        ['','Profile Photo: '],
+        'Description:',false,
+        [
+            ['Video',''],
+            ['USA Gundam Store',''],
+            ['NewType','']
+        ],false,true,false
+    ],
+    ['Zephon',[1,'Aerial Rebuild'],'HG',
+        false,false,false,'Mercury','E','2023-11-25',16.15,false,'Builds/Gundams/Zephon.html','Angels','2024-11-21',models[142],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/arrnhgstr01.jpeg','HG Aerial Rebuild Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/arrnhgstr02.jpeg','HG Aerial Rebuild Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/arrnhgstr03.jpeg','HG Aerial Rebuild Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/arrnhgstr04.jpeg','HG Aerial Rebuild Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/arrnhgstr05.jpeg','HG Aerial Rebuild Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/arrnhgstr06.jpeg','HG Aerial Rebuild Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/arrnhgstr07.jpeg','HG Aerial Rebuild Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/arrnhgstr08.jpeg','HG Aerial Rebuild Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/arrnhgstr09.jpeg','HG Aerial Rebuild Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/arrnhgstr10.jpeg','HG Aerial Rebuild Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/arrnhgstr11.jpeg','HG Aerial Rebuild Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/arrnhgstr12.jpeg','HG Aerial Rebuild Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/arrnhgstr13.jpeg','HG Aerial Rebuild Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/arrnhgstr14.jpeg','HG Aerial Rebuild Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/arrnhgstr15.jpeg','HG Aerial Rebuild Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/arrnhgstr16.jpeg','HG Aerial Rebuild Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/arrnhgstr17.jpeg','HG Aerial Rebuild Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/arrnhgstr18.jpeg','HG Aerial Rebuild Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/arrnhgstr19.jpeg','HG Aerial Rebuild Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/arrnhgstr20.jpeg','HG Aerial Rebuild Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/arrnhgstr21.jpeg','HG Aerial Rebuild Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/arrnhgstr22.jpeg','HG Aerial Rebuild Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/arrnhgstr23.jpeg','HG Aerial Rebuild Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/arrnhgstr24.jpeg','HG Aerial Rebuild Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/arrnhgstr25.jpeg','HG Aerial Rebuild Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/arrnhgstr26.jpeg','HG Aerial Rebuild Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/arrnhgstr27.jpeg','HG Aerial Rebuild Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/arrnhgstr28.jpeg','HG Aerial Rebuild Straight'],
+            ['','Zephon']
+        ],
+        ['','Profile Photo: Zephon'],
+        '.......Description.......',false,
+        [
+            ['Video',''],
+            ['Zephon','https://angelology.fandom.com/wiki/Zephon'],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/hg-1-144-gundam-aerial-rebuild'],
+            ['NewType','https://newtype.us/p/ZM6N7Ve4JelPGu1Hm88F/h/hgwfm-19-gundam-aerial-rebuild'],
+            ['TurboDork: Afterburner','https://turbodork.com/collections/all-paints/products/afterburner-1']
+        ],false,true,false,'1:144'
+    ],
+    ['Aerial Rebuild [HG]',[1,'Aerial Rebuild'],'HG',true,false,false,'Mercury','E','2024-06-02',1.42,false,false,false,'2024-11-18'],
     ['Rundas',[1,'Beguir-Beu'],'HG',false,false,false,'Mercury','A','202x',0,false,'Builds/Metroid/Rundas.html','Metroid'],
     ['Beguir-Beu [HG]',[1,'Beguir-Beu'],'HG',true,false,false,'Mercury','E','2024-08-17',1,false,false,false,'2024-08-20'],
     ['Dark Samus: Corruption',[1,'Beguir-Pente'],'HG',
@@ -5416,11 +5943,99 @@ const projects = [
             'Federation Trooper'
         ],false,true,'1:144',false,false,'Corruption'
     ], 
-    ['The Three Faces of Eve',[4,'Calibarn','Calibarn','Calibarn','Calibarn'],'SD',false,false,false,'Mercury','B','2024',0],
-    ['Abaddon',[1,'Calibarn'],'HG',false,false,false,'Mercury','D','2023-11-25',18.13],
-    ['Arthur',[1,'Calibarn'],'HG',false,false,false,'Mercury','D','2024-03-01',12.44],
+    ['Faces of Eve',[4,'Calibarn','Calibarn','Calibarn','Calibarn'],'SD',
+        false,false,false,'Mercury','B','2024',0,false,'Builds/Gundams/4EVES.html',false,'2024-12-13',models[144],
+        [
+            ['','']
+        ],
+        ['','Profile Photo: '],
+        'Description:',false,
+        [
+            ['Video',''],
+            ['USA Gundam Store',''],
+            ['NewType','']
+        ],false,true,false
+    ],
+    ['Abaddon',[1,'Calibarn'],'HG',
+        false,false,false,'Mercury','E','2023-11-25',18.13,false,'Builds/Gundams/Abaddon.html','Angels','2024-12-05',models[144],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/calibarnstrhg01.jpeg','HG Calibarn Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/calibarnstrhg02.jpeg','HG Calibarn Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/calibarnstrhg03.jpeg','HG Calibarn Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/calibarnstrhg04.jpeg','HG Calibarn Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/calibarnstrhg05.jpeg','HG Calibarn Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/calibarnstrhg06.jpeg','HG Calibarn Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/calibarnstrhg07.jpeg','HG Calibarn Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/calibarnstrhg08.jpeg','HG Calibarn Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/calibarnstrhg09.jpeg','HG Calibarn Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/calibarnstrhg10.jpeg','HG Calibarn Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/calibarnstrhg11.jpeg','HG Calibarn Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/calibarnstrhg12.jpeg','HG Calibarn Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/calibarnstrhg13.jpeg','HG Calibarn Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/calibarnstrhg14.jpeg','HG Calibarn Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/calibarnstrhg15.jpeg','HG Calibarn Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/calibarnstrhg16.jpeg','HG Calibarn Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/calibarnstrhg17.jpeg','HG Calibarn Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/calibarnstrhg18.jpeg','HG Calibarn Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/calibarnstrhg19.jpeg','HG Calibarn Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/calibarnstrhg20.jpeg','HG Calibarn Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/calibarnstrhg21.jpeg','HG Calibarn Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/calibarnstrhg22.jpeg','HG Calibarn Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/calibarnstrhg23.jpeg','HG Calibarn Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/calibarnstrhg24.jpeg','HG Calibarn Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/calibarnstrhg25.jpeg','HG Calibarn Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/calibarnstrhg26.jpeg','HG Calibarn Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/calibarnstrhg27.jpeg','HG Calibarn Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/calibarnstrhg28.jpeg','HG Calibarn Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/calibarnstrhg29.jpeg','HG Calibarn Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/calibarnstrhg30.jpeg','HG Calibarn Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/calibarnstrhg31.jpeg','HG Calibarn Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/calibarnstrhg32.jpeg','HG Calibarn Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/calibarnstrhg33.jpeg','HG Calibarn Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/calibarnstrhg34.jpeg','HG Calibarn Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/calibarnstrhg35.jpeg','HG Calibarn Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/calibarnstrhg36.jpeg','HG Calibarn Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/calibarnstrhg37.jpeg','HG Calibarn Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/calibarnstrhg38.jpeg','HG Calibarn Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/calibarnstrhg39.jpeg','HG Calibarn Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/calibarnstrhg40.jpeg','HG Calibarn Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/calibarnstrhg41.jpeg','HG Calibarn Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/calibarnstrhg42.jpeg','HG Calibarn Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/calibarnstrhg43.jpeg','HG Calibarn Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/calibarnstrhg44.jpeg','HG Calibarn Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/calibarnstrhg45.jpeg','HG Calibarn Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/calibarnstrhg46.jpeg','HG Calibarn Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/calibarnstrhg47.jpeg','HG Calibarn Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/calibarnstrhg48.jpeg','HG Calibarn Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/calibarnstrhg49.jpeg','HG Calibarn Straight'],
+            ['','Abaddon']
+        ],
+        ['','Profile Photo: Abaddon'],
+        'Description:',false,
+        [
+            ['Video',''],
+            ['Abaddon','https://en.wikipedia.org/wiki/Abaddon'],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/mobile-suit-gundam-the-witch-from-mercury-new-product-b-tentative'],
+            ['NewType','https://newtype.us/p/ubZ7MYRvQHJJwuKaUZL3/h/hgwfm-26-gundam-calibarn'],
+            ['TurboDork: All That Glitters','https://turbodork.com/products/all-that-glitters-1'],
+            ['TurboDork: Sparkle Motion','https://turbodork.com/products/sparkle-motion-1']
+        ],false,true,false,'1:144'
+    ],
+    ['Arthur',[1,'Calibarn'],'HG',
+        false,false,false,'Mercury','E','2024-03-01',12.44,false,'Builds/Gundams/Arthur.html',false,'2025-03-17',models[144],
+        [
+            ['','']
+        ],
+        ['','Profile Photo: '],
+        'Description:',false,
+        [
+            ['Video',''],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/mobile-suit-gundam-the-witch-from-mercury-new-product-b-tentative'],
+            ['NewType','https://newtype.us/p/ubZ7MYRvQHJJwuKaUZL3/h/hgwfm-26-gundam-calibarn']
+        ],false,true,false,'1:144'
+    ],
     ['Tempest',[1,'Calibarn'],'HG',false,false,false,'Mercury','B','2024-06',0],   //paint in flat red
-    ['Calibarn [HG]',[1,'Calibarn'],'HG',true,false,false,'Mercury','D','2023-08-22',2.83,false,false,false],
+    ['Calibarn [HG]',[1,'Calibarn'],'HG',true,false,false,'Mercury','E','2023-08-22',2.83,false,false,false,'2024-12-02'],
     ['Kanden',[1.25,'Darilbalde','P.B. Witch From Mercury Expansion Pack'],'HG',false,true,false,'Mercury','A','202x',0,false,'Builds/Metroid/Kanden.html','Metroid'],
     ['Azrael',[1,'Dilanza, Guel\'s'],'HG',
         false,false,false,'Mercury','E','2023-01-05',12.14,false,'Builds/Gundams/Azrael.html','Angels','2023-02-27',models[26],
@@ -5450,7 +6065,54 @@ const projects = [
     ['Gundnode C',[1,'Gundnode'],'HG',false,true,false,'Mercury','A'],
     ['Gundnode D',[1,'Gundnode'],'HG',false,true,false,'Mercury','A'],
     ['Gundnode E',[1,'Gundnode'],'HG',false,true,false,'Mercury','A'],
-    ['PB Gundnode [HG]',[1,'Gundnode'],'HG',true,true,false,'Mercury','D','2024-08-14',1.42],
+    ['PB Gundnode [HG]',[1,'Gundnode'],'HG',
+        true,true,false,'Mercury','E','2024-08-14',1.42,false,'Builds/PBandai/PBGundnode.html',false,'2024-11-25',models[143],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbgundnode01.jpeg','PB Gundnode'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbgundnode02.jpeg','PB Gundnode'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbgundnode03.jpeg','PB Gundnode'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbgundnode04.jpeg','PB Gundnode'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbgundnode05.jpeg','PB Gundnode'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbgundnode06.jpeg','PB Gundnode'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbgundnode07.jpeg','PB Gundnode'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbgundnode08.jpeg','PB Gundnode'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbgundnode09.jpeg','PB Gundnode'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbgundnode10.jpeg','PB Gundnode'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbgundnode11.jpeg','PB Gundnode'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbgundnode12.jpeg','PB Gundnode'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbgundnode13.jpeg','PB Gundnode'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbgundnode14.jpeg','PB Gundnode'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbgundnode15.jpeg','PB Gundnode'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbgundnode16.jpeg','PB Gundnode'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbgundnode17.jpeg','PB Gundnode'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbgundnode18.jpeg','PB Gundnode'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbgundnode19.jpeg','PB Gundnode'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbgundnode20.jpeg','PB Gundnode'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbgundnode21.jpeg','PB Gundnode'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbgundnode22.jpeg','PB Gundnode'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbgundnode23.jpeg','PB Gundnode'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbgundnode24.jpeg','PB Gundnode'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbgundnode25.jpeg','PB Gundnode'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbgundnode26.jpeg','PB Gundnode'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbgundnode27.jpeg','PB Gundnode'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbgundnode28.jpeg','PB Gundnode'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbgundnode29.jpeg','PB Gundnode'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbgundnode30.jpeg','PB Gundnode'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbgundnode31.jpeg','PB Gundnode'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbgundnode32.jpeg','PB Gundnode'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbgundnode33.jpeg','PB Gundnode'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbgundnode34.jpeg','PB Gundnode'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbgundnode35.jpeg','PB Gundnode'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbgundnode36.jpeg','PB Gundnode'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbgundnode37.jpeg','PB Gundnode'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/pbgundnode38.jpeg','PB Gundnode']
+        ],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/pbgundnode36.jpeg','Profile Photo: PB Gundnode'],
+        'I was first ecstatic when Witch from Mercury first introduced the Gundv\u00F6lva. But then I was even more ecstatic when the series then surpassed the V\u00F6lva with the introduction of the Gundnode. It was the most coolest mass produced unmanned unit ever. Probably in the whole franchise. Even surpassing my love of the Dagger L. I had been waiting forever for Bandai to introduce kits for the Gundnode. But it kept never coming. Only to then be surprised when it was finally revealed to be a Premium Bandai kit. I entered in my credit card information and hit order immediately soon was it was revealed. I definitely am going to be doing more with this in the future. Going to have to build a whole Gundnode army, just like Eri and Prospera did in the anime.',false,
+        [
+            ['Premium Bandai','https://p-bandai.com/us/item/N2703255001001']
+        ],false,false,false,'1:144',false,'Gundnode','PB Gundnode'
+    ],
     ['Dark Samus: Echoes',[1,'Gundvolva'],'HG',
         false,false,false,'Mercury','E','2023-10-11',9.5,false,'Builds/Metroid/Echoes.html','Metroid','2024-07-01',models[91],
         [
@@ -5713,10 +6375,211 @@ const projects = [
     ],
     ['Gundvolva [HG]',[1,'Gundvolva'],'HG',true,false,false,'Mercury','E','2024-08-13',1.08,false,false,false,'2024-08-20'],
     ['EMMI',[1,'Heindree'],'HG',false,false,false,'Mercury','A'],
-    ['Adriel',[1,'LFrith'],'HG',false,false,false,'Mercury','D','2023-12-11',7.25],
-    ['LFrith [HG]',[1,'LFrith'],'HG',true,false,false,'Mercury','D','2023-04-15',2.33,false,false,false],
-    ['Cassiel',[1,'LFrith Anavata'],'HG',false,true,false,'Mercury','D','2024-07-21',7.58],
-    ['Eisheth',[1,'LFrith Jiu'],'HG',false,true,false,'Mercury','D','2024-02-16',8.05],
+    ['Adriel',[1,'LFrith'],'HG',
+        false,false,false,'Mercury','E','2023-12-11',7.25,false,'Builds/Gundams/Adriel.html','Angels','2024-10-03',models[138],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LFRStr01.jpeg','HG Lfrith Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LFRStr02.jpeg','HG Lfrith Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LFRStr03.jpeg','HG Lfrith Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LFRStr04.jpeg','HG Lfrith Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LFRStr05.jpeg','HG Lfrith Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LFRStr06.jpeg','HG Lfrith Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LFRStr07.jpeg','HG Lfrith Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LFRStr08.jpeg','HG Lfrith Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LFRStr09.jpeg','HG Lfrith Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LFRStr10.jpeg','HG Lfrith Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LFRStr11.jpeg','HG Lfrith Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LFRStr12.jpeg','HG Lfrith Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LFRStr13.jpeg','HG Lfrith Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LFRStr14.jpeg','HG Lfrith Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LFRStr15.jpeg','HG Lfrith Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LFRStr16.jpeg','HG Lfrith Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LFRStr17.jpeg','HG Lfrith Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LFRStr18.jpeg','HG Lfrith Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LFRStr19.jpeg','HG Lfrith Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LFRStr20.jpeg','HG Lfrith Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LFRStr21.jpeg','HG Lfrith Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LFRStr22.jpeg','HG Lfrith Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LFRStr23.jpeg','HG Lfrith Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LFRStr24.jpeg','HG Lfrith Straight'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/adriel01.jpeg','Adriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/adriel02.jpeg','Adriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/adriel03.jpeg','Adriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/adriel04.jpeg','Adriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/adriel05.jpeg','Adriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/adriel06.jpeg','Adriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/adriel07.jpeg','Adriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/adriel08.jpeg','Adriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/adriel09.jpeg','Adriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/adriel10.jpeg','Adriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/adriel11.jpeg','Adriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/adriel12.jpeg','Adriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/adriel13.jpeg','Adriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/adriel14.jpeg','Adriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/adriel15.jpeg','Adriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/adriel16.jpeg','Adriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/adriel17.jpeg','Adriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/adriel18.jpeg','Adriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/adriel19.jpeg','Adriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/adriel20.jpeg','Adriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/adriel21.jpeg','Adriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/adriel22.jpeg','Adriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/adriel23.jpeg','Adriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/adriel24.jpeg','Adriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/adriel26.jpeg','Adriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/adriel27.jpeg','Adriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/adriel28.jpeg','Adriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/adriel29.jpeg','Adriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/adriel30.jpeg','Adriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/adriel31.jpeg','Adriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/adriel32.jpeg','Adriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/adriel33.jpeg','Adriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/adriel34.jpeg','Adriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/adriel35.jpeg','Adriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/adriel36.jpeg','Adriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/adriel37.jpeg','Adriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/adriel38.jpeg','Adriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/adriel39.jpeg','Adriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/adriel40.jpeg','Adriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/adriel41.jpeg','Adriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/adriel42.jpeg','Adriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/adriel43.jpeg','Adriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/adriel44.jpeg','Adriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/adriel45.jpeg','Adriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/adriel46.jpeg','Adriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/adriel47.jpeg','Adriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/adriel48.jpeg','Adriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/adriel49.jpeg','Adriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/adriel50.jpeg','Adriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/adriel51.jpeg','Adriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/adriel52.jpeg','Adriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/adriel53.jpeg','Adriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/adriel54.jpeg','Adriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/adriel55.jpeg','Adriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/adriel56.jpeg','Adriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/adriel57.jpeg','Adriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/adriel58.jpeg','Adriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/adriel59.jpeg','Adriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/adriel60.jpeg','Adriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/adriel61.jpeg','Adriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/adriel62.jpeg','Adriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/adriel63.jpeg','Adriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/adriel64.jpeg','Adriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/adriel65.jpeg','Adriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/adriel66.jpeg','Adriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/adriel67.jpeg','Adriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/adriel68.jpeg','Adriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/adriel69.jpeg','Adriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/adriel70.jpeg','Adriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/adriel71.jpeg','Adriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/adriel72.jpeg','Adriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/adriel73.jpeg','Adriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/adriel74.jpeg','Adriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/adriel75.jpeg','Adriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/adriel76.jpeg','Adriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/adriel77.jpeg','Adriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/adriel78.jpeg','Adriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/adriel79.jpeg','Adriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/adriel80.jpeg','Adriel']
+        ],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/adriel08.jpeg','Profile Photo: Adriel'],
+        'Named after the angel of death. Adriel is an HG LFrith painted in Mr Metallics Blue Gold accented with a metallic purple. I thought the purple accented the pink of the original design quite well. As for the Blue Gold, this was my first time painting with it, so it was also a bit of an experiement. Wont lie I was bit nervous painting the gund bits. Was worried doing so might make it harder to assemble them. But luckily that did not turn out to be a problem. For my first suit in the Witch from Mercury Gundam lineup, I am proud how this came out. It\'s simple yet the gold seemed to add a tougher touch.',false,
+        [
+            ['Video','https://youtu.be/eEVz6c2K-Ys'],
+            ['Adriel','https://www.auntyflo.com/magic/adriel'],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/hgwm-1-144-01-gundam-lfrith'],
+            ['NewType','https://newtype.us/p/2RpaBzPufVKKVFJN31tF/h/hgwfm-01-gundam-lfrith']
+        ],false,true,false,'1:144'
+    ],
+    ['LFrith [HG]',[1,'LFrith'],'HG',true,false,false,'Mercury','E','2023-04-15',2.33,false,false,false,'2024-09-30'],
+    ['Cassiel',[1,'LFrith Anavata'],'HG',
+        false,true,false,'Mercury','E','2024-07-21',7.58,false,'Builds/Pbandai/Cassiel.html','Angels','2024-10-14',models[140],
+        [
+            ['','']
+        ],
+        ['','Profile Photo: Cassiel'],
+        'Description:',false,
+        [
+            ['Video',''],
+            ['Cassiel',''],
+            ['Premium Bandai','https://p-bandai.com/us/item/N2675535001002'],
+            ['TurboDork: Fahrenheit','https://turbodork.com/products/fahrenheit']
+        ],false,false,false,'1:144'
+    ],
+    ['Eisheth',[1,'LFrith Jiu'],'HG',
+        false,true,false,'Mercury','E','2024-02-16',8.05,false,'Builds/Pbandai/Eisheth.html','Angels','2024-10-07',models[139],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Eisheth01.jpeg','Eisheth'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Eisheth02.jpeg','Eisheth'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Eisheth03.jpeg','Eisheth'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Eisheth04.jpeg','Eisheth'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Eisheth05.jpeg','Eisheth'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Eisheth06.jpeg','Eisheth'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Eisheth07.jpeg','Eisheth'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Eisheth08.jpeg','Eisheth'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Eisheth09.jpeg','Eisheth'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Eisheth10.jpeg','Eisheth'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Eisheth11.jpeg','Eisheth'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Eisheth12.jpeg','Eisheth'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Eisheth13.jpeg','Eisheth'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Eisheth14.jpeg','Eisheth'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Eisheth15.jpeg','Eisheth'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Eisheth16.jpeg','Eisheth'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Eisheth17.jpeg','Eisheth'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Eisheth18.jpeg','Eisheth'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Eisheth19.jpeg','Eisheth'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Eisheth20.jpeg','Eisheth'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Eisheth21.jpeg','Eisheth'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Eisheth22.jpeg','Eisheth'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Eisheth23.jpeg','Eisheth'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Eisheth24.jpeg','Eisheth'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Eisheth25.jpeg','Eisheth'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Eisheth26.jpeg','Eisheth'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Eisheth27.jpeg','Eisheth'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Eisheth28.jpeg','Eisheth'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Eisheth29.jpeg','Eisheth'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Eisheth30.jpeg','Eisheth'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Eisheth31.jpeg','Eisheth'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Eisheth32.jpeg','Eisheth'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Eisheth33.jpeg','Eisheth'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Eisheth34.jpeg','Eisheth'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Eisheth35.jpeg','Eisheth'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Eisheth36.jpeg','Eisheth'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Eisheth37.jpeg','Eisheth'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Eisheth38.jpeg','Eisheth'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Eisheth39.jpeg','Eisheth'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Eisheth40.jpeg','Eisheth'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Eisheth41.jpeg','Eisheth'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Eisheth42.jpeg','Eisheth'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Eisheth43.jpeg','Eisheth'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Eisheth44.jpeg','Eisheth'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Eisheth45.jpeg','Eisheth'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Eisheth46.jpeg','Eisheth'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Eisheth47.jpeg','Eisheth'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Eisheth48.jpeg','Eisheth'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Eisheth49.jpeg','Eisheth'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Eisheth50.jpeg','Eisheth'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Eisheth51.jpeg','Eisheth'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Eisheth52.jpeg','Eisheth'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Eisheth53.jpeg','Eisheth'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Eisheth54.jpeg','Eisheth'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Eisheth55.jpeg','Eisheth'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Eisheth56.jpeg','Eisheth'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Eisheth57.jpeg','Eisheth'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Eisheth58.jpeg','Eisheth'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Eisheth59.jpeg','Eisheth'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Eisheth60.jpeg','Eisheth'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Eisheth61.jpeg','Eisheth'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Eisheth62.jpeg','Eisheth']
+        ],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/Eisheth46.jpeg','Profile Photo: Eisheth'],
+        'So LFrith Jiu was a quirky but cool new model from P-Bandai. I mean a giant floating GUND-BIT arm, odd... but why not. I used this as another opportunity to test more of my new Mr Metallics colors. This time Metallic Pink. Named after the angel of healing, I felt like the pink embodied that feeling well. I liked my colors on here. They were way better than the plain boring white of the original design. Also I have to say it. But the eyes of the LFrith Jiu are hard to make out. Its whole face is a GUND-FORMAT shell unit.',false,
+        [
+            ['Video','https://youtu.be/zhm_Y7NCDok'],
+            ['Eisheth','https://digitalbible.ca/article-page/bible-study-biblical-characters-who-is-Eisheth-1699570175145x240886657923993900'],
+            ['Premium Bandai','https://p-bandai.com/us/item/N2661389001001']
+        ],false,false,false,'1:144'
+    ],
     ['Meshabber',[1,'LFrith Preproduction Model'],'HG',false,true,false,'Mercury','B'],  //IDF Green
     ['Mashhit',[1,'LFrith Preproduction Model'],'HG',false,true,false,'Mercury','B'],  //IDF Blue
     ['Kezef',[1,'LFrith Preproduction Model'],'HG',false,true,false,'Mercury','A'],     //IDF Sand
@@ -5727,7 +6590,21 @@ const projects = [
     ['Sylux',[1.25,'Michaelis','P.B. Witch From Mercury Expansion Pack'],'HG',false,true,false,'Mercury','A','202x',0,false,'Builds/Metroid/Sylux.html','Metroid'],
     ['Noxus',[1.25,'Pharact','P.B. Witch From Mercury Expansion Pack'],'HG',false,true,false,'Mercury','A','202x',0,false,'Builds/Metroid/Noxus.html','Metroid'],
     ['Schwarzette [HG]',[1,'Schwarzette'],'HG',true,false,false,'Mercury','E','2023-10-04',2.33,false,false,false],
-    ['Metatron',[1,'Schwarzette'],'HG',false,false,false,'Mercury','D','2023-11-25',17.15],
+    ['Metatron',[1,'Schwarzette'],'HG',
+        false,false,false,'Mercury','E','2023-11-25',17.15,false,'Builds/Gundams/Metatron.html','Angels','2024-12-16',models[145],
+        [
+            ['','Metatron']
+        ],
+        ['','Profile Photo: Metatron'],
+        'Description:',false,
+        [
+            ['Video',''],
+            ['Metatron',''],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/hgtwfm-1-144-25-gundam-schwarzette'],
+            ['NewType','https://newtype.us/p/J7LwV52Dk5Xia4hFmfDC/h/hgwfm-25-schwarzette'],
+            ['TurboDork: Miami Sunset','https://turbodork.com/products/miami-sunset-1']
+        ],false,true,false,'1:144'
+    ],
     ['Samus: Zero Suit',[1,'Suletta Mercury','Miorine Rembran'],'Other',
         false,false,false,'Mercury','E','2024-01-04',7,false,'Builds/Metroid/ZeroSuit.html','Metroid','2024-07-15',models[128],
         [
@@ -5784,6 +6661,7 @@ const projects = [
         ],false,true,false,false,false,'Zero Suit'
     ],
     ['Ghor',[1,'Zowort Heavy'],'HG',false,false,false,'Mercury','A','202x',0,false,'Builds/Metroid/Ghor.html','Metroid'],
+    ['Zowort Heavy [HG]',[1,'Zowort Heavy'],'HG',true,false,false,'Mercury','E','2024-09-21',1.25,false,false,false],
 
     //Advanced Generation (Age)
     ['Uriel',[1,'Age-FX'],'SD',false,false,false,'Age','B'],
@@ -6348,7 +7226,9 @@ const projects = [
         [1,'Tallgeese Fl\u00FCgel'],'MG',true,true,false,'Wing','D','2022-05-08',20.17,false,'Builds/PBTallgeeseFlugelMG.html',false
     ],
     ['Cambria',[1,'PB Vayate'],'HG',false,true,false,'Wing','A'],
-    ['Bibi',[1,'Wing Gundam'],'HG',false,false,false,'Wing','D','2024-07-08',5.23],
+    ['Bibi',[1,'Wing Gundam'],'HG',
+        false,false,false,'Wing','D','2024-07-08',5.23,false,'Builds/Gundams/Bibi.html',false,'2025-05-12'
+    ],
     ['Netanyahu',[1,'Wing Gundam'],'RG',false,false,false,'Wing','A'],
     /*
         Bibi:
@@ -6455,8 +7335,12 @@ const projects = [
     ['Snow White',[1,'Wing Zero'],'MG',false,false,false,'Wing','B'],
     ['Snow White [RG]',[1,'Wing Zero'],'RG',false,false,false,'Wing','B'],
     ['Snow White [SD]',[1,'Wing Zero'],'SD',false,false,false,'Wing','A'],
-    ['Wing Zero KA [MG]',[1,'Wing Zero','GFFMC Wings For MG Wing Zero'],'MG',true,false,false,'Wing','C','2022-06-05',10.83,false,false,false],
-    ['Absolute Zero',[1,'Wing Gundam'],'PG',true,false,false,'Wing','D','2024-03-22',17.25,true],
+    ['Wing Zero KA [MG]',[1,'Wing Zero','GFFMC Wings For MG Wing Zero'],'MG',
+        true,false,false,'Wing','C','2022-06-05',10.83,false,'Builds/Specials/MGWingKAStr.html',false,'2025-02-03'
+    ],
+    ['Absolute Zero',[1,'Wing Gundam'],'PG',
+        true,false,false,'Wing','D','2024-03-22',17.25,true,'Builds/PG/PGWingZero.html',false,'2025-02-10'
+    ],
     ['Zero Traditional',[1,'Wing Zero'],'MG',false,false,false,'Wing','B'],
     ['Zero Traditional [RG]',[1,'Wing Zero'],'RG',false,false,false,'Wing','B'],
     ['Zero Traditional [SD]',[1,'Wing Zero'],'SD',false,false,false,'Wing','A'],
@@ -6969,7 +7853,9 @@ const projects = [
             ['NewType','https://newtype.us/p/f1D4oTlneK6t2H8RfSWn/h/sdgg-261-gat-x303-aegis-gundam']
         ],false,false,true,false
     ],
-    ['Rostand',[1,'Astray, M1'],'HG',false,false,false,'Seed','D','2024-07-11',5.69],
+    ['Rostand',[1,'Astray, M1'],'HG',
+        false,false,false,'Seed','D','2024-07-11',5.69,false,'Builds/Gundams/Rostand.html',false,'2025-05-26'
+    ],
     ['Bald Eagle',[1,'Astray Blue Frame'],'MG',false,false,false,'Seed','B'],
     ['Raphael',[1,'Astray Gold Frame'],'SD',false,false,false,'Seed','B'],
     ['Aurum',[1,'Akatsuki'],'FM',false,false,false,'Seed','B','2024',0],
@@ -8190,8 +9076,12 @@ const projects = [
     ['Raider [FM]',[1,'Raider'],'FM',true,false,false,'Seed','D','2023-01-06',10.25,false,false,false],
     ['Rodan',[1,'Raider'],'FM',false,false,false,'Seed','A'],
     ['La Reine',[0.5,'Raijin Striker'],'MG',false,true,false,'Seed','B'],
-    ['Ripley',[1,'Rising Freedom'],'SD',false,false,false,'Seed','D','2024-06-04',6.41],
-    ['Revolution',[1,'Rising Freedom'],'HG',false,false,false,'Seed','D','2024-02-18',15.08],
+    ['Ripley',[1,'Rising Freedom'],'SD',
+        false,false,false,'Seed','D','2024-06-04',6.41,false,'Builds/Gundams/Ripley.html',false,'2025-03-03'
+    ],
+    ['Revolution',[1,'Rising Freedom'],'HG',
+        false,false,false,'Seed','D','2024-02-18',15.08,false,'Builds/Gundams/Revolution.html',false,'2025-03-10'
+    ],
     ['Rising Freedom [HG]',[1,'Rising Freedom'],'HG',true,false,false,'Seed','D','2024-05-24',2.75],
     ['Blue Angels',[3,'Skygrasper','Skygrasper','Skygrasper'],'RG',
         false,false,false,'Seed','E','2022-12-05',22,true,'Builds/Gundams/BlueAngels.html',false,'2022-12-26',models[30],
@@ -8288,7 +9178,7 @@ const projects = [
         ],['Skygrasper [PG]'],false,true,'1:60',false,'Strike Perfect Grade','Strike'
     ], 
     ['Perfect Perfect',[1,'Strike, Perfect'],'PG',
-        true,false,false,'Seed','C','2024-05-17',17.25,true,'Builds/PG/PGPerfectStrike.html',false,'',models[61]
+        true,false,false,'Seed','C','2024-05-17',17.25,true,'Builds/PG/PGPerfStrike.html',false,'2025-01-20',models[61]
     ],
     ['Perfect Strike [P-Bandai]',[1,'Strike, Perfect'],'RG',
         true,true,false,'Seed','E','2022-03-07',12.33,false,'Builds/PBandai/PBPerfectStrikeRG.html',false,'2022-09-13',models[61],
@@ -8331,7 +9221,7 @@ const projects = [
         ],false,true,true
     ],
     ['Cordelia',[1,'Strike Dagger'],'HG',
-        false,true,false,'Seed','D','2023-12-11',7.23,false,'Builds/Gundams/Cordelia.html','Shakespeare','',models[92],
+        false,true,false,'Seed','D','2023-12-11',7.23,false,'Builds/PBandai/Cordelia.html','Shakespeare','2024-12-23',models[92],
         [
             ['','']
         ],
@@ -9089,7 +9979,9 @@ const projects = [
         ],false,false,true,'1:144','God Gundam'
     ],
     ['Michael',[1,'Burning Gundam'],'SD',false,false,false,'G','C','2024-09-13',1.42],
-    ['Furcas',[1,'Dark Army'],'HG',false,false,false,'G','C','2024-08-20',4.1],
+    ['Furcas',[1,'Dark Army'],'HG',
+        false,false,false,'G','D','2024-08-20',4.28,false,'Builds/Gundams/Furcas.html','Ars Goetia','2025-04-14'
+    ],
     ['Malphas',[1,'Dark Army'],'HG',
         false,false,false,'G','E','2022-09-08',5.83,false,'Builds/Gundams/Malphas.html','Ars Goetia','2023-01-23',models[59],
         [
@@ -9114,15 +10006,19 @@ const projects = [
         ],['Cordelia','Dobiel','King Leir','Leo Army'],true,true,'1:144'
     ],
     ['Asmodeus',[1,'Dark Gundam'],'SD',false,false,false,'G','B'],
-    ['Baal',[1,'Dark Gundam'],'HG',false,false,false,'G','C','2024-08-20',4.5],  //Mr Metallic
+    ['Baal',[1,'Dark Gundam'],'HG',
+        false,false,false,'G','D','2024-08-20',5.6,false,'Builds/Gundams/Baal.html','Ars Goetia','2025-03-31'
+    ],  //Mr Metallic
     ['Balam',[1,'Dark Gundam'],'HG',false,false,false,'G','B'],
     ['Beleth',[1,'Dark Gundam'],'SD',false,false,false,'G','B'],
     ['Belial',[1,'Dark Gundam'],'HG',false,false,false,'G','B'],
     ['Dark Gundam [SD]',[1,'Dark Gundam'],'SD',true,false,false,'G','D','2022-08-07',1.75,false,false,false],
-    ['Paimon',[1,'Dark Gundam'],'SD',false,false,false,'G','C','2024-08-20',3.62],    //Mr Metallic
+    ['Paimon',[1,'Dark Gundam'],'SD',
+        false,false,false,'G','D','2024-08-20',4.63,false,'Builds/Gundams/Paimon.html','Ars Goetia','2025-04-28'
+    ],    //Mr Metallic
     ['Bruce',[1,'PB Dragon Gundam'],'HG',false,true,false,'G','A'],
     ['Brady',[1,'PB Gundam Maxter'],'HG',
-        false,true,false,'G','C','2024-08-19',9.28,false,'Builds/PBandai/Brady.html',false,'2024',models[137],
+        false,true,false,'G','D','2024-08-19',9.47,false,'Builds/PBandai/Brady.html',false,'2025-01-06',models[137],
         [
             ['','Brady']
         ],['','Profile Photo: Brady'],
@@ -10026,7 +10922,7 @@ const projects = [
         ],['Bella Donna','Sovereign'],true,true,false
     ],
     ['Luxe-Ball',[1,'Polypodball'],'MG',
-        false,true,false,'UC','D','2024-07-14',15.08,false,'Builds/PBandai/LuxeBall.html','Pokeball','2024-09-23',models[135],
+        false,true,false,'UC','E','2024-07-14',15.08,false,'Builds/PBandai/LuxeBall.html','Pokeball','2024-09-23',models[135],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL01.jpeg','P-Bandai Luxe-Ball'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL02.jpeg','P-Bandai Luxe-Ball'],
@@ -10123,11 +11019,13 @@ const projects = [
             ['P-Bandai','https://p-bandai.com/us/item/N2435139001008'],
             ['TurboDork: Black Ice','https://turbodork.com/products/black-ice-1'],
             ['TurboDork: Rainbow Roll','https://turbodork.com/products/rainbow-roll-1']
-        ],false,true,false,'1:100'
+        ],false,false,true,'1:100'
     ],
     ['Ridley',[1,'Qubeley'],'HG',false,false,false,'UC','A'],
     ['LunchTime Solutions',[1,'RX-78-2'],'RG',false,false,false,'UC','B'],
-    ['Colombo: Santa Maria -n- Santa Clara',[0.4,'Salamis and Magellan Class'],'Ship',false,false,false,'UC','C','2024-08-21',8.83],
+    ['Colombo: Santa Maria -n- Santa Clara',[0.4,'Salamis and Magellan Class'],'Ship',
+        false,false,false,'UC','D','2024-08-21',9.11,false,'Builds/Ships/Colombo.html',false,'2025-01-16'
+    ],
     ['Starman',[1,'Sazabi'],'SD',
         false,false,false,'UC','E','2021-12-16',5.03,false,'Builds/Gundams/Starman.html',false,'2023-11-07',models[99],
         [
@@ -10957,9 +11855,11 @@ const projects = [
     ],
     
     //Pokemon
-    ['Cetautomatix',[1,'Arceus'],'Pokemon',false,false,false,'','D','2024-02-16',4.53],
+    ['Cetautomatix',[1,'Arceus'],'Pokemon',
+        false,false,false,'','D','2024-02-16',4.53,false,'Builds/Pokemon/Cetauto.html','Asterix','2025-08-25'
+    ],
     ['Obelix',[1,'Bulbasaur'],'Pokemon',
-        false,false,false,'','E','2023-09-13',3.07,false,'Builds/Pokemon/Obelix.html',false,'2023-10-23',models[94],
+        false,false,false,'','E','2023-09-13',3.07,false,'Builds/Pokemon/Obelix.html','Asterix','2023-10-23',models[94],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Obelix_8909.jpeg','Obelix'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Obelix_8910.jpeg','Obelix'],
@@ -11012,7 +11912,7 @@ const projects = [
         ],['Jasper','Cooper'],false,true
     ],
     ['Asterix',[1,'Charmander'],'Pokemon',
-        false,false,false,'','E','2023-03-12',3.85,false,'Builds/Pokemon/Asterix.html',false,'2023-08-28',models[79],
+        false,false,false,'','E','2023-03-12',3.85,false,'Builds/Pokemon/Asterix.html','Asterix','2023-08-28',models[79],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/asterix13.jpeg','Asterix'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/asterix14.jpeg','Asterix'],
@@ -11141,10 +12041,18 @@ const projects = [
             ['NewType','https://newtype.us/p/S9nZ4KxUmzbDoDM0HfDd/h/pokemon-charizard-dragonite']
         ],['Vercingetorix'],true,true,false
     ],
-    ['Beatrice',[1,'Eevee'],'Pokemon',false,false,false,'','D','2024-07-10',1.38,false,'Builds/Pokemon/Beatrice.html',false,'2025',models[131]],    //Red
-    ['Bandit',[1,'Eevee'],'Pokemon',false,false,false,'','D','2024-07-10',1.08,false,'Builds/Pokemon/Bandit.html',false,'2025',models[132]],    //Blue
-    ['Soporifix',[1,'Entei'],'Pokemon',false,false,false,'','A'],
-    ['Astronomix',[1,'Gengar'],'Pokemon',false,false,false,'','D','2023-12-11',2.68],
+    ['Beatrice',[1,'Eevee'],'Pokemon',
+        false,false,false,'','D','2024-07-10',1.38,false,'Builds/Pokemon/Beatrice.html','Angela',false,'2025-10-06',models[131]
+    ],    //Red
+    ['Bandit',[1,'Eevee'],'Pokemon',
+        false,false,false,'','D','2024-07-10',1.08,false,'Builds/Pokemon/Bandit.html','Angela','2025-10-20',models[132]
+    ],    //Blue
+    ['Soporifix',[1,'Entei'],'Pokemon',
+        false,false,false,'','A','2024',0,false,'Builds/Pokemon/Soporifix.html',false,'2025-12-29'
+    ],
+    ['Astronomix',[1,'Gengar'],'Pokemon',
+        false,false,false,'','D','2023-12-11',2.68,false,'Builds/Pokemon/Astron.html','Asterix','2025-06-30'
+    ],
     ['Granfrog',[1,'Greninja'],'Pokemon',
         false,false,false,false,'E','2021-11-11',5.68,false,'Builds/Pokemon/Granfrog.html',false,'2022-08-17',models[11],
         [
@@ -11168,36 +12076,53 @@ const projects = [
             ['NewType','https://newtype.us/p/dwk8jzQtdPBUWYb5VxT3/h/pokemon-greninja']
         ],false,false,true,false
     ], 
-    ['Brennus',[1,'Groudon'],'Pokemon',false,false,false,'','D','2024-02-16',7.78
+    ['Brennus',[1,'Groudon'],'Pokemon',
+        false,false,false,'','D','2024-02-16',7.78,false,'Builds/Pokemon/Brennus.html',false,'2025-08-11'
     ],
     ['Cassivellaunus',[1,'Gyarados'],'Pokemon',
-        false,false,false,'','D','2023-09-18',5.39
+        false,false,false,'','D','2023-09-18',5.39,false,'Builds/Pokemon/Cassiv.html','Asterix','2025-01-27'
     ],
-    ['Vitalstatistix',[1,'Ho-Oh'],'Pokemon',false,false,false,'','D','2024-02-20',5.17],
+    ['Vitalstatistix',[1,'Ho-Oh'],'Pokemon',
+        false,false,false,'','D','2024-02-20',5.17,false,'Builds/Pokemon/Vital.html','Asterix','2025-09-08'
+    ],
     ['Lutetia',[1,'Lucario'],'Pokemon',
-        false,false,false,'','D','2023-10-03',5.09
+        false,false,false,'','D','2023-10-03',5.09,false,'Builds/Pokemon/Lutetia.html',false,'2025-04-07'
     ],
-    ['Chanticleerix',[1,'Lugia'],'Pokemon',false,false,false,'','D','2023-12-13',4.18],
-    ['Bucolix',[1,'Lunala'],'Pokemon',false,false,false,'','A'],
+    ['Chanticleerix',[1,'Lugia'],'Pokemon',
+        false,false,false,'','D','2023-12-13',4.18,false,'Builds/Pokemon/Chantic.html','Asterix','2025-07-14'
+    ],
+    ['Bucolix',[1,'Lunala'],'Pokemon',
+        false,false,false,'','A','2024',0,false,'Builds/Pokemon/Bucolix.html',false,'2025-12-15'
+    ],
     ['Unhygienix',[1,'Magikarp'],'Pokemon',false,false,false,'','A'],
     ['Cacofonix',[1,'Metagross'],'Pokemon',
-        false,false,false,'','D','2023-09-18',4.54
+        false,false,false,'','D','2023-09-18',4.54,false,'Builds/Pokemon/Cacofonix.html','Asterix','2025-03-24'
     ],
     ['Monosyllabix',[1,'Mew'],'Pokemon',
-        false,false,false,'','D','2023-10-22',2.04
+        false,false,false,'','D','2023-10-22',2.04,false,'Builds/Pokemon/Monosyllabix.html','Asterix','2025-05-05'
     ],
-    ['Polysyllabix',[1,'Mewtwo'],'Pokemon',false,false,false,'','D','2023-11-25',4.83],
-    ['Cyrano',[1,'Pikachu'],'Pokemon',false,false,false,'','D','2024-07-05',1.65],
-    ['Picanmix',[1,'Piplup'],'Pokemon',false,false,false,'','D','2023-11-25',3.95],
-    ['Postaldistrix',[1,'Raiku'],'Pokemon',false,false,false,'','C','2024-09-13',0.67],
+    ['Polysyllabix',[1,'Mewtwo'],'Pokemon',
+        false,false,false,'','D','2023-11-25',4.83,false,'Builds/Pokemon/Polysyl.html','Asterix','2025-06-16'
+    ],
+    ['Cyrano',[1,'Pikachu'],'Pokemon',
+        false,false,false,'','D','2024-07-05',1.65,false,'Builds/Pokemon/Cyrano.html',false,'2025-09-22'
+    ],
+    ['Picanmix',[1,'Piplup'],'Pokemon',
+        false,false,false,'','D','2023-11-25',3.95,false,'Builds/Pokemon/Pican.html','Asterix','2025-06-02'
+    ],
+    ['Postaldistrix',[1,'Raiku'],'Pokemon',
+        false,false,false,'','C','2024-09-13',0.67,false,'Builds/Pokemon/Postal.html','Asterix','2025-11-03'
+    ],
     ['Getafix',[1,'Rayquaza'],'Pokemon',
-        false,false,false,'','D','2023-09-18',5.74
+        false,false,false,'','D','2023-09-18',5.74,false,'Builds/Pokemon/Getafix.html','Asterix','2025-02-17'
     ],
     ['Geriatrix',[1,'Reshiram'],'Pokemon',false,false,false,'','A'],
     ['Dogmatix',[1,'Riolu'],'Pokemon',
-        false,false,false,'','D','2023-10-03',2.97
+        false,false,false,'','D','2023-10-03',2.97,false,'Builds/Pokemon/Dogmatix.html','Asterix','2025-04-21'
     ], 
-    ['Tragicomix',[1,'Solgaleo'],'Pokemon',false,false,false,'','B'],
+    ['Tragicomix',[1,'Solgaleo'],'Pokemon',
+        false,false,false,'','B','2024',0,false,'Builds/Pokemon/Tragicomix.html',false,'2025-11-17'
+    ],
     ['Cooper',[1,'Squirtle'],'Pokemon',
         false,false,false,'','E','2024-06-04',2.17,false,'Builds/Pokemon/Cooper.html',false,'2024-09-16',models[134],
         [
@@ -11228,11 +12153,15 @@ const projects = [
             ['TurboDork: Dark Ritual','https://turbodork.com/products/dark-ritual?variant=40539853914194']
         ],['Jade','Jasper'],false,true
     ],
-    ['Pacifix',[1,'Suicune'],'Pokemon',false,false,false,'','B'],
+    ['Pacifix',[1,'Suicune'],'Pokemon',
+        false,false,false,'','B','2024',0,false,'Builds/Pokemon/Pacifix.html',false,'2025-12-01'
+    ],
     ['Tusk',[1,'Tepig'],'Pokemon',
-        false,false,false,'','D','2023-10-22',3.1
+        false,false,false,'','D','2023-10-22',3.1,false,'Builds/Pokemon/Tusk.html',false,'2025-05-19'
     ], 
-    ['Prolix',[1,'Zekrom'],'Pokemon',false,false,false,'','D','2023-12-13',4.05],
+    ['Prolix',[1,'Zekrom'],'Pokemon',
+        false,false,false,'','D','2023-12-13',4.05,false,'Builds/Pokemon/Prolix.html','Asterix','2025-07-28'
+    ],
     
     //Digimon
     ['Heimdall',[1,'Alphamon'],'Digimon',false,false,false,'','B','2024',0],
@@ -11800,8 +12729,12 @@ const projects = [
 
     //Other
     ['Voltron',[1,'Voltron'],'Other',false,false,false,'Voltron: Defender of the Universe','B','2024',0],
-    ['Joe Cool',[1,'Surfing Snoopy'],'Other',false,false,false,'Peanuts','B','2024',0],
-    ['Red Pill',[1,'USAGS Apex'],'Other',false,false,false,'United States Gundam Store','C','2024-09-10',1.5]
+    ['Joe Cool',[1,'Surfing Snoopy'],'Other',
+        false,false,false,'Peanuts','B','2024',0,false,'Builds/Other/JoeCool.html',false,'2024-12-30'
+    ],
+    ['Red Pill',[1,'USAGS Apex'],'Other',
+        false,false,false,'United States Gundam Store','C','2024-09-10',1.5,true,'Builds/Other/RedPill.html',false,'2025-06-09'
+    ]
 ];
 
 //Initialize Arrays

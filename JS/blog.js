@@ -1664,6 +1664,29 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/Cooper14.jpeg']
         ]
+    ],
+    [
+        '2024-09-23',
+        'Height of Luxury',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL57.jpeg',
+        [
+            [
+                'Continuing this month\'s Pokemon theme, next up is a polypodball ',
+                ['Luxury Ball','Builds/PBandai/LuxeBall.html'],
+                '. Basically a Universal Century Ball painted with pokemon luxury ball colors.'
+            ]
+        ],
+        [
+            'Won\'t lie my first impression when I saw this kit was I thought it looked like a crab, I almost chose to paint it all red and name it Crabby. But I really liked its spherical nature and thought you know what, what if I painted that like a pokeball. And naturally I chose the Luxury Ball of all balls cause they\'re the most fancy. In the future though I want to get more ball kits and paint one for each of the different pokeball colors.'
+        ],
+        [
+            [
+                ['Youtube','https://youtu.be/AHB-3BSQa7U',true]
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL58.jpeg']
+        ]
     ]
 ]
 
