@@ -1687,6 +1687,26 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL58.jpeg']
         ]
+    ],
+    [
+        '2024-09-24',
+        'Build of Week: John Wayne',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/(edited)_buildofweek92324.png',
+        [
+            [
+                'So this makes number 5. Thank you ',
+                ['NewType.US','https://newtype.us',true],
+                ' for choosing my build ',
+                ['John Wayne','Builds/Gundams/JohnWayne.html'],
+                '  for the your Build of the Week, week of September 23, 2024!!!!'
+            ]
+        ],
+        [
+            'It is always exciting whenever a build of mine gets chosen by NewType. I appreciate being chosen by you guys and given the opportunity to showcase my work to a larger audience. Thank you so much!!!'
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/buildofweek92324.jpeg']
+        ]
     ]
 ]
 
