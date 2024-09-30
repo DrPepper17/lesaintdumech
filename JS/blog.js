@@ -1707,6 +1707,50 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/buildofweek92324.jpeg']
         ]
+    ],
+    [
+        '2024-09-30',
+        'XGF-02 Gundam LFrith',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/LFRStr05.jpeg',
+        [
+            'Doing a straight build this week. XGF-02 Gundam LFrith, the precursor to Gundam Aerial. As you know I do not do build bages for straight builds. So posting the photos here in a blog post intsead. '
+        ],
+        [
+            'The LFrith is a fairly simple build. The GUND-BITS were cool. The pink accents the white pretty well. The face has a blank ominous stare to it like a ghost. Overall the suit feels more like a drone than a Gundam. There is just something mysterious about it.'
+        ],
+        [
+            'Also I have been trying forever to figure out the origin of the word LFrith. I am awfully curious how they named it that. It is such a weird word. Does anyone know?'
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/LFRStr03.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/LFRStr05.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/LFRStr08.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/LFRStr10.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/LFRStr11.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/LFRStr16.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/LFRStr18.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/LFRStr19.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/LFRStr22.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/LFRStr24.jpeg']
+        ]
     ]
 ]
 
