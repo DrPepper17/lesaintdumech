@@ -5979,7 +5979,7 @@ const projects = [
         ],false,true,'1:144',false,false,'Corruption'
     ], 
     ['Faces of Eve',[4,'Calibarn','Calibarn','Calibarn','Calibarn'],'SD',
-        false,false,false,'Mercury','B','2024',0,false,'Builds/Gundams/4EVES.html',false,'2024-12-13',models[144],
+        false,false,false,'Mercury','C','2024-09-29',1.08,false,'Builds/Gundams/4EVES.html',false,'2024-12-13',models[144],
         [
             ['','']
         ],
@@ -6350,12 +6350,6 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE70.jpg','The Nazarene'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE71.jpg','The Nazarene'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE72.jpg','The Nazarene'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE73.JPG','The Nazarene'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE74.JPG','The Nazarene'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE75.jpg','The Nazarene'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE76.jpg','The Nazarene'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE77.jpg','The Nazarene'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE78.jpg','The Nazarene'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE79.jpg','The Nazarene'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE80.jpg','The Nazarene'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE81.jpg','The Nazarene'],
@@ -6524,7 +6518,7 @@ const projects = [
             ['Adriel','https://www.auntyflo.com/magic/adriel'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/hgwm-1-144-01-gundam-lfrith'],
             ['NewType','https://newtype.us/p/2RpaBzPufVKKVFJN31tF/h/hgwfm-01-gundam-lfrith']
-        ],false,true,false,'1:144'
+        ],false,true,true,'1:144'
     ],
     ['LFrith [HG]',[1,'LFrith'],'HG',true,false,false,'Mercury','E','2023-04-15',2.33,false,false,false,'2024-09-30'],
     ['Cassiel',[1,'LFrith Anavata'],'HG',
@@ -12806,7 +12800,7 @@ const projects = [
     //Other
     ['Voltron',[1,'Voltron'],'Other',false,false,false,'Voltron: Defender of the Universe','B','2024',0],
     ['Joe Cool',[1,'Surfing Snoopy'],'Other',
-        false,false,false,'Peanuts','B','2024',0,false,'Builds/Other/JoeCool.html',false,'2024-12-30'
+        false,false,false,'Peanuts','C','2024-09-29',0.58,false,'Builds/Other/JoeCool.html',false,'2024-12-30'
     ],
     ['Red Pill',[1,'USAGS Apex'],'Other',
         false,false,false,'United States Gundam Store','C','2024-09-10',1.5,true,'Builds/Other/RedPill.html',false,'2025-06-09'

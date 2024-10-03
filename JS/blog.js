@@ -1751,6 +1751,29 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/LFRStr24.jpeg']
         ]
+    ],
+    [
+        '2024-10-03',
+        'LFrith Week',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/adriel79.jpeg',
+        [
+            [
+                'Of course I could not just release only a straight build this week. Where is the fun in that. So since I posted Moday the HG LFrith straight build, today I present to you my painted version the ',
+                ['Adriel','Builds/Gundams/Adriel.html'],
+                '.'
+            ]
+        ],
+        [
+            'As part of my angels project, and to kick off my Witch from Mercury lineup, I start off first with the angel of death Adriel. Painted entirely in Mr Hobby Metallics, I decided to make this LFrith all gold with purple highlights to respect the pink of the original design. And photographed in front of my new planets backdrop, it truly is quite stellar. Sort of like an astral heavenly warrior. Enjoy.'
+        ],
+        [
+            [
+                ['Youtube','https://youtu.be/eEVz6c2K-Ys',true]
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/adriel15.jpeg']
+        ]
     ]
 ]
 
