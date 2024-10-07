@@ -1774,6 +1774,49 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/adriel15.jpeg']
         ]
+    ],
+    [
+        '2024-10-07',
+        'Angel of Healing',
+        'https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/df855acf-27bc-455a-bfb2-a7c38dbd9e98.jpeg',
+        [
+            [
+                'Next up in the Witch From Mercury LFrith blood.ine lineup is Gundam ',
+                ['Eisheth','Builds/PBandai/Eisheth.html'],
+                '.'
+            ]
+        ],
+        [
+            'Named after the angel of healing. Eishet, or rather Gundam LFrith Jiu has a certain feminine energy to it that I just had to paint it pink. Also bigging that big huge tiger-paw GUND-BIT arm was really cool too.'
+        ],
+        [
+            [
+                ['Youtube','https://youtu.be/zhm_Y7NCDok',true]
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/07c05329-6e1b-4750-b974-ea65f10f1e81.jpeg']
+        ]
+    ],
+    [
+        '2024-10-07',
+        'Build of Week: Azalea',
+        'https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/cca659bd-e1c2-4bcf-b7ed-67dfbaed48e7.jpeg',
+        [
+            [
+                'This make time number 6. Thank you so much ',
+                ['NewType.US','https://newtype.us',true],
+                ' for selecting my build ',
+                ['Azalea','Builds/Gundams/Azalea.html'],
+                '  for  your week of October 07, 2024, Build of the Week!!!!'
+            ]
+        ],
+        [
+            'Thanks so much NewType!!'
+        ],
+        [
+            ['img','https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/0c4bef6e-f142-43e6-b9e3-956b8f7794a8.jpeg']
+        ]
     ]
 ]
 

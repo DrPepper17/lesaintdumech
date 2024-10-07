@@ -5653,7 +5653,7 @@ const models = [
 const projects = [
     //Ad Stella (Mercury)
     ['Chimkin',[1,'Aerial'],'FM',
-        false,false,false,'Mercury','E','2024-01-05',27.29,false,'Builds/Gundams/Chimkin.html',false,'2024-11-11',models[141],
+        false,false,false,'Mercury','D','2024-01-05',27.29,false,'Builds/Gundams/Chimkin.html',false,'2024-11-11',models[141],
         [
             ['','Chimkin']
         ],
@@ -5666,7 +5666,7 @@ const projects = [
         ],false,true,false,'1:100'
     ],
     ['Aerial [HG]',[1,'Aerial'],'HG',
-        true,false,false,'Mercury','E','2023-05-30',7.42,false,'Builds/Specials/AerialHGStr.html',false,'2024-10-28',models[141],
+        true,false,false,'Mercury','D','2023-05-30',7.42,false,'Builds/Specials/AerialHGStr.html',false,'2024-10-28',models[141],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/hgaerialstr01.jpeg','HG Aerial Straight'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/hgaerialstr02.jpeg','HG Aerial Straight'],
@@ -5722,7 +5722,7 @@ const projects = [
         ],false,false,false,'1:144'
     ],
     ['PB Aerial Permet Six [HG]',[1,'Aerial'],'HG',
-        true,true,false,'Mercury','E','2023-09-19',2.83,false,'Builds/PBandai/PBPermet6Aerial.html',false,'2024-10-31',models[141],
+        true,true,false,'Mercury','D','2023-09-19',2.83,false,'Builds/PBandai/PBPermet6Aerial.html',false,'2024-10-31',models[141],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/pbaerialpermsix01.jpeg','PB Aerial Permet Six'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/pbaerialpermsix02.jpeg','PB Aerial Permet Six'],
@@ -5784,7 +5784,7 @@ const projects = [
         ],false,false,false,'1:144',false,'Aerial Permet Six','PB Aerial Permet Six'
     ],
     ['Ariel',[1.5,'Aerial','Mirasoul Flight Pack'],'HG',
-        false,false,false,'Mercury','E','2023-12-10',12.03,false,'Builds/Gundams/Ariel.html','Angels','2024-11-04',models[141],
+        false,false,false,'Mercury','D','2023-12-10',12.03,false,'Builds/Gundams/Ariel.html','Angels','2024-11-04',models[141],
         [
             ['','Ariel']
         ],
@@ -5800,7 +5800,7 @@ const projects = [
         ],false,true,false,'1:144'
     ],
     ['Morgause',[1,'Aerial'],'HG',
-        false,false,false,'Mercury','E','2024-02-16',7.64,false,'Builds/Gundams/Morgause.html',false,'2025-02-24',models[141],
+        false,false,false,'Mercury','D','2024-02-16',7.64,false,'Builds/Gundams/Morgause.html',false,'2025-02-24',models[141],
         [
             ['','Morgause']
         ],
@@ -5813,7 +5813,7 @@ const projects = [
         ],false,true,false,'1:144'
     ],
     ['Cherub',[1,'Aerial'],'SD',
-        false,false,false,'Mercury','E','2023-01-10',4.91,false,'Builds/Gundams/Cherub.html','Angels','2024-10-21',models[141],
+        false,false,false,'Mercury','D','2023-01-10',4.91,false,'Builds/Gundams/Cherub.html','Angels','2024-10-21',models[141],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/cherub01.jpeg','Cherub'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/cherub02.jpeg','Cherub'],
@@ -5861,7 +5861,7 @@ const projects = [
         ],false,true,false
     ],
     ['Zephon',[1,'Aerial Rebuild'],'HG',
-        false,false,false,'Mercury','E','2023-11-25',16.15,false,'Builds/Gundams/Zephon.html','Angels','2024-11-21',models[142],
+        false,false,false,'Mercury','D','2023-11-25',16.15,false,'Builds/Gundams/Zephon.html','Angels','2024-11-21',models[142],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/arrnhgstr01.jpeg','HG Aerial Rebuild Straight'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/arrnhgstr02.jpeg','HG Aerial Rebuild Straight'],
@@ -5992,7 +5992,7 @@ const projects = [
         ],false,true,false
     ],
     ['Abaddon',[1,'Calibarn'],'HG',
-        false,false,false,'Mercury','E','2023-11-25',18.13,false,'Builds/Gundams/Abaddon.html','Angels','2024-12-05',models[144],
+        false,false,false,'Mercury','D','2023-11-25',18.13,false,'Builds/Gundams/Abaddon.html','Angels','2024-12-05',models[144],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/calibarnstrhg01.jpeg','HG Calibarn Straight'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/calibarnstrhg02.jpeg','HG Calibarn Straight'],
@@ -6057,7 +6057,7 @@ const projects = [
         ],false,true,false,'1:144'
     ],
     ['Arthur',[1,'Calibarn'],'HG',
-        false,false,false,'Mercury','E','2024-03-01',12.44,false,'Builds/Gundams/Arthur.html',false,'2025-03-17',models[144],
+        false,false,false,'Mercury','D','2024-03-01',12.44,false,'Builds/Gundams/Arthur.html',false,'2025-03-17',models[144],
         [
             ['','']
         ],
@@ -6101,7 +6101,7 @@ const projects = [
     ['Gundnode D',[1,'Gundnode'],'HG',false,true,false,'Mercury','A'],
     ['Gundnode E',[1,'Gundnode'],'HG',false,true,false,'Mercury','A'],
     ['PB Gundnode [HG]',[1,'Gundnode'],'HG',
-        true,true,false,'Mercury','E','2024-08-14',1.42,false,'Builds/PBandai/PBGundnode.html',false,'2024-11-25',models[143],
+        true,true,false,'Mercury','D','2024-08-14',1.42,false,'Builds/PBandai/PBGundnode.html',false,'2024-11-25',models[143],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/pbgundnode01.jpeg','PB Gundnode'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/pbgundnode02.jpeg','PB Gundnode'],
@@ -6350,6 +6350,12 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE70.jpg','The Nazarene'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE71.jpg','The Nazarene'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE72.jpg','The Nazarene'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE73.jpg','The Nazarene'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE74.jpg','The Nazarene'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE75.jpg','The Nazarene'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE76.jpg','The Nazarene'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE77.jpg','The Nazarene'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE78.jpg','The Nazarene'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE79.jpg','The Nazarene'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE80.jpg','The Nazarene'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE81.jpg','The Nazarene'],
@@ -6648,7 +6654,7 @@ const projects = [
             ['Video','https://youtu.be/zhm_Y7NCDok'],
             ['Eisheth','https://digitalbible.ca/article-page/bible-study-biblical-characters-who-is-Eisheth-1699570175145x240886657923993900'],
             ['Premium Bandai','https://p-bandai.com/us/item/N2661389001001']
-        ],false,false,false,'1:144'
+        ],false,false,true,'1:144'
     ],
     ['Meshabber',[1,'LFrith Preproduction Model'],'HG',false,true,false,'Mercury','B'],  //IDF Green
     ['Mashhit',[1,'LFrith Preproduction Model'],'HG',false,true,false,'Mercury','B'],  //IDF Blue
@@ -6661,7 +6667,7 @@ const projects = [
     ['Noxus',[1.25,'Pharact','P.B. Witch From Mercury Expansion Pack'],'HG',false,true,false,'Mercury','A','202x',0,false,'Builds/Metroid/Noxus.html','Metroid'],
     ['Schwarzette [HG]',[1,'Schwarzette'],'HG',true,false,false,'Mercury','E','2023-10-04',2.33,false,false,false],
     ['Metatron',[1,'Schwarzette'],'HG',
-        false,false,false,'Mercury','E','2023-11-25',17.15,false,'Builds/Gundams/Metatron.html','Angels','2024-12-16',models[145],
+        false,false,false,'Mercury','D','2023-11-25',17.15,false,'Builds/Gundams/Metatron.html','Angels','2024-12-16',models[145],
         [
             ['','Metatron']
         ],
@@ -7044,7 +7050,7 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/gahamg29.JPG','Gundam Guerilla Arms','img29'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/gahamg30.JPG','Gundam Guerilla Arms','img30'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/gahamg31.JPG','Gundam Guerilla Arms','img31'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/gahamg32.JPG','Gundam Guerilla Arms','img32']
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/gahamg32.JPG','Gundam Guerilla Arms','img32'] 
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/gahamg32B.jpg','Profile Photo: Gundam Guerilla Arms'],
         'Camouflage. Commando. Jungle Warfare. Entirely hand brushed. First attempt at custom painting. Entirely Testors paints. Huge learning experience.',false,
