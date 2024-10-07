@@ -1807,7 +1807,7 @@ const blogArray = [
                 'This make time number 6. Thank you so much ',
                 ['NewType.US','https://newtype.us',true],
                 ' for selecting my build ',
-                ['Azalea','Builds/Gundams/Azalea.html'],
+                ['Azalea','Builds/SDW/Azalea.html'],
                 '  for  your week of October 07, 2024, Build of the Week!!!!'
             ]
         ],
