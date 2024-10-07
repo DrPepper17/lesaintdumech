@@ -6583,7 +6583,7 @@ const projects = [
         ],false,false,false,'1:144'
     ],
     ['Eisheth',[1,'LFrith Jiu'],'HG',
-        false,true,false,'Mercury','E','2024-02-16',8.05,false,'Builds/Pbandai/Eisheth.html','Angels','2024-10-07',models[139],
+        false,true,false,'Mercury','E','2024-02-16',8.05,false,'Builds/PBandai/Eisheth.html','Angels','2024-10-07',models[139],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Eisheth01.jpeg','Eisheth'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Eisheth02.jpeg','Eisheth'],
