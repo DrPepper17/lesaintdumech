@@ -1781,7 +1781,7 @@ const blogArray = [
         'https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/df855acf-27bc-455a-bfb2-a7c38dbd9e98.jpeg',
         [
             [
-                'Next up in the Witch From Mercury LFrith blood.ine lineup is Gundam ',
+                'Next up in the Witch From Mercury LFrith bloodline lineup is Gundam ',
                 ['Eisheth','Builds/PBandai/Eisheth.html'],
                 '.'
             ]
@@ -1816,6 +1816,35 @@ const blogArray = [
         ],
         [
             ['img','https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/0c4bef6e-f142-43e6-b9e3-956b8f7794a8.jpeg']
+        ]
+    ],
+    [
+        '2024-10-14',
+        'Angel of Solitude',
+        'https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/3ef49f9e-8013-4f98-8607-a89c0e924e51.jpeg',
+        [
+            [
+                'Time for another Witch from Mercury LFrith Premium Bandai build. This week I present to you ',
+                ['Cassiel','Builds/PBandai/Cassiel.html'],
+                ', a Premium-Bandai HG Gundam LFrith Anavata custom build.'
+            ]
+        ],
+        [
+            'Named after the angel of solitude. Cassiel is a cool Gundam Ninja with long distance electric projectile blades. I kept the original blue of the original Anavata design but complemented it with a metallic orange from TurboDork. And with this completes all three of my LFrith builds.'
+        ],
+        [
+            ['img','https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/56ae25df-ab39-4f90-9b10-693cdb3a45a7.jpeg']
+        ],
+        [
+            [
+                ['Youtube','https://youtu.be/kyo2NjIQQjM',true]
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/aeac345a-71db-4b6d-ae52-a0dbde5e785c.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/341fd209-314a-419f-ace0-f193c2816f7d.jpeg']
         ]
     ]
 ]

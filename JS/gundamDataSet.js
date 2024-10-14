@@ -5979,7 +5979,7 @@ const projects = [
         ],false,true,'1:144',false,false,'Corruption'
     ], 
     ['Faces of Eve',[4,'Calibarn','Calibarn','Calibarn','Calibarn'],'SD',
-        false,false,false,'Mercury','C','2024-09-29',1.08,false,'Builds/Gundams/4EVES.html',false,'2024-12-13',models[144],
+        false,false,false,'Mercury','C','2024-09-29',1.67,false,'Builds/Gundams/4EVES.html',false,'2024-12-13',models[144],
         [
             ['','']
         ],
@@ -6410,6 +6410,7 @@ const projects = [
     ],
     ['Gundvolva [HG]',[1,'Gundvolva'],'HG',true,false,false,'Mercury','E','2024-08-13',1.08,false,false,false,'2024-08-20'],
     ['EMMI',[1,'Heindree'],'HG',false,false,false,'Mercury','A'],
+    ['Hiendree Sturm [HG]',[1,'Heindree Sturm'],'HG',true,false,false,'Mercury','E','2024-10-04',1,false,false,false,'2024-10-05'],
     ['Adriel',[1,'LFrith'],'HG',
         false,false,false,'Mercury','E','2023-12-11',7.25,false,'Builds/Gundams/Adriel.html','Angels','2024-10-03',models[138],
         [
@@ -6580,7 +6581,7 @@ const projects = [
             ['Cassiel','https://digitalbible.ca/article-page/bible-study-biblical-characters-who-is-Cassiel-1699570173312x557916452003077060'],
             ['Premium Bandai','https://p-bandai.com/us/item/N2675535001002'],
             ['TurboDork: Fahrenheit','https://turbodork.com/products/fahrenheit']
-        ],false,false,false,'1:144'
+        ],false,false,true,'1:144'
     ],
     ['Eisheth',[1,'LFrith Jiu'],'HG',
         false,true,false,'Mercury','E','2024-02-16',8.05,false,'Builds/PBandai/Eisheth.html','Angels','2024-10-07',models[139],
@@ -9693,7 +9694,7 @@ const projects = [
             ['Premium Bandai','https://p-bandai.com/us/item/N2256565001006']
         ],false,false,true,'1:144',false,'Strike-Freedom (Deactive Mode)','Strike-Freedom'
     ],
-    ['Mighty Strike Freedom [HG]',[1,'Mighty Strike Freedom'],'HG',true,false,false,'Seed','B','2024-09',0],
+    ['Mighty Strike Freedom [HG]',[1,'Mighty Strike Freedom'],'HG',true,false,false,'Seed','D','2024-10-04',3],
     ['Battra',[1,'Strike Noir'],'MG',false,false,false,'Seed','B'],
     ['Strike Noir [SD]',[1,'Strike Noir'],'SD',true,false,false,'Seed','E','2021-09-06',2.233,false,false,'2023-07-10'],
     ['Strike Verde',[1,'Strike Noir'],'SD',
@@ -10054,7 +10055,7 @@ const projects = [
             ['Premium Bandai: RG God Gundam Expansion Set','https://p-bandai.com/us/item/N2619351001001']
         ],false,false,true,'1:144','God Gundam'
     ],
-    ['Michael',[1,'Burning Gundam'],'SD',false,false,false,'G','C','2024-09-13',1.42],
+    ['Michael',[1,'Burning Gundam'],'SD',false,false,false,'G','C','2024-09-13',2],
     ['Furcas',[1,'Dark Army'],'HG',
         false,false,false,'G','D','2024-08-20',4.28,false,'Builds/Gundams/Furcas.html','Ars Goetia','2025-04-14'
     ],
@@ -12187,7 +12188,7 @@ const projects = [
         false,false,false,'','D','2023-11-25',3.95,false,'Builds/Pokemon/Pican.html','Asterix','2025-06-02'
     ],
     ['Postaldistrix',[1,'Raiku'],'Pokemon',
-        false,false,false,'','C','2024-09-13',0.67,false,'Builds/Pokemon/Postal.html','Asterix','2025-11-03'
+        false,false,false,'','C','2024-09-13',2.17,false,'Builds/Pokemon/Postal.html','Asterix','2025-11-03'
     ],
     ['Getafix',[1,'Rayquaza'],'Pokemon',
         false,false,false,'','D','2023-09-18',5.74,false,'Builds/Pokemon/Getafix.html','Asterix','2025-02-17'
@@ -12806,7 +12807,7 @@ const projects = [
     //Other
     ['Voltron',[1,'Voltron'],'Other',false,false,false,'Voltron: Defender of the Universe','B','2024',0],
     ['Joe Cool',[1,'Surfing Snoopy'],'Other',
-        false,false,false,'Peanuts','C','2024-09-29',0.58,false,'Builds/Other/JoeCool.html',false,'2024-12-30'
+        false,false,false,'Peanuts','C','2024-09-29',3.17,false,'Builds/Other/JoeCool.html',false,'2024-12-30'
     ],
     ['Red Pill',[1,'USAGS Apex'],'Other',
         false,false,false,'United States Gundam Store','C','2024-09-10',1.5,true,'Builds/Other/RedPill.html',false,'2025-06-09'

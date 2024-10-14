@@ -15,7 +15,7 @@
 
         <title id="title">&#9884; Le Saint du Mech: </title>
     </head>
-    <body onload="buildProjectPage('Haro Cloud'),convertDateToday()">
+    <body onload="buildProjectPage('Cherub'),convertDateToday()">
         <!--Jumbotron-->
         <header class="jumbotron jumbotron-fluid">
             <div class="container">
@@ -165,10 +165,12 @@
                 <div class="row">
                     <div class="col">
                         <span class="gFromHD">
-                            <span id="gFrom"><span class="font-weight-bold">Developed From: </span></span><br/>
+                            <span class="font-weight-bold">Developed From: </span><br/>
+                            <ul id="gFrom"></ul>
                         </span>
                         <span class="gToHD">
-                            <span id="gTo"><span class="font-weight-bold">Developed Into: </span></span><br/>
+                            <span class="font-weight-bold">Developed Into: </span><br/>
+                            <ul id="gTo"></ul>
                         </span>
                         <span class="gManufacturerHD">
                             <span id="gManufacturer"><span class="font-weight-bold">Manufacturer: </span></span><br/>
@@ -203,7 +205,7 @@
                             <ul id="gArmaments"></ul>
                         </span>
                         <span class="gEquipmentHD">
-                            <span class="font-weight-bold">Optional Equipment: </span><br/>
+                            <span class="font-weight-bold">Equipment: </span><br/>
                             <ul id="gEquipment"></ul>
                         </span>
                     </div>
@@ -573,7 +575,7 @@
                     <ul id="variantModels"></ul>
                 </div>
                 <div class="col-md haroHD">
-                    <h4 class="font-weight-bold">Other Haro:</h4>
+                    <h4 class="font-weight-bold"><span id="haroTitle"></span></h4>
                     <ul id="haroModels"></ul>
                 </div>
             </div>
