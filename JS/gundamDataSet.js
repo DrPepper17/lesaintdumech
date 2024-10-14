@@ -6529,7 +6529,7 @@ const projects = [
     ],
     ['LFrith [HG]',[1,'LFrith'],'HG',true,false,false,'Mercury','E','2023-04-15',2.33,false,false,false,'2024-09-30'],
     ['Cassiel',[1,'LFrith Anavata'],'HG',
-        false,true,false,'Mercury','E','2024-07-21',7.58,false,'Builds/Pbandai/Cassiel.html','Angels','2024-10-14',models[140],
+        false,true,false,'Mercury','E','2024-07-21',7.58,false,'Builds/PBandai/Cassiel.html','Angels','2024-10-14',models[140],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Cassiel01.jpeg','Cassiel'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Cassiel02.jpeg','Cassiel'],
