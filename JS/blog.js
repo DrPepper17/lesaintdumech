@@ -1846,6 +1846,26 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/341fd209-314a-419f-ace0-f193c2816f7d.jpeg']
         ]
+    ],
+    [
+        '2024-10-21',
+        'Little Cherub',
+        'https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/65ca794f-b01e-4965-a3a7-a966da8ca21a.jpeg',
+        [
+            [
+                'Moving up from LFrith next in her evolution comes Aerial. So to start off I present the SD Aerial, ',
+                ['Cherub','Builds/Gundams/Cherub.html'],
+                '.'
+            ]
+        ],
+        [
+            [
+                ['Youtube','https://youtu.be/at7b4oUjEd0',true]
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/ecd52e4f-a68a-4300-af42-ca0426c45a75.jpeg']
+        ]
     ]
 ]
 

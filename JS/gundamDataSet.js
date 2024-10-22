@@ -5813,7 +5813,7 @@ const projects = [
         ],false,true,false,'1:144'
     ],
     ['Cherub',[1,'Aerial'],'SD',
-        false,false,false,'Mercury','D','2023-01-10',4.91,false,'Builds/Gundams/Cherub.html','Angels','2024-10-21',models[141],
+        false,false,false,'Mercury','E','2023-01-10',4.91,false,'Builds/Gundams/Cherub.html','Angels','2024-10-21',models[141],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/cherub01.jpeg','Cherub'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/cherub02.jpeg','Cherub'],
@@ -5858,7 +5858,7 @@ const projects = [
             ['Video','https://youtu.be/at7b4oUjEd0'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/sd-gundam-ex-standard-19-gundam-aerial'],
             ['NewType','https://newtype.us/p/GP81LBhwpuFNcHQ0ktrd/h/sdex-standard-19-gundam-aerial']
-        ],false,true,false
+        ],false,true,true
     ],
     ['Zephon',[1,'Aerial Rebuild'],'HG',
         false,false,false,'Mercury','D','2023-11-25',16.15,false,'Builds/Gundams/Zephon.html','Angels','2024-11-21',models[142],
@@ -5979,7 +5979,7 @@ const projects = [
         ],false,true,'1:144',false,false,'Corruption'
     ], 
     ['Faces of Eve',[4,'Calibarn','Calibarn','Calibarn','Calibarn'],'SD',
-        false,false,false,'Mercury','C','2024-09-29',1.67,false,'Builds/Gundams/4EVES.html',false,'2024-12-13',models[144],
+        false,false,false,'Mercury','C','2024-09-29',3.4,false,'Builds/Gundams/4EVES.html',false,'2024-12-13',models[144],
         [
             ['','']
         ],
@@ -10055,7 +10055,7 @@ const projects = [
             ['Premium Bandai: RG God Gundam Expansion Set','https://p-bandai.com/us/item/N2619351001001']
         ],false,false,true,'1:144','God Gundam'
     ],
-    ['Michael',[1,'Burning Gundam'],'SD',false,false,false,'G','C','2024-09-13',2],
+    ['Michael',[1,'Burning Gundam'],'SD',false,false,false,'G','C','2024-09-13',2.32],
     ['Furcas',[1,'Dark Army'],'HG',
         false,false,false,'G','D','2024-08-20',4.28,false,'Builds/Gundams/Furcas.html','Ars Goetia','2025-04-14'
     ],
@@ -10197,7 +10197,7 @@ const projects = [
         ],false,true,true,'1:144','The Sun King'
 
     ],
-    ['Gabriel',[1,'Shining Gundam'],'SD',false,false,false,'G','C','2024-09-13',2.17],   //Mr Metallic
+    ['Gabriel',[1,'Shining Gundam'],'SD',false,false,false,'G','C','2024-09-13',2.62],   //Mr Metallic
     ['Camael',[1,'Shining Gundam'],'SD',false,false,false,'G','B','2024',0],    //Flat
     ['Red Baron',[1,'Spiegel, Gundam'],'MG',
         false,false,false,'G','E','2021-05-05',72.07,true,'Builds/Gundams/RedBaron.html','Hand Paint','2021-05-29',models[2],
@@ -11099,7 +11099,9 @@ const projects = [
         ],false,false,true,'1:100'
     ],
     ['Ridley',[1,'Qubeley'],'HG',false,false,false,'UC','A'],
-    ['LunchTime Solutions',[1,'RX-78-2'],'RG',false,false,false,'UC','B'],
+    ['GunChef',[1,'RX-78-2'],'RG',false,false,false,'UC','A'],
+    ['RX782v1RG',[1,'RX-78-2'],'RG',true,false,false,'UC','C','2024-10-15',4.92],
+    ['RX782v2RG',[1,'RX-78-2 v2.0'],'RG',true,false,false,'UC','B'],
     ['Colombo: Santa Maria -n- Santa Clara',[0.4,'Salamis and Magellan Class'],'Ship',
         false,false,false,'UC','D','2024-08-21',9.11,false,'Builds/Ships/Colombo.html',false,'2025-01-16'
     ],
@@ -12188,7 +12190,7 @@ const projects = [
         false,false,false,'','D','2023-11-25',3.95,false,'Builds/Pokemon/Pican.html','Asterix','2025-06-02'
     ],
     ['Postaldistrix',[1,'Raiku'],'Pokemon',
-        false,false,false,'','C','2024-09-13',2.17,false,'Builds/Pokemon/Postal.html','Asterix','2025-11-03'
+        false,false,false,'','C','2024-09-13',2.37,false,'Builds/Pokemon/Postal.html','Asterix','2025-11-03'
     ],
     ['Getafix',[1,'Rayquaza'],'Pokemon',
         false,false,false,'','D','2023-09-18',5.74,false,'Builds/Pokemon/Getafix.html','Asterix','2025-02-17'
@@ -12807,10 +12809,10 @@ const projects = [
     //Other
     ['Voltron',[1,'Voltron'],'Other',false,false,false,'Voltron: Defender of the Universe','B','2024',0],
     ['Joe Cool',[1,'Surfing Snoopy'],'Other',
-        false,false,false,'Peanuts','C','2024-09-29',3.17,false,'Builds/Other/JoeCool.html',false,'2024-12-30'
+        false,false,false,'Peanuts','D','2024-09-29',5.42,false,'Builds/Other/JoeCool.html',false,'2024-12-30'
     ],
     ['Red Pill',[1,'USAGS Apex'],'Other',
-        false,false,false,'United States Gundam Store','C','2024-09-10',1.5,true,'Builds/Other/RedPill.html',false,'2025-06-09'
+        false,false,false,'United States Gundam Store','C','2024-09-10',2.13,true,'Builds/Other/RedPill.html',false,'2025-06-09'
     ]
 ];
 
