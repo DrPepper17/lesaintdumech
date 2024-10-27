@@ -5978,8 +5978,9 @@ const projects = [
             'Federation Trooper'
         ],false,true,'1:144',false,false,'Corruption'
     ], 
+    ['Carlibarn [SD]',[1,'Calibarn'],'SD',true,false,false,'Mercury','D','2024-10-24',2],
     ['Faces of Eve',[4,'Calibarn','Calibarn','Calibarn','Calibarn'],'SD',
-        false,false,false,'Mercury','C','2024-09-29',3.4,false,'Builds/Gundams/4EVES.html',false,'2024-12-13',models[144],
+        false,false,false,'Mercury','C','2024-09-29',8.22,false,'Builds/Gundams/4EVES.html',false,'2024-12-13',models[144],
         [
             ['','']
         ],
@@ -10055,7 +10056,7 @@ const projects = [
             ['Premium Bandai: RG God Gundam Expansion Set','https://p-bandai.com/us/item/N2619351001001']
         ],false,false,true,'1:144','God Gundam'
     ],
-    ['Michael',[1,'Burning Gundam'],'SD',false,false,false,'G','C','2024-09-13',2.32],
+    ['Michael',[1,'Burning Gundam'],'SD',false,false,false,'G','C','2024-09-13',3.28],
     ['Furcas',[1,'Dark Army'],'HG',
         false,false,false,'G','D','2024-08-20',4.28,false,'Builds/Gundams/Furcas.html','Ars Goetia','2025-04-14'
     ],
@@ -10197,7 +10198,7 @@ const projects = [
         ],false,true,true,'1:144','The Sun King'
 
     ],
-    ['Gabriel',[1,'Shining Gundam'],'SD',false,false,false,'G','C','2024-09-13',2.62],   //Mr Metallic
+    ['Gabriel',[1,'Shining Gundam'],'SD',false,false,false,'G','C','2024-09-13',3.35],   //Mr Metallic
     ['Camael',[1,'Shining Gundam'],'SD',false,false,false,'G','B','2024',0],    //Flat
     ['Red Baron',[1,'Spiegel, Gundam'],'MG',
         false,false,false,'G','E','2021-05-05',72.07,true,'Builds/Gundams/RedBaron.html','Hand Paint','2021-05-29',models[2],
@@ -11001,6 +11002,8 @@ const projects = [
     ['Luxe-Ball',[1,'Polypodball'],'MG',
         false,true,false,'UC','E','2024-07-14',15.08,false,'Builds/PBandai/LuxeBall.html','Pokeball','2024-09-23',models[135],
         [
+            ['https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/4841aa4c-9ff1-4f55-afe9-a436aa5d7f82.jpg','Gunplas Builders World Cup 3rd Place'],
+            ['https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/e1a16209-45bb-442b-846f-84583d7b662e.jpeg','Gunplas Builders World Cup 3rd Place'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL01.jpeg','P-Bandai Luxe-Ball'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL02.jpeg','P-Bandai Luxe-Ball'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL03.jpeg','P-Bandai Luxe-Ball'],
@@ -11448,6 +11451,7 @@ const projects = [
     ['Pharaoh',[1,'Dragon, Shining Grasper'],'SD',false,false,false,'Heroes','D','2024-07-08',3.24], //peacock
     ['Tiamat',[1,'Dragon, Shining Grasper'],'SD',false,false,false,'Heroes','D','2024-07-04',2.58], //midnight city
     ['Python',[1,'Dragon, Shining Grasper'],'SD',false,false,false,'Heroes','D','2024-07-06',3.49], //leviathan
+    ['Wadjet',[1,'Dragon, Shining Grasper'],'SD',false,false,false,'Heroes','C','2024-10-26',0.27], //Bubblegumcrisis
     ['Ose',[1,'Duel, Taishi Ci'],'SD',false,false,false,'Heroes','B','',0,false,'','Ars Goetia'],
     ['Cronus',[1,'Epyon, Nobunaga'],'SD',false,false,false,'Heroes','B'],
     ['Helios',[1,'Freedom, Zhuge Liang'],'SD',
@@ -12190,7 +12194,7 @@ const projects = [
         false,false,false,'','D','2023-11-25',3.95,false,'Builds/Pokemon/Pican.html','Asterix','2025-06-02'
     ],
     ['Postaldistrix',[1,'Raiku'],'Pokemon',
-        false,false,false,'','C','2024-09-13',2.37,false,'Builds/Pokemon/Postal.html','Asterix','2025-11-03'
+        false,false,false,'','C','2024-09-13',2.75,false,'Builds/Pokemon/Postal.html','Asterix','2025-11-03'
     ],
     ['Getafix',[1,'Rayquaza'],'Pokemon',
         false,false,false,'','D','2023-09-18',5.74,false,'Builds/Pokemon/Getafix.html','Asterix','2025-02-17'
@@ -12812,7 +12816,7 @@ const projects = [
         false,false,false,'Peanuts','D','2024-09-29',5.42,false,'Builds/Other/JoeCool.html',false,'2024-12-30'
     ],
     ['Red Pill',[1,'USAGS Apex'],'Other',
-        false,false,false,'United States Gundam Store','C','2024-09-10',2.13,true,'Builds/Other/RedPill.html',false,'2025-06-09'
+        false,false,false,'United States Gundam Store','C','2024-09-10',2.63,true,'Builds/Other/RedPill.html',false,'2025-06-09'
     ]
 ];
 

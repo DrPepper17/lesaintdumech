@@ -1866,6 +1866,30 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/ecd52e4f-a68a-4300-af42-ca0426c45a75.jpeg']
         ]
+    ],
+    [
+        '2024-10-27',
+        'Gunpla Builders World Cup - 3rd PLace',
+        'https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/4841aa4c-9ff1-4f55-afe9-a436aa5d7f82.jpg',
+        [
+            [
+                'So excited! Particupated today in a Gunpla Builders World Cup Competition in Ralson, Nebraska. Submitted my build ',
+                ['Luxe-Ball','Builds/PBandai/LuxeBall.html'],
+                ' today and it came in third place.'
+            ]
+        ],
+        [
+            'This was my second entry in and my first win in a GBWC competition. Looking forward to many more future events going forward.'
+        ],
+        [
+            ['img','https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/e1a16209-45bb-442b-846f-84583d7b662e.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/29c27c5e-b4f4-4423-8be7-513bd7f401d3.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/8d578a5a-909c-4511-8430-3b4e2d08013a.jpeg']
+        ]
     ]
 ]
 
