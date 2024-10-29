@@ -1890,6 +1890,30 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/8d578a5a-909c-4511-8430-3b4e2d08013a.jpeg']
         ]
+    ],
+    [
+        '2024-10-29',
+        'Straight Aerial Markup',
+        'https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/76fa4649-c36d-40dd-9cea-84aa852fda59.jpeg',
+        [
+            [
+                'Today is a rare post. I normally do not post non-premium straight builds. And this kit started out as a just a straight build of the ',
+                ['HG Gundam Aerial','Builds/Specials/AerialHGStr.html'],
+                ' that I had build and left sitting for display on my shelf with completely no plans to paint or post or do anything further with at all.'
+            ]
+        ],
+        [
+            'However I had just bought a few packs of the Bandai Gundam paint markers which I had used in the past to do touchups on paint builds post-painting but had never actually used to paint a whole gunpla kit before. So out of curiostity I wanted to paint a whole Gundam with them, or rather Mark up a whole Gundam with them, but I was being cheap and did not want to purchase a whole new kit. So I looked on the shelf, saw the HG Aerial just sitting there and figured why not.'
+        ],
+        [
+            'The most difficult part was not the paint, or marking, but the carefully ising a tiny micro knife to slide apart all the pieces of an already completely assembled kit. I had to completely take the entire Aerial apart first in order to paint this. Once that was done, marking up all the pieces was pretty fast and easy. Went by way faster than painting with an airbrush.'
+        ],
+        [
+            'However, as cool as this came out looking, I do think formal airbrush painting looks way better in quality. This will probably wind up being a one time experiment that I will not be repeating.'
+        ],
+        [
+            ['img','https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/1275c88e-1d1a-4f06-a842-6dec364d7550.jpeg']
+        ]
     ]
 ]
 

@@ -5665,8 +5665,8 @@ const projects = [
             ['NewType','']
         ],false,true,false,'1:100'
     ],
-    ['Aerial [HG]',[1,'Aerial'],'HG',
-        true,false,false,'Mercury','D','2023-05-30',7.42,false,'Builds/Specials/AerialHGStr.html',false,'2024-10-28',models[141],
+    ['MarkAer',[1,'Aerial'],'HG',
+        true,false,false,'Mercury','E','2023-05-30',7.42,false,'Builds/Specials/AerialHGStr.html',false,'2024-10-29',models[141],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/hgaerialstr01.jpeg','HG Aerial Straight'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/hgaerialstr02.jpeg','HG Aerial Straight'],
@@ -5719,7 +5719,7 @@ const projects = [
             ['Markers','https://www.usagundamstore.com/products/gundam-metallic-marker-set-ams121'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/hgtwfm-1-144-03-gundam-aerial'],
             ['NewType','https://newtype.us/p/SLQANOrlxQEO4a9t3lJ7/h/hgwfm-03-gundam-aerial']
-        ],false,false,false,'1:144'
+        ],false,false,true,'1:144'
     ],
     ['PB Aerial Permet Six [HG]',[1,'Aerial'],'HG',
         true,true,false,'Mercury','D','2023-09-19',2.83,false,'Builds/PBandai/PBPermet6Aerial.html',false,'2024-10-31',models[141],
