@@ -1914,6 +1914,27 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/1275c88e-1d1a-4f06-a842-6dec364d7550.jpeg']
         ]
+    ],
+    [
+        '2024-10-31',
+        'PB Permet Score Six',
+        'https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/057f117a-d8c7-48ae-80a9-340f6e4be892.jpeg',
+        [
+            [
+                'Of course one marker build is not adequate for one week. That is still practically just a straight build. I\'m not that cheap. Next up I present to you the ',
+                ['P-Bandai Aerial Permet Six','Builds/PBandai/PBPermet6Aerial.html'],
+                '.'
+            ]
+        ],
+        [
+            'Basically just the standard HG Aerial kit, but with cooler color plastic. There is almost a glitter mixed in with the color. Plus different color stickers to resemble the Permet Level Six colors from the anime. It\'s still a cheap gimmick but it\'s sort of cool I guess.'
+        ],
+        [
+            'Definitely the Definitive Aerial until you get to the Aerial Rebuild.'
+        ],
+        [
+            ['img','https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/10473d25-1830-40f3-8f76-05c594b6d22b.jpeg']
+        ]
     ]
 ]
 

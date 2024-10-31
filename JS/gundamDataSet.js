@@ -5722,7 +5722,7 @@ const projects = [
         ],false,false,true,'1:144'
     ],
     ['PB Aerial Permet Six [HG]',[1,'Aerial'],'HG',
-        true,true,false,'Mercury','D','2023-09-19',2.83,false,'Builds/PBandai/PBPermet6Aerial.html',false,'2024-10-31',models[141],
+        true,true,false,'Mercury','E','2023-09-19',2.83,false,'Builds/PBandai/PBPermet6Aerial.html',false,'2024-10-31',models[141],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/pbaerialpermsix01.jpeg','PB Aerial Permet Six'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/pbaerialpermsix02.jpeg','PB Aerial Permet Six'],
@@ -5781,7 +5781,7 @@ const projects = [
         'Saw this on P-Bandai\'s website and had to have it. Not that different than a standard HG Aerial. Just cooler more cosmic shade of colors.',false,
         [
             ['Premium Bandai','https://p-bandai.com/us/item/N2687957001002']
-        ],false,false,false,'1:144',false,'Aerial Permet Six','PB Aerial Permet Six'
+        ],false,false,true,'1:144',false,'Aerial Permet Six','PB Aerial Permet Six'
     ],
     ['Ariel',[1.5,'Aerial','Mirasoul Flight Pack'],'HG',
         false,false,false,'Mercury','D','2023-12-10',12.03,false,'Builds/Gundams/Ariel.html','Angels','2024-11-04',models[141],
@@ -5980,7 +5980,7 @@ const projects = [
     ], 
     ['Carlibarn [SD]',[1,'Calibarn'],'SD',true,false,false,'Mercury','D','2024-10-24',2],
     ['Faces of Eve',[4,'Calibarn','Calibarn','Calibarn','Calibarn'],'SD',
-        false,false,false,'Mercury','C','2024-09-29',8.22,false,'Builds/Gundams/4EVES.html',false,'2024-12-13',models[144],
+        false,false,false,'Mercury','C','2024-09-29',10.68,false,'Builds/Gundams/4EVES.html',false,'2024-12-30',models[144],
         [
             ['','']
         ],
@@ -6669,7 +6669,7 @@ const projects = [
     ['Noxus',[1.25,'Pharact','P.B. Witch From Mercury Expansion Pack'],'HG',false,true,false,'Mercury','A','202x',0,false,'Builds/Metroid/Noxus.html','Metroid'],
     ['Schwarzette [HG]',[1,'Schwarzette'],'HG',true,false,false,'Mercury','E','2023-10-04',2.33,false,false,false],
     ['Metatron',[1,'Schwarzette'],'HG',
-        false,false,false,'Mercury','D','2023-11-25',17.15,false,'Builds/Gundams/Metatron.html','Angels','2024-12-16',models[145],
+        false,false,false,'Mercury','D','2023-11-25',17.15,false,'Builds/Gundams/Metatron.html','Angels','2024-12-09',models[145],
         [
             ['','Metatron']
         ],
@@ -7379,6 +7379,7 @@ const projects = [
             ['Premium Bandai','https://p-bandai.com/us/item/N2390162001002']
         ],false,false,true,'1:144'
     ],
+    ['Zero Rouge',[1,'Wing Zero'],'SD',false,false,false,'Wing','C','2024-10-27',0.5],
     ['Dark Zero',[1,'Wing Zero'],'MG',false,false,false,'Wing','B'],
     ['Dark Zero [RG]',[1,'Wing Zero'],'RG',false,false,false,'Wing','A'],
     ['Dark Zero [SD]',[1,'Wing Zero'],'SD',false,false,false,'Wing','B'],
@@ -9299,7 +9300,7 @@ const projects = [
         ],false,true,true
     ],
     ['Cordelia',[1,'Strike Dagger'],'HG',
-        false,true,false,'Seed','D','2023-12-11',7.23,false,'Builds/PBandai/Cordelia.html','Shakespeare','2024-12-23',models[92],
+        false,true,false,'Seed','D','2023-12-11',7.23,false,'Builds/PBandai/Cordelia.html','Shakespeare','2024-12-16',models[92],
         [
             ['','']
         ],
@@ -10056,7 +10057,7 @@ const projects = [
             ['Premium Bandai: RG God Gundam Expansion Set','https://p-bandai.com/us/item/N2619351001001']
         ],false,false,true,'1:144','God Gundam'
     ],
-    ['Michael',[1,'Burning Gundam'],'SD',false,false,false,'G','C','2024-09-13',3.28],
+    ['Michael',[1,'Burning Gundam'],'SD',false,false,false,'G','C','2024-09-13',4.12],
     ['Furcas',[1,'Dark Army'],'HG',
         false,false,false,'G','D','2024-08-20',4.28,false,'Builds/Gundams/Furcas.html','Ars Goetia','2025-04-14'
     ],
@@ -10198,7 +10199,7 @@ const projects = [
         ],false,true,true,'1:144','The Sun King'
 
     ],
-    ['Gabriel',[1,'Shining Gundam'],'SD',false,false,false,'G','C','2024-09-13',3.35],   //Mr Metallic
+    ['Gabriel',[1,'Shining Gundam'],'SD',false,false,false,'G','C','2024-09-13',4.525],   //Mr Metallic
     ['Camael',[1,'Shining Gundam'],'SD',false,false,false,'G','B','2024',0],    //Flat
     ['Red Baron',[1,'Spiegel, Gundam'],'MG',
         false,false,false,'G','E','2021-05-05',72.07,true,'Builds/Gundams/RedBaron.html','Hand Paint','2021-05-29',models[2],
@@ -11451,7 +11452,7 @@ const projects = [
     ['Pharaoh',[1,'Dragon, Shining Grasper'],'SD',false,false,false,'Heroes','D','2024-07-08',3.24], //peacock
     ['Tiamat',[1,'Dragon, Shining Grasper'],'SD',false,false,false,'Heroes','D','2024-07-04',2.58], //midnight city
     ['Python',[1,'Dragon, Shining Grasper'],'SD',false,false,false,'Heroes','D','2024-07-06',3.49], //leviathan
-    ['Wadjet',[1,'Dragon, Shining Grasper'],'SD',false,false,false,'Heroes','C','2024-10-26',0.27], //Bubblegumcrisis
+    ['Wadjet',[1,'Dragon, Shining Grasper'],'SD',false,false,false,'Heroes','C','2024-10-26',0.56], //Bubblegumcrisis
     ['Ose',[1,'Duel, Taishi Ci'],'SD',false,false,false,'Heroes','B','',0,false,'','Ars Goetia'],
     ['Cronus',[1,'Epyon, Nobunaga'],'SD',false,false,false,'Heroes','B'],
     ['Helios',[1,'Freedom, Zhuge Liang'],'SD',
@@ -12813,10 +12814,10 @@ const projects = [
     //Other
     ['Voltron',[1,'Voltron'],'Other',false,false,false,'Voltron: Defender of the Universe','B','2024',0],
     ['Joe Cool',[1,'Surfing Snoopy'],'Other',
-        false,false,false,'Peanuts','D','2024-09-29',5.42,false,'Builds/Other/JoeCool.html',false,'2024-12-30'
+        false,false,false,'Peanuts','D','2024-09-29',5.42,false,'Builds/Other/JoeCool.html',false,'2024-12-23'
     ],
     ['Red Pill',[1,'USAGS Apex'],'Other',
-        false,false,false,'United States Gundam Store','C','2024-09-10',2.63,true,'Builds/Other/RedPill.html',false,'2025-06-09'
+        false,false,false,'United States Gundam Store','C','2024-09-10',3.25,true,'Builds/Other/RedPill.html',false,'2025-06-09'
     ]
 ];
 
