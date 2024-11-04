@@ -1935,6 +1935,26 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/10473d25-1830-40f3-8f76-05c594b6d22b.jpeg']
         ]
+    ],
+    [
+        '2024-11-04',
+        'Another Aerial',
+        'https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/ee47efc6-f6f7-4dba-94e9-135c47502d9a.jpeg',
+        [
+            [
+                'Last week was an Aerial straight build week. But of course I cannot just build a straight build without also wanting to paint it. So this week I present to you Gundam ',
+                ['Ariel','Builds/Gundams/Ariel.html'],
+                '. An HG Aerial named for the angel of nature and equipped with the Mirasoul flight pack. And painted with Mr Hobby metallics. This version of the Aerial can be quite forboding'
+            ]
+        ],
+        [
+            [
+                ['Youtube','https://youtu.be/mZX6B1Z-2E0',true]
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/f62ff7ef-d755-4897-8a71-d40e11e0bb20.jpeg']
+        ]
     ]
 ]
 
