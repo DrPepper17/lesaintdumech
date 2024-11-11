@@ -1955,6 +1955,29 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/f62ff7ef-d755-4897-8a71-d40e11e0bb20.jpeg']
         ]
+    ],
+    [
+        '2024-11-11',
+        'Aerial Chicken Sandwich',
+        'https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/9091856c-044f-4c4c-96aa-7eecb80a5c23.jpg',
+        [
+            [
+                'What is red and brown and mortar? That\'s right, brand new ',
+                ['Gundam Chimkin','Builds/Gundams/Chimkin.html'],
+                '. Inspired by Chick-Fil-A I bring you my final Aerial build in this Witch From Mercury series. This time the FM build so it\'s a bit larger. Enjoy!'
+            ]
+        ],
+        [
+            [
+                ['Youtube','https://youtu.be/2_rBQzL-qEY',true]
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/bb9e7e0a-7baf-4c58-b5cc-f52fe875cf2b.jpg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/9694cd35-17ce-40f0-be4e-531380b52bc5.jpeg']
+        ]
     ]
 ]
 
