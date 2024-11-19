@@ -6151,7 +6151,7 @@ const projects = [
     ], 
     ['Carlibarn [SD]',[1,'Calibarn'],'SD',true,false,false,'Mercury','D','2024-10-24',2],
     ['Faces of Eve',[4,'Calibarn','Calibarn','Calibarn','Calibarn'],'SD',
-        false,false,false,'Mercury','C','2024-09-29',10.68,false,'Builds/Gundams/4EVES.html',false,'2024-12-30',models[144],
+        false,false,false,'Mercury','C','2024-09-29',17.5,false,'Builds/Gundams/4EVES.html',false,'2024-12-30',models[144],
         [
             ['','']
         ],
@@ -7550,7 +7550,7 @@ const projects = [
             ['Premium Bandai','https://p-bandai.com/us/item/N2390162001002']
         ],false,false,true,'1:144'
     ],
-    ['Zero Rouge',[1,'Wing Zero'],'SD',false,false,false,'Wing','C','2024-10-27',0.5],
+    ['Zero Rouge',[1,'Wing Zero'],'SD',false,false,false,'Wing','C','2024-10-27',2],
     ['Dark Zero',[1,'Wing Zero'],'MG',false,false,false,'Wing','B'],
     ['Dark Zero [RG]',[1,'Wing Zero'],'RG',false,false,false,'Wing','A'],
     ['Dark Zero [SD]',[1,'Wing Zero'],'SD',false,false,false,'Wing','B'],
@@ -11276,7 +11276,7 @@ const projects = [
     ['Ridley',[1,'Qubeley'],'HG',false,false,false,'UC','A'],
     ['GunChef',[1,'RX-78-2'],'RG',false,false,false,'UC','A'],
     ['RX782v1RG',[1,'RX-78-2'],'RG',true,false,false,'UC','C','2024-10-15',4.92],
-    ['RX782v2RG',[1,'RX-78-2 v2.0'],'RG',true,false,false,'UC','B'],
+    ['RX782v2RG',[1,'RX-78-2 v2.0'],'RG',true,false,false,'UC','D','2024-11-16',8.75],
     ['Colombo: Santa Maria -n- Santa Clara',[0.4,'Salamis and Magellan Class'],'Ship',
         false,false,false,'UC','D','2024-08-21',9.11,false,'Builds/Ships/Colombo.html',false,'2025-01-16'
     ],
@@ -11623,7 +11623,7 @@ const projects = [
     ['Pharaoh',[1,'Dragon, Shining Grasper'],'SD',false,false,false,'Heroes','D','2024-07-08',3.24], //peacock
     ['Tiamat',[1,'Dragon, Shining Grasper'],'SD',false,false,false,'Heroes','D','2024-07-04',2.58], //midnight city
     ['Python',[1,'Dragon, Shining Grasper'],'SD',false,false,false,'Heroes','D','2024-07-06',3.49], //leviathan
-    ['Wadjet',[1,'Dragon, Shining Grasper'],'SD',false,false,false,'Heroes','C','2024-10-26',0.56], //Bubblegumcrisis
+    ['Wadjet',[1,'Dragon, Shining Grasper'],'SD',false,false,false,'Heroes','C','2024-10-26',1.3], //Bubblegumcrisis
     ['Ose',[1,'Duel, Taishi Ci'],'SD',false,false,false,'Heroes','B','',0,false,'','Ars Goetia'],
     ['Cronus',[1,'Epyon, Nobunaga'],'SD',false,false,false,'Heroes','B'],
     ['Helios',[1,'Freedom, Zhuge Liang'],'SD',

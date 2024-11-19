@@ -1978,6 +1978,47 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/9694cd35-17ce-40f0-be4e-531380b52bc5.jpeg']
         ]
+    ],
+    [
+        '2024-11-18',
+        'XVX-016RN Gundam Aerial Rebuild',
+        'https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/93813c54-981c-4fc9-8f5f-0f35614a1b7a.jpeg',
+        [
+            'Time for another straight build week. Today is the XVX-016RN Gundam Aerial Rebuild High Grade. '
+        ],
+        [
+            'Way more indtimidating than the original Aerial, and for that matter LFrith, the Rebuild is much more masculine evoking and cool jetpack on the back which also sort of slightly resembles butterfly wings. Also that new cannon mode, total bad ass!'
+        ],
+        [
+            ['img','https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/3ba3dc53-0337-4810-af3e-8b151221c7c9.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/968ee160-1c64-4fe9-a656-1542135905dc.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/9d76ca93-84b1-4c77-a6c1-1aa3e85d2677.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/a08aa1d0-7043-4a44-aa72-da27b22bd22f.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/f29d046c-a600-41fe-a79b-0b999b37cf9b.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/93813c54-981c-4fc9-8f5f-0f35614a1b7a.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/8d28c265-7177-449f-867a-cd239e7f3edb.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/584105a6-9a24-4726-bc67-866fad8dcdaa.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/65e5dbe7-e174-45e2-9a3c-b7106bff1e04.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/0e2adf26-996c-455a-9cb1-e6395b7e912d.jpeg']
+        ]
     ]
 ]
 
