@@ -2036,6 +2036,38 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/0a8ed0bb-73cf-4723-aa71-c69316fe6e25.jpeg']
         ]
+    ],
+    [
+        '2024-11-21',
+        'Aerial Rebuild pt II: Zephon',
+        'https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/d0214f68-48a7-4bfa-8a27-a2771e23a6cf.jpeg',
+        [
+            [
+                'So Monday I gave you the straight build. Which means today I present to you the paint build ',
+                ['Zephon','Builds/Gundams/Zephon.html'],
+                '.'
+            ]
+        ],
+        [
+            'Named after the cherub and one of the guardians of heaven, Zephon truly is a golden angelic warrior from on high with fierce golden Gund-Bits able to cut and slice through any foe. The Aerial Rebuild truly is fierce and intimidating.'
+        ],
+        [
+            [
+                ['Youtube','https://youtu.be/-3F9q8Xl0Tw',true]
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/edcc0570-bd3e-4f5c-bc3e-686f8c824a9a.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/cae85a23-da3d-4b36-aea5-b990b0f31f53.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/12124559-faa6-4a23-a59c-7592f06071a2.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/5ac2216d-13ce-48a8-9ca6-6907848d1c31.jpeg']
+        ]
     ]
 ]
 

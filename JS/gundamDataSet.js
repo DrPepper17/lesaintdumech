@@ -6032,7 +6032,7 @@ const projects = [
         ],false,true,true
     ],
     ['Zephon',[1,'Aerial Rebuild'],'HG',
-        false,false,false,'Mercury','D','2023-11-25',16.15,false,'Builds/Gundams/Zephon.html','Angels','2024-11-21',models[142],
+        false,false,false,'Mercury','E','2023-11-25',16.15,false,'Builds/Gundams/Zephon.html','Angels','2024-11-21',models[142],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/arrnhgstr01.jpeg','HG Aerial Rebuild Straight'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/arrnhgstr02.jpeg','HG Aerial Rebuild Straight'],
@@ -6167,15 +6167,15 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/zephon103.jpeg','Zephon'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/zephon104.jpeg','Zephon']
         ],
-        ['','Profile Photo: Zephon'],
-        '.......Description.......',false,
+        ['https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/4a5d04cb-2e44-4f0e-ac8f-4d646396d05d.jpeg','Profile Photo: Zephon'],
+        'For the Aerial final form I wanted to do something bright and radient. So I chose flat yellow like the sun. And laden with Turbo Dork Afterburner to give it a late sunset glow. Broke the joints to the jet packs while assembling this so they are super glued together and therefore no longer articulate. Overall it\'s like a golden buttefly. I love it.',false,
         [
             ['Video','https://youtu.be/-3F9q8Xl0Tw'],
             ['Zephon','https://angelology.fandom.com/wiki/Zephon'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/hg-1-144-gundam-aerial-rebuild'],
             ['NewType','https://newtype.us/p/ZM6N7Ve4JelPGu1Hm88F/h/hgwfm-19-gundam-aerial-rebuild'],
             ['TurboDork: Afterburner','https://turbodork.com/collections/all-paints/products/afterburner-1']
-        ],false,true,false,'1:144'
+        ],false,true,true,'1:144'
     ],
     ['Aerial Rebuild [HG]',[1,'Aerial Rebuild'],'HG',true,false,false,'Mercury','E','2024-06-02',1.42,false,false,false,'2024-11-18'],
     ['Rundas',[1,'Beguir-Beu'],'HG',false,false,false,'Mercury','A','202x',0,false,'Builds/Metroid/Rundas.html','Metroid'],
