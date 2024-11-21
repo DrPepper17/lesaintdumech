@@ -1805,7 +1805,7 @@ const blogArray = [
         [
             [
                 'This make time number 6. Thank you so much ',
-                ['NewType.US','https://newtype.us',true],
+                ['NewType','https://newtype.us',true],
                 ' for selecting my build ',
                 ['Azalea','Builds/SDW/Azalea.html'],
                 '  for  your week of October 07, 2024, Build of the Week!!!!'
@@ -2018,6 +2018,23 @@ const blogArray = [
         ],
         [
             ['img','https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/0e2adf26-996c-455a-9cb1-e6395b7e912d.jpeg']
+        ]
+    ],
+    [
+        '2024-11-19',
+        'Build of Week: Jade',
+        'https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/ad2dd76d-f2ae-400c-bd6a-75f4dfdcdbac.jpeg',
+        [
+            [
+                'Thank you ',
+                ['NewType','https://newtype.us',true],
+                '!! This week they have selected my build ',
+                ['Jade','Builds/Pokemon/Jade.html'],
+                ' as their Build of the Week. This is now selection number 7 that they have selected one of my builds. Thanks so much you guys.'
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/0a8ed0bb-73cf-4723-aa71-c69316fe6e25.jpeg']
         ]
     ]
 ]
