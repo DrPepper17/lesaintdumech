@@ -2068,6 +2068,24 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/5ac2216d-13ce-48a8-9ca6-6907848d1c31.jpeg']
         ]
+    ],
+    [
+        '2024-11-26',
+        'Gundnode',
+        'https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/88991408-2d83-4b29-be98-32529f61156e.jpeg',
+        [
+            [
+                'So day late posting this week due to a bad case of food poisoning. But better late than never. Last week was the Aerial Rebuild, and where would Ari and Prospera be without their army of ',
+                ['Gundnodes','Builds/PBandai/PBGundnode.html'],
+                '.'
+            ]
+        ],
+        [
+            'This week I present to you the P-Bandai High Grade XGF-E3 Gundnode Straight Build. Since they were first introduced in the anime I thought these mobile suits were so cool. Way more so than any the mobile dolls in Gundam Wing. So soon as the kit became available on P-Bandai I jumped on that and ordered it immediately. Of course though the Gundnode does not operate as one but as part of a swarm so I do have more of them unpainted and unassembled which I will be doing a project with shortly.'
+        ],
+        [
+            ['img','https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/fc85cef0-f173-413b-b9a3-848b565bfe40.jpeg']
+        ]
     ]
 ]
 
