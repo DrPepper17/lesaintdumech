@@ -2086,6 +2086,35 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/fc85cef0-f173-413b-b9a3-848b565bfe40.jpeg']
         ]
+    ],
+    [
+        '2024-12-02',
+        'X-EX01 Gundam Calibarn',
+        'https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/ee2715a1-73fa-4b48-bd8a-b3e49f2fd1e2.jpeg',
+        [
+            'Starting out this week, I present to you the X-EX01 Gundam Calibarn High Grade Straight build. We have almost completed the full Witch from Mercury Aerial family lineup.'
+        ],
+        [
+            ['img','https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/dfd6fa71-fc0d-4287-ab41-f931c1b8cda9.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/688737a2-8aed-466d-97a0-da1b7483a3aa.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/12d2898d-93d3-4dd6-851f-6527e2ca1439.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/ca7500ad-2c0d-4f13-abc5-bd172a464b2a.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/bfdc7445-6d93-4cba-924d-5fb2f9267e74.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/0dc046e0-dc3c-45e7-a1e0-ddf4bcb79eba.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/1d3fb745-dd79-440b-9166-3909d7de33ce.jpeg']
+        ]
     ]
 ]
 

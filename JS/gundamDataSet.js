@@ -6255,7 +6255,7 @@ const projects = [
     ], 
     ['Carlibarn [SD]',[1,'Calibarn'],'SD',true,false,false,'Mercury','D','2024-10-24',2],
     ['Faces of Eve',[4,'Calibarn','Calibarn','Calibarn','Calibarn'],'SD',
-        false,false,false,'Mercury','C','2024-09-29',18.92,false,'Builds/Gundams/4EVES.html',false,'2024-12-30',models[144],
+        false,false,false,'Mercury','D','2024-09-29',28.95,false,'Builds/Gundams/4EVES.html',false,'2024-12-30',models[144],
         [
             ['','']
         ],
@@ -7655,7 +7655,7 @@ const projects = [
             ['Premium Bandai','https://p-bandai.com/us/item/N2390162001002']
         ],false,false,true,'1:144'
     ],
-    ['Zero Rouge',[1,'Wing Zero'],'SD',false,false,false,'Wing','C','2024-10-27',3.08],
+    ['Zero Rouge',[1,'Wing Zero'],'SD',false,false,false,'Wing','D','2024-10-27',4.97],
     ['Dark Zero',[1,'Wing Zero'],'MG',false,false,false,'Wing','B'],
     ['Dark Zero [RG]',[1,'Wing Zero'],'RG',false,false,false,'Wing','A'],
     ['Dark Zero [SD]',[1,'Wing Zero'],'SD',false,false,false,'Wing','B'],
@@ -8156,7 +8156,7 @@ const projects = [
             ['Premium Bandai','https://p-bandai.com/us/item/N2570542001001']
         ],false,false,true,'1:144'
     ],
-    ['Graphite',[1,'0 Gundam'],'HG',false,false,false,'00','C','2024-11-18',1.58],
+    ['Pyrite',[1,'0 Gundam'],'HG',false,false,false,'00','C','2024-11-18',1.92],
 
     //Correct Century (Turn A)
     ['John Wayne',[1,'Turn-A'],'SD',
@@ -9013,7 +9013,7 @@ const projects = [
         'This was my first ship buid. And I am awfully quite attached to it. At the time I was in a Gundam Seed kick and rewatching that series so the ships and machines from that saga was on my mind. Seed is probably home to all my favorite vessels throughout the entire Gundam saga. Whether it be Eternal or Archangel they\'re all so cool. And Eternal is by my far the coolest one. For this I was trying to be as realistic and close to the source material as possible. So rather than do a custom design I painted it exactly as how it appears in the anime. So expect lots of pink and purples... Also..., it has got to be pointed out how cool and cute the METEOR units in this kit are. By far out of the whole ship, the METEORs I\'m most proud of. Inspired by these, I am going to be doing a much larger scale P-Bandai meteor kit paint real soon.',
         false,false,['Archangel'],false,true,'1:1700'
     ],
-    ['Roanoke',[1,'Exus'],'HG',false,false,false,'Seed','C','2024-11-22',2],
+    ['Roanoke',[1,'Exus'],'HG',false,false,false,'Seed','C','2024-11-22',2.58],
     ['Orga',[1,'Forbidden'],'FM',false,false,false,'Seed','A'],
     ['Anthem',[1,'Freedom'],'MG',
         false,false,false,'Seed','E','2022-05-05',73.16,true,'Builds/Gundams/Anthem.html','America','2022-07-04',models[14],
@@ -11276,7 +11276,7 @@ const projects = [
             ['USA Gundam Store','https://www.usagundamstore.com/products/bandai-hobby-bb-394-unicorn-gundam-phenex-action-figure?variant=1114433924']
         ],['Bella Donna','Sovereign'],true,true,false
     ],
-    ['Pokeball',[1,'Podball'],'MG',false,false,false,'UC','C','2024-11-22',2.17],
+    ['Pokeball',[1,'Podball'],'MG',false,false,false,'UC','C','2024-11-22',3.08],
     ['Ridley',[1,'Qubeley'],'HG',false,false,false,'UC','A'],
     ['GunChef',[1,'RX-78-2'],'RG',false,false,false,'UC','A'],
     ['RX782v1RG',[1,'RX-78-2'],'RG',true,false,false,'UC','C','2024-10-15',4.92],
@@ -11730,7 +11730,7 @@ const projects = [
     ['Pharaoh',[1,'Dragon, Shining Grasper'],'SD',false,false,false,'Heroes','D','2024-07-08',3.24], //peacock
     ['Tiamat',[1,'Dragon, Shining Grasper'],'SD',false,false,false,'Heroes','D','2024-07-04',2.58], //midnight city
     ['Python',[1,'Dragon, Shining Grasper'],'SD',false,false,false,'Heroes','D','2024-07-06',3.49], //leviathan
-    ['Wadjet',[1,'Dragon, Shining Grasper'],'SD',false,false,false,'Heroes','C','2024-10-26',1.3], //Bubblegumcrisis
+    ['Wadjet',[1,'Dragon, Shining Grasper'],'SD',false,false,false,'Heroes','D','2024-10-26',2.13], //Bubblegumcrisis
     ['Ose',[1,'Duel, Taishi Ci'],'SD',false,false,false,'Heroes','B','',0,false,'','Ars Goetia'],
     ['Cronus',[1,'Epyon, Nobunaga'],'SD',false,false,false,'Heroes','B'],
     ['Helios',[1,'Freedom, Zhuge Liang'],'SD',
