@@ -2115,6 +2115,32 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/1d3fb745-dd79-440b-9166-3909d7de33ce.jpeg']
         ]
+    ],
+    [
+        '2024-12-06',
+        'Calibarn pt II: Abaddon',
+        'https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/16610ad6-0af3-47c8-9165-1f2ed7f2eb5c.jpeg',
+        [
+            [
+                'It\'s Friday evening but before the week ends I still have to present to this week\'s custom build. Inspired by the the King of Locust and warden of hell, I present to you the angel ',
+                ['Abaddon','Builds/Gundams/Abaddon.html'],
+                '.'
+            ]
+        ],
+        [
+            'I have been anxiously waiting forever for months to unveil this build to you all. Calibarn was my favorite new Gundam introduced in Witch from Mercury so I was so excited to paint and build this. For this I had to go all out. Had to make it as sparkly as possible. Hope you all enjoy looking at it as much as I enjoyed painting it.'
+        ],
+        [
+            [
+                ['Youtube','https://youtu.be/zJ2IyE_FTmM',true]
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/eddb0171-b029-45b3-a302-f8f35a28e4d7.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/7e662127-3be0-47be-b96a-5183a9db9091.jpeg']
+        ]
     ]
 ]
 
