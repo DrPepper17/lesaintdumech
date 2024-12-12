@@ -2141,6 +2141,32 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/7e662127-3be0-47be-b96a-5183a9db9091.jpeg']
         ]
+    ],
+    [
+        '2024-12-11',
+        'Arch Angel Metatron',
+        'https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/d430ee82-3985-43d9-b32a-dcf90439d437.png',
+        [
+            [
+                'Late this week on posting. Been swamped this week with work and the holidays. But wihtout further ado, I present to you this week\'s build, the Arch Angel Gundam ',
+                ['Metatron','Builds/Gundams/Metatron.html'],
+                '.'
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/c681ac7a-cea3-4a70-9dce-9f3966eea333.jpeg']
+        ],
+        [
+            'And with this build, this wraps up the end of my Witch From Mercury Angels themed lineup. I am exicted to be finished with all these and to move on to present other things. So stay tuned for what comes next. The year is almost over and I got a whole lot of exciting new builds for 2025. The new year cannot bet here fast enough.'
+        ],
+        [
+            [
+                ['Youtube','https://youtu.be/O1aLIeXc5HY',true]
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/66e9e047-106c-4ac8-8124-d73fde998c65.jpeg']
+        ]
     ]
 ]
 
