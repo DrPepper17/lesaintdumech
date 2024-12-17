@@ -42,7 +42,7 @@ tr {
 .chancery {
     font-family: "Apple Chancery", Times, sans-serif;
 }
-.hide, .table2, .table3, .table4, .gradeBox, .buildFilterBox, .wingPara, .autoPara, .digiPara, .dispPara, .gundPara, .haroPara, .pokePara, .shipPara, .tranPara, .zoidPara, .mercPara, .agePara, .xxPara, .ooPara, .turnPara, .seedPara, .ggunPara, .iboPara, .univPara, .recoPara, .builPara, .sdwPara, .starblazPara, .starwarsPara, .pgPara, .mgPara, .fmPara, .rgPara, .hgPara, .sdPara, .mgsdPara, .ledPara, .mgexPara, .pbPara, .strPara, .paintPara, .othPara, .marmPara {
+.hide, .table2, .table3, .table4, .gradeBox, .buildFilterBox, .wingPara, .autoPara, .digiPara, .dispPara, .gundPara, .haroPara, .pokePara, .otherCatPara, .shipPara, .tranPara, .zoidPara, .mercPara, .agePara, .xxPara, .ooPara, .turnPara, .seedPara, .ggunPara, .iboPara, .univPara, .recoPara, .builPara, .sdwPara, .starblazPara, .starwarsPara, .pgPara, .mgPara, .fmPara, .rgPara, .hgPara, .sdPara, .mgsdPara, .ledPara, .mgexPara, .pbPara, .strPara, .paintPara, .otherSerPara, .marmPara {
     display: none;
 }
 

@@ -13041,7 +13041,7 @@ const projects = [
         ],['Stratle'],false,true
     ],
     ['Long Live The Queen',[1,'Jurassic Park Tyrannosaurus Rex Scene'],'Display',
-        false,false,false,'','D','2024-06-04',32.17,false,'Builds/Displays/JParkQueen.html',false,'2024-07-29',models[130],
+        false,false,false,'','E','2024-06-04',32.17,false,'Builds/Displays/JParkQueen.html',false,'2024-07-29',models[130],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen001.jpeg','Long Live The Queen'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/longqueen002.jpeg','Long Live The Queen'],
@@ -13383,7 +13383,7 @@ const projects = [
     //Other
     ['Voltron',[1,'Voltron'],'Other',false,false,false,'Voltron: Defender of the Universe','B','2024',0],
     ['Joe Cool',[1,'Surfing Snoopy'],'Other',
-        false,false,false,'Peanuts','E','2024-09-29',5.42,false,'Builds/Other/JoeCool.html',false,'2024-12-23',models[147],
+        false,false,false,'Peanuts','D','2024-09-29',5.42,false,'Builds/Other/JoeCool.html',false,'2024-12-23',models[147],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/JoeCool01.jpeg','Joe Cool'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/JoeCool02.jpeg','Joe Cool'],
@@ -13474,6 +13474,7 @@ let gundamFilter = [];
 let haroFilter = [];
 let mobileFilter = [];
 let pokemonFilter = [];
+let otherCatFilter = [];
 let shipFilter = [];
 let transformerFilter = [];
 let zoidFilter = [];
@@ -13492,7 +13493,7 @@ let buildDiverFilter = [];
 let sdwFilter = [];
 let starblazersFilter = [];
 let starwarsFilter = [];
-let otherFilter = [];
+let otherSeriesFilter = [];
 let pgFilter = [];
 let mgFilter = [];
 let fmFilter = [];
@@ -15285,6 +15286,9 @@ function buildFilterArrays() {
             if(postModel[1]===11) {
                 gundamFilter.push(postedArray[i]);
             }
+            if(postModel[1]===12) {
+                otherCatFilter.push(postedArray[i]);
+            }
             if(postedArray[i][6]==='Mercury') {
                 mercuryFilter.push(postedArray[i]);
             }
@@ -15331,7 +15335,7 @@ function buildFilterArrays() {
                 starwarsFilter.push(postedArray[i]);
             }
             if(postedArray[i][28]) {
-                otherFilter.push(postedArray[i]);
+                otherSeriesFilter.push(postedArray[i]);
             }
             if(postedArray[i][2]==='PG') {
                 pgFilter.push(postedArray[i]);
@@ -15397,7 +15401,8 @@ function buildFilterArrays() {
     sdwFilter = sortByName(sdwFilter);
     starblazersFilter = sortByName(starblazersFilter);
     starwarsFilter = sortByName(starwarsFilter);
-    otherFilter = sortByName(otherFilter);
+    otherCatFilter = sortByName(otherCatFilter);
+    otherSeriesFilter = sortByName(otherSeriesFilter);
     pgFilter = sortByDate(pgFilter,'post').reverse();
     mgFilter = sortByDate(mgFilter,'post').reverse();
     fmFilter = sortByDate(fmFilter,'post').reverse();
@@ -15443,7 +15448,8 @@ function buildsClear() {
     hide('.sdwPara');
     hide('.starblazPara');
     hide('.starwarsPara');
-    hide('.othPara');
+    hide('.otherCatPara');
+    hide('.otherSerPara');
     hide('.pgPara');
     hide('.mgPara');
     hide('.fmPara');
@@ -15821,7 +15827,7 @@ function buildProjectPage(string) {
     else if (modelArray[1] === 4) {
         buildCarAuto();
     }
-    else if (modelArray[1] === 5) {
+    else if (modelArray[1] === 5 || modelArray[1] === 12) {
         buildDisplay();
     }
     else if (modelArray[1] === 6) {
