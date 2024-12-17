@@ -8408,7 +8408,7 @@ const projects = [
             ['Premium Bandai','https://p-bandai.com/us/item/N2570542001001']
         ],false,false,true,'1:144'
     ],
-    ['Graphite',[1,'0 Gundam'],'HG',false,false,false,'00','C','2024-11-18',2.75],
+    ['Graphite',[1,'0 Gundam'],'HG',false,false,false,'00','C','2024-11-18',6.25],
 
     //Correct Century (Turn A)
     ['John Wayne',[1,'Turn-A'],'SD',
@@ -9265,7 +9265,7 @@ const projects = [
         'This was my first ship buid. And I am awfully quite attached to it. At the time I was in a Gundam Seed kick and rewatching that series so the ships and machines from that saga was on my mind. Seed is probably home to all my favorite vessels throughout the entire Gundam saga. Whether it be Eternal or Archangel they\'re all so cool. And Eternal is by my far the coolest one. For this I was trying to be as realistic and close to the source material as possible. So rather than do a custom design I painted it exactly as how it appears in the anime. So expect lots of pink and purples... Also..., it has got to be pointed out how cool and cute the METEOR units in this kit are. By far out of the whole ship, the METEORs I\'m most proud of. Inspired by these, I am going to be doing a much larger scale P-Bandai meteor kit paint real soon.',
         false,false,['Archangel'],false,true,'1:1700'
     ],
-    ['Roanoke',[1,'Exus'],'HG',false,false,false,'Seed','C','2024-11-22',3.42],
+    ['Roanoke',[1,'Exus'],'HG',false,false,false,'Seed','C','2024-11-22',4.63],
     ['Orga',[1,'Forbidden'],'FM',false,false,false,'Seed','A'],
     ['Anthem',[1,'Freedom'],'MG',
         false,false,false,'Seed','E','2022-05-05',73.16,true,'Builds/Gundams/Anthem.html','America','2022-07-04',models[14],
@@ -9828,7 +9828,7 @@ const projects = [
         ],false,true,true
     ],
     ['Cordelia',[1,'Strike Dagger'],'HG',
-        false,true,false,'Seed','D','2023-12-11',7.23,false,'Builds/PBandai/Cordelia.html','Shakespeare','2024-12-16',models[92],
+        false,true,false,'Seed','E','2023-12-11',7.23,false,'Builds/PBandai/Cordelia.html','Shakespeare','2024-12-16',models[92],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/PBCordelia01.jpeg','Cordelia'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/PBCordelia02.jpeg','Cordelia'],
@@ -9872,11 +9872,11 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/PBCordelia40.jpeg','Cordelia']
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/PBCordelia18.jpeg','Profile Photo: Cordelia'],
-        '',false,
+        'Had one more left over P.B. Strike Dagger kit. Due to its Dagger status decided to paint it the same design scheme as my previous Dagger Ls: King Leir, Gonorilla and Regan. But this time instead of Vallejo I painted Cordelia in the same colors but metallic with the Mr Hobby Metallics line. Also made the beam saber a flame theme tip.',false,
         [
             ['Video','https://youtu.be/HbQSNxz0OSM'],
             ['Premium Bandai','https://p-bandai.com/us/item/N2595691001002']
-        ],['Dobiel','King Leir','Malphas'],false,false,'1:144'
+        ],['Dobiel','King Leir','Malphas'],false,true,'1:144'
     ],
     ['Samus: Dread Suit',[1,'Strike Dagger'],'HG',
         false,true,false,'Seed','E','2023-03-07',10.89,false,'Builds/Metroid/Dread.html','Metroid','2024-06-17',models[92],
@@ -11567,7 +11567,7 @@ const projects = [
             ['USA Gundam Store','https://www.usagundamstore.com/products/bandai-hobby-bb-394-unicorn-gundam-phenex-action-figure?variant=1114433924']
         ],['Bella Donna','Sovereign'],true,true,false
     ],
-    ['Pokeball',[1,'Podball'],'MG',false,false,false,'UC','C','2024-11-22',4.17],
+    ['Pokeball',[1,'Podball'],'MG',false,false,false,'UC','C','2024-11-22',6.67],
     ['Ridley',[1,'Qubeley'],'HG',false,false,false,'UC','A'],
     ['GunChef',[1,'RX-78-2'],'RG',false,false,false,'UC','A'],
     ['RX782v1RG',[1,'RX-78-2'],'RG',true,false,false,'UC','C','2024-10-15',4.92],

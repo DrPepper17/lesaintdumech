@@ -2167,6 +2167,42 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/66e9e047-106c-4ac8-8124-d73fde998c65.jpeg']
         ]
+    ],
+    [
+        '2024-12-16',
+        'Leir\'s Third Daughter',
+        'https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/6c1d219a-bb24-49a0-a867-9041745b5324.jpeg',
+        [
+            [
+                'She comes in colors everywhere. She combs her hair. She\'s a rainbow. Finally done with the Witch From Mercury line and to celbrate doing something both a bit old but also a bit colorful. This week I introduce to you ',
+                ['Cordelia','Builds/PBandai/Cordelia.html'],
+                '.'
+            ]
+        ],
+        [
+            [
+                'Another PB Strike Dagger. I\'ve done several of these before. And also done many more Dagger Ls. But never have I done the Strike Dager in Metallic. Which is exactly what I decided to do for this one here. I painted it the same design scheme as my ',
+                ['King Leir','Builds/Gundams/KingLeir.html'],
+                ', with the steel, aluminum, purple and blue. But this time it\'s all way more shiny with the Mr Hobby Metallics line. This one truly stands out above all myother daggers that came before it.'
+            ]
+        ],
+        [
+            'Well maybe not more so than my Samus collection. But it stands out above all the other Daggers, Samus exlucded.'
+        ],
+        [
+            [
+                ['Youtube','https://youtu.be/HbQSNxz0OSM',true]
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/6a88d80d-a0f3-4b9e-8536-9701167f174f.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/eeff1f87-0ce5-468e-b49b-ea64f06e2f38.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/d3c8b68b-0753-4d32-bab5-7ea4e20705f7.jpeg']
+        ]
     ]
 ]
 
