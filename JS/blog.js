@@ -2203,6 +2203,29 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/d3c8b68b-0753-4d32-bab5-7ea4e20705f7.jpeg']
         ]
+    ],
+    [
+        '2024-12-24',
+        'Merry Christmas 2024',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/JoeCool17.jpeg',
+        [
+            [
+                'Merry Christmas and happy holidays. Today is Christmas Eve and and in spirit of the holiday, rather than a gundam or a war machine or some big spooky monster figured fore this week\'s unveil I would post something everyone can enjoy, some good ol\' Peanuts fun, ',
+                ['Snoopy','Builds/Other/JoeCool.html'],
+                '.'
+            ]
+        ],
+        [
+            'Merry Christmas Everybody !!!'
+        ],
+        [
+            [
+                ['Youtube','https://youtu.be/oHBvgm3KiKw?si=-QbaRsMXkTgMWT8V',true]
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/JoeCool18.jpeg']
+        ]
     ]
 ]
 

@@ -13383,7 +13383,7 @@ const projects = [
     //Other
     ['Voltron',[1,'Voltron'],'Other',false,false,false,'Voltron: Defender of the Universe','B','2024',0],
     ['Joe Cool',[1,'Surfing Snoopy'],'Other',
-        false,false,false,'Peanuts','D','2024-09-29',5.42,false,'Builds/Other/JoeCool.html',false,'2024-12-23',models[147],
+        false,false,false,'Peanuts','E','2024-09-29',5.42,false,'Builds/Other/JoeCool.html',false,'2024-12-24',models[147],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/JoeCool01.jpeg','Joe Cool'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/JoeCool02.jpeg','Joe Cool'],
@@ -13407,10 +13407,10 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/JoeCool20.jpeg','Joe Cool']
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/JoeCool12.jpeg','Profile Photo: Joe Cool'],
-        'Description','Happy Birthday Dad!!!, Nebraksa',
+        'Was working on a birthday present and wanted to do something outside the norms of what I normally do. Figured well who doesn\'t love Snoopy. If you remember the comic strips, Joe Cool was his nickname for whenever he was in Beach Mode. And won\'t lie this kit with him riding the wave was pretty cool. Since Snoopy himself is so iconic, painted him very tradtional. white whith his black ears and nose. He\'s too much an icon to change him up. THough I did have fun having a little liberty with his trunks. The biggest effort in this was painting the wave. Did a candy blue effect on it. Spent a lot of time trying to apply a thicker coat in some places and a lighter coat in others to try to capture the different layers of the wave rather than make it a solid blue.','Happy Birthday Dad!!!, Nebraksa',
         [
             ['Video','https://youtu.be/oHBvgm3KiKw']
-        ],false,false,false,false,false,false,false,false,true
+        ],false,false,true,false,false,false,false,false,true
     ],
     ['Red Pill',[1,'USAGS Apex'],'Other',
         false,false,false,'United States Gundam Store','C','2024-09-10',3.25,true,'Builds/Other/RedPill.html',false,'2025-06-09'
