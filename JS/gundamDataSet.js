@@ -6286,17 +6286,63 @@ const projects = [
     ], 
     ['Carlibarn [SD]',[1,'Calibarn'],'SD',true,false,false,'Mercury','D','2024-10-24',2],
     ['Faces of Eve',[4,'Calibarn','Calibarn','Calibarn','Calibarn'],'SD',
-        false,false,false,'Mercury','D','2024-09-29',28.95,false,'Builds/Gundams/4EVES.html',false,'2024-12-30',models[144],
+        false,false,false,'Mercury','E','2024-09-29',29.29,false,'Builds/Gundams/4EVES.html',false,'2024-12-30',models[144],
         [
-            ['','']
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/EveSilver01.jpeg','Eve: Silver'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/EveSilver02.jpeg','Eve: Silver'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/EveSilver03.jpeg','Eve: Silver'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/EveSilver04.jpeg','Eve: Silver'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/EveSilver05.jpeg','Eve: Silver'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/EveSilver06.jpeg','Eve: Silver'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/EveSilver07.jpeg','Eve: Silver'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/EveSilver08.jpeg','Eve: Silver'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/EveSilver09.jpeg','Eve: Silver'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/EveSilver10.jpeg','Eve: Silver'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/EveSilver11.jpeg','Eve: Silver'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/EveSilver12.jpeg','Eve: Silver'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/EveSilver13.jpeg','Eve: Silver'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/EveSilver14.jpeg','Eve: Silver'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/EveSilver15.jpeg','Eve: Silver'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/EveSilver16.jpeg','Eve: Silver'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/EveSilver17.jpeg','Eve: Silver'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/EveSilver18.jpeg','Eve: Silver'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/EveSilver19.jpeg','Eve: Silver'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/EveSilver20.jpeg','Eve: Silver'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/EveSilver21.jpeg','Eve: Silver'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/EveSilver22.jpeg','Eve: Silver'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/EveSilver23.jpeg','Eve: Silver'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/EveSilver24.jpeg','Eve: Silver'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/EveSilver25.jpeg','Eve: Silver'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/EveSilver26.jpeg','Eve: Silver'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/EveSilver27.jpeg','Eve: Silver'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/EveSilver28.jpeg','Eve: Silver'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/EveSilver29.jpeg','Eve: Silver'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/EveSilver30.jpeg','Eve: Silver'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/EveSilver31.jpeg','Eve: Silver'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/EveSilver32.jpeg','Eve: Silver'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/EveSilver33.jpeg','Eve: Silver'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/EveSilver34.jpeg','Eve: Silver'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/EveSilver35.jpeg','Eve: Silver'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/EveSilver36.jpeg','Eve: Silver'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/EveSilver37.jpeg','Eve: Silver'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/EveSilver38.jpeg','Eve: Silver'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/EveSilver39.jpeg','Eve: Silver'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/EveSilver40.jpeg','Eve: Silver'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/EveSilver41.jpeg','Eve: Silver'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/EveSilver42.jpeg','Eve: Silver'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/EveSilver43.jpeg','Eve: Silver'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/EveSilver.jpeg','Eve: Silver']
         ],
-        ['','Profile Photo: '],
-        'Description:',false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/EveSilver43.jpeg','Profile Photo: Eve'],
+        'Painted the SD Calibarn with Mr Color Rough Silver Metallic paint. Assembled it in Permet Score 8 with GUND Bits included.',false,
         [
-            ['Video',''],
-            ['USA Gundam Store',''],
-            ['NewType','']
-        ],false,true,false
+            //['Video',''],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/sd-gundam-cross-silhouette-gundam-caliburn'],
+            ['NewType','https://newtype.us/p/8OAsFkZGdBzqd0sciak5/h/sdcs-20-gbm-gundam-calibarn']
+            //,['TurboDork: Skyrat','https://turbodork.com/products/sky-rat-1?variant=40655971647570']
+            //,['TurboDork: Laserface','https://turbodork.com/products/laserface-1?variant=40652142379090']
+            //,['TurboDork: Bubblegum Crisis','https://turbodork.com/products/bubblegum-crisis-1?variant=40647048626258']
+        ],false,true,true
     ],
     ['Abaddon',[1,'Calibarn'],'HG',
         false,false,false,'Mercury','E','2023-11-25',18.13,false,'Builds/Gundams/Abaddon.html','Angels','2024-12-06',models[144],
@@ -6533,9 +6579,9 @@ const projects = [
     ],
     ['Gundnode A',[1,'Gundnode'],'HG',false,true,false,'Mercury','B'],
     ['Gundnode B',[1,'Gundnode'],'HG',false,true,false,'Mercury','B'],
-    ['Gundnode C',[1,'Gundnode'],'HG',false,true,false,'Mercury','A'],
-    ['Gundnode D',[1,'Gundnode'],'HG',false,true,false,'Mercury','A'],
-    ['Gundnode E',[1,'Gundnode'],'HG',false,true,false,'Mercury','A'],
+    ['Gundnode C',[1,'Gundnode'],'HG',false,true,false,'Mercury','B'],
+    ['Gundnode D',[1,'Gundnode'],'HG',false,true,false,'Mercury','B'],
+    ['Gundnode E',[1,'Gundnode'],'HG',false,true,false,'Mercury','B'],
     ['PB Gundnode [HG]',[1,'Gundnode'],'HG',
         true,true,false,'Mercury','E','2024-08-14',1.42,false,'Builds/PBandai/PBGundnode.html',false,'2024-11-26',models[143],
         [
@@ -7096,7 +7142,7 @@ const projects = [
     ['Meshabber',[1,'LFrith Preproduction Model'],'HG',false,true,false,'Mercury','B'],  //IDF Green
     ['Mashhit',[1,'LFrith Preproduction Model'],'HG',false,true,false,'Mercury','B'],  //IDF Blue
     ['Kezef',[1,'LFrith Preproduction Model'],'HG',false,true,false,'Mercury','B'],     //IDF Sand
-    ['LFrith Pre [HG]',[1,'LFrith Preproduction Model'],'HG',true,true,false,'Mercury','D','2024-12-07',1.5,false],
+    ['LFrith Pre-Prod [HG]',[1,'LFrith Preproduction Model'],'HG',true,true,false,'Mercury','D','2024-12-07',2.33,false],
     ['Spire',[1,'LFrith Thorn'],'HG',false,false,false,'Mercury','A','202x',0,false,'Builds/Metroid/Spire.html','Metroid'],
     ['LFrith Thorn [HG]',[1,'LFrith Thorn'],'HG',true,false,false,'Mercury','E','2024-08-13',1.42,false,false,false,'2024-08-20'],
     ['Weavel',[1,'LFrith Ur'],'HG',false,false,false,'Mercury','A','202x',0,false,'Builds/Metroid/Weavel.html','Metroid'],
@@ -7315,7 +7361,7 @@ const projects = [
         'After finishing the Bel-Air, I realized there was still a lot I had to learn about air brush painting. So before moving on to the larger projects I decided to do something fun on a much more small scale in order to get a little more practice. Looking for a theme I was inspired by the boys of South Park, plus the Operation Meteor lineup.',
         false,false,false,false,true
     ],
-    ['PB Altron',[1,'PB Altron'],'HG',false,true,false,'Wing','A'],
+    ['PB Altron',[1,'PB Altron'],'HG',false,true,false,'Wing','B'],
     ['Gemini',[2,'Aquarius','Aquarius'],'SD',
         false,false,false,'Wing','E','2021-07-05',20.61,false,'Builds/Gundams/Gemini.html','Practice SDs','2022-01-24',models[40],
         [
@@ -7954,8 +8000,8 @@ const projects = [
     ['Zero EW (mg)',[1,'Wing Zero'],'MG',false,false,false,'Wing','B'],
     ['Zero EW (rg)',[1,'Wing Zero'],'RG',false,false,false,'Wing','A'],
     ['Zero EW (sd)',[1,'Wing Zero'],'SD',false,false,false,'Wing','B'],
-    ['Wing Gundam [MGSD]-Straight',[1,'Wing Gundam'],'MGSD',true,false,false,'Wing','A'],
-    ['Wing Gundam [MGSD]-Custom',[1,'Wing Gundam'],'MGSD',false,false,false,'Wing','A'],
+    ['Wing Zero [MGSD]',[1,'Wing Zero'],'MGSD',true,false,false,'Wing','A'],
+    ['Grim',[1,'Wing Zero'],'MGSD',false,false,false,'Wing','A'],
 
     //After War (X)
     ['Gaebora',[1,'Airmaster'],'SD',
@@ -8408,7 +8454,7 @@ const projects = [
             ['Premium Bandai','https://p-bandai.com/us/item/N2570542001001']
         ],false,false,true,'1:144'
     ],
-    ['Graphite',[1,'0 Gundam'],'HG',false,false,false,'00','C','2024-11-18',6.25],
+    ['Graphite',[1,'0 Gundam'],'HG',false,false,false,'00','D','2024-11-18',6.42],
 
     //Correct Century (Turn A)
     ['John Wayne',[1,'Turn-A'],'SD',
@@ -9265,7 +9311,7 @@ const projects = [
         'This was my first ship buid. And I am awfully quite attached to it. At the time I was in a Gundam Seed kick and rewatching that series so the ships and machines from that saga was on my mind. Seed is probably home to all my favorite vessels throughout the entire Gundam saga. Whether it be Eternal or Archangel they\'re all so cool. And Eternal is by my far the coolest one. For this I was trying to be as realistic and close to the source material as possible. So rather than do a custom design I painted it exactly as how it appears in the anime. So expect lots of pink and purples... Also..., it has got to be pointed out how cool and cute the METEOR units in this kit are. By far out of the whole ship, the METEORs I\'m most proud of. Inspired by these, I am going to be doing a much larger scale P-Bandai meteor kit paint real soon.',
         false,false,['Archangel'],false,true,'1:1700'
     ],
-    ['Roanoke',[1,'Exus'],'HG',false,false,false,'Seed','C','2024-11-22',4.63],
+    ['Roanoke',[1,'Exus'],'HG',false,false,false,'Seed','D','2024-11-22',8.88],
     ['Orga',[1,'Forbidden'],'FM',false,false,false,'Seed','A'],
     ['Anthem',[1,'Freedom'],'MG',
         false,false,false,'Seed','E','2022-05-05',73.16,true,'Builds/Gundams/Anthem.html','America','2022-07-04',models[14],
@@ -9747,6 +9793,7 @@ const projects = [
         ],['Strike Gundam [PG]'],false,true,'1:60',false,'Skygrasper Perfect Grade','Skygrasper'
     ],
     ['Skygrasper [RG]',[2,'Skygrasper','Skygrasper','Skygrasper'],'RG',true,false,false,'Seed','E','2022-09-06',10,false,false,false,'2022-12-19'],
+    ['Menoetius',[1,'Stargaser Gundam'],'SD',false,false,false,'Seed','B'],
     ['Metal Strike',[1,'Strike'],'MG',false,false,false,'Seed','B'],
     ['Metal Strike',[1,'Strike'],'SD',false,false,false,'Seed','B'],
     ['Strike Gundam [PG]',[1,'Strike'],'PG',
@@ -11567,11 +11614,12 @@ const projects = [
             ['USA Gundam Store','https://www.usagundamstore.com/products/bandai-hobby-bb-394-unicorn-gundam-phenex-action-figure?variant=1114433924']
         ],['Bella Donna','Sovereign'],true,true,false
     ],
-    ['Pokeball',[1,'Podball'],'MG',false,false,false,'UC','C','2024-11-22',6.67],
+    ['Pokeball',[1,'Podball'],'MG',false,false,false,'UC','D','2024-11-22',9.75],
     ['Ridley',[1,'Qubeley'],'HG',false,false,false,'UC','A'],
     ['GunChef',[1,'RX-78-2'],'RG',false,false,false,'UC','A'],
     ['RX782v1RG',[1,'RX-78-2'],'RG',true,false,false,'UC','C','2024-10-15',4.92],
     ['RX782v2RG',[1,'RX-78-2 v2.0'],'RG',true,false,false,'UC','D','2024-11-16',8.75],
+    ['Requiem Gundam [HG]',[1,'RX-78G(E)'],'HG',true,false,false,'UC','D','2024-12-19',2.17],
     ['Colombo: Santa Maria -n- Santa Clara',[0.4,'Salamis and Magellan Class'],'Ship',
         false,false,false,'UC','D','2024-08-21',9.11,false,'Builds/Ships/Colombo.html',false,'2025-01-16'
     ],
@@ -11976,6 +12024,7 @@ const projects = [
             ['NewType','https://newtype.us/p/n0AqKEN7FXhplk5gjZnc/h/sd-sangoku-soketsuden-14-zhang-he-altron-gundam']
         ],false,true,true
     ],
+    ['Hera',[1,'Aerial, Onmitus'],'SD',false,false,false,'Heroes','B'],
     ['Eurybia',[1,'Akatsuki, Zhou Yu'],'SD',false,false,false,'Heroes','B'],
     ['Nyx',[1,'Astray, Sun Ce'],'SD',false,false,false,'Heroes','B'],
     ['Valac',[1,'Astray, Sun Jian'],'SD',false,false,false,'Heroes','B','',0,false,'','Ars Goetia'],
@@ -12733,7 +12782,7 @@ const projects = [
         false,false,false,'','D','2024-02-16',7.78,false,'Builds/Pokemon/Brennus.html',false,'2025-08-11'
     ],
     ['Cassivellaunus',[1,'Gyarados'],'Pokemon',
-        false,false,false,'','D','2023-09-18',5.39,false,'Builds/Pokemon/Cassiv.html','Asterix','2025-01-27'
+        false,false,false,'','D','2023-09-18',5.39,false,'Builds/Pokemon/Cassiv.html','Asterix','2025-01-06'
     ],
     ['Vitalstatistix',[1,'Ho-Oh'],'Pokemon',
         false,false,false,'','D','2024-02-20',5.17,false,'Builds/Pokemon/Vital.html','Asterix','2025-09-08'
@@ -13413,7 +13462,7 @@ const projects = [
         ],false,false,true,false,false,false,false,false,true
     ],
     ['Red Pill',[1,'USAGS Apex'],'Other',
-        false,false,false,'United States Gundam Store','C','2024-09-10',3.25,true,'Builds/Other/RedPill.html',false,'2025-06-09'
+        false,false,false,'United States Gundam Store','D','2024-09-10',4.06,true,'Builds/Other/RedPill.html',false,'2025-06-09'
     ]
 ];
 

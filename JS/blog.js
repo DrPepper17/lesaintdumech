@@ -2226,6 +2226,27 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/JoeCool18.jpeg']
         ]
+    ],
+    [
+        '2024-12-30',
+        'New Years Week, pt I',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/EveSilver.jpeg',
+        [
+            [
+                'So final week of the year. And for this week I did a very special project of many colors all across the spectrum called the the Faces of Eve; bit of a reference to the 1957 film. So to start the week off, I present to you the first face of Eve, ',
+                ['Silver Eve','Builds/Gundams/4EVES.html'],
+                '.'
+            ]
+        ],
+        [
+            'Happy New Year !!!'
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/EveSilver30.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/EveSilver31.jpeg']
+        ]
     ]
 ]
 
