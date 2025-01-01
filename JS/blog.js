@@ -2262,6 +2262,21 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/EveSkyrat27.jpeg']
         ]
+    ],
+    [
+        '2025-01-01',
+        'New Years Week, pt III',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/EveLaserface.jpeg',
+        [
+            [
+                'First Day of 2025. And third day of Faces of Eve. Today\'s face is the violet crimson face of ',
+                ['Laserface Eve','Builds/Gundams/4EVES.html'],
+                '.'
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/EveLaserface04.jpeg']
+        ]
     ]
 ]
 
