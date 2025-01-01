@@ -2247,6 +2247,21 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/EveSilver31.jpeg']
         ]
+    ],
+    [
+        '2024-12-31',
+        'New Years Week, pt II',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/EveSkyrat.jpeg',
+        [
+            [
+                'Day Two of Faces of Eve. Today\'s face is the dark green face of ',
+                ['Skyrat Eve','Builds/Gundams/4EVES.html'],
+                '. Also Happy New Years Eve everyone !!'
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/EveSkyrat27.jpeg']
+        ]
     ]
 ]
 

@@ -6199,7 +6199,7 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/zephon104.jpeg','Zephon']
         ],
         ['https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/4a5d04cb-2e44-4f0e-ac8f-4d646396d05d.jpeg','Profile Photo: Zephon'],
-        'For the Aerial final form I wanted to do something bright and radient. So I chose flat yellow like the sun. And laden with Turbo Dork Afterburner to give it a late sunset glow. Broke the joints to the jet packs while assembling this so they are super glued together and therefore no longer articulate. Overall it\'s like a golden buttefly. I love it.',false,
+        'For the Aerial final form I wanted to do something bright and radient. So I chose flat yellow like the sun. And laden with TurboDork Afterburner to give it a late sunset glow. Broke the joints to the jet packs while assembling this so they are super glued together and therefore no longer articulate. Overall it\'s like a golden buttefly. I love it.',false,
         [
             ['Video','https://youtu.be/-3F9q8Xl0Tw'],
             ['Zephon','https://angelology.fandom.com/wiki/Zephon'],
@@ -6331,17 +6331,50 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/EveSilver41.jpeg','Eve: Silver'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/EveSilver42.jpeg','Eve: Silver'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/EveSilver43.jpeg','Eve: Silver'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/EveSilver.jpeg','Eve: Silver']
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/EveSilver.jpeg','Eve: Silver'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/EveSkyrat01.jpeg','Eve: Skyrat'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/EveSkyrat02.jpeg','Eve: Skyrat'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/EveSkyrat03.jpeg','Eve: Skyrat'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/EveSkyrat04.jpeg','Eve: Skyrat'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/EveSkyrat05.jpeg','Eve: Skyrat'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/EveSkyrat06.jpeg','Eve: Skyrat'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/EveSkyrat07.jpeg','Eve: Skyrat'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/EveSkyrat08.jpeg','Eve: Skyrat'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/EveSkyrat09.jpeg','Eve: Skyrat'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/EveSkyrat10.jpeg','Eve: Skyrat'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/EveSkyrat11.jpeg','Eve: Skyrat'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/EveSkyrat12.jpeg','Eve: Skyrat'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/EveSkyrat13.jpeg','Eve: Skyrat'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/EveSkyrat14.jpeg','Eve: Skyrat'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/EveSkyrat15.jpeg','Eve: Skyrat'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/EveSkyrat16.jpeg','Eve: Skyrat'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/EveSkyrat17.jpeg','Eve: Skyrat'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/EveSkyrat18.jpeg','Eve: Skyrat'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/EveSkyrat19.jpeg','Eve: Skyrat'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/EveSkyrat20.jpeg','Eve: Skyrat'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/EveSkyrat21.jpeg','Eve: Skyrat'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/EveSkyrat22.jpeg','Eve: Skyrat'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/EveSkyrat23.jpeg','Eve: Skyrat'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/EveSkyrat24.jpeg','Eve: Skyrat'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/EveSkyrat25.jpeg','Eve: Skyrat'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/EveSkyrat26.jpeg','Eve: Skyrat'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/EveSkyrat27.jpeg','Eve: Skyrat'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/EveSkyrat28.jpeg','Eve: Skyrat'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/EveSkyrat29.jpeg','Eve: Skyrat'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/EveSkyrat30.jpeg','Eve: Skyrat'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/EveSkyrat31.jpeg','Eve: Skyrat'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/EveSkyrat32.jpeg','Eve: Skyrat'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/EveSkyrat.jpeg','Eve: Skyrat']
         ],
-        ['https://hosting.photobucket.com/images/i/lesaintdumech/EveSilver43.jpeg','Profile Photo: Eve'],
-        'Painted the SD Calibarn with Mr Color Rough Silver Metallic paint. Assembled it in Permet Score 8 with GUND Bits included.',false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/EveSkyrat21.jpeg','Profile Photo: Eve'],
+        'First Face: SD mode Calibarn with Mr Color Rough Silver Metallic paint. Assembled it in Permet Score 8 with GUND Bits included. Second Face: CS mode Calibarn painted in TurboDork Skyrat in with a Permet Score of 0. Skyrat is a very dark black which under the right lighting shifts to green. These photographs did not do the green justice.',false,
         [
-            //['Video',''],
+            //['Video','https://youtu.be/vkMNWWTfd2g'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/sd-gundam-cross-silhouette-gundam-caliburn'],
-            ['NewType','https://newtype.us/p/8OAsFkZGdBzqd0sciak5/h/sdcs-20-gbm-gundam-calibarn']
-            //,['TurboDork: Skyrat','https://turbodork.com/products/sky-rat-1?variant=40655971647570']
-            //,['TurboDork: Laserface','https://turbodork.com/products/laserface-1?variant=40652142379090']
-            //,['TurboDork: Bubblegum Crisis','https://turbodork.com/products/bubblegum-crisis-1?variant=40647048626258']
+            ['NewType','https://newtype.us/p/8OAsFkZGdBzqd0sciak5/h/sdcs-20-gbm-gundam-calibarn'],
+            ['TurboDork: Skyrat','https://turbodork.com/products/sky-rat-1?variant=40655971647570']//,
+            //['TurboDork: Laserface','https://turbodork.com/products/laserface-1?variant=40652142379090']//,
+            //['TurboDork: Bubblegum Crisis','https://turbodork.com/products/bubblegum-crisis-1?variant=40647048626258']
         ],false,true,true
     ],
     ['Abaddon',[1,'Calibarn'],'HG',
