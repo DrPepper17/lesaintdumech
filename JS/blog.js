@@ -2277,6 +2277,21 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/EveLaserface04.jpeg']
         ]
+    ],
+    [
+        '2025-01-02',
+        'New Years Week, pt IV',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/EveBubblegumCrisis.jpeg',
+        [
+            [
+                'Second day of the year and today I present to you the fourth face of Eve in her vibrant pink and rainbow colors: ',
+                ['Bubblegum Crisis Eve','Builds/Gundams/4EVES.html'],
+                '.'
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/EveBubblegumCrisis28.jpeg']
+        ]
     ]
 ]
 
