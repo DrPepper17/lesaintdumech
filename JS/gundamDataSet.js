@@ -6444,12 +6444,30 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/EveBubblegumCrisis40.jpeg','Eve: Bubblegum Crisis'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/EveBubblegumCrisis41.jpeg','Eve: Bubblegum Crisis'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/EveBubblegumCrisis42.jpeg','Eve: Bubblegum Crisis'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/EveBubblegumCrisis.jpeg','Eve: Bubblegum Crisis']
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/EveBubblegumCrisis.jpeg','Eve: Bubblegum Crisis'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/FacesofEve01.jpeg','Faces of Eve'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/FacesofEve02.jpeg','Faces of Eve'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/FacesofEve03.jpeg','Faces of Eve'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/FacesofEve04.jpeg','Faces of Eve'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/FacesofEve05.jpeg','Faces of Eve'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/FacesofEve06.jpeg','Faces of Eve'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/FacesofEve07.jpeg','Faces of Eve'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/FacesofEve08.jpeg','Faces of Eve'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/FacesofEve09.jpeg','Faces of Eve'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/FacesofEve10.jpeg','Faces of Eve'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/FacesofEve11.jpeg','Faces of Eve'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/FacesofEve12.jpeg','Faces of Eve'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/FacesofEve13.jpeg','Faces of Eve'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/FacesofEve14.jpeg','Faces of Eve'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/FacesofEve15.jpeg','Faces of Eve'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/FacesofEve16.jpeg','Faces of Eve'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/FacesofEve17.jpeg','Faces of Eve'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/FacesofEve18.jpeg','Faces of Eve']
         ],
-        ['https://hosting.photobucket.com/images/i/lesaintdumech/EveBubblegumCrisis45.jpeg','Profile Photo: Eve'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/FacesofEve09.jpeg','Profile Photo: Eve'],
         'Main idea behind this project was I wanted to represent the Calibarn in each of its Pavailable Permet Score stages: Zero, Five and Eight; choosing a different color as it transtitions to each one. Being three faces, it made me think of the 1957 classic film The Three Faces of Eve. With each of the three faces of Eve being a different Permet Score. Originally this project was just supposed to be stricktly just the three TurboDork color builds. But because this kit can be built in both SD and CS mode, I decided to add a fourth face to represent the SD form as well. First Face: SD mode Calibarn with Mr Color Rough Silver Metallic paint. Assembled it in Permet Score Eight with GUND Bits included. Second Face: CS mode Calibarn painted in TurboDork Skyrat in with a Permet Score of Zero. Skyrat is a very dark black which under the right lighting shifts to green. These photographs did not do the green justice. Third Face: CS Calibarn painted with TurboDork Laserface in Permet Score Five. This one the paint is a neutral dark but shifts under the light to a crimson red. Thought it made a great transitonary color from Permet Zero\'s neutral black to Permet Eights\'s full rainbow spectrum. Fourth Face: CS mode Calibarn painted with TurboDork\'s Bubblegum Crisis decalled in Permet Score Eight. For this one I thought the bright pink would really work well to bring out the the rainbow hues of Permet Score Eight. Also included the GUND Bits. Painted the bits first with a layer of Mr Color\'s Metal Rough Gold and then painted on top of that with Mr Color\'s Metal Peach. If I were to do this again I think I would mix the gold and peach and spray them combined as one coat.',false,
         [
-            //['Video','https://youtu.be/vkMNWWTfd2g'],
+            ['Video','https://youtu.be/vkMNWWTfd2g'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/sd-gundam-cross-silhouette-gundam-caliburn'],
             ['NewType','https://newtype.us/p/8OAsFkZGdBzqd0sciak5/h/sdcs-20-gbm-gundam-calibarn'],
             ['TurboDork: Skyrat','https://turbodork.com/products/sky-rat-1?variant=40655971647570'],
@@ -8051,6 +8069,7 @@ const projects = [
         ],false,false,true,'1:100'
     ],
     ['Wing Gundam [RG]',[1,'Wing Gundam'],'RG',true,false,false,'Wing','E','2021-07',12.59,false,false,false,'2022-02-07'],
+    ['Faucon',[1,'Wing Gundam EW'],'SD',false,false,false,'Wing','B'],
     ['Wing Zero Clear',[1,'Wing Zero'],'RG',
         true,true,false,'Wing','E','2021-11-10',6.15,false,'Builds/PBandai/PBZeroRG.html',false,'2022-04-19',models[32],
         [
@@ -8740,6 +8759,7 @@ const projects = [
     ['Nancy',[1,'BuCUE'],'HG',false,false,false,'Seed','B','2024',0,false,'Builds/Gundams/...','First Ladies'],
     ['Jacqueline',[1,'BuCUE Hound, Kerberos'],'HG',false,false,false,'Seed','B','2024',0,false,'Builds/Gundams/...','First Ladies'],
     ['Urban Commando',[1,'Buster'],'MG',false,false,false,'Seed','B'],
+    ['Emeraude',[1,'Buster Gundam, Verde'],'SD',false,false,false,'Seed','B'],
     ['Calamitous Godzilla',[1,'Calamity'],'FM',false,false,false,'Seed','B'],
     ['Metroid',[1,'Chaos'],'HG',false,false,false,'Seed','B'],
     ['Armageddon',[2.5,'Dagger L','Dagger L','PB Dagger Expansion Pack'],'HG',
@@ -9352,6 +9372,7 @@ const projects = [
     ['Iapetus',[1,'Destiny'],'SD',false,false,false,'Seed','B'],
     ['Metroid Prime',[1,'Destroy'],'HG',false,false,false,'Seed','A'],
     ['Thin Blue Line',[2,'Duel Gundam','Duel Gundam Assault Shroud'],'MG',false,false,false,'Seed','B'],
+    ['Vapeur',[1,'Duel Gundam, Blu'],'SD',false,false,false,'Seed','B'],
     ['Monarch',[1,'Eclipse'],'MG',false,false,false,'Seed','B'],
     ['Maneuver Striker',[1.5,'Eclipse','Eclipse Maneuver Striker'],'MG',
         true,true,false,'Seed','E','2022-02',17.75,false,'Builds/PBandai/PBEclipseMG.html',false,'2023-01-30',models[73],
@@ -10818,7 +10839,7 @@ const projects = [
     ['Balam',[1,'Dark Gundam'],'HG',false,false,false,'G','B'],
     ['Beleth',[1,'Dark Gundam'],'SD',false,false,false,'G','B'],
     ['Belial',[1,'Dark Gundam'],'HG',false,false,false,'G','B'],
-    ['Dark Gundam [SD]',[1,'Dark Gundam'],'SD',true,false,false,'G','D','2022-08-07',1.75,false,false,false],
+    ['Dark Gundam [SD]',[1,'Dark Gundam'],'SD',true,false,false,'G','E','2022-08-07',1.75,false,false,false],
     ['Paimon',[1,'Dark Gundam'],'SD',
         false,false,false,'G','D','2024-08-20',4.63,false,'Builds/Gundams/Paimon.html','Ars Goetia','2025-04-28'
     ],    //Mr Metallic
@@ -12828,6 +12849,12 @@ const projects = [
             ['NewType','https://newtype.us/p/S9nZ4KxUmzbDoDM0HfDd/h/pokemon-charizard-dragonite']
         ],['Asterix','Boudica','Charizard','Charizard X'],false,true,false
     ],
+    ['Mega Charizard X',[1,'Mega Charizard X'],'Pokemon',
+        false,false,false,'','A','2025',0
+    ],
+    ['Mega Charizard Y',[1,'Mega Charizard Y'],'Pokemon',
+        false,false,false,'','A','2025',0
+    ],
     ['Boudica',[1,'Dragonite'],'Pokemon',
         false,false,false,'','E','2023-03-11',3.47,false,'Builds/Pokemon/Boudica.html',false,'2023-09-12',models[81],
         [
@@ -12863,7 +12890,7 @@ const projects = [
         false,false,false,'','D','2024-07-10',1.08,false,'Builds/Pokemon/Bandit.html','Angela','2025-10-20',models[132]
     ],    //Blue
     ['Soporifix',[1,'Entei'],'Pokemon',
-        false,false,false,'','A','2024',0,false,'Builds/Pokemon/Soporifix.html',false,'2025-12-29'
+        false,false,false,'','B','2024',0,false,'Builds/Pokemon/Soporifix.html',false,'2025-12-29'
     ],
     ['Astronomix',[1,'Gengar'],'Pokemon',
         false,false,false,'','D','2023-12-11',2.68,false,'Builds/Pokemon/Astron.html','Asterix','2025-06-30'
@@ -12907,7 +12934,7 @@ const projects = [
         false,false,false,'','D','2023-12-13',4.18,false,'Builds/Pokemon/Chantic.html','Asterix','2025-07-14'
     ],
     ['Bucolix',[1,'Lunala'],'Pokemon',
-        false,false,false,'','A','2024',0,false,'Builds/Pokemon/Bucolix.html',false,'2025-12-15'
+        false,false,false,'','B','2024',0,false,'Builds/Pokemon/Bucolix.html',false,'2025-12-15'
     ],
     ['Unhygienix',[1,'Magikarp'],'Pokemon',false,false,false,'','A'],
     ['Cacofonix',[1,'Metagross'],'Pokemon',
