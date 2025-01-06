@@ -2329,6 +2329,72 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/EveBubblegumCrisis.jpeg']
         ]
+    ],
+    [
+        '2025-01-03',
+        'New Years Week, pt V',
+        'img/misc/3FacesOfEve.jpg',
+        [
+            [
+                'Today is day five and now all four Eves have now been posted which wraps up the ',
+                ['Faces of Eve','Builds/Gundams/4EVES.html'],
+                ' project. Also released today is the Faces of Eve ',
+                ['video','https://youtu.be/vkMNWWTfd2g'],
+                ' so be sure to go check it out.'
+            ]
+        ],
+        [
+            'So thanks for tagging along on this little project and everyone enjoy your New Year. Lets make 2025 the very best !'
+        ],
+        [
+            [
+                ['Youtube','https://youtu.be/vkMNWWTfd2g',true]
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/FacesofEve07.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/EveSilver.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/EveSkyrat.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/EveLaserface.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/EveBubblegumCrisis.jpeg']
+        ]
+    ],
+    [
+        '2025-01-06',
+        'General of the Seas: Cassivellaunus',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/Cassivel25.jpeg',
+        [
+            [
+                'Named after the Roman General and major character int he Asterix comic books, today I present to the red fury of the seas, ',
+                ['Cassivellaunus','Builds/Pokemon/Cassiv.html'],
+                '.'
+            ]
+        ],
+        [
+            'For the past year I have accumulated quite a backlog of Pokemon builds but just have not posted them because I was first prioritized with the Metroid Project and then with all the Witch From Mercury lineup. For 2025 I will finally be unveiling all the Pokemon backlog. And to kick start the year with a bang, first up is Red Gyarados, Cassivellaunus.'
+        ],
+        [
+            [
+                ['Youtube','https://youtu.be/HSUOjzHYUFc',true]
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/Cassivel27.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/astcassiv01.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/astcassiv02.jpeg']
+        ]
     ]
 ]
 

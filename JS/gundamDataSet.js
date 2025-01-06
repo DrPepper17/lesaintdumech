@@ -3141,7 +3141,7 @@ const models = [
         ['https://hosting.photobucket.com/images/i/lesaintdumech/Charmander.jpg','Charmander']
     ],
     [80,7,'Charizard',
-        'Pokemon Charizard & Dragonite Model Kit Set',
+        'Pokemon Select Series 43 Charizard & Dragonite Model Kit Set',
         '0006',
         'Dragon / Flying',
         '3rd Stage',
@@ -3171,7 +3171,7 @@ const models = [
         ['https://hosting.photobucket.com/images/i/lesaintdumech/(edited)_charizard.png','Charizard']
     ],
     [81,7,'Dragonite',
-        'Pokemon Charizard & Dragonite Model Kit Set',
+        'Pokemon Select Series 43 Charizard & Dragonite Model Kit Set',
         '0149',
         'Dragon / Flying',
         '3rd Stage',
@@ -3568,7 +3568,7 @@ const models = [
         ['Dawn of Fold'],
         [18.5,'18.5 Meters'],           //Height
         [42.9,'42.9 Metric Tons'],        //Weight
-        'GUND FORMAT',
+        'Permet',
         false,
         [
             'Shell Unit'
@@ -3579,7 +3579,7 @@ const models = [
             'Beam Saber'
         ],
         [
-            'GUND FORMAT'
+            'GUND-FORMAT'
         ],
         'Takayuki Yanase',
         false,
@@ -5296,7 +5296,7 @@ const models = [
         ['Vanadis Institute','Ochs Earth'],
         [18,'18.0 Meters'],           //Height
         [49.3,'49.3 Metric Tons'],        //Weight
-        'GUND FORMAT',
+        'Permet',
         false,
         [
             'Shell Unit',
@@ -5311,6 +5311,7 @@ const models = [
             'Receiever Gun / GUND-BIT Rifle'
         ],
         [
+            'GUND-FORMAT',
             'SYS ver. 2.0'
         ],
         'JNTHED',
@@ -5323,7 +5324,7 @@ const models = [
         'Lfrith'              //Only if base source
     ],
     [139,1,'Gundam Lfrith Jiu',
-        'XGF-01 Gundam Lfrith Jiu',
+        'XGF-01 [II3] Gundam Lfrith Jiu',
         'XGF-01 [II3]',
         'Mobile Suit Gundam The Witch from Mercury',
         false,    //boolean
@@ -5337,7 +5338,7 @@ const models = [
         ['Vanadis Institute','Ochs Earth'],
         [18.8,'18.8 Meters'],           //Height
         [37.8,'37.8 Metric Tons'],        //Weight
-        'GUND FORMAT',
+        'Permet',
         false,
         [
             'Shell Unit'
@@ -5345,7 +5346,9 @@ const models = [
         [
             'Tiger Hand'
         ],
-        false,
+        [
+            'GUND-FORMAT'
+        ],
         'Kanetake Ebikawa',
         false,                //boolean
         false,
@@ -5369,7 +5372,7 @@ const models = [
         ['Vanadis Institute','Ochs Earth'],
         [18.2,'18.2 Meters'],           //Height
         [44.7,'44.7 Metric Tons'],        //Weight
-        'GUND FORMAT',
+        'Permet',
         false,
         [
             'Shell Unit',
@@ -5380,6 +5383,7 @@ const models = [
             'Narukami'
         ],
         [
+            'GUND-FORMAT',
             'Hover Unit (x2)',
             'Electricity Emitter (x2)' 
         ],
@@ -5411,7 +5415,7 @@ const models = [
         ],
         [18,'18.0 Meters'],           //Height
         [43.9,'43.9 Metric Tons'],        //Weight
-        'GUND-FORMAT',
+        'Permet',
         false,
         [
             'Shell Unit',
@@ -5429,6 +5433,7 @@ const models = [
             'Optional: Mirasoul Flight Unit'
         ],
         [
+            'GUND-FORMAT',
             'SYS ver. ES (Ericht Samaya)'
         ],
         'JNTHED',
@@ -5462,7 +5467,7 @@ const models = [
         ],
         [18.2,'18.2 Meters'],           //Height
         [53.2,'53.2 Metric Tons'],        //Weight
-        'GUND-FORMAT',
+        'Permet',
         false,
         [
             'Shell Unit',
@@ -5477,6 +5482,7 @@ const models = [
             'Beam Rifle: GUND-BIT Cannon'
         ],
         [
+            'GUND-FORMAT',
             'SYS ver. ES (Ericht Samaya)'
         ],
         'JNTHED',
@@ -5502,7 +5508,7 @@ const models = [
         ['Shin Sei Corporation','Quiet Zero'],
         [18.9,'18.9 Meters'],           //Height
         [44.1,'44.1 Metric Tons'],        //Weight
-        'GUND-FORMAT',
+        'Permet',
         false,
         [
             'Shell Unit',
@@ -5511,7 +5517,9 @@ const models = [
         [
             'Beam Rev Rifle'
         ],
-        false,
+        [
+            'GUND-FORMAT'
+        ],
         'Kanetake Ebikawa',
         false,                //boolean
         false,
@@ -5541,7 +5549,7 @@ const models = [
         ],
         [18.2,'18.2 Meters'],           //Height
         [44.7,'44.7 Metric Tons'],        //Weight
-        'GUND-FORMAT',
+        'Permet',
         false,
         [
             'Shell Unit',
@@ -5551,7 +5559,9 @@ const models = [
             'Beam Saber (x2)',
             'Variable Rod Rifle'
         ],
-        false,
+        [
+            'GUND-FORMAT'
+        ],
         'JNTHED',
         false,                //boolean
         'The Monster',
@@ -5576,7 +5586,7 @@ const models = [
         ['Jeturk House'],
         [18.7,'18.7 Meters'],           //Height
         [73.3,'73.3 Metric Tons'],        //Weight
-        'GUND-FORMAT',
+        'Permet',
         false,
         [
             'Shell Unit',
@@ -5588,6 +5598,7 @@ const models = [
             'Beam Blade'
         ],
         [
+            'GUND-FORMAT',
             'Guardian'
         ],
         'Ippei Gyoubu',
@@ -5602,7 +5613,7 @@ const models = [
     [146,2,'Magellan Class'
 
     ],
-    [147,5,'Surfing Snooper',
+    [147,5,'Surfing Snoopy',
         'Snoopy is Joe Cool',
         'Atlantis Models',
         'Peanuts',
@@ -5628,8 +5639,79 @@ const models = [
         false,
         ['https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/d26cfee8-a1a8-478c-8bdd-7788df12df6d.jpg','Snoopy Joe Cool'],
         false
+    ],
+    [148,7,'Gyarados',
+        'Pokemon Gyarados 52 Model Kit',
+        '0130',
+        'Water / Flying',
+        '2nd Stage',
+        ['Magikarp','lvl 20'],
+        [
+            ['Mega Gyarados','Gyaradosite']
+        ],
+        'Atrocious Pokemon',
+        'When Magikarp evolves into Gyarados, its brain cells undergo a structural transformation. It is said that this transformation is to blame for this Pokémon\'s wildly violent nature. Rarely seen in the wild but it appears whenever the world is in conflict. They say that during past wars Gyarados would appear and leave blazing ruins in its wake, demolishing everything around it. It is huge, brutally vicious and enormously destructive, being capable of destroying entire cities in its rage.',
+        '21\'04\"',
+        [518.1,'518.1 lbs'],
+        'I',
+        'Pokemon Red and Blue',
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/gyarados.jpeg','Gyarados']
+    ],
+    [149,1,'Lfrith Pre-Production',
+        'XGF-01 Lfrith Pre-Production Model',
+        'XGF-01',
+        'Mobile Suit Gundam The Witch from Mercury',
+        false,
+        false,
+        [
+            'XGF-01[II3] Gundam Lfrith Jiu',
+            'XGF-02 Gundam Lfrith',
+            'AVP-03 Gundam Lfrith Anavata',
+            'EDM-GA-01 Gundam Lfrith Ur',
+            'EDM-GA-02 Gundam Lfrith Thorn',
+            'EDM-GB Gundv\u00F6lva'
+        ],
+        'Ad Stella',
+        [101,'101-122 Ad Stella',122],
+        false,
+        ['Nadim Samaya','Wendy Olent','Vanadis Institute Employees'],
+        'Ochs Earth Corporation',
+        ['Ochs Earth Corporation','Vanadis Institute'],
+        [18,'18.0 Meters'],
+        [49.1,'49.1 Metric Tons'],
+        false,
+        false,
+        [
+            'Shell Unit',
+            'Beam Vulcan (x2)',
+            'Large Launcher (x2)'
+        ],
+        [
+            'Beam Rifle',
+            'Chelonian (x20)'
+        ],
+        [
+            'GUND-FORMAT'
+        ],
+        'JNTHED',
+        false,
+        false,
+        false, 
+        ['https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/7e674ca0-324f-46fc-9e40-86f60846b5ab.jpg','Lfrith Pre-Production'],
+        true,
+        [138]
     ]
-
 ];
 
 /*
@@ -7273,7 +7355,43 @@ const projects = [
     ['Meshabber',[1,'LFrith Preproduction Model'],'HG',false,true,false,'Mercury','B'],  //IDF Green
     ['Mashhit',[1,'LFrith Preproduction Model'],'HG',false,true,false,'Mercury','B'],  //IDF Blue
     ['Kezef',[1,'LFrith Preproduction Model'],'HG',false,true,false,'Mercury','B'],     //IDF Sand
-    ['LFrith Pre-Prod [HG]',[1,'LFrith Preproduction Model'],'HG',true,true,false,'Mercury','D','2024-12-07',2.33,false],
+    ['LFrith Pre-Prod [HG]',[1,'LFrith Preproduction Model'],'HG',
+        true,true,false,'Mercury','D','2024-12-07',2.33,false,'Builds/PBandai/PBLFRITHPRE.html',false,'2025-01-13',models[149],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/lfpreprod01.jpeg','PB LFrith Pre-Prod'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/lfpreprod02.jpeg','PB LFrith Pre-Prod'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/lfpreprod03.jpeg','PB LFrith Pre-Prod'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/lfpreprod04.jpeg','PB LFrith Pre-Prod'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/lfpreprod05.jpeg','PB LFrith Pre-Prod'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/lfpreprod06.jpeg','PB LFrith Pre-Prod'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/lfpreprod07.jpeg','PB LFrith Pre-Prod'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/lfpreprod08.jpeg','PB LFrith Pre-Prod'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/lfpreprod09.jpeg','PB LFrith Pre-Prod'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/lfpreprod10.jpeg','PB LFrith Pre-Prod'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/lfpreprod11.jpeg','PB LFrith Pre-Prod'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/lfpreprod12.jpeg','PB LFrith Pre-Prod'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/lfpreprod13.jpeg','PB LFrith Pre-Prod'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/lfpreprod14.jpeg','PB LFrith Pre-Prod'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/lfpreprod15.jpeg','PB LFrith Pre-Prod'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/lfpreprod16.jpeg','PB LFrith Pre-Prod'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/lfpreprod17.jpeg','PB LFrith Pre-Prod'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/lfpreprod18.jpeg','PB LFrith Pre-Prod'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/lfpreprod19.jpeg','PB LFrith Pre-Prod'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/lfpreprod20.jpeg','PB LFrith Pre-Prod'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/lfpreprod21.jpeg','PB LFrith Pre-Prod'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/lfpreprod22.jpeg','PB LFrith Pre-Prod'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/lfpreprod23.jpeg','PB LFrith Pre-Prod'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/lfpreprod24.jpeg','PB LFrith Pre-Prod'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/lfpreprod25.jpeg','PB LFrith Pre-Prod'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/lfpreprod26.jpeg','PB LFrith Pre-Prod'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/lfpreprod27.jpeg','PB LFrith Pre-Prod']
+        ],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/lfpreprod14.jpeg','Profile Photo: PB Lfrith Pre-Prod'],
+        'Rather simplistic in design but the Lfrith Pre-Production models introduced in the Witch From Mercruy Prologue were also rather cute. Bandai sure held out for quite a while at introducing the model kits for this model. But when they were introduced on Premium Bandai it just made sense. Of course this is only a straight build but I will introduece a painted version later on.',false,
+        [
+            ['Premium Bandai','https://p-bandai.com/us/item/N2703002001003']
+        ],false,false,false,'1:144',false,'Lfrith Preprod','PB Lfrith Preprod'
+    ],
     ['Spire',[1,'LFrith Thorn'],'HG',false,false,false,'Mercury','A','202x',0,false,'Builds/Metroid/Spire.html','Metroid'],
     ['LFrith Thorn [HG]',[1,'LFrith Thorn'],'HG',true,false,false,'Mercury','E','2024-08-13',1.42,false,false,false,'2024-08-20'],
     ['Weavel',[1,'LFrith Ur'],'HG',false,false,false,'Mercury','A','202x',0,false,'Builds/Metroid/Weavel.html','Metroid'],
@@ -12922,7 +13040,45 @@ const projects = [
         false,false,false,'','D','2024-02-16',7.78,false,'Builds/Pokemon/Brennus.html',false,'2025-08-11'
     ],
     ['Cassivellaunus',[1,'Gyarados'],'Pokemon',
-        false,false,false,'','D','2023-09-18',5.39,false,'Builds/Pokemon/Cassiv.html','Asterix','2025-01-06'
+        false,false,false,'','E','2023-09-18',5.39,false,'Builds/Pokemon/Cassiv.html','Asterix','2025-01-06',models[148],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Cassivel01.jpeg','Cassivellaunus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Cassivel02.jpeg','Cassivellaunus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Cassivel03.jpeg','Cassivellaunus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Cassivel04.jpeg','Cassivellaunus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Cassivel05.jpeg','Cassivellaunus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Cassivel06.jpeg','Cassivellaunus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Cassivel07.jpeg','Cassivellaunus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Cassivel08.jpeg','Cassivellaunus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Cassivel09.jpeg','Cassivellaunus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Cassivel10.jpeg','Cassivellaunus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Cassivel11.jpeg','Cassivellaunus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Cassivel12.jpeg','Cassivellaunus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Cassivel13.jpeg','Cassivellaunus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Cassivel14.jpeg','Cassivellaunus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Cassivel15.jpeg','Cassivellaunus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Cassivel16.jpeg','Cassivellaunus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Cassivel17.jpeg','Cassivellaunus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Cassivel18.jpeg','Cassivellaunus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Cassivel19.jpeg','Cassivellaunus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Cassivel20.jpeg','Cassivellaunus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Cassivel21.jpeg','Cassivellaunus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Cassivel22.jpeg','Cassivellaunus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Cassivel23.jpeg','Cassivellaunus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Cassivel24.jpeg','Cassivellaunus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Cassivel25.jpeg','Cassivellaunus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Cassivel26.jpeg','Cassivellaunus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/astcassiv01.jpeg','Cassivellaunus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/astcassiv02.jpeg','Cassivellaunus']
+        ],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/Cassivel20.jpeg','Profile Photo: Cassivellaunus'],
+        'Gyarados has always been a cool ferocious pokemon. But when I painted this, rather than the standard blue, I had to go back to the rare Red Gyarados from Pokemon Gold & Silver. To accomplish this I used the Mr Metallic Bloody Red which came out to be the perfect dark shade of red to represent this ferocious beast.',false,
+        [
+            ['Video','https://youtu.be/HSUOjzHYUFc'],
+            ['Bulbapedia','https://m.bulbapedia.bulbagarden.net/wiki/Gyarados_(Pokémon)'],
+            ['USA Gundam Store','https://www.usagundamstore.com/collections/pokapla/products/pokemon-gyarados-52-model-kit'],
+            ['NewType','https://newtype.us/p/dOkZZ7AvruhzwIslqHje/h/pokemon-gyarados']
+        ],['Unhygienix'],true,true
     ],
     ['Vitalstatistix',[1,'Ho-Oh'],'Pokemon',
         false,false,false,'','D','2024-02-20',5.17,false,'Builds/Pokemon/Vital.html','Asterix','2025-09-08'
