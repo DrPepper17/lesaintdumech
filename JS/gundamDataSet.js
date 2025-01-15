@@ -7545,7 +7545,7 @@ const projects = [
     ['Mashhit',[1,'LFrith Preproduction Model'],'HG',false,true,false,'Mercury','B'],  //IDF Blue
     ['Kezef',[1,'LFrith Preproduction Model'],'HG',false,true,false,'Mercury','B'],     //IDF Sand
     ['LFrith Pre-Prod [HG]',[1,'LFrith Preproduction Model'],'HG',
-        true,true,false,'Mercury','E','2024-12-07',2.33,false,'Builds/PBandai/PBLFRITHPRE.html',false,'2025-01-13',models[149],
+        true,true,false,'Mercury','E','2024-12-07',2.33,false,'Builds/PBandai/PBLFRITHPRE.html',false,'2025-01-15',models[149],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/lfpreprod01.jpeg','PB LFrith Pre-Prod'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/lfpreprod02.jpeg','PB LFrith Pre-Prod'],
@@ -13527,7 +13527,7 @@ const projects = [
         false,false,false,'','D','2024-09-13',2.75,false,'Builds/Pokemon/Postal.html','Asterix','2025-11-03'
     ],
     ['Getafix',[1,'Rayquaza'],'Pokemon',
-        false,false,false,'','D','2023-09-18',5.74,false,'Builds/Pokemon/Getafix.html','Asterix','2025-01-20',models[150],
+        false,false,false,'','E','2023-09-18',5.74,false,'Builds/Pokemon/Getafix.html','Asterix','2025-01-20',models[150],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Getafix01.jpeg','Getafix'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Getafix02.jpeg','Getafix'],
@@ -13567,7 +13567,7 @@ const projects = [
             ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Rayquaza_(Pokémon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-rayquaza-model-kit'],
             ['NewType','https://newtype.us/p/WdF5h0oKREWKufNDSCqT/h/pokemon-rayquaza']
-        ],false,true,false
+        ],false,true,true
     ],
     ['Geriatrix',[1,'Reshiram'],'Pokemon',false,false,false,'','A'],
     ['Dogmatix',[1,'Riolu'],'Pokemon',
