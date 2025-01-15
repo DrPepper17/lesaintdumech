@@ -2395,6 +2395,44 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/astcassiv02.jpeg']
         ]
+    ],
+    [
+        '2025-01-07',
+        'Build of Week: Oceanus',
+        'https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/adfb2c36-09f3-4063-a730-9a3f2d08a066.jpeg',
+        [
+            [
+                'This this is now the 8th time ',
+                ['NewType','https://newtype.us',true],
+                ' has  selected me as one of their builds of the week. This time they chose my SD Shenlong ',
+                ['Oceanus','Builds/SDW/Oceanus.html'],
+                ' Thanks so much NewType for selecting me once again.'
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/966bcc14-cc82-49e6-97d8-de1f57b7fb7a.jpeg']
+        ]
+    ],
+    [
+        '2025-01-15',
+        'LFrith Pre Production Premium Build',
+        'https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/057e840e-d40d-4a42-bf7d-dd4f240c205a.jpeg',
+        [
+            [
+                'This week is a simple unveil. No paint job. Just a Premium Bandai ',
+                ['Lfrith Preprod','Builds/PBandai/PBLFRITHPRE.html'],
+                ' straight build.'
+            ]
+        ],
+        [
+            'Had been waiting forever for Bandai to release this kit. Kept it expecting it to be a mainline kit rather than a Premium Bandai so when the PB website unveiled it I was a bit surprised. But wasting no time I ordered three of them immediately at once. Then few months later ordered a fourth one as well. '
+        ],
+        [
+            'Sure a straight build can be a bit boring. But I felt for this model I wanted to see how it assembles normally before I painted it just to visualize how it fits together. But anyhow I still have three more unstarted kits of this model that I will be starting and painting soon that I cannot wait to unveil to you soon as I can.'
+        ],
+        [
+            ['img','https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/1c1ece76-e75f-42ff-bf21-fdd535f84461.jpeg']
+        ]
     ]
 ]
 

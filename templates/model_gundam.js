@@ -28,7 +28,7 @@
         'Systems'
     ],
     'DesignedBy',
-    SDWHero,                //boolean
+    SDWHero,                //pseudo-boolean: If no, then false. If true, then list base source as character string
     'AlternateNickname',
     MobileArmor,            //boolean
     ['','PhotoAltText'],
