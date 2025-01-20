@@ -2433,6 +2433,32 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/1c1ece76-e75f-42ff-bf21-fdd535f84461.jpeg']
         ]
+    ],
+    [
+        '2025-01-20',
+        'Druid Potion Master: Getacix',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/Getafix25.jpeg',
+        [
+            [
+                'Lead Druid of the Celts and mentor to Asterix, today\'s build is named after Asterix comic character  ',
+                ['Getafix','Builds/Pokemon/Getafix.html'],
+                '.'
+            ]
+        ],
+        [
+            'This week it\'s another Pokemon. And this is the first in a while outside the original 150. From one of my favorite generations in the series, hailing from Generation 3, Ruby and Sapphire, I give you my metallic green Rayquaza.'
+        ],
+        [
+            [
+                ['Youtube','https://youtu.be/OdMgjNUBqP8',true]
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/GetafixComic.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/Getafix07.jpeg']
+        ]
     ]
 ]
 
