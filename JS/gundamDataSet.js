@@ -8279,6 +8279,7 @@ const projects = [
         ],false,true,true,false
     ],
     ['Proto-Zero [SD]',[1,'Proto-Zero'],'SD',true,false,false,'Wing','E','2021-12-14',1.67,false,false,false,'2023-05-01'],
+    ['Shenlong [HG]',[1,'Shenlong Gundam'],'HG',true,false,false,'Wing','D','2025-01-24',1.83],
     ['Napoleon',[2,'Tallgeese','Ceramic Horse'],'MG',
         false,false,false,'Wing','B',false,0,false,'Builds/Gundams/Napoleon.html',false,false,models[47]
     ],
@@ -8393,7 +8394,7 @@ const projects = [
         ],false,false,true,'1:144'
     ],
     ['Zero Rouge',[1,'Wing Zero'],'SD',
-        false,false,false,'Wing','D','2024-10-27',4.97,false,'Builds/Gundams/Zrouge.html',false,'2025-01-27',models[32],
+        false,false,false,'Wing','E','2024-10-27',4.97,false,'Builds/Gundams/Zrouge.html',false,'2025-01-27',models[32],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/ZRouge01.jpeg','Zero Rouge'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/ZRouge02.jpeg','Zero Rouge'],
@@ -8453,12 +8454,12 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/ZRouge56.jpeg','Zero Rouge'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/ZRouge57.jpeg','Zero Rouge']
         ],['https://hosting.photobucket.com/images/i/lesaintdumech/ZRouge28.jpeg','Profile Photo: Zero Rouge'],
-        'Made this as an X-mas present for a girl. So decided to make it pink-pinkish. Was inspired by the Strike Rouge from Gundam Seed.','Alice, Maryland',
+        'Made this as an X-mas present for a girl. So decided to make it pink-pinkish. Was inspired by the Strike Rouge from Gundam Seed. Kind of rushed this to get it done in time for Chrimstas. Won\'t lie the flat pink behaved a bit problematic. Went through four varieties of Pink to get the right tone and look. Despite something that I did under the attitude of feeling like a chore, I actually really like how this turned out. This now has me contemplating doing a similar style with the brand new MGDS Wing Zero that just came out this past December 2024.','Alice, Maryland',
         [
             ['Video','https://youtu.be/HHtLmo-Y3dA'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/sd-gundam-ex-standard-004-wing-gundam-zero-ew'],
             ['NewType','https://newtype.us/p/45Fua4fQqzU098WNMZPF/h/sdex-standard-04-wing-gundam-zero-ew']
-        ],false,false,false
+        ],false,false,true
     ],
     ['Dark Zero',[1,'Wing Zero'],'MG',false,false,false,'Wing','B'],
     ['Dark Zero [RG]',[1,'Wing Zero'],'RG',false,false,false,'Wing','A'],
@@ -8508,6 +8509,7 @@ const projects = [
     ['Zero EW (sd)',[1,'Wing Zero'],'SD',false,false,false,'Wing','B'],
     ['Wing Zero [MGSD]',[1,'Wing Zero'],'MGSD',true,false,false,'Wing','D','2025-01-10',5.5,false],
     ['Grim',[1,'Wing Zero'],'MGSD',false,false,false,'Wing','B'],
+    ['Rosette',[1,'Wing Zero'],'MGSD',false,false,false,'Wing','A'],
 
     //After War (X)
     ['Gaebora',[1,'Airmaster'],'SD',
@@ -12281,6 +12283,7 @@ const projects = [
         ],false,true,true
     ],
     ['MK Ultra',[1,'Zaku II'],'RG',false,false,false,'UC','B'],
+    ['Requiem Zaku [HG]',[1,'Zaku II F Type Solari'],'HG',true,false,false,'UC','D','2025-01-24',2.67],
     ['Metroid [Alpha]',[1,'Zeong'],'HG',false,false,false,'UC','A'],
     ['Zeong [RG]',[1,'Zeong'],'RG',true,false,false,'UC','E','2021-08-07',8.25,false,false,false,'2022-03-14'],
     ['Starrider',[1,'Zeta Gundam'],'SD',

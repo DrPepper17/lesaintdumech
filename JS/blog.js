@@ -2440,7 +2440,7 @@ const blogArray = [
         'https://hosting.photobucket.com/images/i/lesaintdumech/Getafix25.jpeg',
         [
             [
-                'Lead Druid of the Celts and mentor to Asterix, today\'s build is named after Asterix comic character  ',
+                'Lead Druid of the Celts and mentor to Asterix, today\'s build is named after Asterix comic character ',
                 ['Getafix','Builds/Pokemon/Getafix.html'],
                 '.'
             ]
@@ -2458,6 +2458,35 @@ const blogArray = [
         ],
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/Getafix07.jpeg']
+        ]
+    ],
+    [
+        '2025-01-27',
+        'Zero Pinks Given !!',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/ZRouge52.jpeg',
+        [
+            [
+                'Gundam Seed had Zero Rouge. For Gundam Wing I now give you ',
+                ['Zero Rouge','Builds/Gundams/Zrouge.html'],
+                '. A Wing Zero entirely donned in Pink and inspired by fan-favorite Strike Rouge.'
+            ]
+        ],
+        [
+            'I really like how this came out. I may do similar things with this theme in the future going forward. Either larger Zero Rouges, as well as possible other signaure suits from other different Gundam serials painted in rouge too. Something about the pink and red painted on things I did not expect it but it does look great. Seed was onto something when they introduced to us the Rouge.'
+        ],
+        [
+            'No particualry plans just yet. But we will see what new future upcoming Rouge designs I can up with. Stay tuned.'
+        ],
+        [
+            [
+                ['Youtube','https://youtu.be/HHtLmo-Y3dA',true]
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/ZRouge24.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/ZRouge49.jpeg']
         ]
     ]
 ]
