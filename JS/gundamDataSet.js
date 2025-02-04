@@ -3143,7 +3143,7 @@ const models = [
     [80,7,'Charizard',
         'Pokemon Select Series 43 Charizard & Dragonite Model Kit Set',
         '0006',
-        'Dragon / Flying',
+        'Fire / Flying',
         '3rd Stage',
         ['Charmeleon','lvl 36'],
         [
@@ -3168,7 +3168,10 @@ const models = [
         false,
         false,
         false,
-        ['https://hosting.photobucket.com/images/i/lesaintdumech/(edited)_charizard.png','Charizard']
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/(edited)_charizard.png','Charizard'],
+        false,
+        [80],
+        'Charizard'
     ],
     [81,7,'Dragonite',
         'Pokemon Select Series 43 Charizard & Dragonite Model Kit Set',
@@ -5899,6 +5902,62 @@ const models = [
         ['https://hosting.photobucket.com/images/i/lesaintdumech/CaesarLegendModel.jpeg','SDW Caesar Legend'],
         false,
         [154]
+    ],
+    [156,7,'Mega Charizard X',
+        'Pokemon Select Series 36 Mega Charizard X Model Kit',
+        '0006X',
+        'Fire / Dragon',
+        'Mega Evolution',
+        ['Charizard','Charizardite X'],
+        false,
+        'Flame Pokemon',
+        'The overwhelming power that fills its entire body causes it to turn black and create intense blue flames.',
+        '5\'07\"',
+        [243.6,'243.6 lbs'],
+        'VI',
+        'Pokemon X and Y',
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/megacharx.jpeg','Mega Charizard X'],
+        false,
+        [80]
+    ],
+    [157,7,'Mega Charizard Y',
+        'Pokemon Select Series 36 Mega Charizard X Model Kit',
+        '0006Y',
+        'Fire / Flying',
+        'Mega Evolution',
+        ['Charizard','Charizardite Y'],
+        false,
+        'Flame Pokemon',
+        'Its bond with its Trainer is the source of its power. It boasts speed and maneuverability greater than that of a jet fighter.',
+        '5\'07\"',
+        [221.6,'221.6 lbs'],
+        'VI',
+        'Pokemon X and Y',
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/megachary.jpeg','Mega Charizard Y'],
+        false,
+        [80]
     ]
 ];
 
@@ -8096,7 +8155,7 @@ const projects = [
         ],false,true,true,false,'Rasid Kurama Custom'
 
     ],
-    ['Coheed',[1,'PB Mercurius'],'HG',false,true,false,'Wing','A'],
+    ['Coheed',[1,'PB Mercurius'],'HG',false,true,false,'Wing','B'],
     ['Isaac',[1,'Proto-Zero'],'SD',
         false,false,false,'Wing','E','2023-02-06',14.14,false,'Builds/Gundams/Isaac.html','Israel','2023-05-10',models[31],
         [
@@ -8316,7 +8375,7 @@ const projects = [
     ['Tallgeese Fl\u00FCgel',
         [1,'Tallgeese Fl\u00FCgel'],'MG',true,true,false,'Wing','D','2022-05-08',20.17,false,'Builds/PBTallgeeseFlugelMG.html',false
     ],
-    ['Cambria',[1,'PB Vayate'],'HG',false,true,false,'Wing','A'],
+    ['Cambria',[1,'PB Vayeate'],'HG',false,true,false,'Wing','B'],
     ['Bibi',[1,'Wing Gundam'],'HG',
         false,false,false,'Wing','D','2024-07-08',5.23,false,'Builds/Gundams/Bibi.html',false,'2025-05-12'
     ],
@@ -9131,6 +9190,7 @@ const projects = [
     ['https://hosting.photobucket.com/images/i/lesaintdumech/dominion05.jpeg','Profile Photo: Dominion'],
     'I originally was not planning to build this. But my both my Archangels came out so fantastic and the fact the kit had the parts to build the Dominion just kept weighing on my mind that eventually I broke down and surrendered to the temptation and had to buy me a third Archangel kit. Besides, you cannot have the Archangel without staging its final dual with the Dominion. Therefore now preseneting to you, the Dominino.',false,false,['Archangel'],false,true,'1:1700'
     ],
+    ['Shi-ve.A [HG]',[1,'Black Knight Squad Shi-ve.A'],'HG',true,false,false,'Seed','D','2025-01-29',3],
     ['Betty',[1,'BuCUE'],'HG',false,false,false,'Seed','B','2024',0,false,'Builds/Gundams/...','First Ladies'],
     ['Nancy',[1,'BuCUE'],'HG',false,false,false,'Seed','B','2024',0,false,'Builds/Gundams/...','First Ladies'],
     ['Jacqueline',[1,'BuCUE Hound, Kerberos'],'HG',false,false,false,'Seed','B','2024',0,false,'Builds/Gundams/...','First Ladies'],
@@ -11219,7 +11279,7 @@ const projects = [
     ['Paimon',[1,'Dark Gundam'],'SD',
         false,false,false,'G','D','2024-08-20',4.63,false,'Builds/Gundams/Paimon.html','Ars Goetia','2025-04-28'
     ],    //Mr Metallic
-    ['Bruce',[1,'PB Dragon Gundam'],'HG',false,true,false,'G','A'],
+    ['Bruce',[1,'PB Dragon Gundam'],'HG',false,true,false,'G','B'],
     ['Brady',[1,'PB Gundam Maxter'],'HG',
         false,true,false,'G','D','2024-08-19',9.47,false,'Builds/PBandai/Brady.html',false,'2025-01-06',models[137],
         [
@@ -13309,7 +13369,7 @@ const projects = [
         'My favorite Pokemon has always been Charizard. What can I say I\'ve always been a lover of dragons. So for my first Pokemon and first starter, Charizard could not have been more adequqte and fitting. Plus with the Vallejo Ferari Red instead of his traditional orange, this one only came out looking even more cooler. ',false,
         [
             ['Video','https://www.instagram.com/reel/CwyAiLGOMR_/?igshid=MzRlODBiNWFlZA=='],
-            ['Bulbapedia','https://www.google.com/search?client=safari&rls=en&q=charizard&ie=UTF-8&oe=UTF-8'],
+            ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Charizard_(Pokémon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-plamo-charizard-dragonite'],
             ['NewType','https://newtype.us/p/S9nZ4KxUmzbDoDM0HfDd/h/pokemon-charizard-dragonite']
         ],['Asterix','Boudica','Charizard','Charizard X'],false,true,false
@@ -13441,7 +13501,7 @@ const projects = [
     ],
     ['Unhygienix',[1,'Magikarp'],'Pokemon',false,false,false,'','A'],
     ['Cacofonix',[1,'Metagross'],'Pokemon',
-        false,false,false,'','D','2023-09-18',4.54,false,'Builds/Pokemon/Cacofonix.html','Asterix','2025-02-03',models[151],
+        false,false,false,'','E','2023-09-18',4.54,false,'Builds/Pokemon/Cacofonix.html','Asterix','2025-02-04',models[151],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Cacofonix01.jpeg','Cacofonix'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Cacofonix02.jpeg','Cacofonix'],
@@ -13485,7 +13545,7 @@ const projects = [
             ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Metagross_(Pokémon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-select-series-53-metagross-model-kit'],
             ['NewType','https://newtype.us/p/ZAdu3eNdG5mrLKUIRzQQ/h/pokemon-metagross']
-        ],false,true,false
+        ],false,true,true
     ],
     ['Monosyllabix',[1,'Mew'],'Pokemon',
         false,false,false,'','D','2023-10-22',2.04,false,'Builds/Pokemon/Monosyllabix.html','Asterix','2025-05-05'

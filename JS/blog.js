@@ -2436,7 +2436,7 @@ const blogArray = [
     ],
     [
         '2025-01-20',
-        'Druid Potion Master: Getacix',
+        'Druid Potion Master: Getafix',
         'https://hosting.photobucket.com/images/i/lesaintdumech/Getafix25.jpeg',
         [
             [
@@ -2487,6 +2487,32 @@ const blogArray = [
         ],
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/ZRouge49.jpeg']
+        ]
+    ],
+    [
+        '2025-02-04',
+        'Village Poet of the Gauls: Cacofonix',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/Cacofonix32.jpeg',
+        [
+            [
+                'First week of February and we start off with another pokemon build. This week I present to you my metallic blue Metagross, ',
+                ['Cacofonix','Builds/Pokemon/Cacofonix.html'],
+                '.'
+            ]
+        ],
+        [
+            'Keeping with my other pokemon builds, the nomenclature on Cacofonix is inspired from the French comic book Asterix. For Metagross I named him after the Asterix character Cacofonix. A less significant character in the Aterix universe, Cacofonix is a silly guy. He\'s both a teacher to the Gauls and a poet often composing epics chronicling the triumphs of our mighty hero Asterix\'s many adventures.'
+        ],
+        [
+            [
+                ['Youtube','https://youtu.be/aGFgn1Xf9cw',true]
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/CacofonixComic.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/Cacofonix16.jpeg']
         ]
     ]
 ]
