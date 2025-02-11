@@ -12729,7 +12729,7 @@ const projects = [
     ['Gaia',[1,'Providence Gundam, Sangoku Soketsuden Dong Zhuo'],'SD',false,false,false,'Heroes','B'],
     ['Crius',[1,'Sazabi, Zhang Liao'],'SD',false,false,false,'Heroes','B'],
     ['Clymene',[1,'Strike, Knight'],'SD',
-        false,false,false,'Heroes','E','2024-06-18',3.64,false,'Builds/SDW/Clymene.html',false,'2025-02-10',models[152],
+        false,false,false,'Heroes','E','2024-06-18',3.64,false,'Builds/SDW/Clymene.html',false,'2025-02-11',models[152],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Clymene01.jpeg','Clymene'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Clymene02.jpeg','Clymene'],
