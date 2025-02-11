@@ -2514,6 +2514,30 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/Cacofonix16.jpeg']
         ]
+    ],
+    [
+        '2025-02-11',
+        'Heroic Strike Knight Clymene !!',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/Clymene19.jpeg',
+        [
+            [
+                'For this week it\'s the majestic royal Gundam Knight ',
+                ['Clymene','Builds/SDW/Clymene.html'],
+                '.'
+            ]
+        ],
+        [
+            'I am not all that into the Gundam knights line. But this one, the Strike Knight model had always been on my radar. It looks so elegant. I had wanted to paint it for quite a while. Now just wisht they would make a model of it in larger sizes such as HG or MG or FM.'
+        ],
+
+        [
+            [
+                ['Youtube','https://youtu.be/6qjCrv5THkM',true]
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/Clymene15.jpeg']
+        ]
     ]
 ]
 

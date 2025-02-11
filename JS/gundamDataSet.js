@@ -9118,6 +9118,7 @@ const projects = [
             ['TurboDork: All That Glitters','https://turbodork.com/products/all-that-glitters']
         ],false,false,true,'1:144','Akatsuki: Oowashi Pack'
     ],
+    ['Akatsuki [RG]',[1,'Akatsuki, Oowsahi'],'RG',true,false,false,'Seed','D','2025-02-06',4.92,false,false,false],
     ['King Mars',[1,'Akatsuki, Shiranui'],'HG',
         false,false,false,'Seed','D','2022-05-06',13.67,false,'Builds/Gundams/KingMars.html','Planets','',models[57]
     ],
@@ -12728,7 +12729,7 @@ const projects = [
     ['Gaia',[1,'Providence Gundam, Sangoku Soketsuden Dong Zhuo'],'SD',false,false,false,'Heroes','B'],
     ['Crius',[1,'Sazabi, Zhang Liao'],'SD',false,false,false,'Heroes','B'],
     ['Clymene',[1,'Strike, Knight'],'SD',
-        false,false,false,'Heroes','D','2024-06-18',3.64,false,'Builds/SDW/Clymene.html',false,'2025-02-10',models[152],
+        false,false,false,'Heroes','E','2024-06-18',3.64,false,'Builds/SDW/Clymene.html',false,'2025-02-10',models[152],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Clymene01.jpeg','Clymene'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Clymene02.jpeg','Clymene'],
@@ -12760,7 +12761,7 @@ const projects = [
             ['USA Gundam Store','https://www.usagundamstore.com/products/sdw-heroes-21-knight-strike-gundam'],
             ['NewType','https://newtype.us/p/tpQiMHj4lN52v218teeW/h/sdw-heroes-21-knight-strike-gundam'],
             ['TurboDork: Fahrenheit','https://turbodork.com/products/fahrenheit']
-        ],['Themis'],true,false
+        ],['Themis'],true,true
     ],
     ['Prometheus',[1,'Strike Noir, Xun Yu'],'SD',false,false,false,'Heroes','B'],
     ['Selene',[1,'Strike-Freedom, Qiongqi'],'SD',false,false,false,'Heroes','B'],
