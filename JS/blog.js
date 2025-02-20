@@ -2538,6 +2538,29 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/Clymene15.jpeg']
         ]
+    ],
+    [
+        '2025-02-20',
+        'Picanmix the Littlest Gaul',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/PicanmixComic.jpeg',
+        [
+            [
+                'Another Pokemon this week. Decided for this one to do something cute, a little ol cuddly tiny penguin. This one is a Piplup painted in pretty metallic TurboDork colors. I present to you ',
+                ['Picanmix','Builds/Pokemon/Pican.html'],
+                '.'
+            ]
+        ],
+        [
+            'For the inspiration source, I named this build after Picanmix the child of Asterix\'s village. The youngest and smallest of the Gauls, Piplup too is one of the smallest and cutest of the Pokemon. The name could not be more fitting.'
+        ],
+        [
+            [
+                ['Youtube','https://youtu.be/C74Cw7lbCPs?si=lJ3ykyiA9UgB8Igp',true]
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/Picanmix09.jpeg']
+        ]
     ]
 ]
 

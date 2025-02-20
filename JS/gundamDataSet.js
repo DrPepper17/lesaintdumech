@@ -5811,7 +5811,7 @@ const models = [
             ['Prinplup','lvl 16']
         ],
         'Penguin Pokémon',
-        '',
+        'It lives along shores in northern countries where its thick down guards it from the cold. A skilled swimmer, it dives for over 10 minutes to hunt. But a poor walker, it often falls down. However, its strong pride makes it puff up its chest without a care. But this same pride makes it hate accepting food from others. It doesn\'t like to be taken care of. It\'s difficult to bond with since it won\'t listen to its trainer.',
         '1\'04\"',
         [11.5,'11.5 lbs'],
         'IV',
@@ -13558,7 +13558,7 @@ const projects = [
         false,false,false,'','D','2024-07-05',1.65,false,'Builds/Pokemon/Cyrano.html',false,'2025-09-22'
     ],
     ['Picanmix',[1,'Piplup'],'Pokemon',
-        false,false,false,'','D','2023-11-25',3.95,false,'Builds/Pokemon/Pican.html','Asterix','2025-02-17',models[153],
+        false,false,false,'','E','2023-11-25',3.95,false,'Builds/Pokemon/Pican.html','Asterix','2025-02-20',models[153],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Picanmix01.jpeg','Picanmix'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Picanmix02.jpeg','Picanmix'],
@@ -13585,7 +13585,7 @@ const projects = [
             ['NewType','https://newtype.us/p/yzU9p7mXLKhtFtIrFzfO/h/pokemon-model-kit-quick-06-piplup'],
             ['TurboDork: Cold Open','https://turbodork.com/products/cold-open-1?variant=40013820100690'],
             ['TurboDork: Ice to Never','https://turbodork.com/products/ice-to-never-1?variant=29460041793606']
-        ],['Dark Samus: Echoes'],true,false
+        ],['Dark Samus: Echoes'],true,true
     ],
     ['Postaldistrix',[1,'Raiku'],'Pokemon',
         false,false,false,'','D','2024-09-13',2.75,false,'Builds/Pokemon/Postal.html','Asterix','2025-11-03'
@@ -13637,6 +13637,9 @@ const projects = [
     ['Dogmatix',[1,'Riolu'],'Pokemon',
         false,false,false,'','D','2023-10-03',2.97,false,'Builds/Pokemon/Dogmatix.html','Asterix','2025-04-21'
     ], 
+    ['RED Mantis',[1,'Scizor'],'Pokemon',
+        false,false,false,'','B','2025',0,false,'Builds/Pokemon/',false,'2025'
+    ],
     ['Tragicomix',[1,'Solgaleo'],'Pokemon',
         false,false,false,'','B','2024',0,false,'Builds/Pokemon/Tragicomix.html',false,'2025-11-17'
     ],
