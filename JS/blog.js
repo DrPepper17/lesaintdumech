@@ -2518,7 +2518,7 @@ const blogArray = [
     [
         '2025-02-11',
         'Heroic Strike Knight Clymene !!',
-        'https://hosting.photobucket.com/images/i/lesaintdumech/Clymene19.jpeg',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/Clymene05.jpeg',
         [
             [
                 'For this week it\'s the majestic royal Gundam Knight ',
@@ -2560,6 +2560,33 @@ const blogArray = [
         ],
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/Picanmix09.jpeg']
+        ]
+    ],
+    [
+        '2025-02-28',
+        'Legendary Themis !!',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/ThemC14.jpeg',
+        [
+            [
+                'Late at posting this week. Was a bit under the weather at the start and then things really picked up at work. But before the week is over may I present to you the holy Gundam knight ',
+                ['Themis','Builds/SDW/Themis.html'],
+                '.'
+            ]
+        ],
+        [
+            'Based on Gundam Seed\'s Gundam Legend and stylized with tones of Roman Emperor Nero. This is a pretty neat design. Plus the little lion is cute and makes a great sidekick.'
+        ],
+
+        [
+            [
+                ['Youtube','https://youtu.be/nEFkxC-0kOc?si=JbX0NnpP2GOjPeXy',true]
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/ThemC17.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/ThemC41.jpeg']
         ]
     ]
 ]

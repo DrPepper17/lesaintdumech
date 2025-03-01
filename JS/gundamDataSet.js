@@ -12672,7 +12672,7 @@ const projects = [
     ['Pallas',[1,'God Gundam, Huang Zhang Fei'],'SD',false,false,false,'Heroes','B'],
     ['Atlas',[1,'God Gundam, Zhang Fei'],'SD',false,false,false,'Heroes','B'],
     ['Themis',[1,'Legend, Caesar'],'SD',
-        false,false,false,'Heroes','D','2024-06-06',5.46,'Builds/SDW/Themis.html',false,'2025-02-24',models[155],
+        false,false,false,'Heroes','E','2024-06-06',5.46,false,'Builds/SDW/Themis.html',false,'2025-02-28',models[155],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/ThemC01.jpeg','Themis'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/ThemC02.jpeg','Themis'],
@@ -12724,7 +12724,7 @@ const projects = [
             ['USA Gundam Store','https://www.usagundamstore.com/products/sdw-heroes-19-caesar-legend-gundam'],
             ['NewType','https://newtype.us/p/kHesv5mfwiQ8sNPo0qMD/h/sdw-heroes-19-caesar-legend-gundam'],
             ['TurboDork: Dark Ritual','https://turbodork.com/products/dark-ritual?variant=40539853914194']
-        ],['Clymene'],true,false
+        ],['Clymene'],true,true
     ],
     ['Gaia',[1,'Providence Gundam, Sangoku Soketsuden Dong Zhuo'],'SD',false,false,false,'Heroes','B'],
     ['Crius',[1,'Sazabi, Zhang Liao'],'SD',false,false,false,'Heroes','B'],
