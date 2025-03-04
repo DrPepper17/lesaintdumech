@@ -5958,6 +5958,34 @@ const models = [
         ['https://hosting.photobucket.com/images/i/lesaintdumech/megachary.jpeg','Mega Charizard Y'],
         false,
         [80]
+    ],
+    [158,7,'Groudon',
+        'Pokemon Select Series 54 Groudon Model Kit',
+        '0383',
+        'Ground',
+        '1st Stage',
+        false,
+        [
+            ['Primal Ground','Red Orb']
+        ],
+        'Continental Pokémon',
+        'Groudon has long appeared in mythology as the creator of the land and expander of continents. Groudon has the power to scatter rain clouds and make water evaporate with light and heat. It came as a savior to people who had been suffering from terrible floods. After a cataclysmic battle with Kyogre, Groudon took to sleep in a magma pool underground which it is said volcanoes will erupt upon its awakening.',
+        '11\'06\"',
+        [2094.4,'2094.4 lbs'],
+        'III',
+        'Pokemon Ruby and Sapphire',
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        ['https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/309dc939-d4cb-4058-bead-8e85a0fdda97.jpg','Groudon']
     ]
 ];
 
@@ -13445,7 +13473,43 @@ const projects = [
         ],false,false,true,false
     ], 
     ['Brennus',[1,'Groudon'],'Pokemon',
-        false,false,false,'','D','2024-02-16',7.78,false,'Builds/Pokemon/Brennus.html',false,'2025-08-11'
+        false,false,false,'','E','2024-02-16',7.78,false,'Builds/Pokemon/Brennus.html',false,'2025-03-03',models[158],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Brennus01.jpeg','Brennus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Brennus02.jpeg','Brennus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Brennus03.jpeg','Brennus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Brennus04.jpeg','Brennus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Brennus05.jpeg','Brennus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Brennus06.jpeg','Brennus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Brennus07.jpeg','Brennus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Brennus08.jpeg','Brennus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Brennus09.jpeg','Brennus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Brennus10.jpeg','Brennus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Brennus11.jpeg','Brennus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Brennus12.jpeg','Brennus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Brennus13.jpeg','Brennus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Brennus14.jpeg','Brennus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Brennus15.jpeg','Brennus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Brennus16.jpeg','Brennus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Brennus17.jpeg','Brennus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Brennus18.jpeg','Brennus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Brennus19.jpeg','Brennus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Brennus20.jpeg','Brennus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Brennus21.jpeg','Brennus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Brennus22.jpeg','Brennus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Brennus23.jpeg','Brennus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Brennus24.jpeg','Brennus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Brennus25.jpeg','Brennus']
+            
+        ],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/Brennus22.jpeg','Profile Photo: Brennus'],
+        'I swear went through so much transparent red for this build. For the base red decided to do a candy paint affect using Tamiya transparent red. Which final product it looks great. The red looks so rich and juicy like a cherry. For the rest of the paint, used Tamiya metallic copper for inside the inner grooves, Vallejo silver for the teeth and Vallejo Model Color brass for the claws and spikes. As for the shiny underbelly that is Mr Hobby\'s Mr Metallic Rough Silver. Overall I did not want to go crazy on this design. The goal was to stay as close to the original source material as possible but just add and extra bit of shine. Which I think it came out great. Really proud on this one.',false,
+        [
+            ['Video','https://youtu.be/tjvg-klt5Rs'],
+            ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Groudon_(Pokémon)'],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-select-series-54-groudon-model-kit'],
+            ['NewType','https://newtype.us/p/S83TPQ2pUa2qpW6pChho/h/pokemon-groudon']
+        ],false,true,true
     ],
     ['Cassivellaunus',[1,'Gyarados'],'Pokemon',
         false,false,false,'','E','2023-09-18',5.39,false,'Builds/Pokemon/Cassiv.html','Asterix','2025-01-06',models[148],

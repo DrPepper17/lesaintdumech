@@ -2574,7 +2574,7 @@ const blogArray = [
             ]
         ],
         [
-            'Based on Gundam Seed\'s Gundam Legend and stylized with tones of Roman Emperor Nero. This is a pretty neat design. Plus the little lion is cute and makes a great sidekick.'
+            'Based on Gundam Seed\'s Gundam Legend and stylized with tones of Roman Emperor Caesar. This is a pretty neat design. Plus the little lion is cute and makes a great sidekick.'
         ],
 
         [
@@ -2587,6 +2587,36 @@ const blogArray = [
         ],
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/ThemC41.jpeg']
+        ]
+    ],
+    [
+        '2025-03-03',
+        'Gaul King Brennus',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/Brennus25.jpeg',
+        [
+            [
+                'Was super late posting last week so this week I wanted to get this posted right away. This week I bring you le roi des Gaulois, ',
+                ['Brennus','Builds/Pokemon/Brennus.html'],
+                '.'
+            ]
+        ],
+        [
+            [
+                'Brennus is beautiful shiny candy cherry red Groudon from Pokemon that is just so shiny. I\'ve already painted ',
+                ['Rayquaza','Builds/Pokemon/Getafix.html'],
+                ' from the weather trio. And now I\'ve painted Groudon. Now I just need Bandai to release the Kyogre kit so I can complete the set.'
+            ]
+        ],
+        [
+            'So listen up Bandai. I really hope you\'re listening.'
+        ],
+        [
+            [
+                ['Youtube','https://youtu.be/tjvg-klt5Rs',true]
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/Brennus24.jpeg']
         ]
     ]
 ]
