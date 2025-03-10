@@ -124,6 +124,10 @@
     2. Name
     3. Kit
     4. Brand / Manufacturer
+    5. Franchise
+    26. original photo (array): ['file path','photo name']
+    28. Base Suit (ID#) [an array]
+    29. Abbreviated Name (in relation to #28, How base suit is to be listed)
 
     // Digimon (6) //
     2. Name 
@@ -155,6 +159,21 @@
     3. Long Name
     4. Serial No.
     5. Animal / Type
+
+    // Other (12) //
+    2. Name
+    3. Kit
+    4. Brand / Manufacturer
+    5. Franchise
+    26. original photo (array): ['file path','photo name']
+    28. Base Suit (ID#) [an array]
+    29. Abbreviated Name (in relation to #28, How base suit is to be listed)
+    30. Other: Category 
+        1. Creatures
+        2. Mecha / Robots
+        3. People
+        4. Plants
+        5. Misc
 */
 
 //Models Array
@@ -5986,6 +6005,36 @@ const models = [
         false,
         false,
         ['https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/309dc939-d4cb-4058-bead-8e85a0fdda97.jpg','Groudon']
+    ],
+    [159,12,'Apex',
+        'USAGS Apex 1/4 Scale Model Kit',
+        'Hobbynetics',
+        'USA Gundam Store',
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/ModelApex.jpeg','Apex'],
+        false,
+        false,
+        false,
+        2
     ]
 ];
 
@@ -13701,8 +13750,8 @@ const projects = [
     ['Dogmatix',[1,'Riolu'],'Pokemon',
         false,false,false,'','D','2023-10-03',2.97,false,'Builds/Pokemon/Dogmatix.html','Asterix','2025-04-21'
     ], 
-    ['RED Mantis',[1,'Scizor'],'Pokemon',
-        false,false,false,'','B','2025',0,false,'Builds/Pokemon/',false,'2025'
+    ['Mantis Force',[6,'Scizor','Scizor','Scizor','Scizor','Scizor','Scizor'],'Pokemon',
+        false,false,false,'','A','2025',0,false,'Builds/Pokemon/MantisForce.html',false,'2025'
     ],
     ['Tragicomix',[1,'Solgaleo'],'Pokemon',
         false,false,false,'','B','2024',0,false,'Builds/Pokemon/Tragicomix.html',false,'2025-11-17'
@@ -14344,7 +14393,36 @@ const projects = [
         ],false,false,true,false,false,false,false,false,true
     ],
     ['Red Pill',[1,'USAGS Apex'],'Other',
-        false,false,false,'United States Gundam Store','D','2024-09-10',4.06,true,'Builds/Other/RedPill.html',false,'2025-06-09'
+        false,false,false,'United States Gundam Store','E','2024-09-10',4.06,true,'Builds/Other/RedPill.html',false,'2025-03-10',models[159],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RedPill01.jpeg','Red Pill'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RedPill02.jpeg','Red Pill'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RedPill03.jpeg','Red Pill'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RedPill04.jpeg','Red Pill'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RedPill05.jpeg','Red Pill'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RedPill06.jpeg','Red Pill'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RedPill07.jpeg','Red Pill'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RedPill08.jpeg','Red Pill'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RedPill09.jpeg','Red Pill'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RedPill10.jpeg','Red Pill'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RedPill11.jpeg','Red Pill'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RedPill12.jpeg','Red Pill'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RedPill13.jpeg','Red Pill'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RedPill14.jpeg','Red Pill'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RedPill15.jpeg','Red Pill'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RedPill16.jpeg','Red Pill'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RedPill17.jpeg','Red Pill'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RedPill18.jpeg','Red Pill'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RedPill19.jpeg','Red Pill'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RedPill20.jpeg','Red Pill'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RedPill21.jpeg','Red Pill']
+        ],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/RedPill11.jpeg','Profile Photo: Red Pill'],
+        'Took this project on as a whim. Was attracted to it due to its similarity to EVE in the Pixar film WALL-E. Took the longest time come up with a theme though. Eventually I began to be drawn to the fact it\'s very pill-shaped in form. And entirely inpsired by the Matrix films settled on the theme of the Red Pill from the films. TO implement that used entirely different shades of red from the Mr Hobby Metallics line, primarily Metallic Red, Metallic Blood Red and Metallic Peach. Thinking maybe in the future I might do a second Apex robot but entirley in shades of blue just to complement this one.',false,
+        [
+            ['Video','https://youtu.be/xTP2lZSZ1b8'],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/1-4-scale-usags-apex-model-kit']
+        ],false,false,true,'1:4'
     ]
 ];
 
@@ -14437,6 +14515,11 @@ let ledFilter = [];
 let straightFilter = [];
 let paintFilter = [];
 let mgexFilter = [];
+let creatureFilter = [];
+let mechaFilter = [];
+let peopleFilter = [];
+let plantsFilter = [];
+
 
 //Initialize Counts
 let init = 0;
@@ -16218,7 +16301,21 @@ function buildFilterArrays() {
                 gundamFilter.push(postedArray[i]);
             }
             if(postModel[1]===12) {
-                otherCatFilter.push(postedArray[i]);
+                if (postModel[30]===1) {
+                    creatureFilter.push(postedArray[i]);
+                }
+                else if (postModel[30]===2) {
+                    mechaFilter.push(postedArray[i]);
+                }
+                else if (postModel[30]===3) {
+                    peopleFilter.push(postedArray[i]);
+                }
+                else if (postModel[30]===4) {
+                    plantsFilter.push(postedArray[i]);
+                }
+                else {
+                    otherCatFilter.push(postedArray[i]);
+                }
             }
             if(postedArray[i][6]==='Mercury') {
                 mercuryFilter.push(postedArray[i]);
@@ -16393,6 +16490,10 @@ function buildsClear() {
     hide('.pbPara');
     hide('.strPara');
     hide('.paintPara');
+    hide('.mechaPara');
+    hide('.creaturePara');
+    hide('.peoplePara');
+    hide('.plantsPara');
 
     for (i=0;i<postedArray.length;i++) {
         postedArray[i][29]=false;

@@ -2618,6 +2618,33 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/Brennus24.jpeg']
         ]
+    ],
+    [
+        '2025-03-10',
+        'Red Pill',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/RedPill13.jpeg',
+        [
+            [
+                'Second build of March, but first build of Daylight Savings Time, and this week I present to you ',
+                ['Red Pill','Builds/Other/RedPill.html'],
+                '.'
+            ]
+        ],
+        [
+            [
+                'A quirky little robot sold by ',
+                ['USA Gundam Store','https://www.usagundamstore.com',true],
+                ' as their personal store mascot. It\'s a bit odd but its quirkiness made a nice getaway from the usual things I build that I had to craft it. Plus... the LEDs that come along with it and the alternating face plates are just too cool.'
+            ]
+        ],
+        [
+            [
+                ['Youtube','https://youtu.be/xTP2lZSZ1b8',true]
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RedPill18.jpeg']
+        ]
     ]
 ]
 
@@ -2673,7 +2700,7 @@ function dayFR(day) {
         return 'Neuvi\u00e8me ';
     }
     else if (day === 10) {
-        return 'Dix\u00e8me ';
+        return 'Dixi\u00e8me ';
     }
     else if (day === 11) {
         return 'Onzi\u00e8me ';
