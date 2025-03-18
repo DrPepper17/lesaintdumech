@@ -2645,6 +2645,26 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RedPill18.jpeg']
         ]
+    ],
+    [
+        '2025-03-18',
+        'Rainbow Foxy Beatrice',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/Beatrice21.jpeg',
+        [
+            [
+                'It\'s another week and another pokemon build. This week I bring you a little red foxy Eevee named ',
+                ['Beatrice','Builds/Pokemon/Beatrice.html'],
+                '. She\'s one fiery diva. Hope you enjoy.'
+            ]
+        ],
+        [
+            [
+                ['Youtube','https://youtu.be/MMeTYTOwA3Y',true]
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/Beatrice14.jpeg']
+        ]
     ]
 ]
 

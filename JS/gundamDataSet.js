@@ -5220,7 +5220,7 @@ const models = [
         false,           //boolean
         [136],
     ],
-    [136,1,'Ball',
+    [136,1,'Pod Ball',
         'RB-79 Ball',
         'RB-79',
         'Mobile Suit Gundam',
@@ -5263,7 +5263,7 @@ const models = [
         ['https://hosting.photobucket.com/images/i/lesaintdumech/Rb-79c.jpeg','Ball'],
         false,           //boolean
         [136],
-        'Ball'              //Only if base source
+        'Pod Ball'              //Only if base source
     ],
     [137,1,'Gundam Maxter',
         'GF13-006NA Gundam Maxter',
@@ -7112,7 +7112,7 @@ const projects = [
             ['Azrael','https://en.wikipedia.org/wiki/Azrael'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/hgtwfm-1-144-04-dilanza-guels-mobile-suit'],
             ['NewType','https://newtype.us/p/1ZqsazKkWagen1RV4twr/h/hgwfm-04-guel-s-dilanza']
-        ],false,false,true,'1:144'
+        ],false,true,true,'1:144'
     ],
     ['Gundnode A',[1,'Gundnode'],'HG',false,true,false,'Mercury','B'],
     ['Gundnode B',[1,'Gundnode'],'HG',false,true,false,'Mercury','B'],
@@ -7831,7 +7831,7 @@ const projects = [
             ['TurboDork: Miami Sunset','https://turbodork.com/products/miami-sunset-1']
         ],false,true,true,'1:144'
     ],
-    ['Samus: Zero Suit',[1,'Suletta Mercury','Miorine Rembran'],'Other',
+    ['Samus: Zero Suit',[1,'Suletta Mercury','Miorine Rembran'],'HG',
         false,false,false,'Mercury','E','2024-01-04',7,false,'Builds/Metroid/ZeroSuit.html','Metroid','2024-07-15',models[128],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/SamusZeroSuit02.jpeg','Samus Aran: Zero Suit'],
@@ -8643,7 +8643,7 @@ const projects = [
     ['Zero EW (mg)',[1,'Wing Zero'],'MG',false,false,false,'Wing','B'],
     ['Zero EW (rg)',[1,'Wing Zero'],'RG',false,false,false,'Wing','A'],
     ['Zero EW (sd)',[1,'Wing Zero'],'SD',false,false,false,'Wing','B'],
-    ['Wing Zero [MGSD]',[1,'Wing Zero'],'MGSD',true,false,false,'Wing','D','2025-01-10',5.5,false],
+    ['Wing Zero [MGSD]',[1,'Wing Zero'],'MGSD',true,false,false,'Wing','D','2025-01-10',6,false],
     ['Grim',[1,'Wing Zero'],'MGSD',false,false,false,'Wing','B'],
     ['Rosette',[1,'Wing Zero'],'MGSD',false,false,false,'Wing','A'],
 
@@ -8991,7 +8991,7 @@ const projects = [
             'Dark Samus: Echoes',
             'Dark Samus: Corruption',
             'Samus: Zero Suit'
-        ],false,true,'1:144'
+        ],true,true,'1:144'
     ],
     ['Queen Bee',[1,'GN Archer'],'HG',false,false,false,'00','B','2024',0],
     ['Harute (Final Battle)',[1,'Harute'],'HG',
@@ -12262,7 +12262,81 @@ const projects = [
             ['USA Gundam Store','https://www.usagundamstore.com/products/bandai-hobby-bb-394-unicorn-gundam-phenex-action-figure?variant=1114433924']
         ],['Bella Donna','Sovereign'],true,true,false
     ],
-    ['Pokeball',[1,'Podball'],'MG',false,false,false,'UC','D','2024-11-22',9.75],
+    ['Pokeball',[1,'Podball'],'MG',
+        false,false,false,'UC','D','2024-11-22',9.75,false,'Builds/Gundams/Pball.html','Pokeball','2025-03-21',models[136],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBallMain01.jpeg','Pokeball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBallMain02.jpeg','Pokeball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBallMain03.jpeg','Pokeball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBallMain04.jpeg','Pokeball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBallMain05.jpeg','Pokeball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBallMain06.jpeg','Pokeball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBallMain07.jpeg','Pokeball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBallMain08.jpeg','Pokeball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBallMain09.jpeg','Pokeball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBallMain10.jpeg','Pokeball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBallMain11.jpeg','Pokeball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBallMain12.jpeg','Pokeball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBallMain13.jpeg','Pokeball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBallMain14.jpeg','Pokeball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBallMain15.jpeg','Pokeball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBallMain16.jpeg','Pokeball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBallMain17.jpeg','Pokeball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBallMain18.jpeg','Pokeball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBallMain19.jpeg','Pokeball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBallMain20.jpeg','Pokeball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBallMain21.jpeg','Pokeball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBallMain22.jpeg','Pokeball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBallMain23.jpeg','Pokeball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBallMain24.jpeg','Pokeball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBallMain25.jpeg','Pokeball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBallMain26.jpeg','Pokeball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBallMain27.jpeg','Pokeball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBallMain28.jpeg','Pokeball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBallMain29.jpeg','Pokeball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBallMain30.jpeg','Pokeball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBallMain31.jpeg','Pokeball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBallMain32.jpeg','Pokeball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBallMain33.jpeg','Pokeball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBallMain34.jpeg','Pokeball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBallMain35.jpeg','Pokeball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBallMain36.jpeg','Pokeball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBallMain37.jpeg','Pokeball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBallMain38.jpeg','Pokeball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBallMain39.jpeg','Pokeball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBallMain40.jpeg','Pokeball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBallMain41.jpeg','Pokeball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBallMain42.jpeg','Pokeball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBallMain43.jpeg','Pokeball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBallMain44.jpeg','Pokeball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBallMain45.jpeg','Pokeball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBallMain46.jpeg','Pokeball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBallMain47.jpeg','Pokeball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBallMain48.jpeg','Pokeball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBallMain49.jpeg','Pokeball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBallMain50.jpeg','Pokeball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBallMain51.jpeg','Pokeball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBallMain52.jpeg','Pokeball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBallMain53.jpeg','Pokeball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBallMain54.jpeg','Pokeball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBallMain55.jpeg','Pokeball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBallMain56.jpeg','Pokeball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBallMain57.jpeg','Pokeball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBallMain58.jpeg','Pokeball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBallMain59.jpeg','Pokeball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBallMain60.jpeg','Pokeball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBallMain61.jpeg','Pokeball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBallMain62.jpeg','Pokeball'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PBallMain63.jpeg','Pokeball']
+        ],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/PBallMain16.jpeg','Profile Photo: Pokeball'],
+        'So had lots of fun on the Luxe-Ball build that I just had to paint another pokeball. So when I saw another Podball kit on the shelf at the hobby store I immediately had to grab it to make the next pokeball. Well technically this one is the first and initial pokeball that launched the whole francies. For this one used Mr Hobby Mr Metallic paints to make it all cool and shiny and I just love how it came out. This is definitely a new favorite build of mine. I am definitely going to make this a gradually growing over time series as I paint each of the pokeballs in the pokemon franchise.',false,
+        [
+            ['Video','https://youtu.be/PeTTUQ6ntZ0'],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/mg-1-100-mobile-pod-ball-ver-ka'],
+            ['Newtype','https://newtype.us/p/zJjlPuRONegsmLUDIIR6/h/mg-rgb-79-ball-verka']
+        ],false,false,false,'1:100'
+    ],
     ['Ridley',[1,'Qubeley'],'HG',false,false,false,'UC','A'],
     ['GunChef',[1,'RX-78-2'],'RG',false,false,false,'UC','A'],
     ['RX782v1RG',[1,'RX-78-2'],'RG',true,false,false,'UC','C','2024-10-15',4.92],
@@ -12494,7 +12568,7 @@ const projects = [
         ],false,true,true
     ],
     ['King Jupiter',[1,'Livelance'],'HG',false,false,false,'BD','B'],
-    ['Luxe-Ball',[1,'Polypodball'],'MG',
+    ['Luxe-Ball',[1,'Polypodball KA'],'MG',
         false,true,false,'BD','E','2024-07-14',15.08,false,'Builds/PBandai/LuxeBall.html','Pokeball','2024-09-23',models[135],
         [
             ['https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/4841aa4c-9ff1-4f55-afe9-a436aa5d7f82.jpg','Gunplas Builders World Cup 3rd Place'],
@@ -13487,10 +13561,64 @@ const projects = [
         ],['Vercingetorix'],true,true,false
     ],
     ['Beatrice',[1,'Eevee'],'Pokemon',
-        false,false,false,'','D','2024-07-10',1.38,false,'Builds/Pokemon/Beatrice.html','Angela',false,'2025-10-06',models[131]
+        false,false,false,'','E','2024-07-10',1.38,false,'Builds/Pokemon/Beatrice.html','Angela','2025-03-18',models[131],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Beatrice01.jpeg','Beatrice'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Beatrice02.jpeg','Beatrice'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Beatrice03.jpeg','Beatrice'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Beatrice04.jpeg','Beatrice'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Beatrice05.jpeg','Beatrice'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Beatrice06.jpeg','Beatrice'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Beatrice07.jpeg','Beatrice'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Beatrice08.jpeg','Beatrice'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Beatrice09.jpeg','Beatrice'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Beatrice10.jpeg','Beatrice'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Beatrice11.jpeg','Beatrice'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Beatrice12.jpeg','Beatrice'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Beatrice13.jpeg','Beatrice'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Beatrice14.jpeg','Beatrice'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Beatrice15.jpeg','Beatrice'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Beatrice16.jpeg','Beatrice'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Beatrice17.jpeg','Beatrice'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Beatrice18.jpeg','Beatrice'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Beatrice19.jpeg','Beatrice']
+        ],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/Beatrice14.jpeg','Profile Photo: Beatrice'],
+        'This kit is rather small and simple. On top of that Eevee is a very color neutral and boring design scheme. She\'s not much to work with so I felt limited on what to do for creativity. Instead I wound up drawing inspiration from Eevee\s wide diversity of evolutions. On Beattrice I focused on Eevee\'s evolution Flareon, the fire type. So I focused on painting her in different shades of red and orange to evoke the fiery theme Also another inspiration.... Angela.',false,
+        [
+            ['Video','https://youtu.be/MMeTYTOwA3Y'],
+            ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Eevee_(Pokémon)'],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-eevee-model-kit'],
+            ['NewType','https://newtype.us/p/hgonYKX4NoE1FYu5R5a3/h/pokemon-eevee']
+        ],['Bandit'],true,true,false
     ],    //Red
     ['Bandit',[1,'Eevee'],'Pokemon',
-        false,false,false,'','D','2024-07-10',1.08,false,'Builds/Pokemon/Bandit.html','Angela','2025-10-20',models[132]
+        false,false,false,'','D','2024-07-10',1.08,false,'Builds/Pokemon/Bandit.html','Angela','2025-03-31',models[132],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Bandit01.jpeg','Bandit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Bandit02.jpeg','Bandit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Bandit03.jpeg','Bandit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Bandit04.jpeg','Bandit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Bandit05.jpeg','Bandit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Bandit06.jpeg','Bandit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Bandit07.jpeg','Bandit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Bandit08.jpeg','Bandit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Bandit09.jpeg','Bandit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Bandit10.jpeg','Bandit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Bandit11.jpeg','Bandit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Bandit12.jpeg','Bandit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Bandit13.jpeg','Bandit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Bandit14.jpeg','Bandit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Bandit15.jpeg','Bandit']
+        ],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/Bandit06.jpeg','Profile Photo: Bandit'],
+        'For Beatrice I chose Flareon as the theme. But for Bandit the inspiration is Vaporeon, Eevee\'s water evolution. Which means a whole lot of blues and puprples and cool blue shades.',false,
+        [
+            ['Video','https://youtu.be/utW6FWKgT20'],
+            ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Eevee_(Pokémon)'],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-eevee-sleeping-pose-07-quick-model-kit'],
+            ['NewType','https://newtype.us/p/4FAxD625NfDz5CsOfrF7/h/pokemon-model-kit-quick-07-eevee-sleeping-pose']
+        ],['Beatrice'],true,false,false
     ],    //Blue
     ['Soporifix',[1,'Entei'],'Pokemon',
         false,false,false,'','B','2024',0,false,'Builds/Pokemon/Soporifix.html',false,'2025-12-29'
@@ -14186,7 +14314,7 @@ const projects = [
         [
             ['Video','https://www.instagram.com/reel/CoVMgaLMyp5/?igshid=YzcxN2Q2NzY0OA=='],
             ['StarBlazer Wiki','https://yamato.fandom.com/wiki/Andromeda_Black']
-        ],['Mistral','Levante','Ostro','Ponente'],false,true,'1:1000'
+        ],['Mistral','Levante','Ostro','Ponente'],true,true,'1:1000'
     ],
     ['Ostro',[0.2,'Cosmo Falcon'],'Ship',
         false,false,false,'StarBlazer','E','2022-07-06',6.33,false,'Builds/Ships/Ostro.html','French Winds','2022-07-18',models[37],
@@ -14241,6 +14369,7 @@ const projects = [
             ['NewType','https://newtype.us/p/pzyuVfGmFiybqSReb07Y/h/1-350-millennium-falcon']
         ],['Levante','Libeccio','Ostro','Ponente'],true,true,'1:350'
     ],
+    ['Gregale',[1,'Space Submarine I-401'],'Ship',false,false,false,'Space Rengo Kantai','B'],
 
     //Transformer
     ['Wilbee',[1,'Bumblebee'],'Transformer',
@@ -14422,7 +14551,7 @@ const projects = [
         [
             ['Video','https://youtu.be/xTP2lZSZ1b8'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/1-4-scale-usags-apex-model-kit']
-        ],false,false,true,'1:4'
+        ],false,true,true,'1:4',false,false,false,false,true
     ]
 ];
 
