@@ -12263,7 +12263,7 @@ const projects = [
         ],['Bella Donna','Sovereign'],true,true,false
     ],
     ['Pokeball',[1,'Podball'],'MG',
-        false,false,false,'UC','D','2024-11-22',9.75,false,'Builds/Gundams/Pball.html','Pokeball','2025-03-21',models[136],
+        false,false,false,'UC','E','2024-11-22',9.75,false,'Builds/Gundams/Pball.html','Pokeball','2025-03-21',models[136],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/PBallMain01.jpeg','Pokeball'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/PBallMain02.jpeg','Pokeball'],
@@ -12335,7 +12335,7 @@ const projects = [
             ['Video','https://youtu.be/PeTTUQ6ntZ0'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/mg-1-100-mobile-pod-ball-ver-ka'],
             ['Newtype','https://newtype.us/p/zJjlPuRONegsmLUDIIR6/h/mg-rgb-79-ball-verka']
-        ],false,false,false,'1:100'
+        ],false,false,true,'1:100'
     ],
     ['Ridley',[1,'Qubeley'],'HG',false,false,false,'UC','A'],
     ['GunChef',[1,'RX-78-2'],'RG',false,false,false,'UC','A'],
@@ -13590,7 +13590,7 @@ const projects = [
             ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Eevee_(Pokémon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-eevee-model-kit'],
             ['NewType','https://newtype.us/p/hgonYKX4NoE1FYu5R5a3/h/pokemon-eevee']
-        ],['Bandit'],true,true,false
+        ],false,true,true,false
     ],    //Red
     ['Bandit',[1,'Eevee'],'Pokemon',
         false,false,false,'','D','2024-07-10',1.08,false,'Builds/Pokemon/Bandit.html','Angela','2025-03-31',models[132],
@@ -13618,7 +13618,7 @@ const projects = [
             ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Eevee_(Pokémon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-eevee-sleeping-pose-07-quick-model-kit'],
             ['NewType','https://newtype.us/p/4FAxD625NfDz5CsOfrF7/h/pokemon-model-kit-quick-07-eevee-sleeping-pose']
-        ],['Beatrice'],true,false,false
+        ],false,true,false,false
     ],    //Blue
     ['Soporifix',[1,'Entei'],'Pokemon',
         false,false,false,'','B','2024',0,false,'Builds/Pokemon/Soporifix.html',false,'2025-12-29'

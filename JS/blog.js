@@ -2665,6 +2665,26 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/Beatrice14.jpeg']
         ]
+    ],
+    [
+        '2025-03-25',
+        'Balls to the Walls !!',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/PBallMain46.jpeg',
+        [
+            [
+                'Not a pokemon but still withing their universe. This week I bring you the ',
+                ['Poke[pod]ball','Builds/Gundams/PBall.html'],
+                '. I had a lot of fun previously painting the Luxury Ball that I had to paint another one. This time I\'m doing the original Pokeball that started it all. The others in the ball lineup coming soon.'
+            ]
+        ],
+        [
+            [
+                ['Youtube','https://www.youtube.com/watch?v=PeTTUQ6ntZ0',true]
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/PBallMain30.jpeg']
+        ]
     ]
 ]
 
