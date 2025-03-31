@@ -2685,6 +2685,26 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/PBallMain30.jpeg']
         ]
+    ],
+    [
+        '2025-03-31',
+        'Splish Splash Bandit',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/Bandit16.jpeg',
+        [
+            [
+                'Painted another Eevee again, this time in a new pose. Meet the sleeping ',
+                ['Bandit','Builds/Pokemon/Bandit.html'],
+                '. Inspired by Vaporeon, this Eeve is a splahs of different blues and purples. Won\'t lie, this was boring to photograph though. Being stationary, this Eevee model cannot pose in different positions. She was stuck just one way.'
+            ]
+        ],
+        [
+            [
+                ['Youtube','https://youtu.be/utW6FWKgT20',true]
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/Bandit17.jpeg']
+        ]
     ]
 ]
 

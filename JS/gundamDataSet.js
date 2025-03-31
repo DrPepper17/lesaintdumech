@@ -9861,6 +9861,7 @@ const projects = [
             'Federation Trooper'
         ],false,true,'1:144',false,false,'Varia Suit'
     ],
+    ['Samus: Scarlett Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','A'],
     ['Tybalt',[1,'Dagger L'],'HG',false,false,false,'Seed','B','2024',0,false,'Builds/Gundams/Tybalt.html',false,'',models[23]],        //Capulet: Red
     ['Friar Laurence',[1,'Dagger 105 + Gunbarrel'],'HG',false,false,false,'Seed','B'],
     ['Charizard',[1,'Destiny'],'MG',false,false,false,'Seed','B'],
@@ -10378,7 +10379,7 @@ const projects = [
     ['Rodan',[1,'Raider'],'FM',false,false,false,'Seed','A'],
     ['La Reine',[0.5,'Raijin Striker'],'MG',false,true,false,'Seed','B'],
     ['Ripley',[1,'Rising Freedom'],'SD',
-        false,false,false,'Seed','D','2024-06-04',6.41,false,'Builds/Gundams/Ripley.html',false,'2025-03-03'
+        false,false,false,'Seed','D','2024-06-04',6.41,false,'Builds/Gundams/Ripley.html',false,'2025-04-07'
     ],
     ['Revolution',[1,'Rising Freedom'],'HG',
         false,false,false,'Seed','D','2024-02-18',15.08,false,'Builds/Gundams/Revolution.html',false,'2025-03-10'
@@ -13590,10 +13591,10 @@ const projects = [
             ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Eevee_(Pokémon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-eevee-model-kit'],
             ['NewType','https://newtype.us/p/hgonYKX4NoE1FYu5R5a3/h/pokemon-eevee']
-        ],false,true,true,false
+        ],['Bandit'],true,true,false
     ],    //Red
     ['Bandit',[1,'Eevee'],'Pokemon',
-        false,false,false,'','D','2024-07-10',1.08,false,'Builds/Pokemon/Bandit.html','Angela','2025-03-31',models[132],
+        false,false,false,'','E','2024-07-10',1.08,false,'Builds/Pokemon/Bandit.html','Angela','2025-03-31',models[132],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Bandit01.jpeg','Bandit'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Bandit02.jpeg','Bandit'],
@@ -13618,7 +13619,7 @@ const projects = [
             ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Eevee_(Pokémon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-eevee-sleeping-pose-07-quick-model-kit'],
             ['NewType','https://newtype.us/p/4FAxD625NfDz5CsOfrF7/h/pokemon-model-kit-quick-07-eevee-sleeping-pose']
-        ],false,true,false,false
+        ],['Beatrice'],true,true,false
     ],    //Blue
     ['Soporifix',[1,'Entei'],'Pokemon',
         false,false,false,'','B','2024',0,false,'Builds/Pokemon/Soporifix.html',false,'2025-12-29'
@@ -13879,7 +13880,7 @@ const projects = [
         false,false,false,'','D','2023-10-03',2.97,false,'Builds/Pokemon/Dogmatix.html','Asterix','2025-04-21'
     ], 
     ['Mantis Force',[6,'Scizor','Scizor','Scizor','Scizor','Scizor','Scizor'],'Pokemon',
-        false,false,false,'','A','2025',0,false,'Builds/Pokemon/MantisForce.html',false,'2025'
+        false,false,false,'','B','2025',0,false,'Builds/Pokemon/MantisForce.html',false,'2025'
     ],
     ['Tragicomix',[1,'Solgaleo'],'Pokemon',
         false,false,false,'','B','2024',0,false,'Builds/Pokemon/Tragicomix.html',false,'2025-11-17'
@@ -17006,7 +17007,6 @@ function buildProjectPage(string) {
     else if (modelArray[1] === 10) {
         buildHaro();
     }
-
 
     /*
     let variantModelsArray = [];
