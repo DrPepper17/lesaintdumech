@@ -6035,6 +6035,55 @@ const models = [
         false,
         false,
         2
+    ],
+    [160,1,'Rising Freedom Gundam',
+        'STTS-909 Rising Freedom',
+        'STTS-909',
+        'Mobile Suit Gundam SEED Freedom',
+        false,    //boolean
+        [
+            'ZGMF-X10A Freedom Gundam',
+            'ZGMF-X20A Strike Freedom Gundam',
+            'MVF-M11C Murasame'
+        ],
+        false,
+        'Cosmic Era',
+        [75,'75 C.E.',75],
+        'Kira Yamato',
+        false,
+        'PLANT',
+        ['Compass','ORB','PLANT'],
+        [17.8,'17.80 Meters'],           //Height
+        [67.9,'67.90 Metric Tons'],        //Weight
+        false,
+        'Ultracompact Energy Battery',
+        [
+            'MA-BBF75 400mm Hyper Impulse Gun "Sturmsvaha" (x2)',
+            'MMI-M2020 "Viper 3" Railgun (x2)',
+            'MMI-GAU30 31mm CIWS "Schlag Fang Block7" (x2)'
+        ],
+        [
+            'MA-M727A3 High Energy Beam Rifle',
+            'Laminated Anti-Beam Carrier Composite Armed Shield w/ RQM73 Flash Edge G-3 Shield Boomerang',
+            'MA-FZ51 "Vershina" Beam Sabers (x2)'
+        ],
+        [
+            'OS: General Unilateral Neuro-Link Dispersive Autonomic Maneuver Complex',,
+            'Variable Phase Shift (VPS) Armor',
+            'MA Flight Mode',
+            'High-Mobility Aerial Tactics (HiMAT) Mode',
+            'Full Burst Mode',
+            'Multi Lock-On System',
+            'Ejectable panoramic monitor/linear seat cockpit'
+        ],
+        'Kunio Okawara',
+        false,                //pseudo-boolean: If no, then false. If true, then list base source as character string
+        'Freedom',
+        false,            //boolean
+        ['https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/12ea3154-ae52-4369-a869-f27088c8fcc7.jpeg','Rising Freedom Gundam'],
+        true,           //boolean
+        [160],
+        'Rising Freedom'
     ]
 ];
 
@@ -10379,7 +10428,50 @@ const projects = [
     ['Rodan',[1,'Raider'],'FM',false,false,false,'Seed','A'],
     ['La Reine',[0.5,'Raijin Striker'],'MG',false,true,false,'Seed','B'],
     ['Ripley',[1,'Rising Freedom'],'SD',
-        false,false,false,'Seed','D','2024-06-04',6.41,false,'Builds/Gundams/Ripley.html',false,'2025-04-07'
+        false,false,false,'Seed','D','2024-06-04',6.41,false,'Builds/Gundams/Ripley.html',false,'2025-04-07',models[160],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Ripley01.jpeg','Ripley'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Ripley02.jpeg','Ripley'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Ripley03.jpeg','Ripley'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Ripley04.jpeg','Ripley'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Ripley05.jpeg','Ripley'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Ripley06.jpeg','Ripley'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Ripley07.jpeg','Ripley'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Ripley08.jpeg','Ripley'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Ripley09.jpeg','Ripley'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Ripley10.jpeg','Ripley'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Ripley11.jpeg','Ripley'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Ripley12.jpeg','Ripley'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Ripley13.jpeg','Ripley'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Ripley14.jpeg','Ripley'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Ripley15.jpeg','Ripley'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Ripley16.jpeg','Ripley'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Ripley17.jpeg','Ripley'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Ripley18.jpeg','Ripley'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Ripley19.jpeg','Ripley'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Ripley20.jpeg','Ripley'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Ripley21.jpeg','Ripley'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Ripley22.jpeg','Ripley'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Ripley23.jpeg','Ripley'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Ripley24.jpeg','Ripley'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Ripley25.jpeg','Ripley'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Ripley26.jpeg','Ripley'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Ripley27.jpeg','Ripley'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Ripley28.jpeg','Ripley'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Ripley29.jpeg','Ripley'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Ripley30.jpeg','Ripley'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Ripley31.jpeg','Ripley'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Ripley32.jpeg','Ripley'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Ripley33.jpeg','Ripley'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Ripley34.jpeg','Ripley']
+        ],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/Ripley18.jpeg','Profile Photo: Ripley'],
+        'Won\'t lie. I don\'t think I like this new version of the Freedom that much. They claimed this is supposed to be an upgraded and enhanced version of both the Freedom and the Strike-Freedom with better performance. But it just feels like a rehashed version of the original Freedom with the face of the Legend and a downgraded weaker battery. For this paint though I focused on cute reds, purples and baby blues. Oh and the name inspiration, Ellen Ripley from Alien.',false,
+        [
+            ['Video','https://youtu.be/Oe-jr9ERUUI'],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/sd-gundam-ex-standard-rising-freedom-gundam'],
+            ['NewType','https://newtype.us/p/BkLFpkZUArPCWBFRENax/h/sdex-standard-20-rising-freedom-gundam']
+        ],false,true,false
     ],
     ['Revolution',[1,'Rising Freedom'],'HG',
         false,false,false,'Seed','D','2024-02-18',15.08,false,'Builds/Gundams/Revolution.html',false,'2025-03-10'
@@ -11462,7 +11554,7 @@ const projects = [
         ],false,true,true,'1:144','The Sun King'
 
     ],
-    ['Gabriel',[1,'Shining Gundam'],'SD',false,false,false,'G','D','2024-09-13',4.525],   //Mr Metallic
+    ['Gabriel',[1,'Shining Gundam'],'SD',false,false,false,'G','D','2024-09-13',4.59,false,'Builds/Gundams/Gabriel.html'],   //Mr Metallic
     ['Camael',[1,'Shining Gundam'],'SD',false,false,false,'G','B','2024',0],    //Flat
     ['Red Baron',[1,'Spiegel, Gundam'],'MG',
         false,false,false,'G','E','2021-05-05',72.07,true,'Builds/Gundams/RedBaron.html','Hand Paint','2021-05-29',models[2],
@@ -13791,7 +13883,7 @@ const projects = [
         ],false,true,true
     ],
     ['Monosyllabix',[1,'Mew'],'Pokemon',
-        false,false,false,'','D','2023-10-22',2.04,false,'Builds/Pokemon/Monosyllabix.html','Asterix','2025-05-05'
+        false,false,false,'','D','2023-10-22',2.04,false,'Builds/Pokemon/Monosyl.html','Asterix','2025-05-05'
     ],
     ['Polysyllabix',[1,'Mewtwo'],'Pokemon',
         false,false,false,'','D','2023-11-25',4.83,false,'Builds/Pokemon/Polysyl.html','Asterix','2025-06-16'
@@ -13829,7 +13921,7 @@ const projects = [
             ['TurboDork: Ice to Never','https://turbodork.com/products/ice-to-never-1?variant=29460041793606']
         ],['Dark Samus: Echoes'],true,true
     ],
-    ['Postaldistrix',[1,'Raiku'],'Pokemon',
+    ['Postaldistrix',[1,'Raikou'],'Pokemon',
         false,false,false,'','D','2024-09-13',2.75,false,'Builds/Pokemon/Postal.html','Asterix','2025-11-03'
     ],
     ['Getafix',[1,'Rayquaza'],'Pokemon',
