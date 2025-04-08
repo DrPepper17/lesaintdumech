@@ -2705,6 +2705,29 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/Bandit17.jpeg']
         ]
+    ],
+    [
+        '2025-04-07',
+        'Get Away From Her You !!',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/Ripley33.jpeg',
+        [
+            [
+                'So the Seed Freedom movie has been out now for a while and I am proud to finally unveil my first paint job from the new lineup of mobile suits introduced in Freeom. And first up I present to you ',
+                ['Ripley','Builds/Gundams/Ripley.html'],
+                '. '
+            ]
+        ],
+        [
+            'The base model for this is the SD Rising Freedom. The Rising Freeodm itself I though was a rather boring new rehash of the original Freedom. But this little SD version though was quite cute and quaint. Proud of my colors used here: a rich red with a warm purple and a cute light blue. Every time I examine my job done on this one it just strikes me as having quite its own sense of personality. Definitely one of my prouder SD builds.'
+        ],
+        [
+            [
+                ['Youtube','https://youtu.be/Oe-jr9ERUUI',true]
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/Ripley14.jpeg']
+        ]
     ]
 ]
 

@@ -139,7 +139,7 @@
 
     // Pokemon (7) //
     2. Name
-    3. Form (if applicable)
+    3. NA - Don't use
     4. Universal Dex no.
 
     // Transformer (8) //
@@ -486,7 +486,7 @@ const models = [
         ['https://hosting.photobucket.com/images/i/lesaintdumech/wargreymon.jpeg','Wargreymon']
     ],
     [11,7,'Greninja',
-        'Pokemon #47 Greninja Model Kit',
+        false,
         '0658',
         'Water / Dark',
         '3rd Stage',
@@ -3132,7 +3132,7 @@ const models = [
         [77]
     ],
     [79,7,'Charmander',
-        'Pokemon Charmander 11 Quick Model Kit',
+        false,
         '0004',
         'Fire',
         '1st Stage',
@@ -3160,7 +3160,7 @@ const models = [
         ['https://hosting.photobucket.com/images/i/lesaintdumech/Charmander.jpg','Charmander']
     ],
     [80,7,'Charizard',
-        'Pokemon Select Series 43 Charizard & Dragonite Model Kit Set',
+        false,
         '0006',
         'Fire / Flying',
         '3rd Stage',
@@ -3193,7 +3193,7 @@ const models = [
         'Charizard'
     ],
     [81,7,'Dragonite',
-        'Pokemon Select Series 43 Charizard & Dragonite Model Kit Set',
+        false,
         '0149',
         'Dragon / Flying',
         '3rd Stage',
@@ -3689,7 +3689,7 @@ const models = [
         [86]
     ],
     [94,7,'Bulbasaur',
-        'Pokemon Bulbasaur 13 Quick Model Kit!',
+        false,
         '0001',
         'Grass / Poison',
         '1st Stage',
@@ -5041,7 +5041,7 @@ const models = [
         false
     ],
     [131,7,'Eevee',
-        'Pokemon Eevee Model Kit',
+        'ABCDEFG',
         '0132',
         'Normal',
         '1st Stage',
@@ -5078,42 +5078,7 @@ const models = [
         [131],
         'Eevee'
     ],
-    [132,7,'Eevee',
-        'Pokemon Eevee (Sleeping Pose) 07 Quick Model Kit',
-        '0132',
-        'Normal',
-        '1st Stage',
-        false,
-        [
-            ['Vaporeon','Water Stone'],
-            ['Jolteon','Thunder Stone'],
-            ['Flareon','Fire Stone'],
-            ['Espeon','Friendship, Day'],
-            ['Umbreon','Friendship, Night'],
-            ['Leeafeon','Moss Rock / Leaf Stone'],
-            ['Glaceon','Ice Rock / Ice Stone'],
-            ['Sylveon','Fairy Move w/ High Friendship']
-        ],
-        'Evolution Pokemon',
-        'Its irregularly configured and unstable genetic makeup is affected by its surroundings. It has the abliity to alter the composition of its body to suit its surrounding environment and evolves when that environment changes. This ability allows it to adapt smoothly and perfectly to any environment. It is extremely rare and only a few of these pokemon exist today in the wild.',
-        '1\'00\"',
-        [14.3,'14.3 lbs'],
-        'I',
-        'Pokemon Red and Blue',
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        ['https://hosting.photobucket.com/images/i/lesaintdumech/eevees.jpeg','Eevee'],
-        false,
-        [131]
+    [132,0
     ],
     [133,3,'Millennium Falcon',
         'YT 492727ZED',
@@ -5160,7 +5125,7 @@ const models = [
         'Corellian YT-1300 Light Freighter',
     ],
     [134,7,'Squirtle',
-        'Pokemon Squirtle 17 Quick Model Kit',
+        false,
         '0007',
         'Water',
         '1st Stage',
@@ -5663,7 +5628,7 @@ const models = [
         false
     ],
     [148,7,'Gyarados',
-        'Pokemon Gyarados 52 Model Kit',
+        false,
         '0130',
         'Water / Flying',
         '2nd Stage',
@@ -5735,7 +5700,7 @@ const models = [
         [138]
     ],
     [150,7,'Rayquaza',
-        'Pokemon Select Series 46 Rayquaza Model Kit',
+        false,
         '0384',
         'Dragon / Flying',
         '1st Stage',
@@ -5763,7 +5728,7 @@ const models = [
         ['https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/de5dc08b-49c2-4313-acdb-0439ea1f8f9b.jpeg','Rayquaza']
     ],
     [151,7,'Metagross',
-        'Pokemon Select Series 53 Metagross Model Kit',
+        false,
         '0376',
         'Steel / Psychic',
         '3rd Stage',
@@ -5821,7 +5786,7 @@ const models = [
         [60]
     ],
     [153,7,'Piplup',
-        'Pokemon Piplup 06 Quick Model Kit',
+        false,
         '0393',
         'Water',
         '1st Stage',
@@ -5923,7 +5888,7 @@ const models = [
         [154]
     ],
     [156,7,'Mega Charizard X',
-        'Pokemon Select Series 36 Mega Charizard X Model Kit',
+        false,
         '0006X',
         'Fire / Dragon',
         'Mega Evolution',
@@ -5951,7 +5916,7 @@ const models = [
         [80]
     ],
     [157,7,'Mega Charizard Y',
-        'Pokemon Select Series 36 Mega Charizard X Model Kit',
+        false,
         '0006Y',
         'Fire / Flying',
         'Mega Evolution',
@@ -5979,7 +5944,7 @@ const models = [
         [80]
     ],
     [158,7,'Groudon',
-        'Pokemon Select Series 54 Groudon Model Kit',
+        false,
         '0383',
         'Ground',
         '1st Stage',
@@ -6084,6 +6049,61 @@ const models = [
         true,           //boolean
         [160],
         'Rising Freedom'
+    ],
+    [161,7,'Mewtwo',
+        false,
+        '0150',
+        'Psychic',
+        '1st Stage',
+        false,
+        [
+            ['Mega Mewtwo X','Mewtwonite X'],
+            ['Mega Mewtwo Y','Mewtwonite Y']
+        ],
+        'Genetic Pokémon',
+        'Created by scientists after years of horrific genetic manipulation and engineering, Mewtwo\'s genes were repeatedly spliced and recombined in the pursuit of creating the ultimate pokemon solely for battle. This torture made it turn vicious as a result. Even though the scientific prowess of humanity created this pokemon\'s body, they failed to endow Mewtwo with a compassionate heart. Its DNA is almost the same as Mew\'s. However its size and disposition are vastly different. Present day it is said to rest quietly in an undiscovered cave where it remains motionless to conserve energy to unleash its full power in battle. Its cold glowing eyes strike fear into its enemies and its mind consumed only by the thought of defeating everyone. It is said to be the most savage of all pokemon.',
+        '6\'07\"',
+        [269.0,'269.0 lbs'],
+        'I',
+        'Pokemon Red and Blue',
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        ['https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/ccc64091-df17-419a-9f75-92a4290bbd9d.jpeg','Mewtwo']
+    ],
+    [162,7,'Mew',
+        false,
+        '0151',
+        'Psychic',
+        '1st Stage',
+        false,
+        false,
+        'New Species Pokémon',
+        'A mythical pokemon of South America, Mew is so rare that it is still considered a mirage by many experts. It is capable of making itself invisible at will and often hides from humans. Therefore only a few people worldwide have ever seen it. Because it can learn and use all known moves, some suspect it the ancestor of all Pokemon and its DNA is rumored to possess the genes of all Pokemon',
+        '1\'04\"',
+        [8.8,'8.8 lbs'],
+        'I',
+        'Pokemon Red and Blue',
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        ['https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/eb66965d-d866-46d2-9d27-77aba2e931e3.jpeg','Mew']
     ]
 ];
 
@@ -6133,6 +6153,7 @@ const models = [
     27. Other Models included [array]
     28. Include Franchise in Other List (true/false)
     29. Filter project name override (automated set)
+    30. POKEMON ONLY - Model name
 */
 
 //Pojects
@@ -10428,7 +10449,7 @@ const projects = [
     ['Rodan',[1,'Raider'],'FM',false,false,false,'Seed','A'],
     ['La Reine',[0.5,'Raijin Striker'],'MG',false,true,false,'Seed','B'],
     ['Ripley',[1,'Rising Freedom'],'SD',
-        false,false,false,'Seed','D','2024-06-04',6.41,false,'Builds/Gundams/Ripley.html',false,'2025-04-07',models[160],
+        false,false,false,'Seed','E','2024-06-04',6.41,false,'Builds/Gundams/Ripley.html',false,'2025-04-07',models[160],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Ripley01.jpeg','Ripley'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Ripley02.jpeg','Ripley'],
@@ -10471,10 +10492,103 @@ const projects = [
             ['Video','https://youtu.be/Oe-jr9ERUUI'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/sd-gundam-ex-standard-rising-freedom-gundam'],
             ['NewType','https://newtype.us/p/BkLFpkZUArPCWBFRENax/h/sdex-standard-20-rising-freedom-gundam']
-        ],false,true,false
+        ],false,true,true
     ],
     ['Revolution',[1,'Rising Freedom'],'HG',
-        false,false,false,'Seed','D','2024-02-18',15.08,false,'Builds/Gundams/Revolution.html',false,'2025-03-10'
+        false,false,false,'Seed','D','2024-02-18',15.08,false,'Builds/Gundams/Revolution.html',false,'2025-04-24',models[160],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Revolution01.jpeg','Revolution'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Revolution02.jpeg','Revolution'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Revolution03.jpeg','Revolution'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Revolution04.jpeg','Revolution'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Revolution05.jpeg','Revolution'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Revolution06.jpeg','Revolution'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Revolution07.jpeg','Revolution'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Revolution08.jpeg','Revolution'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Revolution09.jpeg','Revolution'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Revolution10.jpeg','Revolution'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Revolution11.jpeg','Revolution'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Revolution12.jpeg','Revolution'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Revolution13.jpeg','Revolution'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Revolution14.jpeg','Revolution'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Revolution15.jpeg','Revolution'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Revolution16.jpeg','Revolution'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Revolution17.jpeg','Revolution'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Revolution18.jpeg','Revolution'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Revolution19.jpeg','Revolution'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Revolution20.jpeg','Revolution'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Revolution21.jpeg','Revolution'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Revolution22.jpeg','Revolution'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Revolution23.jpeg','Revolution'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Revolution24.jpeg','Revolution'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Revolution25.jpeg','Revolution'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Revolution26.jpeg','Revolution'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Revolution27.jpeg','Revolution'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Revolution28.jpeg','Revolution'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Revolution29.jpeg','Revolution'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Revolution30.jpeg','Revolution'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Revolution31.jpeg','Revolution'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Revolution32.jpeg','Revolution'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Revolution33.jpeg','Revolution'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Revolution34.jpeg','Revolution'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Revolution35.jpeg','Revolution'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Revolution36.jpeg','Revolution'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Revolution37.jpeg','Revolution'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Revolution38.jpeg','Revolution'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Revolution39.jpeg','Revolution'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Revolution40.jpeg','Revolution'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Revolution41.jpeg','Revolution'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Revolution42.jpeg','Revolution'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Revolution43.jpeg','Revolution'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Revolution44.jpeg','Revolution'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Revolution45.jpeg','Revolution'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Revolution46.jpeg','Revolution'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Revolution47.jpeg','Revolution'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Revolution48.jpeg','Revolution'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Revolution49.jpeg','Revolution'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Revolution50.jpeg','Revolution'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Revolution51.jpeg','Revolution'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Revolution52.jpeg','Revolution'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Revolution53.jpeg','Revolution'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Revolution54.jpeg','Revolution'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Revolution55.jpeg','Revolution'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Revolution56.jpeg','Revolution'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Revolution57.jpeg','Revolution'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Revolution58.jpeg','Revolution'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Revolution59.jpeg','Revolution'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Revolution60.jpeg','Revolution'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Revolution61.jpeg','Revolution'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Revolution62.jpeg','Revolution'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Revolution63.jpeg','Revolution'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Revolution64.jpeg','Revolution'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Revolution65.jpeg','Revolution'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Revolution66.jpeg','Revolution'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Revolution67.jpeg','Revolution'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Revolution68.jpeg','Revolution'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Revolution69.jpeg','Revolution'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Revolution70.jpeg','Revolution'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Revolution71.jpeg','Revolution'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Revolution72.jpeg','Revolution'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Revolution73.jpeg','Revolution'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Revolution74.jpeg','Revolution'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Revolution75.jpeg','Revolution'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Revolution76.jpeg','Revolution'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Revolution77.jpeg','Revolution'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Revolution78.jpeg','Revolution'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Revolution79.jpeg','Revolution'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Revolution80.jpeg','Revolution'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Revolution81.jpeg','Revolution'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Revolution82.jpeg','Revolution'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Revolution83.jpeg','Revolution'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Revolution84.jpeg','Revolution']
+        ],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/Revolution25.jpeg','Profile Photo: Revolution'],
+        'For this one I wanted to do lots of reds. This was also bit of a first experiment for me using the different reds of the Mr Hobby Metallic paints. So I used Pink, Red, Blood Red of the Mr Metallic line. They tended to all blend in together on this one that the details are not very distinct. I will admit. I was disappointed by this build.',false,
+        [
+            ['Video','https://youtu.be/_dl5fssY1VQ'],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/bandai-hg-1-144-rising-freedom-gundam-tentative-name'],
+            ['NewType','https://newtype.us/p/bjuslaAew69M0Y99KkSU/h/hgce-243-rising-freedom-gundam']
+        ],false,true,false,'1:144'
     ],
     ['Rising Freedom [HG]',[1,'Rising Freedom'],'HG',true,false,false,'Seed','D','2024-05-24',2.75],
     ['Blue Angels',[3,'Skygrasper','Skygrasper','Skygrasper'],'RG',
@@ -11412,6 +11526,7 @@ const projects = [
             ['Premium Bandai: RG God Gundam Expansion Set','https://p-bandai.com/us/item/N2619351001001']
         ],false,false,true,'1:144','God Gundam'
     ],
+    ['Burning Gundam [RG]',[1,'Burning Gundam'],'RG',true,false,false,'G','C','2025-04-05',4.84],
     ['Michael',[1,'Burning Gundam'],'SD',false,false,false,'G','D','2024-09-13',4.12],
     ['Furcas',[1,'Dark Army'],'HG',
         false,false,false,'G','D','2024-08-20',4.28,false,'Builds/Gundams/Furcas.html','Ars Goetia','2025-04-14'
@@ -13490,7 +13605,7 @@ const projects = [
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-bulbasaur-13-quick-model-kit'],
             ['NewType','https://newtype.us/p/W2XuUUtpyK4uqkEPD18t/h/pokemon-model-kit-quick-13-bulbasaur'],
             ['TurboDork: Forrest Flux','https://turbodork.com/products/forrest-flux']
-        ],['Asterix'],false,true
+        ],['Asterix'],false,true,false,false,false,false,false,false,false,'Pokemon Bulbasaur 13 Quick Model Kit'
     ],
     ['Jade',[1,'Bulbasaur'],'Pokemon',
         false,false,false,'','E','2024-06-04',2.31,false,'Builds/Pokemon/Jade.html',false,'2024-09-09',models[94],
@@ -13515,7 +13630,7 @@ const projects = [
             ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Bulbasaur_(Pokémon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-bulbasaur-13-quick-model-kit'],
             ['NewType','https://newtype.us/p/W2XuUUtpyK4uqkEPD18t/h/pokemon-model-kit-quick-13-bulbasaur']
-        ],['Jasper','Cooper'],false,true
+        ],['Jasper','Cooper'],false,true,false,false,false,false,false,false,false,'Pokemon Bulbasaur 13 Quick Model Kit'
     ],
     ['Asterix',[1,'Charmander'],'Pokemon',
         false,false,false,'','E','2023-03-12',3.85,false,'Builds/Pokemon/Asterix.html','Asterix','2023-08-28',models[79],
@@ -13550,7 +13665,7 @@ const projects = [
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-charmander-11-quick-model-kit?_pos=1&_sid=5226c6cbe&_ss=r'],
             ['NewType','https://newtype.us/p/kjQjxZgkxDWE1c9nYf1Z/h/pokemon-model-kit-quick-11-charmander'],
             ['TurboDork: Redrum','https://turbodork.com/products/redrum'],
-        ],['Obelix','Vercingetorix'],false,true,false
+        ],['Obelix','Vercingetorix'],false,true,false,false,false,false,false,false,false,'Pokemon Charmander 11 Quick Model Kit'
     ],
     ['Jasper',[1,'Charmander'],'Pokemon',
         false,false,false,'','E','2024-06-04',2.27,false,'Builds/Pokemon/Jasper.html',false,'2024-09-02',models[79],
@@ -13579,7 +13694,7 @@ const projects = [
             ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Charmander_(Pokémon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-charmander-11-quick-model-kit?_pos=1&_sid=5226c6cbe&_ss=r'],
             ['NewType','https://newtype.us/p/kjQjxZgkxDWE1c9nYf1Z/h/pokemon-model-kit-quick-11-charmander']
-        ],['Jade','Cooper'],false,true
+        ],['Jade','Cooper'],false,true,false,false,false,false,false,false,false,'Pokemon Charmander 11 Quick Model Kit'
     ],
     ['Vercingetorix',[1,'Charizard'],'Pokemon',
         false,false,false,'','E','2023-03-10',5.99,false,'Builds/Pokemon/Vercingetorix.html',false,'2023-09-04',models[80],
@@ -13617,7 +13732,7 @@ const projects = [
             ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Charizard_(Pokémon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-plamo-charizard-dragonite'],
             ['NewType','https://newtype.us/p/S9nZ4KxUmzbDoDM0HfDd/h/pokemon-charizard-dragonite']
-        ],['Asterix','Boudica','Charizard','Charizard X'],false,true,false
+        ],['Asterix','Boudica','Charizard','Charizard X'],false,true,false,false,false,false,false,false,false,'Pokemon Select Series 43 Charizard & Dragonite Model Kit Set'
     ],
     ['Mega Charizard X',[1,'Mega Charizard X'],'Pokemon',
         false,false,false,'','A','2025',0
@@ -13651,7 +13766,7 @@ const projects = [
             ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Dragonite_(Pokémon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-plamo-charizard-dragonite'],
             ['NewType','https://newtype.us/p/S9nZ4KxUmzbDoDM0HfDd/h/pokemon-charizard-dragonite']
-        ],['Vercingetorix'],true,true,false
+        ],['Vercingetorix'],true,true,false,false,false,false,false,false,false,'Pokemon Select Series 43 Charizard & Dragonite Model Kit Set'
     ],
     ['Beatrice',[1,'Eevee'],'Pokemon',
         false,false,false,'','E','2024-07-10',1.38,false,'Builds/Pokemon/Beatrice.html','Angela','2025-03-18',models[131],
@@ -13683,10 +13798,10 @@ const projects = [
             ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Eevee_(Pokémon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-eevee-model-kit'],
             ['NewType','https://newtype.us/p/hgonYKX4NoE1FYu5R5a3/h/pokemon-eevee']
-        ],['Bandit'],true,true,false
+        ],false,true,true,false,false,false,false,false,false,false,'Pokemon Eevee Model Kit'
     ],    //Red
     ['Bandit',[1,'Eevee'],'Pokemon',
-        false,false,false,'','E','2024-07-10',1.08,false,'Builds/Pokemon/Bandit.html','Angela','2025-03-31',models[132],
+        false,false,false,'','E','2024-07-10',1.08,false,'Builds/Pokemon/Bandit.html','Angela','2025-03-31',models[131],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Bandit01.jpeg','Bandit'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Bandit02.jpeg','Bandit'],
@@ -13711,8 +13826,22 @@ const projects = [
             ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Eevee_(Pokémon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-eevee-sleeping-pose-07-quick-model-kit'],
             ['NewType','https://newtype.us/p/4FAxD625NfDz5CsOfrF7/h/pokemon-model-kit-quick-07-eevee-sleeping-pose']
-        ],['Beatrice'],true,true,false
+        ],false,true,true,false,false,false,false,false,false,false,'Pokemon Eevee (Sleeping Pose) 07 Quick Model Kit'
     ],    //Blue
+    ['Empoleon',[1,'Empoleon'],'Pokemon',
+        false,false,false,'','B','2025',0,false,'Builds/Pokemon/',false,'2025',models[0],
+        [
+            ['','']
+        ],
+        ['','Profile Photo: '],
+        'Description',false,
+        [
+            ['Video',''],
+            ['Bulbapedia',''],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-select-series-6-empoleon-evolution-set-model-kit'],
+            ['NewType','https://newtype.us/p/aqpjW7R8h1LfOuf88CK1/h/pokemon-empoleon-evolution-set'],
+        ],false,true,false,false,false,false,false,false,false,false,'Pokemon Select Series 6 Empoleon Evolution Set Model Kit'
+    ],
     ['Soporifix',[1,'Entei'],'Pokemon',
         false,false,false,'','B','2024',0,false,'Builds/Pokemon/Soporifix.html',false,'2025-12-29'
     ],
@@ -13740,7 +13869,7 @@ const projects = [
             ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Greninja_(Pokémon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-47-greninja-model-kit?variant=40332069765317'],
             ['NewType','https://newtype.us/p/dwk8jzQtdPBUWYb5VxT3/h/pokemon-greninja']
-        ],false,false,true,false
+        ],false,false,true,false,false,false,false,false,false,false,'Pokemon #47 Greninja Model Kit'
     ], 
     ['Brennus',[1,'Groudon'],'Pokemon',
         false,false,false,'','E','2024-02-16',7.78,false,'Builds/Pokemon/Brennus.html',false,'2025-03-03',models[158],
@@ -13779,7 +13908,7 @@ const projects = [
             ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Groudon_(Pokémon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-select-series-54-groudon-model-kit'],
             ['NewType','https://newtype.us/p/S83TPQ2pUa2qpW6pChho/h/pokemon-groudon']
-        ],false,true,true
+        ],false,true,true,false,false,false,false,false,false,false,'Pokemon Select Series 54 Groudon Model Kit'
     ],
     ['Cassivellaunus',[1,'Gyarados'],'Pokemon',
         false,false,false,'','E','2023-09-18',5.39,false,'Builds/Pokemon/Cassiv.html','Asterix','2025-01-06',models[148],
@@ -13820,7 +13949,7 @@ const projects = [
             ['Bulbapedia','https://m.bulbapedia.bulbagarden.net/wiki/Gyarados_(Pokémon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/collections/pokapla/products/pokemon-gyarados-52-model-kit'],
             ['NewType','https://newtype.us/p/dOkZZ7AvruhzwIslqHje/h/pokemon-gyarados']
-        ],['Unhygienix'],true,true
+        ],['Unhygienix'],true,true,false,false,false,false,false,false,false,'Pokemon Gyarados 52 Model Kit'
     ],
     ['Vitalstatistix',[1,'Ho-Oh'],'Pokemon',
         false,false,false,'','D','2024-02-20',5.17,false,'Builds/Pokemon/Vital.html','Asterix','2025-09-08'
@@ -13880,16 +14009,109 @@ const projects = [
             ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Metagross_(Pokémon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-select-series-53-metagross-model-kit'],
             ['NewType','https://newtype.us/p/ZAdu3eNdG5mrLKUIRzQQ/h/pokemon-metagross']
-        ],false,true,true
+        ],false,true,true,false,false,false,false,false,false,false,'Pokemon Select Series 53 Metagross Model Kit'
     ],
     ['Monosyllabix',[1,'Mew'],'Pokemon',
-        false,false,false,'','D','2023-10-22',2.04,false,'Builds/Pokemon/Monosyl.html','Asterix','2025-05-05'
+        false,false,false,'','D','2023-10-22',2.04,false,'Builds/Pokemon/Monosyl.html','Asterix','2025-04-28',models[162],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Monosyllabix01.jpeg','Monosyllabix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Monosyllabix02.jpeg','Monosyllabix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Monosyllabix03.jpeg','Monosyllabix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Monosyllabix04.jpeg','Monosyllabix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Monosyllabix05.jpeg','Monosyllabix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Monosyllabix06.jpeg','Monosyllabix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Monosyllabix07.jpeg','Monosyllabix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Monosyllabix08.jpeg','Monosyllabix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Monosyllabix09.jpeg','Monosyllabix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Monosyllabix10.jpeg','Monosyllabix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Monosyllabix11.jpeg','Monosyllabix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Monosyllabix12.jpeg','Monosyllabix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Monosyllabix13.jpeg','Monosyllabix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Monosyllabix14.jpeg','Monosyllabix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Monosyllabix15.jpeg','Monosyllabix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Monosyllabix16.jpeg','Monosyllabix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Monosyllabix17.jpeg','Monosyllabix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Monosyllabix18.jpeg','Monosyllabix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Monosyllabix19.jpeg','Monosyllabix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Monosyllabix20.jpeg','Monosyllabix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Monosyllabix21.jpeg','Monosyllabix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Monosyllabix22.jpeg','Monosyllabix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Monosyllabix23.jpeg','Monosyllabix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Monosyllabix24.jpeg','Monosyllabix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Monosyllabix25.jpeg','Monosyllabix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Monosyllabix26.jpeg','Monosyllabix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Monosyllabix27.jpeg','Monosyllabix']
+        ],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/Monosyllabix25.jpeg','Profile Photo: Monosyllabix'],
+        'Was not a complicated design. Most of Mew is just one color. Used Mr Hobby\'s Metal Peach for the base pink. Then hand painted a generic flat red for the circles on the feet and hand painted with flat white, flat blue and flat black to for the eyes. To add just a little bit of extra flair used a gemstone stick to give it an earing. Overall it is rather just quite cute.',false,
+        [
+            ['Video','https://youtu.be/HFDKL02iJzk'],
+            ['Asterix: Monosyllabix','https://asterixonline.info/monosyllabix/'],
+            ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Mew_(Pokémon)'],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-mew-02-quick-model-kit'],
+            ['NewType','https://newtype.us/p/2I52VIRFzowvxYGIHxyC/h/pokemon-model-kit-quick-02-mew']
+        ],false,true,false,false,false,false,false,false,false,false,'Pokemon Mew 02 Quick Model Kit'
     ],
     ['Polysyllabix',[1,'Mewtwo'],'Pokemon',
-        false,false,false,'','D','2023-11-25',4.83,false,'Builds/Pokemon/Polysyl.html','Asterix','2025-06-16'
+        false,false,false,'','D','2023-11-25',4.83,false,'Builds/Pokemon/Polysyl.html','Asterix','2025-04-14',models[161],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Polysyllablix01.jpeg','Polysyllabix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Polysyllablix02.jpeg','Polysyllabix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Polysyllablix03.jpeg','Polysyllabix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Polysyllablix04.jpeg','Polysyllabix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Polysyllablix05.jpeg','Polysyllabix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Polysyllablix06.jpeg','Polysyllabix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Polysyllablix07.jpeg','Polysyllabix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Polysyllablix08.jpeg','Polysyllabix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Polysyllablix09.jpeg','Polysyllabix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Polysyllablix10.jpeg','Polysyllabix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Polysyllablix11.jpeg','Polysyllabix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Polysyllablix12.jpeg','Polysyllabix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Polysyllablix13.jpeg','Polysyllabix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Polysyllablix14.jpeg','Polysyllabix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Polysyllablix15.jpeg','Polysyllabix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Polysyllablix16.jpeg','Polysyllabix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Polysyllablix17.jpeg','Polysyllabix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Polysyllablix18.jpeg','Polysyllabix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Polysyllablix19.jpeg','Polysyllabix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Polysyllablix20.jpeg','Polysyllabix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Polysyllablix21.jpeg','Polysyllabix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Polysyllablix22.jpeg','Polysyllabix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Polysyllablix23.jpeg','Polysyllabix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Polysyllablix24.jpeg','Polysyllabix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Polysyllablix25.jpeg','Polysyllabix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Polysyllablix26.jpeg','Polysyllabix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Polysyllablix27.jpeg','Polysyllabix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Polysyllablix28.jpeg','Polysyllabix']
+            
+        ],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/Polysyllablix18.jpeg','Profile Photo: Polysyllabix'],
+        'A very traditional paint scheme to the original Mewtwo design. Used TurboDork Purl Grey for the light purple and Mr Metallic Metallic Violet for the dark purple. It\'s a simple model but it came out great. And so shiny.',false,
+        [
+            ['Video','https://youtu.be/SN-fz_gHRSo'],
+            ['Asterix: Polysyllabix','https://asterixonline.info/polysyllabix-petitelegrafix/'],
+            ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Mewtwo_(Pokémon)'],
+            ['TurboDork: Purl Grey','https://turbodork.com/products/purl-grey-1'],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-mewtwo-model-kit'],
+            ['NewType','https://newtype.us/p/CBSn5RIMRw8C0xpurheh/h/pokemon-mewtwo']
+        ],false,true,false,false,false,false,false,false,false,false,'Pokemon Select Series 32 Mewtwo Model Kit'
     ],
     ['Cyrano',[1,'Pikachu'],'Pokemon',
         false,false,false,'','D','2024-07-05',1.65,false,'Builds/Pokemon/Cyrano.html',false,'2025-09-22'
+    ],
+    ['Pikachu 2',[1,'Pikachu'],'Pokemon',
+        false,false,false,'','B','2025',0,false,'Builds/Pokemon/',false,'2025',models[0],
+        [
+            ['','']
+        ],
+        ['','Profile Photo: '],
+        'Description',false,
+        [
+            ['Video',''],
+            ['Bulbapedia',''],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-select-series-6-empoleon-evolution-set-model-kit'],
+            ['NewType','https://newtype.us/p/aqpjW7R8h1LfOuf88CK1/h/pokemon-empoleon-evolution-set'],
+        ],false,true,false,false,false,false,false,false,false,false,'Pokemon Select Series 6 Empoleon Evolution Set Model Kit'
     ],
     ['Picanmix',[1,'Piplup'],'Pokemon',
         false,false,false,'','E','2023-11-25',3.95,false,'Builds/Pokemon/Pican.html','Asterix','2025-02-20',models[153],
@@ -13919,7 +14141,35 @@ const projects = [
             ['NewType','https://newtype.us/p/yzU9p7mXLKhtFtIrFzfO/h/pokemon-model-kit-quick-06-piplup'],
             ['TurboDork: Cold Open','https://turbodork.com/products/cold-open-1?variant=40013820100690'],
             ['TurboDork: Ice to Never','https://turbodork.com/products/ice-to-never-1?variant=29460041793606']
-        ],['Dark Samus: Echoes'],true,true
+        ],['Dark Samus: Echoes'],true,true,false,false,false,false,false,false,false,'Pokemon Piplup 06 Quick Model Kit'
+    ],
+    ['Piplup 2',[1,'Piplup'],'Pokemon',
+        false,false,false,'','B','2025',0,false,'Builds/Pokemon/',false,'2025',models[153],
+        [
+            ['','']
+        ],
+        ['','Profile Photo: '],
+        'Description',false,
+        [
+            ['Video',''],
+            ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Piplup_(Pokémon)'],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-select-series-6-empoleon-evolution-set-model-kit'],
+            ['NewType','https://newtype.us/p/aqpjW7R8h1LfOuf88CK1/h/pokemon-empoleon-evolution-set'],
+        ],false,true,false,false,false,false,false,false,false,false,'Pokemon Select Series 6 Empoleon Evolution Set Model Kit'
+    ],
+    ['Prinplup',[1,'Prinplup'],'Pokemon',
+        false,false,false,'','B','2025',0,false,'Builds/Pokemon/',false,'2025',models[0],
+        [
+            ['','']
+        ],
+        ['','Profile Photo: '],
+        'Description',false,
+        [
+            ['Video',''],
+            ['Bulbapedia',''],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-select-series-6-empoleon-evolution-set-model-kit'],
+            ['NewType','https://newtype.us/p/aqpjW7R8h1LfOuf88CK1/h/pokemon-empoleon-evolution-set'],
+        ],false,true,false,false,false,false,false,false,false,false,'Pokemon Select Series 6 Empoleon Evolution Set Model Kit'
     ],
     ['Postaldistrix',[1,'Raikou'],'Pokemon',
         false,false,false,'','D','2024-09-13',2.75,false,'Builds/Pokemon/Postal.html','Asterix','2025-11-03'
@@ -13965,7 +14215,7 @@ const projects = [
             ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Rayquaza_(Pokémon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-rayquaza-model-kit'],
             ['NewType','https://newtype.us/p/WdF5h0oKREWKufNDSCqT/h/pokemon-rayquaza']
-        ],false,true,true
+        ],false,true,true,false,false,false,false,false,false,false,'Pokemon Select Series 46 Rayquaza Model Kit'
     ],
     ['Geriatrix',[1,'Reshiram'],'Pokemon',false,false,false,'','A'],
     ['Dogmatix',[1,'Riolu'],'Pokemon',
@@ -14005,7 +14255,7 @@ const projects = [
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-plastic-model-collection-quick-17-squirtle'],
             ['NewType','https://newtype.us/p/Ti0eVe8xLiVkkMzNfrET/h/pokemon-model-kit-quick-17-squirtle'],
             ['TurboDork: Dark Ritual','https://turbodork.com/products/dark-ritual?variant=40539853914194']
-        ],['Jade','Jasper'],false,true
+        ],['Jade','Jasper'],false,true,false,false,false,false,false,false,false,'Pokemon Squirtle 17 Quick Model Kit'
     ],
     ['Pacifix',[1,'Suicune'],'Pokemon',
         false,false,false,'','B','2024',0,false,'Builds/Pokemon/Pacifix.html',false,'2025-12-01'
@@ -14583,7 +14833,7 @@ const projects = [
     ['Kipling',[1,'Liger Zero X'],'Zoid',false,false,false,'','B'],
 
     //Other
-    ['Voltron',[1,'Voltron'],'Other',false,false,false,'Voltron: Defender of the Universe','B','2024',0],
+    ['Rojira',[1,'Godzilla'],'Other',false,false,false,'Legendary Monsterverse','B','2025',0],
     ['Joe Cool',[1,'Surfing Snoopy'],'Other',
         false,false,false,'Peanuts','E','2024-09-29',5.42,false,'Builds/Other/JoeCool.html',false,'2024-12-24',models[147],
         [
@@ -14645,7 +14895,8 @@ const projects = [
             ['Video','https://youtu.be/xTP2lZSZ1b8'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/1-4-scale-usags-apex-model-kit']
         ],false,true,true,'1:4',false,false,false,false,true
-    ]
+    ],
+    ['Voltron',[1,'Voltron'],'Other',false,false,false,'Voltron: Defender of the Universe','B','2025',0]
 ];
 
 //Initialize Arrays
@@ -16908,7 +17159,6 @@ function buildProjectPage(string) {
         popNode(projectArray[0]+' \u269C','title');
         popNode(projectArray[0],'jumboNode');
     }
-
     if (projectArray[4]) {
         popNode('PB ','projectTitle');
         popNode('PB ','projectTitleMb');
@@ -16931,11 +17181,10 @@ function buildProjectPage(string) {
         popNode(projectArray[0],'projectTitleMb');
         popNode(projectArray[0],'projectName');
     }
-    
-
-    popNode(modelArray[3],'modelFullName');
-    popNode(modelArray[3],'modelName');
-
+    if (modelArray[3] && modelArray[1] != 7) {
+        popNode(modelArray[3],'modelFullName');
+        popNode(modelArray[3],'modelName');
+    }
     if (projectArray[1][0]>1) {
         unhide('.projectOtherModelsHD');
 
@@ -17761,7 +18010,10 @@ function buildPokemon() {
         popNode(modelArray[2],'modelOtherTitle');
         popNode(':','modelOtherTitle');
     }
-
+    if (projectArray[30]) {
+        popNode(projectArray[30],'modelFullName');
+        popNode(projectArray[30],'modelName');
+    }
     if (modelArray[4]) {
         unhide('.pkDexNoHD');
         popNode(modelArray[4],'pkDexNo');
