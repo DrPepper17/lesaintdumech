@@ -11345,6 +11345,7 @@ const projects = [
             ['Premium Bandai','https://p-bandai.com/us/item/N2500763001004']
         ],false,false,true,'1:100',false,'Slash Zaku Phantom (Yzak Jule Custom)'
     ],
+    ['Seed ZGok [HG]',[1,'ZGok'],'HG',true,false,false,'Seed','D','2025-04-08',3],
     
     //Future Century (G Gundam)
     ['King of Hearts',[2,'Burning Gundam','PB God Gundam Expansion Set','KOSMOS LED Upgrade For RG God Gundam'],'RG',
@@ -12471,7 +12472,7 @@ const projects = [
         ],['Bella Donna','Sovereign'],true,true,false
     ],
     ['Pokeball',[1,'Podball'],'MG',
-        false,false,false,'UC','E','2024-11-22',9.75,false,'Builds/Gundams/Pball.html','Pokeball','2025-03-21',models[136],
+        false,false,false,'UC','E','2024-11-22',9.75,false,'Builds/Gundams/PBall.html','Pokeball','2025-03-21',models[136],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/PBallMain01.jpeg','Pokeball'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/PBallMain02.jpeg','Pokeball'],
