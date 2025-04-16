@@ -6760,7 +6760,7 @@ const projects = [
             'Federation Trooper'
         ],false,true,'1:144',false,false,'Corruption'
     ], 
-    ['Carlibarn [SD]',[1,'Calibarn'],'SD',true,false,false,'Mercury','D','2024-10-24',2],
+    ['Carlibarn [SD]',[1,'Calibarn'],'SD',true,false,false,'Mercury','E','2024-10-24',2],
     ['Faces of Eve',[4,'Calibarn','Calibarn','Calibarn','Calibarn'],'SD',
         false,false,false,'Mercury','E','2024-09-29',29.29,false,'Builds/Gundams/4EVES.html',false,'2024-12-30',models[144],
         [
@@ -8713,7 +8713,7 @@ const projects = [
     ['Zero EW (mg)',[1,'Wing Zero'],'MG',false,false,false,'Wing','B'],
     ['Zero EW (rg)',[1,'Wing Zero'],'RG',false,false,false,'Wing','A'],
     ['Zero EW (sd)',[1,'Wing Zero'],'SD',false,false,false,'Wing','B'],
-    ['Wing Zero [MGSD]',[1,'Wing Zero'],'MGSD',true,false,false,'Wing','D','2025-01-10',6,false],
+    ['Wing Zero [MGSD]',[1,'Wing Zero'],'MGSD',true,false,false,'Wing','C','2025-01-10',6,false],
     ['Grim',[1,'Wing Zero'],'MGSD',false,false,false,'Wing','B'],
     ['Rosette',[1,'Wing Zero'],'MGSD',false,false,false,'Wing','A'],
 
@@ -9265,7 +9265,7 @@ const projects = [
             ['TurboDork: All That Glitters','https://turbodork.com/products/all-that-glitters']
         ],false,false,true,'1:144','Akatsuki: Oowashi Pack'
     ],
-    ['Akatsuki [RG]',[1,'Akatsuki, Oowsahi'],'RG',true,false,false,'Seed','D','2025-02-06',4.92,false,false,false],
+    ['Akatsuki [RG]',[1,'Akatsuki, Oowsahi'],'RG',true,false,false,'Seed','C','2025-02-06',4.92,false,false,false],
     ['King Mars',[1,'Akatsuki, Shiranui'],'HG',
         false,false,false,'Seed','D','2022-05-06',13.67,false,'Builds/Gundams/KingMars.html','Planets','',models[57]
     ],
@@ -9338,7 +9338,7 @@ const projects = [
     ['https://hosting.photobucket.com/images/i/lesaintdumech/dominion05.jpeg','Profile Photo: Dominion'],
     'I originally was not planning to build this. But my both my Archangels came out so fantastic and the fact the kit had the parts to build the Dominion just kept weighing on my mind that eventually I broke down and surrendered to the temptation and had to buy me a third Archangel kit. Besides, you cannot have the Archangel without staging its final dual with the Dominion. Therefore now preseneting to you, the Dominino.',false,false,['Archangel'],false,true,'1:1700'
     ],
-    ['Shi-ve.A [HG]',[1,'Black Knight Squad Shi-ve.A'],'HG',true,false,false,'Seed','D','2025-01-29',3],
+    ['Shi-ve.A [HG]',[1,'Black Knight Squad Shi-ve.A'],'HG',true,false,false,'Seed','E','2025-01-29',3],
     ['Betty',[1,'BuCUE'],'HG',false,false,false,'Seed','B','2024',0,false,'Builds/Gundams/...','First Ladies'],
     ['Nancy',[1,'BuCUE'],'HG',false,false,false,'Seed','B','2024',0,false,'Builds/Gundams/...','First Ladies'],
     ['Jacqueline',[1,'BuCUE Hound, Kerberos'],'HG',false,false,false,'Seed','B','2024',0,false,'Builds/Gundams/...','First Ladies'],
@@ -9931,8 +9931,8 @@ const projects = [
             'Federation Trooper'
         ],false,true,'1:144',false,false,'Varia Suit'
     ],
-    ['Samus: Scarlett Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','A'],
-    ['Tybalt',[1,'Dagger L'],'HG',false,false,false,'Seed','B','2024',0,false,'Builds/Gundams/Tybalt.html',false,'',models[23]],        //Capulet: Red
+    ['Samus: Scarlett Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','B'],
+    ['Tybalt',[1,'Dagger L'],'HG',false,false,false,'Seed','A','2024',0,false,'Builds/Gundams/Tybalt.html',false,'',models[23]],        //Capulet: Red
     ['Friar Laurence',[1,'Dagger 105 + Gunbarrel'],'HG',false,false,false,'Seed','B'],
     ['Charizard',[1,'Destiny'],'MG',false,false,false,'Seed','B'],
     ['Charizard X',[1,'Destiny'],'SD',
@@ -11345,7 +11345,7 @@ const projects = [
             ['Premium Bandai','https://p-bandai.com/us/item/N2500763001004']
         ],false,false,true,'1:100',false,'Slash Zaku Phantom (Yzak Jule Custom)'
     ],
-    ['Seed ZGok [HG]',[1,'ZGok'],'HG',true,false,false,'Seed','D','2025-04-08',3],
+    ['ZGok-SEED [HG]',[1,'ZGok-SEED'],'HG',true,false,false,'Seed','E','2025-04-08',3],
     
     //Future Century (G Gundam)
     ['King of Hearts',[2,'Burning Gundam','PB God Gundam Expansion Set','KOSMOS LED Upgrade For RG God Gundam'],'RG',
@@ -11527,7 +11527,7 @@ const projects = [
             ['Premium Bandai: RG God Gundam Expansion Set','https://p-bandai.com/us/item/N2619351001001']
         ],false,false,true,'1:144','God Gundam'
     ],
-    ['Burning Gundam [RG]',[1,'Burning Gundam'],'RG',true,false,false,'G','C','2025-04-05',4.84],
+    ['Burning Gundam [RG]',[1,'Burning Gundam'],'RG',true,false,false,'G','D','2025-04-05',7.5],
     ['Michael',[1,'Burning Gundam'],'SD',false,false,false,'G','D','2024-09-13',4.12],
     ['Furcas',[1,'Dark Army'],'HG',
         false,false,false,'G','D','2024-08-20',4.28,false,'Builds/Gundams/Furcas.html','Ars Goetia','2025-04-14'
@@ -14054,7 +14054,7 @@ const projects = [
         ],false,true,false,false,false,false,false,false,false,false,'Pokemon Mew 02 Quick Model Kit'
     ],
     ['Polysyllabix',[1,'Mewtwo'],'Pokemon',
-        false,false,false,'','D','2023-11-25',4.83,false,'Builds/Pokemon/Polysyl.html','Asterix','2025-04-14',models[161],
+        false,false,false,'','E','2023-11-25',4.83,false,'Builds/Pokemon/Polysyl.html','Asterix','2025-04-15',models[161],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Polysyllablix01.jpeg','Polysyllabix'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Polysyllablix02.jpeg','Polysyllabix'],
@@ -14090,12 +14090,11 @@ const projects = [
         'A very traditional paint scheme to the original Mewtwo design. Used TurboDork Purl Grey for the light purple and Mr Metallic Metallic Violet for the dark purple. It\'s a simple model but it came out great. And so shiny.',false,
         [
             ['Video','https://youtu.be/SN-fz_gHRSo'],
-            ['Asterix: Polysyllabix','https://asterixonline.info/polysyllabix-petitelegrafix/'],
             ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Mewtwo_(Pokémon)'],
             ['TurboDork: Purl Grey','https://turbodork.com/products/purl-grey-1'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-mewtwo-model-kit'],
             ['NewType','https://newtype.us/p/CBSn5RIMRw8C0xpurheh/h/pokemon-mewtwo']
-        ],false,true,false,false,false,false,false,false,false,false,'Pokemon Select Series 32 Mewtwo Model Kit'
+        ],false,true,true,false,false,false,false,false,false,false,'Pokemon Select Series 32 Mewtwo Model Kit'
     ],
     ['Cyrano',[1,'Pikachu'],'Pokemon',
         false,false,false,'','D','2024-07-05',1.65,false,'Builds/Pokemon/Cyrano.html',false,'2025-09-22'

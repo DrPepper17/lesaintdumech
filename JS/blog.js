@@ -2728,6 +2728,29 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/Ripley14.jpeg']
         ]
+    ],
+    [
+        '2025-04-15',
+        'The Menacing One',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/Polysyllablix28.jpeg',
+        [
+            [
+                'Named after one of the Gauls of French comic Asterix, I present to you the ferocious Mewtwo ',
+                ['Polysyllabix','Builds/Pokemon/Polysyl.html'],
+                '. '
+            ]
+        ],
+        [
+            'It\'s a fierce scary looking pokemon with a piercing gaze as it prepares to wipe out all the competition.'
+        ],
+        [
+            [
+                ['Youtube','https://youtu.be/SN-fz_gHRSo',true]
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/Polysyllablix08.jpeg']
+        ]
     ]
 ]
 
