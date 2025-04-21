@@ -10580,7 +10580,17 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Revolution81.jpeg','Revolution'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Revolution82.jpeg','Revolution'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Revolution83.jpeg','Revolution'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/Revolution84.jpeg','Revolution']
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Revolution84.jpeg','Revolution'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RisingFreedomHGSTR12.jpeg','Rising Freedom'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RisingFreedomHGSTR13.jpeg','Rising Freedom'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RisingFreedomHGSTR31.jpeg','Rising Freedom'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RisingFreedomHGSTR34.jpeg','Rising Freedom'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RisingFreedomHGSTR35.jpeg','Rising Freedom'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RisingFreedomHGSTR38.jpeg','Rising Freedom'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RisingFreedomHGSTR41.jpeg','Rising Freedom'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RisingFreedomHGSTR43.jpeg','Rising Freedom'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RisingFreedomHGSTR47.jpeg','Rising Freedom'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RisingFreedomHGSTR48.jpeg','Rising Freedom']
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/Revolution25.jpeg','Profile Photo: Revolution'],
         'For this one I wanted to do lots of reds. This was also bit of a first experiment for me using the different reds of the Mr Hobby Metallic paints. So I used Pink, Red, Blood Red of the Mr Metallic line. They tended to all blend in together on this one that the details are not very distinct. I will admit. I was disappointed by this build.',false,

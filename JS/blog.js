@@ -2751,6 +2751,47 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/Polysyllablix08.jpeg']
         ]
+    ],
+    [
+        '2025-04-21',
+        'Rising Freedom [HG] Straight Build',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/RisingFreedomHGSTR19.jpeg',
+        [
+            'Been a while since I posted a straight build. Which of course typically I don\'t do that. But since SEED Freedom is so new and introduced so many exciting new suits, a straight build for the Rising Freedom was permissible.'
+        ],
+        [
+            'So enjoy the photos below.'
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RisingFreedomHGSTR41.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RisingFreedomHGSTR43.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RisingFreedomHGSTR35.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RisingFreedomHGSTR38.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RisingFreedomHGSTR47.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RisingFreedomHGSTR48.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RisingFreedomHGSTR31.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RisingFreedomHGSTR34.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RisingFreedomHGSTR12.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RisingFreedomHGSTR13.jpeg']
+        ]
     ]
 ]
 
