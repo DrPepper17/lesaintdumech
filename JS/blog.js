@@ -2792,6 +2792,29 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RisingFreedomHGSTR13.jpeg']
         ]
+    ],
+    [
+        '2025-04-24',
+        'Ignite the Revolution !',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/Revolution12.jpeg',
+        [
+            [
+                'Well it\'s been fifteen months now since the film Gundam SEED Freedom came out and finally now getting around to my first suit from the film. To start off I bring you the titular suit from the film, the Rising Freedom,  ',
+                ['Revolution','Builds/Gundams/Revolution.html'],
+                ', first.  '
+            ]
+        ],
+        [
+            'For this one used way too much red that the design fell flat. Also if I am being honest. I was not impressed at all by the Rising Freedom in the film. It\'s just the original Freedom with shoulder decorations and a downgraded battery. And its flight mode was not at all impressive. We\'ve seen way better neo bird modes from Wing and Zeta. The Rising Freedom flight form just felt pointless. At least the Strike Freedom got a proper new upgrade.'
+        ],
+        [
+            [
+                ['Youtube','https://youtu.be/_dl5fssY1VQ',true]
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/Revolution79.jpeg']
+        ]
     ]
 ]
 

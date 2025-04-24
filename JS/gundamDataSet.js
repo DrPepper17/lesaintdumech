@@ -8660,7 +8660,7 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/ZRouge56.jpeg','Zero Rouge'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/ZRouge57.jpeg','Zero Rouge']
         ],['https://hosting.photobucket.com/images/i/lesaintdumech/ZRouge28.jpeg','Profile Photo: Zero Rouge'],
-        'Made this as an X-mas present for a girl. So decided to make it pink-pinkish. Was inspired by the Strike Rouge from Gundam Seed. Kind of rushed this to get it done in time for Chrimstas. Won\'t lie the flat pink behaved a bit problematic. Went through four varieties of Pink to get the right tone and look. Despite something that I did under the attitude of feeling like a chore, I actually really like how this turned out. This now has me contemplating doing a similar style with the brand new MGDS Wing Zero that just came out this past December 2024.','Alice, Maryland',
+        'Made this as an X-mas present for a girl. So decided to make it pink-pinkish. Was inspired by the Strike Rouge from Gundam Seed. Kind of rushed this to get it done in time for Chrimstas. Won\'t lie the flat pink behaved a bit problematic. Went through four varieties of Pink to get the right tone and look. Despite something that I did under the attitude of feeling like a chore, I actually really like how this turned out. This now has me contemplating doing a similar style with the brand new MGDS Wing Zero that just came out this past December 2024.','Alice, Nebraska',
         [
             ['Video','https://youtu.be/HHtLmo-Y3dA'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/sd-gundam-ex-standard-004-wing-gundam-zero-ew'],
@@ -10495,7 +10495,7 @@ const projects = [
         ],false,true,true
     ],
     ['Revolution',[1,'Rising Freedom'],'HG',
-        false,false,false,'Seed','D','2024-02-18',15.08,false,'Builds/Gundams/Revolution.html',false,'2025-04-24',models[160],
+        false,false,false,'Seed','E','2024-02-18',15.08,false,'Builds/Gundams/Revolution.html',false,'2025-04-24',models[160],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Revolution01.jpeg','Revolution'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Revolution02.jpeg','Revolution'],
@@ -10598,9 +10598,9 @@ const projects = [
             ['Video','https://youtu.be/_dl5fssY1VQ'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/bandai-hg-1-144-rising-freedom-gundam-tentative-name'],
             ['NewType','https://newtype.us/p/bjuslaAew69M0Y99KkSU/h/hgce-243-rising-freedom-gundam']
-        ],false,true,false,'1:144'
+        ],false,true,true,'1:144'
     ],
-    ['Rising Freedom [HG]',[1,'Rising Freedom'],'HG',true,false,false,'Seed','D','2024-05-24',2.75],
+    ['Rising Freedom [HG]',[1,'Rising Freedom'],'HG',true,false,false,'Seed','E','2024-05-24',2.75],
     ['Blue Angels',[3,'Skygrasper','Skygrasper','Skygrasper'],'RG',
         false,false,false,'Seed','E','2022-12-05',22,true,'Builds/Gundams/BlueAngels.html',false,'2022-12-26',models[30],
         [
@@ -12706,12 +12706,12 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/rocketman13.jpeg','Rocket Man']
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/rocketman02.jpeg','Profile Picture: Rocket Man'],
-        'Two Inspirations. Two Men. Both involving Rockets. Enjoy.',false,
+        'Two Inspirations. Two Men. Both involving Rockets. Enjoy.','Alice, Nebraska',
         [
             ['Video','https://www.instagram.com/reel/C1koLIhOLyu/?igsh=aWRqNjI1ZGptazFl'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/bb-senshi-386-rx-105-xi-gundam'],
             ['NewType','https://newtype.us/p/VOMKUI0qHyyquNpps7tt/h/sdbb-386-xi-gundam']
-        ],false,true,true
+        ],false,false,true
     ],
     ['MK Ultra',[1,'Zaku II'],'RG',false,false,false,'UC','B'],
     ['Requiem Zaku [HG]',[1,'Zaku II F Type Solari'],'HG',true,false,false,'UC','D','2025-01-24',2.67],
