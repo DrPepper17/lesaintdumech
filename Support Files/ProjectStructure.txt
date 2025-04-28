@@ -1,0 +1,47 @@
+Projects Array Structure
+
+0. Name
+1. Model (inside an array) (position 0 is weight).      
+            When project includes both a straight and a painted model, omit the straight build
+2. Grade
+3. Straight Build (true/false)
+4. P-Bandai (true/false)
+5. MGEX (true/false) 
+6. Series (Age,G,IBO,Mercury,Recon,Seed,TurnA,UC,X,Wing,00)
+7. Stage:
+        A: Out Of Inventory
+        B: Not Started (Backlog)
+        C: In Progress
+        D: Constructed (Ready to Post)
+        E: Posted
+8. Date started; Date ISO Format (YYYY-MM-DD, or YYYY-MM)
+9. Hours 
+        when both straight and painted included on same project, omit straight build hours
+10. LEDS (true/false)
+11. URL // don't do invidivual pages for straightbuilds unless it's a p-bandai
+12. tags [array]
+13. Date Posted
+14. Model (link array)
+15. Photos (array of arrays)
+    [
+        ['file path','alt text',ID: 'img1'],
+        ['file path','alt text',ID: 'img2']
+    ]
+16. Profile photo (array) ['file path','photo name']
+17.Theme / Description
+18. Gifted? If yes, string of to whom; If no, false
+19. Links (array of arrays)
+    [
+        ['site name','url']
+    ]
+20. Affiliated Projects (array: listing them by their name in Projects[0])
+21. Available for adoption
+22. Ready to post to site (boolean)
+23. scale
+24. Second name/nickname/phrase/slogan
+25. Project Page: override name
+26. Build Page: Override Name
+27. Other Models included [array]
+28. Include Franchise in Other List (true/false)
+29. Filter project name override (automated set)
+30. POKEMON ONLY - Model name

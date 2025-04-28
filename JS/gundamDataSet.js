@@ -1,181 +1,3 @@
-/*
-    0. ID
-    1. Project Type: (category list)
-        0. Doesn't meet categories
-        1. Gundam
-        2. Ship: Gundam
-        3. Ship: Other Franchise
-        4. Car / Automobiles
-        5. Display
-        6. Digimon
-        7. Pokemon
-        8. Transformer 
-        9. Zoid
-        10. Haropla
-        11. Special Project
-        12. Other
-        13. 
-
-    // Gundams (1) //
-    2. Short Name
-    3. Full Name
-    4. Serial Number
-    5. Series
-    6. EW Version (wing only) true/false
-    7. Developed from
-    8. Delovoped into
-    9. Era
-    10. Timeline (array) [integer,string,last year seen] 
-    11. Pilot
-    12. Secondary Pilots (array)
-    13. Manufacturer
-    14. Affiliation  (array)
-    15. Height [integer,string]
-    16. Weight [integer,string]
-    17. Material
-    18. Power Source
-    19. Armaments (Array) (armaments are components integrated into the unit, that cannot be dropped in battle)
-    20. Equipment (array)v(equipment are components separate from the suit, i.e. a beam saver or shield)
-    21. Systems
-    22. Designed by
-    23. SDW Hero (list model based on)
-    24. Alternate Name
-    25. Mobile Armor: true/false
-    26. original photo (array): ['file path','photo name']
-    27. Is a Gundam?
-    28. Base Suit (ID#) [an array]
-    29. Abbreviated Name (in relation to #28, How base suit is to be listed)
-
-    // Ship (fictional): Gundam (2) //
-    2. Short Name
-    3. Full Name
-    4. Serial Number
-    5. Series
-    6. Class
-    7. ...
-    8. ...
-    9. Era
-    10. Timeline (array) [integer,string,last year seen]
-    11. Pilot
-    12. Secondary Pilots (array)
-    13. Manufacturer
-    14. Affiliation  (array)
-    15. length [integer,string]
-    16. ...
-    17. ...
-    18. ...
-    19. Armaments (Array)
-    20. Equipment (array)
-    21. Units Onboard
-    22. ...
-    23. ...
-    24. ...
-    25. ...
-    26. original photo (array): ['file path','photo name']
-    27. title/classification
-    28. Developed from
-    29. Developed into
-    30. Type
-    31. Base Suit (ID#) [an array]
-    32. Abbreviated Name (in relation to #28, How base suit is to be listed)
-
-    // Ship (fictional): Other (3) //
-    2. Short Name
-    3. Full Name
-    4. Serial Number / series
-    5. Franchise
-    6. ...
-    7. ...
-    8. ...
-    9. Era
-    10. Creations (array) [integer,string]
-    11. ...
-    12. ...
-    13. ...
-    14. Affiliation  (array)
-    15. Height [integer,string]
-    16. Length [integer,string]
-    17. Width [integer,string]
-    18. Propulsion
-    19. Armaments (Array)
-    20. ...
-    21. Defenses (array)
-    22. ...
-    23. ...
-    24. ...
-    25. ...
-    26. original photo (array): ['file path','photo name']
-    27. title/classification
-    28. 
-
-    // Car (4) //
-    2. Short Name
-    3. Full Name
-    4. Manufacturer
-    5. Model
-    6. Year
-    7. Type of Vehicle (Category List: Car, Truck, Van, Plane, ship, spaceship_
-    8. Sedan (boolean) (ignore if not a car)
-    9. timespan
-    24. Nickname
-    26. Photo
-
-    // Display 5) //
-    2. Name
-    3. Kit
-    4. Brand / Manufacturer
-    5. Franchise
-    26. original photo (array): ['file path','photo name']
-    28. Base Suit (ID#) [an array]
-    29. Abbreviated Name (in relation to #28, How base suit is to be listed)
-
-    // Digimon (6) //
-    2. Name 
-    3. Form (if applicable)
-    4. Level
-    5. Digivolve From
-    6. Type
-    7. Element
-
-    // Pokemon (7) //
-    2. Name
-    3. NA - Don't use
-    4. Universal Dex no.
-
-    // Transformer (8) //
-    2. Name
-    3.
-    4. Canon 
-    5. Vehicle forms
-    6. Faction
-    7. Rank
-    8. Cybertron Name
-    24. Nickname
-    25. Other Canon
-    26. Photo
-
-    // Zoid (9) //
-    2. Name
-    3. Long Name
-    4. Serial No.
-    5. Animal / Type
-
-    // Other (12) //
-    2. Name
-    3. Kit
-    4. Brand / Manufacturer
-    5. Franchise
-    26. original photo (array): ['file path','photo name']
-    28. Base Suit (ID#) [an array]
-    29. Abbreviated Name (in relation to #28, How base suit is to be listed)
-    30. Other: Category 
-        1. Creatures
-        2. Mecha / Robots
-        3. People
-        4. Plants
-        5. Misc
-*/
-
 //Models Array
 const models = [
     [0],
@@ -363,7 +185,8 @@ const models = [
         ['https://hosting.photobucket.com/images/i/lesaintdumech/southpark.jpg','The South Park Gang'],
         false,
         [6,47,54,85,86,87,88,89],
-        'Operation Meteor'
+        'Operation Meteor',
+        'Gundam'
     ],
     [7,2,'Eternal',
         'ZAFT FFMH-Y101 Eternal',
@@ -374,8 +197,8 @@ const models = [
         false,
         'Cosmic Era',
         [71,'71 C.E.','Present'],
-        'Andrew Watfeld',
-        ['Lacus Clyne'],
+        'Andrew Waltfeld',
+        ['Lacus Clyne','Yzak Joule'],
         'Zodiac Alliance of Freedom Treaty',
         ['Clyne Faction','Three Ship Alliance','Terminal'],
         [300,'300 Meters'],
@@ -626,17 +449,17 @@ const models = [
     ],
     [15,2,'Archangel',
         'LCAM-01XA Archangel',
-        'LCAM-01XA',
+        'LCAM-01XA / SCC-101',
         'Mobile Suit Gundam Seed',
         'Archangel Class',
-        false,
+        'Kimitoshi Yamane',
         false,
         'Cosmic Era',
-        [71,' January 71 C.E.',75],
+        [71,'January 71 C.E.',75],
         'Murrue Ramius',
-        false,
+        ['Natarle Badgirue','Andrew Waltfeld'],
         'Morgenroete Inc.',
-        ['Earth Alliance','Three Ship Alliance','Archangel Corps','Terminal','Orb'],
+        ['Earth Alliance','Three Ship Alliance','Archangel Corps','Terminal','Orb','Compass'],
         [420,'420 Meters'],
         false,
         false,
@@ -652,15 +475,18 @@ const models = [
         ['https://hosting.photobucket.com/images/i/lesaintdumech/archangel.jpeg','Assault Battleship Archangel'],
         'Battleship',
         ['Izumo Class'],
-        false,
+        ['Girty Lue Class'],
         'Limited Production Mobile Assault Battleship',
+        [15],
+        'Archangel-Class',
+        ['Dominion']
     ],
     [16,2,'Dominion',
         'LCAM-01XB Dominino',
         'LCAM-01XB',
         'Mobile Suit Gundam Seed',
         'Archangel Class',
-        false,
+        'Kimitoshi Yamane',
         false,
         'Cosmic Era',
         [71,'71 C.E.',71],
@@ -684,7 +510,8 @@ const models = [
         'Battleship',
         ['Izumo Class'],
         false,
-        'Limited Production Mobile Assault Battleship'
+        'Limited Production Mobile Assault Battleship',
+        [15]
     ],
     [17,1,'Sasuke Delta',
         'SDW Heroes Sasuke Delta',
@@ -4928,39 +4755,112 @@ const models = [
         false,
         ['127'],
         'Beguir-Pente'   
-    ],
-    [128,1,'Suletta',
-        'Suletta Mercury',
-        false,
-        'Mobile Suit Gundam The Witch from Mercury',
-        false,
-        ['Ericht Samaya'],
-        false,
-        'Ad Stella',
-        [105,'A.S. 205','Present'],
+    ], 
+    [128,12,'Suletta Mercury',
+        'Figure-Rise Standard Suletta Mercury Model Kit',
+        'Bandai',
+        'Mobile Suit Gundam: The Witch From Mercury',
+        true,
         false,
         false,
-        'Prospera Mercury',
-        ['Mercury','Asticassia School of Technology','Earth House',' GUND-Arm Inc'],
-        [1.7,'170 cm'],
         false,
         false,
-        'Miorine Rembran',
-        [
-            'Aerial',
-            'Calibarn'
-        ],
         false,
         false,
-        'Kana Ichinose',
-        false, 
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
         false,
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/sulettamercury.jpeg','Suletta Mercury'],
         false, 
         [128],
-        'Suletta'
-    ],
+        'Suletta',
+        3,
+        'The Witch and The Bride (Episode)',
+        [
+            'Mercurian Miss',
+            'Mercury Girl'
+        ],
+        [
+            'Aerial (Ericht Samaya)',
+            'Many fellow repli-childs'
+        ],
+        [
+            'Mother: Prospera Mercury',
+            'Father: Nadim Samaya (Deceased at birth)'
+        ],
+        false,
+        'Wife: Miorine Rembran',
+        [
+            'Guel Jeturk',
+            'Elan Ceres',
+            'Miorine Rembran'
+        ],
+        [170,'170 cm'],
+        false,
+        'Arab / Mercurian',
+        'Female (XX)',
+        'Mercury',
+        'Ad Stella',
+        'A.S. 105', //DOB
+        false, //DOD
+        20,
+        'A.S. 122',
+        [
+            'Mercury',
+            'Shin Sei Corporation',
+            'Asticassia School of Technology',
+            'Earth House',
+            'GUND-Arm Inc',
+            'Space Assembly League'
+        ],
+        'Ericht Samaya',
+        [
+            'Student of Asticassia',
+            'Mobile Suit Pilot',
+            'Teacher'
+        ],
+        [
+            'MSJ-121 Demi Trainer',
+            'XVX-016 Gundam Aerial',
+            'XVX-016RN Gundam Aerial Rebuild',
+            'X-EX01 Gundam Calibarn'
+        ],
+        false,
+        'Carmine',
+        true,  //alive
+        '2nd Year Piloting Student',
+        'Dark Aqua',
+        'Replichild',
+        'Human',
+        'A.S. 125',
+        [
+            'Asticassia Student ID No. LP041'
+        ],
+        [
+            'English: Jill Harris',
+            'Japanese: Kana Ichinose'
+        ],
+        [
+            'Permet Resistance',
+            'Fencing',
+            'Mobile Suit Piloting',
+            'Mobile Suit Combat'
+        ],
+        false,
+        [
+            'Run and gain one. Move forward and gain two!'
+        ]
+    ],  
     [129,1,'Union Flag',
         'SVMS-01 Union Flag',
         'SVMS-01',
@@ -5038,11 +4938,14 @@ const models = [
         false,
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/xplustrex.jpeg','T-Rex Model Kit'],
-        false
+        false,
+        false,
+        false,
+        1
     ],
     [131,7,'Eevee',
         'ABCDEFG',
-        '0132',
+        '0133',
         'Normal',
         '1st Stage',
         false,
@@ -5078,7 +4981,31 @@ const models = [
         [131],
         'Eevee'
     ],
-    [132,0
+    [132,7,'Ho-oh',
+        false,
+        '0250',
+        'Fire / Flying',
+        '1st Stage',
+        false,
+        false,
+        'Rainbow Pokémon',
+        'Its feathers are in seven colors. It is said that anyone seeing it is promised eternal happiness. Legends claim this Pokémon flies the world\'s skies continuously on its magnificent seven-colored wings. A rainbow is said to trail behind it as it flies.',
+        '12\'06\"',
+        [438.7,'438.7 lbs'],
+        'II',
+        'Pokemon Gold and Silver',
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/HoohProfile.jpeg','Ho-oh']
     ],
     [133,3,'Millennium Falcon',
         'YT 492727ZED',
@@ -5597,8 +5524,57 @@ const models = [
         [145],
         'Schwarzette'              //Only if base source
     ],
-    [146,2,'Magellan Class'
-
+    [146,2,'Magellan Class',
+        'Magellan Class',
+        false,
+        'Mobile Suit Gundam',
+        'Fleet Flagship',
+        false,
+        false,
+        'Universal Century',
+        [70,'October, 0070 U.C.','Present'],
+        false,
+        [
+            'Douglass Veda',
+            'Vic Habcock',
+            'Walker'
+        ],
+        'Earth Federation',
+        ['Earth Federation Forces','Moore Brotherhood'],
+        [327,'327 Meters'],
+        [88,'88 Meters'],
+        [94.5,'94.5 Meters'],
+        ['Thermonuclear Rocket Thrusters (x4)'],
+        [
+            'Twin Mega Particle Gun (x7)',
+            'Twin Machine Gun (x14)',
+            'Missile Launchers'
+        ],
+        [
+            'Re-Entry Capsule',
+            'Supplemental Rocket Booster'
+        ],
+        [
+            'RGM-79 GM',
+            'RB-79 Ball'
+        ],
+        0,
+        false,
+        false,
+        'Minovsky-Ionesco Fusion Reactor',
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/MagellanClassProfile.jpg','Flagship Magellan Class'],
+        'Battleship',
+        false,
+        [
+            'Birmingham-class'
+        ],
+        'Mass Production Space Battleship',
+        [146],
+        'Magellan Class',
+        [
+            'Magellan Kai-class',
+            'Trafalgar-class'
+        ]
     ],
     [147,5,'Surfing Snoopy',
         'Snoopy is Joe Cool',
@@ -5625,7 +5601,10 @@ const models = [
         false,
         false,
         ['https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/d26cfee8-a1a8-478c-8bdd-7788df12df6d.jpg','Snoopy Joe Cool'],
-        false
+        false,
+        false,
+        false,
+        3
     ],
     [148,7,'Gyarados',
         false,
@@ -6033,7 +6012,7 @@ const models = [
             'MA-FZ51 "Vershina" Beam Sabers (x2)'
         ],
         [
-            'OS: General Unilateral Neuro-Link Dispersive Autonomic Maneuver Complex',,
+            'OS: General Unilateral Neuro-Link Dispersive Autonomic Maneuver Complex',
             'Variable Phase Shift (VPS) Armor',
             'MA Flight Mode',
             'High-Mobility Aerial Tactics (HiMAT) Mode',
@@ -6106,55 +6085,6 @@ const models = [
         ['https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/eb66965d-d866-46d2-9d27-77aba2e931e3.jpeg','Mew']
     ]
 ];
-
-/*
-    Project Array:
-    0. Name
-    1. Model (inside an array) (position 0 is weight).      
-                When project includes both a straight and a painted model, omit the straight build
-    2. Grade
-    3. Straight Build (true/false)
-    4. P-Bandai (true/false)
-    5. MGEX (true/false) 
-    6. Series (Age,G,IBO,Mercury,Recon,Seed,TurnA,UC,X,Wing,00)
-    7. Stage:
-         A: Out Of Inventory
-         B: Not Started (Backlog)
-         C: In Progress
-         D: Constructed (Ready to Post)
-         E: Posted
-    8. Date started; Date ISO Format (YYYY-MM-DD, or YYYY-MM)
-    9. Hours 
-            when both straight and painted included on same project, omit straight build hours
-    10. LEDS (true/false)
-    11. URL // don't do invidivual pages for straightbuilds unless it's a p-bandai
-    12. tags [array]
-    13. Date Posted
-    14. Model (link array)
-    15. Photos (array of arrays)
-        [
-            ['file path','alt text',ID: 'img1'],
-            ['file path','alt text',ID: 'img2']
-        ]
-    16. Profile photo (array) ['file path','photo name']
-    17.Theme / Description
-    18. Gifted? If yes, string of to whom; If no, false
-    19. Links (array of arrays)
-        [
-            ['site name','url']
-        ]
-    20. Affiliated Projects (array: listing them by their name in Projects[0])
-    21. Available for adoption
-    22. Ready to post to site (boolean)
-    23. scale
-    24. Second name/nickname/phrase/slogan
-    25. Project Page: override name
-    26. Build Page: Override Name
-    27. Other Models included [array]
-    28. Include Franchise in Other List (true/false)
-    29. Filter project name override (automated set)
-    30. POKEMON ONLY - Model name
-*/
 
 //Pojects
 const projects = [
@@ -6761,7 +6691,7 @@ const projects = [
         ],false,true,'1:144',false,false,'Corruption'
     ], 
     ['Carlibarn [SD]',[1,'Calibarn'],'SD',true,false,false,'Mercury','E','2024-10-24',2],
-    ['Faces of Eve',[4,'Calibarn','Calibarn','Calibarn','Calibarn'],'SD',
+    ['Faces of Eve',[4,'SD Calibarn Cross Silhouette','SD Calibarn Cross Silhouette','SD Calibarn Cross Silhouette','SD Calibarn Cross Silhouette'],'SD',
         false,false,false,'Mercury','E','2024-09-29',29.29,false,'Builds/Gundams/4EVES.html',false,'2024-12-30',models[144],
         [
             ['../../img/misc/3FacesOfEve.jpg','Three Faces of Eve'],
@@ -7901,7 +7831,7 @@ const projects = [
             ['TurboDork: Miami Sunset','https://turbodork.com/products/miami-sunset-1']
         ],false,true,true,'1:144'
     ],
-    ['Samus: Zero Suit',[1,'Suletta Mercury','Miorine Rembran'],'HG',
+    ['Samus: Zero Suit',[1,'Figure Rise Suletta Mercury','Figure Rise Miorine Rembran'],'FS',
         false,false,false,'Mercury','E','2024-01-04',7,false,'Builds/Metroid/ZeroSuit.html','Metroid','2024-07-15',models[128],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/SamusZeroSuit02.jpeg','Samus Aran: Zero Suit'],
@@ -9083,7 +9013,7 @@ const projects = [
             ['Premium Bandai','https://p-bandai.com/us/item/N2570543001001']
         ],false,false,true,'1:144'
     ],
-    ['Virtue/Nadleeh [MG]',[3,'Virtue','Nadlee','VirtueStand'],'MG',
+    ['Virtue/Nadleeh [MG]',[3,'MG Virtue','MG Nadlee','Virtue Stand'],'MG',
         true,false,false,'00','E','2022-02',20.08,true,'Builds/Specials/VirtueNadleeStand.html',false,'2023-01-16',models[77],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/nadvirt01.jpeg','Nadleeh','img1'],
@@ -9269,7 +9199,7 @@ const projects = [
     ['King Mars',[1,'Akatsuki, Shiranui'],'HG',
         false,false,false,'Seed','D','2022-05-06',13.67,false,'Builds/Gundams/KingMars.html','Planets','',models[57]
     ],
-    ['Archangel',[2,'Archangel','Archangel'],'Ship',
+    ['Archangel',[2,'EX Archangel','EX Archangel'],'EX',
         false,false,false,'Seed','E','2021-08-06',76.63,false,'Builds/Ships/Archangel.html',false,'2022-01-10',models[15],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/archangel01.jpeg','Battleship Archangel','img1'],
@@ -9321,7 +9251,7 @@ const projects = [
         ['https://hosting.photobucket.com/images/i/lesaintdumech/archangel21.jpeg','Profile Photo: Archangel'],
         'Had a lot of fun building the Eternal that I just had to build another ship model. Archangel has always been a huge favorite of mine in the Gundam series so it just seemed natural to build that next, as well as a must. The kit has two modes, weapons and launch catapults extended and withdrawn. I did not want to risk damaging the model by tinkering around with chaning it in between modes so I wound up resorting to building two models of the Archangel, one in each mode. There is also a third option in the kit to swap the parts around to build the Dominion but I skipped that for a future build. But anyhow both my Archangels came out looking great. I\'m so proud of this buidl.',false,false,['Eternal','Dominion'],false,true,'1:1700'
     ],
-    ['Dominion',[1,'Archangel'],'Ship',
+    ['Dominion',[1,'Archangel'],'EX',
     false,false,false,'Seed','E','2021-09-07',21.87,false,'Builds/Ships/Dominion.html',false,'2022-01-17',models[16],
     [
         ['https://hosting.photobucket.com/images/i/lesaintdumech/dominion01.jpeg','Battleship Dominion','img1'],
@@ -9346,7 +9276,7 @@ const projects = [
     ['Emeraude',[1,'Buster Gundam, Verde'],'SD',false,false,false,'Seed','B'],
     ['Calamitous Godzilla',[1,'Calamity'],'FM',false,false,false,'Seed','B'],
     ['Metroid',[1,'Chaos'],'HG',false,false,false,'Seed','B'],
-    ['Armageddon',[2.5,'Dagger L','Dagger L','PB Dagger Expansion Pack'],'HG',
+    ['Armageddon',[2.5,'HG Dagger L','HG Dagger L','PB Dagger Expansion Pack'],'HG',
         false,true,false,'Seed','E','2022-03-06',28.5,false,'Builds/uniqueTemplates/Armageddon.html',false,'2022-05-23',models[25],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/oberon12.jpeg','Oberon','img1'],
@@ -9992,7 +9922,7 @@ const projects = [
             ['Premium Bandai','https://p-bandai.com/us/item/N2583175001001']
         ],false,false,true,'1:100',false,false,false
     ],
-    ['Eternal',[1,'Eternal'],'Ship',
+    ['Eternal',[1,'Eternal'],'EX',
         false,false,false,'Seed','E','2021-08-05',24.1,false,'Builds/Ships/Eternal.html',false,'2022-01-03',models[7],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/eternal01.jpeg','Warship Eternal','img1'],
@@ -10443,7 +10373,7 @@ const projects = [
     ['Zoroaster',[1,'Legend'],'FM',false,false,false,'Seed','B'],
     ['Lightning Striker',[0.5,'Lightning Strike Pack'],'MG',false,true,false,'Seed','B'],
     ['PB Meteors',[1,'Meteor','Meteor I','Meteor II','Freedom','Infinite Justice'],'HG',false,true,false,'Seed','B'],
-    ['Minerva',[1,'Minerva'],'Ship',false,false,false,'Seed','B','2024',0],
+    ['Minerva',[1,'Minerva'],'EX',false,false,false,'Seed','B','2024',0],
     ['Union Jack',[1,'Providence'],'MG',false,false,false,'Seed','A'],
     ['Raider [FM]',[1,'Raider'],'FM',true,false,false,'Seed','D','2023-01-06',10.25,false,false,false],
     ['Rodan',[1,'Raider'],'FM',false,false,false,'Seed','A'],
@@ -11358,7 +11288,7 @@ const projects = [
     ['ZGok-SEED [HG]',[1,'ZGok-SEED'],'HG',true,false,false,'Seed','E','2025-04-08',3],
     
     //Future Century (G Gundam)
-    ['King of Hearts',[2,'Burning Gundam','PB God Gundam Expansion Set','KOSMOS LED Upgrade For RG God Gundam'],'RG',
+    ['King of Hearts',[2,'RG Burning Gundam','PB God Gundam Expansion Set','KOSMOS LED Upgrade For RG God Gundam'],'RG',
         true,true,false,'G','E','2022-09-07',19,true,'Builds/Specials/KHeart.html',false,'2024-02-14',models[118],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/rgodpbstr01.jpeg','God Gundam'],
@@ -12561,8 +12491,113 @@ const projects = [
     ['RX782v1RG',[1,'RX-78-2'],'RG',true,false,false,'UC','C','2024-10-15',4.92],
     ['RX782v2RG',[1,'RX-78-2 v2.0'],'RG',true,false,false,'UC','D','2024-11-16',8.75],
     ['Requiem Gundam [HG]',[1,'RX-78G(E)'],'HG',true,false,false,'UC','D','2024-12-19',2.17],
-    ['Colombo: Santa Maria -n- Santa Clara',[0.4,'Salamis and Magellan Class'],'Ship',
-        false,false,false,'UC','D','2024-08-21',9.11,false,'Builds/Ships/Colombo.html',false,'2025-01-16'
+    ['Colombo',[0.4,'EX Salamis Class','EX Magellan Class'],'EX',
+        false,false,false,'UC','D','2024-08-21',9.11,false,'Builds/Ships/Colombo.html',false,'2025-05-05',models[146],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Salamis.jpeg','Salamis-Class'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaClara01.jpeg','Santa Clara'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaClara02.jpeg','Santa Clara'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaClara03.jpeg','Santa Clara'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaClara04.jpeg','Santa Clara'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaClara05.jpeg','Santa Clara'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaClara06.jpeg','Santa Clara'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaClara07.jpeg','Santa Clara'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaClara08.jpeg','Santa Clara'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaClara09.jpeg','Santa Clara'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaClara10.jpeg','Santa Clara'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaClara11.jpeg','Santa Clara'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaClara12.jpeg','Santa Clara'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaClara13.jpeg','Santa Clara'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaClara14.jpeg','Santa Clara'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaClara15.jpeg','Santa Clara'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaClara16.jpeg','Santa Clara'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaClara17.jpeg','Santa Clara'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaClara18.jpeg','Santa Clara'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaClara19.jpeg','Santa Clara'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaClara20.jpeg','Santa Clara'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaClara21.jpeg','Santa Clara'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaClara22.jpeg','Santa Clara'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaClara23.jpeg','Santa Clara'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaClara24.jpeg','Santa Clara'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaClara25.jpeg','Santa Clara'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaClara26.jpeg','Santa Clara'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaClara27.jpeg','Santa Clara'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaClara28.jpeg','Santa Clara'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaClara29.jpeg','Santa Clara'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaClara30.jpeg','Santa Clara'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaClara31.jpeg','Santa Clara'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaClara32.jpeg','Santa Clara'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaClara33.jpeg','Santa Clara'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaClara34.jpeg','Santa Clara'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaClara35.jpeg','Santa Clara'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaClara36.jpeg','Santa Clara'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaClara37.jpeg','Santa Clara'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaClara38.jpeg','Santa Clara'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaClara39.jpeg','Santa Clara']/*,
+
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Magellan.jpeg','Magellan-Class'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaMaria01.jpeg','Santa Maria'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaMaria02.jpeg','Santa Maria'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaMaria03.jpeg','Santa Maria'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaMaria04.jpeg','Santa Maria'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaMaria05.jpeg','Santa Maria'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaMaria06.jpeg','Santa Maria'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaMaria07.jpeg','Santa Maria'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaMaria08.jpeg','Santa Maria'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaMaria09.jpeg','Santa Maria'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaMaria10.jpeg','Santa Maria'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaMaria11.jpeg','Santa Maria'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaMaria12.jpeg','Santa Maria'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaMaria13.jpeg','Santa Maria'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaMaria14.jpeg','Santa Maria'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaMaria15.jpeg','Santa Maria'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaMaria16.jpeg','Santa Maria'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaMaria17.jpeg','Santa Maria'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaMaria18.jpeg','Santa Maria'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaMaria19.jpeg','Santa Maria'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaMaria20.jpeg','Santa Maria'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaMaria21.jpeg','Santa Maria'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaMaria22.jpeg','Santa Maria'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaMaria23.jpeg','Santa Maria'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaMaria24.jpeg','Santa Maria'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaMaria25.jpeg','Santa Maria'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaMaria26.jpeg','Santa Maria'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaMaria27.jpeg','Santa Maria'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaMaria28.jpeg','Santa Maria'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaMaria29.jpeg','Santa Maria'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaMaria30.jpeg','Santa Maria'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaMaria31.jpeg','Santa Maria'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaMaria32.jpeg','Santa Maria'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaMaria33.jpeg','Santa Maria'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaMaria34.jpeg','Santa Maria'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaMaria35.jpeg','Santa Maria'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaMaria36.jpeg','Santa Maria'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaMaria37.jpeg','Santa Maria'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SalamisMagellanBoxart.jpg','EX Salamis & Magellan Box Art'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ColomboFleet01.jpeg','Colombo Flet'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ColomboFleet02.jpeg','Colombo Flet'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ColomboFleet03.jpeg','Colombo Flet'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ColomboFleet04.jpeg','Colombo Flet'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ColomboFleet05.jpeg','Colombo Flet'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ColomboFleet06.jpeg','Colombo Flet'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ColomboFleet07.jpeg','Colombo Flet'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ColomboFleet08.jpeg','Colombo Flet'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ColomboFleet09.jpeg','Colombo Flet'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ColomboFleet10.jpeg','Colombo Flet'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ColomboFleet11.jpeg','Colombo Flet'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ColomboFleet12.jpeg','Colombo Flet'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ColomboFleet13.jpeg','Colombo Flet']
+            */
+        ],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaClara37.jpeg','Profile Photo: Colombo'],
+        false,  //Description
+        false,
+        [
+            //['Video','https://youtu.be/rjLwRChziN0'],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/ex-23-salamis-magellan'],
+            ['Newtype','https://newtype.us/p/VHDR2Mop4vCLoWpWFJ9D/h/ex-23-salamis-magellan']
+        ],false,true,false,'1:1700','Santa Clara -n- Santa Maria'
+
     ],
     ['Starman',[1,'Sazabi'],'SD',
         false,false,false,'UC','E','2021-12-16',5.03,false,'Builds/Gundams/Starman.html',false,'2023-11-07',models[99],
@@ -12740,6 +12775,10 @@ const projects = [
         ],false,false,true,false
     ],
     ['Zeta [MG]',[1,'Zeta Gundam'],'MG',true,false,false,'UC','C','2023-04-12',8,false,false,false],
+
+    //Universal Century Alternate Timeline (GQuuuuuuX)
+    ['GQuuuuuuX',[1,'GQuuuuuuX'],'HG',false,false,false,'UCGQ','A'],
+    ['Red Dye 78-2',[1,'Red Gundam'],'HG',false,false,false,'UCGQ','A'],
 
     //Regild Century (Reconguista) Abbreviation: 'Recon'
 
@@ -13962,8 +14001,46 @@ const projects = [
             ['NewType','https://newtype.us/p/dOkZZ7AvruhzwIslqHje/h/pokemon-gyarados']
         ],['Unhygienix'],true,true,false,false,false,false,false,false,false,'Pokemon Gyarados 52 Model Kit'
     ],
-    ['Vitalstatistix',[1,'Ho-Oh'],'Pokemon',
-        false,false,false,'','D','2024-02-20',5.17,false,'Builds/Pokemon/Vital.html','Asterix','2025-09-08'
+    ['Vitalstatistix',[1,'Ho-oh'],'Pokemon',
+        false,false,false,'','D','2024-02-20',5.17,false,'Builds/Pokemon/Vital.html','Asterix','2025-05-12',models[132],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/VitalStat01.jpeg','Vitalstatistix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/VitalStat02.jpeg','Vitalstatistix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/VitalStat03.jpeg','Vitalstatistix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/VitalStat04.jpeg','Vitalstatistix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/VitalStat05.jpeg','Vitalstatistix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/VitalStat06.jpeg','Vitalstatistix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/VitalStat07.jpeg','Vitalstatistix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/VitalStat08.jpeg','Vitalstatistix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/VitalStat09.jpeg','Vitalstatistix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/VitalStat10.jpeg','Vitalstatistix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/VitalStat11.jpeg','Vitalstatistix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/VitalStat12.jpeg','Vitalstatistix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/VitalStat13.jpeg','Vitalstatistix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/VitalStat14.jpeg','Vitalstatistix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/VitalStat15.jpeg','Vitalstatistix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/VitalStat16.jpeg','Vitalstatistix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/VitalStat17.jpeg','Vitalstatistix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/VitalStat18.jpeg','Vitalstatistix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/VitalStat19.jpeg','Vitalstatistix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/VitalStat20.jpeg','Vitalstatistix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/VitalStat21.jpeg','Vitalstatistix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/VitalStat22.jpeg','Vitalstatistix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/VitalStat23.jpeg','Vitalstatistix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/VitalStat24.jpeg','Vitalstatistix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/VitalStat25.jpeg','Vitalstatistix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/VitalStat26.jpeg','Vitalstatistix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/VitalStat27.jpeg','Vitalstatistix']
+        ],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/VitalStat21.jpeg','Profile Photo: Vitalstatistix'],
+        'For this Ho-oh I wanted to stick to the traditional scheme but a focus on the gold. So I used all the different variations of gold under the Mr Hobby Metallics line. The most difficult part of this was the fail feathers and beak. The pieces for both of those are made from a soft plastic on the borderline of rubber rather than the tratitional model kit hard plastic. Being so soft the paint did not want to adhere. I had to resort to instead brushing Testors gloss tangerine by hand rather than the airbrush. Which ahdered so poorly it took about ten coats just to stick, which there was so much paint it began to glob in a few places. Overall though I felt like this came out a very faithful portrayal of the source material.','Cousin Lee, New York',
+        [
+            ['Video','https://youtu.be/3GxZq4ao1Sg'],
+            ['Asterix: Vitalstatistix','https://asterix.fandom.com/wiki/Vitalstatistix'],
+            ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Ho-Oh_(Pokémon)'],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-gold-silver-ho-oh-model-kit'],
+            ['NewType','https://newtype.us/p/DFQb0Hr6xKX06jqaqPDk/h/pokemon-ho-oh']
+        ],['Chanticleerix'],false,false,false,false,false,false,false,false,false,'Pokemon Select Series 5 Ho-Oh Model Kit'
     ],
     ['Lutetia',[1,'Lucario'],'Pokemon',
         false,false,false,'','D','2023-10-03',5.09,false,'Builds/Pokemon/Lutetia.html',false,'2025-04-07'
@@ -14023,7 +14100,7 @@ const projects = [
         ],false,true,true,false,false,false,false,false,false,false,'Pokemon Select Series 53 Metagross Model Kit'
     ],
     ['Monosyllabix',[1,'Mew'],'Pokemon',
-        false,false,false,'','D','2023-10-22',2.04,false,'Builds/Pokemon/Monosyl.html','Asterix','2025-04-28',models[162],
+        false,false,false,'','E','2023-10-22',2.04,false,'Builds/Pokemon/Monosyl.html','Asterix','2025-04-28',models[162],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Monosyllabix01.jpeg','Monosyllabix'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Monosyllabix02.jpeg','Monosyllabix'],
@@ -14061,7 +14138,7 @@ const projects = [
             ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Mew_(Pokémon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-mew-02-quick-model-kit'],
             ['NewType','https://newtype.us/p/2I52VIRFzowvxYGIHxyC/h/pokemon-model-kit-quick-02-mew']
-        ],false,true,false,false,false,false,false,false,false,false,'Pokemon Mew 02 Quick Model Kit'
+        ],false,true,true,false,false,false,false,false,false,false,'Pokemon Mew 02 Quick Model Kit'
     ],
     ['Polysyllabix',[1,'Mewtwo'],'Pokemon',
         false,false,false,'','E','2023-11-25',4.83,false,'Builds/Pokemon/Polysyl.html','Asterix','2025-04-15',models[161],
@@ -14980,6 +15057,7 @@ let seedFilter = [];
 let gGundamFilter = [];
 let iboFilter = [];
 let universalFilter = [];
+let universalGQFilter = [];
 let reconguistaFilter = [];
 let buildDiverFilter = [];
 let sdwFilter = [];
@@ -16780,25 +16858,23 @@ function buildFilterArrays() {
             if(postModel[1]===10) {
                 haroFilter.push(postedArray[i]);
             }
-            if(postModel[1]===11) {
-                gundamFilter.push(postedArray[i]);
+            if (postModel[30]===1) {
+                creatureFilter.push(postedArray[i]);
             }
-            if(postModel[1]===12) {
-                if (postModel[30]===1) {
-                    creatureFilter.push(postedArray[i]);
-                }
-                else if (postModel[30]===2) {
-                    mechaFilter.push(postedArray[i]);
-                }
-                else if (postModel[30]===3) {
-                    peopleFilter.push(postedArray[i]);
-                }
-                else if (postModel[30]===4) {
-                    plantsFilter.push(postedArray[i]);
-                }
-                else {
-                    otherCatFilter.push(postedArray[i]);
-                }
+                if (postModel[30]===2) {
+                mechaFilter.push(postedArray[i]);
+            }
+                if (postModel[30]===3) {
+                peopleFilter.push(postedArray[i]);
+            }
+                if (postModel[30]===4) {
+                plantsFilter.push(postedArray[i]);
+            }
+            if (postModel[30]===5) {
+                otherCatFilter.push(postedArray[i]);
+            }
+            if (postModel[30]==='Gundam') {
+                gundamFilter.push(postedArray[i]);
             }
             if(postedArray[i][6]==='Mercury') {
                 mercuryFilter.push(postedArray[i]);
@@ -16829,6 +16905,9 @@ function buildFilterArrays() {
             }
             if(postedArray[i][6]==='UC') {
                 universalFilter.push(postedArray[i]);
+            }
+            if(postedArray[i][6]==='UCGQ') {
+                universalGQFilter.push(postedArray[i]);
             }
             if(postedArray[i][6]==='Recon') {
                 reconguistaFilter.push(postedArray[i]);
@@ -16907,6 +16986,7 @@ function buildFilterArrays() {
     gGundamFilter = sortByName(gGundamFilter);
     iboFilter = sortByName(iboFilter);
     universalFilter = sortByName(universalFilter);
+    universalGQFilter = sortByName(universalGQFilter);
     reconguistaFilter = sortByName(reconguistaFilter);
     buildDiverFilter = sortByName(buildDiverFilter);
     sdwFilter = sortByName(sdwFilter);
@@ -16954,6 +17034,7 @@ function buildsClear() {
     hide('.ggunPara');
     hide('.iboPara');
     hide('.univPara');
+    hide('.univGQPara');
     hide('.recoPara');
     hide('.builPara');
     hide('.sdwPara');
@@ -17195,17 +17276,16 @@ function buildProjectPage(string) {
         popNode(modelArray[3],'modelFullName');
         popNode(modelArray[3],'modelName');
     }
-    if (projectArray[1][0]>1) {
+    if (projectArray[1].length>2) {
         unhide('.projectOtherModelsHD');
 
         let projectOtherModelsN = document.getElementById('projectOtherModels');
-        let textGrade = projectArray[2];
         for (let i=1;i<projectArray[1].length;i++) {
             let projectOtherModelsLi = document.createElement('li');
             let projectOtherModelsLiCl = document.createAttribute('class');
             projectOtherModelsLiCl.value = 'font-weight-normal';
             projectOtherModelsLi.setAttributeNode(projectOtherModelsLiCl);
-            let projectOtherModelsT = document.createTextNode(textGrade+' '+projectArray[1][i]);
+            let projectOtherModelsT = document.createTextNode(projectArray[1][i]);
             projectOtherModelsLi.appendChild(projectOtherModelsT);
             projectOtherModelsN.appendChild(projectOtherModelsLi);
         }
@@ -17340,7 +17420,7 @@ function buildProjectPage(string) {
     else if (modelArray[1] === 4) {
         buildCarAuto();
     }
-    else if (modelArray[1] === 5 || modelArray[1] === 12) {
+    else if (modelArray[1] === 5) {
         buildDisplay();
     }
     else if (modelArray[1] === 6) {
@@ -17357,6 +17437,9 @@ function buildProjectPage(string) {
     } 
     else if (modelArray[1] === 10) {
         buildHaro();
+    }
+    else if (modelArray[1] === 12) {
+        buildOther();
     }
 
     /*
@@ -17669,13 +17752,22 @@ function buildShipGundam() {
 
     if (modelArray[12]) {
         unhide('.gsCaptain2HD');
+        if (modelArray[11]) {
+            popNode('2nd Captains: ','2CapTitle')
+        }
+        else {
+            popNode('Known Captains: ','2CapTitle')
+        }
+        
+        createList(modelArray[12],'gsCaptain2');
+        /*
         popNode(modelArray[12],'gsCaptain2');
-
         if (modelArray[12].length>1) {
             for (let i=1;i<modelArray[12].length;i++) {
                 popNode(', '+modelArray[12][i],'gsCaptain2');
             }
         }
+        */
     }
 
     if (modelArray[5]) {
@@ -17735,6 +17827,11 @@ function buildShipGundam() {
         createList(modelArray[14],'gsAffiliation');
     }
 
+    if (modelArray[25]) {
+        unhide('.gsPowerPlantHD');
+        popNode(modelArray[25],'gsPowerPlant');
+    }
+
     if (modelArray[18]) {
         unhide('.gsPropulsionHD');
         createList(modelArray[18],'gsPropulsion');
@@ -17778,6 +17875,16 @@ function buildShipGundam() {
     if (modelArray[30]) {
         unhide('.gsTypeHD');
         popNode(modelArray[30],'gsType')
+    }
+
+    if (modelArray[33]) {
+        unhide('.gsVariantsHD');
+        createList(modelArray[33],'gsVariants');
+    }
+
+    if (modelArray[7]) {
+        unhide('.gsDesignedHD');
+        popNode(modelArray[7],'gsDesigned');
     }
 }
 
@@ -17937,18 +18044,20 @@ function buildDisplay() {
     insertPhoto(modelArray[26],'dpModelPhoto',false,350);
 
     if (modelArray[2]) {
-        unhide('.dpShortNameHD');
-        popNode(modelArray[2],'dpShortName');
+        unhide('.dpNameHD');
+        popNode(modelArray[2],'dpName');
     }
-
+    if (modelArray[3]) {
+        unhide('.dpKitHD');
+        popNode(modelArray[3],'dpKit');
+    }
     if (modelArray[4]) {
         unhide('.dpBrandHD');
         popNode(modelArray[4],'dpBrand');
     }
-
     if (modelArray[5]) {
-        unhide('.dpSeriesHD');
-        popNode(modelArray[5],'dpSeries');
+        unhide('.dpFranchiseHD');
+        popNode(modelArray[5],'dpFranchise');
     }
 }
 
@@ -18263,6 +18372,218 @@ function buildZoid() {
         popNode(modelArray[24],'∂AltName');
     }
 }
+function buildOther() {
+    unhide('.OtherPage');
+    insertPhoto(modelArray[26],'ocModelPhoto',false,350);
+
+    if (modelArray[2]) {
+        unhide('.ocNameHD');
+        popNode(modelArray[2],'ocName');
+    }
+    if (modelArray[3]) {
+        unhide('.ocKitHD');
+        popNode(modelArray[3],'ocKit');
+    }
+    if (modelArray[4]) {
+        unhide('.ocBrandHD');
+        popNode(modelArray[4],'ocBrand');
+    }
+    if (modelArray[5]) {
+        unhide('.ocFranchiseHD');
+        popNode(modelArray[5],'ocFranchise');
+    }
+
+    if (modelArray[30] === 1) {
+        buildOtherCreature();
+    }
+    if (modelArray[30] === 2) {
+        buildOtherRobot();
+    }
+    if (modelArray[30] === 3) {
+        buildOtherPeople();
+    }
+    if (modelArray[30] === 4) {
+        buildOtherPlants();
+    }
+    if (modelArray[30] === 5) {
+        buildOtherMisc();
+    }
+}
+
+function buildOtherCreature () {
+    console.log('Animal Joy :)');
+}
+
+function buildOtherRobot () {
+    console.log('Robot Joy :)');
+}
+
+function buildOtherPeople () {
+    unhide('.OtherPerson');
+
+    if (modelArray[31]) {
+        unhide('.ocpeDebutHD');
+        popNode(modelArray[31],'ocpeDebut');
+    }
+    if (modelArray[2]) {
+        unhide('.ocpeFullNameHD');
+        popNode(modelArray[2],'ocpeFullName');
+    }
+    if (modelArray[32]) {
+        unhide('.ocpeNicknameHD');
+        createList(modelArray[32],'ocpeNickname');
+    }
+    if (modelArray[60]) {
+        unhide('.ocpeCharIDHD');
+        createList(modelArray[60],'ocpeCharID');
+    }
+    if (modelArray[44]) {
+        unhide('.ocpeDOBHD');
+        popNode(modelArray[44],'ocpeDOB');
+    }
+    if (modelArray[54]) {
+        popNode('Alive','ocpeStatus');
+    }
+    else {
+        popNode('Deceased','ocpeStatus');
+        popNode(' ','ocpeDOB')
+        let dobNode = document.getElementById('ocpeDOB');
+        let dodStrongNode = document.createElement('strong');
+        let dodTextNode = document.createTextNode('DOD: ');
+        dobNode.appendChild(dodStrongNode);
+        dodStrongNode.appendChild(dodTextNode);
+        if (modelArray[45]) {
+            popNode(modelArray[45],'ocpeDOB');
+        }
+        else {
+            popNode('Unknown','ocpeDOB');
+        }
+    } 
+    if (modelArray[46]) {
+        popNode('; ','ocpeStatus')
+        let statusNode = document.getElementById('ocpeStatus');
+        let ageStrongNode = document.createElement('strong');
+        let ageTextNode = document.createTextNode('Age: ');
+        statusNode.appendChild(ageStrongNode);
+        ageStrongNode.appendChild(ageTextNode);
+        popNode(modelArray[46],'ocpeStatus');
+    }
+    if (modelArray[43]) {
+        unhide('.ocpeEraHD');
+        popNode(modelArray[43],'ocpeEra');
+    }
+    if (modelArray[47]) {
+        unhide('.ocpeCanonHD');
+        popNode(modelArray[47],'ocpeCanon');
+        if (modelArray[59]) {
+            popNode(' - '+modelArray[59],'ocpeCanon');
+        }
+    }
+    if (modelArray[41]) {
+        unhide('.ocpeGenderHD');
+        popNode(modelArray[41],'ocpeGender');
+    }
+    if (modelArray[58]) {
+        unhide('.ocpeSpeciesHD');
+        popNode(modelArray[58],'ocpeSpecies');
+    }
+    if (modelArray[57]) {
+        unhide('.ocpeClassificationHD');
+        popNode(modelArray[57],'ocpeClassification');
+    }
+    if (modelArray[49]) {
+        unhide('.ocpeClonedHD');
+        popNode(modelArray[49],'ocpeCloned');
+    }
+    if (modelArray[38]) {
+        unhide('.ocpeHeightHD');
+        popNode(modelArray[38][1],'ocpeHeight');
+    }
+    if (modelArray[39]) {
+        unhide('.ocpeWeightHD');
+        popNode(modelArray[39][1],'ocpeWeight');
+    }
+    if (modelArray[40]) {
+        unhide('.ocpeEthnicityHD');
+        popNode(modelArray[40],'ocpeEthnicity');
+    }
+    if (modelArray[53]) {
+        unhide('.ocpeHairHD');
+        popNode(modelArray[53],'ocpeHair');
+    }
+    if (modelArray[56]) {
+        unhide('.ocpeEyeHD');
+        popNode(modelArray[56],'ocpeEye');
+    }
+    if (modelArray[52]) {
+        unhide('.ocpeDesignedHD');
+        popNode(modelArray[52],'ocpeDesigned');
+    }
+    if (modelArray[61]) {
+        unhide('.ocpeVoiceCastHD');
+        createList(modelArray[61],'ocpeVoiceCast');
+    }
+    if (modelArray[42]) {
+        unhide('.ocpeOriginHD');
+        popNode(modelArray[42],'ocpeOrigin');
+    }
+    if (modelArray[34]) {
+        unhide('.ocpeParentsHD');
+        createList(modelArray[34],'ocpeParents');
+    }
+    if (modelArray[33]) {
+        unhide('.ocpeSiblingsHD');
+        createList(modelArray[33],'ocpeSiblings');
+    }
+    if (modelArray[36]) {
+        unhide('.ocpePartnerHD');
+        popNode(modelArray[36],'ocpePartner');
+    }
+    if (modelArray[37]) {
+        unhide('.ocpeRomanceHD');
+        createList(modelArray[37],'ocpeRomance');
+    }
+    if (modelArray[35]) {
+        unhide('.ocpeChildrenHD');
+        createList(modelArray[35],'ocpeChildren');
+    }
+    if (modelArray[55]) {
+        unhide('.ocpeRankHD');
+        popNode(modelArray[55],'ocpeRank');
+    }
+    if (modelArray[50]) {
+        unhide('.ocpeOccupationHD');
+        createList(modelArray[50],'ocpeOccupation');
+    }
+    if (modelArray[48]) {
+        unhide('.ocpeAffiliationHD');
+        createList(modelArray[48],'ocpeAffiliation');
+    }
+    if (modelArray[51]) {
+        unhide('.ocpePilotsHD');
+        createList(modelArray[51],'ocpePilots');
+    }
+    if (modelArray[62]) {
+        unhide('.ocpeSkillsHD');
+        createList(modelArray[62],'ocpeSkills');
+    }
+    if (modelArray[63]) {
+        unhide('.ocpeHobbiesHD');
+        createList(modelArray[63],'ocpeHobbies');
+    }
+    if (modelArray[64]) {
+        unhide('.ocpeQuotesHD');
+        createList(modelArray[64],'ocpeQuotes',false,false,true);
+    }
+}
+
+function buildOtherPlants () {
+    console.log('Plants Joy :)');
+}
+
+function buildOtherMisc () {
+    console.log('Misc Joy :)');
+}
 
 function convertMonth(n) {
     let month = 'Month';
@@ -18305,7 +18626,7 @@ function convertMonth(n) {
     return month;
 }
 
-function createList(array,ID,extraText,BorE) {
+function createList(array,ID,extraText,BorE,quote) {
     let node = document.getElementById(ID);
     for (let i=0;i<array.length;i++) {
         let nodeLI = document.createElement('li');
@@ -18319,7 +18640,14 @@ function createList(array,ID,extraText,BorE) {
         if (extraText && BorE === 'after') {
             text = document.createTextNode(array[i]+extraText);
         }
-        nodeLI.appendChild(text);
+        if (quote) {
+            let quoteNode = document.createElement('q');
+            quoteNode.appendChild(text);
+            nodeLI.appendChild(quoteNode);
+        }
+        else {
+            nodeLI.appendChild(text);
+        }
         node.appendChild(nodeLI);
     }
 }

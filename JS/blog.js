@@ -2795,7 +2795,7 @@ const blogArray = [
     ],
     [
         '2025-04-24',
-        'Ignite the Revolution !',
+        'Spark the Revolution !',
         'https://hosting.photobucket.com/images/i/lesaintdumech/Revolution12.jpeg',
         [
             [
@@ -2814,6 +2814,29 @@ const blogArray = [
         ],
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/Revolution79.jpeg']
+        ]
+    ],
+    [
+        '2025-04-28',
+        'The Adorably Cute One',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/Monosyllabix26.jpeg',
+        [
+            [
+                'Two weeks ago I unveiled Pokemon Mewtwo. But of course what is Mewtwo without his progenitor Mew. Therefore I present to you Polysyllabix\'s counterpart, ',
+                ['Monosyllabix','Builds/Pokemon/Monosyl.html'],
+                '. '
+            ]
+        ],
+        [
+            'Named after another Asterix comic character. This Gaul-inspired pink kitty has such an adorable cute face with pinchable cheeks. And I had to give a sparkle gem on its ear just cause why not. Enjoy.'
+        ],
+        [
+            [
+                ['Youtube','https://youtu.be/HFDKL02iJzk',true]
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/Monosyllabix25.jpeg']
         ]
     ]
 ]

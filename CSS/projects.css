@@ -13,6 +13,11 @@ ul {
 .row {
     margin-bottom: 20px;
 }
+.quote {
+    font-family: "Apple Chancery", Times, sans-serif;
+    font-size: 1.2em;
+    font-style: italic;
+}
 
 #projectTitle, #projectTitleMb {
     font-family: "Apple Chancery", Times, sans-serif;
@@ -195,6 +200,9 @@ ul {
 .gsCreatedHD {
     display: none;
 }
+.gsDesignedHD {
+    display: none;
+}
 .gsEraHD {
     display: none;
 }
@@ -216,6 +224,9 @@ ul {
 .gsManufacturerHD {
     display: none;
 }
+.gsPowerPlantHD {
+    display: none;
+}
 .gsPropulsionHD {
     display: none;
 }
@@ -235,6 +246,9 @@ ul {
     display: none;
 }
 .gsTypeHD {
+    display: none;
+}
+.gsVariantsHD {
     display: none;
 }
 .gsWidthHD {
@@ -326,10 +340,13 @@ ul {
 .dpBrandHD {
     display: none;
 }
-.dpSeriesHD {
+.dpFranchiseHD {
     display: none;
 }
-.dpShortNameHD {
+.dpKitHD {
+    display: none;
+}
+.dpNameHD {
     display: none;
 }
 
@@ -524,6 +541,127 @@ ul {
     display: none;
 }
 .hpSpecialFeaturesHD {
+    display: none;
+}
+
+/* Other */
+.OtherPage {
+    display: none;
+}
+.ocBrandHD {
+    display: none;
+}
+.ocFranchiseHD {
+    display: none;
+}
+.ocKitHD {
+    display: none;
+}
+.ocNameHD {
+    display: none;
+}
+
+/* Other: Character */
+.OtherPerson {
+    display: none;
+}
+.ocpeAffiliationHD {
+    display: none;
+}
+.ocpeAgeHD {
+    display: none;
+}
+.ocpeCanonHD {
+    display: none;
+}
+.ocpeCharIDHD {
+    display: none;
+}
+.ocpeChildrenHD {
+    display: none;
+}
+.ocpeClassificationHD {
+    display: none;
+}
+.ocpeClonedHD {
+    display: none;
+}
+.ocpeDebutHD {
+    display: none;
+}
+.ocpeDesignedHD {
+    display: none;
+}
+.ocpeDOBHD {
+    display: none;
+}
+.ocpeEraHD {
+    display: none;
+}
+.ocpeEthnicityHD {
+    display: none;
+}
+.ocpeEyeHD {
+    display: none;
+}
+.ocpeGenderHD {
+    display: none;
+}
+.ocpeHairHD {
+    display: none;
+}
+.ocpeHeightHD {
+    display: none;
+}
+.ocpeHobbiesHD {
+    display: none;
+}
+.ocpeFullNameHD {
+    display: none;
+}
+.ocpeNicknameHD {
+    display: none;
+}
+.ocpeOccupationHD {
+    display: none;
+}
+.ocpeOriginHD {
+    display: none;
+}
+.ocpeParentsHD {
+    display: none;
+}
+.ocpePartnerHD {
+    display: none;
+}
+.ocpePilotsHD {
+    display: none;
+}
+.ocpeQuotesHD {
+    display: none;
+}
+.ocpeRankHD {
+    display: none;
+}
+.ocpeRomanceHD {
+    display: none;
+}
+.ocpeSiblingsHD {
+    display: none;
+}
+.ocpeSkillsHD {
+    display: none;
+}
+.ocpeSpeciesHD {
+    display: none;
+}
+.ocpeStatusHD {
+    display: none;
+}
+.ocpeVoiceCastHD {
+    display: none;
+}
+.ocpeWeightHD {
     display: none;
 }
 

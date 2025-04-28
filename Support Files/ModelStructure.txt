@@ -1,0 +1,235 @@
+Models Array Structure    
+    
+0. ID
+1. Project Type: (category list)
+    0. Doesn't meet categories
+    1. Gundam
+    2. Ship: Gundam
+    3. Ship: Other Franchise
+    4. Car / Automobiles
+    5. Display
+    6. Digimon
+    7. Pokemon
+    8. Transformer 
+    9. Zoid
+    10. Haropla
+    11. Special Project
+    12. Other
+    13. 
+
+// Gundams (1) //
+2. Short Name
+3. Full Name
+4. Serial Number
+5. Series
+6. EW Version (wing only) true/false
+7. Developed from
+8. Delovoped into
+9. Era
+10. Timeline (array) [integer,string,last year seen] 
+11. Pilot
+12. Secondary Pilots (array)
+13. Manufacturer
+14. Affiliation  (array)
+15. Height [integer,string]
+16. Weight [integer,string]
+17. Material
+18. Power Source
+19. Armaments (Array) (armaments are components integrated into the unit, that cannot be dropped in battle)
+20. Equipment (array)v(equipment are components separate from the suit, i.e. a beam saver or shield)
+21. Systems
+22. Designed by
+23. SDW Hero (list model based on)
+24. Alternate Name
+25. Mobile Armor: true/false
+26. original photo (array): ['file path','photo name']
+27. Is a Gundam?
+28. Base Suit (ID#) [an array]
+29. Abbreviated Name (in relation to #28, How base suit is to be listed)
+
+// Ship (fictional): Gundam (2) //
+2. Short Name
+3. Full Name
+4. Serial Number
+5. Series
+6. Class
+7. Designed By
+8. ...
+9. Era
+10. Timeline (array) [integer,string,last year seen]
+11. Pilot
+12. Secondary Pilots (array)
+13. Manufacturer
+14. Affiliation  (array)
+15. length [integer,string]
+16. ...
+17. ...
+18. ...
+19. Armaments (Array)
+20. Equipment (array)
+21. Units Onboard
+22. ...
+23. ...
+24. ...
+25. Power Plant
+26. original photo (array): ['file path','photo name']
+27. title/classification
+28. Developed from
+29. Developed into
+30. Type
+31. Base Suit (ID#) [an array]
+32. Abbreviated Name (in relation to #28, How base suit is to be listed)
+33. Variants
+
+// Ship (fictional): Other (3) //
+2. Short Name
+3. Full Name
+4. Serial Number / series
+5. Franchise
+6. ...
+7. ...
+8. ...
+9. Era
+10. Creations (array) [integer,string]
+11. ...
+12. ...
+13. ...
+14. Affiliation  (array)
+15. Height [integer,string]
+16. Length [integer,string]
+17. Width [integer,string]
+18. Propulsion
+19. Armaments (Array)
+20. Equipment
+21. Defenses (array)
+22. Onboard
+23. ...
+24. ...
+25. ...
+26. original photo (array): ['file path','photo name']
+27. title/classification
+28. 
+
+// Car (4) //
+2. Short Name
+3. Full Name
+4. Manufacturer
+5. Model
+6. Year
+7. Type of Vehicle (Category List: Car, Truck, Van, Plane, ship, spaceship_
+8. Sedan (boolean) (ignore if not a car)
+9. timespan
+10.Designed by
+...
+24. Nickname
+26. Photo
+
+// Display 5) //
+2. Name
+3. Kit
+4. Brand / Manufacturer
+5. Franchise
+...
+26. original photo (array): ['file path','photo name']
+28. Base Suit (ID#) [an array]
+29. Abbreviated Name (in relation to #28, How base suit is to be listed)
+
+// Digimon (6) //
+2. Name 
+3. Kit Full Name
+4. Level (Stage)
+5. Digivolve From (array)
+6. Digivolve To (array)
+7. Type (i.e Cyborg)
+8. Attribute (i.e. Viru)
+9. Element (i.e. Fire)
+10. Species/?Group
+11. Size
+12. Partner
+13. Memory
+14. Form
+...
+23. Alternate Name
+24. Nickname/Title
+25. 
+26. original photo (array): ['file path','photo name']
+
+
+// Pokemon (7) //
+2. Name
+3. NA - Don't use
+4. Universal Dex no.
+5. Type
+6. Stage
+7. Evolved From (array) [name, lvl/how]
+8. Evolve To (ditto)
+9. Category (i.e. 'Fire Croc Pokemon')
+10. Pokedex Entry
+11. Height
+12. Weight
+13. Generation (roman numeral)
+14. First Introduced
+15. Form
+...
+24. Nickname
+25. 
+26. original photo (array): ['file path','photo name']
+
+// Transformer (8) //
+2. Name
+3.
+4. Canon 
+5. Vehicle forms
+6. Faction
+7. Rank
+8. Cybertron Name
+...
+24. Nickname
+25. Other Canon
+26. original photo (array): ['file path','photo name']
+
+// Zoid (9) //
+2. Name
+3. Long Name
+4. Serial No.
+5. Animal Type
+6. Crew (quantity)
+7. Notablel Pilots
+8. Affiliation / Nation
+9. Weight
+10. Depth
+11. Height
+12. Speed
+13. Weapons
+14. Equipment
+15. Developed by
+16. Developed from
+17. Developed Into
+...
+24. Alternate Name
+25. 
+26. original photo (array): ['file path','photo name']
+
+// Haro (10) // 
+2. Short Name
+3. Full name (kit)
+4. Color
+5. Equipment
+6. Special Features
+...
+26. original photo (array): ['file path','photo name']
+
+// Other (12) //
+2. Name
+3. Kit
+4. Brand / Manufacturer
+5. Franchise
+26. original photo (array): ['file path','photo name']
+28. Base Suit (ID#) [an array]
+29. Abbreviated Name (in relation to #28, How base suit is to be listed)
+30. Other: Category (Category List)
+    1. Creatures
+    2. Mecha / Robots
+    3. People
+    4. Plants
+    5. Misc
