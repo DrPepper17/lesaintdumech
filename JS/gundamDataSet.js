@@ -12492,7 +12492,7 @@ const projects = [
     ['RX782v2RG',[1,'RX-78-2 v2.0'],'RG',true,false,false,'UC','D','2024-11-16',8.75],
     ['Requiem Gundam [HG]',[1,'RX-78G(E)'],'HG',true,false,false,'UC','D','2024-12-19',2.17],
     ['Colombo',[0.4,'EX Salamis Class','EX Magellan Class'],'EX',
-        false,false,false,'UC','D','2024-08-21',9.11,false,'Builds/Ships/Colombo.html',false,'2025-05-05',models[146],
+        false,false,false,'UC','E','2024-08-21',9.11,false,'Builds/Ships/Colombo.html',false,'2025-05-05',models[146],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Salamis.jpeg','Salamis-Class'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaClara01.jpeg','Santa Clara'],
@@ -12590,13 +12590,13 @@ const projects = [
             */
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaClara37.jpeg','Profile Photo: Colombo'],
-        false,  //Description
+        'This was a special kit that included parts for two ships. Both the Salamis and the Magellan from Universal Century. So I will be debuting this in parts. First up is Santa Clara, the Salamis-Class. Since it\'s a ship I use metallic colors and painted it steel. It\'s definitely a cute little ship. And came with its own little Pod-Ball figurines and an adorable escape shuttle too.',  //Description
         false,
         [
             //['Video','https://youtu.be/rjLwRChziN0'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/ex-23-salamis-magellan'],
             ['Newtype','https://newtype.us/p/VHDR2Mop4vCLoWpWFJ9D/h/ex-23-salamis-magellan']
-        ],false,true,false,'1:1700','Santa Clara -n- Santa Maria'
+        ],false,true,true,'1:1700','Santa Clara -n- Santa Maria'
 
     ],
     ['Starman',[1,'Sazabi'],'SD',
@@ -14138,7 +14138,7 @@ const projects = [
             ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Mew_(Pokémon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-mew-02-quick-model-kit'],
             ['NewType','https://newtype.us/p/2I52VIRFzowvxYGIHxyC/h/pokemon-model-kit-quick-02-mew']
-        ],false,true,true,false,false,false,false,false,false,false,'Pokemon Mew 02 Quick Model Kit'
+        ],['Polysyllabix'],true,true,false,false,false,false,false,false,false,'Pokemon Mew 02 Quick Model Kit'
     ],
     ['Polysyllabix',[1,'Mewtwo'],'Pokemon',
         false,false,false,'','E','2023-11-25',4.83,false,'Builds/Pokemon/Polysyl.html','Asterix','2025-04-15',models[161],
@@ -14181,7 +14181,7 @@ const projects = [
             ['TurboDork: Purl Grey','https://turbodork.com/products/purl-grey-1'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-mewtwo-model-kit'],
             ['NewType','https://newtype.us/p/CBSn5RIMRw8C0xpurheh/h/pokemon-mewtwo']
-        ],false,true,true,false,false,false,false,false,false,false,'Pokemon Select Series 32 Mewtwo Model Kit'
+        ],['Monosyllabix'],true,true,false,false,false,false,false,false,false,'Pokemon Select Series 32 Mewtwo Model Kit'
     ],
     ['Cyrano',[1,'Pikachu'],'Pokemon',
         false,false,false,'','D','2024-07-05',1.65,false,'Builds/Pokemon/Cyrano.html',false,'2025-09-22'

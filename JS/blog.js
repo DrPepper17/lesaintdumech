@@ -2838,6 +2838,42 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/Monosyllabix25.jpeg']
         ]
+    ],
+    [
+        '2025-05-05',
+        'Naval Pride Week: Santa Clara',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/Salamis.jpeg',
+        [
+            [
+                'Going to be a complex week again. To start it off I introduce you the ',
+                ['Santa Clara','Builds/Ships/Colombo.html'],
+                '. '
+            ]
+        ],
+        [
+            'Santa Clara is a Universal Century light cruiser from Mobile Suit Gundam. It comes with three little pod balls and a mini shuttle docking bay. Named after the smaller vessel of Colombus, this speedy little cruiser makes a formidable entry to any fleet.'
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/SantaClara23.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/SantaClara30.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/SantaClara09.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/SantaClara14.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/SantaClara32.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/SantaClara36.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/SantaClara37.jpeg']
+        ]
     ]
 ]
 
