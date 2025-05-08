@@ -2874,6 +2874,42 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/SantaClara37.jpeg']
         ]
+    ],
+    [
+        '2025-05-07',
+        'Naval Pride Week: Santa Maria',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/Magellan.jpeg',
+        [
+            [
+                'Next ship up for Naval Week is the Columbus flagship the ',
+                ['Santa Maria','Builds/Ships/Colombo.html'],
+                '. '
+            ]
+        ],
+        [
+            'Santa Maria is a cream beige colored Magellan class battleship from Universal Century. It\'s much larger than the Salamis class and also much more colorful. It has three cute little GM mobile suits that ride along on top of it and vast array of large cannons that pack quite a huge punch. Enjoy !!'
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/SantaMaria13.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/SantaMaria15.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/SantaMaria16.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/SantaMaria17.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/SantaMaria23.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/SantaMaria31.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/SantaMaria33.jpeg']
+        ]
     ]
 ]
 
