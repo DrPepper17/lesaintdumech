@@ -12591,7 +12591,7 @@ const projects = [
             */
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaMaria17.jpeg','Profile Photo: Colombo'],
-        'This was a special kit that included parts for two ships. Both the Salamis and the Magellan from Universal Century. So I will be debuting this in parts. First up is Santa Clara, the Salamis-Class. Since it\'s a ship I use metallic colors and painted it steel. It\'s definitely a cute little ship. And came with its own little Pod-Ball figurines and an adorable escape shuttle too. Second is the Santa Maria, Magellan-Class, and flagship to our fleet. For the Santa Clara I went with metallics but for the Santa Clara with lighter colors to make the ship more warm. The Magellan is also pretty cool. It comes with a docking smaller ship as well and a small squadron of GMs.',
+        'This was a special kit that included parts for two ships. Both the Salamis and the Magellan from Universal Century. So I will be debuting this in parts. First up is Santa Clara, the Salamis-Class. Since it\'s a ship I use metallic colors and painted it steel. It\'s definitely a cute little ship. And came with its own little Pod-Ball figurines and an adorable escape shuttle too. Second is the Santa Maria, Magellan-Class, and flagship to our fleet. For the Santa Clara I went with metallics but for the Santa Maria I chose  lighter creamier colors to make the ship more warm. The Magellan is also pretty cool. It comes with a docking smaller ship as well and a small squadron of GMs.',
         false,
         [
             //['Video','https://youtu.be/rjLwRChziN0'],
