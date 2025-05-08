@@ -12533,8 +12533,7 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaClara36.jpeg','Santa Clara'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaClara37.jpeg','Santa Clara'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaClara38.jpeg','Santa Clara'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaClara39.jpeg','Santa Clara']/*,
-
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaClara39.jpeg','Santa Clara'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Magellan.jpeg','Magellan-Class'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaMaria01.jpeg','Santa Maria'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaMaria02.jpeg','Santa Maria'],
@@ -12573,6 +12572,8 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaMaria35.jpeg','Santa Maria'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaMaria36.jpeg','Santa Maria'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaMaria37.jpeg','Santa Maria'],
+
+            /*
             ['https://hosting.photobucket.com/images/i/lesaintdumech/SalamisMagellanBoxart.jpg','EX Salamis & Magellan Box Art'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/ColomboFleet01.jpeg','Colombo Flet'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/ColomboFleet02.jpeg','Colombo Flet'],
@@ -12589,8 +12590,8 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/ColomboFleet13.jpeg','Colombo Flet']
             */
         ],
-        ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaClara37.jpeg','Profile Photo: Colombo'],
-        'This was a special kit that included parts for two ships. Both the Salamis and the Magellan from Universal Century. So I will be debuting this in parts. First up is Santa Clara, the Salamis-Class. Since it\'s a ship I use metallic colors and painted it steel. It\'s definitely a cute little ship. And came with its own little Pod-Ball figurines and an adorable escape shuttle too.',  //Description
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaMaria17.jpeg','Profile Photo: Colombo'],
+        'This was a special kit that included parts for two ships. Both the Salamis and the Magellan from Universal Century. So I will be debuting this in parts. First up is Santa Clara, the Salamis-Class. Since it\'s a ship I use metallic colors and painted it steel. It\'s definitely a cute little ship. And came with its own little Pod-Ball figurines and an adorable escape shuttle too. Second is the Santa Maria, Magellan-Class, and flagship to our fleet. For the Santa Clara I went with metallics but for the Santa Clara with lighter colors to make the ship more warm. The Magellan is also pretty cool. It comes with a docking smaller ship as well and a small squadron of GMs.',
         false,
         [
             //['Video','https://youtu.be/rjLwRChziN0'],
