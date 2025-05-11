@@ -8089,7 +8089,7 @@ const projects = [
             ['TurboDork: Sparkling Motion','https://turbodork.com/products/sparkle-motion']
         ],false,false,true,'1:144'
     ],
-    ['Epyon [RG]',[1,'Epyon'],'RG',true,false,false,'Wing','C','2023-11-16',5.67],
+    ['Epyon [RG]',[2,'Epyon','Epyon'],'RG',true,false,false,'Wing','C','2023-11-16',5.67],
     ['Golden Ghidorah',[1,'Epyon'],'MG',false,false,false,'Wing','B'],
     ['Golden Ghidorah',[1,'Epyon'],'RG',false,false,false,'Wing','A'],
     ['Geminass 01',[1.5,'Geminass 01','Geminass Assault Mobility Booster Expansion Pack'],'HG',
@@ -12572,8 +12572,6 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaMaria35.jpeg','Santa Maria'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaMaria36.jpeg','Santa Maria'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaMaria37.jpeg','Santa Maria'],
-
-            /*
             ['https://hosting.photobucket.com/images/i/lesaintdumech/SalamisMagellanBoxart.jpg','EX Salamis & Magellan Box Art'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/ColomboFleet01.jpeg','Colombo Flet'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/ColomboFleet02.jpeg','Colombo Flet'],
@@ -12588,16 +12586,15 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/ColomboFleet11.jpeg','Colombo Flet'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/ColomboFleet12.jpeg','Colombo Flet'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/ColomboFleet13.jpeg','Colombo Flet']
-            */
         ],
-        ['https://hosting.photobucket.com/images/i/lesaintdumech/SantaMaria17.jpeg','Profile Photo: Colombo'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/ColomboFleet03.jpeg','Profile Photo: Colombo'],
         'This was a special kit that included parts for two ships. Both the Salamis and the Magellan from Universal Century. So I will be debuting this in parts. First up is Santa Clara, the Salamis-Class. Since it\'s a ship I use metallic colors and painted it steel. It\'s definitely a cute little ship. And came with its own little Pod-Ball figurines and an adorable escape shuttle too. Second is the Santa Maria, Magellan-Class, and flagship to our fleet. For the Santa Clara I went with metallics but for the Santa Maria I chose  lighter creamier colors to make the ship more warm. The Magellan is also pretty cool. It comes with a docking smaller ship as well and a small squadron of GMs.',
         false,
         [
-            //['Video','https://youtu.be/rjLwRChziN0'],
+            ['Video','https://youtu.be/rjLwRChziN0'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/ex-23-salamis-magellan'],
             ['Newtype','https://newtype.us/p/VHDR2Mop4vCLoWpWFJ9D/h/ex-23-salamis-magellan']
-        ],false,true,true,'1:1700','Santa Clara -n- Santa Maria'
+        ],false,true,true,'1:1700','Santa Clara -n- Santa Maria','Fleet Colombo'
 
     ],
     ['Starman',[1,'Sazabi'],'SD',

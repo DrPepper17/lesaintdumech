@@ -2910,6 +2910,48 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/SantaMaria33.jpeg']
         ]
+    ],
+    [
+        '2025-05-10',
+        'Naval Pride Week: Colombo Fleet',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/SalamisMagellanBoxart.jpg',
+        [
+            [
+                'Wrapping up the end of ',
+                ['Colombo','Builds/Ships/Colombo.html'],
+                ' week. First off check out the ',
+                ['Youtube','https://youtu.be/rjLwRChziN0?si=D-p8aNo1S0EjsylW',true],
+                ' video.'
+            ]
+        ],
+        [
+            [
+                'I do particularly enjoy doing ship builds. I loved building the ',
+                ['Archangel','Builds/Ships/Archangel.html'],
+                ', ',
+                ['Eternal','Builds/Ships/Eternal.html'],
+                ' and ',
+                ['Dominion','Builds/Ships/Dominion.html'],
+                '. And it has been quite a while since I did a solid ship build. Sad to say Bandai does not manufacture many ship kits from the Gundam Franchise. Wouldn\'t it be nice if they did. Like I can just imagine building Peacemillion and Libray from Gundam Wing as well as Ptolemaios and Ptolemaios II from Gundam Double O. Alas for the time being I have to wait.'
+            ]
+        ],
+        [
+            'Therefore soon as I saw this Salamis and Magellan kit unveiled I just had to pre-order it immediately. Sure they appear to be almost a smaller scale than the Seed ship kits I built. Amost more on par with the StarBlazers franchise ships I\'ve in the past built. And sure they\'re Universal Century which I am less a fan of. But they were cute in their own right and I did enjoy building these.'
+        ],
+        [
+            [
+                ['Youtube','https://youtu.be/rjLwRChziN0?si=D-p8aNo1S0EjsylW',true]
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/ColomboFleet05.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/ColomboFleet08.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/ColomboFleet13.jpeg']
+        ]
     ]
 ]
 
