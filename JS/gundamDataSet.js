@@ -8089,7 +8089,7 @@ const projects = [
             ['TurboDork: Sparkling Motion','https://turbodork.com/products/sparkle-motion']
         ],false,false,true,'1:144'
     ],
-    ['Epyon [RG]',[2,'Epyon','Epyon'],'RG',true,false,false,'Wing','C','2023-11-16',5.67],
+    ['Epyon [RG]',[2,'Epyon','Epyon'],'RG',true,false,false,'Wing','C','2023-11-16',12.75],
     ['Golden Ghidorah',[1,'Epyon'],'MG',false,false,false,'Wing','B'],
     ['Golden Ghidorah',[1,'Epyon'],'RG',false,false,false,'Wing','A'],
     ['Geminass 01',[1.5,'Geminass 01','Geminass Assault Mobility Booster Expansion Pack'],'HG',
@@ -14000,7 +14000,7 @@ const projects = [
         ],['Unhygienix'],true,true,false,false,false,false,false,false,false,'Pokemon Gyarados 52 Model Kit'
     ],
     ['Vitalstatistix',[1,'Ho-oh'],'Pokemon',
-        false,false,false,'','D','2024-02-20',5.17,false,'Builds/Pokemon/Vital.html','Asterix','2025-05-12',models[132],
+        false,false,false,'','E','2024-02-20',5.17,false,'Builds/Pokemon/Vital.html','Asterix','2025-05-12',models[132],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/VitalStat01.jpeg','Vitalstatistix'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/VitalStat02.jpeg','Vitalstatistix'],
@@ -14038,7 +14038,7 @@ const projects = [
             ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Ho-Oh_(Pokémon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-gold-silver-ho-oh-model-kit'],
             ['NewType','https://newtype.us/p/DFQb0Hr6xKX06jqaqPDk/h/pokemon-ho-oh']
-        ],['Chanticleerix'],false,false,false,false,false,false,false,false,false,'Pokemon Select Series 5 Ho-Oh Model Kit'
+        ],['Chanticleerix'],false,true,false,false,false,false,false,false,false,'Pokemon Select Series 5 Ho-Oh Model Kit'
     ],
     ['Lutetia',[1,'Lucario'],'Pokemon',
         false,false,false,'','D','2023-10-03',5.09,false,'Builds/Pokemon/Lutetia.html',false,'2025-04-07'

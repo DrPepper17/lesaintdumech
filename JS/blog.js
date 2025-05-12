@@ -2952,6 +2952,35 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/ColomboFleet13.jpeg']
         ]
+    ],
+    [
+        '2025-05-12',
+        'Chief Bird of Economics',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/HoohProfile.jpeg',
+        [
+            [
+                'Named after the Chief of the Gaulois from the world of Asterix, and chief of economics, this week I present to the shiny golden Ho-oh, ',
+                ['Vitalstatistix','Builds/Pokemon/Vital.html'],
+                '. '
+            ]
+        ],
+        [
+            'I have always been confused by Ho-oh the pokemon. Is it a phoenix? Is it the Aztec deity Quetzalcoatl? The pokemon source material has always hinted at and played around with both that I have never been able to figure it out. All in all I always found Ho-oh unnecessary and considered Lugia way better. But that being said I had lots of fun with this build testing out all the multiple Mr Hobby Metalic gold varieties while painting this.'
+        ],
+        [
+            [
+                ['Youtube','https://youtu.be/3GxZq4ao1Sg',true]
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/VitalStat15.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/VitalStat23.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/VitalStat26.jpeg']
+        ]
     ]
 ]
 
