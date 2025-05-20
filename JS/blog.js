@@ -2981,6 +2981,29 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/VitalStat26.jpeg']
         ]
+    ],
+    [
+        '2025-05-20',
+        'The G.O.A.T. !!',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/BradyJersey.jpg',
+        [
+            [
+                'This week it\'s THE GOAT. This week it\'s ',
+                ['Tom Brady','Builds/PBandai/Brady.html'],
+                '. Inspired by the Greatest NFL player Of All Time, I took the Gundam Maxter\'s Football Player Aesthetic and painted it in the jersey colors of the New England Pats.  '
+            ]
+        ],
+        [
+            'At first the overt dark blue might be a bit overwhelming. But I was working with what I was given for the source material. But soon as the armor comes off, the boxer mode underneath is both quite shiny and quite sporty. Cannot wait for P-Bandai to release another limited run of the Maxter kit so I can build another one.'
+        ],
+        [
+            [
+                ['Youtube','https://youtu.be/On5vMRovOKA',true]
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/PBrady041.jpeg']
+        ]
     ]
 ]
 
