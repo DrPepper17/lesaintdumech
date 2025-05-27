@@ -6083,6 +6083,74 @@ const models = [
         false,
         false,
         ['https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/eb66965d-d866-46d2-9d27-77aba2e931e3.jpeg','Mew']
+    ],
+    [163,7,'Lugia',
+        false,
+        '0249',
+        'Psychic / Flying',
+        '1st Stage',
+        false,
+        false,
+        'Diving Pokémon',
+        'It is said to be the guardian of the seas and is often spotted on the night of a storms. It has the power to calm even the most turbulent ocean tempest. Whe not seen, it spends its days sleeping in the most deepest ocean trench reserving its powers for the next time they\'re needed.',
+        '17\'01\"',
+        [476.2,'476.2 lbs'],
+        'II',
+        'Pokemon Gold and Silver',
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/LugiaTundra.jpg','Lugia']
+    ],
+    [164,1,'Shining Gundam',
+        'GF13-017NJ Shining Gundam',
+        'GF13-017NJ',
+        'Mobile Fighter G Gundam',
+        false,
+        ['Ulube\'s Gundam'],
+        ['GF13-017NJII Burning Gundam'],
+        'Future Century',
+        [60,'January to November 60 F.C.',60],
+        'Domon Kasshu',
+        ['Rain Mikamura'],
+        'Dr. Mikamuara',
+        ['Neo Japan','Shuffle Alliance'],
+        [16.2,'16.2 Meters'],           //Height
+        [15.5,'15.5 Metric Tons'],        //Weight
+        'Gundarium Alloy Super Ceramic Composite fused w/ Rare Metal Hybrid Multilayered Materials',
+        'Ultra Compact Fusion Reactor',
+        [
+            'Vulcan Gun (x2)',
+            'Machine Gun (x2)',
+            'Shining Shot'
+        ],
+        [
+            'Beam Sword (x2)',
+            'Smoke Grenades'
+        ],
+        [
+            'Mobile Trace System',
+            'Shining Finger',
+            'Super Mode',
+            'Emotion Energy System',
+            'Core Lander'
+        ],
+        'Kunio Okawara',
+        false,                //pseudo-boolean: If no, then false. If true, then list base source as character string
+        false,
+        false,            //boolean
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/ShiningGModel.jpeg','Shininig Gundam'],
+        true,           //boolean
+        [164],
+        'Shining Gundam'              //Only if base source
     ]
 ];
 
@@ -11508,7 +11576,7 @@ const projects = [
     ],    //Mr Metallic
     ['Bruce',[1,'PB Dragon Gundam'],'HG',false,true,false,'G','B'],
     ['Brady',[1,'PB Gundam Maxter'],'HG',
-        false,true,false,'G','E','2024-08-19',9.47,false,'Builds/PBandai/Brady.html',false,'2025-05-19',models[137],
+        false,true,false,'G','E','2024-08-19',9.47,false,'Builds/PBandai/Brady.html',false,'2025-05-20',models[137],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/PBrady001.jpeg','Maxter Core Lander'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/PBrady002.jpeg','Maxter Core Lander'],
@@ -11736,7 +11804,58 @@ const projects = [
         ],false,true,true,'1:144','The Sun King'
 
     ],
-    ['Gabriel',[1,'Shining Gundam'],'SD',false,false,false,'G','D','2024-09-13',4.59,false,'Builds/Gundams/Gabriel.html'],   //Mr Metallic
+    ['Gabriel',[1,'Shining Gundam'],'SD',
+        false,false,false,'G','D','2024-09-13',4.59,false,'Builds/Gundams/Gabriel.html',false,'2025-06-02',models[164],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SweetGabe01.jpeg','Core Lander'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SweetGabe02.jpeg','Core Lander'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SweetGabe03.jpeg','Core Lander'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SweetGabe04.jpeg','Core Lander'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SweetGabe05.jpeg','Core Lander'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SweetGabe06.jpeg','Core Lander'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SweetGabe07.jpeg','Core Lander'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SweetGabe08.jpeg','Gabriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SweetGabe09.jpeg','Gabriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SweetGabe10.jpeg','Gabriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SweetGabe11.jpeg','Gabriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SweetGabe12.jpeg','Gabriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SweetGabe13.jpeg','Gabriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SweetGabe14.jpeg','Gabriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SweetGabe15.jpeg','Gabriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SweetGabe16.jpeg','Gabriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SweetGabe17.jpeg','Gabriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SweetGabe18.jpeg','Gabriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SweetGabe19.jpeg','Gabriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SweetGabe20.jpeg','Gabriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SweetGabe21.jpeg','Gabriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SweetGabe22.jpeg','Gabriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SweetGabe23.jpeg','Gabriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SweetGabe24.jpeg','Gabriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SweetGabe25.jpeg','Gabriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SweetGabe26.jpeg','Gabriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SweetGabe27.jpeg','Gabriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SweetGabe28.jpeg','Gabriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SweetGabe29.jpeg','Gabriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SweetGabe30.jpeg','Gabriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SweetGabe31.jpeg','Gabriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SweetGabe32.jpeg','Gabriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SweetGabe33.jpeg','Gabriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SweetGabe34.jpeg','Gabriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SweetGabe35.jpeg','Gabriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SweetGabe36.jpeg','Gabriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SweetGabe37.jpeg','Gabriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SweetGabe38.jpeg','Gabriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SweetGabe39.jpeg','Gabriel'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SweetGabe40.jpeg','Gabriel']
+        ],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/SweetGabe21.jpeg','Profile Photo: Gabriel'],
+        'Description',false,
+        [
+            ['Video','https://youtu.be/-xWllgjWKYM'],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/bb-239-shining-gundam'],
+            ['NewType','https://newtype.us/p/MPVL4uHKxfF5yv6Bjwbu/h/sdgg-239-shining-gundam']
+        ],['Michael'],true,false
+    ],
     ['Camael',[1,'Shining Gundam'],'SD',false,false,false,'G','B','2024',0],    //Flat
     ['Red Baron',[1,'Spiegel, Gundam'],'MG',
         false,false,false,'G','E','2021-05-05',72.07,true,'Builds/Gundams/RedBaron.html','Hand Paint','2021-05-29',models[2],
@@ -14170,7 +14289,50 @@ const projects = [
         false,false,false,'','D','2023-10-03',5.09,false,'Builds/Pokemon/Lutetia.html',false,'2025-04-07'
     ],
     ['Chanticleerix',[1,'Lugia'],'Pokemon',
-        false,false,false,'','D','2023-12-13',4.18,false,'Builds/Pokemon/Chantic.html','Asterix','2025-07-14'
+        false,false,false,'','E','2023-12-13',4.18,false,'Builds/Pokemon/Chantic.html','Asterix','2025-05-26',models[163],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SeaChanty01.jpeg','Chanticleerix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SeaChanty02.jpeg','Chanticleerix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SeaChanty03.jpeg','Chanticleerix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SeaChanty04.jpeg','Chanticleerix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SeaChanty05.jpeg','Chanticleerix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SeaChanty06.jpeg','Chanticleerix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SeaChanty07.jpeg','Chanticleerix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SeaChanty08.jpeg','Chanticleerix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SeaChanty09.jpeg','Chanticleerix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SeaChanty10.jpeg','Chanticleerix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SeaChanty11.jpeg','Chanticleerix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SeaChanty12.jpeg','Chanticleerix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SeaChanty13.jpeg','Chanticleerix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SeaChanty14.jpeg','Chanticleerix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SeaChanty15.jpeg','Chanticleerix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SeaChanty16.jpeg','Chanticleerix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SeaChanty17.jpeg','Chanticleerix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SeaChanty18.jpeg','Chanticleerix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SeaChanty19.jpeg','Chanticleerix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SeaChanty20.jpeg','Chanticleerix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SeaChanty21.jpeg','Chanticleerix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SeaChanty22.jpeg','Chanticleerix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SeaChanty23.jpeg','Chanticleerix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SeaChanty24.jpeg','Chanticleerix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SeaChanty25.jpeg','Chanticleerix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SeaChanty26.jpeg','Chanticleerix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SeaChanty27.jpeg','Chanticleerix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SeaChanty28.jpeg','Chanticleerix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SeaChanty29.jpeg','Chanticleerix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SeaChanty30.jpeg','Chanticleerix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SeaChanty31.jpeg','Chanticleerix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SeaChanty32.jpeg','Chanticleerix']
+        ],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/SeaChanty16.jpeg','Profile Photo: Chanticleerix'],
+        'Staid true to the source material on this design, However wanted to make Lugia just a little bit darker than its standard white. Therefore for the bulk of its body I chose Mr Hobby\'s Metallic Ice Silver. It\'s basically silver with a streak of grey mixed int to mark it a nice dark. In addition to the Ice Silver also used Mr Hobby\'s Metallic Blue for the belly and then hand brushed the eyes with various Vallejo shades.',false,
+        [
+            ['Video','https://youtu.be/NF-AgBaLpMc'],
+            ['Asterix: Chanticleerix','https://asterix.fandom.com/wiki/Chanticleerix'],
+            ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Lugia_(Pokémon)'],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-gold-silver-lugia-model-kit'],
+            ['NewType','https://newtype.us/p/4OkwUlKsiGMtfqwASLP2/h/pokemon-lugia']
+        ],['Vitalstatistix'],true,true,false,false,false,false,false,false,false,'Pokemon Select Series 4 Lugia Model Kit'
     ],
     ['Bucolix',[1,'Lunala'],'Pokemon',
         false,false,false,'','B','2024',0,false,'Builds/Pokemon/Bucolix.html',false,'2025-12-15'

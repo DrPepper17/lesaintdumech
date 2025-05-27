@@ -3004,6 +3004,29 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/PBrady041.jpeg']
         ]
+    ],
+    [
+        '2025-05-26',
+        'Might Sea Rooster Chanticleerix',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/SeaChanty32.jpeg',
+        [
+            [
+                'Another Pokemon build means another Asterix the Gaul reference. This week I bring you the local village rooster, ',
+                ['Chanticleerix','Builds/Pokemon/Chantic.html'],
+                ', the mighty king of the seas, Lugia.'
+            ]
+        ],
+        [
+            [
+                ['Youtube','https://youtu.be/NF-AgBaLpMc',true]
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/chanti1.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/chanti2.jpeg']
+        ]
     ]
 ]
 

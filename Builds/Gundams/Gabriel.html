@@ -15,7 +15,7 @@
 
         <title id="title">&#9884; Le Saint du Mech: </title>
     </head>
-    <body onload="buildProjectPage('Geminass 01'),convertDateToday()">
+    <body onload="buildProjectPage('Gabriel'),convertDateToday()">
         <!--Jumbotron-->
         <header class="jumbotron jumbotron-fluid"> 
             <div class="container">
@@ -48,6 +48,7 @@
                         <li class="nav-item"><a class="nav-link" href="../../builds.html">Builds</a></li>
                         <li class="nav-item"><a class="nav-link" href="../../statistics.html">Statistics</a></li>
                         <li class="nav-item"><a class="nav-link" href="../../links.html">Links</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../../games.html">Games</a></li>
                     </ul>
                 </div>
             </div>
@@ -77,6 +78,10 @@
             <!--Project Details Section-->
             <div class="row align-items-center">
                 <div class="col offset-md-1">
+                    <span class="projectMGEXHD">
+                        <h3 class="font-weight-bold text-danger d-none d-md-block">Master Grade Extreme</h3>
+                        <h5 class="font-weight-bold text-danger d-md-none">Master Grade Extreme</h5>
+                    </span>
                     <span class="projectPBandaiHD">
                         <span id="projectPBandai" class="font-weight-bold text-danger">Premium-Edition </span><br/>
                     </span>
@@ -135,6 +140,9 @@
                 <div class="row align-items-center">
                     <div class="col-md-5 mb-3 text-center" id="gModelPhoto"></div>
                     <div class="col">
+                        <span class="gMobileArmorHD">
+                            <span class="font-weight-bold text-warning">Mobile Armor</span><br/>
+                        </span>
                         <span class="gShortNameHD">
                             <span id="gShortName"><span class="font-weight-bold">Model: </span></span><br/>
                         </span>
@@ -143,9 +151,6 @@
                         </span>
                         <span class="gEWHD">
                             <span class="font-weight-bold text-danger">EW Version</span><br/>
-                        </span>
-                        <span class="gMobileArmorHD">
-                            <span class="font-weight-bold text-warning">Mobile Armor</span><br/>
                         </span>
                         <span class="gAltNameHD">
                             <span id="gAltName"><span class="font-weight-bold">Alias: </span></span><br/>
@@ -247,7 +252,8 @@
                             <span id="gsCaptain"><span class="font-weight-bold">Captain: </span></span><br/>
                         </span>
                         <span class="gsCaptain2HD">
-                            <span id="gsCaptain2"><span class="font-weight-bold">2nd Captains: </span></span><br/>
+                            <span id="2CapTitle" class="font-weight-bold"></span><br/>
+                            <ul id="gsCaptain2"></ul>
                         </span>
                         <span class="gsSeriesHD">
                             <span id="gsSeries"><span class="font-weight-bold">Series: </span></span><br/>
@@ -280,7 +286,7 @@
                             <ul id="gsFrom"></ul>
                         </span>
                         <span class="gsToHD">
-                            <span class="font-weight-bold">Developed To: </span><br/>
+                            <span class="font-weight-bold">Developed Into: </span><br/>
                             <ul id="gsTo"></ul>
                         </span>
                         <span class="gsHangarHD">
@@ -306,6 +312,13 @@
                         <span class="gsOnboardHD">
                             <span class="font-weight-bold">Onboard: </span><br/>
                             <ul id="gsOnboard"></ul>
+                        </span>
+                        <span class="gsVariantsHD">
+                            <span class="font-weight-bold">Variants: </span><br/>
+                            <ul id="gsVariants"></ul>
+                        </span>
+                        <span class="gsDesignedHD">
+                            <span id="gsDesigned"><span class="font-weight-bold">Designed By: </span></span><br/>
                         </span>
                     </div>
                 </div>
@@ -416,14 +429,17 @@
                 <div class="row align-items-center">
                     <div class="col offset-md-1" id="dpModelPhoto"></div>
                     <div class="col">
-                        <span class="dpSeriesHD">
-                            <span id="dpSeries"><span class="font-weight-bold">Series: </span></span><br/>
+                        <span class="dpNameHD">
+                            <span id="dpName"><span class="font-weight-bold">Scene: </span></span><br/>
                         </span>
-                        <span class="dpShortNameHD">
-                            <span id="dpShortName"><span class="font-weight-bold">Kit: </span></span><br/>
+                        <span class="dpKitHD">
+                            <span id="dpKit"><span class="font-weight-bold">Kit: </span></span><br/>
                         </span>
                         <span class="dpBrandHD">
                             <span id="dpBrand"><span class="font-weight-bold">Manufacturer: </span></span><br/>
+                        </span>
+                        <span class="dpFranchiseHD">
+                            <span id="dpFranchise"><span class="font-weight-bold">Series: </span></span><br/>
                         </span>
                     </div>
                 </div>
@@ -437,6 +453,9 @@
                         <h4 class="font-weight-bold text-danger" id="dgShortName"></h4>
                         <span class="dgNicknameHD">
                             <q id="dgNickname"></q> <br/>
+                        </span>
+                        <span class="dgAlternateHD">
+                            <span id="dgAlternate"><span class="font-weight-bold">Also known as: </span></span><br/>
                         </span>
                         <span class="dgFormHD">
                             <span id="dgForm"><span class="font-weight-bold">Form: </span></span><br/>
@@ -475,6 +494,169 @@
                         </span>
                     </div>
                 </div>
+            </span>
+
+            <!--Other-->
+            <span class="OtherPage">
+                <div class="row align-items-center">
+                    <div class="col offset-md-1" id="ocModelPhoto"></div>
+                    <div class="col">
+                        <span class="ocNameHD">
+                            <h1 id="ocName"></h1>
+                        </span>
+                        <span class="ocKitHD">
+                            <span id="ocKit"><span class="font-weight-bold">Kit: </span></span><br/>
+                        </span>
+                        <span class="ocBrandHD">
+                            <span id="ocBrand"><span class="font-weight-bold">Manufacturer: </span></span><br/>
+                        </span>
+                        <span class="ocFranchiseHD">
+                            <span id="ocFranchise"><span class="font-weight-bold">Series: </span></span><br/>
+                        </span>
+                        <span class="ocpeDebutHD">
+                            <span id="ocpeDebut"><span class="font-weight-bold">First Debut: </span></span><br/>
+                        </span>
+                    </div>
+                </div>
+                <!--Other Person-->
+                <span class="OtherPerson">
+                    <div class="row">
+                        <div class="col">
+                            <span class="ocpeFullNameHD">
+                                <span id="ocpeFullName"><span class="font-weight-bold">Full Name: </span></span><br/>
+                            </span>
+                            <span class="ocpeCharIDHD">
+                                <span class="font-weight-bold">Character ID: </span><br/>
+                                <ul id="ocpeCharID"></ul>
+                            </span>
+                            <span class="ocpeNicknameHD">
+                                <span class="font-weight-bold">Nicknames / Aliases: </span><br/>
+                                <ul id="ocpeNickname"></ul>
+                            </span>
+                            <span id="ocpeStatus"><span class="font-weight-bold">Status: </span></span><br/>
+                            <span class="ocpeEraHD">
+                                <span id="ocpeEra"><span class="font-weight-bold">Era: </span></span><br/>
+                            </span>
+                            <span class="ocpeDOBHD">
+                                <span id="ocpeDOB"><span class="font-weight-bold">DOB: </span></span><br/>
+                            </span>
+                            <span class="ocpeCanonHD">
+                                <span id="ocpeCanon"><span class="font-weight-bold">Appearance in Canon: </span></span><br/>
+                            </span>
+                            <span class="ocpeGenderHD">
+                                <span id="ocpeGender"><span class="font-weight-bold">Gender: </span></span><br/>
+                            </span>
+                            <div class="row mb-0">
+                                <div class="col col-sm-4 col-md-5">
+                                    <span class="ocpeSpeciesHD">
+                                        <span id="ocpeSpecies"><span class="font-weight-bold">Species: </span></span><br/>
+                                    </span>
+                                </div>
+                                <div class="col-sm">
+                                    <span class="ocpeClassificationHD">
+                                        <span id="ocpeClassification"><span class="font-weight-bold">Classification: </span></span><br/>
+                                    </span>
+                                </div>
+                            </div>
+                            <span class="ocpeEthnicityHD">
+                                <span id="ocpeEthnicity"><span class="font-weight-bold">Ethnicity: </span></span><br/>
+                            </span>
+                            <div class="row mb-0">
+                                <div class="col col-sm-4 col-md-5">
+                                    <span class="ocpeHeightHD">
+                                        <span id="ocpeHeight"><span class="font-weight-bold">Height: </span></span><br/>
+                                    </span>
+                                </div>
+                                <div class="col-sm">
+                                    <span class="ocpeWeightHD">
+                                        <span id="ocpeWeight"><span class="font-weight-bold">Weight: </span></span><br/>
+                                    </span>
+                                </div>
+                            </div>
+                            <span class="ocpeHairHD">
+                                <span id="ocpeHair"><span class="font-weight-bold">Hair Color: </span></span><br/>
+                            </span>
+                            <span class="ocpeEyeHD">
+                                <span id="ocpeEye"><span class="font-weight-bold">Eye Color: </span></span><br/>
+                            </span>
+                            <span class="ocpeClonedHD">
+                                <span id="ocpeCloned"><span class="font-weight-bold">Cloned From: </span></span><br/>
+                            </span>
+                            <span class="ocpeDesignedHD">
+                                <span id="ocpeDesigned"><span class="font-weight-bold">Designed by: </span></span><br/>
+                            </span>
+                            <span class="ocpeVoiceCastHD">
+                                <span class="font-weight-bold">Voice Cast: </span><br/>
+                                <ul id="ocpeVoiceCast"></ul>
+                            </span>
+                        </div>
+                        <div class="col-md">
+                            <span class="ocpeOriginHD">
+                                <span id="ocpeOrigin"><span class="font-weight-bold">Home/Origin: </span></span><br/>
+                            </span>
+                            <span class="ocpeParentsHD">
+                                <span class="font-weight-bold">Parents: </span><br/>
+                                <ul id="ocpeParents"></ul>
+                            </span>
+                            <span class="ocpeSiblingsHD">
+                                <span class="font-weight-bold">Siblings: </span><br/>
+                                <ul id="ocpeSiblings"></ul>
+                            </span>
+                            <span class="ocpePartnerHD">
+                                <span id="ocpePartner"><span class="font-weight-bold">Partner: </span></span><br/>
+                            </span>
+                            <span class="ocpeRomanceHD">
+                                <span class="font-weight-bold">Romantic Interests: </span><br/>
+                                <ul id="ocpeRomance"></ul>
+                            </span>
+                            <span class="ocpeChildrenHD">
+                                <span class="font-weight-bold">Children: </span><br/>
+                                <ul id="ocpeChildren"></ul>
+                            </span>
+                            <span class="ocpeRankHD">
+                                <span id="ocpeRank"><span class="font-weight-bold">Rank: </span></span><br/>
+                            </span>
+                            <span class="ocpeOccupationHD">
+                                <span class="font-weight-bold">Occupation: </span><br/>
+                                <ul id="ocpeOccupation"></ul>
+                            </span>
+                            <span class="ocpeAffiliationHD">
+                                <span class="font-weight-bold">Affiiliation: </span><br/>
+                                <ul id="ocpeAffiliation"></ul>
+                            </span>
+                            <span class="ocpeAffiliationHD">
+                                <span class="font-weight-bold">Affiiliation: </span><br/>
+                                <ul id="ocpeAffiliation"></ul>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <span class="ocpePilotsHD">
+                                <span class="font-weight-bold">Mech / Hardware: </span><br/>
+                                <ul id="ocpePilots"></ul>
+                            </span>
+                        </div>
+                        <div class="col-md">
+                            <span class="ocpeSkillsHD">
+                                <span class="font-weight-bold">Skills / Strengths: </span><br/>
+                                <ul id="ocpeSkills"></ul>
+                            </span>
+                            <span class="ocpeHobbiesHD">
+                                <span class="font-weight-bold">Passions / Hobbies: </span><br/>
+                                <ul id="ocpeHobbies"></ul>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <span class="ocpeQuotesHD">
+                                <span class="font-weight-bold">Quotes: </span><br/>
+                                <span class="quote"><ul id="ocpeQuotes"></ul></span>
+                            </span>
+                        </div>
+                    </div>
+                </span>
             </span>
 
             <!--Pokemon-->
@@ -571,7 +753,71 @@
             </span>
 
             <!--Zoid-->
-
+            <span class="ZoidPage">
+                <div class="row align-items-center">
+                    <div class="col-md-5 mb-3 text-center" id="zdModelPhoto"></div>
+                    <div class="col">
+                        <span class="zdShortNameHD">
+                            <span id="zdShortName"><span class="font-weight-bold">Model: </span></span><br/>
+                        </span>
+                        <span class="zdSerialHD">
+                            <span id="zdSerial"><span class="font-weight-bold">Serial Number: </span></span><br/>
+                        </span>
+                        <span class="zdAltNameHD">
+                            <span id="zdAltName"><span class="font-weight-bold">Alias: </span></span><br/>
+                        </span>
+                        <span class="zdTypeHD">
+                            <span id="zdType"><span class="font-weight-bold">Animal/Type: </span></span><br/>
+                        </span>
+                        <span class="zdAffiiliationHD">
+                            <span id="zdAffiiliation"><span class="font-weight-bold">Nation/Affiliation: </span></span><br/>
+                        </span>
+                        <span class="zdPilotHD">
+                            <span id="zdPilot"><span class="font-weight-bold">Notable Pilots: </span></span><br/>
+                        </span>
+                        <span class="zdCrewHD">
+                            <span id="zdCrew"><span class="font-weight-bold">Crew Count: </span></span><br/>
+                        </span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col offset-md-2">
+                        <span class="zdHeightHD">
+                            <span id="zdHeight"><span class="font-weight-bold">Height: </span></span><br/>
+                        </span>
+                        <span class="zdWeightHD">
+                            <span id="zdWeight"><span class="font-weight-bold">Weight: </span></span><br/>
+                        </span>
+                        <span class="zdDepthHD">
+                            <span id="zdDepth"><span class="font-weight-bold">Depth: </span></span><br/>
+                        </span>
+                        <span class="zdSpeedHD">
+                            <span id="zdSpeed"><span class="font-weight-bold">Speed: </span></span><br/>
+                        </span>
+                        <span class="zdDevelopedByHD">
+                            <span id="zdDevelopedBy"><span class="font-weight-bold">Developed By: </span></span><br/>
+                        </span>
+                        <span class="zdFromHD">
+                            <span class="font-weight-bold">Developed From: </span><br/>
+                            <ul id="zdFrom"></ul>
+                        </span>
+                        <span class="zdToHD">
+                            <span class="font-weight-bold">Developed Into: </span><br/>
+                            <ul id="zdTo"></ul>
+                        </span>
+                    </div>
+                    <div class="col-md">
+                        <span class="zdWeaponsHD">
+                            <span class="font-weight-bold">Weapons: </span><br/>
+                            <ul id="zdWeapons"></ul>
+                        </span>
+                        <span class="zdEquipmentHD">
+                            <span class="font-weight-bold">Equipment: </span><br/>
+                            <ul id="zdEquipment"></ul>
+                        </span>
+                    </div>
+                </div>
+            </span>
 
             <!--Haro-->
             <span class="HaroPage">
@@ -614,7 +860,7 @@
                     <ul id="variantModels"></ul>
                 </div>
                 <div class="col-md haroHD">
-                    <h4 class="font-weight-bold"><span id="haroTitle"></span></h4>
+                    <h4 class="font-weight-bold">Other Haro:</h4>
                     <ul id="haroModels"></ul>
                 </div>
             </div>
