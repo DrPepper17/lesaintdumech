@@ -74,7 +74,7 @@ const models = [
         ['https://hosting.photobucket.com/images/i/lesaintdumech/spiegel_pvRFRZsKNqpmuxQ7DdZaoA.jpeg','Spiegel Gundam'],
         true,
         [2],
-        'Shadow Gundam'
+        'Shadow'
     ],
     [3,4,'Chevy Bel-Air',
         'Chevrolet 1957 Bel-Air',
@@ -4476,8 +4476,8 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/godgundam.jpeg','God Gundam'],
         true,
-        ['118'],
-        'God Gundam'
+        [118],
+        'Burning Gundam'
     ],
     [119,1,'Zhang He Altron Gundam',
         'SDW Heroes Zhang He Altron Gundam',
@@ -4753,7 +4753,7 @@ const models = [
         false, 
         ['https://hosting.photobucket.com/images/i/lesaintdumech/Beguir-Pent.jpeg','Beguir Pente'],
         false,
-        ['127'],
+        [127],
         'Beguir-Pente'   
     ], 
     [128,12,'Suletta Mercury',
@@ -6150,7 +6150,37 @@ const models = [
         ['https://hosting.photobucket.com/images/i/lesaintdumech/ShiningGModel.jpeg','Shininig Gundam'],
         true,           //boolean
         [164],
-        'Shining Gundam'              //Only if base source
+        'Shining'              //Only if base source
+    ],
+    [165,7,'Pikachu',
+        false,
+        '0025',
+        'Electric',
+        '2nd Stage',
+        [
+            ['Pichu','Friendship']
+        ],
+        [
+            ['Raichu','Thunderstone']
+        ],
+        'Mouse Pokémon',
+        'When several of these Pokémon gather, their electricity could build and cause lightning storms. It keeps its tail raised to monitor its surroundings but sometimes its tail attracts lightning in this pose. If you yank its tail, it will try to bite you. It also has small electric sacs on both its cheeks. If threatened, it looses electric charges from the sacs in self-defense. But can also use its sacs to revive a fellow fallen Pikachu.',
+        '1\'04\"',
+        [13.2,'13.2 lbs'],
+        'I',
+        'Pokemon Red and Blue',
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/AshPikachu.jpeg','Pikachu']
     ]
 ];
 
@@ -11527,7 +11557,7 @@ const projects = [
         ['https://hosting.photobucket.com/images/i/lesaintdumech/rgodpbstr135.jpeg','Profile Photo: PB God Gundam'],
         'Several kits going on here. First the brand new, well at this point \'relatively\' new, Real Grade God Gundam straight build. Second, the Premium-Bandai God Gundam expansion set. And third, the KOSMOS God Gundam led lights set. All of these were pretty cool. And combined they\'re even cooler. Was my first time as well using the KOSMOS brand LEDs and they came out really neat. The photo stills do not do them justice. You have to watch their video to see them in action. Againt I do not typically post my straight builds. But this one is a little extra something special that I just had to.',false,
         [
-            ['Video',''],
+            ['Video','https://youtu.be/dMvJGsfcWsc?si=MZqKp-yH7E0jFnpp'],
             ['USA Gundam Store: RG God Gundam','https://www.usagundamstore.com/products/rg-1-144-37-god-gundam'],
             ['USA Gundam Store: KOSMOS Lights','https://www.usagundamstore.com/products/kosmos-led-funnel-effect-for-rg-god-gundam'],
             ['NewType: RG God Gundam','https://newtype.us/p/ORUrU23xYDLWOgNOm3R1/h/rg-37-god-gundam'],
@@ -11805,7 +11835,7 @@ const projects = [
 
     ],
     ['Gabriel',[1,'Shining Gundam'],'SD',
-        false,false,false,'G','D','2024-09-13',4.59,false,'Builds/Gundams/Gabriel.html',false,'2025-06-02',models[164],
+        false,false,false,'G','E','2024-09-13',4.59,false,'Builds/Gundams/Gabriel.html',false,'2025-06-02',models[164],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/SweetGabe01.jpeg','Core Lander'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/SweetGabe02.jpeg','Core Lander'],
@@ -11849,12 +11879,12 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/SweetGabe40.jpeg','Gabriel']
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/SweetGabe21.jpeg','Profile Photo: Gabriel'],
-        'Description',false,
+        'Been wanting to build more Gundams from the Future Century universe, particularly the signature Gundams of the show, Shining and Burning Gundam. For this SD Shining build, the Mr Hobby Metallics line worked very well.',false,
         [
             ['Video','https://youtu.be/-xWllgjWKYM'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/bb-239-shining-gundam'],
             ['NewType','https://newtype.us/p/MPVL4uHKxfF5yv6Bjwbu/h/sdgg-239-shining-gundam']
-        ],['Michael'],true,false
+        ],['Michael'],true,true
     ],
     ['Camael',[1,'Shining Gundam'],'SD',false,false,false,'G','B','2024',0],    //Flat
     ['Red Baron',[1,'Spiegel, Gundam'],'MG',
@@ -14470,7 +14500,32 @@ const projects = [
         ],['Monosyllabix'],true,true,false,false,false,false,false,false,false,'Pokemon Select Series 32 Mewtwo Model Kit'
     ],
     ['Cyrano',[1,'Pikachu'],'Pokemon',
-        false,false,false,'','D','2024-07-05',1.65,false,'Builds/Pokemon/Cyrano.html',false,'2025-09-22'
+        false,false,false,'','D','2024-07-05',1.65,false,'Builds/Pokemon/Cyrano.html',false,'2025-06-09',models[165],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Cyano01.jpeg','Cyrano'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Cyano02.jpeg','Cyrano'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Cyano03.jpeg','Cyrano'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Cyano04.jpeg','Cyrano'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Cyano05.jpeg','Cyrano'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Cyano06.jpeg','Cyrano'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Cyano07.jpeg','Cyrano'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Cyano08.jpeg','Cyrano'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Cyano09.jpeg','Cyrano'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Cyano10.jpeg','Cyrano'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Cyano11.jpeg','Cyrano'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Cyano12.jpeg','Cyrano'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Cyano13.jpeg','Cyrano'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Cyano14.jpeg','Cyrano'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Cyano15.jpeg','Cyrano']
+        ],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/Cyano03.jpeg','Profile Photo: Cyrano'],
+        'Description',false,
+        [
+            ['Video','https://youtu.be/kdeSL7XNxz0'],
+            ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Pikachu_(Pokémon)'],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/03-pikachu-battle-pose-pokemon-bandai-spirits-pokemon-model-kit-quick'],
+            ['NewType','https://newtype.us/p/6QnT071ebQzzCPn3wkRQ/h/pokemon-model-kit-quick-03-pikachu-battle-pose']
+        ],false,true,false,false,false,false,false,false,false,false,'Pikachu (Battle Pose) 03 Quick Model Kit'
     ],
     ['Pikachu 2',[1,'Pikachu'],'Pokemon',
         false,false,false,'','B','2025',0,false,'Builds/Pokemon/',false,'2025',models[0],

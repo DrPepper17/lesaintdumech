@@ -3027,6 +3027,32 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/chanti2.jpeg']
         ]
+    ],
+    [
+        '2025-06-02',
+        'My love! My anger! And all of my sorrow!',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/SweetGabe37.jpeg',
+        [
+            'This hand of mine glows with an awesome power! Its burning grip tells me to defeat you! TAKE THIS! My love, my anger, and all of my sorrow! SHINING FINGER! '
+        ],
+        [
+            [
+                'This week I present to you a build I had been wanting to do for quite a while. I present to you ',
+                ['Gabriel','Builds/Gundams/Gabriel.html'],
+                ', my rendition of the Shining Gundam. I kept the design very traditional. But as is the namesake made it very shiny using the Mr Metallics line of pain. Enjoy!'
+            ]
+        ],
+        [
+            [
+                ['Youtube','https://youtu.be/-xWllgjWKYM',true]
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/SweetGabe04.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/SweetGabe28.jpeg']
+        ]
     ]
 ]
 
