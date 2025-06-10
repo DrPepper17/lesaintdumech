@@ -3053,6 +3053,29 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/SweetGabe28.jpeg']
         ]
+    ],
+    [
+        '2025-06-10',
+        'Hercule Savinien',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/Cyano15.jpeg',
+        [
+            [
+                'Inspired by my favorite French stage plays, ',
+                ['Hercule Savinien de Bergerac','Builds/Pokemon/Cyrano.html'],
+                ' by classical French playwright Edmond Rostand, this week I present to you my grey Pikachu, Cyrano.'
+            ]
+        ],
+        [
+            'Pikachu the character is so common, with his perky yellow face all over Nintendo marketing material everywhere, that I did not want to paint the traditional yellow design. Will admit I felt less inspired on this build that I just was not sure what color scheme to choose. Nothing really spoke out to me. So eventually be default I went with a neutral grey scale with Mr Hobby metallic colors.'
+        ],
+        [
+            [
+                ['Youtube','https://youtu.be/kdeSL7XNxz0',true]
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/Cyano08.jpeg']
+        ]
     ]
 ]
 

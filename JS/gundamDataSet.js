@@ -14500,7 +14500,7 @@ const projects = [
         ],['Monosyllabix'],true,true,false,false,false,false,false,false,false,'Pokemon Select Series 32 Mewtwo Model Kit'
     ],
     ['Cyrano',[1,'Pikachu'],'Pokemon',
-        false,false,false,'','D','2024-07-05',1.65,false,'Builds/Pokemon/Cyrano.html',false,'2025-06-09',models[165],
+        false,false,false,'','E','2024-07-05',1.65,false,'Builds/Pokemon/Cyrano.html',false,'2025-06-09',models[165],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Cyano01.jpeg','Cyrano'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Cyano02.jpeg','Cyrano'],
@@ -14519,13 +14519,13 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Cyano15.jpeg','Cyrano']
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/Cyano03.jpeg','Profile Photo: Cyrano'],
-        'Description',false,
+        false,false,
         [
             ['Video','https://youtu.be/kdeSL7XNxz0'],
             ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Pikachu_(Pokémon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/03-pikachu-battle-pose-pokemon-bandai-spirits-pokemon-model-kit-quick'],
             ['NewType','https://newtype.us/p/6QnT071ebQzzCPn3wkRQ/h/pokemon-model-kit-quick-03-pikachu-battle-pose']
-        ],false,true,false,false,false,false,false,false,false,false,'Pikachu (Battle Pose) 03 Quick Model Kit'
+        ],false,true,true,false,false,false,false,false,false,false,'Pikachu (Battle Pose) 03 Quick Model Kit'
     ],
     ['Pikachu 2',[1,'Pikachu'],'Pokemon',
         false,false,false,'','B','2025',0,false,'Builds/Pokemon/',false,'2025',models[0],
@@ -16690,6 +16690,26 @@ function sortByDexNumber(array) {
     return tempArray;
 }
 
+function sortBySerialNo(array) {
+    let namesArray = [false];
+    for (let i=0;i<array.length;i++) {
+        if(!namesArray.includes(array[i][14][3])) {
+            namesArray.push(array[i][14][3]);
+        }
+    }
+    namesArray.sort();
+
+    let tempArray = [];
+    for (let j=0;j<namesArray.length;j++) {
+        for (let k=0;k<array.length;k++) {
+            if (array[k][14][3] == namesArray[j]) {
+                tempArray.push(array[k]);
+            }
+        }
+    }
+    return tempArray;
+}
+
 function stageCount(array,stage) {
     let count = 0;
     for (let i=0;i<array.length;i++) {
@@ -17317,18 +17337,18 @@ function buildFilterArrays() {
     shipFilter = sortByDate(shipFilter,'post').reverse();
     transformerFilter = sortByDate(transformerFilter,'post').reverse();
     zoidFilter = sortByDexNumber(zoidFilter);
-    mercuryFilter = sortByName(mercuryFilter);
-    ageFilter = sortByName(ageFilter);
-    wingFilter = sortByName(wingFilter);
-    xxFilter = sortByName(xxFilter);
-    ooFilter = sortByName(ooFilter);
-    turnAFilter = sortByName(turnAFilter);
-    seedFilter = sortByName(seedFilter);
-    gGundamFilter = sortByName(gGundamFilter);
-    iboFilter = sortByName(iboFilter);
-    universalFilter = sortByName(universalFilter);
-    universalGQFilter = sortByName(universalGQFilter);
-    reconguistaFilter = sortByName(reconguistaFilter);
+    mercuryFilter = sortBySerialNo(mercuryFilter);
+    ageFilter = sortBySerialNo(ageFilter);
+    wingFilter = sortBySerialNo(wingFilter);
+    xxFilter = sortBySerialNo(xxFilter);
+    ooFilter = sortBySerialNo(ooFilter);
+    turnAFilter = sortBySerialNo(turnAFilter);
+    seedFilter = sortBySerialNo(seedFilter);
+    gGundamFilter = sortBySerialNo(gGundamFilter);
+    iboFilter = sortBySerialNo(iboFilter);
+    universalFilter = sortBySerialNo(universalFilter);
+    universalGQFilter = sortBySerialNo(universalGQFilter);
+    reconguistaFilter = sortBySerialNo(reconguistaFilter);
     buildDiverFilter = sortByName(buildDiverFilter);
     sdwFilter = sortByName(sdwFilter);
     starblazersFilter = sortByName(starblazersFilter);
