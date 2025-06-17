@@ -3076,6 +3076,32 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/Cyano08.jpeg']
         ]
+    ],
+    [
+        '2025-06-16',
+        'Archangel Michael',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/Michael23.jpeg',
+        [
+            [
+                'Did Shining Gundam Gabriel few weeks ago, now time for its upgrade and next angel ',
+                ['Michael','Builds/Gundams/Michael.html'],
+                '.'
+            ]
+        ],
+        [
+            'The Shining Gundam SD I thought was pretty cute. But now the Burning Gundam SD is even cuter. It\'s got amazing articulation and ability to hold a pose. Plus its super mode transformation is pretty wicked.'
+        ],
+        [
+            [
+                ['Youtube','https://youtu.be/xGBb_f5zebI',true]
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/Michael03.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/Michael31.jpeg']
+        ]
     ]
 ]
 
