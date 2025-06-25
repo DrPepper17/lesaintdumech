@@ -3102,6 +3102,35 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/Michael31.jpeg']
         ]
+    ],
+    [
+        '2025-06-25',
+        'Faithful Pooch of the Gauls',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/AsterixDogmatix.jpeg',
+        [
+            [
+                'Another Pokemon build means another Asterix comic book character. This week I bring you Asterix\'s cute little dog, le fid\u00E8le chien gaulois',
+                ['Dogmatix','Builds/Pokemon/Dogmatix.html'],
+                ', the faithful loyal hound to the Gauls.'
+            ]
+        ],
+        [
+            [
+                ['Youtube','https://youtu.be/C0PBBi01LTw',true]
+            ]
+        ],
+        [
+            'Dogmatix is a Riolu. Which is the baby form of one of my favorite pokemon, Lucario. They both came together in the same kit. For this I just wanted to explore around with the color scheme rather than paint the traditional blue/grey colors. This was also around the same time period that I first received my Mr Color metallics paint line in the mail so I was brand new to the Mr Hobby paints and still getting the feel for them. If you notice, this has a very similar color palette to my Metroid Samus Aran Gravity Suit design. That is because I had painted both of these around the same time period so the color scheme was fresh on my mind.'
+        ],
+        [
+            'Like most pokemon model kits, Riolu is pretty simple to assemble. Not that many pieces really. But he has his own sort of cutish charm.'
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/Dogmatix09.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/DogmatixGaul.jpeg']
+        ]
     ]
 ]
 
