@@ -11674,7 +11674,45 @@ const projects = [
         ],['Gabriel'],true,true
     ],
     ['Furcas',[1,'Dark Army'],'HG',
-        false,false,false,'G','D','2024-08-20',4.28,false,'Builds/Gundams/Furcas.html','Ars Goetia','2025-04-14'
+        false,false,false,'G','E','2024-08-20',4.28,false,'Builds/Gundams/Furcas.html','Ars Goetia','2025-06-30',models[59],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Furcas01.jpeg','Furcas'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Furcas02.jpeg','Furcas'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Furcas03.jpeg','Furcas'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Furcas04.jpeg','Furcas'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Furcas05.jpeg','Furcas'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Furcas06.jpeg','Furcas'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Furcas07.jpeg','Furcas'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Furcas08.jpeg','Furcas'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Furcas09.jpeg','Furcas'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Furcas10.jpeg','Furcas'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Furcas11.jpeg','Furcas'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Furcas12.jpeg','Furcas'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Furcas13.jpeg','Furcas'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Furcas14.jpeg','Furcas'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Furcas15.jpeg','Furcas'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Furcas16.jpeg','Furcas'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Furcas17.jpeg','Furcas'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Furcas18.jpeg','Furcas'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Furcas19.jpeg','Furcas'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Furcas20.jpeg','Furcas'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Furcas21.jpeg','Furcas'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Furcas22.jpeg','Furcas'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Furcas23.jpeg','Furcas'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Furcas24.jpeg','Furcas'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Furcas25.jpeg','Furcas'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Furcas26.jpeg','Furcas'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Furcas27.jpeg','Furcas']
+        ],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/Furcas13.jpeg','Profile Photo: Furcas'],
+        'For this one stuck to the original source design. But used some really great paints to make it pop past what the original ever did. The original Dark Army unity from the show used a light flat dull brown, but for mine I used Tamiya Copper for the base that really made it quite bold and sparkle. Just the copper alone stands out. THen I accented it with Mr Hobby Copper which was way lighter in color but more glossy. It is amazing the difference between two different shades and varieties of copper. Then for the other regions, used Mr Hobby Metallic Yellow Green and Mr Hobby Metallic Bloody Red for the green and red areas respectively. The blood red was decent but the swampy yellow green I thought really accented the copper well. Combined they both just seem to complement the other and make the other stand out. Then to top it all off, hand painted the eye with Mr Hobby Mettalic Purple on top of a sea of Mr Hobby Metallic Peach on top. The build itself is rather simple and boring but painting this I just felt like this new paint job really brought whole new life and dimension to a previously rather boring model.',false,
+        [
+            ['Video','https://youtu.be/PR9m8Vw8qUI'],
+            ['Ars Goetia','https://en.wikipedia.org/wiki/List_of_demons_in_the_Ars_Goetia'],
+            ['Furcas','https://en.wikipedia.org/wiki/Furcas'],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/hgfc-1-144-230-death-army'],
+            ['NewType','https://newtype.us/p/jyG6L0YpSElExWI5jPd7/h/hgfc-230-death-army']
+        ],false,true,true,'1:144'
     ],
     ['Malphas',[1,'Dark Army'],'HG',
         false,false,false,'G','E','2022-09-08',5.83,false,'Builds/Gundams/Malphas.html','Ars Goetia','2023-01-23',models[59],
@@ -13426,9 +13464,9 @@ const projects = [
         ],false,false,true
     ],
     ['Sasuki Delta [SD]',[1,'Delta, Saskui'],'SD',true,false,false,'Heroes','E','2021-09-05',1.5,false,false,false,'2022-06-20'],
-    ['Quetzalcaotl',[1,'Dragon, Dark Grasper'],'SD',false,false,false,'Heroes','D','2024-06-06',3.81], //red queen paint
+    ['Quetzalcoatl',[1,'Dragon, Dark Grasper'],'SD',false,false,false,'Heroes','D','2024-06-06',3.81,false,'Builds/SDW/Quetzl.html'], //red queen paint
     ['Pharaoh',[1,'Dragon, Shining Grasper'],'SD',false,false,false,'Heroes','D','2024-07-08',3.24], //peacock
-    ['Tiamat',[1,'Dragon, Shining Grasper'],'SD',false,false,false,'Heroes','D','2024-07-04',2.58], //midnight city
+    ['Tiamat',[1,'Dragon, Shining Grasper'],'SD',false,false,false,'Heroes','D','2024-07-04',2.58,false,'Builds/SDW/Tiamat.html'], //midnight city
     ['Python',[1,'Dragon, Shining Grasper'],'SD',false,false,false,'Heroes','D','2024-07-06',3.49], //leviathan
     ['Wadjet',[1,'Dragon, Shining Grasper'],'SD',false,false,false,'Heroes','D','2024-10-26',2.13], //Bubblegumcrisis
     ['Ose',[1,'Duel, Taishi Ci'],'SD',false,false,false,'Heroes','B','',0,false,'','Ars Goetia'],
@@ -14787,7 +14825,7 @@ const projects = [
     ],
     ['Geriatrix',[1,'Reshiram'],'Pokemon',false,false,false,'','A'],
     ['Dogmatix',[1,'Riolu'],'Pokemon',
-        false,false,false,'','E','2023-10-03',2.97,false,'Builds/Pokemon/Dogmatix.html','Asterix','2025-06-22',models[166],
+        false,false,false,'','E','2023-10-03',2.97,false,'Builds/Pokemon/Dogmatix.html','Asterix','2025-06-25',models[166],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Dogmatix01.jpeg','Dogmatix'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Dogmatix02.jpeg','Dogmatix'],

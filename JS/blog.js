@@ -3131,6 +3131,39 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/DogmatixGaul.jpeg']
         ]
+    ],
+    [
+        '2025-06-30',
+        'Demon Knight of Astrology',
+        'https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/62ef4302-9c8e-41c3-be37-1fc5f01cdc98.png',
+        [
+            [
+                'On bit of a G Gundam kick, so can\'t Have a ',
+                ['Shining','Builds/Gundams/Gabriel.html'],
+                '  or ',
+                ['Burning','Builds/Gundams/Michael.html'],
+                ' Gundam without the dark army present to battle them. So this week I present to you my second Dark Army rendition, ',
+                ['Furcas','Builds/Gundams/Furcas.html'],
+                '.'
+            ]
+        ],
+        [
+            'A sinister menacing adversary. If only I had twenty of these to build a whole army just like in the anime. En massse, these units can be quite formidable and intimidating.'
+        ],
+        [
+            [
+                ['Youtube','https://youtu.be/PR9m8Vw8qUI',true]
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/Furcas17.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/Furcas24.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/Furcas02.jpeg']
+        ]
     ]
 ]
 
