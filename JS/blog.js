@@ -3164,6 +3164,29 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/Furcas02.jpeg']
         ]
+    ],
+    [
+        '2025-07-07',
+        'Lutetia City of Lights',
+        'https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/e4177603-6286-4a14-845d-249b3438fdbb.jpeg',
+        [
+            [
+                'If you are ever traveling throughout Western Europe, you have got to visit my favorite Gaul city of ',
+                ['Lutetia','Builds/Pokemon/Lutetia.html'],
+                '. Situated along the Seine River, Lutetia is located in the present day spot of the City of Lights. Pandering to that theme I present to you my bright sparkly Lucario.'
+            ]
+        ],
+        [
+            [
+                ['Youtube','https://youtu.be/EHOc0GJjXOw',true]
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/Luteia10.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/Luteia22.jpeg']
+        ]
     ]
 ]
 

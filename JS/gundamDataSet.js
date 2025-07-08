@@ -6564,7 +6564,7 @@ const projects = [
         ],false,true,true,'1:144'
     ],
     ['Morgause',[1,'Aerial'],'HG',
-        false,false,false,'Mercury','D','2024-02-16',7.64,false,'Builds/Gundams/Morgause.html',false,'2025-02-24',models[141],
+        false,false,false,'Mercury','D','2024-02-16',7.64,false,'Builds/Gundams/Morgause.html',false,'2025-12-15',models[141],
         [
             ['','Morgause']
         ],
@@ -7232,7 +7232,7 @@ const projects = [
         ],false,true,true,'1:144'
     ],
     ['Arthur',[1,'Calibarn'],'HG',
-        false,false,false,'Mercury','D','2024-03-01',12.44,false,'Builds/Gundams/Arthur.html',false,'2025-03-17',models[144],
+        false,false,false,'Mercury','D','2024-03-01',12.44,false,'Builds/Gundams/Arthur.html',false,'2025-12-29',models[144],
         [
             ['','']
         ],
@@ -8606,11 +8606,11 @@ const projects = [
         false,true,false,'Wing','B'
     ],
     ['Tallgeese Fl\u00FCgel',
-        [1,'Tallgeese Fl\u00FCgel'],'MG',true,true,false,'Wing','D','2022-05-08',20.17,false,'Builds/PBTallgeeseFlugelMG.html',false
+        [1,'Tallgeese Fl\u00FCgel'],'MG',true,true,false,'Wing','D','2022-05-08',20.17,false,'Builds/PBTallgeeseFlugelMG.html',false,'2025-10-06'
     ],
     ['Cambria',[1,'PB Vayeate'],'HG',false,true,false,'Wing','B'],
     ['Bibi',[1,'Wing Gundam'],'HG',
-        false,false,false,'Wing','D','2024-07-08',5.23,false,'Builds/Gundams/Bibi.html',false,'2025-05-12'
+        false,false,false,'Wing','D','2024-07-08',5.23,false,'Builds/Gundams/Bibi.html',false,'2025-12-01'
     ],
     ['Netanyahu',[1,'Wing Gundam'],'RG',false,false,false,'Wing','A'],
     /*
@@ -8791,7 +8791,7 @@ const projects = [
         true,false,false,'Wing','C','2022-06-05',10.83,false,'Builds/Specials/MGWingKAStr.html',false,'2025-02-03'
     ],
     ['Absolute Zero',[1,'Wing Gundam'],'PG',
-        true,false,false,'Wing','D','2024-03-22',17.25,true,'Builds/PG/PGWingZero.html',false,'2025-02-10'
+        true,false,false,'Wing','D','2024-03-22',17.25,true,'Builds/PG/PGWingZero.html',false,'2025-09-08'
     ],
     ['Zero Traditional',[1,'Wing Zero'],'MG',false,false,false,'Wing','B'],
     ['Zero Traditional [RG]',[1,'Wing Zero'],'RG',false,false,false,'Wing','B'],
@@ -9307,7 +9307,7 @@ const projects = [
         ],false,false,true,false
     ],
     ['Rostand',[1,'Astray, M1'],'HG',
-        false,false,false,'Seed','D','2024-07-11',5.69,false,'Builds/Gundams/Rostand.html',false,'2025-05-26'
+        false,false,false,'Seed','D','2024-07-11',5.69,false,'Builds/Gundams/Rostand.html',false,'2025-11-17'
     ],
     ['Bald Eagle',[1,'Astray Blue Frame'],'MG',false,false,false,'Seed','B'],
     ['Raphael',[1,'Astray Gold Frame'],'SD',false,false,false,'Seed','B'],
@@ -9463,8 +9463,8 @@ const projects = [
             ['Premium Bandai','https://p-bandai.com/us/item/N2563436001002']
         ],['Oberon'],false,true,'1:144',false,false,false,
     ],
-    ['Balthasar',[1,'Dagger L'],'HG',false,false,false,'Seed','A','2024',0,false,'Builds/Gundams/Balthasar.html',false,'',models[23]],     //Montague: Green
-    ['Benvolio',[1,'Dagger L'],'HG',false,false,false,'Seed','A','2024',0,false,'Builds/Gundams/Benvolio.html',false,'',models[23]],      //Montague: Orange
+    ['Balthasar',[1,'Dagger L'],'HG',false,false,false,'Seed','B','2025',0,false,'Builds/Gundams/Balthasar.html',false,'',models[23]],     //Montague: Green
+    ['Benvolio',[1,'Dagger L'],'HG',false,false,false,'Seed','A','2025',0,false,'Builds/Gundams/Benvolio.html',false,'',models[23]],      //Montague: Orange
     ['King Leir',[1,'Dagger L'],'HG',
         false,false,false,'Seed','E','2021-06-10',14.09,false,'Builds/Gundams/KingLeir.html',false,'2021-06-26',models[23],
         [
@@ -9511,9 +9511,9 @@ const projects = [
             ['NewType','https://newtype.us/p/V3s94PjelBrA0T06Q673/h/hgce-237-gat-o2l2-dagger-l']
         ],['Cordelia','Dobiel','Malphas','Leo Army'],false,true,'1:144'
     ],
-    ['Mercutio',[1,'Dagger L'],'HG',false,false,false,'Seed','A','2024',0,false,'Builds/Gundams/Mercutio.html',false,'',models[23]],    //Montague: Purple
-    ['Petruchio',[1,'Dagger L'],'HG',false,false,false,'Seed','B','2024',0,false,'Builds/Gundams/Petruchio.html',false,'',models[23]],     //Capulet: Blue
-    ['Rosaline',[1,'Dagger L'],'HG',false,false,false,'Seed','B','2024',0,false,'Builds/Gundams/Rosaline.html',false,'',models[23]],      //Capulet: Yellow
+    ['Mercutio',[1,'Dagger L'],'HG',false,false,false,'Seed','A','2025',0,false,'Builds/Gundams/Mercutio.html',false,'',models[23]],    //Montague: Purple
+    ['Petruchio',[1,'Dagger L'],'HG',false,false,false,'Seed','B','2025',0,false,'Builds/Gundams/Petruchio.html',false,'',models[23]],     //Capulet: Blue
+    ['Rosaline',[1,'Dagger L'],'HG',false,false,false,'Seed','B','2025',0,false,'Builds/Gundams/Rosaline.html',false,'',models[23]],      //Capulet: Yellow
     ['Samus: Dark Suit',[1,'Dagger L'],'HG',
         false,false,false,'Seed','E','2023-08-02',8.14,false,'Builds/Metroid/Dark.html','Metroid','2024-05-20',models[23],
         [
@@ -10017,8 +10017,10 @@ const projects = [
             'Federation Trooper'
         ],false,true,'1:144',false,false,'Varia Suit'
     ],
-    ['Samus: Scarlett Suit',[1,'Dagger L'],'HG',false,false,false,'Seed','B'],
-    ['Tybalt',[1,'Dagger L'],'HG',false,false,false,'Seed','A','2024',0,false,'Builds/Gundams/Tybalt.html',false,'',models[23]],        //Capulet: Red
+    ['Samus: Scarlett Suit',[1,'Dagger L'],'HG',
+        false,false,false,'Seed','C','2025-07-03',1.75,false,'Builds/Metroid/ScarletSam.html','Metroid','2026',models[23]
+    ],
+    ['Tybalt',[1,'Dagger L'],'HG',false,false,false,'Seed','A','2025',0,false,'Builds/Gundams/Tybalt.html',false,'',models[23]],        //Capulet: Red
     ['Friar Laurence',[1,'Dagger 105 + Gunbarrel'],'HG',false,false,false,'Seed','B'],
     ['Charizard',[1,'Destiny'],'MG',false,false,false,'Seed','B'],
     ['Charizard X',[1,'Destiny'],'SD',
@@ -10783,7 +10785,7 @@ const projects = [
         ],['Skygrasper [PG]'],false,true,'1:60',false,'Strike Perfect Grade','Strike'
     ], 
     ['Perfect Perfect',[1,'Strike, Perfect'],'PG',
-        true,false,false,'Seed','C','2024-05-17',17.25,true,'Builds/PG/PGPerfStrike.html',false,'2025-01-20',models[61]
+        true,false,false,'Seed','C','2024-05-17',17.25,true,'Builds/PG/PGPerfStrike.html',false,'2025-09-22',models[61]
     ],
     ['Perfect Strike [P-Bandai]',[1,'Strike, Perfect'],'RG',
         true,true,false,'Seed','E','2022-03-07',12.33,false,'Builds/PBandai/PBPerfectStrikeRG.html',false,'2022-09-13',models[61],
@@ -11739,14 +11741,14 @@ const projects = [
     ],
     ['Asmodeus',[1,'Dark Gundam'],'SD',false,false,false,'G','B'],
     ['Baal',[1,'Dark Gundam'],'HG',
-        false,false,false,'G','D','2024-08-20',5.6,false,'Builds/Gundams/Baal.html','Ars Goetia','2025-03-31'
+        false,false,false,'G','D','2024-08-20',5.6,false,'Builds/Gundams/Baal.html','Ars Goetia','2025-07-28'
     ],  //Mr Metallic
     ['Balam',[1,'Dark Gundam'],'HG',false,false,false,'G','B'],
     ['Beleth',[1,'Dark Gundam'],'SD',false,false,false,'G','B'],
     ['Belial',[1,'Dark Gundam'],'HG',false,false,false,'G','B'],
     ['Dark Gundam [SD]',[1,'Dark Gundam'],'SD',true,false,false,'G','E','2022-08-07',1.75,false,false,false],
     ['Paimon',[1,'Dark Gundam'],'SD',
-        false,false,false,'G','D','2024-08-20',4.63,false,'Builds/Gundams/Paimon.html','Ars Goetia','2025-04-28'
+        false,false,false,'G','D','2024-08-20',4.63,false,'Builds/Gundams/Paimon.html','Ars Goetia','2025-07-14'
     ],    //Mr Metallic
     ['Bruce',[1,'PB Dragon Gundam'],'HG',false,true,false,'G','B'],
     ['Brady',[1,'PB Gundam Maxter'],'HG',
@@ -12831,7 +12833,7 @@ const projects = [
         ],['Bella Donna','Sovereign'],true,true,false
     ],
     ['Pokeball',[1,'Podball'],'MG',
-        false,false,false,'UC','E','2024-11-22',9.75,false,'Builds/Gundams/PBall.html','Pokeball','2025-03-21',models[136],
+        false,false,false,'UC','E','2024-11-22',9.75,false,'Builds/Gundams/PBall.html','Pokeball','2025-03-24',models[136],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/PBallMain01.jpeg','Pokeball'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/PBallMain02.jpeg','Pokeball'],
@@ -13464,11 +13466,21 @@ const projects = [
         ],false,false,true
     ],
     ['Sasuki Delta [SD]',[1,'Delta, Saskui'],'SD',true,false,false,'Heroes','E','2021-09-05',1.5,false,false,false,'2022-06-20'],
-    ['Quetzalcoatl',[1,'Dragon, Dark Grasper'],'SD',false,false,false,'Heroes','D','2024-06-06',3.81,false,'Builds/SDW/Quetzl.html'], //red queen paint
-    ['Pharaoh',[1,'Dragon, Shining Grasper'],'SD',false,false,false,'Heroes','D','2024-07-08',3.24], //peacock
-    ['Tiamat',[1,'Dragon, Shining Grasper'],'SD',false,false,false,'Heroes','D','2024-07-04',2.58,false,'Builds/SDW/Tiamat.html'], //midnight city
-    ['Python',[1,'Dragon, Shining Grasper'],'SD',false,false,false,'Heroes','D','2024-07-06',3.49], //leviathan
-    ['Wadjet',[1,'Dragon, Shining Grasper'],'SD',false,false,false,'Heroes','D','2024-10-26',2.13], //Bubblegumcrisis
+    ['Quetzalcoatl',[1,'Dragon, Dark Grasper'],'SD',
+        false,false,false,'Heroes','D','2024-06-06',3.81,false,'Builds/SDW/Quetzl.html',false,'2025-12-22'
+    ], //red queen paint
+    ['Pharaoh',[1,'Dragon, Shining Grasper'],'SD',
+        false,false,false,'Heroes','D','2024-07-08',3.24,false,'Builds/SDW/Pharo.html',false,'2026-03-02'
+    ], //peacock
+    ['Tiamat',[1,'Dragon, Shining Grasper'],'SD',
+        false,false,false,'Heroes','D','2024-07-04',2.58,false,'Builds/SDW/Tiamat.html',false,'2026-01-05'
+    ], //midnight city
+    ['Python',[1,'Dragon, Shining Grasper'],'SD',
+        false,false,false,'Heroes','D','2024-07-06',3.49,false,'Builds/SDW/Pharo.html',false,'2026-02-02'
+    ], //leviathan
+    ['Wadjet',[1,'Dragon, Shining Grasper'],'SD',
+        false,false,false,'Heroes','D','2024-10-26',2.13,false,'Builds/SDW/Pharo.html',false,'2026-04-06'
+    ], //Bubblegumcrisis
     ['Ose',[1,'Duel, Taishi Ci'],'SD',false,false,false,'Heroes','B','',0,false,'','Ars Goetia'],
     ['Cronus',[1,'Epyon, Nobunaga'],'SD',false,false,false,'Heroes','B'],
     ['Helios',[1,'Freedom, Zhuge Liang'],'SD',
@@ -14044,7 +14056,7 @@ const projects = [
     
     //Pokemon
     ['Cetautomatix',[1,'Arceus'],'Pokemon',
-        false,false,false,'','D','2024-02-16',4.53,false,'Builds/Pokemon/Cetauto.html','Asterix','2025-08-25'
+        false,false,false,'','D','2024-02-16',4.53,false,'Builds/Pokemon/Cetauto.html','Asterix','2025-09-01'
     ],
     ['Obelix',[1,'Bulbasaur'],'Pokemon',
         false,false,false,'','E','2023-09-13',3.07,false,'Builds/Pokemon/Obelix.html','Asterix','2023-10-23',models[94],
@@ -14310,10 +14322,10 @@ const projects = [
         ],false,true,false,false,false,false,false,false,false,false,'Pokemon Select Series 6 Empoleon Evolution Set Model Kit'
     ],
     ['Soporifix',[1,'Entei'],'Pokemon',
-        false,false,false,'','B','2024',0,false,'Builds/Pokemon/Soporifix.html',false,'2025-12-29'
+        false,false,false,'','C','2025-07-03',1.28,false,'Builds/Pokemon/Soporifix.html',false,'2025-12-29'
     ],
     ['Astronomix',[1,'Gengar'],'Pokemon',
-        false,false,false,'','D','2023-12-11',2.68,false,'Builds/Pokemon/Astron.html','Asterix','2025-06-30'
+        false,false,false,'','D','2023-12-11',2.68,false,'Builds/Pokemon/Astron.html','Asterix','2025-08-04'
     ],
     ['Granfrog',[1,'Greninja'],'Pokemon',
         false,false,false,false,'E','2021-11-11',5.68,false,'Builds/Pokemon/Granfrog.html',false,'2022-08-17',models[11],
@@ -14460,7 +14472,7 @@ const projects = [
         ],['Chanticleerix'],false,true,false,false,false,false,false,false,false,'Pokemon Select Series 5 Ho-Oh Model Kit'
     ],
     ['Lutetia',[1,'Lucario'],'Pokemon',
-        false,false,false,'','D','2023-10-03',5.09,false,'Builds/Pokemon/Lutetia.html',false,'2025-06-30',models[167],
+        false,false,false,'','E','2023-10-03',5.09,false,'Builds/Pokemon/Lutetia.html',false,'2025-07-07',models[167],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Luteia01.jpeg','Lutetia'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Luteia02.jpeg','Lutetia'],
@@ -14489,13 +14501,13 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Luteia25.jpeg','Lutetia']
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/Luteia25.jpeg','Profile Photo: Lutetia'],
-        false,false,
+        'Named after the Celtic city of lights, Wanted to reflect this theme using bright silvers and golds. For this I used the Mr Hobby metallics line using primarily Mr Hobby Rough Gold and Mr Hobby White silver, combined with Tamiya copper for the base of the body. And for the energy ball, just a simple Tamiya candy blue effect.',false,
         [
             ['Video','https://youtu.be/EHOc0GJjXOw'],
             ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Lucario_(Pokémon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-plamo-collection-44-riolu-lucario-model-kit'],
             ['NewType','https://newtype.us/p/xfGGbv3OQReIt12rJaNC/h/pokemon-riolu-lucario']
-        ],['Dogmatix'],true,false,false,false,false,false,false,false,false,'Pokemon Select Series 44 Riolu & Lucario Model Kit'
+        ],['Dogmatix'],true,true,false,false,false,false,false,false,false,'Pokemon Select Series 44 Riolu & Lucario Model Kit'
     ],
     ['Chanticleerix',[1,'Lugia'],'Pokemon',
         false,false,false,'','E','2023-12-13',4.18,false,'Builds/Pokemon/Chantic.html','Asterix','2025-05-26',models[163],
@@ -14544,7 +14556,7 @@ const projects = [
         ],['Vitalstatistix'],true,true,false,false,false,false,false,false,false,'Pokemon Select Series 4 Lugia Model Kit'
     ],
     ['Bucolix',[1,'Lunala'],'Pokemon',
-        false,false,false,'','B','2024',0,false,'Builds/Pokemon/Bucolix.html',false,'2025-12-15'
+        false,false,false,'','C','2025-07-04',0.85,false,'Builds/Pokemon/Bucix.html',false,'2025-12-15'
     ],
     ['Unhygienix',[1,'Magikarp'],'Pokemon',false,false,false,'','A'],
     ['Cacofonix',[1,'Metagross'],'Pokemon',
@@ -14864,7 +14876,7 @@ const projects = [
         false,false,false,'','B','2025',0,false,'Builds/Pokemon/MantisForce.html',false,'2025'
     ],
     ['Tragicomix',[1,'Solgaleo'],'Pokemon',
-        false,false,false,'','B','2024',0,false,'Builds/Pokemon/Tragicomix.html',false,'2025-11-17'
+        false,false,false,'','C','2025-07-04',0.75,false,'Builds/Pokemon/Tragix.html',false,'2025-11-17'
     ],
     ['Cooper',[1,'Squirtle'],'Pokemon',
         false,false,false,'','E','2024-06-04',2.17,false,'Builds/Pokemon/Cooper.html',false,'2024-09-16',models[134],
@@ -14897,13 +14909,13 @@ const projects = [
         ],['Jade','Jasper'],false,true,false,false,false,false,false,false,false,'Pokemon Squirtle 17 Quick Model Kit'
     ],
     ['Pacifix',[1,'Suicune'],'Pokemon',
-        false,false,false,'','B','2024',0,false,'Builds/Pokemon/Pacifix.html',false,'2025-12-01'
+        false,false,false,'','C','2025-07-03',1.37,false,'Builds/Pokemon/Pacifix.html',false,'2025-12-01'
     ],
     ['Tusk',[1,'Tepig'],'Pokemon',
-        false,false,false,'','D','2023-10-22',3.1,false,'Builds/Pokemon/Tusk.html',false,'2025-05-19'
+        false,false,false,'','D','2023-10-22',3.1,false,'Builds/Pokemon/Tusk.html',false,'2025-07-21'
     ], 
     ['Prolix',[1,'Zekrom'],'Pokemon',
-        false,false,false,'','D','2023-12-13',4.05,false,'Builds/Pokemon/Prolix.html','Asterix','2025-07-28'
+        false,false,false,'','D','2023-12-13',4.05,false,'Builds/Pokemon/Prolix.html','Asterix','2025-08-18'
     ],
     
     //Digimon
