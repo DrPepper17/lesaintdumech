@@ -3187,6 +3187,32 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/Luteia22.jpeg']
         ]
+    ],
+    [
+        '2025-07-15',
+        'Archangel Michael',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/Paimon.jpeg',
+        [
+            [
+                'The 9th spirit of the Ars Goetia and the creepy girl who got her head whacked off in Hereditary, I present to you my first Dark Gundam build, aptly named after the demon king',
+                ['Paimon','Builds/Gundams/Paimon.html'],
+                '.'
+            ]
+        ],
+        [
+            'I have always wanted to build the Dark Gundam from G Gundam. Just the grandiosity and epicness of the Dark Gundam sets it apart from all other mecha in the series. Not even the psycho gundams of the Universal Century can compare. I\'ve always wanted a model of the Dark Gundam so was so ecstatic when I saw them unveil the SD kit. Which it is okay. But it is just an SD. But you make do with what you can get. Just I hope Bandai makes either an HG or RG version next. That would be so huge and epic. And I do not mean just the main head. But the whole reptilian body form.'
+        ],
+        [
+            [
+                ['Youtube','https://youtu.be/kNDEzeLtb1Q',true]
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/HeredGirl.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/Paimon13.jpeg']
+        ]
     ]
 ]
 
