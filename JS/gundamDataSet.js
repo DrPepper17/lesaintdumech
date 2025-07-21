@@ -3027,7 +3027,7 @@ const models = [
         ['Dragonair','lvl 55'],
         false,
         'Dragon Pokemon',
-        'An extremely rarely seen marine Pokémon. Its intelligence is said to match that of humans. It is said that this Pokémon lives somewhere in the sea and is said to be capable of flying around the globe in about 16 hours.',
+        'An extremely rarely seen marine Pokemon. Its intelligence is said to match that of humans. It is said that this Pokemon lives somewhere in the sea and is said to be capable of flying around the globe in about 16 hours.',
         '7\'03\"',
         [463.0,'463.0 lbs'],
         'I',
@@ -4988,14 +4988,14 @@ const models = [
         '1st Stage',
         false,
         false,
-        'Rainbow Pokémon',
-        'Its feathers are in seven colors. It is said that anyone seeing it is promised eternal happiness. Legends claim this Pokémon flies the world\'s skies continuously on its magnificent seven-colored wings. A rainbow is said to trail behind it as it flies.',
+        'Rainbow Pokemon',
+        'Its feathers are in seven colors. It is said that anyone seeing it is promised eternal happiness. Legends claim this Pokemon flies the world\'s skies continuously on its magnificent seven-colored wings. A rainbow is said to trail behind it as it flies.',
         '12\'06\"',
         [438.7,'438.7 lbs'],
         'II',
         'Pokemon Gold and Silver',
         false,
-        false,
+        true, //legendary
         false,
         false,
         false,
@@ -5616,7 +5616,7 @@ const models = [
             ['Mega Gyarados','Gyaradosite']
         ],
         'Atrocious Pokemon',
-        'When Magikarp evolves into Gyarados, its brain cells undergo a structural transformation. It is said that this transformation is to blame for this Pokémon\'s wildly violent nature. Rarely seen in the wild but it appears whenever the world is in conflict. They say that during past wars Gyarados would appear and leave blazing ruins in its wake, demolishing everything around it. It is huge, brutally vicious and enormously destructive, being capable of destroying entire cities in its rage.',
+        'When Magikarp evolves into Gyarados, its brain cells undergo a structural transformation. It is said that this transformation is to blame for this Pokemon\'s wildly violent nature. Rarely seen in the wild but it appears whenever the world is in conflict. They say that during past wars Gyarados would appear and leave blazing ruins in its wake, demolishing everything around it. It is huge, brutally vicious and enormously destructive, being capable of destroying entire cities in its rage.',
         '21\'04\"',
         [518.1,'518.1 lbs'],
         'I',
@@ -5687,14 +5687,14 @@ const models = [
         [
             ['Mega Rayquaza','Move: Dragon Ascent']
         ],
-        'Sky High Pokémon',
-        'Rayquaza lived for hundreds of millions of years in the earth\'s ozone layer above the clouds, never descending to the ground. This Pokémon appears to feed on water and particles in the atmosphere. Its existence had been completely unknown because it lived so high in the sky. It is said it would descend to the ground if Kyogre and Groudon were to fight.',
+        'Sky High Pokemon',
+        'Rayquaza lived for hundreds of millions of years in the earth\'s ozone layer above the clouds, never descending to the ground. This Pokemon appears to feed on water and particles in the atmosphere. Its existence had been completely unknown because it lived so high in the sky. It is said it would descend to the ground if Kyogre and Groudon were to fight.',
         '23\'00\"',
         [453.3,'453.3 lbs'],
         'III',
         'Pokemon Ruby and Sapphire',
         false,
-        false,
+        true, //legendary
         false,
         false,
         false,
@@ -5717,8 +5717,8 @@ const models = [
         [
             ['Mega Metagross','Metagrossite']
         ],
-        'Iron Leg Pokémon',
-        'Metagross is the result of two Metang achieving fusion and has four brains in total joined by a complex neural network. Combined, the four brains can breeze through difficult calculations faster than a supercomputer. This Pokémon can float in the air by tucking in its four legs. When hunting, this Pokémon pins the prey to the ground under its massive body. It then eats the helpless victim using the large mouth on its stomach.',
+        'Iron Leg Pokemon',
+        'Metagross is the result of two Metang achieving fusion and has four brains in total joined by a complex neural network. Combined, the four brains can breeze through difficult calculations faster than a supercomputer. This Pokemon can float in the air by tucking in its four legs. When hunting, this Pokemon pins the prey to the ground under its massive body. It then eats the helpless victim using the large mouth on its stomach.',
         '5\'03\"',
         [1212.5,'1212.5 lbs'],
         'III',
@@ -5773,7 +5773,7 @@ const models = [
         [
             ['Prinplup','lvl 16']
         ],
-        'Penguin Pokémon',
+        'Penguin Pokemon',
         'It lives along shores in northern countries where its thick down guards it from the cold. A skilled swimmer, it dives for over 10 minutes to hunt. But a poor walker, it often falls down. However, its strong pride makes it puff up its chest without a care. But this same pride makes it hate accepting food from others. It doesn\'t like to be taken care of. It\'s difficult to bond with since it won\'t listen to its trainer.',
         '1\'04\"',
         [11.5,'11.5 lbs'],
@@ -5879,7 +5879,7 @@ const models = [
         [243.6,'243.6 lbs'],
         'VI',
         'Pokemon X and Y',
-        false,
+        'Mega Evolution',
         false,
         false,
         false,
@@ -5907,7 +5907,7 @@ const models = [
         [221.6,'221.6 lbs'],
         'VI',
         'Pokemon X and Y',
-        false,
+        'Mega Evolution',
         false,
         false,
         false,
@@ -5929,16 +5929,16 @@ const models = [
         '1st Stage',
         false,
         [
-            ['Primal Ground','Red Orb']
+            ['Primal Groudon','Red Orb - Primal Reversion']
         ],
-        'Continental Pokémon',
+        'Continental Pokemon',
         'Groudon has long appeared in mythology as the creator of the land and expander of continents. Groudon has the power to scatter rain clouds and make water evaporate with light and heat. It came as a savior to people who had been suffering from terrible floods. After a cataclysmic battle with Kyogre, Groudon took to sleep in a magma pool underground which it is said volcanoes will erupt upon its awakening.',
         '11\'06\"',
         [2094.4,'2094.4 lbs'],
         'III',
         'Pokemon Ruby and Sapphire',
         false,
-        false,
+        true, //legendary
         false,
         false,
         false,
@@ -6039,14 +6039,14 @@ const models = [
             ['Mega Mewtwo X','Mewtwonite X'],
             ['Mega Mewtwo Y','Mewtwonite Y']
         ],
-        'Genetic Pokémon',
+        'Genetic Pokemon',
         'Created by scientists after years of horrific genetic manipulation and engineering, Mewtwo\'s genes were repeatedly spliced and recombined in the pursuit of creating the ultimate pokemon solely for battle. This torture made it turn vicious as a result. Even though the scientific prowess of humanity created this pokemon\'s body, they failed to endow Mewtwo with a compassionate heart. Its DNA is almost the same as Mew\'s. However its size and disposition are vastly different. Present day it is said to rest quietly in an undiscovered cave where it remains motionless to conserve energy to unleash its full power in battle. Its cold glowing eyes strike fear into its enemies and its mind consumed only by the thought of defeating everyone. It is said to be the most savage of all pokemon.',
         '6\'07\"',
         [269.0,'269.0 lbs'],
         'I',
         'Pokemon Red and Blue',
         false,
-        false,
+        true, //legendary
         false,
         false,
         false,
@@ -6065,14 +6065,14 @@ const models = [
         '1st Stage',
         false,
         false,
-        'New Species Pokémon',
+        'New Species Pokemon',
         'A mythical pokemon of South America, Mew is so rare that it is still considered a mirage by many experts. It is capable of making itself invisible at will and often hides from humans. Therefore only a few people worldwide have ever seen it. Because it can learn and use all known moves, some suspect it the ancestor of all Pokemon and its DNA is rumored to possess the genes of all Pokemon',
         '1\'04\"',
         [8.8,'8.8 lbs'],
         'I',
         'Pokemon Red and Blue',
         false,
-        false,
+        true, //legendary
         false,
         false,
         false,
@@ -6091,14 +6091,14 @@ const models = [
         '1st Stage',
         false,
         false,
-        'Diving Pokémon',
+        'Diving Pokemon',
         'It is said to be the guardian of the seas and is often spotted on the night of a storms. It has the power to calm even the most turbulent ocean tempest. Whe not seen, it spends its days sleeping in the most deepest ocean trench reserving its powers for the next time they\'re needed.',
         '17\'01\"',
         [476.2,'476.2 lbs'],
         'II',
         'Pokemon Gold and Silver',
         false,
-        false,
+        true, //legendary
         false,
         false,
         false,
@@ -6163,8 +6163,8 @@ const models = [
         [
             ['Raichu','Thunderstone']
         ],
-        'Mouse Pokémon',
-        'When several of these Pokémon gather, their electricity could build and cause lightning storms. It keeps its tail raised to monitor its surroundings but sometimes its tail attracts lightning in this pose. If you yank its tail, it will try to bite you. It also has small electric sacs on both its cheeks. If threatened, it looses electric charges from the sacs in self-defense. But can also use its sacs to revive a fellow fallen Pikachu.',
+        'Mouse Pokemon',
+        'When several of these Pokemon gather, their electricity could build and cause lightning storms. It keeps its tail raised to monitor its surroundings but sometimes its tail attracts lightning in this pose. If you yank its tail, it will try to bite you. It also has small electric sacs on both its cheeks. If threatened, it looses electric charges from the sacs in self-defense. But can also use its sacs to revive a fellow fallen Pikachu.',
         '1\'04\"',
         [13.2,'13.2 lbs'],
         'I',
@@ -6191,7 +6191,7 @@ const models = [
         [
             ['Lucario','Friendship/Daytime']
         ],
-        'Emanation Pokémon',
+        'Emanation Pokemon',
         'Riolus have the peculiar power of being able to see emotions such as joy and rage int he form of waves. They communicate with one another using their auras and their auras intensify during times of duress and emanate to warn the rest of the pack of danger of if it is afraid or sad. Its body is lithe yet powerful. It can crest three mountains and cross two canyons in one night.',
         '2\'04\"',
         [44.5,'44.5 lbs'],
@@ -6221,7 +6221,7 @@ const models = [
         [
             ['Megal Lucario','Lucarionite']
         ],
-        'Aura Pokémon',
+        'Aura Pokemon',
         'Lucarios have the ability to sense the auras of all things and a well-trained Lucario can sense auras to identify and teake in the feelings of creatures over half a mile away. By catching their auras it can read their thoughts and movements. Due to this ability no on can remain invisbile to a Lucario. Even if it is blind and cannot see you, it can still sense exactly where you are and foresee your every move.',
         '3\'11\"',
         [119,'119.0 lbs'],
@@ -6249,7 +6249,7 @@ const models = [
         [
             ['Pignite','lvl 17']
         ],
-        'Fire Pig Pokémon',
+        'Fire Pig Pokemon',
         'It can deftly dodge its foe\'s attacks while shooting fireballs from its nose but when it catches a cold this fire becomes pitch-black smoke instead. It also loves to eat roasted berries that it roasts itself before it eats them but sometimes it gets too excited and burns them to a crisp.',
         '1\'08\"',
         [21.8,'21.8 lbs'],
@@ -6267,6 +6267,438 @@ const models = [
         false,
         false,
         ['https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/74168c33-f661-440e-91f8-e3756c2bb336.jpeg','Tepig']
+    ],
+    [169,7,'Gengar',
+        false,
+        '0094',
+        'Ghost / Poison',
+        '3rd Stage',
+        [
+            ['Haunter','Trade']
+        ],
+        [
+            ['Mega Gengar','Gengarite']
+        ],
+        'Shadow Pokemon',
+        'Under a full moon this pokemon appears to attack people who get lost in the mountains. Said to be the culprit behind shadows that laugh in the moonlight at its unsuspecting victims\' fright. When a Gengar is close you will feel a sudden chill as it hides in your shadow and traps you in its curse.',
+        '4\'11\"',
+        [89.3,'89.3 lbs'],
+        'I',
+        'Pokemon Red and Blue',
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/GengarShadowBall.jpeg','Gengar']
+    ],
+    [170,7,'Zekrom',
+        false,
+        '0644',
+        'Dragon / Electric',
+        '1st Stage',
+        false,
+        false,
+        'Deep Black Pokemon',
+        'This pokemon appears in legends concealing itself in clouds as it flies across the Unova region. It its tail is a generator that creates electricity capable of scorching the enttire world in lightning. A creature of benevolence, it is drawn to and assists those who seek to build an ideal world',
+        '9\'06\"',
+        [760.6,'760.6 lbs'],
+        'V',
+        'Pokemon Black and White',
+        false,
+        true, //legendary
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/ZekSkies.jpeg','Zekrom']
+    ],
+    [171,7,'Arceus',
+        false,
+        '0493',
+        'Normal',
+        '1st Stage',
+        false,
+        false,
+        'Alpha Pokemon',
+        'According to legends, Arceus is said to have emerged from an egg in a place where there was nothing before the universe even existed. Then it hatched and shaped the universe with its 1,000 arms. It is the heavenly fount from which pours the light that shines across Hisui. Its luminance guides and protects all Pokemon. Hisuian mythology states that Arceus is the creator of all things.',
+        '10\'06\"',
+        [705.5,'705.5 lbs'],
+        'IV',
+        'Pokemon Diamond and Pearl',
+        false,
+        true, //legendary
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        'The Original One',
+        false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/RainbowArceus.jpeg','Arceus']
+    ],
+    [172,7,'Raikou',
+        false,
+        '0243',
+        'Electric',
+        '1st Stage',
+        false,
+        false,
+        'Thunder Pokemon',
+        'A Pokemon that races across the land while barking a cry that sounds like crashing thunder. Raikou stores energy inside its body, then sweeps across the land, shooting off electricity. The rain clouds it carries let it fire thunderbolts at will. They say that it descended with lightning.',
+        '6\'03\"',
+        [392.4,'392.4 lbs'],
+        'II',
+        'Pokemon Gold and Silver',
+        false,
+        true, //legendary
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/ThunderRaikou.jpeg','Raikou']
+    ],
+    [173,7,'Entei',
+        false,
+        '0244',
+        'Fire',
+        '1st Stage',
+        false,
+        false,
+        'Volcano Pokemon',
+        'A Pokemon that races across the land while barking a cry that sounds like crashing thunder. Raikou stores energy inside its body, then sweeps across the land, shooting off electricity. The rain clouds it carries let it fire thunderbolts at will. They say that it descended with lightning.',
+        '6\'11\"',
+        [436.5,'436.5 lbs'],
+        'II',
+        'Pokemon Gold and Silver',
+        false,
+        true, //legendary
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/EnteiCard.jpeg','Entei']
+    ],
+    [174,7,'Suicune',
+        false,
+        '0245',
+        'Water',
+        '1st Stage',
+        false,
+        false,
+        'Aurora Pokemon',
+        'Suicune is a divine Pokemon that blows around the world, always in search of a pure reservoir. Said to be an incarnation of the north wind, the north winds will somehow blow whenever it appears. It can instantly purify filthy, murky water.',
+        '6\'07\"',
+        [412.3,'412.3 lbs'],
+        'II',
+        'Pokemon Gold and Silver',
+        false,
+        true, //legendary
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/SuicuneStream.jpeg','Suicune']
+    ],
+    [175,7,'Solgaleo',
+        false,
+        '0791',
+        'Psychic / Steel',
+        '3rd Stage',
+        false,
+        [
+            ['Cosmeom','lvl 53 (Sun, Ultra Sun, Scarlet)']
+        ],
+        'Sunne Pokemon',
+        'Solgaleo is said to live in another world. The intense light that radiates from the surface of its body can make the darkest of nights light up like midday. Sometimes the result of its opening wormholes is that energy and life-forms from other worlds are called here to this world. In writings from the distant past, it is called by the name The Beast that Devours the Sun.',
+        '11\'02\"',
+        [507.1,'507.1 lbs'],
+        'VII',
+        'Pokemon Sun and Moon',
+        false,
+        true, //legendary
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/SolgaleoSunne.jpeg','Solgaleo']
+    ],
+    [176,7,'Lunala',
+        false,
+        '0792',
+        'Psychic / Ghost',
+        '3rd Stage',
+        false,
+        [
+            ['Cosmeom','lvl 53 (Moon, Ultra Moon, Violet)']
+        ],
+        'Moone Pokemon',
+        'Records of Lunala exist in writings from long, long ago, where it was known by the name The Beast that Calls the Moon. Said to live in another world, Lunala devours light, drawing the moonless dark veil of night over the brightness of day. When its third eye activates, Lunala flies away to another world.',
+        '13\'01\"',
+        [264.6,'264.6 lbs'],
+        'VII',
+        'Pokemon Sun and Moon',
+        false,
+        true, //legendary
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/LunalaMoone.jpeg','Lunala']
+    ],
+    [177,1,'0 Gundam',
+        'GN-000 0 Gundam',
+        'GN-000',
+        'Mobile Suit Gundam 00',
+        false,
+        false,
+        [
+            'CB-001 1 Gundam',
+            'GN-0000 00 Gundam',
+            'GN-XXX Gundam Rasiel',
+            'GNW-001 Gundam Throne Eins',
+            'GNW-002 Gundam Throne Zwei',
+            'GNW-003 Gundam Throne Drei',
+            'GNY-001 Gundam Astraea',
+            'GNY-002 Gundam Sadalsuud',
+            'GNY-003 Gundam Abulhool',
+            'GNY-004 Gundam Plutone',
+            'GN-000FA Full Armor 0 Gundam '
+        ],
+        'Anno Domini',
+        [2290,'2290 A.D.',2312],
+        'Ribbons Almark',
+        ['Lasse Aeon'],
+        'Krung Thep',
+        ['Celestial Being','Fereshte'],
+        [18.0,'18.0 Meters'],           //Height
+        [53.4,'53.4 Metric Tons'],        //Weight
+        'E-Carbon',
+        'Original GN Drive. Later: GN Condenser',
+        false,
+        [
+            'Beam Saber',
+            'Beam Gun',
+            'Beam Shield'
+        ],
+        [
+            'Veda-Linked Operating System',
+            'GN Feathers',
+            'Trans-Am System'
+        ],
+        'Kunio Okawara',
+        false,
+        false,
+        false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/OhGundam.jpeg','0 Gundam'],
+        true, 
+        [177],
+        '0 Gundam' 
+    ],
+    [178,1,'Exus',
+        'TS-MA4F Exus',
+        'TS-MA4F',
+        'Mobile Suit Gundam SEED Destiny',
+        false,
+        [
+            'TS-MA2mod.00 Moebius Zero',
+            'AQM/E-X04 Gunbarrel Striker'
+        ],
+        false,
+        'Cosmic Era',
+        [73,'73 C.E.','Present'],
+        'Neo Roanoke',
+        ['Morgan Chevalier'],
+        'Earth Alliance',
+        [
+            'Earth Alliance',
+            'OMNI Enforcer',
+            'Atlantic Federation',
+            'Phantom Pain',
+            'Eurasian Federation'
+        ],
+        [20.11,'20.11 Meters'],           //Height
+        [45.39,'45.39 Metric Tons'],        //Weight
+        false,
+        'Ultracompact Energy Battery',        
+        [
+            'GAU-M2S 38.5mm Machine Gun',
+            'M54 "Archer" Quadruple Missile Launcher',
+            'MAU-M3 Twin Linear Gun',
+            'M16M-D4 Gunbarrel (x4)',
+            'M16M-D4 Gunbarrel: Equipped w/ GAU-868L2 Twin Beam Gun (2 x Gunbarrel)',
+            'M16M-D4 GunbarrelL Equipped w/ DE-RXM91C Field Edge "Horned Moon" beam saber (1 x Gunbarrel)'
+        ],
+        false,
+        false,
+        'Kimitoshi Yamane',
+        false,
+        'Limited Production Multi-Vector Assault Space Mobile Armor',
+        true,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/ExusInSpace.jpeg','Exus'],
+        false,
+        [178],
+        'Exus' 
+    ],
+    [179,1,'M1 Astray',
+    'MBF-M1 M1 Astray',
+    'MBF-M1',
+    'Mobile Suit Gundam SEED',
+    false,
+    [
+        'MBF-P01 Gundam Astray Gold Frame',
+        'MBF-P02 Gundam Astray Red Frame',
+        'MBF-P03 Gundam Astray Blue Frame',
+        'MBF-P04 Gundam Astray Green Frame',
+        'MBF-P05 Gundam Astray Unit 5'
+    ],
+    [
+        'MBF-M1A M1A Astray',
+        'MBF-M1+EF-24R M1 Astray Shrike',
+        'MVF-M11C Murasame',
+        'MWF-JG71 Raysta'
+    ],
+    'Cosmic Era',
+    [71,'June 16, 71 C.E.',73],
+    'Soldiers of Orb',
+    [
+        'Asagi Caldwell',
+        'Juri Wu Nien',
+        'Mayura Labatt',
+        'Maruoichi',
+        'Kuno',
+        'Kikuchi',
+        'Jean Carry',
+        'Rondo Ghina Sahaku',
+        'Lowe Guele',
+        'Ledonir Kisaka'
+    ],
+    'Morgenröte Inc',
+    [
+        'Orb National Defense Force',
+        'Kusanagi Corps',
+        'M1 Astray Team',
+        'Three Ships Alliance'
+    ],
+    [17.53,'17.53 Meters'],
+    [53.5,'53.5 Metric Tons'],
+    'Foam Metal',
+    'Ultracompact Energy Battery',
+    [
+        '"Igelstellung" 75mm Multi-Barrel CIWS (x2)'
+    ],
+    [
+        'Type 70 Beam Saber (x2)',
+        'Type 71 Beam Rifle',
+        'Beam Shield',
+        'Anti-Ship Sword (x2)'
+    ],
+    [
+        'Natural-Use Operating System'
+    ],
+    'Kunio Okawara',
+    false,
+    'Mass Production General-Purpose Mobile Suit',
+    false,
+    ['https://hosting.photobucket.com/images/i/lesaintdumech/M1_Astray.jpeg','M1 Astray'],
+    false,
+    [179],
+    'Astray'
+    ],
+    [180,1,'Shining Grasper Dragon',
+        'SDW Heroes Shining Grasper Dragon',
+        false,
+        'SDW Heroes',
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        'FX-550 Skygrasper',
+        false,
+        false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/ShiningGrasperBox.jpeg','SDW Shining Grasper Dragon'],
+        true,
+        [180],
+        'SDW Dragon'
+    ],
+    [181,1,'Dark Grasper Dragon',
+        'SDW Heroes Dark Grasper Dragon',
+        false,
+        'SDW Heroes',
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        'FX-550 Skygrasper',
+        false,
+        false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/DarkGrasperBox.jpeg','SDW Dark Grasper Dragon'],
+        true,
+        [180],
     ]
 ];
 
@@ -6480,7 +6912,7 @@ const projects = [
         ['https://hosting.photobucket.com/images/i/lesaintdumech/pbaerialpermsix15.jpeg','Profile Photo: PB Aerial Permet Six'],
         'Saw this on P-Bandai\'s website and had to have it. Not that different than a standard HG Aerial. Just cooler more cosmic shade of colors.',false,
         [
-            ['Premium Bandai','https://p-bandai.com/us/item/N2687957001002']
+            ['Premium Bandai','https://p-bandai.com/us/item/F2687957004']
         ],false,false,true,'1:144',false,'Permet Score Six','Permet Score Six'
     ],
     ['Ariel',[1.5,'Aerial','Mirasoul Flight Pack'],'HG',
@@ -6592,14 +7024,35 @@ const projects = [
         ],false,true,true,'1:144'
     ],
     ['Morgause',[1,'Aerial'],'HG',
-        false,false,false,'Mercury','D','2024-02-16',7.64,false,'Builds/Gundams/Morgause.html',false,'2025-12-15',models[141],
+        false,false,false,'Mercury','D','2024-02-16',7.64,false,'Builds/Gundams/MorgausAerial.html',false,'2025-12-15',models[141],
         [
-            ['','Morgause']
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GMorgausAerial01.jpeg','Morgause'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GMorgausAerial02.jpeg','Morgause'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GMorgausAerial03.jpeg','Morgause'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GMorgausAerial04.jpeg','Morgause'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GMorgausAerial05.jpeg','Morgause'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GMorgausAerial06.jpeg','Morgause'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GMorgausAerial07.jpeg','Morgause'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GMorgausAerial08.jpeg','Morgause'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GMorgausAerial09.jpeg','Morgause'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GMorgausAerial10.jpeg','Morgause'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GMorgausAerial11.jpeg','Morgause'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GMorgausAerial12.jpeg','Morgause'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GMorgausAerial13.jpeg','Morgause'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GMorgausAerial14.jpeg','Morgause'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GMorgausAerial15.jpeg','Morgause'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GMorgausAerial16.jpeg','Morgause'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GMorgausAerial17.jpeg','Morgause'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GMorgausAerial18.jpeg','Morgause'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GMorgausAerial19.jpeg','Morgause'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GMorgausAerial20.jpeg','Morgause'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GMorgausAerial21.jpeg','Morgause'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GMorgausAerial22.jpeg','Morgause']
         ],
-        ['','Profile Photo: Morgause'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/GMorgausAerial19.jpeg','Profile Photo: Morgause'],
         'Description:',false,
         [
-            ['Video',''],
+            ['Video','https://youtu.be/dvQp68psABI'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/hgtwfm-1-144-03-gundam-aerial'],
             ['NewType','https://newtype.us/p/SLQANOrlxQEO4a9t3lJ7/h/hgwfm-03-gundam-aerial']
         ],false,true,false,'1:144'
@@ -7260,14 +7713,30 @@ const projects = [
         ],false,true,true,'1:144'
     ],
     ['Arthur',[1,'Calibarn'],'HG',
-        false,false,false,'Mercury','D','2024-03-01',12.44,false,'Builds/Gundams/Arthur.html',false,'2025-12-29',models[144],
+        false,false,false,'Mercury','D','2024-03-01',12.44,false,'Builds/Gundams/ArthurCalibarn.html',false,'2025-12-29',models[144],
         [
-            ['','']
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GArthurCalibarn01.jpeg','Arthur'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GArthurCalibarn02.jpeg','Arthur'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GArthurCalibarn03.jpeg','Arthur'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GArthurCalibarn04.jpeg','Arthur'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GArthurCalibarn05.jpeg','Arthur'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GArthurCalibarn06.jpeg','Arthur'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GArthurCalibarn07.jpeg','Arthur'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GArthurCalibarn08.jpeg','Arthur'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GArthurCalibarn09.jpeg','Arthur'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GArthurCalibarn10.jpeg','Arthur'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GArthurCalibarn11.jpeg','Arthur'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GArthurCalibarn12.jpeg','Arthur'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GArthurCalibarn13.jpeg','Arthur'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GArthurCalibarn14.jpeg','Arthur'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GArthurCalibarn15.jpeg','Arthur'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GArthurCalibarn16.jpeg','Arthur'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GArthurCalibarn17.jpeg','Arthur']
         ],
-        ['','Profile Photo: '],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/GMorgausAerial02.jpeg','Profile Photo: Arthur'],
         'Description:',false,
         [
-            ['Video',''],
+            ['Video','https://youtu.be/Gl_xGPrTlmo'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/mobile-suit-gundam-the-witch-from-mercury-new-product-b-tentative'],
             ['NewType','https://newtype.us/p/ubZ7MYRvQHJJwuKaUZL3/h/hgwfm-26-gundam-calibarn']
         ],false,true,false,'1:144'
@@ -7348,7 +7817,7 @@ const projects = [
         ['https://hosting.photobucket.com/images/i/lesaintdumech/pbgundnode36.jpeg','Profile Photo: PB Gundnode'],
         'I was first ecstatic when Witch from Mercury first introduced the Gundv\u00F6lva. But then I was even more ecstatic when the series then surpassed the V\u00F6lva with the introduction of the Gundnode. It was the most coolest mass produced unmanned unit ever. Probably in the whole franchise. Even surpassing my love of the Dagger L. I had been waiting forever for Bandai to introduce kits for the Gundnode. But it kept never coming. Only to then be surprised when it was finally revealed to be a Premium Bandai kit. I entered in my credit card information and hit order immediately soon was it was revealed. I definitely am going to be doing more with this in the future. Going to have to build a whole Gundnode army, just like Eri and Prospera did in the anime.',false,
         [
-            ['Premium Bandai','https://p-bandai.com/us/item/N2703255001001']
+            ['Premium Bandai','https://p-bandai.com/us/item/F2703255002']
         ],false,false,true,'1:144',false,'Gundnode','PB Gundnode'
     ],
     ['Dark Samus: Echoes',[1,'Gundvolva'],'HG',
@@ -7783,7 +8252,7 @@ const projects = [
         [
             ['Video','https://youtu.be/kyo2NjIQQjM'],
             ['Cassiel','https://digitalbible.ca/article-page/bible-study-biblical-characters-who-is-Cassiel-1699570173312x557916452003077060'],
-            ['Premium Bandai','https://p-bandai.com/us/item/N2675535001002'],
+            ['Premium Bandai','https://p-bandai.com/us/item/F2675535002'],
             ['TurboDork: Fahrenheit','https://turbodork.com/products/fahrenheit']
         ],false,false,true,'1:144'
     ],
@@ -7858,7 +8327,7 @@ const projects = [
         [
             ['Video','https://youtu.be/zhm_Y7NCDok'],
             ['Eisheth','https://digitalbible.ca/article-page/bible-study-biblical-characters-who-is-Eisheth-1699570175145x240886657923993900'],
-            ['Premium Bandai','https://p-bandai.com/us/item/N2661389001001']
+            ['Premium Bandai','https://p-bandai.com/us/item/F2661389002']
         ],false,false,true,'1:144'
     ],
     ['Meshabber',[1,'LFrith Preproduction Model'],'HG',false,true,false,'Mercury','B'],  //IDF Green
@@ -7898,7 +8367,7 @@ const projects = [
         ['https://hosting.photobucket.com/images/i/lesaintdumech/lfpreprod14.jpeg','Profile Photo: PB Lfrith Pre-Prod'],
         'Rather simplistic in design but the Lfrith Pre-Production models introduced in the Witch From Mercruy Prologue were also rather cute. Bandai sure held out for quite a while at introducing the model kits for this model. But when they were introduced on Premium Bandai it just made sense. Of course this is only a straight build but I will introduece a painted version later on.',false,
         [
-            ['Premium Bandai','https://p-bandai.com/us/item/N2703002001003']
+            ['Premium Bandai','https://p-bandai.com/us/item/F2703002001']
         ],false,false,true,'1:144',false,'Lfrith Preprod','PB Lfrith Preprod'
     ],
     ['Spire',[1,'LFrith Thorn'],'HG',false,false,false,'Mercury','A','202x',0,false,'Builds/Metroid/Spire.html','Metroid'],
@@ -8267,7 +8736,7 @@ const projects = [
         'So Gundam Wing was the first Gundam series I was ever introduced to and my favorite. The designs of each movile suit in the tv series, particularly the Gundams, were so unique and amazing I just absolutely loved them. However years later for the movie and the new mangas all the Gundams got redesigned into the EW versions. The Some of the EWs were cool, i.e. Wing, Heavyarms and Altron. Some seemed pointless in that it was difficult to tell the difference, Sandrock, Tallgueese and Epyon. But one in particular I absolutely hated the redesign and thought it made it wrose, and that was the Deathscythe Hellscythe. However annoying soon as they unvieled the EW redesign they completely retired the tv original version completely out of canon that it has been completely impossible to find model kits of the original in rotation. Which had been driving me crazy. Anyhow recently Premium Bandai announced the tv version being sold online as a limited time P-Bandai exclusive. So I just had to grab it. I wound up grabbing two. Not because I wanted to do a straight build, but because some of the intricate details, particularly the tiny bones on the chest, I was scared of messing up so I figured it best to have a backup. Luckily, and maybe this shows my skill is improving, that I got it right on the first attempt and did not have to grab the spare at all. But there is no use in leaving a spare kit laying around so afterwards I wound up building as a straight build just to compare the paint verse the straight. Logically the paint job looks best. So without further adieu, I present to you the son of Dracula himself, PB Alucard. THis kit and build has been long time overdue. ',false,
         [
             ['Video','https://www.instagram.com/reel/CymDh9xOFkT/?igshid=MzRlODBiNWFlZA=='],
-            ['Premium Bandai','https://p-bandai.com/us/item/N2554771001001'],
+            ['Premium Bandai','https://p-bandai.com/us/item/F2554771002'],
             ['TurboDork: Black Ice','https://turbodork.com/products/black-ice'],
             ['TurboDork: Rainbow Roll','https://turbodork.com/products/rainbow-roll'],
             ['TurboDork: Sparkling Motion','https://turbodork.com/products/sparkle-motion']
@@ -8323,8 +8792,8 @@ const projects = [
         ['https://hosting.photobucket.com/images/i/lesaintdumech/pbgem40.jpeg','Profile Photo: PB Geminass 01'],
         'P-Bandai: HG 1/144 GUNDAM GEMINASS 01 \'n\' HG 1/144 Geminass ASSAULT BOOSTER & HIGH MOBILITY UNIT',false,
         [
-            ['P-Bandai: Geminass Unit','https://p-bandai.com/us/item/N2505896001004'],
-            ['P-Bandai: Geminass Expansion Set','https://p-bandai.com/us/item/N2515196001003']
+            ['P-Bandai: Geminass Unit','https://p-bandai.com/us/item/F2505896005'],
+            ['P-Bandai: Geminass Expansion Set','https://p-bandai.com/us/item/F2515196006']
         ],false,false,true,false
 
     ],
@@ -8638,7 +9107,60 @@ const projects = [
     ],
     ['Cambria',[1,'PB Vayeate'],'HG',false,true,false,'Wing','B'],
     ['Bibi',[1,'Wing Gundam'],'HG',
-        false,false,false,'Wing','D','2024-07-08',5.23,false,'Builds/Gundams/Bibi.html',false,'2025-12-01'
+        false,false,false,'Wing','D','2024-07-08',5.23,false,'Builds/Gundams/BibiWingG.html',false,'2025-12-01',models[54],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BibiWingG01.jpeg','Bibi'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BibiWingG02.jpeg','Bibi'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BibiWingG03.jpeg','Bibi'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BibiWingG04.jpeg','Bibi'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BibiWingG05.jpeg','Bibi'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BibiWingG06.jpeg','Bibi'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BibiWingG07.jpeg','Bibi'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BibiWingG08.jpeg','Bibi'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BibiWingG09.jpeg','Bibi'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BibiWingG31.jpeg','Bibi'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BibiWingG33.jpeg','Bibi'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BibiWingG34.jpeg','Bibi'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BibiWingG35.jpeg','Bibi'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BibiWingG36.jpeg','Bibi'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BibiWingG37.jpeg','Bibi'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BibiWingG38.jpeg','Bibi'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BibiWingG39.jpeg','Bibi'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BibiWingG41.jpeg','Bibi'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BibiWingG42.jpeg','Bibi'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BibiWingG43.jpeg','Bibi'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BibiWingG44.jpeg','Bibi'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BibiWingG10.jpeg','Bibi'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BibiWingG11.jpeg','Bibi'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BibiWingG12.jpeg','Bibi'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BibiWingG13.jpeg','Bibi'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BibiWingG14.jpeg','Bibi'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BibiWingG15.jpeg','Bibi'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BibiWingG16.jpeg','Bibi'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BibiWingG17.jpeg','Bibi'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BibiWingG18.jpeg','Bibi'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BibiWingG19.jpeg','Bibi'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BibiWingG20.jpeg','Bibi'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BibiWingG21.jpeg','Bibi'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BibiWingG22.jpeg','Bibi'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BibiWingG23.jpeg','Bibi'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BibiWingG24.jpeg','Bibi'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BibiWingG25.jpeg','Bibi'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BibiWingG26.jpeg','Bibi'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BibiWingG27.jpeg','Bibi'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BibiWingG28.jpeg','Bibi'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BibiWingG29.jpeg','Bibi'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BibiWingG30.jpeg','Bibi'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BibiWingG32.jpeg','Bibi'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BibiWingG40.jpeg','Bibi'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BibiWingG45.jpeg','Bibi']
+        ],['https://hosting.photobucket.com/images/i/lesaintdumech/BibiWingG34.jpeg','Profile Photo: Bibi'],
+        'DESCRIPTION',false,
+        [
+            ['Video','https://youtu.be/RllRlcFqYVA'],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/hgac-1-144-162-wing-gundam'],
+            ['NewType','https://newtype.us/p/SQ8KX1kMAyY1uPykCnKU/h/hgac-162-wing-gundam']
+        ],false,true,false,'1:144'
     ],
     ['Netanyahu',[1,'Wing Gundam'],'RG',false,false,false,'Wing','A'],
     /*
@@ -8710,7 +9232,7 @@ const projects = [
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/pbzc03.jpeg','Profile Photo: P-Bandai Clear Wing Zero'],false,false,
         [
-            ['Premium Bandai','https://p-bandai.com/us/item/N2390162001002']
+            ['Premium Bandai','https://p-bandai.com/us/item/F2390162002']
         ],false,false,true,'1:144'
     ],
     ['Zero Rouge',[1,'Wing Zero'],'SD',
@@ -9031,7 +9553,7 @@ const projects = [
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/pborais07.jpeg','Profile Photo: PB 00 Raiser Trans-Am'],false,false,
         [
-            ['Premium Bandai','https://p-bandai.com/us/item/N2519708001001']
+            ['Premium Bandai','https://p-bandai.com/us/item/F2519708002']
         ],false,false,true,'1:144',false,false,false,
     ],
     ['Silver \'n\' Gold',[1,'00 Gundam QAN[T]'],'RG',
@@ -9082,7 +9604,7 @@ const projects = [
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/pbqantclear05.jpeg','Profile Photo: PB Clear QAN[T]'],false,false,
         [
-            ['Premium Bandai','https://p-bandai.com/us/item/N2519709001001']
+            ['Premium Bandai','https://p-bandai.com/us/item/F2359481001']
         ],false,false,true,'1:144'
     ],
     ['Gandrayda',[1,'Astraea Type F'],'HG',false,false,false,'00','A','202x',0,false,'Builds/Metroid/Gandrayda.html','Metroid'],
@@ -9124,7 +9646,7 @@ const projects = [
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/pbex09.jpeg','Profile Photo: PB Exia Trans-Am'],false,false,
         [
-            ['Premium Bandai','https://p-bandai.com/us/item/N2519710001001']
+            ['Premium Bandai','https://p-bandai.com/us/item/F2519710002']
         ],false,false,true,'1:144'
     ],
     ['Federation Trooper',[1,'Flag'],'HG',
@@ -9177,7 +9699,7 @@ const projects = [
             'Samus: Zero Suit'
         ],true,true,'1:144'
     ],
-    ['Queen Bee',[1,'GN Archer'],'HG',false,false,false,'00','B','2024',0],
+    ['Queen Bee',[1,'GN Archer'],'HG',false,false,false,'00','B','2025',0],
     ['Harute (Final Battle)',[1,'Harute'],'HG',
         true,true,false,'00','E','2022-03-08',5.75,false,'Builds/PBandai/PBHaruteFinalHG.html',false,'2022-11-21',models[70],
         [
@@ -9194,9 +9716,10 @@ const projects = [
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/pbharfb05.jpeg','Profile Photo: PB Harute'],false,false,
         [
-            ['Premium Bandai','https://p-bandai.com/us/item/N2570543001001']
+            ['Premium Bandai','https://p-bandai.com/us/item/F2570543001']
         ],false,false,true,'1:144'
     ],
+    ['Agatha',[1,'Nadlee'],'HG',false,false,false,'00','B','2025',0],
     ['Virtue/Nadleeh [MG]',[3,'MG Virtue','MG Nadlee','Virtue Stand'],'MG',
         true,false,false,'00','E','2022-02',20.08,true,'Builds/Specials/VirtueNadleeStand.html',false,'2023-01-16',models[77],
         [
@@ -9279,10 +9802,54 @@ const projects = [
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/pbzab07.jpeg','Profile Photo: PB Zabanya'],false,false,
         [
-            ['Premium Bandai','https://p-bandai.com/us/item/N2570542001001']
+            ['Premium Bandai','https://p-bandai.com/us/item/F2570542001']
         ],false,false,true,'1:144'
     ],
-    ['Graphite',[1,'0 Gundam'],'HG',false,false,false,'00','D','2024-11-18',6.42],
+    ['Graphite',[1,'0 Gundam'],'HG',
+        false,false,false,'00','D','2024-11-18',6.42,false,'Builds/Gundams/GraphiteOG.html',false,'2025-11-03',models[177],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GraphiteOG01.jpeg','Graphite'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GraphiteOG02.jpeg','Graphite'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GraphiteOG03.jpeg','Graphite'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GraphiteOG04.jpeg','Graphite'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GraphiteOG05.jpeg','Graphite'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GraphiteOG06.jpeg','Graphite'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GraphiteOG07.jpeg','Graphite'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GraphiteOG08.jpeg','Graphite'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GraphiteOG09.jpeg','Graphite'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GraphiteOG10.jpeg','Graphite'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GraphiteOG11.jpeg','Graphite'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GraphiteOG12.jpeg','Graphite'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GraphiteOG13.jpeg','Graphite'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GraphiteOG14.jpeg','Graphite'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GraphiteOG15.jpeg','Graphite'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GraphiteOG16.jpeg','Graphite'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GraphiteOG17.jpeg','Graphite'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GraphiteOG18.jpeg','Graphite'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GraphiteOG19.jpeg','Graphite'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GraphiteOG20.jpeg','Graphite'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GraphiteOG21.jpeg','Graphite'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GraphiteOG22.jpeg','Graphite'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GraphiteOG23.jpeg','Graphite'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GraphiteOG24.jpeg','Graphite'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GraphiteOG25.jpeg','Graphite'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GraphiteOG26.jpeg','Graphite'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GraphiteOG27.jpeg','Graphite'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GraphiteOG28.jpeg','Graphite'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GraphiteOG29.jpeg','Graphite'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GraphiteOG30.jpeg','Graphite'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GraphiteOG31.jpeg','Graphite'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GraphiteOG32.jpeg','Graphite'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GraphiteOG33.jpeg','Graphite'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GraphiteOG34.jpeg','Graphite']
+        ],['https://hosting.photobucket.com/images/i/lesaintdumech/GraphiteOG34.jpeg','Profile Photo: Graphite'],
+        'DESCRIPTION',false,
+        [
+            ['Video','https://youtu.be/R2WFXtj61RE'],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/hg-1-144-52-o-gundam'],
+            ['NewType','https://newtype.us/p/Kk3dlpRmrJYF7kE29Bce/h/hg00-052-gn-000-o-gundam-gray#reviews']
+        ],false,true,false,'1:144'
+    ],
 
     //Correct Century (Turn A)
     ['John Wayne',[1,'Turn-A'],'SD',
@@ -9335,7 +9902,54 @@ const projects = [
         ],false,false,true,false
     ],
     ['Rostand',[1,'Astray, M1'],'HG',
-        false,false,false,'Seed','D','2024-07-11',5.69,false,'Builds/Gundams/Rostand.html',false,'2025-11-17'
+        false,false,false,'Seed','D','2024-07-11',5.69,false,'Builds/Gundams/RostandAstray.html',false,'2025-11-17',models[179],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RostandAstray01.jpeg','Rostand'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RostandAstray02.jpeg','Rostand'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RostandAstray03.jpeg','Rostand'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RostandAstray04.jpeg','Rostand'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RostandAstray05.jpeg','Rostand'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RostandAstray06.jpeg','Rostand'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RostandAstray07.jpeg','Rostand'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RostandAstray08.jpeg','Rostand'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RostandAstray09.jpeg','Rostand'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RostandAstray10.jpeg','Rostand'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RostandAstray11.jpeg','Rostand'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RostandAstray12.jpeg','Rostand'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RostandAstray13.jpeg','Rostand'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RostandAstray14.jpeg','Rostand'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RostandAstray15.jpeg','Rostand'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RostandAstray16.jpeg','Rostand'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RostandAstray17.jpeg','Rostand'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RostandAstray18.jpeg','Rostand'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RostandAstray19.jpeg','Rostand'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RostandAstray20.jpeg','Rostand'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RostandAstray21.jpeg','Rostand'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RostandAstray22.jpeg','Rostand'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RostandAstray23.jpeg','Rostand'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RostandAstray24.jpeg','Rostand'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RostandAstray25.jpeg','Rostand'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RostandAstray26.jpeg','Rostand'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RostandAstray27.jpeg','Rostand'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RostandAstray28.jpeg','Rostand'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RostandAstray29.jpeg','Rostand'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RostandAstray30.jpeg','Rostand'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RostandAstray31.jpeg','Rostand'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RostandAstray32.jpeg','Rostand'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RostandAstray33.jpeg','Rostand'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RostandAstray34.jpeg','Rostand'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RostandAstray35.jpeg','Rostand'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RostandAstray36.jpeg','Rostand'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RostandAstray37.jpeg','Rostand'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RostandAstray38.jpeg','Rostand'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RostandAstray39.jpeg','Rostand']
+        ],['https://hosting.photobucket.com/images/i/lesaintdumech/RostandAstray26.jpeg','Profile Photo: Rostand'],
+        'DESCRIPTION',false,
+        [
+            ['Video','https://youtu.be/NPciKb0TT94'],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/hg-1-144-r16-m1-astray'],
+            ['NewType','https://newtype.us/p/Ta65A5NSNhAeeqOaBVph/h/hgseed-r16-mbf-01-m1-astray']
+        ],false,true,false,'1:144'
     ],
     ['Bald Eagle',[1,'Astray Blue Frame'],'MG',false,false,false,'Seed','B'],
     ['Raphael',[1,'Astray Gold Frame'],'SD',false,false,false,'Seed','B'],
@@ -9488,7 +10102,7 @@ const projects = [
         ['https://hosting.photobucket.com/images/i/lesaintdumech/parmageddon17.jpeg','Profile Photo: Armageddon'],
         'One of the coolest things I love about the SEED universe is the versatility of the mobile suits in how they all can have added equipment packs added on to enhance their features. However very few of these packs have been made as actual add-on model kits to add to the current model kit lineup. So when I saw that P-Bandai was releasing the Dagger L expansion pack I just had to get it and paint it. Included is the Doppelhorn Dual Recoilless Cannon, which is the very long barrel guns mounted on the Dagger\'s shoulders. And also included is the Multi-Launcher pack which is the large square box-like structure that houses the long range nuclear ICBMs stored inside that were used to vaporize the Boaz military asteroid in the final story arc of Gundam SEED. To mount the two units I build two new Dagger Ls which I painted identical my previous project King Leir. Bringing my Dagger count now up to three: King Leir and his two daughters Gonorilla and Regan. Also included is Oberon, acting as their squadron commander.',false,
         [
-            ['Premium Bandai','https://p-bandai.com/us/item/N2563436001002']
+            ['Premium Bandai','https://p-bandai.com/us/item/F2563436001']
         ],['Oberon'],false,true,'1:144',false,false,false,
     ],
     ['King Leir',[1,'Dagger L'],'HG',
@@ -10047,7 +10661,7 @@ const projects = [
         ],false,true,'1:144',false,false,'Fusion Suit'
     ],
     ['Samus: Scarlet Suit',[1,'Dagger L'],'HG',
-        false,false,false,'Seed','C','2025-07-03',3.67,false,'Builds/Metroid/ScarletSam.html','Metroid','2026',models[23]
+        false,false,false,'Seed','C','2025-07-03',4.55,false,'Builds/Metroid/ScarletSam.html','Metroid','2026',models[23]
     ],
     ['Friar Laurence',[1,'Dagger 105 + Gunbarrel'],'HG',false,false,false,'Seed','B'],
     ['Charizard',[1,'Destiny'],'MG',false,false,false,'Seed','B'],
@@ -10105,7 +10719,7 @@ const projects = [
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/pbmanstrike03.jpeg','Profile Photo: Maneuver Striker'],false,false,
         [
-            ['Premium Bandai','https://p-bandai.com/us/item/N2583175001001']
+            ['Premium Bandai','https://p-bandai.com/us/item/F2583175006']
         ],false,false,true,'1:100',false,false,false
     ],
     ['Eternal',[1,'Eternal'],'EX',
@@ -10146,7 +10760,107 @@ const projects = [
         'This was my first ship buid. And I am awfully quite attached to it. At the time I was in a Gundam Seed kick and rewatching that series so the ships and machines from that saga was on my mind. Seed is probably home to all my favorite vessels throughout the entire Gundam saga. Whether it be Eternal or Archangel they\'re all so cool. And Eternal is by my far the coolest one. For this I was trying to be as realistic and close to the source material as possible. So rather than do a custom design I painted it exactly as how it appears in the anime. So expect lots of pink and purples... Also..., it has got to be pointed out how cool and cute the METEOR units in this kit are. By far out of the whole ship, the METEORs I\'m most proud of. Inspired by these, I am going to be doing a much larger scale P-Bandai meteor kit paint real soon.',
         false,false,['Archangel'],false,true,'1:1700'
     ],
-    ['Roanoke',[1,'Exus'],'HG',false,false,false,'Seed','D','2024-11-22',8.88],
+    ['Roanoke',[1,'Exus'],'HG',
+        false,false,false,'Seed','D','2024-11-22',8.88,false,'Builds/MobileArmors/RoanokeExus.html',false,'2025-10-20',models[178],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus01.jpeg','Roanoke'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus02.jpeg','Roanoke'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus03.jpeg','Roanoke'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus04.jpeg','Roanoke'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus05.jpeg','Roanoke'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus06.jpeg','Roanoke'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus07.jpeg','Roanoke'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus08.jpeg','Roanoke'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus09.jpeg','Roanoke'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus10.jpeg','Roanoke'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus11.jpeg','Roanoke'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus12.jpeg','Roanoke'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus13.jpeg','Roanoke'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus14.jpeg','Roanoke'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus15.jpeg','Roanoke'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus16.jpeg','Roanoke'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus17.jpeg','Roanoke'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus18.jpeg','Roanoke'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus19.jpeg','Roanoke'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus20.jpeg','Roanoke'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus21.jpeg','Roanoke'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus22.jpeg','Roanoke'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus23.jpeg','Roanoke'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus24.jpeg','Roanoke'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus25.jpeg','Roanoke'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus26.jpeg','Roanoke'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus27.jpeg','Roanoke'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus28.jpeg','Roanoke'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus29.jpeg','Roanoke'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus30.jpeg','Roanoke'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus31.jpeg','Roanoke'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus32.jpeg','Roanoke'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus33.jpeg','Roanoke'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus34.jpeg','Roanoke'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus35.jpeg','Roanoke'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus36.jpeg','Roanoke'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus37.jpeg','Roanoke'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus38.jpeg','Roanoke'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus39.jpeg','Roanoke'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus40.jpeg','Roanoke'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus41.jpeg','Roanoke'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus42.jpeg','Roanoke'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus43.jpeg','Roanoke'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus44.jpeg','Roanoke'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus45.jpeg','Roanoke'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus46.jpeg','Roanoke'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus47.jpeg','Roanoke'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus48.jpeg','Roanoke'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus49.jpeg','Roanoke'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus50.jpeg','Roanoke'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus51.jpeg','Roanoke'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus52.jpeg','Roanoke'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus53.jpeg','Roanoke'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus54.jpeg','Roanoke'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus55.jpeg','Roanoke'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus56.jpeg','Roanoke'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus57.jpeg','Roanoke'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus58.jpeg','Roanoke'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus59.jpeg','Roanoke'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus60.jpeg','Roanoke'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus61.jpeg','Roanoke'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus62.jpeg','Roanoke'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus63.jpeg','Roanoke'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus64.jpeg','Roanoke'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus65.jpeg','Roanoke'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus66.jpeg','Roanoke'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus67.jpeg','Roanoke'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus68.jpeg','Roanoke'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus69.jpeg','Roanoke'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus70.jpeg','Roanoke'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus71.jpeg','Roanoke'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus72.jpeg','Roanoke'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus73.jpeg','Roanoke'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus74.jpeg','Roanoke'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus75.jpeg','Roanoke'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus76.jpeg','Roanoke'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus77.jpeg','Roanoke'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus78.jpeg','Roanoke'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus79.jpeg','Roanoke'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus80.jpeg','Roanoke'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus81.jpeg','Roanoke'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus82.jpeg','Roanoke'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus83.jpeg','Roanoke'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus84.jpeg','Roanoke'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus85.jpeg','Roanoke'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus86.jpeg','Roanoke'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus87.jpeg','Roanoke'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus88.jpeg','Roanoke'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus89.jpeg','Roanoke'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus90.jpeg','Roanoke']
+        ],['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus18.jpeg','Profile Photo: Roanoke'],
+        'DESCRIPTION',false,
+        [
+            ['Video','https://youtu.be/2PtLFZV2DiM'],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/gundam-seed-destiny-ex-model-22-mobile-armor-exas'],
+            ['NewType','https://newtype.us/p/xX1m1w2GRAPc3PhnBvXi/h/ex-22-mobile-armor-exass']
+        ],false,true,false,'1:144'
+    ],
     ['Orga',[1,'Forbidden'],'FM',false,false,false,'Seed','A'],
     ['Anthem',[1,'Freedom'],'MG',
         false,false,false,'Seed','E','2022-05-05',73.16,true,'Builds/Gundams/Anthem.html','America','2022-07-04',models[14],
@@ -10364,7 +11078,7 @@ const projects = [
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/mgdesimpreg13.jpeg','Phofile Photo: PB Desinty Impulse Regenes'],false,false,
         [
-            ['Premium Bandai','https://p-bandai.com/us/item/N2247801001005']
+            ['Premium Bandai','https://p-bandai.com/us/item/F2247801005']
         ],['Destiny Impulse [RG]'],false,true,"1:100",'Destiny Impulse Regenes','Destiny Impulse R','Dest. Imp. R'
     ],
     ['Destiny Impulse [RG]',[1,'Impulse, Destiny'],'RG',
@@ -10426,7 +11140,7 @@ const projects = [
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/desimprg18.jpeg','Phofile Photo: PB Desinty Impulse'],false,false,
         [
-            ['Premium Bandai','https://p-bandai.com/us/item/N2555449001001']
+            ['Premium Bandai','https://p-bandai.com/us/item/F2555449004']
         ],['Destiny Impulse (Regenes)'],false,true,"1:144",false,'Destiny Impulse','Destiny Imp.'
     ],
     ['Don\'t Tread On Ye',[1,'Justice'],'MG',
@@ -10550,11 +11264,11 @@ const projects = [
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/pbijust03.jpeg','Profile Photo: PB Infinite Justice Clear'],false,false,
         [
-            ['Premium Bandai','https://p-bandai.com/us/item/N2519700001001']
+            ['Premium Bandai','https://p-bandai.com/us/item/F2519700002']
         ],false,false,true,'1:144'
     ],
     ['Oppression',[1,'Infinite Justice'],'MG',false,false,false,'Seed','B'],
-    ['Infinite Justice Type II [HG]',[1,'Infinite Justice Type II'],'HG',true,false,false,'Seed','D','2024-08-30',2.33],
+    ['Infinite Justice Type II [HG]',[1,'Infinite Justice Type II'],'HG',true,false,false,'Seed','E','2024-08-30',2.33],
     ['Barbara',[1,'LaGOWE'],'HG',false,false,false,'Seed','B','2024',0,false,'Builds/Gundams/...','First Ladies'],
     ['Zoroaster',[1,'Legend'],'FM',false,false,false,'Seed','B'],
     ['Lightning Striker',[0.5,'Lightning Strike Pack'],'MG',false,true,false,'Seed','B'],
@@ -10830,7 +11544,7 @@ const projects = [
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/pbpstrikerg06.jpeg','Profile Photo: P-Bandai Perfect Strike'],false,false,
         [
-            ['Premium Bandai','https://p-bandai.com/us/item/N2487790001005']
+            ['Premium Bandai','https://p-bandai.com/us/item/F2487790005']
         ],false,false,true,'1:144',false,'Perfect Strike',false
     ],
     ['S.A.T.O.',[1,'Strike, Perfect'],'SD',
@@ -10903,7 +11617,7 @@ const projects = [
         'Had one more left over P.B. Strike Dagger kit. Due to its Dagger status decided to paint it the same design scheme as my previous Dagger Ls: King Leir, Gonorilla and Regan. But this time instead of Vallejo I painted Cordelia in the same colors but metallic with the Mr Hobby Metallics line. Also made the beam saber a flame theme tip.',false,
         [
             ['Video','https://youtu.be/HbQSNxz0OSM'],
-            ['Premium Bandai','https://p-bandai.com/us/item/N2595691001002']
+            ['Premium Bandai','https://p-bandai.com/us/item/F2595691001']
         ],['Dobiel','King Leir','Malphas'],false,true,'1:144'
     ],
     ['Samus: Dread Suit',[1,'Strike Dagger'],'HG',
@@ -10981,7 +11695,7 @@ const projects = [
         'The theme for this came at random. I had ordered three Striker Daggers from Premium Bandai, one for a straight build, one for a traditional paint color and a third to do a custom paint. Just for the longest time I was not sure what sort of design to go with. Then one day staring at my nintendo amiibos my eye spotted Dread Suit Samus, and I and thought gosht that would be such a cool build. So this really was the first Samus I did in the Samus project, when I did not even expect it to become a project. To achieve the Dread Suit I used TurboDork Pearly Gates for the base of the body\'s white. Then did a Candy Blue and Candy Red for their equivalent portions. End result, super super shiny.',false,
         [
             ['Video','https://youtu.be/hFDa8j-NscI'],
-            ['Premium Bandai','https://p-bandai.com/us/item/N2595691001002'],
+            ['Premium Bandai','https://p-bandai.com/us/item/F2595691001'],
             ['TurboDork: Pearly Gates','https://turbodork.com/products/pearly-gates-1']
         ],
         [
@@ -11066,7 +11780,7 @@ const projects = [
         'The Dagger L has long been my favorite HG kit. So when I saw that P-Bandai was now selling the origins of the Dagger L, the Strike Dagger, it was an immediate of course. Yes I had to build it. I ordered three. One to do as a straight build. A second to paint in the traditional color. And a third to be painted in something new. (More details on the third yet to come). Loved this kit. It came out well. I am quite proud. ... Also, is it just me or does the helmet on the Strike Dagger look a lot like a football helmet. Definitely gives off strong Gundam Maxter vibes.',false,
         [
             ['Video','https://www.instagram.com/reel/CyTM6JPultl/?igshid=MzRlODBiNWFlZA=='],
-            ['Premium Bandai','https://p-bandai.com/us/item/N2595691001002']
+            ['Premium Bandai','https://p-bandai.com/us/item/F2595691001']
         ],false,false,true,'1:144'
     ],
     ['AntiFreedom',[1,'Strike-Freedom'],'SD',false,false,false,'Seed','B'],
@@ -11288,10 +12002,10 @@ const projects = [
         ['https://hosting.photobucket.com/images/i/lesaintdumech/sfdeac08.jpeg','Profile Photo: PB Strike-Freedom (Deactive)'],
         'Strike-Freedom but in Deactive Mode. Basically its powered down state. In Gundam Seed and Gundam Double O the gundams natural colors is all grey. The natural metal colors of the material they\'re constructed from. The color of the suit actually comes from the electric energy armor that covers and protects the suit in battle. I thought this was a cool concept for a kit that when P-Bandai made the deactive modes available I had to build it. It was a cool concept for a straight build. But I am going to paint them in their deactive state sometime in the future. Also, I deliberately chose not to apply the decals for this one. I figured if it\'s powered off, it would make no sense for them to display.',false,
         [
-            ['Premium Bandai','https://p-bandai.com/us/item/N2256565001006']
+            ['Premium Bandai','https://p-bandai.com/us/item/F2256565006']
         ],false,false,true,'1:144',false,'Strike-Freedom (Deactive Mode)','Strike-Freedom'
     ],
-    ['Mighty Strike Freedom [HG]',[1,'Mighty Strike Freedom'],'HG',true,false,false,'Seed','D','2024-10-04',3],
+    ['Mighty Strike Freedom [HG]',[1,'Mighty Strike Freedom'],'HG',true,false,false,'Seed','E','2024-10-04',3],
     ['Battra',[1,'Strike Noir'],'MG',false,false,false,'Seed','B'],
     ['Strike Noir [SD]',[1,'Strike Noir'],'SD',true,false,false,'Seed','E','2021-09-06',2.233,false,false,'2023-07-10'],
     ['Strike Verde',[1,'Strike Noir'],'SD',
@@ -11468,7 +12182,7 @@ const projects = [
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/pbyzakzaku06phantom.jpeg','Profile Photo: PB Slash Zaku Phntom'],false,false,
         [
-            ['Premium Bandai','https://p-bandai.com/us/item/N2500763001004']
+            ['Premium Bandai','https://p-bandai.com/us/item/F2500763004']
         ],false,false,true,'1:100',false,'Slash Zaku Phantom (Yzak Jule Custom)'
     ],
     ['ZGok-SEED [HG]',[1,'ZGok-SEED'],'HG',true,false,false,'Seed','E','2025-04-08',3],
@@ -11650,10 +12364,10 @@ const projects = [
             ['USA Gundam Store: KOSMOS Lights','https://www.usagundamstore.com/products/kosmos-led-funnel-effect-for-rg-god-gundam'],
             ['NewType: RG God Gundam','https://newtype.us/p/ORUrU23xYDLWOgNOm3R1/h/rg-37-god-gundam'],
             ['NewType: KOSMOS Lights','https://newtype.us/p/YW5VjGYZ0dko4WQAeCsP/h/kosmos-led-upgrade-for-rg-god-gundam'],
-            ['Premium Bandai: RG God Gundam Expansion Set','https://p-bandai.com/us/item/N2619351001001']
+            ['Premium Bandai: RG God Gundam Expansion Set','https://p-bandai.com/us/item/F2619351002']
         ],false,false,true,'1:144','God Gundam'
     ],
-    ['Burning Gundam [RG]',[1,'Burning Gundam'],'RG',true,false,false,'G','D','2025-04-05',7.5],
+    ['Burning Gundam [RG]',[1,'Burning Gundam'],'RG',true,false,false,'G','E','2025-04-05',7.5],
     ['Michael',[1,'Burning Gundam'],'SD',
         false,false,false,'G','E','2024-09-13',4.12,false,'Builds/Gundams/Michael.html',false,'2025-06-16',models[118],
         [
@@ -11768,7 +12482,7 @@ const projects = [
         ],['Cordelia','Dobiel','King Leir','Leo Army'],true,true,'1:144'
     ],
     ['Baal',[1,'Dark Gundam'],'HG',
-        false,false,false,'G','D','2024-08-20',5.6,false,'Builds/Gundams/Baal.html','Ars Goetia','2025-07-28',models[115],
+        false,false,false,'G','D','2024-08-20',5.6,false,'Builds/Gundams/BaalDarkG.html','Ars Goetia','2025-07-28',models[115],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Baal01.jpeg','Baal'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Baal02.jpeg','Baal'],
@@ -11815,7 +12529,7 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Baal43.jpeg','Baal'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Baal44.jpeg','Baal']
         ],['https://hosting.photobucket.com/images/i/lesaintdumech/Baal16.jpeg','Profile Photo: Baal'],
-        'Description',false,
+        'I was stoked to build this. But I sort of wanted more. The Gundam Head and its transformation to Mobile Fighter mode was pretty cool. But still I would love the whole reptillian body that it was mounted to. Anyhow for this I painted it with Mr Hobby\'s Mr Metallic paint line. With Rough Silver, Raw Gold, Metallic Red, Metalallic Dark Blue and Metallic Black for the vents. But what I am most proud of are those eyes. Not the little eyes on the little head up above. But the large eyes down in front on the large Gundam Head. For those I used Testors Gloss Tangerine and they are just so bright and really stand out. For me, the eyes themselves evoke all the personality of this build.',false,
         [
             ['Video','https://youtu.be/pLW4sCPgpKs'],
             ['USA Gundam','https://www.usagundamstore.com/products/mobile-fighter-g-gundam-1-144-devil-gundam'],
@@ -11828,7 +12542,7 @@ const projects = [
     ['Asmodeus',[1,'Dark Gundam'],'SD',false,false,false,'G','B'],  //Custom
     ['Beleth',[1,'Dark Gundam'],'SD',false,false,false,'G','B'],    //Turbo
     ['Paimon',[1,'Dark Gundam'],'SD',
-        false,false,false,'G','E','2024-08-20',4.63,false,'Builds/Gundams/Paimon.html','Ars Goetia','2025-07-14',models[109],
+        false,false,false,'G','E','2024-08-20',4.63,false,'Builds/Gundams/Paimon.html','Ars Goetia','2025-07-15',models[109],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Paimon02.jpeg','Paimon'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Paimon03.jpeg','Paimon'],
@@ -11992,7 +12706,7 @@ const projects = [
         'Being based on a football player, the Gundam Maxter was begging to be designed after something cool. Therefore for this build I deviated from the traditional Gundam Maxter paint scheme and inspired by the greatest NFL player of all time, modeled it after the Jersey of the New England Patriots.',false,
         [
             ['Video','https://youtu.be/On5vMRovOKA'],
-            ['Premium Bandai','https://p-bandai.com/us/item/N2655096001002']
+            ['Premium Bandai','https://p-bandai.com/us/item/F2655096003']
         ],['Bruce','Charlemagne'],false,true,'1:144'
     ],
     ['Charlemagne',[1,'PB Rose Gundam'],'HG',
@@ -12062,7 +12776,7 @@ const projects = [
         'Named after the great king of France and the Holy Roman Empire. Charlemagne I kept true to the original color scheme of Gundam Rose from the tv show. I did use TurboDork paints though just to add some extra shiny metallic flair to the roses. Overall it looks real nice. I cannot wait for P-Bandai to release the rest of the shuffle alliance kits from G-Gundam so I can paint them all and complete the set. I\'m awfully proud of this one.',false,
         [
             ['Video','https://www.instagram.com/reel/Cx5dWmxOikb/?igshid=MzRlODBiNWFlZA=='],
-            ['Premium Bandai','https://p-bandai.com/us/item/N2619353001002'],
+            ['Premium Bandai','https://p-bandai.com/us/item/F2619353004'],
             ['TurboDork: Red Rum','https://turbodork.com/products/redrum'],
             ['TurboDork: Spicy Meatball','https://turbodork.com/products/spicy-meatball']
         ],['Brady','Bruce'],false,true,'1:144'
@@ -12840,7 +13554,7 @@ const projects = [
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/bbsenshi02.jpeg','Profile Photo: BB Senshi RX-93ff'],false,false,
         [
-            ['Premium Bandai','https://p-bandai.com/us/item/N2605386001002']
+            ['Premium Bandai','https://p-bandai.com/us/item/F2605386006']
         ],['RX-93ff \u03bd'],false,true
     ],
     ['RX-93ff \u03bd',[1,'Nu Gundam, ff'],'RG',
@@ -12859,7 +13573,7 @@ const projects = [
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/rx93ff07.jpeg','Profile Photo: RX-93ff'],false,false,
         [
-            ['Premium Bandai','https://p-bandai.com/us/item/N2604206001002']
+            ['Premium Bandai','https://p-bandai.com/us/item/F2607516007']
         ],['BB Senshi RX-93ff \u03bd'],false,true
     ],
     ['Milos',[1,'Nu Gundam, Hi'],'SD',false,false,false,'UC','B'],
@@ -13218,7 +13932,7 @@ const projects = [
         ['https://hosting.photobucket.com/images/i/lesaintdumech/pbsmush10.jpeg'],
         'Another P-Bandai Straight Build. What I thought was cool on this though and convinced me to order it was the Cherry Blossom flower panel stickers adorning the arms and legs. They just add a certain special \'je ne sais quoi\' that I thought was so pretty and neat. Not to also mention in real life is one of my favorite flowers. If you have never been to the cherry blossom festival in Washington DC, or in Japana, when the trees all open up each Spring, you definitely need to go sometime in your lifetime. It is a must see worth witnessing.',false,
         [
-            ['Premium Bandai','https://p-bandai.com/us/item/N2569532001002']
+            ['Premium Bandai','https://p-bandai.com/us/item/F2569532003']
         ],false,false,true,'1:100'
     ],
     ['Blue Monday',[1,'Sisquiede'],'SD',
@@ -13323,7 +14037,7 @@ const projects = [
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/pbod05.jpeg','Profile Photo: PB 00 Diver'],false,false,
         [
-            ['Premium Bandai','https://p-bandai.com/us/item/N2486108001002']
+            ['Premium Bandai','https://p-bandai.com/us/item/F2486108002']
         ],false,false,true,'1:144'
     ],
     ['King Milky Way',[1,'Astray Rebake'],'HG',false,false,false,'BD','B'],
@@ -13449,7 +14163,7 @@ const projects = [
         'Ordered this kit off P-Bandai on a pure whim. Let\'s be honest it\'s a little weird. Never been that fond of the balls from UC, and I do not really care for the Build Divers / Fighters mobile suits. They are such gimmicks. So was not really sure what I would do with this kit when I ordered it. I purchased it soly for the oddity rather than finding it cool. My first train of though was I figured I would paint it red like a crab and call it Cancer. But then playing Pokemon I kept thinking aobut the balls and all the different cool designs of each type of Pokemon ball, I particularly found the Luxury Ball fancy and pretty. And that is when it hit me, paint the Gundam Ball like a Pokeball, specifically the Luxury Ball. To accomplish that I used Mr Hobby Mr Metallic Red and Rough Gold for the red and gold portions. Then for the main ball portion I painted it three layers of TurboDork Black ice with one layer of TurboDork on just the ball to give it a sparkle. I think it came out pretty cool. At some point I think I now want to order just regular Ball kits and paint them all the other pokeball designs and complete the set.',false,
         [
             ['Video','https://youtu.be/AHB-3BSQa7U'],
-            ['P-Bandai','https://p-bandai.com/us/item/N2435139001008'],
+            ['Premium Bandai','https://p-bandai.com/us/item/F2435139008'],
             ['TurboDork: Black Ice','https://turbodork.com/products/black-ice-1'],
             ['TurboDork: Rainbow Roll','https://turbodork.com/products/rainbow-roll-1']
         ],false,false,true,'1:100'
@@ -13574,13 +14288,118 @@ const projects = [
     ],
     ['Sasuki Delta [SD]',[1,'Delta, Saskui'],'SD',true,false,false,'Heroes','E','2021-09-05',1.5,false,false,false,'2022-06-20'],
     ['Quetzalcoatl',[1,'Dragon, Dark Grasper'],'SD',
-        false,false,false,'Heroes','D','2024-06-06',3.81,false,'Builds/SDW/Quetzl.html',false,'2025-12-22'
+        false,false,false,'Heroes','D','2024-06-06',3.81,false,'Builds/SDW/QuetzlDGDragon.html',false,'2025-12-22',models[181],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/QuetzlDarkDragon01.jpeg','Quetzalcoatl'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/QuetzlDarkDragon02.jpeg','Quetzalcoatl'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/QuetzlDarkDragon03.jpeg','Quetzalcoatl'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/QuetzlDarkDragon04.jpeg','Quetzalcoatl'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/QuetzlDarkDragon05.jpeg','Quetzalcoatl'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/QuetzlDarkDragon06.jpeg','Quetzalcoatl'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/QuetzlDarkDragon07.jpeg','Quetzalcoatl'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/QuetzlDarkDragon08.jpeg','Quetzalcoatl'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/QuetzlDarkDragon09.jpeg','Quetzalcoatl'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/QuetzlDarkDragon10.jpeg','Quetzalcoatl'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/QuetzlDarkDragon11.jpeg','Quetzalcoatl'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/QuetzlDarkDragon12.jpeg','Quetzalcoatl'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/QuetzlDarkDragon13.jpeg','Quetzalcoatl'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/QuetzlDarkDragon14.jpeg','Quetzalcoatl'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/QuetzlDarkDragon15.jpeg','Quetzalcoatl'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/QuetzlDarkDragon16.jpeg','Quetzalcoatl'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/QuetzlDarkDragon17.jpeg','Quetzalcoatl'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/QuetzlDarkDragon18.jpeg','Quetzalcoatl'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/QuetzlDarkDragon19.jpeg','Quetzalcoatl'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/QuetzlDarkDragon20.jpeg','Quetzalcoatl'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/QuetzlDarkDragon21.jpeg','Quetzalcoatl'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/QuetzlDarkDragon22.jpeg','Quetzalcoatl'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/QuetzlDarkDragon23.jpeg','Quetzalcoatl'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/QuetzlDarkDragon24.jpeg','Quetzalcoatl'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/QuetzlDarkDragon25.jpeg','Quetzalcoatl'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/QuetzlDarkDragon26.jpeg','Quetzalcoatl'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/QuetzlDarkDragon27.jpeg','Quetzalcoatl'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/QuetzlDarkDragon28.jpeg','Quetzalcoatl'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/QuetzlDarkDragon29.jpeg','Quetzalcoatl'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/QuetzlDarkDragon30.jpeg','Quetzalcoatl'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/QuetzlDarkDragon31.jpeg','Quetzalcoatl'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/QuetzlDarkDragon32.jpeg','Quetzalcoatl'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/QuetzlDarkDragon33.jpeg','Quetzalcoatl'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/QuetzlDarkDragon34.jpeg','Quetzalcoatl'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/QuetzlDarkDragon35.jpeg','Quetzalcoatl'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/QuetzlDarkDragon36.jpeg','Quetzalcoatl'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/QuetzlDarkDragon37.jpeg','Quetzalcoatl'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/QuetzlDarkDragon38.jpeg','Quetzalcoatl'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/QuetzlDarkDragon39.jpeg','Quetzalcoatl'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/QuetzlDarkDragon40.jpeg','Quetzalcoatl'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/QuetzlDarkDragon41.jpeg','Quetzalcoatl'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/QuetzlDarkDragon42.jpeg','Quetzalcoatl'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/QuetzlDarkDragon43.jpeg','Quetzalcoatl'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/QuetzlDarkDragon44.jpeg','Quetzalcoatl'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/QuetzlDarkDragon45.jpeg','Quetzalcoatl'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/QuetzlDarkDragon46.jpeg','Quetzalcoatl'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/QuetzlDarkDragon47.jpeg','Quetzalcoatl'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/QuetzlDarkDragon48.jpeg','Quetzalcoatl'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/QuetzlDarkDragon49.jpeg','Quetzalcoatl'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/QuetzlDarkDragon50.jpeg','Quetzalcoatl']
+        ],['https://hosting.photobucket.com/images/i/lesaintdumech/BibiWingG34.jpeg','Profile Photo: Quetzalcoatl'],
+        'DESCRIPTION',false,
+        [
+            ['Video','https://youtu.be/zliqxoC1eQs'],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/sdw-heroes-28-dark-grasper-dragon'],
+            ['NewType','https://newtype.us/p/vXho6XAMPFQ7rLpaQMz7/h/sdw-heroes-28-dark-grasper-dragon']
+        ],false,true,false
     ], //red queen paint
     ['Pharaoh',[1,'Dragon, Shining Grasper'],'SD',
         false,false,false,'Heroes','D','2024-07-08',3.24,false,'Builds/SDW/Pharo.html',false,'2026-03-02'
     ], //peacock
     ['Tiamat',[1,'Dragon, Shining Grasper'],'SD',
-        false,false,false,'Heroes','D','2024-07-04',2.58,false,'Builds/SDW/Tiamat.html',false,'2026-01-05'
+        false,false,false,'Heroes','D','2024-07-04',2.58,false,'Builds/SDW/TiamatSGDragon.html',false,'2026-01-05',models[180],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/TiamatShineDragon01.jpeg','Tiamat'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/TiamatShineDragon02.jpeg','Tiamat'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/TiamatShineDragon03.jpeg','Tiamat'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/TiamatShineDragon04.jpeg','Tiamat'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/TiamatShineDragon05.jpeg','Tiamat'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/TiamatShineDragon06.jpeg','Tiamat'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/TiamatShineDragon07.jpeg','Tiamat'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/TiamatShineDragon08.jpeg','Tiamat'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/TiamatShineDragon09.jpeg','Tiamat'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/TiamatShineDragon10.jpeg','Tiamat'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/TiamatShineDragon11.jpeg','Tiamat'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/TiamatShineDragon12.jpeg','Tiamat'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/TiamatShineDragon13.jpeg','Tiamat'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/TiamatShineDragon14.jpeg','Tiamat'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/TiamatShineDragon15.jpeg','Tiamat'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/TiamatShineDragon16.jpeg','Tiamat'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/TiamatShineDragon17.jpeg','Tiamat'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/TiamatShineDragon18.jpeg','Tiamat'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/TiamatShineDragon19.jpeg','Tiamat'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/TiamatShineDragon20.jpeg','Tiamat'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/TiamatShineDragon21.jpeg','Tiamat'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/TiamatShineDragon22.jpeg','Tiamat'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/TiamatShineDragon23.jpeg','Tiamat'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/TiamatShineDragon24.jpeg','Tiamat'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/TiamatShineDragon25.jpeg','Tiamat'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/TiamatShineDragon26.jpeg','Tiamat'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/TiamatShineDragon27.jpeg','Tiamat'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/TiamatShineDragon28.jpeg','Tiamat'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/TiamatShineDragon29.jpeg','Tiamat'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/TiamatShineDragon30.jpeg','Tiamat'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/TiamatShineDragon31.jpeg','Tiamat'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/TiamatShineDragon32.jpeg','Tiamat'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/TiamatShineDragon33.jpeg','Tiamat'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/TiamatShineDragon34.jpeg','Tiamat'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/TiamatShineDragon35.jpeg','Tiamat'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/TiamatShineDragon36.jpeg','Tiamat'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/TiamatShineDragon37.jpeg','Tiamat'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/TiamatShineDragon38.jpeg','Tiamat'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/TiamatShineDragon39.jpeg','Tiamat']
+        ],['https://hosting.photobucket.com/images/i/lesaintdumech/TiamatShineDragon11.jpeg','Profile Photo: Tiamat'],
+        'DESCRIPTION',false,
+        [
+            ['Video','https://youtu.be/i16lio0ixeg'],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/sdw-heroes-26-shining-grasper-dragon'],
+            ['NewType','https://newtype.us/p/nfMJYbOH1FPNDYt5eNkP/h/sdw-heroes-26-shining-grasper-dragon']
+        ],false,true,false
     ], //midnight city
     ['Python',[1,'Dragon, Shining Grasper'],'SD',
         false,false,false,'Heroes','D','2024-07-06',3.49,false,'Builds/SDW/Pharo.html',false,'2026-02-02'
@@ -14163,8 +14982,40 @@ const projects = [
     
     //Pokemon
     ['Cetautomatix',[1,'Arceus'],'Pokemon',
-        false,false,false,'','D','2024-02-16',4.53,false,'Builds/Pokemon/Cetauto.html','Asterix','2025-09-01'
+        false,false,false,'','D','2024-02-16',4.53,false,'Builds/Pokemon/Cetauto.html','Asterix','2025-09-01',models[171],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CetautoArceus01.jpeg','Cetautomatix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CetautoArceus02.jpeg','Cetautomatix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CetautoArceus03.jpeg','Cetautomatix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CetautoArceus04.jpeg','Cetautomatix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CetautoArceus05.jpeg','Cetautomatix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CetautoArceus06.jpeg','Cetautomatix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CetautoArceus07.jpeg','Cetautomatix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CetautoArceus08.jpeg','Cetautomatix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CetautoArceus09.jpeg','Cetautomatix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CetautoArceus10.jpeg','Cetautomatix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CetautoArceus11.jpeg','Cetautomatix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CetautoArceus12.jpeg','Cetautomatix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CetautoArceus13.jpeg','Cetautomatix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CetautoArceus14.jpeg','Cetautomatix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CetautoArceus15.jpeg','Cetautomatix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CetautoArceus16.jpeg','Cetautomatix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CetautoArceus17.jpeg','Cetautomatix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CetautoArceus18.jpeg','Cetautomatix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CetautoArceus19.jpeg','Cetautomatix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CetautoArceus20.jpeg','Cetautomatix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CetautoArceus21.jpeg','Cetautomatix']
+        ],['https://hosting.photobucket.com/images/i/lesaintdumech/CetautoArceus21.jpeg','Profile Photo: Cetautomatix'],
+        'DESCRIPTION',false,
+        [
+            ['Video','https://youtu.be/LOOGfyUoeTo'],
+            ['Asterix: Cetautomatix','https://asterix.fandom.com/wiki/Fulliautomatix'],
+            ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Arceus_(Pokémon)'],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-arceus-51-model-kit'],
+            ['NewType','https://newtype.us/p/1fr1jxjfedNyHnKlr6Gv/h/pokemon-arceus']
+        ],false,true,false,false,false,false,false,false,false,false,'Pokemon Select Series 51 Arceus Model Kit'
     ],
+    ['Harmonix',[1,'Mega Blaziken'],'Pokemon',false,false,false,'','B'],
     ['Obelix',[1,'Bulbasaur'],'Pokemon',
         false,false,false,'','E','2023-09-13',3.07,false,'Builds/Pokemon/Obelix.html','Asterix','2023-10-23',models[94],
         [
@@ -14186,7 +15037,7 @@ const projects = [
         'Tim, Nebraska',
         [
             ['Video','https://www.instagram.com/reel/CywqRtPOlzK/?igshid=MzRlODBiNWFlZA=='],
-            ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Bulbasaur_(Pokémon)'],
+            ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Bulbasaur_(Pokemon)'],
             ['Asterix: Obelix','https://asterix.fandom.com/wiki/Obelix'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-bulbasaur-13-quick-model-kit'],
             ['NewType','https://newtype.us/p/W2XuUUtpyK4uqkEPD18t/h/pokemon-model-kit-quick-13-bulbasaur'],
@@ -14213,7 +15064,7 @@ const projects = [
         'So same story as Jasper. I gave both my previous Charmander and Bulbasaur builds away. But then I baught the Squirtle kit and had to have all three of the starters to complete the set. Introducing my second Bulbasaur build, Jade.',false,
         [
             ['Video','https://youtu.be/3SDwI7SFK1U'],
-            ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Bulbasaur_(Pokémon)'],
+            ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Bulbasaur_(Pokemon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-bulbasaur-13-quick-model-kit'],
             ['NewType','https://newtype.us/p/W2XuUUtpyK4uqkEPD18t/h/pokemon-model-kit-quick-13-bulbasaur']
         ],['Jasper','Cooper'],false,true,false,false,false,false,false,false,false,'Pokemon Bulbasaur 13 Quick Model Kit'
@@ -14246,7 +15097,7 @@ const projects = [
             ['Asterix: Official Site','https://asterix.com/en/'],
             ['Asterix: Profile','https://asterix.fandom.com/wiki/Asterix_(Character)'],
             ['Asterix: Wiki','https://en.wikipedia.org/wiki/Asterix'],
-            ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Charmander_(Pokémon)'],
+            ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Charmander_(Pokemon)'],
             ['Terestal Phenomenon','https://bulbapedia.bulbagarden.net/wiki/Terastal_phenomenon'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-charmander-11-quick-model-kit?_pos=1&_sid=5226c6cbe&_ss=r'],
             ['NewType','https://newtype.us/p/kjQjxZgkxDWE1c9nYf1Z/h/pokemon-model-kit-quick-11-charmander'],
@@ -14277,7 +15128,7 @@ const projects = [
         'So I really loved my previous Charmander build but I gave it away to my best friend for her wedding present that I started to miss it. Then they finally released the Squirtle kit. And I could not just only build Squirtle. I had to have all three of the starters to complete the original starters set. So I had to paint a second Charmander again. Only difference this time is last time I painted with a TurboDork red, but this time I used Mr Hobby Mr Metallic Red. I will admit Mr Metallic is a much easier paint line to paint with.',false,
         [
             ['Video','https://youtu.be/dSrjyUYPO5Q'],
-            ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Charmander_(Pokémon)'],
+            ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Charmander_(Pokemon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-charmander-11-quick-model-kit?_pos=1&_sid=5226c6cbe&_ss=r'],
             ['NewType','https://newtype.us/p/kjQjxZgkxDWE1c9nYf1Z/h/pokemon-model-kit-quick-11-charmander']
         ],['Jade','Cooper'],false,true,false,false,false,false,false,false,false,'Pokemon Charmander 11 Quick Model Kit'
@@ -14315,7 +15166,7 @@ const projects = [
         'My favorite Pokemon has always been Charizard. What can I say I\'ve always been a lover of dragons. So for my first Pokemon and first starter, Charizard could not have been more adequqte and fitting. Plus with the Vallejo Ferari Red instead of his traditional orange, this one only came out looking even more cooler. ',false,
         [
             ['Video','https://www.instagram.com/reel/CwyAiLGOMR_/?igshid=MzRlODBiNWFlZA=='],
-            ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Charizard_(Pokémon)'],
+            ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Charizard_(Pokemon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-plamo-charizard-dragonite'],
             ['NewType','https://newtype.us/p/S9nZ4KxUmzbDoDM0HfDd/h/pokemon-charizard-dragonite']
         ],['Asterix','Boudica','Charizard','Charizard X'],false,true,false,false,false,false,false,false,false,'Pokemon Select Series 43 Charizard & Dragonite Model Kit Set'
@@ -14349,7 +15200,7 @@ const projects = [
         'Not much inspiration for my Dragonite here. Pretty much just a traditional Dragonite painted in Vallejo Old Gold.',false,
         [
             ['Video','https://www.instagram.com/reel/CxHDELNufAP/?igshid=MzRlODBiNWFlZA=='],
-            ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Dragonite_(Pokémon)'],
+            ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Dragonite_(Pokemon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-plamo-charizard-dragonite'],
             ['NewType','https://newtype.us/p/S9nZ4KxUmzbDoDM0HfDd/h/pokemon-charizard-dragonite']
         ],['Vercingetorix'],true,true,false,false,false,false,false,false,false,'Pokemon Select Series 43 Charizard & Dragonite Model Kit Set'
@@ -14381,7 +15232,7 @@ const projects = [
         'This kit is rather small and simple. On top of that Eevee is a very color neutral and boring design scheme. She\'s not much to work with so I felt limited on what to do for creativity. Instead I wound up drawing inspiration from Eevee\s wide diversity of evolutions. On Beattrice I focused on Eevee\'s evolution Flareon, the fire type. So I focused on painting her in different shades of red and orange to evoke the fiery theme Also another inspiration.... Angela.',false,
         [
             ['Video','https://youtu.be/MMeTYTOwA3Y'],
-            ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Eevee_(Pokémon)'],
+            ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Eevee_(Pokemon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-eevee-model-kit'],
             ['NewType','https://newtype.us/p/hgonYKX4NoE1FYu5R5a3/h/pokemon-eevee']
         ],false,true,true,false,false,false,false,false,false,false,'Pokemon Eevee Model Kit'
@@ -14409,13 +15260,13 @@ const projects = [
         'For Beatrice I chose Flareon as the theme. But for Bandit the inspiration is Vaporeon, Eevee\'s water evolution. Which means a whole lot of blues and puprples and cool blue shades.',false,
         [
             ['Video','https://youtu.be/utW6FWKgT20'],
-            ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Eevee_(Pokémon)'],
+            ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Eevee_(Pokemon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-eevee-sleeping-pose-07-quick-model-kit'],
             ['NewType','https://newtype.us/p/4FAxD625NfDz5CsOfrF7/h/pokemon-model-kit-quick-07-eevee-sleeping-pose']
         ],false,true,true,false,false,false,false,false,false,false,'Pokemon Eevee (Sleeping Pose) 07 Quick Model Kit'
     ],    //Blue
     ['Sprinkles',[1,'Eevee'],'Pokemon',
-        false,false,false,'','B','2025',0,false,'Builds/Pokemon/Bandit.html','Angela','2026',models[131],
+        false,false,false,'','C','2025-08-18',0.65,false,'Builds/Pokemon/SprinklesEevee.html','Angela','2026',models[131],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Bandit01.jpeg','Sprinkles']
         ],
@@ -14423,7 +15274,7 @@ const projects = [
         'DESCRIPTION',false,
         [
             ['Video',''],
-            ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Eevee_(Pokémon)'],
+            ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Eevee_(Pokemon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-evee-04-quick-model-kit'],
             ['NewType','https://newtype.us/p/qwtngx79JTNwHYt5c3Or/h/pokemon-model-kit-quick-04-eevee']
         ],false,true,false,false,false,false,false,false,false,false,'Pokemon Eevee 04 Quick Model Kit'
@@ -14443,10 +15294,41 @@ const projects = [
         ],false,true,false,false,false,false,false,false,false,false,'Pokemon Select Series 6 Empoleon Evolution Set Model Kit'
     ],
     ['Soporifix',[1,'Entei'],'Pokemon',
-        false,false,false,'','C','2025-07-03',2.22,false,'Builds/Pokemon/Soporifix.html',false,'2025-12-29'
+        false,false,false,'','C','2025-07-03',2.30,false,'Builds/Pokemon/Soporifix.html',false,'2025-12-29'
     ],
+    ['Instantmix',[1,'Fuecoco'],'Pokemon',false,false,false,'','B'],
     ['Astronomix',[1,'Gengar'],'Pokemon',
-        false,false,false,'','D','2023-12-11',2.68,false,'Builds/Pokemon/Astron.html','Asterix','2025-08-04'
+        false,false,false,'','D','2023-12-11',2.68,false,'Builds/Pokemon/Astron.html','Asterix','2025-08-04',models[169],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/AstronomixGengar01.jpeg','Astronomix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/AstronomixGengar02.jpeg','Astronomix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/AstronomixGengar03.jpeg','Astronomix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/AstronomixGengar04.jpeg','Astronomix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/AstronomixGengar05.jpeg','Astronomix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/AstronomixGengar06.jpeg','Astronomix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/AstronomixGengar07.jpeg','Astronomix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/AstronomixGengar08.jpeg','Astronomix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/AstronomixGengar09.jpeg','Astronomix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/AstronomixGengar10.jpeg','Astronomix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/AstronomixGengar11.jpeg','Astronomix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/AstronomixGengar12.jpeg','Astronomix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/AstronomixGengar13.jpeg','Astronomix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/AstronomixGengar14.jpeg','Astronomix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/AstronomixGengar15.jpeg','Astronomix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/AstronomixGengar16.jpeg','Astronomix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/AstronomixGengar17.jpeg','Astronomix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/AstronomixGengar18.jpeg','Astronomix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/AstronomixGengar19.jpeg','Astronomix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/AstronomixGengar20.jpeg','Astronomix']
+        ],['https://hosting.photobucket.com/images/i/lesaintdumech/AstronomixGengar05.jpeg','Profile Photo: Astronomix'],
+        'DESCRIPTION',false,
+        [
+            ['Video','https://youtu.be/cGkscgFlfWA'],
+            ['Asterix: Astronomix','https://asterix.fandom.com/wiki/Astronomix'],
+            ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Gengar_(Pokémon)'],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-gengar-model-kit'],
+            ['NewType','https://newtype.us/p/lGyKAFk3fhLZe7e6e2j1/h/pokemon-gengar']
+        ],false,true,false,false,false,false,false,false,false,false,'Pokemon Select Series 45 Gengar Model Kit'
     ],
     ['Granfrog',[1,'Greninja'],'Pokemon',
         false,false,false,false,'E','2021-11-11',5.68,false,'Builds/Pokemon/Granfrog.html',false,'2022-08-17',models[11],
@@ -14466,7 +15348,7 @@ const projects = [
         ['https://hosting.photobucket.com/images/i/lesaintdumech/granfrog02.jpeg','Profile Photo: Granfrog'],
         'So inspiration for this piece is I was looking for a Christmas present idea for a particularly grandmother of mine who is aboslutely obsessed with frogs. I knew I wanted to make her something from scratch, but the hobby stores don\'t just have generic model kits of plain regular animals lying around that creating her a custom painted model frog was a no go. So after much consideration I realized the closest I could do was a pokemon frog. So anyhow, for the color scheme on this one, I didn\'t want to go with the traditional blue that Greninja is known for, but instead respecting my grandmother\'s love for the animal, wanted to keep it as close to the traditional frog colors as possible. Particularly the tropical rainforest frogs you see from South America with the bright colors on their backs.','Mary, Nebraska',
         [
-            ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Greninja_(Pokémon)'],
+            ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Greninja_(Pokemon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-47-greninja-model-kit?variant=40332069765317'],
             ['NewType','https://newtype.us/p/dwk8jzQtdPBUWYb5VxT3/h/pokemon-greninja']
         ],false,false,true,false,false,false,false,false,false,false,'Pokemon #47 Greninja Model Kit'
@@ -14505,7 +15387,7 @@ const projects = [
         'I swear went through so much transparent red for this build. For the base red decided to do a candy paint affect using Tamiya transparent red. Which final product it looks great. The red looks so rich and juicy like a cherry. For the rest of the paint, used Tamiya metallic copper for inside the inner grooves, Vallejo silver for the teeth and Vallejo Model Color brass for the claws and spikes. As for the shiny underbelly that is Mr Hobby\'s Mr Metallic Rough Silver. Overall I did not want to go crazy on this design. The goal was to stay as close to the original source material as possible but just add and extra bit of shine. Which I think it came out great. Really proud on this one.',false,
         [
             ['Video','https://youtu.be/tjvg-klt5Rs'],
-            ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Groudon_(Pokémon)'],
+            ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Groudon_(Pokemon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-select-series-54-groudon-model-kit'],
             ['NewType','https://newtype.us/p/S83TPQ2pUa2qpW6pChho/h/pokemon-groudon']
         ],false,true,true,false,false,false,false,false,false,false,'Pokemon Select Series 54 Groudon Model Kit'
@@ -14546,7 +15428,7 @@ const projects = [
         'Gyarados has always been a cool ferocious pokemon. But when I painted this, rather than the standard blue, I had to go back to the rare Red Gyarados from Pokemon Gold & Silver. To accomplish this I used the Mr Metallic Bloody Red which came out to be the perfect dark shade of red to represent this ferocious beast.',false,
         [
             ['Video','https://youtu.be/HSUOjzHYUFc'],
-            ['Bulbapedia','https://m.bulbapedia.bulbagarden.net/wiki/Gyarados_(Pokémon)'],
+            ['Bulbapedia','https://m.bulbapedia.bulbagarden.net/wiki/Gyarados_(Pokemon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/collections/pokapla/products/pokemon-gyarados-52-model-kit'],
             ['NewType','https://newtype.us/p/dOkZZ7AvruhzwIslqHje/h/pokemon-gyarados']
         ],['Unhygienix'],true,true,false,false,false,false,false,false,false,'Pokemon Gyarados 52 Model Kit'
@@ -14587,7 +15469,7 @@ const projects = [
         [
             ['Video','https://youtu.be/3GxZq4ao1Sg'],
             ['Asterix: Vitalstatistix','https://asterix.fandom.com/wiki/Vitalstatistix'],
-            ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Ho-Oh_(Pokémon)'],
+            ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Ho-Oh_(Pokemon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-gold-silver-ho-oh-model-kit'],
             ['NewType','https://newtype.us/p/DFQb0Hr6xKX06jqaqPDk/h/pokemon-ho-oh']
         ],['Chanticleerix'],false,true,false,false,false,false,false,false,false,'Pokemon Select Series 5 Ho-Oh Model Kit'
@@ -14625,7 +15507,7 @@ const projects = [
         'Named after the Celtic city of lights, Wanted to reflect this theme using bright silvers and golds. For this I used the Mr Hobby metallics line using primarily Mr Hobby Rough Gold and Mr Hobby White silver, combined with Tamiya copper for the base of the body. And for the energy ball, just a simple Tamiya candy blue effect.',false,
         [
             ['Video','https://youtu.be/EHOc0GJjXOw'],
-            ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Lucario_(Pokémon)'],
+            ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Lucario_(Pokemon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-plamo-collection-44-riolu-lucario-model-kit'],
             ['NewType','https://newtype.us/p/xfGGbv3OQReIt12rJaNC/h/pokemon-riolu-lucario']
         ],['Dogmatix'],true,true,false,false,false,false,false,false,false,'Pokemon Select Series 44 Riolu & Lucario Model Kit'
@@ -14671,13 +15553,13 @@ const projects = [
         [
             ['Video','https://youtu.be/NF-AgBaLpMc'],
             ['Asterix: Chanticleerix','https://asterix.fandom.com/wiki/Chanticleerix'],
-            ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Lugia_(Pokémon)'],
+            ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Lugia_(Pokemon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-gold-silver-lugia-model-kit'],
             ['NewType','https://newtype.us/p/4OkwUlKsiGMtfqwASLP2/h/pokemon-lugia']
         ],['Vitalstatistix'],true,true,false,false,false,false,false,false,false,'Pokemon Select Series 4 Lugia Model Kit'
     ],
     ['Bucolix',[1,'Lunala'],'Pokemon',
-        false,false,false,'','C','2025-07-04',1.68,false,'Builds/Pokemon/Bucix.html',false,'2025-12-15'
+        false,false,false,'','C','2025-07-04',2.68,false,'Builds/Pokemon/Bucix.html',false,'2025-12-15'
     ],
     ['Unhygienix',[1,'Magikarp'],'Pokemon',false,false,false,'','A'],
     ['Cacofonix',[1,'Metagross'],'Pokemon',
@@ -14722,7 +15604,7 @@ const projects = [
         [
             ['Video','https://youtu.be/aGFgn1Xf9cw'],
             ['Asterix: Cacofonix','https://asterix.fandom.com/wiki/Cacofonix'],
-            ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Metagross_(Pokémon)'],
+            ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Metagross_(Pokemon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-select-series-53-metagross-model-kit'],
             ['NewType','https://newtype.us/p/ZAdu3eNdG5mrLKUIRzQQ/h/pokemon-metagross']
         ],false,true,true,false,false,false,false,false,false,false,'Pokemon Select Series 53 Metagross Model Kit'
@@ -14762,7 +15644,7 @@ const projects = [
         'Was not a complicated design. Most of Mew is just one color. Used Mr Hobby\'s Metal Peach for the base pink. Then hand painted a generic flat red for the circles on the feet and hand painted with flat white, flat blue and flat black to for the eyes. To add just a little bit of extra flair used a gemstone stick to give it an earing. Overall it is rather just quite cute.',false,
         [
             ['Video','https://youtu.be/HFDKL02iJzk'],
-            ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Mew_(Pokémon)'],
+            ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Mew_(Pokemon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-mew-02-quick-model-kit'],
             ['NewType','https://newtype.us/p/2I52VIRFzowvxYGIHxyC/h/pokemon-model-kit-quick-02-mew']
         ],['Polysyllabix'],true,true,false,false,false,false,false,false,false,'Pokemon Mew 02 Quick Model Kit'
@@ -14804,7 +15686,7 @@ const projects = [
         'A very traditional paint scheme to the original Mewtwo design. Used TurboDork Purl Grey for the light purple and Mr Metallic Metallic Violet for the dark purple. It\'s a simple model but it came out great. And so shiny.',false,
         [
             ['Video','https://youtu.be/SN-fz_gHRSo'],
-            ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Mewtwo_(Pokémon)'],
+            ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Mewtwo_(Pokemon)'],
             ['TurboDork: Purl Grey','https://turbodork.com/products/purl-grey-1'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-mewtwo-model-kit'],
             ['NewType','https://newtype.us/p/CBSn5RIMRw8C0xpurheh/h/pokemon-mewtwo']
@@ -14833,7 +15715,7 @@ const projects = [
         false,false,
         [
             ['Video','https://youtu.be/kdeSL7XNxz0'],
-            ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Pikachu_(Pokémon)'],
+            ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Pikachu_(Pokemon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/03-pikachu-battle-pose-pokemon-bandai-spirits-pokemon-model-kit-quick'],
             ['NewType','https://newtype.us/p/6QnT071ebQzzCPn3wkRQ/h/pokemon-model-kit-quick-03-pikachu-battle-pose']
         ],false,true,true,false,false,false,false,false,false,false,'Pikachu (Battle Pose) 03 Quick Model Kit'
@@ -14875,7 +15757,7 @@ const projects = [
         [
             ['Video','https://youtu.be/C74Cw7lbCPs'],
             ['Asterix: Picanmix','https://asterix.fandom.com/wiki/Picanmix'],
-            ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Piplup_(Pokémon)'],
+            ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Piplup_(Pokemon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-piplup-06-quick-model-kit'],
             ['NewType','https://newtype.us/p/yzU9p7mXLKhtFtIrFzfO/h/pokemon-model-kit-quick-06-piplup'],
             ['TurboDork: Cold Open','https://turbodork.com/products/cold-open-1?variant=40013820100690'],
@@ -14891,7 +15773,7 @@ const projects = [
         'Description',false,
         [
             ['Video',''],
-            ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Piplup_(Pokémon)'],
+            ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Piplup_(Pokemon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-select-series-6-empoleon-evolution-set-model-kit'],
             ['NewType','https://newtype.us/p/aqpjW7R8h1LfOuf88CK1/h/pokemon-empoleon-evolution-set'],
         ],false,true,false,false,false,false,false,false,false,false,'Pokemon Select Series 6 Empoleon Evolution Set Model Kit'
@@ -14911,7 +15793,55 @@ const projects = [
         ],false,true,false,false,false,false,false,false,false,false,'Pokemon Select Series 6 Empoleon Evolution Set Model Kit'
     ],
     ['Postaldistrix',[1,'Raikou'],'Pokemon',
-        false,false,false,'','D','2024-09-13',2.75,false,'Builds/Pokemon/Postal.html','Asterix','2025-11-03'
+        false,false,false,'','D','2024-09-13',2.75,false,'Builds/Pokemon/Postal.html','Asterix','2025-11-03',models[172],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CetautoArceus01.jpeg','Postaldistrix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CetautoArceus02.jpeg','Postaldistrix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CetautoArceus03.jpeg','Postaldistrix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CetautoArceus04.jpeg','Postaldistrix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CetautoArceus05.jpeg','Postaldistrix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CetautoArceus06.jpeg','Postaldistrix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CetautoArceus07.jpeg','Postaldistrix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CetautoArceus08.jpeg','Postaldistrix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CetautoArceus09.jpeg','Postaldistrix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CetautoArceus10.jpeg','Postaldistrix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CetautoArceus11.jpeg','Postaldistrix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CetautoArceus12.jpeg','Postaldistrix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CetautoArceus13.jpeg','Postaldistrix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CetautoArceus14.jpeg','Postaldistrix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CetautoArceus15.jpeg','Postaldistrix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CetautoArceus16.jpeg','Postaldistrix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CetautoArceus17.jpeg','Postaldistrix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CetautoArceus18.jpeg','Postaldistrix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CetautoArceus19.jpeg','Postaldistrix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CetautoArceus20.jpeg','Postaldistrix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CetautoArceus21.jpeg','Postaldistrix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CetautoArceus22.jpeg','Postaldistrix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CetautoArceus23.jpeg','Postaldistrix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CetautoArceus24.jpeg','Postaldistrix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CetautoArceus25.jpeg','Postaldistrix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CetautoArceus26.jpeg','Postaldistrix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CetautoArceus27.jpeg','Postaldistrix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CetautoArceus28.jpeg','Postaldistrix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CetautoArceus29.jpeg','Postaldistrix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CetautoArceus30.jpeg','Postaldistrix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CetautoArceus31.jpeg','Postaldistrix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CetautoArceus32.jpeg','Postaldistrix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CetautoArceus33.jpeg','Postaldistrix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CetautoArceus34.jpeg','Postaldistrix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CetautoArceus35.jpeg','Postaldistrix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CetautoArceus36.jpeg','Postaldistrix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CetautoArceus37.jpeg','Postaldistrix']
+            
+        ],['https://hosting.photobucket.com/images/i/lesaintdumech/PostalRaikou31.jpeg','Profile Photo: Postaldistrix'],
+        'DESCRIPTION',false,
+        [
+            ['Video','https://youtu.be/CnXDIkOQVLk'],
+            ['Asterix: Postaldistrix','https://aogames.fandom.com/wiki/Postaldistrix'],
+            ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Raikou_(Pokémon)'],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-select-series-10-raikou-model-kit'],
+            ['NewType','https://newtype.us/p/8idrwbGaTlxwiG3kDy8m/h/pokemon-raikou']
+        ],false,true,false,false,false,false,false,false,false,false,'Pokemon Select Series 10 Raikou Model Kit'
     ],
     ['Getafix',[1,'Rayquaza'],'Pokemon',
         false,false,false,'','E','2023-09-18',5.74,false,'Builds/Pokemon/Getafix.html','Asterix','2025-01-20',models[150],
@@ -14951,7 +15881,7 @@ const projects = [
         [
             ['Video','https://youtu.be/OdMgjNUBqP8'],
             ['Asterix: Getafix','https://asterix.fandom.com/wiki/Getafix'],
-            ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Rayquaza_(Pokémon)'],
+            ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Rayquaza_(Pokemon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-rayquaza-model-kit'],
             ['NewType','https://newtype.us/p/WdF5h0oKREWKufNDSCqT/h/pokemon-rayquaza']
         ],false,true,true,false,false,false,false,false,false,false,'Pokemon Select Series 46 Rayquaza Model Kit'
@@ -14988,16 +15918,16 @@ const projects = [
         [
             ['Video','https://youtu.be/C0PBBi01LTw'],
             ['Asterix: Dogmatix','https://asterix.fandom.com/wiki/Dogmatix'],
-            ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Riolu_(Pokémon)'],
+            ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Riolu_(Pokemon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-plamo-collection-44-riolu-lucario-model-kit'],
             ['NewType','https://newtype.us/p/xfGGbv3OQReIt12rJaNC/h/pokemon-riolu-lucario']
         ],['Lutetia'],true,true,false,false,false,false,false,false,false,'Pokemon Select Series 44 Riolu & Lucario Model Kit'
     ], 
     ['Mantis Force',[6,'Scizor','Scizor','Scizor','Scizor','Scizor','Scizor'],'Pokemon',
-        false,false,false,'','C','2025-07-08',0.92,false,'Builds/Pokemon/MantisForce.html',false,'2025'
+        false,false,false,'','C','2025-07-08',1.6,false,'Builds/Pokemon/MantisForce.html',false,'2025'
     ],
     ['Tragicomix',[1,'Solgaleo'],'Pokemon',
-        false,false,false,'','C','2025-07-04',2.12,false,'Builds/Pokemon/Tragix.html',false,'2025-11-17'
+        false,false,false,'','C','2025-07-04',2.37,false,'Builds/Pokemon/Tragix.html',false,'2025-11-17'
     ],
     ['Cooper',[1,'Squirtle'],'Pokemon',
         false,false,false,'','E','2024-06-04',2.17,false,'Builds/Pokemon/Cooper.html',false,'2024-09-16',models[134],
@@ -15023,18 +15953,19 @@ const projects = [
         'So took Bandai forever to finally release a Squirtle model. Charmander and Bulbasaur have been out for years at this point. But soon as they finally released squirtle I jumped right at the chance to build it and bought the first copy of the kit I saw on the shelf. So for the paint design here I did bit of an experiment. I used Mr Hobby Mr Metallic Blue for the body but for the  shell I tried TurboDork\'s Dark Ritual, which gave it a rich dark spooky purple look. I was not sure how that would come out nor how it would look for a shell. I had not used this Turbo shade prior to this, but as with all their colors this one came out great. I was not disappointed. It really created a rich contrast between the shiny lightness of the blue but then the darkness of the shell with just a hint of light in the shell\'s reflective gleam. I love this combination.',false,
         [
             ['Video','https://youtu.be/tB9dmy9CA50'],
-            ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Squirtle_(Pokémon)'],
+            ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Squirtle_(Pokemon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-plastic-model-collection-quick-17-squirtle'],
             ['NewType','https://newtype.us/p/Ti0eVe8xLiVkkMzNfrET/h/pokemon-model-kit-quick-17-squirtle'],
             ['TurboDork: Dark Ritual','https://turbodork.com/products/dark-ritual?variant=40539853914194']
         ],['Jade','Jasper'],false,true,false,false,false,false,false,false,false,'Pokemon Squirtle 17 Quick Model Kit'
     ],
     ['Pacifix',[1,'Suicune'],'Pokemon',
-        false,false,false,'','C','2025-07-03',2.68,false,'Builds/Pokemon/Pacifix.html',false,'2025-12-01'
+        false,false,false,'','C','2025-07-03',3.13,false,'Builds/Pokemon/Pacifix.html',false,'2025-12-01'
     ],
     ['Tusk',[1,'Tepig'],'Pokemon',
-        false,false,false,'','D','2023-10-22',3.1,false,'Builds/Pokemon/Tusk.html',false,'2025-07-21',models[168],
+        false,false,false,'','E','2023-10-22',3.1,false,'Builds/Pokemon/Tusk.html',false,'2025-07-21',models[168],
         [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ARK_RAZSTATE.jpeg','Arkansas Razorbacks'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/TuskTepig01.jpeg','Tusk'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/TuskTepig02.jpeg','Tusk'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/TuskTepig03.jpeg','Tusk'],
@@ -15060,13 +15991,61 @@ const projects = [
         'For this one Was inspired by the mascot of the Arkansas Razorbacks, Tusk the Razorback. A razorback is basically a North American wild boar with large tusks and the official mascot for the University of Arkansas. Granted, little Tepig is way too cute to be a big ol smelly warthog, but he\'s just a baby. He\'ll get there someday.',false,
         [
             ['Video','https://youtu.be/Z9kye_ii8zs'],
-            ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Tepig_(Pokémon)'],
+            ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Tepig_(Pokemon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-tepig-14-quick-model-kit'],
             ['NewType','https://newtype.us/p/Bh64h14GeIoFui3kPjy4/h/pokemon-model-kit-quick-14-tepig']
-        ],false,true,false,false,false,false,false,false,false,false,'Pokemon Tepig 14 Quick Model Kit'
+        ],false,true,true,false,false,false,false,false,false,false,'Pokemon Tepig 14 Quick Model Kit'
     ], 
     ['Prolix',[1,'Zekrom'],'Pokemon',
-        false,false,false,'','D','2023-12-13',4.05,false,'Builds/Pokemon/Prolix.html','Asterix','2025-08-18'
+        false,false,false,'','D','2023-12-13',4.05,false,'Builds/Pokemon/Prolix.html','Asterix','2025-08-18',models[170],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ProlixZekrom01.jpeg','Prolix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ProlixZekrom02.jpeg','Prolix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ProlixZekrom03.jpeg','Prolix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ProlixZekrom04.jpeg','Prolix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ProlixZekrom05.jpeg','Prolix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ProlixZekrom06.jpeg','Prolix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ProlixZekrom07.jpeg','Prolix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ProlixZekrom08.jpeg','Prolix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ProlixZekrom09.jpeg','Prolix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ProlixZekrom10.jpeg','Prolix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ProlixZekrom11.jpeg','Prolix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ProlixZekrom12.jpeg','Prolix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ProlixZekrom13.jpeg','Prolix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ProlixZekrom14.jpeg','Prolix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ProlixZekrom15.jpeg','Prolix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ProlixZekrom16.jpeg','Prolix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ProlixZekrom17.jpeg','Prolix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ProlixZekrom18.jpeg','Prolix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ProlixZekrom19.jpeg','Prolix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ProlixZekrom20.jpeg','Prolix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ProlixZekrom21.jpeg','Prolix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ProlixZekrom22.jpeg','Prolix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ProlixZekrom23.jpeg','Prolix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ProlixZekrom24.jpeg','Prolix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ProlixZekrom25.jpeg','Prolix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ProlixZekrom26.jpeg','Prolix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ProlixZekrom27.jpeg','Prolix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ProlixZekrom28.jpeg','Prolix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ProlixZekrom29.jpeg','Prolix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ProlixZekrom30.jpeg','Prolix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ProlixZekrom31.jpeg','Prolix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ProlixZekrom32.jpeg','Prolix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ProlixZekrom33.jpeg','Prolix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ProlixZekrom34.jpeg','Prolix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ProlixZekrom35.jpeg','Prolix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ProlixZekrom36.jpeg','Prolix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ProlixZekrom37.jpeg','Prolix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ProlixZekrom38.jpeg','Prolix']
+        ],['https://hosting.photobucket.com/images/i/lesaintdumech/ProlixZekrom31.jpeg','Profile Photo: Prolix'],
+        'DESCRIPTION',false,
+        [
+            ['Video','https://youtu.be/03UCLRcRqQw'],
+            ['Asterix: Prolix','https://leagueofcomicgeeks.com/character/79295/prolix'],
+            ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Zekrom_(Pokémon)'],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-plamo-collection-14-zekrom-model-kit'],
+            ['NewType','https://newtype.us/p/zFxni4eQiVc6SRCMa7Qo/h/pokemon-zekrom']
+        ],false,true,false,false,false,false,false,false,false,false,'Pokemon Select Series 14 Zekrom Model Kit'
     ],
     
     //Digimon
@@ -17993,6 +18972,10 @@ function buildProjectPage(string) {
         popNode('Gundam ','projectTitle');
         popNode('Gundam ','projectTitleMb');
     }
+    if (modelArray[1] === 7 && modelArray[16]) {
+        popNode('Legendary ','projectTitle');
+        popNode('Legendary ','projectTitleMb');
+    }
     if (modelArray[1] === 2 || modelArray[1] === 3) {
         popNode(modelArray[27]+' ','projectTitle');
         popNode(modelArray[27]+' ','projectTitleMb');
@@ -18931,6 +19914,9 @@ function buildPokemon() {
     if (modelArray[15]) {
         unhide('.pkFormHD');
         popNode(modelArray[15],'pkForm');
+    }
+    if (modelArray[16]) {
+        unhide('.pkLegendHD');
     }
     if (modelArray[24]) {
         unhide('.pkNicknameHD');

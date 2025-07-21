@@ -425,6 +425,9 @@ ul {
 .pkHeightHD {
     display: none;
 }
+.pkLegendHD {
+    display: none;
+}
 .pkNicknameHD {
     display: none;
     font-family: "Apple Chancery", Times, sans-serif;

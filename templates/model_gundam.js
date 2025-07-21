@@ -19,10 +19,10 @@
     'MaterialArmor',
     'EnergyPowerSource',
     [
-        'Armaments'
+        'Armaments' //built into suit. i.e. forehead mounted vulcan guns
     ],
     [
-        'Equipment'
+        'Equipment' //not physically part of suit but carried. i.e. beam sabers and rifles
     ],
     [
         'Systems'

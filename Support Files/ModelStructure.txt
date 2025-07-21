@@ -170,6 +170,7 @@ Models Array Structure
 13. Generation (roman numeral)
 14. First Introduced
 15. Form
+16. Legendary Pokemon T/F
 ...
 24. Nickname
 25. 

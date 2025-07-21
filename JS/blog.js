@@ -3213,6 +3213,29 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/Paimon13.jpeg']
         ]
+    ],
+    [
+        '2025-07-21',
+        'WOO-PIG-SOOOIE!!!!',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/ARK_Logo.jpg',
+        [
+            [
+                'It\'s another pokemone week but this time rather than one inpsired by the French comic book Asterix, this week is inspired by my all-time favorite college mascot, the Arkansas Razorbacks!! Also a pig, this week I painted a cute little Tepig. I give you ',
+                ['Tusk','Builds/Pokemon/Tusk.html'],
+                '.'
+            ]
+        ],
+        [
+            [
+                ['Youtube','https://www.youtube.com/watch?v=Z9kye_ii8zs',true]
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/TuskTepig19.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/ARK_Tusk.jpg']
+        ]
     ]
 ]
 
