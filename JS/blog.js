@@ -3190,7 +3190,7 @@ const blogArray = [
     ],
     [
         '2025-07-15',
-        'Archangel Michael',
+        'Demon King Paimon',
         'https://hosting.photobucket.com/images/i/lesaintdumech/Paimon.jpeg',
         [
             [
@@ -3235,6 +3235,32 @@ const blogArray = [
         ],
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/ARK_Tusk.jpg']
+        ]
+    ],
+    [
+        '2025-07-29',
+        'Ancient Demon Lord of Storms',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/Bael.jpg',
+        [
+            [
+                'I have been waiting forever to present this build. My High Grade Dark Gundam and sinister demon lord, ',
+                ['Baal','Builds/Gundams/BaalDarkG.html'],
+                '.'
+            ]
+        ],
+        [
+            'This kit is a bit simple. Just one gimmick and one gimmick only, its ability to turn into a big fat Gundam Head. But the transformation is weak and the parts very loosely dangle together. Just a word of worning for others looking to build it, it is fragile. But as eponomous and infamous and significant to the Gundam Franchise that the Dark Gundam, and how little kits of this brute beast that there are, this kit was a must. Enjoy.'
+        ],
+        [
+            [
+                ['Youtube','https://youtu.be/pLW4sCPgpKs',true]
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/Baal03.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/Baal35.jpeg']
         ]
     ]
 ]

@@ -9350,7 +9350,7 @@ const projects = [
     ['Zero EW (rg)',[1,'Wing Zero'],'RG',false,false,false,'Wing','A'],
     ['Zero EW (sd)',[1,'Wing Zero'],'SD',false,false,false,'Wing','B'],
     ['Wing Zero [MGSD]',[1,'Wing Zero'],'MGSD',true,false,false,'Wing','C','2025-01-10',6,false],
-    ['Grim',[1,'Wing Zero'],'MGSD',false,false,false,'Wing','B'],
+    ['Grim',[1,'Wing Zero'],'MGSD',false,false,false,'Wing','C','2025-07-26',12.92,false],
     ['Rosette',[1,'Wing Zero'],'MGSD',false,false,false,'Wing','A'],
 
     //After War (X)
@@ -10661,7 +10661,7 @@ const projects = [
         ],false,true,'1:144',false,false,'Fusion Suit'
     ],
     ['Samus: Scarlet Suit',[1,'Dagger L'],'HG',
-        false,false,false,'Seed','C','2025-07-03',4.55,false,'Builds/Metroid/ScarletSam.html','Metroid','2026',models[23]
+        false,false,false,'Seed','C','2025-07-03',7.05,false,'Builds/Metroid/ScarletSam.html','Metroid','2026',models[23]
     ],
     ['Friar Laurence',[1,'Dagger 105 + Gunbarrel'],'HG',false,false,false,'Seed','B'],
     ['Charizard',[1,'Destiny'],'MG',false,false,false,'Seed','B'],
@@ -12482,7 +12482,7 @@ const projects = [
         ],['Cordelia','Dobiel','King Leir','Leo Army'],true,true,'1:144'
     ],
     ['Baal',[1,'Dark Gundam'],'HG',
-        false,false,false,'G','D','2024-08-20',5.6,false,'Builds/Gundams/BaalDarkG.html','Ars Goetia','2025-07-28',models[115],
+        false,false,false,'G','E','2024-08-20',5.6,false,'Builds/Gundams/BaalDarkG.html','Ars Goetia','2025-07-29',models[115],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Baal01.jpeg','Baal'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Baal02.jpeg','Baal'],
@@ -12529,12 +12529,14 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Baal43.jpeg','Baal'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Baal44.jpeg','Baal']
         ],['https://hosting.photobucket.com/images/i/lesaintdumech/Baal16.jpeg','Profile Photo: Baal'],
-        'I was stoked to build this. But I sort of wanted more. The Gundam Head and its transformation to Mobile Fighter mode was pretty cool. But still I would love the whole reptillian body that it was mounted to. Anyhow for this I painted it with Mr Hobby\'s Mr Metallic paint line. With Rough Silver, Raw Gold, Metallic Red, Metalallic Dark Blue and Metallic Black for the vents. But what I am most proud of are those eyes. Not the little eyes on the little head up above. But the large eyes down in front on the large Gundam Head. For those I used Testors Gloss Tangerine and they are just so bright and really stand out. For me, the eyes themselves evoke all the personality of this build.',false,
+        'I was stoked to build this. But I sort of wanted more. The Gundam Head and its transformation to Mobile Fighter mode was pretty cool. But still I would love the whole reptillian body that it was mounted to. Anyhow for this I painted it with Mr Hobby\'s Mr Metallic paint line. With Rough Silver, Rough Gold, Metallic Red, Metalallic Dark Blue and Metallic Black for the vents. But what I am most proud of are those eyes. Not the little eyes on the little head up above. But the large eyes down in front on the large Gundam Head. For those I used Testors Gloss Tangerine and they are just so bright and really stand out. For me, the eyes themselves evoke all the personality of this build.',false,
         [
             ['Video','https://youtu.be/pLW4sCPgpKs'],
             ['USA Gundam','https://www.usagundamstore.com/products/mobile-fighter-g-gundam-1-144-devil-gundam'],
-            ['NewType','https://newtype.us/p/40vblRvo7mOMPVvJZG1C/h/1-144-g-10-devil-gundam']
-        ],false,true,false,'1:144'
+            ['NewType','https://newtype.us/p/40vblRvo7mOMPVvJZG1C/h/1-144-g-10-devil-gundam'],
+            ['Ars Goetia','https://en.wikipedia.org/wiki/List_of_demons_in_the_Ars_Goetia'],
+            ['Baal','https://en.wikipedia.org/wiki/Baal']
+        ],false,true,true,'1:144'
     ],  //Mr Metallic
     ['Balam',[1,'Dark Gundam'],'HG',false,false,false,'G','B'], //Turbo
     ['Belial',[1,'Dark Gundam'],'HG',false,false,false,'G','B'],    //Candy
@@ -13179,7 +13181,7 @@ const projects = [
             ['NewType','https://newtype.us/p/7JEXE8RGCWQpRiBbvSLa/h/hgibo-029-mobile-armor-hashmal'],
             ['TurboDork: Box Wine','https://turbodork.com/products/box-wine'],
             ['TurboDork: Scarab','https://turbodork.com/products/scarab'],
-            ['TurboDork: Vine','https://en.wikipedia.org/wiki/Vine_(demon)']
+            ['Ars Goetia: Vine','https://en.wikipedia.org/wiki/Vine_(demon)']
         ],['Sealiah'],false,true,'1:144'
     ],
     ['Trace',[1,'Reginlaze Julia'],'HG',false,false,false,'IBO','A','202x',0,false,'Builds/Metroid/Trace.html','Metroid'],
@@ -15266,7 +15268,7 @@ const projects = [
         ],false,true,true,false,false,false,false,false,false,false,'Pokemon Eevee (Sleeping Pose) 07 Quick Model Kit'
     ],    //Blue
     ['Sprinkles',[1,'Eevee'],'Pokemon',
-        false,false,false,'','C','2025-08-18',0.65,false,'Builds/Pokemon/SprinklesEevee.html','Angela','2026',models[131],
+        false,false,false,'','C','2025-08-18',1.57,false,'Builds/Pokemon/SprinklesEevee.html','Angela','2026',models[131],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Bandit01.jpeg','Sprinkles']
         ],
@@ -15294,11 +15296,11 @@ const projects = [
         ],false,true,false,false,false,false,false,false,false,false,'Pokemon Select Series 6 Empoleon Evolution Set Model Kit'
     ],
     ['Soporifix',[1,'Entei'],'Pokemon',
-        false,false,false,'','C','2025-07-03',2.30,false,'Builds/Pokemon/Soporifix.html',false,'2025-12-29'
+        false,false,false,'','C','2025-07-03',3.25,false,'Builds/Pokemon/Soporifix.html',false,'2025-12-29'
     ],
     ['Instantmix',[1,'Fuecoco'],'Pokemon',false,false,false,'','B'],
     ['Astronomix',[1,'Gengar'],'Pokemon',
-        false,false,false,'','D','2023-12-11',2.68,false,'Builds/Pokemon/Astron.html','Asterix','2025-08-04',models[169],
+        false,false,false,'','D','2023-12-11',2.68,false,'Builds/Pokemon/AstronGengar.html','Asterix','2025-08-04',models[169],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/AstronomixGengar01.jpeg','Astronomix'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/AstronomixGengar02.jpeg','Astronomix'],
@@ -15321,7 +15323,7 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/AstronomixGengar19.jpeg','Astronomix'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/AstronomixGengar20.jpeg','Astronomix']
         ],['https://hosting.photobucket.com/images/i/lesaintdumech/AstronomixGengar05.jpeg','Profile Photo: Astronomix'],
-        'DESCRIPTION',false,
+        'Went with a very traditional Gengar design. Basically just a very dark puprple. Specifcally the Mr Hobby Metallic Violet. The cool thing about this kit is it comes with two tongues. One withdrawn and one stuck out extended. So of course I had to paint and pose it with both.',false,
         [
             ['Video','https://youtu.be/cGkscgFlfWA'],
             ['Asterix: Astronomix','https://asterix.fandom.com/wiki/Astronomix'],
@@ -15559,7 +15561,7 @@ const projects = [
         ],['Vitalstatistix'],true,true,false,false,false,false,false,false,false,'Pokemon Select Series 4 Lugia Model Kit'
     ],
     ['Bucolix',[1,'Lunala'],'Pokemon',
-        false,false,false,'','C','2025-07-04',2.68,false,'Builds/Pokemon/Bucix.html',false,'2025-12-15'
+        false,false,false,'','C','2025-07-04',4.10,false,'Builds/Pokemon/Bucix.html',false,'2025-12-15'
     ],
     ['Unhygienix',[1,'Magikarp'],'Pokemon',false,false,false,'','A'],
     ['Cacofonix',[1,'Metagross'],'Pokemon',
@@ -15924,10 +15926,10 @@ const projects = [
         ],['Lutetia'],true,true,false,false,false,false,false,false,false,'Pokemon Select Series 44 Riolu & Lucario Model Kit'
     ], 
     ['Mantis Force',[6,'Scizor','Scizor','Scizor','Scizor','Scizor','Scizor'],'Pokemon',
-        false,false,false,'','C','2025-07-08',1.6,false,'Builds/Pokemon/MantisForce.html',false,'2025'
+        false,false,false,'','C','2025-07-08',2.88,false,'Builds/Pokemon/MantisForce.html',false,'2025'
     ],
     ['Tragicomix',[1,'Solgaleo'],'Pokemon',
-        false,false,false,'','C','2025-07-04',2.37,false,'Builds/Pokemon/Tragix.html',false,'2025-11-17'
+        false,false,false,'','C','2025-07-04',3.77,false,'Builds/Pokemon/Tragix.html',false,'2025-11-17'
     ],
     ['Cooper',[1,'Squirtle'],'Pokemon',
         false,false,false,'','E','2024-06-04',2.17,false,'Builds/Pokemon/Cooper.html',false,'2024-09-16',models[134],
@@ -15960,7 +15962,7 @@ const projects = [
         ],['Jade','Jasper'],false,true,false,false,false,false,false,false,false,'Pokemon Squirtle 17 Quick Model Kit'
     ],
     ['Pacifix',[1,'Suicune'],'Pokemon',
-        false,false,false,'','C','2025-07-03',3.13,false,'Builds/Pokemon/Pacifix.html',false,'2025-12-01'
+        false,false,false,'','C','2025-07-03',3.67,false,'Builds/Pokemon/Pacifix.html',false,'2025-12-01'
     ],
     ['Tusk',[1,'Tepig'],'Pokemon',
         false,false,false,'','E','2023-10-22',3.1,false,'Builds/Pokemon/Tusk.html',false,'2025-07-21',models[168],
