@@ -3262,6 +3262,32 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/Baal35.jpeg']
         ]
+    ],
+    [
+        '2025-08-04',
+        'Father of the Legend, Astronomix',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/AstronomixGengar21.jpeg',
+        [
+            [
+                'We\'re quickly reaching the end of my backlog of all my pokemon builds that I have stacked up to post. But no worries I have some new kits that just came in the mail for me to paint and build. This week I present to you ',
+                ['Astronomix','Builds/Pokemon/AstronGengar.html'],
+                ', the father to our mighty short warrior Asterix.'
+            ]
+        ],
+        [
+            'As for the build, Astronomix is a very traditional Gengar. With a rich deep dark metallic purple. And even cooler an interchangeable short and long tongue. I swear long tongue Gengar practically looks like park eqiupment that I would love to literally slide down.'
+        ],
+        [
+            [
+                ['Youtube','https://youtu.be/cGkscgFlfWA',true]
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/FatherAstronomix.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/AstronomixGengar05.jpeg']
+        ]
     ]
 ]
 
