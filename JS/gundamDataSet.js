@@ -8545,6 +8545,7 @@ const projects = [
     //Advanced Generation (Age)
     ['Uriel',[1,'Age-FX'],'SD',false,false,false,'Age','B'],
     ['Gamma Draconis',[1,'Danazine'],'HG',false,false,false,'Age','B'],
+    ['Pending Legilis Name',[1,'Legilis'],'SD',false,false,false,'Age','A'],
 
     //After Colony (Wing)
     ['Leo Army',[6,'Leo'],'LEO',false,false,false,'Wing','C','2021-10-03',42.94,false,'Builds/Gundams/LeoArmy.html',false],
@@ -9350,7 +9351,7 @@ const projects = [
     ['Zero EW (rg)',[1,'Wing Zero'],'RG',false,false,false,'Wing','A'],
     ['Zero EW (sd)',[1,'Wing Zero'],'SD',false,false,false,'Wing','B'],
     ['Wing Zero [MGSD]',[1,'Wing Zero'],'MGSD',true,false,false,'Wing','C','2025-11-17',6,false],
-    ['Grim',[1,'Wing Zero'],'MGSD',false,false,false,'Wing','C','2025-07-26',15.25,false],
+    ['Grim',[1,'Wing Zero'],'MGSD',false,false,false,'Wing','C','2025-07-26',25.08,false],
     ['Rosette',[1,'Wing Zero'],'MGSD',false,false,false,'Wing','A'],
 
     //After War (X)
@@ -9648,6 +9649,12 @@ const projects = [
         [
             ['Premium Bandai','https://p-bandai.com/us/item/F2519710002']
         ],false,false,true,'1:144'
+    ],
+    ['Sicarii',[1,'Exia'],'RG',
+        false,false,false,'00','B'
+    ],
+    ['Derecho',[1,'Exia','PB Exia Repair Parts Kit'],'RG',
+        false,true,false,'00','A'
     ],
     ['Federation Trooper',[1,'Flag'],'HG',
         false,false,false,'00','E','2023-08-06',9.1,false,'Builds/Metroid/FedTrooper.html','Metroid','2024-07-22',models[129],
@@ -10761,7 +10768,7 @@ const projects = [
         false,false,['Archangel'],false,true,'1:1700'
     ],
     ['Roanoke',[1,'Exus'],'HG',
-        false,false,false,'Seed','D','2024-11-22',8.88,false,'Builds/MobileArmors/RoanokeExus.html',false,'2025-08-11',models[178],
+        false,false,false,'Seed','E','2024-11-22',8.88,false,'Builds/MobileArmors/RoanokeExus.html',false,'2025-08-11',models[178],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus01.jpeg','Roanoke'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus02.jpeg','Roanoke'],
@@ -10854,12 +10861,12 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus89.jpeg','Roanoke'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus90.jpeg','Roanoke']
         ],['https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus18.jpeg','Profile Photo: Roanoke'],
-        'DESCRIPTION',false,
+        'For this build I partially wanted to go with the original design. However I feel felt like there\'s much too much pink in Gundam Seed (i.e. The Justice, The Aegis, Saviour, the Eternal, Roanoke\'s custom Windam) so I decided I wanted to brighten this build up a bit. Instead of pink, kept it in the red family and went with a metallic Bloody Red. As for the white portions, swapped the white out for a metallic Red Gold. And the beam cannon, just a standard Tamiya copper.',false,
         [
             ['Video','https://youtu.be/2PtLFZV2DiM'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/gundam-seed-destiny-ex-model-22-mobile-armor-exas'],
             ['NewType','https://newtype.us/p/xX1m1w2GRAPc3PhnBvXi/h/ex-22-mobile-armor-exass']
-        ],false,true,false,'1:144'
+        ],false,true,true,'1:144'
     ],
     ['Orga',[1,'Forbidden'],'FM',false,false,false,'Seed','A'],
     ['Anthem',[1,'Freedom'],'MG',
@@ -13730,6 +13737,9 @@ const projects = [
             ['Newtype','https://newtype.us/p/zJjlPuRONegsmLUDIIR6/h/mg-rgb-79-ball-verka']
         ],false,false,true,'1:100'
     ],
+    ['Great Ball',[1,'Podball 08 MS'],'MG',
+        false,false,false,'UC','A'
+    ],
     ['Ridley',[1,'Qubeley'],'HG',false,false,false,'UC','A'],
     ['GunChef',[1,'RX-78-2'],'RG',false,false,false,'UC','A'],
     ['RX782v1RG',[1,'RX-78-2'],'RG',true,false,false,'UC','C','2024-10-15',4.92],
@@ -15017,7 +15027,7 @@ const projects = [
             ['NewType','https://newtype.us/p/1fr1jxjfedNyHnKlr6Gv/h/pokemon-arceus']
         ],false,true,false,false,false,false,false,false,false,false,'Pokemon Select Series 51 Arceus Model Kit'
     ],
-    ['Harmonix',[1,'Mega Blaziken'],'Pokemon',false,false,false,'','B'],
+    ['Harmonix',[1,'Mega Blaziken'],'Pokemon',false,false,false,'','A'],
     ['Obelix',[1,'Bulbasaur'],'Pokemon',
         false,false,false,'','E','2023-09-13',3.07,false,'Builds/Pokemon/Obelix.html','Asterix','2023-10-23',models[94],
         [
@@ -15926,7 +15936,7 @@ const projects = [
         ],['Lutetia'],true,true,false,false,false,false,false,false,false,'Pokemon Select Series 44 Riolu & Lucario Model Kit'
     ], 
     ['Mantis Force',[6,'Scizor','Scizor','Scizor','Scizor','Scizor','Scizor'],'Pokemon',
-        false,false,false,'','C','2025-07-08',4.67,false,'Builds/Pokemon/MantisForce.html',false,'2025'
+        false,false,false,'','C','2025-07-08',5.58,false,'Builds/Pokemon/MantisForce.html',false,'2025'
     ],
     ['Tragicomix',[1,'Solgaleo'],'Pokemon',
         false,false,false,'','C','2025-07-04',3.77,false,'Builds/Pokemon/Tragix.html',false,'2025-11-17'
@@ -15999,7 +16009,7 @@ const projects = [
         ],false,true,true,false,false,false,false,false,false,false,'Pokemon Tepig 14 Quick Model Kit'
     ], 
     ['Prolix',[1,'Zekrom'],'Pokemon',
-        false,false,false,'','D','2023-12-13',4.05,false,'Builds/Pokemon/Prolix.html','Asterix','2025-08-18',models[170],
+        false,false,false,'','D','2023-12-13',4.05,false,'Builds/Pokemon/ProlixZekrom.html','Asterix','2025-08-18',models[170],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/ProlixZekrom01.jpeg','Prolix'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/ProlixZekrom02.jpeg','Prolix'],
@@ -16040,7 +16050,7 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/ProlixZekrom37.jpeg','Prolix'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/ProlixZekrom38.jpeg','Prolix']
         ],['https://hosting.photobucket.com/images/i/lesaintdumech/ProlixZekrom31.jpeg','Profile Photo: Prolix'],
-        'DESCRIPTION',false,
+        'Very traditional on this design. Albeit one difference I wanted to make was to add better contrast between the dark and light portions. The traditional design in the Pokemon franchise is all very very dark. Even the lighter portions are very black. For mine I decided to alternate by painting the different segments in metallic black and metallic ice grey (dark grey). They\'re both dark colors, but the ligther one is just light enough to stand out from the black. It\'s almost a bluish grey in a way. Also for the eletrical generator on the tail I just had to make it cooler to make it a white shiny silver so that it really stood out.',false,
         [
             ['Video','https://youtu.be/03UCLRcRqQw'],
             ['Asterix: Prolix','https://leagueofcomicgeeks.com/character/79295/prolix'],

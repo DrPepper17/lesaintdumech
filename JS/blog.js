@@ -3288,6 +3288,49 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/AstronomixGengar05.jpeg']
         ]
+    ],
+    [
+        '2025-08-11',
+        'Flyin High to Infinity',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus45.jpeg',
+        [
+            [
+                'Today we blast off to the stars on Mobile Armor ',
+                ['Roanoke','Builds/MobileArmors/RoanokeExus.html'],
+                ', the Gundam SEED Destiny High Grade Exus.'
+            ]
+        ],
+        [
+            [
+                'So there are not many mobile armor kits, plus I really miss doing ship builds. The ',
+                ['Archangel','Builds/Ships/Archangel.html'],
+                ' and ',
+                ['Eternal','Builds/Ships/Eternal.html'],
+                ' kits were some of the highlights of my custom build hobby since I started all this. So when I saw the Exus kit posted on ',
+                ['USA Gundam','https://www.usagundamstore.com','true'], 
+                ' I just had to pre-order it.'
+            ]
+        ],
+        [
+            'Overall the kit is okay. It\'s cool how the side ships pop off and become their own independent gun barrels. But it\'s still not as complex as a ship build like I had been hoping for. But it is nice just to have a new Mobile Armor to add to the Mobile Armor collection. I feel like all I have so far is just the Hashmal from IBO. Will say that I am super hoping they release a kit though for the pre-cursor to the Exus, the Moebius Zero.'
+        ],
+        [
+            [
+                ['Youtube','https://youtu.be/2PtLFZV2DiM',true]
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus21.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus22.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus26.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus34.jpeg']
+        ]
     ]
 ]
 
