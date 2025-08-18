@@ -9351,7 +9351,7 @@ const projects = [
     ['Zero EW (rg)',[1,'Wing Zero'],'RG',false,false,false,'Wing','A'],
     ['Zero EW (sd)',[1,'Wing Zero'],'SD',false,false,false,'Wing','B'],
     ['Wing Zero [MGSD]',[1,'Wing Zero'],'MGSD',true,false,false,'Wing','C','2025-11-17',6,false],
-    ['Grim',[1,'Wing Zero'],'MGSD',false,false,false,'Wing','C','2025-07-26',25.08,false],
+    ['Grim',[1,'Wing Zero'],'MGSD',false,false,false,'Wing','C','2025-07-26',25.20,false],
     ['Rosette',[1,'Wing Zero'],'MGSD',false,false,false,'Wing','A'],
 
     //After War (X)
@@ -9651,10 +9651,10 @@ const projects = [
         ],false,false,true,'1:144'
     ],
     ['Sicarii',[1,'Exia'],'RG',
-        false,false,false,'00','B'
+        false,false,false,'00','B','2025',0.25
     ],
     ['Derecho',[1,'Exia','PB Exia Repair Parts Kit'],'RG',
-        false,true,false,'00','A'
+        false,true,false,'00','B','2025',0.25
     ],
     ['Federation Trooper',[1,'Flag'],'HG',
         false,false,false,'00','E','2023-08-06',9.1,false,'Builds/Metroid/FedTrooper.html','Metroid','2024-07-22',models[129],
@@ -9850,7 +9850,7 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/GraphiteOG33.jpeg','Graphite'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/GraphiteOG34.jpeg','Graphite']
         ],['https://hosting.photobucket.com/images/i/lesaintdumech/GraphiteOG34.jpeg','Profile Photo: Graphite'],
-        'DESCRIPTION',false,
+        'Had literally zero inpsiration on this build. I cannot possibly say that any more bluntly. I grabbed the model kit on a whim at the hobby store. As for the colors I was at a loss. I had no inspiration at all. Wound up just choosing my least used paints lately from the Mr Hobby metallics line.',false,
         [
             ['Video','https://youtu.be/R2WFXtj61RE'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/hg-1-144-52-o-gundam'],
@@ -11045,6 +11045,7 @@ const projects = [
             ['NewType','https://newtype.us/p/YvNO7xYH5IAMfB9d8UZy/h/mgsd-freedom-gundam']
         ],['Anthem','Liberty'],false,true,false
     ],
+    ['GCP Freedom',[1,'Freedom'],'TG',true,true,false,'Seed','C','2025-08-16',6.084],
     ['Billy Blue Jay',[1,'Ginn'],'MG',false,false,false,'Seed','B'],
     ['Destiny Impulse (Regenes)',[1,'Impulse, Destiny'],'MG',
         true,true,false,'Seed','E','2023-05-05',20.33,false,'Builds/PBandai/PBDesintyImpulseREgenesMG.html',false,'2023-11-27',models[97],
@@ -15184,10 +15185,10 @@ const projects = [
         ],['Asterix','Boudica','Charizard','Xerxes','Justinian'],false,true,false,false,false,false,false,false,false,'Pokemon Select Series 43 Charizard & Dragonite Model Kit Set'
     ],
     ['Xerxes',[1,'Mega Charizard X'],'Pokemon',
-        false,false,false,'','B','2025',0
+        false,false,false,'','C','2025-08-13',1.98
     ],
     ['Justinian',[1,'Mega Charizard Y'],'Pokemon',
-        false,false,false,'','B','2025',0
+        false,false,false,'','C','2025-08-13',1.38
     ],
     ['Boudica',[1,'Dragonite'],'Pokemon',
         false,false,false,'','E','2023-03-11',3.47,false,'Builds/Pokemon/Boudica.html',false,'2023-09-12',models[81],
@@ -15308,7 +15309,7 @@ const projects = [
     ['Soporifix',[1,'Entei'],'Pokemon',
         false,false,false,'','C','2025-07-03',3.25,false,'Builds/Pokemon/Soporifix.html',false,'2025-12-29'
     ],
-    ['Instantmix',[1,'Fuecoco'],'Pokemon',false,false,false,'','B'],
+    ['Instantmix',[1,'Fuecoco'],'Pokemon',false,false,false,'','C','2025-08-13',1.02],
     ['Astronomix',[1,'Gengar'],'Pokemon',
         false,false,false,'','E','2023-12-11',2.68,false,'Builds/Pokemon/AstronGengar.html','Asterix','2025-08-04',models[169],
         [
@@ -15936,7 +15937,7 @@ const projects = [
         ],['Lutetia'],true,true,false,false,false,false,false,false,false,'Pokemon Select Series 44 Riolu & Lucario Model Kit'
     ], 
     ['Mantis Force',[6,'Scizor','Scizor','Scizor','Scizor','Scizor','Scizor'],'Pokemon',
-        false,false,false,'','C','2025-07-08',5.58,false,'Builds/Pokemon/MantisForce.html',false,'2025'
+        false,false,false,'','C','2025-07-08',12.9,false,'Builds/Pokemon/MantisForce.html',false,'2025'
     ],
     ['Tragicomix',[1,'Solgaleo'],'Pokemon',
         false,false,false,'','C','2025-07-04',3.77,false,'Builds/Pokemon/Tragix.html',false,'2025-11-17'
@@ -16009,7 +16010,7 @@ const projects = [
         ],false,true,true,false,false,false,false,false,false,false,'Pokemon Tepig 14 Quick Model Kit'
     ], 
     ['Prolix',[1,'Zekrom'],'Pokemon',
-        false,false,false,'','D','2023-12-13',4.05,false,'Builds/Pokemon/ProlixZekrom.html','Asterix','2025-08-18',models[170],
+        false,false,false,'','E','2023-12-13',4.05,false,'Builds/Pokemon/ProlixZekrom.html','Asterix','2025-08-18',models[170],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/ProlixZekrom01.jpeg','Prolix'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/ProlixZekrom02.jpeg','Prolix'],
@@ -16054,10 +16055,11 @@ const projects = [
         [
             ['Video','https://youtu.be/03UCLRcRqQw'],
             ['Asterix: Prolix','https://leagueofcomicgeeks.com/character/79295/prolix'],
+            ['Fandom: Prolix','https://asterix.fandom.com/fr/wiki/Prolix'],
             ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Zekrom_(Pokémon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-plamo-collection-14-zekrom-model-kit'],
             ['NewType','https://newtype.us/p/zFxni4eQiVc6SRCMa7Qo/h/pokemon-zekrom']
-        ],false,true,false,false,false,false,false,false,false,false,'Pokemon Select Series 14 Zekrom Model Kit'
+        ],false,true,true,false,false,false,false,false,false,false,'Pokemon Select Series 14 Zekrom Model Kit'
     ],
     
     //Digimon

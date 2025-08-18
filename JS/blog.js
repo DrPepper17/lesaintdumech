@@ -3331,6 +3331,29 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus34.jpeg']
         ]
+    ],
+    [
+        '2025-08-18',
+        'Ancient Celtic Fortune Teller',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/ProlixComic.jpeg',
+        [
+            [
+                'Time for another Asterix build. Which is code speak for Pokemon. This week I give you ancient fortune teller of the Gauls ',
+                ['Prolix','Builds/Pokemon/ProlixZekrom.html'],
+                ', a shiny metallic black and silver Zekrom.'
+            ]
+        ],
+        [
+            [
+                ['Youtube','https://youtu.be/03UCLRcRqQw?si=m8_mwf3qIhwpCbCh',true]
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/ProlixZekrom27.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/ProlixZekrom40.jpeg']
+        ]
     ]
 ]
 
