@@ -3354,6 +3354,32 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/ProlixZekrom40.jpeg']
         ]
+    ],
+    [
+        '2025-08-26',
+        'Dull Like A Pencil',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/GraphiteOG28.jpeg',
+        [
+            [
+                'The original 0 Gundam gets very little representation and we seldom see kits of it nor builds. Due that lack of respect in the Gundam community, I give you ',
+                ['Graphite','Builds/Gundams/GraphiteOG.html'],
+                '. '
+            ]
+        ],
+        [
+            'I was not sure what to do with the theme for this build. I started painting it first, choosing colors at a whim and somehow wound up choosing dull neutral colors. After seeing how it looked, I then chose the name. Which no lie, it is sort of grey like the graphite in a pencil. In this case the design preceded the theme in name whereas I usually go in reverse.'
+        ],
+        [
+            'However will say that in terms of photography, the dark colors here do allow it to snap great silhouette and shadow shots.'
+        ],
+        [
+            [
+                ['Youtube','https://youtu.be/R2WFXtj61RE',true]
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/GraphiteOG09.jpeg']
+        ]
     ]
 ]
 
