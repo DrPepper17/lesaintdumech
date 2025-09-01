@@ -11045,7 +11045,7 @@ const projects = [
             ['NewType','https://newtype.us/p/YvNO7xYH5IAMfB9d8UZy/h/mgsd-freedom-gundam']
         ],['Anthem','Liberty'],false,true,false
     ],
-    ['GCP Freedom',[1,'Freedom'],'TG',true,'BASE',false,'Seed','C','2025-08-16',6.084],
+    ['GCP Freedom',[1,'Freedom'],'TG',true,'BASE',false,'Seed','C','2025-08-16',6.584],
     ['Billy Blue Jay',[1,'Ginn'],'MG',false,false,false,'Seed','B'],
     ['Destiny Impulse (Regenes)',[1,'Impulse, Destiny'],'MG',
         true,true,false,'Seed','E','2023-05-05',20.33,false,'Builds/PBandai/PBDesintyImpulseREgenesMG.html',false,'2023-11-27',models[97],
@@ -12863,7 +12863,7 @@ const projects = [
             ['NewType','https://newtype.us/p/MPVL4uHKxfF5yv6Bjwbu/h/sdgg-239-shining-gundam']
         ],['Michael'],true,true
     ],
-    ['Shinig Gundam [RG]',[1,'Shining Gundam'],'RG',true,false,false,'G','B','2025',0],
+    ['Shinig Gundam [RG]',[1,'Shining Gundam'],'RG',true,false,false,'G','D','2025-08-26',7.5],
     ['Camael',[1,'Shining Gundam'],'SD',false,false,false,'G','B','2024',0],    //Flat
     ['Red Baron',[1,'Spiegel, Gundam'],'MG',
         false,false,false,'G','E','2021-05-05',72.07,true,'Builds/Gundams/RedBaron.html','Hand Paint','2021-05-29',models[2],
@@ -14505,8 +14505,8 @@ const projects = [
         ],['Clymene'],true,true
     ],
     ['Gaia',[1,'Providence Gundam, Sangoku Soketsuden Dong Zhuo'],'SD',false,false,false,'Heroes','B'],
-    ['Captain QAN [SD]',[1,'QAN[T] GF, Captain'],'SD',true,false,false,'Heroes','B'],
-    ['Hecate',[1,'QAN[T] GF, Captain'],'SD',false,false,false,'Heroes','B'],
+    ['Captain QAN [SD]',[1,'QAN[T] GF, Captain'],'SD',true,false,false,'Heroes','D','2025-08-26',2.34],
+    ['Django',[1,'QAN[T] GF, Captain'],'SD',false,false,false,'Heroes','B'],
     ['Crius',[1,'Sazabi, Zhang Liao'],'SD',false,false,false,'Heroes','B'],
     ['Clymene',[1,'Strike, Knight'],'SD',
         false,false,false,'Heroes','E','2024-06-18',3.64,false,'Builds/SDW/Clymene.html',false,'2025-02-11',models[152],
@@ -14998,7 +14998,7 @@ const projects = [
     
     //Pokemon
     ['Cetautomatix',[1,'Arceus'],'Pokemon',
-        false,false,false,'','D','2024-02-16',4.53,false,'Builds/Pokemon/CetautomatixArceus.html','Asterix','2025-09-01',models[171],
+        false,false,false,'','E','2024-02-16',4.53,false,'Builds/Pokemon/CetautomatixArceus.html','Asterix','2025-09-01',models[171],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/CetautoArceus01.jpeg','Cetautomatix'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/CetautoArceus02.jpeg','Cetautomatix'],
@@ -15029,7 +15029,7 @@ const projects = [
             ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Arceus_(Pokémon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-arceus-51-model-kit'],
             ['NewType','https://newtype.us/p/1fr1jxjfedNyHnKlr6Gv/h/pokemon-arceus']
-        ],false,true,false,false,false,false,false,false,false,false,'Pokemon Select Series 51 Arceus Model Kit'
+        ],false,true,true,false,false,false,false,false,false,false,'Pokemon Select Series 51 Arceus Model Kit'
     ],
     ['Harmonix',[1,'Mega Blaziken'],'Pokemon',false,false,false,'','A'],
     ['Obelix',[1,'Bulbasaur'],'Pokemon',

@@ -3380,6 +3380,29 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/GraphiteOG09.jpeg']
         ]
+    ],
+    [
+        '2025-09-01',
+        'Master Smith',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/CetautoSmith.jpeg',
+        [
+            [
+                'The Master Smith, creator of weapons, creator of armor, creator of worlds, creator of Pokemon, this week I give you ',
+                ['Cetautomatix','Builds/Pokemon/CetautomatixArceus.html'],
+                '.'
+            ]
+        ],
+        [
+            'Named of the village smithy of the Gauls, this week\'s paint build is the Pokemon Arceus, whom in Pokemon mythos is the Pokemon godlike figure who created the world as well as all Pokemon. (Whether or not that also includes humans is a loophole in the storyline that\'s never been addressed that I have often thought about.) But this is the last of my Pokemon builds in my backlog so I am now bout to take a break for a while. See you in two months with fresh builds.'
+        ],
+        [
+            [
+                ['Youtube','https://youtu.be/LOOGfyUoeTo',true]
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/CetautoArceus21.jpeg']
+        ]
     ]
 ]
 
