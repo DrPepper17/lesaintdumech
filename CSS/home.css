@@ -62,6 +62,11 @@ tr {
     background-image: linear-gradient(to left top, teal, lightskyblue, white);
     padding: 20px 0;
 }
+.sticky-top-secondary {
+        position: sticky;
+        top: 56px; /* Adjust this value based on the height of your primary navbar */
+        z-index: 1019; /* Optional: Adjust if you need to control stacking */
+    }
 .table1 {
     width: 500px; 
 }

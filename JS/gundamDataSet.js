@@ -445,7 +445,14 @@ const models = [
         ['https://hosting.photobucket.com/images/i/lesaintdumech/freedom.jpeg','Freedom Gundam'],
         true,
         [14],
-        'Freedom'
+        'Freedom',
+        false,
+        false,
+        false,
+        false,
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/FreedomShanghai.jpeg','GCP Freedom Gundam']
+        ]
     ],
     [15,2,'Archangel',
         'LCAM-01XA Archangel',
@@ -5632,7 +5639,17 @@ const models = [
         false,
         false,
         false,
-        ['https://hosting.photobucket.com/images/i/lesaintdumech/gyarados.jpeg','Gyarados']
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/gyarados.jpeg','Gyarados'],
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RedGyaraPRINT.jpeg','Red Gyarados']
+        ]
     ],
     [149,1,'Lfrith Pre-Production',
         'XGF-01 Lfrith Pre-Production Model',
@@ -7024,7 +7041,7 @@ const projects = [
         ],false,true,true,'1:144'
     ],
     ['Morgause',[1,'Aerial'],'HG',
-        false,false,false,'Mercury','D','2024-02-16',7.64,false,'Builds/Gundams/MorgausAerial.html',false,'2025-10-06',models[141],
+        false,false,false,'Mercury','D','2024-02-16',7.64,false,'Builds/Gundams/MorgausAerial.html',false,'2025-12-01',models[141],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/GMorgausAerial01.jpeg','Morgause'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/GMorgausAerial02.jpeg','Morgause'],
@@ -7713,7 +7730,7 @@ const projects = [
         ],false,true,true,'1:144'
     ],
     ['Arthur',[1,'Calibarn'],'HG',
-        false,false,false,'Mercury','D','2024-03-01',12.44,false,'Builds/Gundams/ArthurCalibarn.html',false,'2025-10-20',models[144],
+        false,false,false,'Mercury','D','2024-03-01',12.44,false,'Builds/Gundams/ArthurCalibarn.html',false,'2025-12-15',models[144],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/GArthurCalibarn01.jpeg','Arthur'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/GArthurCalibarn02.jpeg','Arthur'],
@@ -8375,6 +8392,7 @@ const projects = [
     ['Weavel',[1,'LFrith Ur'],'HG',false,false,false,'Mercury','A','202x',0,false,'Builds/Metroid/Weavel.html','Metroid'],
     ['LFrith Ur [HG]',[1,'LFrith Ur'],'HG',true,false,false,'Mercury','E','2024-08-13',1.5,false,false,false,'2024-08-20'],
     ['Sylux',[1.25,'Michaelis','P.B. Witch From Mercury Expansion Pack'],'HG',false,true,false,'Mercury','A','202x',0,false,'Builds/Metroid/Sylux.html','Metroid'],
+    ['Wormwood',[1,'Gundam Naion'],'HG',false,true,false,'Mercury','A'],
     ['Noxus',[1.25,'Pharact','P.B. Witch From Mercury Expansion Pack'],'HG',false,true,false,'Mercury','A','202x',0,false,'Builds/Metroid/Noxus.html','Metroid'],
     ['Schwarzette [HG]',[1,'Schwarzette'],'HG',true,false,false,'Mercury','E','2023-10-04',2.33,false,false,false],
     ['Metatron',[1,'Schwarzette'],'HG',
@@ -9103,12 +9121,12 @@ const projects = [
     ['Fl\u00FCgel Sparkel',[1,'Tallgeese Fl\u00FCgel'],'MG',
         false,true,false,'Wing','B'
     ],
-    ['Tallgeese Fl\u00FCgel',
-        [1,'Tallgeese Fl\u00FCgel'],'MG',true,true,false,'Wing','D','2022-05-08',20.17,false,'Builds/PBTallgeeseFlugelMG.html',false,'2025-12-29'
+    ['Tallgeese Fl\u00FCgel',[1,'Tallgeese Fl\u00FCgel'],'MG',
+        true,true,false,'Wing','D','2022-05-08',20.17,false,'Builds/PBTallgeeseFlugelMG.html',false,'2026-02-23'
     ],
     ['Cambria',[1,'PB Vayeate'],'HG',false,true,false,'Wing','B'],
     ['Bibi',[1,'Wing Gundam'],'HG',
-        false,false,false,'Wing','D','2024-07-08',5.23,false,'Builds/Gundams/BibiWingG.html',false,'2025-09-22',models[54],
+        false,false,false,'Wing','D','2024-07-08',5.23,false,'Builds/Gundams/BibiWingG.html',false,'2025-11-17',models[54],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/BibiWingG01.jpeg','Bibi'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/BibiWingG02.jpeg','Bibi'],
@@ -9339,11 +9357,13 @@ const projects = [
     ['Snow White [RG]',[1,'Wing Zero'],'RG',false,false,false,'Wing','B'],
     ['Snow White [SD]',[1,'Wing Zero'],'SD',false,false,false,'Wing','A'],
     ['Wing Zero KA [MG]',[1,'Wing Zero','GFFMC Wings For MG Wing Zero'],'MG',
-        true,false,false,'Wing','C','2022-06-05',10.83,false,'Builds/Specials/MGWingKAStr.html',false,'2025-11-03'
+        true,false,false,'Wing','C','2022-06-05',10.83,false,'Builds/Specials/MGWingKAStr.html',false,'2025-12-29'
     ],
-    ['Absolute Zero',[1,'Wing Gundam'],'PG',
-        true,false,false,'Wing','D','2024-03-22',17.25,true,'Builds/PG/PGWingZero.html',false,'2025-12-01'
+    ['Perfect Zero',[1,'Wing Gundam'],'PG',
+        true,false,false,'Wing','D','2024-03-22',17.25,true,'Builds/PG/PGWingZero.html',false,'2026-01-26'
     ],
+    //Zero Project Name Idea: ABSOLUTE ZERO
+    //Zero Project Name Idea: MINUS ZERO
     ['Zero Traditional',[1,'Wing Zero'],'MG',false,false,false,'Wing','B'],
     ['Zero Traditional [RG]',[1,'Wing Zero'],'RG',false,false,false,'Wing','B'],
     ['Zero Traditional [SD]',[1,'Wing Zero'],'SD',false,false,false,'Wing','A'],
@@ -9909,7 +9929,7 @@ const projects = [
         ],false,false,true,false
     ],
     ['Rostand',[1,'Astray, M1'],'HG',
-        false,false,false,'Seed','D','2024-07-11',5.69,false,'Builds/Gundams/RostandAstray.html',false,'2025-09-08',models[179],
+        false,false,false,'Seed','D','2024-07-11',5.69,false,'Builds/Gundams/RostandAstray.html',false,'2025-11-03',models[179],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/RostandAstray01.jpeg','Rostand'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/RostandAstray02.jpeg','Rostand'],
@@ -10668,7 +10688,7 @@ const projects = [
         ],false,true,'1:144',false,false,'Fusion Suit'
     ],
     ['Samus: Scarlet Suit',[1,'Dagger L'],'HG',
-        false,false,false,'Seed','C','2025-07-03',7.05,false,'Builds/Metroid/ScarletSam.html','Metroid','2026',models[23]
+        false,false,false,'Seed','C','2025-07-03',7.05,false,'Builds/Metroid/ScarletSam.html','Metroid','2026-03-09',models[23]
     ],
     ['Friar Laurence',[1,'Dagger 105 + Gunbarrel'],'HG',false,false,false,'Seed','B'],
     ['Charizard',[1,'Destiny'],'MG',false,false,false,'Seed','B'],
@@ -11045,7 +11065,18 @@ const projects = [
             ['NewType','https://newtype.us/p/YvNO7xYH5IAMfB9d8UZy/h/mgsd-freedom-gundam']
         ],['Anthem','Liberty'],false,true,false
     ],
-    ['GCP Freedom',[1,'Freedom'],'TG',true,'BASE',false,'Seed','C','2025-08-16',6.584],
+    ['GCP Freedom',[1,'Freedom Ver. GCP'],'RG',
+        true,'BASE',false,'Seed','D','2025-08-16',9.75,false,'Builds/Specials/FreeGCP.html','Mobile Base','2025-09-08',models[14],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/FreedomGCPBox.jpeg','Box Art']
+        ],['https://hosting.photobucket.com/images/i/lesaintdumech/FreedomGCPBox.jpeg','Profile Photo: GCP Freedom'],
+        'DESCRIPTION',false,
+        [
+            ['Gundam China Project','https://en.gundam.info/news/hot-topics/01_4239.html'],
+            ['Model Kit Announcement','https://www.gundamkitscollection.com/2022/06/gundam-base-shanghai-to-release-rg-1144.html'],
+            ['P-Bandai','https://p-bandai.com/us/item/F2555446005?_lc=en']
+        ],false,false,false,'1:144','Gundam China Project',false,false,false,false,false,'ZGMF-X10A Freedom Gundam Ver. GCP',1
+    ],
     ['Billy Blue Jay',[1,'Ginn'],'MG',false,false,false,'Seed','B'],
     ['Destiny Impulse (Regenes)',[1,'Impulse, Destiny'],'MG',
         true,true,false,'Seed','E','2023-05-05',20.33,false,'Builds/PBandai/PBDesintyImpulseREgenesMG.html',false,'2023-11-27',models[97],
@@ -12719,6 +12750,7 @@ const projects = [
             ['Premium Bandai','https://p-bandai.com/us/item/F2655096003']
         ],['Bruce','Charlemagne'],false,true,'1:144'
     ],
+    ['Kyral',[1,'PB Mandalaa Gundam'],'HG',false,true,false,'G','A'],
     ['Charlemagne',[1,'PB Rose Gundam'],'HG',
         false,true,false,'G','E','2023-08-02',15.83,false,'Builds/PBandai/Charlemagne.html',false,'2023-10-02',models[56],
         [
@@ -14302,7 +14334,7 @@ const projects = [
     ],
     ['Sasuki Delta [SD]',[1,'Delta, Saskui'],'SD',true,false,false,'Heroes','E','2021-09-05',1.5,false,false,false,'2022-06-20'],
     ['Quetzalcoatl',[1,'Dragon, Dark Grasper'],'SD',
-        false,false,false,'Heroes','D','2024-06-06',3.81,false,'Builds/SDW/QuetzlDGDragon.html',false,'2026-02-02',models[181],
+        false,false,false,'Heroes','D','2024-06-06',3.81,false,'Builds/SDW/QuetzlDGDragon.html',false,'2026-04-20',models[181],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/QuetzlDarkDragon01.jpeg','Quetzalcoatl'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/QuetzlDarkDragon02.jpeg','Quetzalcoatl'],
@@ -14366,7 +14398,7 @@ const projects = [
         false,false,false,'Heroes','D','2024-07-08',3.24,false,'Builds/SDW/Pharo.html',false,'2026-03-02'
     ], //peacock
     ['Tiamat',[1,'Dragon, Shining Grasper'],'SD',
-        false,false,false,'Heroes','D','2024-07-04',2.58,false,'Builds/SDW/TiamatSGDragon.html',false,'2026-03-02',models[180],
+        false,false,false,'Heroes','D','2024-07-04',2.58,false,'Builds/SDW/TiamatSGDragon.html',false,'2026-05-04',models[180],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/TiamatShineDragon01.jpeg','Tiamat'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/TiamatShineDragon02.jpeg','Tiamat'],
@@ -15282,7 +15314,7 @@ const projects = [
         ],false,true,true,false,false,false,false,false,false,false,'Pokemon Eevee (Sleeping Pose) 07 Quick Model Kit'
     ],    //Blue
     ['Sprinkles',[1,'Eevee'],'Pokemon',
-        false,false,false,'','C','2025-07-18',1.57,false,'Builds/Pokemon/SprinklesEevee.html','Angela','2026',models[131],
+        false,false,false,'','C','2025-07-18',1.57,false,'Builds/Pokemon/SprinklesEevee.html','Angela','2026-02-16',models[131],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Bandit01.jpeg','Sprinkles']
         ],
@@ -15295,7 +15327,7 @@ const projects = [
             ['NewType','https://newtype.us/p/qwtngx79JTNwHYt5c3Or/h/pokemon-model-kit-quick-04-eevee']
         ],false,true,false,false,false,false,false,false,false,false,'Pokemon Eevee 04 Quick Model Kit'
     ],    //Yellow
-    ['Empoleon',[1,'Empoleon'],'Pokemon',
+    ['Pingol\u00E9on ',[1,'Empoleon'],'Pokemon',
         false,false,false,'','B','2025',0,false,'Builds/Pokemon/',false,'2025',models[0],
         [
             ['','']
@@ -15310,7 +15342,7 @@ const projects = [
         ],false,true,false,false,false,false,false,false,false,false,'Pokemon Select Series 6 Empoleon Evolution Set Model Kit'
     ],
     ['Soporifix',[1,'Entei'],'Pokemon',
-        false,false,false,'','C','2025-07-03',3.25,false,'Builds/Pokemon/Soporifix.html',false,'2025-12-29'
+        false,false,false,'','C','2025-07-03',3.25,false,'Builds/Pokemon/Soporifix.html',false,'2025-11-24'
     ],
     ['Instantmix',[1,'Fuecoco'],'Pokemon',false,false,false,'','C','2025-08-13',1.55],
     ['Astronomix',[1,'Gengar'],'Pokemon',
@@ -15447,8 +15479,10 @@ const projects = [
             ['Bulbapedia','https://m.bulbapedia.bulbagarden.net/wiki/Gyarados_(Pokemon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/collections/pokapla/products/pokemon-gyarados-52-model-kit'],
             ['NewType','https://newtype.us/p/dOkZZ7AvruhzwIslqHje/h/pokemon-gyarados']
-        ],['Unhygienix'],true,true,false,false,false,false,false,false,false,'Pokemon Gyarados 52 Model Kit'
+        ],['Unhygienix'],true,true,false,'Lance\'s Gyarados',false,false,false,false,false,'Pokemon Gyarados 52 Model Kit',1
     ],
+    ['L\u00E9viator',[1,'Gyarados'],'Pokemon',false,false,false,'','B','2025-09-04',0.75,false,'Builds/Pokemon/LevGyar.html',false,'202x',models[148]],
+    ['Skullkraken',[1,'Gyarados'],'Pokemon',false,false,false,'','A','202x',0,false,'Builds/Pokemon/SkullGyar.html',false,'202x',models[148]],//gray scale
     ['Vitalstatistix',[1,'Ho-oh'],'Pokemon',
         false,false,false,'','E','2024-02-20',5.17,false,'Builds/Pokemon/Vital.html','Asterix','2025-05-12',models[132],
         [
@@ -15577,7 +15611,7 @@ const projects = [
         ],['Vitalstatistix'],true,true,false,false,false,false,false,false,false,'Pokemon Select Series 4 Lugia Model Kit'
     ],
     ['Bucolix',[1,'Lunala'],'Pokemon',
-        false,false,false,'','C','2025-07-04',4.23,false,'Builds/Pokemon/Bucix.html',false,'2025-12-15'
+        false,false,false,'','C','2025-07-04',4.23,false,'Builds/Pokemon/Bucix.html',false,'2026-01-05'
     ],
     ['Unhygienix',[1,'Magikarp'],'Pokemon',false,false,false,'','A'],
     ['Cacofonix',[1,'Metagross'],'Pokemon',
@@ -15782,7 +15816,7 @@ const projects = [
             ['TurboDork: Ice to Never','https://turbodork.com/products/ice-to-never-1?variant=29460041793606']
         ],['Dark Samus: Echoes'],true,true,false,false,false,false,false,false,false,'Pokemon Piplup 06 Quick Model Kit'
     ],
-    ['Piplup 2',[1,'Piplup'],'Pokemon',
+    ['Tiplouf',[1,'Piplup'],'Pokemon',
         false,false,false,'','B','2025',0,false,'Builds/Pokemon/',false,'2025',models[153],
         [
             ['','']
@@ -15796,7 +15830,7 @@ const projects = [
             ['NewType','https://newtype.us/p/aqpjW7R8h1LfOuf88CK1/h/pokemon-empoleon-evolution-set'],
         ],false,true,false,false,false,false,false,false,false,false,'Pokemon Select Series 6 Empoleon Evolution Set Model Kit'
     ],
-    ['Prinplup',[1,'Prinplup'],'Pokemon',
+    ['Prinplouf',[1,'Prinplup'],'Pokemon',
         false,false,false,'','B','2025',0,false,'Builds/Pokemon/',false,'2025',models[0],
         [
             ['','']
@@ -15811,7 +15845,7 @@ const projects = [
         ],false,true,false,false,false,false,false,false,false,false,'Pokemon Select Series 6 Empoleon Evolution Set Model Kit'
     ],
     ['Postaldistrix',[1,'Raikou'],'Pokemon',
-        false,false,false,'','D','2024-09-13',2.75,false,'Builds/Pokemon/Postal.html','Asterix','2025-11-03',models[172],
+        false,false,false,'','D','2024-09-13',2.75,false,'Builds/Pokemon/Postal.html','Asterix','2025-11-10',models[172],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/PostalRaikou01.jpeg','Postaldistrix'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/PostalRaikou02.jpeg','Postaldistrix'],
@@ -15942,10 +15976,10 @@ const projects = [
         ],['Lutetia'],true,true,false,false,false,false,false,false,false,'Pokemon Select Series 44 Riolu & Lucario Model Kit'
     ], 
     ['Mantis Force',[6,'Scizor','Scizor','Scizor','Scizor','Scizor','Scizor'],'Pokemon',
-        false,false,false,'','C','2025-07-08',18.17,false,'Builds/Pokemon/MantisForce.html',false,'2025'
+        false,false,false,'','C','2025-07-08',18.17,false,'Builds/Pokemon/MantisForce.html',false,'2026-03-16'
     ],
     ['Tragicomix',[1,'Solgaleo'],'Pokemon',
-        false,false,false,'','C','2025-07-04',3.77,false,'Builds/Pokemon/Tragix.html',false,'2025-11-17'
+        false,false,false,'','C','2025-07-04',3.77,false,'Builds/Pokemon/Tragix.html',false,'2025-12-22'
     ],
     ['Cooper',[1,'Squirtle'],'Pokemon',
         false,false,false,'','E','2024-06-04',2.17,false,'Builds/Pokemon/Cooper.html',false,'2024-09-16',models[134],
@@ -15978,7 +16012,7 @@ const projects = [
         ],['Jade','Jasper'],false,true,false,false,false,false,false,false,false,'Pokemon Squirtle 17 Quick Model Kit'
     ],
     ['Pacifix',[1,'Suicune'],'Pokemon',
-        false,false,false,'','C','2025-07-03',3.67,false,'Builds/Pokemon/Pacifix.html',false,'2025-12-01'
+        false,false,false,'','C','2025-07-03',3.67,false,'Builds/Pokemon/Pacifix.html',false,'2025-12-08'
     ],
     ['Tusk',[1,'Tepig'],'Pokemon',
         false,false,false,'','E','2023-10-22',3.1,false,'Builds/Pokemon/Tusk.html',false,'2025-07-21',models[168],
@@ -17474,6 +17508,8 @@ function generateLists() {
             pokeBacklogArray.push(backlogArray[i][0]);
         }
         else if (backlogArray[i][2]=='Ship') {
+            shipBacklogArray.push(backlogArray[i][0]);
+        }else if (backlogArray[i][2]=='EX') {
             shipBacklogArray.push(backlogArray[i][0]);
         }
         else if (backlogArray[i][2]=='Transformer') {
@@ -19019,10 +19055,16 @@ function buildProjectPage(string) {
         popNode(projectArray[0],'projectTitleMb');
         popNode(projectArray[0],'projectName');
     }
-    if (modelArray[3] && modelArray[1] != 7) {
+
+    if (projectArray[30]) {
+        popNode(projectArray[30],'modelFullName');
+        popNode(projectArray[30],'modelName');
+    }
+    else {
         popNode(modelArray[3],'modelFullName');
         popNode(modelArray[3],'modelName');
     }
+
     if (projectArray[1].length>2) {
         unhide('.projectOtherModelsHD');
 
@@ -19242,7 +19284,7 @@ function buildProjectPage(string) {
 
 function buildGundam() {
     unhide('.GundamPage');
-    insertPhoto(modelArray[26],'gModelPhoto',false,300);
+    insertModelPhoto('gModelPhoto');    
 
     let variantModelsArray = [];
     let variantProjectsArray = [];
@@ -19475,7 +19517,8 @@ function buildGundam() {
 
 function buildShipGundam() {
     unhide('.GundamShipPage');
-    insertPhoto(modelArray[26],'gsModelPhoto',false,450);
+    insertModelPhoto('gsModelPhoto',450);  
+    //insertPhoto(modelArray[26],'gsModelPhoto',false,450);
 
     if (modelArray[2]) {
         unhide('.gsShortNameHD');
@@ -19637,7 +19680,8 @@ function buildShipGundam() {
 
 function buildShipOther() {
     unhide('.OtherShipPage');
-    insertPhoto(modelArray[26],'osModelPhoto',false,450);
+    insertModelPhoto('osModelPhoto',450);  
+    //insertPhoto(modelArray[26],'osModelPhoto',false,450);
 
     if (modelArray[2]) {
         unhide('.osShortNameHD');
@@ -19751,7 +19795,8 @@ function buildShipOther() {
 
 function buildCarAuto() {
     unhide('.AutomobilePage');
-    insertPhoto(modelArray[26],'caModelPhoto',false,450);
+    insertModelPhoto('caModelPhoto',450);  
+    //insertPhoto(modelArray[26],'caModelPhoto',false,450);
 
     popNode(modelArray[2],'caShortName');
 
@@ -19788,7 +19833,8 @@ function buildCarAuto() {
 
 function buildDisplay() {
     unhide('.DisplayPage');
-    insertPhoto(modelArray[26],'dpModelPhoto',false,350);
+    insertModelPhoto('dpModelPhoto',350);  
+    //insertPhoto(modelArray[26],'dpModelPhoto',false,350);
 
     if (modelArray[2]) {
         unhide('.dpNameHD');
@@ -19810,7 +19856,8 @@ function buildDisplay() {
 
 function buildDigimon() {
     unhide('.DigimonPage');
-    insertPhoto(modelArray[26],'dgModelPhoto',false,400);
+    insertModelPhoto('dgModelPhoto',400);  
+    //insertPhoto(modelArray[26],'dgModelPhoto',false,400);
     popNode(modelArray[2],'dgShortName');
 
     if (modelArray[4]) {
@@ -19869,16 +19916,13 @@ function buildDigimon() {
 
 function buildPokemon() {
     unhide('.PokemonPage');
-    insertPhoto(modelArray[26],'pkModelPhoto',false,300);
+    //insertPhoto(modelArray[26],'pkModelPhoto',false,300);
+    insertModelPhoto('pkModelPhoto');
     popNode(modelArray[2],'pkShortName');
 
     if (modelArray[2]) {
         popNode(modelArray[2],'modelOtherTitle');
         popNode(':','modelOtherTitle');
-    }
-    if (projectArray[30]) {
-        popNode(projectArray[30],'modelFullName');
-        popNode(projectArray[30],'modelName');
     }
     if (modelArray[4]) {
         unhide('.pkDexNoHD');
@@ -19955,7 +19999,8 @@ function buildPokemon() {
 
 function buildTransformer() {
     unhide('.TransformerPage');
-    insertPhoto(modelArray[26],'tsModelPhoto',false,300);
+    insertModelPhoto('tsModelPhoto');  
+    //insertPhoto(modelArray[26],'tsModelPhoto',false,300);
 
     if (modelArray[2]) {
         unhide('.tsEarthHD');
@@ -19990,7 +20035,8 @@ function buildTransformer() {
 
 function buildHaro() {
     unhide('.HaroPage');
-    insertPhoto(modelArray[26],'hpModelPhoto',false,300);
+    insertModelPhoto('hpModelPhoto');
+    //insertPhoto(modelArray[26],'hpModelPhoto',false,300);
 
     let postHaroArray = [];
     for  (let i=0;i<projects.length;i++) {
@@ -20033,7 +20079,8 @@ function buildHaro() {
 
 function buildZoid() {
     unhide('.ZoidPage');
-    insertPhoto(modelArray[26],'zdModelPhoto',false,300);
+    insertModelPhoto('zdModelPhoto');  
+    //insertPhoto(modelArray[26],'zdModelPhoto',false,300);
 
     if (modelArray[2]) {
         unhide('.zdShortNameHD');
@@ -20122,9 +20169,11 @@ function buildZoid() {
         popNode(modelArray[24],'∂AltName');
     }
 }
+
 function buildOther() {
     unhide('.OtherPage');
-    insertPhoto(modelArray[26],'ocModelPhoto',false,350);
+    //insertPhoto(modelArray[26],'ocModelPhoto',false,350);
+    insertModelPhoto('ocModelPhoto',350);  
 
     if (modelArray[2]) {
         unhide('.ocNameHD');
@@ -20516,6 +20565,25 @@ function insertPhoto(array,id,dots,maxWidth) {
 
     let locationNode = document.getElementById(id);
     locationNode.appendChild(imgNode);
+}
+
+function insertModelPhoto(id,wid) {
+    let width = 300;
+    if (wid) {
+        width = 350;
+    }
+    if (projectArray[31]) {
+        let photoToken=projectArray[31]-1;
+        if (modelArray[34][photoToken]) {
+            insertPhoto(modelArray[34][photoToken],id,false,width);
+        }
+        else {
+            insertPhoto(modelArray[26],id,false,width);
+        }
+    }
+    else {
+        insertPhoto(modelArray[26],id,false,width);
+    }
 }
 
 function insertPhotoColumn(array,id,count) {

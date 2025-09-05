@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />  
+        <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&display=swap" />
+        <script src="JS/frenchMetrics.js?v=202311161225"></script>
+        <script src="JS/gundamDataSet.js?v=202509051402"></script>
+        <link rel="stylesheet" href="CSS/home.css?v=202509031751"/>
+
+        <title>&#9884; Le Saint du Mech: Project Tracker &#9884;</title>
+    </head>
+    <body onload="initialize(); convertDateToday();">
+        <header class="jumbotron jumbotron-fluid" id="top">
+            <div class="container">
+                <div class="row text-right">
+                    <div class="col text-warning mr-0 pr-1 h6" id="dateFR"></div><img src="img/french.png" height="20px"/>
+                </div>
+                <div class="row">
+                    <div class="col-3 col-lg-2">
+                        <a href="index.html"><img src="img/m_fleur.png" class="img-fluid" /></a>
+                    </div>
+                    <div class="col align-self-center ">
+                        <h1 class="d-none d-md-block">Le Saint du Mech</h1>
+                        <h2 class="d-md-none mt-3">Le Saint du Mech</h2>
+                        <h3>Project Tracker</h3>
+                    </div>
+                </div> 
+            </div>
+        </header>
+        <nav class="navbar navbar-expand-sm navbar-light sticky-top">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#siteNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="siteNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                        <li class="nav-item"><a class="nav-link" href="builds.html">Builds</a></li>
+                        <li class="nav-item"><a class="nav-link" href="statistics.html">Statistics</a></li>
+                        <li class="nav-item"><a class="nav-link" href="links.html">Links</a></li>
+                        <li class="nav-item"><a class="nav-link" href="games.html">Games</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container">
+            <div class="row row-content">
+                <div class="col col-md-8 col-lg-6">
+                    <table class="table">
+                        <thead class="bg-warning">
+                            <tr>
+                                <th class="th1">Category</th>
+                                <th class="project">Project</th>
+                            </tr>
+                        </thead>
+                        <tbody class="table-primary">
+                            <tr>
+                                <td id="nextGradeID"  class="bg-info">...</td>
+                                <td id="nextBuildID" class="">...</td>
+                            </tr>
+                            <tr class="bg-primary">
+                                <td>Backlog: </td>
+                                <td id="backlogID">&lt;Projects&gt;</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <p>
+                        <button type="button" class="btn btn-secondary" onclick="generateRandomBuild()">What should I build?</button>
+                        <button type="button" class="btn btn-secondary" onclick="toggleHide('.gradeBox')">Choose by Grade:</button>
+                    </p>
+                </div>
+                <div class="col-3">
+                     <p class="text-right" ><a href="#" onclick="toggleHide('.buildFilterBox')">Jump to...</a></p>
+                </div>
+            </div>
+
+
+            <div class="row mb-4 mx-5 gradeBox">
+                <div class="col" style="border: solid">
+                    <div class="row">
+                        <div class="col">
+                            <button type="button" class="btn btn-secondary my-1" onclick="generateRandomBuildByGrade('PG')">Perfect Grade</button>
+                            <button type="button" class="btn btn-secondary my-1" onclick="generateRandomBuildByGrade('MG')">Master Grade</button>
+                            <button type="button" class="btn btn-secondary my-1" onclick="generateRandomBuildByGrade('FM')">Full Mechanics</button>
+                            <button type="button" class="btn btn-secondary my-1" onclick="generateRandomBuildByGrade('RG')">Real Grade</button>
+                            <button type="button" class="btn btn-secondary my-1" onclick="generateRandomBuildByGrade('HG')">High Grade</button>
+                            <button type="button" class="btn btn-secondary my-1" onclick="generateRandomBuildByGrade('MGSD')">MGSD</button>
+                            <button type="button" class="btn btn-secondary my-1" onclick="generateRandomBuildByGrade('SD')">Super Deformed</button>
+                            <button type="button" class="btn btn-secondary my-1" onclick="generateRandomBuildByGrade('PB')">P-Bandai</button>
+                            <button type="button" class="btn btn-secondary my-1" onclick="generateRandomBuildByGrade('HARO')">Haro</button>
+                            <button type="button" class="btn btn-secondary my-1" onclick="generateRandomBuildByGrade('DISP')">Display</button>
+                            <button type="button" class="btn btn-secondary my-1" onclick="generateRandomBuildByGrade('SHIP')">Ship</button>
+                            <button type="button" class="btn btn-secondary my-1" onclick="generateRandomBuildByGrade('POKE')">Pokemon</button>
+                            <button type="button" class="btn btn-secondary my-1" onclick="generateRandomBuildByGrade('DIGI')">Digimon</button>
+                            <button type="button" class="btn btn-secondary my-1" onclick="generateRandomBuildByGrade('CAR')">Car</button>
+                            <button type="button" class="btn btn-secondary my-1" onclick="generateRandomBuildByGrade('TRANS')">Transformer</button>
+                            <button type="button" class="btn btn-secondary my-1" onclick="generateRandomBuildByGrade('ZOID')">Zoid</button>
+                            <button type="button" class="btn btn-secondary my-1" onclick="generateRandomBuildByGrade('SB')">Straight Build</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-10">
+                   
+                </div>
+            </div>
+            <div class="row mb-4 mx-5 buildFilterBox">
+                <div class="col" style="border: solid">
+                    <div class="row mt-2">
+                        <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                            <a href="#PG_Jump">..Perfect Grade</a>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                            <a href="#MG_Jump">..Master Grade</a>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                            <a href="#FM_Jump">..Full Mechanics</a>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                            <a href="#RG_Jump">..Real Grade</a>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                            <a href="#HG_Jump">..High Grade</a>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                            <a href="#MGSD_Jump" class="d-xl-none">..Master Grade SD</a>
+                            <a href="#MGSD_Jump" class="d-none d-xl-block">..MGSD</a>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                            <a href="#SD_Jump" class="d-xl-none">..Super Deformed</a>
+                            <a href="#SD_Jump" class="d-none d-xl-block">..SD</a>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                            <a href="#PB_Jump" class="d-xl-none">..Premium Bandai</a>
+                            <a href="#PB_Jump" class="d-none d-xl-block">..P-Bandai</a>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                            <a href="#Haro_Jump">..Haro</a>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                            <a href="#Display_Jump">..Diplay</a>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                            <a href="#Ship_Jump">..Ship</a>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                            <a href="#Poke_Jump">..Pokemon</a>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                            <a href="#Digi_Jump">..Digimon</a>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                            <a href="#Car_Jump">..Car</a>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                            <a href="#Trans_Jump">..Transformer</a>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                            <a href="#Zoid_Jump">..Zoid</a>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                            <a href="#Other_Jump">..Other</a>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                            <a href="#Straight_Jump">..Straight Build</a>
+                        </div>
+                    </div>
+                    <div class="row mt-3 d-lg-none">
+                        <div class="col">
+                            <p class="text-right mb-0"><a href="#XInv_Jump">Potential Projects</a></p>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col">
+                            <p class="text-right"><a href="#bottom">Jump to Bottom</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row my-4">
+                    <div class="col-4 text-center">
+                        <img src="img/Sprites/BurnSpr.png"/>
+                    </div>
+                    <div class="col-3 text-center">
+                        <img src="img/Sprites/BarbaSpr.png"/>
+                    </div>
+                    <div class="col"></div>
+                    <div class="col-4 text-center">
+                        <img src="img/Sprites/FreeSpr.png"/>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="row sticky-top-secondary" id="PG_Jump">
+                        <div class="col">
+                            <h2 class="bg-warning d-sm-none d-md-block">Projects Posted</h2>
+                            <h2 class="bg-warning d-none d-sm-block d-md-none">Posted</h2>
+                        </div>
+                        <div class="col">
+                            <h2 class="bg-warning">Backlog</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-11 mt-3 mb-4 text-center">
+                            <h3>Perfect Grade</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <ul id="pgF"></ul>
+                        </div>
+                        <div class="col">
+                            <ul id="pgBL"></ul>
+                        </div>
+                    </div>
+                    <span id="MG_Jump"></span>
+                    <div class="row">
+                        <div class="col">
+                            <p class="text-right"><a href="#top">Jump to Top</a></p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-11 mb-4 text-center">
+                            <h3>Master Grade</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <ul id="mgF"></ul>
+                        </div>
+                        <div class="col">
+                            <ul id="mgBL"></ul>
+                        </div>
+                    </div>
+                    <span id="FM_Jump"></span>
+                    <div class="row">
+                        <div class="col">
+                            <p class="text-right"><a href="#top">Jump to Top</a></p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-11 mb-4 text-center">
+                            <h3>Full Mechanics</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <ul id="fmF"></ul>
+                        </div>
+                        <div class="col">
+                            <ul id="fmBL"></ul>
+                        </div>
+                    </div>
+                    <span id="RG_Jump"></span>
+                    <div class="row">
+                        <div class="col">
+                            <p class="text-right"><a href="#top">Jump to Top</a></p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-11 mb-4 text-center">
+                            <h3>Real Grade</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <ul id="rgF"></ul>
+                        </div>
+                        <div class="col">
+                            <ul id="rgBL"></ul>
+                        </div>
+                    </div>
+                    <span id="HG_Jump"></span>
+                    <div class="row">
+                        <div class="col">
+                            <p class="text-right"><a href="#top">Jump to Top</a></p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-11 mb-4 text-center">
+                            <h3>High Grade</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <ul id="hgF"></ul>
+                        </div>
+                        <div class="col">
+                            <ul id="hgBL"></ul>
+                        </div>
+                    </div>
+                    <span id="MGSD_Jump"></span>
+                    <div class="row">
+                        <div class="col">
+                            <p class="text-right"><a href="#top">Jump to Top</a></p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-11 mb-4 text-center">
+                            <h3>Master Grade SD</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <ul id="mgsdF"></ul>
+                        </div>
+                        <div class="col">
+                            <ul id="mgsdBL"></ul>
+                        </div>
+                    </div>
+                    <span id="SD_Jump"></span>
+                    <div class="row">
+                        <div class="col">
+                            <p class="text-right"><a href="#top">Jump to Top</a></p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-11 mb-4 text-center">
+                            <h3>Super Deformed</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <ul id="sdF"></ul>
+                        </div>
+                        <div class="col">
+                            <ul id="sdBL"></ul>
+                        </div>
+                    </div>
+                    <span id="PB_Jump"></span>
+                    <div class="row">
+                        <div class="col">
+                            <p class="text-right"><a href="#top">Jump to Top</a></p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-11 mb-4 text-center">
+                            <h3>Premium Bandai</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <ul id="pbF"></ul>
+                        </div>
+                        <div class="col">
+                            <ul id="pbBL"></ul>
+                        </div>
+                    </div>
+                    <span id="Haro_Jump"></span>
+                    <div class="row">
+                        <div class="col">
+                            <p class="text-right"><a href="#top">Jump to Top</a></p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-11 mb-4 text-center">
+                            <h3>Haropla</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <ul id="haroF"></ul>
+                        </div>
+                        <div class="col">
+                            <ul id="haroBL"></ul>
+                        </div>
+                    </div>
+                    <span id="Display_Jump"></span>
+                    <div class="row">
+                        <div class="col">
+                            <p class="text-right"><a href="#top">Jump to Top</a></p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-11 mb-4 text-center">
+                            <h3>Display</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <ul id="dspF"></ul>
+                        </div>
+                        <div class="col">
+                            <ul id="dspBL"></ul>
+                        </div>
+                    </div>
+                    <span id="Car_Jump"></span>
+                    <div class="row">
+                        <div class="col">
+                            <p class="text-right"><a href="#top">Jump to Top</a></p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-11 mb-4 text-center">
+                            <h3>Cars</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <ul id="carF"></ul>
+                        </div>
+                        <div class="col">
+                            <ul id="carBL"></ul>
+                        </div>
+                    </div>
+                    <span id="Digi_Jump"></span>
+                    <div class="row">
+                        <div class="col">
+                            <p class="text-right"><a href="#top">Jump to Top</a></p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-11 mb-4 text-center">
+                            <h3>Digimon</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <ul id="dgF"></ul>
+                        </div>
+                        <div class="col">
+                            <ul id="dgBL"></ul>
+                        </div>
+                    </div>
+                    <span id="Poke_Jump"></span>
+                    <div class="row">
+                        <div class="col">
+                            <p class="text-right"><a href="#top">Jump to Top</a></p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-11 mb-4 text-center">
+                            <h3>Pokemon</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <ul id="pokeF"></ul>
+                        </div>
+                        <div class="col">
+                            <ul id="pokeBL"></ul>
+                        </div>
+                    </div>
+                    <span id="Ship_Jump"></span>
+                    <div class="row">
+                        <div class="col">
+                            <p class="text-right"><a href="#top">Jump to Top</a></p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-11 mb-4 text-center">
+                            <h3>Ships</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <ul id="shipF"></ul>
+                        </div>
+                        <div class="col">
+                            <ul id="shipBL"></ul>
+                        </div>
+                    </div>
+                    <span id="Trans_Jump"></span>
+                    <div class="row">
+                        <div class="col">
+                            <p class="text-right"><a href="#top">Jump to Top</a></p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-11 mb-4 text-center">
+                            <h3>Transformers</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <ul id="transF"></ul>
+                        </div>
+                        <div class="col">
+                            <ul id="transBL"></ul>
+                        </div>
+                    </div>
+                    <span id="Zoid_Jump"></span>
+                    <div class="row">
+                        <div class="col">
+                            <p class="text-right"><a href="#top">Jump to Top</a></p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-11 mb-4 text-center">
+                            <h3>Zoids</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <ul id="zoidF"></ul>
+                        </div>
+                        <div class="col">
+                            <ul id="zoidBL"></ul>
+                        </div>
+                    </div>
+                    <span id="Other_Jump"></span>
+                    <div class="row">
+                        <div class="col">
+                            <p class="text-right"><a href="#top">Jump to Top</a></p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-11 mb-4 text-center">
+                            <h3>Other</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <ul id="otherF"></ul>
+                        </div>
+                        <div class="col">
+                            <ul id="otherBL"></ul>
+                        </div>
+                    </div>
+                    <span id="Straight_Jump"></span>
+                    <div class="row">
+                        <div class="col">
+                            <p class="text-right"><a href="#top">Jump to Top</a></p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-11 mb-4 text-center">
+                            <h3>Straight Build</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <ul id="sbF"></ul>
+                        </div>
+                        <div class="col">
+                            <ul id="sbBL"></ul>
+                        </div>
+                    </div>
+                    <span id="XInv_Jump"></span>
+                    <div class="row">
+                        <div class="col">
+                            <p class="text-right"><a href="#top">Jump to Top</a></p>
+                        </div>
+                    </div>
+                    <div class="row mb-4">
+                        <div class="col">
+                            <ul id="FP"></ul>
+                            Total Posted:
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="row">
+                        <div class="col">
+                            <div class="row sticky-top-secondary">
+                                <div class="col">
+                                    <h2 class="bg-warning mb-0">Potential Projects</h2>
+                                    <h5 class="bg-danger text-lg-center mt-0">Not in Inventory</h5>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <ul id="OOS"></ul>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <h3>P-Bandai</h3>
+                                    <ul id="OOSPB"></ul>
+                                </div>
+                            </div>
+                            <div class="row d-lg-none">
+                                <div class="col">
+                                    <p class="text-right"><a href="#top">Jump to Top</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container" id="bottom">
+                <div class="row align-items-end justify-content-center">
+                    <div class="col col-lg-5 text-right">
+                        <img src="img/Sprites/DeathSpr.png"/>
+                    </div>
+                    <div class="col col-lg-2 text-center">
+                        <img src="img/Sprites/ZeroSpr.png"/>
+                    </div>
+                    <div class="col col-lg-5 text-left">
+                        <img src="img/Sprites/HeavySpr.png"/>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row row-content">
+                <div class="col">
+                    <table class="table">
+                        <thead class="bg-warning">
+                            <tr>
+                                <th>In Progress:</th>
+                                <th></th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody class="table-primary">
+                            <tr>
+                                <td><ul id="progOne"></ul></td>
+                                <td><ul id="progTwo"></ul></td>
+                                <td><ul id="progThree"></ul></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td style="text-align: right" id="progCountID">Total: </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="row row-content">
+                <div class="col">
+                    <table class="table">
+                        <thead class="bg-warning">
+                            <tr>
+                                <th>Ready to Post:</th>
+                                <th></th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody class="table-primary">
+                            <tr>
+                                <td><ul id="constOne"></ul></td>
+                                <td><ul id="constTwo"></ul></td>
+                                <td><ul id="constThree"></ul></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td style="text-align: right" id="readyCountID">Total: </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td style="text-align: right"><button type="button" class="btn btn-secondary" onclick="suggestNextPost()">What should I post?: </button></td>
+                                <td><h5 id="toPost"> </h5></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="row">
+                        <div class="col">
+                            <p class="text-right"><a href="#top">Jump to Top</a></p>
+                        </div>
+                    </div>
+            <div class="row row-content mb-4">
+                <div class="col"></div>
+                <div class="col-7 col-md-6 col-lg-5 col-xl-4">
+                    <div id="accordion">
+                        <div class="card bg-secondary text-warning">
+                            <div role="tab" class="card-header">
+                                <h4 class="mb-0">
+                                    <a class="collapsed text-white" data-toggle="collapse" data-target="#retirees">
+                                        Retired Versions
+                                    </a>
+                                </h4>
+                                <div class="collapse" id="retirees" data-parent="#accordion">
+                                    <div class="card-body">
+                                        <ul style="text-decoration: underline;">
+                                            <li><a href="PriorGenerators/ProjectGenerator.html" class="text-warning">Project Generator 1</a></li>
+                                            <li><a href="PriorGenerators/ProjectGeneratorTwo.html" class="text-warning">Project Generator 2</a></li>
+                                            <li><a href="PriorGenerators/ProjectGeneratorThree.html" class="text-warning">Project Generator 3</a></li>
+                                            <li><a href="PriorGenerators/ProjectGeneratorFour.html" class="text-warning">Project Generator 4</a></li>
+                                            <li><a href="PriorGenerators/ProjectGeneratorFive.html" class="text-warning">Project Generator 5</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="site-footer">
+            <div class="container">
+                <div class="row mb-2">
+                    <div class="col text-center">
+                        <a href="index.html" ><img src="img/m_fleur.png"  width="30px" class="img-fluid" /></a>
+                        <a class="btn btn-social-icon btn-instagram" href="https://www.instagram.com/lesaintdumech/" target="_blank"><i class="fa fa-instagram"></i></a>
+                        <a class="btn btn-social-icon btn-twitter" href="https://twitter.com/LeSaintDuMech" target="_blank"><i class="fa fa-twitter"></i></a>
+                        <a class="btn btn-social-icon btn-youtube" href="https://www.youtube.com/channel/UCs6aqwL743FZhK-GRg3m4iw" target="_blank"><i class="fa fa-youtube"></i></a>
+                        <a class="btn btn-social-icon btn-link mb-1" href="mailto:lesaint@lesaintdumech.com"><i class="fa fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- jQuery, Popper.js, Bootstrap JavaScript plugins.-->
+        <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+        <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    </body>
+</html>

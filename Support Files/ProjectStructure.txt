@@ -21,7 +21,7 @@ Projects Array Structure
 11. URL // don't do invidivual pages for straightbuilds unless it's a p-bandai
 12. tags [array]
 13. Date Posted
-14. Model (link array)
+14. Model (link array) modelID[##] If a second number is present in array, [##,##], second number identifies alternate model photo to use, stored in array location 34 in model structure array.
 15. Photos (array of arrays)
     [
         ['file path','alt text',ID: 'img1'],
@@ -44,4 +44,5 @@ Projects Array Structure
 27. Other Models included [array]
 28. Include Franchise in Other List (true/false)
 29. Filter project name override (automated set)
-30. POKEMON ONLY - Model name
+30. Project Page: Model Name Override
+31. Project Page Model Photo Alternate Number. Identifies alternate model photo to use, stored in array location 34 in model structure array. states number to use.

@@ -3868,8 +3868,11 @@ function homepageBlog() {
     let homeBlog3TitleText = document.createTextNode(blogArray[0][1]);
     homeBlog3TitleNode.appendChild(homeBlog3TitleText);
 
-    let homeBlog3TextNode = document.getElementById('homeBlog3Text');
-    constructParagraph(blogArray[0][3],homeBlog3TextNode);
+    let homeBlog3TextNodeA = document.getElementById('homeBlog3TextA');
+    constructParagraph(blogArray[0][3],homeBlog3TextNodeA);
+
+    let homeBlog3TextNodeB = document.getElementById('homeBlog3TextB');
+    constructParagraph(blogArray[0][4],homeBlog3TextNodeB);
 
     let homeBlog3IMGNode = document.getElementById('homeBlog3IMG');
     let homeBlog3SRC = document.createAttribute('src');
@@ -3883,7 +3886,7 @@ function homepageBlog() {
     homeBlog3AnchorClass.value = 'd-inline';
     homeBlog3Anchor.setAttributeNode(homeBlog3AnchorHref);
     homeBlog3Anchor.setAttributeNode(homeBlog3AnchorClass);
-    homeBlog3TextNode.lastChild.appendChild(homeBlog3Anchor);
+    homeBlog3TextNodeB.lastChild.appendChild(homeBlog3Anchor);
     let homeBlog3AnchorText = document.createTextNode('...\u003cKeep Reading\u003e');
     homeBlog3Anchor.appendChild(homeBlog3AnchorText);
 }

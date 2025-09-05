@@ -16,6 +16,7 @@ Models Array Structure
     11. Special Project
     12. Other
     13. 
+34. Alternate Photos Array
 
 // Gundams (1) //
 2. Short Name
@@ -81,6 +82,7 @@ Models Array Structure
 32. Abbreviated Name (in relation to #28, How base suit is to be listed)
 33. Variants
 
+
 // Ship (fictional): Other (3) //
 2. Short Name
 3. Full Name
@@ -108,7 +110,6 @@ Models Array Structure
 25. ...
 26. original photo (array): ['file path','photo name']
 27. title/classification
-28. 
 
 // Car (4) //
 2. Short Name
