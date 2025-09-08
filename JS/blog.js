@@ -3403,6 +3403,60 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/CetautoArceus21.jpeg']
         ]
+    ],
+    [
+        '2025-09-08',
+        'Gundam China Project',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/GCPFreedomMobileBase05.jpeg',
+        [
+            [
+                'So the 2025 Gundam Mobile Base came to town last month and me an avid fan I just absolutely had to go check it out. It was pretty neat. I got to demo and play the new Gundam Trading Card Game. There was a build contest. There was a demo station of the new Seed Battle Destiny video game. But most of all there was the Gundam Shop Trailer with all sorts of exclusive Gundam Kits. There were a lot of kits in the trailer and all of them really cool, and the one I chose to buy was the ',
+                ['GCP Freedom','Builds/Specials/FreeGCP.html'],
+                ' kit.'
+            ]
+        ],
+        [
+            'So unlike other kits I\'ve built, this is the only one based on a real life life size Gundam statue consustructed as part of the Gundam China Project in Shanghai China. To celebrate the real life statue modified the Real Grade Freedom kit to model it after the GCP China Freedom statue.'
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/FreedomGCPBox.jpeg']
+        ],
+        [
+            'I had seen this kit posted online before on Premium Bandai. But I did not know that this was technically not a P-Bandai kit but a Mobile Base exclusive, with the Mobile Base seal on the box and everything. (I guess the kits on PB online in the past were just the left over stock from when Mobile Base had ended.)'
+        ],
+        [
+            ['img','img/logos/GundamBase.png']
+        ],
+        [
+            [
+                'I made new upgrades to the site to place the Mobile Base seal for this very kit\'s build page. In doing so I discovered that I already had previous Mobile Base kits that I did not realize were Mobile Base. I had ordered them online through P-Bandai that I had just assumed they were a P-Bandai kit. Those kits include: ',
+                ['Wing Zero [Clear]','Builds/PBandai/PBZeroRG.html'],
+                ', ',
+                ['Exia [Trans-Am Clear]','Builds/PBandai/PBExiaRG.html'],
+                ', ',
+                ['00 Raiser [Trans-Am Clear]','Builds/PBandai/PBooraiserRG.html'],
+                ', ',
+                ['QAN[T] [Trans-Am Clear]','Builds/PBandai/PBOOQRG.html'],
+                'and ',
+                ['00 Build Diver [Trans-Am Clear]','Builds/PBandai/PBooDiverHG.html'],
+                '.'
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/FreedomShanghai.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/GCPFreedomMobileBase01.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/GCPFreedomMobileBase02.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/GCPFreedomMobileBase03.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/GCPFreedomMobileBase04.jpeg']
+        ]
     ]
 ]
 

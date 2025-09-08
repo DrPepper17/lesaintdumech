@@ -11066,16 +11066,65 @@ const projects = [
         ],['Anthem','Liberty'],false,true,false
     ],
     ['GCP Freedom',[1,'Freedom Ver. GCP'],'RG',
-        true,'BASE',false,'Seed','D','2025-08-16',9.75,false,'Builds/Specials/FreeGCP.html','Mobile Base','2025-09-08',models[14],
+        true,'BASE',false,'Seed','E','2025-08-16',9.75,false,'Builds/Specials/FreeGCP.html','Mobile Base','2025-09-08',models[14],
         [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GCPFreedomMobileBase06.jpeg','Real Grade GCP Freedom'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GCPFreedomMobileBase07.jpeg','Real Grade GCP Freedom'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GCPFreedomMobileBase08.jpeg','Real Grade GCP Freedom'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GCPFreedomMobileBase09.jpeg','Real Grade GCP Freedom'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GCPFreedomMobileBase10.jpeg','Real Grade GCP Freedom'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GCPFreedomMobileBase11.jpeg','Real Grade GCP Freedom'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GCPFreedomMobileBase12.jpeg','Real Grade GCP Freedom'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GCPFreedomMobileBase13.jpeg','Real Grade GCP Freedom'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GCPFreedomMobileBase14.jpeg','Real Grade GCP Freedom'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GCPFreedomMobileBase15.jpeg','Real Grade GCP Freedom'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GCPFreedomMobileBase16.jpeg','Real Grade GCP Freedom'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GCPFreedomMobileBase17.jpeg','Real Grade GCP Freedom'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GCPFreedomMobileBase18.jpeg','Real Grade GCP Freedom'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GCPFreedomMobileBase19.jpeg','Real Grade GCP Freedom'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GCPFreedomMobileBase20.jpeg','Real Grade GCP Freedom'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GCPFreedomMobileBase21.jpeg','Real Grade GCP Freedom'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GCPFreedomMobileBase22.jpeg','Real Grade GCP Freedom'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GCPFreedomMobileBase23.jpeg','Real Grade GCP Freedom'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GCPFreedomMobileBase24.jpeg','Real Grade GCP Freedom'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GCPFreedomMobileBase25.jpeg','Real Grade GCP Freedom'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GCPFreedomMobileBase26.jpeg','Real Grade GCP Freedom'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GCPFreedomMobileBase27.jpeg','Real Grade GCP Freedom'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GCPFreedomMobileBase28.jpeg','Real Grade GCP Freedom'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GCPFreedomMobileBase29.jpeg','Real Grade GCP Freedom'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GCPFreedomMobileBase30.jpeg','Real Grade GCP Freedom'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GCPFreedomMobileBase31.jpeg','Real Grade GCP Freedom'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GCPFreedomMobileBase32.jpeg','Real Grade GCP Freedom'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GCPFreedomMobileBase33.jpeg','Real Grade GCP Freedom'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GCPFreedomMobileBase34.jpeg','Real Grade GCP Freedom'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GCPFreedomMobileBase35.jpeg','Real Grade GCP Freedom'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GCPFreedomMobileBase36.jpeg','Real Grade GCP Freedom'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GCPFreedomMobileBase37.jpeg','Real Grade GCP Freedom'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GCPFreedomMobileBase38.jpeg','Real Grade GCP Freedom'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GCPFreedomMobileBase39.jpeg','Real Grade GCP Freedom'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GCPFreedomMobileBase40.jpeg','Real Grade GCP Freedom'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GCPFreedomMobileBase01.jpeg','Real Grade GCP Freedom'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GCPFreedomMobileBase02.jpeg','Real Grade GCP Freedom'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GCPFreedomMobileBase03.jpeg','Real Grade GCP Freedom'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GCPFreedomMobileBase04.jpeg','Real Grade GCP Freedom'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GCPFreedomMobileBase05.jpeg','Real Grade GCP Freedom'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GCPFreedomMobileBase41.jpeg','Real Grade GCP Freedom'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GCPFreedomMobileBase42.jpeg','Real Grade GCP Freedom'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GCPFreedomMobileBase43.jpeg','Real Grade GCP Freedom'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GCPFreedomMobileBase44.jpeg','Real Grade GCP Freedom'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GCPFreedomMobileBase45.jpeg','Real Grade GCP Freedom'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GCPFreedomMobileBase46.jpeg','Real Grade GCP Freedom'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GCPFreedomMobileBase47.jpeg','Real Grade GCP Freedom'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GCPFreedomMobileBase48.jpeg','Real Grade GCP Freedom'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GCPFreedomMobileBase49.jpeg','Real Grade GCP Freedom'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/FreedomGCPBox.jpeg','Box Art']
         ],['https://hosting.photobucket.com/images/i/lesaintdumech/FreedomGCPBox.jpeg','Profile Photo: GCP Freedom'],
-        'DESCRIPTION',false,
+        'Back in Spring 2021 Bandai built this real life Freedom Gundam in Shanghai China and it still stands there to this day so they built this model kit to honor it. Since it is an actual real life statue, I did not want to paint this so as to have as close to the original plastic colors as possible. Therefore I made this as a straight build. Plus it\'s just so cool on its own it doens\t need paint build. It\'s pretty cool on its own. Plus with the exclusivity of the Premium Kit, I don\'t want to risk paint and screw it up.',false,
         [
             ['Gundam China Project','https://en.gundam.info/news/hot-topics/01_4239.html'],
             ['Model Kit Announcement','https://www.gundamkitscollection.com/2022/06/gundam-base-shanghai-to-release-rg-1144.html'],
             ['P-Bandai','https://p-bandai.com/us/item/F2555446005?_lc=en']
-        ],false,false,false,'1:144','Gundam China Project',false,false,false,false,false,'ZGMF-X10A Freedom Gundam Ver. GCP',1
+        ],false,false,true,'1:144','Gundam China Project',false,false,false,false,false,'ZGMF-X10A Freedom Gundam Ver. GCP',1
     ],
     ['Billy Blue Jay',[1,'Ginn'],'MG',false,false,false,'Seed','B'],
     ['Destiny Impulse (Regenes)',[1,'Impulse, Destiny'],'MG',
@@ -15327,8 +15376,8 @@ const projects = [
             ['NewType','https://newtype.us/p/qwtngx79JTNwHYt5c3Or/h/pokemon-model-kit-quick-04-eevee']
         ],false,true,false,false,false,false,false,false,false,false,'Pokemon Eevee 04 Quick Model Kit'
     ],    //Yellow
-    ['Pingol\u00E9on ',[1,'Empoleon'],'Pokemon',
-        false,false,false,'','B','2025',0,false,'Builds/Pokemon/',false,'2025',models[0],
+    ['Pingol\u00E9on ',[0.25,'Empoleon'],'Pokemon',
+        false,false,false,'','C','2025-09-07',0.20,false,'Builds/Pokemon/',false,'2025',models[0],
         [
             ['','']
         ],
@@ -15481,7 +15530,7 @@ const projects = [
             ['NewType','https://newtype.us/p/dOkZZ7AvruhzwIslqHje/h/pokemon-gyarados']
         ],['Unhygienix'],true,true,false,'Lance\'s Gyarados',false,false,false,false,false,'Pokemon Gyarados 52 Model Kit',1
     ],
-    ['L\u00E9viator',[1,'Gyarados'],'Pokemon',false,false,false,'','B','2025-09-04',0.75,false,'Builds/Pokemon/LevGyar.html',false,'202x',models[148]],
+    ['L\u00E9viator',[1,'Gyarados'],'Pokemon',false,false,false,'','B','2025-09-04',1.25,false,'Builds/Pokemon/LevGyar.html',false,'202x',models[148]],
     ['Skullkraken',[1,'Gyarados'],'Pokemon',false,false,false,'','A','202x',0,false,'Builds/Pokemon/SkullGyar.html',false,'202x',models[148]],//gray scale
     ['Vitalstatistix',[1,'Ho-oh'],'Pokemon',
         false,false,false,'','E','2024-02-20',5.17,false,'Builds/Pokemon/Vital.html','Asterix','2025-05-12',models[132],
@@ -15772,8 +15821,8 @@ const projects = [
             ['NewType','https://newtype.us/p/6QnT071ebQzzCPn3wkRQ/h/pokemon-model-kit-quick-03-pikachu-battle-pose']
         ],false,true,true,false,false,false,false,false,false,false,'Pikachu (Battle Pose) 03 Quick Model Kit'
     ],
-    ['Pikachu 2',[1,'Pikachu'],'Pokemon',
-        false,false,false,'','B','2025',0,false,'Builds/Pokemon/',false,'2025',models[0],
+    ['Maus',[0.25,'Pikachu'],'Pokemon',
+        false,false,false,'','C','2025-09-07',0.05,false,'Builds/Pokemon/',false,'2025',models[0],
         [
             ['','']
         ],
@@ -15816,8 +15865,8 @@ const projects = [
             ['TurboDork: Ice to Never','https://turbodork.com/products/ice-to-never-1?variant=29460041793606']
         ],['Dark Samus: Echoes'],true,true,false,false,false,false,false,false,false,'Pokemon Piplup 06 Quick Model Kit'
     ],
-    ['Tiplouf',[1,'Piplup'],'Pokemon',
-        false,false,false,'','B','2025',0,false,'Builds/Pokemon/',false,'2025',models[153],
+    ['Tiplouf',[0.25,'Piplup'],'Pokemon',
+        false,false,false,'','C','2025-09-07',0.18,false,'Builds/Pokemon/',false,'2025',models[153],
         [
             ['','']
         ],
@@ -15830,8 +15879,8 @@ const projects = [
             ['NewType','https://newtype.us/p/aqpjW7R8h1LfOuf88CK1/h/pokemon-empoleon-evolution-set'],
         ],false,true,false,false,false,false,false,false,false,false,'Pokemon Select Series 6 Empoleon Evolution Set Model Kit'
     ],
-    ['Prinplouf',[1,'Prinplup'],'Pokemon',
-        false,false,false,'','B','2025',0,false,'Builds/Pokemon/',false,'2025',models[0],
+    ['Prinplouf',[0.25,'Prinplup'],'Pokemon',
+        false,false,false,'','C','2025-09-07',0.15,false,'Builds/Pokemon/',false,'2025',models[0],
         [
             ['','']
         ],
