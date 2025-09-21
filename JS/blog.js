@@ -14,14 +14,14 @@ hyperlink array: ['word(s),'url',outside link?]
 //Blog Array
 const blogArray = [
     [
-        '2023-06-24',
+        ['2023-06-24','20230624A'],
         'Launch Day',
         'https://hosting.photobucket.com/images/i/lesaintdumech/jun6launchdayscreenshotMedium.jpeg',
         ['So excited. Today\'s the launch day for the site. Still a work in progress though with more development yet to come. But I\'m still working on it and hope to have the full thing up and running as soon as possible.'],
         ['So please stick around and be part of the community as we develop and grow. I hope to have all sorts of cool new features on here very soon. I promise to make it worth all your while.']
     ],
     [
-        '2023-07-03',
+        ['2023-07-03','20230703A'],
         'Happy Fourth !!!',
         'https://hosting.photobucket.com/images/i/lesaintdumech/oldglory15_eGREgFtS5ru7kwrr5vsofU.jpeg',
         [
@@ -40,7 +40,7 @@ const blogArray = [
         ['But anyhow, wishing you all a happy Fourth of July and may all the blessings of heaven shine down upon you and your family this year.']
     ],
     [
-        '2023-07-11',
+        ['2023-07-11','20230711'],
         'Gone Totally Green',
         'https://hosting.photobucket.com/images/i/lesaintdumech/eZy_Watermark_18-11-2022_10-06-15AM_Large.jpeg',
         [
@@ -54,7 +54,7 @@ const blogArray = [
         ['Also, I am trying to think of other things to blog about on here. I do not want this to be just a once a week weekly thing where I say "Oh hey, here is my latest weekly thing, please go check it out!" That would be monotonous and boring. Nobody ants to read that. I\'m thinking maybe I might post progress pics now tthen here and there of current models in the works. Although problem is with all the effort I have been putting into getting this site off the ground and running, I have cut down on my amount of time painting. Last month it literally came to a complete stand still. Another thought I had was maybe doing weekly episode reviews of different Gundam series. In example watch through all of the original show Mobile Suit Gundam week by week and post a weekly review and synobpis of that episode. Not sure if anyone would be interested in that though. The show is quite outdated and I\'m guessing most of you have seen it by now. I am a rare person who still has not actually. I have watched pretty much all of the Gundam universe except for Turn-A and 98% of the Universal Century (UC). I am honestly pretty completely clueless on the U.C. Ask me any question on Seed or Wing or G though, and I am totally all over that. Oh another series in the Gundam Universe I have not even started yet is the Gundam Build Divers or whatever they\'re calling it now show. Build Divers, that though definitely is a hard pass for me. It\s just not hard core at all. Looks totally lame honestly. It\'s as if they took Gundam and swapped out the beam sabers for kiddie gloves. Not going to waste my time over that nonsense.']
     ],
     [
-        '2023-07-14',
+        ['2023-07-14','20230714A'],
         'Meet Bea',
         'https://hosting.photobucket.com/images/i/lesaintdumech/IMG_6436.jpg',
         ['Hi everyone meet Beatrice, the Gund-Puppy, our site\'s new official mascot. She is such a sweetheart and total little cutie.'],
@@ -64,7 +64,7 @@ const blogArray = [
         ]
     ],
     [
-        '2023-07-15',
+        ['2023-07-15','20230715A'],
         'Finally !! Backlog Finished !!!',
         'https://hosting.photobucket.com/images/i/lesaintdumech/Screenshot_2023-07-16_at_12.50.35_AM_Large.jpeg',
         ['So I am happy to announce, the backlog is finally finished and all uploaded to the site. It took me three weeks to do but it\'s finally done.'],
@@ -78,7 +78,7 @@ const blogArray = [
         ]
     ],
     [
-        '2023-07-17',
+        ['2023-07-17','20230717A'],
         'Smoke On a Monday !!!',
         'https://hosting.photobucket.com/images/i/lesaintdumech/deeppurple10.jpeg',
         [
@@ -91,7 +91,7 @@ const blogArray = [
         ['*** For clarification, the fifty shades of purple reference was a joke. It was more like three.']
     ],
     [
-        '2023-07-20',
+        ['2023-07-20','20230720A'],
         'Mail Call',
         'https://hosting.photobucket.com/images/i/lesaintdumech/(edited)_IMG_6628_Large.png',
         [
@@ -117,7 +117,7 @@ const blogArray = [
         ]
     ],
     [
-        '2023-07-24',
+        ['2023-07-24','20230724A'],
         'Calling the Wolf Pack',
         'https://hosting.photobucket.com/images/i/lesaintdumech/dashhound34.jpeg',
         [
@@ -129,7 +129,7 @@ const blogArray = [
         ]
     ],
     [
-        '2023-07-25',
+        ['2023-07-25','20230725A'],
         'It Is Finished',
         'https://hosting.photobucket.com/images/i/lesaintdumech/finished.jpeg',
         ['So excited to announce, it is finally finished!!! The site is all done!!! It\'s now complete!!! The website is finished!!!'],
@@ -145,7 +145,7 @@ const blogArray = [
         ['Not sure what all I am going to do. But this is going to be fun. So stick around.']
     ],
     [
-        '2023-07-31',
+        ['2023-07-31','20230731A'],
         'Premium-Bleu!!',
         'https://hosting.photobucket.com/images/i/lesaintdumech/pbyzakzaku12phantom.jpeg',
         ['Well it\'s that day of the week again. Time for another weekly project unveil. This week I\'m doing just a plain P-Bandai straight build. Nothing fancy nor custom painted here. Just all built exactly as is out of the box. Sometimes it does feel nice to take a break from the painting and just enjoy building somethign simple just for the joy of building and to relax the creative mucles, which is what I usually do with the P-Bandai kits. '],
@@ -159,7 +159,7 @@ const blogArray = [
         ]
     ],
     [
-        '2023-08-01',
+        ['2023-08-01','20230801A'],
         'Something new in the works',
         'https://hosting.photobucket.com/images/i/lesaintdumech/IMG_6946.jpeg',
         [
@@ -174,7 +174,7 @@ const blogArray = [
         ]
     ],
     [
-        '2023-08-05',
+        ['2023-08-05','20230805A'],
         'New Paints',
         'https://hosting.photobucket.com/images/i/lesaintdumech/(edited)_IMG_6996_Large.png',
         [
@@ -210,7 +210,7 @@ const blogArray = [
         ]
     ],
     [
-        '2023-08-07',
+        ['2023-08-07','20230807A'],
         'Premium-Strike!!',
         'https://hosting.photobucket.com/images/i/lesaintdumech/sfdeac01.jpeg',
         [
@@ -223,7 +223,7 @@ const blogArray = [
         ['However stay tuned, got more P-Bandai\'s and Strike-Freedom and Strike madness yet to come.  You will not want to miss out. There will be more content in the weeks to come.']
     ],
     [
-        '2023-08-14',
+        ['2023-08-14','20230814A'],
         'MGEX Strike-Freedom, Pt I',
         'https://hosting.photobucket.com/images/i/lesaintdumech/mgexsfgoldframe67.jpeg',
         [
@@ -238,7 +238,7 @@ const blogArray = [
         ['So proud to present to you now, the MGEX Strike-Freedom Straight Build Gold Frame. Be sure to stick around for the full build too later this week.']
     ],
     [
-        '2023-08-17',
+        ['2023-08-17','20230817A'],
         'MGEX Strike-Freedom, Pt II',
         'https://hosting.photobucket.com/images/i/lesaintdumech/mgexstrikefreedom110.jpeg',
         [
@@ -251,7 +251,7 @@ const blogArray = [
         ['Monday I posted just the MGEX Strike-Freedom\'s inner frame underneath all the armor and accessories. But today I am now unveiling the fully assembled MGEX Strike Freedom. And boy is it a masterpiece. Enjoy!']
     ],
     [
-        '2023-08-21',
+        ['2023-08-21','20230821A'],
         'Strike Perfect Grade',
         'https://hosting.photobucket.com/images/i/lesaintdumech/pgstrikem16.jpeg',
         [
@@ -270,7 +270,7 @@ const blogArray = [
         ]
     ],
     [
-        '2023-08-26',
+        ['2023-08-26','20230826A'],
         'All Bea\'d Out',
         'https://hosting.photobucket.com/images/i/lesaintdumech/IMG_7618.jpeg',
         ['Gosh it\'s been such a long day and my sweet little Bea is alll tuckered out. Sleep well little angel. You have a whole lot more of playing to do with the children who love you again tomorrow.'],
@@ -279,7 +279,7 @@ const blogArray = [
         ]
     ],
     [
-        '2023-08-28',
+        ['2023-08-28','20230828A'],
         'I\'m Burnin, I\'m Burnin, I\'m Burnin for You!!',
         'https://hosting.photobucket.com/images/i/lesaintdumech/asterix16.jpeg',
         [
@@ -292,7 +292,7 @@ const blogArray = [
         ['My second time painting a Pokemon. And it really came out cute. Just that adorable little smile with those, shiny metallic scales, tiny little paws and fiery eyes beaming up at you, he instantly steals your heart with his flaming soul. Really makes me wish he were sorta real.']
     ],
     [
-        '2023-09-04',
+        ['2023-09-04','20230904A'],
         'Enter The Dragon!!',
         'https://hosting.photobucket.com/images/i/lesaintdumech/vercezard24.jpeg',
         ['Happy Labor Day!! Today may be a fake holiday but that does not stop me from making another model unveil.'],
@@ -313,7 +313,7 @@ const blogArray = [
         ['Both is he fierce and is he ferocious. This mighty fire dragon rules the skies and takes no prisoners, he is lord of all. Enjoy.']
     ],
     [
-        '2023-09-12',
+        ['2023-09-12','20230912A'],
         'Enter the Dragon Part II',
         'https://hosting.photobucket.com/images/i/lesaintdumech/boudica08.jpeg',
         [
@@ -328,7 +328,7 @@ const blogArray = [
         ]
     ],
     [
-        '2023-09-14',
+        ['2023-09-14','20230914A'],
         'Bookkeeping',
         'https://hosting.photobucket.com/images/i/lesaintdumech/IMG_8007.jpeg',
         ['Entering in all my latest hours into the database. Just wrapped up quite a few projects that I had been working on all last month. So got a lot of hours to enter to get the time spent on each model all tallied up.'], 
@@ -336,7 +336,7 @@ const blogArray = [
         ['Hell I have got such a huge back log built up, that at this point I could take a vacation from modeling for the entire rest of the year and half of next if I absolutely wanted to. But of course I won\'t do that. Probably will slow down though to focus more on my compputer courses.']
     ],
     [
-        '2023-09-16',
+        ['2023-09-16','20230916A'],
         'New Games Section',
         'https://hosting.photobucket.com/images/i/lesaintdumech/Screenshot_2023-09-16_at_11.53.41_PM.jpeg',
         ['So new site news. Just added a new games section.'], 
@@ -347,7 +347,7 @@ const blogArray = [
         ['So far all I have is just one number guessing game. But I will be uploading more soon. Again do not expect anythning complex. Just simple little ditties cause why not.']
     ],
     [
-        '2023-09-18',
+        ['2023-09-18','20230918A'],
         'Need More Kroutrock',
         'https://hosting.photobucket.com/images/i/lesaintdumech/nena01.jpeg',
         [
@@ -365,13 +365,13 @@ const blogArray = [
         ]
     ],
     [
-        '2023-09-19',
+        ['2023-09-19','20230919A'],
         'Ne Touche',
         'https://hosting.photobucket.com/images/i/lesaintdumech/Screen_Shot_2022-10-04_at_10.03.09_PM.png',
         ['You can look, but do not touch. :P']
     ],
     [
-        '2023-09-25',
+        ['2023-09-25','20230925A'],
         'Bear of Persia',
         'https://hosting.photobucket.com/images/i/lesaintdumech/dobiel20.jpeg',
         [
@@ -389,7 +389,7 @@ const blogArray = [
         ]
     ],
     [
-        '2023-10-02',
+        ['2023-10-02','20231002A'],
         'Charlemagne King of Roses',
         'https://hosting.photobucket.com/images/i/lesaintdumech/pbcharlemagne29.jpeg',
         [
@@ -406,7 +406,7 @@ const blogArray = [
         ['These new G-Gundam redesigns are just too cool. I am impressed.']
     ],
     [
-        '2023-10-10',
+        ['2023-10-10','20231010A'],
         'More PB (and J)',
         'https://hosting.photobucket.com/images/i/lesaintdumech/PBSDagger23.jpeg',
         [
@@ -418,7 +418,7 @@ const blogArray = [
         ]
     ],
     [
-        '2023-10-12',
+        ['2023-10-12','20231012A'],
         'Strike Dagger Pt II',
         'https://hosting.photobucket.com/images/i/lesaintdumech/PBSDagger35.jpeg',
         ['So of course I could not just build a straight build of the P-Bandai Strike Dagger without also wanting to paint it too. So without question I obviously did just that.'],
@@ -438,7 +438,7 @@ const blogArray = [
         ]
     ],
     [
-        '2023-10-16',
+        ['2023-10-16','20231016A'],
         'The God of Death',
         'https://hosting.photobucket.com/images/i/lesaintdumech/PBDScytheHell09.jpeg',
         [
@@ -451,7 +451,7 @@ const blogArray = [
         ['Specifically this model is the TV Version of Deathscythe Hell. The TV Version lately has become real hard to find due to the EW custom version having taken dominance. So this kti ware a real special and rare treat.']
     ],
     [
-        '2023-10-19',
+        ['2023-10-19','20231019A'],
         'Son of Dracul',
         'https://hosting.photobucket.com/images/i/lesaintdumech/pbaluc07.jpeg',
         [
@@ -478,7 +478,7 @@ const blogArray = [
         ['For Alucard I used the Mr Metallic GX 217 Rough Gold for the gold portions of the chest rib bones and gold crest on the helmet. It\'s sooo shiny. This will be my go-to paint for gold going forward. I also used the Mr Metallic GX 215 Bloody Red for the red portions on the front wing panels and the shield. Quality of this red, it is just astounding. So shiny and so deep and rich. I love it.']
     ],
     [
-        '2023-10-23',
+        ['2023-10-23','20231023A'],
         'Return of the Pocket Monsters',
         'https://hosting.photobucket.com/images/i/lesaintdumech/Obelix_8910.jpeg',
         [
@@ -490,7 +490,7 @@ const blogArray = [
         ]
     ],
     [
-        '2023-10-25',
+        ['2023-10-25','20231025A'],
         'Toothpicks',
         'https://hosting.photobucket.com/images/i/lesaintdumech/IMG_8948.JPG',
         ['Trying something experimental tonight. Needed spikes for a project so decided to glue the tips of toothpicks. Bit nervous. Using plastic model cement, which as the name implies, is intended for plastic. But of course Toothpicks are made of wood so I don\'t know how well they\'ll adhere to the model. They\'re drying right now. I will see how in the morning well the cement holds up. fingers crossed.'],
@@ -507,7 +507,7 @@ const blogArray = [
         ]
     ],
     [
-        '2023-10-30',
+        ['2023-10-30','20231030A'],
         'Halloween Week: Part 1',
         'https://hosting.photobucket.com/images/i/lesaintdumech/VidarFrame27.jpeg',
         [
@@ -519,7 +519,7 @@ const blogArray = [
         ]
     ],
     [
-        '2023-10-31',
+        ['2023-10-31','20231031A'],
         'Happy Halloween!!!',
         'https://hosting.photobucket.com/images/i/lesaintdumech/UbmenschArmor28.jpeg',
         [
@@ -533,7 +533,7 @@ const blogArray = [
         ['But without furter adieau, enjoy, Gundam \u00dcbermensch.']
     ],
     [
-        '2023-11-07',
+        ['2023-11-07','20231107A'],
         'There\'s a Starman, Waiting in the Sky',
         'https://hosting.photobucket.com/images/i/lesaintdumech/starman11.JPG',
         [
@@ -546,7 +546,7 @@ const blogArray = [
         ['Enjoy :)']
     ],
     [
-        '2023-11-14',
+        ['2023-11-14','20231114A'],
         'Incoming Destiny',
         'https://hosting.photobucket.com/images/i/lesaintdumech/desimprg49.jpeg',
         [
@@ -560,7 +560,7 @@ const blogArray = [
         ['Not going to lie, the more I paint the more I get bored with straight builds. I used to reserve paint builds only for the cool kits that I did not want to mess up with a bad paint. But more and more I am beginning to feel confident enough in my painting skill to no longer have that worry. I am even contemplating painting a perfect grade. Who knows what I may do next.']
     ],
     [
-        '2023-11-20',
+        ['2023-11-20','20231120A'],
         'Ziggy Played Guitar',
         'https://hosting.photobucket.com/images/i/lesaintdumech/ziggy16.jpeg',
         [
@@ -625,13 +625,13 @@ const blogArray = [
         ['Ziggy Played Guitar !!!']
     ],
     [
-        '2023-11-23',
+        ['2023-11-23','20231123A'],
         'Happy Turkey Day !!',
         'https://hosting.photobucket.com/images/i/lesaintdumech/freedomturkey.jpeg',
         ['Wishing everyone a Happy Thanksgiving 2023!!!']
     ],
     [
-        '2023-11-27',
+        ['2023-11-27','20231127A'],
         'Premium-Destiny Part Dieux',
         'https://hosting.photobucket.com/images/i/lesaintdumech/mgdesimpreg21.jpeg',
         [
@@ -654,7 +654,7 @@ const blogArray = [
         ['Both models have their own unique strengths and differences. So you be the judge on which one you like better.']
     ],
     [
-        '2023-11-30',
+        ['2023-11-30','20231130A'],
         'NewType Build of the Week',
         'https://hosting.photobucket.com/images/i/lesaintdumech/Image_11-27-23_at_6.42_PM.jpeg',
         [
@@ -675,7 +675,7 @@ const blogArray = [
         ]
     ],
     [
-        '2023-12-04',
+        ['2023-12-04','20231204A'],
         'Lady Stardust sang a song of Darkness and Dismay',
         'https://hosting.photobucket.com/images/i/lesaintdumech/stardust12.jpeg',
         [
@@ -687,7 +687,7 @@ const blogArray = [
         ]
     ],
     [
-        '2023-12-11',
+        ['2023-12-11','20231211A'],
         'Time For A Blue Monday',
         'https://hosting.photobucket.com/images/i/lesaintdumech/bluemonday14.jpeg',
         [
@@ -700,7 +700,7 @@ const blogArray = [
         ['An SD LRX-077 Sisquiede, painted in several different shades of blue. I just love how this cute little guy turned out. This one I\'m definitely keeping in my personal collection for a long time.']
     ],
     [
-        '2023-12-18',
+        ['2023-12-18','20231218A'],
         'Almost Christmas',
         'https://hosting.photobucket.com/images/i/lesaintdumech/SATO11.jpeg',
         ['We\'re officially now one week away from Christmas. And with the holidays upon us keeping us busy and the year soon drawing to a close, I\'ve been keeping things simple here in the studios at Le Saint Du Mech. So no big elaborate productions for a while. Just some small simple SDs to close things out as the year ends.'],
@@ -714,7 +714,7 @@ const blogArray = [
         ['Nothing complicated. Just an SD Perfect Strike. No fancy color scheme or theme here. Just wanted to paint it a different set of colors than the standard Strike. And all colors complete chosen by drawing them out of a hat. This build could not have been any more random.']
     ],
     [
-        '2023-12-25',
+        ['2023-12-25','20231225A'],
         'Merry Christmas!!',
         'https://hosting.photobucket.com/images/i/lesaintdumech/Helios08.jpeg',
         [
@@ -726,7 +726,7 @@ const blogArray = [
         ]
     ],
     [
-        '2024-01-01',
+        ['2024-01-01','20240101A'],
         'Happy New Year 2024!!',
         'https://hosting.photobucket.com/images/i/lesaintdumech/rocketman10.jpeg',
         [
@@ -740,7 +740,7 @@ const blogArray = [
         ['So Happy 2024!!! May the new year bring you Blessings and Joy. This year is going to be a blast!']
     ],
     [
-        '2024-01-08',
+        ['2024-01-08','20240108A'],
         'I\'ll be Haro for the Holidays',
         'https://hosting.photobucket.com/images/i/lesaintdumech/haroblue01.jpeg',
         [
@@ -752,7 +752,7 @@ const blogArray = [
         ]
     ],
     [
-        '2024-01-15',
+        ['2024-01-15','20240115A'],
         'Polar Vortex Phoebe',
         'https://hosting.photobucket.com/images/i/lesaintdumech/sdphoebe10.jpeg',
         [
@@ -766,7 +766,7 @@ const blogArray = [
         ['Anyhow, as I deal with solving all the issues with my house from this winter storm, hope you all enjoy Phoebe.']
     ],
     [
-        '2024-01-22',
+        ['2024-01-22','20240122A'],
         'Can you paint with all the colors of the wind?',
         'https://hosting.photobucket.com/images/i/lesaintdumech/tethys03.jpeg',
         [
@@ -779,7 +779,7 @@ const blogArray = [
         ['A lot of colors went into this but it did not turn out how I wanted. But oh well this was just an experimentation. Enjoy!']
     ],
     [
-        '2024-01-29',
+        ['2024-01-29','20240129A'],
         'Build of the Week #2',
         'https://hosting.photobucket.com/images/i/lesaintdumech/Screen_Shot_2024-01-29_at_9.10.25_AM.jpeg',
         [
@@ -814,7 +814,7 @@ const blogArray = [
         ]
     ],
     [
-        '2024-01-30',
+        ['2024-01-30','20240130A'],
         'Flame Wings: Old Glory, New Twist',
         'https://hosting.photobucket.com/images/i/lesaintdumech/oldgloryblazewings03.jpeg',
         [
@@ -843,7 +843,7 @@ const blogArray = [
         ]
     ],
     [
-        '2024-02-05',
+        ['2024-02-05','20240205A'],
         'Much Haro About Nothing',
         'https://hosting.photobucket.com/images/i/lesaintdumech/gharo11.jpeg',
         [
@@ -855,7 +855,7 @@ const blogArray = [
         ]
     ],
     [
-        '2024-02-14',
+        ['2024-02-14','20240214A'],
         'Valentines Day 2024',
         'https://hosting.photobucket.com/images/i/lesaintdumech/rgodpbstr166.jpeg',
         [
@@ -873,7 +873,7 @@ const blogArray = [
         ]
     ],
     [
-        '2024-02-20',
+        ['2024-02-20','20240220A'],
         'Titan of the Sea',
         'https://hosting.photobucket.com/images/i/lesaintdumech/oceanus11.jpeg',
         [
@@ -885,7 +885,7 @@ const blogArray = [
         ]
     ],
     [
-        '2024-02-26',
+        ['2024-02-26','20240226A'],
         'Meet Missus Pink',
         'https://hosting.photobucket.com/images/i/lesaintdumech/pinkharo03.jpg',
         [
@@ -897,7 +897,7 @@ const blogArray = [
         ]
     ],
     [
-        '2024-03-07',
+        ['2024-03-07','20240307A'],
         'King of the Southern Sun',
         'https://hosting.photobucket.com/images/i/lesaintdumech/coraust02.jpeg',
         [
@@ -912,7 +912,7 @@ const blogArray = [
         ]
     ],
     [
-        '2024-03-12',
+        ['2024-03-12','20240312A'],
         'Purple and Wields a Big Stick',
         'https://hosting.photobucket.com/images/i/lesaintdumech/pharo08.jpeg',
         [
@@ -927,7 +927,7 @@ const blogArray = [
         ]
     ],
     [
-        '2024-03-19',
+        ['2024-03-19','20240319A'],
         'King of the Northern Light',
         'https://hosting.photobucket.com/images/i/lesaintdumech/corborealis11.jpeg',
         [
@@ -944,7 +944,7 @@ const blogArray = [
         ]
     ],
     [
-        '2024-03-27',
+        ['2024-03-27','20240327A'],
         'Put the Lime in the ...',
         'https://hosting.photobucket.com/images/i/lesaintdumech/HLime06.jpeg',
         [
@@ -956,7 +956,7 @@ const blogArray = [
         ]
     ],
     [
-        '2024-04-04',
+        ['2024-04-04','20240404A'],
         'Soaring High in the Sky, With Haro in the Eye',
         'https://hosting.photobucket.com/images/i/lesaintdumech/HCloud03.jpeg',
         [
@@ -971,7 +971,7 @@ const blogArray = [
         ]
     ],
     [
-        '2024-04-10',
+        ['2024-04-10','20240410A'],
         'Final Haro',
         'https://hosting.photobucket.com/images/i/lesaintdumech/haronge02.jpeg',
         [
@@ -989,7 +989,7 @@ const blogArray = [
         ]
     ],
     [
-        '2024-04-15',
+        ['2024-04-15','20240415A'],
         'Tax Day 2024',
         'https://hosting.photobucket.com/images/i/lesaintdumech/theia31.jpeg',
         [
@@ -1010,7 +1010,7 @@ const blogArray = [
         ]
     ],
     [
-        '2024-04-22',
+        ['2024-04-22','20240422A'],
         'The Deku Knight',
         'https://hosting.photobucket.com/images/i/lesaintdumech/dekuK08.jpg',
         [
@@ -1031,7 +1031,7 @@ const blogArray = [
         ]
     ],
     [
-        '2024-04-22',
+        ['2024-04-22','20240422B'],
         'YouTube Debut',
         'https://hosting.photobucket.com/images/i/lesaintdumech/dkyt.jpeg',
         [
@@ -1056,7 +1056,7 @@ const blogArray = [
         ]
     ],
     [
-        '2024-04-29',
+        ['2024-04-29','20240429A'],
         'Rise of the Huntress',
         'https://hosting.photobucket.com/images/i/lesaintdumech/samvar28.jpeg',
         [
@@ -1078,7 +1078,7 @@ const blogArray = [
         ]
     ],
     [
-        '2024-05-06',
+        ['2024-05-06','20240506A'],
         'Anti-Gravity Commencing',
         'https://hosting.photobucket.com/images/i/lesaintdumech/samgrav36.jpeg',
         [
@@ -1103,7 +1103,7 @@ const blogArray = [
         ]
     ],
     [
-        '2024-05-13',
+        ['2024-05-13','20240513A'],
         'Phazon Contamination Imminent',
         'https://hosting.photobucket.com/images/i/lesaintdumech/samphaz27.jpeg',
         [
@@ -1134,7 +1134,7 @@ const blogArray = [
         ]
     ],
     [
-        '2024-05-20',
+        ['2024-05-20','20240520A'],
         'Echoe of the Dark Suit',
         'https://hosting.photobucket.com/images/i/lesaintdumech/4_DarkSuit.webp',
         [
@@ -1156,7 +1156,7 @@ const blogArray = [
         ]
     ],
     [
-        '2024-05-27',
+        ['2024-05-27','20240527A'],
         'Echoe of the Light Suit',
         'https://hosting.photobucket.com/images/i/lesaintdumech/5_LightSuit.jpeg',
         [
@@ -1178,7 +1178,7 @@ const blogArray = [
         ]
     ],
     [
-        '2024-06-03',
+        ['2024-06-03','20240603A'],
         'Phazon Corruption Imminent',
         'https://hosting.photobucket.com/images/i/lesaintdumech/6_PEDSuit.jpeg',
         [
@@ -1205,7 +1205,7 @@ const blogArray = [
         ]
     ],
     [
-        '2024-06-10',
+        ['2024-06-10','20240610A'],
         'Metroid DNA Fusion',
         'https://hosting.photobucket.com/images/i/lesaintdumech/7_FusionSuit.webp',
         [
@@ -1229,7 +1229,7 @@ const blogArray = [
         ]
     ],
     [
-        '2024-06-17',
+        ['2024-06-17','20240617A'],
         'Just a little Dread to inpsire the Revolution',
         'https://hosting.photobucket.com/images/i/lesaintdumech/8_DreadSuit.webp',
         [
@@ -1258,7 +1258,7 @@ const blogArray = [
         ]
     ],
     [
-        '2024-06-24',
+        ['2024-06-24','20240624A'],
         'Metroid Hybrid Form',
         'https://hosting.photobucket.com/images/i/lesaintdumech/MetroidSuit01.jpeg',
         [
@@ -1285,7 +1285,7 @@ const blogArray = [
         ]
     ],
     [
-        '2024-06-25',
+        ['2024-06-25','20240625A'],
         'Build of Week: Blue Angel',
         'https://hosting.photobucket.com/images/i/lesaintdumech/blueangels13.jpeg',
         [
@@ -1305,7 +1305,7 @@ const blogArray = [
         ]
     ],
     [
-        '2024-07-01',
+        ['2024-07-01','20240701A'],
         'Rise of the Worm',
         'https://hosting.photobucket.com/images/i/lesaintdumech/DarkSamusEchoes02.jpeg',
         [
@@ -1333,7 +1333,7 @@ const blogArray = [
         ]
     ],
     [
-        '2024-07-08',
+        ['2024-07-08','20240708A'],
         'Build of Week: Thor',
         'https://hosting.photobucket.com/images/i/lesaintdumech/thor24.jpeg',
         [
@@ -1353,7 +1353,7 @@ const blogArray = [
         ]
     ],
     [
-        '2024-07-08',
+        ['2024-07-08','20240708B'],
         'The Worm Pt II',
         'https://hosting.photobucket.com/images/i/lesaintdumech/(edited)_DarkSamusCorruption01.png',
         [
@@ -1381,7 +1381,7 @@ const blogArray = [
         ]
     ],
     [
-        '2024-07-15',
+        ['2024-07-15','20240715A'],
         'Completion of Samus',
         'https://hosting.photobucket.com/images/i/lesaintdumech/SamusZeroSuit01.jpg',
         [
@@ -1409,7 +1409,7 @@ const blogArray = [
         ]
     ],
     [
-        '2024-07-22',
+        ['2024-07-22','20240722A'],
         'Federation Trooper',
         'https://hosting.photobucket.com/images/i/lesaintdumech/(edited)_GFtrooper_trio.png',
         [
@@ -1432,7 +1432,7 @@ const blogArray = [
         ]
     ],
     [
-        '2024-07-29',
+        ['2024-07-29','20240729A'],
         'Welcome to Jurassic Park !!!',
         'https://hosting.photobucket.com/images/i/lesaintdumech/longqueen089.jpeg',
         [
@@ -1455,7 +1455,7 @@ const blogArray = [
         ]
     ],
     [
-        '2024-08-05',
+        ['2024-08-05','20240805A'],
         'Age of Aquarius',
         'https://hosting.photobucket.com/images/i/lesaintdumech/pontus20.jpeg',
         [
@@ -1478,7 +1478,7 @@ const blogArray = [
         ]
     ],
     [
-        '2024-08-12',
+        ['2024-08-12','20240812A'],
         'Blue Falcon',
         'https://hosting.photobucket.com/images/i/lesaintdumech/mistral10.jpeg',
         [
@@ -1498,7 +1498,7 @@ const blogArray = [
         ]
     ],
     [
-        '2024-08-19',
+        ['2024-08-19','20240819A'],
         'La\u00FCstic',
         'https://hosting.photobucket.com/images/i/lesaintdumech/nachtigall53.jpeg',
         [
@@ -1521,7 +1521,7 @@ const blogArray = [
         ]
     ],
     [
-        '2024-08-26',
+        ['2024-08-26','20240826'],
         'The Nazarene',
         'https://hosting.photobucket.com/images/i/lesaintdumech/NAZARENE82.jpg',
         [
@@ -1596,7 +1596,7 @@ const blogArray = [
         ]
     ],
     [
-        '2024-09-02',
+        ['2024-09-02','20240902A'],
         'My Cuz Jasper',
         'https://hosting.photobucket.com/images/i/lesaintdumech/Japser13.jpeg',
         [
@@ -1616,7 +1616,7 @@ const blogArray = [
         ]
     ],
     [
-        '2024-09-09',
+        ['2024-09-09','20240909A'],
         'My Cuz Jade',
         'https://hosting.photobucket.com/images/i/lesaintdumech/Jade03.jpeg',
         [
@@ -1646,7 +1646,7 @@ const blogArray = [
         ]
     ],
     [
-        '2024-09-16',
+        ['2024-09-16','20240916A'],
         'My Cuz Cooper',
         'https://hosting.photobucket.com/images/i/lesaintdumech/Cooper10.jpeg',
         [
@@ -1666,7 +1666,7 @@ const blogArray = [
         ]
     ],
     [
-        '2024-09-23',
+        ['2024-09-23','20240923A'],
         'Height of Luxury',
         'https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL57.jpeg',
         [
@@ -1689,7 +1689,7 @@ const blogArray = [
         ]
     ],
     [
-        '2024-09-24',
+        ['2024-09-24','20240924A'],
         'Build of Week: John Wayne',
         'https://hosting.photobucket.com/images/i/lesaintdumech/(edited)_buildofweek92324.png',
         [
@@ -1709,7 +1709,7 @@ const blogArray = [
         ]
     ],
     [
-        '2024-09-30',
+        ['2024-09-30','20240930A'],
         'XGF-02 Gundam LFrith',
         'https://hosting.photobucket.com/images/i/lesaintdumech/LFRStr05.jpeg',
         [
@@ -1753,7 +1753,7 @@ const blogArray = [
         ]
     ],
     [
-        '2024-10-03',
+        ['2024-10-03','20241003A'],
         'LFrith Week',
         'https://hosting.photobucket.com/images/i/lesaintdumech/adriel79.jpeg',
         [
@@ -1776,7 +1776,7 @@ const blogArray = [
         ]
     ],
     [
-        '2024-10-07',
+        ['2024-10-07','20241007A'],
         'Angel of Healing',
         'https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/df855acf-27bc-455a-bfb2-a7c38dbd9e98.jpeg',
         [
@@ -1799,7 +1799,7 @@ const blogArray = [
         ]
     ],
     [
-        '2024-10-07',
+        ['2024-10-07','20241007B'],
         'Build of Week: Azalea',
         'https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/cca659bd-e1c2-4bcf-b7ed-67dfbaed48e7.jpeg',
         [
@@ -1819,7 +1819,7 @@ const blogArray = [
         ]
     ],
     [
-        '2024-10-14',
+        ['2024-10-14','20241014A'],
         'Angel of Solitude',
         'https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/3ef49f9e-8013-4f98-8607-a89c0e924e51.jpeg',
         [
@@ -1848,7 +1848,7 @@ const blogArray = [
         ]
     ],
     [
-        '2024-10-21',
+        ['2024-10-21','20241021A'],
         'Little Cherub',
         'https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/65ca794f-b01e-4965-a3a7-a966da8ca21a.jpeg',
         [
@@ -1868,7 +1868,7 @@ const blogArray = [
         ]
     ],
     [
-        '2024-10-27',
+        ['2024-10-27','20241027A'],
         'Gunpla Builders World Cup - 3rd PLace',
         'https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/4841aa4c-9ff1-4f55-afe9-a436aa5d7f82.jpg',
         [
@@ -1892,7 +1892,7 @@ const blogArray = [
         ]
     ],
     [
-        '2024-10-29',
+        ['2024-10-29','20241029A'],
         'Straight Aerial Markup',
         'https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/76fa4649-c36d-40dd-9cea-84aa852fda59.jpeg',
         [
@@ -1916,7 +1916,7 @@ const blogArray = [
         ]
     ],
     [
-        '2024-10-31',
+        ['2024-10-31','20241031A'],
         'PB Permet Score Six',
         'https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/057f117a-d8c7-48ae-80a9-340f6e4be892.jpeg',
         [
@@ -1937,7 +1937,7 @@ const blogArray = [
         ]
     ],
     [
-        '2024-11-04',
+        ['2024-11-04','20241104A'],
         'Another Aerial',
         'https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/ee47efc6-f6f7-4dba-94e9-135c47502d9a.jpeg',
         [
@@ -1957,7 +1957,7 @@ const blogArray = [
         ]
     ],
     [
-        '2024-11-11',
+        ['2024-11-11','20241111A'],
         'Aerial Chicken Sandwich',
         'https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/9091856c-044f-4c4c-96aa-7eecb80a5c23.jpg',
         [
@@ -1980,7 +1980,7 @@ const blogArray = [
         ]
     ],
     [
-        '2024-11-18',
+        ['2024-11-18','20241118A'],
         'XVX-016RN Gundam Aerial Rebuild',
         'https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/93813c54-981c-4fc9-8f5f-0f35614a1b7a.jpeg',
         [
@@ -2021,7 +2021,7 @@ const blogArray = [
         ]
     ],
     [
-        '2024-11-19',
+        ['2024-11-19','20241119A'],
         'Build of Week: Jade',
         'https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/ad2dd76d-f2ae-400c-bd6a-75f4dfdcdbac.jpeg',
         [
@@ -2038,7 +2038,7 @@ const blogArray = [
         ]
     ],
     [
-        '2024-11-21',
+        ['2024-11-21','20241121A'],
         'Aerial Rebuild pt II: Zephon',
         'https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/d0214f68-48a7-4bfa-8a27-a2771e23a6cf.jpeg',
         [
@@ -2070,7 +2070,7 @@ const blogArray = [
         ]
     ],
     [
-        '2024-11-26',
+        ['2024-11-26','20241126A'],
         'Gundnode',
         'https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/88991408-2d83-4b29-be98-32529f61156e.jpeg',
         [
@@ -2088,7 +2088,7 @@ const blogArray = [
         ]
     ],
     [
-        '2024-12-02',
+        ['2024-12-02','20241202A'],
         'X-EX01 Gundam Calibarn',
         'https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/ee2715a1-73fa-4b48-bd8a-b3e49f2fd1e2.jpeg',
         [
@@ -2117,7 +2117,7 @@ const blogArray = [
         ]
     ],
     [
-        '2024-12-06',
+        ['2024-12-06','20241206A'],
         'Calibarn pt II: Abaddon',
         'https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/16610ad6-0af3-47c8-9165-1f2ed7f2eb5c.jpeg',
         [
@@ -2143,7 +2143,7 @@ const blogArray = [
         ]
     ],
     [
-        '2024-12-11',
+        ['2024-12-11','20241211A'],
         'Arch Angel Metatron',
         'https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/d430ee82-3985-43d9-b32a-dcf90439d437.png',
         [
@@ -2169,7 +2169,7 @@ const blogArray = [
         ]
     ],
     [
-        '2024-12-16',
+        ['2024-12-16','20241216A'],
         'Leir\'s Third Daughter',
         'https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/6c1d219a-bb24-49a0-a867-9041745b5324.jpeg',
         [
@@ -2205,7 +2205,7 @@ const blogArray = [
         ]
     ],
     [
-        '2024-12-24',
+        ['2024-12-24','20241224A'],
         'Merry Christmas 2024',
         'https://hosting.photobucket.com/images/i/lesaintdumech/JoeCool17.jpeg',
         [
@@ -2228,7 +2228,7 @@ const blogArray = [
         ]
     ],
     [
-        '2024-12-30',
+        ['2024-12-30','20241230A'],
         'New Years Week, pt I',
         'https://hosting.photobucket.com/images/i/lesaintdumech/EveSilver.jpeg',
         [
@@ -2249,7 +2249,7 @@ const blogArray = [
         ]
     ],
     [
-        '2024-12-31',
+        ['2024-12-31','20241231A'],
         'New Years Week, pt II',
         'https://hosting.photobucket.com/images/i/lesaintdumech/EveSkyrat.jpeg',
         [
@@ -2264,7 +2264,7 @@ const blogArray = [
         ]
     ],
     [
-        '2025-01-01',
+        ['2025-01-01','20250101A'],
         'New Years Week, pt III',
         'https://hosting.photobucket.com/images/i/lesaintdumech/EveLaserface.jpeg',
         [
@@ -2279,7 +2279,7 @@ const blogArray = [
         ]
     ],
     [
-        '2025-01-02',
+        ['2025-01-02','20250102A'],
         'New Years Week, pt IV',
         'https://hosting.photobucket.com/images/i/lesaintdumech/EveBubblegumCrisis.jpeg',
         [
@@ -2294,7 +2294,7 @@ const blogArray = [
         ]
     ],
     [
-        '2025-01-03',
+        ['2025-01-03','20250103A'],
         'New Years Week, pt V',
         'img/misc/3FacesOfEve.jpg',
         [
@@ -2331,44 +2331,7 @@ const blogArray = [
         ]
     ],
     [
-        '2025-01-03',
-        'New Years Week, pt V',
-        'img/misc/3FacesOfEve.jpg',
-        [
-            [
-                'Today is day five and now all four Eves have now been posted which wraps up the ',
-                ['Faces of Eve','Builds/Gundams/4EVES.html'],
-                ' project. Also released today is the Faces of Eve ',
-                ['video','https://youtu.be/vkMNWWTfd2g'],
-                ' so be sure to go check it out.'
-            ]
-        ],
-        [
-            'So thanks for tagging along on this little project and everyone enjoy your New Year. Lets make 2025 the very best !'
-        ],
-        [
-            [
-                ['Youtube','https://youtu.be/vkMNWWTfd2g',true]
-            ]
-        ],
-        [
-            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/FacesofEve07.jpeg']
-        ],
-        [
-            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/EveSilver.jpeg']
-        ],
-        [
-            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/EveSkyrat.jpeg']
-        ],
-        [
-            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/EveLaserface.jpeg']
-        ],
-        [
-            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/EveBubblegumCrisis.jpeg']
-        ]
-    ],
-    [
-        '2025-01-06',
+        ['2025-01-06','20250106A'],
         'General of the Seas: Cassivellaunus',
         'https://hosting.photobucket.com/images/i/lesaintdumech/Cassivel25.jpeg',
         [
@@ -2397,7 +2360,7 @@ const blogArray = [
         ]
     ],
     [
-        '2025-01-07',
+        ['2025-01-07','20250107A'],
         'Build of Week: Oceanus',
         'https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/adfb2c36-09f3-4063-a730-9a3f2d08a066.jpeg',
         [
@@ -2414,7 +2377,7 @@ const blogArray = [
         ]
     ],
     [
-        '2025-01-15',
+        ['2025-01-15','20250115A'],
         'LFrith Pre Production Premium Build',
         'https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/057e840e-d40d-4a42-bf7d-dd4f240c205a.jpeg',
         [
@@ -2435,7 +2398,7 @@ const blogArray = [
         ]
     ],
     [
-        '2025-01-20',
+        ['2025-01-20','20250120A'],
         'Druid Potion Master: Getafix',
         'https://hosting.photobucket.com/images/i/lesaintdumech/Getafix25.jpeg',
         [
@@ -2461,7 +2424,7 @@ const blogArray = [
         ]
     ],
     [
-        '2025-01-27',
+        ['2025-01-27','20250127A'],
         'Zero Pinks Given !!',
         'https://hosting.photobucket.com/images/i/lesaintdumech/ZRouge52.jpeg',
         [
@@ -2490,7 +2453,7 @@ const blogArray = [
         ]
     ],
     [
-        '2025-02-04',
+        ['2025-02-04','20250204A'],
         'Village Poet of the Gauls: Cacofonix',
         'https://hosting.photobucket.com/images/i/lesaintdumech/Cacofonix32.jpeg',
         [
@@ -2516,7 +2479,7 @@ const blogArray = [
         ]
     ],
     [
-        '2025-02-11',
+        ['2025-02-11','20250211A'],
         'Heroic Strike Knight Clymene !!',
         'https://hosting.photobucket.com/images/i/lesaintdumech/Clymene05.jpeg',
         [
@@ -2540,7 +2503,7 @@ const blogArray = [
         ]
     ],
     [
-        '2025-02-20',
+        ['2025-02-20','20250220A'],
         'Picanmix the Littlest Gaul',
         'https://hosting.photobucket.com/images/i/lesaintdumech/PicanmixComic.jpeg',
         [
@@ -2563,7 +2526,7 @@ const blogArray = [
         ]
     ],
     [
-        '2025-02-28',
+        ['2025-02-28','20250228A'],
         'Legendary Themis !!',
         'https://hosting.photobucket.com/images/i/lesaintdumech/ThemC14.jpeg',
         [
@@ -2590,7 +2553,7 @@ const blogArray = [
         ]
     ],
     [
-        '2025-03-03',
+        ['2025-03-03','20250303A'],
         'Gaul King Brennus',
         'https://hosting.photobucket.com/images/i/lesaintdumech/Brennus25.jpeg',
         [
@@ -2620,7 +2583,7 @@ const blogArray = [
         ]
     ],
     [
-        '2025-03-10',
+        ['2025-03-10','20250310A'],
         'Red Pill',
         'https://hosting.photobucket.com/images/i/lesaintdumech/RedPill13.jpeg',
         [
@@ -2647,7 +2610,7 @@ const blogArray = [
         ]
     ],
     [
-        '2025-03-18',
+        ['2025-03-18','20250318A'],
         'Rainbow Foxy Beatrice',
         'https://hosting.photobucket.com/images/i/lesaintdumech/Beatrice21.jpeg',
         [
@@ -2667,7 +2630,7 @@ const blogArray = [
         ]
     ],
     [
-        '2025-03-25',
+        ['2025-03-25','20250325A'],
         'Balls to the Walls !!',
         'https://hosting.photobucket.com/images/i/lesaintdumech/PBallMain46.jpeg',
         [
@@ -2687,7 +2650,7 @@ const blogArray = [
         ]
     ],
     [
-        '2025-03-31',
+        ['2025-03-31','20250331A'],
         'Splish Splash Bandit',
         'https://hosting.photobucket.com/images/i/lesaintdumech/Bandit16.jpeg',
         [
@@ -2707,7 +2670,7 @@ const blogArray = [
         ]
     ],
     [
-        '2025-04-07',
+        ['2025-04-07','20250407A'],
         'Get Away From Her You !!',
         'https://hosting.photobucket.com/images/i/lesaintdumech/Ripley33.jpeg',
         [
@@ -2730,7 +2693,7 @@ const blogArray = [
         ]
     ],
     [
-        '2025-04-15',
+        ['2025-04-15','20250415A'],
         'The Menacing One',
         'https://hosting.photobucket.com/images/i/lesaintdumech/Polysyllablix28.jpeg',
         [
@@ -2753,7 +2716,7 @@ const blogArray = [
         ]
     ],
     [
-        '2025-04-21',
+        ['2025-04-21','20250421A'],
         'Rising Freedom [HG] Straight Build',
         'https://hosting.photobucket.com/images/i/lesaintdumech/RisingFreedomHGSTR19.jpeg',
         [
@@ -2794,7 +2757,7 @@ const blogArray = [
         ]
     ],
     [
-        '2025-04-24',
+        ['2025-04-24','20250424A'],
         'Spark the Revolution !',
         'https://hosting.photobucket.com/images/i/lesaintdumech/Revolution12.jpeg',
         [
@@ -2817,7 +2780,7 @@ const blogArray = [
         ]
     ],
     [
-        '2025-04-28',
+        ['2025-04-28','20250428A'],
         'The Adorably Cute One',
         'https://hosting.photobucket.com/images/i/lesaintdumech/Monosyllabix26.jpeg',
         [
@@ -2840,7 +2803,7 @@ const blogArray = [
         ]
     ],
     [
-        '2025-05-05',
+        ['2025-05-05','20250505A'],
         'Naval Pride Week: Santa Clara',
         'https://hosting.photobucket.com/images/i/lesaintdumech/Salamis.jpeg',
         [
@@ -2876,7 +2839,7 @@ const blogArray = [
         ]
     ],
     [
-        '2025-05-07',
+        ['2025-05-07','20250507A'],
         'Naval Pride Week: Santa Maria',
         'https://hosting.photobucket.com/images/i/lesaintdumech/Magellan.jpeg',
         [
@@ -2912,7 +2875,7 @@ const blogArray = [
         ]
     ],
     [
-        '2025-05-10',
+        ['2025-05-10','20250510A'],
         'Naval Pride Week: Colombo Fleet',
         'https://hosting.photobucket.com/images/i/lesaintdumech/SalamisMagellanBoxart.jpg',
         [
@@ -2954,7 +2917,7 @@ const blogArray = [
         ]
     ],
     [
-        '2025-05-12',
+        ['2025-05-12','20250512A'],
         'Chief Bird of Economics',
         'https://hosting.photobucket.com/images/i/lesaintdumech/HoohProfile.jpeg',
         [
@@ -2983,7 +2946,7 @@ const blogArray = [
         ]
     ],
     [
-        '2025-05-20',
+        ['2025-05-20','20250520A'],
         'The G.O.A.T. !!',
         'https://hosting.photobucket.com/images/i/lesaintdumech/BradyJersey.jpg',
         [
@@ -3006,7 +2969,7 @@ const blogArray = [
         ]
     ],
     [
-        '2025-05-26',
+        ['2025-05-26','20250526A'],
         'Might Sea Rooster Chanticleerix',
         'https://hosting.photobucket.com/images/i/lesaintdumech/SeaChanty32.jpeg',
         [
@@ -3029,7 +2992,7 @@ const blogArray = [
         ]
     ],
     [
-        '2025-06-02',
+        ['2025-06-02','20250602A'],
         'My love! My anger! And all of my sorrow!',
         'https://hosting.photobucket.com/images/i/lesaintdumech/SweetGabe37.jpeg',
         [
@@ -3055,7 +3018,7 @@ const blogArray = [
         ]
     ],
     [
-        '2025-06-10',
+        ['2025-06-10','20250610A'],
         'Hercule Savinien',
         'https://hosting.photobucket.com/images/i/lesaintdumech/Cyano15.jpeg',
         [
@@ -3078,7 +3041,7 @@ const blogArray = [
         ]
     ],
     [
-        '2025-06-16',
+        ['2025-06-16','20250616A'],
         'Archangel Michael',
         'https://hosting.photobucket.com/images/i/lesaintdumech/Michael23.jpeg',
         [
@@ -3104,7 +3067,7 @@ const blogArray = [
         ]
     ],
     [
-        '2025-06-25',
+        ['2025-06-25','20250625A'],
         'Faithful Pooch of the Gauls',
         'https://hosting.photobucket.com/images/i/lesaintdumech/AsterixDogmatix.jpeg',
         [
@@ -3133,7 +3096,7 @@ const blogArray = [
         ]
     ],
     [
-        '2025-06-30',
+        ['2025-06-30','20250630A'],
         'Demon Knight of Astrology',
         'https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/62ef4302-9c8e-41c3-be37-1fc5f01cdc98.png',
         [
@@ -3166,7 +3129,7 @@ const blogArray = [
         ]
     ],
     [
-        '2025-07-07',
+        ['2025-07-07','20250707A'],
         'Lutetia City of Lights',
         'https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/e4177603-6286-4a14-845d-249b3438fdbb.jpeg',
         [
@@ -3189,7 +3152,7 @@ const blogArray = [
         ]
     ],
     [
-        '2025-07-15',
+        ['2025-07-15','20250715A'],
         'Demon King Paimon',
         'https://hosting.photobucket.com/images/i/lesaintdumech/Paimon.jpeg',
         [
@@ -3215,7 +3178,7 @@ const blogArray = [
         ]
     ],
     [
-        '2025-07-21',
+        ['2025-07-21','20250721A'],
         'WOO-PIG-SOOOIE!!!!',
         'https://hosting.photobucket.com/images/i/lesaintdumech/ARK_Logo.jpg',
         [
@@ -3238,7 +3201,7 @@ const blogArray = [
         ]
     ],
     [
-        '2025-07-29',
+        ['2025-07-29','20250729A'],
         'Ancient Demon Lord of Storms',
         'https://hosting.photobucket.com/images/i/lesaintdumech/Bael.jpg',
         [
@@ -3264,7 +3227,7 @@ const blogArray = [
         ]
     ],
     [
-        '2025-08-04',
+        ['2025-08-04','20250804A'],
         'Father of the Legend, Astronomix',
         'https://hosting.photobucket.com/images/i/lesaintdumech/AstronomixGengar21.jpeg',
         [
@@ -3290,7 +3253,7 @@ const blogArray = [
         ]
     ],
     [
-        '2025-08-11',
+        ['2025-08-11','20250811A'],
         'Flyin High to Infinity',
         'https://hosting.photobucket.com/images/i/lesaintdumech/RoanokeExus45.jpeg',
         [
@@ -3333,7 +3296,7 @@ const blogArray = [
         ]
     ],
     [
-        '2025-08-18',
+        ['2025-08-18','20250818A'],
         'Ancient Celtic Fortune Teller',
         'https://hosting.photobucket.com/images/i/lesaintdumech/ProlixComic.jpeg',
         [
@@ -3356,7 +3319,7 @@ const blogArray = [
         ]
     ],
     [
-        '2025-08-26',
+        ['2025-08-26','20250826A'],
         'Dull Like A Pencil',
         'https://hosting.photobucket.com/images/i/lesaintdumech/GraphiteOG28.jpeg',
         [
@@ -3382,7 +3345,7 @@ const blogArray = [
         ]
     ],
     [
-        '2025-09-01',
+        ['2025-09-01','20250901A'],
         'Master Smith',
         'https://hosting.photobucket.com/images/i/lesaintdumech/CetautoSmith.jpeg',
         [
@@ -3405,7 +3368,7 @@ const blogArray = [
         ]
     ],
     [
-        '2025-09-08',
+        ['2025-09-08','20250908A'],
         'Gundam China Project',
         'https://hosting.photobucket.com/images/i/lesaintdumech/GCPFreedomMobileBase05.jpeg',
         [
@@ -3437,7 +3400,7 @@ const blogArray = [
                 ['00 Raiser [Trans-Am Clear]','Builds/PBandai/PBooraiserRG.html'],
                 ', ',
                 ['QAN[T] [Trans-Am Clear]','Builds/PBandai/PBOOQRG.html'],
-                'and ',
+                ' and ',
                 ['00 Build Diver [Trans-Am Clear]','Builds/PBandai/PBooDiverHG.html'],
                 '.'
             ]
@@ -3457,13 +3420,186 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/GCPFreedomMobileBase04.jpeg']
         ]
+    ],
+    [
+        ['2025-09-20','20250920A'],
+        'RX-78-2 RG Version 2',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/RXV2RG08.jpeg',
+        [
+            'The original Gundam that started it all, RX-78-2, first Gundam of the series and first Gundam of the Real Grade model line, just this year got an upgrade, the RX-78-2 Real Grade Version 2.'
+        ],
+        [
+            'Now I never built the original version one RG RX-78-2. So therefore I built them both at the same time. I have to say you can really tell the differnce with the version 2. Version 1 is quite rudimentary, very blockish, that version 2 is lightyears beyond. It\'s so detailed, way more articulation, richer color. I have so say I am quite impressed. I am loving the new kit. And I am not even a fan of the RX-78-2 in general.'
+        ],
+        [
+            'Now I don\'t do build pages for straight builds. So prepare for a very long blog post. But I present you this week\'s build the RX-78-2 Real Grade v2: '
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RXV2RG01.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RXV2RG02.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RXV2RG03.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RXV2RG04.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RXV2RG05.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RXV2RG06.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RXV2RG07.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RXV2RG08.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RXV2RG09.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RXV2RG10.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RXV2RG11.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RXV2RG12.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RXV2RG13.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RXV2RG14.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RXV2RG15.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RXV2RG16.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RXV2RG17.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RXV2RG18.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RXV2RG19.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RXV2RG20.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RXV2RG21.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RXV2RG22.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RXV2RG23.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RXV2RG24.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RXV2RG25.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RXV2RG26.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RXV2RG27.jpeg']
+        ],
+        [
+            'Cockpit Hatch Opens:'
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RXV2RG37.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RXV2RG38.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RXV2RG39.jpeg']
+        ],
+        [
+            'The FF-X7 Core Fighter:'
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RXV2RG40.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RXV2RG42.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RXV2RG43.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RXV2RG44.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RXV2RG45.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RXV2RG46.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RXV2RG47.jpeg']
+        ],
+        [
+            'Version 1 and Version 2 side-by-side comparison:'
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RXV2RG29.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RXV2RG30.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RXV2RG31.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RXV2RG32.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RXV2RG33.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RXV2RG34.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RXV2RG35.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RXV2RG36.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RXV2RG37.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RXV2RG48.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RXV2RG50.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RXV2RG51.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RXV2RG53.jpeg']
+        ]
     ]
 ]
 
 //Functions
 function constructDates() {
     for (let i=0; i<blogArray.length; i++) {
-        blogArray[i][0] = new Date(blogArray[i][0]);
+        blogArray[i][0][0] = new Date(blogArray[i][0][0]);
     }
 }
 
@@ -3684,10 +3820,10 @@ function constructParagraph(paragraphArray,anchorNode) {
 
 function sortArray() {
     for (let i=0;i<blogArray.length;i++) {
-        blogArray[i][0] = new Date(blogArray[i][0])
+        blogArray[i][0][0] = new Date(blogArray[i][0][0])
     }
 
-    blogArray.sort((a,b) => b[0] - a[0]);
+    blogArray.sort((a,b) => b[0][0] - a[0][0]);
 }
 
 function constructBlogEntry(blogArray,entryN) {
@@ -3696,7 +3832,7 @@ function constructBlogEntry(blogArray,entryN) {
     titleNode.appendChild(titleText);
     
     let dateNode = document.getElementById('date'+entryN);
-    let dateText = document.createTextNode(frenchDate(blogArray[0]));
+    let dateText = document.createTextNode(frenchDate(blogArray[0][0]));
     dateNode.appendChild(dateText); 
     
     if (blogArray[0]) {
@@ -3754,6 +3890,11 @@ function constructArchiveEntry() {
 
     let startBlogNode = document.getElementById('startBlog');
     for (let i=0;i<blogArray.length;i++) {
+        let idPElement = document.createElement('p');
+        let spanID = document.createAttribute('id');
+        spanID.value = blogArray[i][0][1];
+        idPElement.setAttributeNode(spanID); 
+        
         let div1 = document.createElement('div');
         let div1Class = document.createAttribute('class');
         div1Class.value = 'row row-content';
@@ -3798,11 +3939,11 @@ function constructArchiveEntry() {
         let dt1Class = document.createAttribute('class')
         dt1Class.value = 'col text-right';
         dt1Node.setAttributeNode(dt1Class);
-        let dateFRText = document.createTextNode(frenchDate(blogArray[i][0]));
+        let dateFRText = document.createTextNode(frenchDate(blogArray[i][0][0]));
         dt1Node.appendChild(dateFRText); 
         let breakNode = document.createElement('br');
         dt1Node.appendChild(breakNode);
-        let dateNMText = document.createTextNode(numericDate(blogArray[i][0]));
+        let dateNMText = document.createTextNode(numericDate(blogArray[i][0][0]));
         dt1Node.appendChild(dateNMText); 
         dl1Node.appendChild(dt1Node);
 
@@ -3860,7 +4001,7 @@ function constructArchiveEntry() {
             }
         }
 
-
+        startBlogNode.appendChild(idPElement)
         startBlogNode.appendChild(div1);
     }
 

@@ -13825,8 +13825,12 @@ const projects = [
     ],
     ['Ridley',[1,'Qubeley'],'HG',false,false,false,'UC','A'],
     ['GunChef',[1,'RX-78-2'],'RG',false,false,false,'UC','A'],
-    ['RX782v1RG',[1,'RX-78-2'],'RG',true,false,false,'UC','C','2024-10-15',4.92],
-    ['RX782v2RG',[1,'RX-78-2 v2.0'],'RG',true,false,false,'UC','D','2024-11-16',8.75],
+    ['RX782v1RG',[1,'RX-78-2'],'RG',true,false,false,'UC','E','2024-10-15',6],
+    ['RX-78-2 v2',[1,'RX-78-2 v2.0'],'RG',
+        true,false,false,'UC','E','2024-11-16',8.75,false,'BlogArchive.html#20250920A',false,'2025-09-20',models[181],false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/RXV2RG54.jpeg','Profile Photo: Colombo'],
+        false,false,false,false,false,true
+    ],
     ['Requiem Gundam [HG]',[1,'RX-78G(E)'],'HG',true,false,false,'UC','E','2024-12-19',2.17],
     ['Colombo',[0.4,'EX Salamis Class','EX Magellan Class'],'EX',
         false,false,false,'UC','E','2024-08-21',9.11,false,'Builds/Ships/Colombo.html',false,'2025-05-05',models[146],
@@ -14768,8 +14772,8 @@ const projects = [
             ['TurboDork','https://turbodork.com']
         ],['Theia'],true,true,false,false,'Mighty Morphin Power Rangers'
     ],
-    ['Eos',[1,'Wing, Cao Cao'],'SD',false,false,false,'Heroes','B'],    //Wing zero
-    ['Aether',[1,'Wing, Cao Cao'],'SD',false,false,false,'Heroes','B'],    //Wing zero
+    ['Eos',[1,'Wing, Cao Cao'],'SD',false,false,false,'Heroes','B'],    //Wing zero     //Mr Hobby Metallic
+    ['Aether',[1,'Wing, Cao Cao'],'SD',false,false,false,'Heroes','C','2025-09-12',0.72],    //Wing zero //Matt colors
     ['Tethys',[1,'Wing Isei, Cao Cao'],'SD',
         false,false,false,'Heroes','E','2022-04-05',8.67,false,'Builds/SDW/Tethys.html',false,'2024-01-22',models[116],
         [
@@ -15376,8 +15380,7 @@ const projects = [
             ['NewType','https://newtype.us/p/qwtngx79JTNwHYt5c3Or/h/pokemon-model-kit-quick-04-eevee']
         ],false,true,false,false,false,false,false,false,false,false,'Pokemon Eevee 04 Quick Model Kit'
     ],    //Yellow
-    ['Pingol\u00E9on ',[0.25,'Empoleon'],'Pokemon',
-        false,false,false,'','C','2025-09-07',0.20,false,'Builds/Pokemon/',false,'2025',models[0],
+    ['Pingol\u00E9on ',[0.25,'Empoleon'],'Pokemon',false,false,false,'','C','2025-09-07',1.57,false,'Builds/Pokemon/',false,'2025',models[0],
         [
             ['','']
         ],
@@ -15530,7 +15533,7 @@ const projects = [
             ['NewType','https://newtype.us/p/dOkZZ7AvruhzwIslqHje/h/pokemon-gyarados']
         ],['Unhygienix'],true,true,false,'Lance\'s Gyarados',false,false,false,false,false,'Pokemon Gyarados 52 Model Kit',1
     ],
-    ['L\u00E9viator',[1,'Gyarados'],'Pokemon',false,false,false,'','B','2025-09-04',1.25,false,'Builds/Pokemon/LevGyar.html',false,'202x',models[148]],
+    ['L\u00E9viator',[1,'Gyarados'],'Pokemon',false,false,false,'','C','2025-09-04',2.47,false,'Builds/Pokemon/LevGyar.html',false,'202x',models[148]],
     ['Skullkraken',[1,'Gyarados'],'Pokemon',false,false,false,'','A','202x',0,false,'Builds/Pokemon/SkullGyar.html',false,'202x',models[148]],//gray scale
     ['Vitalstatistix',[1,'Ho-oh'],'Pokemon',
         false,false,false,'','E','2024-02-20',5.17,false,'Builds/Pokemon/Vital.html','Asterix','2025-05-12',models[132],
@@ -15821,8 +15824,7 @@ const projects = [
             ['NewType','https://newtype.us/p/6QnT071ebQzzCPn3wkRQ/h/pokemon-model-kit-quick-03-pikachu-battle-pose']
         ],false,true,true,false,false,false,false,false,false,false,'Pikachu (Battle Pose) 03 Quick Model Kit'
     ],
-    ['Maus',[0.25,'Pikachu'],'Pokemon',
-        false,false,false,'','C','2025-09-07',0.05,false,'Builds/Pokemon/',false,'2025',models[0],
+    ['Maus',[0.25,'Pikachu'],'Pokemon',false,false,false,'','C','2025-09-07',0.4,false,'Builds/Pokemon/',false,'2025',models[0],
         [
             ['','']
         ],
@@ -15835,8 +15837,7 @@ const projects = [
             ['NewType','https://newtype.us/p/aqpjW7R8h1LfOuf88CK1/h/pokemon-empoleon-evolution-set'],
         ],false,true,false,false,false,false,false,false,false,false,'Pokemon Select Series 6 Empoleon Evolution Set Model Kit'
     ],
-    ['Picanmix',[1,'Piplup'],'Pokemon',
-        false,false,false,'','E','2023-11-25',3.95,false,'Builds/Pokemon/Pican.html','Asterix','2025-02-20',models[153],
+    ['Picanmix',[1,'Piplup'],'Pokemon',false,false,false,'','E','2023-11-25',3.95,false,'Builds/Pokemon/Pican.html',false,'2025-02-20',models[153],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Picanmix01.jpeg','Picanmix'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Picanmix02.jpeg','Picanmix'],
@@ -15865,8 +15866,7 @@ const projects = [
             ['TurboDork: Ice to Never','https://turbodork.com/products/ice-to-never-1?variant=29460041793606']
         ],['Dark Samus: Echoes'],true,true,false,false,false,false,false,false,false,'Pokemon Piplup 06 Quick Model Kit'
     ],
-    ['Tiplouf',[0.25,'Piplup'],'Pokemon',
-        false,false,false,'','C','2025-09-07',0.18,false,'Builds/Pokemon/',false,'2025',models[153],
+    ['Tiplouf',[0.25,'Piplup'],'Pokemon',false,false,false,'','C','2025-09-07',0.83,false,'Builds/Pokemon/',false,'2025',models[153],
         [
             ['','']
         ],
@@ -15879,8 +15879,7 @@ const projects = [
             ['NewType','https://newtype.us/p/aqpjW7R8h1LfOuf88CK1/h/pokemon-empoleon-evolution-set'],
         ],false,true,false,false,false,false,false,false,false,false,'Pokemon Select Series 6 Empoleon Evolution Set Model Kit'
     ],
-    ['Prinplouf',[0.25,'Prinplup'],'Pokemon',
-        false,false,false,'','C','2025-09-07',0.15,false,'Builds/Pokemon/',false,'2025',models[0],
+    ['Prinplouf',[0.25,'Prinplup'],'Pokemon',false,false,false,'','C','2025-09-07',0.87,false,'Builds/Pokemon/',false,'2025',models[0],
         [
             ['','']
         ],
