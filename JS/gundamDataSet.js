@@ -13827,7 +13827,7 @@ const projects = [
     ['GunChef',[1,'RX-78-2'],'RG',false,false,false,'UC','A'],
     ['RX782v1RG',[1,'RX-78-2'],'RG',true,false,false,'UC','E','2024-10-15',6],
     ['RX-78-2 v2',[1,'RX-78-2 v2.0'],'RG',
-        true,false,false,'UC','E','2024-11-16',8.75,false,'BlogArchive.html#20250920A',false,'2025-09-20',models[181],false,
+        true,false,false,'UC','E','2024-11-16',8.75,false,'blogArchive.html#20250920A',false,'2025-09-20',models[181],false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/RXV2RG54.jpeg','Profile Photo: Colombo'],
         false,false,false,false,false,true
     ],
