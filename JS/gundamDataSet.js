@@ -13826,11 +13826,7 @@ const projects = [
     ['Ridley',[1,'Qubeley'],'HG',false,false,false,'UC','A'],
     ['GunChef',[1,'RX-78-2'],'RG',false,false,false,'UC','A'],
     ['RX782v1RG',[1,'RX-78-2'],'RG',true,false,false,'UC','E','2024-10-15',6],
-    ['RX-78-2 v2',[1,'RX-78-2 v2.0'],'RG',
-        true,false,false,'UC','E','2024-11-16',8.75,false,'blogArchive.html#20250920A',false,'2025-09-20',models[181],false,
-        ['https://hosting.photobucket.com/images/i/lesaintdumech/RXV2RG54.jpeg','Profile Photo: Colombo'],
-        false,false,false,false,false,true
-    ],
+    ['RX-78-2 v2',[1,'RX-78-2 v2.0'],'RG',true,false,false,'UC','E','2024-11-16',8.75],
     ['Requiem Gundam [HG]',[1,'RX-78G(E)'],'HG',true,false,false,'UC','E','2024-12-19',2.17],
     ['Colombo',[0.4,'EX Salamis Class','EX Magellan Class'],'EX',
         false,false,false,'UC','E','2024-08-21',9.11,false,'Builds/Ships/Colombo.html',false,'2025-05-05',models[146],
