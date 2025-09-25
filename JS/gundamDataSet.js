@@ -10020,7 +10020,11 @@ const projects = [
             ['TurboDork: All That Glitters','https://turbodork.com/products/all-that-glitters']
         ],false,false,true,'1:144','Akatsuki: Oowashi Pack'
     ],
-    ['Akatsuki [RG]',[1,'Akatsuki, Oowsahi'],'RG',true,false,false,'Seed','C','2025-02-06',4.92,false,false,false],
+    ['Akatsuki [RG]',[1,'Akatsuki, Oowsahi'],'RG',
+        true,false,false,'Seed','E','2025-02-06',8.92,false,'blogArchive.html#20250924A',false,'2025-09-24',models[57],false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/AkatsukiRG63.jpeg','Profile Photo: Akatsuki RG'],
+        false,false,false,false,false,true
+    ],
     ['King Mars',[1,'Akatsuki, Shiranui'],'HG',
         false,false,false,'Seed','D','2022-05-06',13.67,false,'Builds/Gundams/KingMars.html','Planets','',models[57]
     ],
@@ -13828,7 +13832,7 @@ const projects = [
     ['RX782v1RG',[1,'RX-78-2'],'RG',true,false,false,'UC','E','2024-10-15',6],
     ['RX-78-2 v2',[1,'RX-78-2 v2.0'],'RG',
         true,false,false,'UC','E','2024-11-16',8.75,false,'blogArchive.html#20250920A',false,'2025-09-20',models[181],false,
-        ['https://hosting.photobucket.com/images/i/lesaintdumech/RXV2RG54.jpeg','Profile Photo: Colombo'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/RXV2RG54.jpeg','Profile Photo: RX-78-2 RG v2'],
         false,false,false,false,false,true
     ],
     ['Requiem Gundam [HG]',[1,'RX-78G(E)'],'HG',true,false,false,'UC','E','2024-12-19',2.17],
