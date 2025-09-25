@@ -9983,7 +9983,7 @@ const projects = [
     ['Aurum',[1,'Akatsuki'],'FM',false,false,false,'Seed','B','2024',0],
     ['Oowashi Akatsuki [HG]',[1,'Akatsuki, Oowsahi'],'HG',true,false,false,'Seed','E','2021-12-18',2.67,false,false,false,'2022-04-26'],
     ['Rising Sun',[1,'Akatsuki, Oowashi'],'HG',
-        false,false,false,'Seed','E','2021-11-05',17.28,false,'Builds/Gundams/RisingSun.html',false,'2025-09-24',models[57],
+        false,false,false,'Seed','E','2021-11-05',17.28,false,'Builds/Gundams/RisingSun.html',false,'2022-04-28',models[57],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/risingsun01.jpeg','Akatsuki Oowashi Straight Build','img1'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/risingsun02.jpeg','Akatsuki Oowashi Straight Build','img2'],
