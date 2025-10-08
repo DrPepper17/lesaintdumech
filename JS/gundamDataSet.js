@@ -12457,7 +12457,7 @@ const projects = [
             ['NewType: RG God Gundam','https://newtype.us/p/ORUrU23xYDLWOgNOm3R1/h/rg-37-god-gundam'],
             ['NewType: KOSMOS Lights','https://newtype.us/p/YW5VjGYZ0dko4WQAeCsP/h/kosmos-led-upgrade-for-rg-god-gundam'],
             ['Premium Bandai: RG God Gundam Expansion Set','https://p-bandai.com/us/item/F2619351002']
-        ],false,false,true,'1:144','God Gundam'
+        ],['Shining [RG]'],false,true,'1:144','God Gundam'
     ],
     ['Burning Gundam [RG]',[1,'Burning Gundam'],'RG',true,false,false,'G','E','2025-04-05',7.5],
     ['Michael',[1,'Burning Gundam'],'SD',
@@ -12948,7 +12948,67 @@ const projects = [
             ['NewType','https://newtype.us/p/MPVL4uHKxfF5yv6Bjwbu/h/sdgg-239-shining-gundam']
         ],['Michael'],true,true
     ],
-    ['Shinig Gundam [RG]',[1,'Shining Gundam'],'RG',true,false,false,'G','D','2025-08-26',7.5],
+    ['Shining [RG]',[1,'Shining Gundam'],'RG',
+        true,false,false,'G','E','2025-09-06',7.5,false,'Builds/Specials/ShineRG.html',false,'2025-09-29',models[164],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ShiningRG01.jpeg','Shining Gundam RG'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ShiningRG02.jpeg','Shining Gundam RG'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ShiningRG03.jpeg','Shining Gundam RG'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ShiningRG04.jpeg','Shining Gundam RG'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ShiningRG05.jpeg','Shining Gundam RG'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ShiningRG06.jpeg','Shining Gundam RG'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ShiningRG07.jpeg','Shining Gundam RG'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ShiningRG08.jpeg','Shining Gundam RG'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ShiningRG09.jpeg','Shining Gundam RG'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ShiningRG10.jpeg','Shining Gundam RG'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ShiningRG11.jpeg','Shining Gundam RG'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ShiningRG12.jpeg','Shining Gundam RG'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ShiningRG13.jpeg','Shining Gundam RG'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ShiningRG14.jpeg','Shining Gundam RG'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ShiningRG15.jpeg','Shining Gundam RG'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ShiningRG16.jpeg','Shining Gundam RG'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ShiningRG17.jpeg','Shining Gundam RG'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ShiningRG18.jpeg','Shining Gundam RG'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ShiningRG19.jpeg','Shining Gundam RG'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ShiningRG20.jpeg','Shining Gundam RG'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ShiningRG21.jpeg','Shining Gundam RG'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ShiningRG22.jpeg','Shining Gundam RG'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ShiningRG23.jpeg','Shining Gundam RG'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ShiningRG24.jpeg','Shining Gundam RG'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ShiningRG25.jpeg','Shining Gundam RG'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ShiningRG26.jpeg','Shining Gundam RG'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ShiningRG27.jpeg','Shining Gundam RG'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ShiningRG28.jpeg','Shining Gundam RG'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ShiningRG29.jpeg','Shining Gundam RG'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ShiningRG30.jpeg','Shining Gundam RG'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ShiningRG31.jpeg','Shining Gundam RG'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ShiningRG32.jpeg','Shining Gundam RG'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ShiningRG33.jpeg','Shining Gundam RG'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ShiningRG34.jpeg','Shining Gundam RG'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ShiningRG35.jpeg','Shining Gundam RG'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ShiningRG36.jpeg','Shining Gundam RG'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ShiningRG37.jpeg','Shining Gundam RG'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ShiningRG38.jpeg','Shining Gundam RG'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ShiningRG39.jpeg','Shining Gundam RG'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ShiningRG40.jpeg','Shining Gundam RG'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ShiningRG41.jpeg','Shining Gundam RG'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ShiningRG42.jpeg','Shining Gundam RG'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ShiningRG43.jpeg','Shining Gundam RG'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ShiningRG44.jpeg','Shining Gundam RG'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ShiningRG45.jpeg','Shining Gundam RG'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ShiningRG46.jpeg','Shining Gundam RG'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ShiningRG47.jpeg','Shining Gundam RG'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ShiningRG48.jpeg','Shining Gundam RG'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ShiningRG49.jpeg','Shining Gundam RG']
+        ],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/ShiningRG49.jpeg','Profile Photo: Shining RG'],
+        false,false,
+        [
+            ['USA Gundam Store','https://www.usagundamstore.com/products/rg-1-144-41-rg-1-144-shining-gundam/?expa_m=category&variant=44216150425797'],
+            ['NewType','https://newtype.us/p/KsAZ1WQrZjoeO6vXz38I/h/rg-42-gf13-017nj-shining-gundam']
+        ],
+        ['King of Hearts'],false,true,'1:144'
+    ],
     ['Camael',[1,'Shining Gundam'],'SD',false,false,false,'G','B','2024',0],    //Flat
     ['Red Baron',[1,'Spiegel, Gundam'],'MG',
         false,false,false,'G','E','2021-05-05',72.07,true,'Builds/Gundams/RedBaron.html','Hand Paint','2021-05-29',models[2],
@@ -13824,7 +13884,13 @@ const projects = [
             ['Newtype','https://newtype.us/p/zJjlPuRONegsmLUDIIR6/h/mg-rgb-79-ball-verka']
         ],false,false,true,'1:100'
     ],
-    ['Great Ball',[1,'Podball 08 MS'],'MG',
+    ['Great Ball',[1,'Podball'],'MG',
+        false,false,false,'UC','A'
+    ],
+    ['Ultra Ball',[1,'Podball'],'MG',
+        false,false,false,'UC','A'
+    ],
+    ['Master Ball',[1,'Podball 08 MS'],'MG',
         false,false,false,'UC','A'
     ],
     ['Ridley',[1,'Qubeley'],'HG',false,false,false,'UC','A'],
@@ -14324,7 +14390,7 @@ const projects = [
     ['King Mercury',[1,'Try Age Magnum'],'HG',false,false,false,'BD','B'],
     ['Dante',[1,'Wing Gundam Zero Hono'],'HG',false,false,true,'BD','B'],   //put LEDs in eyes
 
-    //SD Heroes 
+    //SDW Heroes 
     ['Artemis',[1,'00, Zhao Yun'],'SD',false,false,false,'Heroes','B'],
     ['Oceanus',[1,'Altron, Zhang He'],'SD',
         false,false,false,'Heroes','E','2022-04-06',5.42,false,'Builds/SDW/Oceanus.html',false,'2024-02-19',models[119],
@@ -14595,7 +14661,7 @@ const projects = [
     ],
     ['Gaia',[1,'Providence Gundam, Sangoku Soketsuden Dong Zhuo'],'SD',false,false,false,'Heroes','B'],
     ['Captain QAN [SD]',[1,'QAN[T] GF, Captain'],'SD',true,false,false,'Heroes','D','2025-08-26',2.34],
-    ['Django',[1,'QAN[T] GF, Captain'],'SD',false,false,false,'Heroes','B'],
+    ['D\'Jango',[1,'QAN[T] GF, Captain'],'SD',false,false,false,'Heroes','B'],
     ['Crius',[1,'Sazabi, Zhang Liao'],'SD',false,false,false,'Heroes','B'],
     ['Clymene',[1,'Strike, Knight'],'SD',
         false,false,false,'Heroes','E','2024-06-18',3.64,false,'Builds/SDW/Clymene.html',false,'2025-02-11',models[152],
@@ -15538,7 +15604,7 @@ const projects = [
         ],['Unhygienix'],true,true,false,'Lance\'s Gyarados',false,false,false,false,false,'Pokemon Gyarados 52 Model Kit',1
     ],
     ['L\u00E9viator',[1,'Gyarados'],'Pokemon',false,false,false,'','C','2025-09-04',2.47,false,'Builds/Pokemon/LevGyar.html',false,'202x',models[148]],
-    ['Skullkraken',[1,'Gyarados'],'Pokemon',false,false,false,'','A','202x',0,false,'Builds/Pokemon/SkullGyar.html',false,'202x',models[148]],//gray scale
+    ['Skullkraken',[1,'Gyarados'],'Pokemon',false,false,false,'','B','202x',0,false,'Builds/Pokemon/SkullGyar.html',false,'202x',models[148]],//gray scale
     ['Vitalstatistix',[1,'Ho-oh'],'Pokemon',
         false,false,false,'','E','2024-02-20',5.17,false,'Builds/Pokemon/Vital.html','Asterix','2025-05-12',models[132],
         [
@@ -16651,6 +16717,7 @@ const projects = [
             ['NewType','https://newtype.us/p/TgNnMiuDbvcowmHCougQ/h/trumpeter-bumblebee-smart-kit']
         ],['Wilbur'],false,true,false
     ],
+    ['Haut Voiture',[1,'Rodimus Prime'],'Transformer',false,false,false,false,'B','2025',0,true,'Builds/Transformers/HautRodimus.html'],
     
     //Zoid
     ['Dash Hound',[1,'Shadow Fox'],'Zoid',

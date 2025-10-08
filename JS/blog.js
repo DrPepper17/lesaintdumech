@@ -3737,6 +3737,27 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/AkatsukiRG60.jpeg']
         ]
+    ],
+    [
+        ['2025-10-07','20251007A'],
+        'Goodbye Shine',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/ShiningRG11.jpeg',
+        [
+            'So I missed a post last week. I was out of town on the road and all over the place. My bad, that\'s on me. Guess that kills my perfect weekly post streek. Sorry guys. 2025 you\'ll only be getting 51 posts from me, not 52.'
+        ],
+        [
+            [
+                'But not keep you waiting, I give you the long overdue ',
+                ['Real Grade Shining Gundam','Builds/Specials/ShineRG.html'],
+                '. I have wanted this for years. When Bandai released Burning Gundam RG in 2022 I just knew that Shining was soon to be overdue. Now the most worth it part of this kit was posing it with Burning Gundam to recreate the scene in the anime where Burning rises from its pod holding Shining in its arms.'
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/ShiningRG23.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/ShiningRG36.jpeg']
+        ]
     ]
 ]
 
