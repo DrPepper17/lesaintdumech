@@ -3764,7 +3764,10 @@ const blogArray = [
         'Just a Big ol Ugly Bird',
         'https://hosting.photobucket.com/images/i/lesaintdumech/RaiderFMStr17.jpeg',
         [
-            'Another straight build week. New paints are coming soon I promise. I\'m just taking a slight break for a while. But the new builds are in the works. As for this today, I give you the full Mechanics Raider Gundam.'
+            'Another straight build week. New paints are coming soon I promise. I\'m just taking a slight break for a while. But the new builds are in the works.'
+        ],
+        [
+            'As for this week, I give you the fierce, menacing, Full Mechanics Raider Gundam.'
         ],
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RaiderFMStr04.jpeg']
