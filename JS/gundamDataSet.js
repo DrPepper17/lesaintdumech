@@ -8561,6 +8561,7 @@ const projects = [
     ['Zowort Heavy [HG]',[1,'Zowort Heavy'],'HG',true,false,false,'Mercury','E','2024-09-21',1.25,false,false,false],
 
     //Advanced Generation (Age)
+    ['A2MG',[1,'AGE-2 Normal'],'MG',true,false,false,'AGE','C','2025-10-02',1.75],
     ['Uriel',[1,'Age-FX'],'SD',false,false,false,'Age','B'],
     ['Gamma Draconis',[1,'Danazine'],'HG',false,false,false,'Age','B'],
     ['Pending Legilis Name',[1,'Legilis'],'SD',false,false,false,'Age','A'],
@@ -8904,6 +8905,13 @@ const projects = [
         ],false,true,true,false,'Rasid Kurama Custom'
 
     ],
+    ['Aquanac',[1,'Maganac Corps'],'HG',false,false,false,'Wing','C','2025-10-08',4.42,false,'Builds/Gundams/AquMag.html',false,'2026',models[105]], //Blues/purple
+    ['Floranac',[1,'Maganac Corps'],'HG',false,false,false,'Wing','B','202x',0,false,'Builds/Gundams/LavMag.html',false,'202x',models[105]], //greens
+    ['Lavanac',[1,'Maganac Corps'],'HG',false,false,false,'Wing','B','202x',0,false,'Builds/Gundams/LavMag.html',false,'202x',models[105]], //red/orange/yellow
+    ['Auranac',[1,'Maganac Corps'],'HG',false,false,false,'Wing','A','202x',0,false,'Builds/Gundams/LavMag.html',false,'202x',models[105]], //Gold/silver
+    ['Blanchanac',[1,'Maganac Corps'],'HG',false,false,false,'Wing','A','202x',0,false,'Builds/Gundams/LavMag.html',false,'202x',models[105]], //White/lightgrey
+    ['Gothanac',[1,'Maganac Corps'],'HG',false,false,false,'Wing','A','202x',0,false,'Builds/Gundams/LavMag.html',false,'202x',models[105]], //black/greys
+    ['Terranac',[1,'Maganac Corps'],'HG',false,false,false,'Wing','A','202x',0,false,'Builds/Gundams/LavMag.html',false,'202x',models[105]], //browns
     ['Coheed',[1,'PB Mercurius'],'HG',false,true,false,'Wing','B'],
     ['Isaac',[1,'Proto-Zero'],'SD',
         false,false,false,'Wing','E','2023-02-06',14.14,false,'Builds/Gundams/Isaac.html','Israel','2023-05-10',models[31],
@@ -9112,7 +9120,7 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/stdominic15.jpeg','St Dominic','img15']
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/stdominic12.jpeg','Profile Photo: St Dominic'],
-        'Inspired by the flag of the Dominican Republic, I figured the Tallgeese\'s body is modular enough I could easily partition it into four quadrants to make the DR flag. This was a test run for an undisclosed future project that I have in the works. But in the meantime, I present to you, Saint Dominic.',false,
+        'Inspired by the flag of the Dominican Republic, I figured the Tallgeese\'s body is modular enough I could easily partition it into four quadrants to make the DR flag. This was a test run for an undisclosed future project that I have in the works. But in the meantime, I present to you, Saint Dominic.','Tony Bones, Wisconsin',
         [
             ['USA Gundam Store','https://www.usagundamstore.com/products/rg-1-144-28-tallgeese-ew'],
             ['NewType','https://newtype.us/p/dD7AVRarBNfcX5yhevcx/h/rg-28-tallgeese-ew']
@@ -10691,7 +10699,7 @@ const projects = [
             'Federation Trooper'
         ],false,true,'1:144',false,false,'Fusion Suit'
     ],
-    ['Samus: Scarlet Suit',[1,'Dagger L'],'HG',
+    ['Samus: Vi-O-La Suit',[1,'Dagger L'],'HG',
         false,false,false,'Seed','C','2025-07-03',7.05,false,'Builds/Metroid/ScarletSam.html','Metroid','2026-03-09',models[23]
     ],
     ['Friar Laurence',[1,'Dagger 105 + Gunbarrel'],'HG',false,false,false,'Seed','B'],
@@ -11367,7 +11375,11 @@ const projects = [
     ['PB Meteors',[1,'Meteor','Meteor I','Meteor II','Freedom','Infinite Justice'],'HG',false,true,false,'Seed','B'],
     ['Balena',[1,'Minerva'],'EX',false,false,false,'Seed','B','2025',0],
     ['Union Jack',[1,'Providence'],'MG',false,false,false,'Seed','A'],
-    ['Raider [FM]',[1,'Raider'],'FM',true,false,false,'Seed','D','2023-01-06',10.25,false,false,false],
+    ['Raider [FM]',[1,'Raider'],'FM',
+        true,false,false,'Seed','E','2023-01-06',10.25,false,'blogArchive.html#20251015A',false,'2025-10-15',models[181],false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/RaiderFMStr01.jpeg','Profile Photo: Raider FM'],
+        false,false,false,false,false,true
+    ],
     ['Rodan',[1,'Raider'],'FM',false,false,false,'Seed','A'],
     ['La Reine',[0.5,'Raijin Striker'],'MG',false,true,false,'Seed','B'],
     ['Ripley',[1,'Rising Freedom'],'SD',
@@ -14842,8 +14854,8 @@ const projects = [
             ['TurboDork','https://turbodork.com']
         ],['Theia'],true,true,false,false,'Mighty Morphin Power Rangers'
     ],
-    ['Eos',[1,'Wing, Cao Cao'],'SD',false,false,false,'Heroes','B'],    //Wing zero     //Mr Hobby Metallic
-    ['Aether',[1,'Wing, Cao Cao'],'SD',false,false,false,'Heroes','C','2025-09-12',0.72],    //Wing zero //Matt colors
+    ['Eos',[1,'Wing, Cao Cao'],'SD',false,false,false,'Heroes','C','2025-09-15',3.25],    //Wing zero     //Mr Hobby Metallic
+    ['Aether',[1,'Wing, Cao Cao'],'SD',false,false,false,'Heroes','C','2025-09-12',2.38],    //Wing zero //Matt colors
     ['Tethys',[1,'Wing Isei, Cao Cao'],'SD',
         false,false,false,'Heroes','E','2022-04-05',8.67,false,'Builds/SDW/Tethys.html',false,'2024-01-22',models[116],
         [
@@ -15604,7 +15616,7 @@ const projects = [
         ],['Unhygienix'],true,true,false,'Lance\'s Gyarados',false,false,false,false,false,'Pokemon Gyarados 52 Model Kit',1
     ],
     ['L\u00E9viator',[1,'Gyarados'],'Pokemon',false,false,false,'','C','2025-09-04',2.47,false,'Builds/Pokemon/LevGyar.html',false,'202x',models[148]],
-    ['Skullkraken',[1,'Gyarados'],'Pokemon',false,false,false,'','B','202x',0,false,'Builds/Pokemon/SkullGyar.html',false,'202x',models[148]],//gray scale
+    ['Skullkraken',[1,'Gyarados'],'Pokemon',false,false,false,'','C','2025-10-08',3.5,false,'Builds/Pokemon/SkullGyar.html',false,'202x',models[148]],//gray scale
     ['Vitalstatistix',[1,'Ho-oh'],'Pokemon',
         false,false,false,'','E','2024-02-20',5.17,false,'Builds/Pokemon/Vital.html','Asterix','2025-05-12',models[132],
         [
@@ -15886,13 +15898,13 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Cyano15.jpeg','Cyrano']
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/Cyano03.jpeg','Profile Photo: Cyrano'],
-        false,false,
+        false,'Jeff, Salt Lake',
         [
             ['Video','https://youtu.be/kdeSL7XNxz0'],
             ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Pikachu_(Pokemon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/03-pikachu-battle-pose-pokemon-bandai-spirits-pokemon-model-kit-quick'],
             ['NewType','https://newtype.us/p/6QnT071ebQzzCPn3wkRQ/h/pokemon-model-kit-quick-03-pikachu-battle-pose']
-        ],false,true,true,false,false,false,false,false,false,false,'Pikachu (Battle Pose) 03 Quick Model Kit'
+        ],false,false,true,false,false,false,false,false,false,false,'Pikachu (Battle Pose) 03 Quick Model Kit'
     ],
     ['Maus',[0.25,'Pikachu'],'Pokemon',false,false,false,'','C','2025-09-07',0.4,false,'Builds/Pokemon/',false,'2025',models[0],
         [
@@ -17056,6 +17068,40 @@ let toggleSwitch = 1;
     let shipCountPB = 0;
     let dispCountPB = 0;
 
+    //In Production Count
+    let mgProdCount = 0;
+    let pgProdCount = 0;
+    let fmProdCount = 0;
+    let rgProdCount = 0;
+    let hgProdCount = 0;
+    let mgsdProdCount = 0;
+    let sdProdCount = 0;
+    let haroProdCount = 0;
+    let carProdCount = 0;
+    let digiProdCount = 0;
+    let dispProdCount = 0;
+    let pokeProdCount = 0;
+    let shipProdCount = 0;
+    let transProdCount = 0;
+    let zoidProdCount = 0;
+
+    //Finished Unposted Count
+    let mgPendCount = 0;
+    let pgPendCount = 0;
+    let fmPendCount = 0;
+    let rgPendCount = 0;
+    let hgPendCount = 0;
+    let mgsdPendCount = 0;
+    let sdPendCount = 0;
+    let haroPendCount = 0;
+    let carPendCount = 0;
+    let digiPendCount = 0;
+    let dispPendCount = 0;
+    let pokePendCount = 0;
+    let shipPejdCount = 0;
+    let transPendCount = 0;
+    let zoidPendCount = 0;
+
     //Remaining Count
     let mgRemain = 0;
     let pgRemain = 0;
@@ -17402,6 +17448,40 @@ function calculateStats() {
     haroCountPB = projectCountPB('Haro');
     shipCountPB = projectCountPB('Ship');
     dispCountPB = projectCountPB('Display');
+
+    //In Progress Count
+    mgProdCount = projectCount('MG',false,'C');
+    pgProdCount = projectCount('PG',true,'C');
+    fmProdCount = projectCount('FM',false,'C');
+    rgProdCount = projectCount('RG',false,'C');
+    hgProdCount = projectCount('HG',false,'C');
+    mgsdProdCount = projectCount('MGSD',false,'C');
+    sdProdCount = projectCount('SD',false,'C');
+    haroProdCount = projectCount('Haro',false,'C');
+    carProdCount = projectCount('Car',false,'C');
+    pokeProdCount = projectCount('Pokemon',false,'C');
+    digiProdCount = projectCount('Digimon',false,'C');
+    dispProdCount = projectCount('Display',false,'C');
+    shipProdCount = projectCount('Ship',false,'C');
+    transProdCount = projectCount('Transformer',false,'C');
+    zoidProdCount = projectCount('Zoid',false,'C');
+
+    //Finished Unposted Count
+    mgPendCount = projectCount('MG',false,'D');
+    pgPendCount = projectCount('PG',true,'D');
+    fmPendCount = projectCount('FM',false,'D');
+    rgPendCount = projectCount('RG',false,'D');
+    hgPendCount = projectCount('HG',false,'D');
+    mgsdPendCount = projectCount('MGSD',false,'D');
+    sdPendCount = projectCount('SD',false,'D');
+    haroPendCount = projectCount('Haro',false,'D');
+    carPendCount = projectCount('Car',false,'D');
+    pokePendCount = projectCount('Pokemon',false,'D');
+    digiPendCount = projectCount('Digimon',false,'D');
+    dispPendCount = projectCount('Display',false,'D');
+    shipPendCount = projectCount('Ship',false,'D');
+    transPendCount = projectCount('Transformer',false,'D');
+    zoidPendCount = projectCount('Zoid',false,'D');
 
     //Remaining Count
     mgRemain = projectRemaining('MG');
@@ -17970,6 +18050,8 @@ function poststats() {
     populateStat(pgAve,'pgAHR',2);
     populateStat(pgStrAve,'pgSHR',2);
     populateStat(pgWt,'pgWT',2);
+    populateStat(pgProdCount,'pgIP',0);
+    populateStat(pgPendCount,'pgFN',0);
 
     populateStat(mgCount,'mgPrj',0);
     populateStat(mgStrCount,'mgStrPrj',0);
@@ -17979,6 +18061,8 @@ function poststats() {
     populateStat(mgAve,'mgAHR',2);
     populateStat(mgStrAve,'mgSHR',2);
     populateStat(mgWt,'mgWT',2);
+    populateStat(mgProdCount,'mgIP',0);
+    populateStat(mgPendCount,'mgFN',0);
 
     populateStat(fmCount,'fmPrj',0);
     populateStat(fmStrCount,'fmStrPrj',0);
@@ -17988,6 +18072,8 @@ function poststats() {
     populateStat(fmAve,'fmAHR',2);
     populateStat(fmStrAve,'fmSHR',2);
     populateStat(fmWt,'fmWT',2);
+    populateStat(fmProdCount,'fmIP',0);
+    populateStat(fmPendCount,'fmFN',0);
 
     populateStat(rgCount,'rgPrj',0);
     populateStat(rgStrCount,'rgStrPrj',0);
@@ -17997,6 +18083,8 @@ function poststats() {
     populateStat(rgAve,'rgAHR',2);
     populateStat(rgStrAve,'rgSHR',2);
     populateStat(rgWt,'rgWT',2);
+    populateStat(rgProdCount,'rgIP',0);
+    populateStat(rgPendCount,'rgFN',0);
 
     populateStat(hgCount,'hgPrj',0);
     populateStat(hgStrCount,'hgStrPrj',0);
@@ -18006,6 +18094,8 @@ function poststats() {
     populateStat(hgAve,'hgAHR',2);
     populateStat(hgStrAve,'hgSHR',2);
     populateStat(hgWt,'hgWT',2);
+    populateStat(hgProdCount,'hgIP',0);
+    populateStat(hgPendCount,'hgFN',0);
 
     populateStat(mgsdCount,'mgsdPrj',0);
     populateStat(mgsdStrCount,'mgsdStrPrj',0);
@@ -18015,6 +18105,8 @@ function poststats() {
     populateStat(mgsdAve,'mgsdAHR',2);
     populateStat(mgsdStrAve,'mgsdSHR',2);
     populateStat(mgsdWt,'mgsdWT',2);
+    populateStat(mgsdProdCount,'mgsdIP',0);
+    populateStat(mgsdPendCount,'mgsdFN',0);
 
     populateStat(sdCount,'sdPrj',0);
     populateStat(sdStrCount,'sdStrPrj',0);
@@ -18024,6 +18116,8 @@ function poststats() {
     populateStat(sdAve,'sdAHR',2);
     populateStat(sdStrAve,'sdSHR',2);
     populateStat(sdWt,'sdWT',2);
+    populateStat(sdProdCount,'sdIP',0);
+    populateStat(sdPendCount,'sdFN',0);
 
     populateStat(shipCount,'shipPrj',0);
     populateStat(shipStrCount,'shipStrPrj',0);
@@ -18033,6 +18127,8 @@ function poststats() {
     populateStat(shipAve,'shipAHR',2);
     populateStat(shipStrAve,'shipSHR',2);
     populateStat(shipWt,'shipWT',2);
+    populateStat(shipProdCount,'shipIP',0);
+    populateStat(shipPendCount,'shipFN',0);
 
     populateStat(haroCount,'haroPrj',0);
     populateStat(haroStrCount,'haroStrPrj',0);
@@ -18042,6 +18138,8 @@ function poststats() {
     populateStat(haroAve,'haroAHR',2);
     populateStat(haroStrAve,'haroSHR',2);
     populateStat(haroWt,'haroWT',2);
+    populateStat(haroProdCount,'haroIP',0);
+    populateStat(haroPendCount,'haroFN',0);
 
     populateStat(dispCount,'dispPrj',0);
     populateStat(dispStrCount,'dispStrPrj',0);
@@ -18051,6 +18149,8 @@ function poststats() {
     populateStat(dispAve,'dispAHR',2);
     populateStat(dispStrAve,'dispSHR',2);
     populateStat(dispWt,'dispWT',2);
+    populateStat(dispProdCount,'dispIP',0);
+    populateStat(dispPendCount,'dispFN',0);
 
     populateStat(pokeCount,'pokePrj',0);
     populateStat(pokeStrCount,'pokeStrPrj',0);
@@ -18059,6 +18159,8 @@ function poststats() {
     populateStat(pokeAve,'pokeAHR',2);
     populateStat(pokeStrAve,'pokeSHR',2);
     populateStat(pokeWt,'pokeWT',2);
+    populateStat(pokeProdCount,'pokeIP',0);
+    populateStat(pokePendCount,'pokeFN',0);
 
     populateStat(digiCount,'digiPrj',0);
     populateStat(digiStrCount,'digiStrPrj',0);
@@ -18067,6 +18169,8 @@ function poststats() {
     populateStat(digiAve,'digiAHR',2);
     populateStat(digiStrAve,'digiSHR',2);
     populateStat(digiWt,'digiWT',2);
+    populateStat(digiProdCount,'digiIP',0);
+    populateStat(digiPendCount,'digiFN',0);
 
     populateStat(carCount,'carPrj',0);
     populateStat(carStrCount,'carStrPrj',0);
@@ -18075,6 +18179,8 @@ function poststats() {
     populateStat(carAve,'carAHR',2);
     populateStat(carStrAve,'carSHR',2);
     populateStat(carWt,'carWT',2);
+    populateStat(carProdCount,'carIP',0);
+    populateStat(carPendCount,'carFN',0);
 
     populateStat(transCount,'transPrj',0);
     populateStat(transCount,'transStrPrj',0);
@@ -18083,6 +18189,8 @@ function poststats() {
     populateStat(transAve,'transAHR',2);
     populateStat(transStrAve,'transSHR',2);
     populateStat(transWt,'transWT',2);
+    populateStat(transProdCount,'transIP',0);
+    populateStat(transPendCount,'transFN',0);
 
     populateStat(zoidCount,'zoidPrj',0);
     populateStat(zoidCount,'zoidStrPrj',0);
@@ -18091,6 +18199,8 @@ function poststats() {
     populateStat(zoidAve,'zoidAHR',2);
     populateStat(zoidStrAve,'zoidSHR',2);
     populateStat(zoidWt,'zoidWT',2);
+    populateStat(zoidProdCount,'zoidIP',0);
+    populateStat(zoidPendCount,'zoidFN',0);
 
     populateStat(paintedAverage,'paintAve',2);
     populateStat(straightAverage,'straightAve',2);
@@ -18112,12 +18222,21 @@ function projectAverage(grade,straight) {
     return averageHr;
 }
 
-function projectCount(grade,straight) {
+function projectCount(grade,straight,Stage) {
     let count = 0;
 
     for (let i=0;i<projects.length;i++) {
-        if (projects[i][2] == grade && projects[i][3] === straight && (projects[i][7] === 'C' || projects[i][7] === 'D' || projects[i][7] === 'E')) {
-            count++;
+        if(projects[i][2] == grade && projects[i][3] === straight){
+            if(Stage) {
+                if(projects[i][7] === Stage) {
+                    count++;
+                }
+            }
+            else {
+                if(projects[i][7] > 'B') {
+                    count++;
+                }
+            }
         }
     }
 

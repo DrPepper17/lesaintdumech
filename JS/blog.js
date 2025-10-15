@@ -3758,6 +3758,56 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/ShiningRG36.jpeg']
         ]
+    ],
+    [
+        ['2025-10-15','20251015A'],
+        'Just a Big ol Ugly Bird',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/RaiderFMStr17.jpeg',
+        [
+            'Another straight build week. New paints are coming soon I promise. I\'m just taking a slight break for a while. But the new builds are in the works. As for this today, I give you the full Mechanics Raider Gundam.'
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RaiderFMStr04.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RaiderFMStr05.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RaiderFMStr06.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RaiderFMStr07.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RaiderFMStr08.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RaiderFMStr10.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RaiderFMStr11.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RaiderFMStr13.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RaiderFMStr15.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RaiderFMStr16.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RaiderFMStr18.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RaiderFMStr19.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RaiderFMStr20.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RaiderFMStr21.jpeg']
+        ]
     ]
 ]
 
