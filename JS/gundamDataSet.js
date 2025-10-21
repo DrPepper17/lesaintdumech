@@ -10699,8 +10699,8 @@ const projects = [
             'Federation Trooper'
         ],false,true,'1:144',false,false,'Fusion Suit'
     ],
-    ['Samus: Vi-O-La Suit',[1,'Dagger L'],'HG',
-        false,false,false,'Seed','C','2025-07-03',7.05,false,'Builds/Metroid/ScarletSam.html','Metroid','2026-03-09',models[23]
+    ['Samus: Vi-O-La Suit',[1.5,'Dagger L','30MM Boost Brave Bike'],'HG',
+        false,false,false,'Seed','C','2025-07-03',11.13,false,'Builds/Metroid/ScarletSam.html','Metroid','2026-03-09',models[23]
     ],
     ['Friar Laurence',[1,'Dagger 105 + Gunbarrel'],'HG',false,false,false,'Seed','B'],
     ['Charizard',[1,'Destiny'],'MG',false,false,false,'Seed','B'],
@@ -14195,7 +14195,11 @@ const projects = [
             ['NewType','https://newtype.us/p/QGZ7IGxhBsKUpVEQcuMm/h/sdgg-198-msz-006-zeta-gundam']
         ],false,false,true,false
     ],
-    ['Zeta [MG]',[1,'Zeta Gundam'],'MG',true,false,false,'UC','C','2023-04-12',8,false,false,false],
+    ['Zeta [MG]',[1,'Zeta Gundam'],'MG',
+        true,false,false,'UC','E','2023-04-12',10.83,false,'blogArchive.html#20251020A',false,'2025-10-19',models[45],false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/ZetaMGStr08.jpeg','Profile Photo: Raider FM'],
+        false,false,false,false,false,true
+    ],
 
     //Universal Century Alternate Timeline (GQuuuuuuX)
     ['GQuuuuuuX',[1,'GQuuuuuuX'],'HG',false,false,false,'UCGQ','A'],

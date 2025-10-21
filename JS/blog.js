@@ -3811,6 +3811,84 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RaiderFMStr21.jpeg']
         ]
+    ],
+    [
+        ['2025-10-20','20251020A'],
+        'Enter the Wave Rider',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/ZetaMGStr07.jpeg',
+        [
+            'Long before there was Gundam Wing, wihtin the Universal Century timeline post the Origianl Mobile Suit Gundam there was another transofrmable Gundam capable of transitioning between mobile suit and aircraft. And that gundam was, the MSZ-006 Zeta Gundam, the originator of Mobile Suit Gundam flight models.'
+        ],
+        [
+            [
+                'This week I present to you another straight build, that very transformable suit The Zeta. I\'ve presented the Zeta before. the SD ',
+                ['Gundam Starrider','Builds/Gundams/Starrider.html'],
+                ', before in the past. But that model was just the teeny tiny SD model. This time I built the brand new full size Master Grade Zeta. Enjoy it both in its mobile suit form as well as its aircraft form the Waverider.'
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/ZetaMGStr01.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/ZetaMGStr02.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/ZetaMGStr03.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/ZetaMGStr04.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/ZetaMGStr05.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/ZetaMGStr06.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/ZetaMGStr07.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/ZetaMGStr08.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/ZetaMGStr09.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/ZetaMGStr10.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/ZetaMGStr11.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/ZetaMGStr12.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/ZetaMGStr13.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/ZetaMGStr14.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/ZetaMGStr15.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/ZetaMGStr16.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/ZetaMGStr17.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/ZetaMGStr18.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/ZetaMGStr19.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/ZetaMGStr20.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/ZetaMGStr21.jpeg']
+        ]
     ]
 ]
 
