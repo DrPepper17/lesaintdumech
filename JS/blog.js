@@ -3889,6 +3889,98 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/ZetaMGStr21.jpeg']
         ]
+    ],
+    [
+        ['2025-10-27','20251027A'],
+        'The Winged Dragon of OZ',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/EpyStr10.jpeg',
+        [
+            'This week another straight build, so expect another looooong blog post with lots of pictures. Today I give you the Real Grade OZ-13MS Gundam Epyon.'
+        ],
+        [
+            'Probably the coolest unit in all of Gundam Wing, Epyon has special nostalgia for me. I rememember seeing this on the late night tv as a young kid just transforming into its dragon made and flying around slashing oponents left and right. I was so glad to see it finally get Real Grade representation.'
+        ],
+        [
+            'Also it took its longest sweet time at getting a Real Grade kit. Although in fairness Gundam Wing has been rather slow at getting Real Grades. Unlike Gundam Seed and Gundam 00 where there are plenty of Real Grades for the Justice, Freedom and Exia variants, for Wing for the longest time it has just been Tallgeese and the Zero EW Custom. So it is nice to see wing finally get some representation. They Just relased the main Wing Gundam, and now Epyon, and next month we should be getting the Wing Zero-Proto. Hopefully soon we also get the Mercurius and Vayate as well as the entire Operation Meteor lineup.'
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/EpyStr01.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/EpyStr02.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/EpyStr03.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/EpyStr04.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/EpyStr05.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/EpyStr06.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/EpyStr07.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/EpyStr08.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/EpyStr09.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/EpyStr10.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/EpyStr11.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/EpyStr12.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/EpyStr13.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/EpyStr14.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/EpyStr15.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/EpyStr16.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/EpyStr17.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/EpyStr18.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/EpyStr19.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/EpyStr20.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/EpyStr21.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/EpyStr22.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/EpyStr23.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/EpyStr24.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/EpyStr25.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/EpyStr26.jpeg']
+        ]
     ]
 ]
 
