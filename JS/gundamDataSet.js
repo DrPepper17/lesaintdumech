@@ -5891,7 +5891,7 @@ const models = [
         ['Charizard','Charizardite X'],
         false,
         'Flame Pokemon',
-        'The overwhelming power that fills its entire body causes it to turn black and create intense blue flames.',
+        'The overwhelming power that fills its entire body causes it to turn black and creates intense blue flames.',
         '5\'07\"',
         [243.6,'243.6 lbs'],
         'VI',
@@ -5919,7 +5919,7 @@ const models = [
         ['Charizard','Charizardite Y'],
         false,
         'Flame Pokemon',
-        'Its bond with its Trainer is the source of its power. It boasts speed and maneuverability greater than that of a jet fighter.',
+        'Its bond with its Trainer is the source of its power. It boasts speed and maneuverability greater than that of a fighter jet.',
         '5\'07\"',
         [221.6,'221.6 lbs'],
         'VI',
@@ -7147,7 +7147,7 @@ const projects = [
         ],false,true,true,'1:144'
     ],
     ['Morgause',[1,'Aerial'],'HG',
-        false,false,false,'Mercury','D','2024-02-16',7.64,false,'Builds/Gundams/MorgausAerial.html',false,'2025-12-01',models[141],
+        false,false,false,'Mercury','D','2024-02-16',7.64,false,'Builds/Gundams/MorgausAerial.html',false,'2025-12-29',models[141],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/GMorgausAerial01.jpeg','Morgause'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/GMorgausAerial02.jpeg','Morgause'],
@@ -9016,12 +9016,12 @@ const projects = [
 
     ],
     ['Aquanac',[1,'Maganac Corps'],'HG',false,false,false,'Wing','D','2025-10-08',6.81,false,'Builds/Gundams/AquMag.html',false,'2026',models[105]], //Blues/purple
-    ['Floranac',[1,'Maganac Corps'],'HG',false,false,false,'Wing','B','202x',0,false,'Builds/Gundams/LavMag.html',false,'202x',models[105]], //greens
-    ['Lavanac',[1,'Maganac Corps'],'HG',false,false,false,'Wing','B','202x',0,false,'Builds/Gundams/LavMag.html',false,'202x',models[105]], //red/orange/yellow
-    ['Auranac',[1,'Maganac Corps'],'HG',false,false,false,'Wing','B','202x',0,false,'Builds/Gundams/LavMag.html',false,'202x',models[105]], //Gold/silver
-    ['Blanchanac',[1,'Maganac Corps'],'HG',false,false,false,'Wing','B','202x',0,false,'Builds/Gundams/LavMag.html',false,'202x',models[105]], //White/lightgrey
-    ['Gothanac',[1,'Maganac Corps'],'HG',false,false,false,'Wing','A','202x',0,false,'Builds/Gundams/LavMag.html',false,'202x',models[105]], //black/greys
-    ['Terranac',[1,'Maganac Corps'],'HG',false,false,false,'Wing','A','202x',0,false,'Builds/Gundams/LavMag.html',false,'202x',models[105]], //browns
+    ['Floranac',[1,'Maganac Corps'],'HG',false,false,false,'Wing','C','2025-10-28',2.67,false,'Builds/Gundams/LavMag.html',false,'202x',models[105]], //greens
+    ['Auranac',[1,'Maganac Corps'],'HG',false,false,false,'Wing','C','2025-20-30',2.31,false,'Builds/Gundams/LavMag.html',false,'202x',models[105]], //Gold/silver
+    ['Blanchanac',[1,'Maganac Corps'],'HG',false,false,false,'Wing','C','2025-11-01',3.07,false,'Builds/Gundams/LavMag.html',false,'202x',models[105]], //White/lightgrey
+    ['Lavanac',[1,'Maganac Corps'],'HG',false,false,false,'Wing','C','2025-11-01',3.36,false,'Builds/Gundams/LavMag.html',false,'202x',models[105]], //red/orange/yellow
+    ['Gothanac',[1,'Maganac Corps'],'HG',false,false,false,'Wing','C','2025-11-01',2.2,false,'Builds/Gundams/LavMag.html',false,'202x',models[105]], //black/greys
+    ['Terranac',[1,'Maganac Corps'],'HG',false,false,false,'Wing','C','2025-11-01',1.92,false,'Builds/Gundams/LavMag.html',false,'202x',models[105]], //browns
     ['Coheed',[1,'PB Mercurius'],'HG',false,true,false,'Wing','B'],
     ['Isaac',[1,'Proto-Zero'],'SD',
         false,false,false,'Wing','E','2023-02-06',14.14,false,'Builds/Gundams/Isaac.html','Israel','2023-05-10',models[31],
@@ -10048,7 +10048,7 @@ const projects = [
         ],false,false,true,false
     ],
     ['Rostand',[1,'Astray, M1'],'HG',
-        false,false,false,'Seed','D','2024-07-11',5.69,false,'Builds/Gundams/RostandAstray.html',false,'2025-11-03',models[179],
+        false,false,false,'Seed','E','2024-07-11',5.69,false,'Builds/Gundams/RostandAstray.html',false,'2025-11-04',models[179],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/RostandAstray01.jpeg','Rostand'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/RostandAstray02.jpeg','Rostand'],
@@ -10089,13 +10089,13 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/RostandAstray37.jpeg','Rostand'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/RostandAstray38.jpeg','Rostand'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/RostandAstray39.jpeg','Rostand']
-        ],['https://hosting.photobucket.com/images/i/lesaintdumech/RostandAstray26.jpeg','Profile Photo: Rostand'],
-        'DESCRIPTION',false,
+        ],['https://hosting.photobucket.com/images/i/lesaintdumech/RostandAstray30.jpeg','Profile Photo: Rostand'],
+        'For this build I took inspriation of from the natural redish shade of the original design and decided to accentuate on that. So lots of reds (primarily ferarri red) and copper, brass, bronze and other metals.',false,
         [
             ['Video','https://youtu.be/NPciKb0TT94'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/hg-1-144-r16-m1-astray'],
             ['NewType','https://newtype.us/p/Ta65A5NSNhAeeqOaBVph/h/hgseed-r16-mbf-01-m1-astray']
-        ],false,true,false,'1:144'
+        ],false,true,true,'1:144'
     ],
     ['Bald Eagle',[1,'Astray Blue Frame'],'MG',false,false,false,'Seed','B'],
     ['Raphael',[1,'Astray Gold Frame'],'SD',false,false,false,'Seed','B'],
@@ -16094,7 +16094,7 @@ const projects = [
         ],false,true,false,false,false,false,false,false,false,false,'Pokemon Select Series 6 Empoleon Evolution Set Model Kit'
     ],
     ['Postaldistrix',[1,'Raikou'],'Pokemon',
-        false,false,false,'','D','2024-09-13',2.75,false,'Builds/Pokemon/Postal.html','Asterix','2025-11-10',models[172],
+        false,false,false,'','D','2024-09-13',2.75,false,'Builds/Pokemon/PostRai.html','Asterix','2025-11-10',models[172],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/PostalRaikou01.jpeg','Postaldistrix'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/PostalRaikou02.jpeg','Postaldistrix'],
@@ -16917,7 +16917,7 @@ const projects = [
     ['Kipling',[1,'Liger Zero X'],'Zoid',false,false,false,'','B'],
 
     //Other
-    ['Gun-Rex',[1,'Black Trojan Horse'],'Other',false,false,true,false,'A'],
+    ['Gun-Rex',[1,'Steel Dragon'],'Other',false,false,true,false,'B'],
     ['Rojira',[1,'Godzilla'],'Other',false,false,false,'Legendary Monsterverse','B','2025',0],
     ['Joe Cool',[1,'Surfing Snoopy'],'Other',
         false,false,false,'Peanuts','E','2024-09-29',5.42,false,'Builds/Other/JoeCool.html',false,'2024-12-24',models[147],

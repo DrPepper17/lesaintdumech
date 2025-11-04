@@ -3981,6 +3981,35 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/EpyStr26.jpeg']
         ]
+    ],
+    [
+        ['2025-11-04','20251104A'],
+        'An Unexpected Find',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/RostandAstray38.jpeg',
+        [
+            [
+                'Exciting news for this week. Finally through the back log of straight build Real Grade kits and now back to paint builds. First up, I give you the M1 Astray ',
+                ['Rostand','Builds/Gundams/RostandAstray.html'],
+                '.'
+            ]
+        ],
+        [
+            'I will admit I never thought I would see this kit. The original standard Astrays have long been overlooked in the Gundam community by the more fancier customized astrays of the Gundam Seed Astray spinoff series that the basic Astrays have pretty much been largely forgotten.'
+        ],
+        [
+            'So when I saw this kit sitting on the shelf it totaly caught me by surprise. I had completely forgotten about the M1s that I just never thought I would see a kit for one. Now on the other hand I have built numerous of the other Astrays, the Red Frame, Gold Frame, Blue Frame, but never the original. Had never even seen a kit for it. So I just had to take advantage of this once in a blue moon rarity and buy it.'
+        ],
+        [
+            [
+                ['Youtube','https://youtu.be/NPciKb0TT94',true]
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RostandAstray26.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RostandAstray12.jpeg']
+        ]
     ]
 ]
 
