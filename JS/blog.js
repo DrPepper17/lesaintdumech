@@ -1634,7 +1634,7 @@ const blogArray = [
             ]
         ],
         [
-            'Won\'t lie, these pokemon kits are so simple and basic it\'s sometimes a challenge to push yourself to be creative to do more than just basic paint them. Sometimes they feel like they need a little bit more. As I type this right now I\'m listening to Prince and imagining Jade wearing a little petit rasberry beret. If only they made them that small. Stay tuned, if I manage to find one I will repost.'
+            'Won\'t lie, these Pokemon kits are so simple and basic it\'s sometimes a challenge to push yourself to be creative to do more than just basic paint them. Sometimes they feel like they need a little bit more. As I type this right now I\'m listening to Prince and imagining Jade wearing a little petit rasberry beret. If only they made them that small. Stay tuned, if I manage to find one I will repost.'
         ],
         [
             [
@@ -1673,7 +1673,7 @@ const blogArray = [
             [
                 'Continuing this month\'s Pokemon theme, next up is a polypodball ',
                 ['Luxury Ball','Builds/PBandai/LuxeBall.html'],
-                '. Basically a Universal Century Ball painted with pokemon luxury ball colors.'
+                '. Basically a Universal Century Ball painted with Pokemon luxury ball colors.'
             ]
         ],
         [
@@ -2458,13 +2458,13 @@ const blogArray = [
         'https://hosting.photobucket.com/images/i/lesaintdumech/Cacofonix32.jpeg',
         [
             [
-                'First week of February and we start off with another pokemon build. This week I present to you my metallic blue Metagross, ',
+                'First week of February and we start off with another Pokemon build. This week I present to you my metallic blue Metagross, ',
                 ['Cacofonix','Builds/Pokemon/Cacofonix.html'],
                 '.'
             ]
         ],
         [
-            'Keeping with my other pokemon builds, the nomenclature on Cacofonix is inspired from the French comic book Asterix. For Metagross I named him after the Asterix character Cacofonix. A less significant character in the Aterix universe, Cacofonix is a silly guy. He\'s both a teacher to the Gauls and a poet often composing epics chronicling the triumphs of our mighty hero Asterix\'s many adventures.'
+            'Keeping with my other Pokemon builds, the nomenclature on Cacofonix is inspired from the French comic book Asterix. For Metagross I named him after the Asterix character Cacofonix. A less significant character in the Aterix universe, Cacofonix is a silly guy. He\'s both a teacher to the Gauls and a poet often composing epics chronicling the triumphs of our mighty hero Asterix\'s many adventures.'
         ],
         [
             [
@@ -2615,7 +2615,7 @@ const blogArray = [
         'https://hosting.photobucket.com/images/i/lesaintdumech/Beatrice21.jpeg',
         [
             [
-                'It\'s another week and another pokemon build. This week I bring you a little red foxy Eevee named ',
+                'It\'s another week and another Pokemon build. This week I bring you a little red foxy Eevee named ',
                 ['Beatrice','Builds/Pokemon/Beatrice.html'],
                 '. She\'s one fiery diva. Hope you enjoy.'
             ]
@@ -2635,7 +2635,7 @@ const blogArray = [
         'https://hosting.photobucket.com/images/i/lesaintdumech/PBallMain46.jpeg',
         [
             [
-                'Not a pokemon but still withing their universe. This week I bring you the ',
+                'Not a Pokemon but still withing their universe. This week I bring you the ',
                 ['Poke[pod]ball','Builds/Gundams/PBall.html'],
                 '. I had a lot of fun previously painting the Luxury Ball that I had to paint another one. This time I\'m doing the original Pokeball that started it all. The others in the ball lineup coming soon.'
             ]
@@ -2704,7 +2704,7 @@ const blogArray = [
             ]
         ],
         [
-            'It\'s a fierce scary looking pokemon with a piercing gaze as it prepares to wipe out all the competition.'
+            'It\'s a fierce scary looking Pokemon with a piercing gaze as it prepares to wipe out all the competition.'
         ],
         [
             [
@@ -2928,7 +2928,7 @@ const blogArray = [
             ]
         ],
         [
-            'I have always been confused by Ho-oh the pokemon. Is it a phoenix? Is it the Aztec deity Quetzalcoatl? The pokemon source material has always hinted at and played around with both that I have never been able to figure it out. All in all I always found Ho-oh unnecessary and considered Lugia way better. But that being said I had lots of fun with this build testing out all the multiple Mr Hobby Metalic gold varieties while painting this.'
+            'I have always been confused by Ho-oh the Pokemon. Is it a phoenix? Is it the Aztec deity Quetzalcoatl? The Pokemon source material has always hinted at and played around with both that I have never been able to figure it out. All in all I always found Ho-oh unnecessary and considered Lugia way better. But that being said I had lots of fun with this build testing out all the multiple Mr Hobby Metalic gold varieties while painting this.'
         ],
         [
             [
@@ -3083,10 +3083,10 @@ const blogArray = [
             ]
         ],
         [
-            'Dogmatix is a Riolu. Which is the baby form of one of my favorite pokemon, Lucario. They both came together in the same kit. For this I just wanted to explore around with the color scheme rather than paint the traditional blue/grey colors. This was also around the same time period that I first received my Mr Color metallics paint line in the mail so I was brand new to the Mr Hobby paints and still getting the feel for them. If you notice, this has a very similar color palette to my Metroid Samus Aran Gravity Suit design. That is because I had painted both of these around the same time period so the color scheme was fresh on my mind.'
+            'Dogmatix is a Riolu. Which is the baby form of one of my favorite Pokemon, Lucario. They both came together in the same kit. For this I just wanted to explore around with the color scheme rather than paint the traditional blue/grey colors. This was also around the same time period that I first received my Mr Color metallics paint line in the mail so I was brand new to the Mr Hobby paints and still getting the feel for them. If you notice, this has a very similar color palette to my Metroid Samus Aran Gravity Suit design. That is because I had painted both of these around the same time period so the color scheme was fresh on my mind.'
         ],
         [
-            'Like most pokemon model kits, Riolu is pretty simple to assemble. Not that many pieces really. But he has his own sort of cutish charm.'
+            'Like most Pokemon model kits, Riolu is pretty simple to assemble. Not that many pieces really. But he has his own sort of cutish charm.'
         ],
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/Dogmatix09.jpeg']
@@ -3183,7 +3183,7 @@ const blogArray = [
         'https://hosting.photobucket.com/images/i/lesaintdumech/ARK_Logo.jpg',
         [
             [
-                'It\'s another pokemone week but this time rather than one inpsired by the French comic book Asterix, this week is inspired by my all-time favorite college mascot, the Arkansas Razorbacks!! Also a pig, this week I painted a cute little Tepig. I give you ',
+                'It\'s another Pokemone week but this time rather than one inpsired by the French comic book Asterix, this week is inspired by my all-time favorite college mascot, the Arkansas Razorbacks!! Also a pig, this week I painted a cute little Tepig. I give you ',
                 ['Tusk','Builds/Pokemon/Tusk.html'],
                 '.'
             ]
@@ -3232,7 +3232,7 @@ const blogArray = [
         'https://hosting.photobucket.com/images/i/lesaintdumech/AstronomixGengar21.jpeg',
         [
             [
-                'We\'re quickly reaching the end of my backlog of all my pokemon builds that I have stacked up to post. But no worries I have some new kits that just came in the mail for me to paint and build. This week I present to you ',
+                'We\'re quickly reaching the end of my backlog of all my Pokemon builds that I have stacked up to post. But no worries I have some new kits that just came in the mail for me to paint and build. This week I present to you ',
                 ['Astronomix','Builds/Pokemon/AstronGengar.html'],
                 ', the father to our mighty short warrior Asterix.'
             ]
@@ -4009,6 +4009,44 @@ const blogArray = [
         ],
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RostandAstray12.jpeg']
+        ]
+    ],
+    [
+        ['2025-11-10','20251110A'],
+        'Mail Call!! Here Comes Postaldistrix',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/PostaldistrixComic.jpeg',
+        [
+            [
+                'Been a long time since I gave you a Pokemon build. So today open your parcel cause here comes the post man of the Gauls himself, shiny Raikou ',
+                ['Postaldistrix','Builds/Pokemon/PostRai.html'],
+                '.'
+            ]
+        ],
+        [
+            'I had been wanting to build this forever. Well I guess I have probably said that statement a hundred times now in this blog that it probably no longer means anything. But I cannot help it. I just love all my builds. Which is mainly why I have refused to sell any of them.'
+        ],
+        [
+            'But all that aside, along with Legendary Birds, the Legendary Dogs have long been some of my favorite Pokemon in the series. Raikou, Entei and Suicune they\'re just so cool and majestic and were a joy to build. I guess spoiler alert, I did paint and build all three of them. However that was probably an easy thing to guess. Why would I build just Raikou but not the other two. I don\'t think I\'m ruining the surprise by letting you all know that Entei and  Suicune are coming up too in the weeks to follow.'
+        ],
+        [
+            'Just wish Bandai/Nintendo would also get with the program and also release kits for the Legendary Birds. I would literally worship at the feet of a shiny metallic baby\'s blue Articuno if they did.'
+        ],
+        [
+            'But for now, Cheers !! And Enjoy, my Postaldistrix !!'
+        ],
+        [
+            [
+                ['Youtube','https://youtu.be/CnXDIkOQVLk',true]
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/PostalRaikou28.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/PostalRaikou23.jpeg']
+        ],
+        [
+            'P.S. I will admit that the Asterix characters naming scheme for my Pokemon builds is starting to grow old and tiring on me. It was cool to me at the start when I named my builds at after the primary characters. But now thirty or so builds in I am having to stretch and search the series canon just to find more names for new builds that I am just bout fed up. Expect this theme to end soon in 2026.'
         ]
     ]
 ]

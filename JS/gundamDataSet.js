@@ -8497,7 +8497,7 @@ const projects = [
     ['LFrith Thorn [HG]',[1,'LFrith Thorn'],'HG',true,false,false,'Mercury','E','2024-08-13',1.42,false,false,false,'2024-08-20'],
     ['Weavel',[1,'LFrith Ur'],'HG',false,false,false,'Mercury','A','202x',0,false,'Builds/Metroid/Weavel.html','Metroid'],
     ['LFrith Ur [HG]',[1,'LFrith Ur'],'HG',true,false,false,'Mercury','E','2024-08-13',1.5,false,false,false,'2024-08-20'],
-    ['Sylux',[1.25,'Michaelis','P.B. Witch From Mercury Expansion Pack'],'HG',false,true,false,'Mercury','A','202x',0,false,'Builds/Metroid/Sylux.html','Metroid'],
+    ['Michaelis??',[1.25,'Michaelis','P.B. Witch From Mercury Expansion Pack'],'HG',false,true,false,'Mercury','A','202x',0,false,'Builds/xxx.html'],
     ['Wormwood',[1,'Gundam Naion'],'HG',false,true,false,'Mercury','A'],
     ['Noxus',[1.25,'Pharact','P.B. Witch From Mercury Expansion Pack'],'HG',false,true,false,'Mercury','A','202x',0,false,'Builds/Metroid/Noxus.html','Metroid'],
     ['Schwarzette [HG]',[1,'Schwarzette'],'HG',true,false,false,'Mercury','E','2023-10-04',2.33,false,false,false],
@@ -9016,12 +9016,12 @@ const projects = [
 
     ],
     ['Aquanac',[1,'Maganac Corps'],'HG',false,false,false,'Wing','D','2025-10-08',6.81,false,'Builds/Gundams/AquMag.html',false,'2026',models[105]], //Blues/purple
-    ['Floranac',[1,'Maganac Corps'],'HG',false,false,false,'Wing','C','2025-10-28',2.67,false,'Builds/Gundams/LavMag.html',false,'202x',models[105]], //greens
-    ['Auranac',[1,'Maganac Corps'],'HG',false,false,false,'Wing','C','2025-20-30',2.31,false,'Builds/Gundams/LavMag.html',false,'202x',models[105]], //Gold/silver
-    ['Blanchanac',[1,'Maganac Corps'],'HG',false,false,false,'Wing','C','2025-11-01',3.07,false,'Builds/Gundams/LavMag.html',false,'202x',models[105]], //White/lightgrey
-    ['Lavanac',[1,'Maganac Corps'],'HG',false,false,false,'Wing','C','2025-11-01',3.36,false,'Builds/Gundams/LavMag.html',false,'202x',models[105]], //red/orange/yellow
-    ['Gothanac',[1,'Maganac Corps'],'HG',false,false,false,'Wing','C','2025-11-01',2.2,false,'Builds/Gundams/LavMag.html',false,'202x',models[105]], //black/greys
-    ['Terranac',[1,'Maganac Corps'],'HG',false,false,false,'Wing','C','2025-11-01',1.92,false,'Builds/Gundams/LavMag.html',false,'202x',models[105]], //browns
+    ['Floranac',[1,'Maganac Corps'],'HG',false,false,false,'Wing','C','2025-10-28',5.79,false,'Builds/Gundams/FlorMag.html',false,'202x',models[105]], //greens
+    ['Auranac',[1,'Maganac Corps'],'HG',false,false,false,'Wing','C','2025-20-30',5.37,false,'Builds/Gundams/AurMag.html',false,'202x',models[105]], //Gold/silver
+    ['Blanchanac',[1,'Maganac Corps'],'HG',false,false,false,'Wing','C','2025-11-01',5.98,false,'Builds/Gundams/BlanMag.html',false,'202x',models[105]], //White/lightgrey
+    ['Lavanac',[1,'Maganac Corps'],'HG',false,false,false,'Wing','C','2025-11-01',6.72,false,'Builds/Gundams/LavMag.html',false,'202x',models[105]], //red/orange/yellow
+    ['Gothanac',[1,'Maganac Corps'],'HG',false,false,false,'Wing','C','2025-11-01',4.96,false,'Builds/Gundams/GotMag.html',false,'202x',models[105]], //black/greys
+    ['Terranac',[1,'Maganac Corps'],'HG',false,false,false,'Wing','C','2025-11-01',4.84,false,'Builds/Gundams/TerMag.html',false,'202x',models[105]], //browns
     ['Coheed',[1,'PB Mercurius'],'HG',false,true,false,'Wing','B'],
     ['Isaac',[1,'Proto-Zero'],'SD',
         false,false,false,'Wing','E','2023-02-06',14.14,false,'Builds/Gundams/Isaac.html','Israel','2023-05-10',models[31],
@@ -9053,7 +9053,7 @@ const projects = [
             ['Video','https://www.instagram.com/reel/CsE6K7bNZv5/?igshid=YzcxN2Q2NzY0OA=='],
             ['USA Gundam Store','https://www.usagundamstore.com/products/sd-ex-standard-18-wing-gundam-zero?variant=40894574657733'],
             ['NewType','https://newtype.us/p/M1rp6lWHgYzNoxyJXOK0/h/sdex-standard-18-wing-gundam-zero']
-        ],['King David'],false,true,false
+        ],['King David','Bibi'],false,true,false
     ],
     ['Jericho',[1,'Proto-Zero'],'HG',
         false,false,false,'Wing','E','2023-01-09',12.79,false,'Builds/Gundams/Jericho.html','Israel','2023-05-24',models[31],
@@ -9205,6 +9205,9 @@ const projects = [
         ],false,true,true,false
     ],
     ['Proto-Zero [SD]',[1,'Proto-Zero'],'SD',true,false,false,'Wing','E','2021-12-14',1.67,false,false,false,'2023-05-01'],
+    ['Wing Zero [RG]',[1,'Proto-Zero'],'RG',true,false,false,'Wing','A'],
+    ['Sampson',[1,'Proto-Zero'],'RG',false,false,false,'Wing','A'],  //red
+    ['Solomon',[1,'Proto-Zero'],'RG',false,false,false,'Wing','A'], //blue
     ['Shenlong [HG]',[1,'Shenlong Gundam'],'HG',true,false,false,'Wing','E','2025-01-24',1.83],
     ['Napoleon',[2,'Tallgeese','Ceramic Horse'],'MG',
         false,false,false,'Wing','B',false,0,false,'Builds/Gundams/Napoleon.html',false,false,models[47]
@@ -9293,7 +9296,7 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/BibiWingG40.jpeg','Bibi'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/BibiWingG45.jpeg','Bibi']
         ],['https://hosting.photobucket.com/images/i/lesaintdumech/BibiWingG34.jpeg','Profile Photo: Bibi'],
-        'DESCRIPTION',false,
+        'Was trying to recreate my design of my King David build but on a smaller scale. However the colors on this one were way too dark and blurred together. They really did not distingue themselves apart and accent each other well. I\'ll have to reformulate this design on future builds.',false,
         [
             ['Video','https://youtu.be/RllRlcFqYVA'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/hgac-1-144-162-wing-gundam'],
@@ -13540,6 +13543,7 @@ const projects = [
             ['NewType','https://newtype.us/p/HkMyju9reQSuPtxEuvx8/h/full-mechanics-gundam-vidar']
         ],false,false,true,'1:100', 'The \u00dcbermensch shall be the meaning of the earth! I entreat you my brethren, remain true to the earth, and do not believe those who speak to you of supra-terrestrial hopes! … Behold, I teach you the \u00dcbermensch: he is this lightning, he is this madness! … Behold, I am a prophet of the lightning and a heavy drop from the cloud: but this lightning is called \u00dcbermensch.'
     ],
+    ['Sylux',[1,'Rouei'],'HG',false,true,false,'IBO','A','202x',0,false,'Builds/Metroid/Sylux.html','Metroid'],
 
     //Universal Century
     ['Dew Drop',[1,'Acguy'],'HG',
@@ -14996,6 +15000,7 @@ const projects = [
 
     ], //Regular wing EW
     ['Hyperion',[1,'Wing, Tian Ba Cao Cao'],'SD',false,false,false,'Heroes','B'],   // wing zero 
+    ['Zero Knight',[1,'Zero Gundam, Legend BB Devil Dragon Blade'],'SD',false,false,false,'Heroes','A'],
 
     //Haro
     ['Haro Blue',[1,'Haropla #05 Control Blue'],'Haro',
@@ -16094,7 +16099,7 @@ const projects = [
         ],false,true,false,false,false,false,false,false,false,false,'Pokemon Select Series 6 Empoleon Evolution Set Model Kit'
     ],
     ['Postaldistrix',[1,'Raikou'],'Pokemon',
-        false,false,false,'','D','2024-09-13',2.75,false,'Builds/Pokemon/PostRai.html','Asterix','2025-11-10',models[172],
+        false,false,false,'','E','2024-09-13',2.75,false,'Builds/Pokemon/PostRai.html','Asterix','2025-11-10',models[172],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/PostalRaikou01.jpeg','Postaldistrix'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/PostalRaikou02.jpeg','Postaldistrix'],
@@ -16132,17 +16137,18 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/PostalRaikou34.jpeg','Postaldistrix'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/PostalRaikou35.jpeg','Postaldistrix'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/PostalRaikou36.jpeg','Postaldistrix'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/PostalRaikou37.jpeg','Postaldistrix']
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PostalRaikou37.jpeg','Postaldistrix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PostaldistrixComic.jpeg','Postaldistrix Character']
             
         ],['https://hosting.photobucket.com/images/i/lesaintdumech/PostalRaikou31.jpeg','Profile Photo: Postaldistrix'],
-        'DESCRIPTION',false,
+        'Very faithful to the original Raikou design. Just all pretty metallic colors from the Mr Hobby Metallic lineup. I feel very proud of this build. It\'s just so elegant and looks just like how Raikou always appeared inthe games and anime. I swear it\'s supposed to be a legendary dog but Raikou sort of almost resembles a tiger.',false,
         [
             ['Video','https://youtu.be/CnXDIkOQVLk'],
             ['Asterix: Postaldistrix','https://aogames.fandom.com/wiki/Postaldistrix'],
             ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Raikou_(Pokémon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-select-series-10-raikou-model-kit'],
             ['NewType','https://newtype.us/p/8idrwbGaTlxwiG3kDy8m/h/pokemon-raikou']
-        ],false,true,false,false,false,false,false,false,false,false,'Pokemon Select Series 10 Raikou Model Kit'
+        ],['Pacifix','Soporifix'],true,true,false,false,false,false,false,false,false,'Pokemon Select Series 10 Raikou Model Kit'
     ],
     ['Getafix',[1,'Rayquaza'],'Pokemon',
         false,false,false,'','E','2023-09-18',5.74,false,'Builds/Pokemon/Getafix.html','Asterix','2025-01-20',models[150],
