@@ -9015,13 +9015,14 @@ const projects = [
         ],false,true,true,false,'Rasid Kurama Custom'
 
     ],
-    ['Aquanac',[1,'Maganac Corps'],'HG',false,false,false,'Wing','D','2025-10-08',6.81,false,'Builds/Gundams/AquMag.html',false,'2026',models[105]], //Blues/purple
-    ['Floranac',[1,'Maganac Corps'],'HG',false,false,false,'Wing','C','2025-10-28',5.79,false,'Builds/Gundams/FlorMag.html',false,'202x',models[105]], //greens
-    ['Auranac',[1,'Maganac Corps'],'HG',false,false,false,'Wing','C','2025-20-30',5.37,false,'Builds/Gundams/AurMag.html',false,'202x',models[105]], //Gold/silver
-    ['Blanchanac',[1,'Maganac Corps'],'HG',false,false,false,'Wing','C','2025-11-01',5.98,false,'Builds/Gundams/BlanMag.html',false,'202x',models[105]], //White/lightgrey
-    ['Lavanac',[1,'Maganac Corps'],'HG',false,false,false,'Wing','C','2025-11-01',6.72,false,'Builds/Gundams/LavMag.html',false,'202x',models[105]], //red/orange/yellow
-    ['Gothanac',[1,'Maganac Corps'],'HG',false,false,false,'Wing','C','2025-11-01',4.96,false,'Builds/Gundams/GotMag.html',false,'202x',models[105]], //black/greys
-    ['Terranac',[1,'Maganac Corps'],'HG',false,false,false,'Wing','C','2025-11-01',4.84,false,'Builds/Gundams/TerMag.html',false,'202x',models[105]], //browns
+    ['Aquanac',[1,'Maganac Corps'],'HG',false,false,false,'Wing','C','2025-10-08',8.26,false,'Builds/Gundams/AquMag.html',false,'2026',models[105]], //Blues/purple
+    ['Floranac',[1,'Maganac Corps'],'HG',false,false,false,'Wing','C','2025-10-28',7.91,false,'Builds/Gundams/FlorMag.html',false,'202x',models[105]], //greens
+    ['Auranac',[1,'Maganac Corps'],'HG',false,false,false,'Wing','C','2025-20-30',7.13,false,'Builds/Gundams/AurMag.html',false,'202x',models[105]], //Gold/silver
+    ['Blanchanac',[1,'Maganac Corps'],'HG',false,false,false,'Wing','C','2025-11-01',7.99,false,'Builds/Gundams/BlanMag.html',false,'202x',models[105]], //White/lightgrey
+    ['Lavanac',[1,'Maganac Corps'],'HG',false,false,false,'Wing','C','2025-11-01',9.08,false,'Builds/Gundams/LavMag.html',false,'202x',models[105]], //red/orange/yellow
+    ['Gothanac',[1,'Maganac Corps'],'HG',false,false,false,'Wing','C','2025-11-01',6.79,false,'Builds/Gundams/GotMag.html',false,'202x',models[105]], //black/greys
+    ['Terranac',[1,'Maganac Corps'],'HG',false,false,false,'Wing','C','2025-11-01',6.99,false,'Builds/Gundams/TerMag.html',false,'202x',models[105]], //browns
+    ['Rosanac',[1,'Maganac Corps'],'HG',false,false,false,'Wing','C','2025-11-16',4.97,false,'Builds/Gundams/TerMag.html',false,'202x',models[105]], //flower colors
     ['Coheed',[1,'PB Mercurius'],'HG',false,true,false,'Wing','B'],
     ['Isaac',[1,'Proto-Zero'],'SD',
         false,false,false,'Wing','E','2023-02-06',14.14,false,'Builds/Gundams/Isaac.html','Israel','2023-05-10',models[31],
@@ -9161,7 +9162,7 @@ const projects = [
             ['Video','https://www.instagram.com/reel/CsR33QhtEkN/?igshid=YzcxN2Q2NzY0OA=='],
             ['USA Gundam Store','https://www.usagundamstore.com/products/mg-1-100-wing-gundam-proto-zero-version-ew'],
             ['NewType','https://newtype.us/p/OpzEuISj9BHqaLR8dylH/h/mg-wing-gundam-proto-zero-ew']
-        ],['Isaac'],false,true,'1:100'
+        ],['Isaac','Bibi'],false,true,'1:100'
     ],
     ['Metal Zero',[1,'Proto-Zero'],'SD',
         false,false,false,'Wing','E','2023-01-08',14.19,false,'Builds/Gundams/MetalZero.html',false,'2023-05-04',models[31],
@@ -9205,9 +9206,9 @@ const projects = [
         ],false,true,true,false
     ],
     ['Proto-Zero [SD]',[1,'Proto-Zero'],'SD',true,false,false,'Wing','E','2021-12-14',1.67,false,false,false,'2023-05-01'],
-    ['Wing Zero [RG]',[1,'Proto-Zero'],'RG',true,false,false,'Wing','A'],
-    ['Sampson',[1,'Proto-Zero'],'RG',false,false,false,'Wing','A'],  //red
-    ['Solomon',[1,'Proto-Zero'],'RG',false,false,false,'Wing','A'], //blue
+    ['Wing Zero [RG]',[1,'Proto-Zero'],'RG',true,false,false,'Wing','C','2025-11-12',8.5],
+    ['Sampson',[1,'Proto-Zero'],'RG',false,false,false,'Wing','B'],  //red
+    ['Solomon',[1,'Proto-Zero'],'RG',false,false,false,'Wing','B'], //blue
     ['Shenlong [HG]',[1,'Shenlong Gundam'],'HG',true,false,false,'Wing','E','2025-01-24',1.83],
     ['Napoleon',[2,'Tallgeese','Ceramic Horse'],'MG',
         false,false,false,'Wing','B',false,0,false,'Builds/Gundams/Napoleon.html',false,false,models[47]
@@ -9248,7 +9249,7 @@ const projects = [
     ['Man o\' War',[1,'Tallgeese II'],'RG',false,true,false,'Wing','A'],
     ['Cambria',[1,'PB Vayeate'],'HG',false,true,false,'Wing','B'],
     ['Bibi',[1,'Wing Gundam'],'HG',
-        false,false,false,'Wing','D','2024-07-08',5.23,false,'Builds/Gundams/BibiWingG.html',false,'2025-11-17',models[54],
+        false,false,false,'Wing','E','2024-07-08',5.23,false,'Builds/Gundams/BibiWingG.html',false,'2025-11-17',models[54],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/BibiWingG01.jpeg','Bibi'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/BibiWingG02.jpeg','Bibi'],
@@ -9301,9 +9302,9 @@ const projects = [
             ['Video','https://youtu.be/RllRlcFqYVA'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/hgac-1-144-162-wing-gundam'],
             ['NewType','https://newtype.us/p/SQ8KX1kMAyY1uPykCnKU/h/hgac-162-wing-gundam']
-        ],false,true,false,'1:144'
+        ],['Isaac','King David'],true,true,'1:144'
     ],
-    ['Netanyahu',[1,'Wing Gundam'],'RG',false,false,false,'Wing','A'],
+    //['Netanyahu',[1,'Wing Gundam'],'RG',false,false,false,'Wing','A'],
     /*
         Bibi:
         white       ->  Mediterannean Blue
@@ -15596,7 +15597,7 @@ const projects = [
         ],false,true,false,false,false,false,false,false,false,false,'Pokemon Select Series 6 Empoleon Evolution Set Model Kit'
     ],
     ['Soporifix',[1,'Entei'],'Pokemon',
-        false,false,false,'','D','2025-07-03',3.31,false,'Builds/Pokemon/Soporifix.html',false,'2025-11-24'
+        false,false,false,'','D','2025-07-03',3.31,false,'Builds/Pokemon/SopEnt.html',false,'2025-11-24'
     ],
     ['Instantmix',[1,'Fuecoco'],'Pokemon',false,false,false,'','D','2025-08-13',1.61],
     ['Astronomix',[1,'Gengar'],'Pokemon',

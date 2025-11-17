@@ -4048,6 +4048,35 @@ const blogArray = [
         [
             'P.S. I will admit that the Asterix characters naming scheme for my Pokemon builds is starting to grow old and tiring on me. It was cool to me at the start when I named my builds at after the primary characters. But now thirty or so builds in I am having to stretch and search the series canon just to find more names for new builds that I am just bout fed up. Expect this theme to end soon in 2026.'
         ]
+    ],
+    [
+        ['2025-11-17','20251117A'],
+        'Learning to Fly, Back to Good',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/BibiWingG45.jpeg',
+        [
+            [
+                'Now I love all of Gundam the series as a whole. But my first love of the series will always be Gundam Wing. So many late nights as a kid waiting up just to watch Gundam Wing on the late night past-midnight Adult Swim, those were the days. This week is a return to my roots with my latest build, ',
+                ['Bibi','Builds/Gundams/BibiWingG.html'],
+                '.'
+            ]
+        ],
+        [
+            [
+                ['Youtube','https://youtu.be/RllRlcFqYVA',true]
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/BibiWingG04.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/BibiWingG07.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/BibiWingG41.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/BibiWingG37.jpeg']
+        ]
     ]
 ]
 
