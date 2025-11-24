@@ -19,7 +19,7 @@ Projects Array Structure
         when both straight and painted included on same project, omit straight build hours
 10. LEDS (true/false)
 11. URL // don't do invidivual pages for straightbuilds unless it's a p-bandai
-12. tags [array]
+12. Kit Bash (true/false)
 13. Date Posted
 14. Model (link array) modelID[##] If a second number is present in array, [##,##], second number identifies alternate model photo to use, stored in array location 34 in model structure array.
 15. Photos (array of arrays)

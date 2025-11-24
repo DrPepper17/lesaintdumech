@@ -7039,7 +7039,7 @@ const projects = [
         ],false,false,true,'1:144',false,'Permet Score Six','Permet Score Six'
     ],
     ['Ariel',[1.5,'Aerial','Mirasoul Flight Pack'],'HG',
-        false,false,false,'Mercury','E','2023-12-10',12.03,false,'Builds/Gundams/Ariel.html','Angels','2024-11-04',models[141],
+        false,false,false,'Mercury','E','2023-12-10',12.03,false,'Builds/Gundams/Ariel.html',false,'2024-11-04',models[141],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Ariel001.jpeg','Ariel'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Ariel002.jpeg','Ariel'],
@@ -7181,7 +7181,7 @@ const projects = [
         ],false,true,false,'1:144'
     ],
     ['Cherub',[1,'Aerial'],'SD',
-        false,false,false,'Mercury','E','2023-01-10',4.91,false,'Builds/Gundams/Cherub.html','Angels','2024-10-21',models[141],
+        false,false,false,'Mercury','E','2023-01-10',4.91,false,'Builds/Gundams/Cherub.html',false,'2024-10-21',models[141],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/cherub01.jpeg','Cherub'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/cherub02.jpeg','Cherub'],
@@ -7229,7 +7229,7 @@ const projects = [
         ],false,true,true
     ],
     ['Zephon',[1,'Aerial Rebuild'],'HG',
-        false,false,false,'Mercury','E','2023-11-25',16.15,false,'Builds/Gundams/Zephon.html','Angels','2024-11-21',models[142],
+        false,false,false,'Mercury','E','2023-11-25',16.15,false,'Builds/Gundams/Zephon.html',false,'2024-11-21',models[142],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/arrnhgstr01.jpeg','HG Aerial Rebuild Straight'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/arrnhgstr02.jpeg','HG Aerial Rebuild Straight'],
@@ -7376,10 +7376,10 @@ const projects = [
         ],false,true,true,'1:144'
     ],
     ['Aerial Rebuild [HG]',[1,'Aerial Rebuild'],'HG',true,false,false,'Mercury','E','2024-06-02',1.42,false,false,false,'2024-11-18'],
-    ['Rundas',[1,'Beguir-Beu'],'HG',false,false,false,'Mercury','A','202x',0,false,'Builds/Metroid/Rundas.html','Metroid'],
+    ['Rundas',[1,'Beguir-Beu'],'HG',false,false,false,'Mercury','A','202x',0,false,'Builds/Metroid/Rundas.html',false],
     ['Beguir-Beu [HG]',[1,'Beguir-Beu'],'HG',true,false,false,'Mercury','E','2024-08-17',1,false,false,false,'2024-08-20'],
     ['Dark Samus: Corruption',[1,'Beguir-Pente'],'HG',
-        false,false,false,'Mercury','E','2023-12-23',10.51,false,'Builds/Metroid/Corruption.html','Metroid','2024-07-08',models[127],
+        false,false,false,'Mercury','E','2023-12-23',10.51,false,'Builds/Metroid/Corruption.html',false,'2024-07-08',models[127],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/DarkSamusCorruption02.jpeg','Dark Samus Corruption'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/DarkSamusCorruption01.jpeg','Dark Samus Corruption'],
@@ -7642,7 +7642,7 @@ const projects = [
         ],false,true,true
     ],
     ['Abaddon',[1,'Calibarn'],'HG',
-        false,false,false,'Mercury','E','2023-11-25',18.13,false,'Builds/Gundams/Abaddon.html','Angels','2024-12-06',models[144],
+        false,false,false,'Mercury','E','2023-11-25',18.13,false,'Builds/Gundams/Abaddon.html',false,'2024-12-06',models[144],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/calibarnstrhg01.jpeg','HG Calibarn Straight'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/calibarnstrhg02.jpeg','HG Calibarn Straight'],
@@ -7866,9 +7866,9 @@ const projects = [
     ],
     ['Tempest',[1,'Calibarn'],'HG',false,false,false,'Mercury','B','2024-06',0],   //paint in flat red
     ['Calibarn [HG]',[1,'Calibarn'],'HG',true,false,false,'Mercury','E','2023-08-22',2.83,false,false,false,'2024-12-02'],
-    ['Kanden',[1.25,'Darilbalde','P.B. Witch From Mercury Expansion Pack'],'HG',false,true,false,'Mercury','A','202x',0,false,'Builds/Metroid/Kanden.html','Metroid'],
+    ['Kanden',[1.25,'Darilbalde','P.B. Witch From Mercury Expansion Pack'],'HG',false,true,false,'Mercury','A','202x',0,false,'Builds/Metroid/Kanden.html',false],
     ['Azrael',[1,'Dilanza, Guel\'s'],'HG',
-        false,false,false,'Mercury','E','2023-01-05',12.14,false,'Builds/Gundams/Azrael.html','Angels','2023-02-27',models[26],
+        false,false,false,'Mercury','E','2023-01-05',12.14,false,'Builds/Gundams/Azrael.html',false,'2023-02-27',models[26],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/azrael02.jpeg','Azrael','img1'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/azrael03.jpeg','Azrael','img2'],
@@ -7944,7 +7944,7 @@ const projects = [
         ],false,false,true,'1:144',false,'Gundnode','PB Gundnode'
     ],
     ['Dark Samus: Echoes',[1,'Gundvolva'],'HG',
-        false,false,false,'Mercury','E','2023-10-11',9.5,false,'Builds/Metroid/Echoes.html','Metroid','2024-07-01',models[91],
+        false,false,false,'Mercury','E','2023-10-11',9.5,false,'Builds/Metroid/Echoes.html',false,'2024-07-01',models[91],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/DarkSamusEchoes01.jpeg','Dark Samus Echoes'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/DarkSamusEchoes02.jpeg','Dark Samus Echoes'],
@@ -8169,7 +8169,7 @@ const projects = [
         ],false,false,true,'1:144'
     ], 
     ['Dobiel',[1,'Gundvolva'],'HG',
-        false,false,false,'Mercury','E','2023-08-07',12.7,true,'Builds/Gundams/Dobiel.html','Angels','2023-09-25',models[91],
+        false,false,false,'Mercury','E','2023-08-07',12.7,true,'Builds/Gundams/Dobiel.html',false,'2023-09-25',models[91],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/dobiel01.jpeg','Dobiel'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/dobiel02.jpeg','Dobiel'],
@@ -8208,7 +8208,7 @@ const projects = [
     ['EMMI',[1,'Heindree'],'HG',false,false,false,'Mercury','A'],
     ['Hiendree Sturm [HG]',[1,'Heindree Sturm'],'HG',true,false,false,'Mercury','E','2024-10-04',1,false,false,false,'2024-10-05'],
     ['Adriel',[1,'LFrith'],'HG',
-        false,false,false,'Mercury','E','2023-12-11',7.25,false,'Builds/Gundams/Adriel.html','Angels','2024-10-03',models[138],
+        false,false,false,'Mercury','E','2023-12-11',7.25,false,'Builds/Gundams/Adriel.html',false,'2024-10-03',models[138],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/LFRStr01.jpeg','HG Lfrith Straight'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/LFRStr02.jpeg','HG Lfrith Straight'],
@@ -8325,7 +8325,7 @@ const projects = [
     ],
     ['LFrith [HG]',[1,'LFrith'],'HG',true,false,false,'Mercury','E','2023-04-15',2.33,false,false,false,'2024-09-30'],
     ['Cassiel',[1,'LFrith Anavata'],'HG',
-        false,true,false,'Mercury','E','2024-07-21',7.58,false,'Builds/PBandai/Cassiel.html','Angels','2024-10-14',models[140],
+        false,true,false,'Mercury','E','2024-07-21',7.58,false,'Builds/PBandai/Cassiel.html',false,'2024-10-14',models[140],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Cassiel01.jpeg','Cassiel'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Cassiel02.jpeg','Cassiel'],
@@ -8380,7 +8380,7 @@ const projects = [
         ],false,false,true,'1:144'
     ],
     ['Eisheth',[1,'LFrith Jiu'],'HG',
-        false,true,false,'Mercury','E','2024-02-16',8.05,false,'Builds/PBandai/Eisheth.html','Angels','2024-10-07',models[139],
+        false,true,false,'Mercury','E','2024-02-16',8.05,false,'Builds/PBandai/Eisheth.html',false,'2024-10-07',models[139],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Eisheth01.jpeg','Eisheth'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Eisheth02.jpeg','Eisheth'],
@@ -8493,16 +8493,16 @@ const projects = [
             ['Premium Bandai','https://p-bandai.com/us/item/F2703002001']
         ],false,false,true,'1:144',false,'Lfrith Preprod','PB Lfrith Preprod'
     ],
-    ['Spire',[1,'LFrith Thorn'],'HG',false,false,false,'Mercury','A','202x',0,false,'Builds/Metroid/Spire.html','Metroid'],
+    ['Spire',[1,'LFrith Thorn'],'HG',false,false,false,'Mercury','A','202x',0,false,'Builds/Metroid/Spire.html',false],
     ['LFrith Thorn [HG]',[1,'LFrith Thorn'],'HG',true,false,false,'Mercury','E','2024-08-13',1.42,false,false,false,'2024-08-20'],
-    ['Weavel',[1,'LFrith Ur'],'HG',false,false,false,'Mercury','A','202x',0,false,'Builds/Metroid/Weavel.html','Metroid'],
+    ['Weavel',[1,'LFrith Ur'],'HG',false,false,false,'Mercury','A','202x',0,false,'Builds/Metroid/Weavel.html',false],
     ['LFrith Ur [HG]',[1,'LFrith Ur'],'HG',true,false,false,'Mercury','E','2024-08-13',1.5,false,false,false,'2024-08-20'],
     ['Michaelis??',[1.25,'Michaelis','P.B. Witch From Mercury Expansion Pack'],'HG',false,true,false,'Mercury','A','202x',0,false,'Builds/xxx.html'],
     ['Wormwood',[1,'Gundam Naion'],'HG',false,true,false,'Mercury','A'],
-    ['Noxus',[1.25,'Pharact','P.B. Witch From Mercury Expansion Pack'],'HG',false,true,false,'Mercury','A','202x',0,false,'Builds/Metroid/Noxus.html','Metroid'],
+    ['Noxus',[1.25,'Pharact','P.B. Witch From Mercury Expansion Pack'],'HG',false,true,false,'Mercury','A','202x',0,false,'Builds/Metroid/Noxus.html',false],
     ['Schwarzette [HG]',[1,'Schwarzette'],'HG',true,false,false,'Mercury','E','2023-10-04',2.33,false,false,false],
     ['Metatron',[1,'Schwarzette'],'HG',
-        false,false,false,'Mercury','E','2023-11-25',17.15,false,'Builds/Gundams/Metatron.html','Angels','2024-12-11',models[145],
+        false,false,false,'Mercury','E','2023-11-25',17.15,false,'Builds/Gundams/Metatron.html',false,'2024-12-11',models[145],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/AngeMet01.jpeg','Metatron'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/AngeMet02.jpeg','Metatron'],
@@ -8609,7 +8609,7 @@ const projects = [
         ],false,true,true,'1:144'
     ],
     ['Samus: Zero Suit',[1,'Figure Rise Suletta Mercury','Figure Rise Miorine Rembran'],'FS',
-        false,false,false,'Mercury','E','2024-01-04',7,false,'Builds/Metroid/ZeroSuit.html','Metroid','2024-07-15',models[128],
+        false,false,false,'Mercury','E','2024-01-04',7,false,'Builds/Metroid/ZeroSuit.html',false,'2024-07-15',models[128],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/SamusZeroSuit02.jpeg','Samus Aran: Zero Suit'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/SamusZeroSuit01.jpg','Samus Aran: Zero Suit'],
@@ -8663,7 +8663,7 @@ const projects = [
             'Federation Trooper'
         ],false,true,false,false,false,'Zero Suit'
     ],
-    ['Ghor',[1,'Zowort Heavy'],'HG',false,false,false,'Mercury','A','202x',0,false,'Builds/Metroid/Ghor.html','Metroid'],
+    ['Ghor',[1,'Zowort Heavy'],'HG',false,false,false,'Mercury','A','202x',0,false,'Builds/Metroid/Ghor.html',false],
     ['Zowort Heavy [HG]',[1,'Zowort Heavy'],'HG',true,false,false,'Mercury','E','2024-09-21',1.25,false,false,false],
 
     //Advanced Generation (Age)
@@ -8675,7 +8675,7 @@ const projects = [
     //After Colony (Wing)
     ['Leo Army',[6,'Leo'],'LEO',false,false,false,'Wing','C','2021-10-03',42.94,false,'Builds/Gundams/LeoArmy.html',false],
     ['South Park',[6,'Tallgeese','Epyon','Heavy Arms','Shenlong','Deathscythe','Sandrock'],'SD',
-        false,false,false,'Wing','E','2021-06-05',54.42,true,'Builds/uniqueTemplates/SouthPark.html','Practice SDs','2021-06-21',models[6],
+        false,false,false,'Wing','E','2021-06-05',54.42,true,'Builds/uniqueTemplates/SouthPark.html',false,'2021-06-21',models[6],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/sparkStan.jpeg','South Park: Stan','img1'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/sparkKyle.jpeg','South Park: Kyle','img2'],
@@ -8716,7 +8716,7 @@ const projects = [
     ],
     ['PB Altron',[1,'PB Altron'],'HG',false,true,false,'Wing','B'],
     ['Gemini',[2,'Aquarius','Aquarius'],'SD',
-        false,false,false,'Wing','E','2021-07-05',20.61,false,'Builds/Gundams/Gemini.html','Practice SDs','2022-01-24',models[40],
+        false,false,false,'Wing','E','2021-07-05',20.61,false,'Builds/Gundams/Gemini.html',false,'2022-01-24',models[40],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/gems01.jpeg','Traditional Blue Aquarius','img1'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/gems02.jpeg','Custom Red Aquarius','img2'],
@@ -8756,7 +8756,7 @@ const projects = [
         ],false,false,true,false
     ],
     ['Pontus',[1,'Aquarius'],'SD',
-        false,false,false,'Wing','E','2023-11-25',7.01,false,'Builds/Gundams/Pontus.html','Titans','2024-08-05',models[40],
+        false,false,false,'Wing','E','2023-11-25',7.01,false,'Builds/Gundams/Pontus.html',false,'2024-08-05',models[40],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/pontus01.jpeg','Pontus'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/pontus02.jpeg','Pontus'],
@@ -8928,7 +8928,7 @@ const projects = [
 
     ],
     ['Major Tom',[1,'Geminass 01'],'SD',
-        false,false,false,'Wing','E','2021-12-12',5.15,false,'Builds/Gundams/MajorTom.html','SD Rock','2023-04-10',models[44],
+        false,false,false,'Wing','E','2021-12-12',5.15,false,'Builds/Gundams/MajorTom.html',false,'2023-04-10',models[44],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/majortom01.jpeg','Major Tom','img1'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/majortom02.jpeg','Major Tom','img2'],
@@ -8950,7 +8950,7 @@ const projects = [
         ],false,true,true,false
     ],
     ['Guerilla Arms',[1,'Heavy Arms'],'MG',
-        false,false,false,'Wing','E','2021-04-03',60.07,false,'Builds/Gundams/GuerillaArms.html','Hand Paint','2021-05-22',models[1],
+        false,false,false,'Wing','E','2021-04-03',60.07,false,'Builds/Gundams/GuerillaArms.html',false,'2021-05-22',models[1],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/gahamg01.JPG','Gundam Guerilla Arms','img1'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/gahamg02.JPG','Gundam Guerilla Arms','img2'],
@@ -8994,7 +8994,7 @@ const projects = [
     ],
     ['Leo Assault',[0.5,'PB Leo Full Weapon Set'],'HG',false,true,false,'Wing','A'],
     ['Phoebe',[1,'Maganac Corps'],'SD',
-        false,false,false,'Wing','E','2022-04-11',8.42,false,'Builds/Gundams/Phoebe.html','Titans','2024-01-15',models[105],
+        false,false,false,'Wing','E','2022-04-11',8.42,false,'Builds/Gundams/Phoebe.html',false,'2024-01-15',models[105],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/sdphoebe01.jpeg','Phoebe'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/sdphoebe02.jpeg','Phoebe'],
@@ -9015,17 +9015,17 @@ const projects = [
         ],false,true,true,false,'Rasid Kurama Custom'
 
     ],
-    ['Aquanac',[1,'Maganac Corps'],'HG',false,false,false,'Wing','C','2025-10-08',8.26,false,'Builds/Gundams/AquMag.html',false,'2026',models[105]], //Blues/purple
-    ['Floranac',[1,'Maganac Corps'],'HG',false,false,false,'Wing','C','2025-10-28',7.91,false,'Builds/Gundams/FlorMag.html',false,'202x',models[105]], //greens
-    ['Auranac',[1,'Maganac Corps'],'HG',false,false,false,'Wing','C','2025-20-30',7.13,false,'Builds/Gundams/AurMag.html',false,'202x',models[105]], //Gold/silver
-    ['Blanchanac',[1,'Maganac Corps'],'HG',false,false,false,'Wing','C','2025-11-01',7.99,false,'Builds/Gundams/BlanMag.html',false,'202x',models[105]], //White/lightgrey
-    ['Lavanac',[1,'Maganac Corps'],'HG',false,false,false,'Wing','C','2025-11-01',9.08,false,'Builds/Gundams/LavMag.html',false,'202x',models[105]], //red/orange/yellow
-    ['Gothanac',[1,'Maganac Corps'],'HG',false,false,false,'Wing','C','2025-11-01',6.79,false,'Builds/Gundams/GotMag.html',false,'202x',models[105]], //black/greys
-    ['Terranac',[1,'Maganac Corps'],'HG',false,false,false,'Wing','C','2025-11-01',6.99,false,'Builds/Gundams/TerMag.html',false,'202x',models[105]], //browns
-    ['Rosanac',[1,'Maganac Corps'],'HG',false,false,false,'Wing','C','2025-11-16',4.97,false,'Builds/Gundams/TerMag.html',false,'202x',models[105]], //flower colors
+    ['Aquanac',[1,'Maganac Corps'],'HG',false,false,false,'Wing','C','2025-10-08',9.26,false,'Builds/Gundams/AquMag.html',false,'2026',models[105]], //Blues/purple
+    ['Floranac',[1,'Maganac Corps'],'HG',false,false,false,'Wing','C','2025-10-28',8.63,false,'Builds/Gundams/FlorMag.html',false,'202x',models[105]], //greens
+    ['Auranac',[1,'Maganac Corps'],'HG',false,false,false,'Wing','C','2025-20-30',7.79,false,'Builds/Gundams/AurMag.html',false,'202x',models[105]], //Gold/silver
+    ['Blanchanac',[1,'Maganac Corps'],'HG',false,false,false,'Wing','C','2025-11-01',8.63,false,'Builds/Gundams/BlanMag.html',false,'202x',models[105]], //White/lightgrey
+    ['Lavanac',[1,'Maganac Corps'],'HG',false,false,false,'Wing','C','2025-11-01',10.13,false,'Builds/Gundams/LavMag.html',false,'202x',models[105]], //red/orange/yellow
+    ['Gothanac',[1,'Maganac Corps'],'HG',false,false,false,'Wing','C','2025-11-01',7.46,false,'Builds/Gundams/GotMag.html',false,'202x',models[105]], //black/greys
+    ['Terranac',[1,'Maganac Corps'],'HG',false,false,false,'Wing','C','2025-11-01',8.07,false,'Builds/Gundams/TerMag.html',false,'202x',models[105]], //browns
+    ['Rosanac',[1,'Maganac Corps'],'HG',false,false,false,'Wing','C','2025-11-16',7.56,false,'Builds/Gundams/TerMag.html',false,'202x',models[105]], //flower colors
     ['Coheed',[1,'PB Mercurius'],'HG',false,true,false,'Wing','B'],
     ['Isaac',[1,'Proto-Zero'],'SD',
-        false,false,false,'Wing','E','2023-02-06',14.14,false,'Builds/Gundams/Isaac.html','Israel','2023-05-10',models[31],
+        false,false,false,'Wing','E','2023-02-06',14.14,false,'Builds/Gundams/Isaac.html',false,'2023-05-10',models[31],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/isaac01.jpeg','Gundam Isaac','img1'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/isaac02.jpeg','Gundam Isaac','img2'],
@@ -9057,7 +9057,7 @@ const projects = [
         ],['King David','Bibi'],false,true,false
     ],
     ['Jericho',[1,'Proto-Zero'],'HG',
-        false,false,false,'Wing','E','2023-01-09',12.79,false,'Builds/Gundams/Jericho.html','Israel','2023-05-24',models[31],
+        false,false,false,'Wing','E','2023-01-09',12.79,false,'Builds/Gundams/Jericho.html',false,'2023-05-24',models[31],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/jericho01.jpeg','Gundam Jericho','img1'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/jericho02.jpeg','Gundam Jericho','img2'],
@@ -9089,7 +9089,7 @@ const projects = [
         ],false,true,true,'1:144'
     ],
     ['King David',[1,'Proto-Zero'],'MG',
-        false,false,false,'Wing','E','2023-03-08',52.11,true,'Builds/Gundams/KingDavid.html','Israel','2023-05-15',models[31],
+        false,false,false,'Wing','E','2023-03-08',52.11,true,'Builds/Gundams/KingDavid.html',false,'2023-05-15',models[31],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/kingdavid01.jpeg','King David','img1'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/kingdavid02.jpeg','King David','img2'],
@@ -9452,7 +9452,7 @@ const projects = [
     ['Fiery Mothra [RG]',[1,'Wing Zero'],'RG',false,false,false,'Wing','A'],
     ['Fiery Mothra [SD]',[1,'Wing Zero'],'SD',false,false,false,'Wing','B'],
     ['Gold Dust Woman',[1,'Wing Zero'],'SD',
-        false,false,false,'Wing','E','2021-09-09',8.37,false,'Builds/Gundams/GoldDustWoman.html','SD Rock','2022-02-01',models[32],
+        false,false,false,'Wing','E','2021-09-09',8.37,false,'Builds/Gundams/GoldDustWoman.html',false,'2022-02-01',models[32],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/golddust01.jpeg','Gold Dust Woman','img1'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/golddust02.jpeg','Gold Dust Woman','img2'],
@@ -9499,7 +9499,7 @@ const projects = [
 
     //After War (X)
     ['Gaebora',[1,'Airmaster'],'SD',
-        false,false,false,'X','E','2021-10-06',5.51,false,'Builds/Gundams/Gaebora.html','Zelda','2022-03-28',models[38],
+        false,false,false,'X','E','2021-10-06',5.51,false,'Builds/Gundams/Gaebora.html',false,'2022-03-28',models[38],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/gaeboraowl.jpeg','Gaebora the Owl','img1'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/gaebora01.jpeg','Gaebora','img2'],
@@ -9520,7 +9520,7 @@ const projects = [
         ],['Guapo'],false,true,false
     ],
     ['Biohazard',[1,'Double X'],'SD',
-        false,false,false,'X','E','2022-08-08',5.83,false,'Builds/Gundams/Biohazard.html','Covid','2022-10-24',models[29],
+        false,false,false,'X','E','2022-08-08',5.83,false,'Builds/Gundams/Biohazard.html',false,'2022-10-24',models[29],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/biohazard01.jpeg','Gundam Biohazard','img1'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/biohazard02.jpeg','Gundam Biohazard','img2'],
@@ -9543,7 +9543,7 @@ const projects = [
         ],['Corona Virus'],true,true,false
     ],
     ['Charlie Daniels',[1,'Double X'],'SD',
-        false,false,false,'X','E','2021-10-08',4.51,false,'Builds/Gundams/CharlieDaniels.html','SD Rock','2022-08-01',models[29],
+        false,false,false,'X','E','2021-10-08',4.51,false,'Builds/Gundams/CharlieDaniels.html',false,'2022-08-01',models[29],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/charliedaniels01.jpeg','Gundam Charlie Daniels','img1'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/charliedaniels02.jpeg','Gundam Charlie Daniels','img2'],
@@ -9562,7 +9562,7 @@ const projects = [
         ],false,false,true,false
     ],
     ['Corona Virus',[1,'Double X'],'MG',
-        false,false,false,'X','E','2022-09-05',36.08,false,'Builds/Gundams/Corona.html','Covid','2022-10-31',models[29],
+        false,false,false,'X','E','2022-09-05',36.08,false,'Builds/Gundams/Corona.html',false,'2022-10-31',models[29],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/covidmolecule01.jpeg','Covid Molecule','img1'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/covidmolecule02.jpeg','Covid Molecule','img2'],
@@ -9638,7 +9638,7 @@ const projects = [
         ],['Gaebora'],false,true,false
     ],
     ['Iron Maiden',[1,'X Gundam'],'SD',
-        false,false,false,'X','E','2021-10-07',4.83,false,'Builds/Gundams/IronMaiden.html','SD Rock','2023-03-20',models[41],
+        false,false,false,'X','E','2021-10-07',4.83,false,'Builds/Gundams/IronMaiden.html',false,'2023-03-20',models[41],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/ironmaiden01.jpeg','Iron Maiden','img1'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/ironmaiden02.jpeg','Iron Maiden','img2'],
@@ -9663,7 +9663,7 @@ const projects = [
     //Anno Domini (00)
     ['Sariel',[1,'0 GUndam'],'SD',false,false,false,'00','B','',0,false,'','Angels'],
     ['Umlaut \xD6\xD6',[1,'00 Gundam'],'SD',
-        false,false,false,'00','E','2021-06-07',10.83,false,'Builds/Gundams/Umlaut.html','Practice SDs','2021-06-23',models[22],
+        false,false,false,'00','E','2021-06-07',10.83,false,'Builds/Gundams/Umlaut.html',false,'2021-06-23',models[22],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/umlaut01.jpeg','Gundam Umlaut','img1'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/umlaut02.jpeg','Gundam Umlaut','img2'],
@@ -9704,7 +9704,7 @@ const projects = [
         false,false,false,'00','B',false,0,false,'Builds/Gundams/SilverNGold.html',false,false,models[21]
     ],
     ['Thunder QAN[T]',[1,'00 Gundam QAN[T]'],'SD',
-        false,false,false,'00','E','2021-06-12',11.68,true,'Builds/Gundams/ThunderQ.html','Practice SDs','2021-08-09',models[21],
+        false,false,false,'00','E','2021-06-12',11.68,true,'Builds/Gundams/ThunderQ.html',false,'2021-08-09',models[21],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/thunderq01.jpeg','Gundam Thunder-Q','img1'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/thunderq02.jpeg','Gundam Thunder-Q','img2'],
@@ -9751,9 +9751,9 @@ const projects = [
             ['Premium Bandai','https://p-bandai.com/us/item/F2359481001']
         ],false,false,true,'1:144'
     ],
-    ['Gandrayda',[1,'Astraea Type F'],'HG',false,false,false,'00','A','202x',0,false,'Builds/Metroid/Gandrayda.html','Metroid'],
+    ['Gandrayda',[1,'Astraea Type F'],'HG',false,false,false,'00','A','202x',0,false,'Builds/Metroid/Gandrayda.html',false],
     ['Nena',[1,'Exia'],'SD',
-        false,false,false,'00','E','2021-12-07',4.95,false,'Builds/Gundams/Nena.html','SD Rock','2023-09-18',models[67],
+        false,false,false,'00','E','2021-12-07',4.95,false,'Builds/Gundams/Nena.html',false,'2023-09-18',models[67],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/nena01.jpeg','Nena'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/nena02.jpeg','Nena'],
@@ -9800,7 +9800,7 @@ const projects = [
         false,true,false,'00','B','2025',0.25
     ],
     ['Federation Trooper',[1,'Flag'],'HG',
-        false,false,false,'00','E','2023-08-06',9.1,false,'Builds/Metroid/FedTrooper.html','Metroid','2024-07-22',models[129],
+        false,false,false,'00','E','2023-08-06',9.1,false,'Builds/Metroid/FedTrooper.html',false,'2024-07-22',models[129],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/PED_Trooper_Render.jpeg','Federation Trooper'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/GFtrooper_trio.jpeg','Federation Troopers'],
@@ -10003,7 +10003,7 @@ const projects = [
 
     //Correct Century (Turn A)
     ['John Wayne',[1,'Turn-A'],'SD',
-        false,false,false,'TurnA','E','2021-09-10',6.62,false,'Builds/Gundams/JohnWayne.html','SD Rock','2023-02-13',models[43],
+        false,false,false,'TurnA','E','2021-09-10',6.62,false,'Builds/Gundams/JohnWayne.html',false,'2023-02-13',models[43],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/johnwayne01.jpeg','John Wayne','img1'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/johnwayne02.jpeg','John Wayne','img2'],
@@ -10031,7 +10031,7 @@ const projects = [
 
     //Cosmic Era (Seed) 
     ['Fluorescent',[1,'Aegis'],'SD',
-        false,false,false,'Seed','E','2021-06-08',9.94,false,'Builds/Gundams/Fluorescent.html','Practice SDs','2021-06-24',models[19],
+        false,false,false,'Seed','E','2021-06-08',9.94,false,'Builds/Gundams/Fluorescent.html',false,'2021-06-24',models[19],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/fluor01.jpeg','Fluorescent Gundam','img1'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/fluor02.jpeg','Fluorescent Gundam','img2'],
@@ -10149,7 +10149,7 @@ const projects = [
         false,false,false,false,false,true
     ],
     ['King Mars',[1,'Akatsuki, Shiranui'],'HG',
-        false,false,false,'Seed','D','2022-05-06',13.67,false,'Builds/Gundams/KingMars.html','Planets','',models[57]
+        false,false,false,'Seed','D','2022-05-06',13.67,false,'Builds/Gundams/KingMars.html',false,'',models[57]
     ],
     ['Archangel',[2,'EX Archangel','EX Archangel'],'EX',
         false,false,false,'Seed','E','2021-08-06',76.63,false,'Builds/Ships/Archangel.html',false,'2022-01-10',models[15],
@@ -10312,7 +10312,7 @@ const projects = [
     ['Rosaline',[1,'Dagger L'],'HG',false,false,false,'Seed','A','2025',0,false,'Builds/Gundams/Rosaline.html',false,'',models[23]],      //Capulet: Yellow
     ['Tybalt',[1,'Dagger L'],'HG',false,false,false,'Seed','A','2025',0,false,'Builds/Gundams/Tybalt.html',false,'',models[23]],        //Capulet: Red
     ['Samus: Varia Suit',[1,'Dagger L'],'HG',
-        false,false,false,'Seed','E','2023-06-13',8.33,false,'Builds/Metroid/Varia.html','Metroid','2024-04-29',models[23],
+        false,false,false,'Seed','E','2023-06-13',8.33,false,'Builds/Metroid/Varia.html',false,'2024-04-29',models[23],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/1_VariaSuit.jpeg','Samus Aran: Varia Suit'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/samvar01.jpeg','Varia Suit'],
@@ -10381,7 +10381,7 @@ const projects = [
         ],false,true,'1:144',false,false,'Varia Suit'
     ],
     ['Samus: Gravity Suit',[1,'Dagger L'],'HG',
-        false,false,false,'Seed','E','2023-08-02',8.37,false,'Builds/Metroid/Gravity.html','Metroid','2024-05-06',models[23],
+        false,false,false,'Seed','E','2023-08-02',8.37,false,'Builds/Metroid/Gravity.html',false,'2024-05-06',models[23],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/2_GravitySuit.png','Samus Aran: Gravity Suit'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Samus_p3.jpeg','Samus Aran: Gravity Suit'],
@@ -10445,7 +10445,7 @@ const projects = [
         ],false,true,'1:144',false,false,'Gravity Suit'
     ],
     ['Samus: Phazon Suit',[1,'Dagger L'],'HG',
-        false,false,false,'Seed','E','2023-08-06',8.3,false,'Builds/Metroid/Phazon.html','Metroid','2024-05-13',models[23],
+        false,false,false,'Seed','E','2023-08-06',8.3,false,'Builds/Metroid/Phazon.html',false,'2024-05-13',models[23],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/3_PhazonSuit.webp','Samus Aran: Phazon Suit'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/samphaz01.jpeg','Phazon Suit'],
@@ -10501,7 +10501,7 @@ const projects = [
         ],false,true,'1:144',false,false,'Phazon Suit'
     ],
     ['Samus: Dark Suit',[1,'Dagger L'],'HG',
-        false,false,false,'Seed','E','2023-08-02',8.14,false,'Builds/Metroid/Dark.html','Metroid','2024-05-20',models[23],
+        false,false,false,'Seed','E','2023-08-02',8.14,false,'Builds/Metroid/Dark.html',false,'2024-05-20',models[23],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/4_DarkSuit.webp','Samus Aran: Dark Suit'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/samdar01.jpg','Dark Suit'],
@@ -10590,7 +10590,7 @@ const projects = [
         ],false,true,'1:144',false,false,'Dark Suit'
     ],
     ['Samus: Light Suit',[1,'Dagger L'],'HG',
-        false,false,false,'Seed','E','2023-08-16',9.47,false,'Builds/Metroid/Light.html','Metroid','2024-05-27',models[23],
+        false,false,false,'Seed','E','2023-08-16',9.47,false,'Builds/Metroid/Light.html',false,'2024-05-27',models[23],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/5_LightSuit.jpeg','Samus Aran: Light Suit'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/samlight01.jpeg','Light Suit'],
@@ -10682,7 +10682,7 @@ const projects = [
         ],false,true,'1:144',false,false,'Light Suit'
     ],
     ['Samus: PED Suit',[1,'Dagger L'],'HG',
-        false,false,false,'Seed','E','2023-08-06',8.36,false,'Builds/Metroid/PED.html','Metroid','2024-06-03',models[23],
+        false,false,false,'Seed','E','2023-08-06',8.36,false,'Builds/Metroid/PED.html',false,'2024-06-03',models[23],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/6_PEDSuit.jpeg','Samus Aran: PED Suit'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/samped01.jpeg','PED Suit'],
@@ -10749,7 +10749,7 @@ const projects = [
         ],false,true,'1:144',false,false,'PED Suit'
     ],
     ['Samus: Fusion Suit',[1,'Dagger L'],'HG',
-        false,false,false,'Seed','E','2023-08-19',7.79,false,'Builds/Metroid/Fusion.html','Metroid','2024-06-10',models[23],
+        false,false,false,'Seed','E','2023-08-19',7.79,false,'Builds/Metroid/Fusion.html',false,'2024-06-10',models[23],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/7_FusionSuit.webp','Samus Aran: Fusion Suit'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/IMG_7365.JPG','Samus Aran: Fusion Suit'],
@@ -10815,7 +10815,7 @@ const projects = [
         ],false,true,'1:144',false,false,'Fusion Suit'
     ],
     ['Samus: Vi-O-La Suit',[1.5,'Dagger L','30MM Boost Brave Bike'],'HG',
-        false,false,false,'Seed','D','2025-07-03',12.81,false,'Builds/Metroid/ScarletSam.html','Metroid','2026-03-09',models[23]
+        false,false,false,'Seed','D','2025-07-03',12.81,false,'Builds/Metroid/ScarletSam.html',false,'2026-03-09',models[23]
     ],
     ['Friar Laurence',[1,'Dagger 105 + Gunbarrel'],'HG',false,false,false,'Seed','B'],
     ['Charizard',[1,'Destiny'],'MG',false,false,false,'Seed','B'],
@@ -11017,7 +11017,7 @@ const projects = [
     ],
     ['Orga',[1,'Forbidden'],'FM',false,false,false,'Seed','A'],
     ['Anthem',[1,'Freedom'],'MG',
-        false,false,false,'Seed','E','2022-05-05',73.16,true,'Builds/Gundams/Anthem.html','America','2022-07-04',models[14],
+        false,false,false,'Seed','E','2022-05-05',73.16,true,'Builds/Gundams/Anthem.html',false,'2022-07-04',models[14],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/anth01.jpeg','Anthem Gundam','img1'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/anth02.jpeg','Anthem Gundam','img2'],
@@ -11099,7 +11099,7 @@ const projects = [
     ],
     ['Freedom [MGSD]',[1,'Freedom'],'MGSD',true,false,false,'Seed','E','2023-03-05',8.5,false,false,false,'2023-06-28',false],
     ['Liberty',[1,'Freedom'],'SD',
-        false,false,false,'Seed','E','2022-04-09',18,false,'Builds/Gundams/Liberty.html','America','2022-06-27',models[14],
+        false,false,false,'Seed','E','2022-04-09',18,false,'Builds/Gundams/Liberty.html',false,'2022-06-27',models[14],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/liberty01.jpeg','Gundam Liberty','img1'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/liberty02.jpeg','Gundam Liberty','img2'],
@@ -11129,7 +11129,7 @@ const projects = [
         ],['Anthem','Old Glory'],false,true,false
     ],
     ['Old Glory',[1,'Freedom'],'MGSD',
-        false,false,false,'Seed','E','2023-05-06',34,false,'Builds/Gundams/OldGlory.html','America','2023-07-03',models[14],
+        false,false,false,'Seed','E','2023-05-06',34,false,'Builds/Gundams/OldGlory.html',false,'2023-07-03',models[14],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/oldglory01_sdLav1PtqioFw5a8sxxjgX.jpeg','Old Glory','img1'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/oldglory02_aTn59wMj3Fgx67X7GmzEZJ.jpeg','Old Glory','img2'],
@@ -11193,7 +11193,7 @@ const projects = [
         ],['Anthem','Liberty'],false,true,false
     ],
     ['GCP Freedom',[1,'Freedom Ver. GCP'],'RG',
-        true,'BASE',false,'Seed','E','2025-08-16',9.75,false,'Builds/Specials/FreeGCP.html','Mobile Base','2025-09-08',models[14],
+        true,'BASE',false,'Seed','E','2025-08-16',9.75,false,'Builds/Specials/FreeGCP.html',false,'2025-09-08',models[14],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/GCPFreedomMobileBase06.jpeg','Real Grade GCP Freedom'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/GCPFreedomMobileBase07.jpeg','Real Grade GCP Freedom'],
@@ -11359,7 +11359,7 @@ const projects = [
         ],['Destiny Impulse (Regenes)'],false,true,"1:144",false,'Destiny Impulse','Destiny Imp.'
     ],
     ['Don\'t Tread On Ye',[1,'Justice'],'MG',
-        false,false,false,'Seed','E','2022-06-06',51.75,true,'Builds/Gundams/Ye.html','America','2022-09-06',models[52],
+        false,false,false,'Seed','E','2022-06-06',51.75,true,'Builds/Gundams/Ye.html',false,'2022-09-06',models[52],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/fishsticks.jpeg','Dont\'t Tread on Ye','img70'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/ye01.jpeg','Gundam Ye','img1'],
@@ -11443,7 +11443,7 @@ const projects = [
     ],
     ['AntiJustice',[1,'Justice'],'SD',false,false,false,'Seed','B'],
     ['Pacifist',[1,'Justice'],'SD',
-        false,false,false,'Seed','E','2022-04-10',14.58,false,'Builds/Gundams/Pacifist.html','America','2022-08-29',models[52],
+        false,false,false,'Seed','E','2022-04-10',14.58,false,'Builds/Gundams/Pacifist.html',false,'2022-08-29',models[52],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/pacifist01.jpeg','Gundam Pacifist','img1'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/pacifist02.jpeg','Gundam Pacifist','img2'],
@@ -11767,7 +11767,7 @@ const projects = [
         ],false,false,true,'1:144',false,'Perfect Strike',false
     ],
     ['S.A.T.O.',[1,'Strike, Perfect'],'SD',
-        false,false,false,'Seed','E','2022-01-05',14.85,false,'Builds/Gundams/SATO.html','SD Rock','2023-12-18',models[61],
+        false,false,false,'Seed','E','2022-01-05',14.85,false,'Builds/Gundams/SATO.html',false,'2023-12-18',models[61],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/SATO01.jpeg','S.A.T.O.'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/SATO02.jpeg','S.A.T.O.'],
@@ -11789,7 +11789,7 @@ const projects = [
         ],false,true,true
     ],
     ['Cordelia',[1,'Strike Dagger'],'HG',
-        false,true,false,'Seed','E','2023-12-11',7.23,false,'Builds/PBandai/Cordelia.html','Shakespeare','2024-12-16',models[92],
+        false,true,false,'Seed','E','2023-12-11',7.23,false,'Builds/PBandai/Cordelia.html',false,'2024-12-16',models[92],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/PBCordelia01.jpeg','Cordelia'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/PBCordelia02.jpeg','Cordelia'],
@@ -11840,7 +11840,7 @@ const projects = [
         ],['Dobiel','King Leir','Malphas'],false,true,'1:144'
     ],
     ['Samus: Dread Suit',[1,'Strike Dagger'],'HG',
-        false,true,false,'Seed','E','2023-03-07',10.89,false,'Builds/Metroid/Dread.html','Metroid','2024-06-17',models[92],
+        false,true,false,'Seed','E','2023-03-07',10.89,false,'Builds/Metroid/Dread.html',false,'2024-06-17',models[92],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/8_DreadSuit.webp','Samus Aran: Dread Suit'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/samdread01.jpeg','Dread Suit'],
@@ -12228,7 +12228,7 @@ const projects = [
     ['Battra',[1,'Strike Noir'],'MG',false,false,false,'Seed','B'],
     ['Strike Noir [SD]',[1,'Strike Noir'],'SD',true,false,false,'Seed','E','2021-09-06',2.233,false,false,'2023-07-10'],
     ['Strike Verde',[1,'Strike Noir'],'SD',
-        false,false,false,'Seed','E','2021-12',8,false,'Builds/Gundams/StrikeVerde.html','Practice SDs','2023-07-11',models[51],
+        false,false,false,'Seed','E','2021-12',8,false,'Builds/Gundams/StrikeVerde.html',false,'2023-07-11',models[51],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/IMG_2567_Large.jpeg','Strike Verde','img1'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/IMG_2566_Large.jpeg','Strike Verde','img2'],
@@ -12637,7 +12637,7 @@ const projects = [
         ],['Gabriel'],true,true
     ],
     ['Furcas',[1,'Dark Army'],'HG',
-        false,false,false,'G','E','2024-08-20',4.28,false,'Builds/Gundams/Furcas.html','Ars Goetia','2025-06-30',models[59],
+        false,false,false,'G','E','2024-08-20',4.28,false,'Builds/Gundams/Furcas.html',false,'2025-06-30',models[59],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Furcas01.jpeg','Furcas'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Furcas02.jpeg','Furcas'],
@@ -12678,7 +12678,7 @@ const projects = [
         ],false,true,true,'1:144'
     ],
     ['Malphas',[1,'Dark Army'],'HG',
-        false,false,false,'G','E','2022-09-08',5.83,false,'Builds/Gundams/Malphas.html','Ars Goetia','2023-01-23',models[59],
+        false,false,false,'G','E','2022-09-08',5.83,false,'Builds/Gundams/Malphas.html',false,'2023-01-23',models[59],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/malphas01.jpeg','Malphas','img1'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/malphas02.jpeg','Malphas','img2'],
@@ -12701,7 +12701,7 @@ const projects = [
         ],['Cordelia','Dobiel','King Leir','Leo Army'],true,true,'1:144'
     ],
     ['Baal',[1,'Dark Gundam'],'HG',
-        false,false,false,'G','E','2024-08-20',5.6,false,'Builds/Gundams/BaalDarkG.html','Ars Goetia','2025-07-29',models[115],
+        false,false,false,'G','E','2024-08-20',5.6,false,'Builds/Gundams/BaalDarkG.html',false,'2025-07-29',models[115],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Baal01.jpeg','Baal'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Baal02.jpeg','Baal'],
@@ -12763,7 +12763,7 @@ const projects = [
     ['Asmodeus',[1,'Dark Gundam'],'SD',false,false,false,'G','B'],  //Custom
     ['Beleth',[1,'Dark Gundam'],'SD',false,false,false,'G','B'],    //Turbo
     ['Paimon',[1,'Dark Gundam'],'SD',
-        false,false,false,'G','E','2024-08-20',4.63,false,'Builds/Gundams/Paimon.html','Ars Goetia','2025-07-15',models[109],
+        false,false,false,'G','E','2024-08-20',4.63,false,'Builds/Gundams/Paimon.html',false,'2025-07-15',models[109],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Paimon02.jpeg','Paimon'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Paimon03.jpeg','Paimon'],
@@ -13138,7 +13138,7 @@ const projects = [
     ],
     ['Camael',[1,'Shining Gundam'],'SD',false,false,false,'G','B','2024',0],    //Flat
     ['Red Baron',[1,'Spiegel, Gundam'],'MG',
-        false,false,false,'G','E','2021-05-05',72.07,true,'Builds/Gundams/RedBaron.html','Hand Paint','2021-05-29',models[2],
+        false,false,false,'G','E','2021-05-05',72.07,true,'Builds/Gundams/RedBaron.html',false,'2021-05-29',models[2],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/rbaron01.JPG','Gundam Red Baron','img1'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/rbaron02.jpg','Gundam Red Baron','img2'],
@@ -13274,7 +13274,7 @@ const projects = [
         ],false,true,true
     ],
     ['War Pig',[1,'Barbatos'],'SD',
-        false,false,false,'IBO','E','2021-12-13',4.15,false,'Builds/Gundams/WarPig.html','SD Rock','2023-04-18',models[46],
+        false,false,false,'IBO','E','2021-12-13',4.15,false,'Builds/Gundams/WarPig.html',false,'2023-04-18',models[46],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/warpig01.jpeg','War Pig','img1'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/warpig02.jpeg','War Pig','img2'],
@@ -13296,7 +13296,7 @@ const projects = [
         ],['Deep Purple'],true,true,false
     ],
     ['Deep Purple',[1,'Barbatos Lupus'],'SD',
-        false,false,false,'IBO','E','2021-12-14',4.36,false,'Builds/Gundams/DeepPurple.html','SD Rock','2023-07-17',models[48],
+        false,false,false,'IBO','E','2021-12-14',4.36,false,'Builds/Gundams/DeepPurple.html',false,'2023-07-17',models[48],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/deeppurple01.jpeg','Deep Purple','img1'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/deeppurple02.jpeg','Deep Purple','img2'],
@@ -13320,7 +13320,7 @@ const projects = [
         ],['War Pig'],true,true,false
     ],
     ['Sealiah',[1,'Barbatos Lupus'],'HG',
-        false,false,false,'IBO','E','2023-02-05',12.51,false,'Builds/Gundams/Sealiah.html','Angels','2023-06-13',models[48],
+        false,false,false,'IBO','E','2023-02-05',12.51,false,'Builds/Gundams/Sealiah.html',false,'2023-06-13',models[48],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/sealiah01.jpeg','Sealiah','img1'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/sealiah02.jpeg','Sealiah','img2'],
@@ -13411,7 +13411,7 @@ const projects = [
     ],
     ['Queen Venus',[1,'Gremory'],'HG',false,false,false,'IBO','B'],
     ['Vine',[1,'Hashmal'],'HG',
-        false,false,false,'IBO','E','2023-01-07',19.64,false,'Builds/Gundams/Vine.html','Ars Goetia','2023-06-05',models[50],
+        false,false,false,'IBO','E','2023-01-07',19.64,false,'Builds/Gundams/Vine.html',false,'2023-06-05',models[50],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/demonvine01.jpeg','Vine','img1'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/demonvine02.jpeg','Vine','img2'],
@@ -13465,7 +13465,7 @@ const projects = [
             ['Ars Goetia: Vine','https://en.wikipedia.org/wiki/Vine_(demon)']
         ],['Sealiah'],false,true,'1:144'
     ],
-    ['Trace',[1,'Reginlaze Julia'],'HG',false,false,false,'IBO','A','202x',0,false,'Builds/Metroid/Trace.html','Metroid'],
+    ['Trace',[1,'Reginlaze Julia'],'HG',false,false,false,'IBO','A','202x',0,false,'Builds/Metroid/Trace.html',false],
     ['\u00dcbermensch',[1,'Vidar'],'FM',
         false,false,false,'IBO','E','2023-08-01',20.55,false,'Builds/Gundams/Ubermensch.html',false,'2023-10-30',models[95],
         [
@@ -13544,7 +13544,6 @@ const projects = [
             ['NewType','https://newtype.us/p/HkMyju9reQSuPtxEuvx8/h/full-mechanics-gundam-vidar']
         ],false,false,true,'1:100', 'The \u00dcbermensch shall be the meaning of the earth! I entreat you my brethren, remain true to the earth, and do not believe those who speak to you of supra-terrestrial hopes! … Behold, I teach you the \u00dcbermensch: he is this lightning, he is this madness! … Behold, I am a prophet of the lightning and a heavy drop from the cloud: but this lightning is called \u00dcbermensch.'
     ],
-    ['Sylux',[1,'Rouei'],'HG',false,true,false,'IBO','A','202x',0,false,'Builds/Metroid/Sylux.html','Metroid'],
 
     //Universal Century
     ['Dew Drop',[1,'Acguy'],'HG',
@@ -13571,7 +13570,7 @@ const projects = [
         ],false,false,true,'1:144'
     ],
     ['Fantomas',[1,'Banshee Norn'],'SD',
-        false,false,false,'UC','E','2021-06-12',15.02,true,'Builds/Gundams/Fantomas.html','Practice SDs','2021-08-03',models[20],
+        false,false,false,'UC','E','2021-06-12',15.02,true,'Builds/Gundams/Fantomas.html',false,'2021-08-03',models[20],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Fantomas01.jpeg','Fantomas','img1'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Fantomas02.jpeg','Fantomas','img2'],
@@ -13599,10 +13598,10 @@ const projects = [
             ['NewType','https://newtype.us/p/U9GzVy0DVcUQH57GpMAY/h/sdex-standard-15-banshee-norn-destroy-mode']
         ],false,true,true,false
     ],
-    ['King Uranus',[1,'Banshee Norn'],'RG',false,false,false,'UC','B',false,0,false,'Builds/Gundams/Uranus.html','Planets',false,models[20],false],
+    ['King Uranus',[1,'Banshee Norn'],'RG',false,false,false,'UC','B',false,0,false,'Builds/Gundams/Uranus.html',false,false,models[20],false],
     ['Metroid [Larva]',[1,'Baund-Doc'],'HG',false,false,false,'UC','A'],
     ['ARRRgent',[1,'Crossbone X-1'],'SD',
-        false,false,false,'UC','E','2021-06-09',14.09,false,'Builds/Gundams/Arrrgent.html','Practice SDs','2021-06-25',models[18],
+        false,false,false,'UC','E','2021-06-09',14.09,false,'Builds/Gundams/Arrrgent.html',false,'2021-06-25',models[18],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/arrrgent01.jpeg','Arrrgent Gundam','img1'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/arrrgent02.jpeg','Arrrgent Gundam','img2'],
@@ -13626,7 +13625,7 @@ const projects = [
     ['Crossbone [RG]',[1,'Crossbone X-1'],'RG',true,false,false,'UC','D','2022-05-07',9.08,false,false,false],
     ['King Neptune',[1,'Crossbone X-1'],'RG',false,false,false,'UC','B'],
     ['Jackie-O',[1,'Delta Plus'],'SD',
-        false,false,false,'UC','E','2022-01-07',11.17,false,'Builds/Gundams/JackieO.html','America','2022-07-11',models[42],
+        false,false,false,'UC','E','2022-01-07',11.17,false,'Builds/Gundams/JackieO.html',false,'2022-07-11',models[42],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/airforce01.jpeg','Airforce One','img1'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/airforce02.jpeg','Airforce One','img2'],
@@ -13678,7 +13677,7 @@ const projects = [
     ['Rhea',[1,'RX-75 Guntank'],'SD',false,false,false,'UC','B'],
     ['Metroid [Zeta]',[1,'Hygogg'],'HG',false,false,false,'UC','A'],
     ['Theia',[1,'Kshatriya'],'SD',
-        false,false,false,'UC','E','2022-12-08',12.03,false,'Builds/Gundams/Theia.html','Titans','2024-04-15',models[126],
+        false,false,false,'UC','E','2022-12-08',12.03,false,'Builds/Gundams/Theia.html',false,'2024-04-15',models[126],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/theia01.jpeg','Theia'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/theia02.jpeg','Theia'],
@@ -13793,7 +13792,7 @@ const projects = [
     ],
     ['Mnemosyne',[1,'Neue Ziuel'],'SD',false,false,false,'UC','B'],
     ['\u03C0 (pi)',[1,'Nu Gundam'],'SD',
-        false,false,false,'UC','E','2021-06-06',15.66,false,'Builds/Gundams/Pi.html','Practice SDs','2021-06-22',models[13],
+        false,false,false,'UC','E','2021-06-06',15.66,false,'Builds/Gundams/Pi.html',false,'2021-06-22',models[13],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/pi01_8VsNSXZBP8w3T14bVGf76h.jpeg','Pi Gundam','img1'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/pi02_gTp9iuAuGDycFLow3wi994.jpeg','Pi Gundam','img2'],
@@ -13863,7 +13862,7 @@ const projects = [
     ['Milos',[1,'Nu Gundam, Hi'],'SD',false,false,false,'UC','B'],
     ['Nemesis-T Type',[1.5,'Nu Gundam, Hi','Hi Nu Expansion Pack','Hi Nu Hyper Bazooka'],'RG',false,true,false,'UC','B'],
     ['Bella Donna',[2,'Phenex','Phenex'],'SD',
-        false,false,false,'UC','E','2021-12-06',14.37,false,'Builds/Gundams/BellaDonna.html','Phoneix','2023-03-16',models[28],
+        false,false,false,'UC','E','2021-12-06',14.37,false,'Builds/Gundams/BellaDonna.html',false,'2023-03-16',models[28],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/belladonna01.jpeg','Gundam Bella Donna','img1'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/belladonna02.jpeg','Gundam Bella Donna','img2'],
@@ -13894,7 +13893,7 @@ const projects = [
     ],
     ['Phenex [SD]',[1,'Phenex'],'SD',true,false,false,'UC','E','2021-10-11',4.17,false,false,false,'2023-03-13'],
     ['Sovereign',[1,'Phenex'],'SD',
-        false,false,false,'UC','E','2021-11-08',5.93,false,'Builds/Gundams/Sovereign.html','Phoneix','2023-03-15',models[28],
+        false,false,false,'UC','E','2021-11-08',5.93,false,'Builds/Gundams/Sovereign.html',false,'2023-03-15',models[28],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/sovereign01.jpeg','Gundam Sovereign','img1'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/sovereign02.jpeg','Gundam Sovereign','img2'],
@@ -13916,7 +13915,7 @@ const projects = [
         ],['Bella Donna','Titan'],true,true
     ],
     ['Titan',[1,'Phenex'],'SD',
-        false,false,false,'UC','E','2021-11-07',6.63,false,'Builds/Gundams/Titan.html','Phoneix','2023-03-14',models[28],
+        false,false,false,'UC','E','2021-11-07',6.63,false,'Builds/Gundams/Titan.html',false,'2023-03-14',models[28],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/titan01.jpeg','Gundam Titan','img1'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/titan02.jpeg','Gundam Titan','img2'],
@@ -13938,7 +13937,7 @@ const projects = [
         ],['Bella Donna','Sovereign'],true,true,false
     ],
     ['Pokeball',[1,'Podball'],'MG',
-        false,false,false,'UC','E','2024-11-22',9.75,false,'Builds/Gundams/PBall.html','Pokeball','2025-03-24',models[136],
+        false,false,false,'UC','E','2024-11-22',9.75,false,'Builds/Gundams/PBall.html',false,'2025-03-24',models[136],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/PBallMain01.jpeg','Pokeball'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/PBallMain02.jpeg','Pokeball'],
@@ -14233,7 +14232,7 @@ const projects = [
         ],false,false,true,'1:100'
     ],
     ['Blue Monday',[1,'Sisquiede'],'SD',
-        false,false,false,'UC','E','2022-01-06',6.76,false,'Builds/Gundams/BlueMonday.html','SD Rock','2023-12-11',models[101],
+        false,false,false,'UC','E','2022-01-06',6.76,false,'Builds/Gundams/BlueMonday.html',false,'2023-12-11',models[101],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/bluemonday01.jpeg','Blue Monday'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/bluemonday02.jpeg','Blue Monday'],
@@ -14261,7 +14260,7 @@ const projects = [
         ],false,false,true
     ],
     ['Rocket Man',[1,'Xi Gundam'],'SD',
-        false,false,false,'UC','E','2022-01-08',6.5,false,'Builds/Gundams/RocketMan.html','SD Rock','2024-01-01',models[103],
+        false,false,false,'UC','E','2022-01-08',6.5,false,'Builds/Gundams/RocketMan.html',false,'2024-01-01',models[103],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/rocketman01.jpeg','Rocket Man'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/rocketman02.jpeg','Rocket Man'],
@@ -14290,7 +14289,7 @@ const projects = [
     ['Metroid [Alpha]',[1,'Zeong'],'HG',false,false,false,'UC','A'],
     ['Zeong [RG]',[1,'Zeong'],'RG',true,false,false,'UC','E','2021-08-07',8.25,false,false,false,'2022-03-14'],
     ['Starrider',[1,'Zeta Gundam'],'SD',
-        false,false,false,'UC','E','2021-09-08',6.83,false,'Builds/Gundams/Starrider.html','SD Rock','2023-03-08',models[45],
+        false,false,false,'UC','E','2021-09-08',6.83,false,'Builds/Gundams/Starrider.html',false,'2023-03-08',models[45],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/starrider01.jpeg','Starrider','img1'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/starrider02.jpeg','Starrider','img2'],
@@ -14345,7 +14344,7 @@ const projects = [
     ['Four Horsemen',[4,'Barbataurus','Barbataurus','Barbataurus','Barbataurus'],'HG',false,false,false,'BD','B'],
     ['King Sol',[1,'Helios'],'HG',false,false,false,'BD','B'],
     ['Der Kommissar',[1,'Lightning Gundam'],'SD',
-        false,false,false,'BD','E','2021-12-11',4.05,false,'Builds/Gundams/DerKommissar.html','SD Rock','2023-04-03',models[35],
+        false,false,false,'BD','E','2021-12-11',4.05,false,'Builds/Gundams/DerKommissar.html',false,'2023-04-03',models[35],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/komm01.jpeg','Der Kommissar','img1'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/komm02.jpeg','Der Kommissar','img2'],
@@ -14368,7 +14367,7 @@ const projects = [
     ],
     ['King Jupiter',[1,'Livelance'],'HG',false,false,false,'BD','B'],
     ['Luxe-Ball',[1,'Polypodball KA'],'MG',
-        false,true,false,'BD','E','2024-07-14',15.08,false,'Builds/PBandai/LuxeBall.html','Pokeball','2024-09-23',models[135],
+        false,true,false,'BD','E','2024-07-14',15.08,false,'Builds/PBandai/LuxeBall.html',false,'2024-09-23',models[135],
         [
             ['https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/4841aa4c-9ff1-4f55-afe9-a436aa5d7f82.jpg','Gunplas Builders World Cup 3rd Place'],
             ['https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/e1a16209-45bb-442b-846f-84583d7b662e.jpeg','Gunplas Builders World Cup 3rd Place'],
@@ -15005,7 +15004,7 @@ const projects = [
 
     //Haro
     ['Haro Blue',[1,'Haropla #05 Control Blue'],'Haro',
-        false,false,false,'','E','2023-04-07',2.55,false,'Builds/Haro/HaroBlue.html','HARO','2024-01-08',models[104],
+        false,false,false,'','E','2023-04-07',2.55,false,'Builds/Haro/HaroBlue.html',false,'2024-01-08',models[104],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/haroblue01.jpeg','Blue Haro'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/haroblue02.jpeg','Blue Haro'],
@@ -15026,7 +15025,7 @@ const projects = [
         ],false,false,true,false
     ],
     ['Haro Cloud',[1,'Haropla #12 Basic Green'],'Haro',
-        false,false,false,'','E','2023-04-14',3.27,false,'Builds/Haro/HaroCloud.html','HARO','2024-04-04',models[117],
+        false,false,false,'','E','2023-04-14',3.27,false,'Builds/Haro/HaroCloud.html',false,'2024-04-04',models[117],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/HCloud01.jpeg','Haro Cloud'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/HCloud02.jpeg','Haro Cloud'],
@@ -15045,7 +15044,7 @@ const projects = [
         ],false,false,true,false
     ],
     ['Haro Green',[1,'Haropla #12 Basic Green'],'Haro',
-        false,false,false,'','E','2023-04-08',2.75,false,'Builds/Haro/HaroGreen.html','HARO','2024-02-05',models[117],
+        false,false,false,'','E','2023-04-08',2.75,false,'Builds/Haro/HaroGreen.html',false,'2024-02-05',models[117],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/gharo01.jpeg','Green Haro'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/gharo02.jpeg','Green Haro'],
@@ -15067,7 +15066,7 @@ const projects = [
         ],false,false,true,false
     ],
     ['Haro Lime',[1,'Haropla #12 Basic Green'],'Haro',
-        false,false,false,'','E','2023-04-13',3.34,false,'Builds/Haro/HaroLime.html','HARO','2024-03-27',models[117],
+        false,false,false,'','E','2023-04-13',3.34,false,'Builds/Haro/HaroLime.html',false,'2024-03-27',models[117],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/HLime01.jpeg','Haro Lime'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/HLime02.jpeg','Haro Lime'],
@@ -15088,7 +15087,7 @@ const projects = [
         ],false,false,true,false
     ],
     ['Haro Orange',[1,'Haropla #11 Zakrello'],'Haro',
-        false,false,false,'','E','2023-04-11',4.08,false,'Builds/Haro/HaroOrange.html','HARO','2024-04-10',models[125],
+        false,false,false,'','E','2023-04-11',4.08,false,'Builds/Haro/HaroOrange.html',false,'2024-04-10',models[125],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/haronge01.jpeg','Haro Orange'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/haronge02.jpeg','Haro Orange'],
@@ -15112,7 +15111,7 @@ const projects = [
         ],false,false,true,false
     ],
     ['Haro Pink',[1,'Haropla #04 Momo Pink'],'Haro',
-        false,false,false,'','E','2023-04-09',2.68,false,'Builds/Haro/HaroPink.html','HARO','2024-02-26',models[120],
+        false,false,false,'','E','2023-04-09',2.68,false,'Builds/Haro/HaroPink.html',false,'2024-02-26',models[120],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/pinkharo00.jpeg','Pink Haro'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/pinkharo01.jpg','Pink Haro'],
@@ -15140,7 +15139,7 @@ const projects = [
         ],false,false,true,false
     ],
     ['Haro Purple',[1,'Haropla #07 Ball Haro'],'Haro',
-        false,false,false,'','E','2023-04-10',2.65,false,'Builds/Haro/HaroPurple.html','HARO','2024-03-12',models[122],
+        false,false,false,'','E','2023-04-10',2.65,false,'Builds/Haro/HaroPurple.html',false,'2024-03-12',models[122],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/pharo00.jpeg','Purple Haro'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/pharo01_jALHtaniTAixJqnymwwXDx.jpeg','Purple Haro'],
@@ -15164,7 +15163,7 @@ const projects = [
         ],false,false,true,false
     ],
     ['Haro Red',[1,'Haropla #02 Diva Red'],'Haro',
-        false,false,false,false,'E','2023-04-06',2.78,false,'Builds/Haro/HaroRed.html','HARO','2023-05-30',models[12],
+        false,false,false,false,'E','2023-04-06',2.78,false,'Builds/Haro/HaroRed.html',false,'2023-05-30',models[12],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/redharo01.jpeg','Red Haro','img1'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/redharo02.jpeg','Red Haro','img2'],
@@ -15223,7 +15222,7 @@ const projects = [
         ],false,false,true,'1:25'
     ],
     ['Wilbur',[1,'Volkswagen Beetle, 68'],'Car',
-        false,false,false,'Volkswagen','E','2022-11-05',27.08,true,'Builds/Automobiles/Wilbur.html','Wilbur','2023-01-02',models[4],
+        false,false,false,'Volkswagen','E','2022-11-05',27.08,true,'Builds/Automobiles/Wilbur.html',false,'2023-01-02',models[4],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/wilbur01.jpeg','Wilbur the Beetle','img1'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/wilbur02.jpeg','Wilbur the Beetle','img2'],
@@ -15286,7 +15285,7 @@ const projects = [
     
     //Pokemon
     ['Cetautomatix',[1,'Arceus'],'Pokemon',
-        false,false,false,'','E','2024-02-16',4.53,false,'Builds/Pokemon/CetautomatixArceus.html','Asterix','2025-09-01',models[171],
+        false,false,false,'','E','2024-02-16',4.53,false,'Builds/Pokemon/CetautomatixArceus.html',false,'2025-09-01',models[171],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/CetautoArceus01.jpeg','Cetautomatix'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/CetautoArceus02.jpeg','Cetautomatix'],
@@ -15321,7 +15320,7 @@ const projects = [
     ],
     ['Harmonix',[1,'Mega Blaziken'],'Pokemon',false,false,false,'','A'],
     ['Obelix',[1,'Bulbasaur'],'Pokemon',
-        false,false,false,'','E','2023-09-13',3.07,false,'Builds/Pokemon/Obelix.html','Asterix','2023-10-23',models[94],
+        false,false,false,'','E','2023-09-13',3.07,false,'Builds/Pokemon/Obelix.html',false,'2023-10-23',models[94],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Obelix_8909.jpeg','Obelix'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Obelix_8910.jpeg','Obelix'],
@@ -15374,7 +15373,7 @@ const projects = [
         ],['Jasper','Cooper'],false,true,false,false,false,false,false,false,false,'Pokemon Bulbasaur 13 Quick Model Kit'
     ],
     ['Asterix',[1,'Charmander'],'Pokemon',
-        false,false,false,'','E','2023-03-12',3.85,false,'Builds/Pokemon/Asterix.html','Asterix','2023-08-28',models[79],
+        false,false,false,'','E','2023-03-12',3.85,false,'Builds/Pokemon/Asterix.html',false,'2023-08-28',models[79],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/asterix13.jpeg','Asterix'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/asterix14.jpeg','Asterix'],
@@ -15510,7 +15509,7 @@ const projects = [
         ],['Vercingetorix'],true,true,false,false,false,false,false,false,false,'Pokemon Select Series 43 Charizard & Dragonite Model Kit Set'
     ],
     ['Beatrice',[1,'Eevee'],'Pokemon',
-        false,false,false,'','E','2024-07-10',1.38,false,'Builds/Pokemon/Beatrice.html','Angela','2025-03-18',models[131],
+        false,false,false,'','E','2024-07-10',1.38,false,'Builds/Pokemon/Beatrice.html',false,'2025-03-18',models[131],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Beatrice01.jpeg','Beatrice'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Beatrice02.jpeg','Beatrice'],
@@ -15542,7 +15541,7 @@ const projects = [
         ],false,true,true,false,false,false,false,false,false,false,'Pokemon Eevee Model Kit'
     ],    //Red
     ['Bandit',[1,'Eevee'],'Pokemon',
-        false,false,false,'','E','2024-07-10',1.08,false,'Builds/Pokemon/Bandit.html','Angela','2025-03-31',models[131],
+        false,false,false,'','E','2024-07-10',1.08,false,'Builds/Pokemon/Bandit.html',false,'2025-03-31',models[131],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Bandit01.jpeg','Bandit'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Bandit02.jpeg','Bandit'],
@@ -15570,7 +15569,7 @@ const projects = [
         ],false,true,true,false,false,false,false,false,false,false,'Pokemon Eevee (Sleeping Pose) 07 Quick Model Kit'
     ],    //Blue
     ['Sprinkles',[1,'Eevee'],'Pokemon',
-        false,false,false,'','D','2025-07-18',1.62,false,'Builds/Pokemon/SprinklesEevee.html','Angela','2026-02-16',models[131],
+        false,false,false,'','D','2025-07-18',1.62,false,'Builds/Pokemon/SprinklesEevee.html',false,'2026-02-16',models[131],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Bandit01.jpeg','Sprinkles']
         ],
@@ -15597,11 +15596,33 @@ const projects = [
         ],false,true,false,false,false,false,false,false,false,false,'Pokemon Select Series 6 Empoleon Evolution Set Model Kit'
     ],
     ['Soporifix',[1,'Entei'],'Pokemon',
-        false,false,false,'','D','2025-07-03',3.31,false,'Builds/Pokemon/SopEnt.html',false,'2025-11-24'
+        false,false,false,'','E','2025-07-03',3.31,false,'Builds/Pokemon/SopEnt.html',false,'2025-11-24',models[173],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SoporEnt01.jpeg','Soporifix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SoporEnt02.jpeg','Soporifix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SoporEnt03.jpeg','Soporifix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SoporEnt04.jpeg','Soporifix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SoporEnt05.jpeg','Soporifix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SoporEnt06.jpeg','Soporifix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SoporEnt07.jpeg','Soporifix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SoporEnt08.jpeg','Soporifix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SoporEnt09.jpeg','Soporifix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SoporEnt10.jpeg','Soporifix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SoporEnt11.jpeg','Soporifix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SoporEnt12.jpeg','Soporifix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SoporEnt13.jpeg','Soporifix']
+        ],['https://hosting.photobucket.com/images/i/lesaintdumech/SoporEnt10.jpeg','Profile Photo: Soporifix'],
+        'Stuck to the traditinoal design for the colors on this one. No customizations for Entei at all. Though did use a Tamiya copper for the main coat to add some extra shine. And the Mr Hobby Metallic Red for the crest around the face just to make him more regal.',false,
+        [
+            ['Video','https://youtu.be/973aher6XgI'],
+            ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Entei_(Pokémon)'],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-select-series-11-entei-model-kit'],
+            ['NewType','https://newtype.us/p/Owot9ss1EzaqSx3ljgfU/h/pokemon-entei']
+        ],['Pacifix','Postaldistrix'],true,true,false,false,false,false,false,false,false,'Pokemon Select Series 11 Entei Model Kit'
     ],
     ['Instantmix',[1,'Fuecoco'],'Pokemon',false,false,false,'','D','2025-08-13',1.61],
     ['Astronomix',[1,'Gengar'],'Pokemon',
-        false,false,false,'','E','2023-12-11',2.68,false,'Builds/Pokemon/AstronGengar.html','Asterix','2025-08-04',models[169],
+        false,false,false,'','E','2023-12-11',2.68,false,'Builds/Pokemon/AstronGengar.html',false,'2025-08-04',models[169],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/AstronomixGengar01.jpeg','Astronomix'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/AstronomixGengar02.jpeg','Astronomix'],
@@ -15696,7 +15717,7 @@ const projects = [
         ],false,true,true,false,false,false,false,false,false,false,'Pokemon Select Series 54 Groudon Model Kit'
     ],
     ['Cassivellaunus',[1,'Gyarados'],'Pokemon',
-        false,false,false,'','E','2023-09-18',5.39,false,'Builds/Pokemon/Cassiv.html','Asterix','2025-01-06',models[148],
+        false,false,false,'','E','2023-09-18',5.39,false,'Builds/Pokemon/Cassiv.html',false,'2025-01-06',models[148],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Cassivel01.jpeg','Cassivellaunus'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Cassivel02.jpeg','Cassivellaunus'],
@@ -15743,7 +15764,7 @@ const projects = [
         false,false,false,'','D','2025-10-08',4.56,false,'Builds/Pokemon/SkullGyar.html',false,'2026',models[148]
     ],//gray scale
     ['Vitalstatistix',[1,'Ho-oh'],'Pokemon',
-        false,false,false,'','E','2024-02-20',5.17,false,'Builds/Pokemon/Vital.html','Asterix','2025-05-12',models[132],
+        false,false,false,'','E','2024-02-20',5.17,false,'Builds/Pokemon/Vital.html',false,'2025-05-12',models[132],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/VitalStat01.jpeg','Vitalstatistix'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/VitalStat02.jpeg','Vitalstatistix'],
@@ -15824,7 +15845,7 @@ const projects = [
     ],
     ['Faustulus',[1,'Mega Lucario'],'Pokemon',false,false,false,'','B'],
     ['Chanticleerix',[1,'Lugia'],'Pokemon',
-        false,false,false,'','E','2023-12-13',4.18,false,'Builds/Pokemon/Chantic.html','Asterix','2025-05-26',models[163],
+        false,false,false,'','E','2023-12-13',4.18,false,'Builds/Pokemon/Chantic.html',false,'2025-05-26',models[163],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/SeaChanty01.jpeg','Chanticleerix'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/SeaChanty02.jpeg','Chanticleerix'],
@@ -15874,7 +15895,7 @@ const projects = [
     ],
     ['Unhygienix',[1,'Magikarp'],'Pokemon',false,false,false,'','A'],
     ['Cacofonix',[1,'Metagross'],'Pokemon',
-        false,false,false,'','E','2023-09-18',4.54,false,'Builds/Pokemon/Cacofonix.html','Asterix','2025-02-04',models[151],
+        false,false,false,'','E','2023-09-18',4.54,false,'Builds/Pokemon/Cacofonix.html',false,'2025-02-04',models[151],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Cacofonix01.jpeg','Cacofonix'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Cacofonix02.jpeg','Cacofonix'],
@@ -15921,7 +15942,7 @@ const projects = [
         ],false,true,true,false,false,false,false,false,false,false,'Pokemon Select Series 53 Metagross Model Kit'
     ],
     ['Monosyllabix',[1,'Mew'],'Pokemon',
-        false,false,false,'','E','2023-10-22',2.04,false,'Builds/Pokemon/Monosyl.html','Asterix','2025-04-28',models[162],
+        false,false,false,'','E','2023-10-22',2.04,false,'Builds/Pokemon/Monosyl.html',false,'2025-04-28',models[162],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Monosyllabix01.jpeg','Monosyllabix'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Monosyllabix02.jpeg','Monosyllabix'],
@@ -15961,7 +15982,7 @@ const projects = [
         ],['Polysyllabix'],true,true,false,false,false,false,false,false,false,'Pokemon Mew 02 Quick Model Kit'
     ],
     ['Polysyllabix',[1,'Mewtwo'],'Pokemon',
-        false,false,false,'','E','2023-11-25',4.83,false,'Builds/Pokemon/Polysyl.html','Asterix','2025-04-15',models[161],
+        false,false,false,'','E','2023-11-25',4.83,false,'Builds/Pokemon/Polysyl.html',false,'2025-04-15',models[161],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Polysyllablix01.jpeg','Polysyllabix'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Polysyllablix02.jpeg','Polysyllabix'],
@@ -16100,7 +16121,7 @@ const projects = [
         ],false,true,false,false,false,false,false,false,false,false,'Pokemon Select Series 6 Empoleon Evolution Set Model Kit'
     ],
     ['Postaldistrix',[1,'Raikou'],'Pokemon',
-        false,false,false,'','E','2024-09-13',2.75,false,'Builds/Pokemon/PostRai.html','Asterix','2025-11-10',models[172],
+        false,false,false,'','E','2024-09-13',2.75,false,'Builds/Pokemon/PostRai.html',false,'2025-11-10',models[172],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/PostalRaikou01.jpeg','Postaldistrix'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/PostalRaikou02.jpeg','Postaldistrix'],
@@ -16152,7 +16173,7 @@ const projects = [
         ],['Pacifix','Soporifix'],true,true,false,false,false,false,false,false,false,'Pokemon Select Series 10 Raikou Model Kit'
     ],
     ['Getafix',[1,'Rayquaza'],'Pokemon',
-        false,false,false,'','E','2023-09-18',5.74,false,'Builds/Pokemon/Getafix.html','Asterix','2025-01-20',models[150],
+        false,false,false,'','E','2023-09-18',5.74,false,'Builds/Pokemon/Getafix.html',false,'2025-01-20',models[150],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Getafix01.jpeg','Getafix'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Getafix02.jpeg','Getafix'],
@@ -16196,7 +16217,7 @@ const projects = [
     ],
     ['Geriatrix',[1,'Reshiram'],'Pokemon',false,false,false,'','A'],
     ['Dogmatix',[1,'Riolu'],'Pokemon',
-        false,false,false,'','E','2023-10-03',2.97,false,'Builds/Pokemon/Dogmatix.html','Asterix','2025-06-25',models[166],
+        false,false,false,'','E','2023-10-03',2.97,false,'Builds/Pokemon/Dogmatix.html',false,'2025-06-25',models[166],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Dogmatix01.jpeg','Dogmatix'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Dogmatix02.jpeg','Dogmatix'],
@@ -16268,7 +16289,40 @@ const projects = [
         ],['Jade','Jasper'],false,true,false,false,false,false,false,false,false,'Pokemon Squirtle 17 Quick Model Kit'
     ],
     ['Pacifix',[1,'Suicune'],'Pokemon',
-        false,false,false,'','D','2025-07-03',3.72,false,'Builds/Pokemon/Pacifix.html',false,'2025-12-08'
+        false,false,false,'','D','2025-07-03',3.72,false,'Builds/Pokemon/PacSui.html',false,'2025-12-08',models[174],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PacSuic01.jpeg','Pacifix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PacSuic02.jpeg','Pacifix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PacSuic03.jpeg','Pacifix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PacSuic04.jpeg','Pacifix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PacSuic05.jpeg','Pacifix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PacSuic06.jpeg','Pacifix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PacSuic07.jpeg','Pacifix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PacSuic08.jpeg','Pacifix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PacSuic09.jpeg','Pacifix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PacSuic10.jpeg','Pacifix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PacSuic11.jpeg','Pacifix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PacSuic12.jpeg','Pacifix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PacSuic13.jpeg','Pacifix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PacSuic14.jpeg','Pacifix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PacSuic15.jpeg','Pacifix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PacSuic16.jpeg','Pacifix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PacSuic17.jpeg','Pacifix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PacSuic18.jpeg','Pacifix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PacSuic19.jpeg','Pacifix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PacSuic20.jpeg','Pacifix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PacSuic21.jpeg','Pacifix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PacSuic22.jpeg','Pacifix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PacSuic23.jpeg','Pacifix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PacSuic24.jpeg','Pacifix']
+        ],['https://hosting.photobucket.com/images/i/lesaintdumech/PacSuic05.jpeg','Profile Photo: Pacifix'],
+        'SUICUNE',false,
+        [
+            ['Video',''],
+            ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Suicune_(Pokémon)'],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-select-series-09-suicune-model-kit'],
+            ['NewType','https://newtype.us/p/SuUdDlyt5v6KxgFYslV7/h/pokemon-suicune']
+        ],['Postaldistrix','Soporifix'],true,false,false,false,false,false,false,false,false,'Pokemon Select Series 09 Suicune Model Kit'
     ],
     ['Tusk',[1,'Tepig'],'Pokemon',
         false,false,false,'','E','2023-10-22',3.1,false,'Builds/Pokemon/Tusk.html',false,'2025-07-21',models[168],
@@ -16305,7 +16359,7 @@ const projects = [
         ],false,true,true,false,false,false,false,false,false,false,'Pokemon Tepig 14 Quick Model Kit'
     ], 
     ['Prolix',[1,'Zekrom'],'Pokemon',
-        false,false,false,'','E','2023-12-13',4.05,false,'Builds/Pokemon/ProlixZekrom.html','Asterix','2025-08-18',models[170],
+        false,false,false,'','E','2023-12-13',4.05,false,'Builds/Pokemon/ProlixZekrom.html',false,'2025-08-18',models[170],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/ProlixZekrom01.jpeg','Prolix'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/ProlixZekrom02.jpeg','Prolix'],
@@ -16361,7 +16415,7 @@ const projects = [
     ['Heimdall',[1,'Alphamon'],'Digimon',false,false,false,'','B','2024',0],
     ['Loki',[1,'Beelzemon'],'Digimon',false,false,false,'','A'],
     ['Thor',[1,'Gallantmon'],'Digimon',
-        false,false,false,'','E','2022-10-05',22.5,false,'Builds/Digimon/Thor.html','Norse','2022-11-28',models[64],
+        false,false,false,'','E','2022-10-05',22.5,false,'Builds/Digimon/Thor.html',false,'2022-11-28',models[64],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/thor01.jpeg','Thor','img1'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/thor02.jpeg','Thor','img2'],
@@ -16406,7 +16460,7 @@ const projects = [
     ['Jormungandr',[1,'Imperialdramom'],'Digimon',false,false,false,'','A'],
     ['Nidhogg',[1,'Machinedramon'],'Digimon',false,false,false,'','A'],
     ['Fenrir',[1,'Metal Garurumon'],'Digimon',
-        false,false,false,'','E','2022-07-07',20.58,false,'Builds/Digimon/Fenrir.html','Norse','2022-09-21',models[62],
+        false,false,false,'','E','2022-07-07',20.58,false,'Builds/Digimon/Fenrir.html',false,'2022-09-21',models[62],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/fenrir01.jpeg','Fenrir','img1'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/fenrir02.jpeg','Fenrir','img2'],
@@ -16449,7 +16503,7 @@ const projects = [
     ['T\u00FDr',[1,'Metal Greymon'],'Digimon',false,false,false,'','B','2024',0],
     ['Odin',[1,'Shine Greymon'],'Digimon',false,false,false,'','A'],
     ['Ragnarok',[1,'Omnimon'],'Digimon',
-        false,false,false,'','E','2022-07-05',19.65,false,'Builds/Digimon/Ragnorok.html','Norse','2022-10-17',models[63],
+        false,false,false,'','E','2022-07-05',19.65,false,'Builds/Digimon/Ragnorok.html',false,'2022-10-17',models[63],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/9dcc6225b7a35fba85b21f1804b67b65.jpg','White Omnimon Fan Art'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/ragnarok01.jpeg','Ragnarok','img1'],
@@ -16487,7 +16541,7 @@ const projects = [
     ],
     ['Revelation',[1,'Omnimon X'],'Digimon',false,false,false,'','A'],
     ['Fafnir',[1,'War Greymon'],'Digimon',
-        false,false,false,'','E','2022-07-08',20.7,false,'Builds/Digimon/Fafnir.html','Norse','2022-10-04',models[10],
+        false,false,false,'','E','2022-07-08',20.7,false,'Builds/Digimon/Fafnir.html',false,'2022-10-04',models[10],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/fafnir01.jpeg','Fafnir','img1'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/fafnir02.jpeg','Fafnir','img2'],
@@ -16728,7 +16782,7 @@ const projects = [
 
     //Ship
     ['Libeccio',[0.2,'Andromeda Black'],'Ship',
-        false,false,false,'StarBlazer','E','2022-09-09',4.42,false,'Builds/Ships/Libeccio.html','French Winds','2023-02-06',models[8],
+        false,false,false,'StarBlazer','E','2022-09-09',4.42,false,'Builds/Ships/Libeccio.html',false,'2023-02-06',models[8],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/libeccio01.jpeg','Libeccio Andromeda Class Battleship','img1'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/libeccio02.jpeg','Libeccio Andromeda Class Battleship','img2'],
@@ -16750,7 +16804,7 @@ const projects = [
         ],['Mistral','Levante','Ostro','Ponente'],true,true,'1:1000'
     ],
     ['Ostro',[0.2,'Cosmo Falcon'],'Ship',
-        false,false,false,'StarBlazer','E','2022-07-06',6.33,false,'Builds/Ships/Ostro.html','French Winds','2022-07-18',models[37],
+        false,false,false,'StarBlazer','E','2022-07-06',6.33,false,'Builds/Ships/Ostro.html',false,'2022-07-18',models[37],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/ostro01.jpeg','Ostro','img1'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/ostro02.jpeg','Ostro','img2'],
@@ -16769,7 +16823,7 @@ const projects = [
     ['Ponente',[1,'Cosmo Zero'],'Ship',false,false,false,'StarBlazer','B'],
     ['Levante',[1,'Nagato'],'Ship',false,false,false,'Space Rengo Kantai','B'],
     ['Mistral',[0.2,'Millennium Falcon'],'Ship',
-        false,false,false,'StarWars','E','2024-06-04',2.97,false,'Builds/Ships/Mistral.html','French Winds','2024-08-12',models[133],
+        false,false,false,'StarWars','E','2024-06-04',2.97,false,'Builds/Ships/Mistral.html',false,'2024-08-12',models[133],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/mistral01.jpeg','Mistral'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/mistral02.jpeg','Mistral'],
@@ -16806,7 +16860,7 @@ const projects = [
 
     //Transformer
     ['Wilbee',[1,'Bumblebee'],'Transformer',
-        false,false,false,false,'E','2022-11-06',9.33,false,'Builds/Transformers/Wilbee.html','Wilbur','2023-01-09',models[5],
+        false,false,false,false,'E','2022-11-06',9.33,false,'Builds/Transformers/Wilbee.html',false,'2023-01-09',models[5],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/wilbee01.jpeg','Wilbee','img1'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/wilbee02.jpeg','Wilbee','img2'],
@@ -16922,6 +16976,9 @@ const projects = [
     ['Shere Khan',[1,'Blade Liger'],'Zoid',false,false,false,'','B'],
     ['Akela',[1,'Konig Wolf Heavy Arms'],'Zoid',false,false,false,'','B','2024',0],
     ['Kipling',[1,'Liger Zero X'],'Zoid',false,false,false,'','B'],
+
+    //Kit Bashes
+    ['Sylux',[1,' HG GQuuuX Red Gundam','HG Rouei','HG Aerial','SD Captain QAN[T]'],'HG',false,true,false,'UCGQ','B','202x',0,false,'Builds/Metroid/Sylux.html',true],
 
     //Other
     ['Gun-Rex',[1,'Steel Dragon'],'Other',false,false,true,false,'B'],
@@ -19486,10 +19543,9 @@ function buildProjectPage(string) {
         popNode(projectArray[17],'projectDescription');
     }
 
-/*    if (projectArray[12]) {
-        unhide('.projectPaintsHD');
-        createList(projectArray[12],'projectPaints');
-    }   */
+    if (projectArray[12]) {
+        unhide('.projectKitBashHD');
+    }   
 
     if (projectArray[18]) {
         unhide('.projectCurrentOwnerHD');

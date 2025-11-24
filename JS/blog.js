@@ -4077,6 +4077,29 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/BibiWingG37.jpeg']
         ]
+    ],
+    [
+        ['2025-11-24','20251124A'],
+        'Wild Turkey Roaster',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/SoporEnt14.jpeg',
+        [
+            [
+                'Gobble Gobble Gobble it\'s Turkey Week everyone. To rush in the holiday I give you ',
+                ['Soporifix','Builds/Pokemon/SopEnt.html'],
+                ', a mighty Entei with the perfect fiery breath to roast that holiday Turkey. Enjoy!'
+            ]
+        ],
+        [
+            [
+                ['Youtube','https://youtu.be/973aher6XgI',true]
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/SoporEnt01.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/SoporEnt08.jpeg']
+        ]
     ]
 ]
 
