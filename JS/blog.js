@@ -4100,6 +4100,65 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/SoporEnt08.jpeg']
         ]
+    ],
+    [
+        ['2025-12-04','20251204A'],
+        'A Return to Metroid and Beyond',
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/ViolaSuit2b.jpeg'],
+        [
+            [
+                'Finally Comrades! Relesase day is finally here and we now have our next installment in the Metroid Prime Series, Metroid Prime Beyond. I delayed this week\'s unveil on purpose just to coincide with the next Metroid Prime release date because this week it\'s the new Samus Suit, ',
+                ['Vi-O-La','Builds/Metroid/ViOLaSuit.html'],
+                '.'
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/mprimebeyondlogo.jpeg']
+        ],
+        [
+            'As you pretty much all already can tell, Metroid is my favorite video game series. Thus why I\'ve painted all the versions of Samus so far. So two things, soon as it was announced and unveiled the next iteration of Metroid Prime, I was obviously immediately stoked and excited just for that alone. But second a new game of course meant there would be new weapons and new suits so I was salivating in antipication for the unveil of the next Samus suit, cause of course soon we knew what it looked like it was a given that I would have to paint and recreate it. From the moment the Vi-O-La suit was unveiled I immediately went to work at painting it. For that alone for all intents and purposes we should just consider the Metroid project open ended and never closed. Cause I will always keep painting every new future version of Samus that Nintendo develops. She is my forever Heroine.'
+        ],
+        [
+            ['img','https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/035b7d03-b578-4060-bfb7-ba6678dbfe27.jpeg']
+        ],
+        [
+            'So anyhow the new game is officially now out today finally. It\'s been a long wait, eighteen years in the making, waiting for this moment. Half my life has gone by waiting for this game. So not only is it a moment of excitement for me but also a moment of relief. Starting tomorrow night there will be no more painting models for a while but just straight up gaming. But with the release of the new game I am so proud to give you all my own Samus Viola Build.'
+        ],
+        [
+            [
+                ['Youtube','https://youtu.be/mGVMuiMb6c0',true]
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/SamScarl58.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/SamScarl59.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/SamScarl61.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/SamScarl74.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/SamScarl75.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/SamScarl77.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/SamScarl64.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/SamScarl63.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/SamScarl62.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/SamScarl79.jpeg']
+        ]
     ]
 ]
 

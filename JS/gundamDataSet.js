@@ -7147,7 +7147,7 @@ const projects = [
         ],false,true,true,'1:144'
     ],
     ['Morgause',[1,'Aerial'],'HG',
-        false,false,false,'Mercury','D','2024-02-16',7.64,false,'Builds/Gundams/MorgausAerial.html',false,'2025-12-29',models[141],
+        false,false,false,'Mercury','D','2024-02-16',7.64,false,'Builds/Gundams/MorgausAerial.html',false,'2026-02-09',models[141],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/GMorgausAerial01.jpeg','Morgause'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/GMorgausAerial02.jpeg','Morgause'],
@@ -7228,6 +7228,7 @@ const projects = [
             ['NewType','https://newtype.us/p/GP81LBhwpuFNcHQ0ktrd/h/sdex-standard-19-gundam-aerial']
         ],false,true,true
     ],
+    ['Aerial [MGSD]',[1,'Aerial'],'MGSD',true,false,false,'Mercury','C','2025-11-25',1.92],
     ['Zephon',[1,'Aerial Rebuild'],'HG',
         false,false,false,'Mercury','E','2023-11-25',16.15,false,'Builds/Gundams/Zephon.html',false,'2024-11-21',models[142],
         [
@@ -7447,7 +7448,9 @@ const projects = [
             'Samus: Metroid Suit',
             'Dark Samus: Echoes',
             'Samus: Zero Suit',
-            'Federation Trooper'
+            'Federation Trooper',
+            'Samus: Vi-O-La Suit',
+            'Sylux'
         ],false,true,'1:144',false,false,'Corruption'
     ], 
     ['Carlibarn [SD]',[1,'Calibarn'],'SD',true,false,false,'Mercury','E','2024-10-24',2],
@@ -7836,7 +7839,7 @@ const projects = [
         ],false,true,true,'1:144'
     ],
     ['Arthur',[1,'Calibarn'],'HG',
-        false,false,false,'Mercury','D','2024-03-01',12.44,false,'Builds/Gundams/ArthurCalibarn.html',false,'2025-12-15',models[144],
+        false,false,false,'Mercury','D','2024-03-01',12.44,false,'Builds/Gundams/ArthurCalibarn.html',false,'2026-01-26',models[144],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/GArthurCalibarn01.jpeg','Arthur'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/GArthurCalibarn02.jpeg','Arthur'],
@@ -8055,6 +8058,7 @@ const projects = [
             ['TurboDork: Ice to Never','https://turbodork.com/products/ice-to-never-1?variant=29460041793606']
         ],
         [
+            'Picanmix',
             'Samus: Varia Suit',
             'Samus: Gravity Suit',
             'Samus: Phazon Suit',
@@ -8067,7 +8071,8 @@ const projects = [
             'Dark Samus: Corruption',
             'Samus: Zero Suit',
             'Federation Trooper',
-            'Picanmix'
+            'Samus: Vi-O-La Suit',
+            'Sylux'
         ],false,true,'1:144',false,false,'Dark Samus'
     ],
     ['The Nazarene',[1,'Gundvolva'],'HG',
@@ -8660,7 +8665,9 @@ const projects = [
             'Samus: Metroid Suit',
             'Dark Samus: Echoes',
             'Dark Samus: Corruption',
-            'Federation Trooper'
+            'Federation Trooper',
+            'Samus: Vi-O-La Suit',
+            'Sylux'
         ],false,true,false,false,false,'Zero Suit'
     ],
     ['Ghor',[1,'Zowort Heavy'],'HG',false,false,false,'Mercury','A','202x',0,false,'Builds/Metroid/Ghor.html',false],
@@ -9015,14 +9022,14 @@ const projects = [
         ],false,true,true,false,'Rasid Kurama Custom'
 
     ],
-    ['Aquanac',[1,'Maganac Corps'],'HG',false,false,false,'Wing','C','2025-10-08',9.26,false,'Builds/Gundams/AquMag.html',false,'2026',models[105]], //Blues/purple
-    ['Floranac',[1,'Maganac Corps'],'HG',false,false,false,'Wing','C','2025-10-28',8.63,false,'Builds/Gundams/FlorMag.html',false,'202x',models[105]], //greens
-    ['Auranac',[1,'Maganac Corps'],'HG',false,false,false,'Wing','C','2025-20-30',7.79,false,'Builds/Gundams/AurMag.html',false,'202x',models[105]], //Gold/silver
-    ['Blanchanac',[1,'Maganac Corps'],'HG',false,false,false,'Wing','C','2025-11-01',8.63,false,'Builds/Gundams/BlanMag.html',false,'202x',models[105]], //White/lightgrey
-    ['Lavanac',[1,'Maganac Corps'],'HG',false,false,false,'Wing','C','2025-11-01',10.13,false,'Builds/Gundams/LavMag.html',false,'202x',models[105]], //red/orange/yellow
-    ['Gothanac',[1,'Maganac Corps'],'HG',false,false,false,'Wing','C','2025-11-01',7.46,false,'Builds/Gundams/GotMag.html',false,'202x',models[105]], //black/greys
-    ['Terranac',[1,'Maganac Corps'],'HG',false,false,false,'Wing','C','2025-11-01',8.07,false,'Builds/Gundams/TerMag.html',false,'202x',models[105]], //browns
-    ['Rosanac',[1,'Maganac Corps'],'HG',false,false,false,'Wing','C','2025-11-16',7.56,false,'Builds/Gundams/TerMag.html',false,'202x',models[105]], //flower colors
+    ['Aquanac',[1,'Maganac Corps'],'HG',false,false,false,'Wing','D','2025-10-08',9.47,false,'Builds/Gundams/AquMag.html',false,'2026',models[105]], //Blues/purple
+    ['Floranac',[1,'Maganac Corps'],'HG',false,false,false,'Wing','C','2025-10-28',8.84,false,'Builds/Gundams/FlorMag.html',false,'202x',models[105]], //greens
+    ['Auranac',[1,'Maganac Corps'],'HG',false,false,false,'Wing','C','2025-20-30',8.01,false,'Builds/Gundams/AurMag.html',false,'202x',models[105]], //Gold/silver
+    ['Blanchanac',[1,'Maganac Corps'],'HG',false,false,false,'Wing','C','2025-11-01',8.85,false,'Builds/Gundams/BlanMag.html',false,'202x',models[105]], //White/lightgrey
+    ['Lavanac',[1,'Maganac Corps'],'HG',false,false,false,'Wing','C','2025-11-01',10.35,false,'Builds/Gundams/LavMag.html',false,'202x',models[105]], //red/orange/yellow
+    ['Gothanac',[1,'Maganac Corps'],'HG',false,false,false,'Wing','C','2025-11-01',7.67,false,'Builds/Gundams/GotMag.html',false,'202x',models[105]], //black/greys
+    ['Terranac',[1,'Maganac Corps'],'HG',false,false,false,'Wing','C','2025-11-01',8.29,false,'Builds/Gundams/TerMag.html',false,'202x',models[105]], //browns
+    ['Rosanac',[1,'Maganac Corps'],'HG',false,false,false,'Wing','C','2025-11-16',10.31,false,'Builds/Gundams/TerMag.html',false,'202x',models[105]], //flower colors
     ['Coheed',[1,'PB Mercurius'],'HG',false,true,false,'Wing','B'],
     ['Isaac',[1,'Proto-Zero'],'SD',
         false,false,false,'Wing','E','2023-02-06',14.14,false,'Builds/Gundams/Isaac.html',false,'2023-05-10',models[31],
@@ -9244,7 +9251,7 @@ const projects = [
         false,true,false,'Wing','B'
     ],
     ['Tallgeese Fl\u00FCgel',[1,'Tallgeese Fl\u00FCgel'],'MG',
-        true,true,false,'Wing','D','2022-05-08',20.17,false,'Builds/PBTallgeeseFlugelMG.html',false,'2026-02-23'
+        true,true,false,'Wing','D','2022-05-08',20.17,false,'Builds/PBTallgeeseFlugelMG.html',false,'2026-04-06'
     ],
     ['Man o\' War',[1,'Tallgeese II'],'RG',false,true,false,'Wing','A'],
     ['Cambria',[1,'PB Vayeate'],'HG',false,true,false,'Wing','B'],
@@ -9480,10 +9487,10 @@ const projects = [
     ['Snow White [RG]',[1,'Wing Zero'],'RG',false,false,false,'Wing','B'],
     ['Snow White [SD]',[1,'Wing Zero'],'SD',false,false,false,'Wing','A'],
     ['Wing Zero KA [MG]',[1,'Wing Zero','GFFMC Wings For MG Wing Zero'],'MG',
-        true,false,false,'Wing','C','2022-06-05',10.83,false,'Builds/Specials/MGWingKAStr.html',false,'2025-12-29'
+        true,false,false,'Wing','C','2022-06-05',10.83,false,'Builds/Specials/MGWingKAStr.html',false,'2026-03-23'
     ],
     ['Perfect Zero',[1,'Wing Gundam'],'PG',
-        true,false,false,'Wing','D','2024-03-22',17.25,true,'Builds/PG/PGWingZero.html',false,'2026-01-26'
+        true,false,false,'Wing','D','2024-03-22',17.25,true,'Builds/PG/PGWingZero.html',false,'2026-03-23'
     ],
     //Zero Project Name Idea: ABSOLUTE ZERO
     //Zero Project Name Idea: MINUS ZERO
@@ -9846,7 +9853,9 @@ const projects = [
             'Samus: Metroid Suit',
             'Dark Samus: Echoes',
             'Dark Samus: Corruption',
-            'Samus: Zero Suit'
+            'Samus: Zero Suit',
+            'Samus: Vi-O-La Suit',
+            'Sylux'
         ],true,true,'1:144'
     ],
     ['Queen Bee',[1,'GN Archer'],'HG',false,false,false,'00','B','2025',0],
@@ -10377,7 +10386,9 @@ const projects = [
             'Dark Samus: Echoes',
             'Dark Samus: Corruption',
             'Samus: Zero Suit',
-            'Federation Trooper'
+            'Federation Trooper',
+            'Samus: Vi-O-La Suit',
+            'Sylux'
         ],false,true,'1:144',false,false,'Varia Suit'
     ],
     ['Samus: Gravity Suit',[1,'Dagger L'],'HG',
@@ -10441,7 +10452,9 @@ const projects = [
             'Dark Samus: Echoes',
             'Dark Samus: Corruption',
             'Samus: Zero Suit',
-            'Federation Trooper'
+            'Federation Trooper',
+            'Samus: Vi-O-La Suit',
+            'Sylux'
         ],false,true,'1:144',false,false,'Gravity Suit'
     ],
     ['Samus: Phazon Suit',[1,'Dagger L'],'HG',
@@ -10497,7 +10510,9 @@ const projects = [
             'Dark Samus: Echoes',
             'Dark Samus: Corruption',
             'Samus: Zero Suit',
-            'Federation Trooper'
+            'Federation Trooper',
+            'Samus: Vi-O-La Suit',
+            'Sylux'
         ],false,true,'1:144',false,false,'Phazon Suit'
     ],
     ['Samus: Dark Suit',[1,'Dagger L'],'HG',
@@ -10586,7 +10601,9 @@ const projects = [
             'Dark Samus: Echoes',
             'Dark Samus: Corruption',
             'Samus: Zero Suit',
-            'Federation Trooper'
+            'Federation Trooper',
+            'Samus: Vi-O-La Suit',
+            'Sylux'
         ],false,true,'1:144',false,false,'Dark Suit'
     ],
     ['Samus: Light Suit',[1,'Dagger L'],'HG',
@@ -10678,7 +10695,9 @@ const projects = [
             'Dark Samus: Echoes',
             'Dark Samus: Corruption',
             'Samus: Zero Suit',
-            'Federation Trooper'
+            'Federation Trooper',
+            'Samus: Vi-O-La Suit',
+            'Sylux'
         ],false,true,'1:144',false,false,'Light Suit'
     ],
     ['Samus: PED Suit',[1,'Dagger L'],'HG',
@@ -10745,7 +10764,9 @@ const projects = [
             'Dark Samus: Echoes',
             'Dark Samus: Corruption',
             'Samus: Zero Suit',
-            'Federation Trooper'
+            'Federation Trooper',
+            'Samus: Vi-O-La Suit',
+            'Sylux'
         ],false,true,'1:144',false,false,'PED Suit'
     ],
     ['Samus: Fusion Suit',[1,'Dagger L'],'HG',
@@ -10811,11 +10832,126 @@ const projects = [
             'Dark Samus: Echoes',
             'Dark Samus: Corruption',
             'Samus: Zero Suit',
-            'Federation Trooper'
+            'Federation Trooper',
+            'Samus: Vi-O-La Suit',
+            'Sylux'
         ],false,true,'1:144',false,false,'Fusion Suit'
     ],
     ['Samus: Vi-O-La Suit',[1.5,'Dagger L','30MM Boost Brave Bike'],'HG',
-        false,false,false,'Seed','D','2025-07-03',12.81,false,'Builds/Metroid/ScarletSam.html',false,'2026-03-09',models[23]
+        false,false,false,'Seed','E','2025-07-03',12.81,false,'Builds/Metroid/ViOLaSuit.html',false,'2025-12-04',models[23],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ViolaSuit.jpeg','Samus Aran: Vi-O-La Suit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ViOLaMany.jpeg','Vi-O-La Other Angles'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ViolaCycle.jpeg','Samus Aran: Vi-O-La Cycle'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SamScarl01.jpeg','Vi-O-La Suit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SamScarl02.jpeg','Vi-O-La Suit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SamScarl03.jpeg','Vi-O-La Suit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SamScarl04.jpeg','Vi-O-La Suit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SamScarl05.jpeg','Vi-O-La Suit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SamScarl06.jpeg','Vi-O-La Suit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SamScarl07.jpeg','Vi-O-La Suit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SamScarl08.jpeg','Vi-O-La Suit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SamScarl09.jpeg','Vi-O-La Suit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SamScarl10.jpeg','Vi-O-La Suit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SamScarl11.jpeg','Vi-O-La Suit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SamScarl12.jpeg','Vi-O-La Suit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SamScarl13.jpeg','Vi-O-La Suit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SamScarl14.jpeg','Vi-O-La Suit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SamScarl15.jpeg','Vi-O-La Suit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SamScarl16.jpeg','Vi-O-La Suit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SamScarl17.jpeg','Vi-O-La Suit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SamScarl18.jpeg','Vi-O-La Suit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SamScarl19.jpeg','Vi-O-La Suit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SamScarl20.jpeg','Vi-O-La Suit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SamScarl21.jpeg','Vi-O-La Suit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SamScarl22.jpeg','Vi-O-La Suit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SamScarl23.jpeg','Vi-O-La Suit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SamScarl24.jpeg','Vi-O-La Suit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SamScarl25.jpeg','Vi-O-La Suit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SamScarl26.jpeg','Vi-O-La Suit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SamScarl27.jpeg','Vi-O-La Suit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SamScarl28.jpeg','Vi-O-La Suit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SamScarl29.jpeg','Vi-O-La Suit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SamScarl30.jpeg','Vi-O-La Suit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SamScarl31.jpeg','Vi-O-La Suit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SamScarl32.jpeg','Vi-O-La Suit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SamScarl33.jpeg','Vi-O-La Suit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SamScarl34.jpeg','Vi-O-La Suit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SamScarl35.jpeg','Vi-O-La Suit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SamScarl36.jpeg','Vi-O-La Suit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SamScarl37.jpeg','Vi-O-La Suit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SamScarl38.jpeg','Vi-O-La Suit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SamScarl39.jpeg','Vi-O-La Suit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SamScarl40.jpeg','Vi-O-La Suit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SamScarl41.jpeg','Vi-O-La Suit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SamScarl42.jpeg','Vi-O-La Suit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SamScarl43.jpeg','Vi-O-La Suit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SamScarl44.jpeg','Vi-O-La Suit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SamScarl45.jpeg','Vi-O-La Suit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SamScarl46.jpeg','Vi-O-La Suit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SamScarl47.jpeg','Vi-O-La Suit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SamScarl48.jpeg','Vi-O-La Suit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SamScarl49.jpeg','Vi-O-La Suit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SamScarl50.jpeg','Vi-O-La Suit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SamScarl51.jpeg','Vi-O-La Suit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SamScarl52.jpeg','Vi-O-La Suit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SamScarl53.jpeg','Vi-O-La Suit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SamScarl54.jpeg','Vi-O-La Suit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SamScarl55.jpeg','Vi-O-La Suit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SamScarl56.jpeg','Vi-O-La Suit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SamScarl57.jpeg','Vi-O-La Suit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SamScarl58.jpeg','Vi-O-La Suit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SamScarl59.jpeg','Vi-O-La Suit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SamScarl60.jpeg','Vi-O-La Suit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SamScarl61.jpeg','Vi-O-La Suit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SamScarl62.jpeg','Vi-O-La Suit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SamScarl63.jpeg','Vi-O-La Suit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SamScarl64.jpeg','Vi-O-La Suit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SamScarl65.jpeg','Vi-O-La Suit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SamScarl66.jpeg','Vi-O-La Suit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SamScarl67.jpeg','Vi-O-La Suit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SamScarl68.jpeg','Vi-O-La Suit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SamScarl69.jpeg','Vi-O-La Suit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SamScarl70.jpeg','Vi-O-La Suit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SamScarl71.jpeg','Vi-O-La Suit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SamScarl72.jpeg','Vi-O-La Suit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SamScarl73.jpeg','Vi-O-La Suit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SamScarl74.jpeg','Vi-O-La Suit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SamScarl75.jpeg','Vi-O-La Suit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SamScarl76.jpeg','Vi-O-La Suit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SamScarl77.jpeg','Vi-O-La Suit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SamScarl78.jpeg','Vi-O-La Suit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SamScarl79.jpeg','Vi-O-La Suit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SamScarl80.jpeg','Vi-O-La Suit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SamScarl81.jpeg','Vi-O-La Suit'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SamScarl82.jpeg','Vi-O-La Suit']
+        ],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/SamScarl23.jpeg','Profile Photo: Vi-O-La Suit'],
+        'There\'s a new Metroid game out now featuring a new Samus Suit. For the longest time we did not know what its name was going to be so the code name for this project the Scarlett Suit. To be honest I like that name better than the official name reveal the Vi-O-La suit. But the new suit is a real pretty red. Which is a new color for Samus. To recreate this color scheme I used the shiny shade Red Queen from our friends at TurboDork and I paired it with a Vallejo flat gunmetal. For the visor and light portions of the suit I wanted to paint a fluerescent neon pinkish purple. But I could not find anything that color in my usual brands of paint. So I tried experimenting and mixing colors to create the color from scratch myself. Everything I came up with was a fail. None of the shades looked right. So eventually I gave up on my airbrush paints and settled for a standard Hobby Lobby off the shelf hand brush acrylic paint and hand painted very slowly all the pertinent pieces. However this was entirely to my luck because I was able to find a black light glow in the dark neon paint which under a black light lights up so bright which is just the coolest light effect. That alone makes this my best Smamus build ever. But I did not stop there. At first I was just going to paint the Dagger like I\'ve done for all my Samus suits builds. However the Vi-O-La suit isn\'t just a suit but it comes paired with a futurist dirtbike too that after long consideration I considered this build incomplete if I did not include the Vi-O-La bike too. TO accomplish that I resorted to 30 Minute Missions who just my luck the same month as the Vi-O-La bike unveil also released a new mecha motor bike kit. Talk about perfect timing. So I bought the 30 Minute Mission bike and painted it in Mr Hobby Metallic Puprle and an assembly of Vallejo flat reds, greys and silvers for the rest of the vike to get it as close to the source material as I could. Its not a perfect match but due to the major shape differences between the model kit and the source material this is the best I could do. There just wasn\'t much I could work with. But I think it looks great. This isn\'t a perfect recreation but an inspiration in the spirit of the original, and I love it.',false,
+        [
+            ['Video','https://youtu.be/mGVMuiMb6c0'],
+            ['USA Gundam Store: Dagger L','https://www.usagundamstore.com/products/hgce-1-144-247-dagger-l'],
+            ['USA Gundam Store: 30 Minute Misson Boost Brave Bike','https://www.usagundamstore.com/products/30-minutes-missions-1-144-exa-vehicle-boost-brave-bike-ver'],
+            ['NewType: Dagger L','https://newtype.us/p/V3s94PjelBrA0T06Q673/h/hgce-237-gat-o2l2-dagger-l'],
+            ['NewType: 30 Minute Misson Boost Brave Bike','https://newtype.us/p/nqyZqJSL9GqYnw7xlHHb/h/30mm-ev-22-extended-armament-vehicle-boost-brave-bike-ver'],
+            ['TurboDork: Red Queen','https://turbodork.com/products/red-queen']
+        ],
+        [
+            'Samus: Varia Suit',
+            'Samus: Gravity Suit',
+            'Samus: Phazon Suit',
+            'Samus: Dark Suit',
+            'Samus: Light Suit',
+            'Samus: PED Suit',
+            'Samus: Fusion Suit',
+            'Samus: Dread Suit',
+            'Samus: Metroid Suit',
+            'Dark Samus: Echoes',
+            'Dark Samus: Corruption',
+            'Samus: Zero Suit',
+            'Federation Trooper',
+            'Sylux'
+        ],false,true,'1:144',false,false,'Vi-O-La Suit'
     ],
     ['Friar Laurence',[1,'Dagger 105 + Gunbarrel'],'HG',false,false,false,'Seed','B'],
     ['Charizard',[1,'Destiny'],'MG',false,false,false,'Seed','B'],
@@ -11746,7 +11882,7 @@ const projects = [
         ],['Skygrasper [PG]'],false,true,'1:60',false,'Strike Perfect Grade','Strike'
     ], 
     ['Perfect Perfect',[1,'Strike, Perfect'],'PG',
-        true,false,false,'Seed','C','2024-05-17',17.25,true,'Builds/PG/PGPerfStrike.html',false,'2025-12-15',models[61]
+        true,false,false,'Seed','C','2024-05-17',17.25,true,'Builds/PG/PGPerfStrike.html',false,'2026-04-20',models[61]
     ],
     ['Perfect Strike [P-Bandai]',[1,'Strike, Perfect'],'RG',
         true,true,false,'Seed','E','2022-03-07',12.33,false,'Builds/PBandai/PBPerfectStrikeRG.html',false,'2022-09-13',models[61],
@@ -11929,7 +12065,9 @@ const projects = [
             'Dark Samus: Echoes',
             'Dark Samus: Corruption',
             'Samus: Zero Suit',
-            'Federation Trooper'
+            'Federation Trooper',
+            'Samus: Vi-O-La Suit',
+            'Sylux'
         ],false,true,'1:144',false,false,'Dread Suit'
     ],
     ['Strike Dagger',[1,'Strike Dagger','Strike Dagger'],'HG',
@@ -12368,7 +12506,9 @@ const projects = [
             'Dark Samus: Echoes',
             'Dark Samus: Corruption',
             'Samus: Zero Suit',
-            'Federation Trooper'
+            'Federation Trooper',
+            'Samus: Vi-O-La Suit',
+            'Sylux'
         ],false,true,'1:144',false,false,'Metroid Suit'
     ],
     ['Slash Zaku Phantom',[1,'Zaku Phantom, Slash'],'MG',
@@ -14588,7 +14728,7 @@ const projects = [
     ],
     ['Sasuki Delta [SD]',[1,'Delta, Saskui'],'SD',true,false,false,'Heroes','E','2021-09-05',1.5,false,false,false,'2022-06-20'],
     ['Quetzalcoatl',[1,'Dragon, Dark Grasper'],'SD',
-        false,false,false,'Heroes','D','2024-06-06',3.81,false,'Builds/SDW/QuetzlDGDragon.html',false,'2026-04-20',models[181],
+        false,false,false,'Heroes','D','2024-06-06',3.81,false,'Builds/SDW/QuetzlDGDragon.html',false,'2026-11-16',models[181],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/QuetzlDarkDragon01.jpeg','Quetzalcoatl'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/QuetzlDarkDragon02.jpeg','Quetzalcoatl'],
@@ -14652,7 +14792,7 @@ const projects = [
         false,false,false,'Heroes','D','2024-07-08',3.24,false,'Builds/SDW/Pharo.html',false,'2026-03-02'
     ], //peacock
     ['Tiamat',[1,'Dragon, Shining Grasper'],'SD',
-        false,false,false,'Heroes','D','2024-07-04',2.58,false,'Builds/SDW/TiamatSGDragon.html',false,'2026-05-04',models[180],
+        false,false,false,'Heroes','D','2024-07-04',2.58,false,'Builds/SDW/TiamatSGDragon.html',false,'2026-11-30',models[180],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/TiamatShineDragon01.jpeg','Tiamat'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/TiamatShineDragon02.jpeg','Tiamat'],
@@ -15000,7 +15140,7 @@ const projects = [
 
     ], //Regular wing EW
     ['Hyperion',[1,'Wing, Tian Ba Cao Cao'],'SD',false,false,false,'Heroes','B'],   // wing zero 
-    ['Zero Knight',[1,'Zero Gundam, Legend BB Devil Dragon Blade'],'SD',false,false,false,'Heroes','A'],
+    ['Ligeia',[1,'Zero Gundam, Legend BB Devil Dragon Blade'],'SD',false,false,false,'Heroes','A'],
 
     //Haro
     ['Haro Blue',[1,'Haropla #05 Control Blue'],'Haro',
@@ -16253,7 +16393,7 @@ const projects = [
         ],['Lutetia'],true,true,false,false,false,false,false,false,false,'Pokemon Select Series 44 Riolu & Lucario Model Kit'
     ], 
     ['Mantis Force',[6,'Scizor','Scizor','Scizor','Scizor','Scizor','Scizor'],'Pokemon',
-        false,false,false,'','D','2025-07-08',19.09,false,'Builds/Pokemon/MantisForce.html',false,'2026-03-16'
+        false,false,false,'','D','2025-07-08',19.09,false,'Builds/Pokemon/MantisForce.html',false,'2026-06-15'
     ],
     ['Tragicomix',[1,'Solgaleo'],'Pokemon',
         false,false,false,'','D','2025-07-04',3.82,false,'Builds/Pokemon/Tragix.html',false,'2025-12-22'
@@ -16978,7 +17118,9 @@ const projects = [
     ['Kipling',[1,'Liger Zero X'],'Zoid',false,false,false,'','B'],
 
     //Kit Bashes
-    ['Sylux',[1,' HG GQuuuX Red Gundam','HG Rouei','HG Aerial','SD Captain QAN[T]'],'HG',false,true,false,'UCGQ','B','202x',0,false,'Builds/Metroid/Sylux.html',true],
+    ['Sylux',[1,' HG GQuuuX Red Gundam','HG Rouei','HG Aerial','SD Captain QAN[T]'],'HG',
+        false,true,false,'UCGQ','C','2025-11-24',10.5,false,'Builds/Metroid/Sylux.html',true
+    ],
 
     //Other
     ['Gun-Rex',[1,'Steel Dragon'],'Other',false,false,true,false,'B'],
