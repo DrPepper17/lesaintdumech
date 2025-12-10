@@ -4159,6 +4159,29 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/SamScarl79.jpeg']
         ]
+    ],
+    [
+        ['2025-12-17','20251217A'],
+        'Alas, Suicune',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/PacSuic23.jpeg',
+        [
+            [
+                'I\'m late at posting this week. Been so busy playing the new Metroid Prime. But figured I should finally take a quick break away from that to post this week\'s project. So let me just get straight to it. I give you ',
+                ['Pacifix','Builds/Pokemon/PacSui.html'],
+                '.'
+            ]
+        ],
+        [
+            'And with the unveiling of Pacifix my set of the Legendary dogs is now complete. Raikou, Entei and Suicune they are now all painted and together they look quite good. But that\'s all I have to say for now. I have to get back to Metroid. I\'m on the verge of finally beating it and I have something special pertaining to it in the works for next week. So I\'ve been quite busy.  '
+        ],
+        [
+            [
+                ['Youtube','https://youtu.be/py2-J22F1gM?si=dzYb_MeUAhJ4EGm4',true]
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/PacSuic18.jpeg']
+        ]
     ]
 ]
 

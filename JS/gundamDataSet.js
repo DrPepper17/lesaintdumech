@@ -6734,7 +6734,7 @@ const models = [
             'Musha Gundam'
         ],
         'Universal Century',
-        [79,'September 0079 U.C.',79],
+        [79,'September 0079 UC',79],
         'Amuro Ray',
         [
             'Sayla Mass (Artesia Deikun)',
@@ -6822,6 +6822,45 @@ const models = [
         true,
         [183],
         'Raider'
+    ],
+    [184,1,'Red Gundam',
+        'gMS-\u03B1 Red Gundam',
+        'gMS-\u03B1',
+        'SeriMobile Suit Gundam GQuuuuuuXes',
+        false,
+        ['RX-78-02 White Gundam'],
+        false,
+        'Universal Century [Alternate Timeline]',
+        [79,'September 0079 UC',85],
+        'Sh\u016Bji It\u014D',
+        ['Char Aznable'],
+        'Granada Navy Yard Research Laboratory',
+        ['Pomeranians','Principality of Zeon','Sodon Fleet'],
+        [18,'18.0 Meters'],           //Height
+        [44.4,'44.4 Metric Tons'],        //Weight
+        false,
+        false,
+        [
+            'Head Vulcuns (x2)'
+        ],
+        [
+            'Beam Saber (x2)',
+            'Rifle',
+            'Shield',
+            'Gundam Hammer'
+        ],
+        [
+            'Alpha-type Psycommu System',
+            'Core Block System',
+            'Bits (x2)'
+        ],
+        'Ikuto Yamashita',
+        false,                //pseudo-boolean: If no, then false. If true, then list base source as character string
+        'Custom Newtype-use Close Quarters Combat Mobile Suit',
+        false,            //boolean
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/RedGQuX.jpeg','gMS-a Red Gundam'],
+        true,           //boolean
+        [182],
     ]
 ];
 
@@ -16429,7 +16468,7 @@ const projects = [
         ],['Jade','Jasper'],false,true,false,false,false,false,false,false,false,'Pokemon Squirtle 17 Quick Model Kit'
     ],
     ['Pacifix',[1,'Suicune'],'Pokemon',
-        false,false,false,'','D','2025-07-03',3.72,false,'Builds/Pokemon/PacSui.html',false,'2025-12-08',models[174],
+        false,false,false,'','E','2025-07-03',3.72,false,'Builds/Pokemon/PacSui.html',false,'2025-12-17',models[174],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/PacSuic01.jpeg','Pacifix'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/PacSuic02.jpeg','Pacifix'],
@@ -16456,13 +16495,13 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/PacSuic23.jpeg','Pacifix'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/PacSuic24.jpeg','Pacifix']
         ],['https://hosting.photobucket.com/images/i/lesaintdumech/PacSuic05.jpeg','Profile Photo: Pacifix'],
-        'SUICUNE',false,
+        'Kept it simple. Bulk of body is a Tamiya Candy Blue effect. With Vallejo silver for the diamonds, a Mr Hobby Metallic Purple for the smokey hair and Vallejo Metallic Arctic Blue for the diamond on his forehead. Kept very true to form for the traditional design.',false,
         [
-            ['Video',''],
+            ['Video','https://youtu.be/py2-J22F1gM?si=dzYb_MeUAhJ4EGm4'],
             ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Suicune_(Pokémon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-select-series-09-suicune-model-kit'],
             ['NewType','https://newtype.us/p/SuUdDlyt5v6KxgFYslV7/h/pokemon-suicune']
-        ],['Postaldistrix','Soporifix'],true,false,false,false,false,false,false,false,false,'Pokemon Select Series 09 Suicune Model Kit'
+        ],['Postaldistrix','Soporifix'],true,true,false,false,false,false,false,false,false,'Pokemon Select Series 09 Suicune Model Kit'
     ],
     ['Tusk',[1,'Tepig'],'Pokemon',
         false,false,false,'','E','2023-10-22',3.1,false,'Builds/Pokemon/Tusk.html',false,'2025-07-21',models[168],
@@ -17119,7 +17158,7 @@ const projects = [
 
     //Kit Bashes
     ['Sylux',[1,' HG GQuuuX Red Gundam','HG Rouei','HG Aerial','SD Captain QAN[T]'],'HG',
-        false,true,false,'UCGQ','C','2025-11-24',10.5,false,'Builds/Metroid/Sylux.html',true
+        false,true,false,'UCGQ','C','2025-11-24',13.75,false,'Builds/Metroid/Sylux.html',true,'2025-12-15',models[184]
     ],
 
     //Other
