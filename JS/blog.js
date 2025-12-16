@@ -4161,7 +4161,7 @@ const blogArray = [
         ]
     ],
     [
-        ['2025-12-17','20251217A'],
+        ['2025-12-10','20251210A'],
         'Alas, Suicune',
         'https://hosting.photobucket.com/images/i/lesaintdumech/PacSuic23.jpeg',
         [
@@ -4181,6 +4181,47 @@ const blogArray = [
         ],
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/PacSuic18.jpeg']
+        ]
+    ],
+    [
+        ['2025-12-16','20251216A'],
+        'The Villains Get Their Due',
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/SyluxRedG65.jpeg'],
+        [
+            [
+                'Few weeks ago I gave you Samus\' new Vi-O-La Suit. This week continuing the celebration of Metroid Prime Beyond, the main villain now gets his due. Therefore this week I give you ',
+                ['Sylux','Builds/Metroid/Sylux.html'],
+                '.'
+            ]
+        ],
+        [
+            'This was a fun but unique and custom build for me. None of the available Gundam series kits seemed to fit just right the aesthetic for Sylux. Therefore I attempted my very first Kit Bash. I used the Red Gundam from GQuuuuuuX fro the Body. The Rouei from Iron Blooded for the face and shoulders. Ad the Gund-Bits from the Aerial for the shoulders. Then it required a w whole lot of mutilating and modifying the pieces to make them all fit together. The final result of this was a pure masterpiece. I am in love.'
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/SyluxGame04.jpeg']
+        ],
+        [
+            'Something I had not counted on doing for this build was also the custom little mini metroids I added at the very end. After I finished Sylux I had some left over spare parts in the kits I used and my brain wheels started turning and I realized I could make Sylux\'s two trained metroids as seen in the trailers. This was bit of an experiment for me but they came out so perfect.'
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/SyluxRedG45.jpeg']
+        ],
+        [
+            'Anyhow I am just loving this build. Both Sylux and my adorable little metroids. Being my first kit bash I was not sure how this would turn out. But the final products far exceeded my expectations.'
+        ],
+        [
+            [
+                ['Youtube','https://youtu.be/Le58j3S8ct4',true]
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/SyluxRedG50.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/SyluxRedG26.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/SyluxGame01.jpeg']
         ]
     ]
 ]
