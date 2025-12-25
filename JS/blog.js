@@ -4223,6 +4223,41 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/SyluxGame01.jpeg']
         ]
+    ],
+    [
+        ['2025-12-25','20251225A'],
+        'Christmas 2025',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/TragiSola19.jpeg',
+        [
+            [
+                'Merry Christmas everyone! Today is the day we celebrate the birth of the Son of God. And to usher in the holiday I give you the Sun of Pokemon, ',
+                ['Tragicomix','Builds/Pokemon/SolgaTragix.html'],
+                '.'
+            ]
+        ],
+        [
+            'Tragic is my fiery Solgaleo, who is the embodiment of the Sun in the Pokemon world. Meant to get this posted sooner this week. But been just so swamped this week with preparations for the holiday. But before the week ends and before I\'m all dead in a food coma, I better get this out there. So Merry Christmas and Happy Hanukkah. Hope you all enjoy your respective holidays with your families and anjoy the end of the year.'
+        ],
+        [
+            'CHEERS !!!'
+        ],
+        [
+            'MERRY CHRISTMAS !!!'
+        ],
+        [
+            [
+                ['Youtube','https://youtu.be/bTNsq7wPCTw',true]
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/TragiSola12.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/TragiSola08.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/TragiSola10.jpeg']
+        ]
     ]
 ]
 

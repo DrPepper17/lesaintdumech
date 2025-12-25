@@ -6861,6 +6861,140 @@ const models = [
         ['https://hosting.photobucket.com/images/i/lesaintdumech/RedGQuX.jpeg','gMS-a Red Gundam'],
         true,           //boolean
         [182],
+    ],
+    [185,7,'Fuecoco',
+        false,
+        '0909',
+        'Fire',
+        '1st Stage',
+        false,
+        [
+            ['Crocalor','lvl 16']
+        ],
+        'Fire Croc Pokemon',
+        'Fuecoco lies on warm rocks and uses the heat absorbed by its square-shaped scales to create fire energy. Its flame sac is small, so energy is always leaking out. This energy is released from the dent atop Fuecoco\'s head and flickers to and fro.',
+        '1\'04\"',
+        [21.6,'21.6 lbs'],
+        'IX',
+        'Pokemon Scarlet and Violet',
+        false,
+        true, //legendary
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/FuecocoModel.jpeg','Fuecoco']
+    ],
+    [186,7,'Jirachi',
+        false,
+        '0385',
+        'Steel / Psychic',
+        '1st Stage',
+        false,
+        false,
+        'Wish Pokemon',
+        'Jirachi will awaken from its sleep of a thousand years if you sing to it in a voice of purity. It is said to make true any wish that people desire. Legend states that Jirachi will make true any wish that is written on notes attached to its head when it awakens. If this Pokémon senses danger, it will fight without awakening.',
+        '1\'00\"',
+        [2.4,'2.4 lbs'],
+        'III',
+        'Pokemon Colosseum',
+        false,
+        true, //legendary
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/JirachiModel.jpeg','Jirachi']
+    ],
+    [187,7,'Prinplup',
+        false,
+        '0394',
+        'Water',
+        '2nd Stage',
+        ['Piplup','lvl 16'],
+        [
+            ['Empoleon','lvl 36']
+        ],
+        'Penguin Pokemon',
+        'Prinplup lives alone in a solitary life. It searches for prey in the icy seas and its wings deliver wicked blows that can snap even the thickest of trees. Because every Prinplup considers itself to be the most important, they can never form a group.',
+        '2\'07\"',
+        [50.7,'50.7 lbs'],
+        'IV',
+        'Pokemon Diamond and Pearl',
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/PrinplupModel.jpeg','Prinplup']
+    ],
+    [188,7,'Empoleon',
+        false,
+        '0395',
+        'Water / Steel',
+        '3rd Stage',
+        ['Prinplup','lvl 36'],
+        false,
+        'Emperor Pokemon',
+        'Empoleon swims as fast as a jet boat. The edges of its wings are sharp and can slice apart drifting ice. It avoids unnecessary disputes, but will decimate anything that threatens its pride. The three horns that extend from its beak attest to its power. The leader has the biggest horns.',
+        '5\'07\"',
+        [186.3,'186.3 lbs'],
+        'IV',
+        'Pokemon Diamond and Pearl',
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/EmpoleonModel.jpeg','Empoleon']
+    ],
+    [189,7,'Scizor',
+        false,
+        '0212',
+        'Bug / Steel',
+        '2nd Stage',
+        ['Scyther','Trade w/ Metal Coat'],
+        false,
+        'Pincer Pokemon',
+        'Scizor has a body with the hardness of steel. It is not easily fazed by ordinary sorts of attacks. Its wings are not used for flying. They are flapped to regulate its body temperature. Meanwhile its steel pincers can crush any hard object it gets a hold of into bits.',
+        '5\'11\"',
+        [260.1,'260.1 lbs'],
+        'II',
+        'Pokemon Gold and Silver',
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/ScizorModel.jpeg','Scizor']
     ]
 ];
 
@@ -10993,7 +11127,7 @@ const projects = [
         ],false,true,'1:144',false,false,'Vi-O-La Suit'
     ],
     ['Friar Laurence',[1,'Dagger 105 + Gunbarrel'],'HG',false,false,false,'Seed','B'],
-    ['Charizard',[1,'Destiny'],'MG',false,false,false,'Seed','B'],
+    ['Charizard',[1,'Destiny'],'MG',false,false,false,'Seed','A'],
     ['Charizard X',[1,'Destiny'],'SD',
         false,false,false,'Seed','E','2021-10-10',8.13,false,'Builds/Gundams/CharizardX.html',false,'2022-05-16',models[33],
         [
@@ -15654,10 +15788,92 @@ const projects = [
         ],['Asterix','Boudica','Charizard','Xerxes','Justinian'],false,true,false,false,false,false,false,false,false,'Pokemon Select Series 43 Charizard & Dragonite Model Kit Set'
     ],
     ['Xerxes',[1,'Mega Charizard X'],'Pokemon',
-        false,false,false,'','D','2025-08-13',4.34
+        false,false,false,'','D','2025-08-13',4.34,false,'Builds/Pokemon/JustinianChar.html',false,'2026-02-02',models[156],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CharXXerx01.jpeg','Xerxes'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CharXXerx02.jpeg','Xerxes'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CharXXerx03.jpeg','Xerxes'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CharXXerx04.jpeg','Xerxes'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CharXXerx05.jpeg','Xerxes'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CharXXerx06.jpeg','Xerxes'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CharXXerx07.jpeg','Xerxes'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CharXXerx08.jpeg','Xerxes'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CharXXerx09.jpeg','Xerxes'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CharXXerx10.jpeg','Xerxes'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CharXXerx11.jpeg','Xerxes'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CharXXerx12.jpeg','Xerxes'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CharXXerx13.jpeg','Xerxes'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CharXXerx14.jpeg','Xerxes'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CharXXerx15.jpeg','Xerxes'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CharXXerx16.jpeg','Xerxes'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CharXXerx17.jpeg','Xerxes'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CharXXerx18.jpeg','Xerxes'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CharXXerx19.jpeg','Xerxes'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CharXXerx20.jpeg','Xerxes'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CharXXerx21.jpeg','Xerxes'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CharXXerx22.jpeg','Xerxes'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CharXXerx23.jpeg','Xerxes'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CharXXerx24.jpeg','Xerxes'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CharXXerx25.jpeg','Xerxes'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CharXXerx26.jpeg','Xerxes'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CharXXerx27.jpeg','Xerxes'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CharXXerx28.jpeg','Xerxes'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CharXXerx29.jpeg','Xerxes'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CharXXerx30.jpeg','Xerxes'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CharXXerx31.jpeg','Xerxes'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CharXXerx32.jpeg','Xerxes'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CharXXerx33.jpeg','Xerxes'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CharXXerx34.jpeg','Xerxes'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CharXXerx35.jpeg','Xerxes'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CharXXerx36.jpeg','Xerxes'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CharXXerx37.jpeg','Xerxes']
+        ],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/CharXXerx19.jpeg','Profile Photo: Xerxes'],
+        'Description',false,
+        [
+            ['Video','https://youtu.be/SpNycnjePNY'],
+            ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Charizard_(Pokemon)'],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-select-series-36-mega-charizard-x-model-kit'],
+            ['NewType','https://newtype.us/p/1geRiRtm2QpTtZKEEexT/h/pokemon-mega-charizard-x']
+        ],['Vercingetorix','Justinian'],false,false,false,false,false,false,false,false,false,'Pokemon Select Series 36 Mega Charizard X Model Kit'
     ],
     ['Justinian',[1,'Mega Charizard Y'],'Pokemon',
-        false,false,false,'','D','2025-08-13',4.05
+        false,false,false,'','D','2025-08-13',4.05,false,'Builds/Pokemon/JustinianChar.html',false,'2026-01-19',models[157],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CharYJust01.jpeg','Justinian'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CharYJust02.jpeg','Justinian'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CharYJust03.jpeg','Justinian'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CharYJust04.jpeg','Justinian'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CharYJust05.jpeg','Justinian'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CharYJust06.jpeg','Justinian'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CharYJust07.jpeg','Justinian'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CharYJust08.jpeg','Justinian'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CharYJust09.jpeg','Justinian'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CharYJust10.jpeg','Justinian'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CharYJust11.jpeg','Justinian'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CharYJust12.jpeg','Justinian'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CharYJust13.jpeg','Justinian'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CharYJust14.jpeg','Justinian'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CharYJust15.jpeg','Justinian'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CharYJust16.jpeg','Justinian'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CharYJust17.jpeg','Justinian'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CharYJust18.jpeg','Justinian'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CharYJust19.jpeg','Justinian'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CharYJust20.jpeg','Justinian'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CharYJust21.jpeg','Justinian'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CharYJust22.jpeg','Justinian'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CharYJust23.jpeg','Justinian'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CharYJust24.jpeg','Justinian'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/CharYJust25.jpeg','Justinian']
+        ],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/CharYJust13.jpeg','Profile Photo: Justinian'],
+        'Description',false,
+        [
+            ['Video','https://youtu.be/_hNNCPzfTac'],
+            ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Charizard_(Pokemon)'],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-select-series-38-mega-charizard-y-model-kit'],
+            ['NewType','https://newtype.us/p/KGdVbSXFI31j3KmIT1ua/h/pokemon-mega-charizard-y']
+        ],['Vercingetorix','Xerxes'],false,false,false,false,false,false,false,false,false,'Pokemon Select Series 38 Mega Charizard Y Model Kit'
     ],
     ['Boudica',[1,'Dragonite'],'Pokemon',
         false,false,false,'','E','2023-03-11',3.47,false,'Builds/Pokemon/Boudica.html',false,'2023-09-12',models[81],
@@ -15750,29 +15966,64 @@ const projects = [
     ['Sprinkles',[1,'Eevee'],'Pokemon',
         false,false,false,'','D','2025-07-18',1.62,false,'Builds/Pokemon/SprinklesEevee.html',false,'2026-02-16',models[131],
         [
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/Bandit01.jpeg','Sprinkles']
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SprinkEv01.jpeg','Sprinkles'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SprinkEv02.jpeg','Sprinkles'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SprinkEv03.jpeg','Sprinkles'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SprinkEv04.jpeg','Sprinkles'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SprinkEv05.jpeg','Sprinkles'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SprinkEv06.jpeg','Sprinkles'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SprinkEv07.jpeg','Sprinkles'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SprinkEv08.jpeg','Sprinkles'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SprinkEv09.jpeg','Sprinkles'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SprinkEv10.jpeg','Sprinkles'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SprinkEv11.jpeg','Sprinkles'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SprinkEv12.jpeg','Sprinkles'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SprinkEv13.jpeg','Sprinkles'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SprinkEv14.jpeg','Sprinkles'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SprinkEv15.jpeg','Sprinkles'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SprinkEv16.jpeg','Sprinkles'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SprinkEv17.jpeg','Sprinkles'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SprinkEv18.jpeg','Sprinkles'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/SprinkEv19.jpeg','Sprinkles']
         ],
-        ['https://hosting.photobucket.com/images/i/lesaintdumech/Bandit06.jpeg','Profile Photo: Sprinkles'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/SprinkEv08.jpeg','Profile Photo: Sprinkles'],
         'DESCRIPTION',false,
         [
-            ['Video',''],
+            ['Video','https://youtu.be/J-5bB91GokA'],
             ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Eevee_(Pokemon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-evee-04-quick-model-kit'],
             ['NewType','https://newtype.us/p/qwtngx79JTNwHYt5c3Or/h/pokemon-model-kit-quick-04-eevee']
         ],false,true,false,false,false,false,false,false,false,false,'Pokemon Eevee 04 Quick Model Kit'
     ],    //Yellow
-    ['Pingol\u00E9on ',[0.25,'Empoleon'],'Pokemon',false,false,false,'','D','2025-09-07',1.72,false,'Builds/Pokemon/',false,'2025',models[0],
+    ['Pingol\u00E9on',[0.25,'Empoleon'],'Pokemon',
+        false,false,false,'','D','2025-09-07',1.72,false,'Builds/Pokemon/Pingoleo.html',false,'2026-05-11',models[188],
         [
-            ['','']
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Pingemperor01.jpeg','Pingol\u00E9on'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Pingemperor02.jpeg','Pingol\u00E9on'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Pingemperor03.jpeg','Pingol\u00E9on'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Pingemperor04.jpeg','Pingol\u00E9on'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Pingemperor05.jpeg','Pingol\u00E9on'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Pingemperor06.jpeg','Pingol\u00E9on'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Pingemperor07.jpeg','Pingol\u00E9on'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Pingemperor08.jpeg','Pingol\u00E9on'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Pingemperor09.jpeg','Pingol\u00E9on'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Pingemperor10.jpeg','Pingol\u00E9on'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Pingemperor11.jpeg','Pingol\u00E9on'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Pingemperor12.jpeg','Pingol\u00E9on'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Pingemperor13.jpeg','Pingol\u00E9on'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Pingemperor14.jpeg','Pingol\u00E9on'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Pingemperor15.jpeg','Pingol\u00E9on'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Pingemperor16.jpeg','Pingol\u00E9on'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Pingemperor17.jpeg','Pingol\u00E9on']
         ],
-        ['','Profile Photo: '],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/Pingemperor05.jpeg','Profile Photo: Pingol\u00E9on'],
         'Description',false,
         [
-            ['Video',''],
-            ['Bulbapedia',''],
+            ['Video','https://youtu.be/th1wuteb_XA'],
+            ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Empoleon_(Pokémon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-select-series-6-empoleon-evolution-set-model-kit'],
             ['NewType','https://newtype.us/p/aqpjW7R8h1LfOuf88CK1/h/pokemon-empoleon-evolution-set'],
-        ],false,true,false,false,false,false,false,false,false,false,'Pokemon Select Series 6 Empoleon Evolution Set Model Kit'
+        ],['Tiplouf','Prinplouf'],true,false,false,false,false,false,false,false,false,'Pokemon Select Series 6 Empoleon Evolution Set Model Kit'
     ],
     ['Soporifix',[1,'Entei'],'Pokemon',
         false,false,false,'','E','2025-07-03',3.31,false,'Builds/Pokemon/SopEnt.html',false,'2025-11-24',models[173],
@@ -15799,7 +16050,32 @@ const projects = [
             ['NewType','https://newtype.us/p/Owot9ss1EzaqSx3ljgfU/h/pokemon-entei']
         ],['Pacifix','Postaldistrix'],true,true,false,false,false,false,false,false,false,'Pokemon Select Series 11 Entei Model Kit'
     ],
-    ['Instantmix',[1,'Fuecoco'],'Pokemon',false,false,false,'','D','2025-08-13',1.61],
+    ['Instantmix',[1,'Fuecoco'],'Pokemon',
+        false,false,false,'','D','2025-08-13',1.61,false,'Builds/Pokemon/InstaFue.html',false,'2026-03-02',models[185],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/InstantFue01.jpeg','Instantmix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/InstantFue02.jpeg','Instantmix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/InstantFue03.jpeg','Instantmix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/InstantFue04.jpeg','Instantmix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/InstantFue05.jpeg','Instantmix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/InstantFue06.jpeg','Instantmix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/InstantFue07.jpeg','Instantmix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/InstantFue08.jpeg','Instantmix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/InstantFue09.jpeg','Instantmix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/InstantFue10.jpeg','Instantmix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/InstantFue11.jpeg','Instantmix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/InstantFue12.jpeg','Instantmix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/InstantFue13.jpeg','Instantmix']
+        ],['https://hosting.photobucket.com/images/i/lesaintdumech/InstantFue10.jpeg','Profile Photo: Instantmix'],
+        'DESCRIPTION',false,
+        [
+            ['Video','https://youtu.be/0X6RDt1NFdY'],
+            ['Asterix: Instantmix','https://asterix.com/en/characters/instantmix/'],
+            ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Fuecoco_(Pokémon)'],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-fuecoco-20-quick-model-kit'],
+            ['NewType','https://newtype.us/p/yzaMSpSS1tElCrmXmtPt/h/pokemon-model-kit-quick-20-fuecoco']
+        ],false,true,false,false,false,false,false,false,false,false,'Pokemon Fuecoco 20 Quick Model Kit'
+    ],
     ['Astronomix',[1,'Gengar'],'Pokemon',
         false,false,false,'','E','2023-12-11',2.68,false,'Builds/Pokemon/AstronGengar.html',false,'2025-08-04',models[169],
         [
@@ -15937,10 +16213,75 @@ const projects = [
         ],['Unhygienix'],true,true,false,'Lance\'s Gyarados',false,false,false,false,false,'Pokemon Gyarados 52 Model Kit',1
     ],
     ['L\u00E9viator',[1,'Gyarados'],'Pokemon',
-        false,false,false,'','D','2025-09-04',2.52,false,'Builds/Pokemon/LevGyar.html',false,'2025',models[148]
+        false,false,false,'','D','2025-09-04',2.52,false,'Builds/Pokemon/LevGyar.html',false,'2026-03-30',models[148],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LevGyar01.jpeg','L\u00E9viator'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LevGyar02.jpeg','L\u00E9viator'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LevGyar03.jpeg','L\u00E9viator'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LevGyar04.jpeg','L\u00E9viator'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LevGyar05.jpeg','L\u00E9viator'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LevGyar06.jpeg','L\u00E9viator'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LevGyar07.jpeg','L\u00E9viator'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LevGyar08.jpeg','L\u00E9viator'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LevGyar09.jpeg','L\u00E9viator'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LevGyar10.jpeg','L\u00E9viator'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LevGyar11.jpeg','L\u00E9viator'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LevGyar12.jpeg','L\u00E9viator'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LevGyar13.jpeg','L\u00E9viator'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LevGyar14.jpeg','L\u00E9viator'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LevGyar15.jpeg','L\u00E9viator'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LevGyar16.jpeg','L\u00E9viator'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LevGyar17.jpeg','L\u00E9viator'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LevGyar18.jpeg','L\u00E9viator'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/LevGyar19.jpeg','L\u00E9viator']
+        ],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/LevGyar03.jpeg','Profile Photo: L\u00E9viator'],
+        'DESCRIPTION',false,
+        [
+            ['Video','https://youtu.be/8Tfoc8lh6Bg'],
+            ['Bulbapedia','https://m.bulbapedia.bulbagarden.net/wiki/Gyarados_(Pokemon)'],
+            ['USA Gundam Store','https://www.usagundamstore.com/collections/pokapla/products/pokemon-gyarados-52-model-kit'],
+            ['NewType','https://newtype.us/p/dOkZZ7AvruhzwIslqHje/h/pokemon-gyarados']
+        ],false,true,false,false,false,false,false,false,false,false,'Pokemon Gyarados 52 Model Kit'
     ],
     ['Skullkraken',[1,'Gyarados'],'Pokemon',
-        false,false,false,'','D','2025-10-08',4.56,false,'Builds/Pokemon/SkullGyar.html',false,'2026',models[148]
+        false,false,false,'','D','2025-10-08',4.56,false,'Builds/Pokemon/SkullGyar.html',false,'2026-06-08',models[148],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Gyaraskull01.jpeg','Skullkraken'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Gyaraskull02.jpeg','Skullkraken'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Gyaraskull03.jpeg','Skullkraken'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Gyaraskull04.jpeg','Skullkraken'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Gyaraskull05.jpeg','Skullkraken'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Gyaraskull06.jpeg','Skullkraken'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Gyaraskull07.jpeg','Skullkraken'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Gyaraskull08.jpeg','Skullkraken'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Gyaraskull09.jpeg','Skullkraken'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Gyaraskull10.jpeg','Skullkraken'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Gyaraskull11.jpeg','Skullkraken'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Gyaraskull12.jpeg','Skullkraken'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Gyaraskull13.jpeg','Skullkraken'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Gyaraskull14.jpeg','Skullkraken'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Gyaraskull15.jpeg','Skullkraken'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Gyaraskull16.jpeg','Skullkraken'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Gyaraskull17.jpeg','Skullkraken'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Gyaraskull18.jpeg','Skullkraken'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Gyaraskull19.jpeg','Skullkraken'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Gyaraskull20.jpeg','Skullkraken'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Gyaraskull21.jpeg','Skullkraken'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Gyaraskull22.jpeg','Skullkraken'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Gyaraskull23.jpeg','Skullkraken'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Gyaraskull24.jpeg','Skullkraken'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Gyaraskull25.jpeg','Skullkraken'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Gyaraskull26.jpeg','Skullkraken']
+        ],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/Gyaraskull19.jpeg','Profile Photo: Skullkraken'],
+        'DESCRIPTION',false,
+        [
+            ['Video','https://youtu.be/2qLiiScybpM'],
+            ['Bulbapedia','https://m.bulbapedia.bulbagarden.net/wiki/Gyarados_(Pokemon)'],
+            ['USA Gundam Store','https://www.usagundamstore.com/collections/pokapla/products/pokemon-gyarados-52-model-kit'],
+            ['NewType','https://newtype.us/p/dOkZZ7AvruhzwIslqHje/h/pokemon-gyarados']
+        ],false,true,false,false,false,false,false,false,false,false,'Pokemon Gyarados 52 Model Kit'
     ],//gray scale
     ['Vitalstatistix',[1,'Ho-oh'],'Pokemon',
         false,false,false,'','E','2024-02-20',5.17,false,'Builds/Pokemon/Vital.html',false,'2025-05-12',models[132],
@@ -15983,7 +16324,31 @@ const projects = [
             ['NewType','https://newtype.us/p/DFQb0Hr6xKX06jqaqPDk/h/pokemon-ho-oh']
         ],['Chanticleerix'],false,true,false,false,false,false,false,false,false,'Pokemon Select Series 5 Ho-Oh Model Kit'
     ],
-    ['Eurydice',[1,'Jirachi'],'Pokemon',false,false,false,'','D','2025-08-19',1.74],
+    ['Eurydice',[1,'Jirachi'],'Pokemon',
+        false,false,false,'','D','2025-08-19',1.74,false,'Builds/Pokemon/EuryJiri.html',false,'2026-03-16',models[186],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Eury01.jpeg','Eurydice'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Eury02.jpeg','Eurydice'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Eury03.jpeg','Eurydice'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Eury04.jpeg','Eurydice'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Eury05.jpeg','Eurydice'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Eury06.jpeg','Eurydice'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Eury07.jpeg','Eurydice'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Eury08.jpeg','Eurydice'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Eury09.jpeg','Eurydice'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Eury10.jpeg','Eurydice'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Eury11.jpeg','Eurydice'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Eury12.jpeg','Eurydice'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Eury13.jpeg','Eurydice']
+        ],['https://hosting.photobucket.com/images/i/lesaintdumech/Eury01.jpeg','Profile Photo: Eurydice'],
+        'DESCRIPTION',false,
+        [
+            ['Video','https://youtu.be/pWQuxGOMlRo'],
+            ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Jirachi_(Pokémon)'],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-jirachi-23-quick-model-kit'],
+            ['NewType','https://newtype.us/p/QQ20Oj03HvMjPtfc8kK9/h/pokemon-model-kit-quick-23-jirachi']
+        ],false,true,false,false,false,false,false,false,false,false,'Pokemon Jirachi 23 Quick Model Kit'
+    ],
     ['Lutetia',[1,'Lucario'],'Pokemon',
         false,false,false,'','E','2023-10-03',5.09,false,'Builds/Pokemon/Lutetia.html',false,'2025-07-07',models[167],
         [
@@ -16070,7 +16435,57 @@ const projects = [
         ],['Vitalstatistix'],true,true,false,false,false,false,false,false,false,'Pokemon Select Series 4 Lugia Model Kit'
     ],
     ['Bucolix',[1,'Lunala'],'Pokemon',
-        false,false,false,'','D','2025-07-04',4.29,false,'Builds/Pokemon/Bucix.html',false,'2026-01-05'
+        false,false,false,'','D','2025-07-04',4.29,false,'Builds/Pokemon/BucixLana.html',false,'2026-01-05',models[176],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BucoLuna20.jpeg','Bucolix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BucoLuna21.jpeg','Bucolix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BucoLuna22.jpeg','Bucolix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BucoLuna23.jpeg','Bucolix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BucoLuna24.jpeg','Bucolix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BucoLuna25.jpeg','Bucolix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BucoLuna26.jpeg','Bucolix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BucoLuna27.jpeg','Bucolix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BucoLuna28.jpeg','Bucolix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BucoLuna29.jpeg','Bucolix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BucoLuna30.jpeg','Bucolix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BucoLuna31.jpeg','Bucolix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BucoLuna32.jpeg','Bucolix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BucoLuna33.jpeg','Bucolix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BucoLuna34.jpeg','Bucolix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BucoLuna35.jpeg','Bucolix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BucoLuna36.jpeg','Bucolix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BucoLuna37.jpeg','Bucolix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BucoLuna01.jpeg','Bucolix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BucoLuna02.jpeg','Bucolix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BucoLuna03.jpeg','Bucolix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BucoLuna04.jpeg','Bucolix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BucoLuna05.jpeg','Bucolix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BucoLuna06.jpeg','Bucolix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BucoLuna07.jpeg','Bucolix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BucoLuna08.jpeg','Bucolix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BucoLuna09.jpeg','Bucolix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BucoLuna10.jpeg','Bucolix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BucoLuna11.jpeg','Bucolix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BucoLuna12.jpeg','Bucolix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BucoLuna13.jpeg','Bucolix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BucoLuna14.jpeg','Bucolix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BucoLuna15.jpeg','Bucolix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BucoLuna16.jpeg','Bucolix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BucoLuna17.jpeg','Bucolix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BucoLuna18.jpeg','Bucolix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BucoLuna19.jpeg','Bucolix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BucoLuna38.jpeg','Bucolix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BucoLuna39.jpeg','Bucolix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BucoLuna40.jpeg','Bucolix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BucoLuna41.jpeg','Bucolix']
+        ],['https://hosting.photobucket.com/images/i/lesaintdumech/BucoLuna37.jpeg','Profile Photo: Bucolic'],
+        'My prior Solgaleo I tried making more fiery to match its element, the sun. However for Lunala, who\'s based on the moon, the original design is already pretty dark that there was not modification to the design that I felt could be made that this one is pretty much true to the source material. Basically a Candy Blue for the base of the body accented with Vallejo Steel for the skeletal segmants and gold and brass for the more yellow areas. Sadly this mpokemon has a much more simpler design. it practically has no limbs for Pete\'s sake, that there was not much opportunity to get more creative in painting it. The only thing that made it take so long to paint was spraying the multiple rounds of Tamiya clear blue paint over the gold in order to create a rich candy effect.',false,
+        [
+            ['Video','https://youtu.be/FLhzodDCL1Q'],
+            ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Lunala_(Pokémon)'],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/pre-order-pokepla-collection-40-select-series-lunala'],
+            ['NewType','https://newtype.us/p/7HBfTsdqFkyz7wPA03kQ/h/pokemon-lunala']
+        ],['Tragicomix'],true,false,false,false,false,false,false,false,false,'Pokemon Select Series 40 Lunala Model Kit'
     ],
     ['Unhygienix',[1,'Magikarp'],'Pokemon',false,false,false,'','A'],
     ['Cacofonix',[1,'Metagross'],'Pokemon',
@@ -16231,20 +16646,31 @@ const projects = [
             ['NewType','https://newtype.us/p/6QnT071ebQzzCPn3wkRQ/h/pokemon-model-kit-quick-03-pikachu-battle-pose']
         ],false,false,true,false,false,false,false,false,false,false,'Pikachu (Battle Pose) 03 Quick Model Kit'
     ],
-    ['Maus',[0.25,'Pikachu'],'Pokemon',false,false,false,'','D','2025-09-07',0.49,false,'Builds/Pokemon/',false,'2025',models[0],
+    ['Maus',[0.25,'Pikachu'],'Pokemon',
+        false,false,false,'','D','2025-09-07',0.49,false,'Builds/Pokemon/MausPika.html',false,'2026-05-25',models[165],
         [
-            ['','']
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PikaMaus01.jpeg','Maus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PikaMaus02.jpeg','Maus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PikaMaus03.jpeg','Maus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PikaMaus04.jpeg','Maus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PikaMaus05.jpeg','Maus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PikaMaus06.jpeg','Maus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PikaMaus07.jpeg','Maus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PikaMaus08.jpeg','Maus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PikaMaus09.jpeg','Maus'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PikaMaus10.jpeg','Maus']
         ],
-        ['','Profile Photo: '],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/PikaMaus01.jpeg','Profile Photo: Maus'],
         'Description',false,
         [
-            ['Video',''],
-            ['Bulbapedia',''],
+        //    ['Video',''],
+            ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Pikachu_(Pokemon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-select-series-6-empoleon-evolution-set-model-kit'],
             ['NewType','https://newtype.us/p/aqpjW7R8h1LfOuf88CK1/h/pokemon-empoleon-evolution-set'],
         ],false,true,false,false,false,false,false,false,false,false,'Pokemon Select Series 6 Empoleon Evolution Set Model Kit'
     ],
-    ['Picanmix',[1,'Piplup'],'Pokemon',false,false,false,'','E','2023-11-25',3.95,false,'Builds/Pokemon/Pican.html',false,'2025-02-20',models[153],
+    ['Picanmix',[1,'Piplup'],'Pokemon',
+        false,false,false,'','E','2023-11-25',3.95,false,'Builds/Pokemon/Pican.html',false,'2025-02-20',models[153],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Picanmix01.jpeg','Picanmix'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Picanmix02.jpeg','Picanmix'],
@@ -16273,31 +16699,57 @@ const projects = [
             ['TurboDork: Ice to Never','https://turbodork.com/products/ice-to-never-1?variant=29460041793606']
         ],['Dark Samus: Echoes'],true,true,false,false,false,false,false,false,false,'Pokemon Piplup 06 Quick Model Kit'
     ],
-    ['Tiplouf',[0.25,'Piplup'],'Pokemon',false,false,false,'','D','2025-09-07',1.1,false,'Builds/Pokemon/',false,'2025',models[153],
+    ['Tiplouf',[0.25,'Piplup'],'Pokemon',
+        false,false,false,'','D','2025-09-07',1.1,false,'Builds/Pokemon/Tiplup.html',false,'2026-04-13',models[153],
         [
-            ['','']
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Tipluff01.jpeg','Tiplouf'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Tipluff02.jpeg','Tiplouf'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Tipluff03.jpeg','Tiplouf'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Tipluff04.jpeg','Tiplouf'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Tipluff05.jpeg','Tiplouf'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Tipluff06.jpeg','Tiplouf'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Tipluff07.jpeg','Tiplouf'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Tipluff08.jpeg','Tiplouf'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Tipluff09.jpeg','Tiplouf'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Tipluff10.jpeg','Tiplouf'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/Tipluff11.jpeg','Tiplouf']
         ],
-        ['','Profile Photo: '],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/Tipluff08.jpeg','Profile Photo: Tiplouf'],
         'Description',false,
         [
-            ['Video',''],
+        //    ['Video','https://youtu.be/th1wuteb_XA'],
             ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Piplup_(Pokemon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-select-series-6-empoleon-evolution-set-model-kit'],
             ['NewType','https://newtype.us/p/aqpjW7R8h1LfOuf88CK1/h/pokemon-empoleon-evolution-set'],
-        ],false,true,false,false,false,false,false,false,false,false,'Pokemon Select Series 6 Empoleon Evolution Set Model Kit'
+        ],['Prinplouf','Pingol\u00E9on'],true,false,false,false,false,false,false,false,false,'Pokemon Select Series 6 Empoleon Evolution Set Model Kit'
     ],
-    ['Prinplouf',[0.25,'Prinplup'],'Pokemon',false,false,false,'','D','2025-09-07',1.01,false,'Builds/Pokemon/',false,'2025',models[0],
+    ['Prinplouf',[0.25,'Prinplup'],'Pokemon',
+        false,false,false,'','D','2025-09-07',1.01,false,'Builds/Pokemon/Priplup.html',false,'2026-04-17',models[187],
         [
-            ['','']
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PrinPin01.jpeg','Prinplouf'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PrinPin02.jpeg','Prinplouf'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PrinPin03.jpeg','Prinplouf'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PrinPin04.jpeg','Prinplouf'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PrinPin05.jpeg','Prinplouf'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PrinPin06.jpeg','Prinplouf'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PrinPin07.jpeg','Prinplouf'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PrinPin08.jpeg','Prinplouf'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PrinPin09.jpeg','Prinplouf'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PrinPin10.jpeg','Prinplouf'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PrinPin11.jpeg','Prinplouf'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PrinPin12.jpeg','Prinplouf'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PrinPin13.jpeg','Prinplouf'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PrinPin14.jpeg','Prinplouf'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PrinPin15.jpeg','Prinplouf']
         ],
-        ['','Profile Photo: '],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/PrinPin13.jpeg','Profile Photo: Prinplouf'],
         'Description',false,
         [
-            ['Video',''],
-            ['Bulbapedia',''],
+        //    ['Video','https://youtu.be/th1wuteb_XA'],
+            ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Prinplup_(Pokémon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-select-series-6-empoleon-evolution-set-model-kit'],
             ['NewType','https://newtype.us/p/aqpjW7R8h1LfOuf88CK1/h/pokemon-empoleon-evolution-set'],
-        ],false,true,false,false,false,false,false,false,false,false,'Pokemon Select Series 6 Empoleon Evolution Set Model Kit'
+        ],['Tiplouf','Pingol\u00E9on'],true,false,false,false,false,false,false,false,false,'Pokemon Select Series 6 Empoleon Evolution Set Model Kit'
     ],
     ['Postaldistrix',[1,'Raikou'],'Pokemon',
         false,false,false,'','E','2024-09-13',2.75,false,'Builds/Pokemon/PostRai.html',false,'2025-11-10',models[172],
@@ -16431,11 +16883,162 @@ const projects = [
             ['NewType','https://newtype.us/p/xfGGbv3OQReIt12rJaNC/h/pokemon-riolu-lucario']
         ],['Lutetia'],true,true,false,false,false,false,false,false,false,'Pokemon Select Series 44 Riolu & Lucario Model Kit'
     ], 
-    ['Mantis Force',[6,'Scizor','Scizor','Scizor','Scizor','Scizor','Scizor'],'Pokemon',
-        false,false,false,'','D','2025-07-08',19.09,false,'Builds/Pokemon/MantisForce.html',false,'2026-06-15'
+    ['Mantis Force',[6,'Scizor'],'Pokemon',
+        false,false,false,'','D','2025-07-08',19.09,false,'Builds/Pokemon/MForce.html',false,'2026-06-15',models[189],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RedMantis01.jpeg','Red Mantis'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RedMantis02.jpeg','Red Mantis'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RedMantis03.jpeg','Red Mantis'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RedMantis04.jpeg','Red Mantis'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RedMantis05.jpeg','Red Mantis'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RedMantis06.jpeg','Red Mantis'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RedMantis07.jpeg','Red Mantis'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RedMantis08.jpeg','Red Mantis'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RedMantis09.jpeg','Red Mantis'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RedMantis10.jpeg','Red Mantis'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RedMantis11.jpeg','Red Mantis'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RedMantis12.jpeg','Red Mantis'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RedMantis13.jpeg','Red Mantis'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RedMantis14.jpeg','Red Mantis'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RedMantis15.jpeg','Red Mantis'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RedMantis16.jpeg','Red Mantis'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RedMantis17.jpeg','Red Mantis'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RedMantis18.jpeg','Red Mantis'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RedMantis19.jpeg','Red Mantis'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/RedMantis20.jpeg','Red Mantis'],
+
+            //Blue Mantis 
+            /*
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BlueMantis01.jpeg','Blue Mantis'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BlueMantis02.jpeg','Blue Mantis'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BlueMantis03.jpeg','Blue Mantis'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BlueMantis04.jpeg','Blue Mantis'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BlueMantis05.jpeg','Blue Mantis'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BlueMantis06.jpeg','Blue Mantis'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BlueMantis07.jpeg','Blue Mantis'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BlueMantis08.jpeg','Blue Mantis'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BlueMantis09.jpeg','Blue Mantis'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BlueMantis10.jpeg','Blue Mantis'],
+            */
+
+            //Pink Mantis
+            /*
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PinkMantis01.jpeg','Pink Mantis'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PinkMantis02.jpeg','Pink Mantis'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PinkMantis03.jpeg','Pink Mantis'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PinkMantis04.jpeg','Pink Mantis'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PinkMantis05.jpeg','Pink Mantis'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PinkMantis06.jpeg','Pink Mantis'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PinkMantis07.jpeg','Pink Mantis'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PinkMantis08.jpeg','Pink Mantis'],
+            */
+
+            //Black Mantis
+            /*
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BlackMantis01.jpeg','Black Mantis'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BlackMantis02.jpeg','Black Mantis'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BlackMantis03.jpeg','Black Mantis'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BlackMantis04.jpeg','Black Mantis'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BlackMantis05.jpeg','Black Mantis'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BlackMantis06.jpeg','Black Mantis'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BlackMantis07.jpeg','Black Mantis'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/BlackMantis08.jpeg','Black Mantis'],
+            */
+
+            //Yellow Mantis
+            /*
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/YellowMantis01.jpeg','Yellow Mantis'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/YellowMantis02.jpeg','Yellow Mantis'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/YellowMantis03.jpeg','Yellow Mantis'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/YellowMantis04.jpeg','Yellow Mantis'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/YellowMantis05.jpeg','Yellow Mantis'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/YellowMantis06.jpeg','Yellow Mantis'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/YellowMantis07.jpeg','Yellow Mantis'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/YellowMantis08.jpeg','Yellow Mantis'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/YellowMantis09.jpeg','Yellow Mantis'],
+            */
+
+            //Green Mantis
+            /*
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GreenMantis01.jpeg','Green Mantis'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GreenMantis02.jpeg','Green Mantis'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GreenMantis03.jpeg','Green Mantis'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GreenMantis04.jpeg','Green Mantis'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GreenMantis05.jpeg','Green Mantis'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GreenMantis06.jpeg','Green Mantis'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GreenMantis07.jpeg','Green Mantis'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GreenMantis08.jpeg','Green Mantis'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GreenMantis09.jpeg','Green Mantis'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GreenMantis10.jpeg','Green Mantis'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GreenMantis11.jpeg','Green Mantis'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GreenMantis12.jpeg','Green Mantis'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GreenMantis13.jpeg','Green Mantis'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GreenMantis14.jpeg','Green Mantis'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GreenMantis15.jpeg','Green Mantis'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GreenMantis16.jpeg','Green Mantis'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GreenMantis17.jpeg','Green Mantis'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GreenMantis18.jpeg','Green Mantis'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GreenMantis19.jpeg','Green Mantis'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GreenMantis20.jpeg','Green Mantis'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GreenMantis21.jpeg','Green Mantis'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GreenMantis22.jpeg','Green Mantis'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GreenMantis23.jpeg','Green Mantis'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GreenMantis24.jpeg','Green Mantis'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/GreenMantis25.jpeg','Green Mantis'],
+            */
+
+            //Mantis Force
+            /*
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/MantisForceSciz01.jpeg','Mantis Force'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/MantisForceSciz02.jpeg','Mantis Force'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/MantisForceSciz03.jpeg','Mantis Force'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/MantisForceSciz04.jpeg','Mantis Force'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/MantisForceSciz05.jpeg','Mantis Force'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/MantisForceSciz06.jpeg','Mantis Force'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/MantisForceSciz07.jpeg','Mantis Force'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/MantisForceSciz08.jpeg','Mantis Force'],
+            */
+
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/0212Scizor.jpeg','Fighting Scizor']
+        ],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/RedMantis02.jpeg','Profile Photo: Mantis Force'],
+        'DESCRIPTION',false,
+        [
+            ['Video','https://youtu.be/Epyc22r8xkM'],
+            ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Scizor_(Pokémon)'],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/pokepla-pokemon-plastic-model-collection-55-select-series-scizor'],
+            ['NewType','https://newtype.us/p/DUpLibQq12d5VaMnUlMe/h/pokemon-scizor']
+        ],false,false,false,false,false,'Red Scizor','Red Scizor',false,false,false,'Pokemon Select Series 55 Scizor Model Kit'
     ],
     ['Tragicomix',[1,'Solgaleo'],'Pokemon',
-        false,false,false,'','D','2025-07-04',3.82,false,'Builds/Pokemon/SolgaTragix.html',false,'2025-12-22'
+        false,false,false,'','E','2025-07-04',3.82,false,'Builds/Pokemon/SolgaTragix.html',false,'2025-12-25',models[175],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/TragiSola01.jpeg','Tragicomix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/TragiSola02.jpeg','Tragicomix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/TragiSola03.jpeg','Tragicomix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/TragiSola04.jpeg','Tragicomix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/TragiSola05.jpeg','Tragicomix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/TragiSola06.jpeg','Tragicomix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/TragiSola07.jpeg','Tragicomix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/TragiSola08.jpeg','Tragicomix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/TragiSola09.jpeg','Tragicomix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/TragiSola10.jpeg','Tragicomix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/TragiSola11.jpeg','Tragicomix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/TragiSola12.jpeg','Tragicomix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/TragiSola13.jpeg','Tragicomix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/TragiSola14.jpeg','Tragicomix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/TragiSola15.jpeg','Tragicomix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/TragiSola16.jpeg','Tragicomix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/TragiSola17.jpeg','Tragicomix'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/TragiSola18.jpeg','Tragicomix']
+        ],['https://hosting.photobucket.com/images/i/lesaintdumech/TragiSola14.jpeg','Profile Photo: Tragicomix'],
+        'This build was inspired by the sun. Therefore Candy Orange and Yellow plus a Vallejo metallic signal red. When this Solgaleo extends out its mane it\'s like staring straight into a hot summer sun.',false,
+        [
+            ['Video','https://youtu.be/bTNsq7wPCTw'],
+            ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Solgaleo_(Pokémon)'],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/pre-order-pokepla-collection-39-select-series-solgaleo'],
+            ['NewType','https://newtype.us/p/fTpox94wmvikHoMzLcSN/h/pokemon-solgaleo']
+        ],['Bucolix'],true,true,false,false,false,false,false,false,false,'Pokemon Select Series 39 Solgaleo Model Kit'
     ],
     ['Cooper',[1,'Squirtle'],'Pokemon',
         false,false,false,'','E','2024-06-04',2.17,false,'Builds/Pokemon/Cooper.html',false,'2024-09-16',models[134],
@@ -16537,6 +17140,7 @@ const projects = [
             ['NewType','https://newtype.us/p/Bh64h14GeIoFui3kPjy4/h/pokemon-model-kit-quick-14-tepig']
         ],false,true,true,false,false,false,false,false,false,false,'Pokemon Tepig 14 Quick Model Kit'
     ], 
+    ['Igrec',[1,'Yveltal'],'Pokemon',false,false,false,'','B'],
     ['Prolix',[1,'Zekrom'],'Pokemon',
         false,false,false,'','E','2023-12-13',4.05,false,'Builds/Pokemon/ProlixZekrom.html',false,'2025-08-18',models[170],
         [
@@ -17088,7 +17692,7 @@ const projects = [
             ['NewType','https://newtype.us/p/TgNnMiuDbvcowmHCougQ/h/trumpeter-bumblebee-smart-kit']
         ],['Wilbur'],false,true,false
     ],
-    ['Haut Voiture',[1,'Rodimus Prime'],'Transformer',false,false,false,false,'B','2025',0,true,'Builds/Transformers/HautRodimus.html'],
+    ['Haut Voiture',[1,'Rodimus Prime'],'Transformer',false,false,false,false,'B','2026',0,false,'Builds/Transformers/HautRodimus.html'],
     
     //Zoid
     ['Dash Hound',[1,'Shadow Fox'],'Zoid',
@@ -17255,8 +17859,9 @@ const projects = [
     ],
 
     //Other
-    ['Gun-Rex',[1,'Steel Dragon'],'Other',false,false,true,false,'B'],
-    ['Rojira',[1,'Godzilla'],'Other',false,false,false,'Legendary Monsterverse','B','2025',0],
+    ['Teddy Bear Rock',[2,'BearGGuy Ohana & Aloharo Set'],'HG',false,false,false,'Gundam','B','2026',0],
+    ['Gun-Rex',[1,'Steel Dragon'],'Other',false,false,false,false,'B','2026',0],
+    ['Rojira',[1,'Godzilla'],'Other',false,false,false,'Legendary Monsterverse','B','2026',0],
     ['Joe Cool',[1,'Surfing Snoopy'],'Other',
         false,false,false,'Peanuts','E','2024-09-29',5.42,false,'Builds/Other/JoeCool.html',false,'2024-12-24',models[147],
         [
@@ -17319,7 +17924,7 @@ const projects = [
             ['USA Gundam Store','https://www.usagundamstore.com/products/1-4-scale-usags-apex-model-kit']
         ],false,true,true,'1:4',false,false,false,false,true
     ],
-    ['Voltron',[1,'Voltron'],'Other',false,false,false,'Voltron: Defender of the Universe','B','2025',0]
+    ['Voltron',[1,'Voltron'],'Other',false,false,false,'Voltron: Defender of the Universe','B','2026',0]
 ];
 
 //Initialize Arrays
