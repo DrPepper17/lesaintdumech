@@ -15,7 +15,7 @@
 
         <title id="title">&#9884; Le Saint du Mech: </title>
     </head>
-    <body onload="buildProjectPage('Samus: Zero Suit'),convertDateToday()">
+    <body onload="buildProjectPage('Bucolix'),convertDateToday()">
         <!--Jumbotron-->
         <header class="jumbotron jumbotron-fluid"> 
             <div class="container">
@@ -146,6 +146,9 @@
                 <div class="row align-items-center">
                     <div class="col-md-5 mb-3 text-center" id="gModelPhoto"></div>
                     <div class="col">
+                        <span class="gMobileArmorHD">
+                            <span class="font-weight-bold text-warning">Mobile Armor</span><br/>
+                        </span>
                         <span class="gShortNameHD">
                             <span id="gShortName"><span class="font-weight-bold">Model: </span></span><br/>
                         </span>
@@ -154,9 +157,6 @@
                         </span>
                         <span class="gEWHD">
                             <span class="font-weight-bold text-danger">EW Version</span><br/>
-                        </span>
-                        <span class="gMobileArmorHD">
-                            <span class="font-weight-bold text-warning">Mobile Armor</span><br/>
                         </span>
                         <span class="gAltNameHD">
                             <span id="gAltName"><span class="font-weight-bold">Alias: </span></span><br/>
@@ -258,7 +258,8 @@
                             <span id="gsCaptain"><span class="font-weight-bold">Captain: </span></span><br/>
                         </span>
                         <span class="gsCaptain2HD">
-                            <span id="gsCaptain2"><span class="font-weight-bold">2nd Captains: </span></span><br/>
+                            <span id="2CapTitle" class="font-weight-bold"></span><br/>
+                            <ul id="gsCaptain2"></ul>
                         </span>
                         <span class="gsSeriesHD">
                             <span id="gsSeries"><span class="font-weight-bold">Series: </span></span><br/>
@@ -291,7 +292,7 @@
                             <ul id="gsFrom"></ul>
                         </span>
                         <span class="gsToHD">
-                            <span class="font-weight-bold">Developed To: </span><br/>
+                            <span class="font-weight-bold">Developed Into: </span><br/>
                             <ul id="gsTo"></ul>
                         </span>
                         <span class="gsHangarHD">
@@ -317,6 +318,13 @@
                         <span class="gsOnboardHD">
                             <span class="font-weight-bold">Onboard: </span><br/>
                             <ul id="gsOnboard"></ul>
+                        </span>
+                        <span class="gsVariantsHD">
+                            <span class="font-weight-bold">Variants: </span><br/>
+                            <ul id="gsVariants"></ul>
+                        </span>
+                        <span class="gsDesignedHD">
+                            <span id="gsDesigned"><span class="font-weight-bold">Designed By: </span></span><br/>
                         </span>
                     </div>
                 </div>
@@ -427,14 +435,17 @@
                 <div class="row align-items-center">
                     <div class="col offset-md-1" id="dpModelPhoto"></div>
                     <div class="col">
-                        <span class="dpSeriesHD">
-                            <span id="dpSeries"><span class="font-weight-bold">Series: </span></span><br/>
+                        <span class="dpNameHD">
+                            <span id="dpName"><span class="font-weight-bold">Scene: </span></span><br/>
                         </span>
-                        <span class="dpShortNameHD">
-                            <span id="dpShortName"><span class="font-weight-bold">Kit: </span></span><br/>
+                        <span class="dpKitHD">
+                            <span id="dpKit"><span class="font-weight-bold">Kit: </span></span><br/>
                         </span>
                         <span class="dpBrandHD">
                             <span id="dpBrand"><span class="font-weight-bold">Manufacturer: </span></span><br/>
+                        </span>
+                        <span class="dpFranchiseHD">
+                            <span id="dpFranchise"><span class="font-weight-bold">Series: </span></span><br/>
                         </span>
                     </div>
                 </div>
@@ -654,7 +665,7 @@
                 </span>
             </span>
 
-           <!--Pokemon-->
+            <!--Pokemon-->
             <span class="PokemonPage">
                 <div class="row align-items-center">
                     <div class="col offset-md-1 text-center mb-3" id="pkModelPhoto"></div>

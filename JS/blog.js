@@ -4258,6 +4258,29 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/TragiSola10.jpeg']
         ]
+    ],
+    [
+        ['2026-01-07','20260107A'],
+        'First Post 2026',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/BucoLuna41.jpeg',
+        [
+            'I missed posting last week. I just got caught up in all the holiday stuff and New Years. So my bad on that. But it was the last week of the year so I think that\'s a pretty good track record.'
+        ],
+        [
+            [
+                'But to get started with 2026 I bring my dark Lunala, ',
+                ['Bucolix','Builds/Pokemon/BucixLana.html'],
+                ' to ring in the New Year. *Scratching my head* Maybe timing wise it would have made more sense to start the year with the Sunne Pokemon Solgaleo  but too late to fix that now. What\'s done is done. But Enjoy !'
+            ]
+        ],
+        [
+            [
+                ['Youtube','https://youtu.be/FLhzodDCL1Q?si=V7de6OfAzlLgyFIE',true]
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/BucoLuna39.jpeg']
+        ]
     ]
 ]
 

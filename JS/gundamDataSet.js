@@ -7394,12 +7394,12 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/cherub36.jpeg','Cherub']
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/cherub36.jpeg','Profile Photo: Cherub'],
-        'So if you remember when the Witch from Mercury line first came out, they were so the hot commodity and hard to get your hands at first. Soon as they hit the shelves they immediately sold out. For the longest time it was so impossible for me to get my hands on the HG Aerial. So when I noticed my local Hobby store just happened to have one lone Aerial SD sitting there on the shelf, I snatched it immediately. May not be the HG but at that moment I was desperate for anything that I would have to make do. Wont lie, it was more simplisitc than the alter SD models. By SD standards it was simplistic. But it had lots of great details. Wanting to reflect its feminine nature and paint with a palette I normally do not go with I chose the pink and light purple. Overall I think it just looks great.',false,
+        'So if you remember when the Witch from Mercury line first came out, they were so the hot commodity and hard to get your hands at first. Soon as they hit the shelves they immediately sold out. For the longest time it was so impossible for me to get my hands on the HG Aerial. So when I noticed my local Hobby store just happened to have one lone Aerial SD sitting there on the shelf, I snatched it immediately. May not be the HG but at that moment I was desperate for anything that I would have to make do. Wont lie, it was more simplisitc than the alter SD models. By SD standards it was simplistic. But it had lots of great details. Wanting to reflect its feminine nature and paint with a palette I normally do not go with I chose the pink and light purple. Overall I think it just looks great.','Zoey, Nebraska',
         [
             ['Video','https://youtu.be/at7b4oUjEd0'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/sd-gundam-ex-standard-19-gundam-aerial'],
             ['NewType','https://newtype.us/p/GP81LBhwpuFNcHQ0ktrd/h/sdex-standard-19-gundam-aerial']
-        ],false,true,true
+        ],false,false,true
     ],
     ['Aerial [MGSD]',[1,'Aerial'],'MGSD',true,false,false,'Mercury','C','2025-11-25',1.92],
     ['Zephon',[1,'Aerial Rebuild'],'HG',
@@ -8891,8 +8891,8 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/spark09.jpeg','South Park','img32']
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/spark01.jpeg','Profile Photo: South Park'],
-        'After finishing the Bel-Air, I realized there was still a lot I had to learn about air brush painting. So before moving on to the larger projects I decided to do something fun on a much more small scale in order to get a little more practice. Looking for a theme I was inspired by the boys of South Park, plus the Operation Meteor lineup.',
-        false,false,false,false,true
+        'After finishing the Bel-Air, I realized there was still a lot I had to learn about air brush painting. So before moving on to the larger projects I decided to do something fun on a much more small scale in order to get a little more practice. Looking for a theme I was inspired by the boys of South Park, plus the Operation Meteor lineup.','John, Shelly, Nebraska',
+        false,false,false,true
     ],
     ['PB Altron',[1,'PB Altron'],'HG',false,true,false,'Wing','B'],
     ['Gemini',[2,'Aquarius','Aquarius'],'SD',
@@ -9386,7 +9386,7 @@ const projects = [
         ],false,true,true,false
     ],
     ['Proto-Zero [SD]',[1,'Proto-Zero'],'SD',true,false,false,'Wing','E','2021-12-14',1.67,false,false,false,'2023-05-01'],
-    ['Wing Zero [RG]',[1,'Proto-Zero'],'RG',true,false,false,'Wing','C','2025-11-12',8.5],
+    ['Wing Zero [RG]',[1,'Proto-Zero'],'RG',true,false,false,'Wing','E','2025-11-12',11.5],
     ['Sampson',[1,'Proto-Zero'],'RG',false,false,false,'Wing','B'],  //red
     ['Solomon',[1,'Proto-Zero'],'RG',false,false,false,'Wing','B'], //blue
     ['Shenlong [HG]',[1,'Shenlong Gundam'],'HG',true,false,false,'Wing','E','2025-01-24',1.83],
@@ -10436,7 +10436,7 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/parmageddon20.jpeg','Project Armageddon','img21']
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/parmageddon17.jpeg','Profile Photo: Armageddon'],
-        'One of the coolest things I love about the SEED universe is the versatility of the mobile suits in how they all can have added equipment packs added on to enhance their features. However very few of these packs have been made as actual add-on model kits to add to the current model kit lineup. So when I saw that P-Bandai was releasing the Dagger L expansion pack I just had to get it and paint it. Included is the Doppelhorn Dual Recoilless Cannon, which is the very long barrel guns mounted on the Dagger\'s shoulders. And also included is the Multi-Launcher pack which is the large square box-like structure that houses the long range nuclear ICBMs stored inside that were used to vaporize the Boaz military asteroid in the final story arc of Gundam SEED. To mount the two units I build two new Dagger Ls which I painted identical my previous project King Leir. Bringing my Dagger count now up to three: King Leir and his two daughters Gonorilla and Regan. Also included is Oberon, acting as their squadron commander.',false,
+        'One of the coolest things I love about the SEED universe is the versatility of the mobile suits in how they all can have added equipment packs added on to enhance their features. However very few of these packs have been made as actual add-on model kits to add to the current model kit lineup. So when I saw that P-Bandai was releasing the Dagger L expansion pack I just had to get it and paint it. Included is the Doppelhorn Dual Recoilless Cannon, which is the very long barrel guns mounted on the Dagger\'s shoulders. And also included is the Multi-Launcher pack which is the large square box-like structure that houses the long range nuclear ICBMs stored inside that were used to vaporize the Boaz military asteroid in the final story arc of Gundam SEED. To mount the two units I build two new Dagger Ls which I painted identical my previous project King Leir. Bringing my Dagger count now up to three: King Leir and his two daughters Gonorilla and Regan. Also included is Oberon, acting as their squadron commander.','Corbin, Nebraska',
         [
             ['Premium Bandai','https://p-bandai.com/us/item/F2563436001']
         ],['Oberon'],false,true,'1:144',false,false,false,
@@ -11985,7 +11985,7 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/blueangels13.jpeg','Skygrasper Straight Build','img21']
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/blueangels06.jpeg','Profile Photo: Blue Angels'],
-        'The theme for this was two fold. One navy show-planes, The Blue Angels. I wanted to capture their color. Second, the holidays were upon us and I wanted to do something Christmas themed to capture the holiday spirit. For this I imagined a squadron of Skygraspers flying through the clouds and passing by Santa as they did.',false,
+        'The theme for this was two fold. One navy show-planes, The Blue Angels. I wanted to capture their color. Second, the holidays were upon us and I wanted to do something Christmas themed to capture the holiday spirit. For this I imagined a squadron of Skygraspers flying through the clouds and passing by Santa as they did.','Dave, Nebraska',
         [
             ['Video','https://www.instagram.com/reel/CmpsNSWokVp/?igshid=YzcxN2Q2NzY0OA=='],
             ['USA Gundam Store','https://www.usagundamstore.com/products/rg-1-144-06-fx-550-skygrasper-launcher-sword-pack'],
@@ -13601,12 +13601,12 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/warpig10.jpeg','War Pig','img10'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/warpig11.jpeg','War Pig','img11']
         ],
-        ['https://hosting.photobucket.com/images/i/lesaintdumech/warpig08.jpeg','Profile Photo: War Pig'],false,false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/warpig08.jpeg','Profile Photo: War Pig'],false,'Shelly, Nebraska',
         [
             ['Video','https://www.instagram.com/reel/CrMBT1IONut/?igshid=YzcxN2Q2NzY0OA=='],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pre-order-sd-gundam-ex-standard-010-gundam-barbatos'],
             ['NewType','https://newtype.us/p/Oaz5ySoNM69IG61UfS7W/h/sdex-standard-10-gundam-barbatos']
-        ],['Deep Purple'],true,true,false
+        ],['Deep Purple'],false,true,false
     ],
     ['Deep Purple',[1,'Barbatos Lupus'],'SD',
         false,false,false,'IBO','E','2021-12-14',4.36,false,'Builds/Gundams/DeepPurple.html',false,'2023-07-17',models[48],
@@ -13625,12 +13625,12 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/deeppurple12.jpeg','Deep Purple','img12']
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/deeppurple07.jpeg','Profile Photo: Deep Purple'],
-        'Smooooke on the waaaaater...... Fire in the sky!! For this design the name preceded the design. Back in December 2021 I was doing an SD models binge, with each one named after music/musicians/bands. I\'m a huge lover of Deep Purple and named this kit after them for \'just because\'. Anyhow once the name was chosen, the design quickly followed. True to name, I stuck to all different shades of puprle. Metallic purple. GLossy Purple. Grape Purple. Any shade of purple that Testors offered I was on it.',false,
+        'Smooooke on the waaaaater...... Fire in the sky!! For this design the name preceded the design. Back in December 2021 I was doing an SD models binge, with each one named after music/musicians/bands. I\'m a huge lover of Deep Purple and named this kit after them for \'just because\'. Anyhow once the name was chosen, the design quickly followed. True to name, I stuck to all different shades of puprle. Metallic purple. GLossy Purple. Grape Purple. Any shade of purple that Testors offered I was on it.','Jacob, Nebraska',
         [
             ['Video','https://www.instagram.com/p/Cuz5iD7AGFv/'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pre-order-014-gundam-barbatos-lupus-ibo-2nd-season-bandai-sd-ex-standard'],
             ['NewType','https://newtype.us/p/hvuv8wfY6UaAdRQuKlrD/h/sdex-standard-14-gundam-barbatos-lupus']
-        ],['War Pig'],true,true,false
+        ],['War Pig'],false,true,false
     ],
     ['Sealiah',[1,'Barbatos Lupus'],'HG',
         false,false,false,'IBO','E','2023-02-05',12.51,false,'Builds/Gundams/Sealiah.html',false,'2023-06-13',models[48],
@@ -13849,7 +13849,7 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/UbmenschArmor34.jpeg','Ubermensch: Armor'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/UbmenschArmor35.jpeg','Ubermensch: Armor']
         ],['https://hosting.photobucket.com/images/i/lesaintdumech/UbmenschArmor20.jpeg', 'Profile Photo: Ubermensch'],
-        '"In a stronger age than this decaying, self-doubing present, he must yet come to us, the redeeming man, of great love and contempt, the creative spirit whose compelling strength will not let him rest in any aloofness or any beyond, whose isolation is misunderstood by the people as if it were flight from reality \u2014 While it is only his absorption, immersion, penetration into reality, so that, when he one day emerges again into the light, he may bring home the redemption of this reality; its redemption from the curse that the hitherto reigning ideal has laid upon it. The man of the future, who will redeem us not only from the hitherto reigning ideal but also from that which was bound to grow out of it, the Great Nausea, the will to nothingness, nihilism; this bell-stroke of noon and of the great decision that liberates the will again and restores its goal to the earth and his hope to man; this Antichrist and Antinihilist; this victor over God and nothingness \u2014 he must come one day." ~ Friedrich Nietzsche, On the Genealogy of Morals',false, 
+        '"In a stronger age than this decaying, self-doubing present, he must yet come to us, the redeeming man, of great love and contempt, the creative spirit whose compelling strength will not let him rest in any aloofness or any beyond, whose isolation is misunderstood by the people as if it were flight from reality \u2014 While it is only his absorption, immersion, penetration into reality, so that, when he one day emerges again into the light, he may bring home the redemption of this reality; its redemption from the curse that the hitherto reigning ideal has laid upon it. The man of the future, who will redeem us not only from the hitherto reigning ideal but also from that which was bound to grow out of it, the Great Nausea, the will to nothingness, nihilism; this bell-stroke of noon and of the great decision that liberates the will again and restores its goal to the earth and his hope to man; this Antichrist and Antinihilist; this victor over God and nothingness \u2014 he must come one day." ~ Friedrich Nietzsche, On the Genealogy of Morals','Shelly, Nebraska',
         [
             ['Video: Frame','https://instagram.com/p/CzCnO36OrDa/'],
             ['Video: Armor','https://www.instagram.com/reel/CzEMVDeuD4D/?igshid=MzRlODBiNWFlZA=='],
@@ -14439,13 +14439,12 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/ColomboFleet13.jpeg','Colombo Flet']
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/ColomboFleet03.jpeg','Profile Photo: Colombo'],
-        'This was a special kit that included parts for two ships. Both the Salamis and the Magellan from Universal Century. So I will be debuting this in parts. First up is Santa Clara, the Salamis-Class. Since it\'s a ship I use metallic colors and painted it steel. It\'s definitely a cute little ship. And came with its own little Pod-Ball figurines and an adorable escape shuttle too. Second is the Santa Maria, Magellan-Class, and flagship to our fleet. For the Santa Clara I went with metallics but for the Santa Maria I chose  lighter creamier colors to make the ship more warm. The Magellan is also pretty cool. It comes with a docking smaller ship as well and a small squadron of GMs.',
-        false,
+        'This was a special kit that included parts for two ships. Both the Salamis and the Magellan from Universal Century. So I will be debuting this in parts. First up is Santa Clara, the Salamis-Class. Since it\'s a ship I use metallic colors and painted it steel. It\'s definitely a cute little ship. And came with its own little Pod-Ball figurines and an adorable escape shuttle too. Second is the Santa Maria, Magellan-Class, and flagship to our fleet. For the Santa Clara I went with metallics but for the Santa Maria I chose  lighter creamier colors to make the ship more warm. The Magellan is also pretty cool. It comes with a docking smaller ship as well and a small squadron of GMs.','Chuck, Cooper, Nebraska',
         [
             ['Video','https://youtu.be/rjLwRChziN0'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/ex-23-salamis-magellan'],
             ['Newtype','https://newtype.us/p/VHDR2Mop4vCLoWpWFJ9D/h/ex-23-salamis-magellan']
-        ],false,true,true,'1:1700','Santa Clara -n- Santa Maria','Fleet Colombo'
+        ],false,false,true,'1:1700','Santa Clara -n- Santa Maria','Fleet Colombo'
 
     ],
     ['Starman',[1,'Sazabi'],'SD',
@@ -14773,7 +14772,7 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL87.jpeg','P-Bandai Luxe-Ball'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL88.jpeg','P-Bandai Luxe-Ball']
         ],['https://hosting.photobucket.com/images/i/lesaintdumech/LUXEBALL74.jpeg','Profile Photo: Luxe-Ball'],
-        'Ordered this kit off P-Bandai on a pure whim. Let\'s be honest it\'s a little weird. Never been that fond of the balls from UC, and I do not really care for the Build Divers / Fighters mobile suits. They are such gimmicks. So was not really sure what I would do with this kit when I ordered it. I purchased it soly for the oddity rather than finding it cool. My first train of though was I figured I would paint it red like a crab and call it Cancer. But then playing Pokemon I kept thinking aobut the balls and all the different cool designs of each type of Pokemon ball, I particularly found the Luxury Ball fancy and pretty. And that is when it hit me, paint the Gundam Ball like a Pokeball, specifically the Luxury Ball. To accomplish that I used Mr Hobby Mr Metallic Red and Rough Gold for the red and gold portions. Then for the main ball portion I painted it three layers of TurboDork Black ice with one layer of TurboDork on just the ball to give it a sparkle. I think it came out pretty cool. At some point I think I now want to order just regular Ball kits and paint them all the other pokeball designs and complete the set.',false,
+        'Ordered this kit off P-Bandai on a pure whim. Let\'s be honest it\'s a little weird. Never been that fond of the balls from UC, and I do not really care for the Build Divers / Fighters mobile suits. They are such gimmicks. So was not really sure what I would do with this kit when I ordered it. I purchased it soly for the oddity rather than finding it cool. My first train of though was I figured I would paint it red like a crab and call it Cancer. But then playing Pokemon I kept thinking aobut the balls and all the different cool designs of each type of Pokemon ball, I particularly found the Luxury Ball fancy and pretty. And that is when it hit me, paint the Gundam Ball like a Pokeball, specifically the Luxury Ball. To accomplish that I used Mr Hobby Mr Metallic Red and Rough Gold for the red and gold portions. Then for the main ball portion I painted it three layers of TurboDork Black ice with one layer of TurboDork on just the ball to give it a sparkle. I think it came out pretty cool. At some point I think I now want to order just regular Ball kits and paint them all the other pokeball designs and complete the set.','Waylon, Illinois',
         [
             ['Video','https://youtu.be/AHB-3BSQa7U'],
             ['Premium Bandai','https://p-bandai.com/us/item/F2435139008'],
@@ -15622,14 +15621,14 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/CetautoArceus20.jpeg','Cetautomatix'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/CetautoArceus21.jpeg','Cetautomatix']
         ],['https://hosting.photobucket.com/images/i/lesaintdumech/CetautoArceus21.jpeg','Profile Photo: Cetautomatix'],
-        'Staid very true to form with this design. The base is Mr Hobby Metallic Rough Silver, so white, as is the traditional design. H0wever I wanted to brighten my build up. So I swapped the matt black details with a shiny metallic copper and swapped the yellow portions with a shiny metallic Vallejo Signal Red. It reminds me of a stop light.',false,
+        'Staid very true to form with this design. The base is Mr Hobby Metallic Rough Silver, so white, as is the traditional design. H0wever I wanted to brighten my build up. So I swapped the matt black details with a shiny metallic copper and swapped the yellow portions with a shiny metallic Vallejo Signal Red. It reminds me of a stop light.','Roxy, Nebraska',
         [
             ['Video','https://youtu.be/LOOGfyUoeTo'],
             ['Asterix: Cetautomatix','https://asterix.fandom.com/wiki/Fulliautomatix'],
             ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Arceus_(Pokémon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-arceus-51-model-kit'],
             ['NewType','https://newtype.us/p/1fr1jxjfedNyHnKlr6Gv/h/pokemon-arceus']
-        ],false,true,true,false,false,false,false,false,false,false,'Pokemon Select Series 51 Arceus Model Kit'
+        ],false,false,true,false,false,false,false,false,false,false,'Pokemon Select Series 51 Arceus Model Kit'
     ],
     ['Harmonix',[1,'Mega Blaziken'],'Pokemon',false,false,false,'','A'],
     ['Obelix',[1,'Bulbasaur'],'Pokemon',
@@ -16067,14 +16066,14 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/InstantFue12.jpeg','Instantmix'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/InstantFue13.jpeg','Instantmix']
         ],['https://hosting.photobucket.com/images/i/lesaintdumech/InstantFue10.jpeg','Profile Photo: Instantmix'],
-        'DESCRIPTION',false,
+        'DESCRIPTION','Jesse, Nebraska',
         [
             ['Video','https://youtu.be/0X6RDt1NFdY'],
             ['Asterix: Instantmix','https://asterix.com/en/characters/instantmix/'],
             ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Fuecoco_(Pokémon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-fuecoco-20-quick-model-kit'],
             ['NewType','https://newtype.us/p/yzaMSpSS1tElCrmXmtPt/h/pokemon-model-kit-quick-20-fuecoco']
-        ],false,true,false,false,false,false,false,false,false,false,'Pokemon Fuecoco 20 Quick Model Kit'
+        ],false,false,false,false,false,false,false,false,false,false,'Pokemon Fuecoco 20 Quick Model Kit'
     ],
     ['Astronomix',[1,'Gengar'],'Pokemon',
         false,false,false,'','E','2023-12-11',2.68,false,'Builds/Pokemon/AstronGengar.html',false,'2025-08-04',models[169],
@@ -16100,14 +16099,14 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/AstronomixGengar19.jpeg','Astronomix'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/AstronomixGengar20.jpeg','Astronomix']
         ],['https://hosting.photobucket.com/images/i/lesaintdumech/AstronomixGengar05.jpeg','Profile Photo: Astronomix'],
-        'Went with a very traditional Gengar design. Basically just a very dark puprple. Specifcally the Mr Hobby Metallic Violet. The cool thing about this kit is it comes with two tongues. One withdrawn and one stuck out extended. So of course I had to paint and pose it with both.',false,
+        'Went with a very traditional Gengar design. Basically just a very dark puprple. Specifcally the Mr Hobby Metallic Violet. The cool thing about this kit is it comes with two tongues. One withdrawn and one stuck out extended. So of course I had to paint and pose it with both.','Aidan, Nebraska',
         [
             ['Video','https://youtu.be/cGkscgFlfWA'],
             ['Asterix: Astronomix','https://asterix.fandom.com/wiki/Astronomix'],
             ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Gengar_(Pokémon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-gengar-model-kit'],
             ['NewType','https://newtype.us/p/lGyKAFk3fhLZe7e6e2j1/h/pokemon-gengar']
-        ],false,true,true,false,false,false,false,false,false,false,'Pokemon Select Series 45 Gengar Model Kit'
+        ],false,false,true,false,false,false,false,false,false,false,'Pokemon Select Series 45 Gengar Model Kit'
     ],
     ['Granfrog',[1,'Greninja'],'Pokemon',
         false,false,false,false,'E','2021-11-11',5.68,false,'Builds/Pokemon/Granfrog.html',false,'2022-08-17',models[11],
@@ -16341,13 +16340,13 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Eury12.jpeg','Eurydice'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Eury13.jpeg','Eurydice']
         ],['https://hosting.photobucket.com/images/i/lesaintdumech/Eury01.jpeg','Profile Photo: Eurydice'],
-        'DESCRIPTION',false,
+        'DESCRIPTION','Eve, Nebraska',
         [
             ['Video','https://youtu.be/pWQuxGOMlRo'],
             ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Jirachi_(Pokémon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-jirachi-23-quick-model-kit'],
             ['NewType','https://newtype.us/p/QQ20Oj03HvMjPtfc8kK9/h/pokemon-model-kit-quick-23-jirachi']
-        ],false,true,false,false,false,false,false,false,false,false,'Pokemon Jirachi 23 Quick Model Kit'
+        ],false,false,false,false,false,false,false,false,false,false,'Pokemon Jirachi 23 Quick Model Kit'
     ],
     ['Lutetia',[1,'Lucario'],'Pokemon',
         false,false,false,'','E','2023-10-03',5.09,false,'Builds/Pokemon/Lutetia.html',false,'2025-07-07',models[167],
@@ -16435,7 +16434,7 @@ const projects = [
         ],['Vitalstatistix'],true,true,false,false,false,false,false,false,false,'Pokemon Select Series 4 Lugia Model Kit'
     ],
     ['Bucolix',[1,'Lunala'],'Pokemon',
-        false,false,false,'','D','2025-07-04',4.29,false,'Builds/Pokemon/BucixLana.html',false,'2026-01-05',models[176],
+        false,false,false,'','E','2025-07-04',4.29,false,'Builds/Pokemon/BucixLana.html',false,'2026-01-07',models[176],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/BucoLuna20.jpeg','Bucolix'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/BucoLuna21.jpeg','Bucolix'],
@@ -16485,7 +16484,7 @@ const projects = [
             ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Lunala_(Pokémon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pre-order-pokepla-collection-40-select-series-lunala'],
             ['NewType','https://newtype.us/p/7HBfTsdqFkyz7wPA03kQ/h/pokemon-lunala']
-        ],['Tragicomix'],true,false,false,false,false,false,false,false,false,'Pokemon Select Series 40 Lunala Model Kit'
+        ],['Tragicomix'],true,true,false,false,false,false,false,false,false,'Pokemon Select Series 40 Lunala Model Kit'
     ],
     ['Unhygienix',[1,'Magikarp'],'Pokemon',false,false,false,'','A'],
     ['Cacofonix',[1,'Metagross'],'Pokemon',
@@ -16567,13 +16566,13 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Monosyllabix27.jpeg','Monosyllabix']
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/Monosyllabix25.jpeg','Profile Photo: Monosyllabix'],
-        'Was not a complicated design. Most of Mew is just one color. Used Mr Hobby\'s Metal Peach for the base pink. Then hand painted a generic flat red for the circles on the feet and hand painted with flat white, flat blue and flat black to for the eyes. To add just a little bit of extra flair used a gemstone stick to give it an earing. Overall it is rather just quite cute.',false,
+        'Was not a complicated design. Most of Mew is just one color. Used Mr Hobby\'s Metal Peach for the base pink. Then hand painted a generic flat red for the circles on the feet and hand painted with flat white, flat blue and flat black to for the eyes. To add just a little bit of extra flair used a gemstone stick to give it an earing. Overall it is rather just quite cute.','Hannah, California',
         [
             ['Video','https://youtu.be/HFDKL02iJzk'],
             ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Mew_(Pokemon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-mew-02-quick-model-kit'],
             ['NewType','https://newtype.us/p/2I52VIRFzowvxYGIHxyC/h/pokemon-model-kit-quick-02-mew']
-        ],['Polysyllabix'],true,true,false,false,false,false,false,false,false,'Pokemon Mew 02 Quick Model Kit'
+        ],['Polysyllabix'],false,true,false,false,false,false,false,false,false,'Pokemon Mew 02 Quick Model Kit'
     ],
     ['Polysyllabix',[1,'Mewtwo'],'Pokemon',
         false,false,false,'','E','2023-11-25',4.83,false,'Builds/Pokemon/Polysyl.html',false,'2025-04-15',models[161],
@@ -16609,14 +16608,14 @@ const projects = [
             
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/Polysyllablix18.jpeg','Profile Photo: Polysyllabix'],
-        'A very traditional paint scheme to the original Mewtwo design. Used TurboDork Purl Grey for the light purple and Mr Metallic Metallic Violet for the dark purple. It\'s a simple model but it came out great. And so shiny.',false,
+        'A very traditional paint scheme to the original Mewtwo design. Used TurboDork Purl Grey for the light purple and Mr Metallic Metallic Violet for the dark purple. It\'s a simple model but it came out great. And so shiny.','Jeff, California',
         [
             ['Video','https://youtu.be/SN-fz_gHRSo'],
             ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Mewtwo_(Pokemon)'],
             ['TurboDork: Purl Grey','https://turbodork.com/products/purl-grey-1'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-mewtwo-model-kit'],
             ['NewType','https://newtype.us/p/CBSn5RIMRw8C0xpurheh/h/pokemon-mewtwo']
-        ],['Monosyllabix'],true,true,false,false,false,false,false,false,false,'Pokemon Select Series 32 Mewtwo Model Kit'
+        ],['Monosyllabix'],false,true,false,false,false,false,false,false,false,'Pokemon Select Series 32 Mewtwo Model Kit'
     ],
     ['Cyrano',[1,'Pikachu'],'Pokemon',
         false,false,false,'','E','2024-07-05',1.65,false,'Builds/Pokemon/Cyrano.html',false,'2025-06-09',models[165],
@@ -16688,7 +16687,7 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/PicanmixComic.jpeg','Picanmix']
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/Picanmix11.jpeg','Profile Photo: Picanmix'],
-        'Came up with the idea for this back when I was painting the Dark Samus Echoes suit. I really liked how the TurboDork Cold Open and Ice to Never paints looked on the Dark Samus build. They sort of gave an arctic blue aesthetic. Which I though would be great for Piplup since penguins are an arctic bird after all. Anyhow despite being quite simple, this is just so cute.',false,
+        'Came up with the idea for this back when I was painting the Dark Samus Echoes suit. I really liked how the TurboDork Cold Open and Ice to Never paints looked on the Dark Samus build. They sort of gave an arctic blue aesthetic. Which I though would be great for Piplup since penguins are an arctic bird after all. Anyhow despite being quite simple, this is just so cute.','Sue, Nebraska',
         [
             ['Video','https://youtu.be/C74Cw7lbCPs'],
             ['Asterix: Picanmix','https://asterix.fandom.com/wiki/Picanmix'],
@@ -16697,7 +16696,7 @@ const projects = [
             ['NewType','https://newtype.us/p/yzU9p7mXLKhtFtIrFzfO/h/pokemon-model-kit-quick-06-piplup'],
             ['TurboDork: Cold Open','https://turbodork.com/products/cold-open-1?variant=40013820100690'],
             ['TurboDork: Ice to Never','https://turbodork.com/products/ice-to-never-1?variant=29460041793606']
-        ],['Dark Samus: Echoes'],true,true,false,false,false,false,false,false,false,'Pokemon Piplup 06 Quick Model Kit'
+        ],['Dark Samus: Echoes'],false,true,false,false,false,false,false,false,false,'Pokemon Piplup 06 Quick Model Kit'
     ],
     ['Tiplouf',[0.25,'Piplup'],'Pokemon',
         false,false,false,'','D','2025-09-07',1.1,false,'Builds/Pokemon/Tiplup.html',false,'2026-04-13',models[153],
@@ -17132,13 +17131,13 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/TuskTepig20.jpeg','Tusk']
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/TuskTepig09.jpeg','Profile Photo: Tusk'],
-        'For this one Was inspired by the mascot of the Arkansas Razorbacks, Tusk the Razorback. A razorback is basically a North American wild boar with large tusks and the official mascot for the University of Arkansas. Granted, little Tepig is way too cute to be a big ol smelly warthog, but he\'s just a baby. He\'ll get there someday.',false,
+        'For this one Was inspired by the mascot of the Arkansas Razorbacks, Tusk the Razorback. A razorback is basically a North American wild boar with large tusks and the official mascot for the University of Arkansas. Granted, little Tepig is way too cute to be a big ol smelly warthog, but he\'s just a baby. He\'ll get there someday.','Molly, New York',
         [
             ['Video','https://youtu.be/Z9kye_ii8zs'],
             ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Tepig_(Pokemon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-tepig-14-quick-model-kit'],
             ['NewType','https://newtype.us/p/Bh64h14GeIoFui3kPjy4/h/pokemon-model-kit-quick-14-tepig']
-        ],false,true,true,false,false,false,false,false,false,false,'Pokemon Tepig 14 Quick Model Kit'
+        ],false,false,true,false,false,false,false,false,false,false,'Pokemon Tepig 14 Quick Model Kit'
     ], 
     ['Igrec',[1,'Yveltal'],'Pokemon',false,false,false,'','B'],
     ['Prolix',[1,'Zekrom'],'Pokemon',
@@ -17579,12 +17578,11 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/libeccio10.jpeg','Libeccio Andromeda Class Battleship','img10']
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/libeccio05.jpeg','Profile Photo: Libeccio'],
-        'Named after the Mediterranean SouthWest wind, I present to you the Libeccio. I had, had way too much fun building the Eternal, Archangel and Dominion, that I ached to build another ship model again. Granted there are not many other ships in the Gundam lineup to build, and also that Bandai is currently not manufacturing new ones, I had no choice but to branch out and try another franchise. And luckly enough at the time, there were lots of StarBlazers kits floating around in rotation to take advantavge of. I know nothing about the StarBlazer though of course. But the kits were cool enough that they seemed worth giving them a try.',
-        false,
+        'Named after the Mediterranean South West wind, I present to you the Libeccio. I had, had way too much fun building the Eternal, Archangel and Dominion, that I ached to build another ship model again. Granted there are not many other ships in the Gundam lineup to build, and also that Bandai is currently not manufacturing new ones, I had no choice but to branch out and try another franchise. And luckly enough at the time, there were lots of StarBlazers kits floating around in rotation to take advantavge of. I know nothing about the StarBlazer though of course. But the kits were cool enough that they seemed worth giving them a try.','Claire, Nebraska',
         [
             ['Video','https://www.instagram.com/reel/CoVMgaLMyp5/?igshid=YzcxN2Q2NzY0OA=='],
             ['StarBlazer Wiki','https://yamato.fandom.com/wiki/Andromeda_Black']
-        ],['Mistral','Levante','Ostro','Ponente'],true,true,'1:1000'
+        ],['Mistral','Levante','Ostro','Ponente'],false,true,'1:1000'
     ],
     ['Ostro',[0.2,'Cosmo Falcon'],'Ship',
         false,false,false,'StarBlazer','E','2022-07-06',6.33,false,'Builds/Ships/Ostro.html',false,'2022-07-18',models[37],
@@ -17632,12 +17630,12 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/mistral22.jpeg','Mistral']
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/mistral18.jpeg','Profile Photo: Mistral'],
-        'Had been working on another Millennium Falcon of another art medium and on a much larger scale which I custom shaded blue. I liked my color scheme on that I wanted to do a model-paint build in the same color scheme as well so I went and checked out the Star Wars model kits, which being a Disney property they were quite expensive. So I went with the cheapest Millennium falcon I could find which was this teeny tiny little thing. The other build I mentioned it will be a while til it is unveiled. The site has some upgrades and new features to go through before I add that portion. But in the meantime enjoy my mini little navy blue violet Falcon.',false,
+        'Had been working on another Millennium Falcon of another art medium and on a much larger scale which I custom shaded blue. I liked my color scheme on that I wanted to do a model-paint build in the same color scheme as well so I went and checked out the Star Wars model kits, which being a Disney property they were quite expensive. So I went with the cheapest Millennium falcon I could find which was this teeny tiny little thing. The other build I mentioned it will be a while til it is unveiled. The site has some upgrades and new features to go through before I add that portion. But in the meantime enjoy my mini little navy blue violet Falcon.','Brian, Nebraska',
         [
             ['Video','https://youtu.be/kEN__YDH0iM'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/vehicle-model-006-millennium-falcon'],
             ['NewType','https://newtype.us/p/pzyuVfGmFiybqSReb07Y/h/1-350-millennium-falcon']
-        ],['Levante','Libeccio','Ostro','Ponente'],true,true,'1:350'
+        ],['Levante','Libeccio','Ostro','Ponente'],false,true,'1:350'
     ],
     ['Gregale',[1,'Space Submarine I-401'],'Ship',false,false,false,'Space Rengo Kantai','B'],
 
