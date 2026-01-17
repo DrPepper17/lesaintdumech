@@ -4281,6 +4281,51 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/BucoLuna39.jpeg']
         ]
+    ],
+    [
+        ['2026-01-16','20260116A'],
+        'A Whole New Year, A Whole New Zero',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/RGPROTOZEROSTR18.jpeg',
+        [
+            [
+                'We had to wait a whole decade for this model, but finally Bandai releases to us the Proto form of ',
+                ['Wing Zero','Builds/Gundams/RGPZero.html'],
+                ' in Real Grade.'
+            ]
+        ],
+        [
+            'We\'ve had the Angel Winged form of Zero in real grade since 2014. So this has been long in the making. But finally as of this recent holiday season 2025 we now have the Real Grade build of Zero in both its forms available to finally be able to display it in both side-by-side.'
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RGPROTOZEROSTR03.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RGPROTOZEROSTR08.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RGPROTOZEROSTR12.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RGPROTOZEROSTR13.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RGPROTOZEROSTR14.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RGPROTOZEROSTR16.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RGPROTOZEROSTR27.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RGPROTOZEROSTR28.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RGPROTOZEROSTR34.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RGPROTOZEROSTR38.jpeg']
+        ]
     ]
 ]
 
