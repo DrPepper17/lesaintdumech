@@ -4172,7 +4172,7 @@ const blogArray = [
             ]
         ],
         [
-            'And with the unveiling of Pacifix my set of the Legendary dogs is now complete. Raikou, Entei and Suicune they are now all painted and together they look quite good. But that\'s all I have to say for now. I have to get back to Metroid. I\'m on the verge of finally beating it and I have something special pertaining to it in the works for next week. So I\'ve been quite busy.  '
+            'And with the unveiling of Pacifix my set of the Legendary dogs is now complete. Raikou, Entei and Suicune they are now all painted and together they look quite good. But that\'s all I have to say for now. I have to get back to Metroid. I\'m on the verge of finally beating it and I have something special pertaining to it in the works for next week. So I\'ve been quite busy.'
         ],
         [
             [
@@ -4325,6 +4325,35 @@ const blogArray = [
         ],
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/RGPROTOZEROSTR38.jpeg']
+        ]
+    ],
+    [
+        ['2026-01-19','20260119A'],
+        'Usher in the Royal Char Court',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/CharYJust19.jpeg',
+        [
+            [
+                'Been a bit late at posting the past few weeks. The holidays and start of the year have just been swamped for me. But this week I want to be back on time for a change. So while it\'s still Monday, I present to you ',
+                ['Justinian','Builds/Pokemon/JustinianChar.html'],
+                '.'
+            ]
+        ],
+        [
+            'Named after the emperor of the Byzantines, I could not think of a more fitting name for an emperor of the Charizards. Justinian is Charizard\'s Mega Evolution Y form. Charizard has always been my favorite pokemon, and Mega Y is an amazing slick upgrade.'
+        ],
+        [
+            [
+                ['Youtube','https://youtu.be/_hNNCPzfTac?si=0JesjJHuN0u2fVQ_',true]
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/CharYJust13.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/CharYJust20.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/CharYJust02.jpeg']
         ]
     ]
 ]

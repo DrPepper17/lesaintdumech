@@ -5935,7 +5935,7 @@ const models = [
         false,
         false,
         false,
-        ['https://hosting.photobucket.com/images/i/lesaintdumech/megachary.jpeg','Mega Charizard Y'],
+        ['https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/c4684a6d-4af9-4da7-b450-fd6b661c1b33.jpeg','Mega Charizard Y'],
         false,
         [80]
     ],
@@ -15885,7 +15885,7 @@ const projects = [
         ],['Vercingetorix','Justinian'],false,false,false,false,false,false,false,false,false,'Pokemon Select Series 36 Mega Charizard X Model Kit'
     ],
     ['Justinian',[1,'Mega Charizard Y'],'Pokemon',
-        false,false,false,'','D','2025-08-13',4.05,false,'Builds/Pokemon/JustinianChar.html',false,'2026-01-19',models[157],
+        false,false,false,'','E','2025-08-13',4.05,false,'Builds/Pokemon/JustinianChar.html',false,'2026-01-19',models[157],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/CharYJust01.jpeg','Justinian'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/CharYJust02.jpeg','Justinian'],
@@ -15914,13 +15914,13 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/CharYJust25.jpeg','Justinian']
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/CharYJust13.jpeg','Profile Photo: Justinian'],
-        'Description',false,
+        'Stuck true to the traditional design. Avoided metalic colors this time to go with flat. For the bulk of the body used Mission Models Cherry Red to give it the bright cheerful glow. For the rest used Vallejo ochre for the stomach and Vallejo Arctic Blue for the wings. The tail fire got the most attention using both Mr Hobby Metallic Blood Red and Mr Hobby Metallic Rough Gold to give it that sparkle.',false,
         [
             ['Video','https://youtu.be/_hNNCPzfTac'],
             ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Charizard_(Pokemon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-select-series-38-mega-charizard-y-model-kit'],
             ['NewType','https://newtype.us/p/KGdVbSXFI31j3KmIT1ua/h/pokemon-mega-charizard-y']
-        ],['Vercingetorix','Xerxes'],false,false,false,false,false,false,false,false,false,'Pokemon Select Series 38 Mega Charizard Y Model Kit'
+        ],['Vercingetorix','Xerxes'],false,true,false,false,false,false,false,false,false,'Pokemon Select Series 38 Mega Charizard Y Model Kit'
     ],
     ['Boudica',[1,'Dragonite'],'Pokemon',
         false,false,false,'','E','2023-03-11',3.47,false,'Builds/Pokemon/Boudica.html',false,'2023-09-12',models[81],
