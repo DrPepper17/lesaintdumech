@@ -31,7 +31,7 @@ const EPISODES = [
         21,"1997-08-20",false,103,false,'TV-MA','Trey Parker \u0026 Matt Stone','Trey Parker \u0026 Matt Stone',1.11,false,['Patrick Duffy'],false,'The boys get together with Stan\'s Uncle Jimbo and Jimbo\'s war-buddy Ned for a hunting trip in the nearby mountains. After Cartman\'s mom makes sure her \"Little Boy\" is safe and sound (much to Cartman\s dismay) the group heads off for adventure. As they drive away from the town, Jimbo explains the \"finer\" points of hunting.','img/SP/SPE103.jpeg',7.6
     ],
     [false,3,1,3,'Weight Gain 4000',
-        20,"1997-08-27",false,102,false,'TV-MA','Trey Parker \u0026 Matt Stone','Trey Parker \u0026 Matt Stone',0.72,false,['Kathie Lee Gifford','Geraldo Rivera'],['Kari Turner'],'Mr. Garrison starts the day off with a special announcement; one of South Park\'s own has won a national essay contest. Everyone is shocked to learn that the winner is Cartman, who doesn\'t even remember what he wrote about.','img/SP/SPE102.jpeg',false,7.5
+        20,"1997-08-27",false,102,false,'TV-MA','Trey Parker \u0026 Matt Stone','Trey Parker \u0026 Matt Stone',0.72,false,['Kathie Lee Gifford','Geraldo Rivera'],['Kari Turner'],'Mr. Garrison starts the day off with a special announcement; one of South Park\'s own has won a national essay contest. Everyone is shocked to learn that the winner is Cartman, who doesn\'t even remember what he wrote about.','img/SP/SPE102.jpeg',7.5
     ],
     [false,4,1,4,'Big Gay Al\'s Big Gay Boat Ride',
         20,"1997-09-03",false,104,false,'TV-MA','Trey Parker','Trey Parker \u0026 Matt Stone',0.69,false,['Brian Boitano'],['George Clooney'],'Stan\'s got a new dog-named Sparky. Stan proclaims his pet to be the toughest dog on the mountain. Though while Stan thinks his dog is ready for fighting, Sparky proceeds to hump Sylvester like a little bitch. The other boys taunt Stan about his gay dog and Sparky runs away to find someone who will love him for who he is.','img/SP/SPE104.jpeg',7.6
@@ -821,41 +821,27 @@ function generateModalFrame() {
 
         let div4Node = document.createElement('div');
         let div4Class = document.createAttribute('class');
-        div4Class.value = 'modal-header bg-secondary text-white';
+        div4Class.value = 'modal-header bg-info text-white';
         div4Node.setAttributeNode(div4Class);
         div3Node.appendChild(div4Node);
+
+        let modalTitleText = '';
+        if (Number.isInteger(EPISODES[i][1])) {
+            modalTitleText = '#'+EPISODES[i][1]+' - ';
+        }
+        modalTitleText = modalTitleText + EPISODES[i][4].toUpperCase();
 
         let h3_1Node = document.createElement('h3');
         let h3_1Class = document.createAttribute('class');
         h3_1Class.value = 'modal-title';
         h3_1Node.setAttributeNode(h3_1Class);
-        let modalTitle = document.createTextNode(EPISODES[i][4].toUpperCase());
+        let modalTitle = document.createTextNode(modalTitleText);
         h3_1Node.appendChild(modalTitle);
         div4Node.appendChild(h3_1Node);
 
-        let button1Node = document.createElement('button');
-        let button1Type = document.createAttribute('type');
-        button1Type.value = 'button';
-        let button1Class = document.createAttribute('class');
-        button1Class.value = 'close';
-        let button1DataDismiss = document.createAttribute('data-dismiss');
-        button1DataDismiss.value = 'modal';
-        let closeImg = document.createElement('img');
-        let closeImgSRC = document.createAttribute('src');
-        closeImgSRC.value = 'img/CloseButton.png';
-        let closeImgWidth = document.createAttribute('width');
-        closeImgWidth.value = '50px';
-        closeImg.setAttributeNode(closeImgSRC);
-        closeImg.setAttributeNode(closeImgWidth);
-        button1Node.setAttributeNode(button1Type);
-        button1Node.setAttributeNode(button1Class);
-        button1Node.setAttributeNode(button1DataDismiss);
-        button1Node.appendChild(closeImg);
-        div4Node.appendChild(button1Node);
-
         let div5Node = document.createElement('div');
         let div5Class = document.createAttribute('class');
-        div5Class.value = 'modal-body';
+        div5Class.value = 'modal-body bg-warning';
         div5Node.setAttributeNode(div5Class);
         div3Node.appendChild(div5Node);
 
@@ -867,32 +853,221 @@ function generateModalFrame() {
 
         let row1Node = document.createElement('div');
         let row1NodeClass = document.createAttribute('class');
-        row1NodeClass.value = 'row';
+        row1NodeClass.value = 'row mb-3';
         row1Node.setAttributeNode(row1NodeClass);
+        div6Node.appendChild(row1Node);
+
         let row1Col1Node = document.createElement('div');
         let row1Col1NodeClass = document.createAttribute('class');
         row1Col1NodeClass.value = 'col';
         row1Col1Node.setAttributeNode(row1Col1NodeClass);
-        let row1Col1TextNode = document.createTextNode('TEST TEST TEST');
-        row1Col1Node.appendChild(row1Col1TextNode);
+        row1Node.append(row1Col1Node);
+
         let row1Col2Node = document.createElement('div');
         let row1Col2NodeClass = document.createAttribute('class');
-        row1Col2NodeClass.value = 'col';
+        row1Col2NodeClass.value = 'col-5';
         row1Col2Node.setAttributeNode(row1Col2NodeClass);
+        row1Node.append(row1Col2Node);
 
         let img1Node = document.createElement('img');
         let img1Class = document.createAttribute('class');
         img1Class.value = 'img-fluid';
         let img1SRC = document.createAttribute('src');
-        img1SRC.value = 'img/SP/CartmanDollarSigns.png';
+        img1SRC.value = EPISODES[i][18];
         img1Node.setAttributeNode(img1Class);
         img1Node.setAttributeNode(img1SRC);
-
-        row1Node.append(row1Col1Node);
-        row1Node.append(row1Col2Node);
         row1Col2Node.appendChild(img1Node);
-        div6Node.appendChild(row1Node);
+
+        if (EPISODES[i][7]) {
+            let prmtH1 = document.createElement('h2');
+            let prmtRed = document.createAttribute('class');
+            prmtRed.value = 'text-danger';
+            prmtH1.setAttributeNode(prmtRed);
+            let prmtText = document.createTextNode('Paramount Special');
+            prmtH1.appendChild(prmtText);
+            row1Col1Node.appendChild(prmtH1);
+        }
+
+        if (EPISODES[i][9]) {
+            let altTitlePNode = document.createElement('p');
+            let altTitleTextNodeA = document.createTextNode('Alternate Title: "');
+            altTitlePNode.appendChild(altTitleTextNodeA);
+            let altTitleEmpNode = document.createElement('em');
+            let altTitleTextNodeB = document.createTextNode(EPISODES[i][9]);
+            altTitleEmpNode.appendChild(altTitleTextNodeB);
+            altTitlePNode.appendChild(altTitleEmpNode)
+            let altTitleTextNodeC = document.createTextNode('"');
+            altTitlePNode.appendChild(altTitleTextNodeC);
+            row1Col1Node.appendChild(altTitlePNode);
+        }
+
+        let row2Node = document.createElement('div');
+        let row2NodeClass = document.createAttribute('class');
+        row2NodeClass.value = 'row';
+        row2Node.setAttributeNode(row2NodeClass);
+        row1Col1Node.appendChild(row2Node);
+
+        let row2Col1Node = document.createElement('div');
+        let row2Col1NodeClass = document.createAttribute('class');
+        row2Col1NodeClass.value = 'col';
+        row2Col1Node.setAttributeNode(row2Col1NodeClass);
+        row2Node.append(row2Col1Node);
+
+        if (EPISODES[i][2]) {
+            let seasonEpisodeTitleTextNode = document.createTextNode('Season '+EPISODES[i][2]+' Episode '+EPISODES[i][3]);
+            row2Col1Node.appendChild(seasonEpisodeTitleTextNode);
+            let brNode1 = document.createElement('br');
+            row2Col1Node.appendChild(brNode1);
+        }
+
+        if ((EPISODES[i][6])) {
+            let dateTextNode = document.createTextNode('First Air: '+retrieveDate(EPISODES[i]));
+            row2Col1Node.appendChild(dateTextNode);
+            let brNode3 = document.createElement('br');
+            row2Col1Node.appendChild(brNode3);
+        }
+
+        if (EPISODES[i][5]) {
+            let runTimeTextNode = document.createTextNode('Runtime: '+EPISODES[i][5]+' (minutes)');
+            row2Col1Node.appendChild(runTimeTextNode);
+            let brNode5 = document.createElement('br');
+            row2Col1Node.appendChild(brNode5);
+        }
+
+        if (EPISODES[i][19]) {
+            let imdbTextNode = document.createTextNode('IMDB Rating: '+EPISODES[i][19]+'/10');
+            row2Col1Node.appendChild(imdbTextNode);
+            let brNode7 = document.createElement('br');
+            row2Col1Node.appendChild(brNode7);
+        }
+
+        let row2Col2Node = document.createElement('div');
+        let row2Col2NodeClass = document.createAttribute('class');
+        row2Col2NodeClass.value = 'col';
+        row2Col2Node.setAttributeNode(row2Col2NodeClass);
+        row2Node.append(row2Col2Node);
+
+        if (Number.isInteger(EPISODES[i][8])) {
+            let prodCodeTextNode = document.createTextNode('Prod Code: '+EPISODES[i][8]);
+            row2Col2Node.appendChild(prodCodeTextNode);
+            let brNode2 = document.createElement('br');
+            row2Col2Node.appendChild(brNode2);
+        }
+
+        if (EPISODES[i][13]) {
+            let USViewsTextNode = document.createTextNode('Views: '+EPISODES[i][13]+' (million)');
+            row2Col2Node.appendChild(USViewsTextNode);
+            let brNode4 = document.createElement('br');
+            row2Col2Node.appendChild(brNode4);
+        }
+
+        if (EPISODES[i][14]) {
+            let GlobalViewsTextNode = document.createTextNode('Global Views: '+EPISODES[i][14]);
+            row2Col2Node.appendChild(GlobalViewsTextNode);
+            let brNode6 = document.createElement('br');
+            row2Col2Node.appendChild(brNode6);
+        }
+
+        if (EPISODES[i][10]) {
+            let ratedTextNode = document.createTextNode('Rated: '+EPISODES[i][10]);
+            row2Col2Node.appendChild(ratedTextNode);
+            let brNode8 = document.createElement('br');
+            row2Col2Node.appendChild(brNode8);
+        }
+
+        if (EPISODES[i][11]) {
+            let directedByTextNode = document.createTextNode('Directed By: '+EPISODES[i][11]);
+            row1Col1Node.appendChild(directedByTextNode);
+            let brNode9 = document.createElement('br');
+            row1Col1Node.appendChild(brNode9);
+        }
+
+        if (EPISODES[i][12]) {
+            let writtenByTextNode = document.createTextNode('Written By: '+EPISODES[i][12]);
+            row1Col1Node.appendChild(writtenByTextNode);
+            let brNode10 = document.createElement('br');
+            row1Col1Node.appendChild(brNode10);
+        }
+
+        let row3Node = document.createElement('div');
+        let row3NodeClass = document.createAttribute('class');
+        row3NodeClass.value = 'row mb-3';
+        row3Node.setAttributeNode(row3NodeClass);
+        div6Node.appendChild(row3Node);
+
+        let row3Col1Node = document.createElement('div');
+        let row3Col1NodeClass = document.createAttribute('class');
+        row3Col1NodeClass.value = 'col';
+        row3Col1Node.setAttributeNode(row3Col1NodeClass);
+        row3Node.append(row3Col1Node);
+
+        if (EPISODES[i][17]) {
+            let synopsisPNode = document.createElement('p');
+            let synopsisTextNode = document.createTextNode('Synopsis: '+EPISODES[i][17]);
+            row3Col1Node.appendChild(synopsisPNode);
+            synopsisPNode.appendChild(synopsisTextNode);
+        }
+
+        let row4Node = document.createElement('div');
+        let row4NodeClass = document.createAttribute('class');
+        row4NodeClass.value = 'row';
+        row4Node.setAttributeNode(row4NodeClass);
+        div6Node.appendChild(row4Node);
+
+        if (EPISODES[i][15]) {
+            let row4Col1Node = document.createElement('div');
+            let row4Col1NodeClass = document.createAttribute('class');
+            row4Col1NodeClass.value = 'col offset-1';
+            row4Col1Node.setAttributeNode(row4Col1NodeClass);
+            row4Node.append(row4Col1Node);
+
+            let row4Col1CelebrityNode = document.createTextNode('Celebrity Portrayals:');
+            row4Col1Node.appendChild(row4Col1CelebrityNode);
+            let row4Col1ULNode = document.createElement('ul');
+            row4Col1Node.appendChild(row4Col1ULNode);
+            for (let j=0;j<EPISODES[i][15].length;j++) {
+                let celebLI = document.createElement('li');
+                row4Col1ULNode.appendChild(celebLI);
+                let celebLITextNode = document.createTextNode(EPISODES[i][15][j]);
+                celebLI.appendChild(celebLITextNode);
+                let celebLIWeight = document.createAttribute('class');
+                celebLIWeight.value = "font-weight-normal";
+                celebLI.setAttributeNode(celebLIWeight);
+            }
+        }
+
+        if (EPISODES[i][16]) {
+            let row4Col2Node = document.createElement('div');
+            let row4Col2NodeClass = document.createAttribute('class');
+            row4Col2NodeClass.value = 'col';
+            row4Col2Node.setAttributeNode(row4Col2NodeClass);
+            row4Node.append(row4Col2Node);
+
+            let row4Col2GuestNode = document.createTextNode('Guest Stars:');
+            row4Col2Node.appendChild(row4Col2GuestNode);
+            let row4Col2ULNode = document.createElement('ul');
+            row4Col2Node.appendChild(row4Col2ULNode);
+            for (let j=0;j<EPISODES[i][16].length;j++) {
+                let guestLI = document.createElement('li');
+                row4Col2ULNode.appendChild(guestLI);
+                let guestLITextNode = document.createTextNode(EPISODES[i][16][j]);
+                guestLI.appendChild(guestLITextNode);
+                let guestLIWeight = document.createAttribute('class');
+                guestLIWeight.value = "font-weight-normal";
+                guestLI.setAttributeNode(guestLIWeight);
+            }
+        }
 
         anchorNode.appendChild(div1Node);
     }
+}
+
+function retrieveDate(array) {
+    let dateStamp = new Date(array[6]);
+    dateStamp.setDate(dateStamp.getDate()+1);
+    let month = dateStamp.getMonth()+1;
+    let day = dateStamp.getDate();
+    let year = dateStamp.getFullYear();
+
+    return month+'/'+day+'/'+year;
 }
