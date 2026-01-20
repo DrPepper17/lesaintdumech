@@ -223,282 +223,806 @@ const EPISODES = [
         20,"2000-12-20",false,417,false,'TV-MA','Adrien Beard','Trey Parker',2.3,false,false,['Louis Price'],'Now that Mr. Hankey\'s all tied up with the new wife and kids, it\'s up to the boys and a video Christmas card to save the spirit of the season.','https://static.wikia.nocookie.net/southpark/images/7/78/S4E16-Thumbnail.png/revision/latest/scale-to-width-down/1000?cb=20210125003917',7.4
     ],
     [false,66,5,1,'It Hits the Fan'//,
-        //runtime,"2001-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+        //20,"2001-06-20",false,502,false,'TV-MA','Trey Parker','Trey Parker',2.1,false,Celebrities,Guests,'Synopsis','photo',8.3
     ],
-    [false,67,5,2,'Cripple Fight'],
-    [false,68,5,3,'Super Best Friends'],
-    [true,69,5,4,'Scott Tenorman Must Die'],
-    [false,70,5,5,'Terrance and Phillip: Behind the Blow'],
-    [false,71,5,6,'Cartmanland'],
-    [false,72,5,7,'Proper Condom Use'],
-    [false,73,5,8,'Towelie'],
-    [false,74,5,9,'Osama bin Laden Has Farty Pants'],
-    [false,75,5,10,'How to Eat with Your Butt'],
-    [false,76,5,11,'The Entity'],
-    [false,77,5,12,'Here Comes the Neighborhood'],
-    [false,78,5,13,'Kenny Dies'],
-    [false,79,5,14,'Butters\' Very Own Episode'],
-    [false,80,6,1,'Jared Has Aides'],
-    [false,81,6,2,'Asspen'],
-    [false,82,6,3,'Freak Strike'],
-    [false,83,6,4,'Fun with Veal'],
-    [false,84,6,5,'The New Terrance and Phillip Movie Trailer'],
-    [false,85,6,6,'Professor Chaos'],
-    [false,86,6,7,'Simpsons Already Did It'],
-    [true,87,6,8,'Red Hot Catholic Love'],
-    [false,88,6,9,'Free Hat'],
-    [false,89,6,10,'Bebe\'s Boobs Destroy Society'],
-    [false,90,6,11,'Child Abduction Is Not Funny'],
-    [false,91,6,12,'A Ladder to Heaven'],
-    [false,92,6,13,'The Return of the Fellowship of the Ring to the Two Towers'],
-    [false,93,6,14,'The Death Camp of Tolerance'],
-    [false,94,6,15,'The Biggest Douche in the Universe'],
-    [false,95,6,16,'My Future Self \'n\' Me'],
-    [true,96,6,17,'Red Sleigh Down'],
-    [false,97,7,1,'Cancelled'],
-    [false,98,7,2,'Krazy Kripples'],
-    [false,99,7,3,'Toilet Paper'],
-    [false,100,7,4,'I\'m a Little Bit Country'],
-    [false,101,7,5,'Fat Butt and Pancake Head'],
-    [false,102,7,6,'Lil\' Crime Stoppers'],
-    [false,103,7,7,'Red Man\'s Greed'],
-    [false,104,7,8,'South Park Is Gay!'],
-    [false,105,7,9,'Christian Rock Hard'],
-    [false,106,7,10,'Grey Dawn'],
-    [false,107,7,11,'Casa Bonita'],
-    [false,108,7,12,'All About Mormons'],
-    [true,109,7,13,'Butt Out'],
-    [false,110,7,14,'Raisins'],
-    [false,111,7,15,'It\'s Christmas in Canada'],
-    [false,112,8,1,'Good Times with Weapons'],
-    [false,113,8,2,'Up the Down Steroid'],
+    [false,67,5,2,'Cripple Fight'//,
+        //21,"2001-06-27",false,503,false,'TV-MA','Trey Parker','Trey Parker',1.78,false,Celebrities,Guests,'Synopsis','photo',8.3
+    ],
+    ['BLOCKED',68,5,3,'Super Best Friends',
+        22,"2001-07-04",false,504,false,'TV-MA','Trey Parker','Trey Parker',1.66,false,['Muhammad','David Blaine','George W Bush','Laura Bush','Karl Rove','Joseph Smith'],false,'Stan, Kyle, Cartman and Kenny discover David Blaine, magician and cult leader, performing in the streets of South Park. Stan finds out early that the Blainiacs are not as nice as everyone thinks. He tries to convince the other boys they have been brainwashed, but they have forsaken their friends and families. Teaming up with Jesus, Stan calls upon all the Super Best Friends to destroy the magician and thwart the mass suicide pact he has launched.','https://static.wikia.nocookie.net/southpark/images/1/1a/Super_Best_Friends_Current.png/revision/latest/scale-to-width-down/1000?cb=20220920010336',8.2
+    ],
+    [true,69,5,4,'Scott Tenorman Must Die'//,
+        //20,"2001-07-11",false,501,false,'TV-MA',''Eric Stough'','Trey Parker',1.88,false,Celebrities,Guests,'Synopsis','photo',9.6
+    ],
+    [false,70,5,5,'Terrance and Phillip: Behind the Blow'//,
+        //21,"2001-07-18",false,505,false,'TV-MA','Trey Parker','Trey Parker',2.77,false,Celebrities,Guests,'Synopsis','photo',6.9
+    ],
+    [false,71,5,6,'Cartmanland'//,
+        //21,"2001-07-25",false,506,false,'TV-MA','Trey Parker','Trey Parker',3.09,false,Celebrities,Guests,'Synopsis','photo',8.9
+    ],
+    [false,72,5,7,'Proper Condom Use'//,
+        //22,"2001-08-01",false,507,false,'TV-MA','Trey Parker','Trey Parker',2.45,false,Celebrities,Guests,'Synopsis','photo',8.6
+    ],
+    [false,73,5,8,'Towelie'//,
+        //22,"2001-08-08",false,508,false,'TV-MA','Trey Parker','Trey Parker',2.68,false,Celebrities,Guests,'Synopsis','photo',8.3
+    ],
+    [false,74,5,9,'Osama bin Laden Has Farty Pants'//,
+        //20,"2001-11-07",false,509,false,'TV-MA','Trey Parker','Trey Parker',2.23,false,Celebrities,Guests,'Synopsis','photo',7.8
+    ],
+    [false,75,5,10,'How to Eat with Your Butt'//,
+        //20,"2001-11-14",false,510,false,'TV-MA','Trey Parker','Trey Parker',3.16,false,Celebrities,Guests,'Synopsis','photo',8.0
+    ],
+    [false,76,5,11,'The Entity'//,
+        //20,"2001-11-21",false,511,false,'TV-MA','Trey Parker','Trey Parker',2.3,false,Celebrities,Guests,'Synopsis','photo',8.2
+    ],
+    [false,77,5,12,'Here Comes the Neighborhood'//,
+        //22,"2001--11-28",false,512,false,'TV-MA','Eric Stough','Trey Parker',3.03,false,Celebrities,Guests,'Synopsis','photo',8.0
+    ],
+    [false,78,5,13,'Kenny Dies'//,
+        //20,"2001-12-05",false,513,false,'TV-MA','Trey Parker','Trey Parker',2.66,false,Celebrities,Guests,'Synopsis','photo',8.8
+    ],
+    [false,79,5,14,'Butters\' Very Own Episode'//,
+        //22,"2001-12-12",false,514,false,'TV-MA','Eric Stough','Trey Parker',2.63,false,Celebrities,Guests,'Synopsis','photo',9.0
+    ],
+    [false,80,6,1,'Jared Has Aides'//,
+        //runtime,"2002-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,81,6,2,'Asspen'//,
+        //runtime,"2002-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,82,6,3,'Freak Strike'//,
+        //runtime,"2002-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,83,6,4,'Fun with Veal'//,
+        //runtime,"2002-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,84,6,5,'The New Terrance and Phillip Movie Trailer'//,
+        //runtime,"2002-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,85,6,6,'Professor Chaos'//,
+        //runtime,"2002-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,86,6,7,'Simpsons Already Did It'//,
+        //runtime,"2002-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [true,87,6,8,'Red Hot Catholic Love'//,
+        //runtime,"2002-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,88,6,9,'Free Hat'//,
+        //runtime,"2002-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,89,6,10,'Bebe\'s Boobs Destroy Society'//,
+        //runtime,"2002-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,90,6,11,'Child Abduction Is Not Funny'//,
+        //runtime,"2002-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,91,6,12,'A Ladder to Heaven'//,
+        //runtime,"2002-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,92,6,13,'The Return of the Fellowship of the Ring to the Two Towers'//,
+        //runtime,"2002-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,93,6,14,'The Death Camp of Tolerance'//,
+        //runtime,"2002-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,94,6,15,'The Biggest Douche in the Universe'//,
+        //runtime,"2002-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,95,6,16,'My Future Self \'n\' Me'//,
+        //runtime,"2002-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [true,96,6,17,'Red Sleigh Down'//,
+        //runtime,"2002-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,97,7,1,'Cancelled'//,
+        //runtime,"2003-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,98,7,2,'Krazy Kripples'//,
+        //runtime,"2003-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,99,7,3,'Toilet Paper'//,
+        //runtime,"2003-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,100,7,4,'I\'m a Little Bit Country'//,
+        //runtime,"2003-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,101,7,5,'Fat Butt and Pancake Head'//,
+        //runtime,"2003-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,102,7,6,'Lil\' Crime Stoppers'//,
+        //runtime,"2003-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,103,7,7,'Red Man\'s Greed'//,
+        //runtime,"2003-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,104,7,8,'South Park Is Gay!'//,
+        //runtime,"2003-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,105,7,9,'Christian Rock Hard'//,
+        //runtime,"2003-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,106,7,10,'Grey Dawn']//,
+        //runtime,"2003-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ,
+    [false,107,7,11,'Casa Bonita'//,
+        //runtime,"2003-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,108,7,12,'All About Mormons'//,
+        //runtime,"2003-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [true,109,7,13,'Butt Out'//,
+        //runtime,"2003-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,110,7,14,'Raisins'//,
+        //runtime,"2003-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,111,7,15,'It\'s Christmas in Canada'//,
+        //runtime,"2003-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,112,8,1,'Good Times with Weapons'//,
+        //runtime,"2004-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,113,8,2,'Up the Down Steroid'//,
+        //runtime,"2004-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
     [true,114,8,3,'The Passion of the Jew',
         22,"2004-03-31-",false,804,false,'TV-MA','Trey Parker','Trey Parker',4.43,false,['Mel Gibson'],false,'Kyle finally sees the blockbuster movie "The Passion of the Christ" and admits that Cartman has been right about the Jewish people all along.','https://static.wikia.nocookie.net/southpark/images/7/7e/POTJ79.png/revision/latest/scale-to-width-down/1000?cb=20210220063032',8.6
     ],
-    [false,115,8,4,'You Got F\'d in the A'],
-    [false,116,8,5,'Awesom-O'],
-    [false,117,8,6,'The Jeffersons'],
-    [false,118,8,7,'Goobacks'],
-    [false,119,8,8,'Douche and Turd'],
-    [false,120,8,9,'Something Wall-Mart This Way Comes'],
-    [false,121,8,10,'Preschool'],
-    [false,122,8,11,'Quest for Ratings'],
-    [false,123,8,12,'Stupid Spoiled Whore Video Playset'],
-    [false,124,8,13,'Cartman\'s Incredible Gift'],
-    [false,125,8,14,'Woodland Critter Christmas'],
-    [false,126,9,1,'Mr. Garrison\'s Fancy New Vagina'],
-    [false,127,9,2,'Die Hippie, Die'],
-    [false,128,9,3,'Wing'],
-    [false,129,9,4,'Best Friends Forever'],
-    [false,130,9,5,'The Losing Edge'],
-    [false,131,9,6,'The Death of Eric Cartman'],
-    [false,132,9,7,'Erection Day'],
-    [false,133,9,8,'Two Days Before the Day After Tomorrow'],
-    [false,134,9,9,'Marjorine'],
-    [false,135,9,10,'Follow That Egg!'],
-    [false,136,9,11,'Ginger Kids'],
-    [false,137,9,12,'Trapped in the Closet'],
-    [false,138,9,13,'Free Willzyx'],
-    [false,139,9,14,'Bloody Mary'],
-    [false,140,10,1,'The Return of Chef'],
-    [false,141,10,2,'Smug Alert!'],
-    [false,142,10,3,'Cartoon Wars Part I'],
-    [false,143,10,4,'Cartoon Wars Part II'],
-    [false,144,10,5,'A Million Little Fibers'],
-    [false,145,10,6,'ManBearPig'],
-    [false,146,10,7,'Tsst'],
-    [false,147,10,8,'Make Love, Not Warcraft'],
-    [false,148,10,9,'Mystery of the Urinal Deuce'],
-    [false,149,10,10,'Miss Teacher Bangs a Boy'],
-    [false,150,10,11,'Hell on Earth 2006'],
-    [false,151,10,12,'Go God Go'],
-    [false,152,10,13,'Go God Go XII'],
-    [false,153,10,14,'Stanley\'s Cup'],
-    [false,154,11,1,'With Apologies to Jesse Jackson'],
-    [false,155,11,2,'Cartman Sucks'],
-    [false,156,11,3,'Lice Capades'],
-    [false,157,11,4,'The Snuke'],
-    [true,158,11,5,'Fantastic Easter Special'],
-    [false,159,11,6,'D-Yikes!'],
-    [false,160,11,7,'Night of the Living Homeless'],
-    [false,161,11,8,'Le Petit Tourette'],
-    [false,162,11,9,'More Crap'],
-    [false,163,11,10,'Imaginationland Episode I'],
-    [false,164,11,11,'Imaginationland Episode II'],
-    [false,165,11,12,'Imaginationland Episode III'],
-    [false,166,11,13,'Guitar Queer-O'],
-    [false,167,11,14,'The List'],
-    [true,168,12,1,'Tonsil Trouble'],
-    [false,169,12,2,'Britney\'s New Look'],
-    [false,170,12,3,'Major Boobage'],
-    [false,171,12,4,'Canada on Strike'],
-    [false,172,12,5,'Eek, a Penis!'],
-    [false,173,12,6,'Over Logging'],
-    [false,174,12,7,'Super Fun Time'],
-    [false,175,12,8,'The China Probrem'],
-    [false,176,12,9,'Breast Cancer Show Ever'],
-    [false,177,12,10,'Pandemic'],
-    [false,178,12,11,'Pandemic 2: The Startling'],
-    [false,179,12,12,'About Last Night...'],
-    [false,180,12,13,'Elementary School Musical'],
-    [false,181,12,14,'The Ungroundable'],
-    [false,182,13,1,'The Ring'],
-    [false,183,13,2,'The Coon'],
-    [false,184,13,3,'Margaritaville'],
-    [false,185,13,4,'Eat, Pray, Queef'],
-    [false,186,13,5,'Fishsticks'],
-    [true,187,13,6,'Pinewood Derby'],
-    [true,188,13,7,'Fatbeard'],
-    [false,189,13,8,'Dead Celebrities'],
-    [false,190,13,9,'Butters\' Bottom Bitch'],
-    [true,191,13,10,'W.T.F.'],
-    [false,192,13,11,'Whale Whores'],
-    [true,193,13,12,'The F Word'],
-    [false,194,13,13,'Dances with Smurfs'],
-    [false,195,13,14,'Pee'],
-    [false,196,14,1,'Sexual Healing'],
-    [false,197,14,2,'The Tale of Scrotie McBoogerballs'],
-    [false,198,14,3,'Medicinal Fried Chicken'],
-    [false,199,14,4,'You Have 0 Friends'],
-    [false,200,14,5,'200'],
-    [false,201,14,6,'201'],
-    [false,202,14,7,'Crippled Summer'],
-    [false,203,14,8,'Poor and Stupid'],
-    [false,204,14,9,'It\'s a Jersey Thing'],
-    [false,205,14,10,'Insheeption'],
-    [false,206,14,11,'Coon 2: Hindsight'],
-    [false,207,14,12,'Mysterion Rises'],
-    [false,208,14,13,'Coon vs. Coon and Friends'],
-    [false,209,14,14,'Cr\u00E8me Fra\u00EEche'],
-    [false,210,15,1,'HumancentiPad'],
-    [false,211,15,2,'Funnybot'],
-    [false,212,15,3,'Royal Pudding'],
-    [false,213,15,4,'T.M.I.'],
-    [false,214,15,5,'Crack Baby Athletic Association'],
-    [false,215,15,6,'City Sushi'],
-    [false,216,15,7,'You\'re Getting Old'],
-    [false,217,15,8,'Ass Burgers'],
-    [false,218,15,9,'The Last of the Meheecans'],
-    [false,219,15,10,'Bass to Mouth'],
-    [false,220,15,11,'Broadway Bro Down'],
-    [false,221,15,12,'1\u0025'],
-    [false,222,15,13,'A History Channel Thanksgiving'],
-    [false,223,15,14,'The Poor Kid'],
-    [false,224,16,1,'Reverse Cowgirl'],
-    [false,225,16,2,'Cash for Gold'],
-    [false,226,16,3,'Faith Hilling'],
-    [false,227,16,4,'Jewpacabra'],
-    [false,228,16,5,'Butterballs'],
-    [false,229,16,6,'I Should Have Never Gone Ziplining'],
-    [false,230,16,7,'Cartman Finds Love'],
-    [false,231,16,8,'Sarcastaball'],
-    [false,232,16,9,'Raising the Bar'],
-    [true,233,16,10,'Insecurity'],
-    [false,234,16,11,'Going Native'],
-    [false,235,16,12,'A Nightmare on FaceTime'],
-    [false,236,16,13,'A Scause for Applause'],
-    [false,237,16,14,'Obama Wins!'],
-    [false,238,17,1,'Let Go, Let Gov'],
-    [false,239,17,2,'Informative Murder Porn'],
-    [false,240,17,3,'World War Zimmerman'],
-    [false,241,17,4,'Goth Kids 3: Dawn of the Posers'],
-    [false,242,17,5,'Taming Strange'],
-    [false,243,17,6,'Ginger Cow'],
-    [false,244,17,7,'Black Friday'],
-    [false,245,17,8,'A Song of Ass and Fire'],
-    [false,246,17,9,'Titties and Dragons'],
-    [true,247,17,10,'The Hobbit'],
-    [false,248,18,1,'Go Fund Yourself'],
-    [false,249,18,2,'Gluten Free Ebola'],
-    [false,250,18,3,'The Cissy'],
-    [false,251,18,4,'Handicar'],
-    [false,252,18,5,'The Magic Bush'],
-    [false,253,18,6,'Freemium Isn\'t Free'],
-    [false,254,18,7,'Grounded Vindaloop'],
-    [false,255,18,8,'Cock Magic'],
-    [false,256,18,9,'\u0023REHASH'],
-    [false,257,18,10,'\u0023HappyHolograms'],
-    [true,258,19,1,'Stunning and Brave'],
-    [true,259,19,2,'Where My Country Gone?'],
-    [true,260,19,3,'The City Part of Town'],
-    [true,261,19,4,'You\'re Not Yelping'],
-    [true,262,19,5,'Safe Space'],
-    [true,263,19,6,'Tweek x Craig'],
-    [true,264,19,7,'Naughty Ninjas'],
-    [true,265,19,8,'Sponsored Content'],
-    [true,266,19,9,'Truth and Advertising'],
-    [true,267,19,10,'PC Principal Final Justice'],
-    [true,268,20,1,'Member Berries'],
-    [true,269,20,2,'Skank Hunt'],
-    [true,270,20,3,'The Damned'],
-    [true,271,20,4,'Wieners Out'],
-    [true,272,20,5,'Douche and a Danish'],
-    [true,273,20,6,'Fort Collins'],
-    [true,274,20,7,'Oh, Jeez'],
-    [true,275,20,8,'Members Only'],
-    [true,276,20,9,'Not Funny'],
-    [true,277,20,10,'The End of Serialization as We Know It'],
-    [true,278,21,1,'White People Renovating Houses'],
-    [true,279,21,2,'Put It Down'],
-    [true,280,21,3,'Holiday Special'],
-    [true,281,21,4,'Franchise Prequel'],
-    [true,282,21,5,'Hummels \u0026 Heroin'],
-    [true,283,21,6,'Sons a Witches'],
-    [true,284,21,7,'Doubling Down'],
-    [true,285,21,8,'Moss Piglets'],
-    [true,286,21,9,'Super Hard PCness'],
-    [true,287,21,10,'Splatty Tomato'],
-    [true,288,22,1,'Dead Kids'],
-    [true,289,22,2,'A Boy and a Priest'],
-    [true,290,22,3,'The Problem with a Poo'],
-    [false,291,22,4,'Tegridy Farms'],
-    [true,292,22,5,'The Scoots'],
-    [true,293,22,6,'Time to Get Cereal'],
-    [true,294,22,7,'Nobody Got Cereal?'],
-    [true,295,22,8,'Buddha Box'],
-    [true,296,22,9,'Unfulfilled'],
-    [true,297,22,10,'Bike Parade'],
-    [true,298,23,1,'Mexican Joker'],
-    [true,299,23,2,'Band in China'],
-    [true,300,23,3,'Shots!!!'],
-    [true,301,23,4,'Let Them Eat Goo'],
-    [true,302,23,5,'Tegridy Farms Halloween Special'],
-    [true,303,23,6,'Season Finale'],
-    [true,304,23,7,'Board Girls'],
-    [true,305,23,8,'Turd Burglars'],
-    [true,306,23,9,'Basic Cable'],
-    [true,307,23,10,'Christmas Snow'],
+    [false,115,8,4,'You Got F\'d in the A'//,
+        //runtime,"2004-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,116,8,5,'Awesom-O'//,
+        //runtime,"2004-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,117,8,6,'The Jeffersons'//,
+        //runtime,"2004-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,118,8,7,'Goobacks'//,
+        //runtime,"2004-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,119,8,8,'Douche and Turd'//,
+        //runtime,"2004-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,120,8,9,'Something Wall-Mart This Way Comes'//,
+        //runtime,"2004-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,121,8,10,'Preschool'//,
+        //runtime,"2004-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,122,8,11,'Quest for Ratings'//,
+        //runtime,"2004-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,123,8,12,'Stupid Spoiled Whore Video Playset'//,
+        //runtime,"2004-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,124,8,13,'Cartman\'s Incredible Gift'//,
+        //runtime,"2004-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,125,8,14,'Woodland Critter Christmas'//,
+        //runtime,"2004-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,126,9,1,'Mr. Garrison\'s Fancy New Vagina'//,
+        //runtime,"2005-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,127,9,2,'Die Hippie, Die'//,
+        //runtime,"2005-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,128,9,3,'Wing'//,
+        //runtime,"2005-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,129,9,4,'Best Friends Forever'//,
+        //runtime,"2005-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,130,9,5,'The Losing Edge'//,
+        //runtime,"2005-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,131,9,6,'The Death of Eric Cartman'//,
+        //runtime,"2005-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,132,9,7,'Erection Day'//,
+        //runtime,"2005-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,133,9,8,'Two Days Before the Day After Tomorrow'//,
+        //runtime,"2005-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,134,9,9,'Marjorine'//,
+        //runtime,"2005-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,135,9,10,'Follow That Egg!'//,
+        //runtime,"2005-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,136,9,11,'Ginger Kids'//,
+        //runtime,"2005-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,137,9,12,'Trapped in the Closet'//,
+        //runtime,"2005-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,138,9,13,'Free Willzyx'//,
+        //runtime,"2005-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,139,9,14,'Bloody Mary'//,
+        //runtime,"2005-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,140,10,1,'The Return of Chef'//,
+        //runtime,"2006-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,141,10,2,'Smug Alert!'//,
+        //runtime,"2006-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,142,10,3,'Cartoon Wars Part I'//,
+        //runtime,"2006-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,143,10,4,'Cartoon Wars Part II'//,
+        //runtime,"2006-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,144,10,5,'A Million Little Fibers'//,
+        //runtime,"2006-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,145,10,6,'ManBearPig'//,
+        //runtime,"2006-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,146,10,7,'Tsst'//,
+        //runtime,"2006-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,147,10,8,'Make Love, Not Warcraft'//,
+        //runtime,"2006-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,148,10,9,'Mystery of the Urinal Deuce'//,
+        //runtime,"2006-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,149,10,10,'Miss Teacher Bangs a Boy'//,
+        //runtime,"2006-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,150,10,11,'Hell on Earth 2006'//,
+        //runtime,"2006-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,151,10,12,'Go God Go'//,
+        //runtime,"2006-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,152,10,13,'Go God Go XII'//,
+        //runtime,"2006-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,153,10,14,'Stanley\'s Cup'//,
+        //runtime,"2006-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,154,11,1,'With Apologies to Jesse Jackson'//,
+        //runtime,"2007-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,155,11,2,'Cartman Sucks'//,
+        //runtime,"2007-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,156,11,3,'Lice Capades'//,
+        //runtime,"2007-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,157,11,4,'The Snuke'//,
+        //runtime,"2007-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [true,158,11,5,'Fantastic Easter Special'//,
+        //runtime,"2007-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,159,11,6,'D-Yikes!'//,
+        //runtime,"2007-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,160,11,7,'Night of the Living Homeless'//,
+        //runtime,"2007-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,161,11,8,'Le Petit Tourette'//,
+        //runtime,"2007-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,162,11,9,'More Crap'//,
+        //runtime,"2007-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,163,11,10,'Imaginationland Episode I'//,
+        //runtime,"2007-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,164,11,11,'Imaginationland Episode II'//,
+        //runtime,"2007-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,165,11,12,'Imaginationland Episode III'//,
+        //runtime,"2007-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,166,11,13,'Guitar Queer-O'//,
+        //runtime,"2007-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,167,11,14,'The List'//,
+        //runtime,"2007-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [true,168,12,1,'Tonsil Trouble'//,
+        //runtime,"2008-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,169,12,2,'Britney\'s New Look'//,
+        //runtime,"2008-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,170,12,3,'Major Boobage'//,
+        //runtime,"2008-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,171,12,4,'Canada on Strike'//,
+        //runtime,"2008-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,172,12,5,'Eek, a Penis!'//,
+        //runtime,"2008-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,173,12,6,'Over Logging'//,
+        //runtime,"2008-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,174,12,7,'Super Fun Time'//,
+        //runtime,"2008-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,175,12,8,'The China Probrem'//,
+        //runtime,"2008-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,176,12,9,'Breast Cancer Show Ever'//,
+        //runtime,"2008-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,177,12,10,'Pandemic'//,
+        //runtime,"2008-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,178,12,11,'Pandemic 2: The Startling'//,
+        //runtime,"2008-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,179,12,12,'About Last Night...'//,
+        //runtime,"2008-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,180,12,13,'Elementary School Musical'//,
+        //runtime,"2008-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,181,12,14,'The Ungroundable'//,
+        //runtime,"2008-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,182,13,1,'The Ring'//,
+        //runtime,"2009-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,183,13,2,'The Coon'//,
+        //runtime,"2009-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,184,13,3,'Margaritaville'//,
+        //runtime,"2009-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,185,13,4,'Eat, Pray, Queef'//,
+        //runtime,"2009-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,186,13,5,'Fishsticks'//,
+        //runtime,"2009-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [true,187,13,6,'Pinewood Derby'//,
+        //runtime,"2009-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [true,188,13,7,'Fatbeard'//,
+        //runtime,"2009-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,189,13,8,'Dead Celebrities'//,
+        //runtime,"2009-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,190,13,9,'Butters\' Bottom Bitch'//,
+        //runtime,"2009-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [true,191,13,10,'W.T.F.'//,
+        //runtime,"2009-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,192,13,11,'Whale Whores'//,
+        //runtime,"2009-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [true,193,13,12,'The F Word'//,
+        //runtime,"2009-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,194,13,13,'Dances with Smurfs'//,
+        //runtime,"2009-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,195,13,14,'Pee'//,
+        //runtime,"2009-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,196,14,1,'Sexual Healing'//,
+        //runtime,"2010-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,197,14,2,'The Tale of Scrotie McBoogerballs'//,
+        //runtime,"2010-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,198,14,3,'Medicinal Fried Chicken'//,
+        //runtime,"2010-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,199,14,4,'You Have 0 Friends'//,
+        //runtime,"2010-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    ['BLOCKED',200,14,5,'200'//,
+        //runtime,"2010-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    ['BLOCKED',201,14,6,'201'//,
+        //runtime,"2010-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,202,14,7,'Crippled Summer'//,
+        //runtime,"2010-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,203,14,8,'Poor and Stupid'//,
+        //runtime,"2010-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,204,14,9,'It\'s a Jersey Thing'//,
+        //runtime,"2010-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,205,14,10,'Insheeption'//,
+        //runtime,"2010-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,206,14,11,'Coon 2: Hindsight'//,
+        //runtime,"2010-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,207,14,12,'Mysterion Rises'//,
+        //runtime,"2010-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,208,14,13,'Coon vs. Coon and Friends'//,
+        //runtime,"2010-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,209,14,14,'Cr\u00E8me Fra\u00EEche'//,
+        //runtime,"2010-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,210,15,1,'HumancentiPad'//,
+        //runtime,"2011-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,211,15,2,'Funnybot'//,
+        //runtime,"2011-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,212,15,3,'Royal Pudding'//,
+        //runtime,"2011-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,213,15,4,'T.M.I.'//,
+        //runtime,"2011-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,214,15,5,'Crack Baby Athletic Association'//,
+        //runtime,"2011-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,215,15,6,'City Sushi'//,
+        //runtime,"2011-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,216,15,7,'You\'re Getting Old'//,
+        //runtime,"2011-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,217,15,8,'Ass Burgers'//,
+        //runtime,"2011-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,218,15,9,'The Last of the Meheecans'//,
+        //runtime,"2011-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,219,15,10,'Bass to Mouth'//,
+        //runtime,"2011-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,220,15,11,'Broadway Bro Down'//,
+        //runtime,"2011-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,221,15,12,'1\u0025'//,
+        //runtime,"2011-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,222,15,13,'A History Channel Thanksgiving'//,
+        //runtime,"2011-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,223,15,14,'The Poor Kid'//,
+        //runtime,"2011-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,224,16,1,'Reverse Cowgirl'//,
+        //runtime,"2012-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,225,16,2,'Cash for Gold'//,
+        //runtime,"2012-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,226,16,3,'Faith Hilling'//,
+        //runtime,"2012-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,227,16,4,'Jewpacabra'//,
+        //runtime,"2012-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,228,16,5,'Butterballs'//,
+        //runtime,"2012-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,229,16,6,'I Should Have Never Gone Ziplining'//,
+        //runtime,"2012-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,230,16,7,'Cartman Finds Love'//,
+        //runtime,"2012-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,231,16,8,'Sarcastaball'//,
+        //runtime,"2012-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,232,16,9,'Raising the Bar'//,
+        //runtime,"2012-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [true,233,16,10,'Insecurity'//,
+        //runtime,"2012-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,234,16,11,'Going Native'//,
+        //runtime,"2012-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,235,16,12,'A Nightmare on FaceTime'//,
+        //runtime,"2012-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,236,16,13,'A Scause for Applause'//,
+        //runtime,"2012-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,237,16,14,'Obama Wins!'//,
+        //runtime,"2012-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,238,17,1,'Let Go, Let Gov'//,
+        //runtime,"2013-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,239,17,2,'Informative Murder Porn'//,
+        //runtime,"2013-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,240,17,3,'World War Zimmerman'//,
+        //runtime,"2013-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,241,17,4,'Goth Kids 3: Dawn of the Posers'//,
+        //runtime,"2013-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,242,17,5,'Taming Strange'//,
+        //runtime,"2013-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,243,17,6,'Ginger Cow'//,
+        //runtime,"2013-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,244,17,7,'Black Friday'//,
+        //runtime,"2013-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,245,17,8,'A Song of Ass and Fire'//,
+        //runtime,"2013-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,246,17,9,'Titties and Dragons'//,
+        //runtime,"2013-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [true,247,17,10,'The Hobbit'//,
+        //runtime,"2013-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,248,18,1,'Go Fund Yourself'//,
+        //runtime,"2014-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,249,18,2,'Gluten Free Ebola'//,
+        //runtime,"2014-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,250,18,3,'The Cissy'//,
+        //runtime,"2014-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,251,18,4,'Handicar'//,
+        //runtime,"2014-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,252,18,5,'The Magic Bush'//,
+        //runtime,"2014-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,253,18,6,'Freemium Isn\'t Free'//,
+        //runtime,"2014-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,254,18,7,'Grounded Vindaloop'//,
+        //runtime,"2014-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,255,18,8,'Cock Magic'//,
+        //runtime,"2014-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,256,18,9,'\u0023REHASH'//,
+        //runtime,"2014-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,257,18,10,'\u0023HappyHolograms'//,
+        //runtime,"2014-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [true,258,19,1,'Stunning and Brave'//,
+        //runtime,"2015-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [true,259,19,2,'Where My Country Gone?'//,
+        //runtime,"2015-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [true,260,19,3,'The City Part of Town'//,
+        //runtime,"2015-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [true,261,19,4,'You\'re Not Yelping'//,
+        //runtime,"2015-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [true,262,19,5,'Safe Space'//,
+        //runtime,"2015-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [true,263,19,6,'Tweek x Craig'//,
+        //runtime,"2015-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [true,264,19,7,'Naughty Ninjas'//,
+        //runtime,"2015-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [true,265,19,8,'Sponsored Content'//,
+        //runtime,"2015-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [true,266,19,9,'Truth and Advertising'//,
+        //runtime,"2015-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [true,267,19,10,'PC Principal Final Justice'//,
+        //runtime,"2015-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [true,268,20,1,'Member Berries'//,
+        //runtime,"2016-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [true,269,20,2,'Skank Hunt'//,
+        //runtime,"2016-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [true,270,20,3,'The Damned'//,
+        //runtime,"2016-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [true,271,20,4,'Wieners Out'//,
+        //runtime,"2016-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [true,272,20,5,'Douche and a Danish'//,
+        //runtime,"2016-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [true,273,20,6,'Fort Collins'//,
+        //runtime,"2016-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [true,274,20,7,'Oh, Jeez'//,
+        //runtime,"2016-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [true,275,20,8,'Members Only'//,
+        //runtime,"2016-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [true,276,20,9,'Not Funny'//,
+        //runtime,"2016-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [true,277,20,10,'The End of Serialization as We Know It'//,
+        //runtime,"2016-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [true,278,21,1,'White People Renovating Houses'//,
+        //runtime,"2017-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [true,279,21,2,'Put It Down'//,
+        //runtime,"2017-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [true,280,21,3,'Holiday Special'//,
+        //runtime,"2017-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [true,281,21,4,'Franchise Prequel'//,
+        //runtime,"2017-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [true,282,21,5,'Hummels \u0026 Heroin'//,
+        //runtime,"2017-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [true,283,21,6,'Sons a Witches'//,
+        //runtime,"2017-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [true,284,21,7,'Doubling Down'//,
+        //runtime,"2017-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [true,285,21,8,'Moss Piglets'//,
+        //runtime,"2017-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [true,286,21,9,'Super Hard PCness'//,
+        //runtime,"2017-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [true,287,21,10,'Splatty Tomato'//,
+        //runtime,"2017-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [true,288,22,1,'Dead Kids'//,
+        //runtime,"2018-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [true,289,22,2,'A Boy and a Priest'//,
+        //runtime,"2018-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [true,290,22,3,'The Problem with a Poo'//,
+        //runtime,"2018-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,291,22,4,'Tegridy Farms'//,
+        //runtime,"2018-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [true,292,22,5,'The Scoots'//,
+        //runtime,"2018-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [true,293,22,6,'Time to Get Cereal'//,
+        //runtime,"2018-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [true,294,22,7,'Nobody Got Cereal?'//,
+        //runtime,"2018-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [true,295,22,8,'Buddha Box'//,
+        //runtime,"2018-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [true,296,22,9,'Unfulfilled'//,
+        //runtime,"2018-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [true,297,22,10,'Bike Parade'//,
+        //runtime,"2018-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [true,298,23,1,'Mexican Joker'//,
+        //runtime,"2019-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [true,299,23,2,'Band in China'//,
+        //runtime,"2019-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [true,300,23,3,'Shots!!!'//,
+        //runtime,"2019-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [true,301,23,4,'Let Them Eat Goo'//,
+        //runtime,"2019-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [true,302,23,5,'Tegridy Farms Halloween Special'//,
+        //runtime,"2019-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [true,303,23,6,'Season Finale'//,
+        //runtime,"2019-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [true,304,23,7,'Board Girls'//,
+        //runtime,"2019-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [true,305,23,8,'Turd Burglars'//,
+        //runtime,"2019-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [true,306,23,9,'Basic Cable'//,
+        //runtime,"2019-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [true,307,23,10,'Christmas Snow'//,
+        //runtime,"2019-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
     [true,308,24,1,'The Pandemic Special',48,"2020-09-30",false,2401],
     [true,309,24,2,'South ParQ Vaccination Special',47,"2021-03-10",false,2402],
     [false,310,false,false,'South Park: Post COVID',59,"2021-11-25",true,2403],
     [false,311,false,false,'South Park: Post COVID: The Return of COVID',62,"2021-12-16",true,2404],
-    [false,312,25,1,'Pajama Day'],
-    [false,313,25,2,'The Big Fix'],
-    [false,314,25,3,'City People'],
-    [false,315,25,4,'Back to the Cold War'],
-    [false,316,25,5,'Help, My Teenager Hates Me!'],
-    [false,317,25,6,'Credigree Weed St. Patrick\'s Day Special'],
-    [false,318,false,false,'South Park: The Streaming Wars',50,"2022-06-01",true,false],
-    [false,319,false,false,'South Park: The Streaming Wars Part 2',47,"2022-07-13",true,false],
-    [true,320,26,1,'Cupid Ye'],
-    [true,321,26,2,'The Worldwide Privacy Tour'],
-    [true,322,26,3,'Japanese Toilet'],
-    [true,323,26,4,'Deep Learning'],
-    [true,324,26,5,'DikinBaus Hot Dogs'],
-    [true,325,26,6,'Spring Break'],
-    [true,326,false,false,'South Park: Joining the Panderverse',49,"2023-10-27",true,false],
-    [false,327,false,false,'South Park: (Not Suitable For Children)',47,"2023-12-20",true,false],
-    [true,328,false,false,'South Park: The End of Obesity',50,"2024-10-24",true,false],
-    [true,329,27,1,'Sermon on the Mount'],
-    [true,330,27,2,'Got a Nut'],
-    [true,331,27,3,'Sickofancy'],
-    [true,332,27,4,'Wok is Dead'],
-    [true,333,27,5,'Conflict of Interest'],
-    [true,334,28,1,'Twisted Christian'],
-    [true,335,28,2,'The Woman in the Hat'],
-    [true,336,28,3,'Sora Not Sorry'],
-    [true,337,28,4,'Turkey Trot'],
-    [true,338,28,5,'The Crap Out']
+    [false,312,25,1,'Pajama Day'//,
+        //runtime,"2022-",false,2501,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,313,25,2,'The Big Fix'//,
+        //runtime,"2022-",false,2502,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,314,25,3,'City People'//,
+        //runtime,"2022-",false,2503,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,315,25,4,'Back to the Cold War'//,
+        //runtime,"2022-",false,2504,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,316,25,5,'Help, My Teenager Hates Me!'//,
+        //runtime,"2022-",false,2505,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,317,25,6,'Credigree Weed St. Patrick\'s Day Special'//,
+        //runtime,"2022-",false,2506,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [false,318,false,false,'South Park: The Streaming Wars',50,"2022-06-01",true,'SPC2507'],
+    [false,319,false,false,'South Park: The Streaming Wars Part 2',47,"2022-07-13",true,'SPC2508'],
+    [true,320,26,1,'Cupid Ye'//,
+        //runtime,"2023-",false,2601,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [true,321,26,2,'The Worldwide Privacy Tour'//,
+        //runtime,"2023-",false,2602,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [true,322,26,3,'Japanese Toilet'//,
+        //runtime,"2023-",false,2603,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [true,323,26,4,'Deep Learning'//,
+        //runtime,"2023-",false,2604,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [true,324,26,5,'DikinBaus Hot Dogs'//,
+        //runtime,"2023-",false,2605,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [true,325,26,6,'Spring Break'//,
+        //runtime,"2023-",false,2606,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [true,326,false,false,'South Park: Joining the Panderverse',49,"2023-10-27",true,'SPC2607'],
+    [false,327,false,false,'South Park: (Not Suitable For Children)',47,"2023-12-20",true,'SPC2608'],
+    [true,328,false,false,'South Park: The End of Obesity',50,"2024-10-24",true,'SPC2609'],
+    [true,329,27,1,'Sermon on the Mount'//,
+        //runtime,"2025-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [true,330,27,2,'Got a Nut'//,
+        //runtime,"2025-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [true,331,27,3,'Sickofancy'//,
+        //runtime,"2025-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [true,332,27,4,'Wok is Dead'//,
+        //runtime,"2025-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [true,333,27,5,'Conflict of Interest'//,
+        //runtime,"2025-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [true,334,28,1,'Twisted Christian'//,
+        //runtime,"2025-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [true,335,28,2,'The Woman in the Hat'//,
+        //runtime,"2025-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [true,336,28,3,'Sora Not Sorry'//,
+        //runtime,"2025-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [true,337,28,4,'Turkey Trot'//,
+        //runtime,"2025-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
+    [true,338,28,5,'The Crap Out'//,
+        //runtime,"2025-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ]
 ];
 
 //Initialize Variables
@@ -842,7 +1366,12 @@ function popEpisodes(array,id) {
         let imgSRC = document.createAttribute('src');
         let imgHeight = document.createAttribute('height');
         let imgClass = document.createAttribute('class');
-        if (array[i][0]) {
+        if (array[i][0] == 'BLOCKED') {
+            imgSRC.value = "img/SP/muhammad.png";
+            imgClass.value="mr-2 my-1";
+            imgHeight.value="50px";
+        }
+        else if (array[i][0]) {
             imgSRC.value = "img/SP/CartmanDollarSigns.png";
             imgHeight.value="45px";
             imgClass.value="mr-2 my-1";
@@ -947,6 +1476,26 @@ function generateModalFrame() {
         h3_1Node.appendChild(modalTitle);
         div4Node.appendChild(h3_1Node);
 
+        let button1Node = document.createElement('button');
+        let button1Type = document.createAttribute('type');
+        button1Type.value = 'button';
+        let button1Class = document.createAttribute('class');
+        button1Class.value = 'close';
+        let button1DataDismiss = document.createAttribute('data-dismiss');
+        button1DataDismiss.value = 'modal';
+        let closeImg = document.createElement('img');
+        let closeImgSRC = document.createAttribute('src');
+        closeImgSRC.value = 'img/CloseButton.png';
+        let closeImgWidth = document.createAttribute('width');
+        closeImgWidth.value = '40px';
+        closeImg.setAttributeNode(closeImgSRC);
+        closeImg.setAttributeNode(closeImgWidth);
+        button1Node.setAttributeNode(button1Type);
+        button1Node.setAttributeNode(button1Class);
+        button1Node.setAttributeNode(button1DataDismiss);
+        button1Node.appendChild(closeImg);
+        div4Node.appendChild(button1Node);
+
         let div5Node = document.createElement('div');
         let div5Class = document.createAttribute('class');
         div5Class.value = 'modal-body bg-warning';
@@ -959,6 +1508,58 @@ function generateModalFrame() {
         div6Node.setAttributeNode(div6Class);
         div5Node.appendChild(div6Node);
 
+        if (EPISODES[i][0] == 'BLOCKED') {
+            let row0Node = document.createElement('div');
+            let row0NodeClass = document.createAttribute('class');
+            row0NodeClass.value = 'row mb-3';
+            row0Node.setAttributeNode(row0NodeClass);
+            div6Node.appendChild(row0Node);
+
+            let row0Col1Node = document.createElement('div');
+            let row0Col1NodeClass = document.createAttribute('class');
+            row0Col1NodeClass.value = 'col text-center d-none d-lg-block';
+            row0Col1Node.setAttributeNode(row0Col1NodeClass);
+            row0Node.append(row0Col1Node);
+
+            let row0IMG1 = document.createElement('img');
+            let row0IMG1SRC = document.createAttribute('src');
+            let row0IMG1HEIGHT = document.createAttribute('height');
+            row0IMG1SRC.value = 'img/SP/muhammad.png';
+            row0IMG1HEIGHT.value = '120px';
+            row0IMG1.setAttributeNode(row0IMG1SRC);
+            row0IMG1.setAttributeNode(row0IMG1HEIGHT);
+            row0Col1Node.appendChild(row0IMG1);
+
+            let row0Col2Node = document.createElement('div');
+            let row0Col2NodeClass = document.createAttribute('class');
+            row0Col2NodeClass.value = 'col col-lg-6 align-self-center text-center';
+            row0Col2Node.setAttributeNode(row0Col2NodeClass);
+            row0Node.append(row0Col2Node);
+
+            let row0Col2H3 = document.createElement('h3');
+            let row0Col2H3Red = document.createAttribute('class');
+            row0Col2H3Red.value = 'text-danger font-weight-bold';
+            row0Col2H3.setAttributeNode(row0Col2H3Red);
+            row0Col2Node.appendChild(row0Col2H3);
+            let row0Col2Text = document.createTextNode('EPISODE CANCELED ONLINE DUE TO OFFENSIVE CONTENT');
+            row0Col2H3.appendChild(row0Col2Text);
+
+            let row0Col3Node = document.createElement('div');
+            let row0Col3NodeClass = document.createAttribute('class');
+            row0Col3NodeClass.value = 'col text-center d-none d-lg-block';
+            row0Col3Node.setAttributeNode(row0Col3NodeClass);
+            row0Node.append(row0Col3Node);
+
+            let row0IMG2 = document.createElement('img');
+            let row0IMG2SRC = document.createAttribute('src');
+            let row0IMG2HEIGHT = document.createAttribute('height');
+            row0IMG2SRC.value = 'img/SP/muhammad.png';
+            row0IMG2HEIGHT.value = '120px';
+            row0IMG2.setAttributeNode(row0IMG2SRC);
+            row0IMG2.setAttributeNode(row0IMG2HEIGHT);
+            row0Col3Node.appendChild(row0IMG2);
+        }
+
         let row1Node = document.createElement('div');
         let row1NodeClass = document.createAttribute('class');
         row1NodeClass.value = 'row mb-3';
@@ -967,13 +1568,13 @@ function generateModalFrame() {
 
         let row1Col1Node = document.createElement('div');
         let row1Col1NodeClass = document.createAttribute('class');
-        row1Col1NodeClass.value = 'col';
+        row1Col1NodeClass.value = 'col mb-3';
         row1Col1Node.setAttributeNode(row1Col1NodeClass);
         row1Node.append(row1Col1Node);
 
         let row1Col2Node = document.createElement('div');
         let row1Col2NodeClass = document.createAttribute('class');
-        row1Col2NodeClass.value = 'col-5';
+        row1Col2NodeClass.value = 'col-lg-5';
         row1Col2Node.setAttributeNode(row1Col2NodeClass);
         row1Node.append(row1Col2Node);
 
@@ -1011,7 +1612,7 @@ function generateModalFrame() {
 
         let row2Node = document.createElement('div');
         let row2NodeClass = document.createAttribute('class');
-        row2NodeClass.value = 'row';
+        row2NodeClass.value = 'row mb-3';
         row2Node.setAttributeNode(row2NodeClass);
         row1Col1Node.appendChild(row2Node);
 
