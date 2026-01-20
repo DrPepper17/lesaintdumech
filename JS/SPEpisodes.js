@@ -63,27 +63,63 @@ const EPISODES = [
     [false,13,1,13,'Cartman\'s Mom Is a Dirty Slut',
         20,"1998-02-25",false,113,false,'TV-MA','Trey Parker','Trey Parker \u0026 David R. Goodman',3.20,false,false,['Jay Leno'],'Cartman needs to find out who his father is but his mom is no help. Learning that his father could be one of the many people that his mom "had relations" with during an annual party called "The Drunken Barn Dance," he finds that there\'s more to his mother then he thought.','img/SP/SPE113.jpeg',8.6
     ],
-    [false,14,2,1,'Terrance and Phillip in Not Without My Anus'//,
-        //runtime,"1997-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','img/SP/SPE.jpeg',imdb
+    [false,14,2,1,'Terrance and Phillip in Not Without My Anus',
+        20,"1998-04-01",false,201,false,'TV-MA','Trey Parker','Trey Parker & Trisha Nixon',3.25,false,['Saddam Hussein','Celine Dion','Jerry Springer'],false,'The show starts off with the build up from last season \"cliffhanger revolving around Cartman\" paternal origins. However just as it seems they are about to get on with the second half of Cartman\'s Mom Is A Dirty Slut they do a 180 degree turn-around and reveal that for April Fool\'s Day they will be showing Terrance & Phillip in Not Without My Anus.','https://static.wikia.nocookie.net/southpark/images/2/2c/201.jpg/revision/latest/scale-to-width-down/1000?cb=20170401011022',6.2
     ],
-    [false,15,2,2,'Cartman\'s Mom Is Still a Dirty Slut'],
-    [false,16,2,3,'Ike\'s Wee Wee'],
-    [false,17,2,4,'Chickenlover'],
-    [false,18,2,5,'Conjoined Fetus Lady'],
-    [false,19,2,6,'The Mexican Staring Frog of Southern Sri Lanka'],
-    [false,20,2,7,'City on the Edge of Forever'],
-    [false,21,2,8,'Summer Sucks'],
-    [false,22,2,9,'Chef\'s Chocolate Salty Balls'],
-    [false,23,2,10,'Chickenpox'],
-    [false,24,2,11,'Roger Ebert Should Lay Off the Fatty Foods'],
-    [false,25,2,12,'Clubhouses'],
-    [false,26,2,13,'Cow Days'],
-    [false,27,2,14,'Chef Aid'],
-    [false,28,2,15,'Spookyfish'],
-    [false,29,2,16,'Merry Christmas, Charlie Manson!'],
-    [false,30,2,17,'Gnomes'],
-    [false,31,2,18,'Prehistoric Ice Man'],
-    [false,32,3,1,'Rainforest Shmainforest'],
+    [false,15,2,2,'Cartman\'s Mom Is Still a Dirty Slut',
+        21,"1998-04-22",false,202,false,'TV-MA','Trey Parker','Trey Parker & David Goodman',4.00,false,['Bill Clinton','Eric Roberts','John Walsh'],false,'Cartman finds out the identity of his father. And boy is he in for a surprise.','https://static.wikia.nocookie.net/southpark/images/8/86/202.jpg/revision/latest/scale-to-width-down/1000?cb=20160410151002',8.2
+    ],
+    [false,16,2,3,'Ike\'s Wee Wee',
+        22,"1998-05-20",false,204,false,'TV-MA','Trey Parker','Trey Parker',2.95,false,false,false,'Ike\'s going to have a Briss and everyone is invited! Stan Kenny and Cartman find out what a Briss really is and try to warn Kyle that his parents are going to cut off Ike\'s wee wee. Kyle sends Ike away to protect him from his scissor wielding parents.','https://static.wikia.nocookie.net/southpark/images/f/f1/204.jpg/revision/latest/scale-to-width-down/1000?cb=20160410151732',8.0
+    ],
+    [false,17,2,4,'Chickenlover',
+        22,"1998-05-27",false,203,false,'TV-MA','Trey Parker','Trey Parker, Matt Stone & David Goodman',2.71,false,false,false,'The Booktastic bus is in town and soon everyone finds out that Officer Barbrady can, Aôt read. He is whisked off to school with the boys so he can save his job. While he\'s there someone in South Park is having sex with the town\'s chickens and only Officer Barbrady with his new deputies Kenny Kyle Stan and Cartman can stop them!','https://static.wikia.nocookie.net/southpark/images/3/3d/Chickenlover81.png/revision/latest/scale-to-width-down/1000?cb=20210328152324',8.0
+    ],
+    [false,18,2,5,'Conjoined Fetus Lady',
+        22,"1998-06-03",false,205,false,'TV-MA','Trey Parker','Trey Parker, Matt Stone & David Goodman',2.57,false,false,false,'Kyle is injured and must go to see the school nurse and is terrified because of the stories he\'s heard. She looks fairly normal except for the dead fetus sticking out of her head. Kyle\'s mother educates the boys on her condition and decides that everyone in South Park should be made aware. Meanwhile the South Park Cows dodgeball team goes to the state national and finally the international finals in China.','https://static.wikia.nocookie.net/southpark/images/4/4a/205.jpg/revision/latest/scale-to-width-down/1000?cb=20160410152422',7.6
+    ],
+    [false,19,2,6,'The Mexican Staring Frog of Southern Sri Lanka',
+        22,"1998-06-10",false,206,false,'TV-MA','Trey Parker','Trey Parker & Matt Stone',2.57,false,['Saddam Hussein','Bob Denver'],false,'Mr. Garrison assigns the boys learn out about Vietnam from somebody they know. Stan\'s Uncle Jimbo and his friend Ned tell the boys their outrageous tale. Mr. Garrison doesn\'t believe the boy\'s report and gives them detention. They plot revenge against Stan\'s Uncle by submitting a phony video of the Mexican Staring Frog of Southern Sri Lanka to them.','https://static.wikia.nocookie.net/southpark/images/6/6e/MexicanStaringFrog15.png/revision/latest/scale-to-width-down/1000?cb=20210329121322',7.5
+    ],
+    [false,20,2,7,'City on the Edge of Forever',
+        22,"1998-06-17",false,207,'Flashbacks','TV-MA','Trey Parker','Trey Parker & Nancy M. Pimental',3.06,false,['Carrot Top','Jay Leno'],['Jay Leno','Brent Musburger','Henry Winkler'],'While their school bus is dangling on the edge of a cliff the boys remember some of their past adventures. Mrs. Crabtree catches a ride into town with a stranger and winds up doing a brief stint as a standup comedienne. Back in South Park Mr. Mackey convinces the parents that their missing children must have run away. In the end it\'s all a dream within a dream.','https://static.wikia.nocookie.net/southpark/images/9/9d/CityontheEdgeofForever13.png/revision/latest/scale-to-width-down/1000?cb=20210329123826',7.2
+    ],
+    [false,21,2,8,'Summer Sucks',
+        22,"1998-06-24",false,208,false,'TV-MA','Trey Parker','Trey Parker & Nancy M. Pimental',2.53,false,['Brett Favre','Shari Lewis','Lambchop'],['Jonathan Katz'],'Schools out for summer and with Mr. Hat missing Mr.Garrison is over the edge. The state has a ban on the sale of fireworks and it screws up the boy\'s plans for a 4th of July celebration. Mr. Garrison seeks psychiatric help from Dr. Katz while Jimbo and Ned go to Mexico in an attempt to smuggle fireworks back to the children of America.','https://static.wikia.nocookie.net/southpark/images/3/33/SummerSucks69.png/revision/latest/scale-to-width-down/1000?cb=20210329131641',7.3
+    ],
+    [false,22,2,9,'Chef\'s Chocolate Salty Balls',
+        22,"1998-08-19",false,209,false,'TV-MA','Trey Parker','Trey Parker, Matt Stone & Nancy M. Pimental',3.26,false,['Fred Savage','Robert Redford','Tom Hanks','Andy Warhol','Bruce Willis','Fabio Lanzoni','Spike Lee'],false,'A film festival moves to South Park only to have a devastating effect on the sewer system. Mr. Hankey calls upon Kyle for help. The movie people interpret Kyle\'s pleading as a pitch and they quickly turn his story into a film starring Tom Hanks and a monkey they call Mr. Hankey. Kyle is outraged that the filmmakers aren\'t hearing his pleas. Soon Chef\'s Salty Chocolate Balls energizes everyone.','https://static.wikia.nocookie.net/southpark/images/c/ce/209.jpg/revision/latest/scale-to-width-down/1000?cb=20160411024525',7.5
+    ],
+    [false,23,2,10,'Chickenpox',
+        22,"1998-08-26",false,210,false,'TV-MA','Trey Parker','Trey Parker, Matt Stone & Trisha Nixon',3.07,false,false,false,'Cartman\'s mother plots to give the boys the chickenpox by sending them over to Kenny\'s for a sleepover. Both Stan and Cartman breakout but Kyle remains immune. Kyle discovers the parental conspiracy and with the other boys hires a prostitute to give their parents herpes. Meanwhile Kenny\'s mother and Kyle\'s mother reunite their husbands who were both childhood friends that drifted apart.','https://static.wikia.nocookie.net/southpark/images/0/0f/Chickenpox77.png/revision/latest/scale-to-width-down/1000?cb=20210330113726',7.9
+    ],
+    [false,24,2,11,'Roger Ebert Should Lay Off the Fatty Foods',
+        22,"1998-09-02",false,211,false,'TV-MA','Trey Parker','Trey Parker & David Goodman',2.56,false,['Buddy Ebsen'],false,'The kids go on a field trip to the planetarium. All of the children except Cartman are acting wierd. As usual Stan and Kyle with Kenny\'s sacrifice try to get to bottom of the mystery. Meanwhile Cartman wins an appearance on a snack commercial. The four boys get to the root of the strange planetarium.','https://static.wikia.nocookie.net/southpark/images/e/ec/RogerEbertShouldLayOfftheFattyFoods82.png/revision/latest/scale-to-width-down/1000?cb=20210330122524',7.5
+    ],
+    [false,25,2,12,'Clubhouses',
+        22,"1998-09-23",false,212,false,'TV-MA','Trey Parker','Trey Parker & Nancy M. Pimental',2.57,false,false,false,'Stan needs to build a clubhouse so he and Kyle can play Truth or Dare with Wendy and her friend who has a crush on Kyle. Cartman and Kenny retaliate by building a clubhouse of their own; only theirs has hot chicks. Meanwhile the Marshes marriage breaks up and Stan learns a valuable lesson about love and family.','https://static.wikia.nocookie.net/southpark/images/5/5a/212.jpg/revision/latest/scale-to-width-down/1000?cb=20160411030321',7.9
+    ],
+    [false,26,2,13,'Cow Days',
+        22,"1998-09-30",false,213,false,'TV-MA','Trey Parker','Trey Parker & David Goodman',2.59,false,false,false,'South Park\'s annual Cow Days party is happening! The cows become transfixed on a cow statue. In order to get the money they need to win Terrance and Phillip dolls the boys sign Cartman up for a bull riding contest. A freak accident has Cartman believing he is a Vietnamese prostitute named Ming Li. The boys learn about money and cow insanity.','https://static.wikia.nocookie.net/southpark/images/f/fb/CowDays34.png/revision/latest/scale-to-width-down/1000?cb=20210330141906',7.5
+    ],
+    [false,27,2,14,'Chef Aid',
+        22,"1998-10-07",false,214,false,'TV-MA','Trey Parker','Trey Parker & Matt Stone',2.13,false,['Johnnie Cochran','Alanis Morissette','Elton John','Joe Strummer','Les Claypool','Marilyn Manson','Meat Loaf','Ozzy Osbourne','PRIMUS','Rancid','Rick James','Ween'],['Elton John','DMX','Rick James','Meat Loaf','Ol\' Dirty Bastard','Ozzy Osbourne','Les Claypool','Tim Armstrong','Joe Strummer','The Crystal Method','Dean & Gene Ween'],'Chef is getting sued by Capitalist Records for trying to obtain the rights to a song he wrote twenty years ago. He needs 2 million dollars to hire Johnny Cochran. In response the boys round up all of Chef\'s old musician friends and organize a huge concert to raise the cash.','https://static.wikia.nocookie.net/southpark/images/2/27/214.jpg/revision/latest/scale-to-width-down/1000?cb=20160411031348',7.8
+    ],
+    [false,28,2,15,'Spookyfish',
+        21,"1998-10-28",false,215,false,'TV-MA','Trey Parker','Trey Parker',3.11,false,['Barbra Streisand'],false,'Sharon Marsh\'s Aunt Flo makes her monthly visit and she has present for Stan a fish. Stan\'s fish really freaks him out especially when the dead bodies start piling up. Mrs. Marsh is convinced Stan is doing the killings and begins hiding the bodies. The boys discover there are two Cartman, Aôs and a gateway to a parallel universe at the Indian Burial Ground Pet Store.','https://static.wikia.nocookie.net/southpark/images/5/57/Spookyfish27.png/revision/latest/scale-to-width-down/1000?cb=20210402163218',8.4
+    ],
+    [false,29,2,16,'Merry Christmas, Charlie Manson!',
+        22,"1998-12-09",false,216,false,'TV-MA','Eric Stough','Trey Parker & Nancy M. Pimental',3.28,false,['Charles Manson','Donna Reed','Karolyn Grimes','Lionel Barrymore'],false,'Kyle Stan and Kenny accompany Eric and his family to a Christmas celebration with the Cartman family. One of Cartman\'s relatives breaks out of jail for the reunion with his cellmate Charles Manson.','https://static.wikia.nocookie.net/southpark/images/a/a6/MerryChristmasCharlieManson92.png/revision/latest/scale-to-width-down/1000?cb=20210407203514',8.1
+    ],
+    [false,30,2,17,'Gnomes',
+        22,"1998-12-16",false,217,false,'TV-MA','Trey Parker','Trey Parker, Matt Stone & Pam Brady',2.06,false,['Toto'],false,'Harbucks coffee plans to move into South Park and drive Tweek coffee shop out of business. Mr. Garrison assigns a report on current events to help him keep his job. The boys are planning on doing their report on the underpants gnomes. Tweek\'s father schemes to use the boy\'s report as a platform for fighting Harbucks. The report the boys deliver sparks the town into taking action.','https://static.wikia.nocookie.net/southpark/images/6/64/Gnomes27.png/revision/latest/scale-to-width-down/1000?cb=20210410152848',8.2
+    ],
+    [false,31,2,18,'Prehistoric Ice Man',
+        22,"1999-01-20",false,218,false,'TV-MA','eric Stough','Trey Parker & Nancy M. Pimental',2.37,false,['Marilyn Manson','Steve Irwin'],false,'Kyle falls into a cave. Stan goes to rescue him and finds an iceman and the two fight each other for sole credit. Dr. Mephisto discovers that the iceman has been frozen since 1996. The iceman is put on display and the fighting Kyle and Stan free him. The iceman tries to return to his family but finds himself a man out of time. Meanwhile the government has their own plans to use the iceman in their plot against Sweden.','https://static.wikia.nocookie.net/southpark/images/3/3c/PrehistoricIceMan23.png/revision/latest/scale-to-width-down/1000?cb=20210410153606',7.8
+    ],
+    [false,32,3,1,'Rainforest Shmainforest'//,
+        //runtime,"1997-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
     [false,33,3,2,'Spontaneous Combustion'],
     [false,34,3,3,'Succubus'],
     [false,35,3,4,'Jakovasaurs'],
