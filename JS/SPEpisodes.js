@@ -117,44 +117,114 @@ const EPISODES = [
     [false,31,2,18,'Prehistoric Ice Man',
         22,"1999-01-20",false,218,false,'TV-MA','eric Stough','Trey Parker & Nancy M. Pimental',2.37,false,['Marilyn Manson','Steve Irwin'],false,'Kyle falls into a cave. Stan goes to rescue him and finds an iceman and the two fight each other for sole credit. Dr. Mephisto discovers that the iceman has been frozen since 1996. The iceman is put on display and the fighting Kyle and Stan free him. The iceman tries to return to his family but finds himself a man out of time. Meanwhile the government has their own plans to use the iceman in their plot against Sweden.','https://static.wikia.nocookie.net/southpark/images/3/3c/PrehistoricIceMan23.png/revision/latest/scale-to-width-down/1000?cb=20210410153606',7.8
     ],
-    [false,32,3,1,'Rainforest Shmainforest'//,
-        //runtime,"1997-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    [false,32,3,1,'Rainforest Shmainforest',
+        22,"1999-04-07",false,301,false,'TV-MA','Trey Parker & Eric Stough','Trey Parker & Matt Stone',2.32,false,['Bruce Willis','Fred Savage','Spike Lee','Stevie Wonder'],['Jennifer Aniston'],'The boys are sent to the Costa Rican rainforest as a part of the Getting Gay with Kids choir tour.','https://static.wikia.nocookie.net/southpark/images/b/b7/RainforestShmainforest090.png/revision/latest/scale-to-width-down/1000?cb=20210404194456',8.4
     ],
-    [false,33,3,2,'Spontaneous Combustion'],
-    [false,34,3,3,'Succubus'],
-    [false,35,3,4,'Jakovasaurs'],
-    [false,36,3,5,'Tweek vs. Craig'],
-    [true,'MOVIE',false,false,'South Park: Bigger, Longer & Uncut',81,"1999-06-30",false,false],
-    [false,37,3,6,'Sexual Harassment Panda'],
-    [false,38,3,7,'Cat Orgy'],
-    [false,39,3,8,'Two Guys Naked in a Hot Tub'],
-    [true,40,3,9,'Jewbilee'],
-    [false,41,3,10,'Korn\'s Groovy Pirate Ghost Mystery'],
-    [false,42,3,11,'Chinpokomon'],
-    [false,43,3,12,'Hooked on Monkey Fonics'],
-    [false,44,3,13,'Starvin\' Marvin in Space'],
-    [false,45,3,14,'The Red Badge of Gayness'],
-    [true,46,3,15,'Mr. Hankey\'s Christmas Classics'],
-    [false,47,3,16,'Are You There God? It\'s Me, Jesus'],
-    [false,48,3,17,'World Wide Recorder Concert'],
-    [false,49,4,1,'The Tooth Fairy\'s Tats'],
-    [false,50,4,2,'Cartman\'s Silly Hate Crime'],
-    [false,51,4,3,'Timmy'],
-    [false,52,4,4,'Quintuplets'],
-    [false,53,4,5,'Cartman Joins NAMBLA'],
-    [false,54,4,6,'Cherokee Hair Tampons'],
-    [false,55,4,7,'Chef Goes Nanners'],
-    [false,56,4,8,'Something You Can Do with Your Finger'],
-    [false,57,4,9,'Do The Handicapped Go To Hell'],
-    [false,58,4,10,'Probably'],
-    [false,59,4,11,'Fourth Grade'],
-    [false,60,4,12,'Trapper Keeper'],
-    [false,61,4,13,'Helen Keller The Musical'],
-    [false,62,4,14,'Pip'],
-    [false,63,4,15,'Fat Camp'],
-    [false,64,4,16,'The Wacky Molestation Adventure'],
-    [false,65,4,17,'A Very Crappy Christmas'],
-    [false,66,5,1,'It Hits the Fan'],
+    [false,33,3,2,'Spontaneous Combustion',
+        22,"1999-04-14",false,302,false,'TV-MA','Matt Stone','Trey Parker, Matt Stone & David Goodman',2.29,false,['Nick Nolte','Whoopi Goldberg'],false,'When the citizens of South Park start exploding randomly, the mayor enlists Stan\'s dad, the resident geologist, to find a solution to the problem.','https://static.wikia.nocookie.net/southpark/images/7/7d/SpontaneousCombustion020.png/revision/latest/scale-to-width-down/1000?cb=20210404210804',8.1
+    ],
+    [false,34,3,3,'Succubus',
+        22,"1999-04-21",false,303,false,'TV-MA','Trey Parker','Trey Parker',1.89,false,false,false,'Chef finds the girl of his dreams, but the boys feel like they\'ve lost their best friend; all in exchange for a dollar amount of tree-fiddy.','https://static.wikia.nocookie.net/southpark/images/4/45/TheSuccubus073.png/revision/latest/scale-to-width-down/1000?cb=20210405201807',8.0
+    ],
+    [false,35,3,4,'Jakovasaurs',
+        22,"1999-06-16",false,305,false,'TV-MA','Matt Stone','Trey Parker, Matt Stone & David Goodman',2.07,false,false,false,'The boys discover a prehistoric creature called a Jakovasaur while camping at Stark\'s Pond.','https://static.wikia.nocookie.net/southpark/images/f/f1/Jakovasaurs057.png/revision/latest/scale-to-width-down/1000?cb=20210405202125',6.4
+    ],
+    [false,36,3,5,'Tweek vs. Craig',
+        22,"1999-06-23",false,304,false,'TV-MA','Trey Parker','Trey Parker',1.87,false,false,false,'The boys instigate a fight between Tweek and Craig in shop class. Meanwhile, Mr. Adler, the shop teacher, is haunted by a recurring dream of his lost love.','https://static.wikia.nocookie.net/southpark/images/5/52/TweekvsCraig061.png/revision/latest/scale-to-width-down/1000?cb=20210405202326',7.6
+    ],
+    [true,'MOVIE',false,false,'South Park: Bigger, Longer & Uncut',
+        81,"1999-06-30",false,'MMM01',false,'R','Trey Parker','Trey Parker, Matt Stone & Pam Brady','~3',false,['Saddam Hussein','Bill Clinton','Bill Gates','Brian Dennehy','Conan O\'Brien','Winona Ryder','The Baldwins'],['George Clooney','Minnie Driver','Brent Spiner','Dave Foley','Eric Idle','Nick Rhodes'],'Stan, Kyle, Kenny and Cartman sneak into an R-rated movie and it warps their fragile little minds. Soon their indignant parents declare war on Canada and our young heroes are America\'s last hope to stop Armageddon.','https://static.wikia.nocookie.net/southpark/images/6/60/South_Park_-_Bigger%2C_Longer_%26_Uncut-1.png/revision/latest/scale-to-width-down/1000?cb=20120512163808',7.7
+    ],
+    [false,37,3,6,'Sexual Harassment Panda',
+        22,"1999-07-07",false,306,false,'TV-MA','Eric Stough','Trey Parker',1.83,false,false,false,'After Sexual Harassment Panda "educates" the children, Cartman sues Stan for sexual harassment, and a flurry of other lawsuits follow.','https://static.wikia.nocookie.net/southpark/images/d/d1/306.jpg/revision/latest/scale-to-width-down/1000?cb=20160413142830',8.2
+    ],
+    [false,38,3,7,'Cat Orgy',
+        22,"1999-07-14",false,307,false,'TV-MA','Trey Parker','Trey Parker',2.98,false,false,false,'While Shelly\'s babysitting Eric on the evening of the mysterious meteor shower, a wild and unsupervised kitty party breaks out at the Cartman home.','https://static.wikia.nocookie.net/southpark/images/1/18/307.jpg/revision/latest/scale-to-width-down/1000?cb=20160413143206',7.9
+    ],
+    [false,39,3,8,'Two Guys Naked in a Hot Tub',
+        22,"1999-07-21",false,308,false,'TV-MA','Trey Parker','Trey Parker, Matt Stone & David Goodman',2.03,false,false,false,'Stan must save Mr. Mackey\'s meteor shower party from the ATF, while the South Park dads experiment in the hot tub.','https://static.wikia.nocookie.net/southpark/images/a/ac/308.jpg/revision/latest/scale-to-width-down/1000?cb=20160413143538',8.0
+    ],
+    [true,40,3,9,'Jewbilee',
+        22,"1999-07-28",false,309,false,'TV-MA','Trey Parker','Trey Parker',1.93,false,false,false,'While the rest of South Park awaits the meteor shower, Kyle, Kenny and Ike head into the wilderness on a Jewbilee.','https://static.wikia.nocookie.net/southpark/images/8/8d/Jewbilee043.png/revision/latest/scale-to-width-down/1000?cb=20210405203339',7.4
+    ],
+    [false,41,3,10,'Korn\'s Groovy Pirate Ghost Mystery',
+        22,"1999-10-27",false,312,false,'TV-MA','Trey Parker','Trey Parker',2.50,false,['Jonathan Davis','Reginald \'Fieldy\' Arvizu','James \'Munky\' Shaffer','David Silveria','Brian \'Head\' Welch'],['Jonathan Davis','Reginald \'Fieldy\' Arvizu','James \'Munky\' Shaffer','David Silveria','Brian \'Head\' Welch'],'Korn helps the boys defeat Pirate Ghosts and mean fifth graders in this haunting Halloween episode.','https://static.wikia.nocookie.net/southpark/images/3/37/KornsGroovyPirateGhostMys016.png/revision/latest/scale-to-width-down/1000?cb=20210405204126',7.7
+    ],
+    [false,42,3,11,'Chinpokomon',
+        22,"1999-11-03",false,310,false,'TV-MA','Trey Parker & Eric Stough','Trey Parker',2.36,false,['Bill Clinton','Emperor Hirohito'],false,'South Park kids go crazy for Chinpokomon and suddenly find themselves fixated on Peal Harbor.','https://static.wikia.nocookie.net/southpark/images/3/32/Chinpokomon039.png/revision/latest/scale-to-width-down/1000?cb=20210405205322',8.7
+    ],
+    [false,43,3,12,'Hooked on Monkey Fonics',
+        22,"1999-11-10",false,313,false,'TV-MA','Trey Parker','Trey Parker',2.05,false,['Ronnie James Dio'],false,'The boys compete against some home schooled kids in South Park\'s annual spelling bee.','https://static.wikia.nocookie.net/southpark/images/4/40/HookedOnMonkeyFonics072.png/revision/latest/scale-to-width-down/1000?cb=20210405210130',8.0
+    ],
+    [false,44,3,13,'Starvin\' Marvin in Space',
+        21,"1999-11-17",false,311,false,'TV-MA','Trey Parker','Trey Parker, Matt Stone & Kyle McCulloch',2.99,false,['Sally Struthers'],false,'When Starvin\' Marvin returns to South Park in an alien spaceship, enlisting the boys join him on a mission to find a new home for his starving people but winds up pursued by the CIA, the Feed the ChildrenFoundation and Sally Struthers.','https://static.wikia.nocookie.net/southpark/images/b/b5/StarvinMarvininSpace083.png/revision/latest/scale-to-width-down/1000?cb=20210405211246',8.0
+    ],
+    [false,45,3,14,'The Red Badge of Gayness',
+        20,"1999-11-24",false,314,false,'TV-MA','Trey Parker','Trey Parker',1.94,false,['Bill Clinton','Al Gore'],false,'Fueled on Jagerminz S\'more Flavored Schnapps, Cartman has visions of glory as he suits up for the Confederacy in the annual reenactment of a Civil War battle, and leads the drunken rebels to finally defeat the union 134 years too late.','https://static.wikia.nocookie.net/southpark/images/a/aa/TheRedBadgeOfGayness094.png/revision/latest/scale-to-width-down/1000?cb=20210405211929',8.3
+    ],
+    [true,46,3,15,'Mr. Hankey\'s Christmas Classics',
+        22,"1999-12-01",false,315,false,'TV-MA','Trey Parker','Trey Parker',2.79,false,['Adolf Hitler','Alois and Klara Hitler','Diana, Princess of Wales','Gene Siskel','Genghis Khan','Jimmy Stewart','Michael Landon','Mao Zedong','John F. Kennedy & John F. Kennedy Jr'],false,'In an extravaganza of holiday joy comes the Classic hits from " Mr. Hankey\'s Christmas Classics" album - featuring the boys and all of South Park\'s most exuberant citizens.','https://static.wikia.nocookie.net/southpark/images/1/13/315.jpg/revision/latest/scale-to-width-down/1000?cb=20160413181446',7.2
+    ],
+    [false,47,3,16,'Are You There God? It\'s Me, Jesus',
+        20,"1999-12-29",false,316,false,'TV-MA','Eric Stough','Trey Parker',2.13,false,['Rod Stewart'],false,'Stan goes through a few rapidly wrong hormonal changes, meanwhile people from all over the world start to gather outside Jesus\' house waiting for a millennium miracle.','https://static.wikia.nocookie.net/southpark/images/3/3b/AreYouThereGodItsMeJesus033.png/revision/latest/scale-to-width-down/1000?cb=20210406091849',7.8
+    ],
+    [false,48,3,17,'World Wide Recorder Concert',
+        22,"2000-01-12",false,317,'The Brown Noise','TV-MA','Eric Stough','Trey Parker',2.57,false,['Yoko Ono','Kenny G'],false,'The children of South Park are invited to Arkansas for the "Four Million Child Blow 2000", the first worldwide recorder concert.','https://static.wikia.nocookie.net/southpark/images/7/73/WorldwideRecorderConcert034.png/revision/latest/scale-to-width-down/1000?cb=20210406094123',8.1
+    ],
+    [false,49,4,1,'The Tooth Fairy\'s Tats',
+        22,"2000-04-05",false,402,false,'TV-MA','Trey Parker','Trey Parker, Matt Stone & Nancy M. Pimental',2.38,false,false,['Richard Belzer'],'Cartman masterminds a Tooth Fairy scam by appropriating teeth from less fortunate children.','https://static.wikia.nocookie.net/southpark/images/c/c4/TheToothFairyTats2000078.png/revision/latest/scale-to-width-down/1000?cb=20200202190225',8.2
+    ],
+    [false,50,4,2,'Cartman\'s Silly Hate Crime',
+        20,"2000-04-12",false,401,false,'TV-MA','Trey Parker & Eric Stough','Trey Parker',2.62,false,false,false,'Cartman gets himself sentenced to juvee hall, and without his weight to anchor the sled, the boys have no hope of winning the race against the girls.','https://static.wikia.nocookie.net/southpark/images/f/f4/S4E2-Thumbnail.png/revision/latest/scale-to-width-down/1000?cb=20210125162052',8.6
+    ],
+    [false,51,4,3,'Timmy',
+        21,"2000-04-19",false,404,false,'TV-MA','Trey Parker','Trey Parker',1.83,false,['Phil Collins','Christina Aguilera'],false,'Timmy parlays his ADD handicap into a heavy metal rock band gig; meanwhile, the boys try to contract ADD, too, so they can get out of class.','https://static.wikia.nocookie.net/southpark/images/7/78/Timmy2000021.png/revision/latest/scale-to-width-down/1000?cb=20200217162303',8.1
+    ],
+    [false,52,4,4,'Quintuplets',
+        20,"2000-04-26",false,403,'Contorting Quintuplets','TV-MA','Trey Parker','Trey Parker',1.81,false,['Janet Reno'],false,'When a family of quintuplets takes up residence in South Park the ensuing media circus fame drives Kenny,Aôs mom to plan a multiple birth of her own.','https://static.wikia.nocookie.net/southpark/images/8/8e/Quintuplets071.png/revision/latest/scale-to-width-down/1000?cb=20210403005132',7.3
+    ],
+    [false,53,4,5,'Cartman Joins NAMBLA',
+        22,"2000-06-21",false,406,false,'TV-MA','Eric Stough','Trey Parker',1.82,false,false,false,'Cartman\'s newfound maturity forces him to seek out more mature friends on-line; meanwhile, Kenny actively tries to prevent his parent\'s from having another welfare baby.','https://static.wikia.nocookie.net/southpark/images/0/02/CartmanJoinsNAMBLA015.png/revision/latest/scale-to-width-down/1000?cb=20210403030721',9.0
+    ],
+    [false,54,4,6,'Cherokee Hair Tampons',
+        20,"2000-06-28",false,407,false,'TV-MA','Trey Parker','Trey Parker',1.72,false,false,['Tommy Chong','Cheech Marin'],'Kyle needs a kidney transplant and Cartman is discovered to be the perfect donor. Cartman gladly offers his kidney to Kyle—for the price of $10 million dollars.','https://static.wikia.nocookie.net/southpark/images/f/f8/CherokeeHairTampons039.png/revision/latest/scale-to-width-down/1000?cb=20210403031210',8.0
+    ],
+    [false,55,4,7,'Chef Goes Nanners',
+        22,"2000-07-05",false,408,false,'TV-MA','Trey Parker & Eric Stough','Trey Parker',2.45,false,['Russell Crowe'],false,'Chef\'s passionate protest against the South Park Flag enflames the town; meanwhile, Wendy finds herself strangely attracted to Cartman.','https://static.wikia.nocookie.net/southpark/images/4/43/ChefGoesNanners039.png/revision/latest/scale-to-width-down/1000?cb=20210403031403',8.2
+    ],
+    [false,56,4,8,'Something You Can Do with Your Finger',
+        22,"2000-07-12",false,409,false,'TV-MA','Trey Parker','Trey Parker',1.81,false,false,false,'"Fingerbang" is the newest boy band starring all the boys and it\'s also Cartman\'s latest scheme to make a million dollars and all the folks in town are lining up to audition for the privilege of being its fifth member.','https://static.wikia.nocookie.net/southpark/images/9/90/SomethingYouCanDoWithYourFinger066.png/revision/latest/scale-to-width-down/1000?cb=20210403031519',8.0
+    ],
+    [false,57,4,9,'Do The Handicapped Go To Hell',
+        20,"2000-07-19",false,410,false,'TV-MA','Trey Parker','Trey Parker',2.24,false,['Saddam Hussein','Gene Siskel','Pope John Paul II','Walter Matthau','Adolf Hitler','Allen Ginsberg','Conan O\'Brien','Dean Martin','Diana, Princess of Wales','Frank Sinatra','George Burns','Jerry Garcia','John F. Kennedy & John F. Kennedy Jr.','Mao Zedong','Tiny Tim','Michael Landon'],false,'While the boys race to make their first Confession and Holy Communion, Saddam Hussein returns to the underworld to rekindle his relationship with his former lover, Satan, the prince of darkness.','https://static.wikia.nocookie.net/southpark/images/1/18/S4E9-Thumbnail.png/revision/latest/scale-to-width-down/1000?cb=20231123020642',8.3
+    ],
+    [false,58,4,10,'Probably',
+        22,"2000-07-26",false,411,false,'TV-MA','Trey Parker','Trey Parker',2.01,false,['Saddam Hussein','Henry Winkler'],false,'Cartman\'s flock begins to grow and the children begin plans to build him a Church. Meanwhile, Satan is torn between two lovers: his new boyfriend, Chris, and his ex, Saddam Hussein; meanwhile, Cartman becomes an evangelist as he and the boys try to assure their places in heaven.','https://static.wikia.nocookie.net/southpark/images/7/7b/Probably015.png/revision/latest/scale-to-width-down/1000?cb=20210403155048',8.2
+    ],
+    [false,59,4,11,'Fourth Grade',
+        21,"2000-11-08",false,412,false,'TV-MA','Trey Parker','Trey Parker',3.6,false,false,false,'Fearing their new 4th grade teacher, the kids build a time machine out of Timmy\'s wheelchair to travel back to a happier, easier school year.','https://static.wikia.nocookie.net/southpark/images/c/c6/S4E11-Thumbnail.png/revision/latest/scale-to-width-down/1000?cb=20210124234313',8.1
+    ],
+    [false,60,4,12,'Trapper Keeper',
+        20,"2000-11-15",false,413,false,'TV-MA','Trey Parker','Trey Parker',3.27,false,['Jesse Jackson','Rosie O\'Donnell'],false,'When Cartman finally stops bragging about his new Trapper Keeper, a stranger informs him that it will eventually take over the world and destroy humankind, if they do not destroy it first.','https://static.wikia.nocookie.net/southpark/images/8/8a/TrapperKeeper071.png/revision/latest/scale-to-width-down/1000?cb=20210403163515',8.0
+    ],
+    [false,61,4,13,'Helen Keller The Musical',
+        20,"2000-11-22",false,414,false,'TV-MA','Trey Parker','Trey Parker',3.51,false,false,false,'When Butters informs the fourth graders that the kindergartners\' school play is a magnificent sight to behold, they go through a lot of pain to make sure they beat the tiny tots\' show.','https://static.wikia.nocookie.net/southpark/images/9/9d/HelenKellerTheMusical082.png/revision/latest/scale-to-width-down/1000?cb=20210403172517',7.7
+    ],
+    [false,62,4,14,'Pip',
+        20,"2000-11-29",false,405,'Great Expectations','TV-MA','Eric Stough','Trey Parker',2.39,false,false,['Malcolm McDowell'],'South Park Classics presents a rendition of "Great Expectations" starring Pip, as the antihero who takes on the bitter Ms. Haversham and robotic monkeys in his attempt to win Estella\'s heart.','https://static.wikia.nocookie.net/southpark/images/1/16/S4Pip-Thumbnail.png/revision/latest/scale-to-width-down/1000?cb=20210125170645',6.6
+    ],
+    [false,63,4,15,'Fat Camp',
+        20,"2000-12-06",false,415,false,'TV-MA','Trey Parker','Trey Parker',2.31,false,['Howard Stern','Johnny Knoxville'],false,'Cartman\'s family and friends have intervened and are forcing him to trim down. While Cartman\'s away, Kenny\'s star is on the rise when he gets his own reality TV show.','https://static.wikia.nocookie.net/southpark/images/5/52/FatCamp032.png/revision/latest/scale-to-width-down/1000?cb=20210404093124',8.4
+    ],
+    [false,64,4,16,'The Wacky Molestation Adventure',
+        20,"2000-12-13",false,416,false,'TV-MA','Trey Parker','Trey Parker',2.87,false,['Fidel Castro'],false,'When Kyle\'s parents forbid him to see his favorite rock band in concert, Kyle accuses them of an unspeakable indiscretion and has them sent to the big house.','https://static.wikia.nocookie.net/southpark/images/1/1b/TheWackyMolestationAdventure081.png/revision/latest/scale-to-width-down/1000?cb=20210404095011',8.7
+    ],
+    [false,65,4,17,'A Very Crappy Christmas',
+        20,"2000-12-20",false,417,false,'TV-MA','Adrien Beard','Trey Parker',2.3,false,false,['Louis Price'],'Now that Mr. Hankey\'s all tied up with the new wife and kids, it\'s up to the boys and a video Christmas card to save the spirit of the season.','https://static.wikia.nocookie.net/southpark/images/7/78/S4E16-Thumbnail.png/revision/latest/scale-to-width-down/1000?cb=20210125003917',7.4
+    ],
+    [false,66,5,1,'It Hits the Fan'//,
+        //runtime,"2001-",false,prodcode,false,'TV-MA','DirectedBy','WrittenBy',USViews,false,Celebrities,Guests,'Synopsis','photo',imdb
+    ],
     [false,67,5,2,'Cripple Fight'],
     [false,68,5,3,'Super Best Friends'],
     [true,69,5,4,'Scott Tenorman Must Die'],
@@ -202,7 +272,9 @@ const EPISODES = [
     [false,111,7,15,'It\'s Christmas in Canada'],
     [false,112,8,1,'Good Times with Weapons'],
     [false,113,8,2,'Up the Down Steroid'],
-    [false,114,8,3,'The Passion of the Jew'],
+    [true,114,8,3,'The Passion of the Jew',
+        22,"2004-03-31-",false,804,false,'TV-MA','Trey Parker','Trey Parker',4.43,false,['Mel Gibson'],false,'Kyle finally sees the blockbuster movie "The Passion of the Christ" and admits that Cartman has been right about the Jewish people all along.','https://static.wikia.nocookie.net/southpark/images/7/7e/POTJ79.png/revision/latest/scale-to-width-down/1000?cb=20210220063032',8.6
+    ],
     [false,115,8,4,'You Got F\'d in the A'],
     [false,116,8,5,'Awesom-O'],
     [false,117,8,6,'The Jeffersons'],
