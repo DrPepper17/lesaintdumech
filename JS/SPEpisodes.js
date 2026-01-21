@@ -403,550 +403,550 @@ const EPISODES = [
         //22,"2004-12-15",false,814,false,'TV-MA','Trey Parker','Trey Parker',2.58,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE814.jpeg',9.1
     ],
     [false,126,9,1,'Mr. Garrison\'s Fancy New Vagina'//,
-        //22,"2005-03-09",false,901,false,'TV-MA','Trey Parker','Trey Parker',2.97,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE901.jpeg',7.6
+        //22,"2005-03-09",false,901,false,'TV-MA','Trey Parker','Trey Parker',2.97,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE901.jpeg',7.6
     ],
     [false,127,9,2,'Die Hippie, Die'//,
-        //22,"2005-03-16",false,902,false,'TV-MA','Trey Parker','Trey Parker',2.36,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE902.jpeg',8.6
+        //22,"2005-03-16",false,902,false,'TV-MA','Trey Parker','Trey Parker',2.36,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE902.jpeg',8.6
     ],
     [false,128,9,3,'Wing'//,
-        //22,"2005-03-23",false,903,false,'TV-MA','Trey Parker','Trey Parker',2.30,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE903.jpeg',7.4
+        //22,"2005-03-23",false,903,false,'TV-MA','Trey Parker','Trey Parker',2.30,false,Celebrities,['Wing','Lou Rawls'],'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE903.jpeg',7.4
     ],
     [false,129,9,4,'Best Friends Forever'//,
-        //22,"2005-03-30",false,904,false,'TV-MA','Trey Parker','Trey Parker',2.72,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE904.jpeg',8.5
+        //22,"2005-03-30",false,904,false,'TV-MA','Trey Parker','Trey Parker',2.72,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE904.jpeg',8.5
     ],
     [false,130,9,5,'The Losing Edge'//,
-        //22,"2005-04-06",false,905,false,'TV-MA','Trey Parker','Trey Parker',2.62,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE905.jpeg',8.6
+        //22,"2005-04-06",false,905,false,'TV-MA','Trey Parker','Trey Parker',2.62,false,Celebrities,['Diedrich Bader'],'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE905.jpeg',8.6
     ],
     [false,131,9,6,'The Death of Eric Cartman'//,
-        //22,"2005-04-13",false,906,false,'TV-MA','Trey Parker','Trey Parker',2.61,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE906.jpeg',9.2
+        //22,"2005-04-13",false,906,false,'TV-MA','Trey Parker','Trey Parker',2.61,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE906.jpeg',9.2
     ],
     [false,132,9,7,'Erection Day'//,
-        //22,"2005-04-20",false,907,false,'TV-MA','Trey Parker','Trey Parker',2.91,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE907.jpeg',7.6
+        //22,"2005-04-20",false,907,false,'TV-MA','Trey Parker','Trey Parker',2.91,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE907.jpeg',7.6
     ],
     [false,133,9,8,'Two Days Before the Day After Tomorrow'//,
-        //22,"2005-10-19",false,908,false,'TV-MA','Trey Parker','Trey Parker',2.49,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE908.jpeg',8.4
+        //22,"2005-10-19",false,908,false,'TV-MA','Trey Parker','Trey Parker',2.49,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE908.jpeg',8.4
     ],
     [false,134,9,9,'Marjorine'//,
-        //22,"2005-10-26",false,909,false,'TV-MA','Trey Parker','Trey Parker',2.25,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE909.jpeg',8.8
+        //22,"2005-10-26",false,909,false,'TV-MA','Trey Parker','Trey Parker',2.25,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE909.jpeg',8.8
     ],
     [false,135,9,10,'Follow That Egg!',
         22,"2005-11-02",false,910,false,'TV-MA','Trey Parker','Trey Parker',2.87,false,false,false,'Mrs. Garrison realizes he still has feelings for Mr. Slave. But Mr. Slave has moved on. He plans to marry his new love as soon as the Governor signs the same-sex marriage bill. In an effort to thwart Slave\'s plans, Mrs. Garrison leads the charge against gay marriage.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE910.jpeg',8
     ],
     [false,136,9,11,'Ginger Kids'//,
-        //22,"2005-11-09",false,911,false,'TV-MA','Trey Parker','Trey Parker',2.59,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE911.jpeg',8.8
+        //22,"2005-11-09",false,911,false,'TV-MA','Trey Parker','Trey Parker',2.59,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE911.jpeg',8.8
     ],
     [false,137,9,12,'Trapped in the Closet'//,
-        //22,"2005-11-16",false,912,false,'TV-MA','Trey Parker','Trey Parker',2.41,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE912.jpeg',9.1
+        //22,"2005-11-16",false,912,false,'TV-MA','Trey Parker','Trey Parker',2.41,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE912.jpeg',9.1
     ],
     [false,138,9,13,'Free Willzyx'//,
-        //22,"2005-11-30",false,913,false,'TV-MA','Trey Parker','Trey Parker',2.48,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE913.jpeg',8.1
+        //22,"2005-11-30",false,913,false,'TV-MA','Trey Parker','Trey Parker',2.48,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE913.jpeg',8.1
     ],
     [false,139,9,14,'Bloody Mary'//,
-        //22,"2005-12-07",false,914,false,'TV-MA','Trey Parker','Trey Parker',2.58,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE914.jpeg',7.9
+        //22,"2005-12-07",false,914,false,'TV-MA','Trey Parker','Trey Parker',2.58,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE914.jpeg',7.9
     ],
     [false,140,10,1,'The Return of Chef'//,
-        //22,"2006-03-22",false,1001,false,'TV-MA','Trey Parker','Trey Parker',3.49,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1001.jpeg',8
+        //22,"2006-03-22",false,1001,false,'TV-MA','Trey Parker','Trey Parker',3.49,false,Celebrities,['Peter Serafinowicz'],'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1001.jpeg',8
     ],
     [false,141,10,2,'Smug Alert!'//,
-        //22,"2006-03-29",false,1002,false,'TV-MA','Trey Parker','Trey Parker',3.38,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1002.jpeg',8.1
+        //22,"2006-03-29",false,1002,false,'TV-MA','Trey Parker','Trey Parker',3.38,false,Celebrities,['George Clooney'],'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1002.jpeg',8.1
     ],
     [false,142,10,3,'Cartoon Wars Part I'//,
-        //22,"2006-04-05",false,1003,false,'TV-MA','Trey Parker','Trey Parker',3.02,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1003.jpeg',8.7
+        //22,"2006-04-05",false,1003,false,'TV-MA','Trey Parker','Trey Parker',3.02,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1003.jpeg',8.7
     ],
     [false,143,10,4,'Cartoon Wars Part II'//,
-        //22,"2006-04-12",false,1004,false,'TV-MA','Trey Parker','Trey Parker',3.49,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1004.jpeg',8.8
+        //22,"2006-04-12",false,1004,false,'TV-MA','Trey Parker','Trey Parker',3.49,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1004.jpeg',8.8
     ],
     [false,144,10,5,'A Million Little Fibers'//,
-        //22,"2006-04-19",false,1005,false,'TV-MA','Trey Parker','Trey Parker',2.68,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1005.jpeg',6.1
+        //22,"2006-04-19",false,1005,false,'TV-MA','Trey Parker','Trey Parker',2.68,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1005.jpeg',6.1
     ],
     [false,145,10,6,'ManBearPig'//,
-        //22,"2006-04-26",false,1006,false,'TV-MA','Trey Parker','Trey Parker',2.72,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1006.jpeg',7.9
+        //22,"2006-04-26",false,1006,false,'TV-MA','Trey Parker','Trey Parker',2.72,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1006.jpeg',7.9
     ],
     [false,146,10,7,'Tsst'//,
-        //22,"2006-05-03",false,1007,false,'TV-MA','Trey Parker','Trey Parker',2.88,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1007.jpeg',9.1
+        //22,"2006-05-03",false,1007,false,'TV-MA','Trey Parker','Trey Parker',2.88,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1007.jpeg',9.1
     ],
     [false,147,10,8,'Make Love, Not Warcraft'//,
-        //22,"2006-10-04",false,1008,false,'TV-MA','Trey Parker','Trey Parker',3.40,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1008.jpeg',9.5
+        //22,"2006-10-04",false,1008,false,'TV-MA','Trey Parker','Trey Parker',3.40,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1008.jpeg',9.5
     ],
     [false,148,10,9,'Mystery of the Urinal Deuce'//,
-        //22,"2006-10-11",false,1009,false,'TV-MA','Trey Parker','Trey Parker',2.95,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1009.jpeg',8.2
+        //22,"2006-10-11",false,1009,false,'TV-MA','Trey Parker','Trey Parker',2.95,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1009.jpeg',8.2
     ],
     [false,149,10,10,'Miss Teacher Bangs a Boy'//,
-        //22,"2006-10-18",false,1010,false,'TV-MA','Trey Parker','Trey Parker',2.50,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1010.jpeg',8.5
+        //22,"2006-10-18",false,1010,false,'TV-MA','Trey Parker','Trey Parker',2.50,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1010.jpeg',8.5
     ],
     [false,150,10,11,'Hell on Earth 2006'//,
-        //22,"2006-10-25",false,1011,false,'TV-MA','Trey Parker','Trey Parker',2.96,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1011.jpeg',8
+        //22,"2006-10-25",false,1011,false,'TV-MA','Trey Parker','Trey Parker',2.96,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1011.jpeg',8
     ],
     [false,151,10,12,'Go God Go'//,
-        //22,"2006-11-01",false,1012,false,'TV-MA','Trey Parker','Trey Parker',3.25,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1012.jpeg',8.5
+        //22,"2006-11-01",false,1012,false,'TV-MA','Trey Parker','Trey Parker',3.25,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1012.jpeg',8.5
     ],
     [false,152,10,13,'Go God Go XII'//,
-        //22,"2006-11-08",false,1013,false,'TV-MA','Trey Parker','Trey Parker',3.53,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1013.jpeg',8.6
+        //22,"2006-11-08",false,1013,false,'TV-MA','Trey Parker','Trey Parker',3.53,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1013.jpeg',8.6
     ],
     [false,153,10,14,'Stanley\'s Cup'//,
-        //22,"2006-11-15",false,1014,false,'TV-MA','Trey Parker','Trey Parker',2.94,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1014.jpeg',7.4
+        //22,"2006-11-15",false,1014,false,'TV-MA','Trey Parker','Trey Parker',2.94,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1014.jpeg',7.4
     ],
     [false,154,11,1,'With Apologies to Jesse Jackson'//,
-        //22,"2007-03-07",false,1101,false,'TV-MA','Trey Parker','Trey Parker',2.77,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1101.jpeg',8.9
+        //22,"2007-03-07",false,1101,false,'TV-MA','Trey Parker','Trey Parker',2.77,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1101.jpeg',8.9
     ],
     [false,155,11,2,'Cartman Sucks'//,
-        //22,"2007-03-14",false,1102,false,'TV-MA','Trey Parker','Trey Parker',2.75,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1102.jpeg',8.9
+        //22,"2007-03-14",false,1102,false,'TV-MA','Trey Parker','Trey Parker',2.75,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1102.jpeg',8.9
     ],
     [false,156,11,3,'Lice Capades'//,
-        //22,"2007-03-21",false,1103,false,'TV-MA','Trey Parker','Trey Parker',3.06,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1103.jpeg',8
+        //22,"2007-03-21",false,1103,false,'TV-MA','Trey Parker','Trey Parker',3.06,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1103.jpeg',8
     ],
     [false,157,11,4,'The Snuke'//,
-        //22,"2007-03-28",false,1104,false,'TV-MA','Trey Parker','Trey Parker',3.17,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1104.jpeg',8.1
+        //22,"2007-03-28",false,1104,false,'TV-MA','Trey Parker','Trey Parker',3.17,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1104.jpeg',8.1
     ],
     [true,158,11,5,'Fantastic Easter Special'//,
-        //22,"2007-04-04",false,1105,false,'TV-MA','Trey Parker','Trey Parker',2.95,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1105.jpeg',8.1
+        //22,"2007-04-04",false,1105,false,'TV-MA','Trey Parker','Trey Parker',2.95,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1105.jpeg',8.1
     ],
     [false,159,11,6,'D-Yikes!'//,
-        //22,"2007-04-11",false,1106,false,'TV-MA','Trey Parker','Trey Parker',2.82,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1106.jpeg',7.6
+        //22,"2007-04-11",false,1106,false,'TV-MA','Trey Parker','Trey Parker',2.82,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1106.jpeg',7.6
     ],
     [false,160,11,7,'Night of the Living Homeless'//,
-        //22,"2007-04-18",false,1107,false,'TV-MA','Trey Parker','Trey Parker',3.11,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1107.jpeg',8.7
+        //22,"2007-04-18",false,1107,false,'TV-MA','Trey Parker','Trey Parker',3.11,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1107.jpeg',8.7
     ],
     [false,161,11,8,'Le Petit Tourette'//,
-        //22,"2007-10-03",false,1108,false,'TV-MA','Trey Parker','Trey Parker',3.323,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1108.jpeg',9
+        //22,"2007-10-03",false,1108,false,'TV-MA','Trey Parker','Trey Parker',3.323,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1108.jpeg',9
     ],
     [false,162,11,9,'More Crap'//,
-        //22,"2007-10-10",false,1109,false,'TV-MA','Trey Parker','Trey Parker',2.98,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1109.jpeg',8.1
+        //22,"2007-10-10",false,1109,false,'TV-MA','Trey Parker','Trey Parker',2.98,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1109.jpeg',8.1
     ],
     [false,163,11,10,'Imaginationland Episode I'//,
-        //22,"2007-10-17",false,1110,false,'TV-MA','Trey Parker','Trey Parker',3.43,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1110.jpeg',9
+        //22,"2007-10-17",false,1110,false,'TV-MA','Trey Parker','Trey Parker',3.43,false,Celebrities,['Jonathan Kimmel'],'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1110.jpeg',9
     ],
     [false,164,11,11,'Imaginationland Episode II'//,
-        //22,"2007-10-24",false,1111,false,'TV-MA','Trey Parker','Trey Parker',3.60,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1111.jpeg',9
+        //22,"2007-10-24",false,1111,false,'TV-MA','Trey Parker','Trey Parker',3.60,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1111.jpeg',9
     ],
     [false,165,11,12,'Imaginationland Episode III'//,
-        //22,"2007-10-31",false,1112,false,'TV-MA','Trey Parker','Trey Parker',3.87,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1112.jpeg',9
+        //22,"2007-10-31",false,1112,false,'TV-MA','Trey Parker','Trey Parker',3.87,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1112.jpeg',9
     ],
     [false,166,11,13,'Guitar Queer-O'//,
-        //22,"2007-11-07",false,1113,false,'TV-MA','Trey Parker','Trey Parker',3.97,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1113.jpeg',8.4
+        //22,"2007-11-07",false,1113,false,'TV-MA','Trey Parker','Trey Parker',3.97,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1113.jpeg',8.4
     ],
     [false,167,11,14,'The List'//,
-        //22,"2007-11-14",false,1114,false,'TV-MA','Trey Parker','Trey Parker',3.77,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1114.jpeg',8.5
+        //22,"2007-11-14",false,1114,false,'TV-MA','Trey Parker','Trey Parker',3.77,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1114.jpeg',8.5
     ],
     [true,168,12,1,'Tonsil Trouble'//,
-        //22,"2008-03-12",false,1201,false,'TV-MA','Trey Parker','Trey Parker',3.07,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1201.jpeg',8
+        //22,"2008-03-12",false,1201,false,'TV-MA','Trey Parker','Trey Parker',3.07,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1201.jpeg',8
     ],
     [false,169,12,2,'Britney\'s New Look'//,
-        //22,"2008-"03-19,false,1202,false,'TV-MA','Trey Parker','Trey Parker',2.97,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1202.jpeg',7.1
+        //22,"2008-"03-19,false,1202,false,'TV-MA','Trey Parker','Trey Parker',2.97,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1202.jpeg',7.1
     ],
     [false,170,12,3,'Major Boobage'//,
-        //22,"2008-03-26",false,1203,false,'TV-MA','Trey Parker','Trey Parker',3.60,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1203.jpeg',8.7
+        //22,"2008-03-26",false,1203,false,'TV-MA','Trey Parker','Trey Parker',3.60,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1203.jpeg',8.7
     ],
     [false,171,12,4,'Canada on Strike'//,
-        //22,"2008-04-02",false,1204,false,'TV-MA','Trey Parker','Trey Parker',2.80,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1204.jpeg',7.7
+        //22,"2008-04-02",false,1204,false,'TV-MA','Trey Parker','Trey Parker',2.80,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1204.jpeg',7.7
     ],
     [false,172,12,5,'Eek, a Penis!'//,
-        //22,"2008-04-09",false,1205,false,'TV-MA','Trey Parker','Trey Parker',3.50,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1205.jpeg',7.6
+        //22,"2008-04-09",false,1205,false,'TV-MA','Trey Parker','Trey Parker',3.50,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1205.jpeg',7.6
     ],
     [false,173,12,6,'Over Logging'//,
-        //22,"2008-04-16",false,1206,false,'TV-MA','Trey Parker','Trey Parker',3.13,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1206.jpeg',8.5
+        //22,"2008-04-16",false,1206,false,'TV-MA','Trey Parker','Trey Parker',3.13,false,Celebrities,['Amir Hisham Ouazzani'],'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1206.jpeg',8.5
     ],
     [false,174,12,7,'Super Fun Time'//,
-        //22,"2008-04-23",false,1207,false,'TV-MA','Trey Parker','Trey Parker',3.08,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1207.jpeg',8.4
+        //22,"2008-04-23",false,1207,false,'TV-MA','Trey Parker','Trey Parker',3.08,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1207.jpeg',8.4
     ],
     [false,175,12,8,'The China Probrem'//,
-        //22,"2008-10-08",false,1208,false,'TV-MA','Trey Parker','Trey Parker',3.73,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1208.jpeg',7.7
+        //22,"2008-10-08",false,1208,false,'TV-MA','Trey Parker','Trey Parker',3.73,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1208.jpeg',7.7
     ],
     [false,176,12,9,'Breast Cancer Show Ever'//,
-        //22,"2008-10-15",false,1209,false,'TV-MA','Trey Parker','Trey Parker',2.85,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1209.jpeg',8.8
+        //22,"2008-10-15",false,1209,false,'TV-MA','Trey Parker','Trey Parker',2.85,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1209.jpeg',8.8
     ],
     [false,177,12,10,'Pandemic'//,
-        //22,"2008-10-22",false,1210,false,'TV-MA','Trey Parker','Trey Parker',2.78,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1210.jpeg',8
+        //22,"2008-10-22",false,1210,false,'TV-MA','Trey Parker','Trey Parker',2.78,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1210.jpeg',8
     ],
     [false,178,12,11,'Pandemic 2: The Startling'//,
-        //22,"2008-10-29",false,1211,false,'TV-MA','Trey Parker','Trey Parker',3.08,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1211.jpeg',7.8
+        //22,"2008-10-29",false,1211,false,'TV-MA','Trey Parker','Trey Parker',3.08,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1211.jpeg',7.8
     ],
     [false,179,12,12,'About Last Night...'//,
-        //22,"2008-11-05",false,1212,false,'TV-MA','Trey Parker','Trey Parker',3.60,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1212.jpeg',7.6
+        //22,"2008-11-05",false,1212,false,'TV-MA','Trey Parker','Trey Parker',3.60,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1212.jpeg',7.6
     ],
     [false,180,12,13,'Elementary School Musical'//,
-        //22,"2008-11-12",false,1213,false,'TV-MA','Trey Parker','Trey Parker',2.96,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1213.jpeg',7.6
+        //22,"2008-11-12",false,1213,false,'TV-MA','Trey Parker','Trey Parker',2.96,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1213.jpeg',7.6
     ],
     [false,181,12,14,'The Ungroundable'//,
-        //22,"2008-11-19",false,1214,false,'TV-MA','Trey Parker','Trey Parker',3.29,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1214.jpeg',7.7
+        //22,"2008-11-19",false,1214,false,'TV-MA','Trey Parker','Trey Parker',3.29,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1214.jpeg',7.7
     ],
     [false,182,13,1,'The Ring'//,
-        //22,"2009-03-11",false,1301,false,'TV-MA','Trey Parker','Trey Parker',3.41,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1301.jpeg',8.1
+        //22,"2009-03-11",false,1301,false,'TV-MA','Trey Parker','Trey Parker',3.41,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1301.jpeg',8.1
     ],
     [false,183,13,2,'The Coon'//,
-        //22,"2009-03-18",false,1302,false,'TV-MA','Trey Parker','Trey Parker',3.27,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1302.jpeg',8.4
+        //22,"2009-03-18",false,1302,false,'TV-MA','Trey Parker','Trey Parker',3.27,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1302.jpeg',8.4
     ],
     [false,184,13,3,'Margaritaville'//,
-        //22,"2009-03-25",false,1303,false,'TV-MA','Trey Parker','Trey Parker',2.77,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1303.jpeg',8.5
+        //22,"2009-03-25",false,1303,false,'TV-MA','Trey Parker','Trey Parker',2.77,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1303.jpeg',8.5
     ],
     [false,185,13,4,'Eat, Pray, Queef'//,
-        //22,"2009-"04-01,false,1304,false,'TV-MA','Trey Parker','Trey Parker',3.01,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1304.jpeg',6.5
+        //22,"2009-"04-01,false,1304,false,'TV-MA','Trey Parker','Trey Parker',3.01,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1304.jpeg',6.5
     ],
     [false,186,13,5,'Fishsticks'//,
-        //22,"2009-04-08",false,1305,false,'TV-MA','Trey Parker','Trey Parker',3.11,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1305.jpeg',8.8
+        //22,"2009-04-08",false,1305,false,'TV-MA','Trey Parker','Trey Parker',3.11,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1305.jpeg',8.8
     ],
     [true,187,13,6,'Pinewood Derby'//,
-        //22,"2009-04-15",false,1306,false,'TV-MA','Trey Parker','Trey Parker',2.78,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1306.jpeg',7.8
+        //22,"2009-04-15",false,1306,false,'TV-MA','Trey Parker','Trey Parker',2.78,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1306.jpeg',7.8
     ],
     [true,188,13,7,'Fatbeard'//,
-        //22,"2009-04-22",false,1307,false,'TV-MA','Trey Parker','Trey Parker',2.59,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1307.jpeg',8.1
+        //22,"2009-04-22",false,1307,false,'TV-MA','Trey Parker','Trey Parker',2.59,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1307.jpeg',8.1
     ],
     [false,189,13,8,'Dead Celebrities'//,
-        //22,"2009-10-07",false,1308,false,'TV-MA','Trey Parker','Trey Parker',2.67,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1308.jpeg',7.7
+        //22,"2009-10-07",false,1308,false,'TV-MA','Trey Parker','Trey Parker',2.67,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1308.jpeg',7.7
     ],
     [false,190,13,9,'Butters\' Bottom Bitch'//,
-        //22,"2009-10-14",false,1309,false,'TV-MA','Trey Parker','Trey Parker',2.56,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1309.jpeg',8.9
+        //22,"2009-10-14",false,1309,false,'TV-MA','Trey Parker','Trey Parker',2.56,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1309.jpeg',8.9
     ],
     [true,191,13,10,'W.T.F.'//,
-        //22,"2009-10-21",false,1310,false,'TV-MA','Trey Parker','Trey Parker',2.58,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1310.jpeg',8.3
+        //22,"2009-10-21",false,1310,false,'TV-MA','Trey Parker','Trey Parker',2.58,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1310.jpeg',8.3
     ],
     [false,192,13,11,'Whale Whores'//,
-        //22,"2009-10-28",false,1311,false,'TV-MA','Trey Parker','Trey Parker',2.57,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1311.jpeg',8.1
+        //22,"2009-10-28",false,1311,false,'TV-MA','Trey Parker','Trey Parker',2.57,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1311.jpeg',8.1
     ],
     [true,193,13,12,'The F Word'//,
-        //22,"2009-11-04",false,1312,false,'TV-MA','Trey Parker','Trey Parker',2.82,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1312.jpeg',8.1
+        //22,"2009-11-04",false,1312,false,'TV-MA','Trey Parker','Trey Parker',2.82,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1312.jpeg',8.1
     ],
     [true,194,13,13,'Dances with Smurfs'//,
-        //22,"2009-11-11",false,1313,false,'TV-MA','Trey Parker','Trey Parker',2.77,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1313.jpeg',8.1
+        //22,"2009-11-11",false,1313,false,'TV-MA','Trey Parker','Trey Parker',2.77,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1313.jpeg',8.1
     ],
     [false,195,13,14,'Pee'//,
-        //22,"2009-11-18",false,1314,false,'TV-MA','Trey Parker','Trey Parker',2.87,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1314.jpeg',7.7
+        //22,"2009-11-18",false,1314,false,'TV-MA','Trey Parker','Trey Parker',2.87,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1314.jpeg',7.7
     ],
     [false,196,14,1,'Sexual Healing'//,
-        //22,"2010-03-17",false,1401,false,'TV-MA','Trey Parker','Trey Parker',3.74,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1401.jpeg',7.5
+        //22,"2010-03-17",false,1401,false,'TV-MA','Trey Parker','Trey Parker',3.74,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1401.jpeg',7.5
     ],
     [false,197,14,2,'The Tale of Scrotie McBoogerballs'//,
-        //22,"2010-03-24",false,1402,false,'TV-MA','Trey Parker','Trey Parker',3.24,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1402.jpeg',8
+        //22,"2010-03-24",false,1402,false,'TV-MA','Trey Parker','Trey Parker',3.24,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1402.jpeg',8
     ],
     [false,198,14,3,'Medicinal Fried Chicken'//,
-        //22,"2010-03-31",false,1403,false,'TV-MA','Trey Parker','Trey Parker',2.99,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1403.jpeg',8.7
+        //22,"2010-03-31",false,1403,false,'TV-MA','Trey Parker','Trey Parker',2.99,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1403.jpeg',8.7
     ],
     [false,199,14,4,'You Have 0 Friends'//,
-        //22,"2010-04-07",false,1404,false,'TV-MA','Trey Parker','Trey Parker',3.07,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1404.jpeg',8.7
+        //22,"2010-04-07",false,1404,false,'TV-MA','Trey Parker','Trey Parker',3.07,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1404.jpeg',8.7
     ],
     ['BLOCKED',200,14,5,'200'//,
-        //22,"2010-04-14",false,1405,false,'TV-MA','Trey Parker','Trey Parker',3.33,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1405.jpeg',8.8
+        //22,"2010-04-14",false,1405,false,'TV-MA','Trey Parker','Trey Parker',3.33,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1405.jpeg',8.8
     ],
     ['BLOCKED',201,14,6,'201'//,
-        //22,"2010-04-21",false,1406,false,'TV-MA','Trey Parker','Trey Parker',3.50,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1406.jpeg',8.8
+        //22,"2010-04-21",false,1406,false,'TV-MA','Trey Parker','Trey Parker',3.50,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1406.jpeg',8.8
     ],
     [false,202,14,7,'Crippled Summer'//,
-        //22,"2010-04-28",false,1407,false,'TV-MA','Trey Parker','Trey Parker',3.55,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1407.jpeg',6.8
+        //22,"2010-04-28",false,1407,false,'TV-MA','Trey Parker','Trey Parker',3.55,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1407.jpeg',6.8
     ],
     [false,203,14,8,'Poor and Stupid'//,
-        //22,"2010-10-06",false,1408,false,'TV-MA','Trey Parker','Trey Parker',3.14,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1408.jpeg',7.5
+        //22,"2010-10-06",false,1408,false,'TV-MA','Trey Parker','Trey Parker',3.14,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1408.jpeg',7.5
     ],
     [false,204,14,9,'It\'s a Jersey Thing'//,
-        //21,"2010-10-13",false,1409,false,'TV-MA','Trey Parker','Trey Parker',3.25,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1409.jpeg',7.8
+        //21,"2010-10-13",false,1409,false,'TV-MA','Trey Parker','Trey Parker',3.25,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1409.jpeg',7.8
     ],
     [false,205,14,10,'Insheeption'//,
-        //23,"2010-10-20",false,1410,false,'TV-MA','Trey Parker','Trey Parker',2.89,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1410.jpeg',8.1
+        //23,"2010-10-20",false,1410,false,'TV-MA','Trey Parker','Trey Parker',2.89,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1410.jpeg',8.1
     ],
     [false,206,14,11,'Coon 2: Hindsight'//,
-        //23,"2010-10-27",false,1411,false,'TV-MA','Trey Parker','Trey Parker',2.76,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1411.jpeg',8.1
+        //23,"2010-10-27",false,1411,false,'TV-MA','Trey Parker','Trey Parker',2.76,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1411.jpeg',8.1
     ],
     [false,207,14,12,'Mysterion Rises'//,
-        //21,"2010-11-03",false,1412,false,'TV-MA','Trey Parker','Trey Parker',2.85,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1412.jpeg',8.3
+        //21,"2010-11-03",false,1412,false,'TV-MA','Trey Parker','Trey Parker',2.85,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1412.jpeg',8.3
     ],
     [false,208,14,13,'Coon vs. Coon and Friends'//,
-        //21,"2010-11-10",false,1413,false,'TV-MA','Trey Parker','Trey Parker',2.79,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1413.jpeg',8.3
+        //21,"2010-11-10",false,1413,false,'TV-MA','Trey Parker','Trey Parker',2.79,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1413.jpeg',8.3
     ],
     [false,209,14,14,'Cr\u00E8me Fra\u00EEche'//,
-        //23,"2010-11-17",false,1414,false,'TV-MA','Trey Parker','Trey Parker',2.49,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1414.jpeg',8.2
+        //23,"2010-11-17",false,1414,false,'TV-MA','Trey Parker','Trey Parker',2.49,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1414.jpeg',8.2
     ],
     [false,210,15,1,'HumancentiPad'//,
-        //21,"2011-04-27",false,1501,false,'TV-MA','Trey Parker','Trey Parker',3.11,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1501.jpeg',7.7
+        //21,"2011-04-27",false,1501,false,'TV-MA','Trey Parker','Trey Parker',3.11,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1501.jpeg',7.7
     ],
     [false,211,15,2,'Funnybot'//,
-        //23,"2011-05-04",false,1502,false,'TV-MA','Trey Parker','Trey Parker',2.59,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1502.jpeg',6.4
+        //23,"2011-05-04",false,1502,false,'TV-MA','Trey Parker','Trey Parker',2.59,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1502.jpeg',6.4
     ],
     [false,212,15,3,'Royal Pudding'//,
-        //21,"2011-05-11",false,1503,false,'TV-MA','Trey Parker','Trey Parker',2.43,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1503.jpeg',6.7
+        //21,"2011-05-11",false,1503,false,'TV-MA','Trey Parker','Trey Parker',2.43,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1503.jpeg',6.7
     ],
     [false,213,15,4,'T.M.I.'//,
-        //23,"2011-05-18",false,1504,false,'TV-MA','Trey Parker','Trey Parker',2.42,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1504.jpeg',8
+        //23,"2011-05-18",false,1504,false,'TV-MA','Trey Parker','Trey Parker',2.42,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1504.jpeg',8
     ],
     [false,214,15,5,'Crack Baby Athletic Association'//,
-        //23,"2011-05-25",false,1505,false,'TV-MA','Trey Parker','Trey Parker',2.53,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1505.jpeg',7.5
+        //23,"2011-05-25",false,1505,false,'TV-MA','Trey Parker','Trey Parker',2.53,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1505.jpeg',7.5
     ],
     [false,215,15,6,'City Sushi'//,
-        //30,"2011-06-01",false,1506,false,'TV-MA','Trey Parker','Trey Parker',2.56,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1506.jpeg',8
+        //30,"2011-06-01",false,1506,false,'TV-MA','Trey Parker','Trey Parker',2.56,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1506.jpeg',8
     ],
     [false,216,15,7,'You\'re Getting Old'//,
-        //23,"2011-06-08",false,1507,false,'TV-MA','Trey Parker','Trey Parker',2.30,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1507.jpeg',8.6
+        //23,"2011-06-08",false,1507,false,'TV-MA','Trey Parker','Trey Parker',2.30,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1507.jpeg',8.6
     ],
     [false,217,15,8,'Ass Burgers'//,
-        //23,"2011-10-05",false,1508,false,'TV-MA','Trey Parker','Trey Parker',2.94,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1508.jpeg',8.1
+        //23,"2011-10-05",false,1508,false,'TV-MA','Trey Parker','Trey Parker',2.94,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1508.jpeg',8.1
     ],
     [false,218,15,9,'The Last of the Meheecans'//,
-        //23,"2011-10-12",false,1509,false,'TV-MA','Trey Parker','Trey Parker',2.90,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1509.jpeg',8.1
+        //23,"2011-10-12",false,1509,false,'TV-MA','Trey Parker','Trey Parker',2.90,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1509.jpeg',8.1
     ],
     [false,219,15,10,'Bass to Mouth'//,
-        //23,"2011-10-19",false,1510,false,'TV-MA','Trey Parker','Trey Parker',2.43,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1510jpeg',7.5
+        //23,"2011-10-19",false,1510,false,'TV-MA','Trey Parker','Trey Parker',2.43,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1510jpeg',7.5
     ],
     [false,220,15,11,'Broadway Bro Down'//,
-        //23,"2011-10-26",false,1511,false,'TV-MA','Trey Parker','Trey Parker & Robert Lopez',2.92,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1511.jpeg',7.8
+        //23,"2011-10-26",false,1511,false,'TV-MA','Trey Parker','Trey Parker & Robert Lopez',2.92,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1511.jpeg',7.8
     ],
     [false,221,15,12,'1\u0025'//,
-        //21,"2011-11-02",false,1512,false,'TV-MA','Trey Parker','Trey Parker',2.85,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1512.jpeg',7.8
+        //21,"2011-11-02",false,1512,false,'TV-MA','Trey Parker','Trey Parker',2.85,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1512.jpeg',7.8
     ],
     [false,222,15,13,'A History Channel Thanksgiving'//,
-        //23,"2011-11-09",false,1513,false,'TV-MA','Trey Parker','Trey Parker',2.85,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1513.jpeg',7.2
+        //23,"2011-11-09",false,1513,false,'TV-MA','Trey Parker','Trey Parker',2.85,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1513.jpeg',7.2
     ],
     [false,223,15,14,'The Poor Kid'//,
-        //23,"2011-"11-16,false,1514,false,'TV-MA','Trey Parker','Trey Parker',2.41,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1514.jpeg',7.9
+        //23,"2011-"11-16,false,1514,false,'TV-MA','Trey Parker','Trey Parker',2.41,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1514.jpeg',7.9
     ],
     [false,224,16,1,'Reverse Cowgirl'//,
-        //30,"2012-03-14",false,1601,false,'TV-MA','Trey Parker','Trey Parker',2.63,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1601.jpeg',7.7
+        //30,"2012-03-14",false,1601,false,'TV-MA','Trey Parker','Trey Parker',2.63,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1601.jpeg',7.7
     ],
     [false,225,16,2,'Cash for Gold'//,
-        //30,"2012-03-21",false,1602,false,'TV-MA','Trey Parker','Trey Parker',2.31,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1602.jpeg',7.9
+        //30,"2012-03-21",false,1602,false,'TV-MA','Trey Parker','Trey Parker',2.31,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1602.jpeg',7.9
     ],
     [false,226,16,3,'Faith Hilling'//,
-        //21,"2012-03-28",false,1603,false,'TV-MA','Trey Parker','Trey Parker',2.70,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1603.jpeg',7.1
+        //21,"2012-03-28",false,1603,false,'TV-MA','Trey Parker','Trey Parker',2.70,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1603.jpeg',7.1
     ],
     [false,227,16,4,'Jewpacabra'//,
-        //23,"2012-04-04",false,1604,false,'TV-MA','Trey Parker','Trey Parker',2.69,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1604.jpeg',6.7
+        //23,"2012-04-04",false,1604,false,'TV-MA','Trey Parker','Trey Parker',2.69,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1604.jpeg',6.7
     ],
     [false,228,16,5,'Butterballs'//,
-        //22,"2012-04-11",false,1605,false,'TV-MA','Trey Parker','Trey Parker',2.23,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1605.jpeg',7.6
+        //22,"2012-04-11",false,1605,false,'TV-MA','Trey Parker','Trey Parker',2.23,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1605.jpeg',7.6
     ],
     [false,229,16,6,'I Should Have Never Gone Ziplining'//,
-        //21,"2012-04-18",false,1606,false,'TV-MA','Trey Parker','Trey Parker',2.43,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1606.jpeg',7.1
+        //21,"2012-04-18",false,1606,false,'TV-MA','Trey Parker','Trey Parker',2.43,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1606.jpeg',7.1
     ],
     [false,230,16,7,'Cartman Finds Love'//,
-        //23,"2012-04-25",false,1607,false,'TV-MA','Trey Parker','Trey Parker',2.33,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1607.jpeg',8
+        //23,"2012-04-25",false,1607,false,'TV-MA','Trey Parker','Trey Parker',2.33,false,Celebrities,['Brad Paisley'],'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1607.jpeg',8
     ],
     [false,231,16,8,'Sarcastaball'//,
-        //21,"2012-09-26",false,1608,false,'TV-MA','Trey Parker','Trey Parker',1.84,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1608.jpeg',7.5
+        //21,"2012-09-26",false,1608,false,'TV-MA','Trey Parker','Trey Parker',1.84,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1608.jpeg',7.5
     ],
     [false,232,16,9,'Raising the Bar'//,
-        //21,"2012-10-03",false,1609,false,'TV-MA','Trey Parker','Trey Parker',1.69,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1609.jpeg',8.1
+        //21,"2012-10-03",false,1609,false,'TV-MA','Trey Parker','Trey Parker',1.69,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1609.jpeg',8.1
     ],
     [true,233,16,10,'Insecurity'//,
-        //23,"2012-10-10",false,1610,false,'TV-MA','Trey Parker','Trey Parker',2.33,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1610.jpeg',8.3
+        //23,"2012-10-10",false,1610,false,'TV-MA','Trey Parker','Trey Parker',2.33,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1610.jpeg',8.3
     ],
     [false,234,16,11,'Going Native'//,
-        //23,"2012-10-17",false,1611,false,'TV-MA','Trey Parker','Trey Parker',1.98,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1611.jpeg',6.7
+        //23,"2012-10-17",false,1611,false,'TV-MA','Trey Parker','Trey Parker',1.98,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1611.jpeg',6.7
     ],
     [false,235,16,12,'A Nightmare on FaceTime'//,
-        //23,"2012-10-24",false,1612,false,'TV-MA','Trey Parker','Trey Parker',1.89,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1612.jpeg',8.3
+        //23,"2012-10-24",false,1612,false,'TV-MA','Trey Parker','Trey Parker',1.89,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1612.jpeg',8.3
     ],
     [false,236,16,13,'A Scause for Applause'//,
-        //23,"2012-10-31",false,1613,false,'TV-MA','Trey Parker','Trey Parker',1.96,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1613.jpeg',7.1
+        //23,"2012-10-31",false,1613,false,'TV-MA','Trey Parker','Trey Parker',1.96,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1613.jpeg',7.1
     ],
     [false,237,16,14,'Obama Wins!'//,
-        //23,"2012-11-07",false,1614,false,'TV-MA','Trey Parker','Trey Parker',2.19,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1614.jpeg',7.4
+        //23,"2012-11-07",false,1614,false,'TV-MA','Trey Parker','Trey Parker',2.19,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1614.jpeg',7.4
     ],
     [false,238,17,1,'Let Go, Let Gov'//,
-        //23,"2013-09-25",false,1701,false,'TV-MA','Trey Parker','Trey Parker',2.89,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1701.jpeg',7.4
+        //23,"2013-09-25",false,1701,false,'TV-MA','Trey Parker','Trey Parker',2.89,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1701.jpeg',7.4
     ],
     [false,239,17,2,'Informative Murder Porn'//,
-        //22,"2013-10-02",false,1702,false,'TV-MA','Trey Parker','Trey Parker',2.49,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1702.jpeg',8
+        //22,"2013-10-02",false,1702,false,'TV-MA','Trey Parker','Trey Parker',2.49,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1702.jpeg',8
     ],
     [false,240,17,3,'World War Zimmerman'//,
-        //21,"2013-10-09",false,1703,false,'TV-MA','Trey Parker','Trey Parker',2.06,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1703.jpeg',7.7
+        //21,"2013-10-09",false,1703,false,'TV-MA','Trey Parker','Trey Parker',2.06,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1703.jpeg',7.7
     ],
     [false,241,17,4,'Goth Kids 3: Dawn of the Posers'//,
-        //21,"2013-10-23",false,1704,false,'TV-MA','Trey Parker','Trey Parker',1.83,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1704.jpeg',6.8
+        //21,"2013-10-23",false,1704,false,'TV-MA','Trey Parker','Trey Parker',1.83,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1704.jpeg',6.8
     ],
     [false,242,17,5,'Taming Strange'//,
-        //23,"2013-10-30",false,1705,false,'TV-MA','Trey Parker','Trey Parker',1.89,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1705.jpeg',7
+        //23,"2013-10-30",false,1705,false,'TV-MA','Trey Parker','Trey Parker',1.89,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1705.jpeg',7
     ],
     [false,243,17,6,'Ginger Cow'//,
-        //22,"2013-11-06",false,1706,false,'TV-MA','Trey Parker','Trey Parker',2.39,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1706.jpeg',7.7
+        //22,"2013-11-06",false,1706,false,'TV-MA','Trey Parker','Trey Parker',2.39,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1706.jpeg',7.7
     ],
     [false,244,17,7,'Black Friday'//,
-        //23,"2013-11-13",false,1707,false,'TV-MA','Trey Parker','Trey Parker',2.07,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1707.jpeg',8.9
+        //23,"2013-11-13",false,1707,false,'TV-MA','Trey Parker','Trey Parker',2.07,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1707.jpeg',8.9
     ],
     [false,245,17,8,'A Song of Ass and Fire'//,
-        //23,"2013-11-20",false,1708,false,'TV-MA','Trey Parker','Trey Parker',2.39,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1708.jpeg',8.8
+        //23,"2013-11-20",false,1708,false,'TV-MA','Trey Parker','Trey Parker',2.39,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1708.jpeg',8.8
     ],
     [false,246,17,9,'Titties and Dragons'//,
-        //22,"2013-12-04",false,1709,false,'TV-MA','Trey Parker','Trey Parker',2.48,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1709.jpeg',8.8
+        //22,"2013-12-04",false,1709,false,'TV-MA','Trey Parker','Trey Parker',2.48,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1709.jpeg',8.8
     ],
     [true,247,17,10,'The Hobbit'//,
-        //21,"2013-12-11",false,1710,false,'TV-MA','Trey Parker','Trey Parker',2.17,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1710.jpeg',8.4
+        //21,"2013-12-11",false,1710,false,'TV-MA','Trey Parker','Trey Parker',2.17,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1710.jpeg',8.4
     ],
     [false,248,18,1,'Go Fund Yourself'//,
-        //23,"2014-09-24",false,1801,false,'TV-MA','Trey Parker','Trey Parker',2.40,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1801.jpeg',7.7
+        //23,"2014-09-24",false,1801,false,'TV-MA','Trey Parker','Trey Parker',2.40,false,Celebrities,['Roger Goodell'],'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1801.jpeg',7.7
     ],
     [false,249,18,2,'Gluten Free Ebola'//,
-        //23,"2014-10-01",false,1802,false,'TV-MA','Trey Parker','Trey Parker',2.24,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1802.jpeg',7.7
+        //23,"2014-10-01",false,1802,false,'TV-MA','Trey Parker','Trey Parker',2.24,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1802.jpeg',7.7
     ],
     [false,250,18,3,'The Cissy'//,
-        //23,"2014-10-08",false,1803,false,'TV-MA','Trey Parker','Trey Parker',2.02,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1803.jpeg',8.5
+        //23,"2014-10-08",false,1803,false,'TV-MA','Trey Parker','Trey Parker',2.02,false,Celebrities,['Sia'],'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1803.jpeg',8.5
     ],
     [false,251,18,4,'Handicar'//,
-        //22,"2014-10-15",false,1804,false,'TV-MA','Trey Parker','Trey Parker',1.73,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1804.jpeg',7.3
+        //22,"2014-10-15",false,1804,false,'TV-MA','Trey Parker','Trey Parker',1.73,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1804.jpeg',7.3
     ],
     [false,252,18,5,'The Magic Bush'//,
-        //22,"2014-10-29",false,1805,false,'TV-MA','Trey Parker','Trey Parker',1.73,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1805.jpeg',7.9
+        //22,"2014-10-29",false,1805,false,'TV-MA','Trey Parker','Trey Parker',1.73,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1805.jpeg',7.9
     ],
     [false,253,18,6,'Freemium Isn\'t Free'//,
-        //22,"2014-11-05",false,1806,false,'TV-MA','Trey Parker','Trey Parker',1.70,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1806.jpeg',8.1
+        //22,"2014-11-05",false,1806,false,'TV-MA','Trey Parker','Trey Parker',1.70,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1806.jpeg',8.1
     ],
     [false,254,18,7,'Grounded Vindaloop'//,
-        //23,"2014-11-12",false,1807,false,'TV-MA','Trey Parker','Trey Parker',1.66,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1807.jpeg',9.1
+        //23,"2014-11-12",false,1807,false,'TV-MA','Trey Parker','Trey Parker',1.66,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1807.jpeg',9.1
     ],
     [false,255,18,8,'Cock Magic'//,
-        //21,"2014-11-19",false,1808,false,'TV-MA','Trey Parker','Trey Parker',1.69,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1808.jpeg',8.3
+        //21,"2014-11-19",false,1808,false,'TV-MA','Trey Parker','Trey Parker',1.69,false,Celebrities,['Peter Serafinowicz'],'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1808.jpeg',8.3
     ],
     [false,256,18,9,'\u0023REHASH'//,
-        //22,"2014-12-03",false,1809,false,'TV-MA','Trey Parker','Trey Parker',2.10,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1809.jpeg',7.3
+        //22,"2014-12-03",false,1809,false,'TV-MA','Trey Parker','Trey Parker',2.10,false,Celebrities,['PewDiePie'],'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1809.jpeg',7.3
     ],
     [false,257,18,10,'\u0023HappyHolograms'//,
-        //22,"2014-12-10",false,1810,false,'TV-MA','Trey Parker','Trey Parker',1.66,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1810.jpeg',6.8
+        //22,"2014-12-10",false,1810,false,'TV-MA','Trey Parker','Trey Parker',1.66,false,Celebrities,['PewDiePie'],'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1810.jpeg',6.8
     ],
     [true,258,19,1,'Stunning and Brave'//,
-        //22,"2015-09-16",false,1901,false,'TV-MA','Trey Parker','Trey Parker',1.76,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1901.jpeg',7.6
+        //22,"2015-09-16",false,1901,false,'TV-MA','Trey Parker','Trey Parker',1.76,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1901.jpeg',7.6
     ],
     [true,259,19,2,'Where My Country Gone?'//,
-        //22,"2015-09-23",false,1902,false,'TV-MA','Trey Parker','Trey Parker',1.49,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1902.jpeg',8.1
+        //22,"2015-09-23",false,1902,false,'TV-MA','Trey Parker','Trey Parker',1.49,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1902.jpeg',8.1
     ],
     [true,260,19,3,'The City Part of Town'//,
-        //22,"2015-09-30",false,1903,false,'TV-MA','Trey Parker','Trey Parker',1.32,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1903.jpeg',7.6
+        //22,"2015-09-30",false,1903,false,'TV-MA','Trey Parker','Trey Parker',1.32,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1903.jpeg',7.6
     ],
     [true,261,19,4,'You\'re Not Yelping'//,
-        //22,"2015-10-14",false,1904,false,'TV-MA','Trey Parker','Trey Parker',1.37,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1904.jpeg',8
+        //22,"2015-10-14",false,1904,false,'TV-MA','Trey Parker','Trey Parker',1.37,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1904.jpeg',8
     ],
     [true,262,19,5,'Safe Space'//,
-        //22,"2015-10-21",false,1905,false,'TV-MA','Trey Parker','Trey Parker',1.21,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1905.jpeg',8.3
+        //22,"2015-10-21",false,1905,false,'TV-MA','Trey Parker','Trey Parker',1.21,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1905.jpeg',8.3
     ],
     [true,263,19,6,'Tweek x Craig'//,
-        //22,"2015-10-28",false,1906,false,'TV-MA','Trey Parker','Trey Parker',1.34,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1906.jpeg',8.1
+        //22,"2015-10-28",false,1906,false,'TV-MA','Trey Parker','Trey Parker',1.34,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1906.jpeg',8.1
     ],
     [true,264,19,7,'Naughty Ninjas'//,
-        //22,"2015-11-11",false,1907,false,'TV-MA','Trey Parker','Trey Parker',1.42,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1907.jpeg',8.2
+        //22,"2015-11-11",false,1907,false,'TV-MA','Trey Parker','Trey Parker',1.42,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1907.jpeg',8.2
     ],
     [true,265,19,8,'Sponsored Content'//,
-        //22,"2015-11-18",false,1908,false,'TV-MA','Trey Parker','Trey Parker',1.30,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1908.jpeg',8.7
+        //22,"2015-11-18",false,1908,false,'TV-MA','Trey Parker','Trey Parker',1.30,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1908.jpeg',8.7
     ],
     [true,266,19,9,'Truth and Advertising'//,
-        //22,"2015-12-02",false,1909,false,'TV-MA','Trey Parker','Trey Parker',1.43,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1909.jpeg',8
+        //22,"2015-12-02",false,1909,false,'TV-MA','Trey Parker','Trey Parker',1.43,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1909.jpeg',8
     ],
     [true,267,19,10,'PC Principal Final Justice'//,
-        //22,"2015-12-09",false,1910,false,'TV-MA','Trey Parker','Trey Parker',1.83,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE19010.jpeg',7.8
+        //22,"2015-12-09",false,1910,false,'TV-MA','Trey Parker','Trey Parker',1.83,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE19010.jpeg',7.8
     ],
     [true,268,20,1,'Member Berries'//,
-        //22,"2016-09-14",false,2001,false,'TV-MA','Trey Parker','Trey Parker',2.17,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2001.jpeg',7.8
+        //22,"2016-09-14",false,2001,false,'TV-MA','Trey Parker','Trey Parker',2.17,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2001.jpeg',7.8
     ],
     [true,269,20,2,'Skank Hunt'//,
-        //22,"2016-09-21",false,2002,false,'TV-MA','Trey Parker','Trey Parker',1.58,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2002.jpeg',8.1
+        //22,"2016-09-21",false,2002,false,'TV-MA','Trey Parker','Trey Parker',1.58,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2002.jpeg',8.1
     ],
     [true,270,20,3,'The Damned'//,
-        //22,"2016-09-28",false,2003,false,'TV-MA','Trey Parker','Trey Parker',1.79,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2003.jpeg',8
+        //22,"2016-09-28",false,2003,false,'TV-MA','Trey Parker','Trey Parker',1.79,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2003.jpeg',8
     ],
     [true,271,20,4,'Wieners Out'//,
-        //22,"2016-10-12",false,2004,false,'TV-MA','Trey Parker','Trey Parker',1.82,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2004.jpeg',7.8
+        //22,"2016-10-12",false,2004,false,'TV-MA','Trey Parker','Trey Parker',1.82,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2004.jpeg',7.8
     ],
     [true,272,20,5,'Douche and a Danish'//,
-        //17,"2016-10-19",false,2005,false,'TV-MA','Trey Parker','Trey Parker',1.32,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2005.jpeg',7.3
+        //17,"2016-10-19",false,2005,false,'TV-MA','Trey Parker','Trey Parker',1.32,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2005.jpeg',7.3
     ],
     [true,273,20,6,'Fort Collins'//,
-        //22,"2016-10-26",false,2006,false,'TV-MA','Trey Parker','Trey Parker',1.41,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2006.jpeg',7.3
+        //22,"2016-10-26",false,2006,false,'TV-MA','Trey Parker','Trey Parker',1.41,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2006.jpeg',7.3
     ],
     [true,274,20,7,'Oh, Jeez'//,
-        //22,"2016-11-09",false,2007,false,'TV-MA','Trey Parker','Trey Parker',2.03,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2007.jpeg',7.1
+        //22,"2016-11-09",false,2007,false,'TV-MA','Trey Parker','Trey Parker',2.03,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2007.jpeg',7.1
     ],
     [true,275,20,8,'Members Only'//,
-        //22,"2016-11-16",false,2008,false,'TV-MA','Trey Parker','Trey Parker',1.79,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2008.jpeg',7.3
+        //22,"2016-11-16",false,2008,false,'TV-MA','Trey Parker','Trey Parker',1.79,false,Celebrities,['Elon Musk'],'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2008.jpeg',7.3
     ],
     [true,276,20,9,'Not Funny'//,
-        //22,"2016-11-30",false,2009,false,'TV-MA','Trey Parker','Trey Parker',1.45,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2009.jpeg',7.3
+        //22,"2016-11-30",false,2009,false,'TV-MA','Trey Parker','Trey Parker',1.45,false,Celebrities,['Elon Musk'],'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2009.jpeg',7.3
     ],
     [true,277,20,10,'The End of Serialization as We Know It'//,
-        //22,"2016-12-07",false,2010,false,'TV-MA','Trey Parker','Trey Parker',1.82,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2010.jpeg',7.1
+        //22,"2016-12-07",false,2010,false,'TV-MA','Trey Parker','Trey Parker',1.82,false,Celebrities,['Elon Musk'],'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2010.jpeg',7.1
     ],
     [true,278,21,1,'White People Renovating Houses'//,
-        //22,"2017-09-13",false,2101,false,'TV-MA','Trey Parker','Trey Parker',1.68,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2101.jpeg',6.8
+        //22,"2017-09-13",false,2101,false,'TV-MA','Trey Parker','Trey Parker',1.68,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2101.jpeg',6.8
     ],
     [true,279,21,2,'Put It Down'//,
-        //22,"2017-09-20",false,2102,false,'TV-MA','Trey Parker','Trey Parker',1.25,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2102.jpeg',8
+        //22,"2017-09-20",false,2102,false,'TV-MA','Trey Parker','Trey Parker',1.25,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2102.jpeg',8
     ],
     [true,280,21,3,'Holiday Special'//,
-        //22,"2017-09-27",false,2103,false,'TV-MA','Trey Parker','Trey Parker',1.25,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2103.jpeg',7.6
+        //22,"2017-09-27",false,2103,false,'TV-MA','Trey Parker','Trey Parker',1.25,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2103.jpeg',7.6
     ],
     [true,281,21,4,'Franchise Prequel'//,
-        //22,"2017-10-11",false,2104,false,'TV-MA','Trey Parker','Trey Parker',1.12,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2104.jpeg',7.4
+        //22,"2017-10-11",false,2104,false,'TV-MA','Trey Parker','Trey Parker',1.12,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2104.jpeg',7.4
     ],
     [true,282,21,5,'Hummels \u0026 Heroin'//,
-        //22,"2017-10-18",false,2105,false,'TV-MA','Trey Parker','Trey Parker',0.93,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2105.jpeg',7.3
+        //22,"2017-10-18",false,2105,false,'TV-MA','Trey Parker','Trey Parker',0.93,false,Celebrities,['Josh Gad'],'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2105.jpeg',7.3
     ],
     [true,283,21,6,'Sons a Witches'//,
-        //22,"2017-10-25",false,2106,false,'TV-MA','Trey Parker','Trey Parker',1.22,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2106.jpeg',7.3
+        //22,"2017-10-25",false,2106,false,'TV-MA','Trey Parker','Trey Parker',1.22,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2106.jpeg',7.3
     ],
     [true,284,21,7,'Doubling Down'//,
-        //22,"2017-11-08",false,2107,false,'TV-MA','Trey Parker','Trey Parker',1.13,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2107.jpeg',7.5
+        //22,"2017-11-08",false,2107,false,'TV-MA','Trey Parker','Trey Parker',1.13,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2107.jpeg',7.5
     ],
     [true,285,21,8,'Moss Piglets'//,
-        //22,"2017-11-15",false,2108,false,'TV-MA','Trey Parker','Trey Parker',1.09,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2108.jpeg',7
+        //22,"2017-11-15",false,2108,false,'TV-MA','Trey Parker','Trey Parker',1.09,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2108.jpeg',7
     ],
     [true,286,21,9,'Super Hard PCness'//,
-        //22,"2017-11-29",false,2109,false,'TV-MA','Trey Parker','Trey Parker',0.90,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2109.jpeg',7.7
+        //22,"2017-11-29",false,2109,false,'TV-MA','Trey Parker','Trey Parker',0.90,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2109.jpeg',7.7
     ],
     [true,287,21,10,'Splatty Tomato'//,
-        //22,"2017-12-06",false,2110,false,'TV-MA','Trey Parker','Trey Parker',0.97,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2110.jpeg',7.2
+        //22,"2017-12-06",false,2110,false,'TV-MA','Trey Parker','Trey Parker',0.97,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2110.jpeg',7.2
     ],
     [true,288,22,1,'Dead Kids'//,
-        //22,"2018-09-26",false,2201,false,'TV-MA','Trey Parker','Trey Parker',1.09,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2201.jpeg',8.1
+        //22,"2018-09-26",false,2201,false,'TV-MA','Trey Parker','Trey Parker',1.09,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2201.jpeg',8.1
     ],
     [true,289,22,2,'A Boy and a Priest'//,
-        //22,"2018-10-03",false,2202,false,'TV-MA','Trey Parker','Trey Parker',0.93,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2202.jpeg',7.6
+        //22,"2018-10-03",false,2202,false,'TV-MA','Trey Parker','Trey Parker',0.93,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2202.jpeg',7.6
     ],
     [true,290,22,3,'The Problem with a Poo'//,
-        //22,"2018-10-10",false,2203,false,'TV-MA','Trey Parker','Trey Parker',0.97,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2203.jpeg',6.4
+        //22,"2018-10-10",false,2203,false,'TV-MA','Trey Parker','Trey Parker',0.97,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2203.jpeg',6.4
     ],
     [true,291,22,4,'Tegridy Farms'//,
-        //22,"2018-10-17",false,2204,false,'TV-MA','Trey Parker','Trey Parker',0.71,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2204.jpeg',7.8
+        //22,"2018-10-17",false,2204,false,'TV-MA','Trey Parker','Trey Parker',0.71,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2204.jpeg',7.8
     ],
     [true,292,22,5,'The Scoots'//,
-        //22,"2018-10-31",false,2205,false,'TV-MA','Trey Parker','Trey Parker',0.84,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2205.jpeg',8
+        //22,"2018-10-31",false,2205,false,'TV-MA','Trey Parker','Trey Parker',0.84,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2205.jpeg',8
     ],
     [true,293,22,6,'Time to Get Cereal'//,
-        //22,"2018-11-07",false,2206,false,'TV-MA','Trey Parker','Trey Parker',0.83,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2206.jpeg',7.7
+        //22,"2018-11-07",false,2206,false,'TV-MA','Trey Parker','Trey Parker',0.83,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2206.jpeg',7.7
     ],
     [true,294,22,7,'Nobody Got Cereal?'//,
-        //22,"2018-11-14",false,2207,false,'TV-MA','Trey Parker','Trey Parker',0.82,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2207.jpeg',7.7
+        //22,"2018-11-14",false,2207,false,'TV-MA','Trey Parker','Trey Parker',0.82,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2207.jpeg',7.7
     ],
     [true,295,22,8,'Buddha Box'//,
-        //22,"2018-11-28",false,2208,false,'TV-MA','Trey Parker','Trey Parker',0.83,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2208.jpeg',7.3
+        //22,"2018-11-28",false,2208,false,'TV-MA','Trey Parker','Trey Parker',0.83,false,Celebrities,['Michael James Scott'],'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2208.jpeg',7.3
     ],
     [true,296,22,9,'Unfulfilled'//,
-        //22,"2018-12-05",false,2209,false,'TV-MA','Trey Parker','Trey Parker',0.77,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2209.jpeg',7.6
+        //22,"2018-12-05",false,2209,false,'TV-MA','Trey Parker','Trey Parker',0.77,false,Celebrities,['Casey Nicholaw'],'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2209.jpeg',7.6
     ],
     [true,297,22,10,'Bike Parade'//,
-        //22,"2018-12-12",false,2210,false,'TV-MA','Trey Parker','Trey Parker',0.83,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2210.jpeg',7.6
+        //22,"2018-12-12",false,2210,false,'TV-MA','Trey Parker','Trey Parker',0.83,false,Celebrities,['Casey Nicholaw'],'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2210.jpeg',7.6
     ],
     [true,298,23,1,'Mexican Joker'//,
-        //22,"2019-09-25",false,2301,false,'TV-MA','Trey Parker','Trey Parker',0.92,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2301.jpeg',7.4
+        //22,"2019-09-25",false,2301,false,'TV-MA','Trey Parker','Trey Parker',0.92,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2301.jpeg',7.4
     ],
     [true,299,23,2,'Band in China'//,
-        //19,"2019-10-02",false,2302,false,'TV-MA','Trey Parker','Trey Parker',0.73,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2302.jpeg',8.6
+        //19,"2019-10-02",false,2302,false,'TV-MA','Trey Parker','Trey Parker',0.73,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2302.jpeg',8.6
     ],
     [true,300,23,3,'Shots!!!'//,
-        //22,"2019-10-09",false,2303,false,'TV-MA','Trey Parker','Trey Parker',0.95,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2303.jpeg',7.5
+        //22,"2019-10-09",false,2303,false,'TV-MA','Trey Parker','Trey Parker',0.95,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2303.jpeg',7.5
     ],
     [true,301,23,4,'Let Them Eat Goo'//,
-        //22,"2019-10-16",false,2304,false,'TV-MA','Trey Parker','Trey Parker',0.77,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2304.jpeg',7.9
+        //22,"2019-10-16",false,2304,false,'TV-MA','Trey Parker','Trey Parker',0.77,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2304.jpeg',7.9
     ],
     [true,302,23,5,'Tegridy Farms Halloween Special'//,
-        //22,"2019-10-30",false,2305,false,'TV-MA','Trey Parker','Trey Parker',0.84,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2305.jpeg',7.1
+        //22,"2019-10-30",false,2305,false,'TV-MA','Trey Parker','Trey Parker',0.84,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2305.jpeg',7.1
     ],
     [true,303,23,6,'Season Finale'//,
-        //22,"2019-11-06",false,2306,false,'TV-MA','Trey Parker','Trey Parker',0.84,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2306.jpeg',7.1
+        //22,"2019-11-06",false,2306,false,'TV-MA','Trey Parker','Trey Parker',0.84,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2306.jpeg',7.1
     ],
     [true,304,23,7,'Board Girls'//,
-        //22,"2019-11-13",false,2307,false,'TV-MA','Trey Parker','Trey Parker',0.85,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2307.jpeg',8.1
+        //22,"2019-11-13",false,2307,false,'TV-MA','Trey Parker','Trey Parker',0.85,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2307.jpeg',8.1
     ],
     [true,305,23,8,'Turd Burglars'//,
-        //20,"2019-11-27",false,2308,false,'TV-MA','Trey Parker','Trey Parker',0.66,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2308.jpeg',7.5
+        //20,"2019-11-27",false,2308,false,'TV-MA','Trey Parker','Trey Parker',0.66,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2308.jpeg',7.5
     ],
     [true,306,23,9,'Basic Cable'//,
-        //20,"2019-12-04",false,2309,false,'TV-MA','Trey Parker','Trey Parker',0.80,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2309.jpeg',7.7
+        //20,"2019-12-04",false,2309,false,'TV-MA','Trey Parker','Trey Parker',0.80,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2309.jpeg',7.7
     ],
     [true,307,23,10,'Christmas Snow'//,
-        //22,"2019-12-11",false,2310,false,'TV-MA','Trey Parker','Trey Parker',0.81,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2310.jpeg',7.6
+        //22,"2019-12-11",false,2310,false,'TV-MA','Trey Parker','Trey Parker',0.81,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2310.jpeg',7.6
     ],
     [true,308,24,1,'The Pandemic Special',
         48,"2020-09-30",false,2401,false,'TV-MA','Trey Parker','Trey Parker',2.27,false,['Dr. Anthony Fauci'],false,'Randy comes to terms with his role in the COVID-19 outbreak as the on-going pandemic presents continued challenges to the citizens of South Park. The kids happily head back to school but nothing resembles the normal that they once knew; not their teachers, not their homeroom, not even Eric Cartman.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2401.jpeg',8.1
@@ -961,22 +961,22 @@ const EPISODES = [
         62,"2021-12-16",true,2404,false,'UNRATED','Trey Parker','Trey Parker',false,false,['Andrew Cuomo','LeBron James','Jake Angeli','Los Angeles Clippers'],false,'If Stan, Kyle and Cartman could just work together, they could go back in time to make sure Covid never happened and save Kenny\'s life. In SOUTH PARK: POST COVID: THE RETURN OF COVID, traveling back to the past seems to be the easy answer until they meet Victor Chaos.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2404.jpeg',7.5
     ],
     [false,312,25,1,'Pajama Day'//,
-        //22,"2022-02-02",false,2501,false,'TV-MA','Trey Parker','Trey Parker',0.84,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2501.jpeg',7.2
+        //22,"2022-02-02",false,2501,false,'TV-MA','Trey Parker','Trey Parker',0.84,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2501.jpeg',7.2
     ],
     [false,313,25,2,'The Big Fix'//,
-        //22,"2022-02-09",false,2502,false,'TV-MA','Trey Parker','Trey Parker',0.66,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2502.jpeg',8
+        //22,"2022-02-09",false,2502,false,'TV-MA','Trey Parker','Trey Parker',0.66,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2502.jpeg',8
     ],
     [false,314,25,3,'City People'//,
-        //22,"2022-02-16",false,2503,false,'TV-MA','Trey Parker','Trey Parker',0.66,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2503.jpeg',7.3
+        //22,"2022-02-16",false,2503,false,'TV-MA','Trey Parker','Trey Parker',0.66,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2503.jpeg',7.3
     ],
     [false,315,25,4,'Back to the Cold War'//,
-        //22,"2022-03-02",false,2504,false,'TV-MA','Trey Parker','Trey Parker',0.53,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2504.jpeg',6.6
+        //22,"2022-03-02",false,2504,false,'TV-MA','Trey Parker','Trey Parker',0.53,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2504.jpeg',6.6
     ],
     [false,316,25,5,'Help, My Teenager Hates Me!'//,
-        //22,"2022-03-09",false,2505,false,'TV-MA','Trey Parker','Trey Parker',0.62,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2505.jpeg',7.6
+        //22,"2022-03-09",false,2505,false,'TV-MA','Trey Parker','Trey Parker',0.62,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2505.jpeg',7.6
     ],
     [false,317,25,6,'Credigree Weed St. Patrick\'s Day Special'//,
-        //22,"2022-03-16",false,2506,false,'TV-MA','Trey Parker','Trey Parker',0.49,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2506.jpeg',7.1
+        //22,"2022-03-16",false,2506,false,'TV-MA','Trey Parker','Trey Parker',0.49,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2506.jpeg',7.1
     ],
     [false,318,false,false,'South Park: The Streaming Wars',
         50,"2022-06-01",true,'P2507',false,'UNRATED','Trey Parker','Trey Parker',false,false,false,false,'In South Park: The Streaming Wars, Cartman locks horns with his mom in a battle of wills while an epic conflict unfolds that threatens South Park\'s very existence.','https://hosting.photobucket.com/images/i/lesaintdumech/SPEP2507.jpeg',6.7
@@ -985,22 +985,22 @@ const EPISODES = [
         47,"2022-07-13",true,'P2508',false,'UNRATED','Trey Parker','Trey Parker',false,false,['Matt Damon','Gwyneth Paltrow','Larry David','Naomi Osaka','Reese Witherspoon','LeBron James','Judge Penney S. Azcarate','Tom Brady'],false,'In South Park: The Streaming Wars Part 2, a drought has brought the town of South Park to the brink of disaster.','https://hosting.photobucket.com/images/i/lesaintdumech/SPEP2508.jpeg',6.7
     ],
     [true,320,26,1,'Cupid Ye'//,
-        //22,"2023-02-08",false,2601,false,'TV-MA','Matt Stone','Matt Stone',0.48,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2601.jpeg',7.3
+        //22,"2023-02-08",false,2601,false,'TV-MA','Matt Stone','Matt Stone',0.48,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2601.jpeg',7.3
     ],
     [true,321,26,2,'The Worldwide Privacy Tour'//,
-        //22,"2023-02-15",false,2602,false,'TV-MA','Trey Parker','Trey Parker',0.56,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2602.jpeg',8.3
+        //22,"2023-02-15",false,2602,false,'TV-MA','Trey Parker','Trey Parker',0.56,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2602.jpeg',8.3
     ],
     [true,322,26,3,'Japanese Toilet'//,
-        //22,"2023-03-01",false,2603,false,'TV-MA','Trey Parker','Trey Parker',0.48,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2603.jpeg',7.7
+        //22,"2023-03-01",false,2603,false,'TV-MA','Trey Parker','Trey Parker',0.48,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2603.jpeg',7.7
     ],
     [true,323,26,4,'Deep Learning'//,
-        //22,"2023-03-08",false,2604,false,'TV-MA','Trey Parker','Trey Parker & ChatGPT',0.47,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2604.jpeg',8.3
+        //22,"2023-03-08",false,2604,false,'TV-MA','Trey Parker','Trey Parker & ChatGPT',0.47,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2604.jpeg',8.3
     ],
     [true,324,26,5,'DikinBaus Hot Dogs'//,
-        //22,"2023-03-22",false,2605,false,'TV-MA','Trey Parker','Trey Parker',0.43,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2605.jpeg',7.8
+        //22,"2023-03-22",false,2605,false,'TV-MA','Trey Parker','Trey Parker',0.43,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2605.jpeg',7.8
     ],
     [true,325,26,6,'Spring Break'//,
-        //22,"2023-03-29",false,2606,false,'TV-MA','Trey Parker','Trey Parker',0.47,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2606.jpeg',6.6
+        //22,"2023-03-29",false,2606,false,'TV-MA','Trey Parker','Trey Parker',0.47,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2606.jpeg',6.6
     ],
     [true,326,false,false,'South Park: Joining the Panderverse',
         49,"2023-10-27",true,'P2607',false,'UNRATED','Trey Parker','Trey Parker',false,false,['Kathleen Kennedy','Bob Iger'],false,'In South Park: Joining the Panderverse, Cartman\'s deeply disturbing dreams portend the end of the life he knows and loves. The adults in South Park are also wrestling with their own life decisions as the advent of AI is turning their world upside down.','https://hosting.photobucket.com/images/i/lesaintdumech/SPEP2607.jpeg',7.8
@@ -1012,34 +1012,34 @@ const EPISODES = [
         50,"2024-10-24",true,'P2609',false,'UNRATED','Trey Parker','Trey Parker',false,false,false,false,'The advent of new weight loss drugs has a huge impact on everyone in South Park. When Cartman is denied access to the life-changing medicine, the kids jump into action.','https://hosting.photobucket.com/images/i/lesaintdumech/SPEP2609.jpeg',7.1
     ],
     [true,329,27,1,'Sermon on the Mount'//,
-        //22,"2025-07-23",false,2701,false,'TV-MA','Trey Parker','Trey Parker',0.43,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2701.jpeg',9.3
+        //22,"2025-07-23",false,2701,false,'TV-MA','Trey Parker','Trey Parker',0.43,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2701.jpeg',9.3
     ],
     [true,330,27,2,'Got a Nut'//,
-        //22,"2025-08-06",false,2702,false,'TV-MA','Trey Parker','Trey Parker',0.84,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2702.jpeg',8.4
+        //22,"2025-08-06",false,2702,false,'TV-MA','Trey Parker','Trey Parker',0.84,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2702.jpeg',8.4
     ],
     [true,331,27,3,'Sickofancy'//,
-        //22,"2025-08-20",false,2703,false,'TV-MA','Trey Parker','Trey Parker',0.85,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2703.jpeg',7.4
+        //22,"2025-08-20",false,2703,false,'TV-MA','Trey Parker','Trey Parker',0.85,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2703.jpeg',7.4
     ],
     [true,332,27,4,'Wok is Dead'//,
-        //22,"2025-09-03",false,2704,false,'TV-MA','Trey Parker','Trey Parker',0.67,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2704.jpeg',7.6
+        //22,"2025-09-03",false,2704,false,'TV-MA','Trey Parker','Trey Parker',0.67,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2704.jpeg',7.6
     ],
     [true,333,27,5,'Conflict of Interest'//,
-        //22,"2025-09-24",false,2705,false,'TV-MA','Trey Parker','Trey Parker',0.55,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE.2705jpeg',7.5
+        //22,"2025-09-24",false,2705,false,'TV-MA','Trey Parker','Trey Parker',0.55,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE.2705jpeg',7.5
     ],
     [true,334,28,1,'Twisted Christian'//,
-        //22,"2025-10-15",false,2801,false,'TV-MA','Trey Parker','Trey Parker',0.52,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2801.jpeg',6.7
+        //22,"2025-10-15",false,2801,false,'TV-MA','Trey Parker','Trey Parker',0.52,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2801.jpeg',6.7
     ],
     [true,335,28,2,'The Woman in the Hat'//,
-        //22,"2025-10-31",false,2802,false,'TV-MA','Trey Parker','Trey Parker',0.31,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2802.jpeg',7.1
+        //22,"2025-10-31",false,2802,false,'TV-MA','Trey Parker','Trey Parker',0.31,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2802.jpeg',7.1
     ],
     [true,336,28,3,'Sora Not Sorry'//,
-        //22,"2025-11-12",false,2803,false,'TV-MA','Trey Parker','Trey Parker',0.53,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2803.jpeg',7.3
+        //22,"2025-11-12",false,2803,false,'TV-MA','Trey Parker','Trey Parker',0.53,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2803.jpeg',7.3
     ],
     [true,337,28,4,'Turkey Trot'//,
-        //22,"2025-11-26",false,2804,false,'TV-MA','Trey Parker','Trey Parker',0.37,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2804.jpeg',7.3
+        //22,"2025-11-26",false,2804,false,'TV-MA','Trey Parker','Trey Parker',0.37,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2804.jpeg',7.3
     ],
     [true,338,28,5,'The Crap Out'//,
-        //26,"2025-12-10",false,2805,false,'TV-MA','Trey Parker','Trey Parker',0.46,false,Celebrities,Guests,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2805.jpeg',6.8
+        //26,"2025-12-10",false,2805,false,'TV-MA','Trey Parker','Trey Parker',0.46,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2805.jpeg',6.8
     ]
 ];
 
