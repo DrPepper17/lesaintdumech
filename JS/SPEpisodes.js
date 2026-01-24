@@ -402,257 +402,257 @@ const EPISODES = [
     [false,125,8,14,'Woodland Critter Christmas',
         22,"2004-12-15",false,814,false,'TV-MA','Trey Parker','Trey Parker',2.58,false,false,false,'Stan agrees to help a group of adorable Woodland Critters build a manger in anticipation of the birth of their Lord and Savior, only to find out that they serve Satan.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE814.jpeg',9.1
     ],
-    [false,126,9,1,'Mr. Garrison\'s Fancy New Vagina'//,
-        //22,"2005-03-09",false,901,false,'TV-MA','Trey Parker','Trey Parker',2.97,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE901.jpeg',7.6
+    [false,126,9,1,'Mr. Garrison\'s Fancy New Vagina',
+        22,"2005-03-09",false,901,false,'TV-MA','Trey Parker','Trey Parker',2.97,false,false,false,'As Mr. Garrison enjoys his new womanly attributes after his sex change, the rest of the town gets in touch with their inner feelings too.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE901.jpeg',7.6
     ],
-    [false,127,9,2,'Die Hippie, Die'//,
-        //22,"2005-03-16",false,902,false,'TV-MA','Trey Parker','Trey Parker',2.36,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE902.jpeg',8.6
+    [false,127,9,2,'Die Hippie, Die',
+        22,"2005-03-16",false,902,false,'TV-MA','Trey Parker','Trey Parker',2.36,false,false,false,'When hippie drum circles start popping up in people\'s attics and backyards the citizens of South Park have no choice but to turn to Eric Cartman for help.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE902.jpeg',8.6
     ],
-    [false,128,9,3,'Wing'//,
-        //22,"2005-03-23",false,903,false,'TV-MA','Trey Parker','Trey Parker',2.30,false,Celebrities,['Wing','Lou Rawls'],'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE903.jpeg',7.4
+    [false,128,9,3,'Wing',
+        22,"2005-03-23",false,903,false,'TV-MA','Trey Parker','Trey Parker',2.30,false,['Wing Han Tsang','Sylvester Stallone','Manuelo Furnanda'],['Wing Han Tsang','Lou Rawls'],'The boys set up a talent agency and pool all their resources and impress their first client only to have another agency steal him away.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE903.jpeg',7.4
     ],
-    [false,129,9,4,'Best Friends Forever'//,
-        //22,"2005-03-30",false,904,false,'TV-MA','Trey Parker','Trey Parker',2.72,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE904.jpeg',8.5
+    [false,129,9,4,'Best Friends Forever',
+        22,"2005-03-30",false,904,false,'TV-MA','Trey Parker','Trey Parker',2.72,false,['George W. Bush'],false,'Kenny is the only one of his friends to get the newest, coolest portable gaming device and Cartman cannot deal with it. Will they remain best friends forever?','https://hosting.photobucket.com/images/i/lesaintdumech/SPE904.jpeg',8.5
     ],
-    [false,130,9,5,'The Losing Edge'//,
-        //22,"2005-04-06",false,905,false,'TV-MA','Trey Parker','Trey Parker',2.62,false,Celebrities,['Diedrich Bader'],'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE905.jpeg',8.6
+    [false,130,9,5,'The Losing Edge',
+        22,"2005-04-06",false,905,false,'TV-MA','Trey Parker','Trey Parker',2.62,false,['Burgess Meredith'],['Diedrich Bader'],'The kids desperately want an end to the boring baseball season. The problem is, they keep winning.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE905.jpeg',8.6
     ],
-    [false,131,9,6,'The Death of Eric Cartman'//,
-        //22,"2005-04-13",false,906,false,'TV-MA','Trey Parker','Trey Parker',2.61,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE906.jpeg',9.2
+    [false,131,9,6,'The Death of Eric Cartman',
+        22,"2005-04-13",false,906,false,'TV-MA','Trey Parker','Trey Parker',2.61,false,['Sally Struthers'],false,'Cartman is sure he\'s dead and Butters is sure that Eric Cartman\'s ghost is haunting him. Together they attempt to make amends to all the people Cartman has wronged over the years.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE906.jpeg',9.2
     ],
-    [false,132,9,7,'Erection Day'//,
-        //22,"2005-04-20",false,907,false,'TV-MA','Trey Parker','Trey Parker',2.91,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE907.jpeg',7.6
+    [false,132,9,7,'Erection Day',
+        22,"2005-04-20",false,907,false,'TV-MA','Trey Parker','Trey Parker',2.91,false,false,false,'The South Park Elementary Talent Show is coming up and Jimmy can\'t wait to perform his comedy routine, but first he must find a way to gain control of his raging hormones.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE907.jpeg',7.6
     ],
-    [false,133,9,8,'Two Days Before the Day After Tomorrow'//,
-        //22,"2005-10-19",false,908,false,'TV-MA','Trey Parker','Trey Parker',2.49,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE908.jpeg',8.4
+    [false,133,9,8,'Two Days Before the Day After Tomorrow',
+        22,"2005-10-19",false,908,false,'TV-MA','Trey Parker','Trey Parker',2.49,false,false,false,'A Global Warming State of Emergency is declared in South Park as the world\'s largest beaver dam breaks and floods the adjacent town of Beaverton.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE908.jpeg',8.4
     ],
-    [false,134,9,9,'Marjorine'//,
-        //22,"2005-10-26",false,909,false,'TV-MA','Trey Parker','Trey Parker',2.25,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE909.jpeg',8.8
+    [false,134,9,9,'Marjorine',
+        22,"2005-10-26",false,909,false,'TV-MA','Trey Parker','Trey Parker',2.25,false,false,false,'Butters must fake his death, dress up as a girl and infiltrate a slumber party, in order to retrieve a future telling device Cartman is convinced the girls have.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE909.jpeg',8.8
     ],
     [false,135,9,10,'Follow That Egg!',
         22,"2005-11-02",false,910,false,'TV-MA','Trey Parker','Trey Parker',2.87,false,false,false,'Mrs. Garrison realizes he still has feelings for Mr. Slave. But Mr. Slave has moved on. He plans to marry his new love as soon as the Governor signs the same-sex marriage bill. In an effort to thwart Slave\'s plans, Mrs. Garrison leads the charge against gay marriage.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE910.jpeg',8
     ],
-    [false,136,9,11,'Ginger Kids'//,
-        //22,"2005-11-09",false,911,false,'TV-MA','Trey Parker','Trey Parker',2.59,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE911.jpeg',8.8
+    [false,136,9,11,'Ginger Kids',
+        22,"2005-11-09",false,911,false,'TV-MA','Trey Parker','Trey Parker',2.59,false,false,false,'After the sudden on-set of the disease Gingervitis, Cartman rallies all other ginger kids to rise up and assume their role as the master race.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE911.jpeg',8.8
     ],
-    [false,137,9,12,'Trapped in the Closet'//,
-        //22,"2005-11-16",false,912,false,'TV-MA','Trey Parker','Trey Parker',2.41,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE912.jpeg',9.1
+    [false,137,9,12,'Trapped in the Closet',
+        22,"2005-11-16",false,912,false,'TV-MA','Trey Parker','Trey Parker',2.41,false,['Tom Cruise','John Travolta','Nicole Kidman','R. Kelly'],false,'Scientologists converge on Stan\'s house after he is identified as the reincarnation of L. Ron Hubbard. One A-lister locks himself in the closet and refuses to come out after Stan criticizes his talent.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE912.jpeg',9.1
     ],
-    [false,138,9,13,'Free Willzyx'//,
-        //22,"2005-11-30",false,913,false,'TV-MA','Trey Parker','Trey Parker',2.48,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE913.jpeg',8.1
+    [false,138,9,13,'Free Willzyx',
+        22,"2005-11-30",false,913,false,'TV-MA','Trey Parker','Trey Parker',2.48,false,false,false,'The boys try to rescue their new friend Willzyx, a talking space whale, from the Denver Sea Park and with the help of MASA (Mexican Aeronautica y Spacia Administracion) get him home to the moon for $200.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE913.jpeg',8.1
     ],
-    [false,139,9,14,'Bloody Mary'//,
-        //22,"2005-12-07",false,914,false,'TV-MA','Trey Parker','Trey Parker',2.58,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE914.jpeg',7.9
+    [false,139,9,14,'Bloody Mary',
+        22,"2005-12-07",false,914,false,'TV-MA','Trey Parker','Trey Parker',2.58,false,false,false,'Stan is embarrassed when his dad gets pulled over for drunk driving. Randy believes that only one thing can save him from his "disease," a bleeding statue of the Virgin Mary in the next town.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE914.jpeg',7.9
     ],
-    [false,140,10,1,'The Return of Chef'//,
-        //22,"2006-03-22",false,1001,false,'TV-MA','Trey Parker','Trey Parker',3.49,false,Celebrities,['Peter Serafinowicz'],'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1001.jpeg',8
+    [false,140,10,1,'The Return of Chef',
+        22,"2006-03-22",false,1001,false,'TV-MA','Trey Parker','Trey Parker',3.49,false,false,['Peter Serafinowicz'],'Chef returns to South Park after spending time away with a group called "The Super Adventure Club", but when his strange behavior starts getting him in trouble, the boys risk everything to save him.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1001.jpeg',8
     ],
-    [false,141,10,2,'Smug Alert!'//,
-        //22,"2006-03-29",false,1002,false,'TV-MA','Trey Parker','Trey Parker',3.38,false,Celebrities,['George Clooney'],'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1002.jpeg',8.1
+    [false,141,10,2,'Smug Alert!',
+        22,"2006-03-29",false,1002,false,'TV-MA','Trey Parker','Trey Parker',3.38,false,['George Clooney'],['George Clooney'],'Kyle and his family are moving to San Francisco. The only way Stan can get his best friend back is to convince everyone to start driving hybrid cars.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1002.jpeg',8.1
     ],
-    [false,142,10,3,'Cartoon Wars Part I'//,
-        //22,"2006-04-05",false,1003,false,'TV-MA','Trey Parker','Trey Parker',3.02,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1003.jpeg',8.7
+    [false,142,10,3,'Cartoon Wars Part I',
+        22,"2006-04-05",false,1003,false,'TV-MA','Trey Parker','Trey Parker',3.02,false,['Ayman al-Zawahiri','George W Bush','Family Guy'],false,'Cartman and Kyle are at war over the popular cartoon, "Family Guy". When the creators of the show announce that they will show the image of a religious symbol, the network threatens to ban the episode. Cartman sees this as his chance to get "Family Guy" off the air for good. The two boys embark upon a mad chase across the country and the fate of "Family Guy" lies with whichever boy reaches Hollywood first.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1003.jpeg',8.7
     ],
-    [false,143,10,4,'Cartoon Wars Part II'//,
-        //22,"2006-04-12",false,1004,false,'TV-MA','Trey Parker','Trey Parker',3.49,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1004.jpeg',8.8
+    [false,143,10,4,'Cartoon Wars Part II',
+        22,"2006-04-12",false,1004,false,'TV-MA','Trey Parker','Trey Parker',3.49,false,['Muhammand','Ayman al-Zawahiri','George W Bush','Condoleezza Rice','Bart Simpson','Bart Simpson'],false,'After leaving Kyle injured on the side of the road, Cartman races to the headquarters of "Family Guy" determined to put an end to the show once and for all.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1004.jpeg',8.8
     ],
-    [false,144,10,5,'A Million Little Fibers'//,
-        //22,"2006-04-19",false,1005,false,'TV-MA','Trey Parker','Trey Parker',2.68,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1005.jpeg',6.1
+    [false,144,10,5,'A Million Little Fibers',
+        22,"2006-04-19",false,1005,false,'TV-MA','Trey Parker','Trey Parker',2.68,false,['Oprah Winfrey','Geraldo Rivera','Larry King'],false,'Towelie gets over his drug addiction and writes his memoirs. With Oprah\'s support, his book becomes a best seller and his story inspires millions to turn their lives around.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1005.jpeg',6.1
     ],
-    [false,145,10,6,'ManBearPig'//,
-        //22,"2006-04-26",false,1006,false,'TV-MA','Trey Parker','Trey Parker',2.72,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1006.jpeg',7.9
+    [false,145,10,6,'ManBearPig',
+        22,"2006-04-26",false,1006,false,'TV-MA','Trey Parker','Trey Parker',2.72,false,['Al Gore'],false,'Al Gore warns the school about the threat of ManBearPig.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1006.jpeg',7.9
     ],
-    [false,146,10,7,'Tsst'//,
-        //22,"2006-05-03",false,1007,false,'TV-MA','Trey Parker','Trey Parker',2.88,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1007.jpeg',9.1
+    [false,146,10,7,'Tsst',
+        22,"2006-05-03",false,1007,false,'TV-MA','Trey Parker','Trey Parker',2.88,false,['Cesar Millan','Jo Frost','Stella Reid','Deborah Carroll','Yvonne Finnerty'],false,'When Cartman\'s mom realizes she can\'t control her son anymore, she gets help from an expert. The "Dog Whisperer" may have what it takes but Eric Cartman\'s not going down without a fight.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1007.jpeg',9.1
     ],
-    [false,147,10,8,'Make Love, Not Warcraft'//,
-        //22,"2006-10-04",false,1008,false,'TV-MA','Trey Parker','Trey Parker',3.40,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1008.jpeg',9.5
+    [false,147,10,8,'Make Love, Not Warcraft',
+        22,"2006-10-04",false,1008,false,'TV-MA','Trey Parker','Trey Parker',3.40,false,false,false,'The boys dedicate their lives to defeating a mad gamer and saving the World of Warcraft.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1008.jpeg',9.5
     ],
-    [false,148,10,9,'Mystery of the Urinal Deuce'//,
-        //22,"2006-10-11",false,1009,false,'TV-MA','Trey Parker','Trey Parker',2.95,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1009.jpeg',8.2
+    [false,148,10,9,'Mystery of the Urinal Deuce',
+        22,"2006-10-11",false,1009,false,'TV-MA','Trey Parker','Trey Parker',2.95,false,['Hardly Boys','George W. Bush','Dick Cheney','Donald Rumsfeld','Condoleezza Rice'],false,'The world\'s biggest conspiracy of all time is finally uncovered when Eric Cartman exposes the true culprit behind the September 11th attacks.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1009.jpeg',8.2
     ],
-    [false,149,10,10,'Miss Teacher Bangs a Boy'//,
-        //22,"2006-10-18",false,1010,false,'TV-MA','Trey Parker','Trey Parker',2.50,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1010.jpeg',8.5
+    [false,149,10,10,'Miss Teacher Bangs a Boy',
+        22,"2006-10-18",false,1010,false,'TV-MA','Trey Parker','Trey Parker',2.50,false,['Beth Chapman'],false,'In his new role as School Hallway Monitor at South Park Elementary, Cartman must team up with Kyle when they discover a teacher having sex with a student.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1010.jpeg',8.5
     ],
-    [false,150,10,11,'Hell on Earth 2006'//,
-        //22,"2006-10-25",false,1011,false,'TV-MA','Trey Parker','Trey Parker',2.96,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1011.jpeg',8
+    [false,150,10,11,'Hell on Earth 2006',
+        22,"2006-10-25",false,1011,false,'TV-MA','Trey Parker','Trey Parker',2.96,false,['Biggie Smalls','Cardinal Roger Mahony','Adolf Hitler','Steve Irwin','Princess Diana','Frank Sinatra','George Burns','Jeffrey Dahmer','John Wayne Gacy','Mahatma Gandhi','Ted Bundy'],false,'Satan is throwing the biggest Halloween costume party ever. Just like a girl getting ready for her sweet sixteen, every detail must be perfect for the prince of darkness. The antics of the most notorious serial killers of all time threaten his fun.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1011.jpeg',8
     ],
-    [false,151,10,12,'Go God Go'//,
-        //22,"2006-11-01",false,1012,false,'TV-MA','Trey Parker','Trey Parker',3.25,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1012.jpeg',8.5
+    [false,151,10,12,'Go God Go',
+        22,"2006-11-01",false,1012,false,'TV-MA','Trey Parker','Trey Parker',3.25,false,['Richard Dawkins'],false,'South Park Elementary faces strong opposition to the topic of evolution. Cartman\'s too busy to notice as he plans to propel himself into the future on the precise release date of the newest, hottest game console.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1012.jpeg',8.5
     ],
-    [false,152,10,13,'Go God Go XII'//,
-        //22,"2006-11-08",false,1013,false,'TV-MA','Trey Parker','Trey Parker',3.53,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1013.jpeg',8.6
+    [false,152,10,13,'Go God Go XII',
+        22,"2006-11-08",false,1013,false,'TV-MA','Trey Parker','Trey Parker',3.53,false,['Richard Dawkins'],false,'Eric Cartman has frozen himself in an attempt to make his three-week wait for a Nintendo Wii pass quickly. A freak accident landed him over 500 years in the future and now, he\'s stuck in a Godless world on the brink of war with no Nintendo Wii.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1013.jpeg',8.6
     ],
-    [false,153,10,14,'Stanley\'s Cup'//,
-        //22,"2006-11-15",false,1014,false,'TV-MA','Trey Parker','Trey Parker',2.94,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1014.jpeg',7.4
+    [false,153,10,14,'Stanley\'s Cup',
+        22,"2006-11-15",false,1014,false,'TV-MA','Trey Parker','Trey Parker',2.94,false,false,false,'Stan Marsh has hit rock bottom. He\'s got no job, no bicycle and his only way out of a bad situation is to coach the local pee wee hockey team.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1014.jpeg',7.4
     ],
-    [false,154,11,1,'With Apologies to Jesse Jackson'//,
-        //22,"2007-03-07",false,1101,false,'TV-MA','Trey Parker','Trey Parker',2.77,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1101.jpeg',8.9
+    [false,154,11,1,'With Apologies to Jesse Jackson',
+        22,"2007-03-07",false,1101,false,'TV-MA','Trey Parker','Trey Parker',2.77,false,['Jesse Jackson','Michael Richards','Pat Sajak','Jada Pinkett Smith','Vanna White'],false,'After Randy Marsh experiences an unfortunate incident on national TV, the bomb hits South Park. While Randy seeks forgiveness from Jesse Jackson, South Park Elementary invites a midget by the name of Dr. Nelson to talk about sensitivity.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1101.jpeg',8.9
     ],
-    [false,155,11,2,'Cartman Sucks'//,
-        //22,"2007-03-14",false,1102,false,'TV-MA','Trey Parker','Trey Parker',2.75,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1102.jpeg',8.9
+    [false,155,11,2,'Cartman Sucks',
+        22,"2007-03-14",false,1102,false,'TV-MA','Trey Parker','Trey Parker',2.75,false,false,false,'When his "ultimate plan" to embarrass Butters backfires, Cartman struggles to keep his classmates from seeing a compromising photograph. Meanwhile, Butters is sent to a special camp where they \"Pray the Gay Away\".','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1102.jpeg',8.9
     ],
-    [false,156,11,3,'Lice Capades'//,
-        //22,"2007-03-21",false,1103,false,'TV-MA','Trey Parker','Trey Parker',3.06,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1103.jpeg',8
+    [false,156,11,3,'Lice Capades',
+        22,"2007-03-21",false,1103,false,'TV-MA','Trey Parker','Trey Parker',3.06,false,['Angelina Jolie'],false,'SynopAn infestation of head lice plagues South Park Elementary. When Mr. Garrison refuses to name names, Cartman finds a way to detect who has lice in the hopes of making fun of his unfortunate classmate.sis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1103.jpeg',8
     ],
-    [false,157,11,4,'The Snuke'//,
-        //22,"2007-03-28",false,1104,false,'TV-MA','Trey Parker','Trey Parker',3.17,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1104.jpeg',8.1
+    [false,157,11,4,'The Snuke',
+        22,"2007-03-28",false,1104,false,'TV-MA','Trey Parker','Trey Parker',3.17,false,['Hillary Clinton','George W. Bush','Queen Elizabeth II'],false,'While Cartman follows a lead on a possible terrorist attack, Hillary Clinton makes a campaign stop in South Park for a big rally.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1104.jpeg',8.1
     ],
-    [true,158,11,5,'Fantastic Easter Special'//,
-        //22,"2007-04-04",false,1105,false,'TV-MA','Trey Parker','Trey Parker',2.95,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1105.jpeg',8.1
+    [true,158,11,5,'Fantastic Easter Special',
+        22,"2007-04-04",false,1105,false,'TV-MA','Trey Parker','Trey Parker',2.95,false,['Pope Benedict XVI','Bill Donohue'],false,'Determined to get the real story behind why he has to decorate eggs for Easter, Stan falls in with an eccentric society that guards a legendary secret.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1105.jpeg',8.1
     ],
-    [false,159,11,6,'D-Yikes!'//,
-        //22,"2007-04-11",false,1106,false,'TV-MA','Trey Parker','Trey Parker',2.82,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1106.jpeg',7.6
+    [false,159,11,6,'D-Yikes!',
+        22,"2007-04-11",false,1106,false,'TV-MA','Trey Parker','Trey Parker',2.82,false,false,false,'Mrs. Garrison gets dumped again and takes her frustration out on the fourth grade class. However, things start looking up for her when she meets a new friend at the gym and they go out for drink at a local \"girl bar\".','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1106.jpeg',7.6
     ],
-    [false,160,11,7,'Night of the Living Homeless'//,
-        //22,"2007-04-18",false,1107,false,'TV-MA','Trey Parker','Trey Parker',3.11,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1107.jpeg',8.7
+    [false,160,11,7,'Night of the Living Homeless',
+        22,"2007-04-18",false,1107,false,'TV-MA','Trey Parker','Trey Parker',3.11,false,false,false,'As an increasing number of homeless people are begging for change all over South Park, the boys work to solve the homeless problem once and for all.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1107.jpeg',8.7
     ],
-    [false,161,11,8,'Le Petit Tourette'//,
-        //22,"2007-10-03",false,1108,false,'TV-MA','Trey Parker','Trey Parker',3.323,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1108.jpeg',9
+    [false,161,11,8,'Le Petit Tourette',
+        22,"2007-10-03",false,1108,false,'TV-MA','Trey Parker','Trey Parker',3.323,false,['Chris Hansen'],false,'Cartman discovers the joys of having Tourette\'s syndrome. Drunk with the power of saying whatever he wants without getting in trouble for it, he lines up national TV coverage to take advantage of his new life with no filters.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1108.jpeg',9
     ],
-    [false,162,11,9,'More Crap'//,
-        //22,"2007-10-10",false,1109,false,'TV-MA','Trey Parker','Trey Parker',2.98,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1109.jpeg',8.1
+    [false,162,11,9,'More Crap',
+        22,"2007-10-10",false,1109,false,'TV-MA','Trey Parker','Trey Parker',2.98,false,'Bono',false,'Stan\'s dad becomes South Park\'s home-town hero when the guys down at the local bar see the size of his most recent crap.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1109.jpeg',8.1
     ],
-    [false,163,11,10,'Imaginationland Episode I'//,
-        //22,"2007-10-17",false,1110,false,'TV-MA','Trey Parker','Trey Parker',3.43,false,Celebrities,['Jonathan Kimmel'],'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1110.jpeg',9
+    [false,163,11,10,'Imaginationland Episode I',
+        22,"2007-10-17",false,1110,false,'TV-MA','Trey Parker','Trey Parker',3.43,false,['Al-Qaeda','M. Night Shyamalan','Mel Gibson','Michael Bay'],['Jonathan Kimmel'],'When the entire contents of the world\'s imagination lay open before them, Stan and Kyle step right in. Back in South Park, Cartman swears he\'s seen a Leprechaun..','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1110.jpeg',9
     ],
-    [false,164,11,11,'Imaginationland Episode II'//,
-        //22,"2007-10-24",false,1111,false,'TV-MA','Trey Parker','Trey Parker',3.60,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1111.jpeg',9
+    [false,164,11,11,'Imaginationland Episode II',
+        22,"2007-10-24",false,1111,false,'TV-MA','Trey Parker','Trey Parker',3.60,false,['Kurt Russell','Ricardo Montalban'],false,'Stan and Kyle are being held in the bowels of the Pentagon until they tell the government how they got into Imaginationland. Meanwhile, Cartman simply won\'t rest until he finds Kyle and gets him to make good on their bet to suck his balls.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1111.jpeg',9
     ],
-    [false,165,11,12,'Imaginationland Episode III'//,
-        //22,"2007-10-31",false,1112,false,'TV-MA','Trey Parker','Trey Parker',3.87,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1112.jpeg',9
+    [false,165,11,12,'Imaginationland Episode III',
+        22,"2007-10-31",false,1112,false,'TV-MA','Trey Parker','Trey Parker',3.87,false,['Al Gore','John Roberts','Clarence Thomas','Samuel Alito'],false,'Inside Imaginationland, Stan and Butters engage in the battle of their lives as they fight the army of evil imaginary forces. Meanwhile, Cartman goes all the way to the Supreme Court to get Kyle to pay up on their bet.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1112.jpeg',9
     ],
-    [false,166,11,13,'Guitar Queer-O'//,
-        //22,"2007-11-07",false,1113,false,'TV-MA','Trey Parker','Trey Parker',3.97,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1113.jpeg',8.4
+    [false,166,11,13,'Guitar Queer-O',
+        22,"2007-11-07",false,1113,false,'TV-MA','Trey Parker','Trey Parker',3.97,false,['Ron Zappolo'],false,'Stan Marsh and Kyle Broflovski are hooked on Guitar Hero. Unfortunately, Stan\'s superior skills on the video game damage his friendship with Kyle.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1113.jpeg',8.4
     ],
-    [false,167,11,14,'The List'//,
-        //22,"2007-11-14",false,1114,false,'TV-MA','Trey Parker','Trey Parker',3.77,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1114.jpeg',8.5
+    [false,167,11,14,'The List',
+        22,"2007-11-14",false,1114,false,'TV-MA','Trey Parker','Trey Parker',3.77,false,['Abraham Lincoln'],false,'The girls in the fourth grade class have made a secret list that rates every boy\'s looks from cutest to ugliest. When the boys steal the list, they are completely unprepared to deal with the results.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1114.jpeg',8.5
     ],
-    [true,168,12,1,'Tonsil Trouble'//,
-        //22,"2008-03-12",false,1201,false,'TV-MA','Trey Parker','Trey Parker',3.07,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1201.jpeg',8
+    [true,168,12,1,'Tonsil Trouble',
+        22,"2008-03-12",false,1201,false,'TV-MA','Trey Parker','Trey Parker',3.07,false,['Jimmy Buffet','Magic Johnson'],false,'Cartman finds himself fighting for his life after a routine tonsillectomy goes wrong. When Kyle becomes infected with Cartman\'s ailment, the two won\'t stop for anything as they search for a cure that will reverse their otherwise certain mortality.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1201.jpeg',8
     ],
-    [false,169,12,2,'Britney\'s New Look'//,
-        //22,"2008-"03-19,false,1202,false,'TV-MA','Trey Parker','Trey Parker',2.97,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1202.jpeg',7.1
+    [false,169,12,2,'Britney\'s New Look',
+        22,"2008-03-19",false,1202,false,'TV-MA','Trey Parker','Trey Parker',2.97,false,['Britney Spears','Barack Obama','Condoleezza Rice','Hillary Clinton','Dick Cheney','Jeff Goldblum','Pat Sajak','Vanna White','Will Smith'],false,'When the boys help Britney Spears get to the North Pole, they discover the shocking secret behind her popularity.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1202.jpeg',7.1
     ],
-    [false,170,12,3,'Major Boobage'//,
-        //22,"2008-03-26",false,1203,false,'TV-MA','Trey Parker','Trey Parker',3.60,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1203.jpeg',8.7
+    [false,170,12,3,'Major Boobage',
+        22,"2008-03-26",false,1203,false,'TV-MA','Trey Parker','Trey Parker',3.60,false,false,false,'In a South Park homage to the 1981 film, "Heavy Metal", the boys are trying to get Kenny off the latest drug craze that\'s captured the junior high and under set.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1203.jpeg',8.7
     ],
-    [false,171,12,4,'Canada on Strike'//,
-        //22,"2008-04-02",false,1204,false,'TV-MA','Trey Parker','Trey Parker',2.80,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1204.jpeg',7.7
+    [false,171,12,4,'Canada on Strike',
+        22,"2008-04-02",false,1204,false,'TV-MA','Trey Parker','Trey Parker',2.80,false,['Barack Obama','Hillary Clinton','Nicolas Sarkozy','Oprah Winfrey','Chris Crocker (Leave Britney Alone)','Gary Brolsma (Numa Numa Guy)','Tay Zonday (Chocolate Rain)','Ghyslain Raza (Star Wars Kid)','Jay Maynard (Tron Guy)','Mark Hicks (Afro Ninja)','Taro Aso','Gordon Brown'],false,'The head of the World Canadian Bureau leads the country into a long and painful strike and the responsibility of brokering a settlement rests with the boys.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1204.jpeg',7.7
     ],
-    [true,172,12,5,'Eek, a Penis!'//,
-        //22,"2008-04-09",false,1205,false,'TV-MA','Trey Parker','Trey Parker',3.50,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1205.jpeg',7.6
+    [true,172,12,5,'Eek, a Penis!',
+        22,"2008-04-09",false,1205,false,'TV-MA','Trey Parker','Trey Parker',3.50,false,false,false,'While Ms. Garrison is off trying to find a way to become the man he always intended to be, Cartman is put in charge of the classroom.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1205.jpeg',7.6
     ],
-    [false,173,12,6,'Over Logging'//,
-        //22,"2008-04-16",false,1206,false,'TV-MA','Trey Parker','Trey Parker',3.13,false,Celebrities,['Amir Hisham Ouazzani'],'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1206.jpeg',8.5
+    [false,173,12,6,'Over Logging',
+        22,"2008-04-16",false,1206,false,'TV-MA','Trey Parker','Trey Parker',3.13,false,false,['Amir Hisham Ouazzani'],'The citizens of South Park wake up and find the internet is gone. When Randy hears there may still be some internet out in California, he packs up his family and heads west.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1206.jpeg',8.5
     ],
-    [false,174,12,7,'Super Fun Time'//,
-        //22,"2008-04-23",false,1207,false,'TV-MA','Trey Parker','Trey Parker',3.08,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1207.jpeg',8.4
+    [false,174,12,7,'Super Fun Time',
+        22,"2008-04-23",false,1207,false,'TV-MA','Trey Parker','Trey Parker',3.08,false,false,false,'While the kids are on an educational field trip to a living museum, Cartman makes Butters sneak away from the class to go to the amusement center located next door.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1207.jpeg',8.4
     ],
-    [false,175,12,8,'The China Probrem'//,
-        //22,"2008-10-08",false,1208,false,'TV-MA','Trey Parker','Trey Parker',3.73,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1208.jpeg',7.7
+    [false,175,12,8,'The China Probrem',
+        22,"2008-10-08",false,1208,false,'TV-MA','Trey Parker','Trey Parker',3.73,false,['Steven Spielberg','George Lucas'],false,'With the rest of the American people haunted by the memory of a recent tragic event, only Butters will stand with Cartman as he confronts the Chinese.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1208.jpeg',7.7
     ],
-    [false,176,12,9,'Breast Cancer Show Ever'//,
-        //22,"2008-10-15",false,1209,false,'TV-MA','Trey Parker','Trey Parker',2.85,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1209.jpeg',8.8
+    [false,176,12,9,'Breast Cancer Show Ever',
+        22,"2008-10-15",false,1209,false,'TV-MA','Trey Parker','Trey Parker',2.85,false,false,false,'Wendy gets in trouble when she threatens to beat up Cartman after school.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1209.jpeg',8.8
     ],
-    [false,177,12,10,'Pandemic'//,
-        //22,"2008-10-22",false,1210,false,'TV-MA','Trey Parker','Trey Parker',2.78,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1210.jpeg',8
+    [false,177,12,10,'Pandemic',
+        22,"2008-10-22",false,1210,false,'TV-MA','Trey Parker','Trey Parker',2.78,false,['Michael Chertoff'],false,'While the world struggles to contain an epidemic of epic proportions, the boys find a way to make money off of it.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1210.jpeg',8
     ],
-    [false,178,12,11,'Pandemic 2: The Startling'//,
-        //22,"2008-10-29",false,1211,false,'TV-MA','Trey Parker','Trey Parker',3.08,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1211.jpeg',7.8
+    [false,178,12,11,'Pandemic 2: The Startling',
+        22,"2008-10-29",false,1211,false,'TV-MA','Trey Parker','Trey Parker',3.08,false,['Michael Chertoff'],false,'Giant guinea pigs are attacking cities all over the world. The boys have the key that will save everyone from the onslaught but they\'re stranded in the Andes Mountains.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1211.jpeg',7.8
     ],
-    [false,179,12,12,'About Last Night...'//,
-        //22,"2008-11-05",false,1212,false,'TV-MA','Trey Parker','Trey Parker',3.60,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1212.jpeg',7.6
+    [false,179,12,12,'About Last Night...',
+        22,"2008-11-05",false,1212,false,'TV-MA','Trey Parker','Trey Parker',3.60,false,['Barack Obama','Michelle Obama','John McCain','Cindy McCain','Sarah Palin','Todd Palin'],false,'While the country celebrates, the President-elect catches everyone off guard when he arrives at the White House prematurely. From the Oval Office, the new Commander-In-Chief assembles his team and prepares for the job ahead.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1212.jpeg',7.6
     ],
-    [false,180,12,13,'Elementary School Musical'//,
-        //22,"2008-11-12",false,1213,false,'TV-MA','Trey Parker','Trey Parker',2.96,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1213.jpeg',7.6
+    [false,180,12,13,'Elementary School Musical',
+        22,"2008-11-12",false,1213,false,'TV-MA','Trey Parker','Trey Parker',2.96,false,false,false,'The boys must embrace the latest fad to hit South Park Elementary or risk their status as the coolest kids in school.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1213.jpeg',7.6
     ],
-    [false,181,12,14,'The Ungroundable'//,
-        //22,"2008-11-19",false,1214,false,'TV-MA','Trey Parker','Trey Parker',3.29,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1214.jpeg',7.7
+    [false,181,12,14,'The Ungroundable',
+        22,"2008-11-19",false,1214,false,'TV-MA','Trey Parker','Trey Parker',3.29,false,false,false,'Butters is sure he\'s seen a Vampire at school but he can\'t get anyone to listen to him. Tired of being teased at school and punished by his parents, Butters joins the Vampire group and becomes "ungroundable." Meanwhile, the Goth Kids are angry and frustrated when the other kids can\'t tell the difference between a Goth and a Vampire.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1214.jpeg',7.7
     ],
-    [false,182,13,1,'The Ring'//,
-        //22,"2009-03-11",false,1301,false,'TV-MA','Trey Parker','Trey Parker',3.41,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1301.jpeg',8.1
+    [false,182,13,1,'The Ring',
+        22,"2009-03-11",false,1301,false,'TV-MA','Trey Parker','Trey Parker',3.41,false,['Jonas Brothers'],false,'Kenny takes his new girlfriend Tammy to a Jonas Brothers\' concert where they each get purity rings. Little do they realize, it\'s all part of a certain mouse\'s elaborate plan to sell sex to little girls, and make money.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1301.jpeg',8.1
     ],
-    [false,183,13,2,'The Coon'//,
-        //22,"2009-03-18",false,1302,false,'TV-MA','Trey Parker','Trey Parker',3.27,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1302.jpeg',8.4
+    [false,183,13,2,'The Coon',
+        22,"2009-03-18",false,1302,false,'TV-MA','Trey Parker','Trey Parker',3.27,false,false,false,'The Coon rises from the trash and takes his place as a lone vigilante who wipes out crime in the town of South Park','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1302.jpeg',8.4
     ],
-    [false,184,13,3,'Margaritaville'//,
-        //22,"2009-03-25",false,1303,false,'TV-MA','Trey Parker','Trey Parker',2.77,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1303.jpeg',8.5
+    [false,184,13,3,'Margaritaville',
+        22,"2009-03-25",false,1303,false,'TV-MA','Trey Parker','Trey Parker',2.77,false,['Barack Obama'],false,'Randy steps forward with a solution to fix the desperate state of the economy.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1303.jpeg',8.5
     ],
-    [false,185,13,4,'Eat, Pray, Queef'//,
-        //22,"2009-"04-01,false,1304,false,'TV-MA','Trey Parker','Trey Parker',3.01,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1304.jpeg',6.5
+    [false,185,13,4,'Eat, Pray, Queef',
+        22,"2009-04-01",false,1304,false,'TV-MA','Trey Parker','Trey Parker',3.01,false,['Martha Stewart','Kelly Ripa','Regis Philbin','Jimmy Buffet','Ron Zappolo'],false,'Someone plays an April Fool\'s joke on the boys and it doesn\'t go over well.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1304.jpeg',6.5
     ],
-    [false,186,13,5,'Fishsticks'//,
-        //22,"2009-04-08",false,1305,false,'TV-MA','Trey Parker','Trey Parker',3.11,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1305.jpeg',8.8
+    [false,186,13,5,'Fishsticks',
+        22,"2009-04-08",false,1305,false,'TV-MA','Trey Parker','Trey Parker',3.11,false,['Kanye West','Carlos Mencia','Conan O\'Brien','David Letterman','Ellen DeGeneres','Jay Leno','Jimmy Kimmel','Paul Shaffer'],false,'Cartman and Jimmy come up with the funniest joke of all time.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1305.jpeg',8.8
     ],
-    [true,187,13,6,'Pinewood Derby'//,
-        //22,"2009-04-15",false,1306,false,'TV-MA','Trey Parker','Trey Parker',2.78,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1306.jpeg',7.8
+    [true,187,13,6,'Pinewood Derby',
+        22,"2009-04-15",false,1306,false,'TV-MA','Trey Parker','Trey Parker',2.78,false,['Angela Merkel','Gordon Brown','Han Seung-soo','Hu Jintao','John Howard','Luiz Inácio Lula da Silva','Matti Vanhanen','Nicolas Sarkozy','Raila Odinga','Silvio Berlusconi','Taro Aso','Vladimir Putin','Princess Leia Organa'],false,'Randy has a plan that will assure Stan a first place trophy in this year\'s Pinewood Derby.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1306.jpeg',7.8
     ],
-    [true,188,13,7,'Fatbeard'//,
-        //22,"2009-04-22",false,1307,false,'TV-MA','Trey Parker','Trey Parker',2.59,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1307.jpeg',8.1
+    [true,188,13,7,'Fatbeard',
+        22,"2009-04-22",false,1307,false,'TV-MA','Trey Parker','Trey Parker',2.59,false,false,false,'Cartman\'s dream of living the life of a pirate will come true if he can just get to Somalia.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1307.jpeg',8.1
     ],
-    [false,189,13,8,'Dead Celebrities'//,
-        //22,"2009-10-07",false,1308,false,'TV-MA','Trey Parker','Trey Parker',2.67,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1308.jpeg',7.7
+    [false,189,13,8,'Dead Celebrities',
+        22,"2009-10-07",false,1308,false,'TV-MA','Trey Parker','Trey Parker',2.67,false,['Michael Jackson','Bea Arthur','Billy Mays','David Carradine','DJ AM','Farrah Fawcett','Ed McMahon','Walter Cronkite','Dom DeLuise','Les Paul','Arturo Gatti','Natasha Richardson','Marilyn Chambers','Oscar G. Mayer Jr.','Ted Kennedy','Steve McNair','Ron Silver','Ricardo Montalban'],false,'Ike is being tormented by paranormal forces. Kyle brings in professional ghost hunters to help save his little brother.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1308.jpeg',7.7
     ],
-    [false,190,13,9,'Butters\' Bottom Bitch'//,
-        //22,"2009-10-14",false,1309,false,'TV-MA','Trey Parker','Trey Parker',2.56,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1309.jpeg',8.9
+    [false,190,13,9,'Butters\' Bottom Bitch',
+        22,"2009-10-14",false,1309,false,'TV-MA','Trey Parker','Trey Parker',2.56,false,false,false,'Butters is determined to get his first kiss so his friends won\'t make fun of him anymore.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1309.jpeg',8.9
     ],
-    [true,191,13,10,'W.T.F.'//,
-        //22,"2009-10-21",false,1310,false,'TV-MA','Trey Parker','Trey Parker',2.58,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1310.jpeg',8.3
+    [true,191,13,10,'W.T.F.',
+        22,"2009-10-21",false,1310,false,'TV-MA','Trey Parker','Trey Parker',2.58,false,['Vince & Linda McMahon','Edge','John Cena'],false,'After attending their first WWE match, all the boys want to be professional wrestlers.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1310.jpeg',8.3
     ],
-    [false,192,13,11,'Whale Whores'//,
-        //22,"2009-10-28",false,1311,false,'TV-MA','Trey Parker','Trey Parker',2.57,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1311.jpeg',8.1
+    [false,192,13,11,'Whale Whores',
+        22,"2009-10-28",false,1311,false,'TV-MA','Trey Parker','Trey Parker',2.57,false,['Paul Watson','Larry King','Yukio Hatoyama','Emperor Akihito'],false,'Stan takes action to stop the Japanese from killing the world\'s whales and dolphins.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1311.jpeg',8.1
     ],
-    [true,193,13,12,'The F Word'//,
-        //22,"2009-11-04",false,1312,false,'TV-MA','Trey Parker','Trey Parker',2.82,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1312.jpeg',8.1
+    [true,193,13,12,'The F Word',
+        22,"2009-11-04",false,1312,false,'TV-MA','Trey Parker','Trey Parker',2.82,false,['Emmanuel Lewis'],false,'The boys fight back against the loud and obnoxious motorcycle riders that are disrupting everyone in South Park.[','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1312.jpeg',8.1
     ],
-    [true,194,13,13,'Dances with Smurfs'//,
-        //22,"2009-11-11",false,1313,false,'TV-MA','Trey Parker','Trey Parker',2.77,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1313.jpeg',8.1
+    [true,194,13,13,'Dances with Smurfs',
+        22,"2009-11-11",false,1313,false,'TV-MA','Trey Parker','Trey Parker',2.77,false,false,false,'Cartman is chosen to do the morning announcements at South Park Elementary.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1313.jpeg',8.1
     ],
-    [false,195,13,14,'Pee'//,
-        //22,"2009-11-18",false,1314,false,'TV-MA','Trey Parker','Trey Parker',2.87,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1314.jpeg',7.7
+    [false,195,13,14,'Pee',
+        22,"2009-11-18",false,1314,false,'TV-MA','Trey Parker','Trey Parker',2.87,false,false,false,'The boys The boys\' fun-filled day at the water park is about to turn deadly.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1314.jpeg',7.7
     ],
-    [false,196,14,1,'Sexual Healing'//,
-        //22,"2010-03-17",false,1401,false,'TV-MA','Trey Parker','Trey Parker',3.74,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1401.jpeg',7.5
+    [false,196,14,1,'Sexual Healing',
+        22,"2010-03-17",false,1401,false,'TV-MA','Trey Parker','Trey Parker',3.74,false,['Tiger Woods','Elin Nordegren','Bill Clinton','David Letterman','Barack Obama'],false,'The latest in scientific testing reveals that some of the boys at South Park Elementary have a sex addiction problem.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1401.jpeg',7.5
     ],
-    [false,197,14,2,'The Tale of Scrotie McBoogerballs'//,
-        //22,"2010-03-24",false,1402,false,'TV-MA','Trey Parker','Trey Parker',3.24,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1402.jpeg',8
+    [false,197,14,2,'The Tale of Scrotie McBoogerballs',
+        22,"2010-03-24",false,1402,false,'TV-MA','Trey Parker','Trey Parker',3.24,false,['Sarah Jessica Parker','The Kardashians','Matthew Broderick','Bruce Jenner','Kris Jenner','Morgan Freeman'],false,'The boys are given a controversial book to read in school and it inspires them to write one of their own.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1402.jpeg',8
     ],
-    [false,198,14,3,'Medicinal Fried Chicken'//,
-        //22,"2010-03-31",false,1403,false,'TV-MA','Trey Parker','Trey Parker',2.99,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1403.jpeg',8.7
+    [false,198,14,3,'Medicinal Fried Chicken',
+        22,"2010-03-31",false,1403,false,'TV-MA','Trey Parker','Trey Parker',2.99,false,['Colonel Sanders'],false,'Cartman\'s favorite restaurant has been shut down and replaced by a store that sells medicinal marijuana. Randy is desperate to get a prescription card to buy pot and Cartman will do anything to get his beloved fried chicken back.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1403.jpeg',8.7
     ],
-    [false,199,14,4,'You Have 0 Friends'//,
-        //22,"2010-04-07",false,1404,false,'TV-MA','Trey Parker','Trey Parker',3.07,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1404.jpeg',8.7
+    [false,199,14,4,'You Have 0 Friends',
+        22,"2010-04-07",false,1404,false,'TV-MA','Trey Parker','Trey Parker',3.07,false,false,false,'When Kyle begs Stan to "friend" him, Stan gets sucked into Facebook.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1404.jpeg',8.7
     ],
-    ['BLOCKED',200,14,5,'200'//,
-        //22,"2010-04-14",false,1405,false,'TV-MA','Trey Parker','Trey Parker',3.33,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1405.jpeg',8.8
+    ['BLOCKED',200,14,5,'200',
+        22,"2010-04-14",false,1405,false,'TV-MA','Trey Parker','Trey Parker',3.33,false,['Muhammad','Tom Cruise','Bono','Charlie Sheen','George Lucas','Hillary Clinton','Jesse Jackson','Jared Fogle','Jimmy Buffet','Kanye West','Martha Stewart','Michael Richards','Oprah Winfrey','Paris Hilton','Rob Reiner','Russell Crowe','Steven Spielberg','Sally Struther','Tiger Woods','Tim Burton','Johnnie Cochran','Fred Savage','Phil Collins','Steve Irwin','Eric Roberts','Barbra Streisand'],false,'The town of South Park faces a class action lawsuit as every celebrity they\'ve ever ridiculed is out for revenge.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1405.jpeg',8.8
     ],
-    ['BLOCKED',201,14,6,'201'//,
-        //22,"2010-04-21",false,1406,false,'TV-MA','Trey Parker','Trey Parker',3.50,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1406.jpeg',8.8
+    ['BLOCKED',201,14,6,'201',
+        22,"2010-04-21",false,1406,false,'TV-MA','Trey Parker','Trey Parker',3.50,false,['Barbra Streisand','Rob Reiner','Paris Hilton','Pope Benedict XVI','Russell Crowe','Tom Cruise','David Blaine','Kanye West','Oprah Winfrey','Rod Stewart'],false,'Angry celebrities, violent ginger kids and Mecha Streisand are about to destroy South Park and all anyone wants to know is, \"Who is Eric Cartman\'s father?\"','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1406.jpeg',8.8
     ],
-    [false,202,14,7,'Crippled Summer'//,
-        //22,"2010-04-28",false,1407,false,'TV-MA','Trey Parker','Trey Parker',3.55,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1407.jpeg',6.8
+    [false,202,14,7,'Crippled Summer',
+        22,"2010-04-28",false,1407,false,'TV-MA','Trey Parker','Trey Parker',3.55,false,false,false,'Jimmy and Timmy are off to summer camp with all their handicapable friends.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1407.jpeg',6.8
     ],
-    [false,203,14,8,'Poor and Stupid'//,
-        //22,"2010-10-06",false,1408,false,'TV-MA','Trey Parker','Trey Parker',3.14,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1408.jpeg',7.5
+    [false,203,14,8,'Poor and Stupid',
+        22,"2010-10-06",false,1408,false,'TV-MA','Trey Parker','Trey Parker',3.14,false,['Charlie Sheen','Dale Earnhardt Jr.','Angus T. Jones','Danica Patrick','Jeff Gordon','Jimmie Johnson','Jon Cryer','Matt Kenseth','Tony Stewart'],false,'Cartman dreams of being a NASCAR driver and he\'s willing to do whatever it takes to make it happen.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1408.jpeg',7.5
     ],
-    [false,204,14,9,'It\'s a Jersey Thing'//,
-        //21,"2010-10-13",false,1409,false,'TV-MA','Trey Parker','Trey Parker',3.25,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1409.jpeg',7.8
+    [false,204,14,9,'It\'s a Jersey Thing',
+        21,"2010-10-13",false,1409,false,'TV-MA','Trey Parker','Trey Parker',3.25,false,['Arnold Schwarzenegger','Mike Sorrentino (The Situation)','Pauly D','Nicole Polizzi (Snooki)','Jacqueline Laurita','Caroline Manzo','Joe and Teresa Giudice','Osama bin Laden'],false,'New Jersey is taking over the nation one state at a time. Randy and the boys take a stand as the Jerseyites approach South Park.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1409.jpeg',7.8
     ],
-    [false,205,14,10,'Insheeption'//,
-        //23,"2010-10-20",false,1410,false,'TV-MA','Trey Parker','Trey Parker',2.89,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1410.jpeg',8.1
+    [false,205,14,10,'Insheeption',
+        23,"2010-10-20",false,1410,false,'TV-MA','Trey Parker','Trey Parker',2.89,false,['Leonardo DiCaprio','Matt Hasselbeck'],false,'When Stan is sent to the school counselor because he\'s holding on to an obscene number of useless possessions, he realizes that Mr. Mackey has a hoarding disorder too.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1410.jpeg',8.1
     ],
-    [false,206,14,11,'Coon 2: Hindsight'//,
-        //23,"2010-10-27",false,1411,false,'TV-MA','Trey Parker','Trey Parker',2.76,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1411.jpeg',8.1
+    [false,206,14,11,'Coon 2: Hindsight',
+        23,"2010-10-27",false,1411,false,'TV-MA','Trey Parker','Trey Parker',2.76,false,false,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1411.jpeg',8.1
     ],
-    [false,207,14,12,'Mysterion Rises'//,
-        //21,"2010-11-03",false,1412,false,'TV-MA','Trey Parker','Trey Parker',2.85,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1412.jpeg',8.3
+    [false,207,14,12,'Mysterion Rises',
+        21,"2010-11-03",false,1412,false,'TV-MA','Trey Parker','Trey Parker',2.85,false,['Lebron James'],false,'Mysterion\'s true identity is revealed. Meanwhile, the C***, scorned by his fellow Super Heroes, is out for revenge.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1412.jpeg',8.3
     ],
-    [false,208,14,13,'Coon vs. Coon and Friends'//,
-        //21,"2010-11-10",false,1413,false,'TV-MA','Trey Parker','Trey Parker',2.79,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1413.jpeg',8.3
+    [false,208,14,13,'Coon vs. Coon and Friends',
+        21,"2010-11-10",false,1413,false,'TV-MA','Trey Parker','Trey Parker',2.79,false,['Justin Bieber'],false,'C*** and Friends find themselves at the mercy of Cartman who now has the dark lord, Cthulhu, doing his bidding. Kenny wrestles with the curse of his super power through his alter ego, Mysterion.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1413.jpeg',8.3
     ],
-    [false,209,14,14,'Cr\u00E8me Fra\u00EEche'//,
-        //23,"2010-11-17",false,1414,false,'TV-MA','Trey Parker','Trey Parker',2.49,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1414.jpeg',8.2
+    [false,209,14,14,'Cr\u00E8me Fra\u00EEche',
+        23,"2010-11-17",false,1414,false,'TV-MA','Trey Parker','Trey Parker',2.49,false,['Alton Brown','Bobby Flay','Jamie Oliver','Guy Fieri','Paula Deen'],false,'Randy\'s obsession with the Food Network forces Sharon to explore a new interest of her own.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1414.jpeg',8.2
     ],
     [false,210,15,1,'HumancentiPad'//,
         //21,"2011-04-27",false,1501,false,'TV-MA','Trey Parker','Trey Parker',3.11,false,Celebrities,false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1501.jpeg',7.7
@@ -1485,6 +1485,33 @@ function generateModalFrame() {
             modalTitleText = '#'+EPISODES[i][1]+' - ';
         }
         modalTitleText = modalTitleText + EPISODES[i][4].toUpperCase();
+
+        if (EPISODES[i][0]===true) {
+            let cartmanNode = document.createElement('img');
+            let cartmanNodeSRC = document.createAttribute('src');
+            cartmanNodeSRC.value = 'img/SP/CartmanDollarSigns.png';
+            let cartmanNodeHeight = document.createAttribute('height');
+            cartmanNodeHeight.value = '40px';
+            let cartmanNodeSpace = document.createAttribute('class');
+            cartmanNodeSpace.value = 'mr-1';
+            cartmanNode.setAttributeNode(cartmanNodeSRC);
+            cartmanNode.setAttributeNode(cartmanNodeHeight);
+            cartmanNode.setAttributeNode(cartmanNodeSpace);
+            div4Node.appendChild(cartmanNode);
+        }
+        else {
+            let checkboxNode = document.createElement('img');
+            let checkboxNodeSRC = document.createAttribute('src');
+            checkboxNodeSRC.value = 'img/SP/UncheckBox.png';
+            let checkboxNodeHeight = document.createAttribute('height');
+            checkboxNodeHeight.value = '35px';
+            let checkboxNodeSpace = document.createAttribute('class');
+            checkboxNodeSpace.value = 'mr-2';
+            checkboxNode.setAttributeNode(checkboxNodeSRC);
+            checkboxNode.setAttributeNode(checkboxNodeHeight);
+            checkboxNode.setAttributeNode(checkboxNodeSpace);
+            div4Node.appendChild(checkboxNode);
+        }
 
         let h3_1Node = document.createElement('h3');
         let h3_1Class = document.createAttribute('class');
