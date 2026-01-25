@@ -1013,34 +1013,34 @@ const EPISODES = [
         50,"2024-10-24",true,'P2609',false,'UNRATED','Trey Parker','Trey Parker',false,false,false,false,'The advent of new weight loss drugs has a huge impact on everyone in South Park. When Cartman is denied access to the life-changing medicine, the kids jump into action.','https://hosting.photobucket.com/images/i/lesaintdumech/SPEP2609.jpeg',7.1
     ],
     [true,329,27,1,'Sermon on the Mount',
-        22,"2025-07-23",false,2701,false,'TV-MA','Trey Parker','Trey Parker',0.43,false,['Donald Trump','JD Vance',''],false,'When the residents of South Park face their possible demise, Jesus returns to give them an important message','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2701.jpeg',9.3
+        22,"2025-07-23",false,2701,false,'TV-MA','Trey Parker','Trey Parker',0.43,false,['Donald Trump','JD Vance','Karoline Leavitt'],false,'When the residents of South Park face their possible demise, Jesus returns to give them an important message','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2701.jpeg',9.3
     ],
     [true,330,27,2,'Got a Nut',
         22,"2025-08-06",false,2702,false,'TV-MA','Trey Parker','Trey Parker',0.84,false,['Donald Trump','Kristi Noem','J.D. Vance'],false,'When Mr. Mackey loses his job, he desperately tries to find a new way to make a living.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2702.jpeg',8.4
     ],
     [true,331,27,3,'Sickofancy',
-        22,"2025-08-20",false,2703,false,'TV-MA','Trey Parker','Trey Parker',0.85,false,['Donald Trump','JD Vance'],false,'Sharon helps Randy come down from his Ketamine bender and the Marsh family sells Tegridy Farms.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2703.jpeg',7.4
+        22,"2025-08-20",false,2703,false,'TV-MA','Trey Parker','Trey Parker',0.85,false,['Donald Trump','JD Vance','Anna Paulina Luna','Tim Cook','Jeff Bezos','Jensen Huang','Mark Zuckerberg','Peter Thiel','Sundar Pichai'],false,'Sharon helps Randy come down from his Ketamine bender and the Marsh family sells Tegridy Farms.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2703.jpeg',7.4
     ],
     [true,332,27,4,'Wok is Dead',
-        22,"2025-09-03",false,2704,false,'TV-MA','Trey Parker','Trey Parker',0.67,false,['Donald Trump','JD Vance'],false,'Butters experiences the reality of tariffs when he has to buy a Labubu doll for his girlfriend\'s birthday.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2704.jpeg',7.6
+        22,"2025-09-03",false,2704,false,'TV-MA','Trey Parker','Trey Parker',0.67,false,['Donald Trump','JD Vance','Kid Rock','Sean Hannity','Wing Han Tsang'],false,'Butters experiences the reality of tariffs when he has to buy a Labubu doll for his girlfriend\'s birthday.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2704.jpeg',7.6
     ],
     [true,333,27,5,'Conflict of Interest',
         22,"2025-09-24",false,2705,false,'TV-MA','Trey Parker','Trey Parker',0.55,false,['Donald Trump','J.D. Vance','Brendan Carr','Donald Trump Jr.','Benjamin Netanyahu'],false,'Kyle and Cartman are at odds when a prediction markets app gets popular with their fellow students','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2705.jpeg',7.5
     ],
     [true,334,28,1,'Twisted Christian',
-        22,"2025-10-15",false,2801,false,'TV-MA','Trey Parker','Trey Parker',0.52,false,['Celebrities'],false,'Cartman is possessed and may be the key to stopping the Antichrist.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2801.jpeg',6.7
+        22,"2025-10-15",false,2801,false,'TV-MA','Trey Parker','Trey Parker',0.52,false,['Donald Trump','JD Vance','Peter Thiel'],false,'Cartman is possessed and may be the key to stopping the Antichrist.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2801.jpeg',6.7
     ],
     [true,335,28,2,'The Woman in the Hat',
-        22,"2025-10-31",false,2802,false,'TV-MA','Trey Parker','Trey Parker',0.31,false,['Celebrities'],false,'The White House deals with a disruptive spirit from the east wing. While Stan worries that South Park has become too political.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2802.jpeg',7.1
+        22,"2025-10-31",false,2802,false,'TV-MA','Trey Parker','Trey Parker',0.31,false,['Donald Trump','JD Vance','Pam Bondi','Sephen Miller','Donald Trump Jr.','Karoline Leavitt','Melania Trump','Dan Scavino','Kristi Noem'],false,'The White House deals with a disruptive spirit from the east wing. While Stan worries that South Park has become too political.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2802.jpeg',7.1
     ],
     [true,336,28,3,'Sora Not Sorry',
-        22,"2025-11-12",false,2803,false,'TV-MA','Trey Parker','Trey Parker',0.53,false,['Celebrities'],false,'Butters\' A.I. revenge plan backfires, igniting an epidemic of fake videos at school that leaves Detective Harris struggling to tell fantasy from reality.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2803.jpeg',7.3
+        22,"2025-11-12",false,2803,false,'TV-MA','Trey Parker','Trey Parker',0.53,false,['Donald Trump','JD Vance','Peter Thiel'],false,'Butters\' A.I. revenge plan backfires, igniting an epidemic of fake videos at school that leaves Detective Harris struggling to tell fantasy from reality.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2803.jpeg',7.3
     ],
     [true,337,28,4,'Turkey Trot',
-        22,"2025-11-26",false,2804,false,'TV-MA','Trey Parker','Trey Parker',0.37,false,['Celebrities'],false,'The town\'s annual Turkey Trot turns chaotic when Cartman uses questionable cutting-edge science to win the race.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2804.jpeg',7.3
+        22,"2025-11-26",false,2804,false,'TV-MA','Trey Parker','Trey Parker',0.37,false,['Donald Trump','JD Vance','Pete Hegseth','Kristi Noem','Peter Thiel','Wing Han Tsang'],false,'The town\'s annual Turkey Trot turns chaotic when Cartman uses questionable cutting-edge science to win the race.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2804.jpeg',7.3
     ],
     [true,338,28,5,'The Crap Out',
-        26,"2025-12-10",false,2805,false,'TV-MA','Trey Parker','Trey Parker',0.46,false,['Celebrities'],false,'Satan\'s due, Stan\'s praying, and only a Christmas miracle can deliver the Antichrist on time.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2805.jpeg',6.8
+        26,"2025-12-10",false,2805,false,'TV-MA','Trey Parker','Trey Parker',0.46,false,['Donald Trump','JD Vance','Peter Thiel','Pete Hegseth','Pam Bondi','Dan Scavino','Sean Hannity','Tim Cook','Brendan Carr','Donald Trump Jr.','Jeff Bezos','Karoline Leavitt','Kristi Noem','Mark Zuckerberg','Melania Trump','Stephen Miller'],false,'Satan\'s due, Stan\'s praying, and only a Christmas miracle can deliver the Antichrist on time.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2805.jpeg',6.8
     ]
 ];
 
