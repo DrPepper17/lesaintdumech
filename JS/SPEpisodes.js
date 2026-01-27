@@ -45,7 +45,7 @@ const EPISODES = [
     [false,7,1,7,'Pinkeye',
         22,"1997-10-29",false,107,false,'TV-MA','Trey Parker \u0026 Matt Stone','Trey Parker \u0026 Matt Stone \u0026 Philip Stark',1.73,false,false,false,'The first Halloween episode starts off with the failure of the Mir Space Station, which crashes right on Kenny. An ambulance comes and takes his body off to the morgue. The boys start to brag about their Halloween costumes. At the morgue, a freak accident involving a bottle of Worcestershire occurs, and next thing you know Kenny is a member of the undead. Kenny breaks free and wanders off into the night.','img/SP/SPE107.jpeg',8.3
     ],
-    [false,8,1,8,'Starvin\' Marvin',
+    [true,8,1,8,'Starvin\' Marvin',
         20,"1997-11-19",false,109,false,'TV-MA','Trey Parker','Trey Parker',2.20,false,['Sally Struthers'],false,'Mistaking Cartman for a starving African child, government authorities send him to Ethiopia where he runs into Sally Struthers.','img/SP/SPE109.jpeg',8.1
     ],
     [false,9,1,9,'Mr. Hankey, the Christmas Poo',
@@ -511,7 +511,7 @@ const EPISODES = [
         22,"2007-10-03",false,1108,false,'TV-MA','Trey Parker','Trey Parker',3.323,false,['Chris Hansen'],false,'Cartman discovers the joys of having Tourette\'s syndrome. Drunk with the power of saying whatever he wants without getting in trouble for it, he lines up national TV coverage to take advantage of his new life with no filters.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1108.jpeg',9
     ],
     [false,162,11,9,'More Crap',
-        22,"2007-10-10",false,1109,false,'TV-MA','Trey Parker','Trey Parker',2.98,false,'Bono',false,'Stan\'s dad becomes South Park\'s home-town hero when the guys down at the local bar see the size of his most recent crap.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1109.jpeg',8.1
+        22,"2007-10-10",false,1109,false,'TV-MA','Trey Parker','Trey Parker',2.98,false,['Bono'],false,'Stan\'s dad becomes South Park\'s home-town hero when the guys down at the local bar see the size of his most recent crap.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1109.jpeg',8.1
     ],
     [false,163,11,10,'Imaginationland Episode I',
         22,"2007-10-17",false,1110,false,'TV-MA','Trey Parker','Trey Parker',3.43,false,['Al-Qaeda','M. Night Shyamalan','Mel Gibson','Michael Bay'],['Jonathan Kimmel'],'When the entire contents of the world\'s imagination lay open before them, Stan and Kyle step right in. Back in South Park, Cartman swears he\'s seen a Leprechaun..','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1110.jpeg',9
@@ -1783,10 +1783,12 @@ function generateModalFrame() {
             row4Col1Node.appendChild(row4Col1CelebrityNode);
             let row4Col1ULNode = document.createElement('ul');
             row4Col1Node.appendChild(row4Col1ULNode);
-            for (let j=0;j<EPISODES[i][15].length;j++) {
+
+            let celebs = EPISODES[i][15].sort();
+            for (let j=0;j<celebs.length;j++) {
                 let celebLI = document.createElement('li');
                 row4Col1ULNode.appendChild(celebLI);
-                let celebLITextNode = document.createTextNode(EPISODES[i][15][j]);
+                let celebLITextNode = document.createTextNode(celebs[j]);
                 celebLI.appendChild(celebLITextNode);
                 let celebLIWeight = document.createAttribute('class');
                 celebLIWeight.value = "font-weight-normal";
@@ -1805,10 +1807,12 @@ function generateModalFrame() {
             row4Col2Node.appendChild(row4Col2GuestNode);
             let row4Col2ULNode = document.createElement('ul');
             row4Col2Node.appendChild(row4Col2ULNode);
-            for (let j=0;j<EPISODES[i][16].length;j++) {
+
+            let guests = EPISODES[i][16].sort();
+            for (let j=0;j<guests.length;j++) {
                 let guestLI = document.createElement('li');
                 row4Col2ULNode.appendChild(guestLI);
-                let guestLITextNode = document.createTextNode(EPISODES[i][16][j]);
+                let guestLITextNode = document.createTextNode(guests[j]);
                 guestLI.appendChild(guestLITextNode);
                 let guestLIWeight = document.createAttribute('class');
                 guestLIWeight.value = "font-weight-normal";

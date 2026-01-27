@@ -4355,6 +4355,54 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/CharYJust02.jpeg']
         ]
+    ],
+    [
+        ['2026-01-26','20260126A'],
+        'New MGSD: Witch from Mercury Aerial',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/MGSDAER10.jpeg',
+        [
+            'A new MGSD kit has been released so of course I have to build and review it. This week it is the Master Grade SD Gundam Aerial.',
+        ],
+        [
+            'Of course for all the significant new kits, as in anything more profound than an HG, I always have to do a straight build first. Thus why there\'s no paint here.  But as for my review though: I was not that impressed. Maybe it\'s because the past two years we had so many Witch from Mercury kits flood the market that I\'m a bit burned out from Aerial builds. It would have been better if they had waited to introduce the MGSD Aerial to instead introduce us an MGSD kit from another Gundam storyline. Also, building this felt a lot like the Full Mechanics'
+        ],
+        [
+            [
+                'Also, building this did feel a lot like building the Full Mechanics Aerial kit. For which I have already done when I painted ',
+                ['Gundam Chimkin','Builds/Gundams/Chimkin.html'],
+                ['.']
+            ]
+        ],
+        [
+            'But anyhow, here enjoy the photos. There will be a new paint build  and video for you next week.'
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/MGSDAER01.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/MGSDAER02.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/MGSDAER03.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/MGSDAER04.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/MGSDAER05.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/MGSDAER06.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/MGSDAER07.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/MGSDAER08.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/MGSDAER09.jpeg']
+        ]
     ]
 ]
 

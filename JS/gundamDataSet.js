@@ -7401,7 +7401,11 @@ const projects = [
             ['NewType','https://newtype.us/p/GP81LBhwpuFNcHQ0ktrd/h/sdex-standard-19-gundam-aerial']
         ],false,false,true
     ],
-    ['Aerial [MGSD]',[1,'Aerial'],'MGSD',true,false,false,'Mercury','C','2025-11-25',1.92],
+    ['Aerial [MGSD]',[1,'Aerial'],'MGSD',
+        true,false,false,'Mercury','E','2025-11-25',5.42,false,'blogArchive.html#20260126A',false,'2026-01-26',models[141],false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/MGSDAER00.jpeg','Profile Photo: Aerial MGSD'],
+        false,false,false,false,false,true
+    ],
     ['Zephon',[1,'Aerial Rebuild'],'HG',
         false,false,false,'Mercury','E','2023-11-25',16.15,false,'Builds/Gundams/Zephon.html',false,'2024-11-21',models[142],
         [
@@ -14035,6 +14039,7 @@ const projects = [
             ['TurboDork: Rainbow Roll','https://turbodork.com/products/rainbow-roll']
         ],false,true,true,'1:144','DOM Interstellar  Test Type'
     ],
+    ['Guntank [MG]',[1,'Guntank'],'MGSD',true,false,false,'UC','C','2026-01-08',3.25],
     ['Rhea',[1,'RX-75 Guntank'],'SD',false,false,false,'UC','B'],
     ['Metroid [Zeta]',[1,'Hygogg'],'HG',false,false,false,'UC','A'],
     ['Theia',[1,'Kshatriya'],'SD',
