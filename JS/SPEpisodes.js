@@ -24,7 +24,7 @@
 */
 
 const EPISODES = [
-    [false,1,1,1,'Cartman Gets an Anal Probe',
+    [true,1,1,1,'Cartman Gets an Anal Probe',
         21,"1997-08-13",false,101,false,'TV-MA','Trey Parker','Trey Parker \u0026 Matt Stone',0.89,false,false,['Franchesca Clifford','Isaac Hayes'],'While the boys are waiting for the school bus, Cartman explains the odd nightmare he had the previous night involving Alien \"Visitors\" abducting him from his bed. Meanwhile Kyle and Stan try to convince Cartman that the dream was in fact a reality.','img/SP/SPE101.jpeg',7.8
     ],
     [false,2,1,2,'Volcano',

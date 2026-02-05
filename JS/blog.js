@@ -4403,6 +4403,32 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/MGSDAER09.jpeg']
         ]
+    ],
+    [
+        ['2026-02-04','20260202A'],
+        'Dark Char Xerxers',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/CharXXerx37.jpeg',
+        [
+            [
+                'Presented to you Mega Charizard Y two weeks ago so of course I also have to give you Charizard X. So now presenting Charizard X, ',
+                ['Xerxes','Builds/Pokemon/XerxChar.html'],
+                '.'
+            ]
+        ],
+        [
+            [
+                ['Youtube','https://youtu.be/SpNycnjePNY',true]
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/CharXXerx20.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/CharXXerx24.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/CharXXerx31.jpeg']
+        ]
     ]
 ]
 

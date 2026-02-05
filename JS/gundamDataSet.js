@@ -7346,7 +7346,7 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/GMorgausAerial22.jpeg','Morgause']
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/GMorgausAerial19.jpeg','Profile Photo: Morgause'],
-        'Description:',false,
+        'Snapped some of the connector pieces for the GUND Bits when constructing Ariel that I had to purchase a second kit. Therefore after I finished Ariel I was now stuck with a whole other additional kit. So decided to paint it shades of green with Tamiya copper and sort of went with a commando theme. Overall pretty cool. Just the GUND Bits do not combine to form the shield, because the connection parts were used on Ariel',false,
         [
             ['Video','https://youtu.be/dvQp68psABI'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/hgtwfm-1-144-03-gundam-aerial'],
@@ -8005,7 +8005,7 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Abaddon_130.jpeg','Abaddon']
         ],
         ['https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/ad069621-d513-4ca0-aa21-c03ca6239824.jpeg','Profile Photo: Abaddon'],
-        'The design for this went through a few renditions. At first I planned to just respect the traditional design from the anime and go with a very sparkly silver, using TurboDork SParkle Motion. But after having painted everything I realized just plain silver for everything was a bit overkill. Just felt too plain that way. Realized I needed to intersperse it with different black segments to add some contrast. So I bought a second Calibarn kit and chose the pieces I wanted to break up the silver hegemony and painted them Mr Hobby Metallic Black and swapped them with their silver counterparts. Then got the main body done anad the Gund Bits remained, but I did not want to paint them exactly like the rest of the suit. So I went with bright gold TurkboDork All That Glitters to really make them stand out. Overall it was quite nice. Very regal royal knight. It looks just as fierce as it does majestic.',false,
+        'The design for this went through a few renditions. At first I planned to just respect the traditional design from the anime and go with a very sparkly silver, using TurboDork SParkle Motion. But after having painted everything I realized just plain silver for everything was a bit overkill. Just felt too plain that way. Realized I needed to intersperse it with different black segments to add some contrast. So I bought a second Calibarn kit and chose the pieces I wanted to break up the silver hegemony and painted them Mr Hobby Metallic Black and swapped them with their silver counterparts. Then got the main body done anad the GUND Bits remained, but I did not want to paint them exactly like the rest of the suit. So I went with bright gold TurkboDork All That Glitters to really make them stand out. Overall it was quite nice. Very regal royal knight. It looks just as fierce as it does majestic.',false,
         [
             ['Video','https://youtu.be/zJ2IyE_FTmM'],
             ['Abaddon','https://en.wikipedia.org/wiki/Abaddon'],
@@ -8497,7 +8497,7 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/adriel80.jpeg','Adriel']
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/adriel08.jpeg','Profile Photo: Adriel'],
-        'Named after the angel of death. Adriel is an HG LFrith painted in Mr Metallics Blue Gold accented with a metallic purple. I thought the purple accented the pink of the original design quite well. As for the Blue Gold, this was my first time painting with it, so it was also a bit of an experiement. Wont lie I was bit nervous painting the gund bits. Was worried doing so might make it harder to assemble them. But luckily that did not turn out to be a problem. For my first suit in the Witch from Mercury Gundam lineup, I am proud how this came out. It\'s simple yet the gold seemed to add a tougher touch.',false,
+        'Named after the angel of death. Adriel is an HG LFrith painted in Mr Metallics Blue Gold accented with a metallic purple. I thought the purple accented the pink of the original design quite well. As for the Blue Gold, this was my first time painting with it, so it was also a bit of an experiement. Wont lie I was bit nervous painting the GUND bits. Was worried doing so might make it harder to assemble them. But luckily that did not turn out to be a problem. For my first suit in the Witch from Mercury Gundam lineup, I am proud how this came out. It\'s simple yet the gold seemed to add a tougher touch.',false,
         [
             ['Video','https://youtu.be/eEVz6c2K-Ys'],
             ['Adriel','https://www.auntyflo.com/magic/adriel'],
@@ -8781,7 +8781,7 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/AngeMet93.jpeg','Metatron']
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/AngeMet66.jpeg','Profile Photo: Metatron'],
-        'For the previous suits in the Witch From Mercury lineup I did lots of gold and yellows. So for this one I wanted to do something a bit different. Wound up going with reds and violets. Specifically I used TurboDork\'s Miami Sunset paired with a Mr Hobby Metallic Blood Red. The biggest challenge of this suit was the gundbits of the sword. They just did not want to hold together. So wound up super gluing them all togeher to get the sword to maintain its form and then getting a second kit just to assemble the inner sword and the individual Gund Bits. Also trying to pose this suit in all the GundBit configurations displayed in the instructions really takes a long while.',false,
+        'For the previous suits in the Witch From Mercury lineup I did lots of gold and yellows. So for this one I wanted to do something a bit different. Wound up going with reds and violets. Specifically I used TurboDork\'s Miami Sunset paired with a Mr Hobby Metallic Blood Red. The biggest challenge of this suit was the GUND Bits of the sword. They just did not want to hold together. So wound up super gluing them all togeher to get the sword to maintain its form and then getting a second kit just to assemble the inner sword and the individual GUND Bits. Also trying to pose this suit in all the GundBit configurations displayed in the instructions really takes a long while.',false,
         [
             ['Video','https://youtu.be/O1aLIeXc5HY'],
             ['Metatron','https://en.wikipedia.org/wiki/Metatron'],
@@ -13295,7 +13295,7 @@ const projects = [
             ['Premium Bandai','https://p-bandai.com/us/item/F2655096003']
         ],['Bruce','Charlemagne'],false,true,'1:144'
     ],
-    ['Kyral',[1,'PB Mandalaa Gundam'],'HG',false,true,false,'G','A'],
+    ['Cloche',[1,'PB Mandalaa Gundam'],'HG',false,true,false,'G','B'],
     ['Charlemagne',[1,'PB Rose Gundam'],'HG',
         false,true,false,'G','E','2023-08-02',15.83,false,'Builds/PBandai/Charlemagne.html',false,'2023-10-02',models[56],
         [
@@ -15840,7 +15840,7 @@ const projects = [
         ],['Asterix','Boudica','Charizard','Xerxes','Justinian'],false,true,false,false,false,false,false,false,false,'Pokemon Select Series 43 Charizard & Dragonite Model Kit Set'
     ],
     ['Xerxes',[1,'Mega Charizard X'],'Pokemon',
-        false,false,false,'','D','2025-08-13',4.34,false,'Builds/Pokemon/JustinianChar.html',false,'2026-02-02',models[156],
+        false,false,false,'','E','2025-08-13',4.34,false,'Builds/Pokemon/XerxChar.html',false,'2026-02-04',models[156],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/CharXXerx01.jpeg','Xerxes'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/CharXXerx02.jpeg','Xerxes'],
@@ -15881,13 +15881,13 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/CharXXerx37.jpeg','Xerxes']
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/CharXXerx19.jpeg','Profile Photo: Xerxes'],
-        'Description',false,
+        'Used Vallejo Pacific Blue for the base of the dark blue. The tummy, Mission Models Pearl Wild Berry. The Coup de Grace is the flame on the tail and sprouting from his nostrils which I used Mr Hobby Metallic Dark Blue and Metallic Rough Silver.',false,
         [
             ['Video','https://youtu.be/SpNycnjePNY'],
             ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Charizard_(Pokemon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-select-series-36-mega-charizard-x-model-kit'],
             ['NewType','https://newtype.us/p/1geRiRtm2QpTtZKEEexT/h/pokemon-mega-charizard-x']
-        ],['Vercingetorix','Justinian'],false,false,false,false,false,false,false,false,false,'Pokemon Select Series 36 Mega Charizard X Model Kit'
+        ],['Vercingetorix','Justinian'],false,true,false,false,false,false,false,false,false,'Pokemon Select Series 36 Mega Charizard X Model Kit'
     ],
     ['Justinian',[1,'Mega Charizard Y'],'Pokemon',
         false,false,false,'','E','2025-08-13',4.05,false,'Builds/Pokemon/JustinianChar.html',false,'2026-01-19',models[157],
