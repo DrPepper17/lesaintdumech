@@ -7320,7 +7320,7 @@ const projects = [
         ],false,true,true,'1:144'
     ],
     ['Morgause',[1,'Aerial'],'HG',
-        false,false,false,'Mercury','D','2024-02-16',7.64,false,'Builds/Gundams/MorgausAerial.html',false,'2026-02-09',models[141],
+        false,false,false,'Mercury','E','2024-02-16',7.64,false,'Builds/Gundams/MorgausAerial.html',false,'2026-02-09',models[141],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/GMorgausAerial01.jpeg','Morgause'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/GMorgausAerial02.jpeg','Morgause'],
@@ -7351,7 +7351,7 @@ const projects = [
             ['Video','https://youtu.be/dvQp68psABI'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/hgtwfm-1-144-03-gundam-aerial'],
             ['NewType','https://newtype.us/p/SLQANOrlxQEO4a9t3lJ7/h/hgwfm-03-gundam-aerial']
-        ],false,true,false,'1:144'
+        ],false,true,true,'1:144'
     ],
     ['Cherub',[1,'Aerial'],'SD',
         false,false,false,'Mercury','E','2023-01-10',4.91,false,'Builds/Gundams/Cherub.html',false,'2024-10-21',models[141],
@@ -13295,7 +13295,7 @@ const projects = [
             ['Premium Bandai','https://p-bandai.com/us/item/F2655096003']
         ],['Bruce','Charlemagne'],false,true,'1:144'
     ],
-    ['Cloche',[1,'PB Mandalaa Gundam'],'HG',false,true,false,'G','B'],
+    ['La Cloche',[1,'PB Mandalaa Gundam'],'HG',false,true,false,'G','B'],
     ['Charlemagne',[1,'PB Rose Gundam'],'HG',
         false,true,false,'G','E','2023-08-02',15.83,false,'Builds/PBandai/Charlemagne.html',false,'2023-10-02',models[56],
         [
@@ -14039,7 +14039,7 @@ const projects = [
             ['TurboDork: Rainbow Roll','https://turbodork.com/products/rainbow-roll']
         ],false,true,true,'1:144','DOM Interstellar  Test Type'
     ],
-    ['Guntank [MG]',[1,'Guntank'],'MGSD',true,false,false,'UC','C','2026-01-08',3.25],
+    ['Guntank [MG]',[1,'Guntank'],'MGSD',true,false,false,'UC','D','2026-01-08',4.08],
     ['Rhea',[1,'RX-75 Guntank'],'SD',false,false,false,'UC','B'],
     ['Metroid [Zeta]',[1,'Hygogg'],'HG',false,false,false,'UC','A'],
     ['Theia',[1,'Kshatriya'],'SD',
@@ -16039,7 +16039,7 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/SprinkEv19.jpeg','Sprinkles']
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/SprinkEv08.jpeg','Profile Photo: Sprinkles'],
-        'DESCRIPTION',false,
+        'Previous Eevee kits inspired by their evolutions of Flareon and Vaporeon. So of course I had to do one more inspired by Jolteon.',false,
         [
             ['Video','https://youtu.be/J-5bB91GokA'],
             ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Eevee_(Pokemon)'],

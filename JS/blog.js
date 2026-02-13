@@ -4429,6 +4429,35 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/CharXXerx31.jpeg']
         ]
+    ],
+    [
+        ['2026-02-12','20260212A'],
+        'Sister and Queen',
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/GMorgausAerial22.jpeg'],
+        [
+            [
+                'Famed queen and half sister to the great king of legend Arthur, this week I give you ',
+                ['Morgause','Builds/Gundams/MorgausAerial.html'],
+                '.'
+            ]
+        ],
+        [
+            'Once again another Aerial gundam. I swear at this point I have done so many Aerials that I have sort of grown tired of them. So this may be my last for a whlie. Only reason I painted this one is because I had a spare kit to use up. So enjoy this camou princess, the great Lady Morgause.'
+        ],
+        [
+            [
+                ['Youtube','https://youtu.be/dvQp68psABI',true]
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/GMorgausAerial18.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/GMorgausAerial16.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/GMorgausAerial11.jpeg']
+        ]
     ]
 ]
 
