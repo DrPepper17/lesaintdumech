@@ -16039,7 +16039,7 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/SprinkEv19.jpeg','Sprinkles']
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/SprinkEv08.jpeg','Profile Photo: Sprinkles'],
-        'Previous Eevee kits inspired by their evolutions of Flareon and Vaporeon. So of course I had to do one more inspired by Jolteon.',false,
+        'Previous Eevee kits inspired by their evolutions of Flareon and Vaporeon. So of course I had to do one more inspired by Jolteon. So pretty much just a basic flat yellow. But whereas Jolteon is yellow with white, I thought the yellow would be better accented with a flat black.',false,
         [
             ['Video','https://youtu.be/J-5bB91GokA'],
             ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Eevee_(Pokemon)'],
