@@ -600,7 +600,7 @@ const EPISODES = [
     [true,191,13,10,'W.T.F.',
         22,"2009-10-21",false,1310,false,'TV-MA','Trey Parker','Trey Parker',2.58,false,['Vince & Linda McMahon','Edge','John Cena'],false,'After attending their first WWE match, all the boys want to be professional wrestlers.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1310.jpeg',8.3
     ],
-    [false,192,13,11,'Whale Whores',
+    [true,192,13,11,'Whale Whores',
         22,"2009-10-28",false,1311,false,'TV-MA','Trey Parker','Trey Parker',2.57,false,['Paul Watson','Larry King','Yukio Hatoyama','Emperor Akihito'],false,'Stan takes action to stop the Japanese from killing the world\'s whales and dolphins.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1311.jpeg',8.1
     ],
     [true,193,13,12,'The F Word',

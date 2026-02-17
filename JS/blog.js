@@ -4458,6 +4458,35 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/GMorgausAerial11.jpeg']
         ]
+    ],
+    [
+        ['2026-02-16','20260216A'],
+        'Beatrice, Bandit, Sprinkles',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/SprinkEv16.jpeg',
+        [
+            [
+                'Found another Eevee model so of course time for another Eevee Build so this week I give you the electrifying ',
+                ['Sprinkles','Builds/Pokemon/SprinklesEevee.html'],
+                ' !!!'
+            ]
+        ],
+        [
+            'And now wih the electric Sprinkles, along with flaming Bandit and aquatic Beatrice, this now completes the original Eevee Trilogy.'
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/SprinkEv15.jpeg']
+        ],
+        [
+            [
+                ['Youtube','https://youtu.be/SpNycnjePNY',true]
+            ]
+        ],
+        [
+            'Also ten points to whomever can figure out the nomenclature theme for the Eevees collection.'
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/SprinkEv17.jpeg']
+        ]
     ]
 ]
 

@@ -7351,7 +7351,7 @@ const projects = [
             ['Video','https://youtu.be/dvQp68psABI'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/hgtwfm-1-144-03-gundam-aerial'],
             ['NewType','https://newtype.us/p/SLQANOrlxQEO4a9t3lJ7/h/hgwfm-03-gundam-aerial']
-        ],false,true,true,'1:144'
+        ],['Arthur'],true,true,'1:144'
     ],
     ['Cherub',[1,'Aerial'],'SD',
         false,false,false,'Mercury','E','2023-01-10',4.91,false,'Builds/Gundams/Cherub.html',false,'2024-10-21',models[141],
@@ -8042,7 +8042,7 @@ const projects = [
             ['Video','https://youtu.be/Gl_xGPrTlmo'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/mobile-suit-gundam-the-witch-from-mercury-new-product-b-tentative'],
             ['NewType','https://newtype.us/p/ubZ7MYRvQHJJwuKaUZL3/h/hgwfm-26-gundam-calibarn']
-        ],false,true,false,'1:144'
+        ],['Morgause'],true,false,'1:144'
     ],
     ['Tempest',[1,'Calibarn'],'HG',false,false,false,'Mercury','B','2024-06',0],   //paint in flat red
     ['Calibarn [HG]',[1,'Calibarn'],'HG',true,false,false,'Mercury','E','2023-08-22',2.83,false,false,false,'2024-12-02'],
@@ -16016,7 +16016,7 @@ const projects = [
         ],false,true,true,false,false,false,false,false,false,false,'Pokemon Eevee (Sleeping Pose) 07 Quick Model Kit'
     ],    //Blue
     ['Sprinkles',[1,'Eevee'],'Pokemon',
-        false,false,false,'','D','2025-07-18',1.62,false,'Builds/Pokemon/SprinklesEevee.html',false,'2026-02-16',models[131],
+        false,false,false,'','E','2025-07-18',1.62,false,'Builds/Pokemon/SprinklesEevee``.html',false,'2026-02-16',models[131],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/SprinkEv01.jpeg','Sprinkles'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/SprinkEv02.jpeg','Sprinkles'],
@@ -16045,7 +16045,7 @@ const projects = [
             ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Eevee_(Pokemon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-evee-04-quick-model-kit'],
             ['NewType','https://newtype.us/p/qwtngx79JTNwHYt5c3Or/h/pokemon-model-kit-quick-04-eevee']
-        ],false,true,false,false,false,false,false,false,false,false,'Pokemon Eevee 04 Quick Model Kit'
+        ],false,true,true,false,false,false,false,false,false,false,'Pokemon Eevee 04 Quick Model Kit'
     ],    //Yellow
     ['Pingol\u00E9on',[0.25,'Empoleon'],'Pokemon',
         false,false,false,'','D','2025-09-07',1.72,false,'Builds/Pokemon/Pingoleo.html',false,'2026-05-11',models[188],
