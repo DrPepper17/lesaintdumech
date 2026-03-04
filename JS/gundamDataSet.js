@@ -8016,7 +8016,7 @@ const projects = [
         ],false,true,true,'1:144'
     ],
     ['Arthur',[1,'Calibarn'],'HG',
-        false,false,false,'Mercury','D','2024-03-01',12.44,false,'Builds/Gundams/ArthurCalibarn.html',false,'2026-01-26',models[144],
+        false,false,false,'Mercury','D','2024-03-01',12.44,false,'Builds/Gundams/ArthurCalibarn.html',false,'2026-03-09',models[144],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/GArthurCalibarn01.jpeg','Arthur'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/GArthurCalibarn02.jpeg','Arthur'],
@@ -8037,7 +8037,7 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/GArthurCalibarn17.jpeg','Arthur']
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/GMorgausAerial02.jpeg','Profile Photo: Arthur'],
-        'Description:',false,
+        'Had a spare Calibarn kit after needing to redo some parts to the design for prior build Abaddon. Prior parts were painted silver. Painted the rest copper. Also used the fancy USA GUndam decals which glow under a black light.',false,
         [
             ['Video','https://youtu.be/Gl_xGPrTlmo'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/mobile-suit-gundam-the-witch-from-mercury-new-product-b-tentative'],
@@ -16103,7 +16103,7 @@ const projects = [
         ],['Pacifix','Postaldistrix'],true,true,false,false,false,false,false,false,false,'Pokemon Select Series 11 Entei Model Kit'
     ],
     ['Instantmix',[1,'Fuecoco'],'Pokemon',
-        false,false,false,'','D','2025-08-13',1.61,false,'Builds/Pokemon/InstaFue.html',false,'2026-03-02',models[185],
+        false,false,false,'','E','2025-08-13',1.61,false,'Builds/Pokemon/InstaFue.html',false,'2026-03-03',models[185],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/InstantFue01.jpeg','Instantmix'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/InstantFue02.jpeg','Instantmix'],
@@ -16119,14 +16119,14 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/InstantFue12.jpeg','Instantmix'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/InstantFue13.jpeg','Instantmix']
         ],['https://hosting.photobucket.com/images/i/lesaintdumech/InstantFue10.jpeg','Profile Photo: Instantmix'],
-        'DESCRIPTION','Jesse, Nebraska',
+        'Fuecoco is a fire croc Pokemon. So traditionally red. However I wanted to go back to its crocodilian roots and paint it shades of green, included Mr Hobby metallic yellow green for its tuft of hair and scales. The tuft on its head I wont lie to me makes it sort of look like an apple.','Jesse, Nebraska',
         [
             ['Video','https://youtu.be/0X6RDt1NFdY'],
             ['Asterix: Instantmix','https://asterix.com/en/characters/instantmix/'],
             ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Fuecoco_(Pokémon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-fuecoco-20-quick-model-kit'],
             ['NewType','https://newtype.us/p/yzaMSpSS1tElCrmXmtPt/h/pokemon-model-kit-quick-20-fuecoco']
-        ],false,false,false,false,false,false,false,false,false,false,'Pokemon Fuecoco 20 Quick Model Kit'
+        ],false,false,true,false,false,false,false,false,false,false,'Pokemon Fuecoco 20 Quick Model Kit'
     ],
     ['Astronomix',[1,'Gengar'],'Pokemon',
         false,false,false,'','E','2023-12-11',2.68,false,'Builds/Pokemon/AstronGengar.html',false,'2025-08-04',models[169],

@@ -138,7 +138,7 @@ const EPISODES = [
     [false,37,3,6,'Sexual Harassment Panda',
         22,"1999-07-07",false,306,false,'TV-MA','Eric Stough','Trey Parker',1.83,false,false,false,'After Sexual Harassment Panda "educates" the children, Cartman sues Stan for sexual harassment, and a flurry of other lawsuits follow.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE306.jpeg',8.2
     ],
-    [false,38,3,7,'Cat Orgy',
+    [true,38,3,7,'Cat Orgy',
         22,"1999-07-14",false,307,false,'TV-MA','Trey Parker','Trey Parker',2.98,false,false,false,'While Shelly\'s babysitting Eric on the evening of the mysterious meteor shower, a wild and unsupervised kitty party breaks out at the Cartman home.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE307.jpeg',7.9
     ],
     [false,39,3,8,'Two Guys Naked in a Hot Tub',

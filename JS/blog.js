@@ -4487,6 +4487,29 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/SprinkEv17.jpeg']
         ]
+    ],
+    [
+        ['2026-03-03','20260303A'],
+        'Beatrice, Bandit, Sprinkles',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/InstantFue13.jpeg',
+        [
+            [
+                'I missed posting last week. Was a bit swamped with work and just overwhelmed. But before I miss again this week I give you ',
+                ['Instantmix','Builds/Pokemon/InstaFue.html'],
+                '.'
+            ]
+        ],
+        [
+            'A cute little Fuecoco pokemon crocodile of the Nile inspired by the Gaul village chef. Bon Appetit !'
+        ],
+        [
+            [
+                ['Youtube','https://youtu.be/0X6RDt1NFdY',true]
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/InstantFue12.jpeg']
+        ]
     ]
 ]
 
