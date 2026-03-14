@@ -468,7 +468,7 @@ const EPISODES = [
     [false,147,10,8,'Make Love, Not Warcraft',
         22,"2006-10-04",false,1008,false,'TV-MA','Trey Parker','Trey Parker',3.40,false,false,false,'The boys dedicate their lives to defeating a mad gamer and saving the World of Warcraft.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1008.jpeg',9.5
     ],
-    [false,148,10,9,'Mystery of the Urinal Deuce',
+    [true,148,10,9,'Mystery of the Urinal Deuce',
         22,"2006-10-11",false,1009,false,'TV-MA','Trey Parker','Trey Parker',2.95,false,['Hardly Boys','George W. Bush','Dick Cheney','Donald Rumsfeld','Condoleezza Rice'],false,'The world\'s biggest conspiracy of all time is finally uncovered when Eric Cartman exposes the true culprit behind the September 11th attacks.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1009.jpeg',8.2
     ],
     [false,149,10,10,'Miss Teacher Bangs a Boy',
@@ -501,7 +501,7 @@ const EPISODES = [
     [true,158,11,5,'Fantastic Easter Special',
         22,"2007-04-04",false,1105,false,'TV-MA','Trey Parker','Trey Parker',2.95,false,['Pope Benedict XVI','Bill Donohue'],false,'Determined to get the real story behind why he has to decorate eggs for Easter, Stan falls in with an eccentric society that guards a legendary secret.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1105.jpeg',8.1
     ],
-    [false,159,11,6,'D-Yikes!',
+    [true,159,11,6,'D-Yikes!',
         22,"2007-04-11",false,1106,false,'TV-MA','Trey Parker','Trey Parker',2.82,false,false,false,'Mrs. Garrison gets dumped again and takes her frustration out on the fourth grade class. However, things start looking up for her when she meets a new friend at the gym and they go out for drink at a local \"girl bar\".','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1106.jpeg',7.6
     ],
     [false,160,11,7,'Night of the Living Homeless',
@@ -748,7 +748,7 @@ const EPISODES = [
     [false,240,17,3,'World War Zimmerman',
         21,"2013-10-09",false,1703,false,'TV-MA','Trey Parker','Trey Parker',2.06,false,['George Zimmerman'],false,'Cartman is convinced that Tolkien is the Patient Zero to the new pandemic facing all of humanity.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1703.jpeg',7.7
     ],
-    [false,241,17,4,'Goth Kids 3: Dawn of the Posers',
+    [true,241,17,4,'Goth Kids 3: Dawn of the Posers',
         21,"2013-10-23",false,1704,false,'TV-MA','Trey Parker','Trey Parker',1.83,false,['Edgar Allen Poe'],false,'Goths and Vamps unite and summon the aid of Edgar Allen Poe to take on the new threat that poses to enslave them all.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1704.jpeg',6.8
     ],
     [false,242,17,5,'Taming Strange',

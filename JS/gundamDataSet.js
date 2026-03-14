@@ -8016,7 +8016,7 @@ const projects = [
         ],false,true,true,'1:144'
     ],
     ['Arthur',[1,'Calibarn'],'HG',
-        false,false,false,'Mercury','D','2024-03-01',12.44,false,'Builds/Gundams/ArthurCalibarn.html',false,'2026-03-09',models[144],
+        false,false,false,'Mercury','E','2024-03-01',12.44,false,'Builds/Gundams/ArthurCalibarn.html',false,'2026-03-13',models[144],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/GArthurCalibarn01.jpeg','Arthur'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/GArthurCalibarn02.jpeg','Arthur'],
@@ -8036,13 +8036,13 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/GArthurCalibarn16.jpeg','Arthur'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/GArthurCalibarn17.jpeg','Arthur']
         ],
-        ['https://hosting.photobucket.com/images/i/lesaintdumech/GMorgausAerial02.jpeg','Profile Photo: Arthur'],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/GArthurCalibarn01.jpeg','Profile Photo: Arthur'],
         'Had a spare Calibarn kit after needing to redo some parts to the design for prior build Abaddon. Prior parts were painted silver. Painted the rest copper. Also used the fancy USA GUndam decals which glow under a black light.',false,
         [
             ['Video','https://youtu.be/Gl_xGPrTlmo'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/mobile-suit-gundam-the-witch-from-mercury-new-product-b-tentative'],
             ['NewType','https://newtype.us/p/ubZ7MYRvQHJJwuKaUZL3/h/hgwfm-26-gundam-calibarn']
-        ],['Morgause'],true,false,'1:144'
+        ],['Morgause'],true,true,'1:144'
     ],
     ['Tempest',[1,'Calibarn'],'HG',false,false,false,'Mercury','B','2024-06',0],   //paint in flat red
     ['Calibarn [HG]',[1,'Calibarn'],'HG',true,false,false,'Mercury','E','2023-08-22',2.83,false,false,false,'2024-12-02'],
@@ -16393,7 +16393,7 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Eury12.jpeg','Eurydice'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Eury13.jpeg','Eurydice']
         ],['https://hosting.photobucket.com/images/i/lesaintdumech/Eury01.jpeg','Profile Photo: Eurydice'],
-        'DESCRIPTION','Eve, Nebraska',
+        'Staid true to form for my Jirachi. Changed a few of the minor colors. But biggest theme for this one was to use all shiny metallic paints from Mr Hobby. Since Jirachi is a fairy figured she desrved to truly sparkle.','Eve, Nebraska',
         [
             ['Video','https://youtu.be/pWQuxGOMlRo'],
             ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Jirachi_(Pokémon)'],

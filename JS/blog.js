@@ -4510,6 +4510,34 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/InstantFue12.jpeg']
         ]
+    ],
+    [
+        ['2026-03-13','20260313A'],
+        'King and Brother',
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/GArthurCalibarn17.jpeg'],
+        [
+            [
+                'Few weeks ago I gave you ',
+                ['Morgause','Builds/Gundams/MorgausAerial.html'],
+                ', so now for this week I presetnt to you her brother, the great Breton king of legend, ',
+                ['King Arthur','Builds/Gundams/ArthurCalibarn.html'],
+                '.'
+            ]
+        ],
+        [
+            'Sorry again for posting late this week. Normally I post these on Mondays but it\'s now Friday. Life\'s been busy and I\'ve been crazy swamped at work. I owe you guys a big one. Which I do have something cool coming up soon in the works.'
+        ],
+        [
+            [
+                ['Youtube','https://youtu.be/Gl_xGPrTlmo',true]
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/GArthurCalibarn13.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/GArthurCalibarn15.jpeg']
+        ]
     ]
 ]
 
