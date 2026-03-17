@@ -16377,7 +16377,7 @@ const projects = [
         ],['Chanticleerix'],false,true,false,false,false,false,false,false,false,'Pokemon Select Series 5 Ho-Oh Model Kit'
     ],
     ['Eurydice',[1,'Jirachi'],'Pokemon',
-        false,false,false,'','D','2025-08-19',1.74,false,'Builds/Pokemon/EuryJiri.html',false,'2026-03-16',models[186],
+        false,false,false,'','E','2025-08-19',1.74,false,'Builds/Pokemon/EuryJiri.html',false,'2026-03-16',models[186],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Eury01.jpeg','Eurydice'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Eury02.jpeg','Eurydice'],
@@ -16399,7 +16399,7 @@ const projects = [
             ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Jirachi_(Pokémon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-jirachi-23-quick-model-kit'],
             ['NewType','https://newtype.us/p/QQ20Oj03HvMjPtfc8kK9/h/pokemon-model-kit-quick-23-jirachi']
-        ],false,false,false,false,false,false,false,false,false,false,'Pokemon Jirachi 23 Quick Model Kit'
+        ],false,false,true,false,false,false,false,false,false,false,'Pokemon Jirachi 23 Quick Model Kit'
     ],
     ['Lutetia',[1,'Lucario'],'Pokemon',
         false,false,false,'','E','2023-10-03',5.09,false,'Builds/Pokemon/Lutetia.html',false,'2025-07-07',models[167],

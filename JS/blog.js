@@ -4538,6 +4538,29 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/GArthurCalibarn15.jpeg']
         ]
+    ],
+    [
+        ['2026-03-16','20260316A'],
+        'Wishing Star',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/Eury12.jpeg',
+        [
+            [
+                'Jirachi the wishing star, who comes only once in a blue moon. When you see it make a wish. So to make all your dreams and wishes come true, this week I give you the lucky ',
+                ['Eurydice','Builds/Pokemon/EuryJiri.html'],
+                '.'
+            ]
+        ],
+        [
+            'Named after the wife of Orpheus, the great famous Greek master poet. Patron of the Arts. Eurydice was his muse and thereby inspiration of all artistic expression. If you have ever seen a show in an Orpehum Theater (seems like every city has one), now you know the namesake\'s inspiration. Orpheus... Orpheum... there you go.'
+        ],
+        [
+            [
+                ['Youtube','https://youtu.be/pWQuxGOMlRo',true]
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/Eury10.jpeg']
+        ]
     ]
 ]
 
