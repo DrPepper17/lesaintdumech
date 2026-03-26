@@ -6995,6 +6995,51 @@ const models = [
         false,
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/ScizorModel.jpeg','Scizor']
+    ],
+    [190,1,'Gundam Snow White',
+        'XXXG-00W0 Wing Gundam Zero EW',
+        'XXXG-00W0',
+        'Mobile Suit Gundam Wing Endless Waltz',
+        true,
+        ['XXXG-00W0 Wing Gundam Proto Zero'],
+        [
+            'Wing Gundam Zero Lucifer',
+            'XXXG-00YSW Wing Gundam Snow White Prelude'
+        ],
+        'After Colony',
+        [195,'September 27, 195 A.C.',196],
+        'Heero Yuy',
+        [
+            'Zechs Merquise'
+        ],
+        'Peacemillion',
+        ['G Team','Sanc Kingdom','Peacemillion'],
+        [16.7,'16.7 Meters'],           //Height
+        [8,'8 Metric Tons'],        //Weight
+        'Gundanium Alloy',
+        false,
+        [
+            'Machine Cannon (x2)'
+        ],
+        [
+            'Twin Buster Rifle',
+            'Beam Saber (x2)',
+            'Shield (w/ 2 Wing Vulcans)',
+            'Drei Zwerg'
+        ],
+        [
+            'Neo Bird Mode',
+            'ZERO System',
+            'Search Eye',
+            'Self-Destruct System'
+        ],
+        'Hajime Katoki',
+        false,
+        'Zero',
+        false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/wingzero.jpeg','Wing Gundam Zero'],
+        true,
+        [31]
     ]
 ];
 
@@ -9478,7 +9523,7 @@ const projects = [
     ['Tallgeese Fl\u00FCgel',[1,'Tallgeese Fl\u00FCgel'],'MG',
         true,true,false,'Wing','D','2022-05-08',20.17,false,'Builds/PBTallgeeseFlugelMG.html',false,'2026-04-06'
     ],
-    ['Man o\' War',[1,'Tallgeese II'],'RG',false,true,false,'Wing','A'],
+    ['Man o\' War',[1,'Tallgeese II'],'RG',false,true,false,'Wing','B'],
     ['Cambria',[1,'PB Vayeate'],'HG',false,true,false,'Wing','B'],
     ['Bibi',[1,'Wing Gundam'],'HG',
         false,false,false,'Wing','E','2024-07-08',5.23,false,'Builds/Gundams/BibiWingG.html',false,'2025-11-17',models[54],
@@ -9711,8 +9756,55 @@ const projects = [
     ['Snow White',[1,'Wing Zero'],'MG',false,false,false,'Wing','B'],
     ['Snow White [RG]',[1,'Wing Zero'],'RG',false,false,false,'Wing','B'],
     ['Snow White [SD]',[1,'Wing Zero'],'SD',false,false,false,'Wing','A'],
-    ['Wing Zero KA [MG]',[1,'Wing Zero','GFFMC Wings For MG Wing Zero'],'MG',
-        true,false,false,'Wing','C','2022-06-05',10.83,false,'Builds/Specials/MGWingKAStr.html',false,'2026-03-23'
+    ['Wing Zero EW KA [MG]',[1,'MG Wing Zero EW KA'/*,'GFFMC Wings For MG Wing Zero'*/],'MG',
+        true,false,false,'Wing','E','2022-06-05',31.92,false,'Builds/Specials/MGWingKAStr.html',false,'2026-03-26',models[32],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA01.jpeg'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA02.jpeg'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA03.jpeg'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA04.jpeg'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA05.jpeg'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA06.jpeg'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA07.jpeg'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA08.jpeg'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA09.jpeg'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA10.jpeg'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA11.jpeg'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA12.jpeg'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA13.jpeg'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA14.jpeg'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA15.jpeg'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA16.jpeg'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA17.jpeg'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA18.jpeg'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA19.jpeg'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA20.jpeg'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA21.jpeg'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA22.jpeg'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA23.jpeg'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA24.jpeg'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA25.jpeg'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA26.jpeg'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA27.jpeg'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA28.jpeg'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA29.jpeg'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA30.jpeg'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA31.jpeg'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA32.jpeg'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA33.jpeg'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA34.jpeg'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA35.jpeg'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA36.jpeg'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA37.jpeg'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA38.jpeg'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA39.jpeg']
+        ],['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA02.jpeg','Profile Photo: Zero Rouge'],
+        'Zero\'s my favorite so when they released the new KA version kit I bought six. Got something special planned for this kit in the future but had to do the straight build first just to test it out.',false,
+        [
+            ['USA Gundam Store','https://www.usagundamstore.com/products/sd-gundam-ex-standard-004-wing-gundam-zero-ew'],
+            //['USA: GFFMC Wings For MG Wing Zero','https://www.usagundamstore.com/products/gffmc-wings-for-mg-wing-zero-ver-ka'],
+            ['NewType','https://newtype.us/p/45Fua4fQqzU098WNMZPF/h/sdex-standard-04-wing-gundam-zero-ew']
+        ],false,false,true,'1:100'//,false,'Proto Snow White','Proto Snow'
     ],
     ['Perfect Zero',[1,'Wing Gundam'],'PG',
         true,false,false,'Wing','D','2024-03-22',17.25,true,'Builds/PG/PGWingZero.html',false,'2026-03-23'
@@ -18067,6 +18159,7 @@ let pbFilter = [];
 let ledFilter = [];
 let straightFilter = [];
 let paintFilter = [];
+let zeroFilter = [];
 let mgexFilter = [];
 let creatureFilter = [];
 let mechaFilter = [];
@@ -20087,6 +20180,9 @@ function buildFilterArrays() {
             if(postedArray[i][5]) {
                 mgexFilter.push(postedArray[i]);
             }
+            if (postedArray[i][14]===models[31]||postedArray[i][14]===models[32]||postedArray[i][14]===models[190]) {
+                zeroFilter.push(postedArray[i]);
+            }
         }
     }
 
@@ -20129,6 +20225,7 @@ function buildFilterArrays() {
     ledFilter = sortByDate(ledFilter,'post').reverse();
     straightFilter = sortByDate(straightFilter,'post').reverse();
     paintFilter = sortByDate(paintFilter,'post').reverse();
+    zeroFilter = sortByDate(zeroFilter,'post').reverse();
     mgexFilter = sortByDate(mgexFilter,'post').reverse();
 }
 
@@ -20178,6 +20275,7 @@ function buildsClear() {
     hide('.pbPara');
     hide('.strPara');
     hide('.paintPara');
+    hide('.zeroPara');
     hide('.mechaPara');
     hide('.creaturePara');
     hide('.peoplePara');

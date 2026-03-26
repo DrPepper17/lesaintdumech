@@ -1431,17 +1431,41 @@ function popEpisodes(array,id) {
         strongNode.appendChild(titleNode);
     }
 
+    let completionRate = purchasedCt/array.length;
     let purchNode = document.getElementById(id+'Purch');
     let totalNode = document.getElementById(id+'Total');
     let completeNode = document.getElementById(id+'Comp');
+    let seasonNode = document.getElementById(id+'Season');
 
     let purchTextNode = document.createTextNode(purchasedCt+' ');
     purchNode.appendChild(purchTextNode);
     let totalTextNode = document.createTextNode(array.length);
     totalNode.appendChild(totalTextNode);
-    let completeTextNode = document.createTextNode((purchasedCt/array.length*100).toFixed(2)+'%');
+    let completeTextNode = document.createTextNode((completionRate*100).toFixed(2)+'%');
     completeNode.appendChild(completeTextNode);
 
+    if (id!='ListPRMT' && id!='ListOTHER') {
+        let seasonStatus = 0;
+        let imgSrc = document.createAttribute('src');
+        let srcText = "img/SP/UncheckBox.png";
+        let tooltipAtr = document.createAttribute('title');
+        let tooltipText = 'No Episodes Purchased';
+        if (completionRate > 0) {
+            seasonStatus = 1;
+            srcText = "img/SP/CheckedBox2.png";
+            tooltipText = 'Few episodes purchased. Season Incomplete.';
+        }
+        if (completionRate === 1) {
+            seasonStatus = 2;
+            srcText = "img/SP/CartmanDollarSigns.png";
+            tooltipText='All episodes purchased. Season Complete!';
+        }
+        
+        imgSrc.value=srcText;
+        seasonNode.setAttributeNode(imgSrc);
+        tooltipAtr.value=tooltipText;
+        seasonNode.setAttributeNode(tooltipAtr);
+    }
 }
 
 function generateModalFrame() {
