@@ -9759,51 +9759,51 @@ const projects = [
     ['Wing Zero EW KA [MG]',[1,'MG Wing Zero EW KA'/*,'GFFMC Wings For MG Wing Zero'*/],'MG',
         true,false,false,'Wing','E','2022-06-05',31.92,false,'Builds/Specials/MGWingKAStr.html',false,'2026-03-26',models[32],
         [
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA01.jpeg'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA02.jpeg'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA03.jpeg'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA04.jpeg'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA05.jpeg'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA06.jpeg'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA07.jpeg'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA08.jpeg'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA09.jpeg'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA10.jpeg'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA11.jpeg'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA12.jpeg'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA13.jpeg'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA14.jpeg'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA15.jpeg'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA16.jpeg'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA17.jpeg'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA18.jpeg'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA19.jpeg'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA20.jpeg'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA21.jpeg'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA22.jpeg'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA23.jpeg'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA24.jpeg'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA25.jpeg'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA26.jpeg'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA27.jpeg'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA28.jpeg'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA29.jpeg'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA30.jpeg'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA31.jpeg'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA32.jpeg'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA33.jpeg'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA34.jpeg'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA35.jpeg'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA36.jpeg'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA37.jpeg'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA38.jpeg'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA39.jpeg']
-        ],['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA02.jpeg','Profile Photo: Zero Rouge'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA01.jpeg','MG Wing Zero EW KA'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA02.jpeg','MG Wing Zero EW KA'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA03.jpeg','MG Wing Zero EW KA'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA04.jpeg','MG Wing Zero EW KA'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA05.jpeg','MG Wing Zero EW KA'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA06.jpeg','MG Wing Zero EW KA'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA07.jpeg','MG Wing Zero EW KA'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA08.jpeg','MG Wing Zero EW KA'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA09.jpeg','MG Wing Zero EW KA'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA10.jpeg','MG Wing Zero EW KA'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA11.jpeg','MG Wing Zero EW KA'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA12.jpeg','MG Wing Zero EW KA'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA13.jpeg','MG Wing Zero EW KA'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA14.jpeg','MG Wing Zero EW KA'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA15.jpeg','MG Wing Zero EW KA'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA16.jpeg','MG Wing Zero EW KA'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA17.jpeg','MG Wing Zero EW KA'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA18.jpeg','MG Wing Zero EW KA'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA19.jpeg','MG Wing Zero EW KA'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA20.jpeg','MG Wing Zero EW KA'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA21.jpeg','MG Wing Zero EW KA'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA22.jpeg','MG Wing Zero EW KA'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA23.jpeg','MG Wing Zero EW KA'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA24.jpeg','MG Wing Zero EW KA'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA25.jpeg','MG Wing Zero EW KA'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA26.jpeg','MG Wing Zero EW KA'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA27.jpeg','MG Wing Zero EW KA'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA28.jpeg','MG Wing Zero EW KA'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA29.jpeg','MG Wing Zero EW KA'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA30.jpeg','MG Wing Zero EW KA'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA31.jpeg','MG Wing Zero EW KA'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA32.jpeg','MG Wing Zero EW KA'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA33.jpeg','MG Wing Zero EW KA'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA34.jpeg','MG Wing Zero EW KA'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA35.jpeg','MG Wing Zero EW KA'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA36.jpeg','MG Wing Zero EW KA'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA37.jpeg','MG Wing Zero EW KA'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA38.jpeg','MG Wing Zero EW KA'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA39.jpeg','MG Wing Zero EW KA']
+        ],['https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA02.jpeg','Profile Photo: MG Wing Zero EW KA'],
         'Zero\'s my favorite so when they released the new KA version kit I bought six. Got something special planned for this kit in the future but had to do the straight build first just to test it out.',false,
         [
-            ['USA Gundam Store','https://www.usagundamstore.com/products/sd-gundam-ex-standard-004-wing-gundam-zero-ew'],
+            ['USA Gundam Store','https://www.usagundamstore.com/products/mg-1-100-wing-gundam-zero-ew-ver-ka'],
             //['USA: GFFMC Wings For MG Wing Zero','https://www.usagundamstore.com/products/gffmc-wings-for-mg-wing-zero-ver-ka'],
-            ['NewType','https://newtype.us/p/45Fua4fQqzU098WNMZPF/h/sdex-standard-04-wing-gundam-zero-ew']
+            ['NewType','https://newtype.us/p/e7KmRy1zht0re8Jspj3L/h/mg-wing-gundam-zero-ew-verka']
         ],false,false,true,'1:100'//,false,'Proto Snow White','Proto Snow'
     ],
     ['Perfect Zero',[1,'Wing Gundam'],'PG',
@@ -14476,7 +14476,7 @@ const projects = [
         false,false,false,'UC','A'
     ],
     ['Master Ball',[1,'Podball 08 MS'],'MG',
-        false,false,false,'UC','A'
+        false,false,false,'UC','B'
     ],
     ['Ridley',[1,'Qubeley'],'HG',false,false,false,'UC','A'],
     ['GunChef',[1,'RX-78-2'],'RG',false,false,false,'UC','A'],
@@ -19526,6 +19526,30 @@ function sortByName(array) {
     return tempArray;
 }
 
+function sortByProjectName(array) {
+    let namesArray = [];
+
+    for (let i=0;i<array.length;i++) {
+        if (array[i][26]) {
+            array[i][0]=array[i][26];
+        }
+        namesArray.push(array[i][0]);
+    }
+
+    namesArray.sort();
+
+    let tempArray = [];
+    for (let j=0;j<namesArray.length;j++) {
+        for (let k=0;k<array.length;k++) {
+            if (array[k][0] == namesArray[j]) {
+                tempArray.push(array[k]);
+            }
+        }
+    }
+    console.log(tempArray);
+    return tempArray;
+}
+
 function sortByDexNumber(array) {
     let numArray = [false];
     for (let i=0;i<array.length;i++) {
@@ -20180,7 +20204,7 @@ function buildFilterArrays() {
             if(postedArray[i][5]) {
                 mgexFilter.push(postedArray[i]);
             }
-            if (postedArray[i][14]===models[31]||postedArray[i][14]===models[32]||postedArray[i][14]===models[190]) {
+            if (postedArray[i][14]==models[31]||postedArray[i][14]==models[32]||postedArray[i][14]==models[190]) {
                 zeroFilter.push(postedArray[i]);
             }
         }
@@ -20225,8 +20249,9 @@ function buildFilterArrays() {
     ledFilter = sortByDate(ledFilter,'post').reverse();
     straightFilter = sortByDate(straightFilter,'post').reverse();
     paintFilter = sortByDate(paintFilter,'post').reverse();
-    zeroFilter = sortByDate(zeroFilter,'post').reverse();
+    //zeroFilter = sortByDate(zeroFilter,'post').reverse();
     mgexFilter = sortByDate(mgexFilter,'post').reverse();
+    zeroFilter = sortByProjectName(zeroFilter);
 }
 
 function buildsClear() {

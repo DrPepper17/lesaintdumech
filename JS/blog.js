@@ -4561,6 +4561,30 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/Eury10.jpeg']
         ]
+    ],
+    [
+        ['2026-03-27','20260327A'],
+        'The Cherub Rises',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA35.jpeg',
+        [
+            [
+                'I\'m way too late at posting this week. So before the week\'s over I better pump this out to you. I present to you now a straight build of the ',
+                ['Master Grade Wing Zero EW KA','Builds/Specials/MGWingKAStr.html'],
+                '.'
+            ]
+        ],
+        [
+            'Also I have to say, the Bandai brand decals are terrible. I was going to pose this in the Neo Bird and get some photos of that for you. But the more I started jerking this around the more the decals started flaking off. Which made me start to get irate cause I spent around 12 hours applying all 300+ of them, so I gave up on that. So enjoy some very stale action poses.'
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA29.jpeg']
+        ],
+        [
+            'More to come soon.'
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA39.jpeg']
+        ]
     ]
 ]
 
