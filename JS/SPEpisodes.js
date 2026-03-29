@@ -198,7 +198,7 @@ const EPISODES = [
     [false,57,4,9,'Do The Handicapped Go To Hell',
         20,"2000-07-19",false,410,false,'TV-MA','Trey Parker','Trey Parker',2.24,false,['Saddam Hussein','Gene Siskel','Pope John Paul II','Walter Matthau','Adolf Hitler','Allen Ginsberg','Conan O\'Brien','Dean Martin','Diana, Princess of Wales','Frank Sinatra','George Burns','Jerry Garcia','John F. Kennedy & John F. Kennedy Jr.','Mao Zedong','Tiny Tim','Michael Landon'],false,'While the boys race to make their first Confession and Holy Communion, Saddam Hussein returns to the underworld to rekindle his relationship with his former lover, Satan, the prince of darkness.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE410.jpeg',8.3
     ],
-    [false,58,4,10,'Probably',
+    [true,58,4,10,'Probably',
         22,"2000-07-26",false,411,false,'TV-MA','Trey Parker','Trey Parker',2.01,false,['Saddam Hussein','Henry Winkler'],false,'Cartman\'s flock begins to grow and the children begin plans to build him a Church. Meanwhile, Satan is torn between two lovers: his new boyfriend, Chris, and his ex, Saddam Hussein; meanwhile, Cartman becomes an evangelist as he and the boys try to assure their places in heaven.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE411.jpeg',8.2
     ],
     [false,59,4,11,'Fourth Grade',

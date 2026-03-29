@@ -4585,6 +4585,55 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/WingZeroEWKA39.jpeg']
         ]
+    ],
+    [
+        ['2026-03-28','20260328A'],
+        'The Exalted Seraph',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/ProtoSnowWhite117.jpeg',
+        [
+            [
+                'The week\'s not over yet and I could not just leave you all hanging with a simple straight build. For this project it was never just bout the Master Grade Wing Zero EW KA kit. I had to do a little bit something more. So I bring you the upgraded ',
+                ['Prototype Snow White','Builds/Specials/MGWingKAStr.html'],
+                '.'
+            ]
+        ],
+        [
+            'So I\'ve been fascinated for a while by the successor to Zero for quite a while, the Snow White Prelude from Gundam Frozen Tear Drop. But so far the manga for that has not come to United States yet, nor have we even seen a production for an anime version. Therefore there have been zero Gundam Kits for the Snow White that the only way to get it is to purchase the Wing Zero Kit and modify it.'
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/Snow_White_Prelude.jpeg']
+        ],
+        [
+            'The biggest setback with the Snow White and Zero kit of course though is the introduction to Snow White the third pair of wings, upgrading Zero from a Four Winged Cherub to now a Six Winged Heavenly Seraph. The new additional wing binder is unique enough that ripping the wings from a second Zero kit won\'t quite suffice. Which is what has me back for quite a while from painting a Zero in all white and grey and calling it Snow White.'
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/SnowWhiteMetalBuildAmazon2.jpeg']
+        ],
+        [
+            [
+                'But then one day, to both my luck and my surprise, there popped up on USA Gundam\'s website a listing for a non-Bandai affiliated MG Wing Zero expansion pack for the ',
+                ['Snow White Wing Binders','https://www.usagundamstore.com/products/gffmc-wings-for-mg-wing-zero-ver-ka'],
+                '.'
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/SnowWhiteBox.jpeg']
+        ],
+        [
+            'Immediatley I added three of them to my cart and clicked Check Out.'
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/ProtoSnowWhite032.jpeg']
+        ],
+        [
+            'Which brings us now to this straight build project. Being a new kit and being an off brand non-Bandai product I wanted to test it out first befofe I did a straight build just to get the hang of it. Which I am glad I did because these wings are hard to work with.They are way too top heavy, they fall over easy as well as completely off easy. And they\'re just all around difficult to pose. They\'re bascically just not user friendly at all. So I am sort of back to the drawing board of trying to plan how I am going to build Snow White.'
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/ProtoSnowWhite064.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/ProtoSnowWhite102.jpeg']
+        ]
     ]
 ]
 
