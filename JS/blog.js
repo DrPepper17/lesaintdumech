@@ -4634,6 +4634,35 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/ProtoSnowWhite102.jpeg']
         ]
+    ],
+    [
+        ['2026-04-02','20260402A'],
+        'Blue Water Demon',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/LevGyar19.jpeg',
+        [
+            [
+                'This week, meet the French terror of the seas, ',
+                ['L\u00E9viator','Builds/Pokemon/LevGyar.html'],
+                '. I previously had done the Famous, or Infamous, Red Gyarados, so of course eventually I had to also make the traditional blue sea serpent to go with it.'
+            ]
+        ],
+        [
+            'I explored with the colors quite a lot on this to get it just right. No shinies. All flats. And I cross compared paint cards of several shades of blue to get it just right. All from Vallejo of course. In the end I think I found just the right now. Forgot which one though so I could not possibly tell you. Though it may be something Pacific Blue. Or maybe a Mediterranean Blue. Not quite sure.'
+        ],
+        [
+            [
+                ['Youtube','https://youtu.be/8Tfoc8lh6Bg',true]
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/LevGyar09.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/LevGyar11.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/LevGyar14.jpeg']
+        ]
     ]
 ]
 

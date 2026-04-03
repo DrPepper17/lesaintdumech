@@ -16474,7 +16474,7 @@ const projects = [
         ],['Unhygienix'],true,true,false,'Lance\'s Gyarados',false,false,false,false,false,'Pokemon Gyarados 52 Model Kit',1
     ],
     ['L\u00E9viator',[1,'Gyarados'],'Pokemon',
-        false,false,false,'','D','2025-09-04',2.52,false,'Builds/Pokemon/LevGyar.html',false,'2026-03-30',models[148],
+        false,false,false,'','E','2025-09-04',2.52,false,'Builds/Pokemon/LevGyar.html',false,'2026-04-02',models[148],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/LevGyar01.jpeg','L\u00E9viator'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/LevGyar02.jpeg','L\u00E9viator'],
@@ -16503,7 +16503,7 @@ const projects = [
             ['Bulbapedia','https://m.bulbapedia.bulbagarden.net/wiki/Gyarados_(Pokemon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/collections/pokapla/products/pokemon-gyarados-52-model-kit'],
             ['NewType','https://newtype.us/p/dOkZZ7AvruhzwIslqHje/h/pokemon-gyarados']
-        ],false,true,false,false,false,false,false,false,false,false,'Pokemon Gyarados 52 Model Kit'
+        ],false,true,true,false,false,false,false,false,false,false,'Pokemon Gyarados 52 Model Kit'
     ],
     ['Skullkraken',[1,'Gyarados'],'Pokemon',
         false,false,false,'','D','2025-10-08',4.56,false,'Builds/Pokemon/SkullGyar.html',false,'2026-06-08',models[148],
