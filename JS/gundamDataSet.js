@@ -9934,8 +9934,14 @@ const projects = [
     ['Zero EW (mg)',[1,'Wing Zero'],'MG',false,false,false,'Wing','B'],
     ['Zero EW (rg)',[1,'Wing Zero'],'RG',false,false,false,'Wing','A'],
     ['Zero EW (sd)',[1,'Wing Zero'],'SD',false,false,false,'Wing','B'],
-    ['Wing Zero [MGSD]',[1,'Wing Zero'],'MGSD',true,false,false,'Wing','C','2024-11-17',6,false],
-    ['Grim',[1,'Wing Zero'],'MGSD',false,false,false,'Wing','D','2025-07-26',25.45,false],
+    ['Wing Zero [MGSD]',[1,'Wing Zero'],'MGSD',
+        true,false,false,'Wing','E','2024-11-17',6,false,'blogArchive.html#20260406A',false,'2026-04-06',models[32],false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/MGSDWZero09.jpeg','Profile Photo: Wing Zero EW MGSD'],
+        false,false,false,false,false,true
+    ],
+    ['Grim',[1,'Wing Zero'],'MGSD',
+        false,false,false,'Wing','D','2025-07-26',25.45,false
+    ],
     ['Rosette',[1,'Wing Zero'],'MGSD',false,false,false,'Wing','A'],
 
     //After War (X)
@@ -19663,7 +19669,6 @@ function sortByProjectName(array) {
             }
         }
     }
-    console.log(tempArray);
     return tempArray;
 }
 

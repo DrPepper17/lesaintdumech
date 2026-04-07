@@ -4663,6 +4663,47 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/LevGyar14.jpeg']
         ]
+    ],
+    [
+        ['2026-04-06','20260406A'],
+        'New MGSD: The Winged One',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/MGSDWZero31.jpeg',
+        [
+            'This came out end of year 2024, which ZERO being my favorite I built IMMEDIATELY!!! but just now getting around to posting this.'
+        ],
+        [ 
+            'Of course for straight builds I don\'t do project pages so expect a longer blog post on this one. If you may have caught on, I\'ve done several Zero posts lately. Sort of on a Zero kick right now. Expect more to come.'
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/MGSDWZero27.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/MGSDWZero01.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/MGSDWZero02.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/MGSDWZero04.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/MGSDWZero05.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/MGSDWZero07.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/MGSDWZero09.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/MGSDWZero21.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/MGSDWZero23.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/MGSDWZero29.jpeg']
+        ]
     ]
 ]
 
