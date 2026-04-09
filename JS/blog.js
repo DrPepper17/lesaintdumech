@@ -4704,6 +4704,44 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/MGSDWZero29.jpeg']
         ]
+    ],
+    [
+        ['2026-04-09','20260409A'],
+        'The Grim Reaper',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/ZeroGrim85.jpeg',
+        [
+            [
+                'I could not let you all off the hook this week with just a straight build. Next up, the MGSD Wing Zero ',
+                ['Grim','Builds/Gundams/GrimZero.html'],
+                '.'
+            ]
+        ],
+        [
+            'This build definitely felt like a labor of love. A lot of planning and detailed work went into designing this one. A lot of deliberation went into plotting the precise shades of grey for each component so that each color blended together and complimented each other. And then the wings themselves a lot of consideration went into how to detail them so that they would not just be one solid flat color but more intricately detailed.'
+        ],
+        [
+            [
+                'Also, even more so than I have on any my prior project, I really do beg that you watch the ',
+                ['Youtube','https://youtu.be/aQAX0-Sp8kE',true],
+                ' video for Grim. A whole lot of painstaking editing went into this to really bring out the beaut of the colrs.'
+
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/ZeroGrim07.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/ZeroGrim11.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/ZeroGrim25.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/ZeroGrim62.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/ZeroGrim81.jpeg']
+        ]
     ]
 ]
 
