@@ -16245,6 +16245,7 @@ const projects = [
             ['NewType','https://newtype.us/p/KGdVbSXFI31j3KmIT1ua/h/pokemon-mega-charizard-y']
         ],['Vercingetorix','Xerxes'],false,true,false,false,false,false,false,false,false,'Pokemon Select Series 38 Mega Charizard Y Model Kit'
     ],
+    ['Ouisticram',[0.25,'Chimchar'],'Pokemon',false,false,false,'','B'],
     ['Boudica',[1,'Dragonite'],'Pokemon',
         false,false,false,'','E','2023-03-11',3.47,false,'Builds/Pokemon/Boudica.html',false,'2023-09-12',models[81],
         [
@@ -16694,6 +16695,7 @@ const projects = [
             ['NewType','https://newtype.us/p/DFQb0Hr6xKX06jqaqPDk/h/pokemon-ho-oh']
         ],['Chanticleerix'],false,true,false,false,false,false,false,false,false,'Pokemon Select Series 5 Ho-Oh Model Kit'
     ],
+    ['Simiabraz',[0.25,'Infernape'],'Pokemon',false,false,false,'','B'],
     ['Eurydice',[1,'Jirachi'],'Pokemon',
         false,false,false,'','E','2025-08-19',1.74,false,'Builds/Pokemon/EuryJiri.html',false,'2026-03-16',models[186],
         [
@@ -16988,6 +16990,7 @@ const projects = [
             ['NewType','https://newtype.us/p/CBSn5RIMRw8C0xpurheh/h/pokemon-mewtwo']
         ],['Monosyllabix'],false,true,false,false,false,false,false,false,false,'Pokemon Select Series 32 Mewtwo Model Kit'
     ],
+    ['Chimpenfeu',[0.25,'Monferno'],'Pokemon',false,false,false,'','B'],
     ['Cyrano',[1,'Pikachu'],'Pokemon',
         false,false,false,'','E','2024-07-05',1.65,false,'Builds/Pokemon/Cyrano.html',false,'2025-06-09',models[165],
         [
@@ -17038,7 +17041,8 @@ const projects = [
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-select-series-6-empoleon-evolution-set-model-kit'],
             ['NewType','https://newtype.us/p/aqpjW7R8h1LfOuf88CK1/h/pokemon-empoleon-evolution-set'],
         ],false,true,false,false,false,false,false,false,false,false,'Pokemon Select Series 6 Empoleon Evolution Set Model Kit'
-    ],
+    ],  //Empoleon set
+    ['Tony Danza',[0.25,'Pikachu'],'Pokemon',false,false,false,'','B'], //Infernape Set
     ['Picanmix',[1,'Piplup'],'Pokemon',
         false,false,false,'','E','2023-11-25',3.95,false,'Builds/Pokemon/Pican.html',false,'2025-02-20',models[153],
         [
@@ -17510,6 +17514,7 @@ const projects = [
             ['NewType','https://newtype.us/p/Bh64h14GeIoFui3kPjy4/h/pokemon-model-kit-quick-14-tepig']
         ],false,false,true,false,false,false,false,false,false,false,'Pokemon Tepig 14 Quick Model Kit'
     ], 
+    ['Iks',[1,'Xerneas'],'Pokemon',false,false,false,'','B'],
     ['Igrec',[1,'Yveltal'],'Pokemon',false,false,false,'','B'],
     ['Prolix',[1,'Zekrom'],'Pokemon',
         false,false,false,'','E','2023-12-13',4.05,false,'Builds/Pokemon/ProlixZekrom.html',false,'2025-08-18',models[170],
