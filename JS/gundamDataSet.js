@@ -9924,7 +9924,15 @@ const projects = [
         ],false,false,true,'1:100',false,'Proto Snow White','Proto Snow'
     ],
     ['Perfect Zero',[1,'Wing Gundam'],'PG',
-        true,false,false,'Wing','D','2024-03-22',17.25,true,'Builds/PG/PGWingZero.html',false,'2026-03-23'
+        true,false,false,'Wing','E','2024-03-22',17.25,true,'Builds/PG/PGWingZero.html',false,'2026-04-20',models[32],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/ProtoSnowWhite102.jpeg','Snow White Prototype']
+        ],['https://hosting.photobucket.com/images/i/lesaintdumech/ProtoSnowWhite033.jpeg','Profile Photo: Snow White Prototype'],
+        'Description',false,
+        [
+            ['USA Gundam Store','https://www.usagundamstore.com/products/pre-order-pg-wing-gundam-zero-custom'],
+            ['NewType','https://newtype.us/p/ra34tbK4AMAdJtKt9Lka/h/pg-wing-gundam-zero-custom']
+        ],false,false,false,'1:60'
     ],
     //Zero Project Name Idea: ABSOLUTE ZERO
     //Zero Project Name Idea: MINUS ZERO
