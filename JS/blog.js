@@ -4742,6 +4742,30 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/ZeroGrim81.jpeg']
         ]
+    ],
+    [
+        ['2026-04-14','20260414A'],
+        'Penguins on Parade',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/Tipluff11.jpeg',
+        [
+            [
+                'Thought the last Piplup I did was pretty cute. So I had to paint an even cuter and even smaller one. This week I present to you ',
+                ['Tiplouf','Builds/Pokemon/Tiplup.html'],
+                '.'
+            ]
+        ],
+        [
+            'It\'s so small. So tiny. So cute. Like the tinyness of this build makes me just want to shove it in my mother\'s shadow box. Although due to the small size it is rather a simple build. Not much challenge at all. No complex part. No articulation of movement. It\'s pretty stagnant and just sits there. For an experienced hobbyist seeking to challenge their skill, this kit has nothing to offer. But its adorableness makes me willing to overlook all that.'
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/Tipluff08.jpeg']
+        ],
+        [
+            'Also the size differential between this Piplup build and the standalone single Piplup kit is pretty amazing to behold. Liker seriously, when placed side by side it\'s like just wow.'
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/Tipluff10.jpeg']
+        ]
     ]
 ]
 

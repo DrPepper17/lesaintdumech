@@ -17062,7 +17062,7 @@ const projects = [
         ],['Dark Samus: Echoes'],false,true,false,false,false,false,false,false,false,'Pokemon Piplup 06 Quick Model Kit'
     ],
     ['Tiplouf',[0.25,'Piplup'],'Pokemon',
-        false,false,false,'','D','2025-09-07',1.1,false,'Builds/Pokemon/Tiplup.html',false,'2026-04-13',models[153],
+        false,false,false,'','E','2025-09-07',1.1,false,'Builds/Pokemon/Tiplup.html',false,'2026-04-13',models[153],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Tipluff01.jpeg','Tiplouf'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Tipluff02.jpeg','Tiplouf'],
@@ -17077,13 +17077,13 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Tipluff11.jpeg','Tiplouf']
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/Tipluff08.jpeg','Profile Photo: Tiplouf'],
-        'Description',false,
+        'All Vallejo flats. Stuck to mostly the original design. Thought the yellow of the beak and feet were too light so did darken those a little. Also it\'s so cute cause it\'s so tiny.',false,
         [
         //    ['Video','https://youtu.be/th1wuteb_XA'],
             ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Piplup_(Pokemon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-select-series-6-empoleon-evolution-set-model-kit'],
             ['NewType','https://newtype.us/p/aqpjW7R8h1LfOuf88CK1/h/pokemon-empoleon-evolution-set'],
-        ],['Prinplouf','Pingol\u00E9on'],true,false,false,false,false,false,false,false,false,'Pokemon Select Series 6 Empoleon Evolution Set Model Kit'
+        ],['Prinplouf','Pingol\u00E9on'],false,true,false,false,false,false,false,false,false,'Pokemon Select Series 6 Empoleon Evolution Set Model Kit'
     ],
     ['Prinplouf',[0.25,'Prinplup'],'Pokemon',
         false,false,false,'','D','2025-09-07',1.01,false,'Builds/Pokemon/Priplup.html',false,'2026-04-17',models[187],
@@ -17111,7 +17111,7 @@ const projects = [
             ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Prinplup_(Pokémon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-select-series-6-empoleon-evolution-set-model-kit'],
             ['NewType','https://newtype.us/p/aqpjW7R8h1LfOuf88CK1/h/pokemon-empoleon-evolution-set'],
-        ],['Tiplouf','Pingol\u00E9on'],true,false,false,false,false,false,false,false,false,'Pokemon Select Series 6 Empoleon Evolution Set Model Kit'
+        ],['Tiplouf','Pingol\u00E9on'],false,false,false,false,false,false,false,false,false,'Pokemon Select Series 6 Empoleon Evolution Set Model Kit'
     ],
     ['Postaldistrix',[1,'Raikou'],'Pokemon',
         false,false,false,'','E','2024-09-13',2.75,false,'Builds/Pokemon/PostRai.html',false,'2025-11-10',models[172],
