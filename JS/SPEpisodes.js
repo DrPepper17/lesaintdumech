@@ -1931,6 +1931,9 @@ function generateModalFrame() {
             let episodeLinkClass = document.createAttribute('class');
             episodeLinkClass.value = 'mx-1';
             episodeLink.setAttributeNode(episodeLinkClass);
+            let episodeLinkTarget = document.createAttribute('target');
+            episodeLinkTarget.value = '_blank';
+            episodeLink.setAttributeNode(episodeLinkTarget);
             SPStudioPara.appendChild(episodeLink);
 
             let episodeLogo = document.createElement('img');
@@ -1976,6 +1979,9 @@ function generateModalFrame() {
                 let appleLinkClass = document.createAttribute('class');
                 appleLinkClass.value = 'mx-1';
                 appleLink.setAttributeNode(appleLinkClass);
+                let appleLinkTarget = document.createAttribute('target');
+                appleLinkTarget.value = '_blank';
+                appleLink.setAttributeNode(appleLinkTarget);
                 purchPara.appendChild(appleLink);
 
                 let appleLogo = document.createElement('img');
@@ -1996,6 +2002,9 @@ function generateModalFrame() {
                 let amazonLinkClass = document.createAttribute('class');
                 amazonLinkClass.value = 'mx-1';
                 amazonLink.setAttributeNode(amazonLinkClass);
+                let amazonLinkTarget = document.createAttribute('target');
+                amazonLinkTarget.value = '_blank';
+                amazonLink.setAttributeNode(amazonLinkTarget);
                 purchPara.appendChild(amazonLink);
 
                 let amazonLogo = document.createElement('img');
@@ -2017,6 +2026,9 @@ function generateModalFrame() {
                 let youTubeLinkClass = document.createAttribute('class');
                 youTubeLinkClass.value = 'mx-1';
                 youTubeLink.setAttributeNode(youTubeLinkClass);
+                let youTubeLinkTarget = document.createAttribute('target');
+                youTubeLinkTarget.value = '_blank';
+                youTubeLink.setAttributeNode(youTubeLinkTarget);
                 purchPara.appendChild(youTubeLink);
 
                 let youTubeLogo = document.createElement('img');
@@ -2026,6 +2038,7 @@ function generateModalFrame() {
                 let youTubeLogoHeight = document.createAttribute('height');
                 youTubeLogoHeight.value = '50px';
                 youTubeLogo.setAttributeNode(youTubeLogoHeight);
+                
                 youTubeLink.appendChild(youTubeLogo);
                 
             }
@@ -2048,6 +2061,9 @@ function generateModalFrame() {
             let prmtLinkAHREF = document.createAttribute('href');
             prmtLinkAHREF.value = 'https://www.paramountplus.com/';
             prmtLinkA.setAttributeNode(prmtLinkAHREF);
+            let prmtLinkATarget = document.createAttribute('target');
+            prmtLinkATarget.value = '_blank';
+            prmtLinkA.setAttributeNode(prmtLinkATarget);
             prmtCol1Node.appendChild(prmtLinkA);
 
             let prmtIMG = document.createElement('img');
@@ -2072,6 +2088,9 @@ function generateModalFrame() {
             let prmtLinkBHREF = document.createAttribute('href');
             prmtLinkBHREF.value = 'https://www.paramountplus.com/';
             prmtLinkB.setAttributeNode(prmtLinkBHREF);
+            let prmtLinkBTarget = document.createAttribute('target');
+            prmtLinkBTarget.value = '_blank';
+            prmtLinkB.setAttributeNode(prmtLinkBTarget);
             prmtCol2Node.appendChild(prmtLinkB);
 
             let prmtPara = document.createElement('p');

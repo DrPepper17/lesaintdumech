@@ -4766,6 +4766,41 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/Tipluff10.jpeg']
         ]
+    ],
+    [
+        ['2026-04-23','20260423A'],
+        'Stone Mosaic Break',
+        'https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/432165d9-546a-41da-a1a5-f2082234b779.jpeg',
+        [
+            'Taking bit of a break this week. Did not intend to. Just been swamped at work and things outside the house. So no new post. Had something cool lined up for you though, and it\'s so worth it. Just will have to wait two more weeks. My apologies. Got lots of new things under the airbrush for you soon though to make up for it. In the meantime though just to wet your appetite a little. Enjoy some pretty stone shields.'
+        ],
+        [
+            'Won\'t tell you exactly which kit they\'re from. I\'ll leave you guessing. But to any true 2000s late night Tunami/Adult Swim Gundam fan they should be blatantly obvious. But just something from a little art project I did end year 2025 that was more art and color inspired than mobile suit theme based. I\'ll unveil the full project sometime later this year. Just still holding off for later after some other projects have been reveiled.'
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/SHLD01.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/SHLD02.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/SHLD03.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/SHLD04.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/SHLD05.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/SHLD06.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/SHLD07.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/SHLD08.jpeg']
+        ]
     ]
 ]
 
