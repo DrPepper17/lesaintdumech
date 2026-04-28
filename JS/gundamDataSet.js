@@ -8897,10 +8897,10 @@ const projects = [
 
     //Advanced Generation (Age)
     ['A2MG',[1,'AGE-2 Normal'],'MG',true,false,false,'AGE','D','2025-10-02',3.75],
-    ['A2DMG',[1,'AGE-2 Dark Hound'],'MG',true,false,false,'AGE','C','2026-04-23',0],
+    ['A2DMG',[1,'AGE-2 Dark Hound'],'MG',true,false,false,'AGE','C','2026-04-23',2.08],
     ['Uriel',[1,'Age-FX'],'SD',false,false,false,'Age','B'],
     ['Gamma Draconis',[1,'Danazine'],'HG',false,false,false,'Age','B'],
-    ['Argonaut',[1,'Legilis'],'SD',false,false,false,'Age','C','2026-04-18',1.33],
+    ['Argonaut',[1,'Legilis'],'SD',false,false,false,'Age','C','2026-04-18',2.82],
 
     //After Colony (Wing)
     ['Leo Army',[6,'Leo'],'LEO',false,false,false,'Wing','C','2021-10-03',42.94,false,'Builds/Gundams/LeoArmy.html',false],
@@ -15966,7 +15966,7 @@ const projects = [
             ['Hobby Town','https://www.hobbytown.com/revell-germany-1-24-60s-beetle-type-1-rmx854192/p609173']
         ],['Wilbee'],false,true,'1:24'
     ],
-    ['Feu-Seau',[1,'Pontiac Firebird, 79'],'Car',false,false,false,'Pontiac','C','2026-04-18',0.33,true],
+    ['Feu-Seau',[1,'Pontiac Firebird, 79'],'Car',false,false,false,'Pontiac','C','2026-04-18',1.58,true],
     
     //Pokemon
     ['Cetautomatix',[1,'Arceus'],'Pokemon',
@@ -16003,7 +16003,7 @@ const projects = [
             ['NewType','https://newtype.us/p/1fr1jxjfedNyHnKlr6Gv/h/pokemon-arceus']
         ],false,false,true,false,false,false,false,false,false,false,'Pokemon Select Series 51 Arceus Model Kit'
     ],
-    ['Harmonix',[1,'Mega Blaziken'],'Pokemon',false,false,false,'','A'],
+    ['Harmonix',[1,'Mega Blaziken'],'Pokemon',false,false,false,'',''],
     ['Obelix',[1,'Bulbasaur'],'Pokemon',
         false,false,false,'','E','2023-09-13',3.07,false,'Builds/Pokemon/Obelix.html',false,'2023-10-23',models[94],
         [
@@ -16247,8 +16247,8 @@ const projects = [
             ['NewType','https://newtype.us/p/KGdVbSXFI31j3KmIT1ua/h/pokemon-mega-charizard-y']
         ],['Vercingetorix','Xerxes'],false,true,false,false,false,false,false,false,false,'Pokemon Select Series 38 Mega Charizard Y Model Kit'
     ],
-    ['Ouisticram',[0.25,'Chimchar'],'Pokemon',false,false,false,'','C','2026-04-18',0.37],
-    ['Solochi',[0.25,'Deino'],'Pokemon',false,false,false,'','A'],
+    ['Ouisticram',[0.25,'Chimchar'],'Pokemon',false,false,false,'','C','2026-04-18',0.87],
+    ['Solochi',[0.25,'Deino'],'Pokemon',false,false,false,'','C','2026-04-26',0.23],
     ['Boudica',[1,'Dragonite'],'Pokemon',
         false,false,false,'','E','2023-03-11',3.47,false,'Builds/Pokemon/Boudica.html',false,'2023-09-12',models[81],
         [
@@ -16506,7 +16506,7 @@ const projects = [
             ['NewType','https://newtype.us/p/dwk8jzQtdPBUWYb5VxT3/h/pokemon-greninja']
         ],false,false,true,false,false,false,false,false,false,false,'Pokemon #47 Greninja Model Kit'
     ], 
-    ['Boskara',[0.25,'Grotle'],'Pokemon',false,false,false,'','B'],
+    ['Boskara',[0.25,'Grotle'],'Pokemon',false,false,false,'','C','2026-04-25',0.37],
     ['Brennus',[1,'Groudon'],'Pokemon',
         false,false,false,'','E','2024-02-16',7.78,false,'Builds/Pokemon/Brennus.html',false,'2025-03-03',models[158],
         [
@@ -16699,8 +16699,8 @@ const projects = [
             ['NewType','https://newtype.us/p/DFQb0Hr6xKX06jqaqPDk/h/pokemon-ho-oh']
         ],['Chanticleerix'],false,true,false,false,false,false,false,false,false,'Pokemon Select Series 5 Ho-Oh Model Kit'
     ],
-    ['Trioxhydre',[0.25,'Hydreigon'],'Pokemon',false,false,false,'','B'],
-    ['Simiabraz',[0.25,'Infernape'],'Pokemon',false,false,false,'','C','2026-04-18',0.53],
+    ['Trioxhydre',[0.25,'Hydreigon'],'Pokemon',false,false,false,'','C','2026-04-26',0.53],
+    ['Simiabraz',[0.25,'Infernape'],'Pokemon',false,false,false,'','C','2026-04-18',1.18],
     ['Eurydice',[1,'Jirachi'],'Pokemon',
         false,false,false,'','E','2025-08-19',1.74,false,'Builds/Pokemon/EuryJiri.html',false,'2026-03-16',models[186],
         [
@@ -16995,7 +16995,8 @@ const projects = [
             ['NewType','https://newtype.us/p/CBSn5RIMRw8C0xpurheh/h/pokemon-mewtwo']
         ],['Monosyllabix'],false,true,false,false,false,false,false,false,false,'Pokemon Select Series 32 Mewtwo Model Kit'
     ],
-    ['Chimpenfeu',[0.25,'Monferno'],'Pokemon',false,false,false,'','C','2026-04-18',0.27],
+    ['Chimpenfeu',[0.25,'Monferno'],'Pokemon',false,false,false,'','C','2026-04-18',0.93],
+    ['Peaches',[1,'Peaches'],'Pokemon',false,false,false,'','C','2026-04-25',0.73], 
     ['Cyrano',[1,'Pikachu'],'Pokemon',
         false,false,false,'','E','2024-07-05',1.65,false,'Builds/Pokemon/Cyrano.html',false,'2025-06-09',models[165],
         [
@@ -17047,9 +17048,9 @@ const projects = [
             ['NewType','https://newtype.us/p/aqpjW7R8h1LfOuf88CK1/h/pokemon-empoleon-evolution-set'],
         ],false,true,false,false,false,false,false,false,false,false,'Pokemon Select Series 6 Empoleon Evolution Set Model Kit'
     ],  //Empoleon set
-    ['Tony Danza',[0.25,'Pikachu'],'Pokemon',false,false,false,'','C','2026-04-18',0.12], //Infernape Set
-    ['Squeaky',[0.25,'Pikachu'],'Pokemon',false,false,false,'','B'], //Torterra Set
-    ['Nibbles',[0.25,'Pikachu'],'Pokemon',false,false,false,'','B'], //Hydreigon Set
+    ['Tony Danza',[0.25,'Pikachu'],'Pokemon',false,false,false,'','C','2026-04-18',0.38], //Infernape Set
+    ['Squeaky',[0.25,'Pikachu'],'Pokemon',false,false,false,'','C','2026-04-25',0.13], //Torterra Set
+    ['Nibbles',[0.25,'Pikachu'],'Pokemon',false,false,false,'','C','2026-04-26',0.13], //Hydreigon Set
     ['Picanmix',[1,'Piplup'],'Pokemon',
         false,false,false,'','E','2023-11-25',3.95,false,'Builds/Pokemon/Pican.html',false,'2025-02-20',models[153],
         [
@@ -17105,7 +17106,7 @@ const projects = [
         ],['Prinplouf','Pingol\u00E9on'],false,true,false,false,false,false,false,false,false,'Pokemon Select Series 6 Empoleon Evolution Set Model Kit'
     ],
     ['Prinplouf',[0.25,'Prinplup'],'Pokemon',
-        false,false,false,'','D','2025-09-07',1.01,false,'Builds/Pokemon/Priplup.html',false,'2026-04-17',models[187],
+        false,false,false,'','E','2025-09-07',1.01,false,'Builds/Pokemon/Priplup.html',false,'2026-04-27',models[187],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/PrinPin01.jpeg','Prinplouf'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/PrinPin02.jpeg','Prinplouf'],
@@ -17124,13 +17125,13 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/PrinPin15.jpeg','Prinplouf']
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/PrinPin13.jpeg','Profile Photo: Prinplouf'],
-        'Description',false,
+        false,false,
         [
         //    ['Video','https://youtu.be/th1wuteb_XA'],
             ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Prinplup_(Pokémon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-select-series-6-empoleon-evolution-set-model-kit'],
             ['NewType','https://newtype.us/p/aqpjW7R8h1LfOuf88CK1/h/pokemon-empoleon-evolution-set'],
-        ],['Tiplouf','Pingol\u00E9on'],false,false,false,false,false,false,false,false,false,'Pokemon Select Series 6 Empoleon Evolution Set Model Kit'
+        ],['Tiplouf','Pingol\u00E9on'],false,true,false,false,false,false,false,false,false,'Pokemon Select Series 6 Empoleon Evolution Set Model Kit'
     ],
     ['Postaldistrix',[1,'Raikou'],'Pokemon',
         false,false,false,'','E','2024-09-13',2.75,false,'Builds/Pokemon/PostRai.html',false,'2025-11-10',models[172],
@@ -17521,10 +17522,10 @@ const projects = [
             ['NewType','https://newtype.us/p/Bh64h14GeIoFui3kPjy4/h/pokemon-model-kit-quick-14-tepig']
         ],false,false,true,false,false,false,false,false,false,false,'Pokemon Tepig 14 Quick Model Kit'
     ], 
-    ['Pierre',[0.25,'Torterra'],'Pokemon',false,false,false,'','B'],
-    ['Tortipouss',[0.25,'Turtwig'],'Pokemon',false,false,false,'','B'],
-    ['Iks',[1,'Xerneas'],'Pokemon',false,false,false,'','C','2026-04-18',0.58],
-    ['Igrec',[1,'Yveltal'],'Pokemon',false,false,false,'','C','2026-04-18',1.63],
+    ['Pierre',[0.25,'Torterra'],'Pokemon',false,false,false,'','C','2026-04-25',0.93],
+    ['Tortipouss',[0.25,'Turtwig'],'Pokemon',false,false,false,'','C','2026-04-25',0.2],
+    ['Iks',[1,'Xerneas'],'Pokemon',false,false,false,'','C','2026-04-18',1.87],
+    ['Igrec',[1,'Yveltal'],'Pokemon',false,false,false,'','C','2026-04-18',1.75],
     ['Prolix',[1,'Zekrom'],'Pokemon',
         false,false,false,'','E','2023-12-13',4.05,false,'Builds/Pokemon/ProlixZekrom.html',false,'2025-08-18',models[170],
         [
@@ -17577,7 +17578,7 @@ const projects = [
             ['NewType','https://newtype.us/p/zFxni4eQiVc6SRCMa7Qo/h/pokemon-zekrom']
         ],false,true,true,false,false,false,false,false,false,false,'Pokemon Select Series 14 Zekrom Model Kit'
     ],
-    ['Diamat',[0.25,'Zweilous'],'Pokemon',false,false,false,'','B'],
+    ['Diamat',[0.25,'Zweilous'],'Pokemon',false,false,false,'','C','2026-04-26',0.38],
     
     //Digimon
     ['Heimdall',[1,'Alphamon'],'Digimon',false,false,false,'','B','2024',0],
@@ -18076,7 +18077,7 @@ const projects = [
             ['NewType','https://newtype.us/p/TgNnMiuDbvcowmHCougQ/h/trumpeter-bumblebee-smart-kit']
         ],['Wilbur'],false,true,false
     ],
-    ['Haut Voiture',[1,'Rodimus Prime'],'Transformer',false,false,false,false,'C','2026-04-17',4.42,false,'Builds/Transformers/HautRodimus.html'],
+    ['Haut Voiture',[1,'Rodimus Prime'],'Transformer',false,false,false,false,'C','2026-04-17',5.67,false,'Builds/Transformers/HautRodimus.html'],
     
     //Zoid
     ['Shere Khan',[1,'Blade Liger'],'Zoid',false,false,false,'','B'],

@@ -4801,6 +4801,27 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/SHLD08.jpeg']
         ]
+    ],
+    [
+        ['2026-04-27','20260427A'],
+        'Penguin Parade pt II',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/PrinPin15.jpeg',
+        [
+            [
+                'Another week, another Penguin for the parade, this week I give you penguin # 2 ',
+                ['Prinplouf','Builds/Pokemon/Priplup.html'],
+                '.'
+            ]
+        ],
+        [
+            'A little bit taller than Tiplouf, Prinplup looks so stoic and dapper in his cute little tux.'
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/PrinPin12.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/PrinPin13.jpeg']
+        ]
     ]
 ]
 

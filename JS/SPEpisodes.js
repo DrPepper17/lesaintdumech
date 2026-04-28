@@ -196,7 +196,7 @@ const EPISODES = [
     [false,52,4,4,'Quintuplets',
         20,"2000-04-26",false,403,'Contorting Quintuplets','TV-MA','Trey Parker','Trey Parker',1.81,false,['Janet Reno'],false,'When a family of quintuplets takes up residence in South Park the ensuing media circus fame drives Kenny and his mom all the way to Romania to pursue the fame and spotlight too.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE403.jpeg',7.3,['https://tv.apple.com/us/episode/quintuplets-2000/umc.cmc.29izh7d5pnzt95agnl45lf3ue?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
-    [false,53,4,5,'Cartman Joins NAMBLA',
+    [true,53,4,5,'Cartman Joins NAMBLA',
         22,"2000-06-21",false,406,false,'TV-MA','Eric Stough','Trey Parker',1.82,false,false,false,'Cartman\'s newfound maturity forces him to seek out more mature friends on-line; meanwhile, Kenny actively tries to prevent his parent\'s from having another welfare baby.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE406.jpeg',9.0,['https://tv.apple.com/us/episode/cartman-joins-nambla/umc.cmc.4b7ol5v4lu2dq96xj29ni0oqb?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
     [false,54,4,6,'Cherokee Hair Tampons',
@@ -217,7 +217,7 @@ const EPISODES = [
     [false,59,4,11,'Fourth Grade',
         21,"2000-11-08",false,412,false,'TV-MA','Trey Parker','Trey Parker',3.6,false,false,false,'Fearing their new 4th grade teacher, the kids build a time machine out of Timmy\'s wheelchair to travel back to a happier, easier school year.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE412.jpeg',8.1,['https://tv.apple.com/us/episode/fourth-grade/umc.cmc.ujo132hk18dvklmd4j5uevy9?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
-    [false,60,4,12,'Trapper Keeper',
+    [true,60,4,12,'Trapper Keeper',
         20,"2000-11-15",false,413,false,'TV-MA','Trey Parker','Trey Parker',3.27,false,['Jesse Jackson','Rosie O\'Donnell'],false,'When Cartman finally stops bragging about his new Trapper Keeper, a stranger informs him that it will eventually take over the world and destroy humankind, if they do not destroy it first.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE413.jpeg',8.0,['https://tv.apple.com/us/episode/trapper-keeper/umc.cmc.x8vmshjlbifslx0bszsj6gg?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
     [false,61,4,13,'Helen Keller The Musical',
@@ -967,7 +967,7 @@ const EPISODES = [
     [true,309,24,2,'South ParQ Vaccination Special',
         47,"2021-03-10",false,2402,false,'TV-MA','Trey Parker','Trey Parker',1.74,false,['Jake Angeli','Jeffrey Epstein','Kanye West','Michael Moore','Brad Paisley','Al Gore','Barbra Streisand','Colonel Sanders','David Blaine','Jared Fogle'],false,'The citizens of South ParQ are clamoring for the COVID-19 Vaccine. A hilarious new militant group tries to stop the boys from getting their teacher vaccinated.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2402.jpeg',7.5,['https://tv.apple.com/us/episode/south-parq-vaccination-special/umc.cmc.g5g59ehy0mc2x2o4cpjzg75l?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
-    [false,310,false,false,'South Park: Post COVID',
+    [true,310,false,false,'South Park: Post COVID',
         59,"2021-11-25",true,2403,false,'UNRATED','Trey Parker','Trey Parker',false,false,false,false,'In SOUTH PARK: POST COVID, we find out the answer to the question: what happened to the children who lived through the pandemic? Stan, Kyle, Cartman and Kenny survived, but will never be the same post COVID.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2403.jpeg',7.5,
         [
             'https://tv.apple.com/us/movie/south-park-post-covid/umc.cmc.4ysp9ku03vdflrh75xezzadoc',
@@ -975,7 +975,7 @@ const EPISODES = [
             'https://www.youtube.com/watch?v=3dDTe-DpUOM'
         ]
     ],
-    [false,311,false,false,'South Park: Post COVID: The Return of COVID',
+    [true,311,false,false,'South Park: Post COVID: The Return of COVID',
         62,"2021-12-16",true,2404,false,'UNRATED','Trey Parker','Trey Parker',false,false,['Andrew Cuomo','LeBron James','Jake Angeli','Los Angeles Clippers'],false,'If Stan, Kyle and Cartman could just work together, they could go back in time to make sure Covid never happened and save Kenny\'s life. In SOUTH PARK: POST COVID: THE RETURN OF COVID, traveling back to the past seems to be the easy answer until they meet Victor Chaos.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2404.jpeg',7.5,
         [
             'https://tv.apple.com/us/movie/south-park-post-covid---the-return-of-covid/umc.cmc.6484t42zwdu8nefdgq39c5u77',
@@ -1167,7 +1167,7 @@ function prepLists() {
             Purchased.push(EPISODES[i]);
             PurchaseCount++;
         }
-        else {
+        else if (EPISODES[i][0] != 'BLOCKED') {
             Unpurchased.push(EPISODES[i]);
         }
 
