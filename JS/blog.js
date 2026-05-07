@@ -4822,6 +4822,56 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/PrinPin13.jpeg']
         ]
+    ],
+    [
+        ['2026-05-07','20260507A'],
+        'Straight Tank Business',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/GuntankMGStr02.jpeg',
+        [
+            'Been bit of a busy week that I\'ve been delayed in photographing and getting it uploaded for for you. Guess I\'ll delay it again for two weeks. Did finally get it photographed though so next time, no delays. TO post somehting for you this week though, I give you straight build Master Grade Guntank.'
+        ],
+        [
+            'Of course another straight build means no project page, so instead expect a way longer blog post this week with way more attached photos.'
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/GuntankMGStr04.jpeg']
+        ],
+        [
+            'Guntank was a pretty fun build. Though the treads suck and fall apart ALL THE TIME. I\'m at the point of desperation that I\'m bout ready to just permantly glue them on. Enjoyed the stragith build though. However it gave me some ideas for a cool custom paint build that I cannot wait to do soon.'
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/GuntankMGStr05.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/GuntankMGStr06.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/GuntankMGStr07.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/GuntankMGStr08.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/GuntankMGStr09.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/GuntankMGStr10.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/GuntankMGStr12.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/GuntankMGStr13.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/GuntankMGStr15.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/GuntankMGStr16.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/GuntankMGStr17.jpeg']
+        ]
     ]
 ]
 
