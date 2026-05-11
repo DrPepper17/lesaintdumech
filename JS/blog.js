@@ -4872,6 +4872,44 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/GuntankMGStr17.jpeg']
         ]
+    ],
+    [
+        ['2026-05-11','20260511A'],
+        'It\'s a Penguin Party',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/Pingemperor17.jpeg',
+        [
+            [
+                'It\'s another alternating Pokemon week, and this time I give you the final penguin, the mighty emperor water steel type, ',
+                ['Pingol\u00E9on','Builds/Pokemon/Pingoleo.html'],
+                '.'
+            ]
+        ],
+        [
+            'He\'s the king of the piplups and a mighty sight to behold. Won\'t lie he was fun to build too. And with this I complete the Empoleon evolution set.'
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/Pingemperor04.jpeg']
+        ],
+        [
+            'Have to say I underestimated the evolution set. Since they\'re all so small I expected them to ge quite simple. But I don\'t know why but something about their small size somehow caused the models to be more detailed and required more concentration and effort and time to paint. It was real fun by the end of it. Totally chancged my mind. I am definitrely now reconsidering the other Pokemon Evolution kits.'
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/Pingemperor10.jpeg']
+        ],
+        [
+            [
+                ['Youtube','https://youtu.be/th1wuteb_XA',true]
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/Pingemperor12.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/Pingemperor15.jpeg']
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/Pingemperor16.jpeg']
+        ]
     ]
 ]
 

@@ -1,4 +1,4 @@
-Models Array Structure    
+Models Array Structure
     
 0. ID
 1. Project Type: (category list)
@@ -17,6 +17,9 @@ Models Array Structure
     12. Other
     13. 
 34. Alternate Photos Array
+40. Base Suit (ID#) [an array]
+41. Abbreviated Name (in relation to #28, How base suit is to be listed)
+42. Alternate Category to 29 (Used in pokemon)
 
 // Gundams (1) //
 2. Short Name
@@ -45,8 +48,6 @@ Models Array Structure
 25. Mobile Armor: true/false
 26. original photo (array): ['file path','photo name']
 27. Is a Gundam?
-28. Base Suit (ID#) [an array]
-29. Abbreviated Name (in relation to #28, How base suit is to be listed)
 
 // Ship (fictional): Gundam (2) //
 2. Short Name
@@ -78,8 +79,8 @@ Models Array Structure
 28. Developed from
 29. Developed into
 30. Type
-31. Base Suit (ID#) [an array]
-32. Abbreviated Name (in relation to #28, How base suit is to be listed)
+31. NA
+32. NA
 33. Variants
 
 
@@ -132,13 +133,18 @@ Models Array Structure
 5. Franchise
 ...
 26. original photo (array): ['file path','photo name']
-28. Base Suit (ID#) [an array]
-29. Abbreviated Name (in relation to #28, How base suit is to be listed)
 
 // Digimon (6) //
 2. Name 
 3. Kit Full Name
-4. Level (Stage)
+4. Level (Stage) (Numeric--Category List)
+    1. Fresh
+    2. In Training
+    3. Rookie
+    4. Champion
+    5. Ultimate
+    6. Mega
+    7. Ultra / Mega+
 5. Digivolve From (array)
 6. Digivolve To (array)
 7. Type (i.e Cyborg)
@@ -176,6 +182,7 @@ Models Array Structure
 24. Nickname
 25. 
 26. original photo (array): ['file path','photo name']
+34. Alternate Photos Array
 
 // Transformer (8) //
 2. Name

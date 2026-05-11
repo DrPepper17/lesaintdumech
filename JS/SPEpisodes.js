@@ -35,7 +35,7 @@ const EPISODES = [
     [false,3,1,3,'Weight Gain 4000',
         20,"1997-08-27",false,102,false,'TV-MA','Trey Parker \u0026 Matt Stone','Trey Parker \u0026 Matt Stone',0.72,false,['Kathie Lee Gifford','Geraldo Rivera'],['Kari Turner'],'Mr. Garrison starts the day off with a special announcement; one of South Park\'s own has won a national essay contest. Everyone is shocked to learn that the winner is Cartman, who doesn\'t even remember what he wrote about.','img/SP/SPE102.jpeg',7.5,['https://tv.apple.com/us/episode/weight-gain-4000/umc.cmc.2qh1v0eln8v76q6e0n9w4l9tm?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false],'https://southpark.cc.com/episodes/er4a32/south-park-weight-gain-4000-season-1-ep-2'
     ],
-    [false,4,1,4,'Big Gay Al\'s Big Gay Boat Ride',
+    [true,4,1,4,'Big Gay Al\'s Big Gay Boat Ride',
         20,"1997-09-03",false,104,false,'TV-MA','Trey Parker','Trey Parker \u0026 Matt Stone',0.69,false,['Brian Boitano'],['George Clooney'],'Stan\'s got a new dog-named Sparky. Stan proclaims his pet to be the toughest dog on the mountain. Though while Stan thinks his dog is ready for fighting, Sparky proceeds to hump Sylvester like a little bitch. The other boys taunt Stan about his gay dog and Sparky runs away to find someone who will love him for who he is.','img/SP/SPE104.jpeg',7.6,
         [
             'https://tv.apple.com/us/episode/big-gay-als-big-gay-boatride/umc.cmc.3eh37ays2cnvjki0kcmkgbdwr?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',
@@ -178,7 +178,7 @@ const EPISODES = [
     [true,46,3,15,'Mr. Hankey\'s Christmas Classics',
         22,"1999-12-01",false,315,false,'TV-MA','Trey Parker','Trey Parker',2.79,false,['Adolf Hitler','Alois and Klara Hitler','Diana, Princess of Wales','Gene Siskel','Genghis Khan','Jimmy Stewart','Michael Landon','Mao Zedong','John F. Kennedy & John F. Kennedy Jr'],false,'In an extravaganza of holiday joy comes the Classic hits from " Mr. Hankey\'s Christmas Classics" album - featuring the boys and all of South Park\'s most exuberant citizens.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE315.jpeg',7.2,['https://tv.apple.com/us/episode/mr-hankeys-christmas-classics/umc.cmc.34xe8iydf5mwggbthijafbiik?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
-    [false,47,3,16,'Are You There God? It\'s Me, Jesus',
+    [true,47,3,16,'Are You There God? It\'s Me, Jesus',
         20,"1999-12-29",false,316,false,'TV-MA','Eric Stough','Trey Parker',2.13,false,['Rod Stewart'],false,'Stan goes through a few rapidly wrong hormonal changes, meanwhile people from all over the world start to gather outside Jesus\' house waiting for a millennium miracle.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE316.jpeg',7.8,['https://tv.apple.com/us/episode/are-you-there-god-its-me-jesus/umc.cmc.70l621ccn8myol03i56gvap7p?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
     [false,48,3,17,'World Wide Recorder Concert',

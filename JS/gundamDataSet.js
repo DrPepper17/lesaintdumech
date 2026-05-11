@@ -42,6 +42,7 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/heavyarmsew.jpeg','Gundam Heavyarms EW'],
         true,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [85]
     ],
     [2,1,'Shadow Gundam',
@@ -73,6 +74,7 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/spiegel_pvRFRZsKNqpmuxQ7DdZaoA.jpeg','Spiegel Gundam'],
         true,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [2],
         'Shadow'
     ],
@@ -100,7 +102,9 @@ const models = [
         false,
         false,
         false,
-        ['https://hosting.photobucket.com/images/i/lesaintdumech/57belair.jpeg','Chevy Bel Air']
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/57belair.jpeg','Chevy Bel Air'],
+        false,false,false,false,false,false,false,false,false,false,false,false,false,
+        [3],'Bel Air'
     ],
     [4,4,'Volkswagen Beetle',
         'Volkswagen 1968 Beetle',
@@ -126,7 +130,9 @@ const models = [
         false,
         'Slug Bug',
         false,
-        ['https://hosting.photobucket.com/images/i/lesaintdumech/68beetle.jpeg','68 Volkswagen Beetle']
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/68beetle.jpeg','68 Volkswagen Beetle'],
+        false,false,false,false,false,false,false,false,false,false,false,false,false,
+        [4],'Beetle'
     ],
     [5,8,'Bumblebee',
         'Warrior of Cybertron',
@@ -226,7 +232,9 @@ const models = [
         'Warship',
         false,
         false,
-        'Custom Support Space Ship'
+        'Custom Support Space Ship',
+        false,false,false,false,false,false,false,false,false,
+        [7],'Eternal'
     ],
     [8,3,'Andromeda Black',
         'StarBlazers Andromeda Black',
@@ -284,7 +292,7 @@ const models = [
     ],
     [10,6,'WarGreymon',
         'Figure-rise Standard Amplified WarGreymon',
-        'Mega',
+        6,
         ['Metal Greymon'],
         ['Omnimon'],
         'Dragon Man Warrior',
@@ -305,8 +313,9 @@ const models = [
         false,
         false,
         false,
-        false,
-        ['https://hosting.photobucket.com/images/i/lesaintdumech/wargreymon.jpeg','Wargreymon']
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/wargreymon.jpeg','Wargreymon'],
+        false,false,false,false,false,false,false,false,false,false,false,false,false,false,
+        [10],'Greymon Family'
     ],
     [11,7,'Greninja',
         false,
@@ -332,7 +341,9 @@ const models = [
         false,
         false,
         false,
-        ['https://hosting.photobucket.com/images/i/lesaintdumech/greninja.jpeg','Greninja']
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/greninja.jpeg','Greninja'],
+        false,false,false,false,false,false,false,false,false,false,false,false,false,
+        [193]
     ],
     [12,10,'Diva Red Haro',
         'HaroPla #02 Haro Diva Red Model Kit',
@@ -399,6 +410,7 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/nugundam.jpeg','Nu Gundam'],
         true,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [13],
         'Nu'
     ],
@@ -444,15 +456,17 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/freedom.jpeg','Freedom Gundam'],
         true,
-        [14],
-        'Freedom',
+        false,
+        false,
         false,
         false,
         false,
         false,
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/FreedomShanghai.jpeg','GCP Freedom Gundam']
-        ]
+        ],
+        false,false,false,false,false,
+        [14],'Freedom'
     ],
     [15,2,'Archangel',
         'LCAM-01XA Archangel',
@@ -484,9 +498,11 @@ const models = [
         ['Izumo Class'],
         ['Girty Lue Class'],
         'Limited Production Mobile Assault Battleship',
+        false,
+        false,
+        ['Dominion'],false,false,false,false,false,false,
         [15],
-        'Archangel-Class',
-        ['Dominion']
+        'Archangel-Class'
     ],
     [16,2,'Dominion',
         'LCAM-01XB Dominino',
@@ -518,6 +534,7 @@ const models = [
         ['Izumo Class'],
         false,
         'Limited Production Mobile Assault Battleship',
+        false,false,false,false,false,false,false,false,false,
         [15]
     ],
     [17,1,'Sasuke Delta',
@@ -545,7 +562,7 @@ const models = [
         false,
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/sasukedelta.jpeg','SDW Sasuke Delta'],
-        true,
+        true,false,false,false,false,false,false,false,false,false,false,false,false,
         [82]
     ],
     [18,1,'Crossbone Gundam',
@@ -588,6 +605,7 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/crossbonex1.jpeg','Crossbone Gundam X-1'],
         true,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [18],
         'Crossbone'
     ],
@@ -628,6 +646,7 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/aegis.jpeg','Aegis Gundam'],
         true,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [19],
         'Aegis'
     ],
@@ -673,6 +692,7 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/bansheenorn.jpeg','Banshee Norn'],
         true,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [20],
         'Banshee'
     ],
@@ -717,6 +737,7 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/qant.jpeg','Gundam QAN[T]'],
         true,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [21],
         'QAN[T]'
     ],
@@ -757,6 +778,7 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/doubleo.jpeg','00 Gundam'],
         true,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [22],
         '00'
     ],
@@ -796,6 +818,7 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/daggerl.jpeg','Dagger L'],
         false,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [92]
     ],
     [24,1,'Windam',
@@ -835,6 +858,7 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/windam.jpeg','Windam'],
         false,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [92],
         'Windam'
     ],
@@ -864,6 +888,7 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/daggerexp.jpeg','Dagger DoppleHorn Multi-Launcher Expansion Pack'],
         false,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [23,24,92]
     ],
     [26,1,'Guel\'s Dilanza',
@@ -899,6 +924,7 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/gueldilanza.jpeg','Guel\' Dilanza'],
         false,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [106]
     ],
     [27,1,'Sergeante Verde Buster',
@@ -927,6 +953,7 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/sergeantverdebuster.jpeg','SDW Sergeante Verde Buster'],
         false,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [107]
     ],
     [28,1,'Phenex Gundam',
@@ -963,6 +990,7 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/phenex.jpeg','Phenex Gundam'],
         false,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [28],
         'Phenex'
     ],
@@ -1003,6 +1031,7 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/doublex.jpeg','Gundam Double X'],
         true,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [29],
         'XX'
     ],
@@ -1044,6 +1073,7 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/skygrasper.jpeg','Skygrasper'],
         false,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [30],
         'Skygrasper'
     ],
@@ -1098,6 +1128,7 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/protozero.jpeg','Wing Gundam Proto Zero'],
         true,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [31],
         'Zero'
     ],
@@ -1144,6 +1175,7 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/wingzero.jpeg','Wing Gundam Zero'],
         true,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [31]
     ],
     [33,1,'Destiny Gundam',
@@ -1186,6 +1218,7 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/destinygundam.jpeg','Destiny Gundam'],
         true,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [33],
         'Destiny'
     ],
@@ -1224,6 +1257,7 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/buildstrikefullpackage.jpeg','Build Strike Full Package'],
         true,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [60]
     ],
     [35,1,'Lightning Gundam',
@@ -1259,6 +1293,7 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/lightningg.jpeg','Lightning Gundam'],
         true,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [35],
         'Lightning'
     ],
@@ -1296,6 +1331,7 @@ const models = [
         false,            //boolean
         ['https://hosting.photobucket.com/images/i/lesaintdumech/acguy.jpeg','Acguy'],
         false,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [36],
         'AcGuy'
     ],
@@ -1361,6 +1397,7 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/airmaster.jpeg','Gundam Airmaster'],
         true,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [38],
         'Airmaster'
     ],
@@ -1406,6 +1443,7 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/leopard.jpeg','Gundam Leopard'],
         true,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [39],
         'Leopard'
     ],
@@ -1443,6 +1481,7 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/aquarius.jpeg','Gundam Aquarius'],
         true,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [40],
         'Aquarius'
     ],
@@ -1483,6 +1522,7 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/gundamx.jpeg','Gundam X'],
         true,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [41],
         'X'
     ],
@@ -1519,6 +1559,7 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/deltaplus.jpeg','MSN-001A1 Delta Plus'],
         false,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [42],
         'Delta Plus'
     ],
@@ -1566,6 +1607,7 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/turna.jpeg','Turn A Gundam'],
         true,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [43],
         'Turn-\u2200'
     ],
@@ -1608,6 +1650,7 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/geminass01.jpeg','Gundam Geminass 01'],
         true,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [44],
         'Geminass'
     ],
@@ -1659,6 +1702,7 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/zeta.jpeg','Zeta Gundam'],
         true,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [45],
         'Zeta'
     ],
@@ -1697,6 +1741,7 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/barbatos.jpeg','Gundam Barbatos'],
         true,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [46],
         'Barbatos'
     ],
@@ -1741,6 +1786,7 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/tallgeesei.jpeg','Tallgeese I'],
         false,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [47],
         'Tallgeese'
     ],
@@ -1782,6 +1828,7 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/barbatoslupus.jpeg','Barbatos Lupus'],
         true,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [46]
     ],
     [49,1,'Gundam Barbatos Lupus Rex',
@@ -1821,6 +1868,7 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/barbatoslupusrex.jpeg','Barbatos Lupus Rex'],
         true,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [46]
     ],
     [50,1,'Hashmal',
@@ -1858,6 +1906,7 @@ const models = [
         true,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/hashmal.jpeg','Mobile Armor Hashmal'],
         false,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [50],
         'Hashmal'
     ],
@@ -1902,6 +1951,7 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/strikenoir.jpeg','Stike Noir'],
         true,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [60]
     ],
     [52,1,'Justice Gundam',
@@ -1954,6 +2004,7 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/justice.jpeg','Justice Gundam'],
         true,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [52],
         'Justice'
     ],
@@ -2004,6 +2055,7 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/infjustice.jpeg','Infinite Justice Gundam'],
         true,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [53],
         'Infinite Justice'
     ],
@@ -2045,6 +2097,7 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/wingtv.jpeg','Wing Gundam'],
         true,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [54],
         'Wing'
     ],
@@ -2081,6 +2134,7 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/domtesttype_Large.jpeg','Dom Test Type'],
         false,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [108]
     ],
     [56,1,'Gundam Rose',
@@ -2118,6 +2172,7 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/Gundam_rose_Large.jpeg','Gundam Rose'],
         true,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [56],
         'Rose'
     ],
@@ -2161,6 +2216,7 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/akatsuki_Large.jpeg','Akatsuki Gundam'],
         true,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [57],
         'Akatsuki'
     ],
@@ -2204,6 +2260,7 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/rx93ff.jpeg','RX93ff'],
         true,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [13]
     ],
     [59,1,'Dark Army',
@@ -2243,6 +2300,7 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/deatharmy.jpeg','Dark Army'],
         false,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [109]
     ],
     [60,1,'Strike Gundam',
@@ -2299,6 +2357,7 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/strike_Large.jpeg','Strike Gundam'],
         true,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [60],
         'Strike'
     ],
@@ -2346,11 +2405,12 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/perfectstrike_Large.jpeg','Strike Gundam'],
         true,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [60]
     ],
     [62,6,'MetalGarurumon',
         'Figure-rise Standard Amplified MetalGarurumon',
-        'Mega',
+        6,
         ['WereGarurumon'],
         ['Omnimon'],
         'Cyborg',
@@ -2372,13 +2432,15 @@ const models = [
         false,
         false,
         false,
-        ['https://hosting.photobucket.com/images/i/lesaintdumech/metalgarurumon.jpeg','MetalGarurumon']
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/metalgarurumon.jpeg','MetalGarurumon'],
+        false,false,false,false,false,false,false,false,false,false,false,false,false,
+        [62],'Garurumon Family'
     ],
     [63,6,'Omnimon',
         'Figure-rise Standard Amplified Omegamon',
-        'Ultra',
+        7,
         ['DNA-Digivolution: MetalGarurumon and Wargreymon'],
-        false,
+        ['Omnimon Merficul Mode'],
         'Holy Knight',
         'Vaccine',
         'Light',
@@ -2398,11 +2460,13 @@ const models = [
         'Omegamon',
         'Legendary Warrior',
         false,
-        ['https://hosting.photobucket.com/images/i/lesaintdumech/omnimon_2.jpeg','Omnimon']
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/omnimon_2.jpeg','Omnimon'],
+        false,false,false,false,false,false,false,false,false,false,false,false,false,
+        [63,10,62],'Royal Knights'
     ],
     [64,6,'Gallantmon',
         'Figure-rise Standard Amplified Gallantmon',
-        'Mega',
+        6,
         ['WarGrowlmon'],
         ['Gallantmon Crimson Mode'],
         'Holy Knight',
@@ -2424,7 +2488,9 @@ const models = [
         'Dukemon',
         'Crimson Knight',
         false,
-        ['https://hosting.photobucket.com/images/i/lesaintdumech/gallantmon_2.jpeg','Omnimon']
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/gallantmon_2.jpeg','Omnimon'],
+        false,false,false,false,false,false,false,false,false,false,false,false,false,
+        [63]
     ],
     [65,5,'Hangar Bay',
         '1/144 Gundam Hangar Bay',
@@ -2519,6 +2585,7 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/exia_Large.jpeg','Gundam Exia'],
         true,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [67],
         'Exia'
     ],
@@ -2566,6 +2633,7 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/ooraiser_Large.jpeg','00 Raiser Gundam'],
         true,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [22]
     ],
     [69,1,'Gundam 00 Diver',
@@ -2601,6 +2669,7 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/00diver.jpeg','00 Diver'],
         true,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [22]
     ],
     [70,1,'Gundam Harute',
@@ -2641,6 +2710,7 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/harute.jpeg','Gundam Harute'],
         true,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [70],
         'Harute'
     ],
@@ -2681,6 +2751,7 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/zabanya.jpeg','Gundam Harute'],
         true,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [71],
         'Zabanya'
     ],
@@ -2717,6 +2788,7 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/shinmusha.jpeg','Shin Musha'],
         true,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [110]
     ],
     [73,1,'Eclipse Gundam Maneuver Striker',
@@ -2745,6 +2817,7 @@ const models = [
         false,            //boolean
         ['https://hosting.photobucket.com/images/i/lesaintdumech/maneuverstriker.jpeg','Eclipse Maneuver Strike'],
         false,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [90]
     ],
     [74,9,'Shadow Fox',
@@ -2783,7 +2856,9 @@ const models = [
         false,
         false,
         false,
-        ['https://hosting.photobucket.com/images/i/lesaintdumech/Shadow_Fox_Large.jpeg','Shadow Fox']
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/Shadow_Fox_Large.jpeg','Shadow Fox'],
+        false,false,false,false,false,false,false,false,false,false,false,false,false,
+        [74],'Shadow Fox'
     ],
     [75,1,'Slash Zaku Phantom',
         'ZGMF-1001/K Slash ZAKU Phantom',
@@ -2826,6 +2901,7 @@ const models = [
         false,            //boolean
         ['https://hosting.photobucket.com/images/i/lesaintdumech/zakuphantom_Large.jpeg','Slash Zaku Phantom'],
         false,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [111]
     ],
     [76,1,'Strike-Freedom Gundam',
@@ -2873,6 +2949,7 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/strikefreedom_Large.jpeg','Strike-Freedom Gundam'],
         true,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [76],
         'Strike-Freedom'
     ],
@@ -2917,6 +2994,7 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/GundamNadleeh.jpeg','Gundam Nadleeh'],
         true,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [77],
         'Nadleeh / Virtue'
     ],
@@ -2963,6 +3041,7 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/GundamVirtue.jpeg','Gundam Virtue'],
         true,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [77]
     ],
     [79,7,'Charmander',
@@ -2991,7 +3070,11 @@ const models = [
         false,
         false,
         false,
-        ['https://hosting.photobucket.com/images/i/lesaintdumech/Charmander.jpg','Charmander']
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/Charmander.jpg','Charmander'],
+        false,
+        false,false,false,false,false,false,false,false,false,false,false,false,
+        [79],
+        'Charmander Family'
     ],
     [80,7,'Charizard',
         false,
@@ -3023,8 +3106,8 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/(edited)_charizard.png','Charizard'],
         false,
-        [80],
-        'Charizard'
+        false,false,false,false,false,false,false,false,false,false,false,false,
+        [79]
     ],
     [81,7,'Dragonite',
         false,
@@ -3050,7 +3133,9 @@ const models = [
         false,
         false,
         false,
-        ['https://hosting.photobucket.com/images/i/lesaintdumech/(edited)_dragonite.png','Dragonite']
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/(edited)_dragonite.png','Dragonite'],
+        false,false,false,false,false,false,false,false,false,false,false,false,false,
+        [195]
     ],
     [82,1,'Delta Gundam',
         'MSN-001 Delta Gundam',
@@ -3090,6 +3175,7 @@ const models = [
         false,            //boolean
         ['https://hosting.photobucket.com/images/i/lesaintdumech/delta.jpeg','Delta Gundam'],
         true,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [82],
         'Delta'
     ],
@@ -3119,6 +3205,7 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/verdebusterteammember.jpeg','SDW Verde Buster Team Member'],
         false,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [107]
     ],
     [84,1,'Verde Buster Gundam',
@@ -3158,6 +3245,7 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/verdebuster.jpeg','Verde Buster Gundam'],
         true,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [107]
     ],
     [85,1,'Gundam Heavyarms',
@@ -3203,6 +3291,7 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/HeavyarmsTV.jpeg','Gundam Heavyarms'],
         true,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [85],
         'Heavyarms'
     ],
@@ -3243,6 +3332,7 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/deathscythetv.jpeg','Gundam Deathscythe'],
         true,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [86],
         'Deathscythe'
     ],
@@ -3283,6 +3373,7 @@ const models = [
         false,            //boolean
         ['https://hosting.photobucket.com/images/i/lesaintdumech/shenlongTV_7SpxSMBkPuiHG12bki4vkz.jpeg','Shenlong Gundam'],
         true,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [87],
         'Shenlong'
     ],
@@ -3322,6 +3413,7 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/sandrock.jpeg','Gundam Sandrock'],
         true,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [88],
         'Sandrock'
     ],
@@ -3364,6 +3456,7 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/epyonposter.jpeg','Gundam Epyon'],
         true,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [89],
         'Epyon'
     ],
@@ -3406,6 +3499,7 @@ const models = [
         false,            //boolean
         ['https://hosting.photobucket.com/images/i/lesaintdumech/mgeclipse.jpeg','Eclipse Gundam'],
         true,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [90],
         'Eclipse'
     ],
@@ -3443,6 +3537,7 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/volva.jpeg','Gundv\u00F6lva'],
         false,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [91],
         'Gundv\u00F6lva'
     ],
@@ -3481,6 +3576,7 @@ const models = [
         false,            //boolean
         ['https://hosting.photobucket.com/images/i/lesaintdumech/Strike_Dagger.jpeg','Strike Dagger'],
         false,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [92],
         'Dagger'
     ],
@@ -3520,6 +3616,7 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/dshtv.jpg','Deathscythe Hell (TV Version)'],
         true,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [86]
     ],
     [94,7,'Bulbasaur',
@@ -3548,7 +3645,9 @@ const models = [
         false,
         false,
         false,
-        ['https://hosting.photobucket.com/images/i/lesaintdumech/bulbasaur.jpg','Bulbasaur']
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/bulbasaur.jpg','Bulbasaur'],
+        false,false,false,false,false,false,false,false,false,false,false,false,false,
+        [94],'Bulbasaur Family'
     ],
     [95,1,'Gundam Vidar',
         'ASW-G-XX Gundam Vidar',
@@ -3586,6 +3685,7 @@ const models = [
         false,            //boolean
         ['https://hosting.photobucket.com/images/i/lesaintdumech/Vidar.jpeg','Gundam Vidar'],
         true,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [112]
     ],
     [96,1,'Destiny Impulse Gundam',
@@ -3624,11 +3724,12 @@ const models = [
             'OS: Generation Unrestricted Network Drive Assault Module'
         ],
         false,
-        false,                //boolean
+        false, 
         false,
-        false,            //boolean
+        false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/DestinyImpulse.jpeg','Destiny Impulse'],
-        true,           //boolean
+        true,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [98]
     ],
     [97,1,'Destiny Impulse Gundam R',
@@ -3670,6 +3771,7 @@ const models = [
         false,            //boolean
         ['https://hosting.photobucket.com/images/i/lesaintdumech/DestinyRegenes.jpeg','Destiny Impulse Regenes'],
         true,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [98]
     ],
     [98,1,'Impulse Gundam',
@@ -3708,11 +3810,12 @@ const models = [
             'OS: Generation Unrestricted Network Drive Assault Module'
         ],
         'Kunio Okawara',
-        false,                //boolean
         false,
-        false,            //boolean
+        false,
+        false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/impulse.jpeg','Impulse Gundam'],
-        true,           //boolean
+        true,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [98],
         'Impulse'
     ],
@@ -3756,11 +3859,12 @@ const models = [
             'Psycho-Frame Cockpit'
         ],
         'Yutaka Izubuchi',
-        false,                //boolean
+        false,
         'Red Comet',
-        false,            //boolean
+        false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/sazabi2.jpeg','MSN-04 Sazabi'],
         false,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [99],
         'Sazabi'
     ],
@@ -3806,6 +3910,7 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/(edited)_Sinanjuportrait.png','MSN-06S Sinanju'],
         false,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [113]
     ],
     [101,1,'Sisquiede',
@@ -3843,6 +3948,7 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/sisquiede.jpeg','Sisquiede'],
         false,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [101],
         'Sisquiede'
     ],
@@ -3872,6 +3978,7 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/zhugefreedom.jpeg','SDW Zhuge Liang Freedom Gundam'],
         true,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [14]
     ],
     [103,1,'\u039E Gundam',                 //Xi Gundam
@@ -3910,6 +4017,7 @@ const models = [
         false,            //boolean
         ['https://hosting.photobucket.com/images/i/lesaintdumech/gunxi.jpeg','Xi Gundam'],
         true,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [103],
         'Xi'
     ],
@@ -3979,6 +4087,7 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/maganaccorps.jpg','Maganac Corp Mobile Suit'],
         false,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [105],
         'Maganac'
     ],
@@ -4018,6 +4127,7 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/dilanza.jpeg','Dilanza'],
         false,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [106],
         'Dilanza'
     ],
@@ -4064,6 +4174,7 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/buster.jpeg','Buster Gundam'],
         true,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [107],
         'Buster'
     ],
@@ -4108,6 +4219,7 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/dom.jpeg','Dom'],
         false,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [108],
         'Dom'
     ],
@@ -4146,6 +4258,7 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/ultimategundam.jpeg','Ultimate Gundam'],
         true,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [109],
         'Dark Gundam'
     ],
@@ -4180,6 +4293,7 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/mushagund.jpeg','Musha Gundam'],
         true,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [110],
         'Musha'
     ],
@@ -4231,6 +4345,7 @@ const models = [
         false, 
         ['https://hosting.photobucket.com/images/i/lesaintdumech/zakuwarriorseed.jpeg','Zaku Warrio'],
         false,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [111],
         'Zaku [Cosmic Era]'
     ],
@@ -4269,6 +4384,7 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/kimbooster.jpeg','Gundam Kimaris'],
         true,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [112],
         'Kimaris'
     ],
@@ -4310,7 +4426,8 @@ const models = [
         'Prototype Newtype-use High Mobility Mobile Suit',
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/sinstein.jpeg','Sinanju Stein'],
-        false
+        false,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [113],
         'Sinanju'
     ],
@@ -4352,6 +4469,7 @@ const models = [
         true,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/nightingale.jpeg','Nightingale'],
         false,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [99]
     ],
     [115,1,'Dark Gundam',
@@ -4389,6 +4507,7 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/devilgund.jpeg','Devil Gundam'],
         true,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [109]
     ],
     [116,1,'Cao Cao Wing Gundam Isei',
@@ -4417,6 +4536,7 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/caocaoisei.jpeg','SDW Cao Cao Wing Gundam Isei'],
         true,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [54]
     ],
     [117,10,'Basic Green Haro',
@@ -4483,6 +4603,7 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/godgundam.jpeg','God Gundam'],
         true,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [118],
         'Burning Gundam'
     ],
@@ -4512,6 +4633,7 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/zhanghealtron.jpeg','SDW Zhang He Altron Gundam'],
         true,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [87]
     ],
     [120,10,'Momoharo',
@@ -4566,6 +4688,7 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/XiahouYuan.jpeg','SD Xiahou Yuan Tallgeese'],
         false,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [47]
     ],
     [122,10,'Ball Haro',
@@ -4629,6 +4752,7 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/talliiiart.jpeg','Tallgeese III'],
         false,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [47]
     ],
     [124,1,'Xiahou Dun Tallgeese III',
@@ -4657,6 +4781,7 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/XiahouDunTall3.jpeg','SDW Xiahou Dun Tallgeese III'],
         false,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [47]
     ],
     [125,10,'Zakrello Haro',
@@ -4723,6 +4848,7 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/kshatriyaprofile.jpeg','Kshatriya'],
         false,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [126],
         'Kashtriya' 
     ],
@@ -4760,8 +4886,9 @@ const models = [
         false, 
         ['https://hosting.photobucket.com/images/i/lesaintdumech/Beguir-Pent.jpeg','Beguir Pente'],
         false,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [127],
-        'Beguir-Pente'   
+        'Beguir'   
     ], 
     [128,12,'Suletta Mercury',
         'Figure-Rise Standard Suletta Mercury Model Kit',
@@ -4917,6 +5044,7 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/SVMS01UnionFlag.jpeg','SVMS-01 Union Flag'],
         false,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [129],
         'Flag'
     ],
@@ -4985,8 +5113,9 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/eevees.jpeg','Eevee'],
         false,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [131],
-        'Eevee'
+        'Eevee Family'
     ],
     [132,7,'Ho-oh',
         false,
@@ -5012,7 +5141,9 @@ const models = [
         false,
         false,
         false,
-        ['https://hosting.photobucket.com/images/i/lesaintdumech/HoohProfile.jpeg','Ho-oh']
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/HoohProfile.jpeg','Ho-oh'],
+        false,false,false,false,false,false,false,false,false,false,false,false,false,
+        [132],'Tower Duo'
     ],
     [133,3,'Millennium Falcon',
         'YT 492727ZED',
@@ -5084,7 +5215,9 @@ const models = [
         false,
         false,
         false,
-        ['https://hosting.photobucket.com/images/i/lesaintdumech/squirturtle.jpeg','Bulbasaur']
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/squirturtle.jpeg','Squirtle'],
+        false,false,false,false,false,false,false,false,false,false,false,false,false,
+        [134],'Squirtle Family'
     ],
     [135,1,'Polypodball',
         'RB-79PP Polypodball',
@@ -5112,11 +5245,12 @@ const models = [
             'Speakers'
         ],
         'Junya Ishigaki',
-       false,                //boolean
+       false,
         'Custom Mobile Pod',
-        true,            //boolean
+        true,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/GBD_Polypodball.jpeg','Polypodball'],
-        false,           //boolean
+        false,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [136],
     ],
     [136,1,'Pod Ball',
@@ -5160,9 +5294,10 @@ const models = [
         'Mass Production Support Space Mobile Pod',
         true,            //boolean
         ['https://hosting.photobucket.com/images/i/lesaintdumech/Rb-79c.jpeg','Ball'],
-        false,           //boolean
+        false,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [136],
-        'Pod Ball'              //Only if base source
+        'Pod Ball'
     ],
     [137,1,'Gundam Maxter',
         'GF13-006NA Gundam Maxter',
@@ -5198,9 +5333,10 @@ const models = [
         'Prototype Close Quarter Compat Mobile Fighter',
         false,            //boolean
         ['https://hosting.photobucket.com/images/i/lesaintdumech/gundam-maxter.jpeg','Gundam Maxter'],
-        true,           //boolean
+        true,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [137],
-        'Maxter'              //Only if base source
+        'Maxter'
     ],
     [138,1,'Gundam Lfrith',
         'XGF-02 Gundam Lfrith',
@@ -5240,7 +5376,8 @@ const models = [
         'LF-03',
         false,            //boolean
         ['https://hosting.photobucket.com/images/i/lesaintdumech/lfrith.jpeg','Gundam Lfrith'],
-        true,           //boolean
+        true,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [138,141],
         'Lfrith'              //Only if base source
     ],
@@ -5275,7 +5412,8 @@ const models = [
         false,
         false,            //boolean
         ['https://hosting.photobucket.com/images/i/lesaintdumech/lfrithjiu.jpeg','Gundam Lfrith Jiu'],
-        true,           //boolean
+        true,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [138],
     ],
     [140,1,'Gundam Lfrith Anavata',
@@ -5313,7 +5451,8 @@ const models = [
         false,
         false,            //boolean
         ['https://hosting.photobucket.com/images/i/lesaintdumech/anavataoverworld.jpeg','Gundam Lfrith Anavata'],
-        true,           //boolean
+        true,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [138]
     ],
     [141,1,'Gundam Aerial',
@@ -5362,7 +5501,8 @@ const models = [
         'Permet Code: S011-0093',
         false,            //boolean
         ['https://hosting.photobucket.com/images/i/lesaintdumech/aerialoriginal.jpeg','Gundam Aerial'],
-        true,           //boolean
+        true,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [141],
         'Aerial'              //Only if base source
     ],
@@ -5411,7 +5551,8 @@ const models = [
         'Ericht Samaya',
         false,            //boolean
         ['https://hosting.photobucket.com/images/i/lesaintdumech/aerialrebuild.jpeg','Gundam Aerial Rebuild'],
-        true,           //boolean
+        true,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [141]
     ],
     [143,1,'Gundnode',
@@ -5446,7 +5587,8 @@ const models = [
         false,
         false,            //boolean
         ['https://hosting.photobucket.com/images/i/lesaintdumech/gundnode.jpeg','Gundnode'],
-        false,           //boolean
+        false,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [143],
         'Gundnode'              //Only if base source
     ],
@@ -5488,7 +5630,8 @@ const models = [
         'The Monster',
         false,            //boolean
         ['https://hosting.photobucket.com/images/i/lesaintdumech/IMG_6432.JPG','Gundam Calibarn'],
-        true,           //boolean
+        true,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [144],
         'Calibarn'              //Only if base source
     ],
@@ -5527,7 +5670,8 @@ const models = [
         false,
         false,            //boolean
         ['https://hosting.photobucket.com/images/i/lesaintdumech/schwarzette.jpeg','Gundam Scwarzette'],
-        true,           //boolean
+        true,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [145],
         'Schwarzette'              //Only if base source
     ],
@@ -5576,12 +5720,14 @@ const models = [
             'Birmingham-class'
         ],
         'Mass Production Space Battleship',
-        [146],
-        'Magellan Class',
+        false,
+        false,
         [
             'Magellan Kai-class',
             'Trafalgar-class'
-        ]
+        ],
+        false,false,false,false,false,false,
+        [146],'Magellan Class',
     ],
     [147,5,'Surfing Snoopy',
         'Snoopy is Joe Cool',
@@ -5649,7 +5795,9 @@ const models = [
         false,
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/RedGyaraPRINT.jpeg','Red Gyarados']
-        ]
+        ],
+        false,false,false,false,false,
+        [196]
     ],
     [149,1,'Lfrith Pre-Production',
         'XGF-01 Lfrith Pre-Production Model',
@@ -5693,6 +5841,7 @@ const models = [
         false, 
         ['https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/7e674ca0-324f-46fc-9e40-86f60846b5ab.jpg','Lfrith Pre-Production'],
         true,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [138]
     ],
     [150,7,'Rayquaza',
@@ -5721,7 +5870,9 @@ const models = [
         false,
         false,
         false,
-        ['https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/de5dc08b-49c2-4313-acdb-0439ea1f8f9b.jpeg','Rayquaza']
+        ['https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/de5dc08b-49c2-4313-acdb-0439ea1f8f9b.jpeg','Rayquaza'],
+        false,false,false,false,false,false,false,false,false,false,false,false,false,
+        [150],'Super Ancient Trio'
     ],
     [151,7,'Metagross',
         false,
@@ -5751,7 +5902,9 @@ const models = [
         false,
         false,
         false,
-        ['https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/a93d60dd-73d4-438e-997a-ca4a6ffec313.jpeg','Metagross']
+        ['https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/a93d60dd-73d4-438e-997a-ca4a6ffec313.jpeg','Metagross'],
+        false,false,false,false,false,false,false,false,false,false,false,false,false,
+        [197]
     ],
     [152,1,'Knight Strike',
         'SDW Heroes Knight Strike',
@@ -5779,6 +5932,7 @@ const models = [
         false,
         ['https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/d146878a-dee2-4919-bd01-761f71c42ecd.jpeg','SDW Knight Strike'],
         false,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [60]
     ],
     [153,7,'Piplup',
@@ -5807,7 +5961,11 @@ const models = [
         false,
         false,
         false,
-        ['https://hosting.photobucket.com/images/i/lesaintdumech/PiplupProfile.jpeg','Piplup']
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/PiplupProfile.jpeg','Piplup'],
+        false,
+        false,false,false,false,false,false,false,false,false,false,false,false,
+        [153],
+        'Piplup Family'
     ],
     [154,1,'Legend Gundam',
         'ZGMF-X666S Legend Gundam',
@@ -5852,6 +6010,7 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/GundamLegendModel.jpeg','Legend Gundam'],
         true,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [154],
         'Legend'
     ],
@@ -5881,6 +6040,7 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/CaesarLegendModel.jpeg','SDW Caesar Legend'],
         false,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [154]
     ],
     [156,7,'Mega Charizard X',
@@ -5909,7 +6069,8 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/megacharx.jpeg','Mega Charizard X'],
         false,
-        [80]
+        false,false,false,false,false,false,false,false,false,false,false,false,
+        [79]
     ],
     [157,7,'Mega Charizard Y',
         false,
@@ -5937,7 +6098,8 @@ const models = [
         false,
         ['https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/c4684a6d-4af9-4da7-b450-fd6b661c1b33.jpeg','Mega Charizard Y'],
         false,
-        [80]
+        false,false,false,false,false,false,false,false,false,false,false,false,
+        [79]
     ],
     [158,7,'Groudon',
         false,
@@ -5965,7 +6127,9 @@ const models = [
         false,
         false,
         false,
-        ['https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/309dc939-d4cb-4058-bead-8e85a0fdda97.jpg','Groudon']
+        ['https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/309dc939-d4cb-4058-bead-8e85a0fdda97.jpg','Groudon'],
+        false,false,false,false,false,false,false,false,false,false,false,false,false,
+        [150]
     ],
     [159,12,'Apex',
         'USAGS Apex 1/4 Scale Model Kit',
@@ -6042,7 +6206,8 @@ const models = [
         'Freedom',
         false,            //boolean
         ['https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/12ea3154-ae52-4369-a869-f27088c8fcc7.jpeg','Rising Freedom Gundam'],
-        true,           //boolean
+        true,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [160],
         'Rising Freedom'
     ],
@@ -6073,7 +6238,9 @@ const models = [
         false,
         false,
         false,
-        ['https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/ccc64091-df17-419a-9f75-92a4290bbd9d.jpeg','Mewtwo']
+        ['https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/ccc64091-df17-419a-9f75-92a4290bbd9d.jpeg','Mewtwo'],
+        false,false,false,false,false,false,false,false,false,false,false,false,false,
+        [162]
     ],
     [162,7,'Mew',
         false,
@@ -6099,7 +6266,9 @@ const models = [
         false,
         false,
         false,
-        ['https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/eb66965d-d866-46d2-9d27-77aba2e931e3.jpeg','Mew']
+        ['https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/eb66965d-d866-46d2-9d27-77aba2e931e3.jpeg','Mew'],
+        false,false,false,false,false,false,false,false,false,false,false,false,false,
+        [162],'Mew Variants'
     ],
     [163,7,'Lugia',
         false,
@@ -6125,7 +6294,9 @@ const models = [
         false,
         false,
         false,
-        ['https://hosting.photobucket.com/images/i/lesaintdumech/LugiaTundra.jpg','Lugia']
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/LugiaTundra.jpg','Lugia'],
+        false,false,false,false,false,false,false,false,false,false,false,false,false,
+        [132]
     ],
     [164,1,'Shining Gundam',
         'GF13-017NJ Shining Gundam',
@@ -6165,7 +6336,8 @@ const models = [
         false,
         false,            //boolean
         ['https://hosting.photobucket.com/images/i/lesaintdumech/ShiningGModel.jpeg','Shininig Gundam'],
-        true,           //boolean
+        true,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [164],
         'Shining'              //Only if base source
     ],
@@ -6197,7 +6369,9 @@ const models = [
         false,
         false,
         false,
-        ['https://hosting.photobucket.com/images/i/lesaintdumech/AshPikachu.jpeg','Pikachu']
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/AshPikachu.jpeg','Pikachu'],
+        false,false,false,false,false,false,false,false,false,false,false,false,false,
+        [165],'Pikachu Family'
     ],
     [166,7,'Riolu',
         false,
@@ -6225,7 +6399,9 @@ const models = [
         false,
         false,
         false,
-        ['https://hosting.photobucket.com/images/i/lesaintdumech/rioluprof.jpeg','Riolu']
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/rioluprof.jpeg','Riolu'],
+        false,false,false,false,false,false,false,false,false,false,false,false,false,
+        [167]
     ],
     [167,7,'Lucario',
         false,
@@ -6255,7 +6431,9 @@ const models = [
         false,
         false,
         false,
-        ['https://hosting.photobucket.com/images/i/lesaintdumech/lucarioprof.jpeg','Lucario']
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/lucarioprof.jpeg','Lucario'],
+        false,false,false,false,false,false,false,false,false,false,false,false,false,
+        [167],'Lucario Family'
     ],
     [168,7,'Tepig',
         false,
@@ -6283,7 +6461,9 @@ const models = [
         false,
         false,
         false,
-        ['https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/74168c33-f661-440e-91f8-e3756c2bb336.jpeg','Tepig']
+        ['https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/74168c33-f661-440e-91f8-e3756c2bb336.jpeg','Tepig'],
+        false,false,false,false,false,false,false,false,false,false,false,false,false,
+        [168],'Tepig Family'
     ],
     [169,7,'Gengar',
         false,
@@ -6313,7 +6493,9 @@ const models = [
         false,
         false,
         false,
-        ['https://hosting.photobucket.com/images/i/lesaintdumech/GengarShadowBall.jpeg','Gengar']
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/GengarShadowBall.jpeg','Gengar'],
+        false,false,false,false,false,false,false,false,false,false,false,false,false,
+        [198]
     ],
     [170,7,'Zekrom',
         false,
@@ -6339,7 +6521,9 @@ const models = [
         false,
         false,
         false,
-        ['https://hosting.photobucket.com/images/i/lesaintdumech/ZekSkies.jpeg','Zekrom']
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/ZekSkies.jpeg','Zekrom'],
+        false,false,false,false,false,false,false,false,false,false,false,false,false,
+        [170],'Tao Trio'
     ],
     [171,7,'Arceus',
         false,
@@ -6365,7 +6549,9 @@ const models = [
         false,
         'The Original One',
         false,
-        ['https://hosting.photobucket.com/images/i/lesaintdumech/RainbowArceus.jpeg','Arceus']
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/RainbowArceus.jpeg','Arceus'],
+        false,false,false,false,false,false,false,false,false,false,false,false,false,
+        [171],'Arceus Variants'
     ],
     [172,7,'Raikou',
         false,
@@ -6391,7 +6577,9 @@ const models = [
         false,
         false,
         false,
-        ['https://hosting.photobucket.com/images/i/lesaintdumech/ThunderRaikou.jpeg','Raikou']
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/ThunderRaikou.jpeg','Raikou'],
+        false,false,false,false,false,false,false,false,false,false,false,false,false,
+        [172],'Legendary Beasts'
     ],
     [173,7,'Entei',
         false,
@@ -6417,7 +6605,9 @@ const models = [
         false,
         false,
         false,
-        ['https://hosting.photobucket.com/images/i/lesaintdumech/EnteiCard.jpeg','Entei']
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/EnteiCard.jpeg','Entei'],
+        false,false,false,false,false,false,false,false,false,false,false,false,false,
+        [172]
     ],
     [174,7,'Suicune',
         false,
@@ -6443,7 +6633,9 @@ const models = [
         false,
         false,
         false,
-        ['https://hosting.photobucket.com/images/i/lesaintdumech/SuicuneStream.jpeg','Suicune']
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/SuicuneStream.jpeg','Suicune'],
+        false,false,false,false,false,false,false,false,false,false,false,false,false,
+        [172]
     ],
     [175,7,'Solgaleo',
         false,
@@ -6471,7 +6663,9 @@ const models = [
         false,
         false,
         false,
-        ['https://hosting.photobucket.com/images/i/lesaintdumech/SolgaleoSunne.jpeg','Solgaleo']
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/SolgaleoSunne.jpeg','Solgaleo'],
+        false,false,false,false,false,false,false,false,false,false,false,false,false,
+        [199]
     ],
     [176,7,'Lunala',
         false,
@@ -6499,7 +6693,9 @@ const models = [
         false,
         false,
         false,
-        ['https://hosting.photobucket.com/images/i/lesaintdumech/LunalaMoone.jpeg','Lunala']
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/LunalaMoone.jpeg','Lunala'],
+        false,false,false,false,false,false,false,false,false,false,false,false,false,
+        [199]
     ],
     [177,1,'0 Gundam',
         'GN-000 0 Gundam',
@@ -6547,6 +6743,7 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/OhGundam.jpeg','0 Gundam'],
         true, 
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [177],
         '0 Gundam' 
     ],
@@ -6592,6 +6789,7 @@ const models = [
         true,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/ExusInSpace.jpeg','Exus'],
         false,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [178],
         'Exus' 
     ],
@@ -6657,6 +6855,7 @@ const models = [
     false,
     ['https://hosting.photobucket.com/images/i/lesaintdumech/M1_Astray.jpeg','M1 Astray'],
     false,
+    false,false,false,false,false,false,false,false,false,false,false,false,
     [179],
     'Astray'
     ],
@@ -6686,6 +6885,7 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/ShiningGrasperBox.jpeg','SDW Shining Grasper Dragon'],
         true,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [180],
         'SDW Dragon'
     ],
@@ -6715,7 +6915,8 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/DarkGrasperBox.jpeg','SDW Dark Grasper Dragon'],
         true,
-        [180],
+        false,false,false,false,false,false,false,false,false,false,false,false,
+        [180]
     ],
     [182,1,'Gundam',
         'RX-78-2 Gundam',
@@ -6775,6 +6976,7 @@ const models = [
         false,            //boolean
         ['https://hosting.photobucket.com/images/i/lesaintdumech/RX782PROF.png','RX-78-2 Gundam'],
         true,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [182],
         'RX-78-2'
     ],
@@ -6820,6 +7022,7 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/RAIDERMANUELPROF.jpeg','Raider Gundam'],
         true,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [183],
         'Raider'
     ],
@@ -6859,7 +7062,8 @@ const models = [
         'Custom Newtype-use Close Quarters Combat Mobile Suit',
         false,            //boolean
         ['https://hosting.photobucket.com/images/i/lesaintdumech/RedGQuX.jpeg','gMS-a Red Gundam'],
-        true,           //boolean
+        true,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [182],
     ],
     [185,7,'Fuecoco',
@@ -6888,7 +7092,9 @@ const models = [
         false,
         false,
         false,
-        ['https://hosting.photobucket.com/images/i/lesaintdumech/FuecocoModel.jpeg','Fuecoco']
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/FuecocoModel.jpeg','Fuecoco'],
+        false,false,false,false,false,false,false,false,false,false,false,false,false,
+        [185],'Fuecoco Family'
     ],
     [186,7,'Jirachi',
         false,
@@ -6914,7 +7120,9 @@ const models = [
         false,
         false,
         false,
-        ['https://hosting.photobucket.com/images/i/lesaintdumech/JirachiModel.jpeg','Jirachi']
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/JirachiModel.jpeg','Jirachi'],
+        false,false,false,false,false,false,false,false,false,false,false,false,false,
+        [186],'Jirachi Variants'
     ],
     [187,7,'Prinplup',
         false,
@@ -6942,7 +7150,9 @@ const models = [
         false,
         false,
         false,
-        ['https://hosting.photobucket.com/images/i/lesaintdumech/PrinplupModel.jpeg','Prinplup']
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/PrinplupModel.jpeg','Prinplup'],
+        false,false,false,false,false,false,false,false,false,false,false,false,false,
+        [153]
     ],
     [188,7,'Empoleon',
         false,
@@ -6968,7 +7178,9 @@ const models = [
         false,
         false,
         false,
-        ['https://hosting.photobucket.com/images/i/lesaintdumech/EmpoleonModel.jpeg','Empoleon']
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/EmpoleonModel.jpeg','Empoleon'],
+        false,false,false,false,false,false,false,false,false,false,false,false,false,
+        [153]
     ],
     [189,7,'Scizor',
         false,
@@ -6994,7 +7206,9 @@ const models = [
         false,
         false,
         false,
-        ['https://hosting.photobucket.com/images/i/lesaintdumech/ScizorModel.jpeg','Scizor']
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/ScizorModel.jpeg','Scizor'],
+        false,false,false,false,false,false,false,false,false,false,false,false,false,
+        [200]
     ],
     [190,1,'Gundam Snow White',
         'XXXG-00W0 Wing Gundam Zero EW',
@@ -7039,6 +7253,7 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/wingzero.jpeg','Wing Gundam Zero'],
         true,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [31]
     ], //needs updated with snow white detalis
     [191,1,'Gundam Snow White Prelude',
@@ -7084,6 +7299,7 @@ const models = [
         false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/wingzero.jpeg','Wing Gundam Zero'],
         true,
+        false,false,false,false,false,false,false,false,false,false,false,false,
         [31]
     ],   //needs updated with prelude details
     [192,1,'Guntank',
@@ -7130,8 +7346,249 @@ const models = [
     false,
     ['https://hosting.photobucket.com/images/i/lesaintdumech/GuntankProfilePhoto.jpeg','RX-75 Guntank'],
     false,
+    false,false,false,false,false,false,false,false,false,false,false,false,
     [192],
     'Guntank'
+    ],
+    [193,7,'Froakie',
+        false,
+        '0656',
+        'Water',
+        '1st Stage',
+        false,
+        [
+            ['Frogadier','lvl 16']
+        ],
+        'Bubble Frog Pokemon',
+        'POKEDEX Entry',
+        '1\'00\"',
+        [15.4,'15.4 lbs'],
+        'VI',
+        'Pokemon X and Y',
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        ['https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/74168c33-f661-440e-91f8-e3756c2bb336.jpeg','Froakie'],
+        false,false,false,false,false,false,false,false,false,false,false,false,false,
+        [193],'Froakie Family'
+    ],
+    [194,7,'Pichu',
+        false,
+        '0656',
+        'Water',
+        '1st Stage',
+        false,
+        [
+            ['Frogadier','lvl 16']
+        ],
+        'Bubble Frog Pokemon',
+        'POKEDEX Entry',
+        '1\'00\"',
+        [15.4,'15.4 lbs'],
+        'VI',
+        'Pokemon X and Y',
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        ['https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/74168c33-f661-440e-91f8-e3756c2bb336.jpeg','Froakie'],
+        false,false,false,false,false,false,false,false,false,false,false,false,false,
+        [165]
+    ],
+    [195,7,'Dratini',
+        false,
+        '0656',
+        'Water',
+        '1st Stage',
+        false,
+        [
+            ['Frogadier','lvl 16']
+        ],
+        'Bubble Frog Pokemon',
+        'POKEDEX Entry',
+        '1\'00\"',
+        [15.4,'15.4 lbs'],
+        'VI',
+        'Pokemon X and Y',
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        ['https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/74168c33-f661-440e-91f8-e3756c2bb336.jpeg','Froakie'],
+        false,false,false,false,false,false,false,false,false,false,false,false,false,
+        [195],'Dratini Family'
+    ],
+    [196,7,'Magikarp',
+        false,
+        '0656',
+        'Water',
+        '1st Stage',
+        false,
+        [
+            ['Frogadier','lvl 16']
+        ],
+        'Bubble Frog Pokemon',
+        'POKEDEX Entry',
+        '1\'00\"',
+        [15.4,'15.4 lbs'],
+        'VI',
+        'Pokemon X and Y',
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        ['https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/74168c33-f661-440e-91f8-e3756c2bb336.jpeg','Froakie'],
+        false,false,false,false,false,false,false,false,false,false,false,false,false,
+        [196],'Magikarp Family'
+    ],
+    [197,7,'Beldum',
+        false,
+        '0656',
+        'Water',
+        '1st Stage',
+        false,
+        [
+            ['Frogadier','lvl 16']
+        ],
+        'Bubble Frog Pokemon',
+        'POKEDEX Entry',
+        '1\'00\"',
+        [15.4,'15.4 lbs'],
+        'VI',
+        'Pokemon X and Y',
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        ['https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/74168c33-f661-440e-91f8-e3756c2bb336.jpeg','Froakie'],
+        false,false,false,false,false,false,false,false,false,false,false,false,false,
+        [197],'Beldum Family'
+    ],
+    [198,7,'Gastly',
+        false,
+        '0656',
+        'Water',
+        '1st Stage',
+        false,
+        [
+            ['Frogadier','lvl 16']
+        ],
+        'Bubble Frog Pokemon',
+        'POKEDEX Entry',
+        '1\'00\"',
+        [15.4,'15.4 lbs'],
+        'VI',
+        'Pokemon X and Y',
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        ['https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/74168c33-f661-440e-91f8-e3756c2bb336.jpeg','Froakie'],
+        false,false,false,false,false,false,false,false,false,false,false,false,false,
+        [198],'Gastly Family'
+    ],
+    [199,7,'Cosmog',
+        false,
+        '0656',
+        'Water',
+        '1st Stage',
+        false,
+        [
+            ['Frogadier','lvl 16']
+        ],
+        'Bubble Frog Pokemon',
+        'POKEDEX Entry',
+        '1\'00\"',
+        [15.4,'15.4 lbs'],
+        'VI',
+        'Pokemon X and Y',
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        ['https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/74168c33-f661-440e-91f8-e3756c2bb336.jpeg','Froakie'],
+        false,false,false,false,false,false,false,false,false,false,false,false,false,
+        [199],'Cosmog Family'
+    ],
+    [200,7,'Scyther',
+        false,
+        '0656',
+        'Water',
+        '1st Stage',
+        false,
+        [
+            ['Frogadier','lvl 16']
+        ],
+        'Bubble Frog Pokemon',
+        'POKEDEX Entry',
+        '1\'00\"',
+        [15.4,'15.4 lbs'],
+        'VI',
+        'Pokemon X and Y',
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        ['https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/74168c33-f661-440e-91f8-e3756c2bb336.jpeg','Froakie'],
+        false,false,false,false,false,false,false,false,false,false,false,false,false,
+        [200],'Scyther Family'
     ]
 ];
 
@@ -7539,7 +7996,7 @@ const projects = [
         ],false,false,true
     ],
     ['Aerial [MGSD]',[1,'Aerial'],'MGSD',
-        true,false,false,'Mercury','E','2025-11-25',5.42,false,'blogArchive.html#20260126A',false,'2026-01-26',models[141],false,
+        true,false,false,'Mercury','E','2025-11-25',5.42,false,['20260126A'],false,'2026-01-26',models[141],false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/MGSDAER00.jpeg','Profile Photo: Aerial MGSD'],
         false,false,false,false,false,true
     ],
@@ -8992,7 +9449,7 @@ const projects = [
     ['A2DMG',[1,'AGE-2 Dark Hound'],'MG',true,false,false,'AGE','C','2026-04-23',2.08],
     ['Uriel',[1,'Age-FX'],'SD',false,false,false,'Age','B'],
     ['Gamma Draconis',[1,'Danazine'],'HG',false,false,false,'Age','B'],
-    ['Argonaut',[1,'Legilis'],'SD',false,false,false,'Age','C','2026-04-18',4.08],
+    ['Argonaut',[1,'Legilis'],'SD',false,false,false,'Age','C','2026-04-18',4.58],
 
     //After Colony (Wing)
     ['Leo Army',[6,'Leo'],'LEO',false,false,false,'Wing','C','2021-10-03',42.94,false,'Builds/Gundams/LeoArmy.html',false],
@@ -9191,7 +9648,7 @@ const projects = [
         ],false,false,true,'1:144'
     ],
     ['Epyon [RG]',[2,'Epyon','Epyon'],'RG',
-        true,false,false,'Wing','E','2023-11-16',18,false,'blogArchive.html#20251027A',false,'2025-10-27',models[89],false,
+        true,false,false,'Wing','E','2023-11-16',18,false,['20251027A'],false,'2025-10-27',models[89],false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/EpyStr26.jpeg','Profile Photo: Epyon RG'],
         false,false,false,false,false,true
     ],
@@ -10017,10 +10474,42 @@ const projects = [
         ],false,false,true,'1:100',false,'Proto Snow White','Proto Snow'
     ],
     ['Perfect Zero',[1,'Wing Gundam'],'PG',
-        true,false,false,'Wing','D','2024-03-22',17.25,true,'Builds/PG/PGWingZero.html',false,'2026-05-04',models[32],
+        true,false,false,'Wing','D','2024-03-22',17.25,true,'Builds/PG/PGWingZero.html',false,'2026-05-18',models[32],
         [
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/ProtoSnowWhite102.jpeg','Snow White Prototype']
-        ],['https://hosting.photobucket.com/images/i/lesaintdumech/ProtoSnowWhite033.jpeg','Profile Photo: Snow White Prototype'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PerfectZeroPG03.jpeg','Perfect Zero'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PerfectZeroPG02.jpeg','Perfect Zero'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PerfectZeroPG01.jpeg','Perfect Zero'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PerfectZeroPG04.jpeg','Perfect Zero'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PerfectZeroPG05.jpeg','Perfect Zero'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PerfectZeroPG06.jpeg','Perfect Zero'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PerfectZeroPG07.jpeg','Perfect Zero'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PerfectZeroPG08.jpeg','Perfect Zero'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PerfectZeroPG09.jpeg','Perfect Zero'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PerfectZeroPG10.jpeg','Perfect Zero'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PerfectZeroPG11.jpeg','Perfect Zero'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PerfectZeroPG12.jpeg','Perfect Zero'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PerfectZeroPG13.jpeg','Perfect Zero'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PerfectZeroPG14.jpeg','Perfect Zero'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PerfectZeroPG15.jpeg','Perfect Zero'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PerfectZeroPG16.jpeg','Perfect Zero'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PerfectZeroPG17.jpeg','Perfect Zero'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PerfectZeroPG18.jpeg','Perfect Zero'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PerfectZeroPG19.jpeg','Perfect Zero'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PerfectZeroPG20.jpeg','Perfect Zero'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PerfectZeroPG21.jpeg','Perfect Zero'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PerfectZeroPG22.jpeg','Perfect Zero'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PerfectZeroPG23.jpeg','Perfect Zero'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PerfectZeroPG24.jpeg','Perfect Zero'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PerfectZeroPG25.jpeg','Perfect Zero'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PerfectZeroPG26.jpeg','Perfect Zero'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PerfectZeroPG27.jpeg','Perfect Zero'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PerfectZeroPG28.jpeg','Perfect Zero'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PerfectZeroPG29.jpeg','Perfect Zero'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PerfectZeroPG30.jpeg','Perfect Zero'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PerfectZeroPG31.jpeg','Perfect Zero'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PerfectZeroPG32.jpeg','Perfect Zero'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/PerfectZeroPG35.jpeg','Perfect Zero']
+        ],['https://hosting.photobucket.com/images/i/lesaintdumech/PerfectZeroPG03.jpeg','Profile Photo: Perfect Zero'],
         'Description',false,
         [
             ['USA Gundam Store','https://www.usagundamstore.com/products/pre-order-pg-wing-gundam-zero-custom'],
@@ -10036,7 +10525,7 @@ const projects = [
     ['Zero EW (rg)',[1,'Wing Zero'],'RG',false,false,false,'Wing','A'],
     ['Zero EW (sd)',[1,'Wing Zero'],'SD',false,false,false,'Wing','B'],
     ['Wing Zero [MGSD]',[1,'Wing Zero'],'MGSD',
-        true,false,false,'Wing','E','2024-11-17',6,false,'blogArchive.html#20260406A',false,'2026-04-06',models[32],false,
+        true,false,false,'Wing','E','2024-11-17',6,false,['20260406A'],false,'2026-04-06',models[32],false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/MGSDWZero09.jpeg','Profile Photo: Wing Zero EW MGSD'],
         false,false,false,false,false,true,false,false,false,'\u00D8-MGSD'
     ],
@@ -10789,7 +11278,7 @@ const projects = [
         ],false,false,true,'1:144','Akatsuki: Oowashi Pack'
     ],
     ['Akatsuki [RG]',[1,'Akatsuki, Oowsahi'],'RG',
-        true,false,false,'Seed','E','2025-02-06',8.92,false,'blogArchive.html#20250924A',false,'2025-09-24',models[57],false,
+        true,false,false,'Seed','E','2025-02-06',8.92,false,['20250924A'],false,'2025-09-24',models[57],false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/AkatsukiRG63.jpeg','Profile Photo: Akatsuki RG'],
         false,false,false,false,false,true
     ],
@@ -12263,7 +12752,7 @@ const projects = [
     ['Balena',[1,'Minerva'],'EX',false,false,false,'Seed','B','2025',0],
     ['Union Jack',[1,'Providence'],'MG',false,false,false,'Seed','A'],
     ['Raider [FM]',[1,'Raider'],'FM',
-        true,false,false,'Seed','E','2023-01-06',10.25,false,'blogArchive.html#20251015A',false,'2025-10-15',models[183],false,
+        true,false,false,'Seed','E','2023-01-06',10.25,false,['20251015A'],false,'2025-10-15',models[183],false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/RaiderFMStr01.jpeg','Profile Photo: Raider FM'],
         false,false,false,false,false,true
     ],
@@ -12476,7 +12965,7 @@ const projects = [
             ['Video','https://www.instagram.com/reel/CmfxQMHoIyt/?igshid=YzcxN2Q2NzY0OA=='],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pre-order-pg-skygrasper-aile-striker?variant=6442840900'],
             ['NewType','https://newtype.us/p/rO9JwbTqHIJ7hgQYIER6/h/pg-fx-550-skygrasper-aqm-e-x01-aile-striker']
-        ],['Strike Gundam [PG]'],false,true,'1:60',false,'Skygrasper Perfect Grade','Skygrasper'
+        ],false,false,true,'1:60',false,'Skygrasper Perfect Grade','Skygrasper'
     ],
     ['Skygrasper [RG]',[2,'Skygrasper','Skygrasper','Skygrasper'],'RG',true,false,false,'Seed','E','2022-09-06',10,false,false,false,'2022-12-19'],
     ['Menoetius',[1,'Stargaser Gundam'],'SD',false,false,false,'Seed','B'],
@@ -12515,7 +13004,7 @@ const projects = [
             ['Video','https://www.instagram.com/reel/CwOdqOYIB-N/?igshid=MzRlODBiNWFlZA=='],
             ['USA Gundam Store','https://www.usagundamstore.com/products/strike-gundam-seed-1-60-perfect-grade-model-kit'],
             ['NewType','https://newtype.us/p/NWCMv4JQaiL5GlCBr8jU/h/pg-gat-x105-strike-gundam']
-        ],['Skygrasper [PG]'],false,true,'1:60',false,'Strike Perfect Grade','Strike'
+        ],false,false,true,'1:60',false,'Strike Perfect Grade','Strike'
     ], 
     ['Perfect Perfect',[1,'Strike, Perfect'],'PG',
         true,false,false,'Seed','C','2024-05-17',17.25,true,'Builds/PG/PGPerfStrike.html',false,'2026-04-20',models[61]
@@ -14451,7 +14940,7 @@ const projects = [
         ],false,true,true,'1:144','DOM Interstellar  Test Type'
     ],
     ['Guntank [MG]',[1,'Guntank'],'MG',
-        true,false,false,'UC','E','2026-01-08',4.08,false,'blogArchive.html#20260507A',false,'2026-05-07',models[192],false,
+        true,false,false,'UC','E','2026-01-08',4.08,false,['20260507A'],false,'2026-05-07',models[192],false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/GuntankMGStr04.jpeg','Profile Photo: Guntank MG'],
         false,false,false,false,false,true
     ],
@@ -14799,7 +15288,7 @@ const projects = [
     ['GunChef',[1,'RX-78-2'],'RG',false,false,false,'UC','A'],
     ['RX782v1RG',[1,'RX-78-2'],'RG',true,false,false,'UC','E','2024-10-15',6],
     ['RX-78-2 v2',[1,'RX-78-2 v2.0'],'RG',
-        true,false,false,'UC','E','2024-11-16',8.75,false,'blogArchive.html#20250920A',false,'2025-09-20',models[182],false,
+        true,false,false,'UC','E','2024-11-16',8.75,false,['20250920A'],false,'2025-09-20',models[182],false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/RXV2RG54.jpeg','Profile Photo: RX-78-2 RG v2'],
         false,false,false,false,false,true
     ],
@@ -15085,7 +15574,7 @@ const projects = [
         ],false,false,true,false
     ],
     ['Zeta [MG]',[1,'Zeta Gundam'],'MG',
-        true,false,false,'UC','E','2023-04-12',10.83,false,'blogArchive.html#20251020A',false,'2025-10-19',models[45],false,
+        true,false,false,'UC','E','2023-04-12',10.83,false,['20251020A'],false,'2025-10-19',models[45],false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/ZetaMGStr08.jpeg','Profile Photo: Zeta MG'],
         false,false,false,false,false,true
     ],
@@ -15420,7 +15909,7 @@ const projects = [
             ['Video','https://youtu.be/zliqxoC1eQs'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/sdw-heroes-28-dark-grasper-dragon'],
             ['NewType','https://newtype.us/p/vXho6XAMPFQ7rLpaQMz7/h/sdw-heroes-28-dark-grasper-dragon']
-        ],false,true,false
+        ],['Themis'],true,false
     ], //red queen paint
     ['Pharaoh',[1,'Dragon, Shining Grasper'],'SD',
         false,false,false,'Heroes','D','2024-07-08',3.24,false,'Builds/SDW/Pharo.html',false,'2026-03-02'
@@ -15473,7 +15962,7 @@ const projects = [
             ['Video','https://youtu.be/i16lio0ixeg'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/sdw-heroes-26-shining-grasper-dragon'],
             ['NewType','https://newtype.us/p/nfMJYbOH1FPNDYt5eNkP/h/sdw-heroes-26-shining-grasper-dragon']
-        ],false,true,false
+        ],['Clymene'],true,false
     ], //midnight city
     ['Python',[1,'Dragon, Shining Grasper'],'SD',
         false,false,false,'Heroes','D','2024-07-06',3.49,false,'Builds/SDW/Pharo.html',false,'2026-02-02'
@@ -15562,7 +16051,7 @@ const projects = [
             ['USA Gundam Store','https://www.usagundamstore.com/products/sdw-heroes-19-caesar-legend-gundam'],
             ['NewType','https://newtype.us/p/kHesv5mfwiQ8sNPo0qMD/h/sdw-heroes-19-caesar-legend-gundam'],
             ['TurboDork: Dark Ritual','https://turbodork.com/products/dark-ritual?variant=40539853914194']
-        ],['Clymene'],true,true
+        ],['Clymene','Quetzalcoatl'],true,true
     ],
     ['Gaia',[1,'Providence Gundam, Sangoku Soketsuden Dong Zhuo'],'SD',false,false,false,'Heroes','B'],
     ['Captain QAN [SD]',[1,'QAN[T] GF, Captain'],'SD',true,false,false,'Heroes','D','2025-08-26',2.34],
@@ -15601,7 +16090,7 @@ const projects = [
             ['USA Gundam Store','https://www.usagundamstore.com/products/sdw-heroes-21-knight-strike-gundam'],
             ['NewType','https://newtype.us/p/tpQiMHj4lN52v218teeW/h/sdw-heroes-21-knight-strike-gundam'],
             ['TurboDork: Fahrenheit','https://turbodork.com/products/fahrenheit']
-        ],['Themis'],true,true
+        ],['Themis','Tiamat'],true,true
     ],
     ['Prometheus',[1,'Strike Noir, Xun Yu'],'SD',false,false,false,'Heroes','B'],
     ['Selene',[1,'Strike-Freedom, Qiongqi'],'SD',false,false,false,'Heroes','B'],
@@ -16057,7 +16546,7 @@ const projects = [
             ['Hobby Town','https://www.hobbytown.com/revell-germany-1-24-60s-beetle-type-1-rmx854192/p609173']
         ],['Wilbee'],false,true,'1:24'
     ],
-    ['Feu-Seau',[1,'Pontiac Firebird, 79'],'Car',false,false,false,'Pontiac','C','2026-04-18',4.1,true],
+    ['Feu-Seau',[1,'Pontiac Firebird, 79'],'Car',false,false,false,'Pontiac','C','2026-04-18',4.16,true],
     
     //Pokemon
     ['Cetautomatix',[1,'Arceus'],'Pokemon',
@@ -16094,7 +16583,7 @@ const projects = [
             ['NewType','https://newtype.us/p/1fr1jxjfedNyHnKlr6Gv/h/pokemon-arceus']
         ],false,false,true,false,false,false,false,false,false,false,'Pokemon Select Series 51 Arceus Model Kit'
     ],
-    ['Harmonix',[1,'Mega Blaziken'],'Pokemon',false,false,false,'','C','2026-04-30',3.93,true],
+    ['Harmonix',[1,'Mega Blaziken'],'Pokemon',false,false,false,'','C','2026-04-30',4.81,true],
     ['Obelix',[0.5,'Bulbasaur'],'Pokemon',
         false,false,false,'','E','2023-09-13',3.07,false,'Builds/Pokemon/Obelix.html',false,'2023-10-23',models[94],
         [
@@ -16181,7 +16670,7 @@ const projects = [
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-charmander-11-quick-model-kit?_pos=1&_sid=5226c6cbe&_ss=r'],
             ['NewType','https://newtype.us/p/kjQjxZgkxDWE1c9nYf1Z/h/pokemon-model-kit-quick-11-charmander'],
             ['TurboDork: Redrum','https://turbodork.com/products/redrum'],
-        ],['Obelix','Vercingetorix'],false,true,false,false,false,false,false,false,false,'Pokemon Charmander 11 Quick Model Kit'
+        ],['Obelix'],false,true,false,false,false,false,false,false,false,'Pokemon Charmander 11 Quick Model Kit'
     ],
     ['Jasper',[0.5,'Charmander'],'Pokemon',
         false,false,false,'','E','2024-06-04',2.27,false,'Builds/Pokemon/Jasper.html',false,'2024-09-02',models[79],
@@ -16248,7 +16737,7 @@ const projects = [
             ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Charizard_(Pokemon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-plamo-charizard-dragonite'],
             ['NewType','https://newtype.us/p/S9nZ4KxUmzbDoDM0HfDd/h/pokemon-charizard-dragonite']
-        ],['Asterix','Boudica','Charizard','Xerxes','Justinian'],false,true,false,false,false,false,false,false,false,'Pokemon Select Series 43 Charizard & Dragonite Model Kit Set'
+        ],['Boudica','Charizard'],false,true,false,false,false,false,false,false,false,'Pokemon Select Series 43 Charizard & Dragonite Model Kit Set'
     ],
     ['Xerxes',[1,'Mega Charizard X'],'Pokemon',
         false,false,false,'','E','2025-08-13',4.34,false,'Builds/Pokemon/XerxChar.html',false,'2026-02-04',models[156],
@@ -16298,7 +16787,7 @@ const projects = [
             ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Charizard_(Pokemon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-select-series-36-mega-charizard-x-model-kit'],
             ['NewType','https://newtype.us/p/1geRiRtm2QpTtZKEEexT/h/pokemon-mega-charizard-x']
-        ],['Vercingetorix','Justinian'],false,true,false,false,false,false,false,false,false,'Pokemon Select Series 36 Mega Charizard X Model Kit'
+        ],false,false,true,false,false,false,false,false,false,false,'Pokemon Select Series 36 Mega Charizard X Model Kit'
     ],
     ['Justinian',[1,'Mega Charizard Y'],'Pokemon',
         false,false,false,'','E','2025-08-13',4.05,false,'Builds/Pokemon/JustinianChar.html',false,'2026-01-19',models[157],
@@ -16336,10 +16825,10 @@ const projects = [
             ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Charizard_(Pokemon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-select-series-38-mega-charizard-y-model-kit'],
             ['NewType','https://newtype.us/p/KGdVbSXFI31j3KmIT1ua/h/pokemon-mega-charizard-y']
-        ],['Vercingetorix','Xerxes'],false,true,false,false,false,false,false,false,false,'Pokemon Select Series 38 Mega Charizard Y Model Kit'
+        ],false,false,true,false,false,false,false,false,false,false,'Pokemon Select Series 38 Mega Charizard Y Model Kit'
     ],
-    ['Ouisticram',[0.25,'Chimchar'],'Pokemon',false,false,false,'','C','2026-04-18',1.3],
-    ['Solochi',[0.25,'Deino'],'Pokemon',false,false,false,'','C','2026-04-26',0.53],
+    ['Ouisticram',[0.25,'Chimchar'],'Pokemon',false,false,false,'','C','2026-04-18',1.35],
+    ['Solochi',[0.25,'Deino'],'Pokemon',false,false,false,'','C','2026-04-26',0.58],
     ['Boudica',[1,'Dragonite'],'Pokemon',
         false,false,false,'','E','2023-03-11',3.47,false,'Builds/Pokemon/Boudica.html',false,'2023-09-12',models[81],
         [
@@ -16429,7 +16918,7 @@ const projects = [
         ],false,true,true,false,false,false,false,false,false,false,'Pokemon Eevee (Sleeping Pose) 07 Quick Model Kit'
     ],    //Blue
     ['Sprinkles',[0.5,'Eevee'],'Pokemon',
-        false,false,false,'','E','2025-07-18',1.62,false,'Builds/Pokemon/SprinklesEevee``.html',false,'2026-02-16',models[131],
+        false,false,false,'','E','2025-07-18',1.62,false,'Builds/Pokemon/SprinklesEevee.html',false,'2026-02-16',models[131],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/SprinkEv01.jpeg','Sprinkles'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/SprinkEv02.jpeg','Sprinkles'],
@@ -16461,7 +16950,7 @@ const projects = [
         ],false,true,true,false,false,false,false,false,false,false,'Pokemon Eevee 04 Quick Model Kit'
     ],    //Yellow
     ['Pingol\u00E9on',[0.25,'Empoleon'],'Pokemon',
-        false,false,false,'','D','2025-09-07',1.72,false,'Builds/Pokemon/Pingoleo.html',false,'2026-05-11',models[188],
+        false,false,false,'','E','2025-09-07',1.72,false,'Builds/Pokemon/Pingoleo.html',false,'2026-05-11',models[188],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Pingemperor01.jpeg','Pingol\u00E9on'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Pingemperor02.jpeg','Pingol\u00E9on'],
@@ -16482,13 +16971,13 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Pingemperor17.jpeg','Pingol\u00E9on']
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/Pingemperor05.jpeg','Profile Photo: Pingol\u00E9on'],
-        'Description',false,
+        'For this Empoleon since he\'s a water type wanted to focus more on bringing out his blues. So black become a dark metallic arctic blue. And the whites became a bright baby blue. Also since he\'s a dual steel type, decided to use a steel paint for the wing tips to make them more like blades. And for the trident-beak, a menacing bright Signal Red.',false,
         [
             ['Video','https://youtu.be/th1wuteb_XA'],
             ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Empoleon_(Pokémon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-select-series-6-empoleon-evolution-set-model-kit'],
             ['NewType','https://newtype.us/p/aqpjW7R8h1LfOuf88CK1/h/pokemon-empoleon-evolution-set'],
-        ],['Tiplouf','Prinplouf'],true,false,false,false,false,false,false,false,false,'Pokemon Select Series 6 Empoleon Evolution Set Model Kit'
+        ],false,false,true,false,false,false,false,false,false,false,'Pokemon Select Series 6 Empoleon Evolution Set Model Kit'
     ],
     ['Soporifix',[1,'Entei'],'Pokemon',
         false,false,false,'','E','2025-07-03',3.31,false,'Builds/Pokemon/SopEnt.html',false,'2025-11-24',models[173],
@@ -16513,7 +17002,7 @@ const projects = [
             ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Entei_(Pokémon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-select-series-11-entei-model-kit'],
             ['NewType','https://newtype.us/p/Owot9ss1EzaqSx3ljgfU/h/pokemon-entei']
-        ],['Pacifix','Postaldistrix'],true,true,false,false,false,false,false,false,false,'Pokemon Select Series 11 Entei Model Kit'
+        ],false,true,true,false,false,false,false,false,false,false,'Pokemon Select Series 11 Entei Model Kit'
     ],
     ['Instantmix',[0.5,'Fuecoco'],'Pokemon',
         false,false,false,'','E','2025-08-13',1.61,false,'Builds/Pokemon/InstaFue.html',false,'2026-03-03',models[185],
@@ -16597,7 +17086,7 @@ const projects = [
             ['NewType','https://newtype.us/p/dwk8jzQtdPBUWYb5VxT3/h/pokemon-greninja']
         ],false,false,true,false,false,false,false,false,false,false,'Pokemon #47 Greninja Model Kit'
     ], 
-    ['Boskara',[0.25,'Grotle'],'Pokemon',false,false,false,'','C','2026-04-25',0.95],
+    ['Boskara',[0.25,'Grotle'],'Pokemon',false,false,false,'','C','2026-04-25',1.02],
     ['Brennus',[1,'Groudon'],'Pokemon',
         false,false,false,'','E','2024-02-16',7.78,false,'Builds/Pokemon/Brennus.html',false,'2025-03-03',models[158],
         [
@@ -16676,7 +17165,7 @@ const projects = [
             ['Bulbapedia','https://m.bulbapedia.bulbagarden.net/wiki/Gyarados_(Pokemon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/collections/pokapla/products/pokemon-gyarados-52-model-kit'],
             ['NewType','https://newtype.us/p/dOkZZ7AvruhzwIslqHje/h/pokemon-gyarados']
-        ],['Unhygienix'],true,true,false,'Lance\'s Gyarados',false,false,false,false,false,'Pokemon Gyarados 52 Model Kit',1
+        ],false,true,true,false,'Lance\'s Gyarados',false,false,false,false,false,'Pokemon Gyarados 52 Model Kit',1
     ],
     ['L\u00E9viator',[1,'Gyarados'],'Pokemon',
         false,false,false,'','E','2025-09-04',2.52,false,'Builds/Pokemon/LevGyar.html',false,'2026-04-02',models[148],
@@ -16788,10 +17277,10 @@ const projects = [
             ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Ho-Oh_(Pokemon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-gold-silver-ho-oh-model-kit'],
             ['NewType','https://newtype.us/p/DFQb0Hr6xKX06jqaqPDk/h/pokemon-ho-oh']
-        ],['Chanticleerix'],false,true,false,false,false,false,false,false,false,'Pokemon Select Series 5 Ho-Oh Model Kit'
+        ],false,false,true,false,false,false,false,false,false,false,'Pokemon Select Series 5 Ho-Oh Model Kit'
     ],
-    ['Trioxhydre',[0.25,'Hydreigon'],'Pokemon',false,false,false,'','C','2026-04-26',2.22],
-    ['Simiabraz',[0.25,'Infernape'],'Pokemon',false,false,false,'','C','2026-04-18',1.43],
+    ['Trioxhydre',[0.25,'Hydreigon'],'Pokemon',false,false,false,'','C','2026-04-26',2.48],
+    ['Simiabraz',[0.25,'Infernape'],'Pokemon',false,false,false,'','C','2026-04-18',1.77],
     ['Eurydice',[0.5,'Jirachi'],'Pokemon',
         false,false,false,'','E','2025-08-19',1.74,false,'Builds/Pokemon/EuryJiri.html',false,'2026-03-16',models[186],
         [
@@ -16853,7 +17342,7 @@ const projects = [
             ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Lucario_(Pokemon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-plamo-collection-44-riolu-lucario-model-kit'],
             ['NewType','https://newtype.us/p/xfGGbv3OQReIt12rJaNC/h/pokemon-riolu-lucario']
-        ],['Dogmatix'],true,true,false,false,false,false,false,false,false,'Pokemon Select Series 44 Riolu & Lucario Model Kit'
+        ],false,true,true,false,false,false,false,false,false,false,'Pokemon Select Series 44 Riolu & Lucario Model Kit'
     ],
     ['Faustulus',[1,'Mega Lucario'],'Pokemon',false,false,false,'','B'],
     ['Chanticleerix',[1,'Lugia'],'Pokemon',
@@ -16900,7 +17389,7 @@ const projects = [
             ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Lugia_(Pokemon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-gold-silver-lugia-model-kit'],
             ['NewType','https://newtype.us/p/4OkwUlKsiGMtfqwASLP2/h/pokemon-lugia']
-        ],['Vitalstatistix'],true,true,false,false,false,false,false,false,false,'Pokemon Select Series 4 Lugia Model Kit'
+        ],false,true,true,false,false,false,false,false,false,false,'Pokemon Select Series 4 Lugia Model Kit'
     ],
     ['Bucolix',[1,'Lunala'],'Pokemon',
         false,false,false,'','E','2025-07-04',4.29,false,'Builds/Pokemon/BucixLana.html',false,'2026-01-07',models[176],
@@ -16953,7 +17442,7 @@ const projects = [
             ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Lunala_(Pokémon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pre-order-pokepla-collection-40-select-series-lunala'],
             ['NewType','https://newtype.us/p/7HBfTsdqFkyz7wPA03kQ/h/pokemon-lunala']
-        ],['Tragicomix'],true,true,false,false,false,false,false,false,false,'Pokemon Select Series 40 Lunala Model Kit'
+        ],false,true,true,false,false,false,false,false,false,false,'Pokemon Select Series 40 Lunala Model Kit'
     ],
     ['Unhygienix',[1,'Magikarp'],'Pokemon',false,false,false,'','A'],
     ['Cacofonix',[1,'Metagross'],'Pokemon',
@@ -17041,7 +17530,7 @@ const projects = [
             ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Mew_(Pokemon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-mew-02-quick-model-kit'],
             ['NewType','https://newtype.us/p/2I52VIRFzowvxYGIHxyC/h/pokemon-model-kit-quick-02-mew']
-        ],['Polysyllabix'],false,true,false,false,false,false,false,false,false,'Pokemon Mew 02 Quick Model Kit'
+        ],false,false,true,false,false,false,false,false,false,false,'Pokemon Mew 02 Quick Model Kit'
     ],
     ['Polysyllabix',[1,'Mewtwo'],'Pokemon',
         false,false,false,'','E','2023-11-25',4.83,false,'Builds/Pokemon/Polysyl.html',false,'2025-04-15',models[161],
@@ -17084,10 +17573,10 @@ const projects = [
             ['TurboDork: Purl Grey','https://turbodork.com/products/purl-grey-1'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-mewtwo-model-kit'],
             ['NewType','https://newtype.us/p/CBSn5RIMRw8C0xpurheh/h/pokemon-mewtwo']
-        ],['Monosyllabix'],false,true,false,false,false,false,false,false,false,'Pokemon Select Series 32 Mewtwo Model Kit'
+        ],false,false,true,false,false,false,false,false,false,false,'Pokemon Select Series 32 Mewtwo Model Kit'
     ],
-    ['Chimpenfeu',[0.25,'Monferno'],'Pokemon',false,false,false,'','C','2026-04-18',1.3],
-    ['Peaches',[0.5,'Pichu'],'Pokemon',false,false,false,'','C','2026-04-25',1.58], 
+    ['Chimpenfeu',[0.25,'Monferno'],'Pokemon',false,false,false,'','C','2026-04-18',1.42],
+    ['Peaches',[0.5,'Pichu'],'Pokemon',false,false,false,'','C','2026-04-25',1.83], 
     ['Cyrano',[0.5,'Pikachu'],'Pokemon',
         false,false,false,'','E','2024-07-05',1.65,false,'Builds/Pokemon/Cyrano.html',false,'2025-06-09',models[165],
         [
@@ -17139,9 +17628,9 @@ const projects = [
             ['NewType','https://newtype.us/p/aqpjW7R8h1LfOuf88CK1/h/pokemon-empoleon-evolution-set'],
         ],false,true,false,false,false,false,false,false,false,false,'Pokemon Select Series 6 Empoleon Evolution Set Model Kit'
     ],  //Empoleon set -- Metallic Yellow
-    ['Tony Danza',[0.25,'Pikachu'],'Pokemon',false,false,false,'','C','2026-04-18',0.42], //Infernape Set -- Rough Gold
-    ['Squeaky',[0.25,'Pikachu'],'Pokemon',false,false,false,'','C','2026-04-25',0.48], //Torterra Set -- Blue Gold
-    ['Nibbles',[0.25,'Pikachu'],'Pokemon',false,false,false,'','C','2026-04-26',0.48], //Hydreigon Set -- Red Gold
+    ['Tony Danza',[0.25,'Pikachu'],'Pokemon',false,false,false,'','C','2026-04-18',0.48], //Infernape Set -- Rough Gold
+    ['Squeaky',[0.25,'Pikachu'],'Pokemon',false,false,false,'','C','2026-04-25',0.58], //Torterra Set -- Blue Gold
+    ['Nibbles',[0.25,'Pikachu'],'Pokemon',false,false,false,'','C','2026-04-26',0.53], //Hydreigon Set -- Red Gold
     ['Picanmix',[0.5,'Piplup'],'Pokemon',
         false,false,false,'','E','2023-11-25',3.95,false,'Builds/Pokemon/Pican.html',false,'2025-02-20',models[153],
         [
@@ -17194,7 +17683,7 @@ const projects = [
             ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Piplup_(Pokemon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-select-series-6-empoleon-evolution-set-model-kit'],
             ['NewType','https://newtype.us/p/aqpjW7R8h1LfOuf88CK1/h/pokemon-empoleon-evolution-set'],
-        ],['Prinplouf','Pingol\u00E9on'],false,true,false,false,false,false,false,false,false,'Pokemon Select Series 6 Empoleon Evolution Set Model Kit'
+        ],false,false,true,false,false,false,false,false,false,false,'Pokemon Select Series 6 Empoleon Evolution Set Model Kit'
     ],
     ['Prinplouf',[0.25,'Prinplup'],'Pokemon',
         false,false,false,'','E','2025-09-07',1.01,false,'Builds/Pokemon/Priplup.html',false,'2026-04-27',models[187],
@@ -17222,7 +17711,7 @@ const projects = [
             ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Prinplup_(Pokémon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-select-series-6-empoleon-evolution-set-model-kit'],
             ['NewType','https://newtype.us/p/aqpjW7R8h1LfOuf88CK1/h/pokemon-empoleon-evolution-set'],
-        ],['Tiplouf','Pingol\u00E9on'],false,true,false,false,false,false,false,false,false,'Pokemon Select Series 6 Empoleon Evolution Set Model Kit'
+        ],false,false,true,false,false,false,false,false,false,false,'Pokemon Select Series 6 Empoleon Evolution Set Model Kit'
     ],
     ['Postaldistrix',[1,'Raikou'],'Pokemon',
         false,false,false,'','E','2024-09-13',2.75,false,'Builds/Pokemon/PostRai.html',false,'2025-11-10',models[172],
@@ -17274,7 +17763,7 @@ const projects = [
             ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Raikou_(Pokémon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-select-series-10-raikou-model-kit'],
             ['NewType','https://newtype.us/p/8idrwbGaTlxwiG3kDy8m/h/pokemon-raikou']
-        ],['Pacifix','Soporifix'],true,true,false,false,false,false,false,false,false,'Pokemon Select Series 10 Raikou Model Kit'
+        ],false,true,true,false,false,false,false,false,false,false,'Pokemon Select Series 10 Raikou Model Kit'
     ],
     ['Getafix',[1,'Rayquaza'],'Pokemon',
         false,false,false,'','E','2023-09-18',5.74,false,'Builds/Pokemon/Getafix.html',false,'2025-01-20',models[150],
@@ -17354,7 +17843,7 @@ const projects = [
             ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Riolu_(Pokemon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-plamo-collection-44-riolu-lucario-model-kit'],
             ['NewType','https://newtype.us/p/xfGGbv3OQReIt12rJaNC/h/pokemon-riolu-lucario']
-        ],['Lutetia'],true,true,false,false,false,false,false,false,false,'Pokemon Select Series 44 Riolu & Lucario Model Kit'
+        ],false,true,true,false,false,false,false,false,false,false,'Pokemon Select Series 44 Riolu & Lucario Model Kit'
     ], 
     ['Mantis Force',[6,'Scizor'],'Pokemon',
         false,false,false,'','D','2025-07-08',19.09,false,'Builds/Pokemon/MForce.html',false,'2026-06-15',models[189],
@@ -17511,7 +18000,7 @@ const projects = [
             ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Solgaleo_(Pokémon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pre-order-pokepla-collection-39-select-series-solgaleo'],
             ['NewType','https://newtype.us/p/fTpox94wmvikHoMzLcSN/h/pokemon-solgaleo']
-        ],['Bucolix'],true,true,false,false,false,false,false,false,false,'Pokemon Select Series 39 Solgaleo Model Kit'
+        ],false,true,true,false,false,false,false,false,false,false,'Pokemon Select Series 39 Solgaleo Model Kit'
     ],
     ['Cooper',[0.5,'Squirtle'],'Pokemon',
         false,false,false,'','E','2024-06-04',2.17,false,'Builds/Pokemon/Cooper.html',false,'2024-09-16',models[134],
@@ -17577,7 +18066,7 @@ const projects = [
             ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Suicune_(Pokémon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/products/pokemon-select-series-09-suicune-model-kit'],
             ['NewType','https://newtype.us/p/SuUdDlyt5v6KxgFYslV7/h/pokemon-suicune']
-        ],['Postaldistrix','Soporifix'],true,true,false,false,false,false,false,false,false,'Pokemon Select Series 09 Suicune Model Kit'
+        ],false,true,true,false,false,false,false,false,false,false,'Pokemon Select Series 09 Suicune Model Kit'
     ],
     ['Tusk',[0.5,'Tepig'],'Pokemon',
         false,false,false,'','E','2023-10-22',3.1,false,'Builds/Pokemon/Tusk.html',false,'2025-07-21',models[168],
@@ -17613,10 +18102,10 @@ const projects = [
             ['NewType','https://newtype.us/p/Bh64h14GeIoFui3kPjy4/h/pokemon-model-kit-quick-14-tepig']
         ],false,false,true,false,false,false,false,false,false,false,'Pokemon Tepig 14 Quick Model Kit'
     ], 
-    ['Pierre',[0.25,'Torterra'],'Pokemon',false,false,false,'','C','2026-04-25',2.37],
-    ['Tortipouss',[0.25,'Turtwig'],'Pokemon',false,false,false,'','C','2026-04-25',0.68],
-    ['Iks',[1,'Xerneas'],'Pokemon',false,false,false,'','C','2026-04-18',2.7],
-    ['Igrec',[1,'Yveltal'],'Pokemon',false,false,false,'','C','2026-04-18',2.95],
+    ['Pierre',[0.25,'Torterra'],'Pokemon',false,false,false,'','C','2026-04-25',2.65],
+    ['Tortipouss',[0.25,'Turtwig'],'Pokemon',false,false,false,'','C','2026-04-25',0.75],
+    ['Iks',[1,'Xerneas'],'Pokemon',false,false,false,'','C','2026-04-18',3.08],
+    ['Igrec',[1,'Yveltal'],'Pokemon',false,false,false,'','C','2026-04-18',3.53],
     ['Prolix',[1,'Zekrom'],'Pokemon',
         false,false,false,'','E','2023-12-13',4.05,false,'Builds/Pokemon/ProlixZekrom.html',false,'2025-08-18',models[170],
         [
@@ -17669,7 +18158,7 @@ const projects = [
             ['NewType','https://newtype.us/p/zFxni4eQiVc6SRCMa7Qo/h/pokemon-zekrom']
         ],false,true,true,false,false,false,false,false,false,false,'Pokemon Select Series 14 Zekrom Model Kit'
     ],
-    ['Diamat',[0.25,'Zweilous'],'Pokemon',false,false,false,'','C','2026-04-26',1.28],
+    ['Diamat',[0.25,'Zweilous'],'Pokemon',false,false,false,'','C','2026-04-26',1.4],
     
     //Digimon
     ['Heimdall',[1,'Alphamon'],'Digimon',false,false,false,'','B','2024',0],
@@ -19846,7 +20335,7 @@ function sortByDate(array,sort) {
 function sortByName(array) {
     let namesArray = [false];
     for (let i=0;i<array.length;i++) {
-        if(!namesArray.includes(array[i][14][2])) {
+        if (!namesArray.includes(array[i][14][2])) {
             namesArray.push(array[i][14][2]);
         }
     }
@@ -19899,6 +20388,42 @@ function sortByDexNumber(array) {
     for (let j=0;j<numArray.length;j++) {
         for (let k=0;k<array.length;k++) {
             if (array[k][14][4] == numArray[j]) {
+                tempArray.push(array[k]);
+            }
+        }
+    }
+    return tempArray;
+}
+
+function sortByDigiSpecies(array) {
+    let speciesArray = [false];
+    for (let i=0;i<array.length;i++) {
+        if (!speciesArray.includes(array[i][14][10])) {
+            speciesArray.push(array[i][14][10]);
+        }
+    }
+    speciesArray.sort();
+
+    let tempArray = [];
+    for (let j=0;j<speciesArray.length;j++) {
+        for (let k=0;k<array.length;k++) {
+            if (array[k][14][10] == speciesArray[j]) {
+                tempArray.push(array[k]);
+            }
+        }
+    }
+    return tempArray;
+}
+
+function sortByDigiStage(array) {
+    array = sortByDigiSpecies(array.sort());
+
+    let stageArray = [1,2,3,4,5,6,7];
+
+    let tempArray = [];
+    for (let j=0;j<stageArray.length;j++) {
+        for (let k=0;k<array.length;k++) {
+            if (array[k][14][4] == stageArray[j]) {
                 tempArray.push(array[k]);
             }
         }
@@ -20547,7 +21072,7 @@ function buildFilterArrays() {
     }
 
     automobileFilter = sortByDate(automobileFilter,'post').reverse();
-    digimonFilter = sortByDate(digimonFilter,'post').reverse();
+    digimonFilter = sortByDigiStage(digimonFilter);
     displayFilter = sortByDate(displayFilter,'post').reverse();
     gundamFilter = sortByDate(gundamFilter,'post').reverse();
     haroFilter = sortByDate(haroFilter,'post').reverse();
@@ -20658,6 +21183,11 @@ function populateBuildsPage() {
     for (let i=0;i<postedArray.length;i++) {
         if(postedArray[i][22])
         {
+            let urlLink = postedArray[i][11];
+            if (Array.isArray(postedArray[i][11])) {
+                urlLink='blogArchive.html#'+postedArray[i][11];
+            }
+
             buildCount++;
             let divNode = document.createElement('div');
             let divClass = document.createAttribute('class');
@@ -20666,7 +21196,7 @@ function populateBuildsPage() {
 
             let aNode = document.createElement('a');
             let hrefNode = document.createAttribute('href');
-            hrefNode.value = postedArray[i][11];
+            hrefNode.value = urlLink;
             aNode.setAttributeNode(hrefNode);
             let aClass = document.createAttribute('class');
             aClass.value = 'mx-0';
@@ -20693,7 +21223,7 @@ function populateBuildsPage() {
 
             let aNode2 = document.createElement('a');
             let hrefNode2 = document.createAttribute('href');
-            hrefNode2.value = postedArray[i][11];
+            hrefNode2.value = urlLink;
             aNode2.setAttributeNode(hrefNode2);
             let aClass2 = document.createAttribute('class');
             aClass2.value = 'mx-0';
@@ -20728,6 +21258,11 @@ function populateSelectBuilds(array) {
     for (let i=0;i<array.length;i++) {
         if(array[i][22])
         {
+            let urlLink = array[i][11];
+            if (Array.isArray(array[i][11])) {
+                urlLink='blogArchive.html#'+array[i][11];
+            }
+
             buildCount++;
             let divNode = document.createElement('div');
             let divClass = document.createAttribute('class');
@@ -20736,7 +21271,7 @@ function populateSelectBuilds(array) {
 
             let aNode = document.createElement('a');
             let hrefNode = document.createAttribute('href');
-            hrefNode.value = array[i][11];
+            hrefNode.value = urlLink;
             aNode.setAttributeNode(hrefNode);
             let aClass = document.createAttribute('class');
             aClass.value = 'mx-0';
@@ -20763,7 +21298,7 @@ function populateSelectBuilds(array) {
 
             let aNode2 = document.createElement('a');
             let hrefNode2 = document.createAttribute('href');
-            hrefNode2.value = array[i][11];
+            hrefNode2.value = urlLink;
             aNode2.setAttributeNode(hrefNode2);
             let aClass2 = document.createAttribute('class');
             aClass2.value = 'mx-0';
@@ -20967,26 +21502,57 @@ function buildProjectPage(string) {
 
     let otherArray = [];
     for (let i=0;i<projects.length;i++) {
-        if ((projectArray[14] === projects[i][14]) && (projectArray[0] != projects[i][0]) && projects[i][22] && (!affilatesArray.includes(projects[i]))) {
-            otherArray.push(projects[i])
+        if ((projectArray[14] === projects[i][14]) && (projectArray[0] != projects[i][0]) && projects[i][22] && (!affilatesArray.includes(projects[i])) && (!Array.isArray(projects[i][11]))) {
+            if (projectArray[2] === 'PG') {
+                if (!pgFinishedArray.includes(projects[i])) {
+                    otherArray.push(projects[i])
+                }
+            }
+            else {
+                otherArray.push(projects[i])
+            }
         }
         if (projects[i][27]) {
             if (projects[i][27].includes(projectArray[14]) && (projectArray[0] != projects[i][0]) && projects[i][22]) {
                 otherArray.push(projects[i])
             }
         }
-    }
-    /*for (let i=0;i<otherArray.length;i++) {
-        for (let j=0;j<affilatesArray.length;j++) {
-            if (otherArray[i] === affilatesArray[j]) {
-                otherArray.splice(i,1);
-            }
+        if (projects[i][2] === 'PG' && (projectArray[0] != projects[i][0]) && projects[i][22]) {
+            pgFinishedArray.push(projects[i]);
         }
-    }*/
+    }
 
     if (otherArray.length>0) {
         unhide('.modelOtherSameModelHD');
         projectLinks(otherArray.sort(),'modelOtherSameModel');
+    }
+
+    let baseModelIDs = [];
+    let baseModelName = '';
+    let variantArray = [];
+    if (modelArray[1] < 10) {
+        if (modelArray[40]) {
+            baseModelIDs = modelArray[40];
+            let firstID = baseModelIDs[0]
+            let baseModel = models[firstID];
+            if (baseModel[41]) {
+                baseModelName = baseModel[41];
+            }
+            if(!baseModel[41]) {
+                baseModelName = models[baseModel[40]][41];
+            }
+        }
+        for (let i=0;i<projects.length;i++) {
+            if (projectArray!=projects[i] && projects[i][22] && (!Array.isArray(projects[i][11]))) {
+                if (projects[i][14][40] && projectArray[14][40]) {
+                    for (let id=0;id<projects[i][14][40].length;id++) {
+                        if (projectArray[14][40].includes(projects[i][14][40][id]) && !(otherArray.includes(projects[i])) && !(affilatesArray.includes(projects[i]))) {
+                            variantArray.push(projects[i]);
+                        }
+                    }
+                }
+            }
+        }
     }
 
     if (projectArray[19]) {
@@ -21010,31 +21576,31 @@ function buildProjectPage(string) {
     }
 
     if (modelArray[1] === 1) {
-        buildGundam();
+        buildGundam(variantArray,baseModelName);
     } 
     else if (modelArray[1] === 2) {
-        buildShipGundam();
+        buildShipGundam(variantArray,baseModelName);
     }
     else if (modelArray[1] === 3) {
         buildShipOther();
     }
     else if (modelArray[1] === 4) {
-        buildCarAuto();
+        buildCarAuto(variantArray,baseModelName);
     }
     else if (modelArray[1] === 5) {
         buildDisplay();
     }
     else if (modelArray[1] === 6) {
-        buildDigimon();
+        buildDigimon(variantArray,baseModelName);
     }
     else if (modelArray[1] === 7) {
-        buildPokemon();
+        buildPokemon(variantArray,baseModelName);
     }
     else if (modelArray[1] === 8) {
         buildTransformer();
     }
     else if (modelArray[1] === 9) {
-        buildZoid();
+        buildZoid(variantArray,baseModelName);
     } 
     else if (modelArray[1] === 10) {
         buildHaro();
@@ -21042,108 +21608,17 @@ function buildProjectPage(string) {
     else if (modelArray[1] === 12) {
         buildOther();
     }
-
-    /*
-    let variantModelsArray = [];
-    let variantProjectsArray = [];
-
-    let baseModelIDs = modelArray[28];
-
-    for (let i=0;i<baseModelIDs.length;i++) {
-        let baseID = baseModelIDs[i];
-        for (let j=0;j<models.length;j++) {
-            if (models[j][1] === 1 || models[j][1] === 11) {
-                if (models[j][28].includes(baseID)) {
-                    if (!variantModelsArray.includes(models[j])) {
-                        variantModelsArray.push(models[j]);
-                    }
-                }
-            } 
-        }
-    }
-
-    for (i=0;i<variantModelsArray.length;i++) {
-        for (j=0;j<projects.length;j++) {
-            if (variantModelsArray[i] != modelArray) {
-                if (projects[j][14] === variantModelsArray[i] && projects[j][22]) {
-                    if (projectArray[20]) {
-                        if (!projectArray[20].includes(projects[j][0])) {
-                            variantProjectsArray.push(projects[j]);
-                        }
-                    }
-                    else {
-                        variantProjectsArray.push(projects[j]);
-                    }
-                }
-            }
-        }
-    }
-
-    let firstID = baseModelIDs[0]
-    let baseModel = models[firstID];
-    let baseModelName = baseModel[29];
-    if(!baseModel[29]) {
-        baseModelName = models[baseModel[28]][29];
-    }
-    if (variantProjectsArray.length>0) {
-        unhide('.variantHD');
-        popNode(baseModelName+' Variants:','variantTitle');
-        projectLinks(variantProjectsArray.sort(),'variantModels');
-    }
-    */
-
 }
 
-function buildGundam() {
+function buildGundam(variantArray,baseModelName) {
     unhide('.GundamPage');
     insertModelPhoto('gModelPhoto');    
 
-    let variantModelsArray = [];
-    let variantProjectsArray = [];
-
-    let baseModelIDs = modelArray[28];
-
-    for (let i=0;i<baseModelIDs.length;i++) {
-        let baseID = baseModelIDs[i];
-        for (let j=0;j<models.length;j++) {
-            if (models[j][1] === 1) {
-                if (models[j][28].includes(baseID)) {
-                    if (!variantModelsArray.includes(models[j])) {
-                        variantModelsArray.push(models[j]);
-                    }
-                }
-            } 
-        }
-    }
-
-    for (i=0;i<variantModelsArray.length;i++) {
-        for (j=0;j<projects.length;j++) {
-            if (variantModelsArray[i] != modelArray) {
-                if (projects[j][14] === variantModelsArray[i] && projects[j][22]) {
-                    if (projectArray[20]) {
-                        if (!projectArray[20].includes(projects[j][0])) {
-                            variantProjectsArray.push(projects[j]);
-                        }
-                    }
-                    else {
-                        variantProjectsArray.push(projects[j]);
-                    }
-                }
-            }
-        }
-    }
-
-    let firstID = baseModelIDs[0]
-    let baseModel = models[firstID];
-    let baseModelName = baseModel[29];
-    if(!baseModel[29]) {
-        baseModelName = models[baseModel[28]][29];
-    }
-    if (variantProjectsArray.length>0) {
+    if (variantArray.length>0) {
         unhide('.variantHD');
         popNode(baseModelName+' Variants:','variantTitle');
-        projectLinks(variantProjectsArray.sort(),'variantModels');
-    }
+        projectLinks(sortBySerialNo(variantArray),'variantModels');
+    }    
 
     if (projectArray[5]) {
         unhide('.projectMGEXHD');
@@ -21178,6 +21653,11 @@ function buildGundam() {
         }
         else {
             projectGradeN.appendChild(projectGradeT);
+        }
+
+        if (projectArray[2] === 'PG' && pgFinishedArray.length>0) {
+            unhide('.pGradeHD');
+            projectLinks(pgFinishedArray.sort(),'pGradeModels');
         }
     }
 
@@ -21327,10 +21807,16 @@ function buildGundam() {
     }
 }
 
-function buildShipGundam() {
+function buildShipGundam(variantArray,baseModelName) {
     unhide('.GundamShipPage');
     insertModelPhoto('gsModelPhoto',450);  
     //insertPhoto(modelArray[26],'gsModelPhoto',false,450);
+
+    if (variantArray.length>0) {
+        unhide('.variantHD');
+        popNode(baseModelName+' Variants:','variantTitle');
+        projectLinks(sortBySerialNo(variantArray),'variantModels');
+    } 
 
     if (modelArray[2]) {
         unhide('.gsShortNameHD');
@@ -21605,10 +22091,16 @@ function buildShipOther() {
     }
 }
 
-function buildCarAuto() {
+function buildCarAuto(variantArray,baseModelName) {
     unhide('.AutomobilePage');
     insertModelPhoto('caModelPhoto',450);  
     //insertPhoto(modelArray[26],'caModelPhoto',false,450);
+
+    if (variantArray.length>0) {
+        unhide('.variantHD');
+        popNode(baseModelName+' Variants:','variantTitle');
+        projectLinks(sortByName(variantArray),'variantModels');
+    }    
 
     popNode(modelArray[2],'caShortName');
 
@@ -21666,15 +22158,40 @@ function buildDisplay() {
     }
 }
 
-function buildDigimon() {
+function buildDigimon(variantArray,baseModelName) {
     unhide('.DigimonPage');
     insertModelPhoto('dgModelPhoto',400);  
     //insertPhoto(modelArray[26],'dgModelPhoto',false,400);
     popNode(modelArray[2],'dgShortName');
 
+    if (variantArray.length>0) {
+        unhide('.variantHD');
+        popNode(baseModelName+':','variantTitle');
+        projectLinks(sortByName(variantArray),'variantModels');
+    }
+
     if (modelArray[4]) {
         unhide('.dgLevelHD');
-        popNode(modelArray[4],'dgLevel');
+        let digiLevel = 'Fresh';
+        if (modelArray[4] === 2) {
+            digiLevel = 'In Traning';
+        }
+        else if (modelArray[4] === 3) {
+            digiLevel = 'Rookie';
+        }
+        else if (modelArray[4] === 4) {
+            digiLevel = 'Champion';
+        }
+        else if (modelArray[4] === 5) {
+            digiLevel = 'Ultimate';
+        }
+        else if (modelArray[4] === 6) {
+            digiLevel = 'Mega';
+        }
+        else if (modelArray[4] === 7) {
+            digiLevel = 'Mega+ / Ultra';
+        }
+        popNode(digiLevel,'dgLevel');
     }
     if (modelArray[5]) {
         unhide('.dgFromHD');
@@ -21726,11 +22243,17 @@ function buildDigimon() {
     }
 }
 
-function buildPokemon() {
+function buildPokemon(variantArray,baseModelName) {
     unhide('.PokemonPage');
     //insertPhoto(modelArray[26],'pkModelPhoto',false,300);
     insertModelPhoto('pkModelPhoto');
     popNode(modelArray[2],'pkShortName');
+
+    if (variantArray.length>0) {
+        unhide('.variantHD');
+        popNode(baseModelName+':','variantTitle');
+        projectLinks(sortByDexNumber(variantArray),'variantModels');
+    }
 
     if (modelArray[2]) {
         popNode(modelArray[2],'modelOtherTitle');
@@ -21850,9 +22373,14 @@ function buildHaro() {
     insertModelPhoto('hpModelPhoto');
     //insertPhoto(modelArray[26],'hpModelPhoto',false,300);
 
+    if (modelArray[2]) {
+        popNode(modelArray[2],'modelOtherTitle');
+        popNode(':','modelOtherTitle');
+    }
+
     let postHaroArray = [];
     for  (let i=0;i<projects.length;i++) {
-        if (projects[i] != projectArray && projects[i][2] == 'Haro' && projects[i][22]) {
+        if (projects[i] != projectArray && projectArray[14] != projects[i][14] && projects[i][2] == 'Haro' && projects[i][22]) {
             postHaroArray.push(projects[i])
         }
     }
@@ -21889,10 +22417,16 @@ function buildHaro() {
     }
 }
 
-function buildZoid() {
+function buildZoid(variantArray,baseModelName) {
     unhide('.ZoidPage');
     insertModelPhoto('zdModelPhoto');  
     //insertPhoto(modelArray[26],'zdModelPhoto',false,300);
+
+    if (variantArray.length>0) {
+        unhide('.variantHD');
+        popNode(baseModelName+' Variants:','variantTitle');
+        projectLinks(sortByDexNumber(variantArray),'variantModels');
+    } 
 
     if (modelArray[2]) {
         unhide('.zdShortNameHD');
