@@ -313,8 +313,9 @@ const models = [
         false,
         false,
         false,
+        false,
         ['https://hosting.photobucket.com/images/i/lesaintdumech/wargreymon.jpeg','Wargreymon'],
-        false,false,false,false,false,false,false,false,false,false,false,false,false,false,
+        false,false,false,false,false,false,false,false,false,false,false,false,false,
         [10],'Greymon Family'
     ],
     [11,7,'Greninja',
