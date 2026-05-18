@@ -4910,6 +4910,51 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/Pingemperor16.jpeg']
         ]
+    ],
+    [
+        ['2026-05-18','20260518A'],
+        'Zero is Perfect',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/PerfectZeroPG36.jpeg',
+        [
+            [
+                'Everything may be fine, but ZERO is beyond PERFECT. I\'ve waited beyond two years to present this one to you, and originally had intended to unveil it a month ago but kept having delays. So today I am beyond relieved to finally present to you the ',
+                ['Perfect Grade Endless Waltz Wing Zero','Builds/PG/PGWingZero.html'],
+                '.'
+            ]
+        ],
+        [
+            'I know I have said it at least once. At least ten times. Perhaps beyond a thousand times on here. That Zero is of course my favorite of all the Gundams. So build its Perfect Grade model was important to me, and I am so glad I finally got my hands on the kit and got that opportunity.',
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/PerfectZeroPG02.jpeg']
+        ],
+        [
+            'That said, there are a few criticisms that must be made in my review of this kit.'
+        ],
+        [
+            'First of all, it is too old. Compared to later Perfect Grades designed more recently where Bandai really upped their game in design, engineering complexity and detail, this kit no longer lives up to the modern Perfect Grade standard. It\'s more of just a very large oversized High Grade that is Perfect Grade in size only. That was the Perfect Grade standard in the early 2000s when it first was released, but not anymore in the 2020s. Our Gunpla technology has come a long way and this does not keep up.'
+        ],
+        [
+            'Second, it could really use a stand. It does not come with one like the new Perfect Grade models do. And the wings are so top heavy that it falls over a lot and is impossible to pose. I had to go buy a third party stand in the 1/60 scale, which was not designed to mount this model that even with the stand I in the end had to resort to tying a string around its waste hold it up. The best I could ever do with this kit was make it stand up straight. But action poses, especially for photographing it for this site, was always out of question. It cannot maintain a pose at all. It\'s just pretty and cool to look at.'
+        ],
+        [
+            [
+                'And third, the circuitry for the LED is impossible to configure. I wound up having to cheat and reconfigure it using my own wires and parts from ',
+                ['Evan Designs','https://evandesigns.com',true],
+                ' just to compensate for the kit\'s poor design, which in the end resulted in me having to super glue the battery box shut just to get it tight enough for the mattery to connect to the registry. Which means this is one time use only. Soon as my battery burns out, that\'s it, I wont be able to replace it. I know one of the perks and joys of Perfect Grades is the opportunity to get to (with Bandai\'s guidance) perform you own electrical work. Which the implementation in the ',
+                ['Perfect Grade Strike','Builds/PG/PGStrike.html',true],
+                ' worked flawlessly. But the electrical design for and its parts in the Perfect Grade Zero is just flawed that doesn\'t even complete the circuit.'
+            ]
+        ],
+        [
+            'But despite its lack in standards, it is still a cool kit that looks great and I am still glad I built it and can add it to my collection. Just please Bandai, please, please, please design a PG Wing Zero EW ver 2.0. I promise I would be first in line to purchase it.'
+        ],
+        [
+            'For Pete\'s sakes, we are already on the what, version 5.0 Perfect Grade for the RX-78-2 Grandpa Gundam? A version 2.0 Wing Zero redesign by modern quality standards is not too much for we the fanbase to ask for.'
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/PerfectZeroPG23.jpeg']
+        ]
     ]
 ]
 
