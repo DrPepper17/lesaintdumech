@@ -17706,7 +17706,7 @@ const projects = [
         ],false,true,true,false,false,false,false,false,false,false,'Pokemon Gyarados 52 Model Kit'
     ],
     ['Skullkraken',[1,'Gyarados'],'Pokemon',
-        false,false,false,'','E','2025-10-08',4.56,false,'Builds/Pokemon/SkullGyar.html',false,'2026-06-08',models[148],
+        false,false,false,'','E','2025-10-08',4.56,false,'Builds/Pokemon/SkullGyar.html',false,'2026-06-10',models[148],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Gyaraskull01.jpeg','Skullkraken'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Gyaraskull02.jpeg','Skullkraken'],
