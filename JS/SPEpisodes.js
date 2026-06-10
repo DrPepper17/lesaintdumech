@@ -304,7 +304,7 @@ const EPISODES = [
     [false,88,6,9,'Free Hat',
         22,"2002-07-10",false,609,false,'TV-MA','Toni Nugnes','Trey Parker',2.80,false,['George Lucas','Steven Spielberg','Francis Ford Coppola','Pat O\'Brien','Ted Koppel'],false,'When the boys find out that their favorite movies are being enhanced, re-released and ruined in the process, they form a club to \"Save Films from their Directors.\"','https://hosting.photobucket.com/images/i/lesaintdumech/SPE609.jpeg',8.2,['https://tv.apple.com/us/episode/free-hat/umc.cmc.4a8ypwura48tar8ozd3k7r17s?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
-    [false,89,6,10,'Bebe\'s Boobs Destroy Society',
+    [true,89,6,10,'Bebe\'s Boobs Destroy Society',
         20,"2002-07-17",false,610,false,'TV-MA','Trey Parker','Trey Parker',2.53,false,false,false,'Cartman gets kicked out of the gang when Bebe develops boobs and the boys lose their minds, threatening their friendships and society as we know it.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE610.jpeg',8.2,['https://tv.apple.com/us/episode/bebes-boobs-destroy-society/umc.cmc.2rrv9vsgpvben0lju7q1oevvr?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
     [false,90,6,11,'Child Abduction Is Not Funny',
@@ -565,7 +565,7 @@ const EPISODES = [
     [false,175,12,8,'The China Probrem',
         22,"2008-10-08",false,1208,false,'TV-MA','Trey Parker','Trey Parker',3.73,false,['Steven Spielberg','George Lucas'],false,'With the rest of the American people haunted by the memory of a recent tragic event, only Butters will stand with Cartman as he confronts the Chinese.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1208.jpeg',7.7,['https://tv.apple.com/us/episode/the-china-probrem/umc.cmc.63cexh7is670brhnusy0rhptd?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
-    [false,176,12,9,'Breast Cancer Show Ever',
+    [true,176,12,9,'Breast Cancer Show Ever',
         22,"2008-10-15",false,1209,false,'TV-MA','Trey Parker','Trey Parker',2.85,false,false,false,'Wendy gets in trouble when she threatens to beat up Cartman after school.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1209.jpeg',8.8,['https://tv.apple.com/us/episode/breast-cancer-show-ever/umc.cmc.4os0qzyrcx087d0dqphcy9fw0?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
     [false,177,12,10,'Pandemic',
@@ -676,7 +676,7 @@ const EPISODES = [
     [false,212,15,3,'Royal Pudding',
         21,"2011-05-11",false,1503,false,'TV-MA','Trey Parker','Trey Parker',2.43,false,false,false,'The Prince of Canada is about to take a Princess and Ike is obsessed with the Royal Wedding.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1503.jpeg',6.7,['https://tv.apple.com/us/episode/royal-pudding/umc.cmc.2fxtuzx81qvjso6m4g6xoplgm?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
-    [false,213,15,4,'T.M.I.',
+    [true,213,15,4,'T.M.I.',
         23,"2011-05-18",false,1504,false,'TV-MA','Trey Parker','Trey Parker',2.42,false,false,false,'Cartman throws a fit when the boys\' penis sizes are posted on the school bulletin board, and is sent to anger management therapy.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1504.jpeg',8,['https://tv.apple.com/us/episode/tmi/umc.cmc.1ilj8vrz20wqgjorgwwr72sj1?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
     [false,214,15,5,'Crack Baby Athletic Association',

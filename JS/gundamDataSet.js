@@ -8043,6 +8043,48 @@ const models = [
         false,
         false,false,false,false,false,false,false,false,false,false,false,false,
         [136]
+    ],
+    [216,1,'Tallgeese Flugel',
+        'OZ-00MS Tallgeese Flugel',
+        'OZ-00MS',
+        'Mobile Suit Gundam Wing Endless Waltz: Glory of the Losers',
+        false,
+        [
+            'OZ-00MS Tallgeese'
+        ],
+        [
+            'XXXG-00W0 Wing Gundam Zero'
+        ],
+        'After Colony',
+        [195,'175 A.C.',195],
+        'Zechs Merquise',
+        false,
+        'Organization of the Zodiac',
+        ['Sanc Kingdom','Peacemillion'],
+        [17.4,'17.4 Meters'],
+        [8.8,'8.8 Metric Tons'],
+        'Titanium Alloy',
+        'Ultracompact Fusion Reactor',
+        false,
+        [
+            'Dober Gun',
+            'Tempest Heat Lance',
+            'Heat Halbert',
+            'Beam Saber (x2)',
+            'Beam Shield',
+            'Optional: Shoulder Mounted Missile Batteries (x4)'
+        ],
+        [
+            'Self-Destruct System'
+        ],
+        'Hajime Katoki',
+        false,
+        false,
+        false,
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/TallFlugelPFP.jpeg','Tallgeese Flugel Profile Pic'],
+        false,
+        false,false,false,false,false,false,false,false,false,false,false,false,
+        [47]
     ]
 ];
 
@@ -9900,7 +9942,7 @@ const projects = [
 
     //Advanced Generation (Age)
     ['A2MG',[1,'AGE-2 Normal'],'MG',true,false,false,'AGE','D','2025-10-02',3.75],
-    ['A2DMG',[1,'AGE-2 Dark Hound'],'MG',true,false,false,'AGE','C','2026-04-23',2.08],
+    ['A2DMG',[1,'AGE-2 Dark Hound'],'MG',true,false,false,'AGE','D','2026-04-23',4.92],
     ['Uriel',[1,'Age-FX'],'SD',false,false,false,'Age','B'],
     ['Gamma Draconis',[1,'Danazine'],'HG',false,false,false,'Age','B'],
     ['Argonaut',[1,'Legilis'],'SD',false,false,false,'Age','C','2026-04-18',4.58],
@@ -10525,7 +10567,7 @@ const projects = [
         false,true,false,'Wing','B'
     ],
     ['Tallgeese Fl\u00FCgel',[1,'Tallgeese Fl\u00FCgel'],'MG',
-        true,true,false,'Wing','D','2022-05-08',20.17,false,'Builds/PBTallgeeseFlugelMG.html',false,'2026-04-06'
+        true,true,false,'Wing','D','2022-05-08',20.17,false,'Builds/PBTallgeeseFlugelMG.html',false,'2026-04-06',models[216]
     ],
     ['Man o\' War',[1,'Tallgeese II'],'RG',false,true,false,'Wing','B'],
     ['Cambria',[1,'PB Vayeate'],'HG',false,true,false,'Wing','B'],
@@ -15345,6 +15387,7 @@ const projects = [
         ],false,false,true,false
     ],
     ['Crossbone [RG]',[1,'Crossbone X-1'],'RG',true,false,false,'UC','D','2022-05-07',9.08,false,false,false],
+    ['CXBMG',[1,'Crossbone X-1'],'MG',true,false,false,'UC','C','2026-06-28',0.17],
     ['King Neptune',[1,'Crossbone X-1'],'RG',false,false,false,'UC','B'],
     ['Jackie-O',[1,'Delta Plus'],'SD',
         false,false,false,'UC','E','2022-01-07',11.17,false,'Builds/Gundams/JackieO.html',false,'2022-07-11',models[42],
@@ -17434,7 +17477,7 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Pingemperor17.jpeg','Pingol\u00E9on']
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/Pingemperor05.jpeg','Profile Photo: Pingol\u00E9on'],
-        'For this Empoleon since he\'s a water type wanted to focus more on bringing out his blues. So black become a dark metallic arctic blue. And the whites became a bright baby blue. Also since he\'s a dual steel type, decided to use a steel paint for the wing tips to make them more like blades. And for the trident-beak, a menacing bright Signal Red.',false,
+        'For this Empoleon since he\'s a water type wanted to focus more on bringing out his blues. So black become a dark metallic arctic blue. And the whites became a bright baby blue. Also since he\'s a dual steel type, decided to use a steel paint for the wing tips to make them more like blades. And for the trident-beak, a menacing bright Signal Red.','Apollo, Portland',
         [
             ['Video','https://youtu.be/th1wuteb_XA'],
             ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Empoleon_(Pokémon)'],
@@ -17663,7 +17706,7 @@ const projects = [
         ],false,true,true,false,false,false,false,false,false,false,'Pokemon Gyarados 52 Model Kit'
     ],
     ['Skullkraken',[1,'Gyarados'],'Pokemon',
-        false,false,false,'','D','2025-10-08',4.56,false,'Builds/Pokemon/SkullGyar.html',false,'2026-06-08',models[148],
+        false,false,false,'','E','2025-10-08',4.56,false,'Builds/Pokemon/SkullGyar.html',false,'2026-06-08',models[148],
         [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Gyaraskull01.jpeg','Skullkraken'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Gyaraskull02.jpeg','Skullkraken'],
@@ -17693,13 +17736,13 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Gyaraskull26.jpeg','Skullkraken']
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/Gyaraskull19.jpeg','Profile Photo: Skullkraken'],
-        'DESCRIPTION',false,
+        'Going full grey scale on this one. Everythign here is different shade of grey and black from Vallejo. A lot of painstaking planning went into this one comparing and contrasting every grey in the Vallejo lineup. Lots of making sample paint cards and placing them side by side with each other to decide which ones were the best fit.',false,
         [
             ['Video','https://youtu.be/2qLiiScybpM'],
             ['Bulbapedia','https://m.bulbapedia.bulbagarden.net/wiki/Gyarados_(Pokemon)'],
             ['USA Gundam Store','https://www.usagundamstore.com/collections/pokapla/products/pokemon-gyarados-52-model-kit'],
             ['NewType','https://newtype.us/p/dOkZZ7AvruhzwIslqHje/h/pokemon-gyarados']
-        ],false,true,false,false,false,false,false,false,false,false,'Pokemon Gyarados 52 Model Kit'
+        ],false,true,true,false,false,false,false,false,false,false,'Pokemon Gyarados 52 Model Kit'
     ],//gray scale
     ['Vitalstatistix',[1,'Ho-oh'],'Pokemon',
         false,false,false,'','E','2024-02-20',5.17,false,'Builds/Pokemon/Vital.html',false,'2025-05-12',models[132],
@@ -17769,6 +17812,7 @@ const projects = [
             ['NewType','https://newtype.us/p/QQ20Oj03HvMjPtfc8kK9/h/pokemon-model-kit-quick-23-jirachi']
         ],false,false,true,false,false,false,false,false,false,false,'Pokemon Jirachi 23 Quick Model Kit'
     ],
+    ['Lothbrock',[1,'Kyurem'],'Pokemon',false,false,false,'','C','2026-05-22',0],
     ['Lutetia',[1,'Lucario'],'Pokemon',
         false,false,false,'','E','2023-10-03',5.09,false,'Builds/Pokemon/Lutetia.html',false,'2025-07-07',models[167],
         [
@@ -18078,8 +18122,8 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/PikaMaus05.jpeg','Maus'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/PikaMaus06.jpeg','Maus'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/PikaMaus07.jpeg','Maus'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/PikaMaus08.jpeg','Maus'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/PikaMaus09.jpeg','Maus'],
+            ['https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/ad27cf4a-93e7-4f1b-b2c5-ae2e09fd4498.jpeg','Maus'],
+            ['https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/a485297e-6b50-422b-9455-82e135d64d79.jpeg','Maus'],
             ['https://hosting.photobucket.com/images/i/lesaintdumech/PikaMaus10.jpeg','Maus']
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/PikaMaus01.jpeg','Profile Photo: Maus'],
@@ -18094,6 +18138,7 @@ const projects = [
     ['Tony Danza',[0.25,'Pikachu'],'Pokemon',false,false,false,'','C','2026-04-18',0.48], //Infernape Set -- Rough Gold
     ['Squeaky',[0.25,'Pikachu'],'Pokemon',false,false,false,'','C','2026-04-25',0.58], //Torterra Set -- Blue Gold
     ['Nibbles',[0.25,'Pikachu'],'Pokemon',false,false,false,'','C','2026-04-26',0.53], //Hydreigon Set -- Red Gold
+    ['Frank',[0.5,'Pikachu'],'Pokemon',false,false,false,'','C','2026-05-22',0],
     ['Picanmix',[0.5,'Piplup'],'Pokemon',
         false,false,false,'','E','2023-11-25',3.95,false,'Builds/Pokemon/Pican.html',false,'2025-02-20',models[153],
         [
@@ -18140,7 +18185,7 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/Tipluff11.jpeg','Tiplouf']
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/Tipluff08.jpeg','Profile Photo: Tiplouf'],
-        'All Vallejo flats. Stuck to mostly the original design. Thought the yellow of the beak and feet were too light so did darken those a little. Also it\'s so cute cause it\'s so tiny.',false,
+        'All Vallejo flats. Stuck to mostly the original design. Thought the yellow of the beak and feet were too light so did darken those a little. Also it\'s so cute cause it\'s so tiny.','Apollo, Portland',
         [
         //    ['Video','https://youtu.be/th1wuteb_XA'],
             ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Piplup_(Pokemon)'],
@@ -18168,7 +18213,7 @@ const projects = [
             ['https://hosting.photobucket.com/images/i/lesaintdumech/PrinPin15.jpeg','Prinplouf']
         ],
         ['https://hosting.photobucket.com/images/i/lesaintdumech/PrinPin13.jpeg','Profile Photo: Prinplouf'],
-        false,false,
+        false,'Apollo, Portland',
         [
         //    ['Video','https://youtu.be/th1wuteb_XA'],
             ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Prinplup_(Pokémon)'],
@@ -18465,6 +18510,7 @@ const projects = [
             ['NewType','https://newtype.us/p/fTpox94wmvikHoMzLcSN/h/pokemon-solgaleo']
         ],false,true,true,false,false,false,false,false,false,false,'Pokemon Select Series 39 Solgaleo Model Kit'
     ],
+    ['Samus',[0.5,'Sprigatito'],'Pokemon',false,false,false,'','C','2026-05-22',0],
     ['Cooper',[0.5,'Squirtle'],'Pokemon',
         false,false,false,'','E','2024-06-04',2.17,false,'Builds/Pokemon/Cooper.html',false,'2024-09-16',models[134],
         [
@@ -19290,7 +19336,7 @@ const projects = [
         ],false,true,'1:144',false,false
 
     ],
-    ['UnicronBall',[0.25,'MG Podball','HG Providence','HG AGE-FX','SD BB Senshi \u0023275 Ryujin Doshi Niu'],'MG',false,false,false,'UC','B','2026',0,true,'Builds/Metroid/Sylux.html',true,'202X',models[136]]
+    ['UnicronBall',[0.25,'MG Podball','HG Providence','HG AGE-FX','SD BB Senshi \u0023275 Ryujin Doshi Niu'],'MG',false,false,false,'UC','C','2026-05-22',0,true,'Builds/Metroid/Sylux.html',true,'202X',models[136]]
 
     //Other
     ['Teddy Bear Rock',[1.5,'BearGGuy Ohana & Aloharo Set'],'HG',false,false,false,'Gundam','B','2026',0],

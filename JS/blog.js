@@ -4955,6 +4955,38 @@ const blogArray = [
         [
             ['img','https://hosting.photobucket.com/images/i/lesaintdumech/PerfectZeroPG23.jpeg']
         ]
+    ],
+    [
+        ['2026-06-10','20260610A'],
+        'Release the Skull-Kraken !',
+        'https://hosting.photobucket.com/images/i/lesaintdumech/Gyaraskull26.jpeg',
+        [
+            [
+                'Took the past two weeks off. The first for memorial weekend and the second cause I was still just so tired. So pardon my delay. But this week I\'m back with a new Gyarados build, the vicious ',
+                ['Skullkraken','Builds/Pokemon/SkullGyar.html'],
+                '.'
+            ]
+        ],
+        [
+            'So being a major Pokemon nerd I was browsing through some random Pokemon fandom and trivia sites. In the middle of an article on Gyarados I came across a fact that in leaked original Red and Blue beta files, coders discovered that the original intended name for Gyarados was in fact not Gyarados but SKULLKRAKEN. Obviously they changed this. But I did find that interesting.'
+        ],
+        [
+            [
+                ['Youtube','https://youtu.be/2qLiiScybpM',true]
+            ]
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/Gyaraskull15.jpeg']
+        ],
+        [
+            'Thinking of skulls and all the demonic archetypes they embody, I envisioned lots of greys and blacks and just an overall dark ominous, foreboding color palette. Which inspired this build. To honorate the original Skullkraken and what could have been the inspiration here was to paint a Gyarados entirely in the grey scale.'
+        ],
+        [
+            'So without further adieu, I give you Skullkraken. And with this concludes my Gyarados trilogy.'
+        ],
+        [
+            ['img','https://hosting.photobucket.com/images/i/lesaintdumech/Gyaraskull25.jpeg']
+        ]
     ]
 ]
 
