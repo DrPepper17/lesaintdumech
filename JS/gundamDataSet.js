@@ -17055,6 +17055,19 @@ const projects = [
     ['Feu-Seau',[1,'Pontiac Firebird, 79'],'Car',false,false,false,'Pontiac','C','2026-04-18',5.43,true],
     
     //Pokemon
+    ['cremefraiche',[0.5,'Alcremie'],'Pokemon',
+        false,false,false,'','B','2026-05-22',0,false,'Builds/Pokemon/CREAM.html',false,'202X',models[0],
+        [
+
+        ],['https://hosting.photobucket.com/images/i/lesaintdumech/.jpeg','Profile Photo: Creme Fraiche'],
+        'DESCRIPTION',false,
+        [
+            ['Video',''],
+            ['Bulbapedia','https://bulbapedia.bulbagarden.net/wiki/Alcremie_(Pokémon)'],
+            ['USA Gundam Store',''],
+            ['NewType',''],
+        ],false,true,false,false,false,'Cr\u00E8me Fra\u00EEche','Cr\u00E8me Fra\u00EEche',false,false,false,'Pokemon Alcremie 12 Quick Model Kit'
+    ],
     ['Cetautomatix',[1,'Arceus'],'Pokemon',
         false,false,false,'','E','2024-02-16',4.53,false,'Builds/Pokemon/CetautomatixArceus.html',false,'2025-09-01',models[171],
         [
@@ -17812,7 +17825,7 @@ const projects = [
             ['NewType','https://newtype.us/p/QQ20Oj03HvMjPtfc8kK9/h/pokemon-model-kit-quick-23-jirachi']
         ],false,false,true,false,false,false,false,false,false,false,'Pokemon Jirachi 23 Quick Model Kit'
     ],
-    ['Lothbrock',[1,'Kyurem'],'Pokemon',false,false,false,'','C','2026-05-22',0],
+    ['Lothbrok',[1,'Kyurem'],'Pokemon',false,false,false,'','C','2026-05-22',0],
     ['Lutetia',[1,'Lucario'],'Pokemon',
         false,false,false,'','E','2023-10-03',5.09,false,'Builds/Pokemon/Lutetia.html',false,'2025-07-07',models[167],
         [
@@ -18082,6 +18095,7 @@ const projects = [
             ['NewType','https://newtype.us/p/CBSn5RIMRw8C0xpurheh/h/pokemon-mewtwo']
         ],false,false,true,false,false,false,false,false,false,false,'Pokemon Select Series 32 Mewtwo Model Kit'
     ],
+    ['Mimiqui',[0.5,'Mimikyu'],'Pokemon',false,false,false,'','B','202X',0],
     ['Chimpenfeu',[0.25,'Monferno'],'Pokemon',false,false,false,'','C','2026-04-18',1.42],
     ['Peaches',[0.5,'Pichu'],'Pokemon',false,false,false,'','C','2026-04-25',1.83], 
     ['Cyrano',[0.5,'Pikachu'],'Pokemon',
@@ -18168,6 +18182,9 @@ const projects = [
             ['TurboDork: Cold Open','https://turbodork.com/products/cold-open-1?variant=40013820100690'],
             ['TurboDork: Ice to Never','https://turbodork.com/products/ice-to-never-1?variant=29460041793606']
         ],['Dark Samus: Echoes'],false,true,false,false,false,false,false,false,false,'Pokemon Piplup 06 Quick Model Kit'
+    ],
+    ['Peppa P',[0.5,'Piplup'],'Pokemon',
+        false,false,false,'','B','202X',0,false,'Builds/Pokemon/PeppaPip.html',false,'202X',models[153],
     ],
     ['Tiplouf',[0.25,'Piplup'],'Pokemon',
         false,false,false,'','E','2025-09-07',1.1,false,'Builds/Pokemon/Tiplup.html',false,'2026-04-13',models[153],
@@ -18316,7 +18333,7 @@ const projects = [
             ['NewType','https://newtype.us/p/WdF5h0oKREWKufNDSCqT/h/pokemon-rayquaza']
         ],false,true,true,false,false,false,false,false,false,false,'Pokemon Select Series 46 Rayquaza Model Kit'
     ],
-    ['Geriatrix',[1,'Reshiram'],'Pokemon',false,false,false,'','A'],
+    ['Lodbrok',[1,'Reshiram'],'Pokemon',false,false,false,'','B'],
     ['Dogmatix',[0.25,'Riolu'],'Pokemon',
         false,false,false,'','E','2023-10-03',2.97,false,'Builds/Pokemon/Dogmatix.html',false,'2025-06-25',models[166],
         [

@@ -77,10 +77,10 @@ const EPISODES = [
     [false,15,2,2,'Cartman\'s Mom Is Still a Dirty Slut',
         21,"1998-04-22",false,202,false,'TV-MA','Trey Parker','Trey Parker & David Goodman',4.00,false,['Bill Clinton','Eric Roberts','John Walsh'],false,'Cartman finds out the identity of his father. And boy is he in for a surprise.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE202.jpeg',8.2,['https://tv.apple.com/us/episode/cartmans-mom-is-still-a-dirty-slut/umc.cmc.1x9980r0e33qv3kjhw8s41qtz?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
-    [false,16,2,3,'Ike\'s Wee Wee',
+    [true,16,2,3,'Ike\'s Wee Wee',
         22,"1998-05-20",false,204,false,'TV-MA','Trey Parker','Trey Parker',2.95,false,false,false,'Ike\'s going to have a Briss and everyone is invited! Stan Kenny and Cartman find out what a Briss really is and try to warn Kyle that his parents are going to cut off Ike\'s wee wee. Kyle sends Ike away to protect him from his scissor wielding parents.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE204.jpeg',8.0,['https://tv.apple.com/us/episode/ikes-wee-wee/umc.cmc.72oxh8t72nmmgewhlqkogxhf4?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
-    [false,17,2,4,'Chickenlover',
+    [true,17,2,4,'Chickenlover',
         22,"1998-05-27",false,203,false,'TV-MA','Trey Parker','Trey Parker, Matt Stone & David Goodman',2.71,false,false,false,'The Booktastic bus is in town and soon everyone finds out that Officer Barbrady can, Aôt read. He is whisked off to school with the boys so he can save his job. While he\'s there someone in South Park is having sex with the town\'s chickens and only Officer Barbrady with his new deputies Kenny Kyle Stan and Cartman can stop them!','https://hosting.photobucket.com/images/i/lesaintdumech/SPE203.jpeg',8.0,['https://tv.apple.com/us/episode/chickenlover/umc.cmc.262zb9ojs36fi8jx7p0yd7g1t?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
     [false,18,2,5,'Conjoined Fetus Lady',
@@ -92,7 +92,7 @@ const EPISODES = [
     [false,20,2,7,'City on the Edge of Forever',
         22,"1998-06-17",false,207,'Flashbacks','TV-MA','Trey Parker','Trey Parker & Nancy M. Pimental',3.06,false,['Carrot Top','Jay Leno'],['Jay Leno','Brent Musburger','Henry Winkler'],'While their school bus is dangling on the edge of a cliff the boys remember some of their past adventures. Mrs. Crabtree catches a ride into town with a stranger and winds up doing a brief stint as a standup comedienne. Back in South Park Mr. Mackey convinces the parents that their missing children must have run away. In the end it\'s all a dream within a dream.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE207.jpeg',7.2,['https://tv.apple.com/us/episode/city-on-the-edge-of-forever/umc.cmc.6mz8xf2eranjnjjtzfkpgwm45?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
-    [false,21,2,8,'Summer Sucks',
+    [true,21,2,8,'Summer Sucks',
         22,"1998-06-24",false,208,false,'TV-MA','Trey Parker','Trey Parker & Nancy M. Pimental',2.53,false,['Brett Favre','Shari Lewis','Lambchop'],['Jonathan Katz'],'Schools out for summer and with Mr. Hat missing Mr.Garrison is over the edge. The state has a ban on the sale of fireworks and it screws up the boy\'s plans for a 4th of July celebration. Mr. Garrison seeks psychiatric help from Dr. Katz while Jimbo and Ned go to Mexico in an attempt to smuggle fireworks back to the children of America.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE208.jpeg',7.3,['https://tv.apple.com/us/episode/summer-sucks/umc.cmc.pqg1dpbdkcoot8ulvd983876?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
     [false,22,2,9,'Chef\'s Chocolate Salty Balls',
@@ -110,7 +110,7 @@ const EPISODES = [
     [false,26,2,13,'Cow Days',
         22,"1998-09-30",false,213,false,'TV-MA','Trey Parker','Trey Parker & David Goodman',2.59,false,false,false,'South Park\'s annual Cow Days party is happening! The cows become transfixed on a cow statue. In order to get the money they need to win Terrance and Phillip dolls the boys sign Cartman up for a bull riding contest. A freak accident has Cartman believing he is a Vietnamese prostitute named Ming Li. The boys learn about money and cow insanity.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE213.jpeg',7.5,['https://tv.apple.com/us/episode/cow-days/umc.cmc.35u430smdwz2i2405dcy1hjs2?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
-    [false,27,2,14,'Chef Aid',
+    [true,27,2,14,'Chef Aid',
         22,"1998-10-07",false,214,false,'TV-MA','Trey Parker','Trey Parker & Matt Stone',2.13,false,['Johnnie Cochran','Alanis Morissette','Elton John','Joe Strummer','Les Claypool','Marilyn Manson','Meat Loaf','Ozzy Osbourne','PRIMUS','Rancid','Rick James','Ween'],['Elton John','DMX','Rick James','Meat Loaf','Ol\' Dirty Bastard','Ozzy Osbourne','Les Claypool','Tim Armstrong','Joe Strummer','The Crystal Method','Dean & Gene Ween'],'Chef is getting sued by Capitalist Records for trying to obtain the rights to a song he wrote twenty years ago. He needs 2 million dollars to hire Johnny Cochran. In response the boys round up all of Chef\'s old musician friends and organize a huge concert to raise the cash.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE214.jpeg',7.8,['https://tv.apple.com/us/episode/chef-aid/umc.cmc.5f96mvt44x5s1afhrham6ip44?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
     [false,28,2,15,'Spookyfish',
@@ -508,7 +508,7 @@ const EPISODES = [
     [false,156,11,3,'Lice Capades',
         22,"2007-03-21",false,1103,false,'TV-MA','Trey Parker','Trey Parker',3.06,false,['Angelina Jolie'],false,'SynopAn infestation of head lice plagues South Park Elementary. When Mr. Garrison refuses to name names, Cartman finds a way to detect who has lice in the hopes of making fun of his unfortunate classmate.sis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1103.jpeg',8,['https://tv.apple.com/us/episode/lice-capades/umc.cmc.7kmzeve1ua9jty8so8qicf6hq?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
-    [false,157,11,4,'The Snuke',
+    [true,157,11,4,'The Snuke',
         22,"2007-03-28",false,1104,false,'TV-MA','Trey Parker','Trey Parker',3.17,false,['Hillary Clinton','George W. Bush','Queen Elizabeth II'],false,'While Cartman follows a lead on a possible terrorist attack, Hillary Clinton makes a campaign stop in South Park for a big rally.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1104.jpeg',8.1,['https://tv.apple.com/us/episode/the-snuke/umc.cmc.3ozg0ca4e8da42ovsb8bjwooi?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
     [true,158,11,5,'Fantastic Easter Special',
@@ -700,7 +700,7 @@ const EPISODES = [
     [false,220,15,11,'Broadway Bro Down',
         23,"2011-10-26",false,1511,false,'TV-MA','Trey Parker','Trey Parker & Robert Lopez',2.92,false,['Stephen Sondheim', 'Stephen Schwartz', 'Andrew Lloyd Webber','Elton John'],false,'After Randy takes Sharon to see a hit musical, he becomes Broadway\'s biggest fan.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1511.jpeg',7.8,['https://tv.apple.com/us/episode/broadway-bro-down/umc.cmc.6vh2g0wcttxblmv6e10g99wp9?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
-    [false,221,15,12,'1\u0025',
+    [true,221,15,12,'1\u0025',
         21,"2011-11-02",false,1512,false,'TV-MA','Trey Parker','Trey Parker',2.85,false,false,false,'The 99% is ganging up on Eric Cartman.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1512.jpeg',7.8,['https://tv.apple.com/us/episode/1/umc.cmc.3gp8eyp6ci7qg4jzoc8dwpk21?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
     [false,222,15,13,'A History Channel Thanksgiving',
@@ -709,7 +709,7 @@ const EPISODES = [
     [false,223,15,14,'The Poor Kid',
         23,"2011-11-16",false,1514,false,'TV-MA','Trey Parker','Trey Parker',2.41,false,false,false,'When one of the boys leaves the toilet seat up after he uses the bathroom, an unspeakable tragedy occurs.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1514.jpeg',7.9,['https://tv.apple.com/us/episode/the-poor-kid/umc.cmc.rv03qba9n10vfbrqe5b8qiwd?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
-    [false,224,16,1,'Reverse Cowgirl',
+    [true,224,16,1,'Reverse Cowgirl',
         30,"2012-03-14",false,1601,false,'TV-MA','Trey Parker','Trey Parker',2.63,false,false,false,'Cartman launches his own gem shopping channel.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1601.jpeg',7.7,['https://tv.apple.com/us/episode/reverse-cowgirl/umc.cmc.41x46vi7lz34tn5th8prdbk47?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
     [false,225,16,2,'Cash for Gold',
@@ -727,7 +727,7 @@ const EPISODES = [
     [false,229,16,6,'I Should Have Never Gone Ziplining',
         21,"2012-04-18",false,1606,false,'TV-MA','Trey Parker','Trey Parker',2.43,false,false,false,'The boys\' ziplining adventure becomes a terrifying test of survival.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1606.jpeg',7.1,['https://tv.apple.com/us/episode/i-should-have-never-gone-ziplining/umc.cmc.7eh6fl1esnmym2t49m5sm0mce?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
-    [false,230,16,7,'Cartman Finds Love',
+    [true,230,16,7,'Cartman Finds Love',
         23,"2012-04-25",false,1607,false,'TV-MA','Trey Parker','Trey Parker',2.33,false,['Brad Paisley'],['Brad Paisley'],'The time has finally come for Cartman to let a special someone know exactly how he feels.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1607.jpeg',8,['https://tv.apple.com/us/episode/cartman-finds-love/umc.cmc.1rte5v88vzbevhb2n3003zh9b?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
     [false,231,16,8,'Sarcastaball',
@@ -1088,10 +1088,16 @@ const EPISODES = [
     ],
     [true,338,28,5,'The Crap Out',
         26,"2025-12-10",false,2805,false,'TV-MA','Trey Parker','Trey Parker',0.46,false,['Donald Trump','JD Vance','Peter Thiel','Pete Hegseth','Pam Bondi','Dan Scavino','Sean Hannity','Tim Cook','Brendan Carr','Donald Trump Jr.','Jeff Bezos','Karoline Leavitt','Kristi Noem','Mark Zuckerberg','Melania Trump','Stephen Miller'],false,'Satan\'s due, Stan\'s praying, and only a Christmas miracle can deliver the Antichrist on time.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2805.jpeg',6.8,['https://tv.apple.com/us/episode/the-crap-out/umc.cmc.3oadpvuka436zehh2zno8ge8e?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
-    ]
+    ],
+    [false,339,29,1,'???',false,"2026-09-16",false],
+    [false,340,29,2,'???',false,"2026-09-30",false],
+    [false,341,29,3,'???',false,"2026-10-14",false],
+    [false,342,29,4,'???',false,"2026-11-11",false],
+    [false,343,29,5,'???',false,"2026-11-25",false]
 ];
 
 //Initialize Variables
+let todayDate = new Date();
 let Purchased = [];
 let Unpurchased = [];
 let PurchaseCount = 0;
@@ -1123,6 +1129,7 @@ let SPS25List = [];
 let SPS26List = [];
 let SPS27List = [];
 let SPS28List = [];
+let SPS29List = [];
 let PRMTList = [];
 let OTHERList = [];
 let SPS01Count = 0;
@@ -1153,6 +1160,7 @@ let SPS25Count = 0;
 let SPS26Count = 0;
 let SPS27Count = 0;
 let SPS28Count = 0;
+let SPS29Count = 0;
 let PRMTCount = 0;
 let OTHERCount = 0;
 
@@ -1163,11 +1171,13 @@ function prepLists() {
     PurchaseCount = 0;
 
     for (let i=0;i<EPISODES.length;i++) {
+        let airDate = new Date(EPISODES[i][6]);
+
         if (EPISODES[i][0] === true) {
             Purchased.push(EPISODES[i]);
             PurchaseCount++;
         }
-        else if (EPISODES[i][0] != 'BLOCKED') {
+        else if (EPISODES[i][0] != 'BLOCKED' && airDate<todayDate) {
             Unpurchased.push(EPISODES[i]);
         }
 
@@ -1285,6 +1295,10 @@ function prepLists() {
             SPS28List.push(EPISODES[i]);
             SPS28Count++;
         }
+        else if (EPISODES[i][2]===29) {
+            SPS29List.push(EPISODES[i]);
+            SPS29Count++;
+        }
         else {
             OTHERList.push(EPISODES[i]);
             OTHERCount++;
@@ -1329,6 +1343,7 @@ function prepLists() {
     popEpisodes(SPS26List,'ListSPS26');
     popEpisodes(SPS27List,'ListSPS27');
     popEpisodes(SPS28List,'ListSPS28');
+    popEpisodes(SPS29List,'ListSPS29');
     popEpisodes(PRMTList,'ListPRMT');
     popEpisodes(OTHERList,'ListOTHER');
 
@@ -1499,11 +1514,11 @@ function popEpisodes(array,id) {
         let srcText = "img/SP/UncheckBox.png";
         let tooltipAtr = document.createAttribute('title');
         let tooltipAtrJr = document.createAttribute('title');
-        let tooltipText = 'No Episodes Purchased';
+        let tooltipText = 'No Episodes Purchased. Season Incomplete.';
         if (completionRate > 0) {
             seasonStatus = 1;
             srcText = "img/SP/CheckedBox2.png";
-            tooltipText = 'Few episodes purchased. Season Incomplete.';
+            tooltipText = 'Few episodes purchased. Season '+(completionRate*100).toFixed(2)+'% Complete.';
         }
         if (completionRate === 1) {
             seasonStatus = 2;
@@ -1527,6 +1542,8 @@ function generateModalFrame() {
     let anchorNode = document.getElementById('modalAnchor');
 
     for (let i=0;i<EPISODES.length;i++) {
+
+        let airDate = new Date(EPISODES[i][6]);
 
         let div1Node = document.createElement('div');
         let div1ID = document.createAttribute('id');
@@ -1633,12 +1650,23 @@ function generateModalFrame() {
         div6Node.setAttributeNode(div6Class);
         div5Node.appendChild(div6Node);
 
+        if (airDate > todayDate) {
+            let futH1 = document.createElement('h2');
+            let futRed = document.createAttribute('class');
+            futRed.value = 'text-danger font-weight-bold text-center';
+            futH1.setAttributeNode(futRed);
+            let futText = document.createTextNode('Future Unaired Episode');
+            futH1.appendChild(futText);
+            div6Node.appendChild(futH1);
+        }
+
         if (EPISODES[i][0] == 'BLOCKED') {
             let row0Node = document.createElement('div');
             let row0NodeClass = document.createAttribute('class');
             row0NodeClass.value = 'row mb-3';
             row0Node.setAttributeNode(row0NodeClass);
             div6Node.appendChild(row0Node);
+
 
             let row0Col1Node = document.createElement('div');
             let row0Col1NodeClass = document.createAttribute('class');
