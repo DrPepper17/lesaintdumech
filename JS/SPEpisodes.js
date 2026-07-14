@@ -707,16 +707,16 @@ const EPISODES = [
         23,"2011-11-09",false,1513,false,'TV-MA','Trey Parker','Trey Parker',2.85,false,['Natalie Portman'],false,'The boys are getting close to discovering the truth about the first Thanksgiving.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1513.jpeg',7.2,['https://tv.apple.com/us/episode/a-history-channel-thanksgiving/umc.cmc.3n5ijizzxn2mcu6zk9514ckdx?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
     [false,223,15,14,'The Poor Kid',
-        23,"2011-11-16",false,1514,false,'TV-MA','Trey Parker','Trey Parker',2.41,false,false,false,'When one of the boys leaves the toilet seat up after he uses the bathroom, an unspeakable tragedy occurs.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1514.jpeg',7.9,['https://tv.apple.com/us/episode/the-poor-kid/umc.cmc.rv03qba9n10vfbrqe5b8qiwd?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
+        23,"2011-11-16",false,1514,false,'TV-MA','Trey Parker','Trey Parker',2.41,false,false,false,'Kenny and Cartman both wind up in the abusive foster care system after both their parents\' reckless white trash behavior provoked by Pabst Blue Ribbon.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1514b.jpeg',7.9,['https://tv.apple.com/us/episode/the-poor-kid/umc.cmc.rv03qba9n10vfbrqe5b8qiwd?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
     [true,224,16,1,'Reverse Cowgirl',
-        30,"2012-03-14",false,1601,false,'TV-MA','Trey Parker','Trey Parker',2.63,false,false,false,'Cartman launches his own gem shopping channel.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1601.jpeg',7.7,['https://tv.apple.com/us/episode/reverse-cowgirl/umc.cmc.41x46vi7lz34tn5th8prdbk47?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
+        30,"2012-03-14",false,1601,false,'TV-MA','Trey Parker','Trey Parker',2.63,false,false,false,'When one of the boys leaves the toilet seat up after he uses the bathroom, an unspeakable tragedy occurs.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1601.jpeg',7.7,['https://tv.apple.com/us/episode/reverse-cowgirl/umc.cmc.41x46vi7lz34tn5th8prdbk47?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
     [false,225,16,2,'Cash for Gold',
-        30,"2012-03-21",false,1602,false,'TV-MA','Trey Parker','Trey Parker',2.31,false,false,false,'The kids are in danger when new trends start to evolve and shift at a rapid pace.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1602.jpeg',7.9,['https://tv.apple.com/us/episode/cash-for-gold/umc.cmc.clvtc66e9orh4pvgzzn3gkpg?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
+        30,"2012-03-21",false,1602,false,'TV-MA','Trey Parker','Trey Parker',2.31,false,false,false,'Cartman launches his own gem shopping channel.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1602.jpeg',7.9,['https://tv.apple.com/us/episode/cash-for-gold/umc.cmc.clvtc66e9orh4pvgzzn3gkpg?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
     [false,226,16,3,'Faith Hilling',
-        21,"2012-03-28",false,1603,false,'TV-MA','Trey Parker','Trey Parker',2.70,false,['Newt Gingrich','Mitt Romney','Ron Paul','Rick Santorum'],false,'Synopsis','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1603.jpeg',7.1,['https://tv.apple.com/us/episode/faith-hilling/umc.cmc.7g1k5gwvtk4zmr4qinun1furh?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
+        21,"2012-03-28",false,1603,false,'TV-MA','Trey Parker','Trey Parker',2.70,false,['Newt Gingrich','Mitt Romney','Ron Paul','Rick Santorum'],false,'The kids are in danger when new trends start to evolve and shift at a rapid pace.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1603.jpeg',7.1,['https://tv.apple.com/us/episode/faith-hilling/umc.cmc.7g1k5gwvtk4zmr4qinun1furh?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
     [false,227,16,4,'Jewpacabra',
         23,"2012-04-04",false,1604,false,'TV-MA','Trey Parker','Trey Parker',2.69,false,false,false,'The town\'s big Easter Egg Hunt is in jeopardy when Cartman produces video evidence of a mysterious creature lurking in the woods.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1604.jpeg',6.7,['https://tv.apple.com/us/episode/jewpacabra/umc.cmc.d5spxoriy77q3mvofz2easfs?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
@@ -1092,8 +1092,9 @@ const EPISODES = [
     [false,339,29,1,'???',false,"2026-09-16",false],
     [false,340,29,2,'???',false,"2026-09-30",false],
     [false,341,29,3,'???',false,"2026-10-14",false],
-    [false,342,29,4,'???',false,"2026-11-11",false],
-    [false,343,29,5,'???',false,"2026-11-25",false]
+    [false,342,29,4,'???',false,"2026-10-28",false],
+    [false,343,29,5,'???',false,"2026-11-11",false],
+    [false,344,29,6,'???',false,"2026-11-25",false]
 ];
 
 //Initialize Variables
@@ -1783,7 +1784,12 @@ function generateModalFrame() {
         }
 
         if ((EPISODES[i][6])) {
-            let dateTextNode = document.createTextNode('First Air: '+retrieveDate(EPISODES[i]));
+            let airDate = new Date(EPISODES[i][6]);
+            let airText = 'First Air: ';
+            if (todayDate < airDate) {
+                airText = 'Scheduled: ';
+            }
+            let dateTextNode = document.createTextNode(airText+retrieveDate(EPISODES[i]));
             row2Col1Node.appendChild(dateTextNode);
             let brNode3 = document.createElement('br');
             row2Col1Node.appendChild(brNode3);
