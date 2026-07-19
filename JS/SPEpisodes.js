@@ -50,7 +50,7 @@ const EPISODES = [
     [false,6,1,6,'Death',
         20,"1997-09-17",false,106,false,'TV-MA','Matt Stone','Trey Parker \u0026 Matt Stone',1.13,false,['Suzanne Somers'],false,'\"Happy Birthday\" to Stan\'s Grandpa Marsh who just turned 102. How does the wizened Mr. Marsh feel about his birthday? He sums it up in five words; \"I wish I were dead.\" and proceeds trying to end his life enlisting Stan to do it for him. However, Stan is aware of a very important thing if he kills his grandfather, he\'d be in trouble, and if he\'s in trouble he can\'t watch Terrance and Phillip.','img/SP/SPE106.jpeg',8.0,['https://tv.apple.com/us/episode/death/umc.cmc.5vs56we9o0lhggnegdr872ox6?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
-    [false,7,1,7,'Pinkeye',
+    [true,7,1,7,'Pinkeye',
         22,"1997-10-29",false,107,false,'TV-MA','Trey Parker \u0026 Matt Stone','Trey Parker \u0026 Matt Stone \u0026 Philip Stark',1.73,false,false,false,'The first Halloween episode starts off with the failure of the Mir Space Station, which crashes right on Kenny. An ambulance comes and takes his body off to the morgue. The boys start to brag about their Halloween costumes. At the morgue, a freak accident involving a bottle of Worcestershire occurs, and next thing you know Kenny is a member of the undead. Kenny breaks free and wanders off into the night.','img/SP/SPE107.jpeg',8.3,['https://tv.apple.com/us/episode/pink-eye/umc.cmc.3cs51hzivvejqx0t0bhxlflsp?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
     [true,8,1,8,'Starvin\' Marvin',
@@ -475,7 +475,7 @@ const EPISODES = [
     [false,145,10,6,'ManBearPig',
         22,"2006-04-26",false,1006,false,'TV-MA','Trey Parker','Trey Parker',2.72,false,['Al Gore'],false,'Al Gore warns the school about the threat of ManBearPig.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1006.jpeg',7.9,['https://tv.apple.com/us/episode/manbearpig/umc.cmc.11gs2o5a68wg64i8y03xu4hw0?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
-    [false,146,10,7,'Tsst',
+    [true,146,10,7,'Tsst',
         22,"2006-05-03",false,1007,false,'TV-MA','Trey Parker','Trey Parker',2.88,false,['Cesar Millan','Jo Frost','Stella Reid','Deborah Carroll','Yvonne Finnerty'],false,'When Cartman\'s mom realizes she can\'t control her son anymore, she gets help from an expert. The "Dog Whisperer" may have what it takes but Eric Cartman\'s not going down without a fight.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1007.jpeg',9.1,['https://tv.apple.com/us/episode/tsst/umc.cmc.3k07s2dx91t5p1rg6jh0yn9pn?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
     [false,147,10,8,'Make Love, Not Warcraft',
