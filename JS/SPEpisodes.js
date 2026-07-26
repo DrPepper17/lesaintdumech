@@ -277,7 +277,7 @@ const EPISODES = [
     [false,79,5,14,'Butters\' Very Own Episode',
         22,"2001-12-12",false,514,false,'TV-MA','Eric Stough','Trey Parker',2.63,false,['OJ Simpson','Gary Condit','John and Patricia Ramsey','John Elway'],false,'Alone and lost, Butters determinedly makes his way through porn theatres and gay bathhouses in an effort to get his dad back home in time to eat at Bennigans for his parents\' anniversary.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE514.jpeg',9.0,['https://tv.apple.com/us/episode/butters-very-own-episode/umc.cmc.3vjlhz055kpxenamm5mk9vycf?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
-    [false,80,6,1,'Jared Has Aides',
+    [true,80,6,1,'Jared Has Aides',
         20,"2002-03-06",false,602,false,'TV-MA','Trey Parker','Trey Parker',3.30,false,['Jared Fogle'],false,'As the country becomes obsessed with a popular program for losing weight, the boys see an opportunity to become sponsored by a major restaurant chain.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE602.jpeg',8.0,['https://tv.apple.com/us/episode/jared-has-aides/umc.cmc.5l5tzf79vo5du1zdek0mgc4l9?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
     [false,81,6,2,'Asspen',
@@ -607,7 +607,7 @@ const EPISODES = [
     [false,189,13,8,'Dead Celebrities',
         22,"2009-10-07",false,1308,false,'TV-MA','Trey Parker','Trey Parker',2.67,false,['Michael Jackson','Bea Arthur','Billy Mays','David Carradine','DJ AM','Farrah Fawcett','Ed McMahon','Walter Cronkite','Dom DeLuise','Les Paul','Arturo Gatti','Natasha Richardson','Marilyn Chambers','Oscar G. Mayer Jr.','Ted Kennedy','Steve McNair','Ron Silver','Ricardo Montalban'],false,'Ike is being tormented by paranormal forces. Kyle brings in professional ghost hunters to help save his little brother.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1308.jpeg',7.7,['https://tv.apple.com/us/episode/dead-celebrities/umc.cmc.6rdepmshz1v9mqh071vpmnmi3?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
-    [false,190,13,9,'Butters\' Bottom Bitch',
+    [true,190,13,9,'Butters\' Bottom Bitch',
         22,"2009-10-14",false,1309,false,'TV-MA','Trey Parker','Trey Parker',2.56,false,false,false,'Butters is determined to get his first kiss so his friends won\'t make fun of him anymore.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1309.jpeg',8.9,['https://tv.apple.com/us/episode/butters-bottom-bitch/umc.cmc.47k0ikjcy6efe6jtl1yd8n8b7?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
     [true,191,13,10,'W.T.F.',
@@ -1101,6 +1101,7 @@ const EPISODES = [
 let todayDate = new Date();
 let Purchased = [];
 let Unpurchased = [];
+let Current = [];
 let PurchaseCount = 0;
 let SPS01List = [];
 let SPS02List = [];
@@ -1169,10 +1170,15 @@ let OTHERCount = 0;
 function prepLists() {
     Purchased = [];
     Unpurchased = [];
+    Current = [];
     PurchaseCount = 0;
 
     for (let i=0;i<EPISODES.length;i++) {
         let airDate = new Date(EPISODES[i][6]);
+
+        if (airDate<todayDate) {
+            Current.push(EPISODES[i]);
+        }
 
         if (EPISODES[i][0] === true) {
             Purchased.push(EPISODES[i]);
@@ -1364,8 +1370,9 @@ function applyFilter(list) {
 function selectEpisode(purpose,filters) {
     const purchaseNode = document.getElementById('nextPurch');
     const watchNode = document.getElementById('nextWatch');
-    let targetNode = purchaseNode;
-    let filteredList = Unpurchased;
+    const everythingNode = document.getElementById('anyEp');
+    let targetNode = everythingNode;
+    let filteredList = Current;
 
     if (purpose=='watch') {
         targetNode = watchNode;
@@ -1374,9 +1381,16 @@ function selectEpisode(purpose,filters) {
             watchNode.removeChild(watchNode.firstChild);
         }
     }
-    else {
+    if (purpose=='purch') {
+        targetNode = purchaseNode;
+        filteredList = Unpurchased;
         while (purchaseNode.firstChild) {
             purchaseNode.removeChild(purchaseNode.firstChild);
+        }
+    }
+    else {
+        while (everythingNode.firstChild) {
+            everythingNode.removeChild(everythingNode.firstChild);
         }
     }
 

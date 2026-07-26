@@ -7,9 +7,9 @@
         <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
         <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&display=swap" />
-        <script src="JS/SPEpisodes.js?v=202607182019"></script>
+        <script src="JS/SPEpisodes.js?v=202607241401"></script>
         <script src="JS/frenchMetrics.js?v=202311161225"></script>
-        <link rel="stylesheet" href="CSS/home.css?v=202603261020"/>
+        <link rel="stylesheet" href="CSS/home.css?v=202607241349"/>
         <style>
             body {background-image: url(img/SP/TheBoysBackground.jpeg); background-position: center; background-size: cover; color: blue;}
             a {color: blue;}
@@ -68,12 +68,19 @@
             </div>
             <div class="row">
                 <div class="col">
+                    <p class="text-right">
+                        <span class="hovertext" onclick="selectEpisode()">Choose an Episode:</span>
+                    </p>
+                    <p class="text-right">
+                        <span id="anyEp"></span>
+                    </p>
                     <p>
                         <button type="button" class="btn btn-secondary" onclick="selectEpisode('watch')">What Episode Should I Watch?</button> <span id="nextWatch"></span>
                     </p>
                     <p>
-                        <button type="button" class="btn btn-secondary" onclick="selectEpisode()">What Episode Should I Purchase?</button> <span id="nextPurch"></span>
+                        <button type="button" class="btn btn-secondary" onclick="selectEpisode('purch')">What Episode Should I Purchase?</button> <span id="nextPurch"></span>
                     </p>
+                    
                 </div>
             </div>
             <div class="row">
