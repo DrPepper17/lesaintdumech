@@ -169,7 +169,7 @@ const EPISODES = [
     [false,43,3,12,'Hooked on Monkey Fonics',
         22,"1999-11-10",false,313,false,'TV-MA','Trey Parker','Trey Parker',2.05,false,['Ronnie James Dio'],false,'The boys compete against some home schooled kids in South Park\'s annual spelling bee.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE313.jpeg',8.0,['https://tv.apple.com/us/episode/hooked-on-monkey-fonics/umc.cmc.5axr0dblll9c5nrnq3qym258w?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
-    [false,44,3,13,'Starvin\' Marvin in Space',
+    [true,44,3,13,'Starvin\' Marvin in Space',
         21,"1999-11-17",false,311,false,'TV-MA','Trey Parker','Trey Parker, Matt Stone & Kyle McCulloch',2.99,false,['Sally Struthers'],false,'When Starvin\' Marvin returns to South Park in an alien spaceship, enlisting the boys join him on a mission to find a new home for his starving people but winds up pursued by the CIA, the Feed the ChildrenFoundation and Sally Struthers.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE311.jpeg',8.0,['https://tv.apple.com/us/episode/starvin-marvin-in-space/umc.cmc.5pti6seih2mdvleutiho24gsw?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
     [false,45,3,14,'The Red Badge of Gayness',
@@ -187,7 +187,7 @@ const EPISODES = [
     [false,49,4,1,'The Tooth Fairy\'s Tats',
         22,"2000-04-05",false,402,false,'TV-MA','Trey Parker','Trey Parker, Matt Stone & Nancy M. Pimental',2.38,false,false,['Richard Belzer'],'Cartman masterminds a Tooth Fairy scam by appropriating teeth from less fortunate children.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE402.jpeg',8.2,['https://tv.apple.com/us/episode/the-tooth-fairys-tats-2000/umc.cmc.1nuz5bmfhr06cquagk3fbfxub?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
-    [false,50,4,2,'Cartman\'s Silly Hate Crime',
+    [true,50,4,2,'Cartman\'s Silly Hate Crime',
         20,"2000-04-12",false,401,false,'TV-MA','Trey Parker & Eric Stough','Trey Parker',2.62,false,false,false,'Cartman gets himself sentenced to juvee hall, and without his weight to anchor the sled, the boys have no hope of winning the race against the girls.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE401.jpeg',8.6,['https://tv.apple.com/us/episode/cartmans-silly-hate-crime-2000/umc.cmc.4i6jfmj2jbi1arsb3djrqkaab?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
     [false,51,4,3,'Timmy',

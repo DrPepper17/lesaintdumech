@@ -9941,7 +9941,7 @@ const projects = [
     ['Zowort Heavy [HG]',[1,'Zowort Heavy'],'HG',true,false,false,'Mercury','E','2024-09-21',1.25,false,false,false],
 
     //Advanced Generation (Age)
-    ['A2MG',[1,'AGE-2 Normal'],'MG',true,false,false,'AGE','D','2025-10-02',3.75],
+    ['A2MG',[1,'AGE-2 Normal'],'MG',true,false,false,'AGE','D','2025-10-02',5.67],
     ['A2DMG',[1,'AGE-2 Dark Hound'],'MG',true,false,false,'AGE','D','2026-04-23',4.92],
     ['Uriel',[1,'Age-FX'],'SD',false,false,false,'Age','B'],
     ['Gamma Draconis',[1,'Danazine'],'HG',false,false,false,'Age','B'],
@@ -15387,7 +15387,7 @@ const projects = [
         ],false,false,true,false
     ],
     ['Crossbone [RG]',[1,'Crossbone X-1'],'RG',true,false,false,'UC','D','2022-05-07',9.08,false,false,false],
-    ['CXBMG',[1,'Crossbone X-1'],'MG',true,false,false,'UC','C','2026-06-28',0.17],
+    ['CXBMG',[1,'Crossbone X-1'],'MG',true,false,false,'UC','C','2026-06-28',3],
     ['King Neptune',[1,'Crossbone X-1'],'RG',false,false,false,'UC','B'],
     ['Jackie-O',[1,'Delta Plus'],'SD',
         false,false,false,'UC','E','2022-01-07',11.17,false,'Builds/Gundams/JackieO.html',false,'2022-07-11',models[42],
