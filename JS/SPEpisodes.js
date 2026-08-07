@@ -283,7 +283,7 @@ const EPISODES = [
     [false,81,6,2,'Asspen',
         20,"2002-03-13",false,603,false,'TV-MA','Trey Parker','Trey Parker',2.60,false,false,false,'While the adults trapped at a time-share sales meeting, Stan is challenged by the best skier on the mountain.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE603.jpeg',8.3,['https://tv.apple.com/us/episode/asspen/umc.cmc.2qc0ztk2finouqcojimnsqb59?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
-    [false,82,6,3,'Freak Strike',
+    [true,82,6,3,'Freak Strike',
         20,"2002-03-20",false,601,false,'TV-MA','Trey Parker','Trey Parker',3.15,false,['Maury Povich','Liza Minnelli'],false,'When the boys learn that talk shows offer prizes to people who are grossly disfigured they can\'t sign Butters up fast enough.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE601.jpeg',7.9,['https://tv.apple.com/us/episode/freak-strike/umc.cmc.2op7a82wymtk3a0v3j0bmuivx?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
     [false,83,6,4,'Fun with Veal',
@@ -526,13 +526,13 @@ const EPISODES = [
     [false,162,11,9,'More Crap',
         22,"2007-10-10",false,1109,false,'TV-MA','Trey Parker','Trey Parker',2.98,false,['Bono'],false,'Stan\'s dad becomes South Park\'s home-town hero when the guys down at the local bar see the size of his most recent crap.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1109.jpeg',8.1,['https://tv.apple.com/us/episode/more-crap/umc.cmc.2pirqmsf7mbygwgx8qbiv1ltt?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
-    [false,163,11,10,'Imaginationland Episode I',
+    [false,163,11,10,'Imaginationland, pt I',
         22,"2007-10-17",false,1110,false,'TV-MA','Trey Parker','Trey Parker',3.43,false,['Al-Qaeda','M. Night Shyamalan','Mel Gibson','Michael Bay'],['Jonathan Kimmel'],'When the entire contents of the world\'s imagination lay open before them, Stan and Kyle step right in. Back in South Park, Cartman swears he\'s seen a Leprechaun..','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1110.jpeg',9,['https://tv.apple.com/us/episode/imaginationland-episode-i/umc.cmc.4oopa8flujsdjnmxum7r7aaek?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
-    [false,164,11,11,'Imaginationland Episode II',
+    [false,164,11,11,'Imaginationland, pt II',
         22,"2007-10-24",false,1111,false,'TV-MA','Trey Parker','Trey Parker',3.60,false,['Kurt Russell','Ricardo Montalban'],false,'Stan and Kyle are being held in the bowels of the Pentagon until they tell the government how they got into Imaginationland. Meanwhile, Cartman simply won\'t rest until he finds Kyle and gets him to make good on their bet to suck his balls.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1111.jpeg',9,['https://tv.apple.com/us/episode/imaginationland-episode-ii/umc.cmc.1la6dzll1cgi98yetan9chojh?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
-    [false,165,11,12,'Imaginationland Episode III',
+    [false,165,11,12,'Imaginationland, pt III',
         22,"2007-10-31",false,1112,false,'TV-MA','Trey Parker','Trey Parker',3.87,false,['Al Gore','John Roberts','Clarence Thomas','Samuel Alito'],false,'Inside Imaginationland, Stan and Butters engage in the battle of their lives as they fight the army of evil imaginary forces. Meanwhile, Cartman goes all the way to the Supreme Court to get Kyle to pay up on their bet.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1112.jpeg',9,['https://tv.apple.com/us/episode/imaginationland-episode-iii/umc.cmc.7fxpnrohp1s1jclkijla0xmzu?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
     [false,166,11,13,'Guitar Queer-O',
@@ -1001,7 +1001,7 @@ const EPISODES = [
     [false,317,25,6,'Credigree Weed St. Patrick\'s Day Special',
         22,"2022-03-16",false,2506,false,'TV-MA','Trey Parker','Trey Parker',0.49,false,false,false,'Butters is shocked to learn that people in South Park don\'t understand what St. Patrick\'s Day is really about.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2506.jpeg',7.1,['https://tv.apple.com/us/episode/credigree-weed-st-patricks-day-special/umc.cmc.6utwxfyig0i6u9od51spclh57?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
-    [false,318,false,false,'South Park: The Streaming Wars',
+    [true,318,false,false,'South Park: The Streaming Wars',
         50,"2022-06-01",true,'P2507',false,'UNRATED','Trey Parker','Trey Parker',false,false,false,false,'In South Park: The Streaming Wars, Cartman locks horns with his mom in a battle of wills while an epic conflict unfolds that threatens South Park\'s very existence.','https://hosting.photobucket.com/images/i/lesaintdumech/SPEP2507.jpeg',6.7,
         [
             'https://tv.apple.com/us/movie/south-park-the-streaming-wars/umc.cmc.1gexhd7mkbbnmwhfpr5xuh0ce',
@@ -1009,7 +1009,7 @@ const EPISODES = [
             'https://www.youtube.com/watch?v=oRA82xwvkwo'
         ]
     ],
-    [false,319,false,false,'South Park: The Streaming Wars Part 2',
+    [true,319,false,false,'South Park: The Streaming Wars Part 2',
         47,"2022-07-13",true,'P2508',false,'UNRATED','Trey Parker','Trey Parker',false,false,['Matt Damon','Gwyneth Paltrow','Larry David','Naomi Osaka','Reese Witherspoon','LeBron James','Judge Penney S. Azcarate','Tom Brady'],false,'In South Park: The Streaming Wars Part 2, a drought has brought the town of South Park to the brink of disaster.','https://hosting.photobucket.com/images/i/lesaintdumech/SPEP2508.jpeg',6.7,
         [
             'https://tv.apple.com/us/movie/south-park-the-streaming-wars-part-2/umc.cmc.7drrx9el24glrhovt39xz14wh',
