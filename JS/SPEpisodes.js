@@ -385,7 +385,7 @@ const EPISODES = [
     [false,115,8,4,'You Got F\'d in the A',
         22,"2004-04-07",false,805,'You Got Served','TV-MA','Trey Parker','Trey Parker',3.96,false,false,['Ming Yao'],'Stan just got served, and now it\'s up to him to put together a team of South Park\'s best dancers to compete against a troupe from Orange County','https://hosting.photobucket.com/images/i/lesaintdumech/SPE805.jpeg',8.1,['https://tv.apple.com/us/episode/you-got-fd-in-the-a/umc.cmc.2urhjbigvo933bdcquxs8jgas?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
-    [false,116,8,5,'Awesom-O',
+    [true,116,8,5,'Awesom-O',
         22,"2004-04-14",false,802,false,'TV-MA','Trey Parker','Trey Parker',3.81,false,['Justin Timberlake'],false,'Cartman plans to learn all of Butters\' innermost secrets and then use them against him, by pretending to be Butters\' new best friend, a robot named A.W.E.S.O.M.-O 4000.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE802.jpeg',9.2,['https://tv.apple.com/us/episode/awesome-o/umc.cmc.4odwhrup72ge9d0j1inirjrjh?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
     [false,117,8,6,'The Jeffersons',
@@ -568,10 +568,10 @@ const EPISODES = [
     [true,176,12,9,'Breast Cancer Show Ever',
         22,"2008-10-15",false,1209,false,'TV-MA','Trey Parker','Trey Parker',2.85,false,false,false,'Wendy gets in trouble when she threatens to beat up Cartman after school.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1209.jpeg',8.8,['https://tv.apple.com/us/episode/breast-cancer-show-ever/umc.cmc.4os0qzyrcx087d0dqphcy9fw0?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
-    [false,177,12,10,'Pandemic',
+    [true,177,12,10,'Pandemic',
         22,"2008-10-22",false,1210,false,'TV-MA','Trey Parker','Trey Parker',2.78,false,['Michael Chertoff'],false,'While the world struggles to contain an epidemic of epic proportions, the boys find a way to make money off of it.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1210.jpeg',8,['https://tv.apple.com/us/episode/pandemic/umc.cmc.2l70gl2g2om57303964vmjq8s?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
-    [false,178,12,11,'Pandemic 2: The Startling',
+    [true,178,12,11,'Pandemic 2: The Startling',
         22,"2008-10-29",false,1211,false,'TV-MA','Trey Parker','Trey Parker',3.08,false,['Michael Chertoff'],false,'Giant guinea pigs are attacking cities all over the world. The boys have the key that will save everyone from the onslaught but they\'re stranded in the Andes Mountains.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1211.jpeg',7.8,['https://tv.apple.com/us/episode/pandemic-2---the-startling/umc.cmc.5gkxq5rqr0fbsxsz721dkz50?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
     [false,179,12,12,'About Last Night...',
@@ -787,7 +787,7 @@ const EPISODES = [
     [false,249,18,2,'Gluten Free Ebola',
         23,"2014-10-01",false,1802,false,'TV-MA','Trey Parker','Trey Parker',2.24,false,false,false,'South Park goes gluten free as the wheat germ threatens to wipe out all society.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1802.jpeg',7.7,['https://tv.apple.com/us/episode/gluten-free-ebola/umc.cmc.418usmkg17x8mqgdroifn6v2d?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
-    [false,250,18,3,'The Cissy',
+    [true,250,18,3,'The Cissy',
         23,"2014-10-08",false,1803,false,'TV-MA','Trey Parker','Trey Parker',2.02,false,['Lorde (Randy Marsh)','Brandon Carlile'],['Sia'],'Randy is harboring a giant secret and the pressure is getting to him. Meanwhile, Cartman calls Stan a cissy.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1803.jpeg',8.5,['https://tv.apple.com/us/episode/the-cissy/umc.cmc.123v2hd8r1g7kq0x4bnedfwdh?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
     [false,251,18,4,'Handicar',
@@ -1095,6 +1095,31 @@ const EPISODES = [
     [false,342,29,4,'???',false,"2026-10-28",false],
     [false,343,29,5,'???',false,"2026-11-11",false],
     [false,344,29,6,'???',false,"2026-11-25",false]
+];
+
+/*Media Array
+0.Purchased
+1.Title
+2.Type
+3.Release Date
+4.Console (if videogame) [array]
+5. Developer
+6. Photo URL
+7. Notes
+*/
+const MEDIA = [
+    [false,'South Park','GAME','1998-12-21',['Nintendo64','PlayStation','PC'],'Iguana Entertainment'],
+    [false,'South Park Pinball','Pinball Machine','1999-09',false,'Sega Pinball'],
+    [false,'South Park: Chef\'s Luv Shack','GAME','1999-10-12',['Nintendo64','SEGA Dreamcast','PlayStation','PC'],'Acclaim Studios Austin'],
+    [false,'South Park Rally','GAME','2000-01-05',['Nintendo64','SEGA Dreamcast','PlayStation','PC'],'Tantalus Interactive'],
+    [false,'South Park Mega Millionaire','MOBILE','2009-09',['IOS'],'GameHouse'],
+    [false,'South Park Let\'s Go Tower Defense Play!','GAME','2009-10-07',['XBOX Live Arcade'],'Doublesix'],
+    [false,'South Park: Tenorman\'s Revenge','GAME','2012-03-30',['XBOX Live Arcade'],'Other Ocean Interactive'],
+    [true,'South Park: The Stick of Truth','GAME','2014-03-04',['PC','PlayStation 3','XBox 360','Nintendo Switch'],'Obsidian Entertainment'],
+    [false,'South Park Pinball','MOBILE','2014',['IOS','Android'],'Zen Studios'],
+    [true,'South Park: The Fractured But Whole','GAME','2017-10-17',['PC','PlayStation 4','XBox One','Nintendo Switch'],'Ubisoft'],
+    [false,'South Park: Phone Destroyer','MOBILE','2017-11-09',['IOS','Android'],'Ubisoft RedLynx'],
+    [true,'South Park: Snow Day!','GAME','2024-03-26',['PC','PlayStation 5','XBox Series X/S','Nintendo Switch']]
 ];
 
 //Initialize Variables
