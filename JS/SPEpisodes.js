@@ -271,7 +271,7 @@ const EPISODES = [
     [false,77,5,12,'Here Comes the Neighborhood',
         22,"2001-11-28",false,512,false,'TV-MA','Eric Stough','Trey Parker',3.03,false,['Will and Jada Pinkett Smith','Oprah Winfrey','Snoop Dogg'],false,'Tolkien is tired of being the only rich kid in town, and succeeds in attracting several other wealthy families to South Park.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE512.jpeg',8.0,['https://tv.apple.com/us/episode/here-comes-the-neighborhood/umc.cmc.2pzimmfxq9z8akl622t2s0bst?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
-    [false,78,5,13,'Kenny Dies',
+    [true,78,5,13,'Kenny Dies',
         20,"2001-12-05",false,513,false,'TV-MA','Trey Parker','Trey Parker',2.66,false,['Madonna'],false,'In a very special episode of "South Park," Cartman fights for Kenny\'s life when he speaks before Congress in favor of stem-cell research.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE513.jpeg',8.8,['https://tv.apple.com/us/episode/kenny-dies/umc.cmc.6f407s5s756wreqjmxxzh89zv?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
     [false,79,5,14,'Butters\' Very Own Episode',
@@ -706,7 +706,7 @@ const EPISODES = [
     [false,222,15,13,'A History Channel Thanksgiving',
         23,"2011-11-09",false,1513,false,'TV-MA','Trey Parker','Trey Parker',2.85,false,['Natalie Portman'],false,'The boys are getting close to discovering the truth about the first Thanksgiving.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1513.jpeg',7.2,['https://tv.apple.com/us/episode/a-history-channel-thanksgiving/umc.cmc.3n5ijizzxn2mcu6zk9514ckdx?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
-    [false,223,15,14,'The Poor Kid',
+    [true,223,15,14,'The Poor Kid',
         23,"2011-11-16",false,1514,false,'TV-MA','Trey Parker','Trey Parker',2.41,false,false,false,'Kenny and Cartman both wind up in the abusive foster care system after both their parents\' reckless white trash behavior provoked by Pabst Blue Ribbon.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1514b.jpeg',7.9,['https://tv.apple.com/us/episode/the-poor-kid/umc.cmc.rv03qba9n10vfbrqe5b8qiwd?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
     [true,224,16,1,'Reverse Cowgirl',
@@ -781,34 +781,34 @@ const EPISODES = [
     [true,247,17,10,'The Hobbit',
         21,"2013-12-11",false,1710,false,'TV-MA','Trey Parker','Trey Parker',2.17,false,['Kanye West','Pope Francis'],false,'When Wendy tries to fix one of her girlfriends up with Butters, she ends up in the counselor\'s office.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1710.jpeg',8.4,['https://tv.apple.com/us/episode/the-hobbit/umc.cmc.61abm8veovr06sm4ahpdhzmn4?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
-    [false,248,18,1,'Go Fund Yourself',
+    [true,248,18,1,'Go Fund Yourself',
         23,"2014-09-24",false,1801,false,'TV-MA','Trey Parker','Trey Parker',2.40,false,['The Washington Redskins','Dan Snyder','Roger Goodell','Jay Gruden','Steve Bisciotti','Jim Irsay','Paul Allen','Alex Spanos','Jerry Jones','ISIS'],['Roger Goodell'],'The boys name their new start-up company, The Washington Redskins.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1801.jpeg',7.7,['https://tv.apple.com/us/episode/go-fund-yourself/umc.cmc.66hsv0voye1wv9gn7yhqk3f08?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
-    [false,249,18,2,'Gluten Free Ebola',
+    [true,249,18,2,'Gluten Free Ebola',
         23,"2014-10-01",false,1802,false,'TV-MA','Trey Parker','Trey Parker',2.24,false,false,false,'South Park goes gluten free as the wheat germ threatens to wipe out all society.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1802.jpeg',7.7,['https://tv.apple.com/us/episode/gluten-free-ebola/umc.cmc.418usmkg17x8mqgdroifn6v2d?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
     [true,250,18,3,'The Cissy',
         23,"2014-10-08",false,1803,false,'TV-MA','Trey Parker','Trey Parker',2.02,false,['Lorde (Randy Marsh)','Brandon Carlile'],['Sia'],'Randy is harboring a giant secret and the pressure is getting to him. Meanwhile, Cartman calls Stan a cissy.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1803.jpeg',8.5,['https://tv.apple.com/us/episode/the-cissy/umc.cmc.123v2hd8r1g7kq0x4bnedfwdh?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
-    [false,251,18,4,'Handicar',
+    [true,251,18,4,'Handicar',
         22,"2014-10-15",false,1804,false,'TV-MA','Trey Parker','Trey Parker',1.73,false,['Elon Musk','Matthew McConaughey'],false,'Timmy\'s successful new car service makes him a lot of enemies.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1804.jpeg',7.3,['https://tv.apple.com/us/episode/handicar/umc.cmc.701k9aaqtr41jj7bj4d0s6yp9?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
-    [false,252,18,5,'The Magic Bush',
+    [true,252,18,5,'The Magic Bush',
         22,"2014-10-29",false,1805,false,'TV-MA','Trey Parker','Trey Parker',1.73,false,false,false,'Graphic video from an unknown drone is uploaded on the internet.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1805.jpeg',7.9,['https://tv.apple.com/us/episode/the-magic-bush/umc.cmc.78m44yzuhxcu9jf3c0dhubf0o?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
-    [false,253,18,6,'Freemium Isn\'t Free',
+    [true,253,18,6,'Freemium Isn\'t Free',
         22,"2014-11-05",false,1806,false,'TV-MA','Trey Parker','Trey Parker',1.70,false,false,false,'Stan is addicted to the new Terrance and Phillip mobile game.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1806.jpeg',8.1,['https://tv.apple.com/us/episode/freemium-isnt-free/umc.cmc.7hlbaz11l078tlq1m22ca1949?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
-    [false,254,18,7,'Grounded Vindaloop',
+    [true,254,18,7,'Grounded Vindaloop',
         23,"2014-11-12",false,1807,false,'TV-MA','Trey Parker','Trey Parker',1.66,false,false,false,'Butters is convinced he\'s living in a virtual reality.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1807.jpeg',9.1,['https://tv.apple.com/us/episode/grounded-vindaloop/umc.cmc.29i6ra4nb6daomhjdmyftoy3m?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
-    [false,255,18,8,'Cock Magic',
+    [true,255,18,8,'Cock Magic',
         21,"2014-11-19",false,1808,false,'TV-MA','Trey Parker','Trey Parker',1.69,false,false,['Peter Serafinowicz'],'The city police crack down on a ring of illegal magic cock-battles going on in the basement of City Wok.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1808.jpeg',8.3,['https://tv.apple.com/us/episode/cock-magic/umc.cmc.6oinx9k1it1r2ky3x7ezaqjcn?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
-    [false,256,18,9,'\u0023REHASH',
+    [true,256,18,9,'\u0023REHASH',
         22,"2014-12-03",false,1809,false,'TV-MA','Trey Parker','Trey Parker',2.10,false,['Lorde','Iggy Azalea','Nicki Minaj','Wendy Williams','PewDiePie'],['PewDiePie'],'Kyle just wants to play video games with his little brother. But, when Ike doesn\'t want to play with him anymore, Kyle is afraid that the next generation is passing him by.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1809.jpeg',7.3,['https://tv.apple.com/us/episode/rehash/umc.cmc.475txo6fy8za19lucsxfsp3e0?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
-    [false,257,18,10,'\u0023HappyHolograms',
+    [true,257,18,10,'\u0023HappyHolograms',
         22,"2014-12-10",false,1810,false,'TV-MA','Trey Parker','Trey Parker',1.66,false,['Taylor Swift','Bill Cosby','Miley Cyrus','Al Pacino','J.J.Watt','U2 & Bono','Angelina Jolie','Tom Hanks','Iggy Azalea','PewDiePie'],['PewDiePie'],'CartmanBrah is trending as the country prepares to watch the biggest Holiday Spectacular ever.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1810.jpeg',6.8,['https://tv.apple.com/us/episode/happyholograms/umc.cmc.5f1ej31wrdbesl1789lymejbd?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
     [true,258,19,1,'Stunning and Brave',
