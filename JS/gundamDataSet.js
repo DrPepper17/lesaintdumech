@@ -9948,7 +9948,6 @@ const projects = [
     ['Argonaut',[1,'Legilis'],'SD',false,false,false,'Age','C','2026-04-18',4.58],
 
     //After Colony (Wing)
-    ['Leo Army',[6,'Leo'],'LEO',false,false,false,'Wing','C','2021-10-03',42.94,false,'Builds/Gundams/LeoArmy.html',false],
     ['South Park',[6,'Tallgeese','Epyon','Heavy Arms','Shenlong','Deathscythe','Sandrock'],'SD',
         false,false,false,'Wing','E','2021-06-05',54.42,true,'Builds/uniqueTemplates/SouthPark.html',false,'2021-06-21',models[6],
         [
@@ -9989,6 +9988,11 @@ const projects = [
         'After finishing the Bel-Air, I realized there was still a lot I had to learn about air brush painting. So before moving on to the larger projects I decided to do something fun on a much more small scale in order to get a little more practice. Looking for a theme I was inspired by the boys of South Park, plus the Operation Meteor lineup.','John, Shelly, Nebraska',
         false,false,false,true
     ],
+    ['Leo Army',[6,'Leo'],'LEO',false,false,false,'Wing','C','2021-10-03',42.94,false,'Builds/Gundams/LeoArmy.html',false],
+    ['Leo Corps',[4,'Leo','PB Leo Full Weapon Set'],'HG',false,true,false,'Wing','B','202X',0,false],
+    ['Achilles',[1,'Leo-N'],'HG',false,true,false,'Wing','A','202X',0,false],
+    ['Calypso',[1,'Leo-R'],'HG',false,true,false,'Wing','B','202X',0,false],
+    ['Odysseus',[1,'Leo-S'],'HG',false,true,false,'Wing','A','202X',0,false],
     ['PB Altron',[1,'PB Altron'],'HG',false,true,false,'Wing','B'],
     ['Gemini',[2,'Aquarius','Aquarius'],'SD',
         false,false,false,'Wing','E','2021-07-05',20.61,false,'Builds/Gundams/Gemini.html',false,'2022-01-24',models[40],
@@ -11480,6 +11484,9 @@ const projects = [
             'Sylux'
         ],true,true,'1:144'
     ],
+    ['Graham Flag [STR]',[1,'Flag Graham Custom'],'HG',
+        true,false,false,'00','D','2026-08-09',1.5,false,
+    ],
     ['Queen Bee',[1,'GN Archer'],'HG',false,false,false,'00','B','2025',0],
     ['Harute (Final Battle)',[1,'Harute'],'HG',
         true,true,false,'00','E','2022-03-08',5.75,false,'Builds/PBandai/PBHaruteFinalHG.html',false,'2022-11-21',models[70],
@@ -11631,6 +11638,9 @@ const projects = [
             ['NewType','https://newtype.us/p/Kk3dlpRmrJYF7kE29Bce/h/hg00-052-gn-000-o-gundam-gray#reviews']
         ],false,true,true,'1:144'
     ],
+
+    //Constant Calendar (Eight)
+    ['ZED',[1,'ZIRIUS'],'HG',false,true,false,'EIGHT','A','202X',0,false],
 
     //Correct Century (Turn A)
     ['John Wayne',[1,'Turn-A'],'SD',
@@ -13986,6 +13996,7 @@ const projects = [
             ['Premium Bandai','https://p-bandai.com/us/item/F2256565006']
         ],false,false,true,'1:144',false,'Strike-Freedom (Deactive Mode)','Strike-Freedom'
     ],
+    ['Too Much Freedom',[1,'Strike-Freedom Type II'],'HG',false,true,false,'Seed','A','202X',0,false], //If I paint this, then name it Liberté
     ['Mighty Strike Freedom [HG]',[1,'Mighty Strike Freedom'],'HG',true,false,false,'Seed','E','2024-10-04',3],
     ['Battra',[1,'Strike Noir'],'MG',false,false,false,'Seed','B'],
     ['Strike Noir [SD]',[1,'Strike Noir'],'SD',true,false,false,'Seed','E','2021-09-06',2.233,false,false,'2023-07-10'],
@@ -14787,6 +14798,61 @@ const projects = [
         ],false,true,true,'1:144','The Sun King'
 
     ],
+    ['Red Baron',[1,'Shadow Gundam'],'MG',
+        false,false,false,'G','E','2021-05-05',72.07,true,'Builds/Gundams/RedBaron.html',false,'2021-05-29',models[2],
+        [
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/rbaron01.JPG','Gundam Red Baron','img1'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/rbaron02.jpg','Gundam Red Baron','img2'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/rbaron03.jpg','Gundam Red Baron','img3'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/rbaron04.jpg','Gundam Red Baron','img4'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/rbaron05.jpg','Gundam Red Baron','img5'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/rbaron06.jpg','Gundam Red Baron','img6'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/rbaron07.jpg','Gundam Red Baron','img7'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/rbaron08.jpg','Gundam Red Baron','img8'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/rbaron09.jpg','Gundam Red Baron','img9'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/rbaron10.jpg','Gundam Red Baron','img10'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/rbaron11.jpg','Gundam Red Baron','img11'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/rbaron12.jpg','Gundam Red Baron','img12'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/rbaron13.jpg','Gundam Red Baron','img13'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/rbaron14.jpg','Gundam Red Baron','img14'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/rbaron15.jpg','Gundam Red Baron','img15'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/rbaron16.jpg','Gundam Red Baron','img16'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/rbaron17.jpg','Gundam Red Baron','img17'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/rbaron18.jpg','Gundam Red Baron','img18'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/rbaron19.jpg','Gundam Red Baron','img19'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/rbaron20.jpg','Gundam Red Baron','img20'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/rbaron21.jpg','Gundam Red Baron','img21'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/rbaron22.jpg','Gundam Red Baron','img22'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/rbaron23.jpg','Gundam Red Baron','img23'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/rbaron24.jpg','Gundam Red Baron','img24'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/rbaron25.jpg','Gundam Red Baron','img25'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/rbaron26.jpg','Gundam Red Baron','img26'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/rbaron27.jpg','Gundam Red Baron','img27'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/rbaron28.jpg','Gundam Red Baron','img28'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/rbaron29.jpg','Gundam Red Baron','img29'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/rbaron30.jpg','Gundam Red Baron','img30'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/rbaron31.jpg','Gundam Red Baron','img31'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/rbaron32.jpg','Gundam Red Baron','img32'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/rbaron33.jpg','Gundam Red Baron','img33'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/rbaron34.jpg','Gundam Red Baron','img34'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/rbaron35.jpg','Gundam Red Baron','img35'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/rbaron36.jpg','Gundam Red Baron','img36'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/rbaron37.jpg','Gundam Red Baron','img37'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/rbaron38.jpg','Gundam Red Baron','img38'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/rbaron39.jpg','Gundam Red Baron','img39'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/rbaron40.jpg','Gundam Red Baron','img40'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/rbaron41.jpg','Gundam Red Baron','img41'],
+            ['https://hosting.photobucket.com/images/i/lesaintdumech/rbaron42.jpg','Gundam Red Baron','img42']
+        ],
+        ['https://hosting.photobucket.com/images/i/lesaintdumech/rbaron42B.jpg','Profile Photo: Gundam Red Baron'],
+        'Half inspired by the WWI Imperial Prussian fighter pilot half inspired by the pizza. Half just desperate for a theme to do on my second custom paint job. The Gundam Spiegel according to cannon was the official mobile suit of Neo Germany in the future, so I decided to take it all the way back to the imperial Prussia of the past. Painted it red with white stripes like the famous Red Baron plane. Clipped the spike from a nose ring to make the Pickelhaube for the helmet. And cut brown felt to make his aviator scarf just alike a real pilot. Still hand brushed, I had not come to my senses and realized the need for an air brush yet. Was also my first attempt at using LEDs and first time making custom waterslide decals. It being Deutsch, I also added Nietzschean book titles to each of the blades: Jenseits von Gut und B\u00f6se, Also sprach Zarathustra, Die fr\u00f6hliche Wissenschaft, Der Wille zur Macht.',false,
+        [
+            ['USA Gundam Store','https://www.usagundamstore.com/products/mg-gf13_021ng-gundam-spiegel?variant=33023432527'],
+            ['NewType','https://newtype.us/p/RQuAYgB4XXkOwgZaWLOi/h/mg-gf13-021ng-gundam-spiegel']
+        ],false,false,true,'1/100'
+    ],
+    ['Red Baron 2',[1,'Shadow Gundam'],'MG',false,false,false,'G','A','202X',0,false,'Builds/RedBaron2.html',false,'',models[2]],
+    ['Rittmeister',[1,'Shadow Gundam'],'HG',false,true,false,'G','A','202X',0,false,'Builds/PBandai/ShadowMeister.html',false,'',models[2]],
     ['Gabriel',[1,'Shining Gundam'],'SD',
         false,false,false,'G','E','2024-09-13',4.59,false,'Builds/Gundams/Gabriel.html',false,'2025-06-02',models[164],
         [
@@ -14901,60 +14967,7 @@ const projects = [
         ['King of Hearts'],false,true,'1:144'
     ],
     ['Camael',[1,'Shining Gundam'],'SD',false,false,false,'G','B','2024',0],    //Flat
-    ['Red Baron',[1,'Spiegel, Gundam'],'MG',
-        false,false,false,'G','E','2021-05-05',72.07,true,'Builds/Gundams/RedBaron.html',false,'2021-05-29',models[2],
-        [
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/rbaron01.JPG','Gundam Red Baron','img1'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/rbaron02.jpg','Gundam Red Baron','img2'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/rbaron03.jpg','Gundam Red Baron','img3'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/rbaron04.jpg','Gundam Red Baron','img4'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/rbaron05.jpg','Gundam Red Baron','img5'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/rbaron06.jpg','Gundam Red Baron','img6'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/rbaron07.jpg','Gundam Red Baron','img7'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/rbaron08.jpg','Gundam Red Baron','img8'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/rbaron09.jpg','Gundam Red Baron','img9'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/rbaron10.jpg','Gundam Red Baron','img10'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/rbaron11.jpg','Gundam Red Baron','img11'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/rbaron12.jpg','Gundam Red Baron','img12'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/rbaron13.jpg','Gundam Red Baron','img13'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/rbaron14.jpg','Gundam Red Baron','img14'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/rbaron15.jpg','Gundam Red Baron','img15'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/rbaron16.jpg','Gundam Red Baron','img16'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/rbaron17.jpg','Gundam Red Baron','img17'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/rbaron18.jpg','Gundam Red Baron','img18'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/rbaron19.jpg','Gundam Red Baron','img19'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/rbaron20.jpg','Gundam Red Baron','img20'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/rbaron21.jpg','Gundam Red Baron','img21'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/rbaron22.jpg','Gundam Red Baron','img22'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/rbaron23.jpg','Gundam Red Baron','img23'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/rbaron24.jpg','Gundam Red Baron','img24'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/rbaron25.jpg','Gundam Red Baron','img25'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/rbaron26.jpg','Gundam Red Baron','img26'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/rbaron27.jpg','Gundam Red Baron','img27'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/rbaron28.jpg','Gundam Red Baron','img28'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/rbaron29.jpg','Gundam Red Baron','img29'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/rbaron30.jpg','Gundam Red Baron','img30'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/rbaron31.jpg','Gundam Red Baron','img31'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/rbaron32.jpg','Gundam Red Baron','img32'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/rbaron33.jpg','Gundam Red Baron','img33'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/rbaron34.jpg','Gundam Red Baron','img34'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/rbaron35.jpg','Gundam Red Baron','img35'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/rbaron36.jpg','Gundam Red Baron','img36'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/rbaron37.jpg','Gundam Red Baron','img37'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/rbaron38.jpg','Gundam Red Baron','img38'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/rbaron39.jpg','Gundam Red Baron','img39'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/rbaron40.jpg','Gundam Red Baron','img40'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/rbaron41.jpg','Gundam Red Baron','img41'],
-            ['https://hosting.photobucket.com/images/i/lesaintdumech/rbaron42.jpg','Gundam Red Baron','img42']
-        ],
-        ['https://hosting.photobucket.com/images/i/lesaintdumech/rbaron42B.jpg','Profile Photo: Gundam Red Baron'],
-        'Half inspired by the WWI Imperial Prussian fighter pilot half inspired by the pizza. Half just desperate for a theme to do on my second custom paint job. The Gundam Spiegel according to cannon was the official mobile suit of Neo Germany in the future, so I decided to take it all the way back to the imperial Prussia of the past. Painted it red with white stripes like the famous Red Baron plane. Clipped the spike from a nose ring to make the Pickelhaube for the helmet. And cut brown felt to make his aviator scarf just alike a real pilot. Still hand brushed, I had not come to my senses and realized the need for an air brush yet. Was also my first attempt at using LEDs and first time making custom waterslide decals. It being Deutsch, I also added Nietzschean book titles to each of the blades: Jenseits von Gut und B\u00f6se, Also sprach Zarathustra, Die fr\u00f6hliche Wissenschaft, Der Wille zur Macht.',false,
-        [
-            ['USA Gundam Store','https://www.usagundamstore.com/products/mg-gf13_021ng-gundam-spiegel?variant=33023432527'],
-            ['NewType','https://newtype.us/p/RQuAYgB4XXkOwgZaWLOi/h/mg-gf13-021ng-gundam-spiegel']
-        ],false,false,true,'1/100'
-    ],
-    ['Red Baron 2',[1,'Spiegel, Gundam'],'MG',false,false,false,'G','A','',0,false,'Builds/RedBaron2.html',[''],'',models[2]],
+    
 
     //Post Disaster (IBO)
     ['Thorn',[1,'Barbatos'],'MG',false,false,false,'IBO','B'],
@@ -16956,6 +16969,11 @@ const projects = [
         ],false,false,true,false
     ],
     ['Beach Haro',[1,'BearGGuy Ohana & Aloharo Set'],'Haro',false,false,false,'','B'],   //paint like a beach ball
+    ['Pocket Haro',[1,'Haropla'],'Haro',false,false,false,'','A'],  //Pokeball
+    ['Honor Haro',[1,'Haropla'],'Haro',false,false,false,'','A'],   //Premierball
+    ['Great Haro',[1,'Haropla'],'Haro',false,false,false,'','A'],   //Great Ball
+    ['Ultra Haro',[1,'Haropla'],'Haro',false,false,false,'','A'],   //Ultra Ball
+    ['Master Haro',[1,'Haropla'],'Haro',false,false,false,'','A'],  //Master Ball
     
     //Car
     ['Hud Air',[1,'Chevy Bel Air, 57'],'Car',
@@ -17825,6 +17843,7 @@ const projects = [
             ['NewType','https://newtype.us/p/QQ20Oj03HvMjPtfc8kK9/h/pokemon-model-kit-quick-23-jirachi']
         ],false,false,true,false,false,false,false,false,false,false,'Pokemon Jirachi 23 Quick Model Kit'
     ],
+    ['Tiberius',[1,'Kyogre'],'Pokemon',false,false,false,'','B','202X',0],
     ['Lothbrok',[1,'Kyurem'],'Pokemon',false,false,false,'','C','2026-05-22',0],
     ['Lutetia',[1,'Lucario'],'Pokemon',
         false,false,false,'','E','2023-10-03',5.09,false,'Builds/Pokemon/Lutetia.html',false,'2025-07-07',models[167],
@@ -19353,7 +19372,9 @@ const projects = [
         ],false,true,'1:144',false,false
 
     ],
-    ['UnicronBall',[0.25,'MG Podball','HG Providence','HG AGE-FX','SD BB Senshi \u0023275 Ryujin Doshi Niu'],'MG',false,false,false,'UC','C','2026-05-22',0,true,'Builds/Metroid/Sylux.html',true,'202X',models[136]]
+    ['UnicronBall',[0.25,'MG Podball','HG Providence','HG AGE-FX','SD BB Senshi \u0023275 Ryujin Doshi Niu'],'MG',
+        false,false,false,'UC','C','2026-05-22',8.19,true
+    ],
 
     //Other
     ['Teddy Bear Rock',[1.5,'BearGGuy Ohana & Aloharo Set'],'HG',false,false,false,'Gundam','B','2026',0],
@@ -19491,6 +19512,7 @@ let ageFilter = [];
 let wingFilter = [];
 let xxFilter = [];
 let ooFilter = [];
+let eightFilter = [];
 let turnAFilter = [];
 let seedFilter = [];
 let gGundamFilter = [];
@@ -21522,6 +21544,9 @@ function buildFilterArrays() {
             if(postedArray[i][6]==='00') {
                 ooFilter.push(postedArray[i]);
             }
+            if(postedArray[i][6]==='EIGHT') {
+                eightFilter.push(postedArray[i]);
+            }
             if(postedArray[i][6]==='TurnA') {
                 turnAFilter.push(postedArray[i]);
             }
@@ -21615,6 +21640,7 @@ function buildFilterArrays() {
     wingFilter = sortBySerialNo(wingFilter);
     xxFilter = sortBySerialNo(xxFilter);
     ooFilter = sortBySerialNo(ooFilter);
+    eightFilter = sortBySerialNo(eightFilter);
     turnAFilter = sortBySerialNo(turnAFilter);
     seedFilter = sortBySerialNo(seedFilter);
     gGundamFilter = sortBySerialNo(gGundamFilter);

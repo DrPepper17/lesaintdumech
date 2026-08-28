@@ -380,7 +380,7 @@ const EPISODES = [
         22,"2004-03-24",false,803,false,'TV-MA','Trey Parker','Trey Parker',3.64,false,['Barry Bonds','Jason Giambi','Mark McGwire'],false,'Jimmy is in training for the upcoming Special Olympics and he\'s determined to win at any cost.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE803.jpeg',8.6,['https://tv.apple.com/us/episode/up-the-down-steroid/umc.cmc.4x8k726yyhbbh8eei431fb5gt?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
     [true,114,8,3,'The Passion of the Jew',
-        22,"2004-03-31-",false,804,false,'TV-MA','Trey Parker','Trey Parker',4.43,false,['Mel Gibson'],false,'Kyle finally sees the blockbuster movie "The Passion of the Christ" and admits that Cartman has been right about the Jewish people all along.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE804.jpeg',8.6,['https://tv.apple.com/us/episode/the-passion-of-the-jew/umc.cmc.yo12ao00hv47kfpcs7ih9dnc?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
+        22,"2004-03-31",false,804,false,'TV-MA','Trey Parker','Trey Parker',4.43,false,['Mel Gibson'],false,'Kyle finally sees the blockbuster movie "The Passion of the Christ" and admits that Cartman has been right about the Jewish people all along.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE804.jpeg',8.6,['https://tv.apple.com/us/episode/the-passion-of-the-jew/umc.cmc.yo12ao00hv47kfpcs7ih9dnc?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
     [false,115,8,4,'You Got F\'d in the A',
         22,"2004-04-07",false,805,'You Got Served','TV-MA','Trey Parker','Trey Parker',3.96,false,false,['Ming Yao'],'Stan just got served, and now it\'s up to him to put together a team of South Park\'s best dancers to compete against a troupe from Orange County','https://hosting.photobucket.com/images/i/lesaintdumech/SPE805.jpeg',8.1,['https://tv.apple.com/us/episode/you-got-fd-in-the-a/umc.cmc.2urhjbigvo933bdcquxs8jgas?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
@@ -628,7 +628,7 @@ const EPISODES = [
     [false,196,14,1,'Sexual Healing',
         22,"2010-03-17",false,1401,false,'TV-MA','Trey Parker','Trey Parker',3.74,false,['Tiger Woods','Elin Nordegren','Bill Clinton','David Letterman','Barack Obama'],false,'The latest in scientific testing reveals that some of the boys at South Park Elementary have a sex addiction problem.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1401.jpeg',7.5,['https://tv.apple.com/us/episode/sexual-healing/umc.cmc.79igjpegdyx2xyq54k74h9wp5?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
-    [false,197,14,2,'The Tale of Scrotie McBoogerballs',
+    [true,197,14,2,'The Tale of Scrotie McBoogerballs',
         22,"2010-03-24",false,1402,false,'TV-MA','Trey Parker','Trey Parker',3.24,false,['Sarah Jessica Parker','The Kardashians','Matthew Broderick','Bruce Jenner','Kris Jenner','Morgan Freeman'],false,'The boys are given a controversial book to read in school and it inspires them to write one of their own.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1402.jpeg',8,['https://tv.apple.com/us/episode/the-tale-of-scrotie-mcboogerballs/umc.cmc.6k7jdh0onmozeeleiy9vrt6sh?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
     [false,198,14,3,'Medicinal Fried Chicken',
@@ -649,7 +649,7 @@ const EPISODES = [
     [false,203,14,8,'Poor and Stupid',
         22,"2010-10-06",false,1408,false,'TV-MA','Trey Parker','Trey Parker',3.14,false,['Charlie Sheen','Dale Earnhardt Jr.','Angus T. Jones','Danica Patrick','Jeff Gordon','Jimmie Johnson','Jon Cryer','Matt Kenseth','Tony Stewart'],false,'Cartman dreams of being a NASCAR driver and he\'s willing to do whatever it takes to make it happen.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1408.jpeg',7.5,['https://tv.apple.com/us/episode/poor-and-stupid/umc.cmc.426va8ae4sj3qzwubg9ceudml?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
-    [false,204,14,9,'It\'s a Jersey Thing',
+    [true,204,14,9,'It\'s a Jersey Thing',
         21,"2010-10-13",false,1409,false,'TV-MA','Trey Parker','Trey Parker',3.25,false,['Arnold Schwarzenegger','Mike Sorrentino (The Situation)','Pauly D','Nicole Polizzi (Snooki)','Jacqueline Laurita','Caroline Manzo','Joe and Teresa Giudice','Osama bin Laden'],false,'New Jersey is taking over the nation one state at a time. Randy and the boys take a stand as the Jerseyites approach South Park.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1409.jpeg',7.8,['https://tv.apple.com/us/episode/its-a-jersey-thing/umc.cmc.621wwrr9ugvezfwg81qecwo65?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
     [false,205,14,10,'Insheeption',
@@ -748,7 +748,7 @@ const EPISODES = [
     [false,236,16,13,'A Scause for Applause',
         23,"2012-10-31",false,1613,false,'TV-MA','Trey Parker','Trey Parker',1.96,false,false,false,'A serious doping scandal shakes everyone\'s faith in a beloved icon. Everyone who once supported the fallen hero is now cutting off their symbolic yellow wristbands.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1613.jpeg',7.1,['https://tv.apple.com/us/episode/a-scause-for-applause/umc.cmc.4735148tc35vtmxktn54dzh6m?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
-    [false,237,16,14,'Obama Wins!',
+    [true,237,16,14,'Obama Wins!',
         23,"2012-11-07",false,1614,false,'TV-MA','Trey Parker','Trey Parker',2.19,false,['Barack Obama','Morgan Freeman','Wolf Blitzer'],false,'Eric Cartman is hiding something in his bedroom that could change the entire outcome of the Presidential election.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1614.jpeg',7.4,['https://tv.apple.com/us/episode/obama-wins/umc.cmc.5y0df44nzaufub093gw9xgds7?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
     [false,238,17,1,'Let Go, Let Gov',
