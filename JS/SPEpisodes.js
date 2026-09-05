@@ -274,7 +274,7 @@ const EPISODES = [
     [true,78,5,13,'Kenny Dies',
         20,"2001-12-05",false,513,false,'TV-MA','Trey Parker','Trey Parker',2.66,false,['Madonna'],false,'In a very special episode of "South Park," Cartman fights for Kenny\'s life when he speaks before Congress in favor of stem-cell research.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE513.jpeg',8.8,['https://tv.apple.com/us/episode/kenny-dies/umc.cmc.6f407s5s756wreqjmxxzh89zv?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
-    [false,79,5,14,'Butters\' Very Own Episode',
+    [true,79,5,14,'Butters\' Very Own Episode',
         22,"2001-12-12",false,514,false,'TV-MA','Eric Stough','Trey Parker',2.63,false,['OJ Simpson','Gary Condit','John and Patricia Ramsey','John Elway'],false,'Alone and lost, Butters determinedly makes his way through porn theatres and gay bathhouses in an effort to get his dad back home in time to eat at Bennigans for his parents\' anniversary.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE514.jpeg',9.0,['https://tv.apple.com/us/episode/butters-very-own-episode/umc.cmc.3vjlhz055kpxenamm5mk9vycf?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
     [true,80,6,1,'Jared Has Aides',
@@ -439,7 +439,7 @@ const EPISODES = [
     [false,133,9,8,'Two Days Before the Day After Tomorrow',
         22,"2005-10-19",false,908,false,'TV-MA','Trey Parker','Trey Parker',2.49,false,false,false,'A Global Warming State of Emergency is declared in South Park as the world\'s largest beaver dam breaks and floods the adjacent town of Beaverton.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE908.jpeg',8.4,['https://tv.apple.com/us/episode/two-days-before-the-day-after-tomorrow/umc.cmc.6iucnnwc1bqgp2puopz4dsmuw?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
-    [false,134,9,9,'Marjorine',
+    [true,134,9,9,'Marjorine',
         22,"2005-10-26",false,909,false,'TV-MA','Trey Parker','Trey Parker',2.25,false,false,false,'Butters must fake his death, dress up as a girl and infiltrate a slumber party, in order to retrieve a future telling device Cartman is convinced the girls have.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE909.jpeg',8.8,['https://tv.apple.com/us/episode/marjorine/umc.cmc.xihiwt7oo9k1r97xq3u1v4hf?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
     [false,135,9,10,'Follow That Egg!',
@@ -526,7 +526,7 @@ const EPISODES = [
     [false,162,11,9,'More Crap',
         22,"2007-10-10",false,1109,false,'TV-MA','Trey Parker','Trey Parker',2.98,false,['Bono'],false,'Stan\'s dad becomes South Park\'s home-town hero when the guys down at the local bar see the size of his most recent crap.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1109.jpeg',8.1,['https://tv.apple.com/us/episode/more-crap/umc.cmc.2pirqmsf7mbygwgx8qbiv1ltt?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
-    [false,163,11,10,'Imaginationland, pt I',
+    [true,163,11,10,'Imaginationland, pt I',
         22,"2007-10-17",false,1110,false,'TV-MA','Trey Parker','Trey Parker',3.43,false,['Al-Qaeda','M. Night Shyamalan','Mel Gibson','Michael Bay'],['Jonathan Kimmel'],'When the entire contents of the world\'s imagination lay open before them, Stan and Kyle step right in. Back in South Park, Cartman swears he\'s seen a Leprechaun..','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1110.jpeg',9,['https://tv.apple.com/us/episode/imaginationland-episode-i/umc.cmc.4oopa8flujsdjnmxum7r7aaek?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
     [false,164,11,11,'Imaginationland, pt II',
