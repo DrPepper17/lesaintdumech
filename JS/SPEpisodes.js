@@ -256,7 +256,7 @@ const EPISODES = [
     [false,72,5,7,'Proper Condom Use',
         22,"2001-08-01",false,507,false,'TV-MA','Trey Parker','Trey Parker',2.45,false,false,false,'In a time-honored tradition and right-of-passage, the boys are separated from the girls and schooled in the mysteries of sex by none other than Mr. Mackey.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE507.jpeg',8.6,['https://tv.apple.com/us/episode/proper-condom-use/umc.cmc.2il622dinipty71el4f9u5hha?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
-    [false,73,5,8,'Towelie',
+    [true,73,5,8,'Towelie',
         22,"2001-08-08",false,508,false,'TV-MA','Trey Parker','Trey Parker',2.68,false,false,false,'The boys get a new video game system and their plan for the foreseeable future is to play it! When the government steals their new Game Sphere, the boys will stop at nothing to get it back. Their one hope for infiltrating the top secret lab where the Game Sphere is being kept is to team up with Towelie, a genetically engineered towel who only wants to get high.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE508.jpeg',8.3,['https://tv.apple.com/us/episode/towelie/umc.cmc.1nyzwnh2m0gwymh9oxi1bmwbt?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
     [false,74,5,9,'Osama bin Laden Has Farty Pants',
@@ -529,13 +529,13 @@ const EPISODES = [
     [true,163,11,10,'Imaginationland, pt I',
         22,"2007-10-17",false,1110,false,'TV-MA','Trey Parker','Trey Parker',3.43,false,['Al-Qaeda','M. Night Shyamalan','Mel Gibson','Michael Bay'],['Jonathan Kimmel'],'When the entire contents of the world\'s imagination lay open before them, Stan and Kyle step right in. Back in South Park, Cartman swears he\'s seen a Leprechaun..','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1110.jpeg',9,['https://tv.apple.com/us/episode/imaginationland-episode-i/umc.cmc.4oopa8flujsdjnmxum7r7aaek?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
-    [false,164,11,11,'Imaginationland, pt II',
+    [true,164,11,11,'Imaginationland, pt II',
         22,"2007-10-24",false,1111,false,'TV-MA','Trey Parker','Trey Parker',3.60,false,['Kurt Russell','Ricardo Montalban'],false,'Stan and Kyle are being held in the bowels of the Pentagon until they tell the government how they got into Imaginationland. Meanwhile, Cartman simply won\'t rest until he finds Kyle and gets him to make good on their bet to suck his balls.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1111.jpeg',9,['https://tv.apple.com/us/episode/imaginationland-episode-ii/umc.cmc.1la6dzll1cgi98yetan9chojh?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
-    [false,165,11,12,'Imaginationland, pt III',
+    [true,165,11,12,'Imaginationland, pt III',
         22,"2007-10-31",false,1112,false,'TV-MA','Trey Parker','Trey Parker',3.87,false,['Al Gore','John Roberts','Clarence Thomas','Samuel Alito'],false,'Inside Imaginationland, Stan and Butters engage in the battle of their lives as they fight the army of evil imaginary forces. Meanwhile, Cartman goes all the way to the Supreme Court to get Kyle to pay up on their bet.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1112.jpeg',9,['https://tv.apple.com/us/episode/imaginationland-episode-iii/umc.cmc.7fxpnrohp1s1jclkijla0xmzu?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
-    [false,166,11,13,'Guitar Queer-O',
+    [true,166,11,13,'Guitar Queer-O',
         22,"2007-11-07",false,1113,false,'TV-MA','Trey Parker','Trey Parker',3.97,false,['Ron Zappolo'],false,'Stan Marsh and Kyle Broflovski are hooked on Guitar Hero. Unfortunately, Stan\'s superior skills on the video game damage his friendship with Kyle.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1113.jpeg',8.4,['https://tv.apple.com/us/episode/guitar-queer-o/umc.cmc.3phn8h9colfyfhyq0wyy9isvb?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
     [false,167,11,14,'The List',
@@ -673,7 +673,7 @@ const EPISODES = [
     [false,211,15,2,'Funnybot',
         23,"2011-05-04",false,1502,false,'TV-MA','Trey Parker','Trey Parker',2.59,false,['Tyler Perry','Angela Merkel','Christian Wulff','Adam Sandler','Ellen DeGeneres','Russell Brand','Louis C.K.','David Spade','Zach Galifianakis','Dane Cook','Jerry Seinfeld','Barack Obama'],false,'Jimmy hosts the Special Ed Department\'s First Annual Comedy Awards.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1502.jpeg',6.4,['https://tv.apple.com/us/episode/funnybot/umc.cmc.3j36bdlyc6fsvwxwk9s9abk55?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
-    [false,212,15,3,'Royal Pudding',
+    [true,212,15,3,'Royal Pudding',
         21,"2011-05-11",false,1503,false,'TV-MA','Trey Parker','Trey Parker',2.43,false,false,false,'The Prince of Canada is about to take a Princess and Ike is obsessed with the Royal Wedding.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1503.jpeg',6.7,['https://tv.apple.com/us/episode/royal-pudding/umc.cmc.2fxtuzx81qvjso6m4g6xoplgm?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
     [true,213,15,4,'T.M.I.',
