@@ -259,7 +259,7 @@ const EPISODES = [
     [true,73,5,8,'Towelie',
         22,"2001-08-08",false,508,false,'TV-MA','Trey Parker','Trey Parker',2.68,false,false,false,'The boys get a new video game system and their plan for the foreseeable future is to play it! When the government steals their new Game Sphere, the boys will stop at nothing to get it back. Their one hope for infiltrating the top secret lab where the Game Sphere is being kept is to team up with Towelie, a genetically engineered towel who only wants to get high.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE508.jpeg',8.3,['https://tv.apple.com/us/episode/towelie/umc.cmc.1nyzwnh2m0gwymh9oxi1bmwbt?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
-    [false,74,5,9,'Osama bin Laden Has Farty Pants',
+    [true,74,5,9,'Osama bin Laden Has Farty Pants',
         20,"2001-11-07",false,509,false,'TV-MA','Trey Parker','Trey Parker',2.23,false,['Osama bin Laden','Fleetwood Mac',''],false,'The kids of South Park have raised money to send to the children of Afghanistan, but the Government believes the Afghani children\'s thank you gift is contaminated with Anthrax and the boys are forced to take it back to Afghanistan.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE509.jpeg',7.8,['https://tv.apple.com/us/episode/osama-bin-laden-has-farty-pants/umc.cmc.6a54th9lvwc8tgotgqdgab49e?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
     [true,75,5,10,'How to Eat with Your Butt',
@@ -751,7 +751,7 @@ const EPISODES = [
     [true,237,16,14,'Obama Wins!',
         23,"2012-11-07",false,1614,false,'TV-MA','Trey Parker','Trey Parker',2.19,false,['Barack Obama','Morgan Freeman','Wolf Blitzer'],false,'Eric Cartman is hiding something in his bedroom that could change the entire outcome of the Presidential election.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1614.jpeg',7.4,['https://tv.apple.com/us/episode/obama-wins/umc.cmc.5y0df44nzaufub093gw9xgds7?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
-    [false,238,17,1,'Let Go, Let Gov',
+    [true,238,17,1,'Let Go, Let Gov',
         23,"2013-09-25",false,1701,false,'TV-MA','Trey Parker','Trey Parker',2.89,false,['Alec Baldwin'],false,'Cartman infiltrates the NSA and doesn\'t like what he finds in his personal file.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1701.jpeg',7.4,['https://tv.apple.com/us/episode/let-go-let-gov/umc.cmc.21y73oi709iu9dnfmzdu8oprd?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
     [false,239,17,2,'Informative Murder Porn',
@@ -1089,7 +1089,9 @@ const EPISODES = [
     [true,338,28,5,'The Crap Out',
         26,"2025-12-10",false,2805,false,'TV-MA','Trey Parker','Trey Parker',0.46,false,['Donald Trump','JD Vance','Peter Thiel','Pete Hegseth','Pam Bondi','Dan Scavino','Sean Hannity','Tim Cook','Brendan Carr','Donald Trump Jr.','Jeff Bezos','Karoline Leavitt','Kristi Noem','Mark Zuckerberg','Melania Trump','Stephen Miller'],false,'Satan\'s due, Stan\'s praying, and only a Christmas miracle can deliver the Antichrist on time.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2805.jpeg',6.8,['https://tv.apple.com/us/episode/the-crap-out/umc.cmc.3oadpvuka436zehh2zno8ge8e?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
-    [false,339,29,1,'???',false,"2026-09-16",false],
+    [true,339,29,1,'South American Biker Gangs',
+        22,"2026-09-16",false,2901,'South America','TV-MA','Trey Parker','Trey Parker','TBD',false,false,false,'When e-bikes arrive in South America, the boys take over the streets and the parents of South America can hardly recognize South America.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2901.jpeg',7.6,['https://tv.apple.com/us/episode/south-american-biker-gangs/umc.cmc.7cyf5eb4nbdhjmw7096wwjgqh?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6','https://www.primevideo.com/region/na/detail/0SXFSWVAR9UFTD4BPQUUPPFNUU?ref_=atv_dp_season_select_s29','https://www.youtube.com/watch?v=_EH1rN0q08c'],false,'Blown up by bomb Randy hid in Kenny\'s e-bike.',false
+    ],
     [false,340,29,2,'???',false,"2026-09-30",false],
     [false,341,29,3,'???',false,"2026-10-14",false],
     [false,342,29,4,'???',false,"2026-10-28",false],
