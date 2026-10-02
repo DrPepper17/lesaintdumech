@@ -1098,7 +1098,13 @@ const EPISODES = [
     [false,341,29,3,'???',false,"2026-10-14",false],
     [false,342,29,4,'???',false,"2026-10-28",false],
     [false,343,29,5,'???',false,"2026-11-11",false],
-    [false,344,29,6,'???',false,"2026-11-25",false]
+    [false,344,29,6,'???',false,"2026-11-25",false],
+    [false,345,30,1,'???',false,"2027-09-15",false],
+    [false,346,30,2,'???',false,"2027-09-29",false],
+    [false,347,30,3,'???',false,"2027-10-13",false],
+    [false,348,30,4,'???',false,"2027-10-27",false],
+    [false,349,30,5,'???',false,"2027-11-10",false],
+    [false,350,30,6,'???',false,"2027-11-24",false]
 ];
 
 /*Media Array
@@ -1161,6 +1167,7 @@ let SPS26List = [];
 let SPS27List = [];
 let SPS28List = [];
 let SPS29List = [];
+let SPS30List = [];
 let PRMTList = [];
 let OTHERList = [];
 let SPS01Count = 0;
@@ -1192,6 +1199,7 @@ let SPS26Count = 0;
 let SPS27Count = 0;
 let SPS28Count = 0;
 let SPS29Count = 0;
+let SPS30Count = 0;
 let PRMTCount = 0;
 let OTHERCount = 0;
 
@@ -1335,6 +1343,10 @@ function prepLists() {
             SPS29List.push(EPISODES[i]);
             SPS29Count++;
         }
+        else if (EPISODES[i][2]===30) {
+            SPS30List.push(EPISODES[i]);
+            SPS30Count++;
+        }
         else {
             OTHERList.push(EPISODES[i]);
             OTHERCount++;
@@ -1380,6 +1392,7 @@ function prepLists() {
     popEpisodes(SPS27List,'ListSPS27');
     popEpisodes(SPS28List,'ListSPS28');
     popEpisodes(SPS29List,'ListSPS29');
+    popEpisodes(SPS30List,'ListSPS30');
     popEpisodes(PRMTList,'ListPRMT');
     popEpisodes(OTHERList,'ListOTHER');
 
