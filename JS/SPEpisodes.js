@@ -280,7 +280,7 @@ const EPISODES = [
     [true,80,6,1,'Jared Has Aides',
         20,"2002-03-06",false,602,false,'TV-MA','Trey Parker','Trey Parker',3.30,false,['Jared Fogle'],false,'As the country becomes obsessed with a popular program for losing weight, the boys see an opportunity to become sponsored by a major restaurant chain.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE602.jpeg',8.0,['https://tv.apple.com/us/episode/jared-has-aides/umc.cmc.5l5tzf79vo5du1zdek0mgc4l9?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
-    [false,81,6,2,'Asspen',
+    [true,81,6,2,'Asspen',
         20,"2002-03-13",false,603,false,'TV-MA','Trey Parker','Trey Parker',2.60,false,false,false,'While the adults trapped at a time-share sales meeting, Stan is challenged by the best skier on the mountain.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE603.jpeg',8.3,['https://tv.apple.com/us/episode/asspen/umc.cmc.2qc0ztk2finouqcojimnsqb59?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
     [true,82,6,3,'Freak Strike',
@@ -397,7 +397,7 @@ const EPISODES = [
     [false,119,8,8,'Douche and Turd',
         22,"2004-10-27",false,808,false,'TV-MA','Trey Parker','Trey Parker',2.91,false,['P. Diddy'],false,'A PETA protest against the use of a cow as South Park Elementary\'s mascot forces the student body to choose a new one.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE808.jpeg',8.4,['https://tv.apple.com/us/episode/douche-and-turd/umc.cmc.3dsqiygigx2jniaqjon901dsq?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
-    [false,120,8,9,'Something Wall-Mart This Way Comes',
+    [true,120,8,9,'Something Wall-Mart This Way Comes',
         22,"2004-11-03",false,809,false,'TV-MA','Trey Parker','Trey Parker',3.05,false,false,false,'In order to save South Park, Stan and Kyle have to find a way to destroy the ever-expanding Wall-Mart superstore while keeping Cartman from stabbing them in the back.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE809.jpeg',8.6,['https://tv.apple.com/us/episode/something-wall-mart-this-way-comes/umc.cmc.631jtjlqo2crprblsm37f90o5?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
     [false,121,8,10,'Preschool',
@@ -742,7 +742,7 @@ const EPISODES = [
     [false,234,16,11,'Going Native',
         23,"2012-10-17",false,1611,false,'TV-MA','Trey Parker','Trey Parker',1.98,false,['Elvis Presley'],false,'It is time for Butters to begin a journey where he will follow in the path of his Hawaiian ancestors.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1611.jpeg',6.7,['https://tv.apple.com/us/episode/going-native/umc.cmc.265gonpx1pcrw2v6u5nak6hx2?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
-    [false,235,16,12,'A Nightmare on FaceTime',
+    [true,235,16,12,'A Nightmare on FaceTime',
         23,"2012-10-24",false,1612,false,'TV-MA','Trey Parker','Trey Parker',1.89,false,false,false,'Randy\'s big plans for Halloween night keep Stan from trick or treating with his friends.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1612.jpeg',8.3,['https://tv.apple.com/us/episode/a-nightmare-on-facetime/umc.cmc.745jtz937zesovcd4etdipkd5?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
     [false,236,16,13,'A Scause for Applause',
@@ -1092,7 +1092,9 @@ const EPISODES = [
     [true,339,29,1,'South American Biker Gangs',
         22,"2026-09-16",false,2901,'South America','TV-MA','Trey Parker','Trey Parker','TBD',false,false,false,'When e-bikes arrive in South America, the boys take over the streets and the parents of South America can hardly recognize South America.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2901.jpeg',7.6,['https://tv.apple.com/us/episode/south-american-biker-gangs/umc.cmc.7cyf5eb4nbdhjmw7096wwjgqh?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6','https://www.primevideo.com/region/na/detail/0SXFSWVAR9UFTD4BPQUUPPFNUU?ref_=atv_dp_season_select_s29','https://www.youtube.com/watch?v=_EH1rN0q08c'],false,'Blown up by bomb Randy hid in Kenny\'s e-bike.',false
     ],
-    [false,340,29,2,'???',false,"2026-09-30",false],
+    [true,340,29,2,'Billionaire Weenietown',
+        22,"2026-09-30",false,2902,false,'TV-MA','Trey Parker','Trey Parker','TBD',false,['Donald Trump'],false,'After a botched measles vaccination, Butters is feeling unsettled by the rise of data centers being built by phallic billionaires in everyone\'s backyards.','https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/25df87d6-5a99-4693-b835-8b7edf5cf447.jpeg',7.1,['https://tv.apple.com/us/episode/billionaire-weenietown/umc.cmc.23i5i3n5rzwenybjsoocbt4ue?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
+    ],
     [false,341,29,3,'???',false,"2026-10-14",false],
     [false,342,29,4,'???',false,"2026-10-28",false],
     [false,343,29,5,'???',false,"2026-11-11",false],
