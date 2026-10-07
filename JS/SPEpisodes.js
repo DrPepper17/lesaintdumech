@@ -424,10 +424,10 @@ const EPISODES = [
     [false,128,9,3,'Wing',
         22,"2005-03-23",false,903,false,'TV-MA','Trey Parker','Trey Parker',2.30,false,['Wing Han Tsang','Sylvester Stallone','Manuelo Furnanda'],['Wing Han Tsang','Lou Rawls'],'The boys set up a talent agency and pool all their resources and impress their first client only to have another agency steal him away.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE903.jpeg',7.4,['https://tv.apple.com/us/episode/wing/umc.cmc.6u87qz5d9ib7aqcbcl733gasl?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
-    [false,129,9,4,'Best Friends Forever',
+    [true,129,9,4,'Best Friends Forever',
         22,"2005-03-30",false,904,false,'TV-MA','Trey Parker','Trey Parker',2.72,false,['George W. Bush'],false,'Kenny is the only one of his friends to get the newest, coolest portable gaming device and Cartman cannot deal with it. Will they remain best friends forever?','https://hosting.photobucket.com/images/i/lesaintdumech/SPE904.jpeg',8.5,['https://tv.apple.com/us/episode/best-friends-forever/umc.cmc.5xi0jmtjby30mf6j84966ebf4?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
-    [false,130,9,5,'The Losing Edge',
+    [true,130,9,5,'The Losing Edge',
         22,"2005-04-06",false,905,false,'TV-MA','Trey Parker','Trey Parker',2.62,false,['Burgess Meredith'],['Diedrich Bader'],'The kids desperately want an end to the boring baseball season. The problem is, they keep winning.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE905.jpeg',8.6,['https://tv.apple.com/us/episode/the-losing-edge/umc.cmc.19u87dzmnekwg7z6urqm6qeb4?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
     [false,131,9,6,'The Death of Eric Cartman',
