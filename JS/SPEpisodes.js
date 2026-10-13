@@ -310,7 +310,7 @@ const EPISODES = [
     [false,90,6,11,'Child Abduction Is Not Funny',
         20,"2002-07-24",false,611,false,'TV-MA','Trey Parker','Trey Parker',2.01,false,false,false,'In an effort to protect their children from kidnappers, the parents hire the owner of City Wok Restaurant to build the Great Wall of South Park.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE611.jpeg',8.5,['https://tv.apple.com/us/episode/child-abduction-is-not-funny/umc.cmc.qon7tfsy4pmbv7eubvpld8ig?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
-    [false,91,6,12,'A Ladder to Heaven',
+    [true,91,6,12,'A Ladder to Heaven',
         20,"2002-11-06",false,612,false,'TV-MA','Trey Parker','Trey Parker',2.65,false,['Alan Jackson','George W. Bush','Saddam Hussein','Condoleezza Rice','Donald Rumsfeld'],false,'Kenny died with the winning ticket to a prize of endless candy in his pocket. The boys decide to build a ladder to Heaven where they expect to find him and get the ticket back.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE612.jpeg',8.7,['https://tv.apple.com/us/episode/a-ladder-to-heaven/umc.cmc.36btornxffs21h0r26yhwp0vf?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
     [false,92,6,13,'The Return of the Fellowship of the Ring to the Two Towers',
