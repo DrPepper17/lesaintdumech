@@ -68,13 +68,13 @@ const EPISODES = [
     [true,12,1,12,'Mecha-Streisand',
         20,"1998-02-18",false,112,false,'TV-MA','Trey Parker','Trey Parker \u0026 Matt Stone \u0026 Philip Stark',3.21,false,['Barbra Streisand','Leonard Maltin','Sidney Poitier','Robert Smith'],['Robert Smith'],'The boys meet up with Barbara Streisand who wants to take over the world with Kyle\'s discovery and an archaeological dig. Leonard Maltin, Sydney Potier, and Robert Smith come to the rescue to defeat Babs and her terrible destruction.','img/SP/SPE112.jpeg',7.5,['https://tv.apple.com/us/episode/mecha-streisand/umc.cmc.1xt6n7u0le8pjlr9y2oed5uyw?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false],false,'Asphyxiated to death when rope from tetherball pole swung around his neck.'
     ],
-    [false,13,1,13,'Cartman\'s Mom Is a Dirty Slut',
+    [true,13,1,13,'Cartman\'s Mom Is a Dirty Slut',
         20,"1998-02-25",false,113,false,'TV-MA','Trey Parker','Trey Parker \u0026 David R. Goodman',3.20,false,false,['Jay Leno'],'Cartman needs to find out who his father is but his mom is no help. Learning that his father could be one of the many people that his mom "had relations" with during an annual party called "The Drunken Barn Dance," he finds that there\'s more to his mother then he thought.','img/SP/SPE113.jpeg',8.6,['https://tv.apple.com/us/episode/cartmans-mom-is-a-dirty-slut/umc.cmc.3d7zdetxegej4583uzy8dh5j1?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false],false,'Gets ran over by train.'
     ],
-    [false,14,2,1,'Terrance and Phillip in Not Without My Anus',
+    [true,14,2,1,'Terrance and Phillip in Not Without My Anus',
         20,"1998-04-01",false,201,false,'TV-MA','Trey Parker','Trey Parker & Trisha Nixon',3.25,false,['Saddam Hussein','Celine Dion','Jerry Springer'],false,'The show starts off with the build up from last season \"cliffhanger revolving around Cartman\" paternal origins. However just as it seems they are about to get on with the second half of Cartman\'s Mom Is A Dirty Slut they do a 180 degree turn-around and reveal that for April Fool\'s Day they will be showing Terrance & Phillip in Not Without My Anus.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE201.jpeg',6.2,['https://tv.apple.com/us/episode/terrance--phillip-in-not-without-my-anus/umc.cmc.1jler4jtxtwscgqzn8kb27on4?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
-    [false,15,2,2,'Cartman\'s Mom Is Still a Dirty Slut',
+    [true,15,2,2,'Cartman\'s Mom Is Still a Dirty Slut',
         21,"1998-04-22",false,202,false,'TV-MA','Trey Parker','Trey Parker & David Goodman',4.00,false,['Bill Clinton','Eric Roberts','John Walsh'],false,'Cartman finds out the identity of his father. And boy is he in for a surprise.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE202.jpeg',8.2,['https://tv.apple.com/us/episode/cartmans-mom-is-still-a-dirty-slut/umc.cmc.1x9980r0e33qv3kjhw8s41qtz?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
     [true,16,2,3,'Ike\'s Wee Wee',
@@ -316,7 +316,7 @@ const EPISODES = [
     [false,92,6,13,'The Return of the Fellowship of the Ring to the Two Towers',
         20,"2002-11-13",false,613,false,'TV-MA','Trey Parker','Trey Parker',2.80,false,false,false,'The boys embark upon a mythical quest as they set out to return their copy of the "The Lord of the Rings" movie to their local video store.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE613.jpeg',9.4,['https://tv.apple.com/us/episode/the-return-of-the-fellowship-of-the-ring-to-the-two-towers/umc.cmc.6nlkyq789v30s77ryghwd84ap?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
-    [false,93,6,14,'The Death Camp of Tolerance',
+    [true,93,6,14,'The Death Camp of Tolerance',
         20,"2002-11-20",false,614,false,'TV-MA','Trey Parker','Trey Parker',2.23,false,false,false,'The boys are sentenced to the Death Camp of Tolerance where they learn how to treat minorities. Mr. Slave and Lemmiwinks make their debut in this episode.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE614.jpeg',8.7,['https://tv.apple.com/us/episode/the-death-camp-of-tolerance/umc.cmc.7khtrec17bsqy0gol9hxm58yb?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
     [false,94,6,15,'The Biggest Douche in the Universe',
@@ -499,7 +499,7 @@ const EPISODES = [
     [false,153,10,14,'Stanley\'s Cup',
         22,"2006-11-15",false,1014,false,'TV-MA','Trey Parker','Trey Parker',2.94,false,false,false,'Stan Marsh has hit rock bottom. He\'s got no job, no bicycle and his only way out of a bad situation is to coach the local pee wee hockey team.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1014.jpeg',7.4,['https://tv.apple.com/us/episode/stanleys-cup/umc.cmc.s9eovk3atbizo557zi2qhbnv?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
-    [false,154,11,1,'With Apologies to Jesse Jackson',
+    [true,154,11,1,'With Apologies to Jesse Jackson',
         22,"2007-03-07",false,1101,false,'TV-MA','Trey Parker','Trey Parker',2.77,false,['Jesse Jackson','Michael Richards','Pat Sajak','Jada Pinkett Smith','Vanna White'],false,'After Randy Marsh experiences an unfortunate incident on national TV, the bomb hits South Park. While Randy seeks forgiveness from Jesse Jackson, South Park Elementary invites a midget by the name of Dr. Nelson to talk about sensitivity.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE1101.jpeg',8.9,['https://tv.apple.com/us/episode/with-apologies-to-jesse-jackson/umc.cmc.ibbmc6bct4p8cqnkjcz1diz9?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
     [true,155,11,2,'Cartman Sucks',
@@ -1093,12 +1093,20 @@ const EPISODES = [
         22,"2026-09-16",false,2901,'South America','TV-MA','Trey Parker','Trey Parker','TBD',false,false,false,'When e-bikes arrive in South America, the boys take over the streets and the parents of South America can hardly recognize South America.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2901.jpeg',7.6,['https://tv.apple.com/us/episode/south-american-biker-gangs/umc.cmc.7cyf5eb4nbdhjmw7096wwjgqh?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6','https://www.primevideo.com/region/na/detail/0SXFSWVAR9UFTD4BPQUUPPFNUU?ref_=atv_dp_season_select_s29','https://www.youtube.com/watch?v=_EH1rN0q08c'],false,'Blown up by bomb Randy hid in Kenny\'s e-bike.',false
     ],
     [true,340,29,2,'Billionaire Weenietown',
-        22,"2026-09-30",false,2902,false,'TV-MA','Trey Parker','Trey Parker','TBD',false,['Donald Trump'],false,'After a botched measles vaccination, Butters is feeling unsettled by the rise of data centers being built by phallic billionaires in everyone\'s backyards.','https://hosting.photobucket.com/67be8f11-a27e-469b-998f-496f0fdd1e25/25df87d6-5a99-4693-b835-8b7edf5cf447.jpeg',7.1,['https://tv.apple.com/us/episode/billionaire-weenietown/umc.cmc.23i5i3n5rzwenybjsoocbt4ue?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
+        22,"2026-09-30",false,2902,false,'TV-MA','Trey Parker','Trey Parker','TBD',false,['Donald Trump'],false,'After a botched measles vaccination, Butters is feeling unsettled by the rise of data centers being built by phallic billionaires in everyone\'s backyards.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2902.jpeg',6.7,['https://tv.apple.com/us/episode/billionaire-weenietown/umc.cmc.23i5i3n5rzwenybjsoocbt4ue?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
     ],
-    [false,341,29,3,'???',false,"2026-10-14",false],
-    [false,342,29,4,'???',false,"2026-10-28",false],
-    [false,343,29,5,'???',false,"2026-11-11",false],
-    [false,344,29,6,'???',false,"2026-11-25",false],
+    [true,341,29,3,'You Like That on Your Face',
+        22,"2026-10-14",false,2903,false,'TV-MA','Trey Parker','Trey Parker','TBD',false,['Clavicular'],false,'When aura battles take over South America, Kyle tries to help his little brother not be cringe.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2903.jpeg',8.3,['https://tv.apple.com/us/episode/you-like-that-on-your-face/umc.cmc.6w8baic4kzzvi5p5dgloxqyot?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
+    ],
+    [true,342,29,4,'Guinea Pig on a Stick',
+        22,"2026-10-28",false,2904,false,'TV-MA','Trey Parker','Trey Parker','TBD',false,false,false,'When South America\'s beef becomes highly prized and sought after, the four boys fight to keep it in local hands.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2904.jpeg',6.1,['https://tv.apple.com/us/episode/guinea-pig-on-a-stick/umc.cmc.6sxcre5ebsih23wbiavbawf6f?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
+    ],
+    [true,343,29,5,'We Be Clubbin\'',
+        22,"2026-11-11",false,2905,'Heated Rivalry','TV-MA','Trey Parker','Trey Parker','TBD',false,false,false,'When club sports take over Craig\'s afternoons and weekends, Tweek signs up to spend more time with him. Soon his whole family struggles to keep up.','https://hosting.photobucket.com/images/i/lesaintdumech/SPE2905.jpeg',6.9,['https://tv.apple.com/us/episode/we-be-clubbin/umc.cmc.5z3ulyluzxfjybv3o2snycxau?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6',false,false]
+    ],
+    [false,344,29,6,'???',
+        false,"2026-11-25",false
+    ],
     [false,345,30,1,'???',false,"2027-09-15",false],
     [false,346,30,2,'???',false,"2027-09-29",false],
     [false,347,30,3,'???',false,"2027-10-13",false],
@@ -1209,12 +1217,14 @@ function prepLists() {
     Unpurchased = [];
     Current = [];
     PurchaseCount = 0;
+    let totalEpisodes = 0;
 
     for (let i=0;i<EPISODES.length;i++) {
         let airDate = new Date(EPISODES[i][6]);
 
         if (airDate<todayDate) {
             Current.push(EPISODES[i]);
+            totalEpisodes++;
         }
 
         if (EPISODES[i][0] === true) {
@@ -1357,10 +1367,10 @@ function prepLists() {
     const inventoryPurchasedTextNode = document.createTextNode(PurchaseCount);
     inventoryPurchasedNode.appendChild(inventoryPurchasedTextNode);
     const totalEpisodesnode = document.getElementById('everything');
-    const totalEpisodesTextnode = document.createTextNode(EPISODES.length);
+    const totalEpisodesTextnode = document.createTextNode(totalEpisodes);
     totalEpisodesnode.appendChild(totalEpisodesTextnode);
     const percentCompletionNode = document.getElementById('totalPercent');
-    const percentCompletionTextNode = document.createTextNode((PurchaseCount/EPISODES.length*100).toFixed(2)+'%');
+    const percentCompletionTextNode = document.createTextNode((PurchaseCount/totalEpisodes*100).toFixed(2)+'%');
     percentCompletionNode.appendChild(percentCompletionTextNode);
 
     popEpisodes(SPS01List,'ListSPS1');
