@@ -23,7 +23,7 @@ canvas{image-rendering:pixelated;image-rendering:crisp-edges;border:4px solid va
 </head>
 <body>
 <canvas id="c" width="240" height="160" aria-label="Game screen"></canvas>
-<div class="hint">Arrow keys or WASD to walk<br>Z or Space to read signs and sit on benches<br>(or press an arrow toward a bench)</div>
+<div class="hint">Arrow keys or WASD to <u>Walk</u>.<br>Z, Space or Return/Enter to <u>Interact</u>.</div>
 <div class="row">
   <div class="pad">
     <span></span><button data-k="up" aria-label="Up">▲</button><span></span>
@@ -69,10 +69,12 @@ for(let x=19;x<=24;x++)set(x,11,'s');
 for(let y=0;y<H;y++)for(let x=0;x<W;x++)if(map[y][x]==='G'&&(x*7+y*13)%9===0)set(x,y,'V');
 /* props: lamps flank the road, fence along the road, bench by the spring, barrels by the bathhouse, firewood and flower pot by the cabin */
 set(13,9,'L');set(16,9,'L');for(let x=8;x<=12;x++)set(x,9,'Z');
-set(26,11,'N');set(24,8,'Q');set(8,6,'Y');set(5,6,'X');
+set(26,11,'N');set(24,8,'Q');set(18,9,'Q');set(8,6,'Y');set(5,6,'X');
 /* building details: windows flank each door, chimney on the cabin roof */
 set(5,5,'J');set(7,5,'J');set(7,3,'C');set(20,7,'J');set(22,7,'J');
-const TEXT={'7,7':'Grandma’s Cabin. Weary travelers always welcome.','17,11':'Hot springs. Rinse off first, then soak as long as you like.','13,16':'Welcome to Ernest Pointe. Mountain mist keeps our waters warm.','6,5':'The cabin door is locked. Maybe a key turns up later.','21,7':'The bathhouse opens in the morning. Come back soon.'};
+const TEXT={'7,7':'Grandma’s Cabin. Weary travelers always welcome.','17,11':'Hot springs. Rinse off first, then soak as long as you like.','13,16':'Welcome to Ernest Pointe. Mountain mist keeps our waters warm.','6,5':'The cabin door is locked. Grandma is out pickin\' berries.','21,7':'The bathhouse opens in the morning. Come back soon.'};
+/* day and night versions of door text: TEXT holds the default, TEXT_ALT overrides it for one time of day */
+const TEXT_ALT={day:{'21,7':'Bathhouse closed due to poor quality standards of water being too wet. Come back soon.'},night:{'6,5':"Grandma is asleep.\nGo Home !!"}};
 const SOLID=new Set(['T','R','H','D','S','K','U','O','L','N','Q','Y','X','Z','J','C']);
 
 /* ---------- Tiles (drawn in code, GBA-style limited palette) ---------- */
@@ -103,12 +105,12 @@ tiles.TT=tiles.T;tiles.KF=tiles.K;
 ['L','N','Q','Y','X','Z'].forEach(k=>tiles[k]=tiles.G);
 tiles.Hs=tiles.H;tiles.Ds=tiles.D;tiles.J=tiles.H;tiles.Js=tiles.H;tiles.C=tiles.R;
 ['Otl','Otr','Obl','Obr','On','Os','Ow','Oe','Wa0','Wa1','Wa2','Wa3'].forEach(k=>tiles[k]=tiles.O);
-/* ---------- Real tileset (Bellum_ffa4c1.png rows 1-5, 16x16 cells) ---------- */
+/* ---------- Real tileset (master tileset Bellum_4a53c5.png, 16x16 cells; every tile comes from this one sheet) ---------- */
 const SHEET=new Image();
 SHEET.onload=()=>{
   const cut=(n,r=0)=>mk(x=>x.drawImage(SHEET,n*T,r*T,T,T,0,0,T,T));
   const flipV=(n,r)=>mk(x=>{x.translate(0,T);x.scale(1,-1);x.drawImage(SHEET,n*T,r*T,T,T,0,0,T,T)});
-  tiles.G=cut(0);tiles.V=cut(1);tiles.F=cut(2);tiles.P=cut(3);tiles.B=cut(5);tiles.s=cut(6);
+  tiles.G=cut(0);tiles.V=cut(1);tiles.F=cut(2);tiles.P=cut(3);tiles.g=cut(4);tiles.B=cut(5);tiles.s=cut(6);
   const onGrass=(n,r)=>mk(x=>{x.drawImage(tiles.G,0,0);x.drawImage(SHEET,n*T,r*T,T,T,0,0,T,T)});
   tiles.T=onGrass(0,1);tiles.TT=onGrass(1,1);          /* pine canopy, pine trunk */
   tiles.KF=cut(2,1);tiles.K=cut(3,1);                  /* cliff face, rock top */
@@ -128,19 +130,19 @@ SHEET.onload=()=>{
   tiles.J=over(wood,5,3);tiles.Js=over(stone,6,3);
   tiles.C=over(tiles.R,7,3);
 };
-/* Tall grass: own 16x16 file (tall-grass-palette24-3.png), overrides the sheet's tile 5 */
-const TG=new Image();
-TG.onload=()=>{tiles.g=mk(x=>x.drawImage(TG,0,0))};
-TG.src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAA60lEQVR4nH1SoQ7CQAx9HGdOXjIzS3IKBXKC8AskkBkkH7DfQvELU5NzU5fMziyZnEW8pNw6oOLSdu17fe02t+oBAEB1v7bdC0B0PswTlhadBzA0o2WcF9mzrwN+2tCMdGxeZAomDYXqdNgyY77CqM7j/kInzJP9yV5k0hn7Gs6Xu3PbvQxJBVskKU4Az74GYKRiaEa+qlNlbApDh/Dl7kxINaeVDaRawzyxmnUpyWJL1LO+mh5JWbpTjkcI5s26SKkUQjomOq/OpDYTnZfDAdjcqkf6dyiS9ScjFWq5ayraR3ReZGGe/ohh+AZ3w34zwV7g1AAAAABJRU5ErkJggg==';
-SHEET.src='data:image/png;base64,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';
+
+SHEET.src='data:image/png;base64,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';
 
 /* ---------- Player ---------- */
 const P={x:14*T,y:8*T,dir:'down',moving:false,step:0,turn:0,tx:0,ty:0,anim:0};
+const CYCLE_MS=6*60*1000;   /* hidden game clock: day and night swap every 6 real minutes */
+let night=false,qCount=0,qLast=0,nextFlip=performance.now()+CYCLE_MS;const dark=document.createElement('canvas');dark.width=240;dark.height=160;const dctx=dark.getContext('2d');   /* night: secret Q toggle, darkness layer */
+let J=null,shout=null;const dust=[];   /* J = jump in progress, shout = speech bubble, dust = puff particles */
 const DIR={up:[0,-1],down:[0,1],left:[-1,0],right:[1,0]};
 function drawPlayer(sx,sy){
   const d=P.dir,f=P.moving?(Math.floor(P.anim/8)%2):0,bob=P.sitting?-1:(P.moving&&f===1?-1:0);
   const r=(c,a,b,w,h)=>px(ctx,c,sx+a,sy+b+bob,w,h);
-  if(!P.sitting){ctx.fillStyle='rgba(0,0,0,.22)';ctx.fillRect(sx+3,sy+14,10,2);}
+  if(!P.sitting&&!J){ctx.fillStyle='rgba(0,0,0,.22)';ctx.fillRect(sx+3,sy+14,10,2);}
   const lift=P.moving?1:0;
   if(!P.sitting){
   px(ctx,'#2a3c88',sx+5,sy+12+bob,2,3-(f===1?lift:0));
@@ -166,16 +168,25 @@ function press(k,v){
   let skip=false;
   if(v&&!keys[k]){
     if(P.sitting){leaveBench(k);skip=true}
-    else if(!msg.open&&!P.moving){
-      /* pressing an arrow toward an adjacent bench acts like pressing Z on it */
+    else if(msg.open){if(k===P.dir){action();skip=true}}   /* arrow toward the thing being read = Z (skip typing / close) */
+    else if(!msg.open&&!P.moving&&!J){
+      /* pressing an arrow toward an adjacent bench acts like pressing Z on it; toward a barrel or firewood stack hops over it */
       const tx=Math.round(P.x/T)+DIR[k][0],ty=Math.round(P.y/T)+DIR[k][1];
-      if(map[ty]&&map[ty][tx]==='N')sit(tx,ty);
+      const t=map[ty]&&map[ty][tx];
+      if(t==='N')sit(tx,ty);
+      else if(t==='Q'||t==='Y')tryJump(k,tx,ty);
+      else if(TEXT[tx+','+ty]){   /* arrow toward anything readable (any tile with text) reads it, like Z */
+        P.dir=k;P.turn=0;openMsg(readText(tx+','+ty));skip=true;
+      }
     }
   }
   keys[k]=v;const i=order.indexOf(k);if(v&&i<0&&!skip)order.push(k);if(!v&&i>=0)order.splice(i,1)}
 addEventListener('keydown',e=>{
   if(KM[e.code]){press(KM[e.code],true);e.preventDefault()}
   if((e.code==='KeyZ'||e.code==='Space'||e.code==='Enter')&&!e.repeat){action();e.preventDefault()}
+  /* secret testing toggle: Q three times in a row flips day <-> night; any other key breaks the streak */
+  if(e.code!=='KeyQ')qCount=0;
+  else if(!e.repeat){const now=performance.now();if(now-qLast>20000)qCount=0;qLast=now;if(++qCount>=3){night=!night;qCount=0;nextFlip=now+CYCLE_MS}   /* a manual flip restarts the 6 minute clock */e.preventDefault()}   /* 20 seconds since the last Q resets the count */
 });
 addEventListener('keyup',e=>{if(KM[e.code])press(KM[e.code],false)});
 document.querySelectorAll('.pad button').forEach(b=>{
@@ -187,16 +198,24 @@ document.getElementById('abtn').addEventListener('pointerdown',e=>{e.preventDefa
 
 /* ---------- Dialogue ---------- */
 const msg={text:'',shown:0,open:false};
-function wrap(t,n){const w=t.split(' '),L=[];let l='';w.forEach(s=>{if((l+' '+s).trim().length>n){L.push(l);l=s}else l=(l+' '+s).trim()});L.push(l);return L}
+function readText(k){return (TEXT_ALT[night?'night':'day'][k])||TEXT[k]}
+/* long messages are split into pages of 3 lines; the action key moves to the next page */
+function openMsg(t){
+  const L=wrap(t,25),pages=[];
+  for(let i=0;i<L.length;i+=3)pages.push(L.slice(i,i+3).join('\n'));
+  msg.text=pages.shift();msg.rest=pages;msg.shown=0;msg.open=true;
+}
+/* wraps text to n characters per line; a \n in the text forces a line break */
+function wrap(t,n){const L=[];t.split('\n').forEach(seg=>{let l='';seg.split(' ').forEach(s=>{if((l+' '+s).trim().length>n){L.push(l);l=s}else l=(l+' '+s).trim()});L.push(l)});return L}
 function action(){
-  if(msg.open){if(msg.shown<msg.text.length)msg.shown=msg.text.length;else msg.open=false;return}
-  if(P.moving)return;
+  if(msg.open){if(msg.shown<msg.text.length)msg.shown=msg.text.length;else if(msg.rest&&msg.rest.length){msg.text=msg.rest.shift();msg.shown=0}else msg.open=false;return}
+  if(P.moving||J)return;
   if(P.sitting){standUp();return}
   const [dx,dy]=DIR[P.dir];
   const tx=Math.round(P.x/T)+dx,ty=Math.round(P.y/T)+dy;
   const k=tx+','+ty,tt=map[ty]&&map[ty][tx];
   if(tt==='N'){sit(tx,ty);return}
-  if((tt==='S'||tt==='D')&&TEXT[k]){msg.text=TEXT[k];msg.shown=0;msg.open=true}
+  if(TEXT[k])openMsg(readText(k));
 }
 /* sitting on benches: Z/Space/Enter stands back up where you came from; an arrow key gets off on that side of the bench (does nothing if that side is blocked) */
 function leaveBench(k){
@@ -206,6 +225,48 @@ function leaveBench(k){
 }
 function sit(tx,ty){P.sitFrom=[Math.round(P.x/T),Math.round(P.y/T)];P.x=tx*T;P.y=ty*T;P.dir='down';P.anim=0;P.sitting=true}
 function standUp(){const f=P.sitFrom||[Math.round(P.x/T),Math.round(P.y/T)+1];P.x=f[0]*T;P.y=f[1]*T;P.dir='down';P.sitting=false}
+/* ---------- Barrel hop: arrow toward an adjacent barrel jumps straight over it (no diagonals) ---------- */
+function puff(wx,wy){for(let i=0;i<6;i++)dust.push({x:wx+(Math.random()-.5)*8,y:wy-Math.random()*2,vx:(Math.random()-.5)*.8,vy:-.2-Math.random()*.4,life:14})}
+function tryJump(k,bx,by){
+  const lx=bx+DIR[k][0],ly=by+DIR[k][1];
+  if(blocked(lx,ly))return;             /* landing spot blocked: do nothing */
+  P.dir=k;P.turn=0;
+  J={t:0,dur:26,sx:P.x,sy:P.y,ex:lx*T,ey:ly*T,k:k};
+  puff(P.x+8,P.y+15);
+}
+function drawJump(cx,cy){
+  const k=J.t/J.dur,h=Math.sin(Math.PI*k),lift=h*(J.hop||18),s=k*k*(3-2*k);
+  const fx=Math.round(P.x-cx+8),fy=Math.round(P.y-cy+16);
+  const sw=Math.round(10-4*h);
+  ctx.fillStyle='rgba(0,0,0,'+(0.26-0.12*h).toFixed(2)+')';ctx.fillRect(fx-(sw>>1),fy-2,sw,2);   /* ground shadow shrinks as you rise */
+  const q=Math.min(4,Math.floor(s*4.2)),dx=DIR[J.k][0];
+  ctx.save();ctx.translate(fx,Math.round(fy-lift-8));
+  if(J.hop){}else if(dx!==0)ctx.rotate(dx*q*Math.PI/2);          /* sideways hop: a full tumble in 90 degree steps */
+  else ctx.scale([1,.5,-1,-.5,1][q],1);            /* up/down hop: a pirouette */
+  drawPlayer(-8,-8);
+  ctx.restore();
+}
+/* ---------- Startled hop: each step onto tall grass has a 30% chance to make the player hop in place and shout ---------- */
+const GRASS_SCARE=0.3,SHOUTS=['YAAAH!','EEK!','WHOA!','HIYAH!','YIKES!'];
+function startle(){
+  J={t:0,dur:18,sx:P.x,sy:P.y,ex:P.x,ey:P.y,k:P.dir,hop:14};
+  shout={text:SHOUTS[Math.floor(Math.random()*SHOUTS.length)],t:45};
+  puff(P.x+8,P.y+15);
+}
+function drawShout(cx,cy){
+  const w=shout.text.length*8+8,h=14;
+  const hx=Math.round(P.x-cx+8);
+  const lift=J&&J.hop?Math.sin(Math.PI*J.t/J.dur)*J.hop:0;
+  let bx=Math.round(hx-w/2),by=Math.round(P.y-cy-h-6-lift);
+  bx=Math.max(2,Math.min(VW-w-2,bx));by=Math.max(2,by);
+  ctx.fillStyle='#202020';ctx.fillRect(bx-1,by-1,w+2,h+2);
+  ctx.fillStyle='#f8f8f8';ctx.fillRect(bx,by,w,h);
+  ctx.fillRect(hx-1,by+h,3,1);                                   /* speech tail */
+  ctx.fillStyle='#202020';ctx.fillRect(hx-2,by+h+1,1,1);ctx.fillRect(hx+2,by+h+1,1,1);ctx.fillRect(hx-1,by+h+2,1,1);ctx.fillRect(hx+1,by+h+2,1,1);ctx.fillRect(hx,by+h+3,1,1);
+  ctx.fillStyle='#f8f8f8';ctx.fillRect(hx-1,by+h+1,3,1);ctx.fillRect(hx,by+h+2,1,1);
+  ctx.font='8px "Press Start 2P",monospace';ctx.textBaseline='top';ctx.fillStyle='#d83830';
+  ctx.fillText(shout.text,bx+4,by+3);
+}
 function drawBox(){
   const bx=4,by=VH-44,bw=VW-8,bh=40;
   ctx.fillStyle='#202020';ctx.fillRect(bx-1,by-1,bw+2,bh+2);
@@ -224,13 +285,25 @@ const SPEED=2;
 function blocked(tx,ty){return tx<0||ty<0||tx>=W||ty>=H||SOLID.has(map[ty][tx])}
 function update(){
   frame++;
+  const clock=performance.now();while(clock>=nextFlip){night=!night;nextFlip+=CYCLE_MS}   /* catches up if the tab was asleep */
+  for(let i=dust.length-1;i>=0;i--){const d=dust[i];d.x+=d.vx;d.y+=d.vy;if(--d.life<=0)dust.splice(i,1)}
+  if(shout&&--shout.t<=0)shout=null;
+  if(J){
+    J.t++;const k=J.t/J.dur;
+    P.x=Math.round(J.sx+(J.ex-J.sx)*k);P.y=Math.round(J.sy+(J.ey-J.sy)*k);P.anim=0;
+    if(J.t>=J.dur){P.x=J.ex;P.y=J.ey;puff(P.x+8,P.y+15);J=null}
+    return;
+  }
   if(msg.open){if(msg.shown<msg.text.length&&frame%2===0)msg.shown++;return}
   if(P.sitting)return;
   if(P.moving){
     P.x+=DIR[P.dir][0]*SPEED;P.y+=DIR[P.dir][1]*SPEED;P.anim++;
     if(P.x===P.tx*T&&P.y===P.ty*T){
       P.moving=false;
-      if(map[P.ty][P.tx]==='g')rustle=10;
+      if(map[P.ty][P.tx]==='g'){
+        rustle=10;
+        if(Math.random()<GRASS_SCARE){startle();return}   /* 30% chance: hop and shout */
+      }
     }
     if(P.moving)return;
   }
@@ -257,6 +330,33 @@ function tileAt(x,y){
   if((c==='H'||c==='D'||c==='J')&&x>=12)return tiles[c+'s'];
   return tiles[c];
 }
+/* ---------- Night: blue tint with stepped light pools (lamps, windows, a small glow around the player) ---------- */
+function pool(c,x,y,r,steps,a){c.globalAlpha=a;for(let i=steps;i>=1;i--){c.beginPath();c.arc(x,y,r*i/steps,0,6.2832);c.fill()}c.globalAlpha=1}
+/* darkness level 0 (full day) to 1 (full night). Dusk and dawn: it ramps over the last 45 seconds before each switch, so the switch itself is seamless. */
+const DUSK_MS=45*1000;
+function nightLevel(){const ramp=Math.min(1,Math.max(0,1-(nextFlip-performance.now())/DUSK_MS));return night?1-ramp:ramp}
+function drawNight(cx,cy,lv){
+  const x0=Math.floor(cx/T)-3,x1=Math.floor((cx+VW)/T)+3,y0=Math.floor(cy/T)-3,y1=Math.floor((cy+VH)/T)+3;
+  const flick=Math.sin(frame/9)*1.2+Math.sin(frame/23)*0.8;
+  const lamps=[],wins=[];
+  for(let y=y0;y<=y1;y++)for(let x=x0;x<=x1;x++){
+    const c=map[y]&&map[y][x];
+    if(c==='L')lamps.push([x*T-cx+8,y*T-cy+5]);
+    else if(c==='J')wins.push([x*T-cx+8,y*T-cy+8]);
+  }
+  dctx.globalCompositeOperation='source-over';dctx.globalAlpha=1;dctx.clearRect(0,0,VW,VH);
+  dctx.fillStyle='rgba(12,16,58,'+(0.68*lv).toFixed(3)+')';dctx.fillRect(0,0,VW,VH);
+  dctx.globalCompositeOperation='destination-out';dctx.fillStyle='#000';
+  lamps.forEach(l=>pool(dctx,l[0],l[1],34+flick,4,.3));
+  wins.forEach(w=>pool(dctx,w[0],w[1],16,3,.3));
+  pool(dctx,P.x-cx+8,P.y-cy+8,20,3,.2);
+  dctx.globalCompositeOperation='source-over';
+  ctx.drawImage(dark,0,0);
+  ctx.globalCompositeOperation='lighter';
+  ctx.fillStyle='rgb(255,176,80)';lamps.forEach(l=>pool(ctx,l[0],l[1],30+flick,4,.05*lv));
+  ctx.fillStyle='rgb(255,214,110)';wins.forEach(w=>pool(ctx,w[0],w[1],13,3,.07*lv));
+  ctx.globalCompositeOperation='source-over';ctx.globalAlpha=1;
+}
 function draw(){
   let cx=Math.round(P.x+T/2-VW/2),cy=Math.round(P.y+T/2-VH/2);
   cx=Math.max(0,Math.min(W*T-VW,cx));cy=Math.max(0,Math.min(H*T-VH,cy));
@@ -266,7 +366,8 @@ function draw(){
     if(x<0||y<0||x>=W||y>=H)continue;
     ctx.drawImage(tileAt(x,y),x*T-cx,y*T-cy);
   }
-  drawPlayer(P.x-cx,P.y-cy);
+  dust.forEach(d=>{ctx.fillStyle='rgba(248,248,248,'+(d.life/14*.7).toFixed(2)+')';ctx.fillRect(Math.round(d.x-cx),Math.round(d.y-cy),2,2)});
+  if(J)drawJump(cx,cy);else drawPlayer(P.x-cx,P.y-cy);
   if(P.sitting)ctx.drawImage(tiles.N,0,10,16,6,P.x-cx,P.y-cy+10,16,6);
   // tall grass overlay drawn over the player's feet
   const gx=Math.round(P.x/T),gy=Math.round(P.y/T);
@@ -281,9 +382,11 @@ function draw(){
       ctx.fillStyle='rgba(255,255,255,'+((1-t)*0.45).toFixed(2)+')';
       ctx.fillRect(x*T-cx+3+i*7+Math.round(Math.sin(t*6+i)*2),y*T-cy+8-Math.round(t*14),5,3)}
   }
+  const lv=nightLevel();if(lv>0.01)drawNight(cx,cy,lv);
   if(frame<200){ctx.globalAlpha=frame>170?(200-frame)/30:1;
     ctx.fillStyle='#202020';ctx.fillRect(3,3,122,16);ctx.fillStyle='#f8f8f8';ctx.fillRect(4,4,120,14);
     ctx.font='8px "Press Start 2P",monospace';ctx.textBaseline='top';ctx.fillStyle='#202020';ctx.fillText('Ernest Pointe',9,8);ctx.globalAlpha=1}
+  if(shout)drawShout(cx,cy);
   if(msg.open)drawBox();
 }
 
