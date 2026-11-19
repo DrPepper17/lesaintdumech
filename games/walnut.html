@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Project Walnut – Ernest Pointe</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap">
+<style>
+:root{--bg:#d9d5ea;--ink:#2a2640;--btn:#f4f1fb;--edge:#2a2640;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#171526;--ink:#cfc9ee;--btn:#2b2745;--edge:#8f87c9}}
+:root[data-theme="dark"]{--bg:#171526;--ink:#cfc9ee;--btn:#2b2745;--edge:#8f87c9}
+html,body{height:100%;margin:0}
+body{background:var(--bg);color:var(--ink);font-family:"Press Start 2P",ui-monospace,Menlo,monospace;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;user-select:none;-webkit-user-select:none;touch-action:manipulation}
+canvas{image-rendering:pixelated;image-rendering:crisp-edges;border:4px solid var(--edge);border-radius:6px;background:#000;max-width:100%}
+.hint{font-size:8px;line-height:1.8;text-align:center;max-width:90vw}
+.pad{display:grid;grid-template-columns:repeat(3,44px);grid-template-rows:repeat(3,44px);gap:4px}
+.pad button,.a{background:var(--btn);color:var(--ink);border:2px solid var(--edge);border-radius:8px;font:inherit;font-size:12px;touch-action:none}
+.pad button:active,.a:active{transform:translateY(1px);filter:brightness(.9)}
+.row{display:flex;gap:28px;align-items:center}
+.a{width:56px;height:56px;border-radius:50%;font-size:14px}
+@media (hover:hover) and (pointer:fine){.row{display:none}}
+</style>
+</head>
+<body>
+<canvas id="c" width="240" height="160" aria-label="Game screen"></canvas>
+<div class="hint">Arrow keys or WASD to walk<br>Z or Space to read signs and sit on benches<br>(or press an arrow toward a bench)</div>
+<div class="row">
+  <div class="pad">
+    <span></span><button data-k="up" aria-label="Up">▲</button><span></span>
+    <button data-k="left" aria-label="Left">◀</button><span></span><button data-k="right" aria-label="Right">▶</button>
+    <span></span><button data-k="down" aria-label="Down">▼</button><span></span>
+  </div>
+  <button class="a" id="abtn" aria-label="Action">A</button>
+</div>
+<script>
+(function(){
+const T=16,W=30,H=23,VW=240,VH=160;
+const cv=document.getElementById('c'),ctx=cv.getContext('2d');
+ctx.imageSmoothingEnabled=false;
+
+/* ---------- Map: Ernest Pointe ---------- */
+const map=[];for(let y=0;y<H;y++){map.push(Array(W).fill('G'));}
+const set=(x,y,t)=>{if(x>=0&&y>=0&&x<W&&y<H)map[y][x]=t};
+let seed=11;const rnd=()=>(seed=(seed*1103515245+12345)&0x7fffffff)/0x7fffffff;
+for(let y=0;y<H;y++)for(let x=0;x<W;x++)if(rnd()<0.05)set(x,y,'F');
+for(let x=1;x<=28;x++){set(x,1,'K');if(x%3)set(x,2,'K');}
+for(let y=1;y<=21;y++){set(14,y,'P');set(15,y,'P');}
+for(let x=3;x<=26;x++)set(x,10,'B');
+for(let y=6;y<=9;y++)set(6,y,'P');
+for(let x=4;x<=8;x++){set(x,3,'R');set(x,4,'H');set(x,5,'H');}
+set(6,5,'D');set(7,7,'S');
+for(let x=19;x<=23;x++){set(x,5,'U');set(x,6,'H');set(x,7,'H');}
+set(21,7,'D');set(21,8,'P');set(21,9,'P');
+for(let y=12;y<=15;y++)for(let x=19;x<=24;x++)set(x,y,'O');
+for(let y=16;y<=17;y++)for(let x=18;x<=25;x++)set(x,y,'O');
+for(let y=11;y<=15;y++)for(let x=3;x<=8;x++)set(x,y,'O');
+for(let y=12;y<=15;y++){set(18,y,'K');set(25,y,'K');}
+set(17,11,'S');set(13,16,'S');
+for(let y=3;y<=7;y++)for(let x=10;x<=12;x++)set(x,y,'T');
+for(let y=3;y<=9;y++)for(let x=25;x<=28;x++)set(x,y,'T');
+for(let y=12;y<=21;y++)set(28,y,'T');
+for(let y=16;y<=21;y++)for(let x=2;x<=13;x++)set(x,y,'g');
+set(13,16,'S');
+for(let x=0;x<W;x++){set(x,0,'T');set(x,H-1,'T');}
+for(let y=0;y<H;y++){set(0,y,'T');set(W-1,y,'T');}
+set(14,0,'P');set(15,0,'P');set(14,H-1,'P');set(15,H-1,'P');
+for(let y=8;y<=9;y++)set(21,y,'s');
+for(let x=19;x<=24;x++)set(x,11,'s');
+for(let y=0;y<H;y++)for(let x=0;x<W;x++)if(map[y][x]==='G'&&(x*7+y*13)%9===0)set(x,y,'V');
+/* props: lamps flank the road, fence along the road, bench by the spring, barrels by the bathhouse, firewood and flower pot by the cabin */
+set(13,9,'L');set(16,9,'L');for(let x=8;x<=12;x++)set(x,9,'Z');
+set(26,11,'N');set(24,8,'Q');set(8,6,'Y');set(5,6,'X');
+const TEXT={'7,7':'Grandma’s Cabin. Weary travelers always welcome.','17,11':'Hot springs. Rinse off first, then soak as long as you like.','13,16':'Welcome to Ernest Pointe. Mountain mist keeps our waters warm.','6,5':'The cabin door is locked. Maybe a key turns up later.','21,7':'The bathhouse opens in the morning. Come back soon.'};
+const SOLID=new Set(['T','R','H','D','S','K','U','O','L','N','Q','Y','X','Z']);
+
+/* ---------- Tiles (drawn in code, GBA-style limited palette) ---------- */
+const C={g1:'#58b848',g2:'#48a038',g3:'#78d060',p1:'#e0c890',p2:'#c8a868',t1:'#206020',t2:'#389038',t3:'#184818',w1:'#4888f0',w2:'#80b8f8',r1:'#c84838',r2:'#903028',h1:'#f0e4b8',h2:'#c8b078',d1:'#684020',k:'#202020',wd:'#a07038'};
+function mk(fn){const c=document.createElement('canvas');c.width=c.height=T;const x=c.getContext('2d');fn(x);return c}
+const px=(x,c,a,b,w=1,h=1)=>{x.fillStyle=c;x.fillRect(a,b,w,h)};
+const grassBase=x=>{px(x,C.g1,0,0,16,16);[[2,3],[9,2],[12,9],[5,12],[14,14],[1,8]].forEach(([a,b])=>{px(x,C.g2,a,b,2,1);px(x,C.g3,a+1,b-1,1,1)})};
+const tiles={
+G:mk(grassBase),
+F:mk(x=>{grassBase(x);px(x,'#f8f8f8',4,5,3,3);px(x,'#f8d038',5,6,1,1);px(x,'#f0a0c0',10,10,3,3);px(x,'#f8d038',11,11,1,1)}),
+g:mk(x=>{px(x,C.g2,0,0,16,16);for(let i=0;i<4;i++)for(let j=0;j<4;j++){const a=i*4,b=j*4;px(x,C.t1,a+1,b+1,1,3);px(x,C.g3,a+2,b,1,3);px(x,C.t2,a+3,b+1,1,2)}}),
+P:mk(x=>{px(x,C.p1,0,0,16,16);[[3,4],[10,3],[6,10],[13,12],[2,14]].forEach(([a,b])=>px(x,C.p2,a,b,2,1))}),
+T:mk(x=>{grassBase(x);px(x,C.t3,1,1,14,14);px(x,C.t1,2,1,12,12);px(x,C.t2,4,3,4,3);px(x,C.t2,9,7,4,3);px(x,C.d1,6,12,4,4)}),
+W:mk(x=>{px(x,C.w1,0,0,16,16);[[2,4,5],[9,10,5],[4,13,4]].forEach(([a,b,w])=>px(x,C.w2,a,b,w,1))}),
+R:mk(x=>{px(x,C.r1,0,0,16,16);for(let j=0;j<16;j+=4)px(x,C.r2,0,j+3,16,1);px(x,C.k,0,15,16,1)}),
+H:mk(x=>{px(x,C.h1,0,0,16,16);px(x,C.h2,0,0,16,1);for(let j=3;j<16;j+=4)px(x,C.h2,0,j,16,1);px(x,C.h2,7,0,1,16)}),
+D:mk(x=>{px(x,C.h1,0,0,16,16);px(x,C.k,2,0,12,16);px(x,C.d1,3,1,10,15);px(x,C.wd,4,2,8,6);px(x,C.wd,4,9,8,6);px(x,'#f8d038',10,9,1,1)}),
+S:mk(x=>{grassBase(x);px(x,C.d1,7,9,2,6);px(x,C.k,2,2,12,8);px(x,C.wd,3,3,10,6);px(x,C.d1,5,5,6,1);px(x,C.d1,5,7,4,1)})
+};
+Object.assign(C,{k1:'#9aa0b0',k2:'#707888',k3:'#bcc4d0',o1:'#58d0c8',o2:'#a8f4ec',b1:'#b88848',b2:'#8a6030',u1:'#4868a8',u2:'#304880'});
+tiles.T=mk(x=>{grassBase(x);px(x,C.d1,7,12,2,4);px(x,C.t3,2,9,12,3);px(x,C.t1,3,9,10,2);px(x,C.t3,3,6,10,3);px(x,C.t1,4,6,8,2);px(x,C.t3,5,3,6,3);px(x,C.t2,6,3,4,2);px(x,C.t2,7,0,2,3)});
+tiles.K=mk(x=>{px(x,C.k1,0,0,16,16);px(x,C.k3,2,2,6,3);px(x,C.k3,9,8,5,3);px(x,C.k2,0,12,16,4);px(x,C.k2,6,6,1,5);px(x,C.k2,12,2,1,5)});
+tiles.O=mk(x=>{px(x,C.o1,0,0,16,16);px(x,C.o2,2,4,5,1);px(x,C.o2,9,10,5,1);px(x,C.o2,4,13,4,1)});
+tiles.B=mk(x=>{px(x,C.b1,0,0,16,16);for(let j=3;j<16;j+=4)px(x,C.b2,0,j,16,1);px(x,C.b2,3,0,1,3);px(x,C.b2,11,4,1,3);px(x,C.b2,6,8,1,3);px(x,C.b2,13,12,1,3)});
+tiles.U=mk(x=>{px(x,C.u1,0,0,16,16);for(let j=0;j<16;j+=4)px(x,C.u2,0,j+3,16,1);px(x,C.k,0,15,16,1)});
+tiles.V=tiles.G;tiles.s=tiles.P;
+tiles.TT=tiles.T;tiles.KF=tiles.K;
+['L','N','Q','Y','X','Z'].forEach(k=>tiles[k]=tiles.G);
+['Otl','Otr','Obl','Obr','On','Os','Ow','Oe','Wa0','Wa1','Wa2','Wa3'].forEach(k=>tiles[k]=tiles.O);
+/* ---------- Real tileset (Bellum_8392a1.png, 16x16 cells, rows 1-4) ---------- */
+const SHEET=new Image();
+SHEET.onload=()=>{
+  const cut=(n,r=0)=>mk(x=>x.drawImage(SHEET,n*T,r*T,T,T,0,0,T,T));
+  const flipV=(n,r)=>mk(x=>{x.translate(0,T);x.scale(1,-1);x.drawImage(SHEET,n*T,r*T,T,T,0,0,T,T)});
+  tiles.G=cut(0);tiles.V=cut(1);tiles.F=cut(2);tiles.P=cut(3);tiles.B=cut(5);tiles.s=cut(6);
+  const onGrass=(n,r)=>mk(x=>{x.drawImage(tiles.G,0,0);x.drawImage(SHEET,n*T,r*T,T,T,0,0,T,T)});
+  tiles.T=onGrass(0,1);tiles.TT=onGrass(1,1);          /* pine canopy, pine trunk */
+  tiles.KF=cut(2,1);tiles.K=cut(3,1);                  /* cliff face, rock top */
+  for(let i=0;i<4;i++)tiles['Wa'+i]=cut(4+i,1);        /* water animation frames */
+  tiles.On=cut(0,2);tiles.Os=cut(1,2);tiles.Ow=cut(2,2);tiles.Oe=cut(3,2);
+  tiles.Otl=cut(4,2);tiles.Otr=cut(5,2);
+  tiles.Obl=flipV(4,2);tiles.Obr=flipV(5,2);           /* temporary: flipped top corners */
+  tiles.S=onGrass(0,3);tiles.Z=onGrass(1,3);tiles.L=onGrass(2,3);tiles.N=onGrass(3,3);  /* sign, fence, lamp post, bench */
+  tiles.Q=onGrass(4,3);tiles.Y=onGrass(5,3);tiles.X=onGrass(6,3);                       /* barrels, firewood, flower pot */
+};
+/* Tall grass: own 16x16 file (tall-grass-palette24-3.png), overrides the sheet's tile 5 */
+const TG=new Image();
+TG.onload=()=>{tiles.g=mk(x=>x.drawImage(TG,0,0))};
+TG.src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAA60lEQVR4nH1SoQ7CQAx9HGdOXjIzS3IKBXKC8AskkBkkH7DfQvELU5NzU5fMziyZnEW8pNw6oOLSdu17fe02t+oBAEB1v7bdC0B0PswTlhadBzA0o2WcF9mzrwN+2tCMdGxeZAomDYXqdNgyY77CqM7j/kInzJP9yV5k0hn7Gs6Xu3PbvQxJBVskKU4Az74GYKRiaEa+qlNlbApDh/Dl7kxINaeVDaRawzyxmnUpyWJL1LO+mh5JWbpTjkcI5s26SKkUQjomOq/OpDYTnZfDAdjcqkf6dyiS9ScjFWq5ayraR3ReZGGe/ohh+AZ3w34zwV7g1AAAAABJRU5ErkJggg==';
+SHEET.src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAMAAAD04JH5AAAAAXNSR0IArs4c6QAAAEtQTFRFAAAAb2d2mpqXxcy4i1WAw4iQpZOlZmCSmk9Qwo11fKHAQWqjjWJovpVcaKypOHCAbmlik6Fnbqp4VXBknZ9/fp6ZXWhyQzRVAAAAEjCv6AAAABl0Uk5TAP///////////////////////////////zBTSd0AAAbKSURBVHic7VnbkuMoDOXSPTVOGae5GP//n24hCRCK7WRm92mL09VtEwE6SAfhuFXyMURfEHyIeFeR4He0O4EYoy027BLij0C2BTnXq5Lw3pPbGIKP3HfFYG+el4UIhNAIxBgXAWsKdC7XZPQpAVpBxMWUlQ5x8Pab2YvjVEkk5wKicgjEDi+rc5yAOSUQvPUY5ACL8X7MQ/Df9qvbHffwsy7FeywMAqzEu2NlXY41G12Q6/UkAi33JdlpcB3w8hW6XWoACZREFNhCcF3XtdmzwAkByG1iye7J99Vvt2PoE8bfOVfiEiEGwGGIUKHBBViu5yJkjpN/wWCXEfA9AJERaOACLNfTFHDBCeeJ2YvNNgUuuBFAmzEES0RWAS7AcwKQ31A3gx3Sj9KrdudC+eMcFwJ0KRoMyETWAS7Acn0hgAKMwQfr2Wpj99/srtBC8fc4EN9GQNaBtyKk4kNbMIoSUOZu9ljspMAhAr4Xg8CqAO6Cd5Uw4tar9bbLLVUF+uR/dTt3noBAQHpYQwLVAdyHx/pBIWpSR59jCLD1y341e3VOldjRwiNWgVoJeyWwZQMggXRVCaX2eS2OcP/VPxAadFSBYi1FbllaBhZHpVhTBE4rYdVfOxNELS722O0sv6noAYtA8Y8MZB3AHZBzvZ7VAdRfPxNENRrtLP4/K0QAGGIxCDHKOvB2F1Qtjs3FrQfeGZONMTmX/BloWIhliWi52wj7vm8DxAdX9rYX4i0B3QlYC7kEArYT+FvUaiAIOEZAcwaZdpMh6G172Mc4p/xAtMcm+Q8iBMs9Abjgzt727fkcgy0+EG3RJP+gohsCjUSm9GP8zUUK7H1IZArIfzw+IUDRrzQ0d1gd7dtjbOKvbMMHFylgGtAjgUwFxXACMri7aD72MfaP3r+mwF+lAA/RbBiReoEo/O32EynAx4rPRGjr4vOlBv4A3D8TwQ0BEl8NBpvrTmunsJ9vQ7YLuAQ7gYd9NG2dtJFb3xzQBq1SCjAGXYOFwHFDINdKTARAT6i13t4eY7OD2ntLAW7DzmBxnUATn34hgGcBrauKqyXiMzWy9XcRlIN8JQaSQEoGHrKTMXC7sYVufJNftGWVUpGOc8YAHqhWYiC3IaRf97+PYfqS+sfO2/ZxcxBs2wNWHMcMgO/1wAjknLX4HXBX9qH9poNizx5wK1OWvDda7ycp1NqMzy7Jn7RP+g/zqTYkwY/fBLxP1mT7lJ8/bTaWu6TxksJJ/2E+5ROMLIKyKSUv0wQDNBcO2a0uEzaXdXydj3ik1/7jfMpYm5K31hqNTzgiTUhZ90/qHta0IPSTEo2n+RKQKSl47T/Mp3Qt7njC8dOtETCcQEupMZyApfE0n01kPek/zKd01ri7rN3LgzN8ys73MsJoDUlrybHb06KmCKZ879rxKyjMZy1Zz/rz+dRurdba7vtz23ZrX/ZMWZzJdnvZQ1VUCZZk6vg6H+SC74LWf5xPbc9t36smnrT9mOZfJFC3IyQ1UfwpdU/4hfn0rk3RXJuv9U+Jr1O1gRWCkCTARWCrfyvsz24fCfkXwooNwzNSpAQkg9t23J9Pi7J6Y2/zlRYRhgcpml9153hsSFGiZE7O+63K6t7e5jNNhGWbtvkV0xscI3JbgmZKGuV5v+2gqnd23Z/hqmbL99w2v5LnuSxMTQNNfbW/7qX1xl7nS0OpBhnA/Eqe57I0U+nsMqX+z7G0XttFaZalW8nzvJ0iybPCZZu99be1tL2ziwNKzK/kcX0yBI7PLpXat5W2d/YrCgD1IY7jg07/FY6XG3Uc1wyOO2PF952/DmzXrwT95ihPiVdelvJCVNqOkda3vWZwsNeaMGJxNLDeHIe1q7WNQe9fx7tlHeekN1RHW37x/3VBoL/RWmHJrwQcEGif9wFoXepINucCb6iOtvyo1Jc9Z3A4R++VYZqynhqUctMjsBynBOA7e85DyA/6t0WPQFQqXkWAGMCb1UM5t/xQUOCGepQ3cucEKAJcCUJUKiCB8FEKjmNxNBpuoAt+BaDvapn9MyBXAkwJQgD43QtxToC/VjzVwKjpnPlbyEagK2EUAIUgXgZg2IbnuwDctltKN6AQIA3g3/wqAKV+Lwv+Q/H3FYUyaO17TIpQEuD/jahfZXkEZGH53fAJgRMRDgSYZCjR6KoSQPuog2Nxrcq8JXAmwoHAqJnOqxEoChA6QAI3/hmBcw0Mm7y98c5MI1UDqAChg8OtolS9EOAOjkPcSPvrXX2poYQG2qnyjsAb3L/qbxTvT8x/4X9iYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmLif41/AOv/VqkMrUnqAAAAAElFTkSuQmCC';
+
+/* ---------- Player ---------- */
+const P={x:14*T,y:8*T,dir:'down',moving:false,step:0,turn:0,tx:0,ty:0,anim:0};
+const DIR={up:[0,-1],down:[0,1],left:[-1,0],right:[1,0]};
+function drawPlayer(sx,sy){
+  const d=P.dir,f=P.moving?(Math.floor(P.anim/8)%2):0,bob=P.sitting?-1:(P.moving&&f===1?-1:0);
+  const r=(c,a,b,w,h)=>px(ctx,c,sx+a,sy+b+bob,w,h);
+  if(!P.sitting){ctx.fillStyle='rgba(0,0,0,.22)';ctx.fillRect(sx+3,sy+14,10,2);}
+  const lift=P.moving?1:0;
+  if(!P.sitting){
+  px(ctx,'#2a3c88',sx+5,sy+12+bob,2,3-(f===1?lift:0));
+  px(ctx,'#2a3c88',sx+9,sy+12+bob,2,3-(f===0&&P.moving?lift:0));}
+  r('#3868d8',4,7,8,6);r('#f8f8f8',7,7,2,6);
+  r('#f0c090',3,8,1,3);r('#f0c090',12,8,1,3);
+  r('#f0c090',5,3,6,5);
+  if(d==='down'){r(C.k,6,5,1,2);r(C.k,9,5,1,2)}
+  if(d==='left'){r(C.k,5,5,1,2)}
+  if(d==='right'){r(C.k,10,5,1,2)}
+  if(d==='up'){r('#5a3a20',5,3,6,5)}
+  r('#d83830',4,1,8,3);r('#d83830',4,3,8,1);r('#f8f8f8',7,1,2,2);
+  if(d==='down')r('#a02820',4,3,8,2);
+  if(d==='left')r('#a02820',2,3,8,1);
+  if(d==='right')r('#a02820',6,3,8,1);
+}
+
+/* ---------- Input ---------- */
+const keys={up:false,down:false,left:false,right:false};
+const KM={ArrowUp:'up',KeyW:'up',ArrowDown:'down',KeyS:'down',ArrowLeft:'left',KeyA:'left',ArrowRight:'right',KeyD:'right'};
+const order=[];
+function press(k,v){
+  if(v&&!keys[k]){
+    if(P.sitting)standUp();
+    else if(!msg.open&&!P.moving){
+      /* pressing an arrow toward an adjacent bench acts like pressing Z on it */
+      const tx=Math.round(P.x/T)+DIR[k][0],ty=Math.round(P.y/T)+DIR[k][1];
+      if(map[ty]&&map[ty][tx]==='N')sit(tx,ty);
+    }
+  }
+  keys[k]=v;const i=order.indexOf(k);if(v&&i<0)order.push(k);if(!v&&i>=0)order.splice(i,1)}
+addEventListener('keydown',e=>{
+  if(KM[e.code]){press(KM[e.code],true);e.preventDefault()}
+  if((e.code==='KeyZ'||e.code==='Space'||e.code==='Enter')&&!e.repeat){action();e.preventDefault()}
+});
+addEventListener('keyup',e=>{if(KM[e.code])press(KM[e.code],false)});
+document.querySelectorAll('.pad button').forEach(b=>{
+  const k=b.dataset.k;
+  b.addEventListener('pointerdown',e=>{e.preventDefault();press(k,true)});
+  ['pointerup','pointerleave','pointercancel'].forEach(t=>b.addEventListener(t,()=>press(k,false)));
+});
+document.getElementById('abtn').addEventListener('pointerdown',e=>{e.preventDefault();action()});
+
+/* ---------- Dialogue ---------- */
+const msg={text:'',shown:0,open:false};
+function wrap(t,n){const w=t.split(' '),L=[];let l='';w.forEach(s=>{if((l+' '+s).trim().length>n){L.push(l);l=s}else l=(l+' '+s).trim()});L.push(l);return L}
+function action(){
+  if(msg.open){if(msg.shown<msg.text.length)msg.shown=msg.text.length;else msg.open=false;return}
+  if(P.moving)return;
+  if(P.sitting){standUp();return}
+  const [dx,dy]=DIR[P.dir];
+  const tx=Math.round(P.x/T)+dx,ty=Math.round(P.y/T)+dy;
+  const k=tx+','+ty,tt=map[ty]&&map[ty][tx];
+  if(tt==='N'){sit(tx,ty);return}
+  if((tt==='S'||tt==='D')&&TEXT[k]){msg.text=TEXT[k];msg.shown=0;msg.open=true}
+}
+/* sitting on benches: Z/Space or any new direction press stands back up */
+function sit(tx,ty){P.sitFrom=[Math.round(P.x/T),Math.round(P.y/T)];P.x=tx*T;P.y=ty*T;P.dir='down';P.anim=0;P.sitting=true}
+function standUp(){const f=P.sitFrom||[Math.round(P.x/T),Math.round(P.y/T)+1];P.x=f[0]*T;P.y=f[1]*T;P.dir='down';P.sitting=false}
+function drawBox(){
+  const bx=4,by=VH-44,bw=VW-8,bh=40;
+  ctx.fillStyle='#202020';ctx.fillRect(bx-1,by-1,bw+2,bh+2);
+  ctx.fillStyle='#f8f8f8';ctx.fillRect(bx,by,bw,bh);
+  ctx.fillStyle='#585878';ctx.fillRect(bx+2,by+2,bw-4,1);ctx.fillRect(bx+2,by+bh-3,bw-4,1);
+  ctx.fillRect(bx+2,by+2,1,bh-4);ctx.fillRect(bx+bw-3,by+2,1,bh-4);
+  ctx.font='8px "Press Start 2P",monospace';ctx.textBaseline='top';ctx.fillStyle='#202020';
+  const lines=wrap(msg.text.slice(0,msg.shown),25);
+  lines.slice(-3).forEach((l,i)=>ctx.fillText(l,bx+8,by+8+i*10));
+  if(msg.shown>=msg.text.length&&(frame>>4)%2===0){ctx.fillStyle='#d83830';ctx.fillRect(bx+bw-14,by+bh-12,6,4)}
+}
+
+/* ---------- Update / Draw ---------- */
+let frame=0,rustle=0;
+const SPEED=2;
+function blocked(tx,ty){return tx<0||ty<0||tx>=W||ty>=H||SOLID.has(map[ty][tx])}
+function update(){
+  frame++;
+  if(msg.open){if(msg.shown<msg.text.length&&frame%2===0)msg.shown++;return}
+  if(P.sitting)return;
+  if(P.moving){
+    P.x+=DIR[P.dir][0]*SPEED;P.y+=DIR[P.dir][1]*SPEED;P.anim++;
+    if(P.x===P.tx*T&&P.y===P.ty*T){
+      P.moving=false;
+      if(map[P.ty][P.tx]==='g')rustle=10;
+    }
+    if(P.moving)return;
+  }
+  const want=order.length?order[order.length-1]:null;
+  if(!want){P.anim=0;return}
+  if(P.dir!==want){P.dir=want;P.turn=6;return}
+  if(P.turn>0){P.turn--;return}
+  const tx=Math.round(P.x/T)+DIR[want][0],ty=Math.round(P.y/T)+DIR[want][1];
+  if(!blocked(tx,ty)){P.moving=true;P.tx=tx;P.ty=ty}
+}
+function poolTile(x,y){
+  const o=(a,b)=>map[b]&&map[b][a]==='O';
+  const k=(a,b)=>map[b]&&map[b][a]==='K';  /* cliffs act as the pool wall: no shoreline against them */
+  const n=!o(x,y-1)&&!k(x,y-1),s=!o(x,y+1)&&!k(x,y+1),w=!o(x-1,y)&&!k(x-1,y),e=!o(x+1,y)&&!k(x+1,y);
+  if(n&&w)return tiles.Otl;if(n&&e)return tiles.Otr;if(s&&w)return tiles.Obl;if(s&&e)return tiles.Obr;
+  if(n)return tiles.On;if(s)return tiles.Os;if(w)return tiles.Ow;if(e)return tiles.Oe;
+  return tiles['Wa'+(Math.floor(frame/24)%4)];
+}
+function tileAt(x,y){
+  const c=map[y][x];
+  if(c==='T')return (y===0||y===H-1||(y+1<H-1&&map[y+1][x]==='T'))?tiles.T:tiles.TT;
+  if(c==='K')return y===2?tiles.KF:tiles.K;
+  if(c==='O')return poolTile(x,y);
+  return tiles[c];
+}
+function draw(){
+  let cx=Math.round(P.x+T/2-VW/2),cy=Math.round(P.y+T/2-VH/2);
+  cx=Math.max(0,Math.min(W*T-VW,cx));cy=Math.max(0,Math.min(H*T-VH,cy));
+  ctx.fillStyle='#000';ctx.fillRect(0,0,VW,VH);
+  const x0=Math.floor(cx/T),y0=Math.floor(cy/T);
+  for(let y=y0;y<=y0+VH/T+1;y++)for(let x=x0;x<=x0+VW/T+1;x++){
+    if(x<0||y<0||x>=W||y>=H)continue;
+    ctx.drawImage(tileAt(x,y),x*T-cx,y*T-cy);
+  }
+  drawPlayer(P.x-cx,P.y-cy);
+  if(P.sitting)ctx.drawImage(tiles.N,0,10,16,6,P.x-cx,P.y-cy+10,16,6);
+  // tall grass overlay drawn over the player's feet
+  const gx=Math.round(P.x/T),gy=Math.round(P.y/T);
+  if(map[gy]&&map[gy][gx]==='g'&&!P.moving||rustle>0){
+    const ox=gx*T-cx,oy=gy*T-cy;
+    ctx.drawImage(tiles.g,0,8,16,8,ox,oy+8,16,8);
+    if(rustle>0)rustle--;
+  }
+  for(let y=y0;y<=y0+VH/T+1;y++)for(let x=x0;x<=x0+VW/T+1;x++){
+    if(!map[y]||map[y][x]!=='O')continue;
+    for(let i=0;i<2;i++){const t=((frame*0.4+x*13+y*7+i*20)%40)/40;
+      ctx.fillStyle='rgba(255,255,255,'+((1-t)*0.45).toFixed(2)+')';
+      ctx.fillRect(x*T-cx+3+i*7+Math.round(Math.sin(t*6+i)*2),y*T-cy+8-Math.round(t*14),5,3)}
+  }
+  if(frame<200){ctx.globalAlpha=frame>170?(200-frame)/30:1;
+    ctx.fillStyle='#202020';ctx.fillRect(3,3,122,16);ctx.fillStyle='#f8f8f8';ctx.fillRect(4,4,120,14);
+    ctx.font='8px "Press Start 2P",monospace';ctx.textBaseline='top';ctx.fillStyle='#202020';ctx.fillText('Ernest Pointe',9,8);ctx.globalAlpha=1}
+  if(msg.open)drawBox();
+}
+
+/* ---------- Loop (fixed 60 updates/sec) ---------- */
+let last=performance.now(),acc=0;
+function loop(t){
+  acc+=Math.min(100,t-last);last=t;
+  while(acc>=1000/60){update();acc-=1000/60}
+  draw();requestAnimationFrame(loop);
+}
+function fit(){
+  const padH=matchMedia('(hover:hover) and (pointer:fine)').matches?90:290;
+  const s=Math.max(1,Math.floor(Math.min((innerWidth-24)/VW,(innerHeight-padH)/VH)));
+  cv.style.width=VW*s+'px';cv.style.height=VH*s+'px';
+}
+addEventListener('resize',fit);fit();
+requestAnimationFrame(loop);
+})();
+</script>
+</body>
+</html>
