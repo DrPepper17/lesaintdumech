@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Lil’ Nutty Monsters – Ernest Pointe</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap">
+<style>
+:root{--bg:#d9d5ea;--ink:#2a2640;--btn:#f4f1fb;--edge:#2a2640;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#171526;--ink:#cfc9ee;--btn:#2b2745;--edge:#8f87c9}}
+:root[data-theme="dark"]{--bg:#171526;--ink:#cfc9ee;--btn:#2b2745;--edge:#8f87c9}
+html,body{height:100%;margin:0}
+body{background:var(--bg);color:var(--ink);font-family:"Press Start 2P",ui-monospace,Menlo,monospace;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;user-select:none;-webkit-user-select:none;touch-action:manipulation}
+#banner{display:block;border:4px solid var(--edge);border-radius:6px;box-sizing:content-box;max-width:100%}
+canvas{image-rendering:pixelated;image-rendering:crisp-edges;border:4px solid var(--edge);border-radius:6px;background:#000;max-width:100%}
+.hint{font-size:8px;line-height:1.8;text-align:center;max-width:90vw}
+.pad{display:grid;grid-template-columns:repeat(3,44px);grid-template-rows:repeat(3,44px);gap:4px}
+.pad button,.a{background:var(--btn);color:var(--ink);border:2px solid var(--edge);border-radius:8px;font:inherit;font-size:12px;touch-action:none}
+.pad button:active,.a:active{transform:translateY(1px);filter:brightness(.9)}
+.row{display:flex;gap:28px;align-items:center}
+.a{width:56px;height:56px;border-radius:50%;font-size:14px}
+@media (hover:hover) and (pointer:fine){.row{display:none}}
+</style>
+</head>
+<body>
+<img id="banner" alt="Lil’ Nutty Monsters™, Walnut Version Edition" width="2172" height="724" src="../img/misc/NLMBannerLogo.png">
+<canvas id="c" width="240" height="160" aria-label="Game screen"></canvas>
+<div class="hint">Arrow keys or WASD to <u>Walk</u>.<br>Space or Return/Enter to <u>Interact</u>.<br>J to <u>Jump</u>.</div>
+<div class="row">
+  <div class="pad">
+    <span></span><button data-k="up" aria-label="Up">▲</button><span></span>
+    <button data-k="left" aria-label="Left">◀</button><span></span><button data-k="right" aria-label="Right">▶</button>
+    <span></span><button data-k="down" aria-label="Down">▼</button><span></span>
+  </div>
+  <button class="a" id="abtn" aria-label="Action">A</button>
+</div>
+<script>
+(function(){
+const T=16,W=30,H=23,VW=240,VH=160;
+const cv=document.getElementById('c'),ctx=cv.getContext('2d');
+ctx.imageSmoothingEnabled=false;
+
+/* ---------- Map: Ernest Pointe ---------- */
+const map=[];for(let y=0;y<H;y++){map.push(Array(W).fill('G'));}
+const set=(x,y,t)=>{if(x>=0&&y>=0&&x<W&&y<H)map[y][x]=t};
+let seed=11;const rnd=()=>(seed=(seed*1103515245+12345)&0x7fffffff)/0x7fffffff;
+for(let y=0;y<H;y++)for(let x=0;x<W;x++)if(rnd()<0.05)set(x,y,'F');
+for(let x=1;x<=28;x++){set(x,1,'K');if(x%3)set(x,2,'K');}
+for(let y=1;y<=21;y++){set(14,y,'P');set(15,y,'P');}
+for(let x=3;x<=26;x++)set(x,10,'B');
+for(let y=6;y<=9;y++)set(6,y,'P');
+for(let x=4;x<=8;x++){set(x,3,'R');set(x,4,'H');set(x,5,'H');}
+set(6,5,'D');set(7,7,'S');
+for(let x=19;x<=23;x++){set(x,5,'U');set(x,6,'H');set(x,7,'H');}
+set(21,7,'D');set(21,8,'P');set(21,9,'P');
+for(let y=12;y<=15;y++)for(let x=19;x<=24;x++)set(x,y,'O');
+for(let y=16;y<=17;y++)for(let x=18;x<=25;x++)set(x,y,'O');
+for(let y=11;y<=15;y++)for(let x=3;x<=8;x++)set(x,y,'O');
+for(let y=12;y<=15;y++){set(18,y,'K');set(25,y,'K');}
+set(17,11,'S');set(13,16,'S');
+for(let y=3;y<=7;y++)for(let x=10;x<=12;x++)set(x,y,'T');
+for(let y=3;y<=9;y++)for(let x=25;x<=28;x++)set(x,y,'T');
+for(let y=12;y<=21;y++)set(28,y,'T');
+for(let y=16;y<=21;y++)for(let x=2;x<=13;x++)set(x,y,'g');
+set(13,16,'S');
+for(let x=0;x<W;x++){set(x,0,'T');set(x,H-1,'T');}
+for(let y=0;y<H;y++){set(0,y,'T');set(W-1,y,'T');}
+set(14,0,'P');set(15,0,'P');set(14,H-1,'P');set(15,H-1,'P');
+for(let y=8;y<=9;y++)set(21,y,'s');
+for(let x=19;x<=24;x++)set(x,11,'s');
+for(let y=0;y<H;y++)for(let x=0;x<W;x++)if(map[y][x]==='G'&&(x*7+y*13)%9===0)set(x,y,'V');
+/* props: lamps flank the road, fence along the road, bench by the spring, barrels by the bathhouse, firewood and flower pot by the cabin */
+set(13,9,'L');set(16,9,'L');for(let x=8;x<=12;x++)set(x,9,'Z');
+set(26,11,'N');set(24,8,'Q');set(18,9,'Q');set(8,6,'Y');set(5,7,'X');
+/* building details: windows flank each door, chimney on the cabin roof */
+set(5,5,'J');set(7,5,'J');set(4,5,'Xw');   /* flower pot over the cabin's bottom left corner wall */set(7,3,'C');set(20,7,'J');set(22,7,'J');
+const TEXT={'7,7':'Grandma’s Cabin. Weary travelers always welcome.','17,11':'Hot springs. Rinse off first, then soak as long as you like.','13,16':'Welcome to Ernest Pointe. Mountain mist keeps our waters warm.','6,5':'The cabin door is locked. Grandma is out pickin\' berries.','21,7':'The bathhouse opens in the morning. Come back soon.'};
+/* day and night versions of door text: TEXT holds the default, TEXT_ALT overrides it for one time of day */
+const TEXT_ALT={day:{'21,7':'Bathhouse closed due to poor quality standards of water being too wet. Come back soon.'},night:{'6,5':"Grandma is asleep.\nGo Home !!"}};
+const SOLID=new Set(['T','R','H','D','S','K','U','O','L','N','Q','Y','X','Z','J','C','Xw']);
+
+/* ---------- Tiles (drawn in code, GBA-style limited palette) ---------- */
+const C={g1:'#58b848',g2:'#48a038',g3:'#78d060',p1:'#e0c890',p2:'#c8a868',t1:'#206020',t2:'#389038',t3:'#184818',w1:'#4888f0',w2:'#80b8f8',r1:'#c84838',r2:'#903028',h1:'#f0e4b8',h2:'#c8b078',d1:'#684020',k:'#202020',wd:'#a07038'};
+function mk(fn){const c=document.createElement('canvas');c.width=c.height=T;const x=c.getContext('2d');fn(x);return c}
+const px=(x,c,a,b,w=1,h=1)=>{x.fillStyle=c;x.fillRect(a,b,w,h)};
+const grassBase=x=>{px(x,C.g1,0,0,16,16);[[2,3],[9,2],[12,9],[5,12],[14,14],[1,8]].forEach(([a,b])=>{px(x,C.g2,a,b,2,1);px(x,C.g3,a+1,b-1,1,1)})};
+const tiles={
+G:mk(grassBase),
+F:mk(x=>{grassBase(x);px(x,'#f8f8f8',4,5,3,3);px(x,'#f8d038',5,6,1,1);px(x,'#f0a0c0',10,10,3,3);px(x,'#f8d038',11,11,1,1)}),
+g:mk(x=>{px(x,C.g2,0,0,16,16);for(let i=0;i<4;i++)for(let j=0;j<4;j++){const a=i*4,b=j*4;px(x,C.t1,a+1,b+1,1,3);px(x,C.g3,a+2,b,1,3);px(x,C.t2,a+3,b+1,1,2)}}),
+P:mk(x=>{px(x,C.p1,0,0,16,16);[[3,4],[10,3],[6,10],[13,12],[2,14]].forEach(([a,b])=>px(x,C.p2,a,b,2,1))}),
+T:mk(x=>{grassBase(x);px(x,C.t3,1,1,14,14);px(x,C.t1,2,1,12,12);px(x,C.t2,4,3,4,3);px(x,C.t2,9,7,4,3);px(x,C.d1,6,12,4,4)}),
+W:mk(x=>{px(x,C.w1,0,0,16,16);[[2,4,5],[9,10,5],[4,13,4]].forEach(([a,b,w])=>px(x,C.w2,a,b,w,1))}),
+R:mk(x=>{px(x,C.r1,0,0,16,16);for(let j=0;j<16;j+=4)px(x,C.r2,0,j+3,16,1);px(x,C.k,0,15,16,1)}),
+H:mk(x=>{px(x,C.h1,0,0,16,16);px(x,C.h2,0,0,16,1);for(let j=3;j<16;j+=4)px(x,C.h2,0,j,16,1);px(x,C.h2,7,0,1,16)}),
+D:mk(x=>{px(x,C.h1,0,0,16,16);px(x,C.k,2,0,12,16);px(x,C.d1,3,1,10,15);px(x,C.wd,4,2,8,6);px(x,C.wd,4,9,8,6);px(x,'#f8d038',10,9,1,1)}),
+S:mk(x=>{grassBase(x);px(x,C.d1,7,9,2,6);px(x,C.k,2,2,12,8);px(x,C.wd,3,3,10,6);px(x,C.d1,5,5,6,1);px(x,C.d1,5,7,4,1)})
+};
+Object.assign(C,{k1:'#9aa0b0',k2:'#707888',k3:'#bcc4d0',o1:'#58d0c8',o2:'#a8f4ec',b1:'#b88848',b2:'#8a6030',u1:'#4868a8',u2:'#304880'});
+tiles.T=mk(x=>{grassBase(x);px(x,C.d1,7,12,2,4);px(x,C.t3,2,9,12,3);px(x,C.t1,3,9,10,2);px(x,C.t3,3,6,10,3);px(x,C.t1,4,6,8,2);px(x,C.t3,5,3,6,3);px(x,C.t2,6,3,4,2);px(x,C.t2,7,0,2,3)});
+tiles.K=mk(x=>{px(x,C.k1,0,0,16,16);px(x,C.k3,2,2,6,3);px(x,C.k3,9,8,5,3);px(x,C.k2,0,12,16,4);px(x,C.k2,6,6,1,5);px(x,C.k2,12,2,1,5)});
+tiles.O=mk(x=>{px(x,C.o1,0,0,16,16);px(x,C.o2,2,4,5,1);px(x,C.o2,9,10,5,1);px(x,C.o2,4,13,4,1)});
+tiles.B=mk(x=>{px(x,C.b1,0,0,16,16);for(let j=3;j<16;j+=4)px(x,C.b2,0,j,16,1);px(x,C.b2,3,0,1,3);px(x,C.b2,11,4,1,3);px(x,C.b2,6,8,1,3);px(x,C.b2,13,12,1,3)});
+tiles.U=mk(x=>{px(x,C.u1,0,0,16,16);for(let j=0;j<16;j+=4)px(x,C.u2,0,j+3,16,1);px(x,C.k,0,15,16,1)});
+tiles.V=tiles.G;tiles.s=tiles.P;
+tiles.TT=tiles.T;tiles.KF=tiles.K;
+['L','N','Q','Y','X','Z'].forEach(k=>tiles[k]=tiles.G);
+tiles.Hs=tiles.H;tiles.Ds=tiles.D;tiles.J=tiles.H;tiles.Js=tiles.H;tiles.C=tiles.R;tiles.Xw=tiles.H;
+['Otl','Otr','Obl','Obr','On','Os','Ow','Oe','Wa0','Wa1','Wa2','Wa3'].forEach(k=>tiles[k]=tiles.O);
+/* ---------- Real tileset (master tileset Bellum_4a53c5.png, 16x16 cells; every tile comes from this one sheet) ---------- */
+const SHEET=new Image();
+SHEET.onload=()=>{
+  const cut=(n,r=0)=>mk(x=>x.drawImage(SHEET,n*T,r*T,T,T,0,0,T,T));
+  const flipV=(n,r)=>mk(x=>{x.translate(0,T);x.scale(1,-1);x.drawImage(SHEET,n*T,r*T,T,T,0,0,T,T)});
+  tiles.G=cut(0);tiles.V=cut(1);tiles.F=cut(2);tiles.P=cut(3);tiles.g=cut(4);tiles.B=cut(5);tiles.s=cut(6);
+  const onGrass=(n,r)=>mk(x=>{x.drawImage(tiles.G,0,0);x.drawImage(SHEET,n*T,r*T,T,T,0,0,T,T)});
+  tiles.T=onGrass(0,1);tiles.TT=onGrass(1,1);          /* pine canopy, pine trunk */
+  tiles.KF=cut(2,1);tiles.K=cut(3,1);                  /* cliff face, rock top */
+  for(let i=0;i<4;i++)tiles['Wa'+i]=cut(4+i,1);        /* water animation frames */
+  tiles.On=cut(0,2);tiles.Os=cut(1,2);tiles.Ow=cut(2,2);tiles.Oe=cut(3,2);
+  tiles.Otl=cut(4,2);tiles.Otr=cut(5,2);
+  tiles.Obl=flipV(4,2);tiles.Obr=flipV(5,2);           /* temporary: flipped top corners */
+  tiles.S=onGrass(0,4);tiles.Z=onGrass(1,4);tiles.L=onGrass(2,4);tiles.N=onGrass(3,4);  /* row 5: sign, fence, lamp post, bench */
+  tiles.Q=onGrass(4,4);tiles.Y=onGrass(5,4);tiles.X=onGrass(6,4);                       /* row 5: barrels, firewood, flower pot */
+  /* row 4: buildings. Cabin (left of column 12) = wood walls, red roof, green-framed windows, chimney.
+     Bathhouse (column 12 and right) = stone walls, teal roof, blue windows. */
+  const over=(base,n,r)=>mk(x=>{x.drawImage(base,0,0);x.drawImage(SHEET,n*T,r*T,T,T,0,0,T,T)});
+  const wood=cut(2,3),stone=cut(3,3);
+  tiles.R=cut(0,3);tiles.U=cut(1,3);
+  tiles.H=wood;tiles.Hs=stone;
+  tiles.D=over(wood,4,3);tiles.Ds=over(stone,4,3);
+  tiles.J=over(wood,5,3);tiles.Js=over(stone,6,3);
+  tiles.C=over(tiles.R,7,3);
+  tiles.Xw=over(wood,6,4);   /* flower pot drawn over the cabin's wood wall */
+};
+
+SHEET.src='data:image/png;base64,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';
+
+/* ---------- Player ---------- */
+const P={x:14*T,y:8*T,dir:'down',moving:false,step:0,turn:0,tx:0,ty:0,anim:0};
+const CYCLE_MS=6*60*1000;   /* hidden game clock: day and night swap every 6 real minutes */
+let night=false,qCount=0,qLast=0,nextFlip=performance.now()+CYCLE_MS;const dark=document.createElement('canvas');dark.width=240;dark.height=160;const dctx=dark.getContext('2d');   /* night: secret Q toggle, darkness layer */
+let tusk=null,lastNight=night,tuskNear=false,tj=null,tsay=null,think=null;   /* think = player's thought bubble after interacting with Tusk */   /* tj = Tusk hop, tsay = Tusk bubble, tuskNear = player was already beside him */
+const TUSK_BUBBLE=35;   /* Rhett's shout lasts 45 frames; Tusk's bubbles are 10 shorter */   /* Tusk the wild boar: {x,y,mode:'stand'|'sit'|'swim',flip} in tile units */
+let J=null,shout=null;const dust=[];   /* J = jump in progress, shout = speech bubble, dust = puff particles */
+/* ---------- Tusk: wild boar. Main sprite faces left (flipped for right); second sprite is his front-facing sitting pose. ---------- */
+const TK=new Image();let tkReady=false;TK.onload=()=>{tkReady=true};
+TK.src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABNUlEQVR4nM2SP0vDYBCHn8QEShxKQdq9GeqUIihduxTERScd/QSKm0iU0qG6ioMfwskuImTpWuxitw7p4NYgZBBDIZg4xDfm7+Tib3o57vfc3XsH/0qnrVYIYDTboYgl30WSsoHPq73w4sEGYOxXcobZ4jXlyQFEFwA3h3oEnb0zWfqYTpCDpABGsx0O6zIAlutxuVkFYN3YiEFADOuqK5RsB7sDHff+jU6j+jvWj7FIcrI6wHPfLk3O6m4+lxRhPNO1KPqxYrL0Aeg01JRBxJNSkubj63MAnk4GpQbL9ejVtDTg1vYQn1cky/Xid6+mYTpBvAkJ4OvlMZS39wmmI7aO+gzrMqYT5KCW6zH2K6k1xlsIpqNcZbF3oa6aS4kAazsHMTF7uqJa2UkXDp6tLFR02n/WN9TxdP/LaiXRAAAAAElFTkSuQmCC';
+const TKS=new Image();let tksReady=false;TKS.onload=()=>{tksReady=true};
+TKS.src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABS0lEQVR4nLWSsUsCYRjGf3d1IDWEEefWoINNZw6hbi6COLW5BP0HrUIG4nCBa+5Co5vQ6OKYOJRuLg5uSuhUCIe+Td91d17m0rN8L+/3Pg/P834f/BeseEq852/Qg4QwkV39Q+/FXTIpPScCgG3qZGIG/ZkDZlqq8w0AeWNFz/nhaEEBgIeLE46tM7f/OfqgP3PoLr8AeBqPXZ7PQc+JYJu6SwqiED1COVHw7cA2dYr1RFhsMjGDYj2Bbeq+HWiKrHJX5xvyxipURDlULkaToeaLUGrW6N5UuDw/pZyN+sjt1yVMF5SaDarl2ra6FU+JiMh60JFWISdWPCWtQs5XrwcdERHZigCwHnTc5vN9IzTC7WPFrQ+urjXwvEK6XOOtXQfgfboIF/DMbjl4yaZdB8GnUvAuV/0FXeUPZeyA4mjBxr4YTYba31N74Bs+hIKiy0T7bwAAAABJRU5ErkJggg==';
+const BUILDING=new Set(['R','H','D','U','J','C','Xw']);
+function nearBuilding(x,y){for(let dy=-1;dy<=1;dy++)for(let dx=-1;dx<=1;dx++){const r=map[y+dy];if(r&&BUILDING.has(r[x+dx]))return true}return false}   /* all 8 neighbours, diagonals included */
+function nearEdge(x,y){return Math.min(x,y,W-1-x,H-1-y)<=3}   /* within 3 cells of the map perimeter */
+function isShore(x,y){   /* a water tile with at least one non-water, non-cliff neighbour (up, down, left or right) */
+  if(map[y][x]!=='O')return false;
+  return [[0,-1],[0,1],[-1,0],[1,0]].some(d=>{const r=map[y+d[1]];const c=r&&r[x+d[0]];return c!==undefined&&c!=='O'&&c!=='K'});
+}
+function shoreSide(x,y,dx,dy){const r=map[y+dy];const c=r&&r[x+dx];return c!==undefined&&c!=='O'&&c!=='K'}   /* is there land on that side of this water tile */
+function tuskAt(x,y){return !!tusk&&tusk.x===x&&tusk.y===y}
+/* Spawns Tusk: 5% on the bench, 10% on a water edge tile, otherwise on any tile the player could stand on. Never next to a building, always within 3 cells of the edge. */
+function spawnTusk(){
+  const avoid=[[Math.round(P.x/T),Math.round(P.y/T)]];
+  if(P.moving)avoid.push([P.tx,P.ty]);
+  if(J)avoid.push([Math.round(J.ex/T),Math.round(J.ey/T)]);
+  const ok=(x,y)=>nearEdge(x,y)&&!nearBuilding(x,y)&&!avoid.some(a=>a[0]===x&&a[1]===y);
+  const bench=[],water=[],ground=[];
+  for(let y=0;y<H;y++)for(let x=0;x<W;x++){
+    if(!ok(x,y))continue;
+    const c=map[y][x];
+    if(c==='N')bench.push([x,y]);
+    else if(isShore(x,y))water.push([x,y]);
+    else if(!baseBlocked(x,y)&&!(night&&c==='g'))ground.push([x,y]);   /* never in tall grass at night */
+  }
+  const r=Math.random();
+  let mode='stand',list=ground;
+  if(!night&&r<.05&&bench.length){mode='sit';list=bench}   /* no bench or water at night; the roll falls through to the ground */
+  else if(!night&&r>=.05&&r<.15&&water.length){mode='swim';list=water}
+  const p=list[Math.floor(Math.random()*list.length)];
+  tusk=p?{x:p[0],y:p[1],mode:mode,flip:Math.random()<.5,front:false}:null;
+  if(tusk&&mode==='swim')waterPose(tusk);
+  tuskPlaced();
+}
+/* a fresh placement clears any hop or bubble and counts the player as already beside him (no reaction until the player steps away and back) */
+function tuskPlaced(){tj=null;tsay=null;think=null;tuskNear=tuskBeside()}
+/* Thought bubble text when the player interacts with Tusk: by time (day or night), then by where he is (bench, water, grass, ground), then 'any'. A missing entry means nothing happens yet. */
+const TUSK_THOUGHTS={
+  night:{any:'“zzzz” Tusk is sound asleep dreaming about Grandma’s cherry peach cobbler.'},
+  day:{
+    northwest:'Grandma’s faithful Lil’ Nutty Monster, Tusk! But where’s Grandma?',   /* standing north of the boardwalk and west of the dirt road */
+    waterSide:'“slurp slurp slurp” Tusk’s such a thirsty little pig sloppin’ up all that water.',   /* in water on a left or right edge */
+    waterTopBottom:'Tusk’s one cool pig. He sure knows how to let his hair down and take it easy soaking out in the water.',   /* in water on a top or bottom edge */
+    bench:'Just some fun in the sun and Tusk is working on his tan again. What a lazy pig.',
+    grass:'Our fierce warrior is on the prowl. There’s some other Lil’ Nutty Monsters hiding out here and Tusk is going to find them.',
+    ground:'Oops someone broke free from his pen. Tusk is on the loose again. What an obnoxiously fat pig.'   /* anywhere else */
+  }
+};
+/* Tusk's custom emoji: an 8x8 pixel generic red pig face looking forward, drawn from this grid (not a font character). PIG_CH is the placeholder character that stands for it in text. */
+const PIG_CH='';
+const PIG=document.createElement('canvas');PIG.width=8;PIG.height=8;
+(function(){
+  const g=['oo....oo','orrrrrro','orkrrkro','orrrrrro','orofforo','wrfkkfrw','wwffffww','.oooooo.'];   /* ears, eyes, a lighter round snout with two nostrils, and cream tusks (w) at the sides */
+  const pal={o:'#2e222f',r:'#b33831',f:'#f57d4a',k:'#2e222f',w:'#fdcbb0'};
+  const c=PIG.getContext('2d');
+  g.forEach((row,y)=>row.split('').forEach((ch,x)=>{if(ch!=='.'){c.fillStyle=pal[ch];c.fillRect(x,y,1,1)}}));
+})();
+function tuskThought(){
+  const set=TUSK_THOUGHTS[night?'night':'day'];
+  const zone=tusk.mode==='sit'?'bench':tusk.mode==='swim'?(tusk.front?'waterTopBottom':'waterSide'):map[tusk.y][tusk.x]==='g'?'grass':(tusk.y<10&&tusk.x<14)?'northwest':'ground';   /* row 10 is the boardwalk, columns 14 and 15 are the dirt road */
+  const s=set[zone]||set.any||null;
+  return s?s+' '+PIG_CH:null;   /* every Tusk line ends with his emoji (a non-breaking space keeps it on the last word's line) */
+}
+function drawThink(cx,cy){
+  if(!think)return;
+  const lines=think.pages[think.i],w=Math.max.apply(null,lines.map(l=>l.length))*8+8,h=lines.length*11+3;
+  const hx=Math.round(P.x-cx+8);
+  const lift=J&&J.hop?Math.sin(Math.PI*J.t/J.dur)*J.hop:0;
+  let bx=Math.round(hx-w/2),by=Math.round(P.y-cy-RH_TALL()-h-12-lift);
+  bx=Math.max(2,Math.min(VW-w-2,bx));by=Math.max(2,by);
+  ctx.fillStyle='#202020';ctx.fillRect(bx-1,by-1,w+2,h+2);
+  ctx.fillStyle='#f8f8f8';ctx.fillRect(bx,by,w,h);
+  ctx.fillStyle='#202020';ctx.fillRect(hx,by+h+2,4,4);ctx.fillRect(hx-2,by+h+7,3,3);   /* thought dots trail down to his head */
+  ctx.fillStyle='#f8f8f8';ctx.fillRect(hx+1,by+h+3,2,2);ctx.fillRect(hx-1,by+h+8,1,1);
+  ctx.font='8px "Press Start 2P",monospace';ctx.textBaseline='top';ctx.fillStyle='#202020';
+  lines.forEach((l,i)=>{
+    ctx.fillText(l.replace(PIG_CH,' ').replace(/ /g,' '),bx+4,by+3+i*11);
+    const p=l.indexOf(PIG_CH);if(p>=0)ctx.drawImage(PIG,bx+4+p*8,by+3+i*11);
+  });
+  if(think.i<think.pages.length-1){ctx.fillStyle='#202020';ctx.fillRect(bx+w-8,by+h-5,5,1);ctx.fillRect(bx+w-7,by+h-4,3,1);ctx.fillRect(bx+w-6,by+h-3,1,1)}   /* little arrow: more to read */
+}
+function tuskBeside(){if(!tusk)return false;return Math.abs(Math.round(P.x/T)-tusk.x)+Math.abs(Math.round(P.y/T)-tusk.y)===1}   /* only directly above, below, left or right; diagonals do not count */
+/* day: hop once and oink (oink only when in the water). Night: sleeping, so only a Zzzz thought bubble. */
+function tuskReact(){
+  if(tusk.mode==='sit')return;   /* never reacts while sitting on the bench */
+  if(night){tsay={text:'Zzzz',t:TUSK_BUBBLE,think:true};return}
+  tsay={text:'OINK!',t:TUSK_BUBBLE};
+  if(tusk.mode==='swim')return;   /* in the water he only oinks, no hop */
+  tj={t:0,dur:18,hop:14};
+  puff(tusk.x*T+8,tusk.y*T+15);
+}
+function drawTuskBubble(cx,cy){
+  if(!tusk||!tsay)return;
+  const w=(tsay.text.length+2)*8+8,h=14;   /* room for the text, a space and the pig emoji */
+  const hx=Math.round(tusk.x*T-cx+8);
+  const lift=tj?Math.sin(Math.PI*tj.t/tj.dur)*tj.hop:0;
+  let bx=Math.round(hx-w/2),by=Math.round(tusk.y*T-cy-h-6-lift-(tsay.think?3:0));
+  bx=Math.max(2,Math.min(VW-w-2,bx));by=Math.max(2,by);
+  ctx.fillStyle='#202020';ctx.fillRect(bx-1,by-1,w+2,h+2);
+  ctx.fillStyle='#f8f8f8';ctx.fillRect(bx,by,w,h);
+  if(tsay.think){   /* thought bubble: two little dots trail down toward his head */
+    ctx.fillStyle='#202020';ctx.fillRect(hx,by+h+2,4,4);ctx.fillRect(hx-2,by+h+7,3,3);
+    ctx.fillStyle='#f8f8f8';ctx.fillRect(hx+1,by+h+3,2,2);ctx.fillRect(hx-1,by+h+8,1,1);
+  }else{   /* speech tail, same as Rhett's */
+    ctx.fillStyle='#f8f8f8';ctx.fillRect(hx-1,by+h,3,1);
+    ctx.fillStyle='#202020';ctx.fillRect(hx-2,by+h+1,1,1);ctx.fillRect(hx+2,by+h+1,1,1);ctx.fillRect(hx-1,by+h+2,1,1);ctx.fillRect(hx+1,by+h+2,1,1);ctx.fillRect(hx,by+h+3,1,1);
+    ctx.fillStyle='#f8f8f8';ctx.fillRect(hx-1,by+h+1,3,1);ctx.fillRect(hx,by+h+2,1,1);
+  }
+  ctx.font='8px "Press Start 2P",monospace';ctx.textBaseline='top';ctx.fillStyle=tsay.think?'#4860a8':'#d83830';
+  ctx.fillText(tsay.text,bx+4,by+3);
+  ctx.drawImage(PIG,bx+4+(tsay.text.length+1)*8,by+3);   /* Tusk's emoji ends every Tusk line, bubbles included */
+}
+function waterPose(k){   /* water edge poses: top or bottom edge = sitting sprite; left edge = faces right; right edge = faces left */
+  const x=k.x,y=k.y;
+  if(shoreSide(x,y,-1,0))k.flip=true;   /* left edge, corners included */
+  else if(shoreSide(x,y,1,0))k.flip=false;   /* right edge, corners included */
+  else if(shoreSide(x,y,0,-1)||shoreSide(x,y,0,1))k.front=true;   /* pure top or bottom edge only */
+}
+/* Secret T key: put Tusk on the tile Rhett is facing. Skips the perimeter and building rules; still follows the walkable, water edge, bench and night rules. Otherwise nothing happens. */
+function summonTusk(){
+  if(P.moving||J||P.sitting||msg.open)return;
+  const x=Math.round(P.x/T)+DIR[P.dir][0],y=Math.round(P.y/T)+DIR[P.dir][1];
+  if(x<0||y<0||x>=W||y>=H)return;
+  const c=map[y][x];let mode=null;   /* testing tool: the perimeter and building rules are skipped here on purpose */
+  if(c==='N'){if(!night)mode='sit'}
+  else if(isShore(x,y)){if(!night)mode='swim'}
+  else if(!baseBlocked(x,y)&&!(night&&c==='g'))mode='stand';
+  if(!mode)return;
+  tusk={x:x,y:y,mode:mode,flip:Math.random()<.5,front:false};
+  if(mode==='swim')waterPose(tusk);
+  tuskPlaced();
+}
+function drawTusk(cx,cy){
+  if(!tusk)return;
+  const lift=tj?Math.round(Math.sin(Math.PI*tj.t/tj.dur)*tj.hop):0;
+  const sx=tusk.x*T-cx,sy=tusk.y*T-cy-lift;
+  if(sx<-T||sy<-T||sx>VW||sy>VH)return;
+  if(tusk.mode==='sit'||tusk.front){if(tksReady)ctx.drawImage(TKS,sx,sy)}
+  else if(tkReady){
+    if(tusk.flip){ctx.save();ctx.translate(sx+T,sy);ctx.scale(-1,1);ctx.drawImage(TK,0,0);ctx.restore()}
+    else ctx.drawImage(TK,sx,sy);
+  }
+}
+const DIR={up:[0,-1],down:[0,1],left:[-1,0],right:[1,0]};
+/* ---------- Rhett: 16x32 walking sheet (RhettProfile.png, 48x96). Columns: stand, step 1, step 2. Rows: down, up, left (right is a flip). ---------- */
+const RH=new Image();let rhReady=false;
+RH.onload=()=>{rhReady=true};
+RH.src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAABgCAMAAABsUgFCAAAAAXNSR0IArs4c6QAAAMBQTFRFLiIvPjVGYlVllmxsq5R6aU9if3CKm6uyx9zQ////bicnszgx6k829X1KriM06Ds7+2sd95YX+cIrejBFnkU5zWg95pBO+7lUTD4kZ2YzoqlH1eBL+/+GFlpMI5BjHrxzkdtpzd9sMTY4N05KVH5kkqmEsrqQC15lC4qPDq+bMOG5j/jiMjNTSEp3TWW0TZvmj9P/RSk/az51kF6pqITz6q3tdTxUoktvz2V/7YCZgxxdwyRU8E949oGB/KeQ/cuwF+JzugAAAEB0Uk5TAP///////////////////////////////////////////////////////////////////////////////////xMrnjEAAALmSURBVFiFtZdBkq0gDEUjM8cZ9CZgcEeMiPvf1a8EheDzg/2qmurq8sTc4FO8EaKvBmz8gjcdAe8ZIYTQaqz4nLBP+oaP4xA5Iyumi13CnAXYRES2AsGaCUUOiMiBIgVrJogFiqBIrTjneokQgZSiF7ni+isEEJTrti3YZmUu75mg05W+WFZMyPpwMl4ymDnbH+MNE/IVqDWWzJnzzrxnzlpixTUQbNqeMOErEMIV0HOVifmB9TdxDj/6oy7ByU0wMA7RQMjMh60VaewFxiLXY6wV6uLSlLPioQlHO0/9Qeg7e91mx1ZRCw7nNQEI7AVTtpc2pvElnzERkgZi4xTj+e+ZCSnGFG8CX1APHwTkBep2zcj00CXcjcoq3o3Mz6jGCfNPX/E2fPDRGj8ET8H34+/7wxZC2Fw/mDNhC3afesKKWwBv+LxC+IQ5Cy6u5rxgQtGnbIFq/wuuHWasOGV7KJtbGyv+ou1qpGg7es1mNXJ5zCv+mHHK6pX7vu++H8xY/d98Nfd+MOfaW2oIa/5GwFeg233l7t6efy9Qd66BeqtdQnNvL7DAD/+YgM5+UPl6Do2tX1wX1W6zVXTszksXAGPCjKv/x3F1ztjcOsaYyPG8P2hv8AKz5bugefWD4N5AHhrMbf3qkatoh5P+4FQfh88zrARfjHv9NVf7fMvq57o96E1vxTY09I5Jv5XVp7a2P5gz1c99nzBnQv3cl5aw4hqQ0nYkCxbbr7Qty4rtJmxnAbxhfQWVy2vWNlbGz/8F18b3G6b9trpWjH3fhzduwaQNA4zmO8w7A/9naH5Ws+rMGc7IdhVkJ8hVcLUkznt2VgfbcFjGKcgn9h4Gy3d7nlGg7gw/g5yGjH5er7gvb9a9g3Q+Bf68ebe0H8FW1DdiZr6zEwyXvGaLDIEVUzL374FkHcGxtYdBEBH96krJtwMiiiklh9XvBwGiV8SFIKlgbFk0CM4u1gXKd8FDf4Bjuo2v9w//AFknojrb42CTAAAAAElFTkSuQmCC';
+/* Rhett's second sheet (hop and sit poses, 48x128). Rows: hop down, hop up, hop left (right is a flip), then sitting. Hop columns: crouch, rising, falling. */
+const RH2=new Image();let rh2Ready=false;
+RH2.onload=()=>{rh2Ready=true};
+RH2.src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAACACAYAAABNyOryAAAJ9klEQVR4nO1cTWgcRxb+RjtIYBZ7xOx6QnRYeZCNpMOMfizjw2IrAQnH8cU5JBhWBBGTsNmLCQZBFGxGiwy6BLGHgHGIMT4YEWJfHMdYsKz3ZKJIM9JBFspYq7AoWM4KSQkIPGjpPYxfqX67q6vHGoWdD5rp6a6v6r16r6u736su4FeO2MuoNJPOerrjc0uzVu2F4cfDiWbXeCKZUo63NP8BALwgJcLyK2oBanxjbRVHu48J576b/pbtm5Rw4WstEMUFNtZWlQbDICxfEcjPhN9Nf+vbe/z//ESO7XvFZQBA1/B1dkyux5UvWMDGhJl0NtCPdY2HQRh+nXyANyG/+SGTznozo4Ps/2sffgavuCw0/vqn9/Do3bcAADOjg0KPR+HH+Up4ofxMqLNCaXETM6ODiLU0o/Ody4KCsZZm1jEzo4MoLW4qneDK117ELi5Qf+SA9nhpcRP1WA4s68qvA6K7AFC2DlkoP5Fj+/VHDqBr+Dqo/tLipnAxRuUzC0RxAXKnTDrrecVl1iA1RPuP3n0Lx2/cVkagKHymQFQXIEG6hq8za57Zf5DVYRI+Kp9pTgfI/zvfuczMRj1CPX/8xm3W4Pat8fJocO6CUJdsKZ4DADKPYMsnxPmDri7AI9WQwEC6Q/Hzi229uLlUMNGc+do7MfX8pbGvAQCfnP0jAGiFp56ksoTWpnYsrMwr+wAw9byEby6dBbBjgb62k15PQ701f/LxQ/VOTCALkOAkvA6y4EFobWoHVuZD83j+FGcJ5U6cakjgYlsvuoav4/iN22y72NaLVENCqfBKYVKxYmtTOwbujrP/A3fHy4IDQk/ykHvfj0+9D3Au5GpCAPi4o0+4J7Q2teMf+7bwyvfL2vp4XClMxlz41HFxmWjqIb7MlHQxUWWyIADw9HBzmbelCm7i2PCJVwfoe99kQqBs7r62k0rDJNTCyjx6t/bh6eFmXD2/jt6tfaxjrhQmYzq34+HHl2F8pXzv7ffxyov94c5+QYEw+ODzRvT6nB8ZerMsyIvRSLaIzCflafRTLmIZTw83MzO64Or5dWeuDV87BgM7F9LV8+u49bcmxYTyhUz1rD7fEMod7T4mvE+kGhIKLwqfWeCv1/7CzMnjg88bhf+mcgAw+fhh7NXWU6ANAL748los3tiCeGMLK6Mlc3weX3x5rTzaGPhMAdNzv2zCsK+IpgBBpfhxoKxV/NxDwYR3f34GAOieBoDvGWFq5I5vL74sYbfXi4g3tiCTFmNDwig0+fhh7NTpIVbJjwv3y4VemA8AJqe/shZ+5yER5UhHMoUTyX5vY23VKkQztzQbC7KAMArZmDuozI8L99nGl91YW2WbCa+2nmKdRuAVJSsYFYiKqP7u0o7gQolkCls/5RXCb+t+2fmTTAFL+orlgBj1to27nOjp97Z+ygt1ZLAT/dg5/guQTLFzggIm8/qZ3aWcCzdK3XsatfyArvFffX6AaxAAUFz+QfDhoPxAGH7F8wPUeHH5B/Y/7AUYhq8o4OoCJp6prC4/4MJX7sS8CWkDxPxAUANRej8sX3snJhPSFlQJxZLkcjoeH0SuBJ8pENaE8jEKAwYpq8sNROFrLeDiAqaAr205V76QH3B1AQBKLNOkuC43EIXPLBDFBeaWZmP8qBJUhy4/4MoPzA/I8CvHv4BQNofKU88F5QfC8pkFXE24fWvcoxgN30D9kQOCsrLrybywfIKSH/ATXm5EB4rYyYqmGhLa4HBUvnAnjuICckRtdL4gnB/u7AcA9HT0eVPPS1rB+dhUEN+YHyAlZF/nMzY8dHH+1qZ21iB/bGFl3io/EMTng8tKb5IJ5QgZmU8XUjFFmKeelyBH/GT4RalNfD44zCzgasJKICjErivvmx8IY0LAPtYflSMrARjyAxTI5S82PrgblB8IEtymnC0q/koZFkH5ARm++YGg9JJtGQDIjR1AT0M9cmN2d3hXvjE/APiPIrb5gTP7D7JAMRA+PxDEZxYYGXrTGPfn4VdOlx+4UpiMlB9go41ffkBXaZAJbYfRXckPAOWLSMgP/PmZ8Euo5Qdq+YFafqCWH3Di1vIDYbCb+YGKK0CN66J8NsNnWP5LeRpNJFNCfJ8Cwwnu4qsU3xgq1x237T0ZNBOeBLGdwm/D185aBNxcgLg091SeNE5T+01KuPC1NzIyIW10B00kU1Y3K5p77YowfO2jxMbaqvDtwNHuYzjafcxqLM5P5JRy+YmcMbIWle87/d5kQlOKyCSUV1xGaXHTtwNc+VoFXvvwM/z9o9PGxnSN08x3QB/H9AsKR+ErCuQncsr0+/xEDl5xGa9/ek9bCc06p/+JZErogNLipnHmb1S+kGIyNWDjAuRSZ/YfVBo3la0EP07CR3EBoeJ01vvEkAczCR+Fz/7wFrAxoWkWOwBhqr6t8Dwy6axny6+TT7q6AI/ZJwWtz+qieVH5wn1gbmk2dvfnZygtbrJNhk0v9reXZ7rPPimwxARFt4OUoPOzTwpWfOMziasL9LWd9AbSHexrCzkwFhTZptDiaP4Bhjv7hfhsT0O9wtc+Sri6AJ2/uVTAQLqDCUxbEIg/mn+gnKP6ZCgKhDWhDOpxUkJu2BTZ5nHzzAVtfa1N7QpfUaCnoV7JDVAlQdkWAKwRatTmwx+Zv7Ayr8hAkC0pKCCbsL+9l/Ug+V8QKHp9b/z3guI2yvN8PqTJdwgAfHPpLEvTaq8B3oQyglyAlLw8tCk0zp/3u4hlvqyEDEWBIBP6IWrMNIhPSsTPXYixTS60sDIvhM/fGLljbX4CH8/nQZ8WVpKvJCgAsI/UgPKHoPRe8MbIHQB2PX3q9JDHB4e314vWjxI8N4gvuBAJdmnsa7bxr3ZhLHH/3piSrIgK3ROz9oWGH21cv7gjzC3Nxrq6W6yDvjohKSq9vV5UyisKkBUoTzCDcsjc1vwE2Q1IuLD1BEE7jEYNk8vCz0x/xfJkQXXrcgQAn6HJ+j/MZdJZT/ZdvkKbHgwS0jaw5Zeh0a4rAehzBBTksgmrnOjpFxq0TSfpeCSoPKOSl0NRIGoc3pX/f5sfqKGGGmqoLiqaYqoGKvYJSrWg/Y7FdZWyasD4KOG6StluQxudBsKvUlYtaN8Hoq5Stpuo2BJV1YLwCcrM6KA2zWmzSlm1UNElqqoB4csNIPwSVbsrbgAy6ay3fWvc43/5/a1cztsrvk/QvtSHWaKq2jDOGLFdZazaUO7EUVcp222w3oyyRFU1IdyJbRZBcl0o6WWhoktUVQOCBXgff+/t99k+n63Za9eBcBHziY2bI3fwb+7cyJ8OATgEIHrIvZJgFpAzkL85dJztr+37nXDOJlu5WxBGIV5oAPjvvx4BUBVIbv1n741CYQTaK8ID0huZ/DL/z6kHMcA9ZL4bqOj0+2qgol9wVAP/AxOVuD3x2WYhAAAAAElFTkSuQmCC';
+function cell32(img,col,row,dx,dy,flip){   /* draws one 16x32 cell with its top left at dx,dy */
+  if(flip){ctx.save();ctx.translate(dx+16,0);ctx.scale(-1,1);ctx.drawImage(img,col*16,row*32,16,32,0,dy,16,32);ctx.restore()}
+  else ctx.drawImage(img,col*16,row*32,16,32,dx,dy,16,32);
+}
+const RH_TALL=()=>rhReady?16:0;   /* how far the sprite reaches above its tile */
+function rhFrame(){   /* stand at the start and end of each tile, a step frame in the middle, alternating feet */
+  if(!P.moving)return 0;
+  const ph=P.anim%8,leg=Math.floor(P.anim/8)%2;
+  return (ph<2||ph>5)?0:(leg?2:1);
+}
+function drawRhett(sx,sy){   /* sx,sy = top left of the tile he stands on; the sprite reaches 16 px above it */
+  const d=P.dir,row=d==='down'?0:d==='up'?1:2,col=P.sitting?0:rhFrame();
+  if(d==='right'){ctx.save();ctx.translate(sx+16,0);ctx.scale(-1,1);ctx.drawImage(RH,col*16,row*32,16,32,0,sy-16,16,32);ctx.restore()}
+  else ctx.drawImage(RH,col*16,row*32,16,32,sx,sy-16,16,32);
+}
+function drawPlayer(sx,sy){
+  if(rhReady){
+    if(!P.sitting&&!J){ctx.fillStyle='rgba(0,0,0,.22)';ctx.fillRect(sx+3,sy+14,10,2)}
+    if(P.sitting){
+      if(rh2Ready)cell32(RH2,0,3,sx,sy-16,false);   /* real sitting pose; the bench front is drawn over his legs afterwards */
+      else{ctx.save();ctx.beginPath();ctx.rect(sx-4,sy-24,24,34);ctx.clip();drawRhett(sx,sy+5);ctx.restore()}
+    }
+    else drawRhett(sx,sy);
+    return;
+  }
+  const d=P.dir,f=P.moving?(Math.floor(P.anim/8)%2):0,bob=P.sitting?-1:(P.moving&&f===1?-1:0);
+  const r=(c,a,b,w,h)=>px(ctx,c,sx+a,sy+b+bob,w,h);
+  if(!P.sitting&&!J){ctx.fillStyle='rgba(0,0,0,.22)';ctx.fillRect(sx+3,sy+14,10,2);}
+  const lift=P.moving?1:0;
+  if(!P.sitting){
+  px(ctx,'#2a3c88',sx+5,sy+12+bob,2,3-(f===1?lift:0));
+  px(ctx,'#2a3c88',sx+9,sy+12+bob,2,3-(f===0&&P.moving?lift:0));}
+  r('#3868d8',4,7,8,6);r('#f8f8f8',7,7,2,6);
+  r('#f0c090',3,8,1,3);r('#f0c090',12,8,1,3);
+  r('#f0c090',5,3,6,5);
+  if(d==='down'){r(C.k,6,5,1,2);r(C.k,9,5,1,2)}
+  if(d==='left'){r(C.k,5,5,1,2)}
+  if(d==='right'){r(C.k,10,5,1,2)}
+  if(d==='up'){r('#5a3a20',5,3,6,5)}
+  r('#d83830',4,1,8,3);r('#d83830',4,3,8,1);r('#f8f8f8',7,1,2,2);
+  if(d==='down')r('#a02820',4,3,8,2);
+  if(d==='left')r('#a02820',2,3,8,1);
+  if(d==='right')r('#a02820',6,3,8,1);
+}
+
+/* ---------- Input ---------- */
+const keys={up:false,down:false,left:false,right:false};
+const KM={ArrowUp:'up',KeyW:'up',ArrowDown:'down',KeyS:'down',ArrowLeft:'left',KeyA:'left',ArrowRight:'right',KeyD:'right'};
+const order=[];
+function press(k,v){
+  let skip=false;
+  if(v&&!keys[k]){
+    think=null;   /* any new key press closes a thought bubble */
+    if(P.sitting){leaveBench(k);skip=true}
+    else if(msg.open){if(k===P.dir){action();skip=true}}   /* arrow toward the thing being read = Z (skip typing / close) */
+    else if(!msg.open&&!P.moving&&!J){
+      /* pressing an arrow toward an adjacent bench acts like pressing Z on it; toward a barrel or firewood stack hops over it */
+      const tx=Math.round(P.x/T)+DIR[k][0],ty=Math.round(P.y/T)+DIR[k][1];
+      const t=map[ty]&&map[ty][tx];
+      if(t==='N'){if(!tuskAt(tx,ty))sit(tx,ty)}   /* Tusk on the bench: do nothing */
+      else if(t==='Q'||t==='Y')tryJump(k,tx,ty);
+      else if(TEXT[tx+','+ty]){   /* arrow toward anything readable (any tile with text) reads it, like Z */
+        P.dir=k;P.turn=0;openMsg(readText(tx+','+ty));skip=true;
+      }
+    }
+  }
+  keys[k]=v;const i=order.indexOf(k);if(v&&i<0&&!skip)order.push(k);if(!v&&i>=0)order.splice(i,1)}
+addEventListener('keydown',e=>{
+  if(KM[e.code]){press(KM[e.code],true);e.preventDefault()}
+  if((e.code==='KeyZ'||e.code==='Space'||e.code==='Enter')&&!e.repeat){action();e.preventDefault()}
+  if(e.code==='KeyJ'&&!e.repeat){jumpInPlace();e.preventDefault()}   /* J = hop in place */
+  if(e.code==='KeyT'&&!e.repeat){summonTusk();e.preventDefault()}   /* secret shortcut, not in the on-screen instructions */
+  /* secret testing toggle: Q three times in a row flips day <-> night; any other key breaks the streak */
+  if(e.code!=='KeyQ')qCount=0;
+  else if(!e.repeat){const now=performance.now();if(now-qLast>20000)qCount=0;qLast=now;if(++qCount>=3){night=!night;qCount=0;nextFlip=now+CYCLE_MS}   /* a manual flip restarts the 6 minute clock */e.preventDefault()}   /* 20 seconds since the last Q resets the count */
+});
+addEventListener('keyup',e=>{if(KM[e.code])press(KM[e.code],false)});
+document.querySelectorAll('.pad button').forEach(b=>{
+  const k=b.dataset.k;
+  b.addEventListener('pointerdown',e=>{e.preventDefault();press(k,true)});
+  ['pointerup','pointerleave','pointercancel'].forEach(t=>b.addEventListener(t,()=>press(k,false)));
+});
+document.getElementById('abtn').addEventListener('pointerdown',e=>{e.preventDefault();action()});
+
+/* ---------- Dialogue ---------- */
+const msg={text:'',shown:0,open:false};
+function readText(k){return (TEXT_ALT[night?'night':'day'][k])||TEXT[k]}
+/* long messages are split into pages of 3 lines; the action key moves to the next page */
+function openMsg(t){
+  const L=wrap(t,25),pages=[];
+  for(let i=0;i<L.length;i+=3)pages.push(L.slice(i,i+3).join('\n'));
+  msg.text=pages.shift();msg.rest=pages;msg.shown=0;msg.open=true;
+}
+/* wraps text to n characters per line; a \n in the text forces a line break */
+function wrap(t,n){const L=[];t.split('\n').forEach(seg=>{let l='';seg.split(' ').forEach(s=>{if((l+' '+s).trim().length>n){L.push(l);l=s}else l=(l+' '+s).trim()});L.push(l)});return L}
+function action(){
+  if(think){if(think.i<think.pages.length-1)think.i++;else think=null;return}   /* interact turns the page, then closes the bubble */
+  if(msg.open){if(msg.shown<msg.text.length)msg.shown=msg.text.length;else if(msg.rest&&msg.rest.length){msg.text=msg.rest.shift();msg.shown=0}else msg.open=false;return}
+  if(P.moving||J)return;
+  if(P.sitting){standUp();return}
+  const [dx,dy]=DIR[P.dir];
+  const tx=Math.round(P.x/T)+dx,ty=Math.round(P.y/T)+dy;
+  const k=tx+','+ty,tt=map[ty]&&map[ty][tx];
+  if(tuskAt(tx,ty)){   /* interact with Tusk: only once his own bubble has gone */
+    if(!tsay&&!tj){const s=tuskThought();if(s){const L=wrap(s,26),pages=[];for(let i=0;i<L.length;i+=2)pages.push(L.slice(i,i+2));think={pages:pages,i:0}}   /* 2 lines per page */}
+    return;
+  }
+  if(tt==='N'){if(!tuskAt(tx,ty))sit(tx,ty);return}
+  if(TEXT[k])openMsg(readText(k));
+}
+/* sitting on benches: Z/Space/Enter stands back up where you came from; an arrow key gets off on that side of the bench (does nothing if that side is blocked) */
+function leaveBench(k){
+  const tx=Math.round(P.x/T)+DIR[k][0],ty=Math.round(P.y/T)+DIR[k][1];
+  if(blocked(tx,ty))return;
+  P.x=tx*T;P.y=ty*T;P.dir=k;P.sitting=false;order.length=0;
+}
+function sit(tx,ty){P.sitFrom=[Math.round(P.x/T),Math.round(P.y/T)];P.x=tx*T;P.y=ty*T;P.dir='down';P.anim=0;P.sitting=true}
+function standUp(){const f=P.sitFrom||[Math.round(P.x/T),Math.round(P.y/T)+1];P.x=f[0]*T;P.y=f[1]*T;P.dir='down';P.sitting=false}
+/* ---------- Barrel hop: arrow toward an adjacent barrel jumps straight over it (no diagonals) ---------- */
+function puff(wx,wy){for(let i=0;i<6;i++)dust.push({x:wx+(Math.random()-.5)*8,y:wy-Math.random()*2,vx:(Math.random()-.5)*.8,vy:-.2-Math.random()*.4,life:14})}
+function tryJump(k,bx,by){
+  const lx=bx+DIR[k][0],ly=by+DIR[k][1];
+  if(blocked(lx,ly))return;             /* landing spot blocked: do nothing */
+  P.dir=k;P.turn=0;
+  J={t:0,dur:26,sx:P.x,sy:P.y,ex:lx*T,ey:ly*T,k:k};
+  puff(P.x+8,P.y+15);
+}
+function drawJump(cx,cy){
+  const k=J.t/J.dur,h=Math.sin(Math.PI*k),lift=h*(J.hop||18),s=k*k*(3-2*k);
+  const fx=Math.round(P.x-cx+8),fy=Math.round(P.y-cy+16);
+  const sw=Math.round(10-4*h);
+  ctx.fillStyle='rgba(0,0,0,'+(0.26-0.12*h).toFixed(2)+')';ctx.fillRect(fx-(sw>>1),fy-2,sw,2);   /* ground shadow shrinks as you rise */
+  const q=Math.min(4,Math.floor(s*4.2)),dx=DIR[J.k][0];
+  if(rh2Ready){   /* real hop poses: crouch, rising, falling, crouch on landing; one set per direction */
+    const d=J.k,row=d==='down'?0:d==='up'?1:2,col=k<.14?0:k<.5?1:k<.86?2:0;
+    cell32(RH2,col,row,fx-8,Math.round(fy-lift-32),d==='right');
+    return;
+  }
+  ctx.save();ctx.translate(fx,Math.round(fy-lift-(rhReady?16:8)));
+  if(J.hop){}else if(dx!==0)ctx.rotate(dx*q*Math.PI/2);          /* sideways hop: a full tumble in 90 degree steps */
+  else ctx.scale([1,.5,-1,-.5,1][q],1);            /* up/down hop: a pirouette */
+  drawPlayer(-8,rhReady?0:-8);
+  ctx.restore();
+}
+/* ---------- Startled hop: each step onto tall grass has a 30% chance to make the player hop in place and shout ---------- */
+const GRASS_SCARE=0.3,SHOUTS=['YAAAH!','EEK!','WHOA!','HIYAH!','YIKES!'];
+/* J key: a plain hop in place. Rhett leaves the ground and comes back down on the same cell, facing the same way. */
+function jumpInPlace(){
+  if(P.moving||J||P.sitting||msg.open)return;
+  think=null;
+  J={t:0,dur:48,sx:P.x,sy:P.y,ex:P.x,ey:P.y,k:P.dir,hop:20};   /* 48 frames = 0.8 seconds, 20 pixels high */
+  puff(P.x+8,P.y+15);
+}
+function startle(){
+  J={t:0,dur:18,sx:P.x,sy:P.y,ex:P.x,ey:P.y,k:P.dir,hop:14};
+  shout={text:SHOUTS[Math.floor(Math.random()*SHOUTS.length)],t:45};
+  puff(P.x+8,P.y+15);
+}
+function drawShout(cx,cy){
+  const w=shout.text.length*8+8,h=14;
+  const hx=Math.round(P.x-cx+8);
+  const lift=J&&J.hop?Math.sin(Math.PI*J.t/J.dur)*J.hop:0;
+  let bx=Math.round(hx-w/2),by=Math.round(P.y-cy-RH_TALL()-h-6-lift);
+  bx=Math.max(2,Math.min(VW-w-2,bx));by=Math.max(2,by);
+  ctx.fillStyle='#202020';ctx.fillRect(bx-1,by-1,w+2,h+2);
+  ctx.fillStyle='#f8f8f8';ctx.fillRect(bx,by,w,h);
+  ctx.fillRect(hx-1,by+h,3,1);                                   /* speech tail */
+  ctx.fillStyle='#202020';ctx.fillRect(hx-2,by+h+1,1,1);ctx.fillRect(hx+2,by+h+1,1,1);ctx.fillRect(hx-1,by+h+2,1,1);ctx.fillRect(hx+1,by+h+2,1,1);ctx.fillRect(hx,by+h+3,1,1);
+  ctx.fillStyle='#f8f8f8';ctx.fillRect(hx-1,by+h+1,3,1);ctx.fillRect(hx,by+h+2,1,1);
+  ctx.font='8px "Press Start 2P",monospace';ctx.textBaseline='top';ctx.fillStyle='#d83830';
+  ctx.fillText(shout.text,bx+4,by+3);
+}
+function drawBox(){
+  const bx=4,by=VH-44,bw=VW-8,bh=40;
+  ctx.fillStyle='#202020';ctx.fillRect(bx-1,by-1,bw+2,bh+2);
+  ctx.fillStyle='#f8f8f8';ctx.fillRect(bx,by,bw,bh);
+  ctx.fillStyle='#585878';ctx.fillRect(bx+2,by+2,bw-4,1);ctx.fillRect(bx+2,by+bh-3,bw-4,1);
+  ctx.fillRect(bx+2,by+2,1,bh-4);ctx.fillRect(bx+bw-3,by+2,1,bh-4);
+  ctx.font='8px "Press Start 2P",monospace';ctx.textBaseline='top';ctx.fillStyle='#202020';
+  const lines=wrap(msg.text.slice(0,msg.shown),25);
+  lines.slice(-3).forEach((l,i)=>ctx.fillText(l,bx+8,by+8+i*10));
+  if(msg.shown>=msg.text.length&&(frame>>4)%2===0){ctx.fillStyle='#d83830';ctx.fillRect(bx+bw-14,by+bh-12,6,4)}
+}
+
+/* ---------- Update / Draw ---------- */
+let frame=0,rustle=0;
+const SPEED=2;
+function baseBlocked(tx,ty){return tx<0||ty<0||tx>=W||ty>=H||SOLID.has(map[ty][tx])}
+function blocked(tx,ty){return baseBlocked(tx,ty)||tuskAt(tx,ty)}   /* Tusk is an obstacle too */
+function update(){
+  frame++;
+  const clock=performance.now();while(clock>=nextFlip){night=!night;nextFlip+=CYCLE_MS}   /* catches up if the tab was asleep */
+  if(night!==lastNight){lastNight=night;spawnTusk()}   /* Tusk respawns every time day and night flip (clock or secret Q toggle) */
+  for(let i=dust.length-1;i>=0;i--){const d=dust[i];d.x+=d.vx;d.y+=d.vy;if(--d.life<=0)dust.splice(i,1)}
+  if(shout&&--shout.t<=0)shout=null;
+  if(tj&&++tj.t>=tj.dur)tj=null;
+  if(tsay&&--tsay.t<=0)tsay=null;
+  if(tusk&&!P.moving&&!J){const near=tuskBeside();if(near&&!tuskNear)tuskReact();tuskNear=near}   /* reacts when the player settles on a cell beside him after being elsewhere */
+  if(J){
+    J.t++;const k=J.t/J.dur;
+    P.x=Math.round(J.sx+(J.ex-J.sx)*k);P.y=Math.round(J.sy+(J.ey-J.sy)*k);P.anim=0;
+    if(J.t>=J.dur){P.x=J.ex;P.y=J.ey;puff(P.x+8,P.y+15);J=null}
+    return;
+  }
+  if(msg.open){if(msg.shown<msg.text.length&&frame%2===0)msg.shown++;return}
+  if(P.sitting)return;
+  if(P.moving){
+    P.x+=DIR[P.dir][0]*SPEED;P.y+=DIR[P.dir][1]*SPEED;P.anim++;
+    if(P.x===P.tx*T&&P.y===P.ty*T){
+      P.moving=false;
+      if(map[P.ty][P.tx]==='g'){
+        rustle=10;
+        if(Math.random()<GRASS_SCARE){startle();return}   /* 30% chance: hop and shout */
+      }
+    }
+    if(P.moving)return;
+  }
+  const want=order.length?order[order.length-1]:null;
+  if(!want){P.anim=0;return}
+  if(P.dir!==want){P.dir=want;P.turn=6;return}
+  if(P.turn>0){P.turn--;return}
+  const tx=Math.round(P.x/T)+DIR[want][0],ty=Math.round(P.y/T)+DIR[want][1];
+  if(!blocked(tx,ty)){P.moving=true;P.tx=tx;P.ty=ty}
+}
+function poolTile(x,y){
+  const o=(a,b)=>map[b]&&map[b][a]==='O';
+  const k=(a,b)=>map[b]&&map[b][a]==='K';  /* cliffs act as the pool wall: no shoreline against them */
+  const n=!o(x,y-1)&&!k(x,y-1),s=!o(x,y+1)&&!k(x,y+1),w=!o(x-1,y)&&!k(x-1,y),e=!o(x+1,y)&&!k(x+1,y);
+  if(n&&w)return tiles.Otl;if(n&&e)return tiles.Otr;if(s&&w)return tiles.Obl;if(s&&e)return tiles.Obr;
+  if(n)return tiles.On;if(s)return tiles.Os;if(w)return tiles.Ow;if(e)return tiles.Oe;
+  return tiles['Wa'+(Math.floor(frame/24)%4)];
+}
+function tileAt(x,y){
+  const c=map[y][x];
+  if(c==='T')return (y===0||y===H-1||(y+1<H-1&&map[y+1][x]==='T'))?tiles.T:tiles.TT;
+  if(c==='K')return y===2?tiles.KF:tiles.K;
+  if(c==='O')return poolTile(x,y);
+  if((c==='H'||c==='D'||c==='J')&&x>=12)return tiles[c+'s'];
+  return tiles[c];
+}
+/* ---------- Night: blue tint with stepped light pools (lamps, windows, a small glow around the player) ---------- */
+function pool(c,x,y,r,steps,a){c.globalAlpha=a;for(let i=steps;i>=1;i--){c.beginPath();c.arc(x,y,r*i/steps,0,6.2832);c.fill()}c.globalAlpha=1}
+/* darkness level 0 (full day) to 1 (full night). Dusk and dawn: it ramps over the last 45 seconds before each switch, so the switch itself is seamless. */
+const DUSK_MS=45*1000;
+function nightLevel(){const ramp=Math.min(1,Math.max(0,1-(nextFlip-performance.now())/DUSK_MS));return night?1-ramp:ramp}
+function drawNight(cx,cy,lv){
+  const x0=Math.floor(cx/T)-3,x1=Math.floor((cx+VW)/T)+3,y0=Math.floor(cy/T)-3,y1=Math.floor((cy+VH)/T)+3;
+  const flick=Math.sin(frame/9)*1.2+Math.sin(frame/23)*0.8;
+  const lamps=[],wins=[];
+  for(let y=y0;y<=y1;y++)for(let x=x0;x<=x1;x++){
+    const c=map[y]&&map[y][x];
+    if(c==='L')lamps.push([x*T-cx+8,y*T-cy+5]);
+    else if(c==='J')wins.push([x*T-cx+8,y*T-cy+8]);
+  }
+  dctx.globalCompositeOperation='source-over';dctx.globalAlpha=1;dctx.clearRect(0,0,VW,VH);
+  dctx.fillStyle='rgba(12,16,58,'+(0.68*lv).toFixed(3)+')';dctx.fillRect(0,0,VW,VH);
+  dctx.globalCompositeOperation='destination-out';dctx.fillStyle='#000';
+  lamps.forEach(l=>pool(dctx,l[0],l[1],34+flick,4,.3));
+  wins.forEach(w=>pool(dctx,w[0],w[1],16,3,.3));
+  pool(dctx,P.x-cx+8,P.y-cy+8,20,3,.2);
+  dctx.globalCompositeOperation='source-over';
+  ctx.drawImage(dark,0,0);
+  ctx.globalCompositeOperation='lighter';
+  ctx.fillStyle='rgb(255,176,80)';lamps.forEach(l=>pool(ctx,l[0],l[1],30+flick,4,.05*lv));
+  ctx.fillStyle='rgb(255,214,110)';wins.forEach(w=>pool(ctx,w[0],w[1],13,3,.07*lv));
+  ctx.globalCompositeOperation='source-over';ctx.globalAlpha=1;
+}
+function draw(){
+  let cx=Math.round(P.x+T/2-VW/2),cy=Math.round(P.y+T/2-VH/2);
+  cx=Math.max(0,Math.min(W*T-VW,cx));cy=Math.max(0,Math.min(H*T-VH,cy));
+  ctx.fillStyle='#000';ctx.fillRect(0,0,VW,VH);
+  const x0=Math.floor(cx/T),y0=Math.floor(cy/T);
+  for(let y=y0;y<=y0+VH/T+1;y++)for(let x=x0;x<=x0+VW/T+1;x++){
+    if(x<0||y<0||x>=W||y>=H)continue;
+    ctx.drawImage(tileAt(x,y),x*T-cx,y*T-cy);
+  }
+  drawTusk(cx,cy);
+  if(tusk&&tusk.mode==='stand'&&map[tusk.y][tusk.x]==='g'){   /* tall grass over Tusk's feet; only the bottom 4 pixels because his sprite is half as tall as Rhett's */
+    ctx.drawImage(tiles.g,0,12,16,4,tusk.x*T-cx,tusk.y*T-cy+12,16,4);
+  }
+  dust.forEach(d=>{ctx.fillStyle='rgba(248,248,248,'+(d.life/14*.7).toFixed(2)+')';ctx.fillRect(Math.round(d.x-cx),Math.round(d.y-cy),2,2)});
+  if(J)drawJump(cx,cy);else drawPlayer(P.x-cx,P.y-cy);
+  if(P.sitting)ctx.drawImage(tiles.N,0,10,16,6,P.x-cx,P.y-cy+10,16,6);
+  // tall grass overlay drawn over the player's feet
+  const gx=Math.round(P.x/T),gy=Math.round(P.y/T);
+  if(map[gy]&&map[gy][gx]==='g'&&!P.moving||rustle>0){
+    const ox=gx*T-cx,oy=gy*T-cy;
+    ctx.drawImage(tiles.g,0,8,16,8,ox,oy+8,16,8);
+    if(rustle>0)rustle--;
+  }
+  for(let y=y0;y<=y0+VH/T+1;y++)for(let x=x0;x<=x0+VW/T+1;x++){
+    if(!map[y]||map[y][x]!=='O')continue;
+    for(let i=0;i<2;i++){const t=((frame*0.4+x*13+y*7+i*20)%40)/40;
+      ctx.fillStyle='rgba(255,255,255,'+((1-t)*0.45).toFixed(2)+')';
+      ctx.fillRect(x*T-cx+3+i*7+Math.round(Math.sin(t*6+i)*2),y*T-cy+8-Math.round(t*14),5,3)}
+  }
+  const lv=nightLevel();if(lv>0.01)drawNight(cx,cy,lv);
+  if(frame<200){ctx.globalAlpha=frame>170?(200-frame)/30:1;
+    ctx.fillStyle='#202020';ctx.fillRect(3,3,122,16);ctx.fillStyle='#f8f8f8';ctx.fillRect(4,4,120,14);
+    ctx.font='8px "Press Start 2P",monospace';ctx.textBaseline='top';ctx.fillStyle='#202020';ctx.fillText('Ernest Pointe',9,8);ctx.globalAlpha=1}
+  if(shout)drawShout(cx,cy);
+  drawTuskBubble(cx,cy);
+  drawThink(cx,cy);
+  if(msg.open)drawBox();
+}
+
+/* ---------- Loop (fixed 60 updates/sec) ---------- */
+let last=performance.now(),acc=0;
+function loop(t){
+  acc+=Math.min(100,t-last);last=t;
+  while(acc>=1000/60){update();acc-=1000/60}
+  draw();requestAnimationFrame(loop);
+}
+function fit(){
+  const padH=(matchMedia('(hover:hover) and (pointer:fine)').matches?90:290)+22;   /* hint, gaps and borders, plus the banner's own border and gap */
+  const bn=document.getElementById('banner');
+  /* the banner sits above the game screen. The screen scale is a whole number, picked first (leaving at least 20% of the window height for the banner); then the banner grows up to the screen's width if there is room. */
+  const need=s=>Math.min((VW*s)/3,innerHeight*.2);
+  let s=1;
+  for(let t=12;t>=1;t--){if(VW*t<=innerWidth-24&&VH*t+need(t)+padH<=innerHeight){s=t;break}}
+  cv.style.width=VW*s+'px';cv.style.height=VH*s+'px';
+  const bh=Math.max(need(s),Math.min((VW*s)/3,innerHeight-padH-VH*s));
+  bn.style.height=Math.round(bh)+'px';bn.style.width=Math.round(bh*3)+'px';   /* the banner is exactly 3 times as wide as it is tall, so the space is reserved even before the picture loads */
+}
+addEventListener('resize',fit);fit();
+spawnTusk();   /* Tusk spawns when the map loads */
+requestAnimationFrame(loop);
+})();
+</script>
+</body>
+</html>
